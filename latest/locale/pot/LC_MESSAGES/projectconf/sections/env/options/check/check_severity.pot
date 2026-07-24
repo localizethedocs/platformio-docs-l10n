@@ -1,0 +1,41 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present, PlatformIO
+# This file is distributed under the same license as the PlatformIO package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PlatformIO latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-24 14:02+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../projectconf/sections/env/options/check/check_severity.rst:15
+msgid "``check_severity``"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/check/check_severity.rst:17
+msgid "Type: ``String`` | Multiple: ``Yes`` | Default: ``low, medium, high``"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/check/check_severity.rst:19
+msgid ""
+"This option allows specifying the :ref:`check_severity` types which will be "
+"reported by the :ref:`check_tools`."
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/check/check_severity.rst:22
+msgid ""
+"Another option for filtering source files is :option:`pio check --severity` "
+"command."
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/check/check_severity.rst:24
+msgid "**Example**"
+msgstr ""

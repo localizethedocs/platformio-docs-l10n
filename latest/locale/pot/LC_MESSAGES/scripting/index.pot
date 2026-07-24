@@ -1,0 +1,49 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present, PlatformIO
+# This file is distributed under the same license as the PlatformIO package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PlatformIO latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-24 14:02+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../scripting/index.rst:33
+msgid "Examples"
+msgstr ""
+
+#: ../../../scripting/index.rst:15
+msgid "Advanced Scripting"
+msgstr ""
+
+#: ../../../scripting/index.rst:18
+msgid ""
+"Advanced Scripting is recommended for Advanced Users and requires knowledge "
+"of the Python language."
+msgstr ""
+
+#: ../../../scripting/index.rst:21
+msgid ""
+"The PlatformIO Build System allows the user to extend the build process with "
+"custom scripts using the Python interpreter and the `SCons <http://www.scons."
+"org>`_ construction tool. Build flags, upload flags, targets, toolchains "
+"data and other information are available for modification as `SCons "
+"Construction Environments <http://www.scons.org/doc/production/HTML/scons-"
+"user.html#chap-environments>`_. Custom scripts are included with :ref:"
+"`projectconf_extra_scripts`."
+msgstr ""
+
+#: ../../../scripting/index.rst:29
+msgid ""
+"Please note that you can not run or debug these scripts independently with "
+"Python interpreter. They will be loaded automatically when the :ref:"
+"`cmd_run` command processes the project environment."
+msgstr ""

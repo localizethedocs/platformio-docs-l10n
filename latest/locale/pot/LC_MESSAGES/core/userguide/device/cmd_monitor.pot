@@ -1,0 +1,440 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present, PlatformIO
+# This file is distributed under the same license as the PlatformIO package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PlatformIO latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-24 14:02+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../core/userguide/device/cmd_monitor.rst:15
+msgid "pio device monitor"
+msgstr ""
+
+#: ../../../core/userguide/device/cmd_monitor.rst:17
+msgid "Contents"
+msgstr ""
+
+#: ../../../core/userguide/device/cmd_monitor.rst:20
+msgid "Usage"
+msgstr ""
+
+#: ../../../core/userguide/device/cmd_monitor.rst:27
+#: ../../../core/userguide/device/cmd_monitor.rst:196
+#: ../../../core/userguide/device/cmd_monitor.rst:230
+msgid "Description"
+msgstr ""
+
+#: ../../../core/userguide/device/cmd_monitor.rst:29
+msgid ""
+"This is a console application that provides a small terminal application. It "
+"is based on `Miniterm <https://pythonhosted.org/pyserial/examples."
+"html#miniterm>`_ and itself does not implement any terminal features such as "
+"*VT102* compatibility. However it inherits these features from the terminal "
+"it is run. For example on GNU/Linux running from an *xterm* it will support "
+"the escape sequences of the *xterm*. On *Windows* the typical console window "
+"is dumb and does not support any escapes. When *ANSI.sys* is loaded it "
+"supports some escapes."
+msgstr ""
+
+#: ../../../core/userguide/device/cmd_monitor.rst:38
+msgid ""
+"Miniterm supports `RFC 2217 <https://tools.ietf.org/html/rfc2217.html>`__ "
+"remote serial ports and raw sockets using `URL Handlers <https://pyserial."
+"readthedocs.io/en/latest/url_handlers.html#urls>`__ such as ``rfc2217://"
+"<host>:<port>`` respectively ``socket://<host>:<port>`` as port argument "
+"when invoking."
+msgstr ""
+
+#: ../../../core/userguide/device/cmd_monitor.rst:43
+msgid "To control *monitor* please use these \"hot keys\":"
+msgstr ""
+
+#: ../../../core/userguide/device/cmd_monitor.rst:45
+msgid "``Ctrl+C`` Quit"
+msgstr ""
+
+#: ../../../core/userguide/device/cmd_monitor.rst:46
+msgid "``Ctrl+T`` Menu"
+msgstr ""
+
+#: ../../../core/userguide/device/cmd_monitor.rst:47
+msgid "``Ctrl+T followed by Ctrl+H`` Help"
+msgstr ""
+
+#: ../../../core/userguide/device/cmd_monitor.rst:50
+msgid "Options"
+msgstr ""
+
+#: ../../../core/userguide/device/cmd_monitor.rst:57
+msgid ""
+"The possible values are the same as documented for :ref:"
+"`projectconf_monitor_port` option."
+msgstr ""
+
+#: ../../../core/userguide/device/cmd_monitor.rst:63
+msgid "Set baud rate, default ``9600``."
+msgstr ""
+
+#: ../../../core/userguide/device/cmd_monitor.rst:65
+msgid ""
+"Can be customized in :ref:`projectconf` using :ref:"
+"`projectconf_monitor_speed` option."
+msgstr ""
+
+#: ../../../core/userguide/device/cmd_monitor.rst:71
+msgid ""
+"Set parity (*None, Even, Odd, Space, Mark*), one of [``N``, ``E``, ``O``, "
+"``S``, ``M``], default is ``N``."
+msgstr ""
+
+#: ../../../core/userguide/device/cmd_monitor.rst:74
+msgid ""
+"Can be customized in :ref:`projectconf` using :ref:"
+"`projectconf_monitor_parity` option."
+msgstr ""
+
+#: ../../../core/userguide/device/cmd_monitor.rst:80
+msgid "Enable ``RTS/CTS`` flow control."
+msgstr ""
+
+#: ../../../core/userguide/device/cmd_monitor.rst:85
+msgid "Enable software flow control."
+msgstr ""
+
+#: ../../../core/userguide/device/cmd_monitor.rst:90
+msgid "Set initial ``RTS`` line state (``0`` or ``1``)."
+msgstr ""
+
+#: ../../../core/userguide/device/cmd_monitor.rst:92
+msgid ""
+"Can be customized in :ref:`projectconf` using :ref:`projectconf_monitor_rts` "
+"option."
+msgstr ""
+
+#: ../../../core/userguide/device/cmd_monitor.rst:98
+msgid "Set initial ``DTR`` line state (``0`` or ``1``)."
+msgstr ""
+
+#: ../../../core/userguide/device/cmd_monitor.rst:100
+msgid ""
+"Can be customized in :ref:`projectconf` using :ref:`projectconf_monitor_dtr` "
+"option."
+msgstr ""
+
+#: ../../../core/userguide/device/cmd_monitor.rst:106
+msgid "Enable local echo."
+msgstr ""
+
+#: ../../../core/userguide/device/cmd_monitor.rst:108
+msgid ""
+"Can be customized in :ref:`projectconf` using :ref:"
+"`projectconf_monitor_echo` option."
+msgstr ""
+
+#: ../../../core/userguide/device/cmd_monitor.rst:114
+msgid ""
+"Set the encoding for the serial port (e.g. ``hexlify``, ``Latin-1``, "
+"``UTF-8``), default ``UTF-8``. See the full list of `supported encodings "
+"<https://docs.python.org/3/library/codecs.html#standard-encodings>`_."
+msgstr ""
+
+#: ../../../core/userguide/device/cmd_monitor.rst:117
+msgid ""
+"Can be customized in :ref:`projectconf` using :ref:"
+"`projectconf_monitor_encoding` option."
+msgstr ""
+
+#: ../../../core/userguide/device/cmd_monitor.rst:123
+msgid ""
+"Add text transformation. See available filters at :ref:"
+"`cmd_device_monitor_filters`."
+msgstr ""
+
+#: ../../../core/userguide/device/cmd_monitor.rst:128
+msgid "End of line mode (``CR``, ``LF`` or ``CRLF``), default ``CRLF``."
+msgstr ""
+
+#: ../../../core/userguide/device/cmd_monitor.rst:130
+msgid ""
+"Can be customized in :ref:`projectconf` using :ref:`projectconf_monitor_eol` "
+"option."
+msgstr ""
+
+#: ../../../core/userguide/device/cmd_monitor.rst:136
+msgid "Do not apply any encodings/transformations."
+msgstr ""
+
+#: ../../../core/userguide/device/cmd_monitor.rst:138
+msgid ""
+"Can be customized in :ref:`projectconf` using :ref:`projectconf_monitor_raw` "
+"option."
+msgstr ""
+
+#: ../../../core/userguide/device/cmd_monitor.rst:144
+msgid ""
+"ASCII code of special character that is used to exit the application, "
+"default ``3`` (DEC, ``Ctrl+C``)."
+msgstr ""
+
+#: ../../../core/userguide/device/cmd_monitor.rst:147
+msgid ""
+"For example, to use ``Ctrl+]`` run ``pio device monitor --exit-char 29``."
+msgstr ""
+
+#: ../../../core/userguide/device/cmd_monitor.rst:153
+msgid ""
+"ASCII code of special character that is used to control miniterm (menu), "
+"default ``20`` (DEC)"
+msgstr ""
+
+#: ../../../core/userguide/device/cmd_monitor.rst:159
+msgid "Diagnostics: suppress non-error messages, default ``Off``."
+msgstr ""
+
+#: ../../../core/userguide/device/cmd_monitor.rst:164
+msgid "Disable automatic reconnection if the established connection fails."
+msgstr ""
+
+#: ../../../core/userguide/device/cmd_monitor.rst:169
+msgid ""
+"Specify the path to project directory. By default, ``--project-dir`` is "
+"equal to current working directory (``CWD``)."
+msgstr ""
+
+#: ../../../core/userguide/device/cmd_monitor.rst:175
+msgid "Process specified environments."
+msgstr ""
+
+#: ../../../core/userguide/device/cmd_monitor.rst:177
+msgid ""
+"You can also specify which environments should be processed by default "
+"using :ref:`projectconf_pio_default_envs` option from :ref:`projectconf`."
+msgstr ""
+
+#: ../../../core/userguide/device/cmd_monitor.rst:183
+msgid "Filters"
+msgstr ""
+
+#: ../../../core/userguide/device/cmd_monitor.rst:185
+msgid ""
+"PlatformIO allows you to apply multiple filters to the device monitor INPUT "
+"& OUTPUT streams using the :option:`pio device monitor --filter` command or :"
+"ref:`projectconf_monitor_filters` option."
+msgstr ""
+
+#: ../../../core/userguide/device/cmd_monitor.rst:190
+msgid "Built-in Filters"
+msgstr ""
+
+#: ../../../core/userguide/device/cmd_monitor.rst:195
+#: ../../../core/userguide/device/cmd_monitor.rst:229
+msgid "Name"
+msgstr ""
+
+#: ../../../core/userguide/device/cmd_monitor.rst:197
+msgid "``direct``"
+msgstr ""
+
+#: ../../../core/userguide/device/cmd_monitor.rst:198
+msgid ""
+"Do-nothing: forward all data unchanged. Useful if data already contains ANSI "
+"escape codes (colors)"
+msgstr ""
+
+#: ../../../core/userguide/device/cmd_monitor.rst:199
+msgid "``default``"
+msgstr ""
+
+#: ../../../core/userguide/device/cmd_monitor.rst:200
+msgid "Remove typical terminal control codes from input"
+msgstr ""
+
+#: ../../../core/userguide/device/cmd_monitor.rst:201
+msgid "``debug``"
+msgstr ""
+
+#: ../../../core/userguide/device/cmd_monitor.rst:202
+msgid "Print what is sent and received"
+msgstr ""
+
+#: ../../../core/userguide/device/cmd_monitor.rst:203
+msgid "``hexlify``"
+msgstr ""
+
+#: ../../../core/userguide/device/cmd_monitor.rst:204
+msgid ""
+"Show a hexadecimal representation of the data (code point of each character)"
+msgstr ""
+
+#: ../../../core/userguide/device/cmd_monitor.rst:205
+msgid "``log2file``"
+msgstr ""
+
+#: ../../../core/userguide/device/cmd_monitor.rst:206
+msgid ""
+"Log data to a file \"platformio-device-monitor-%date%.log\" located in the "
+"current working directory"
+msgstr ""
+
+#: ../../../core/userguide/device/cmd_monitor.rst:207
+msgid "``nocontrol``"
+msgstr ""
+
+#: ../../../core/userguide/device/cmd_monitor.rst:208
+msgid "Remove all control codes, incl. CR+LF"
+msgstr ""
+
+#: ../../../core/userguide/device/cmd_monitor.rst:209
+msgid "``printable``"
+msgstr ""
+
+#: ../../../core/userguide/device/cmd_monitor.rst:210
+msgid ""
+"Show decimal code for all non-ASCII characters and replace most control codes"
+msgstr ""
+
+#: ../../../core/userguide/device/cmd_monitor.rst:211
+msgid "``time``"
+msgstr ""
+
+#: ../../../core/userguide/device/cmd_monitor.rst:212
+msgid "Add timestamp with milliseconds for each new line"
+msgstr ""
+
+#: ../../../core/userguide/device/cmd_monitor.rst:213
+msgid "``send_on_enter``"
+msgstr ""
+
+#: ../../../core/userguide/device/cmd_monitor.rst:214
+msgid "Send a text to device on ENTER"
+msgstr ""
+
+#: ../../../core/userguide/device/cmd_monitor.rst:215
+msgid "``esp32_exception_decoder``"
+msgstr ""
+
+#: ../../../core/userguide/device/cmd_monitor.rst:216
+msgid ""
+"Custom filter for :ref:`platform_espressif32` which decodes crash exception"
+msgstr ""
+
+#: ../../../core/userguide/device/cmd_monitor.rst:217
+msgid "``esp8266_exception_decoder``"
+msgstr ""
+
+#: ../../../core/userguide/device/cmd_monitor.rst:218
+msgid ""
+"Custom filter for :ref:`platform_espressif8266` which decodes crash exception"
+msgstr ""
+
+#: ../../../core/userguide/device/cmd_monitor.rst:221
+msgid "Community Filters"
+msgstr ""
+
+#: ../../../core/userguide/device/cmd_monitor.rst:223
+msgid ""
+"The Community Filters are not a part of PlatformIO Core installation. You "
+"need to install them manually. Please visit an official filter's "
+"documentation on how to use it."
+msgstr ""
+
+#: ../../../core/userguide/device/cmd_monitor.rst:231
+msgid "`arduplot <https://github.com/yhur/arduplot>`__"
+msgstr ""
+
+#: ../../../core/userguide/device/cmd_monitor.rst:232
+msgid "**Serial Plotter** compatible with Arduino syntax (output)"
+msgstr ""
+
+#: ../../../core/userguide/device/cmd_monitor.rst:237
+msgid "Custom Filters"
+msgstr ""
+
+#: ../../../core/userguide/device/cmd_monitor.rst:239
+msgid ""
+":ref:`piocore` provides an API to extend device monitor with custom filters. "
+"Each filter is a Python-based file and its name should have the ``filter_`` "
+"prefix. In a Python code, you need to extend ``DeviceMonitorFilterBase`` "
+"class to get access to the ``rx()`` and ``tx()`` methods/callbacks."
+msgstr ""
+
+#: ../../../core/userguide/device/cmd_monitor.rst:244
+msgid ":ref:`piocore` looks for the custom filters in the next locations:"
+msgstr ""
+
+#: ../../../core/userguide/device/cmd_monitor.rst:246
+msgid "Project :ref:`projectconf_pio_monitor_dir`"
+msgstr ""
+
+#: ../../../core/userguide/device/cmd_monitor.rst:247
+msgid ":ref:`projectconf_pio_platforms_dir`/<platform>/monitor"
+msgstr ""
+
+#: ../../../core/userguide/device/cmd_monitor.rst:248
+msgid ":ref:`projectconf_pio_packages_dir`/<package>/monitor"
+msgstr ""
+
+#: ../../../core/userguide/device/cmd_monitor.rst:250
+msgid "See the base API below:"
+msgstr ""
+
+#: ../../../core/userguide/device/cmd_monitor.rst:252
+msgid "**filter_demo.py**"
+msgstr ""
+
+#: ../../../core/userguide/device/cmd_monitor.rst:273
+msgid "**Examples**"
+msgstr ""
+
+#: ../../../core/userguide/device/cmd_monitor.rst:275
+msgid ""
+"https://github.com/platformio/platformio-core/tree/develop/platformio/device/"
+"monitor/filters"
+msgstr ""
+
+#: ../../../core/userguide/device/cmd_monitor.rst:276
+msgid "https://github.com/platformio/platform-espressif32/tree/develop/monitor"
+msgstr ""
+
+#: ../../../core/userguide/device/cmd_monitor.rst:277
+msgid ""
+"https://github.com/platformio/platform-espressif8266/tree/develop/monitor"
+msgstr ""
+
+#: ../../../core/userguide/device/cmd_monitor.rst:280
+msgid "Capture output to a file"
+msgstr ""
+
+#: ../../../core/userguide/device/cmd_monitor.rst:282
+msgid ""
+"To capture the output of the device monitor in a file, you can use the "
+"``log2file`` filter from :ref:`cmd_device_monitor_filters`. By default, the "
+"log file will be saved in the ``logs`` folder located in the project root "
+"directory."
+msgstr ""
+
+#: ../../../core/userguide/device/cmd_monitor.rst:291
+msgid "Or using :ref:`projectconf` and :ref:`projectconf_monitor_filters`"
+msgstr ""
+
+#: ../../../core/userguide/device/cmd_monitor.rst:301
+msgid "Examples"
+msgstr ""
+
+#: ../../../core/userguide/device/cmd_monitor.rst:303
+msgid "Show available options for *monitor*"
+msgstr ""
+
+#: ../../../core/userguide/device/cmd_monitor.rst:331
+msgid "Communicate with serial device and print help inside terminal"
+msgstr ""

@@ -1,0 +1,41 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present, PlatformIO
+# This file is distributed under the same license as the PlatformIO package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PlatformIO latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-24 14:02+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../core/installation/proxy-configuration.rst:15
+msgid "Proxy Configuration"
+msgstr ""
+
+#: ../../../core/installation/proxy-configuration.rst:17
+msgid ""
+"PlatformIO Core uses Python's underlying ``requests`` library for HTTP "
+"requests. You will need to define a standard environment variable "
+"(``HTTP_PROXY``, ``HTTPS_PROXY``, or ``ALL_PROXY``) depending on your proxy "
+"server, and disable the proxy server certificate verification setting :ref:"
+"`setting_enable_proxy_strict_ssl` to ``false``."
+msgstr ""
+
+#: ../../../core/installation/proxy-configuration.rst:23
+msgid ""
+"See other proxy and SSL configuration environment variables in the official "
+"`Requests Proxies <https://requests.readthedocs.io/en/latest/user/advanced/"
+"#proxies>`__ documentation."
+msgstr ""
+
+#: ../../../core/installation/proxy-configuration.rst:27
+msgid "**Examples**"
+msgstr ""

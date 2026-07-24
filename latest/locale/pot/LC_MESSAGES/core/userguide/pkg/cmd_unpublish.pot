@@ -1,0 +1,82 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present, PlatformIO
+# This file is distributed under the same license as the PlatformIO package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PlatformIO latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-24 14:02+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../core/userguide/pkg/cmd_unpublish.rst:15
+msgid "pio pkg unpublish"
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_unpublish.rst:17
+msgid "Contents"
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_unpublish.rst:20
+msgid "Usage"
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_unpublish.rst:27
+msgid "Description"
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_unpublish.rst:29
+msgid ""
+"This removes a package version from the registry, deleting its entry and "
+"removing the tarball."
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_unpublish.rst:32
+msgid ""
+"If no version is specified, or if all versions are removed then the root "
+"package entry is removed from the registry entirely."
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_unpublish.rst:35
+msgid ""
+"You can only remove a package version within 72 hours from the published "
+"date."
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_unpublish.rst:38
+msgid "Options"
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_unpublish.rst:45
+msgid ""
+"Set the type of a package to unpublish (if you have packages with the same "
+"name). The default is set to the ``library``. See supported :ref:"
+"`cmd_pkg_install_types`."
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_unpublish.rst:51
+msgid "Undo a remove, putting a version back into the registry."
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_unpublish.rst:54
+msgid "See Also"
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_unpublish.rst:56
+msgid ":ref:`library_json`"
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_unpublish.rst:57
+msgid ":ref:`cmd_pkg_pack`"
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_unpublish.rst:58
+msgid ":ref:`cmd_pkg_publish`"
+msgstr ""

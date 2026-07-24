@@ -1,0 +1,80 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present, PlatformIO
+# This file is distributed under the same license as the PlatformIO package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PlatformIO latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-24 14:02+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../manifests/library-json/fields/scripts.rst:13
+msgid "``scripts``"
+msgstr ""
+
+#: ../../../manifests/library-json/fields/scripts.rst:15
+msgid "*Optional* | Type: ``Object``"
+msgstr ""
+
+#: ../../../manifests/library-json/fields/scripts.rst:17
+msgid ""
+"Execute custom scripts during the special :ref:`cmd_pkg` life cycle events:"
+msgstr ""
+
+#: ../../../manifests/library-json/fields/scripts.rst:22
+msgid "Event"
+msgstr ""
+
+#: ../../../manifests/library-json/fields/scripts.rst:23
+msgid "Description"
+msgstr ""
+
+#: ../../../manifests/library-json/fields/scripts.rst:24
+msgid "``postinstall``"
+msgstr ""
+
+#: ../../../manifests/library-json/fields/scripts.rst:25
+msgid "runs a script AFTER the package has been installed"
+msgstr ""
+
+#: ../../../manifests/library-json/fields/scripts.rst:26
+msgid "``preuninstall``"
+msgstr ""
+
+#: ../../../manifests/library-json/fields/scripts.rst:27
+msgid "runs a script BEFORE the package is removed."
+msgstr ""
+
+#: ../../../manifests/library-json/fields/scripts.rst:30
+msgid ""
+"Both ``postinstall`` and ``preuninstall`` values must be specified as a "
+"*list* (array). Even if you need to run a single command, provide it as a "
+"one-item list. Each list contains the command (executable) as the first "
+"element and optional arguments as subsequent elements."
+msgstr ""
+
+#: ../../../manifests/library-json/fields/scripts.rst:35
+msgid "**Examples**"
+msgstr ""
+
+#: ../../../manifests/library-json/fields/scripts.rst:37
+msgid ""
+"Run a custom Python script located in the package \"scripts\" folder AFTER "
+"the package is installed. Please note that you don't need to specify a "
+"Python interpreter for Python scripts."
+msgstr ""
+
+#: ../../../manifests/library-json/fields/scripts.rst:46
+msgid ""
+"Run a custom Bash script BEFORE the package is uninstalled. The script is "
+"declared as a list of command arguments and is located at the root of a "
+"package:"
+msgstr ""

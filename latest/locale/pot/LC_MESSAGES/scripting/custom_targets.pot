@@ -1,0 +1,181 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present, PlatformIO
+# This file is distributed under the same license as the PlatformIO package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PlatformIO latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-24 14:02+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../scripting/custom_targets.rst:15
+msgid "Custom Targets"
+msgstr ""
+
+#: ../../../scripting/custom_targets.rst:17
+msgid ""
+"PlatformIO allows you to declare unlimited number of the custom targets. "
+"There are a lot of use cases for them:"
+msgstr ""
+
+#: ../../../scripting/custom_targets.rst:20
+msgid ""
+"Pre/Post processing based on a dependent sources (other target, source file, "
+"etc.)"
+msgstr ""
+
+#: ../../../scripting/custom_targets.rst:21
+msgid "Command launcher with own arguments"
+msgstr ""
+
+#: ../../../scripting/custom_targets.rst:22
+msgid "Launch command with custom options declared in :ref:`projectconf`"
+msgstr ""
+
+#: ../../../scripting/custom_targets.rst:23
+msgid ""
+"Python callback as a target (use the power of Python interpreter and "
+"PlatformIO Build API)."
+msgstr ""
+
+#: ../../../scripting/custom_targets.rst:25
+msgid ""
+"A custom target can be processed using :option:`pio run --target` option and "
+"you can list them via :option:`pio run --list-targets` command."
+msgstr ""
+
+#: ../../../scripting/custom_targets.rst:29
+msgid "Build System API"
+msgstr ""
+
+#: ../../../scripting/custom_targets.rst:45
+msgid "``AddCustomTarget`` arguments:"
+msgstr ""
+
+#: ../../../scripting/custom_targets.rst:0
+msgid "name"
+msgstr ""
+
+#: ../../../scripting/custom_targets.rst:48
+msgid ""
+"A name of target. ASCII chars (a-z, 0-9, _, -) are recommended. Good names "
+"are \"gen_headers\", \"program_bitstream\", etc."
+msgstr ""
+
+#: ../../../scripting/custom_targets.rst:0
+msgid "dependencies"
+msgstr ""
+
+#: ../../../scripting/custom_targets.rst:52
+msgid ""
+"A list of dependencies that should be built BEFORE target will be launched. "
+"It is possible pass multiple dependencies as a Python list ``[\"dep1\", "
+"dep_target_2]``. If a target does not have dependencies, ``None`` should be "
+"passed."
+msgstr ""
+
+#: ../../../scripting/custom_targets.rst:0
+msgid "actions"
+msgstr ""
+
+#: ../../../scripting/custom_targets.rst:57
+msgid ""
+"A list of actions to call on a target. It is possible to pass multiple "
+"actions as a Python list ``[\"python --version\", my_calback]``."
+msgstr ""
+
+#: ../../../scripting/custom_targets.rst:0
+msgid "title"
+msgstr ""
+
+#: ../../../scripting/custom_targets.rst:61
+msgid ""
+"A title of a target. It will be printed when using :ref:`piocore` or :ref:"
+"`pioide`. We recommend to keep a title very short, 1-2 words."
+msgstr ""
+
+#: ../../../scripting/custom_targets.rst:0
+msgid "description"
+msgstr ""
+
+#: ../../../scripting/custom_targets.rst:65
+msgid ""
+"The same as a ``title`` argument but allows you to provide detailed "
+"explanation what target does."
+msgstr ""
+
+#: ../../../scripting/custom_targets.rst:0
+msgid "always_build"
+msgstr ""
+
+#: ../../../scripting/custom_targets.rst:69
+msgid ""
+"If there are declared ``dependencies`` and they are already built, this "
+"target will not be called if ``always_build=False``. A default value is "
+"``always_build=True`` and means always building/calling target."
+msgstr ""
+
+#: ../../../scripting/custom_targets.rst:75
+msgid "Examples"
+msgstr ""
+
+#: ../../../scripting/custom_targets.rst:78
+msgid "Command shortcut"
+msgstr ""
+
+#: ../../../scripting/custom_targets.rst:80
+msgid ""
+"Create a custom ``node`` target (alias) which will print a NodeJS version"
+msgstr ""
+
+#: ../../../scripting/custom_targets.rst:82
+#: ../../../scripting/custom_targets.rst:123
+#: ../../../scripting/custom_targets.rst:154
+msgid "``platformio.ini``:"
+msgstr ""
+
+#: ../../../scripting/custom_targets.rst:91
+#: ../../../scripting/custom_targets.rst:133
+#: ../../../scripting/custom_targets.rst:164
+msgid "``extra_script.py``:"
+msgstr ""
+
+#: ../../../scripting/custom_targets.rst:113
+msgid ""
+"Now, run ``pio run --target sysenv`` or ``pio run -t pioenv`` (short "
+"version)."
+msgstr ""
+
+#: ../../../scripting/custom_targets.rst:116
+msgid "Dependent target"
+msgstr ""
+
+#: ../../../scripting/custom_targets.rst:118
+msgid ""
+"Sometimes you need to run a command which depends on another target (file, "
+"firmware, etc). Let's create an ``ota`` target and declare command which "
+"will depend on a project firmware. If a build process successes, declared "
+"command will be run."
+msgstr ""
+
+#: ../../../scripting/custom_targets.rst:146
+msgid "Now, run ``pio run -t ota``."
+msgstr ""
+
+#: ../../../scripting/custom_targets.rst:149
+msgid "Target with options"
+msgstr ""
+
+#: ../../../scripting/custom_targets.rst:151
+msgid ""
+"Let's create a simple ``ping`` target and process it with ``pio run --target "
+"ping`` command:"
+msgstr ""

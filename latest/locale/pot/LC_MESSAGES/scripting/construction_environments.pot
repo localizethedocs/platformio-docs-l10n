@@ -1,0 +1,95 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present, PlatformIO
+# This file is distributed under the same license as the PlatformIO package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PlatformIO latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-24 14:02+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../scripting/construction_environments.rst:15
+msgid "Construction Environments"
+msgstr ""
+
+#: ../../../scripting/construction_environments.rst:17
+msgid ""
+"The PlatformIO Build System uses the following construction environments to "
+"process a project:"
+msgstr ""
+
+#: ../../../scripting/construction_environments.rst:20
+msgid "``DefaultEnvironment()`` - the global construction environment."
+msgstr ""
+
+#: ../../../scripting/construction_environments.rst:22
+msgid ""
+"It is used for the :ref:`platforms` and :ref:`frameworks` build scripts, :"
+"ref:`scripting_actions`, upload tools, :ref:`ldf`, and for other internal "
+"operations."
+msgstr ""
+
+#: ../../../scripting/construction_environments.rst:26
+msgid ""
+"``Import(\"projenv\")`` - the isolated construction environment used for "
+"processing the project source code in :ref:`projectconf_pio_src_dir`."
+msgstr ""
+
+#: ../../../scripting/construction_environments.rst:29
+msgid ""
+"Please note that any :ref:`projectconf_build_src_flags` specified in :ref:"
+"`projectconf` will be passed to the ``projenv`` and not to the "
+"``DefaultEnvironment()``."
+msgstr ""
+
+#: ../../../scripting/construction_environments.rst:33
+msgid ""
+"The ``projenv`` is available only for the POST-type scripts (see :ref:"
+"`scripting_launch_types`) and :ref:`library_json_buid_extra_script` (see :"
+"ref:`library_json`)."
+msgstr ""
+
+#: ../../../scripting/construction_environments.rst:35
+msgid ""
+"Flags passed to the global construction environment using PRE-type scripts "
+"will affect the ``projenv`` too."
+msgstr ""
+
+#: ../../../scripting/construction_environments.rst:37
+msgid "``Import(\"env\")`` - the current working construction environment."
+msgstr ""
+
+#: ../../../scripting/construction_environments.rst:39
+msgid ""
+"Imported ``env`` refers to the ``DefaultEnvironment()`` for scripts "
+"configured using the :ref:`projectconf_extra_scripts` option in :ref:"
+"`projectconf`."
+msgstr ""
+
+#: ../../../scripting/construction_environments.rst:43
+msgid ""
+"If you use :ref:`library_json` and :ref:`library_json_buid_extra_script`, "
+"the ``Import(\"env\")`` refers to the library's isolated environment from "
+"which a script was called (not to the global environment). Please use ``env "
+"= DefaultEnvironment()`` instead to access the global environment."
+msgstr ""
+
+#: ../../../scripting/construction_environments.rst:51
+msgid "**Examples**"
+msgstr ""
+
+#: ../../../scripting/construction_environments.rst:53
+msgid "``my_pre_extra_script.py``:"
+msgstr ""
+
+#: ../../../scripting/construction_environments.rst:76
+msgid "``my_post_extra_script.py``:"
+msgstr ""

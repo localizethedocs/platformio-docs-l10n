@@ -1,0 +1,224 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present, PlatformIO
+# This file is distributed under the same license as the PlatformIO package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PlatformIO latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-24 14:02+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../advanced/unit-testing/frameworks/doctest.rst:15
+msgid "Doctest"
+msgstr ""
+
+#: ../../../advanced/unit-testing/frameworks/doctest.rst:0
+msgid "Registry"
+msgstr ""
+
+#: ../../../advanced/unit-testing/frameworks/doctest.rst:18
+msgid ""
+"`https://registry.platformio.org/libraries/doctest/doctest <https://registry."
+"platformio.org/libraries/doctest/doctest>`_"
+msgstr ""
+
+#: ../../../advanced/unit-testing/frameworks/doctest.rst:0
+#: ../../../advanced/unit-testing/frameworks/doctest.rst:88
+msgid "Configuration"
+msgstr ""
+
+#: ../../../advanced/unit-testing/frameworks/doctest.rst:20
+msgid ":ref:`projectconf_test_framework` = ``doctest``"
+msgstr ""
+
+#: ../../../advanced/unit-testing/frameworks/doctest.rst:0
+msgid "Native Tests"
+msgstr ""
+
+#: ../../../advanced/unit-testing/frameworks/doctest.rst:22
+msgid "Yes"
+msgstr ""
+
+#: ../../../advanced/unit-testing/frameworks/doctest.rst:0
+msgid "Embedded Tests"
+msgstr ""
+
+#: ../../../advanced/unit-testing/frameworks/doctest.rst:24
+#: ../../../advanced/unit-testing/frameworks/doctest.rst:26
+msgid "No"
+msgstr ""
+
+#: ../../../advanced/unit-testing/frameworks/doctest.rst:0
+msgid "Mocking Support"
+msgstr ""
+
+#: ../../../advanced/unit-testing/frameworks/doctest.rst:28
+msgid ""
+"**Doctest** is a new C++ testing framework but is by far the fastest both in "
+"compile times and runtime compared to other feature-rich alternatives."
+msgstr ""
+
+#: ../../../advanced/unit-testing/frameworks/doctest.rst:32
+msgid "Contents"
+msgstr ""
+
+#: ../../../advanced/unit-testing/frameworks/doctest.rst:35
+msgid "Getting Started"
+msgstr ""
+
+#: ../../../advanced/unit-testing/frameworks/doctest.rst:37
+msgid ""
+"To get started with the Doctest all you need is to set the :ref:"
+"`projectconf_test_framework` option in your :ref:`projectconf` to the "
+"``doctest`` and implement your own ``main()`` function that forces the "
+"Doctest to report successful test cases:"
+msgstr ""
+
+#: ../../../advanced/unit-testing/frameworks/doctest.rst:42
+msgid "``platformio.ini``"
+msgstr ""
+
+#: ../../../advanced/unit-testing/frameworks/doctest.rst:51
+msgid "``test/test_dummy/test_main.cpp``"
+msgstr ""
+
+#: ../../../advanced/unit-testing/frameworks/doctest.rst:76
+msgid ""
+"Now, you can run tests using the :ref:`cmd_test` command. If you need a full "
+"output from the Doctest, please use :option:`pio test --verbose` option."
+msgstr ""
+
+#: ../../../advanced/unit-testing/frameworks/doctest.rst:80
+msgid "**Useful links**"
+msgstr ""
+
+#: ../../../advanced/unit-testing/frameworks/doctest.rst:82
+msgid ""
+"`Doctest - Tutorial <https://github.com/doctest/doctest/blob/master/doc/"
+"markdown/tutorial.md>`_"
+msgstr ""
+
+#: ../../../advanced/unit-testing/frameworks/doctest.rst:83
+msgid ""
+"`Doctest - Assertion macros <https://github.com/doctest/doctest/blob/master/"
+"doc/markdown/assertions.md>`_"
+msgstr ""
+
+#: ../../../advanced/unit-testing/frameworks/doctest.rst:84
+msgid ""
+"`Doctest - Logging macros <https://github.com/doctest/doctest/blob/master/"
+"doc/markdown/logging.md>`_"
+msgstr ""
+
+#: ../../../advanced/unit-testing/frameworks/doctest.rst:85
+msgid ""
+"`Doctest - Test cases, subcases and test fixtures <https://github.com/"
+"doctest/doctest/blob/master/doc/markdown/testcases.md>`_"
+msgstr ""
+
+#: ../../../advanced/unit-testing/frameworks/doctest.rst:90
+msgid ""
+"The Doctest can be configured in two ways: using identifiers (macros) or "
+"``doctest::Context``."
+msgstr ""
+
+#: ../../../advanced/unit-testing/frameworks/doctest.rst:94
+msgid "Using identifiers"
+msgstr ""
+
+#: ../../../advanced/unit-testing/frameworks/doctest.rst:96
+msgid ""
+"The Doctest is designed to \"just work\" as much as possible. It also allows "
+"configuring how it is built with a set of identifiers."
+msgstr ""
+
+#: ../../../advanced/unit-testing/frameworks/doctest.rst:99
+msgid ""
+"See `Doctest Configuration Guide <https://github.com/doctest/doctest/blob/"
+"master/doc/markdown/configuration.md>`_ for the available identifiers."
+msgstr ""
+
+#: ../../../advanced/unit-testing/frameworks/doctest.rst:102
+#: ../../../advanced/unit-testing/frameworks/doctest.rst:123
+#: ../../../advanced/unit-testing/frameworks/doctest.rst:156
+msgid "**Example**"
+msgstr ""
+
+#: ../../../advanced/unit-testing/frameworks/doctest.rst:114
+msgid "Using ``doctest::Context``"
+msgstr ""
+
+#: ../../../advanced/unit-testing/frameworks/doctest.rst:116
+msgid ""
+"If you need more control and want to set options with code to the execution "
+"context, then the custom implementation of ``main()`` function will give you "
+"access to the ``doctest::Context``."
+msgstr ""
+
+#: ../../../advanced/unit-testing/frameworks/doctest.rst:120
+msgid ""
+"See `The \"main()\" entry point <https://github.com/doctest/doctest/blob/"
+"master/doc/markdown/main.md>`__ docs for details."
+msgstr ""
+
+#: ../../../advanced/unit-testing/frameworks/doctest.rst:145
+msgid "Doctest CLI"
+msgstr ""
+
+#: ../../../advanced/unit-testing/frameworks/doctest.rst:147
+msgid ""
+"The Doctest works quite nicely without any command-line options at all - but "
+"for more control a few of them are available. See `Doctest CLI guide "
+"<https://github.com/doctest/doctest/blob/master/doc/markdown/commandline."
+"md>`_."
+msgstr ""
+
+#: ../../../advanced/unit-testing/frameworks/doctest.rst:151
+msgid ""
+"There are two options for how to pass extra arguments to the testing program:"
+msgstr ""
+
+#: ../../../advanced/unit-testing/frameworks/doctest.rst:153
+msgid "Using PlatformIO Core CLI and :option:`pio test --program-arg` option"
+msgstr ""
+
+#: ../../../advanced/unit-testing/frameworks/doctest.rst:154
+msgid ""
+"Overriding :ref:`projectconf_test_testing_command` with a custom command."
+msgstr ""
+
+#: ../../../advanced/unit-testing/frameworks/doctest.rst:158
+msgid ""
+"Stop executing test cases after the first error and include  successful "
+"assertions in the output. We will use the ``-aa, --abort-after=<int>`` and "
+"``-s,--success=<bool>`` Doctest's CLI option."
+msgstr ""
+
+#: ../../../advanced/unit-testing/frameworks/doctest.rst:162
+msgid "Using CLI and :option:`pio test --program-arg` option:"
+msgstr ""
+
+#: ../../../advanced/unit-testing/frameworks/doctest.rst:170
+msgid "Overriding :ref:`projectconf_test_testing_command` with custom command."
+msgstr ""
+
+#: ../../../advanced/unit-testing/frameworks/doctest.rst:182
+msgid "Test Runner"
+msgstr ""
+
+#: ../../../advanced/unit-testing/frameworks/doctest.rst:184
+msgid ""
+"If you would like to change the default PlatformIO's Test Runner for the "
+"Doctest, please implement your :ref:`unit_testing_frameworks_custom` runner "
+"extending `DoctestTestRunner <https://github.com/platformio/platformio-core/"
+"blob/develop/platformio/test/runners/doctest.py>`_ class. See :ref:"
+"`unit_testing_frameworks_custom` for examples."
+msgstr ""

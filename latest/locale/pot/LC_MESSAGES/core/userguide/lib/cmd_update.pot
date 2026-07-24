@@ -1,0 +1,114 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present, PlatformIO
+# This file is distributed under the same license as the PlatformIO package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PlatformIO latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-24 14:02+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../core/userguide/lib/cmd_update.rst:15
+msgid "pio lib update"
+msgstr ""
+
+#: ../../../core/userguide/lib/cmd_update.rst:20
+msgid "This command is deprecated and will be removed in the next releases."
+msgstr ""
+
+#: ../../../core/userguide/lib/cmd_update.rst:22
+msgid "Please use the :ref:`cmd_pkg_update` command instead."
+msgstr ""
+
+#: ../../../core/userguide/lib/cmd_update.rst:24
+msgid "Contents"
+msgstr ""
+
+#: ../../../core/userguide/lib/cmd_update.rst:27
+msgid "Usage"
+msgstr ""
+
+#: ../../../core/userguide/lib/cmd_update.rst:58
+msgid "Description"
+msgstr ""
+
+#: ../../../core/userguide/lib/cmd_update.rst:60
+msgid "Check or update installed libraries."
+msgstr ""
+
+#: ../../../core/userguide/lib/cmd_update.rst:62
+msgid ""
+"The ``version`` supports `Semantic Versioning <https://devhints.io/semver>`_ "
+"( ``<major>.<minor>.<patch>``) and can take any of the following forms:"
+msgstr ""
+
+#: ../../../core/userguide/lib/cmd_update.rst:65
+msgid "``1.2.3`` - an exact version number. Use only this exact version"
+msgstr ""
+
+#: ../../../core/userguide/lib/cmd_update.rst:66
+msgid ""
+"``^1.2.3`` - any compatible version (exact version for ``1.x.x`` versions)"
+msgstr ""
+
+#: ../../../core/userguide/lib/cmd_update.rst:67
+msgid ""
+"``~1.2.3`` - any version with the same major and minor versions, and an "
+"equal or greater patch version"
+msgstr ""
+
+#: ../../../core/userguide/lib/cmd_update.rst:69
+msgid ""
+"``>1.2.3`` - any version greater than ``1.2.3``. ``>=``, ``<``, and ``<=`` "
+"are also possible"
+msgstr ""
+
+#: ../../../core/userguide/lib/cmd_update.rst:71
+msgid ""
+"``>0.1.0,!=0.2.0,<0.3.0`` - any version greater than ``0.1.0``, not equal to "
+"``0.2.0`` and less than ``0.3.0``"
+msgstr ""
+
+#: ../../../core/userguide/lib/cmd_update.rst:75
+msgid "Storage Options"
+msgstr ""
+
+#: ../../../core/userguide/lib/cmd_update.rst:77
+msgid "See base options for :ref:`cmd_lib`."
+msgstr ""
+
+#: ../../../core/userguide/lib/cmd_update.rst:80
+msgid "Options"
+msgstr ""
+
+#: ../../../core/userguide/lib/cmd_update.rst:87
+msgid "DEPRECATED. Please use ``--dry-run`` instead."
+msgstr ""
+
+#: ../../../core/userguide/lib/cmd_update.rst:93
+msgid "Do not update, only check for the new versions"
+msgstr ""
+
+#: ../../../core/userguide/lib/cmd_update.rst:98
+msgid "Return the output in `JSON <http://en.wikipedia.org/wiki/JSON>`_ format"
+msgstr ""
+
+#: ../../../core/userguide/lib/cmd_update.rst:101
+msgid "Examples"
+msgstr ""
+
+#: ../../../core/userguide/lib/cmd_update.rst:103
+msgid "Update all installed libraries in global storage"
+msgstr ""
+
+#: ../../../core/userguide/lib/cmd_update.rst:132
+msgid "Update specified libraries in global storage"
+msgstr ""

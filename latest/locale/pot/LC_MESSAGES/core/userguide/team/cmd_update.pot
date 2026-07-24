@@ -1,0 +1,68 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present, PlatformIO
+# This file is distributed under the same license as the PlatformIO package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PlatformIO latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-24 14:02+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../core/userguide/team/cmd_update.rst:15
+msgid "pio team update"
+msgstr ""
+
+#: ../../../core/userguide/team/cmd_update.rst:17
+msgid "Contents"
+msgstr ""
+
+#: ../../../core/userguide/team/cmd_update.rst:20
+msgid "Usage"
+msgstr ""
+
+#: ../../../core/userguide/team/cmd_update.rst:27
+msgid "Description"
+msgstr ""
+
+#: ../../../core/userguide/team/cmd_update.rst:29
+msgid "Rename a team or update the existing details."
+msgstr ""
+
+#: ../../../core/userguide/team/cmd_update.rst:32
+msgid "Options"
+msgstr ""
+
+#: ../../../core/userguide/team/cmd_update.rst:39
+msgid ""
+"A new team name. Team name must only contain alphanumeric characters, single "
+"hyphens, underscores, spaces. It can not begin or end with a hyphen or a "
+"underscore and must not be longer than 20 characters."
+msgstr ""
+
+#: ../../../core/userguide/team/cmd_update.rst:46
+msgid "A team description."
+msgstr ""
+
+#: ../../../core/userguide/team/cmd_update.rst:49
+msgid "Examples"
+msgstr ""
+
+#: ../../../core/userguide/team/cmd_update.rst:57
+msgid "See Also"
+msgstr ""
+
+#: ../../../core/userguide/team/cmd_update.rst:59
+msgid ":ref:`cmd_team_list`"
+msgstr ""
+
+#: ../../../core/userguide/team/cmd_update.rst:60
+msgid ":ref:`cmd_team_remove`"
+msgstr ""

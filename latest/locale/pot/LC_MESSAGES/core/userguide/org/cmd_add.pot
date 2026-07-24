@@ -1,0 +1,67 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present, PlatformIO
+# This file is distributed under the same license as the PlatformIO package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PlatformIO latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-24 14:02+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../core/userguide/org/cmd_add.rst:15
+msgid "pio org add"
+msgstr ""
+
+#: ../../../core/userguide/org/cmd_add.rst:17
+msgid "Contents"
+msgstr ""
+
+#: ../../../core/userguide/org/cmd_add.rst:20
+msgid "Usage"
+msgstr ""
+
+#: ../../../core/userguide/org/cmd_add.rst:27
+msgid "Description"
+msgstr ""
+
+#: ../../../core/userguide/org/cmd_add.rst:29
+msgid "Add a user as an owner to an organization."
+msgstr ""
+
+#: ../../../core/userguide/org/cmd_add.rst:31
+msgid ""
+"If you need to create a new organization, please use :ref:`cmd_org_create` "
+"command."
+msgstr ""
+
+#: ../../../core/userguide/org/cmd_add.rst:34
+msgid "Examples"
+msgstr ""
+
+#: ../../../core/userguide/org/cmd_add.rst:36
+msgid "Add Bob as an owner of \"platformio\" organization:"
+msgstr ""
+
+#: ../../../core/userguide/org/cmd_add.rst:44
+msgid "See Also"
+msgstr ""
+
+#: ../../../core/userguide/org/cmd_add.rst:46
+msgid ":ref:`cmd_org_create`"
+msgstr ""
+
+#: ../../../core/userguide/org/cmd_add.rst:47
+msgid ":ref:`cmd_org_list`"
+msgstr ""
+
+#: ../../../core/userguide/org/cmd_add.rst:48
+msgid ":ref:`cmd_org_remove`"
+msgstr ""

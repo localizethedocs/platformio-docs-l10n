@@ -1,0 +1,41 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present, PlatformIO
+# This file is distributed under the same license as the PlatformIO package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PlatformIO latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-24 14:02+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../projectconf/sections/env/options/debug/debug_test.rst:15
+msgid "``debug_test``"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/debug/debug_test.rst:17
+msgid "Type: ``String`` | Multiple: ``No``"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/debug/debug_test.rst:19
+msgid ""
+"A name of a unit test to be debugged. See :ref:`unit_testing` for further "
+"details."
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/debug/debug_test.rst:21
+msgid ""
+"If a source file of a test is located in the root of :ref:"
+"`projectconf_pio_test_dir`, the ``debug_test`` option should be set to ``*``."
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/debug/debug_test.rst:24
+msgid "Examples:"
+msgstr ""
