@@ -13,22 +13,22 @@
     },
     "zh_CN" : 
     {
-      "branch" : "",
+      "branch" : "develop",
       "commit" : 
       {
-        "date" : "",
-        "hash" : "",
-        "title" : ""
+        "date" : "2026-07-08 14:50:43 +0300",
+        "hash" : "a0efc7f48566c967333d505086973354b60a35a0",
+        "title" : "Bump version to 6.2.0a3"
       }
     },
     "zh_TW" : 
     {
-      "branch" : "",
+      "branch" : "develop",
       "commit" : 
       {
-        "date" : "",
-        "hash" : "",
-        "title" : ""
+        "date" : "2026-07-08 14:50:43 +0300",
+        "hash" : "a0efc7f48566c967333d505086973354b60a35a0",
+        "title" : "Bump version to 6.2.0a3"
       }
     }
   },

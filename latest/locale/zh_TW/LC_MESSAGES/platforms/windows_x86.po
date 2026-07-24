@@ -1,0 +1,117 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present, PlatformIO
+# This file is distributed under the same license as the PlatformIO package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PlatformIO latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-24 14:02+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../platforms/windows_x86.rst:15
+msgid "Windows x86"
+msgstr ""
+
+#: ../../../platforms/windows_x86.rst:0
+msgid "Registry"
+msgstr ""
+
+#: ../../../platforms/windows_x86.rst:18
+msgid ""
+"`https://registry.platformio.org/platforms/platformio/windows_x86 <https://"
+"registry.platformio.org/platforms/platformio/windows_x86>`__"
+msgstr ""
+
+#: ../../../platforms/windows_x86.rst:0
+msgid "Configuration"
+msgstr ""
+
+#: ../../../platforms/windows_x86.rst:20
+msgid ":ref:`projectconf_env_platform` = ``platformio/windows_x86``"
+msgstr ""
+
+#: ../../../platforms/windows_x86.rst:22
+msgid ""
+"Windows x86 (32-bit) is a metafamily of graphical operating systems "
+"developed and marketed by Microsoft. Using host OS (Windows, Linux 32/64 or "
+"Mac OS X) you can build native application for Windows x86 platform."
+msgstr ""
+
+#: ../../../platforms/windows_x86.rst:24
+msgid ""
+"For more detailed information please visit `vendor site <https://registry."
+"platformio.org/platforms/platformio/windows_x86?utm_source=platformio."
+"org&utm_medium=docs>`_."
+msgstr ""
+
+#: ../../../platforms/windows_x86.rst:29
+msgid "Contents"
+msgstr ""
+
+#: ../../../platforms/windows_x86.rst:32
+msgid "Examples"
+msgstr ""
+
+#: ../../../platforms/windows_x86.rst:34
+msgid ""
+"Examples are listed from `Windows x86 development platform repository "
+"<https://github.com/platformio/platform-windows_x86/tree/master/examples?"
+"utm_source=platformio.org&utm_medium=docs>`_:"
+msgstr ""
+
+#: ../../../platforms/windows_x86.rst:36
+msgid ""
+"`hello-world <https://github.com/platformio/platform-windows_x86/tree/master/"
+"examples/hello-world?utm_source=platformio.org&utm_medium=docs>`_"
+msgstr ""
+
+#: ../../../platforms/windows_x86.rst:39
+msgid "Stable and upstream versions"
+msgstr ""
+
+#: ../../../platforms/windows_x86.rst:41
+msgid ""
+"You can switch between `stable releases <https://github.com/platformio/"
+"platform-windows_x86/releases>`__ of Windows x86 development platform and "
+"the latest upstream version using :ref:`projectconf_env_platform` option in :"
+"ref:`projectconf` as described below."
+msgstr ""
+
+#: ../../../platforms/windows_x86.rst:46
+msgid "Stable"
+msgstr ""
+
+#: ../../../platforms/windows_x86.rst:60
+msgid "Upstream"
+msgstr ""
+
+#: ../../../platforms/windows_x86.rst:69
+msgid "Packages"
+msgstr ""
+
+#: ../../../platforms/windows_x86.rst:74
+msgid "Name"
+msgstr ""
+
+#: ../../../platforms/windows_x86.rst:75
+msgid "Description"
+msgstr ""
+
+#: ../../../platforms/windows_x86.rst:77
+msgid ""
+"`toolchain-gccmingw32 <https://registry.platformio.org/tools/platformio/"
+"toolchain-gccmingw32>`__"
+msgstr ""
+
+#: ../../../platforms/windows_x86.rst:78
+msgid "MinGW - Minimalist GNU for Windows"
+msgstr ""

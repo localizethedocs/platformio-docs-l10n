@@ -1,0 +1,815 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present, PlatformIO
+# This file is distributed under the same license as the PlatformIO package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PlatformIO latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-24 14:02+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../frameworks/esp8266-rtos-sdk.rst:15
+msgid "ESP8266 RTOS SDK"
+msgstr ""
+
+#: ../../../frameworks/esp8266-rtos-sdk.rst:0
+msgid "Configuration"
+msgstr ""
+
+#: ../../../frameworks/esp8266-rtos-sdk.rst:18
+msgid ":ref:`projectconf_env_framework` = ``esp8266-rtos-sdk``"
+msgstr ""
+
+#: ../../../frameworks/esp8266-rtos-sdk.rst:20
+msgid "Espressif ESP8266 SDK based on FreeRTOS"
+msgstr ""
+
+#: ../../../frameworks/esp8266-rtos-sdk.rst:24
+msgid "Contents"
+msgstr ""
+
+#: ../../../frameworks/esp8266-rtos-sdk.rst:27
+msgid "Platforms"
+msgstr ""
+
+#: ../../../frameworks/esp8266-rtos-sdk.rst:31
+#: ../../../frameworks/esp8266-rtos-sdk.rst:55
+#: ../../../frameworks/esp8266-rtos-sdk.rst:76
+#: ../../../frameworks/esp8266-rtos-sdk.rst:97
+#: ../../../frameworks/esp8266-rtos-sdk.rst:118
+#: ../../../frameworks/esp8266-rtos-sdk.rst:146
+#: ../../../frameworks/esp8266-rtos-sdk.rst:167
+#: ../../../frameworks/esp8266-rtos-sdk.rst:195
+#: ../../../frameworks/esp8266-rtos-sdk.rst:216
+#: ../../../frameworks/esp8266-rtos-sdk.rst:300
+#: ../../../frameworks/esp8266-rtos-sdk.rst:321
+#: ../../../frameworks/esp8266-rtos-sdk.rst:363
+#: ../../../frameworks/esp8266-rtos-sdk.rst:384
+#: ../../../frameworks/esp8266-rtos-sdk.rst:405
+#: ../../../frameworks/esp8266-rtos-sdk.rst:433
+#: ../../../frameworks/esp8266-rtos-sdk.rst:454
+#: ../../../frameworks/esp8266-rtos-sdk.rst:475
+#: ../../../frameworks/esp8266-rtos-sdk.rst:503
+#: ../../../frameworks/esp8266-rtos-sdk.rst:538
+#: ../../../frameworks/esp8266-rtos-sdk.rst:559
+#: ../../../frameworks/esp8266-rtos-sdk.rst:580
+#: ../../../frameworks/esp8266-rtos-sdk.rst:615
+#: ../../../frameworks/esp8266-rtos-sdk.rst:636
+#: ../../../frameworks/esp8266-rtos-sdk.rst:657
+msgid "Name"
+msgstr ""
+
+#: ../../../frameworks/esp8266-rtos-sdk.rst:32
+msgid "Description"
+msgstr ""
+
+#: ../../../frameworks/esp8266-rtos-sdk.rst:34
+#: ../../../frameworks/esp8266-rtos-sdk.rst:63
+#: ../../../frameworks/esp8266-rtos-sdk.rst:84
+#: ../../../frameworks/esp8266-rtos-sdk.rst:105
+#: ../../../frameworks/esp8266-rtos-sdk.rst:126
+#: ../../../frameworks/esp8266-rtos-sdk.rst:133
+#: ../../../frameworks/esp8266-rtos-sdk.rst:154
+#: ../../../frameworks/esp8266-rtos-sdk.rst:175
+#: ../../../frameworks/esp8266-rtos-sdk.rst:182
+#: ../../../frameworks/esp8266-rtos-sdk.rst:203
+#: ../../../frameworks/esp8266-rtos-sdk.rst:224
+#: ../../../frameworks/esp8266-rtos-sdk.rst:231
+#: ../../../frameworks/esp8266-rtos-sdk.rst:238
+#: ../../../frameworks/esp8266-rtos-sdk.rst:245
+#: ../../../frameworks/esp8266-rtos-sdk.rst:252
+#: ../../../frameworks/esp8266-rtos-sdk.rst:259
+#: ../../../frameworks/esp8266-rtos-sdk.rst:266
+#: ../../../frameworks/esp8266-rtos-sdk.rst:273
+#: ../../../frameworks/esp8266-rtos-sdk.rst:280
+#: ../../../frameworks/esp8266-rtos-sdk.rst:287
+#: ../../../frameworks/esp8266-rtos-sdk.rst:308
+#: ../../../frameworks/esp8266-rtos-sdk.rst:329
+#: ../../../frameworks/esp8266-rtos-sdk.rst:336
+#: ../../../frameworks/esp8266-rtos-sdk.rst:343
+#: ../../../frameworks/esp8266-rtos-sdk.rst:350
+#: ../../../frameworks/esp8266-rtos-sdk.rst:371
+#: ../../../frameworks/esp8266-rtos-sdk.rst:392
+#: ../../../frameworks/esp8266-rtos-sdk.rst:413
+#: ../../../frameworks/esp8266-rtos-sdk.rst:420
+#: ../../../frameworks/esp8266-rtos-sdk.rst:441
+#: ../../../frameworks/esp8266-rtos-sdk.rst:462
+#: ../../../frameworks/esp8266-rtos-sdk.rst:483
+#: ../../../frameworks/esp8266-rtos-sdk.rst:490
+#: ../../../frameworks/esp8266-rtos-sdk.rst:511
+#: ../../../frameworks/esp8266-rtos-sdk.rst:518
+#: ../../../frameworks/esp8266-rtos-sdk.rst:525
+#: ../../../frameworks/esp8266-rtos-sdk.rst:546
+#: ../../../frameworks/esp8266-rtos-sdk.rst:567
+#: ../../../frameworks/esp8266-rtos-sdk.rst:588
+#: ../../../frameworks/esp8266-rtos-sdk.rst:595
+#: ../../../frameworks/esp8266-rtos-sdk.rst:602
+#: ../../../frameworks/esp8266-rtos-sdk.rst:623
+#: ../../../frameworks/esp8266-rtos-sdk.rst:644
+#: ../../../frameworks/esp8266-rtos-sdk.rst:665
+msgid ":ref:`platform_espressif8266`"
+msgstr ""
+
+#: ../../../frameworks/esp8266-rtos-sdk.rst:35
+msgid ""
+"ESP8266 is a cost-effective and highly integrated Wi-Fi MCU with built-in "
+"TCP/IP networking software for IoT applications. ESP8266 integrates an "
+"enhanced version of Tensilica’s L106 Diamond series 32-bit processor and on-"
+"chip SRAM."
+msgstr ""
+
+#: ../../../frameworks/esp8266-rtos-sdk.rst:38
+msgid "Examples"
+msgstr ""
+
+#: ../../../frameworks/esp8266-rtos-sdk.rst:40
+msgid ""
+"`ESP8266 RTOS SDK for Espressif 8266 <https://github.com/platformio/platform-"
+"espressif8266/tree/master/examples?utm_source=platformio."
+"org&utm_medium=docs>`_"
+msgstr ""
+
+#: ../../../frameworks/esp8266-rtos-sdk.rst:43
+msgid "Boards"
+msgstr ""
+
+#: ../../../frameworks/esp8266-rtos-sdk.rst:46
+msgid "You can list pre-configured boards by :ref:`cmd_boards` command"
+msgstr ""
+
+#: ../../../frameworks/esp8266-rtos-sdk.rst:47
+msgid ""
+"For more detailed ``board`` information please scroll the tables below by "
+"horizontally."
+msgstr ""
+
+#: ../../../frameworks/esp8266-rtos-sdk.rst:50
+msgid "4D Systems"
+msgstr ""
+
+#: ../../../frameworks/esp8266-rtos-sdk.rst:56
+#: ../../../frameworks/esp8266-rtos-sdk.rst:77
+#: ../../../frameworks/esp8266-rtos-sdk.rst:98
+#: ../../../frameworks/esp8266-rtos-sdk.rst:119
+#: ../../../frameworks/esp8266-rtos-sdk.rst:147
+#: ../../../frameworks/esp8266-rtos-sdk.rst:168
+#: ../../../frameworks/esp8266-rtos-sdk.rst:196
+#: ../../../frameworks/esp8266-rtos-sdk.rst:217
+#: ../../../frameworks/esp8266-rtos-sdk.rst:301
+#: ../../../frameworks/esp8266-rtos-sdk.rst:322
+#: ../../../frameworks/esp8266-rtos-sdk.rst:364
+#: ../../../frameworks/esp8266-rtos-sdk.rst:385
+#: ../../../frameworks/esp8266-rtos-sdk.rst:406
+#: ../../../frameworks/esp8266-rtos-sdk.rst:434
+#: ../../../frameworks/esp8266-rtos-sdk.rst:455
+#: ../../../frameworks/esp8266-rtos-sdk.rst:476
+#: ../../../frameworks/esp8266-rtos-sdk.rst:504
+#: ../../../frameworks/esp8266-rtos-sdk.rst:539
+#: ../../../frameworks/esp8266-rtos-sdk.rst:560
+#: ../../../frameworks/esp8266-rtos-sdk.rst:581
+#: ../../../frameworks/esp8266-rtos-sdk.rst:616
+#: ../../../frameworks/esp8266-rtos-sdk.rst:637
+#: ../../../frameworks/esp8266-rtos-sdk.rst:658
+msgid "Platform"
+msgstr ""
+
+#: ../../../frameworks/esp8266-rtos-sdk.rst:57
+#: ../../../frameworks/esp8266-rtos-sdk.rst:78
+#: ../../../frameworks/esp8266-rtos-sdk.rst:99
+#: ../../../frameworks/esp8266-rtos-sdk.rst:120
+#: ../../../frameworks/esp8266-rtos-sdk.rst:148
+#: ../../../frameworks/esp8266-rtos-sdk.rst:169
+#: ../../../frameworks/esp8266-rtos-sdk.rst:197
+#: ../../../frameworks/esp8266-rtos-sdk.rst:218
+#: ../../../frameworks/esp8266-rtos-sdk.rst:302
+#: ../../../frameworks/esp8266-rtos-sdk.rst:323
+#: ../../../frameworks/esp8266-rtos-sdk.rst:365
+#: ../../../frameworks/esp8266-rtos-sdk.rst:386
+#: ../../../frameworks/esp8266-rtos-sdk.rst:407
+#: ../../../frameworks/esp8266-rtos-sdk.rst:435
+#: ../../../frameworks/esp8266-rtos-sdk.rst:456
+#: ../../../frameworks/esp8266-rtos-sdk.rst:477
+#: ../../../frameworks/esp8266-rtos-sdk.rst:505
+#: ../../../frameworks/esp8266-rtos-sdk.rst:540
+#: ../../../frameworks/esp8266-rtos-sdk.rst:561
+#: ../../../frameworks/esp8266-rtos-sdk.rst:582
+#: ../../../frameworks/esp8266-rtos-sdk.rst:617
+#: ../../../frameworks/esp8266-rtos-sdk.rst:638
+#: ../../../frameworks/esp8266-rtos-sdk.rst:659
+msgid "Debug"
+msgstr ""
+
+#: ../../../frameworks/esp8266-rtos-sdk.rst:58
+#: ../../../frameworks/esp8266-rtos-sdk.rst:79
+#: ../../../frameworks/esp8266-rtos-sdk.rst:100
+#: ../../../frameworks/esp8266-rtos-sdk.rst:121
+#: ../../../frameworks/esp8266-rtos-sdk.rst:149
+#: ../../../frameworks/esp8266-rtos-sdk.rst:170
+#: ../../../frameworks/esp8266-rtos-sdk.rst:198
+#: ../../../frameworks/esp8266-rtos-sdk.rst:219
+#: ../../../frameworks/esp8266-rtos-sdk.rst:303
+#: ../../../frameworks/esp8266-rtos-sdk.rst:324
+#: ../../../frameworks/esp8266-rtos-sdk.rst:366
+#: ../../../frameworks/esp8266-rtos-sdk.rst:387
+#: ../../../frameworks/esp8266-rtos-sdk.rst:408
+#: ../../../frameworks/esp8266-rtos-sdk.rst:436
+#: ../../../frameworks/esp8266-rtos-sdk.rst:457
+#: ../../../frameworks/esp8266-rtos-sdk.rst:478
+#: ../../../frameworks/esp8266-rtos-sdk.rst:506
+#: ../../../frameworks/esp8266-rtos-sdk.rst:541
+#: ../../../frameworks/esp8266-rtos-sdk.rst:562
+#: ../../../frameworks/esp8266-rtos-sdk.rst:583
+#: ../../../frameworks/esp8266-rtos-sdk.rst:618
+#: ../../../frameworks/esp8266-rtos-sdk.rst:639
+#: ../../../frameworks/esp8266-rtos-sdk.rst:660
+msgid "MCU"
+msgstr ""
+
+#: ../../../frameworks/esp8266-rtos-sdk.rst:59
+#: ../../../frameworks/esp8266-rtos-sdk.rst:80
+#: ../../../frameworks/esp8266-rtos-sdk.rst:101
+#: ../../../frameworks/esp8266-rtos-sdk.rst:122
+#: ../../../frameworks/esp8266-rtos-sdk.rst:150
+#: ../../../frameworks/esp8266-rtos-sdk.rst:171
+#: ../../../frameworks/esp8266-rtos-sdk.rst:199
+#: ../../../frameworks/esp8266-rtos-sdk.rst:220
+#: ../../../frameworks/esp8266-rtos-sdk.rst:304
+#: ../../../frameworks/esp8266-rtos-sdk.rst:325
+#: ../../../frameworks/esp8266-rtos-sdk.rst:367
+#: ../../../frameworks/esp8266-rtos-sdk.rst:388
+#: ../../../frameworks/esp8266-rtos-sdk.rst:409
+#: ../../../frameworks/esp8266-rtos-sdk.rst:437
+#: ../../../frameworks/esp8266-rtos-sdk.rst:458
+#: ../../../frameworks/esp8266-rtos-sdk.rst:479
+#: ../../../frameworks/esp8266-rtos-sdk.rst:507
+#: ../../../frameworks/esp8266-rtos-sdk.rst:542
+#: ../../../frameworks/esp8266-rtos-sdk.rst:563
+#: ../../../frameworks/esp8266-rtos-sdk.rst:584
+#: ../../../frameworks/esp8266-rtos-sdk.rst:619
+#: ../../../frameworks/esp8266-rtos-sdk.rst:640
+#: ../../../frameworks/esp8266-rtos-sdk.rst:661
+msgid "Frequency"
+msgstr ""
+
+#: ../../../frameworks/esp8266-rtos-sdk.rst:60
+#: ../../../frameworks/esp8266-rtos-sdk.rst:81
+#: ../../../frameworks/esp8266-rtos-sdk.rst:102
+#: ../../../frameworks/esp8266-rtos-sdk.rst:123
+#: ../../../frameworks/esp8266-rtos-sdk.rst:151
+#: ../../../frameworks/esp8266-rtos-sdk.rst:172
+#: ../../../frameworks/esp8266-rtos-sdk.rst:200
+#: ../../../frameworks/esp8266-rtos-sdk.rst:221
+#: ../../../frameworks/esp8266-rtos-sdk.rst:305
+#: ../../../frameworks/esp8266-rtos-sdk.rst:326
+#: ../../../frameworks/esp8266-rtos-sdk.rst:368
+#: ../../../frameworks/esp8266-rtos-sdk.rst:389
+#: ../../../frameworks/esp8266-rtos-sdk.rst:410
+#: ../../../frameworks/esp8266-rtos-sdk.rst:438
+#: ../../../frameworks/esp8266-rtos-sdk.rst:459
+#: ../../../frameworks/esp8266-rtos-sdk.rst:480
+#: ../../../frameworks/esp8266-rtos-sdk.rst:508
+#: ../../../frameworks/esp8266-rtos-sdk.rst:543
+#: ../../../frameworks/esp8266-rtos-sdk.rst:564
+#: ../../../frameworks/esp8266-rtos-sdk.rst:585
+#: ../../../frameworks/esp8266-rtos-sdk.rst:620
+#: ../../../frameworks/esp8266-rtos-sdk.rst:641
+#: ../../../frameworks/esp8266-rtos-sdk.rst:662
+msgid "Flash"
+msgstr ""
+
+#: ../../../frameworks/esp8266-rtos-sdk.rst:61
+#: ../../../frameworks/esp8266-rtos-sdk.rst:82
+#: ../../../frameworks/esp8266-rtos-sdk.rst:103
+#: ../../../frameworks/esp8266-rtos-sdk.rst:124
+#: ../../../frameworks/esp8266-rtos-sdk.rst:152
+#: ../../../frameworks/esp8266-rtos-sdk.rst:173
+#: ../../../frameworks/esp8266-rtos-sdk.rst:201
+#: ../../../frameworks/esp8266-rtos-sdk.rst:222
+#: ../../../frameworks/esp8266-rtos-sdk.rst:306
+#: ../../../frameworks/esp8266-rtos-sdk.rst:327
+#: ../../../frameworks/esp8266-rtos-sdk.rst:369
+#: ../../../frameworks/esp8266-rtos-sdk.rst:390
+#: ../../../frameworks/esp8266-rtos-sdk.rst:411
+#: ../../../frameworks/esp8266-rtos-sdk.rst:439
+#: ../../../frameworks/esp8266-rtos-sdk.rst:460
+#: ../../../frameworks/esp8266-rtos-sdk.rst:481
+#: ../../../frameworks/esp8266-rtos-sdk.rst:509
+#: ../../../frameworks/esp8266-rtos-sdk.rst:544
+#: ../../../frameworks/esp8266-rtos-sdk.rst:565
+#: ../../../frameworks/esp8266-rtos-sdk.rst:586
+#: ../../../frameworks/esp8266-rtos-sdk.rst:621
+#: ../../../frameworks/esp8266-rtos-sdk.rst:642
+#: ../../../frameworks/esp8266-rtos-sdk.rst:663
+msgid "RAM"
+msgstr ""
+
+#: ../../../frameworks/esp8266-rtos-sdk.rst:62
+msgid ":ref:`board_espressif8266_gen4iod`"
+msgstr ""
+
+#: ../../../frameworks/esp8266-rtos-sdk.rst:64
+#: ../../../frameworks/esp8266-rtos-sdk.rst:85
+#: ../../../frameworks/esp8266-rtos-sdk.rst:106
+#: ../../../frameworks/esp8266-rtos-sdk.rst:127
+#: ../../../frameworks/esp8266-rtos-sdk.rst:134
+#: ../../../frameworks/esp8266-rtos-sdk.rst:155
+#: ../../../frameworks/esp8266-rtos-sdk.rst:176
+#: ../../../frameworks/esp8266-rtos-sdk.rst:183
+#: ../../../frameworks/esp8266-rtos-sdk.rst:204
+#: ../../../frameworks/esp8266-rtos-sdk.rst:225
+#: ../../../frameworks/esp8266-rtos-sdk.rst:232
+#: ../../../frameworks/esp8266-rtos-sdk.rst:239
+#: ../../../frameworks/esp8266-rtos-sdk.rst:246
+#: ../../../frameworks/esp8266-rtos-sdk.rst:253
+#: ../../../frameworks/esp8266-rtos-sdk.rst:260
+#: ../../../frameworks/esp8266-rtos-sdk.rst:267
+#: ../../../frameworks/esp8266-rtos-sdk.rst:274
+#: ../../../frameworks/esp8266-rtos-sdk.rst:281
+#: ../../../frameworks/esp8266-rtos-sdk.rst:288
+#: ../../../frameworks/esp8266-rtos-sdk.rst:309
+#: ../../../frameworks/esp8266-rtos-sdk.rst:330
+#: ../../../frameworks/esp8266-rtos-sdk.rst:337
+#: ../../../frameworks/esp8266-rtos-sdk.rst:344
+#: ../../../frameworks/esp8266-rtos-sdk.rst:351
+#: ../../../frameworks/esp8266-rtos-sdk.rst:372
+#: ../../../frameworks/esp8266-rtos-sdk.rst:393
+#: ../../../frameworks/esp8266-rtos-sdk.rst:414
+#: ../../../frameworks/esp8266-rtos-sdk.rst:421
+#: ../../../frameworks/esp8266-rtos-sdk.rst:442
+#: ../../../frameworks/esp8266-rtos-sdk.rst:463
+#: ../../../frameworks/esp8266-rtos-sdk.rst:484
+#: ../../../frameworks/esp8266-rtos-sdk.rst:491
+#: ../../../frameworks/esp8266-rtos-sdk.rst:512
+#: ../../../frameworks/esp8266-rtos-sdk.rst:519
+#: ../../../frameworks/esp8266-rtos-sdk.rst:526
+#: ../../../frameworks/esp8266-rtos-sdk.rst:547
+#: ../../../frameworks/esp8266-rtos-sdk.rst:568
+#: ../../../frameworks/esp8266-rtos-sdk.rst:589
+#: ../../../frameworks/esp8266-rtos-sdk.rst:596
+#: ../../../frameworks/esp8266-rtos-sdk.rst:603
+#: ../../../frameworks/esp8266-rtos-sdk.rst:624
+#: ../../../frameworks/esp8266-rtos-sdk.rst:645
+#: ../../../frameworks/esp8266-rtos-sdk.rst:666
+msgid "No"
+msgstr ""
+
+#: ../../../frameworks/esp8266-rtos-sdk.rst:65
+#: ../../../frameworks/esp8266-rtos-sdk.rst:86
+#: ../../../frameworks/esp8266-rtos-sdk.rst:107
+#: ../../../frameworks/esp8266-rtos-sdk.rst:128
+#: ../../../frameworks/esp8266-rtos-sdk.rst:135
+#: ../../../frameworks/esp8266-rtos-sdk.rst:156
+#: ../../../frameworks/esp8266-rtos-sdk.rst:177
+#: ../../../frameworks/esp8266-rtos-sdk.rst:184
+#: ../../../frameworks/esp8266-rtos-sdk.rst:205
+#: ../../../frameworks/esp8266-rtos-sdk.rst:226
+#: ../../../frameworks/esp8266-rtos-sdk.rst:233
+#: ../../../frameworks/esp8266-rtos-sdk.rst:240
+#: ../../../frameworks/esp8266-rtos-sdk.rst:247
+#: ../../../frameworks/esp8266-rtos-sdk.rst:254
+#: ../../../frameworks/esp8266-rtos-sdk.rst:261
+#: ../../../frameworks/esp8266-rtos-sdk.rst:268
+#: ../../../frameworks/esp8266-rtos-sdk.rst:275
+#: ../../../frameworks/esp8266-rtos-sdk.rst:282
+#: ../../../frameworks/esp8266-rtos-sdk.rst:289
+#: ../../../frameworks/esp8266-rtos-sdk.rst:310
+#: ../../../frameworks/esp8266-rtos-sdk.rst:331
+#: ../../../frameworks/esp8266-rtos-sdk.rst:338
+#: ../../../frameworks/esp8266-rtos-sdk.rst:345
+#: ../../../frameworks/esp8266-rtos-sdk.rst:352
+#: ../../../frameworks/esp8266-rtos-sdk.rst:373
+#: ../../../frameworks/esp8266-rtos-sdk.rst:394
+#: ../../../frameworks/esp8266-rtos-sdk.rst:415
+#: ../../../frameworks/esp8266-rtos-sdk.rst:422
+#: ../../../frameworks/esp8266-rtos-sdk.rst:443
+#: ../../../frameworks/esp8266-rtos-sdk.rst:464
+#: ../../../frameworks/esp8266-rtos-sdk.rst:485
+#: ../../../frameworks/esp8266-rtos-sdk.rst:492
+#: ../../../frameworks/esp8266-rtos-sdk.rst:513
+#: ../../../frameworks/esp8266-rtos-sdk.rst:520
+#: ../../../frameworks/esp8266-rtos-sdk.rst:527
+#: ../../../frameworks/esp8266-rtos-sdk.rst:548
+#: ../../../frameworks/esp8266-rtos-sdk.rst:569
+#: ../../../frameworks/esp8266-rtos-sdk.rst:590
+#: ../../../frameworks/esp8266-rtos-sdk.rst:597
+#: ../../../frameworks/esp8266-rtos-sdk.rst:604
+#: ../../../frameworks/esp8266-rtos-sdk.rst:625
+#: ../../../frameworks/esp8266-rtos-sdk.rst:646
+#: ../../../frameworks/esp8266-rtos-sdk.rst:667
+msgid "ESP8266"
+msgstr ""
+
+#: ../../../frameworks/esp8266-rtos-sdk.rst:66
+#: ../../../frameworks/esp8266-rtos-sdk.rst:87
+#: ../../../frameworks/esp8266-rtos-sdk.rst:108
+#: ../../../frameworks/esp8266-rtos-sdk.rst:129
+#: ../../../frameworks/esp8266-rtos-sdk.rst:136
+#: ../../../frameworks/esp8266-rtos-sdk.rst:157
+#: ../../../frameworks/esp8266-rtos-sdk.rst:178
+#: ../../../frameworks/esp8266-rtos-sdk.rst:185
+#: ../../../frameworks/esp8266-rtos-sdk.rst:206
+#: ../../../frameworks/esp8266-rtos-sdk.rst:227
+#: ../../../frameworks/esp8266-rtos-sdk.rst:234
+#: ../../../frameworks/esp8266-rtos-sdk.rst:241
+#: ../../../frameworks/esp8266-rtos-sdk.rst:248
+#: ../../../frameworks/esp8266-rtos-sdk.rst:255
+#: ../../../frameworks/esp8266-rtos-sdk.rst:262
+#: ../../../frameworks/esp8266-rtos-sdk.rst:269
+#: ../../../frameworks/esp8266-rtos-sdk.rst:276
+#: ../../../frameworks/esp8266-rtos-sdk.rst:283
+#: ../../../frameworks/esp8266-rtos-sdk.rst:290
+#: ../../../frameworks/esp8266-rtos-sdk.rst:311
+#: ../../../frameworks/esp8266-rtos-sdk.rst:332
+#: ../../../frameworks/esp8266-rtos-sdk.rst:339
+#: ../../../frameworks/esp8266-rtos-sdk.rst:346
+#: ../../../frameworks/esp8266-rtos-sdk.rst:353
+#: ../../../frameworks/esp8266-rtos-sdk.rst:374
+#: ../../../frameworks/esp8266-rtos-sdk.rst:395
+#: ../../../frameworks/esp8266-rtos-sdk.rst:416
+#: ../../../frameworks/esp8266-rtos-sdk.rst:423
+#: ../../../frameworks/esp8266-rtos-sdk.rst:444
+#: ../../../frameworks/esp8266-rtos-sdk.rst:465
+#: ../../../frameworks/esp8266-rtos-sdk.rst:486
+#: ../../../frameworks/esp8266-rtos-sdk.rst:493
+#: ../../../frameworks/esp8266-rtos-sdk.rst:514
+#: ../../../frameworks/esp8266-rtos-sdk.rst:521
+#: ../../../frameworks/esp8266-rtos-sdk.rst:528
+#: ../../../frameworks/esp8266-rtos-sdk.rst:549
+#: ../../../frameworks/esp8266-rtos-sdk.rst:570
+#: ../../../frameworks/esp8266-rtos-sdk.rst:591
+#: ../../../frameworks/esp8266-rtos-sdk.rst:598
+#: ../../../frameworks/esp8266-rtos-sdk.rst:605
+#: ../../../frameworks/esp8266-rtos-sdk.rst:626
+#: ../../../frameworks/esp8266-rtos-sdk.rst:647
+#: ../../../frameworks/esp8266-rtos-sdk.rst:668
+msgid "80MHz"
+msgstr ""
+
+#: ../../../frameworks/esp8266-rtos-sdk.rst:67
+#: ../../../frameworks/esp8266-rtos-sdk.rst:249
+#: ../../../frameworks/esp8266-rtos-sdk.rst:522
+#: ../../../frameworks/esp8266-rtos-sdk.rst:529
+msgid "512KB"
+msgstr ""
+
+#: ../../../frameworks/esp8266-rtos-sdk.rst:68
+#: ../../../frameworks/esp8266-rtos-sdk.rst:89
+#: ../../../frameworks/esp8266-rtos-sdk.rst:110
+#: ../../../frameworks/esp8266-rtos-sdk.rst:131
+#: ../../../frameworks/esp8266-rtos-sdk.rst:138
+#: ../../../frameworks/esp8266-rtos-sdk.rst:159
+#: ../../../frameworks/esp8266-rtos-sdk.rst:180
+#: ../../../frameworks/esp8266-rtos-sdk.rst:187
+#: ../../../frameworks/esp8266-rtos-sdk.rst:208
+#: ../../../frameworks/esp8266-rtos-sdk.rst:229
+#: ../../../frameworks/esp8266-rtos-sdk.rst:236
+#: ../../../frameworks/esp8266-rtos-sdk.rst:243
+#: ../../../frameworks/esp8266-rtos-sdk.rst:250
+#: ../../../frameworks/esp8266-rtos-sdk.rst:257
+#: ../../../frameworks/esp8266-rtos-sdk.rst:264
+#: ../../../frameworks/esp8266-rtos-sdk.rst:271
+#: ../../../frameworks/esp8266-rtos-sdk.rst:278
+#: ../../../frameworks/esp8266-rtos-sdk.rst:285
+#: ../../../frameworks/esp8266-rtos-sdk.rst:292
+#: ../../../frameworks/esp8266-rtos-sdk.rst:313
+#: ../../../frameworks/esp8266-rtos-sdk.rst:334
+#: ../../../frameworks/esp8266-rtos-sdk.rst:341
+#: ../../../frameworks/esp8266-rtos-sdk.rst:348
+#: ../../../frameworks/esp8266-rtos-sdk.rst:355
+#: ../../../frameworks/esp8266-rtos-sdk.rst:376
+#: ../../../frameworks/esp8266-rtos-sdk.rst:397
+#: ../../../frameworks/esp8266-rtos-sdk.rst:418
+#: ../../../frameworks/esp8266-rtos-sdk.rst:425
+#: ../../../frameworks/esp8266-rtos-sdk.rst:446
+#: ../../../frameworks/esp8266-rtos-sdk.rst:467
+#: ../../../frameworks/esp8266-rtos-sdk.rst:488
+#: ../../../frameworks/esp8266-rtos-sdk.rst:495
+#: ../../../frameworks/esp8266-rtos-sdk.rst:516
+#: ../../../frameworks/esp8266-rtos-sdk.rst:523
+#: ../../../frameworks/esp8266-rtos-sdk.rst:530
+#: ../../../frameworks/esp8266-rtos-sdk.rst:551
+#: ../../../frameworks/esp8266-rtos-sdk.rst:572
+#: ../../../frameworks/esp8266-rtos-sdk.rst:593
+#: ../../../frameworks/esp8266-rtos-sdk.rst:600
+#: ../../../frameworks/esp8266-rtos-sdk.rst:607
+#: ../../../frameworks/esp8266-rtos-sdk.rst:628
+#: ../../../frameworks/esp8266-rtos-sdk.rst:649
+#: ../../../frameworks/esp8266-rtos-sdk.rst:670
+msgid "80KB"
+msgstr ""
+
+#: ../../../frameworks/esp8266-rtos-sdk.rst:71
+msgid "Adafruit"
+msgstr ""
+
+#: ../../../frameworks/esp8266-rtos-sdk.rst:83
+msgid ":ref:`board_espressif8266_huzzah`"
+msgstr ""
+
+#: ../../../frameworks/esp8266-rtos-sdk.rst:88
+#: ../../../frameworks/esp8266-rtos-sdk.rst:109
+#: ../../../frameworks/esp8266-rtos-sdk.rst:137
+#: ../../../frameworks/esp8266-rtos-sdk.rst:158
+#: ../../../frameworks/esp8266-rtos-sdk.rst:179
+#: ../../../frameworks/esp8266-rtos-sdk.rst:186
+#: ../../../frameworks/esp8266-rtos-sdk.rst:207
+#: ../../../frameworks/esp8266-rtos-sdk.rst:235
+#: ../../../frameworks/esp8266-rtos-sdk.rst:263
+#: ../../../frameworks/esp8266-rtos-sdk.rst:277
+#: ../../../frameworks/esp8266-rtos-sdk.rst:284
+#: ../../../frameworks/esp8266-rtos-sdk.rst:312
+#: ../../../frameworks/esp8266-rtos-sdk.rst:375
+#: ../../../frameworks/esp8266-rtos-sdk.rst:417
+#: ../../../frameworks/esp8266-rtos-sdk.rst:424
+#: ../../../frameworks/esp8266-rtos-sdk.rst:466
+#: ../../../frameworks/esp8266-rtos-sdk.rst:487
+#: ../../../frameworks/esp8266-rtos-sdk.rst:494
+#: ../../../frameworks/esp8266-rtos-sdk.rst:515
+#: ../../../frameworks/esp8266-rtos-sdk.rst:550
+#: ../../../frameworks/esp8266-rtos-sdk.rst:571
+#: ../../../frameworks/esp8266-rtos-sdk.rst:592
+#: ../../../frameworks/esp8266-rtos-sdk.rst:599
+#: ../../../frameworks/esp8266-rtos-sdk.rst:648
+#: ../../../frameworks/esp8266-rtos-sdk.rst:669
+msgid "4MB"
+msgstr ""
+
+#: ../../../frameworks/esp8266-rtos-sdk.rst:92
+msgid "Amperka"
+msgstr ""
+
+#: ../../../frameworks/esp8266-rtos-sdk.rst:104
+msgid ":ref:`board_espressif8266_wifi_slot`"
+msgstr ""
+
+#: ../../../frameworks/esp8266-rtos-sdk.rst:113
+msgid "Doit"
+msgstr ""
+
+#: ../../../frameworks/esp8266-rtos-sdk.rst:125
+msgid ":ref:`board_espressif8266_espmxdevkit`"
+msgstr ""
+
+#: ../../../frameworks/esp8266-rtos-sdk.rst:130
+#: ../../../frameworks/esp8266-rtos-sdk.rst:242
+#: ../../../frameworks/esp8266-rtos-sdk.rst:256
+#: ../../../frameworks/esp8266-rtos-sdk.rst:270
+#: ../../../frameworks/esp8266-rtos-sdk.rst:291
+#: ../../../frameworks/esp8266-rtos-sdk.rst:333
+#: ../../../frameworks/esp8266-rtos-sdk.rst:340
+#: ../../../frameworks/esp8266-rtos-sdk.rst:347
+#: ../../../frameworks/esp8266-rtos-sdk.rst:354
+msgid "1MB"
+msgstr ""
+
+#: ../../../frameworks/esp8266-rtos-sdk.rst:132
+msgid ":ref:`board_espressif8266_espduino`"
+msgstr ""
+
+#: ../../../frameworks/esp8266-rtos-sdk.rst:141
+msgid "DycodeX"
+msgstr ""
+
+#: ../../../frameworks/esp8266-rtos-sdk.rst:153
+msgid ":ref:`board_espressif8266_espectro`"
+msgstr ""
+
+#: ../../../frameworks/esp8266-rtos-sdk.rst:162
+msgid "ESPert"
+msgstr ""
+
+#: ../../../frameworks/esp8266-rtos-sdk.rst:174
+msgid ":ref:`board_espressif8266_espresso_lite_v1`"
+msgstr ""
+
+#: ../../../frameworks/esp8266-rtos-sdk.rst:181
+msgid ":ref:`board_espressif8266_espresso_lite_v2`"
+msgstr ""
+
+#: ../../../frameworks/esp8266-rtos-sdk.rst:190
+msgid "ESPino"
+msgstr ""
+
+#: ../../../frameworks/esp8266-rtos-sdk.rst:202
+msgid ":ref:`board_espressif8266_espino`"
+msgstr ""
+
+#: ../../../frameworks/esp8266-rtos-sdk.rst:211
+msgid "Espressif"
+msgstr ""
+
+#: ../../../frameworks/esp8266-rtos-sdk.rst:223
+msgid ":ref:`board_espressif8266_esp_wroom_02`"
+msgstr ""
+
+#: ../../../frameworks/esp8266-rtos-sdk.rst:228
+#: ../../../frameworks/esp8266-rtos-sdk.rst:396
+#: ../../../frameworks/esp8266-rtos-sdk.rst:445
+#: ../../../frameworks/esp8266-rtos-sdk.rst:627
+msgid "2MB"
+msgstr ""
+
+#: ../../../frameworks/esp8266-rtos-sdk.rst:230
+msgid ":ref:`board_espressif8266_esp12e`"
+msgstr ""
+
+#: ../../../frameworks/esp8266-rtos-sdk.rst:237
+msgid ":ref:`board_espressif8266_esp01_1m`"
+msgstr ""
+
+#: ../../../frameworks/esp8266-rtos-sdk.rst:244
+msgid ":ref:`board_espressif8266_esp01`"
+msgstr ""
+
+#: ../../../frameworks/esp8266-rtos-sdk.rst:251
+msgid ":ref:`board_espressif8266_esp07`"
+msgstr ""
+
+#: ../../../frameworks/esp8266-rtos-sdk.rst:258
+msgid ":ref:`board_espressif8266_esp07s`"
+msgstr ""
+
+#: ../../../frameworks/esp8266-rtos-sdk.rst:265
+msgid ":ref:`board_espressif8266_esp8285`"
+msgstr ""
+
+#: ../../../frameworks/esp8266-rtos-sdk.rst:272
+msgid ":ref:`board_espressif8266_phoenix_v1`"
+msgstr ""
+
+#: ../../../frameworks/esp8266-rtos-sdk.rst:279
+msgid ":ref:`board_espressif8266_phoenix_v2`"
+msgstr ""
+
+#: ../../../frameworks/esp8266-rtos-sdk.rst:286
+msgid ":ref:`board_espressif8266_wifinfo`"
+msgstr ""
+
+#: ../../../frameworks/esp8266-rtos-sdk.rst:295
+msgid "Heltec"
+msgstr ""
+
+#: ../../../frameworks/esp8266-rtos-sdk.rst:307
+msgid ":ref:`board_espressif8266_heltec_wifi_kit_8`"
+msgstr ""
+
+#: ../../../frameworks/esp8266-rtos-sdk.rst:316
+msgid "ITEAD"
+msgstr ""
+
+#: ../../../frameworks/esp8266-rtos-sdk.rst:328
+msgid ":ref:`board_espressif8266_sonoff_basic`"
+msgstr ""
+
+#: ../../../frameworks/esp8266-rtos-sdk.rst:335
+msgid ":ref:`board_espressif8266_sonoff_s20`"
+msgstr ""
+
+#: ../../../frameworks/esp8266-rtos-sdk.rst:342
+msgid ":ref:`board_espressif8266_sonoff_sv`"
+msgstr ""
+
+#: ../../../frameworks/esp8266-rtos-sdk.rst:349
+msgid ":ref:`board_espressif8266_sonoff_th`"
+msgstr ""
+
+#: ../../../frameworks/esp8266-rtos-sdk.rst:358
+msgid "Invent One"
+msgstr ""
+
+#: ../../../frameworks/esp8266-rtos-sdk.rst:370
+msgid ":ref:`board_espressif8266_inventone`"
+msgstr ""
+
+#: ../../../frameworks/esp8266-rtos-sdk.rst:379
+msgid "Lifely.cc"
+msgstr ""
+
+#: ../../../frameworks/esp8266-rtos-sdk.rst:391
+msgid ":ref:`board_espressif8266_agruminolemon`"
+msgstr ""
+
+#: ../../../frameworks/esp8266-rtos-sdk.rst:400
+msgid "NodeMCU"
+msgstr ""
+
+#: ../../../frameworks/esp8266-rtos-sdk.rst:412
+msgid ":ref:`board_espressif8266_nodemcu`"
+msgstr ""
+
+#: ../../../frameworks/esp8266-rtos-sdk.rst:419
+msgid ":ref:`board_espressif8266_nodemcuv2`"
+msgstr ""
+
+#: ../../../frameworks/esp8266-rtos-sdk.rst:428
+msgid "Olimex"
+msgstr ""
+
+#: ../../../frameworks/esp8266-rtos-sdk.rst:440
+msgid ":ref:`board_espressif8266_modwifi`"
+msgstr ""
+
+#: ../../../frameworks/esp8266-rtos-sdk.rst:449
+msgid "Schirmilabs"
+msgstr ""
+
+#: ../../../frameworks/esp8266-rtos-sdk.rst:461
+msgid ":ref:`board_espressif8266_eduinowifi`"
+msgstr ""
+
+#: ../../../frameworks/esp8266-rtos-sdk.rst:470
+msgid "SeeedStudio"
+msgstr ""
+
+#: ../../../frameworks/esp8266-rtos-sdk.rst:482
+msgid ":ref:`board_espressif8266_wio_link`"
+msgstr ""
+
+#: ../../../frameworks/esp8266-rtos-sdk.rst:489
+msgid ":ref:`board_espressif8266_wio_node`"
+msgstr ""
+
+#: ../../../frameworks/esp8266-rtos-sdk.rst:498
+msgid "SparkFun"
+msgstr ""
+
+#: ../../../frameworks/esp8266-rtos-sdk.rst:510
+msgid ":ref:`board_espressif8266_sparkfunBlynk`"
+msgstr ""
+
+#: ../../../frameworks/esp8266-rtos-sdk.rst:517
+msgid ":ref:`board_espressif8266_thing`"
+msgstr ""
+
+#: ../../../frameworks/esp8266-rtos-sdk.rst:524
+msgid ":ref:`board_espressif8266_thingdev`"
+msgstr ""
+
+#: ../../../frameworks/esp8266-rtos-sdk.rst:533
+msgid "SweetPea"
+msgstr ""
+
+#: ../../../frameworks/esp8266-rtos-sdk.rst:545
+msgid ":ref:`board_espressif8266_esp210`"
+msgstr ""
+
+#: ../../../frameworks/esp8266-rtos-sdk.rst:554
+msgid "ThaiEasyElec"
+msgstr ""
+
+#: ../../../frameworks/esp8266-rtos-sdk.rst:566
+msgid ":ref:`board_espressif8266_espinotee`"
+msgstr ""
+
+#: ../../../frameworks/esp8266-rtos-sdk.rst:575
+msgid "WEMOS"
+msgstr ""
+
+#: ../../../frameworks/esp8266-rtos-sdk.rst:587
+msgid ":ref:`board_espressif8266_d1`"
+msgstr ""
+
+#: ../../../frameworks/esp8266-rtos-sdk.rst:594
+msgid ":ref:`board_espressif8266_d1_mini`"
+msgstr ""
+
+#: ../../../frameworks/esp8266-rtos-sdk.rst:601
+msgid ":ref:`board_espressif8266_d1_mini_pro`"
+msgstr ""
+
+#: ../../../frameworks/esp8266-rtos-sdk.rst:606
+msgid "16MB"
+msgstr ""
+
+#: ../../../frameworks/esp8266-rtos-sdk.rst:610
+msgid "WeMos"
+msgstr ""
+
+#: ../../../frameworks/esp8266-rtos-sdk.rst:622
+msgid ":ref:`board_espressif8266_d1_wroom_02`"
+msgstr ""
+
+#: ../../../frameworks/esp8266-rtos-sdk.rst:631
+msgid "WifiDuino"
+msgstr ""
+
+#: ../../../frameworks/esp8266-rtos-sdk.rst:643
+msgid ":ref:`board_espressif8266_wifiduino`"
+msgstr ""
+
+#: ../../../frameworks/esp8266-rtos-sdk.rst:652
+msgid "XinaBox"
+msgstr ""
+
+#: ../../../frameworks/esp8266-rtos-sdk.rst:664
+msgid ":ref:`board_espressif8266_xinabox_cw01`"
+msgstr ""

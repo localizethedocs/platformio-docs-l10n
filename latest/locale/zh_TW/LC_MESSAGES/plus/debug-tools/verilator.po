@@ -1,0 +1,156 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present, PlatformIO
+# This file is distributed under the same license as the PlatformIO package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PlatformIO latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-24 14:02+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../plus/debug-tools/verilator.rst:15
+msgid "Verilator"
+msgstr ""
+
+#: ../../../plus/debug-tools/verilator.rst:20
+msgid ""
+"Verilator is a free and open-source software tool which converts Verilog to "
+"a cycle-accurate behavioral model in C++ or SystemC. Official reference can "
+"be found `here <https://www.veripool.org/wiki/verilator/?"
+"utm_source=platformio&utm_medium=docs>`__."
+msgstr ""
+
+#: ../../../plus/debug-tools/verilator.rst:24
+msgid "Contents"
+msgstr ""
+
+#: ../../../plus/debug-tools/verilator.rst:27
+msgid "Configuration"
+msgstr ""
+
+#: ../../../plus/debug-tools/verilator.rst:29
+msgid ""
+"You can configure debugging tool using :ref:`projectconf_debug_tool` option "
+"in :ref:`projectconf`:"
+msgstr ""
+
+#: ../../../plus/debug-tools/verilator.rst:39
+msgid "More options:"
+msgstr ""
+
+#: ../../../plus/debug-tools/verilator.rst:41
+msgid ":ref:`projectconf_section_env_debug`"
+msgstr ""
+
+#: ../../../plus/debug-tools/verilator.rst:46
+msgid "Platforms"
+msgstr ""
+
+#: ../../../plus/debug-tools/verilator.rst:50
+#: ../../../plus/debug-tools/verilator.rst:61
+#: ../../../plus/debug-tools/verilator.rst:80
+msgid "Name"
+msgstr ""
+
+#: ../../../plus/debug-tools/verilator.rst:51
+#: ../../../plus/debug-tools/verilator.rst:62
+msgid "Description"
+msgstr ""
+
+#: ../../../plus/debug-tools/verilator.rst:53
+#: ../../../plus/debug-tools/verilator.rst:88
+msgid ":ref:`platform_chipsalliance`"
+msgstr ""
+
+#: ../../../plus/debug-tools/verilator.rst:54
+msgid ""
+"The CHIPS Alliance develops high-quality, open source hardware designs "
+"relevant to silicon devices and FPGAs."
+msgstr ""
+
+#: ../../../plus/debug-tools/verilator.rst:57
+msgid "Frameworks"
+msgstr ""
+
+#: ../../../plus/debug-tools/verilator.rst:64
+msgid ":ref:`framework_freertos`"
+msgstr ""
+
+#: ../../../plus/debug-tools/verilator.rst:65
+msgid ""
+"FreeRTOS is a real-time operating system kernel for embedded devices that "
+"has been ported to 40 microcontroller platforms."
+msgstr ""
+
+#: ../../../plus/debug-tools/verilator.rst:67
+msgid ":ref:`framework_wd-riscv-sdk`"
+msgstr ""
+
+#: ../../../plus/debug-tools/verilator.rst:68
+msgid ""
+"The WD Firmware package contains Firmware applications and Processor Support "
+"Package (PSP) for various cores, alongside demos which support all features."
+msgstr ""
+
+#: ../../../plus/debug-tools/verilator.rst:71
+msgid "Boards"
+msgstr ""
+
+#: ../../../plus/debug-tools/verilator.rst:74
+msgid ""
+"For more detailed ``board`` information please scroll tables below by "
+"horizontal."
+msgstr ""
+
+#: ../../../plus/debug-tools/verilator.rst:81
+msgid "Platform"
+msgstr ""
+
+#: ../../../plus/debug-tools/verilator.rst:82
+msgid "Debug"
+msgstr ""
+
+#: ../../../plus/debug-tools/verilator.rst:83
+msgid "MCU"
+msgstr ""
+
+#: ../../../plus/debug-tools/verilator.rst:84
+msgid "Frequency"
+msgstr ""
+
+#: ../../../plus/debug-tools/verilator.rst:85
+msgid "Flash"
+msgstr ""
+
+#: ../../../plus/debug-tools/verilator.rst:86
+msgid "RAM"
+msgstr ""
+
+#: ../../../plus/debug-tools/verilator.rst:87
+msgid ":ref:`board_chipsalliance_swervolf_nexys`"
+msgstr ""
+
+#: ../../../plus/debug-tools/verilator.rst:89
+msgid "On-board"
+msgstr ""
+
+#: ../../../plus/debug-tools/verilator.rst:91
+msgid "320MHz"
+msgstr ""
+
+#: ../../../plus/debug-tools/verilator.rst:92
+msgid "16MB"
+msgstr ""
+
+#: ../../../plus/debug-tools/verilator.rst:93
+msgid "1.16MB"
+msgstr ""

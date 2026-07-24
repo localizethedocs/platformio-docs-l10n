@@ -1,0 +1,318 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present, PlatformIO
+# This file is distributed under the same license as the PlatformIO package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PlatformIO latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-24 14:02+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../core/userguide/lib/cmd_install.rst:15
+msgid "pio lib install"
+msgstr ""
+
+#: ../../../core/userguide/lib/cmd_install.rst:20
+msgid "This command is deprecated and will be removed in the next releases."
+msgstr ""
+
+#: ../../../core/userguide/lib/cmd_install.rst:22
+msgid "Please use the :ref:`cmd_pkg_install` command instead."
+msgstr ""
+
+#: ../../../core/userguide/lib/cmd_install.rst:24
+msgid "Contents"
+msgstr ""
+
+#: ../../../core/userguide/lib/cmd_install.rst:27
+msgid "Usage"
+msgstr ""
+
+#: ../../../core/userguide/lib/cmd_install.rst:69
+msgid ""
+"If some libraries are not visible in :ref:`pioide` and Code Completion or "
+"Code Linting does not work properly, please perform"
+msgstr ""
+
+#: ../../../core/userguide/lib/cmd_install.rst:72
+msgid ""
+"**VSCode**: \"Menu: View > Command Palette... > PlatformIO: Rebuild C/C++ "
+"Project Index\""
+msgstr ""
+
+#: ../../../core/userguide/lib/cmd_install.rst:76
+msgid "Description"
+msgstr ""
+
+#: ../../../core/userguide/lib/cmd_install.rst:78
+msgid "Install a library, and any libraries that it depends on using:"
+msgstr ""
+
+#: ../../../core/userguide/lib/cmd_install.rst:80
+msgid "`PlatformIO Library Registry <https://platformio.org/lib>`_"
+msgstr ""
+
+#: ../../../core/userguide/lib/cmd_install.rst:81
+msgid "Custom folder, repository or archive."
+msgstr ""
+
+#: ../../../core/userguide/lib/cmd_install.rst:83
+msgid ""
+"The ``version`` supports `Semantic Versioning <https://devhints.io/semver>`_ "
+"( ``<major>.<minor>.<patch>``) and can take any of the following forms:"
+msgstr ""
+
+#: ../../../core/userguide/lib/cmd_install.rst:86
+msgid ""
+"``^1.2.3`` - any compatible version (new functionality in a backwards "
+"compatible manner and patches are allowed, 1.x.x). **RECOMMENDED**"
+msgstr ""
+
+#: ../../../core/userguide/lib/cmd_install.rst:87
+msgid ""
+"``~1.2.3`` - any version with the same major and minor versions, and an "
+"equal or greater patch version"
+msgstr ""
+
+#: ../../../core/userguide/lib/cmd_install.rst:89
+msgid ""
+"``>1.2.3`` - any version greater than ``1.2.3``. ``>=``, ``<``, and ``<=`` "
+"are also possible"
+msgstr ""
+
+#: ../../../core/userguide/lib/cmd_install.rst:91
+msgid ""
+"``>0.1.0,!=0.2.0,<0.3.0`` - any version greater than ``0.1.0``, not equal to "
+"``0.2.0`` and less than ``0.3.0``"
+msgstr ""
+
+#: ../../../core/userguide/lib/cmd_install.rst:93
+msgid "``1.2.3`` - an exact version number. Use only this exact version."
+msgstr ""
+
+#: ../../../core/userguide/lib/cmd_install.rst:95
+msgid ""
+"PlatformIO supports installing from local directory or archive. YOu need to "
+"use ``file://`` prefix before local path."
+msgstr ""
+
+#: ../../../core/userguide/lib/cmd_install.rst:98
+msgid "``file:///local/path/to/the/platform/dir``"
+msgstr ""
+
+#: ../../../core/userguide/lib/cmd_install.rst:99
+msgid "``file:///local/path/to/the/platform.zip``"
+msgstr ""
+
+#: ../../../core/userguide/lib/cmd_install.rst:100
+msgid "``file:///local/path/to/the/platform.tar.gz``"
+msgstr ""
+
+#: ../../../core/userguide/lib/cmd_install.rst:103
+msgid "Storage Options"
+msgstr ""
+
+#: ../../../core/userguide/lib/cmd_install.rst:105
+msgid "See base options for :ref:`cmd_lib`."
+msgstr ""
+
+#: ../../../core/userguide/lib/cmd_install.rst:108
+msgid "Options"
+msgstr ""
+
+#: ../../../core/userguide/lib/cmd_install.rst:115
+msgid ""
+"Save installed libraries into the :ref:`projectconf` dependency list (:ref:"
+"`projectconf_lib_deps`). Default value is to save."
+msgstr ""
+
+#: ../../../core/userguide/lib/cmd_install.rst:118
+msgid ""
+"You can save libraries for the specific project environment using ``-e, --"
+"environment`` option from :ref:`pio lib <cmd_lib>` command. For example, "
+"``pio lib -e myenv install [LIBRARY...]``."
+msgstr ""
+
+#: ../../../core/userguide/lib/cmd_install.rst:125
+msgid "Suppress progress reporting."
+msgstr ""
+
+#: ../../../core/userguide/lib/cmd_install.rst:130
+msgid "Reinstall library if it is already installed."
+msgstr ""
+
+#: ../../../core/userguide/lib/cmd_install.rst:133
+msgid "Version control"
+msgstr ""
+
+#: ../../../core/userguide/lib/cmd_install.rst:135
+msgid ""
+"PlatformIO supports installing from Git, Mercurial and Subversion, and "
+"detects the type of VCS using url prefixes: \"git+\", \"hg+\", or \"svn+\"."
+msgstr ""
+
+#: ../../../core/userguide/lib/cmd_install.rst:139
+msgid ""
+"PlatformIO requires a working VCS command on your path: ``git``, ``hg`` or "
+"``svn``."
+msgstr ""
+
+#: ../../../core/userguide/lib/cmd_install.rst:143
+msgid "Git"
+msgstr ""
+
+#: ../../../core/userguide/lib/cmd_install.rst:145
+msgid ""
+"The supported schemes are: ``git``, ``git+https`` and ``git+ssh``. Here are "
+"the supported forms:"
+msgstr ""
+
+#: ../../../core/userguide/lib/cmd_install.rst:148
+msgid "https://github.com/user/library.git"
+msgstr ""
+
+#: ../../../core/userguide/lib/cmd_install.rst:149
+msgid "git+git://git.server.org/my-library"
+msgstr ""
+
+#: ../../../core/userguide/lib/cmd_install.rst:150
+msgid "git+https://git.server.org/my-library"
+msgstr ""
+
+#: ../../../core/userguide/lib/cmd_install.rst:151
+msgid "git+ssh://git.server.org/my-library"
+msgstr ""
+
+#: ../../../core/userguide/lib/cmd_install.rst:152
+msgid "git+ssh://user@git.server.org/my-library"
+msgstr ""
+
+#: ../../../core/userguide/lib/cmd_install.rst:153
+msgid "[user@]host.xz:path/to/repo.git"
+msgstr ""
+
+#: ../../../core/userguide/lib/cmd_install.rst:155
+#: ../../../core/userguide/lib/cmd_install.rst:173
+msgid "Passing branch names, a commit hash or a tag name is possible like so:"
+msgstr ""
+
+#: ../../../core/userguide/lib/cmd_install.rst:157
+msgid "https://github.com/user/library.git#master"
+msgstr ""
+
+#: ../../../core/userguide/lib/cmd_install.rst:158
+msgid "git+git://git.server.org/my-library#master"
+msgstr ""
+
+#: ../../../core/userguide/lib/cmd_install.rst:159
+msgid "git+https://git.server.org/my-library#v1.0"
+msgstr ""
+
+#: ../../../core/userguide/lib/cmd_install.rst:160
+msgid ""
+"git+ssh://git.server.org/my-library#7846d8ad52f983f2f2887bdc0f073fe9755a806d"
+msgstr ""
+
+#: ../../../core/userguide/lib/cmd_install.rst:163
+msgid "Mercurial"
+msgstr ""
+
+#: ../../../core/userguide/lib/cmd_install.rst:165
+msgid ""
+"The supported schemes are: ``hg+http``, ``hg+https`` and ``hg+ssh``. Here "
+"are the supported forms:"
+msgstr ""
+
+#: ../../../core/userguide/lib/cmd_install.rst:168
+msgid ""
+"https://developer.mbed.org/users/user/code/library/ (install ARM mbed "
+"library)"
+msgstr ""
+
+#: ../../../core/userguide/lib/cmd_install.rst:169
+msgid "hg+hg://hg.server.org/my-library"
+msgstr ""
+
+#: ../../../core/userguide/lib/cmd_install.rst:170
+msgid "hg+https://hg.server.org/my-library"
+msgstr ""
+
+#: ../../../core/userguide/lib/cmd_install.rst:171
+msgid "hg+ssh://hg.server.org/my-library"
+msgstr ""
+
+#: ../../../core/userguide/lib/cmd_install.rst:175
+msgid "hg+hg://hg.server.org/my-library#master"
+msgstr ""
+
+#: ../../../core/userguide/lib/cmd_install.rst:176
+msgid "hg+https://hg.server.org/my-library#v1.0"
+msgstr ""
+
+#: ../../../core/userguide/lib/cmd_install.rst:177
+msgid "hg+ssh://hg.server.org/my-library#4cfe2fa00668"
+msgstr ""
+
+#: ../../../core/userguide/lib/cmd_install.rst:180
+msgid "Subversion"
+msgstr ""
+
+#: ../../../core/userguide/lib/cmd_install.rst:182
+msgid ""
+"The supported schemes are: ``svn``, ``svn+svn``, ``svn+http``, ``svn+https`` "
+"and ``svn+ssh``. Here are the supported forms:"
+msgstr ""
+
+#: ../../../core/userguide/lib/cmd_install.rst:185
+msgid "svn+svn://svn.server.org/my-library"
+msgstr ""
+
+#: ../../../core/userguide/lib/cmd_install.rst:186
+msgid "svn+https://svn.server.org/my-library"
+msgstr ""
+
+#: ../../../core/userguide/lib/cmd_install.rst:187
+msgid "svn+ssh://svn.server.org/my-library"
+msgstr ""
+
+#: ../../../core/userguide/lib/cmd_install.rst:189
+msgid "You can also give specific revisions to an SVN URL, like so:"
+msgstr ""
+
+#: ../../../core/userguide/lib/cmd_install.rst:191
+msgid "svn+svn://svn.server.org/my-library#13"
+msgstr ""
+
+#: ../../../core/userguide/lib/cmd_install.rst:195
+msgid "Examples"
+msgstr ""
+
+#: ../../../core/userguide/lib/cmd_install.rst:197
+msgid ""
+"Install the latest version of library to a global storage using ID or NAME"
+msgstr ""
+
+#: ../../../core/userguide/lib/cmd_install.rst:219
+msgid "Install specified version of a library to a global storage"
+msgstr ""
+
+#: ../../../core/userguide/lib/cmd_install.rst:234
+msgid "Install library with dependencies to custom storage"
+msgstr ""
+
+#: ../../../core/userguide/lib/cmd_install.rst:255
+msgid "Install ARM mbed library to the global storage"
+msgstr ""
+
+#: ../../../core/userguide/lib/cmd_install.rst:278
+msgid "Install from archive using URL"
+msgstr ""

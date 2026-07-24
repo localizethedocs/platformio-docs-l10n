@@ -1,0 +1,60 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present, PlatformIO
+# This file is distributed under the same license as the PlatformIO package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PlatformIO latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-24 14:02+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../core/userguide/account/cmd_token.rst:15
+msgid "pio account token"
+msgstr ""
+
+#: ../../../core/userguide/account/cmd_token.rst:17
+msgid "Contents"
+msgstr ""
+
+#: ../../../core/userguide/account/cmd_token.rst:20
+msgid "Usage"
+msgstr ""
+
+#: ../../../core/userguide/account/cmd_token.rst:27
+msgid "Description"
+msgstr ""
+
+#: ../../../core/userguide/account/cmd_token.rst:29
+msgid ""
+"Get or regenerate Personal Authentication Token. It is very useful for :ref:"
+"`ci` systems, :ref:`pioremote` operations where you are not able to "
+"authorize manually."
+msgstr ""
+
+#: ../../../core/userguide/account/cmd_token.rst:32
+msgid ""
+"PlatformIO handles Personal Authentication Token from environment variable :"
+"envvar:`PLATFORMIO_AUTH_TOKEN`."
+msgstr ""
+
+#: ../../../core/userguide/account/cmd_token.rst:36
+msgid "Options"
+msgstr ""
+
+#: ../../../core/userguide/account/cmd_token.rst:43
+msgid ""
+"If this option is specified a new authentication token will be generated."
+msgstr ""
+
+#: ../../../core/userguide/account/cmd_token.rst:48
+msgid "Return the output in `JSON <http://en.wikipedia.org/wiki/JSON>`_ format"
+msgstr ""

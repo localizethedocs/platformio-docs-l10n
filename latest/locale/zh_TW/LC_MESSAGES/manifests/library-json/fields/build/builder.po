@@ -1,0 +1,72 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present, PlatformIO
+# This file is distributed under the same license as the PlatformIO package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PlatformIO latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-24 14:02+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../manifests/library-json/fields/build/builder.rst:13
+msgid "``builder``"
+msgstr ""
+
+#: ../../../manifests/library-json/fields/build/builder.rst:15
+msgid "*Optional* | Type: ``String``"
+msgstr ""
+
+#: ../../../manifests/library-json/fields/build/builder.rst:17
+msgid ""
+"Override default ``PlatformIOLibBuilder`` with another builder. Currently "
+"supported builders:"
+msgstr ""
+
+#: ../../../manifests/library-json/fields/build/builder.rst:20
+msgid "``PlatformIOLibBuilder`` (default)"
+msgstr ""
+
+#: ../../../manifests/library-json/fields/build/builder.rst:21
+msgid "``ArduinoLibBuilder``"
+msgstr ""
+
+#: ../../../manifests/library-json/fields/build/builder.rst:22
+msgid "``MbedLibBuilder``"
+msgstr ""
+
+#: ../../../manifests/library-json/fields/build/builder.rst:25
+msgid "Examples"
+msgstr ""
+
+#: ../../../manifests/library-json/fields/build/builder.rst:27
+msgid "Custom macros/defines"
+msgstr ""
+
+#: ../../../manifests/library-json/fields/build/builder.rst:35
+msgid "Extra includes for C preprocessor"
+msgstr ""
+
+#: ../../../manifests/library-json/fields/build/builder.rst:46
+msgid "Force to use ``C99`` standard instead of ``C11``"
+msgstr ""
+
+#: ../../../manifests/library-json/fields/build/builder.rst:55
+msgid "Build source files (``c, cpp, h``) at the top level of the library"
+msgstr ""
+
+#: ../../../manifests/library-json/fields/build/builder.rst:68
+msgid "Extend PlatformIO Build System with own extra script"
+msgstr ""
+
+#: ../../../manifests/library-json/fields/build/builder.rst:76
+msgid "``generate_headers.py``"
+msgstr ""

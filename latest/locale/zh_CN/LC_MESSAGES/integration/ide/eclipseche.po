@@ -1,0 +1,185 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present, PlatformIO
+# This file is distributed under the same license as the PlatformIO package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PlatformIO latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-24 14:02+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../integration/ide/eclipseche.rst:15
+msgid "Eclipse Che"
+msgstr ""
+
+#: ../../../integration/ide/eclipseche.rst:17
+msgid ""
+"`Eclipse Che <https://www.eclipse.org/che/>`_ is an open-source Java based "
+"developer workspace server and cloud integrated development environment "
+"(IDE) which provides a remote development platform for multi-user purpose. "
+"The workspace server comes with a RESTful webservice and provides high "
+"flexibility. It also contains a SDK which can be used to create plug-ins for "
+"languages, frameworks or tools."
+msgstr ""
+
+#: ../../../integration/ide/eclipseche.rst:24
+msgid "Contents"
+msgstr ""
+
+#: ../../../integration/ide/eclipseche.rst:28
+msgid "Please make sure to read :ref:`pioremote` guide first."
+msgstr ""
+
+#: ../../../integration/ide/eclipseche.rst:29
+msgid "You need :ref:`pioaccount` if you don't have it. Registration is FREE."
+msgstr ""
+
+#: ../../../integration/ide/eclipseche.rst:30
+msgid ""
+"You should have a running :ref:`cmd_remote_agent` on a remote machine where "
+"hardware devices are connected physically or accessible for the remote "
+"operations. See **Remote Development** :ref:`pio_remote_quickstart` for "
+"details."
+msgstr ""
+
+#: ../../../integration/ide/eclipseche.rst:35
+msgid "Demo"
+msgstr ""
+
+#: ../../../integration/ide/eclipseche.rst:40
+msgid "Integration"
+msgstr ""
+
+#: ../../../integration/ide/eclipseche.rst:42
+msgid ""
+"`Sign in to Codenvy (based on Eclipse Che) <https://codenvy.com>`_. A "
+"registration is FREE and gives you unlimited private projects."
+msgstr ""
+
+#: ../../../integration/ide/eclipseche.rst:45
+msgid "Open `Workspaces <https://codenvy.io/dashboard/#/workspaces>`_ tab"
+msgstr ""
+
+#: ../../../integration/ide/eclipseche.rst:47
+msgid "Click on \"Add Workspace\", then switch to \"Runtime\" tab."
+msgstr ""
+
+#: ../../../integration/ide/eclipseche.rst:49
+msgid "**Name** set to \"PlatformIO\""
+msgstr ""
+
+#: ../../../integration/ide/eclipseche.rst:50
+msgid "**Stack** search for ``PLATFORMIO``"
+msgstr ""
+
+#: ../../../integration/ide/eclipseche.rst:51
+msgid "Click on \"Create\" button, then \"Open\"."
+msgstr ""
+
+#: ../../../integration/ide/eclipseche.rst:55
+msgid ""
+"Using opened Terminal, please log in to :ref:`pioaccount` using :ref:"
+"`cmd_account_login` command."
+msgstr ""
+
+#: ../../../integration/ide/eclipseche.rst:60
+msgid "Quick Start"
+msgstr ""
+
+#: ../../../integration/ide/eclipseche.rst:62
+msgid "Let's create our first PlatformIO-based Codenvy Project"
+msgstr ""
+
+#: ../../../integration/ide/eclipseche.rst:64
+msgid ""
+"Click on ``Menu: Workspace > Create New Project`` and select ``platformio-"
+"arduino-blink`` sample. Set \"Name\" to \"Arduino Blink\" and press "
+"\"Create\"."
+msgstr ""
+
+#: ../../../integration/ide/eclipseche.rst:71
+msgid ""
+"Now you can use dropdown Commands menu and process project with \"run\" "
+"command"
+msgstr ""
+
+#: ../../../integration/ide/eclipseche.rst:76
+msgid ""
+"If you prefer to work with :ref:`piocore` CLI, then you can process project "
+"using Cloud IDE Terminal and the next commands:"
+msgstr ""
+
+#: ../../../integration/ide/eclipseche.rst:79
+msgid ""
+":ref:`cmd_run` - build project locally (using Cloud IDE's virtual machine)"
+msgstr ""
+
+#: ../../../integration/ide/eclipseche.rst:80
+msgid ":ref:`pio run -t clean <cmd_run>` - clean project"
+msgstr ""
+
+#: ../../../integration/ide/eclipseche.rst:81
+msgid ""
+":ref:`pio remote run -t upload <cmd_remote_run>` - upload firmware (program) "
+"to a remote device"
+msgstr ""
+
+#: ../../../integration/ide/eclipseche.rst:82
+msgid ":ref:`cmd_remote_device_list` - list available remote devices"
+msgstr ""
+
+#: ../../../integration/ide/eclipseche.rst:83
+msgid ":ref:`cmd_remote_device_monitor` - Remote Serial Port Monitor"
+msgstr ""
+
+#: ../../../integration/ide/eclipseche.rst:87
+msgid "Multi-Project workspace"
+msgstr ""
+
+#: ../../../integration/ide/eclipseche.rst:89
+msgid ""
+"You can have multiple PlatformIO-based Projects in the same workspace. We "
+"recommend a next folders structure:"
+msgstr ""
+
+#: ../../../integration/ide/eclipseche.rst:108
+msgid ""
+"In this case, you need to use ``-d, --project-dir`` option for :ref:"
+"`cmd_run` or :ref:`cmd_remote_run` commands:"
+msgstr ""
+
+#: ../../../integration/ide/eclipseche.rst:111
+msgid "``pio remote run --project-dir project-A -t upload`` build Project-A"
+msgstr ""
+
+#: ../../../integration/ide/eclipseche.rst:112
+msgid ""
+"``pio remote run --project-dir project-A -t upload`` remote firmware "
+"uploading"
+msgstr ""
+
+#: ../../../integration/ide/eclipseche.rst:113
+msgid "using Project-A"
+msgstr ""
+
+#: ../../../integration/ide/eclipseche.rst:114
+msgid ""
+"``pio remote run -d project-B -t upload`` remote firmware (program) uploading"
+msgstr ""
+
+#: ../../../integration/ide/eclipseche.rst:115
+msgid "using Project-B"
+msgstr ""
+
+#: ../../../integration/ide/eclipseche.rst:117
+msgid "See documentation for :option:`pio remote run --project-dir` option."
+msgstr ""

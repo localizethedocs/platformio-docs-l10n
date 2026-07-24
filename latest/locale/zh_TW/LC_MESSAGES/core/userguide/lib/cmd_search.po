@@ -1,0 +1,240 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present, PlatformIO
+# This file is distributed under the same license as the PlatformIO package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PlatformIO latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-24 14:02+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../core/userguide/lib/cmd_search.rst:15
+msgid "pio lib search"
+msgstr ""
+
+#: ../../../core/userguide/lib/cmd_search.rst:20
+msgid "This command is deprecated and will be removed in the next releases."
+msgstr ""
+
+#: ../../../core/userguide/lib/cmd_search.rst:22
+msgid "Please use the :ref:`cmd_pkg_search` command instead."
+msgstr ""
+
+#: ../../../core/userguide/lib/cmd_search.rst:24
+msgid "Contents"
+msgstr ""
+
+#: ../../../core/userguide/lib/cmd_search.rst:27
+msgid "Usage"
+msgstr ""
+
+#: ../../../core/userguide/lib/cmd_search.rst:34
+#: ../../../core/userguide/lib/cmd_search.rst:45
+msgid "Description"
+msgstr ""
+
+#: ../../../core/userguide/lib/cmd_search.rst:36
+msgid ""
+"Search for library in `PlatformIO Library Registry <https://platformio.org/"
+"lib>`_ by :ref:`library_json` fields in the boolean mode."
+msgstr ""
+
+#: ../../../core/userguide/lib/cmd_search.rst:39
+msgid "The boolean search capability supports the following operators:"
+msgstr ""
+
+#: ../../../core/userguide/lib/cmd_search.rst:44
+msgid "Operator"
+msgstr ""
+
+#: ../../../core/userguide/lib/cmd_search.rst:46
+msgid "``+``"
+msgstr ""
+
+#: ../../../core/userguide/lib/cmd_search.rst:47
+msgid ""
+"A leading or trailing plus sign indicates that this word must be present in "
+"library fields (see above) that is returned."
+msgstr ""
+
+#: ../../../core/userguide/lib/cmd_search.rst:49
+msgid "``-``"
+msgstr ""
+
+#: ../../../core/userguide/lib/cmd_search.rst:50
+msgid ""
+"A leading or trailing minus sign indicates that this word must not be "
+"present in any of the libraries that are returned."
+msgstr ""
+
+#: ../../../core/userguide/lib/cmd_search.rst:52
+msgid "``(no operator)``"
+msgstr ""
+
+#: ../../../core/userguide/lib/cmd_search.rst:53
+msgid ""
+"By default (when neither ``+`` nor ``-`` is specified), the word is "
+"optional, but the libraries that contain it are rated higher."
+msgstr ""
+
+#: ../../../core/userguide/lib/cmd_search.rst:55
+msgid "``> <``"
+msgstr ""
+
+#: ../../../core/userguide/lib/cmd_search.rst:56
+msgid ""
+"These two operators are used to change a word's contribution to the "
+"relevance value that is assigned to a library. The ``>`` operator increases "
+"the contribution and the ``<`` operator decreases it."
+msgstr ""
+
+#: ../../../core/userguide/lib/cmd_search.rst:59
+msgid "``( )``"
+msgstr ""
+
+#: ../../../core/userguide/lib/cmd_search.rst:60
+msgid ""
+"Parentheses group words into subexpressions. Parenthesized groups can be "
+"nested."
+msgstr ""
+
+#: ../../../core/userguide/lib/cmd_search.rst:62
+msgid "``~``"
+msgstr ""
+
+#: ../../../core/userguide/lib/cmd_search.rst:63
+msgid ""
+"A leading tilde acts as a negation operator, causing the word's contribution "
+"to the library's relevance to be negative. This is useful for marking "
+"\"noise\" words. A library containing such a word is rated lower than "
+"others, but is not excluded altogether, as it would be with the ``-`` "
+"operator."
+msgstr ""
+
+#: ../../../core/userguide/lib/cmd_search.rst:67
+msgid "``*``"
+msgstr ""
+
+#: ../../../core/userguide/lib/cmd_search.rst:68
+msgid ""
+"The asterisk serves as the truncation (or wildcard) operator. Unlike the "
+"other operators, it is appended to the word to be affected. Words match if "
+"they begin with the word preceding the ``*`` operator."
+msgstr ""
+
+#: ../../../core/userguide/lib/cmd_search.rst:71
+msgid "``\"``"
+msgstr ""
+
+#: ../../../core/userguide/lib/cmd_search.rst:72
+msgid ""
+"A phrase that is enclosed within double quote (``\"``) characters matches "
+"only libraries that contain the phrase literally, as it was typed."
+msgstr ""
+
+#: ../../../core/userguide/lib/cmd_search.rst:76
+msgid "Options"
+msgstr ""
+
+#: ../../../core/userguide/lib/cmd_search.rst:83
+msgid "Filter libraries by registry ID"
+msgstr ""
+
+#: ../../../core/userguide/lib/cmd_search.rst:88
+msgid "Filter libraries by specified name (strict search)"
+msgstr ""
+
+#: ../../../core/userguide/lib/cmd_search.rst:93
+msgid "Filter libraries by specified author"
+msgstr ""
+
+#: ../../../core/userguide/lib/cmd_search.rst:98
+#: ../../../core/userguide/lib/cmd_search.rst:108
+msgid "Filter libraries by specified keyword"
+msgstr ""
+
+#: ../../../core/userguide/lib/cmd_search.rst:103
+msgid "Filter libraries by specified framework"
+msgstr ""
+
+#: ../../../core/userguide/lib/cmd_search.rst:113
+msgid "Filter libraries by header file (include)"
+msgstr ""
+
+#: ../../../core/userguide/lib/cmd_search.rst:115
+msgid "For example, ``pio lib search --header \"OneWire.h\"``"
+msgstr ""
+
+#: ../../../core/userguide/lib/cmd_search.rst:120
+msgid "Return the output in `JSON <http://en.wikipedia.org/wiki/JSON>`_ format"
+msgstr ""
+
+#: ../../../core/userguide/lib/cmd_search.rst:125
+msgid ""
+"Manually paginate through search results. This option is useful in pair with "
+"``--json-output``."
+msgstr ""
+
+#: ../../../core/userguide/lib/cmd_search.rst:129
+msgid "Examples"
+msgstr ""
+
+#: ../../../core/userguide/lib/cmd_search.rst:131
+msgid "List all libraries"
+msgstr ""
+
+#: ../../../core/userguide/lib/cmd_search.rst:184
+msgid ""
+"Search for `1-Wire libraries <https://platformio.org/lib/search?query=%25221-"
+"wire%2522>`_"
+msgstr ""
+
+#: ../../../core/userguide/lib/cmd_search.rst:215
+msgid ""
+"Search for `Arduino-based \"I2C\" libraries <https://platformio.org/lib/"
+"search?query=framework%253Aarduino%2520i2c>`_"
+msgstr ""
+
+#: ../../../core/userguide/lib/cmd_search.rst:256
+msgid ""
+"Search for `libraries by \"web\" and \"http\" keywords <https://platformio."
+"org/lib/search?"
+"query=keyword%253A%2522web%2522%2520keyword%253A%2522http%2522>`_."
+msgstr ""
+
+#: ../../../core/userguide/lib/cmd_search.rst:307
+msgid ""
+"Search for `libraries by \"Adafruit Industries\" author <https://platformio."
+"org/lib/search?query=author%253A%2522Adafruit%20Industries%2522>`_"
+msgstr ""
+
+#: ../../../core/userguide/lib/cmd_search.rst:338
+msgid ""
+"Search for `libraries which are compatible with Dallas temperature sensors "
+"<https://platformio.org/lib/search?query=DS*>`_ like DS18B20, DS18S20 and "
+"etc."
+msgstr ""
+
+#: ../../../core/userguide/lib/cmd_search.rst:370
+msgid ""
+"Search for `Energia-based *nRF24* or *HttpClient* libraries <https://"
+"platformio.org/lib/search?"
+"query=framework%253Aenergia%2520%252B(nRF24%2520HttpClient)>`_. The search "
+"query that is described below can be interpreted like ``energia nRF24 OR "
+"energia HttpClient``"
+msgstr ""
+
+#: ../../../core/userguide/lib/cmd_search.rst:414
+msgid ""
+"Search for the `all sensor libraries excluding temperature <https://"
+"platformio.org/lib/search?query=sensor%2520-temperature>`_."
+msgstr ""

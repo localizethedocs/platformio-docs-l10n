@@ -1,0 +1,235 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present, PlatformIO
+# This file is distributed under the same license as the PlatformIO package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PlatformIO latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-24 14:02+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../boards/ststm32/mts_mdot_f411re.rst:15
+msgid "MultiTech mDot F411"
+msgstr ""
+
+#: ../../../boards/ststm32/mts_mdot_f411re.rst:17
+msgid "Contents"
+msgstr ""
+
+#: ../../../boards/ststm32/mts_mdot_f411re.rst:20
+msgid "Hardware"
+msgstr ""
+
+#: ../../../boards/ststm32/mts_mdot_f411re.rst:22
+msgid ""
+"Platform :ref:`platform_ststm32`: The STM32 family of 32-bit Flash MCUs "
+"based on the ARM Cortex-M processor is designed to offer new degrees of "
+"freedom to MCU users. It offers a 32-bit product range that combines very "
+"high performance, real-time capabilities, digital signal processing, and low-"
+"power, low-voltage operation, while maintaining full integration and ease of "
+"development."
+msgstr ""
+
+#: ../../../boards/ststm32/mts_mdot_f411re.rst:26
+msgid "**Microcontroller**"
+msgstr ""
+
+#: ../../../boards/ststm32/mts_mdot_f411re.rst:27
+msgid "STM32F411RET6"
+msgstr ""
+
+#: ../../../boards/ststm32/mts_mdot_f411re.rst:28
+msgid "**Frequency**"
+msgstr ""
+
+#: ../../../boards/ststm32/mts_mdot_f411re.rst:29
+msgid "100MHz"
+msgstr ""
+
+#: ../../../boards/ststm32/mts_mdot_f411re.rst:30
+msgid "**Flash**"
+msgstr ""
+
+#: ../../../boards/ststm32/mts_mdot_f411re.rst:31
+msgid "512KB"
+msgstr ""
+
+#: ../../../boards/ststm32/mts_mdot_f411re.rst:32
+msgid "**RAM**"
+msgstr ""
+
+#: ../../../boards/ststm32/mts_mdot_f411re.rst:33
+msgid "128KB"
+msgstr ""
+
+#: ../../../boards/ststm32/mts_mdot_f411re.rst:34
+msgid "**Vendor**"
+msgstr ""
+
+#: ../../../boards/ststm32/mts_mdot_f411re.rst:35
+msgid ""
+"`MultiTech <https://developer.mbed.org/platforms/MTS-mDot-F411/?"
+"utm_source=platformio.org&utm_medium=docs>`__"
+msgstr ""
+
+#: ../../../boards/ststm32/mts_mdot_f411re.rst:39
+msgid "Configuration"
+msgstr ""
+
+#: ../../../boards/ststm32/mts_mdot_f411re.rst:41
+msgid ""
+"Please use ``mts_mdot_f411re`` ID for :ref:`projectconf_env_board` option "
+"in :ref:`projectconf`:"
+msgstr ""
+
+#: ../../../boards/ststm32/mts_mdot_f411re.rst:49
+msgid ""
+"You can override default MultiTech mDot F411 settings per build environment "
+"using ``board_***`` option, where ``***`` is a JSON object path from board "
+"manifest `mts_mdot_f411re.json <https://github.com/platformio/platform-"
+"ststm32/blob/master/boards/mts_mdot_f411re.json>`_. For example, "
+"``board_build.mcu``, ``board_build.f_cpu``, etc."
+msgstr ""
+
+#: ../../../boards/ststm32/mts_mdot_f411re.rst:68
+msgid "Uploading"
+msgstr ""
+
+#: ../../../boards/ststm32/mts_mdot_f411re.rst:69
+msgid "MultiTech mDot F411 supports the following uploading protocols:"
+msgstr ""
+
+#: ../../../boards/ststm32/mts_mdot_f411re.rst:71
+msgid "``blackmagic``"
+msgstr ""
+
+#: ../../../boards/ststm32/mts_mdot_f411re.rst:72
+msgid "``cmsis-dap``"
+msgstr ""
+
+#: ../../../boards/ststm32/mts_mdot_f411re.rst:73
+msgid "``jlink``"
+msgstr ""
+
+#: ../../../boards/ststm32/mts_mdot_f411re.rst:74
+msgid "``mbed``"
+msgstr ""
+
+#: ../../../boards/ststm32/mts_mdot_f411re.rst:75
+msgid "``stlink``"
+msgstr ""
+
+#: ../../../boards/ststm32/mts_mdot_f411re.rst:77
+msgid "Default protocol is ``mbed``"
+msgstr ""
+
+#: ../../../boards/ststm32/mts_mdot_f411re.rst:79
+msgid ""
+"You can change upload protocol using :ref:`projectconf_upload_protocol` "
+"option:"
+msgstr ""
+
+#: ../../../boards/ststm32/mts_mdot_f411re.rst:90
+msgid "Debugging"
+msgstr ""
+
+#: ../../../boards/ststm32/mts_mdot_f411re.rst:92
+msgid ""
+":ref:`piodebug` - \"1-click\" solution for debugging with a zero "
+"configuration."
+msgstr ""
+
+#: ../../../boards/ststm32/mts_mdot_f411re.rst:95
+msgid ""
+"You will need to install debug tool drivers depending on your system. Please "
+"click on compatible debug tool below for the further instructions and "
+"configuration information."
+msgstr ""
+
+#: ../../../boards/ststm32/mts_mdot_f411re.rst:99
+msgid ""
+"You can switch between debugging :ref:`debugging_tools` using :ref:"
+"`projectconf_debug_tool` option in :ref:`projectconf`."
+msgstr ""
+
+#: ../../../boards/ststm32/mts_mdot_f411re.rst:102
+msgid ""
+"MultiTech mDot F411 does not have on-board debug probe and **IS NOT READY** "
+"for debugging. You will need to use/buy one of external probe listed below."
+msgstr ""
+
+#: ../../../boards/ststm32/mts_mdot_f411re.rst:107
+msgid "Compatible Tools"
+msgstr ""
+
+#: ../../../boards/ststm32/mts_mdot_f411re.rst:108
+msgid "On-board"
+msgstr ""
+
+#: ../../../boards/ststm32/mts_mdot_f411re.rst:109
+msgid "Default"
+msgstr ""
+
+#: ../../../boards/ststm32/mts_mdot_f411re.rst:110
+msgid ":ref:`debugging_tool_blackmagic`"
+msgstr ""
+
+#: ../../../boards/ststm32/mts_mdot_f411re.rst:112
+msgid "Yes"
+msgstr ""
+
+#: ../../../boards/ststm32/mts_mdot_f411re.rst:113
+msgid ":ref:`debugging_tool_cmsis-dap`"
+msgstr ""
+
+#: ../../../boards/ststm32/mts_mdot_f411re.rst:116
+msgid ":ref:`debugging_tool_jlink`"
+msgstr ""
+
+#: ../../../boards/ststm32/mts_mdot_f411re.rst:119
+msgid ":ref:`debugging_tool_stlink`"
+msgstr ""
+
+#: ../../../boards/ststm32/mts_mdot_f411re.rst:124
+msgid "Frameworks"
+msgstr ""
+
+#: ../../../boards/ststm32/mts_mdot_f411re.rst:128
+msgid "Name"
+msgstr ""
+
+#: ../../../boards/ststm32/mts_mdot_f411re.rst:129
+msgid "Description"
+msgstr ""
+
+#: ../../../boards/ststm32/mts_mdot_f411re.rst:131
+msgid ":ref:`framework_libopencm3`"
+msgstr ""
+
+#: ../../../boards/ststm32/mts_mdot_f411re.rst:132
+msgid ""
+"The libopencm3 project aims to create an open-source firmware library for "
+"various ARM Cortex-M microcontrollers."
+msgstr ""
+
+#: ../../../boards/ststm32/mts_mdot_f411re.rst:134
+msgid ":ref:`framework_stm32cube`"
+msgstr ""
+
+#: ../../../boards/ststm32/mts_mdot_f411re.rst:135
+msgid ""
+"STM32Cube embedded software libraries, including: The HAL hardware "
+"abstraction layer, enabling portability between different STM32 devices via "
+"standardized API calls; The Low-Layer (LL) APIs, a light-weight, optimized, "
+"expert oriented set of APIs designed for both performance and runtime "
+"efficiency"
+msgstr ""

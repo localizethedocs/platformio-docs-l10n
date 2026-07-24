@@ -1,0 +1,50 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present, PlatformIO
+# This file is distributed under the same license as the PlatformIO package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PlatformIO latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-24 14:02+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../core/userguide/system/cmd_info.rst:15
+msgid "pio system info"
+msgstr ""
+
+#: ../../../core/userguide/system/cmd_info.rst:17
+msgid "Contents"
+msgstr ""
+
+#: ../../../core/userguide/system/cmd_info.rst:20
+msgid "Usage"
+msgstr ""
+
+#: ../../../core/userguide/system/cmd_info.rst:28
+msgid "Description"
+msgstr ""
+
+#: ../../../core/userguide/system/cmd_info.rst:30
+msgid "Display PlatformIO system-wide information"
+msgstr ""
+
+#: ../../../core/userguide/system/cmd_info.rst:33
+msgid "Options"
+msgstr ""
+
+#: ../../../core/userguide/system/cmd_info.rst:40
+msgid "Return the output in `JSON <http://en.wikipedia.org/wiki/JSON>`_ format"
+msgstr ""
+
+#: ../../../core/userguide/system/cmd_info.rst:43
+msgid "Examples"
+msgstr ""

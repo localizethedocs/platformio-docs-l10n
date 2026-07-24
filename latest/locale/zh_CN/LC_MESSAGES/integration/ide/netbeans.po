@@ -1,0 +1,126 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present, PlatformIO
+# This file is distributed under the same license as the PlatformIO package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PlatformIO latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-24 14:02+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../integration/ide/netbeans.rst:15
+msgid "NetBeans"
+msgstr ""
+
+#: ../../../integration/ide/netbeans.rst:17
+msgid ""
+"NetBeans is a Java-based integrated development environment (IDE). It "
+"provides out-of-the-box code analyzers and editors for working with the "
+"latest Java 8 technologies--Java SE 8, Java SE Embedded 8, and Java ME "
+"Embedded 8. The IDE also has a range of new tools for HTML5/JavaScript, in "
+"particular for Node.js, KnockoutJS, and AngularJS; enhancements that further "
+"improve its support for Maven and Java EE with PrimeFaces; and improvements "
+"to PHP and C/C++ support."
+msgstr ""
+
+#: ../../../integration/ide/netbeans.rst:24
+msgid ""
+"NetBeans IDE can be downloaded from `here <https://netbeans.org/downloads/"
+">`_. Just make sure you download the C/C++ version (or if you already use "
+"NetBeans, install the C/C++ development plugins)."
+msgstr ""
+
+#: ../../../integration/ide/netbeans.rst:30
+msgid ""
+"Note that the version of NetBeans IDE provided by some Linux package "
+"repositories may be a Flatpak version, which are known to have issues with "
+"accessing the PlatformIO CLI installed due to the container nature of this "
+"technology. It is recommended that you use the native version of the "
+"NetBeans IDE via the above link."
+msgstr ""
+
+#: ../../../integration/ide/netbeans.rst:38
+msgid "Contents"
+msgstr ""
+
+#: ../../../integration/ide/netbeans.rst:41
+msgid "Integration"
+msgstr ""
+
+#: ../../../integration/ide/netbeans.rst:43
+msgid "Integration process consists of these steps:"
+msgstr ""
+
+#: ../../../integration/ide/netbeans.rst:45
+msgid "Open system Terminal and install :ref:`piocore`"
+msgstr ""
+
+#: ../../../integration/ide/netbeans.rst:46
+msgid "Create new folder for your project and change directory (``cd``) to it"
+msgstr ""
+
+#: ../../../integration/ide/netbeans.rst:47
+msgid ""
+"Generate a project using PlatformIO Core Project Generator (:option:`pio "
+"project init --ide`)"
+msgstr ""
+
+#: ../../../integration/ide/netbeans.rst:48
+msgid "Import project in IDE."
+msgstr ""
+
+#: ../../../integration/ide/netbeans.rst:52
+msgid ""
+"Choose board ``ID`` using :ref:`cmd_boards` or `Embedded Boards Explorer "
+"<https://platformio.org/boards>`_ command and generate project via :option:"
+"`pio project init --ide` command:"
+msgstr ""
+
+#: ../../../integration/ide/netbeans.rst:62
+msgid "Then:"
+msgstr ""
+
+#: ../../../integration/ide/netbeans.rst:64
+msgid "Open this project via ``Menu: File > Open Project...``"
+msgstr ""
+
+#: ../../../integration/ide/netbeans.rst:65
+msgid ""
+"Add new files to ``src`` directory (``*.c, *.cpp, *.ino, etc.``) via right-"
+"click on ``src`` folder in the \"Projects\" pane"
+msgstr ""
+
+#: ../../../integration/ide/netbeans.rst:67
+msgid "Build project using ``Menu: Run > Build Project``"
+msgstr ""
+
+#: ../../../integration/ide/netbeans.rst:68
+msgid "Upload firmware using ``Menu: Run > Run Project``"
+msgstr ""
+
+#: ../../../integration/ide/netbeans.rst:71
+msgid ""
+"The libraries which are added, installed or used in the project after "
+"generating process won't be reflected in IDE. To fix it you need to "
+"reinitialize project using :ref:`cmd_project_init` (repeat it)."
+msgstr ""
+
+#: ../../../integration/ide/netbeans.rst:76
+msgid "Articles / Manuals"
+msgstr ""
+
+#: ../../../integration/ide/netbeans.rst:78
+msgid ""
+"Feb 22, 2016 - **Grzegorz Hołdys** - `How to Integrate PlatformIO with "
+"Netbeans <http://www.instructables.com/id/How-to-Integrate-PlatformIO-With-"
+"Netbeans/>`_"
+msgstr ""

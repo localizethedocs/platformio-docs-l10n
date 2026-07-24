@@ -1,0 +1,99 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present, PlatformIO
+# This file is distributed under the same license as the PlatformIO package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PlatformIO latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-24 14:02+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../projectconf/sections/env/index.rst:15
+msgid "Section ``[env]``"
+msgstr ""
+
+#: ../../../projectconf/sections/env/index.rst:20
+msgid ""
+"Each project may have multiple *configuration environments* defining the "
+"available project tasks for building, programming, debugging, unit testing, "
+"device monitoring, library dependencies, etc. The configuration environments "
+"are declared using ``[env]`` sections in :ref:`projectconf`."
+msgstr ""
+
+#: ../../../projectconf/sections/env/index.rst:26
+msgid "The allowed options are listed under `Options`_."
+msgstr ""
+
+#: ../../../projectconf/sections/env/index.rst:29
+msgid "Common ``[env]``"
+msgstr ""
+
+#: ../../../projectconf/sections/env/index.rst:31
+msgid ""
+"An optional configuration environment with common options that will be "
+"shared between all ``[env:NAME]`` environments in the platformio.ini file. "
+"It is very useful if the configuration file has a lot of environments ``[env:"
+"NAME]`` and they share common settings."
+msgstr ""
+
+#: ../../../projectconf/sections/env/index.rst:36
+msgid "For example:"
+msgstr ""
+
+#: ../../../projectconf/sections/env/index.rst:57
+msgid ""
+"In this example we have two configuration environments ``release`` and "
+"``debug``. This is equivalent to duplicating all options as shown below:"
+msgstr ""
+
+#: ../../../projectconf/sections/env/index.rst:80
+msgid "Working ``[env:NAME]``"
+msgstr ""
+
+#: ../../../projectconf/sections/env/index.rst:82
+msgid ""
+"A working environment in PlatformIO is defined using the ``[env:NAME]`` "
+"syntax. This environment is used by various PlatformIO commands such as :ref:"
+"`cmd_run`, :ref:`cmd_test`, :ref:`cmd_check`, :ref:`cmd_debug`, and others. "
+"Every project must define at least one working environment."
+msgstr ""
+
+#: ../../../projectconf/sections/env/index.rst:87
+msgid ""
+"You can define multiple working environments in your project by using "
+"different names for the ``[env:NAME]`` section. It's important to note that "
+"each environment must have a unique name. The name should only include "
+"lowercase letters ``a-z``, numbers ``0-9``, and special characters ``_`` "
+"(underscore) and ``-`` (hyphen). For example, ``[env:hello_world]`` is a "
+"valid name."
+msgstr ""
+
+#: ../../../projectconf/sections/env/index.rst:93
+msgid ""
+"If you have defined multiple working environments and you only want to "
+"process a subset of them, you can use the ``-e`` or ``--environment`` option "
+"with the PlatformIO commands mentioned above. You can specify the name of "
+"the environment you want to process using this option."
+msgstr ""
+
+#: ../../../projectconf/sections/env/index.rst:98
+msgid ""
+"In addition to using the ``-e`` option, you can define a default set of "
+"working environments for the PlatformIO commands to process by using the "
+"``[platformio]`` :ref:`projectconf_pio_default_envs` option. This can be "
+"useful if you frequently work with a specific set of environments and don't "
+"want to specify them every time you run a command."
+msgstr ""
+
+#: ../../../projectconf/sections/env/index.rst:105
+msgid "Options"
+msgstr ""

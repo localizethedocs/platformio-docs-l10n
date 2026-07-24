@@ -1,0 +1,110 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present, PlatformIO
+# This file is distributed under the same license as the PlatformIO package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PlatformIO latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-24 14:02+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../projectconf/build_configurations.rst:15
+msgid "Build Configurations"
+msgstr ""
+
+#: ../../../projectconf/build_configurations.rst:17
+msgid ""
+"There are 3 types (:ref:`projectconf_build_type`) of build configuration in "
+"PlatformIO:"
+msgstr ""
+
+#: ../../../projectconf/build_configurations.rst:0
+msgid "``release``"
+msgstr ""
+
+#: ../../../projectconf/build_configurations.rst:21
+msgid ""
+"**Default configuration**. A \"release\" configuration of your firmware/"
+"program does not contain symbolic debug information and is optimized for the "
+"firmware size or speed (depending on :ref:`platforms`)"
+msgstr ""
+
+#: ../../../projectconf/build_configurations.rst:0
+msgid "``test``"
+msgstr ""
+
+#: ../../../projectconf/build_configurations.rst:27
+msgid ""
+"A \"test\" configuration extends a build environment with "
+"``PIO_UNIT_TESTING`` macro and with extra flags provided by the :ref:"
+"`unit_testing` framework"
+msgstr ""
+
+#: ../../../projectconf/build_configurations.rst:0
+msgid "``debug``"
+msgstr ""
+
+#: ../../../projectconf/build_configurations.rst:31
+msgid ""
+"A \"debug\" configuration of your firmware/program is compiled with full "
+"symbolic debug information and no optimization. Optimization complicates "
+"debugging because the relationship between source code and generated "
+"instructions is more complex."
+msgstr ""
+
+#: ../../../projectconf/build_configurations.rst:37
+msgid ""
+"If you need to control build flags that are specific for debug configuration "
+"please refer to :ref:`projectconf_debug_build_flags`."
+msgstr ""
+
+#: ../../../projectconf/build_configurations.rst:40
+msgid ""
+"If you need to build a project in ``debug`` configuration, please use one of "
+"these options:"
+msgstr ""
+
+#: ../../../projectconf/build_configurations.rst:43
+msgid ""
+"In :ref:`ide_vscode`: Use build option **Pre-Debug** or **Pre-Debug All** in "
+"the ``Project Tasks`` menu."
+msgstr ""
+
+#: ../../../projectconf/build_configurations.rst:44
+msgid ""
+"Add :ref:`projectconf_build_type` with ``debug`` value to :ref:`projectconf`"
+msgstr ""
+
+#: ../../../projectconf/build_configurations.rst:45
+msgid "Use :ref:`cmd_debug` command."
+msgstr ""
+
+#: ../../../projectconf/build_configurations.rst:48
+msgid ""
+":ref:`piodebug` automatically switches to ``debug`` configuration when you "
+"do project debugging from :ref:`pioide` or use the :ref:`cmd_debug` command."
+msgstr ""
+
+#: ../../../projectconf/build_configurations.rst:51
+msgid ""
+"To avoid having :ref:`piodebug` rebuild the project, please create a "
+"separate build environment that defines ``build_type = debug``. See the "
+"example below where the ``mydebug`` build environment will be used "
+"automatically by :ref:`piodebug`:"
+msgstr ""
+
+#: ../../../projectconf/build_configurations.rst:71
+msgid ""
+"Please note that you can set a default build environment per a project using "
+"the :ref:`projectconf_pio_default_envs` option in :ref:"
+"`projectconf_section_platformio`."
+msgstr ""
