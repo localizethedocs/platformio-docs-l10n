@@ -1,0 +1,165 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present, PlatformIO
+# This file is distributed under the same license as the PlatformIO package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PlatformIO stable\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-24 14:03+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../plus/debug-tools/digilent-hs2.rst:15
+msgid "JTAG-HS2"
+msgstr ""
+
+#: ../../../plus/debug-tools/digilent-hs2.rst:20
+msgid ""
+"The JTAG-HS2 programming cable is a high-speed programming solution for "
+"Xilinx® FPGAs. Official reference can be found `here <https://store."
+"digilentinc.com/jtag-hs2-programming-cable/?"
+"utm_source=platformio&utm_medium=docs>`__."
+msgstr ""
+
+#: ../../../plus/debug-tools/digilent-hs2.rst:24
+msgid "Contents"
+msgstr ""
+
+#: ../../../plus/debug-tools/digilent-hs2.rst:27
+msgid "Configuration"
+msgstr ""
+
+#: ../../../plus/debug-tools/digilent-hs2.rst:29
+msgid ""
+"You can configure debugging tool using :ref:`projectconf_debug_tool` option "
+"in :ref:`projectconf`:"
+msgstr ""
+
+#: ../../../plus/debug-tools/digilent-hs2.rst:39
+msgid ""
+"If you would like to use this tool for firmware uploading, please change "
+"upload protocol:"
+msgstr ""
+
+#: ../../../plus/debug-tools/digilent-hs2.rst:50
+msgid "More options:"
+msgstr ""
+
+#: ../../../plus/debug-tools/digilent-hs2.rst:52
+msgid ":ref:`projectconf_section_env_debug`"
+msgstr ""
+
+#: ../../../plus/debug-tools/digilent-hs2.rst:53
+msgid ":ref:`projectconf_section_env_upload`"
+msgstr ""
+
+#: ../../../plus/debug-tools/digilent-hs2.rst:58
+msgid "Platforms"
+msgstr ""
+
+#: ../../../plus/debug-tools/digilent-hs2.rst:62
+#: ../../../plus/debug-tools/digilent-hs2.rst:73
+#: ../../../plus/debug-tools/digilent-hs2.rst:92
+msgid "Name"
+msgstr ""
+
+#: ../../../plus/debug-tools/digilent-hs2.rst:63
+#: ../../../plus/debug-tools/digilent-hs2.rst:74
+msgid "Description"
+msgstr ""
+
+#: ../../../plus/debug-tools/digilent-hs2.rst:65
+#: ../../../plus/debug-tools/digilent-hs2.rst:100
+msgid ":ref:`platform_openhw`"
+msgstr ""
+
+#: ../../../plus/debug-tools/digilent-hs2.rst:66
+msgid ""
+"OpenHW Group is a not-for-profit, global organization that provides an "
+"infrastructure for hosting high quality open-source HW developments in line "
+"with industry best practices. The OpenHW CV32E40P RISC-V core is the first "
+"open-source core for high-volume chips verified with the state-of-the-art "
+"process required for high-integrity, commercial SoCs."
+msgstr ""
+
+#: ../../../plus/debug-tools/digilent-hs2.rst:69
+msgid "Frameworks"
+msgstr ""
+
+#: ../../../plus/debug-tools/digilent-hs2.rst:76
+msgid ":ref:`framework_pulp-runtime`"
+msgstr ""
+
+#: ../../../plus/debug-tools/digilent-hs2.rst:77
+msgid "Runtime Environment for Parallel Ultra Low Power platform"
+msgstr ""
+
+#: ../../../plus/debug-tools/digilent-hs2.rst:79
+msgid ":ref:`framework_pulp-sdk`"
+msgstr ""
+
+#: ../../../plus/debug-tools/digilent-hs2.rst:80
+msgid "Software Development Kit for Parallel Ultra Low Power platform"
+msgstr ""
+
+#: ../../../plus/debug-tools/digilent-hs2.rst:83
+msgid "Boards"
+msgstr ""
+
+#: ../../../plus/debug-tools/digilent-hs2.rst:86
+msgid ""
+"For more detailed ``board`` information please scroll tables below by "
+"horizontal."
+msgstr ""
+
+#: ../../../plus/debug-tools/digilent-hs2.rst:93
+msgid "Platform"
+msgstr ""
+
+#: ../../../plus/debug-tools/digilent-hs2.rst:94
+msgid "Debug"
+msgstr ""
+
+#: ../../../plus/debug-tools/digilent-hs2.rst:95
+msgid "MCU"
+msgstr ""
+
+#: ../../../plus/debug-tools/digilent-hs2.rst:96
+msgid "Frequency"
+msgstr ""
+
+#: ../../../plus/debug-tools/digilent-hs2.rst:97
+msgid "Flash"
+msgstr ""
+
+#: ../../../plus/debug-tools/digilent-hs2.rst:98
+msgid "RAM"
+msgstr ""
+
+#: ../../../plus/debug-tools/digilent-hs2.rst:99
+msgid ":ref:`board_openhw_nexys_a7`"
+msgstr ""
+
+#: ../../../plus/debug-tools/digilent-hs2.rst:101
+msgid "On-board"
+msgstr ""
+
+#: ../../../plus/debug-tools/digilent-hs2.rst:103
+msgid "320MHz"
+msgstr ""
+
+#: ../../../plus/debug-tools/digilent-hs2.rst:104
+msgid "16MB"
+msgstr ""
+
+#: ../../../plus/debug-tools/digilent-hs2.rst:105
+msgid "1.16MB"
+msgstr ""

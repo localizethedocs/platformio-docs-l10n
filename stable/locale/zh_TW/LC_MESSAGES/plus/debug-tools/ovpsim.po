@@ -1,0 +1,139 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present, PlatformIO
+# This file is distributed under the same license as the PlatformIO package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PlatformIO stable\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-24 14:03+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../plus/debug-tools/ovpsim.rst:15
+msgid "OVPsim"
+msgstr ""
+
+#: ../../../plus/debug-tools/ovpsim.rst:20
+msgid ""
+"OVPsim is a multiprocessor platform emulator (often called a full-system "
+"simulator) used to run unchanged production binaries of the target hardware. "
+"It has public APIs allowing users to create their own processor, peripheral "
+"and platform models. Various models are available as open source. For more "
+"information, see `OVPsim's official website <https://www.ovpworld.org/?"
+"utm_source=platformio&utm_medium=docs>`__."
+msgstr ""
+
+#: ../../../plus/debug-tools/ovpsim.rst:26
+msgid "Contents"
+msgstr ""
+
+#: ../../../plus/debug-tools/ovpsim.rst:31
+msgid "Platforms"
+msgstr ""
+
+#: ../../../plus/debug-tools/ovpsim.rst:35
+#: ../../../plus/debug-tools/ovpsim.rst:46
+#: ../../../plus/debug-tools/ovpsim.rst:65
+msgid "Name"
+msgstr ""
+
+#: ../../../plus/debug-tools/ovpsim.rst:36
+#: ../../../plus/debug-tools/ovpsim.rst:47
+msgid "Description"
+msgstr ""
+
+#: ../../../plus/debug-tools/ovpsim.rst:38
+#: ../../../plus/debug-tools/ovpsim.rst:73
+msgid ":ref:`platform_openhw`"
+msgstr ""
+
+#: ../../../plus/debug-tools/ovpsim.rst:39
+msgid ""
+"OpenHW Group is a not-for-profit, global organization that provides an "
+"infrastructure for hosting high quality open-source HW developments in line "
+"with industry best practices. The OpenHW CV32E40P RISC-V core is the first "
+"open-source core for high-volume chips verified with the state-of-the-art "
+"process required for high-integrity, commercial SoCs."
+msgstr ""
+
+#: ../../../plus/debug-tools/ovpsim.rst:42
+msgid "Frameworks"
+msgstr ""
+
+#: ../../../plus/debug-tools/ovpsim.rst:49
+msgid ":ref:`framework_pulp-runtime`"
+msgstr ""
+
+#: ../../../plus/debug-tools/ovpsim.rst:50
+msgid "Runtime Environment for Parallel Ultra Low Power platform"
+msgstr ""
+
+#: ../../../plus/debug-tools/ovpsim.rst:52
+msgid ":ref:`framework_pulp-sdk`"
+msgstr ""
+
+#: ../../../plus/debug-tools/ovpsim.rst:53
+msgid "Software Development Kit for Parallel Ultra Low Power platform"
+msgstr ""
+
+#: ../../../plus/debug-tools/ovpsim.rst:56
+msgid "Boards"
+msgstr ""
+
+#: ../../../plus/debug-tools/ovpsim.rst:59
+msgid ""
+"For more detailed ``board`` information please scroll tables below by "
+"horizontal."
+msgstr ""
+
+#: ../../../plus/debug-tools/ovpsim.rst:66
+msgid "Platform"
+msgstr ""
+
+#: ../../../plus/debug-tools/ovpsim.rst:67
+msgid "Debug"
+msgstr ""
+
+#: ../../../plus/debug-tools/ovpsim.rst:68
+msgid "MCU"
+msgstr ""
+
+#: ../../../plus/debug-tools/ovpsim.rst:69
+msgid "Frequency"
+msgstr ""
+
+#: ../../../plus/debug-tools/ovpsim.rst:70
+msgid "Flash"
+msgstr ""
+
+#: ../../../plus/debug-tools/ovpsim.rst:71
+msgid "RAM"
+msgstr ""
+
+#: ../../../plus/debug-tools/ovpsim.rst:72
+msgid ":ref:`board_openhw_nexys_a7`"
+msgstr ""
+
+#: ../../../plus/debug-tools/ovpsim.rst:74
+msgid "On-board"
+msgstr ""
+
+#: ../../../plus/debug-tools/ovpsim.rst:76
+msgid "320MHz"
+msgstr ""
+
+#: ../../../plus/debug-tools/ovpsim.rst:77
+msgid "16MB"
+msgstr ""
+
+#: ../../../plus/debug-tools/ovpsim.rst:78
+msgid "1.16MB"
+msgstr ""

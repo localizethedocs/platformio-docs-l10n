@@ -1,0 +1,70 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present, PlatformIO
+# This file is distributed under the same license as the PlatformIO package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PlatformIO stable\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-24 14:03+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../core/userguide/account/cmd_update.rst:15
+msgid "pio account update"
+msgstr ""
+
+#: ../../../core/userguide/account/cmd_update.rst:17
+msgid "Contents"
+msgstr ""
+
+#: ../../../core/userguide/account/cmd_update.rst:20
+msgid "Usage"
+msgstr ""
+
+#: ../../../core/userguide/account/cmd_update.rst:27
+msgid "Description"
+msgstr ""
+
+#: ../../../core/userguide/account/cmd_update.rst:29
+msgid "Update :ref:`pioaccount` profile."
+msgstr ""
+
+#: ../../../core/userguide/account/cmd_update.rst:32
+msgid "Options"
+msgstr ""
+
+#: ../../../core/userguide/account/cmd_update.rst:34
+msgid "You can omit these options and enter them later in update Wizard."
+msgstr ""
+
+#: ../../../core/userguide/account/cmd_update.rst:41
+msgid ""
+"A username that must contain at least 4 characters including single hyphens, "
+"and cannot begin or end with a hyphen."
+msgstr ""
+
+#: ../../../core/userguide/account/cmd_update.rst:47
+msgid ""
+"An email. Please enter existing email, you will receive a confirmation "
+"letter."
+msgstr ""
+
+#: ../../../core/userguide/account/cmd_update.rst:52
+msgid "A first name."
+msgstr ""
+
+#: ../../../core/userguide/account/cmd_update.rst:57
+msgid "A last name."
+msgstr ""
+
+#: ../../../core/userguide/account/cmd_update.rst:62
+msgid "A current password to confirm this operation."
+msgstr ""

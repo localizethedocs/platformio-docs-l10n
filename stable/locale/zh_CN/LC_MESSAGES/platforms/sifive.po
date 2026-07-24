@@ -1,0 +1,531 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present, PlatformIO
+# This file is distributed under the same license as the PlatformIO package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PlatformIO stable\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-24 14:03+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../platforms/sifive.rst:15 ../../../platforms/sifive.rst:236
+msgid "SiFive"
+msgstr ""
+
+#: ../../../platforms/sifive.rst:0
+msgid "Registry"
+msgstr ""
+
+#: ../../../platforms/sifive.rst:18
+msgid ""
+"`https://registry.platformio.org/platforms/platformio/sifive <https://"
+"registry.platformio.org/platforms/platformio/sifive>`__"
+msgstr ""
+
+#: ../../../platforms/sifive.rst:0
+msgid "Configuration"
+msgstr ""
+
+#: ../../../platforms/sifive.rst:20
+msgid ":ref:`projectconf_env_platform` = ``platformio/sifive``"
+msgstr ""
+
+#: ../../../platforms/sifive.rst:22
+msgid ""
+"SiFive brings the power of open source and software automation to the "
+"semiconductor industry, making it possible to develop new hardware faster "
+"and more affordably than ever before."
+msgstr ""
+
+#: ../../../platforms/sifive.rst:24
+msgid ""
+"For more detailed information please visit `vendor site <https://sifive.com?"
+"utm_source=platformio.org&utm_medium=docs>`_."
+msgstr ""
+
+#: ../../../platforms/sifive.rst:29
+msgid "Contents"
+msgstr ""
+
+#: ../../../platforms/sifive.rst:32
+msgid "Examples"
+msgstr ""
+
+#: ../../../platforms/sifive.rst:34
+msgid ""
+"Examples are listed from `SiFive development platform repository <https://"
+"github.com/platformio/platform-sifive/tree/master/examples?"
+"utm_source=platformio.org&utm_medium=docs>`_:"
+msgstr ""
+
+#: ../../../platforms/sifive.rst:36
+msgid ""
+"`freedom-e-sdk_freertos-blinky-system-view <https://github.com/platformio/"
+"platform-sifive/tree/master/examples/freedom-e-sdk_freertos-blinky-system-"
+"view?utm_source=platformio.org&utm_medium=docs>`_"
+msgstr ""
+
+#: ../../../platforms/sifive.rst:37
+msgid ""
+"`zephyr-blink <https://github.com/platformio/platform-sifive/tree/master/"
+"examples/zephyr-blink?utm_source=platformio.org&utm_medium=docs>`_"
+msgstr ""
+
+#: ../../../platforms/sifive.rst:38
+msgid ""
+"`native-blink_asm <https://github.com/platformio/platform-sifive/tree/master/"
+"examples/native-blink_asm?utm_source=platformio.org&utm_medium=docs>`_"
+msgstr ""
+
+#: ../../../platforms/sifive.rst:39
+msgid ""
+"`freedom-e-sdk_hello <https://github.com/platformio/platform-sifive/tree/"
+"master/examples/freedom-e-sdk_hello?utm_source=platformio."
+"org&utm_medium=docs>`_"
+msgstr ""
+
+#: ../../../platforms/sifive.rst:40
+msgid ""
+"`freedom-e-sdk_test-coreip <https://github.com/platformio/platform-sifive/"
+"tree/master/examples/freedom-e-sdk_test-coreip?utm_source=platformio."
+"org&utm_medium=docs>`_"
+msgstr ""
+
+#: ../../../platforms/sifive.rst:41
+msgid ""
+"`freedom-e-sdk_sifive-welcome <https://github.com/platformio/platform-sifive/"
+"tree/master/examples/freedom-e-sdk_sifive-welcome?utm_source=platformio."
+"org&utm_medium=docs>`_"
+msgstr ""
+
+#: ../../../platforms/sifive.rst:42
+msgid ""
+"`freedom-e-sdk_timer-interrupt <https://github.com/platformio/platform-"
+"sifive/tree/master/examples/freedom-e-sdk_timer-interrupt?"
+"utm_source=platformio.org&utm_medium=docs>`_"
+msgstr ""
+
+#: ../../../platforms/sifive.rst:43
+msgid ""
+"`freedom-e-sdk_freertos-blinky <https://github.com/platformio/platform-"
+"sifive/tree/master/examples/freedom-e-sdk_freertos-blinky?"
+"utm_source=platformio.org&utm_medium=docs>`_"
+msgstr ""
+
+#: ../../../platforms/sifive.rst:44
+msgid ""
+"`freedom-e-sdk_multicore-hello <https://github.com/platformio/platform-"
+"sifive/tree/master/examples/freedom-e-sdk_multicore-hello?"
+"utm_source=platformio.org&utm_medium=docs>`_"
+msgstr ""
+
+#: ../../../platforms/sifive.rst:45
+msgid ""
+"`freedom-e-sdk_user-syscall <https://github.com/platformio/platform-sifive/"
+"tree/master/examples/freedom-e-sdk_user-syscall?utm_source=platformio."
+"org&utm_medium=docs>`_"
+msgstr ""
+
+#: ../../../platforms/sifive.rst:46
+msgid ""
+"`freedom-e-sdk_spi <https://github.com/platformio/platform-sifive/tree/"
+"master/examples/freedom-e-sdk_spi?utm_source=platformio."
+"org&utm_medium=docs>`_"
+msgstr ""
+
+#: ../../../platforms/sifive.rst:47
+msgid ""
+"`freedom-e-sdk_freertos-pmp-blinky <https://github.com/platformio/platform-"
+"sifive/tree/master/examples/freedom-e-sdk_freertos-pmp-blinky?"
+"utm_source=platformio.org&utm_medium=docs>`_"
+msgstr ""
+
+#: ../../../platforms/sifive.rst:48
+msgid ""
+"`freedom-e-sdk_user-mode <https://github.com/platformio/platform-sifive/tree/"
+"master/examples/freedom-e-sdk_user-mode?utm_source=platformio."
+"org&utm_medium=docs>`_"
+msgstr ""
+
+#: ../../../platforms/sifive.rst:49
+msgid ""
+"`zephyr-synchronization <https://github.com/platformio/platform-sifive/tree/"
+"master/examples/zephyr-synchronization?utm_source=platformio."
+"org&utm_medium=docs>`_"
+msgstr ""
+
+#: ../../../platforms/sifive.rst:50
+msgid ""
+"`zephyr-hello-world <https://github.com/platformio/platform-sifive/tree/"
+"master/examples/zephyr-hello-world?utm_source=platformio."
+"org&utm_medium=docs>`_"
+msgstr ""
+
+#: ../../../platforms/sifive.rst:53
+msgid "Debugging"
+msgstr ""
+
+#: ../../../platforms/sifive.rst:55
+msgid ""
+":ref:`piodebug` - \"1-click\" solution for debugging with a zero "
+"configuration."
+msgstr ""
+
+#: ../../../platforms/sifive.rst:62
+msgid "Tools & Debug Probes"
+msgstr ""
+
+#: ../../../platforms/sifive.rst:64
+msgid ""
+"Supported debugging tools are listed in \"Debug\" column. For more detailed "
+"information, please scroll table by horizontal. You can switch between "
+"debugging :ref:`debugging_tools` using :ref:`projectconf_debug_tool` option "
+"in :ref:`projectconf`."
+msgstr ""
+
+#: ../../../platforms/sifive.rst:70
+msgid ""
+"You will need to install debug tool drivers depending on your system. Please "
+"click on compatible debug tool below for the further instructions."
+msgstr ""
+
+#: ../../../platforms/sifive.rst:75
+msgid "On-Board Debug Tools"
+msgstr ""
+
+#: ../../../platforms/sifive.rst:77
+msgid ""
+"Boards listed below have on-board debug probe and **ARE READY** for "
+"debugging! You do not need to use/buy external debug probe."
+msgstr ""
+
+#: ../../../platforms/sifive.rst:84 ../../../platforms/sifive.rst:160
+#: ../../../platforms/sifive.rst:215 ../../../platforms/sifive.rst:241
+#: ../../../platforms/sifive.rst:272 ../../../platforms/sifive.rst:297
+msgid "Name"
+msgstr ""
+
+#: ../../../platforms/sifive.rst:85 ../../../platforms/sifive.rst:243
+#: ../../../platforms/sifive.rst:274 ../../../platforms/sifive.rst:299
+msgid "MCU"
+msgstr ""
+
+#: ../../../platforms/sifive.rst:86 ../../../platforms/sifive.rst:244
+#: ../../../platforms/sifive.rst:275 ../../../platforms/sifive.rst:300
+msgid "Frequency"
+msgstr ""
+
+#: ../../../platforms/sifive.rst:87 ../../../platforms/sifive.rst:245
+#: ../../../platforms/sifive.rst:276 ../../../platforms/sifive.rst:301
+msgid "Flash"
+msgstr ""
+
+#: ../../../platforms/sifive.rst:88 ../../../platforms/sifive.rst:246
+#: ../../../platforms/sifive.rst:277 ../../../platforms/sifive.rst:302
+msgid "RAM"
+msgstr ""
+
+#: ../../../platforms/sifive.rst:89 ../../../platforms/sifive.rst:303
+msgid ":ref:`board_sifive_e310-arty`"
+msgstr ""
+
+#: ../../../platforms/sifive.rst:90 ../../../platforms/sifive.rst:100
+#: ../../../platforms/sifive.rst:105 ../../../platforms/sifive.rst:110
+#: ../../../platforms/sifive.rst:115 ../../../platforms/sifive.rst:255
+#: ../../../platforms/sifive.rst:261 ../../../platforms/sifive.rst:280
+#: ../../../platforms/sifive.rst:286 ../../../platforms/sifive.rst:305
+msgid "FE310"
+msgstr ""
+
+#: ../../../platforms/sifive.rst:91 ../../../platforms/sifive.rst:306
+msgid "450MHz"
+msgstr ""
+
+#: ../../../platforms/sifive.rst:92 ../../../platforms/sifive.rst:102
+#: ../../../platforms/sifive.rst:107 ../../../platforms/sifive.rst:112
+#: ../../../platforms/sifive.rst:117 ../../../platforms/sifive.rst:257
+#: ../../../platforms/sifive.rst:263 ../../../platforms/sifive.rst:282
+#: ../../../platforms/sifive.rst:288 ../../../platforms/sifive.rst:307
+msgid "16MB"
+msgstr ""
+
+#: ../../../platforms/sifive.rst:93 ../../../platforms/sifive.rst:308
+msgid "256MB"
+msgstr ""
+
+#: ../../../platforms/sifive.rst:94 ../../../platforms/sifive.rst:247
+msgid ":ref:`board_sifive_hifive-unleashed`"
+msgstr ""
+
+#: ../../../platforms/sifive.rst:95 ../../../platforms/sifive.rst:249
+msgid "FU540"
+msgstr ""
+
+#: ../../../platforms/sifive.rst:96 ../../../platforms/sifive.rst:250
+msgid "1500MHz"
+msgstr ""
+
+#: ../../../platforms/sifive.rst:97 ../../../platforms/sifive.rst:251
+msgid "32MB"
+msgstr ""
+
+#: ../../../platforms/sifive.rst:98 ../../../platforms/sifive.rst:252
+msgid "8GB"
+msgstr ""
+
+#: ../../../platforms/sifive.rst:99 ../../../platforms/sifive.rst:253
+msgid ":ref:`board_sifive_hifive1`"
+msgstr ""
+
+#: ../../../platforms/sifive.rst:101 ../../../platforms/sifive.rst:106
+#: ../../../platforms/sifive.rst:111 ../../../platforms/sifive.rst:116
+#: ../../../platforms/sifive.rst:256 ../../../platforms/sifive.rst:262
+#: ../../../platforms/sifive.rst:281 ../../../platforms/sifive.rst:287
+msgid "320MHz"
+msgstr ""
+
+#: ../../../platforms/sifive.rst:103 ../../../platforms/sifive.rst:108
+#: ../../../platforms/sifive.rst:113 ../../../platforms/sifive.rst:118
+#: ../../../platforms/sifive.rst:258 ../../../platforms/sifive.rst:264
+#: ../../../platforms/sifive.rst:283 ../../../platforms/sifive.rst:289
+msgid "16KB"
+msgstr ""
+
+#: ../../../platforms/sifive.rst:104 ../../../platforms/sifive.rst:259
+msgid ":ref:`board_sifive_hifive1-revb`"
+msgstr ""
+
+#: ../../../platforms/sifive.rst:109 ../../../platforms/sifive.rst:278
+msgid ":ref:`board_sifive_sparkfun_redboard_v`"
+msgstr ""
+
+#: ../../../platforms/sifive.rst:114 ../../../platforms/sifive.rst:284
+msgid ":ref:`board_sifive_sparkfun_thing_plus_v`"
+msgstr ""
+
+#: ../../../platforms/sifive.rst:122
+msgid "Stable and upstream versions"
+msgstr ""
+
+#: ../../../platforms/sifive.rst:124
+msgid ""
+"You can switch between `stable releases <https://github.com/platformio/"
+"platform-sifive/releases>`__ of SiFive development platform and the latest "
+"upstream version using :ref:`projectconf_env_platform` option in :ref:"
+"`projectconf` as described below."
+msgstr ""
+
+#: ../../../platforms/sifive.rst:129
+msgid "Stable"
+msgstr ""
+
+#: ../../../platforms/sifive.rst:145
+msgid "Upstream"
+msgstr ""
+
+#: ../../../platforms/sifive.rst:155
+msgid "Packages"
+msgstr ""
+
+#: ../../../platforms/sifive.rst:161 ../../../platforms/sifive.rst:216
+msgid "Description"
+msgstr ""
+
+#: ../../../platforms/sifive.rst:163
+msgid ""
+"`framework-freedom-e-sdk <https://registry.platformio.org/tools/platformio/"
+"framework-freedom-e-sdk>`__"
+msgstr ""
+
+#: ../../../platforms/sifive.rst:164 ../../../platforms/sifive.rst:219
+msgid "Open Source Software for Developing on the SiFive Freedom E Platform"
+msgstr ""
+
+#: ../../../platforms/sifive.rst:166
+msgid ""
+"`framework-zephyr <https://registry.platformio.org/tools/platformio/"
+"framework-zephyr>`__"
+msgstr ""
+
+#: ../../../platforms/sifive.rst:167 ../../../platforms/sifive.rst:225
+msgid ""
+"Zephyr is a new generation, scalable, optimized, secure RTOS for multiple "
+"hardware architectures"
+msgstr ""
+
+#: ../../../platforms/sifive.rst:169
+msgid ""
+"`tool-cmake <https://registry.platformio.org/tools/platformio/tool-cmake>`__"
+msgstr ""
+
+#: ../../../platforms/sifive.rst:170
+msgid ""
+"CMake is an open-source, cross-platform family of tools designed to build, "
+"test and package software"
+msgstr ""
+
+#: ../../../platforms/sifive.rst:172
+msgid ""
+"`tool-dtc <https://registry.platformio.org/tools/platformio/tool-dtc>`__"
+msgstr ""
+
+#: ../../../platforms/sifive.rst:173
+msgid "Device tree compiler"
+msgstr ""
+
+#: ../../../platforms/sifive.rst:175
+msgid ""
+"`tool-gperf <https://registry.platformio.org/tools/platformio/tool-gperf>`__"
+msgstr ""
+
+#: ../../../platforms/sifive.rst:176
+msgid "GNU gperf is a perfect hash function generator"
+msgstr ""
+
+#: ../../../platforms/sifive.rst:178
+msgid ""
+"`tool-jlink <https://registry.platformio.org/tools/platformio/tool-jlink>`__"
+msgstr ""
+
+#: ../../../platforms/sifive.rst:179
+msgid "Software and Documentation Pack for SEGGER J-Link debug probes"
+msgstr ""
+
+#: ../../../platforms/sifive.rst:181
+msgid ""
+"`tool-ninja <https://registry.platformio.org/tools/platformio/tool-ninja>`__"
+msgstr ""
+
+#: ../../../platforms/sifive.rst:182
+msgid "Ninja is a small build system with a focus on speed"
+msgstr ""
+
+#: ../../../platforms/sifive.rst:184
+msgid ""
+"`tool-openocd-riscv <https://registry.platformio.org/tools/platformio/tool-"
+"openocd-riscv>`__"
+msgstr ""
+
+#: ../../../platforms/sifive.rst:185
+msgid "Fork of Open On-Chip Debugger that has RISC-V support"
+msgstr ""
+
+#: ../../../platforms/sifive.rst:187
+msgid ""
+"`tool-qemu-riscv <https://registry.platformio.org/tools/platformio/tool-qemu-"
+"riscv>`__"
+msgstr ""
+
+#: ../../../platforms/sifive.rst:188
+msgid "QEMU is a generic and open source machine emulator and virtualizer"
+msgstr ""
+
+#: ../../../platforms/sifive.rst:190
+msgid ""
+"`tool-renode <https://registry.platformio.org/tools/platformio/tool-"
+"renode>`__"
+msgstr ""
+
+#: ../../../platforms/sifive.rst:191
+msgid ""
+"Renode is a development framework which accelerates IoT and embedded systems "
+"development by letting you simulate physical hardware systems"
+msgstr ""
+
+#: ../../../platforms/sifive.rst:193
+msgid ""
+"`toolchain-riscv <https://registry.platformio.org/tools/platformio/toolchain-"
+"riscv>`__"
+msgstr ""
+
+#: ../../../platforms/sifive.rst:194
+msgid "GNU toolchain for RISC-V, including GCC"
+msgstr ""
+
+#: ../../../platforms/sifive.rst:197
+msgid "**Linux Users**:"
+msgstr ""
+
+#: ../../../platforms/sifive.rst:199
+msgid "Install \"udev\" rules :ref:`platformio_udev_rules`"
+msgstr ""
+
+#: ../../../platforms/sifive.rst:200
+msgid ""
+"Raspberry Pi users, please read this article `Enable serial port on "
+"Raspberry Pi <https://hallard.me/enable-serial-port-on-raspberry-pi/>`__."
+msgstr ""
+
+#: ../../../platforms/sifive.rst:204
+msgid "**Windows Users:**"
+msgstr ""
+
+#: ../../../platforms/sifive.rst:206
+msgid ""
+"Please check that you have a correctly installed USB driver from board "
+"manufacturer"
+msgstr ""
+
+#: ../../../platforms/sifive.rst:211
+msgid "Frameworks"
+msgstr ""
+
+#: ../../../platforms/sifive.rst:218
+msgid ":ref:`framework_freedom-e-sdk`"
+msgstr ""
+
+#: ../../../platforms/sifive.rst:221
+msgid ":ref:`framework_freertos`"
+msgstr ""
+
+#: ../../../platforms/sifive.rst:222
+msgid ""
+"FreeRTOS is a real-time operating system kernel for embedded devices that "
+"has been ported to 40 microcontroller platforms."
+msgstr ""
+
+#: ../../../platforms/sifive.rst:224
+msgid ":ref:`framework_zephyr`"
+msgstr ""
+
+#: ../../../platforms/sifive.rst:228
+msgid "Boards"
+msgstr ""
+
+#: ../../../platforms/sifive.rst:231
+msgid "You can list pre-configured boards by :ref:`cmd_boards` command"
+msgstr ""
+
+#: ../../../platforms/sifive.rst:232
+msgid ""
+"For more detailed ``board`` information please scroll the tables below by "
+"horizontally."
+msgstr ""
+
+#: ../../../platforms/sifive.rst:242 ../../../platforms/sifive.rst:273
+#: ../../../platforms/sifive.rst:298
+msgid "Debug"
+msgstr ""
+
+#: ../../../platforms/sifive.rst:248 ../../../platforms/sifive.rst:254
+#: ../../../platforms/sifive.rst:260 ../../../platforms/sifive.rst:279
+#: ../../../platforms/sifive.rst:285 ../../../platforms/sifive.rst:304
+msgid "On-board"
+msgstr ""
+
+#: ../../../platforms/sifive.rst:267
+msgid "SparkFun"
+msgstr ""
+
+#: ../../../platforms/sifive.rst:292
+msgid "Xilinx"
+msgstr ""

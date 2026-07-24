@@ -1,0 +1,59 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present, PlatformIO
+# This file is distributed under the same license as the PlatformIO package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PlatformIO stable\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-24 14:03+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../advanced/unit-testing/frameworks/custom/runner.rst:15
+msgid "Custom Test Runner"
+msgstr ""
+
+#: ../../../advanced/unit-testing/frameworks/custom/runner.rst:17
+msgid ""
+"Setting the :ref:`projectconf_test_framework` option to the ``custom`` will "
+"instruct PlatformIO to look for a ``test_custom_runner.py`` file located in "
+"the current (running) test folder. If the file is not found, PlatformIO will "
+"check the parent folders in a tree until reaches the :ref:"
+"`projectconf_pio_test_dir`."
+msgstr ""
+
+#: ../../../advanced/unit-testing/frameworks/custom/runner.rst:23
+msgid ""
+"If you plan to use a custom test framework for ALL tests, please put the "
+"``test_custom_runner.py`` file at the root of :ref:"
+"`projectconf_pio_test_dir`. Otherwise, use :ref:"
+"`unit_testing_test_hierarchy` and put it to the test folder or to the group "
+"of tests that depend on it."
+msgstr ""
+
+#: ../../../advanced/unit-testing/frameworks/custom/runner.rst:29
+msgid ""
+"The ``test_custom_runner.py`` is a Python-based script. It must contain the :"
+"ref:`unit_testing_frameworks_custom_api_test_runner` class. See a base "
+"example of ``test_custom_runner.py``:"
+msgstr ""
+
+#: ../../../advanced/unit-testing/frameworks/custom/runner.rst:40
+msgid ""
+"In case you want to override the functionality of the existing testing "
+"framework, you have to inherit its class. For example, let's override a "
+"\"testing\" stage for the :ref:`unit_testing_frameworks_unity`:"
+msgstr ""
+
+#: ../../../advanced/unit-testing/frameworks/custom/runner.rst:73
+msgid ""
+"See more custom test runner :ref:`unit_testing_frameworks_custom_examples`."
+msgstr ""

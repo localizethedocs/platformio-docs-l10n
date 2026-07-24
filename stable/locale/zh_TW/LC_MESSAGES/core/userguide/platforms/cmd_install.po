@@ -1,0 +1,279 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present, PlatformIO
+# This file is distributed under the same license as the PlatformIO package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PlatformIO stable\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-24 14:03+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../core/userguide/platforms/cmd_install.rst:15
+msgid "pio platform install"
+msgstr ""
+
+#: ../../../core/userguide/platforms/cmd_install.rst:20
+msgid "This command is deprecated and will be removed in the next releases."
+msgstr ""
+
+#: ../../../core/userguide/platforms/cmd_install.rst:22
+msgid "Please use the :ref:`cmd_pkg_install` command instead."
+msgstr ""
+
+#: ../../../core/userguide/platforms/cmd_install.rst:24
+msgid "Contents"
+msgstr ""
+
+#: ../../../core/userguide/platforms/cmd_install.rst:27
+msgid "Usage"
+msgstr ""
+
+#: ../../../core/userguide/platforms/cmd_install.rst:47
+msgid "Options"
+msgstr ""
+
+#: ../../../core/userguide/platforms/cmd_install.rst:54
+msgid "Install specified package (or alias)"
+msgstr ""
+
+#: ../../../core/userguide/platforms/cmd_install.rst:60
+msgid "Do not install specified package (or alias)"
+msgstr ""
+
+#: ../../../core/userguide/platforms/cmd_install.rst:65
+msgid "Skip default packages"
+msgstr ""
+
+#: ../../../core/userguide/platforms/cmd_install.rst:70
+msgid "Install all declared packages in ``platform.json``"
+msgstr ""
+
+#: ../../../core/userguide/platforms/cmd_install.rst:75
+msgid ""
+"Reinstall/redownload development platform and its packages if they exist"
+msgstr ""
+
+#: ../../../core/userguide/platforms/cmd_install.rst:79
+msgid "Description"
+msgstr ""
+
+#: ../../../core/userguide/platforms/cmd_install.rst:81
+msgid "Install :ref:`platforms` and dependent packages."
+msgstr ""
+
+#: ../../../core/userguide/platforms/cmd_install.rst:83
+msgid ""
+"The ``version`` supports `Semantic Versioning <https://devhints.io/semver>`_ "
+"( ``<major>.<minor>.<patch>``) and can take any of the following forms:"
+msgstr ""
+
+#: ../../../core/userguide/platforms/cmd_install.rst:86
+msgid ""
+"``^1.2.3`` - any compatible version (new functionality in a backwards "
+"compatible manner and patches are allowed, 1.x.x). **RECOMMENDED**"
+msgstr ""
+
+#: ../../../core/userguide/platforms/cmd_install.rst:87
+msgid ""
+"``~1.2.3`` - any version with the same major and minor versions, and an "
+"equal or greater patch version"
+msgstr ""
+
+#: ../../../core/userguide/platforms/cmd_install.rst:89
+msgid ""
+"``>1.2.3`` - any version greater than ``1.2.3``. ``>=``, ``<``, and ``<=`` "
+"are also possible"
+msgstr ""
+
+#: ../../../core/userguide/platforms/cmd_install.rst:91
+msgid ""
+"``>0.1.0,!=0.2.0,<0.3.0`` - any version greater than ``0.1.0``, not equal to "
+"``0.2.0`` and less than ``0.3.0``"
+msgstr ""
+
+#: ../../../core/userguide/platforms/cmd_install.rst:93
+msgid "``1.2.3`` - an exact version number. Use only this exact version."
+msgstr ""
+
+#: ../../../core/userguide/platforms/cmd_install.rst:95
+msgid ""
+"Also, PlatformIO supports installing from local directory or archive. Need "
+"to use ``file://`` prefix before local path. Also, directory or archive "
+"should contain ``platform.json`` manifest."
+msgstr ""
+
+#: ../../../core/userguide/platforms/cmd_install.rst:99
+msgid "``file:///local/path/to/the/platform/dir``"
+msgstr ""
+
+#: ../../../core/userguide/platforms/cmd_install.rst:100
+msgid "``file:///local/path/to/the/platform.zip``"
+msgstr ""
+
+#: ../../../core/userguide/platforms/cmd_install.rst:101
+msgid "``file:///local/path/to/the/platform.tar.gz``"
+msgstr ""
+
+#: ../../../core/userguide/platforms/cmd_install.rst:104
+msgid "Version control"
+msgstr ""
+
+#: ../../../core/userguide/platforms/cmd_install.rst:106
+msgid ""
+"PlatformIO supports installing from Git, Mercurial and Subversion, and "
+"detects the type of VCS using url prefixes: \"git+\", \"hg+\", or \"svn+\"."
+msgstr ""
+
+#: ../../../core/userguide/platforms/cmd_install.rst:110
+msgid ""
+"PlatformIO requires a working VCS command on your path: ``git``, ``hg`` or "
+"``svn``."
+msgstr ""
+
+#: ../../../core/userguide/platforms/cmd_install.rst:114
+msgid "Git"
+msgstr ""
+
+#: ../../../core/userguide/platforms/cmd_install.rst:116
+msgid ""
+"The supported schemes are: ``git``, ``git+https`` and ``git+ssh``. Here are "
+"the supported forms:"
+msgstr ""
+
+#: ../../../core/userguide/platforms/cmd_install.rst:119
+msgid "https://github.com/platformio/platform-NAME.git"
+msgstr ""
+
+#: ../../../core/userguide/platforms/cmd_install.rst:120
+msgid "git+git://git.server.org/my-platform"
+msgstr ""
+
+#: ../../../core/userguide/platforms/cmd_install.rst:121
+msgid "git+https://git.server.org/my-platform"
+msgstr ""
+
+#: ../../../core/userguide/platforms/cmd_install.rst:122
+msgid "git+ssh://git.server.org/my-platform"
+msgstr ""
+
+#: ../../../core/userguide/platforms/cmd_install.rst:123
+msgid "git+ssh://user@git.server.org/my-platform"
+msgstr ""
+
+#: ../../../core/userguide/platforms/cmd_install.rst:124
+msgid "[user@]host.xz:path/to/repo.git"
+msgstr ""
+
+#: ../../../core/userguide/platforms/cmd_install.rst:126
+#: ../../../core/userguide/platforms/cmd_install.rst:143
+msgid "Passing branch names, a commit hash or a tag name is possible like so:"
+msgstr ""
+
+#: ../../../core/userguide/platforms/cmd_install.rst:128
+msgid "https://github.com/platformio/platform-name.git#master"
+msgstr ""
+
+#: ../../../core/userguide/platforms/cmd_install.rst:129
+msgid "git+git://git.server.org/my-platform#master"
+msgstr ""
+
+#: ../../../core/userguide/platforms/cmd_install.rst:130
+msgid "git+https://git.server.org/my-platform#v1.0"
+msgstr ""
+
+#: ../../../core/userguide/platforms/cmd_install.rst:131
+msgid ""
+"git+ssh://git.server.org/my-platform#7846d8ad52f983f2f2887bdc0f073fe9755a806d"
+msgstr ""
+
+#: ../../../core/userguide/platforms/cmd_install.rst:134
+msgid "Mercurial"
+msgstr ""
+
+#: ../../../core/userguide/platforms/cmd_install.rst:136
+msgid ""
+"The supported schemes are: ``hg+http``, ``hg+https`` and ``hg+ssh``. Here "
+"are the supported forms:"
+msgstr ""
+
+#: ../../../core/userguide/platforms/cmd_install.rst:139
+msgid "hg+hg://hg.server.org/my-platform"
+msgstr ""
+
+#: ../../../core/userguide/platforms/cmd_install.rst:140
+msgid "hg+https://hg.server.org/my-platform"
+msgstr ""
+
+#: ../../../core/userguide/platforms/cmd_install.rst:141
+msgid "hg+ssh://hg.server.org/my-platform"
+msgstr ""
+
+#: ../../../core/userguide/platforms/cmd_install.rst:145
+msgid "hg+hg://hg.server.org/my-platform#master"
+msgstr ""
+
+#: ../../../core/userguide/platforms/cmd_install.rst:146
+msgid "hg+https://hg.server.org/my-platform#v1.0"
+msgstr ""
+
+#: ../../../core/userguide/platforms/cmd_install.rst:147
+msgid "hg+ssh://hg.server.org/my-platform#4cfe2fa00668"
+msgstr ""
+
+#: ../../../core/userguide/platforms/cmd_install.rst:150
+msgid "Subversion"
+msgstr ""
+
+#: ../../../core/userguide/platforms/cmd_install.rst:152
+msgid ""
+"The supported schemes are: ``svn``, ``svn+svn``, ``svn+http``, ``svn+https`` "
+"and ``svn+ssh``. Here are the supported forms:"
+msgstr ""
+
+#: ../../../core/userguide/platforms/cmd_install.rst:155
+msgid "svn+svn://svn.server.org/my-platform"
+msgstr ""
+
+#: ../../../core/userguide/platforms/cmd_install.rst:156
+msgid "svn+https://svn.server.org/my-platform"
+msgstr ""
+
+#: ../../../core/userguide/platforms/cmd_install.rst:157
+msgid "svn+ssh://svn.server.org/my-platform"
+msgstr ""
+
+#: ../../../core/userguide/platforms/cmd_install.rst:159
+msgid "You can also give specific revisions to an SVN URL, like so:"
+msgstr ""
+
+#: ../../../core/userguide/platforms/cmd_install.rst:161
+msgid "svn+svn://svn.server.org/my-platform#13"
+msgstr ""
+
+#: ../../../core/userguide/platforms/cmd_install.rst:164
+msgid "Examples"
+msgstr ""
+
+#: ../../../core/userguide/platforms/cmd_install.rst:166
+msgid "Install :ref:`platform_atmelavr` with default packages"
+msgstr ""
+
+#: ../../../core/userguide/platforms/cmd_install.rst:187
+msgid ""
+"Install :ref:`platform_atmelavr` with ``uploader`` utility only and skip "
+"default packages"
+msgstr ""
+
+#: ../../../core/userguide/platforms/cmd_install.rst:209
+msgid ""
+"Install the latest development :ref:`platform_atmelavr` from Git repository"
+msgstr ""

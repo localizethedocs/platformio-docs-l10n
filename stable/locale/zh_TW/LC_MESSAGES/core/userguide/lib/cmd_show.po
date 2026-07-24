@@ -1,0 +1,72 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present, PlatformIO
+# This file is distributed under the same license as the PlatformIO package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PlatformIO stable\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-24 14:03+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../core/userguide/lib/cmd_show.rst:15
+msgid "pio lib show"
+msgstr ""
+
+#: ../../../core/userguide/lib/cmd_show.rst:20
+msgid "This command is deprecated and will be removed in the next releases."
+msgstr ""
+
+#: ../../../core/userguide/lib/cmd_show.rst:22
+msgid "Please use the :ref:`cmd_pkg_show` command instead."
+msgstr ""
+
+#: ../../../core/userguide/lib/cmd_show.rst:24
+msgid "Contents"
+msgstr ""
+
+#: ../../../core/userguide/lib/cmd_show.rst:27
+msgid "Usage"
+msgstr ""
+
+#: ../../../core/userguide/lib/cmd_show.rst:35
+msgid "Description"
+msgstr ""
+
+#: ../../../core/userguide/lib/cmd_show.rst:37
+msgid ""
+"Show detailed info about a library using `PlatformIO Library Registry "
+"<https://platformio.org/lib>`_."
+msgstr ""
+
+#: ../../../core/userguide/lib/cmd_show.rst:40
+msgid "The possible values for ``[LIBRARY]``:"
+msgstr ""
+
+#: ../../../core/userguide/lib/cmd_show.rst:42
+msgid "Library ID from Registry (preferred)"
+msgstr ""
+
+#: ../../../core/userguide/lib/cmd_show.rst:43
+msgid "Library Name"
+msgstr ""
+
+#: ../../../core/userguide/lib/cmd_show.rst:46
+msgid "Options"
+msgstr ""
+
+#: ../../../core/userguide/lib/cmd_show.rst:53
+msgid "Return the output in `JSON <http://en.wikipedia.org/wiki/JSON>`_ format"
+msgstr ""
+
+#: ../../../core/userguide/lib/cmd_show.rst:56
+msgid "Examples"
+msgstr ""

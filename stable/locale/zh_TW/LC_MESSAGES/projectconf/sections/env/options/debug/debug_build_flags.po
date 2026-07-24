@@ -1,0 +1,48 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present, PlatformIO
+# This file is distributed under the same license as the PlatformIO package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PlatformIO stable\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-24 14:03+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../projectconf/sections/env/options/debug/debug_build_flags.rst:15
+msgid "``debug_build_flags``"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/debug/debug_build_flags.rst:17
+msgid "Type: ``String`` | Multiple: ``Yes`` | Default: ``-Og -g2 -ggdb2``"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/debug/debug_build_flags.rst:19
+msgid ""
+"These flags/options affect the preprocessing, compilation, assembly and "
+"linking processes for C and C++ code."
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/debug/debug_build_flags.rst:23
+msgid ""
+"This option might be helpful to adjust the optimization level if firmware "
+"with debug information is too big to be uploaded to a target"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/debug/debug_build_flags.rst:26
+msgid "**Example**"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/debug/debug_build_flags.rst:37
+msgid ""
+"`Other possible flags  <https://gcc.gnu.org/onlinedocs/gcc/Debugging-Options."
+"html>`__ that might be useful for debugging your application."
+msgstr ""

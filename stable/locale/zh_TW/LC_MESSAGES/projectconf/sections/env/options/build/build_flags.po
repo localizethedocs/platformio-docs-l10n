@@ -1,0 +1,402 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present, PlatformIO
+# This file is distributed under the same license as the PlatformIO package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PlatformIO stable\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-24 14:03+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../projectconf/sections/env/options/build/build_flags.rst:15
+msgid "``build_flags``"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/build/build_flags.rst:17
+msgid "Type: ``String`` | Multiple: ``Yes``"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/build/build_flags.rst:19
+msgid ""
+"These flags/options affect the preprocessing, compilation, assembly, and "
+"linking processes for C and C++ code. All compiler and linker flags can be "
+"used. Despite the name, ``CPPDEFINES`` (C PreProcessor) rows also apply to "
+"the C compiler."
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/build/build_flags.rst:24
+msgid ""
+"For more detailed information about available compiler flags/options, please "
+"visit `GCC Command Options <https://gcc.gnu.org/onlinedocs/gcc/Invoking-GCC."
+"html>`__ official documentation."
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/build/build_flags.rst:28
+msgid ""
+"This option can also be set by the global environment variable :envvar:"
+"`PLATFORMIO_BUILD_FLAGS`."
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/build/build_flags.rst:32
+msgid "Contents"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/build/build_flags.rst:35
+msgid "Scopes (SCons Variables)"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/build/build_flags.rst:40
+msgid "Format"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/build/build_flags.rst:41
+msgid "Affects build variable"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/build/build_flags.rst:42
+msgid "Description"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/build/build_flags.rst:43
+msgid "``-D name``"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/build/build_flags.rst:44
+#: ../../../projectconf/sections/env/options/build/build_flags.rst:47
+#: ../../../projectconf/sections/env/options/build/build_flags.rst:51
+msgid "CPPDEFINES"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/build/build_flags.rst:45
+msgid "Predefine *name* as a macro, with definition 1."
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/build/build_flags.rst:46
+msgid "``-D name=definition``"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/build/build_flags.rst:48
+msgid ""
+"The contents of *definition* are tokenized and processed as if they appeared "
+"during translation phase three in a ``#define`` directive."
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/build/build_flags.rst:50
+msgid "``-U name``"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/build/build_flags.rst:52
+msgid ""
+"Cancel any previous definition of *name*, either built in or provided with a "
+"``-D`` option."
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/build/build_flags.rst:54
+msgid "``-Wp,option``"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/build/build_flags.rst:55
+msgid "CPPFLAGS"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/build/build_flags.rst:56
+msgid ""
+"Bypass the compiler driver and pass *option* directly through to the "
+"preprocessor"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/build/build_flags.rst:58
+msgid "``-Wall``"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/build/build_flags.rst:59
+#: ../../../projectconf/sections/env/options/build/build_flags.rst:62
+#: ../../../projectconf/sections/env/options/build/build_flags.rst:65
+#: ../../../projectconf/sections/env/options/build/build_flags.rst:68
+msgid "CCFLAGS"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/build/build_flags.rst:60
+msgid "Turn on all optional warnings which are desirable for normal code."
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/build/build_flags.rst:61
+msgid "``-Werror``"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/build/build_flags.rst:63
+msgid ""
+"Make all warnings into hard errors. With this option, if any source code "
+"triggers warnings, the compilation will be aborted."
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/build/build_flags.rst:64
+msgid "``-w``"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/build/build_flags.rst:66
+msgid "Suppress all warnings, including those which GNU CPP issues by default."
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/build/build_flags.rst:67
+msgid "``-include file``"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/build/build_flags.rst:69
+msgid ""
+"Process *file* as if ``#include \"file\"`` appeared as the first line of the "
+"primary source file."
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/build/build_flags.rst:71
+msgid "``-Idir``"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/build/build_flags.rst:72
+msgid "CPPPATH"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/build/build_flags.rst:73
+msgid ""
+"Add the directory *dir* to the list of directories to be searched for header "
+"files."
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/build/build_flags.rst:75
+msgid "``-Wa,option``"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/build/build_flags.rst:76
+msgid "ASFLAGS, CCFLAGS"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/build/build_flags.rst:77
+msgid ""
+"Pass *option* as an option to the assembler. If *option* contains commas, it "
+"is split into multiple options at the commas."
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/build/build_flags.rst:79
+msgid "``-Wl,option``"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/build/build_flags.rst:80
+msgid "LINKFLAGS"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/build/build_flags.rst:81
+msgid ""
+"Pass *option* as an option to the linker. If *option* contains commas, it is "
+"split into multiple options at the commas."
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/build/build_flags.rst:83
+msgid "``-llibrary``"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/build/build_flags.rst:84
+msgid "LIBS"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/build/build_flags.rst:85
+msgid "Search the *library* named library when linking"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/build/build_flags.rst:86
+msgid "``-Ldir``"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/build/build_flags.rst:87
+msgid "LIBPATH"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/build/build_flags.rst:88
+msgid ""
+"Add directory *dir* to the list of directories to be searched for ``-l``."
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/build/build_flags.rst:92
+msgid "Examples"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/build/build_flags.rst:118
+msgid ""
+"If you need to control build flags that are specific for debug configuration "
+"please refer to :ref:`projectconf_debug_build_flags`."
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/build/build_flags.rst:122
+msgid "Built-in Variables"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/build/build_flags.rst:124
+msgid "You can inject the built-in variables into your build flags, such as:"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/build/build_flags.rst:126
+msgid "``$PYTHONEXE``, full path to current Python interpreter"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/build/build_flags.rst:127
+msgid "``$UNIX_TIME``, current time in Unix format"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/build/build_flags.rst:128
+msgid "``$PIOENV``, name of build environment from :ref:`projectconf`"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/build/build_flags.rst:129
+msgid "``$PIOPLATFORM``, name of development platform"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/build/build_flags.rst:130
+msgid "``$PIOFRAMEWORK``, a list of frameworks"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/build/build_flags.rst:131
+msgid "``$PROJECT_DIR``, project directory"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/build/build_flags.rst:132
+msgid ""
+"``$PROJECT_CORE_DIR``, PlatformIO Core directory, see :ref:"
+"`projectconf_pio_core_dir`"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/build/build_flags.rst:133
+msgid "``$PROJECT_BUILD_DIR``, project build directory per all environments"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/build/build_flags.rst:134
+msgid "``$BUILD_DIR``, build directory per current environment"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/build/build_flags.rst:136
+msgid ""
+"See the `full list of PlatformIO variables <https://github.com/platformio/"
+"platformio-core/blob/develop/platformio/builder/main.py>`_."
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/build/build_flags.rst:138
+msgid ""
+"Please use target ``envdump`` for the :option:`pio run --target` command to "
+"see ALL variable values for a build environment."
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/build/build_flags.rst:142
+msgid "Stringification"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/build/build_flags.rst:144
+msgid ""
+"Sometimes you may want to convert a macro argument into a valid C string "
+"constant. In this case, you need to wrap a value with double quotes (``\"``) "
+"and escape double quotes (``\"`` -> ``\\\\\"``) in the constant value."
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/build/build_flags.rst:148
+msgid ""
+"Here is an example of a macro definition that uses stringification and :ref:"
+"`projectconf_build_flags`. Please note that we enclosed the flag in the "
+"single quotes to prevent the shell evaluation:"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/build/build_flags.rst:152
+#: ../../../projectconf/sections/env/options/build/build_flags.rst:179
+msgid "**platformio.ini**"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/build/build_flags.rst:161
+msgid "**src/main.cpp**"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/build/build_flags.rst:174
+msgid ""
+"If you use :ref:`scripting`, we recommend benefiting from the ``env."
+"StringifyMacro(value)`` helper function. In this case, you don't need to "
+"apply any escaping, PlatformIO will do this for you:"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/build/build_flags.rst:186
+msgid "**myscript.py**"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/build/build_flags.rst:199
+msgid "Dynamic build flags"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/build/build_flags.rst:201
+msgid ""
+"PlatformIO allows users to run an external command/script which outputs "
+"build flags into STDOUT by prepending the shell command with a ``!`` "
+"character. PlatformIO will automatically replace commands with their output "
+"when appending flags to build environments."
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/build/build_flags.rst:206
+msgid "**You can use any shell or programming language.**"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/build/build_flags.rst:208
+msgid ""
+"This external command will be called on each :ref:`cmd_run` command before "
+"building/uploading process."
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/build/build_flags.rst:211
+msgid "Use cases:"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/build/build_flags.rst:213
+msgid "Macro with the latest VCS revision/tag \"on-the-fly\""
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/build/build_flags.rst:214
+msgid "Generate dynamic headers (``*.h``)"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/build/build_flags.rst:215
+msgid "Process media content before generating SPIFFS image"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/build/build_flags.rst:216
+msgid "Make some changes to source code or related libraries"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/build/build_flags.rst:219
+msgid ""
+"If you need more advanced control and would like to apply changes to a "
+"PlatformIO Build System environment, please refer to :ref:`scripting`."
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/build/build_flags.rst:222
+msgid "Example:"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/build/build_flags.rst:233
+msgid ""
+"**Use Case: Create a \"PIO_SRC_REV\" macro with the latest Git revision**"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/build/build_flags.rst:235
+msgid ""
+"This example includes a separate file named ``git_rev_macro.py``, to be "
+"placed in the same directory as ``platformio.ini``."
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/build/build_flags.rst:238
+msgid "``platformio.ini``:"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/build/build_flags.rst:245
+msgid "``git_rev_macro.py``:"
+msgstr ""

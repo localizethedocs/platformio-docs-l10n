@@ -1,0 +1,4689 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present, PlatformIO
+# This file is distributed under the same license as the PlatformIO package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PlatformIO stable\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-24 14:03+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../plus/debug-tools/stlink.rst:15
+msgid "ST-LINK"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:20
+msgid ""
+"The ST-LINK is an in-circuit debugger and programmer for the STM8 and STM32 "
+"microcontroller families. The single wire interface module (SWIM) and JTAG/"
+"serial wire debugging (SWD) interfaces are used to communicate with any STM8 "
+"or STM32 microcontroller located on an application board. Official reference "
+"can be found `here <http://www.st.com/en/development-tools/st-link-v2.1.html?"
+"utm_source=platformio&utm_medium=docs>`__."
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:27
+msgid "Contents"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:30
+msgid "Configuration"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:32
+msgid ""
+"You can configure debugging tool using :ref:`projectconf_debug_tool` option "
+"in :ref:`projectconf`:"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:42
+msgid ""
+"If you would like to use this tool for firmware uploading, please change "
+"upload protocol:"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:53
+msgid "More options:"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:55
+msgid ":ref:`projectconf_section_env_debug`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:56
+msgid ":ref:`projectconf_section_env_upload`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:59
+msgid "Drivers"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:0
+msgid "Windows"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:62
+msgid ""
+"Please install official `ST-LINK USB driver <https://www.st.com/en/"
+"development-tools/stsw-link009.html>`_."
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:0
+msgid "Mac"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:65
+msgid "Not required."
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:0
+msgid "Linux"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:68
+msgid ""
+"Please install \"udev\" rules :ref:`platformio_udev_rules`. If you already "
+"installed them before, please check that your rules are up-to-date or repeat "
+"steps."
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:72
+msgid "Wiring Connections"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:74
+msgid ""
+"Please check a community `Guide: Connecting your ST-Link debugger <https://"
+"stm32-base.org/guides/connecting-your-debugger>`__ that covers the next "
+"debugging probes:"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:77
+msgid "Official ST-LINK/V2"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:78
+msgid "Nucleo ST-LINK/V2"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:79
+msgid "ST-LINK/V2 Clone."
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:84
+msgid "Platforms"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:88
+#: ../../../plus/debug-tools/stlink.rst:114
+#: ../../../plus/debug-tools/stlink.rst:148
+msgid "Name"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:89
+#: ../../../plus/debug-tools/stlink.rst:115
+msgid "Description"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:91
+#: ../../../plus/debug-tools/stlink.rst:247
+#: ../../../plus/debug-tools/stlink.rst:254
+#: ../../../plus/debug-tools/stlink.rst:261
+#: ../../../plus/debug-tools/stlink.rst:268
+#: ../../../plus/debug-tools/stlink.rst:275
+#: ../../../plus/debug-tools/stlink.rst:282
+#: ../../../plus/debug-tools/stlink.rst:289
+msgid ":ref:`platform_aceinna_imu`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:92
+msgid ""
+"Open-source, embedded development platform for Aceinna IMU hardware. Run "
+"custom algorithms and navigation code on Aceinna IMU/INS hardware."
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:94
+#: ../../../plus/debug-tools/stlink.rst:345
+#: ../../../plus/debug-tools/stlink.rst:352
+#: ../../../plus/debug-tools/stlink.rst:646
+#: ../../../plus/debug-tools/stlink.rst:2361
+#: ../../../plus/debug-tools/stlink.rst:2368
+msgid ":ref:`platform_atmelsam`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:95
+msgid ""
+"Atmel | SMART offers Flash- based ARM products based on the ARM Cortex-M0+, "
+"Cortex-M3 and Cortex-M4 architectures, ranging from 8KB to 2MB of Flash "
+"including a rich peripheral and feature mix."
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:97
+#: ../../../plus/debug-tools/stlink.rst:576
+#: ../../../plus/debug-tools/stlink.rst:940
+#: ../../../plus/debug-tools/stlink.rst:954
+#: ../../../plus/debug-tools/stlink.rst:1038
+#: ../../../plus/debug-tools/stlink.rst:1178
+#: ../../../plus/debug-tools/stlink.rst:1199
+#: ../../../plus/debug-tools/stlink.rst:2382
+#: ../../../plus/debug-tools/stlink.rst:2424
+#: ../../../plus/debug-tools/stlink.rst:2515
+#: ../../../plus/debug-tools/stlink.rst:2585
+msgid ":ref:`platform_nordicnrf51`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:98
+msgid ""
+"The Nordic nRF51 Series is a family of highly flexible, multi-protocol, "
+"system-on-chip (SoC) devices for ultra-low power wireless applications. "
+"nRF51 Series devices support a range of protocol stacks including Bluetooth "
+"Smart (previously called Bluetooth low energy), ANT and proprietary 2.4GHz "
+"protocols such as Gazell."
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:100
+#: ../../../plus/debug-tools/stlink.rst:233
+#: ../../../plus/debug-tools/stlink.rst:296
+#: ../../../plus/debug-tools/stlink.rst:303
+#: ../../../plus/debug-tools/stlink.rst:310
+#: ../../../plus/debug-tools/stlink.rst:324
+#: ../../../plus/debug-tools/stlink.rst:331
+#: ../../../plus/debug-tools/stlink.rst:436
+#: ../../../plus/debug-tools/stlink.rst:443
+#: ../../../plus/debug-tools/stlink.rst:450
+#: ../../../plus/debug-tools/stlink.rst:457
+#: ../../../plus/debug-tools/stlink.rst:569
+#: ../../../plus/debug-tools/stlink.rst:583
+#: ../../../plus/debug-tools/stlink.rst:597
+#: ../../../plus/debug-tools/stlink.rst:618
+#: ../../../plus/debug-tools/stlink.rst:667
+#: ../../../plus/debug-tools/stlink.rst:674
+#: ../../../plus/debug-tools/stlink.rst:758
+#: ../../../plus/debug-tools/stlink.rst:765
+#: ../../../plus/debug-tools/stlink.rst:779
+#: ../../../plus/debug-tools/stlink.rst:814
+#: ../../../plus/debug-tools/stlink.rst:821
+#: ../../../plus/debug-tools/stlink.rst:870
+#: ../../../plus/debug-tools/stlink.rst:947
+#: ../../../plus/debug-tools/stlink.rst:961
+#: ../../../plus/debug-tools/stlink.rst:968
+#: ../../../plus/debug-tools/stlink.rst:975
+#: ../../../plus/debug-tools/stlink.rst:982
+#: ../../../plus/debug-tools/stlink.rst:1073
+#: ../../../plus/debug-tools/stlink.rst:1080
+#: ../../../plus/debug-tools/stlink.rst:1115
+#: ../../../plus/debug-tools/stlink.rst:1171
+#: ../../../plus/debug-tools/stlink.rst:1185
+#: ../../../plus/debug-tools/stlink.rst:1192
+#: ../../../plus/debug-tools/stlink.rst:1220
+#: ../../../plus/debug-tools/stlink.rst:1227
+#: ../../../plus/debug-tools/stlink.rst:2445
+#: ../../../plus/debug-tools/stlink.rst:2494
+#: ../../../plus/debug-tools/stlink.rst:2571
+#: ../../../plus/debug-tools/stlink.rst:2578
+#: ../../../plus/debug-tools/stlink.rst:2613
+#: ../../../plus/debug-tools/stlink.rst:2641
+msgid ":ref:`platform_nordicnrf52`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:101
+msgid ""
+"The nRF52 Series are built for speed to carry out increasingly complex tasks "
+"in the shortest possible time and return to sleep, conserving precious "
+"battery power. They have a Cortex-M4F processor which makes them quite "
+"capable Bluetooth Smart SoCs."
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:103
+#: ../../../plus/debug-tools/stlink.rst:156
+#: ../../../plus/debug-tools/stlink.rst:163
+#: ../../../plus/debug-tools/stlink.rst:170
+#: ../../../plus/debug-tools/stlink.rst:177
+#: ../../../plus/debug-tools/stlink.rst:184
+#: ../../../plus/debug-tools/stlink.rst:191
+#: ../../../plus/debug-tools/stlink.rst:198
+#: ../../../plus/debug-tools/stlink.rst:205
+#: ../../../plus/debug-tools/stlink.rst:212
+#: ../../../plus/debug-tools/stlink.rst:219
+#: ../../../plus/debug-tools/stlink.rst:226
+#: ../../../plus/debug-tools/stlink.rst:240
+#: ../../../plus/debug-tools/stlink.rst:317
+#: ../../../plus/debug-tools/stlink.rst:338
+#: ../../../plus/debug-tools/stlink.rst:359
+#: ../../../plus/debug-tools/stlink.rst:366
+#: ../../../plus/debug-tools/stlink.rst:373
+#: ../../../plus/debug-tools/stlink.rst:380
+#: ../../../plus/debug-tools/stlink.rst:387
+#: ../../../plus/debug-tools/stlink.rst:394
+#: ../../../plus/debug-tools/stlink.rst:401
+#: ../../../plus/debug-tools/stlink.rst:408
+#: ../../../plus/debug-tools/stlink.rst:415
+#: ../../../plus/debug-tools/stlink.rst:422
+#: ../../../plus/debug-tools/stlink.rst:429
+#: ../../../plus/debug-tools/stlink.rst:464
+#: ../../../plus/debug-tools/stlink.rst:471
+#: ../../../plus/debug-tools/stlink.rst:478
+#: ../../../plus/debug-tools/stlink.rst:485
+#: ../../../plus/debug-tools/stlink.rst:492
+#: ../../../plus/debug-tools/stlink.rst:499
+#: ../../../plus/debug-tools/stlink.rst:506
+#: ../../../plus/debug-tools/stlink.rst:513
+#: ../../../plus/debug-tools/stlink.rst:520
+#: ../../../plus/debug-tools/stlink.rst:527
+#: ../../../plus/debug-tools/stlink.rst:534
+#: ../../../plus/debug-tools/stlink.rst:541
+#: ../../../plus/debug-tools/stlink.rst:548
+#: ../../../plus/debug-tools/stlink.rst:555
+#: ../../../plus/debug-tools/stlink.rst:562
+#: ../../../plus/debug-tools/stlink.rst:590
+#: ../../../plus/debug-tools/stlink.rst:604
+#: ../../../plus/debug-tools/stlink.rst:611
+#: ../../../plus/debug-tools/stlink.rst:625
+#: ../../../plus/debug-tools/stlink.rst:632
+#: ../../../plus/debug-tools/stlink.rst:639
+#: ../../../plus/debug-tools/stlink.rst:653
+#: ../../../plus/debug-tools/stlink.rst:660
+#: ../../../plus/debug-tools/stlink.rst:681
+#: ../../../plus/debug-tools/stlink.rst:688
+#: ../../../plus/debug-tools/stlink.rst:695
+#: ../../../plus/debug-tools/stlink.rst:702
+#: ../../../plus/debug-tools/stlink.rst:709
+#: ../../../plus/debug-tools/stlink.rst:716
+#: ../../../plus/debug-tools/stlink.rst:723
+#: ../../../plus/debug-tools/stlink.rst:730
+#: ../../../plus/debug-tools/stlink.rst:737
+#: ../../../plus/debug-tools/stlink.rst:744
+#: ../../../plus/debug-tools/stlink.rst:751
+#: ../../../plus/debug-tools/stlink.rst:772
+#: ../../../plus/debug-tools/stlink.rst:786
+#: ../../../plus/debug-tools/stlink.rst:793
+#: ../../../plus/debug-tools/stlink.rst:800
+#: ../../../plus/debug-tools/stlink.rst:807
+#: ../../../plus/debug-tools/stlink.rst:828
+#: ../../../plus/debug-tools/stlink.rst:835
+#: ../../../plus/debug-tools/stlink.rst:842
+#: ../../../plus/debug-tools/stlink.rst:849
+#: ../../../plus/debug-tools/stlink.rst:856
+#: ../../../plus/debug-tools/stlink.rst:863
+#: ../../../plus/debug-tools/stlink.rst:877
+#: ../../../plus/debug-tools/stlink.rst:884
+#: ../../../plus/debug-tools/stlink.rst:891
+#: ../../../plus/debug-tools/stlink.rst:898
+#: ../../../plus/debug-tools/stlink.rst:905
+#: ../../../plus/debug-tools/stlink.rst:912
+#: ../../../plus/debug-tools/stlink.rst:919
+#: ../../../plus/debug-tools/stlink.rst:989
+#: ../../../plus/debug-tools/stlink.rst:996
+#: ../../../plus/debug-tools/stlink.rst:1003
+#: ../../../plus/debug-tools/stlink.rst:1010
+#: ../../../plus/debug-tools/stlink.rst:1017
+#: ../../../plus/debug-tools/stlink.rst:1024
+#: ../../../plus/debug-tools/stlink.rst:1031
+#: ../../../plus/debug-tools/stlink.rst:1045
+#: ../../../plus/debug-tools/stlink.rst:1052
+#: ../../../plus/debug-tools/stlink.rst:1059
+#: ../../../plus/debug-tools/stlink.rst:1066
+#: ../../../plus/debug-tools/stlink.rst:1087
+#: ../../../plus/debug-tools/stlink.rst:1094
+#: ../../../plus/debug-tools/stlink.rst:1101
+#: ../../../plus/debug-tools/stlink.rst:1108
+#: ../../../plus/debug-tools/stlink.rst:1122
+#: ../../../plus/debug-tools/stlink.rst:1129
+#: ../../../plus/debug-tools/stlink.rst:1136
+#: ../../../plus/debug-tools/stlink.rst:1143
+#: ../../../plus/debug-tools/stlink.rst:1150
+#: ../../../plus/debug-tools/stlink.rst:1157
+#: ../../../plus/debug-tools/stlink.rst:1164
+#: ../../../plus/debug-tools/stlink.rst:1206
+#: ../../../plus/debug-tools/stlink.rst:1213
+#: ../../../plus/debug-tools/stlink.rst:1234
+#: ../../../plus/debug-tools/stlink.rst:1241
+#: ../../../plus/debug-tools/stlink.rst:1248
+#: ../../../plus/debug-tools/stlink.rst:1255
+#: ../../../plus/debug-tools/stlink.rst:1262
+#: ../../../plus/debug-tools/stlink.rst:1269
+#: ../../../plus/debug-tools/stlink.rst:1276
+#: ../../../plus/debug-tools/stlink.rst:1283
+#: ../../../plus/debug-tools/stlink.rst:1290
+#: ../../../plus/debug-tools/stlink.rst:1297
+#: ../../../plus/debug-tools/stlink.rst:1304
+#: ../../../plus/debug-tools/stlink.rst:1311
+#: ../../../plus/debug-tools/stlink.rst:1318
+#: ../../../plus/debug-tools/stlink.rst:1325
+#: ../../../plus/debug-tools/stlink.rst:1332
+#: ../../../plus/debug-tools/stlink.rst:1339
+#: ../../../plus/debug-tools/stlink.rst:1346
+#: ../../../plus/debug-tools/stlink.rst:1353
+#: ../../../plus/debug-tools/stlink.rst:1360
+#: ../../../plus/debug-tools/stlink.rst:1367
+#: ../../../plus/debug-tools/stlink.rst:1374
+#: ../../../plus/debug-tools/stlink.rst:1381
+#: ../../../plus/debug-tools/stlink.rst:1388
+#: ../../../plus/debug-tools/stlink.rst:1395
+#: ../../../plus/debug-tools/stlink.rst:1402
+#: ../../../plus/debug-tools/stlink.rst:1409
+#: ../../../plus/debug-tools/stlink.rst:1416
+#: ../../../plus/debug-tools/stlink.rst:1423
+#: ../../../plus/debug-tools/stlink.rst:1430
+#: ../../../plus/debug-tools/stlink.rst:1437
+#: ../../../plus/debug-tools/stlink.rst:1444
+#: ../../../plus/debug-tools/stlink.rst:1451
+#: ../../../plus/debug-tools/stlink.rst:1458
+#: ../../../plus/debug-tools/stlink.rst:1465
+#: ../../../plus/debug-tools/stlink.rst:1472
+#: ../../../plus/debug-tools/stlink.rst:1479
+#: ../../../plus/debug-tools/stlink.rst:1486
+#: ../../../plus/debug-tools/stlink.rst:1493
+#: ../../../plus/debug-tools/stlink.rst:1500
+#: ../../../plus/debug-tools/stlink.rst:1507
+#: ../../../plus/debug-tools/stlink.rst:1514
+#: ../../../plus/debug-tools/stlink.rst:1521
+#: ../../../plus/debug-tools/stlink.rst:1528
+#: ../../../plus/debug-tools/stlink.rst:1535
+#: ../../../plus/debug-tools/stlink.rst:1542
+#: ../../../plus/debug-tools/stlink.rst:1549
+#: ../../../plus/debug-tools/stlink.rst:1556
+#: ../../../plus/debug-tools/stlink.rst:1563
+#: ../../../plus/debug-tools/stlink.rst:1570
+#: ../../../plus/debug-tools/stlink.rst:1577
+#: ../../../plus/debug-tools/stlink.rst:1584
+#: ../../../plus/debug-tools/stlink.rst:1591
+#: ../../../plus/debug-tools/stlink.rst:1598
+#: ../../../plus/debug-tools/stlink.rst:1605
+#: ../../../plus/debug-tools/stlink.rst:1612
+#: ../../../plus/debug-tools/stlink.rst:1619
+#: ../../../plus/debug-tools/stlink.rst:1626
+#: ../../../plus/debug-tools/stlink.rst:1633
+#: ../../../plus/debug-tools/stlink.rst:1640
+#: ../../../plus/debug-tools/stlink.rst:1647
+#: ../../../plus/debug-tools/stlink.rst:1654
+#: ../../../plus/debug-tools/stlink.rst:1661
+#: ../../../plus/debug-tools/stlink.rst:1668
+#: ../../../plus/debug-tools/stlink.rst:1675
+#: ../../../plus/debug-tools/stlink.rst:1682
+#: ../../../plus/debug-tools/stlink.rst:1689
+#: ../../../plus/debug-tools/stlink.rst:1696
+#: ../../../plus/debug-tools/stlink.rst:1703
+#: ../../../plus/debug-tools/stlink.rst:1710
+#: ../../../plus/debug-tools/stlink.rst:1717
+#: ../../../plus/debug-tools/stlink.rst:1724
+#: ../../../plus/debug-tools/stlink.rst:1731
+#: ../../../plus/debug-tools/stlink.rst:1738
+#: ../../../plus/debug-tools/stlink.rst:1745
+#: ../../../plus/debug-tools/stlink.rst:1752
+#: ../../../plus/debug-tools/stlink.rst:1759
+#: ../../../plus/debug-tools/stlink.rst:1766
+#: ../../../plus/debug-tools/stlink.rst:1801
+#: ../../../plus/debug-tools/stlink.rst:1808
+#: ../../../plus/debug-tools/stlink.rst:1815
+#: ../../../plus/debug-tools/stlink.rst:1822
+#: ../../../plus/debug-tools/stlink.rst:1829
+#: ../../../plus/debug-tools/stlink.rst:1836
+#: ../../../plus/debug-tools/stlink.rst:1843
+#: ../../../plus/debug-tools/stlink.rst:1850
+#: ../../../plus/debug-tools/stlink.rst:1857
+#: ../../../plus/debug-tools/stlink.rst:1864
+#: ../../../plus/debug-tools/stlink.rst:1871
+#: ../../../plus/debug-tools/stlink.rst:1878
+#: ../../../plus/debug-tools/stlink.rst:1885
+#: ../../../plus/debug-tools/stlink.rst:1892
+#: ../../../plus/debug-tools/stlink.rst:1899
+#: ../../../plus/debug-tools/stlink.rst:1906
+#: ../../../plus/debug-tools/stlink.rst:1913
+#: ../../../plus/debug-tools/stlink.rst:1920
+#: ../../../plus/debug-tools/stlink.rst:1927
+#: ../../../plus/debug-tools/stlink.rst:1934
+#: ../../../plus/debug-tools/stlink.rst:1941
+#: ../../../plus/debug-tools/stlink.rst:1948
+#: ../../../plus/debug-tools/stlink.rst:1955
+#: ../../../plus/debug-tools/stlink.rst:1962
+#: ../../../plus/debug-tools/stlink.rst:1969
+#: ../../../plus/debug-tools/stlink.rst:1976
+#: ../../../plus/debug-tools/stlink.rst:1983
+#: ../../../plus/debug-tools/stlink.rst:1990
+#: ../../../plus/debug-tools/stlink.rst:1997
+#: ../../../plus/debug-tools/stlink.rst:2004
+#: ../../../plus/debug-tools/stlink.rst:2011
+#: ../../../plus/debug-tools/stlink.rst:2018
+#: ../../../plus/debug-tools/stlink.rst:2025
+#: ../../../plus/debug-tools/stlink.rst:2032
+#: ../../../plus/debug-tools/stlink.rst:2039
+#: ../../../plus/debug-tools/stlink.rst:2046
+#: ../../../plus/debug-tools/stlink.rst:2053
+#: ../../../plus/debug-tools/stlink.rst:2060
+#: ../../../plus/debug-tools/stlink.rst:2067
+#: ../../../plus/debug-tools/stlink.rst:2074
+#: ../../../plus/debug-tools/stlink.rst:2081
+#: ../../../plus/debug-tools/stlink.rst:2088
+#: ../../../plus/debug-tools/stlink.rst:2095
+#: ../../../plus/debug-tools/stlink.rst:2102
+#: ../../../plus/debug-tools/stlink.rst:2109
+#: ../../../plus/debug-tools/stlink.rst:2116
+#: ../../../plus/debug-tools/stlink.rst:2123
+#: ../../../plus/debug-tools/stlink.rst:2130
+#: ../../../plus/debug-tools/stlink.rst:2137
+#: ../../../plus/debug-tools/stlink.rst:2144
+#: ../../../plus/debug-tools/stlink.rst:2151
+#: ../../../plus/debug-tools/stlink.rst:2158
+#: ../../../plus/debug-tools/stlink.rst:2165
+#: ../../../plus/debug-tools/stlink.rst:2172
+#: ../../../plus/debug-tools/stlink.rst:2179
+#: ../../../plus/debug-tools/stlink.rst:2186
+#: ../../../plus/debug-tools/stlink.rst:2193
+#: ../../../plus/debug-tools/stlink.rst:2200
+#: ../../../plus/debug-tools/stlink.rst:2207
+#: ../../../plus/debug-tools/stlink.rst:2214
+#: ../../../plus/debug-tools/stlink.rst:2221
+#: ../../../plus/debug-tools/stlink.rst:2228
+#: ../../../plus/debug-tools/stlink.rst:2235
+#: ../../../plus/debug-tools/stlink.rst:2242
+#: ../../../plus/debug-tools/stlink.rst:2249
+#: ../../../plus/debug-tools/stlink.rst:2256
+#: ../../../plus/debug-tools/stlink.rst:2263
+#: ../../../plus/debug-tools/stlink.rst:2270
+#: ../../../plus/debug-tools/stlink.rst:2277
+#: ../../../plus/debug-tools/stlink.rst:2284
+#: ../../../plus/debug-tools/stlink.rst:2291
+#: ../../../plus/debug-tools/stlink.rst:2298
+#: ../../../plus/debug-tools/stlink.rst:2305
+#: ../../../plus/debug-tools/stlink.rst:2312
+#: ../../../plus/debug-tools/stlink.rst:2319
+#: ../../../plus/debug-tools/stlink.rst:2326
+#: ../../../plus/debug-tools/stlink.rst:2333
+#: ../../../plus/debug-tools/stlink.rst:2340
+#: ../../../plus/debug-tools/stlink.rst:2347
+#: ../../../plus/debug-tools/stlink.rst:2354
+#: ../../../plus/debug-tools/stlink.rst:2375
+#: ../../../plus/debug-tools/stlink.rst:2389
+#: ../../../plus/debug-tools/stlink.rst:2396
+#: ../../../plus/debug-tools/stlink.rst:2403
+#: ../../../plus/debug-tools/stlink.rst:2410
+#: ../../../plus/debug-tools/stlink.rst:2417
+#: ../../../plus/debug-tools/stlink.rst:2431
+#: ../../../plus/debug-tools/stlink.rst:2438
+#: ../../../plus/debug-tools/stlink.rst:2452
+#: ../../../plus/debug-tools/stlink.rst:2459
+#: ../../../plus/debug-tools/stlink.rst:2466
+#: ../../../plus/debug-tools/stlink.rst:2473
+#: ../../../plus/debug-tools/stlink.rst:2480
+#: ../../../plus/debug-tools/stlink.rst:2487
+#: ../../../plus/debug-tools/stlink.rst:2501
+#: ../../../plus/debug-tools/stlink.rst:2508
+#: ../../../plus/debug-tools/stlink.rst:2522
+#: ../../../plus/debug-tools/stlink.rst:2529
+#: ../../../plus/debug-tools/stlink.rst:2536
+#: ../../../plus/debug-tools/stlink.rst:2543
+#: ../../../plus/debug-tools/stlink.rst:2550
+#: ../../../plus/debug-tools/stlink.rst:2557
+#: ../../../plus/debug-tools/stlink.rst:2564
+#: ../../../plus/debug-tools/stlink.rst:2592
+#: ../../../plus/debug-tools/stlink.rst:2620
+#: ../../../plus/debug-tools/stlink.rst:2627
+#: ../../../plus/debug-tools/stlink.rst:2634
+#: ../../../plus/debug-tools/stlink.rst:2648
+#: ../../../plus/debug-tools/stlink.rst:2655
+msgid ":ref:`platform_ststm32`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:104
+msgid ""
+"The STM32 family of 32-bit Flash MCUs based on the ARM Cortex-M processor is "
+"designed to offer new degrees of freedom to MCU users. It offers a 32-bit "
+"product range that combines very high performance, real-time capabilities, "
+"digital signal processing, and low-power, low-voltage operation, while "
+"maintaining full integration and ease of development."
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:106
+#: ../../../plus/debug-tools/stlink.rst:926
+#: ../../../plus/debug-tools/stlink.rst:933
+#: ../../../plus/debug-tools/stlink.rst:1773
+#: ../../../plus/debug-tools/stlink.rst:1780
+#: ../../../plus/debug-tools/stlink.rst:1787
+#: ../../../plus/debug-tools/stlink.rst:1794
+#: ../../../plus/debug-tools/stlink.rst:2599
+#: ../../../plus/debug-tools/stlink.rst:2606
+msgid ":ref:`platform_ststm8`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:107
+msgid ""
+"The STM8 is an 8-bit microcontroller family by STMicroelectronics an "
+"extended variant of the ST7 microcontroller architecture. STM8 "
+"microcontrollers are particularly low cost for a full-featured 8-bit "
+"microcontroller."
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:110
+msgid "Frameworks"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:117
+msgid ":ref:`framework_arduino`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:118
+msgid ""
+"Arduino Wiring-based Framework allows writing cross-platform software to "
+"control devices attached to a wide range of Arduino boards to create all "
+"kinds of creative coding, interactive objects, spaces or physical "
+"experiences."
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:120
+msgid ":ref:`framework_cmsis`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:121
+msgid ""
+"Vendor-independent hardware abstraction layer for the Cortex-M processor "
+"series"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:123
+msgid ":ref:`framework_libopencm3`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:124
+msgid ""
+"The libopencm3 project aims to create an open-source firmware library for "
+"various ARM Cortex-M microcontrollers."
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:126
+msgid ":ref:`framework_mbed`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:127
+msgid ""
+"Arm Mbed OS is a platform operating system designed for the internet of "
+"things"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:129
+msgid ":ref:`framework_spl`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:130
+msgid "Standard Peripheral Library for ST STM32 microcontrollers"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:132
+msgid ":ref:`framework_stm32cube`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:133
+msgid ""
+"STM32Cube embedded software libraries, including: The HAL hardware "
+"abstraction layer, enabling portability between different STM32 devices via "
+"standardized API calls; The Low-Layer (LL) APIs, a light-weight, optimized, "
+"expert oriented set of APIs designed for both performance and runtime "
+"efficiency"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:135
+msgid ":ref:`framework_zephyr`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:136
+msgid ""
+"Zephyr is a new generation, scalable, optimized, secure RTOS for multiple "
+"hardware architectures"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:139
+msgid "Boards"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:142
+msgid ""
+"For more detailed ``board`` information please scroll tables below by "
+"horizontal."
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:149
+msgid "Platform"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:150
+msgid "Debug"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:151
+msgid "MCU"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:152
+msgid "Frequency"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:153
+msgid "Flash"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:154
+msgid "RAM"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:155
+msgid ":ref:`board_ststm32_1bitsy_stm32f415rgt`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:157
+#: ../../../plus/debug-tools/stlink.rst:178
+#: ../../../plus/debug-tools/stlink.rst:185
+#: ../../../plus/debug-tools/stlink.rst:206
+#: ../../../plus/debug-tools/stlink.rst:220
+#: ../../../plus/debug-tools/stlink.rst:227
+#: ../../../plus/debug-tools/stlink.rst:234
+#: ../../../plus/debug-tools/stlink.rst:241
+#: ../../../plus/debug-tools/stlink.rst:255
+#: ../../../plus/debug-tools/stlink.rst:262
+#: ../../../plus/debug-tools/stlink.rst:269
+#: ../../../plus/debug-tools/stlink.rst:276
+#: ../../../plus/debug-tools/stlink.rst:283
+#: ../../../plus/debug-tools/stlink.rst:290
+#: ../../../plus/debug-tools/stlink.rst:297
+#: ../../../plus/debug-tools/stlink.rst:304
+#: ../../../plus/debug-tools/stlink.rst:311
+#: ../../../plus/debug-tools/stlink.rst:318
+#: ../../../plus/debug-tools/stlink.rst:325
+#: ../../../plus/debug-tools/stlink.rst:332
+#: ../../../plus/debug-tools/stlink.rst:339
+#: ../../../plus/debug-tools/stlink.rst:346
+#: ../../../plus/debug-tools/stlink.rst:353
+#: ../../../plus/debug-tools/stlink.rst:360
+#: ../../../plus/debug-tools/stlink.rst:367
+#: ../../../plus/debug-tools/stlink.rst:374
+#: ../../../plus/debug-tools/stlink.rst:381
+#: ../../../plus/debug-tools/stlink.rst:388
+#: ../../../plus/debug-tools/stlink.rst:395
+#: ../../../plus/debug-tools/stlink.rst:402
+#: ../../../plus/debug-tools/stlink.rst:409
+#: ../../../plus/debug-tools/stlink.rst:472
+#: ../../../plus/debug-tools/stlink.rst:479
+#: ../../../plus/debug-tools/stlink.rst:486
+#: ../../../plus/debug-tools/stlink.rst:493
+#: ../../../plus/debug-tools/stlink.rst:500
+#: ../../../plus/debug-tools/stlink.rst:507
+#: ../../../plus/debug-tools/stlink.rst:514
+#: ../../../plus/debug-tools/stlink.rst:521
+#: ../../../plus/debug-tools/stlink.rst:528
+#: ../../../plus/debug-tools/stlink.rst:535
+#: ../../../plus/debug-tools/stlink.rst:542
+#: ../../../plus/debug-tools/stlink.rst:549
+#: ../../../plus/debug-tools/stlink.rst:556
+#: ../../../plus/debug-tools/stlink.rst:563
+#: ../../../plus/debug-tools/stlink.rst:570
+#: ../../../plus/debug-tools/stlink.rst:577
+#: ../../../plus/debug-tools/stlink.rst:584
+#: ../../../plus/debug-tools/stlink.rst:591
+#: ../../../plus/debug-tools/stlink.rst:598
+#: ../../../plus/debug-tools/stlink.rst:605
+#: ../../../plus/debug-tools/stlink.rst:612
+#: ../../../plus/debug-tools/stlink.rst:626
+#: ../../../plus/debug-tools/stlink.rst:633
+#: ../../../plus/debug-tools/stlink.rst:640
+#: ../../../plus/debug-tools/stlink.rst:647
+#: ../../../plus/debug-tools/stlink.rst:654
+#: ../../../plus/debug-tools/stlink.rst:661
+#: ../../../plus/debug-tools/stlink.rst:682
+#: ../../../plus/debug-tools/stlink.rst:689
+#: ../../../plus/debug-tools/stlink.rst:696
+#: ../../../plus/debug-tools/stlink.rst:703
+#: ../../../plus/debug-tools/stlink.rst:710
+#: ../../../plus/debug-tools/stlink.rst:717
+#: ../../../plus/debug-tools/stlink.rst:724
+#: ../../../plus/debug-tools/stlink.rst:731
+#: ../../../plus/debug-tools/stlink.rst:738
+#: ../../../plus/debug-tools/stlink.rst:745
+#: ../../../plus/debug-tools/stlink.rst:752
+#: ../../../plus/debug-tools/stlink.rst:759
+#: ../../../plus/debug-tools/stlink.rst:766
+#: ../../../plus/debug-tools/stlink.rst:780
+#: ../../../plus/debug-tools/stlink.rst:794
+#: ../../../plus/debug-tools/stlink.rst:801
+#: ../../../plus/debug-tools/stlink.rst:808
+#: ../../../plus/debug-tools/stlink.rst:829
+#: ../../../plus/debug-tools/stlink.rst:836
+#: ../../../plus/debug-tools/stlink.rst:843
+#: ../../../plus/debug-tools/stlink.rst:850
+#: ../../../plus/debug-tools/stlink.rst:857
+#: ../../../plus/debug-tools/stlink.rst:871
+#: ../../../plus/debug-tools/stlink.rst:878
+#: ../../../plus/debug-tools/stlink.rst:892
+#: ../../../plus/debug-tools/stlink.rst:899
+#: ../../../plus/debug-tools/stlink.rst:906
+#: ../../../plus/debug-tools/stlink.rst:913
+#: ../../../plus/debug-tools/stlink.rst:920
+#: ../../../plus/debug-tools/stlink.rst:948
+#: ../../../plus/debug-tools/stlink.rst:1032
+#: ../../../plus/debug-tools/stlink.rst:1039
+#: ../../../plus/debug-tools/stlink.rst:1046
+#: ../../../plus/debug-tools/stlink.rst:1053
+#: ../../../plus/debug-tools/stlink.rst:1060
+#: ../../../plus/debug-tools/stlink.rst:1088
+#: ../../../plus/debug-tools/stlink.rst:1095
+#: ../../../plus/debug-tools/stlink.rst:1102
+#: ../../../plus/debug-tools/stlink.rst:1109
+#: ../../../plus/debug-tools/stlink.rst:1116
+#: ../../../plus/debug-tools/stlink.rst:1123
+#: ../../../plus/debug-tools/stlink.rst:1130
+#: ../../../plus/debug-tools/stlink.rst:1137
+#: ../../../plus/debug-tools/stlink.rst:1144
+#: ../../../plus/debug-tools/stlink.rst:1151
+#: ../../../plus/debug-tools/stlink.rst:1158
+#: ../../../plus/debug-tools/stlink.rst:1165
+#: ../../../plus/debug-tools/stlink.rst:1172
+#: ../../../plus/debug-tools/stlink.rst:1221
+#: ../../../plus/debug-tools/stlink.rst:1228
+#: ../../../plus/debug-tools/stlink.rst:1781
+#: ../../../plus/debug-tools/stlink.rst:1788
+#: ../../../plus/debug-tools/stlink.rst:1795
+#: ../../../plus/debug-tools/stlink.rst:1809
+#: ../../../plus/debug-tools/stlink.rst:1816
+#: ../../../plus/debug-tools/stlink.rst:1823
+#: ../../../plus/debug-tools/stlink.rst:1830
+#: ../../../plus/debug-tools/stlink.rst:1837
+#: ../../../plus/debug-tools/stlink.rst:1844
+#: ../../../plus/debug-tools/stlink.rst:1851
+#: ../../../plus/debug-tools/stlink.rst:1858
+#: ../../../plus/debug-tools/stlink.rst:1865
+#: ../../../plus/debug-tools/stlink.rst:1872
+#: ../../../plus/debug-tools/stlink.rst:1879
+#: ../../../plus/debug-tools/stlink.rst:1886
+#: ../../../plus/debug-tools/stlink.rst:1893
+#: ../../../plus/debug-tools/stlink.rst:1900
+#: ../../../plus/debug-tools/stlink.rst:1907
+#: ../../../plus/debug-tools/stlink.rst:1914
+#: ../../../plus/debug-tools/stlink.rst:1921
+#: ../../../plus/debug-tools/stlink.rst:1928
+#: ../../../plus/debug-tools/stlink.rst:1935
+#: ../../../plus/debug-tools/stlink.rst:1942
+#: ../../../plus/debug-tools/stlink.rst:1949
+#: ../../../plus/debug-tools/stlink.rst:1956
+#: ../../../plus/debug-tools/stlink.rst:1963
+#: ../../../plus/debug-tools/stlink.rst:1970
+#: ../../../plus/debug-tools/stlink.rst:1977
+#: ../../../plus/debug-tools/stlink.rst:1984
+#: ../../../plus/debug-tools/stlink.rst:1991
+#: ../../../plus/debug-tools/stlink.rst:1998
+#: ../../../plus/debug-tools/stlink.rst:2005
+#: ../../../plus/debug-tools/stlink.rst:2012
+#: ../../../plus/debug-tools/stlink.rst:2019
+#: ../../../plus/debug-tools/stlink.rst:2026
+#: ../../../plus/debug-tools/stlink.rst:2033
+#: ../../../plus/debug-tools/stlink.rst:2040
+#: ../../../plus/debug-tools/stlink.rst:2047
+#: ../../../plus/debug-tools/stlink.rst:2054
+#: ../../../plus/debug-tools/stlink.rst:2061
+#: ../../../plus/debug-tools/stlink.rst:2068
+#: ../../../plus/debug-tools/stlink.rst:2075
+#: ../../../plus/debug-tools/stlink.rst:2082
+#: ../../../plus/debug-tools/stlink.rst:2089
+#: ../../../plus/debug-tools/stlink.rst:2096
+#: ../../../plus/debug-tools/stlink.rst:2103
+#: ../../../plus/debug-tools/stlink.rst:2110
+#: ../../../plus/debug-tools/stlink.rst:2117
+#: ../../../plus/debug-tools/stlink.rst:2124
+#: ../../../plus/debug-tools/stlink.rst:2131
+#: ../../../plus/debug-tools/stlink.rst:2138
+#: ../../../plus/debug-tools/stlink.rst:2145
+#: ../../../plus/debug-tools/stlink.rst:2152
+#: ../../../plus/debug-tools/stlink.rst:2159
+#: ../../../plus/debug-tools/stlink.rst:2166
+#: ../../../plus/debug-tools/stlink.rst:2173
+#: ../../../plus/debug-tools/stlink.rst:2180
+#: ../../../plus/debug-tools/stlink.rst:2187
+#: ../../../plus/debug-tools/stlink.rst:2194
+#: ../../../plus/debug-tools/stlink.rst:2201
+#: ../../../plus/debug-tools/stlink.rst:2208
+#: ../../../plus/debug-tools/stlink.rst:2215
+#: ../../../plus/debug-tools/stlink.rst:2222
+#: ../../../plus/debug-tools/stlink.rst:2229
+#: ../../../plus/debug-tools/stlink.rst:2236
+#: ../../../plus/debug-tools/stlink.rst:2243
+#: ../../../plus/debug-tools/stlink.rst:2250
+#: ../../../plus/debug-tools/stlink.rst:2257
+#: ../../../plus/debug-tools/stlink.rst:2264
+#: ../../../plus/debug-tools/stlink.rst:2271
+#: ../../../plus/debug-tools/stlink.rst:2278
+#: ../../../plus/debug-tools/stlink.rst:2285
+#: ../../../plus/debug-tools/stlink.rst:2292
+#: ../../../plus/debug-tools/stlink.rst:2299
+#: ../../../plus/debug-tools/stlink.rst:2306
+#: ../../../plus/debug-tools/stlink.rst:2313
+#: ../../../plus/debug-tools/stlink.rst:2327
+#: ../../../plus/debug-tools/stlink.rst:2348
+#: ../../../plus/debug-tools/stlink.rst:2355
+#: ../../../plus/debug-tools/stlink.rst:2362
+#: ../../../plus/debug-tools/stlink.rst:2369
+#: ../../../plus/debug-tools/stlink.rst:2397
+#: ../../../plus/debug-tools/stlink.rst:2404
+#: ../../../plus/debug-tools/stlink.rst:2411
+#: ../../../plus/debug-tools/stlink.rst:2418
+#: ../../../plus/debug-tools/stlink.rst:2425
+#: ../../../plus/debug-tools/stlink.rst:2432
+#: ../../../plus/debug-tools/stlink.rst:2439
+#: ../../../plus/debug-tools/stlink.rst:2446
+#: ../../../plus/debug-tools/stlink.rst:2453
+#: ../../../plus/debug-tools/stlink.rst:2460
+#: ../../../plus/debug-tools/stlink.rst:2467
+#: ../../../plus/debug-tools/stlink.rst:2474
+#: ../../../plus/debug-tools/stlink.rst:2481
+#: ../../../plus/debug-tools/stlink.rst:2488
+#: ../../../plus/debug-tools/stlink.rst:2502
+#: ../../../plus/debug-tools/stlink.rst:2509
+#: ../../../plus/debug-tools/stlink.rst:2516
+#: ../../../plus/debug-tools/stlink.rst:2523
+#: ../../../plus/debug-tools/stlink.rst:2530
+#: ../../../plus/debug-tools/stlink.rst:2537
+#: ../../../plus/debug-tools/stlink.rst:2544
+#: ../../../plus/debug-tools/stlink.rst:2551
+#: ../../../plus/debug-tools/stlink.rst:2558
+#: ../../../plus/debug-tools/stlink.rst:2565
+#: ../../../plus/debug-tools/stlink.rst:2579
+#: ../../../plus/debug-tools/stlink.rst:2586
+#: ../../../plus/debug-tools/stlink.rst:2600
+#: ../../../plus/debug-tools/stlink.rst:2607
+#: ../../../plus/debug-tools/stlink.rst:2621
+#: ../../../plus/debug-tools/stlink.rst:2635
+#: ../../../plus/debug-tools/stlink.rst:2649
+msgid "External"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:158
+msgid "STM32F415RGT"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:159
+#: ../../../plus/debug-tools/stlink.rst:180
+#: ../../../plus/debug-tools/stlink.rst:215
+#: ../../../plus/debug-tools/stlink.rst:222
+#: ../../../plus/debug-tools/stlink.rst:320
+#: ../../../plus/debug-tools/stlink.rst:418
+#: ../../../plus/debug-tools/stlink.rst:425
+#: ../../../plus/debug-tools/stlink.rst:432
+#: ../../../plus/debug-tools/stlink.rst:474
+#: ../../../plus/debug-tools/stlink.rst:481
+#: ../../../plus/debug-tools/stlink.rst:488
+#: ../../../plus/debug-tools/stlink.rst:495
+#: ../../../plus/debug-tools/stlink.rst:523
+#: ../../../plus/debug-tools/stlink.rst:726
+#: ../../../plus/debug-tools/stlink.rst:733
+#: ../../../plus/debug-tools/stlink.rst:740
+#: ../../../plus/debug-tools/stlink.rst:866
+#: ../../../plus/debug-tools/stlink.rst:915
+#: ../../../plus/debug-tools/stlink.rst:1062
+#: ../../../plus/debug-tools/stlink.rst:1132
+#: ../../../plus/debug-tools/stlink.rst:1167
+#: ../../../plus/debug-tools/stlink.rst:1734
+#: ../../../plus/debug-tools/stlink.rst:1818
+#: ../../../plus/debug-tools/stlink.rst:1825
+#: ../../../plus/debug-tools/stlink.rst:2126
+#: ../../../plus/debug-tools/stlink.rst:2133
+#: ../../../plus/debug-tools/stlink.rst:2140
+#: ../../../plus/debug-tools/stlink.rst:2147
+#: ../../../plus/debug-tools/stlink.rst:2266
+#: ../../../plus/debug-tools/stlink.rst:2273
+#: ../../../plus/debug-tools/stlink.rst:2280
+#: ../../../plus/debug-tools/stlink.rst:2315
+#: ../../../plus/debug-tools/stlink.rst:2378
+#: ../../../plus/debug-tools/stlink.rst:2434
+#: ../../../plus/debug-tools/stlink.rst:2490
+#: ../../../plus/debug-tools/stlink.rst:2651
+#: ../../../plus/debug-tools/stlink.rst:2658
+msgid "168MHz"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:160
+#: ../../../plus/debug-tools/stlink.rst:167
+#: ../../../plus/debug-tools/stlink.rst:209
+#: ../../../plus/debug-tools/stlink.rst:251
+#: ../../../plus/debug-tools/stlink.rst:258
+#: ../../../plus/debug-tools/stlink.rst:265
+#: ../../../plus/debug-tools/stlink.rst:272
+#: ../../../plus/debug-tools/stlink.rst:286
+#: ../../../plus/debug-tools/stlink.rst:293
+#: ../../../plus/debug-tools/stlink.rst:321
+#: ../../../plus/debug-tools/stlink.rst:363
+#: ../../../plus/debug-tools/stlink.rst:384
+#: ../../../plus/debug-tools/stlink.rst:398
+#: ../../../plus/debug-tools/stlink.rst:405
+#: ../../../plus/debug-tools/stlink.rst:419
+#: ../../../plus/debug-tools/stlink.rst:461
+#: ../../../plus/debug-tools/stlink.rst:496
+#: ../../../plus/debug-tools/stlink.rst:671
+#: ../../../plus/debug-tools/stlink.rst:678
+#: ../../../plus/debug-tools/stlink.rst:727
+#: ../../../plus/debug-tools/stlink.rst:776
+#: ../../../plus/debug-tools/stlink.rst:783
+#: ../../../plus/debug-tools/stlink.rst:825
+#: ../../../plus/debug-tools/stlink.rst:888
+#: ../../../plus/debug-tools/stlink.rst:916
+#: ../../../plus/debug-tools/stlink.rst:979
+#: ../../../plus/debug-tools/stlink.rst:1063
+#: ../../../plus/debug-tools/stlink.rst:1077
+#: ../../../plus/debug-tools/stlink.rst:1084
+#: ../../../plus/debug-tools/stlink.rst:1217
+#: ../../../plus/debug-tools/stlink.rst:1280
+#: ../../../plus/debug-tools/stlink.rst:1308
+#: ../../../plus/debug-tools/stlink.rst:1315
+#: ../../../plus/debug-tools/stlink.rst:1329
+#: ../../../plus/debug-tools/stlink.rst:1413
+#: ../../../plus/debug-tools/stlink.rst:1476
+#: ../../../plus/debug-tools/stlink.rst:1525
+#: ../../../plus/debug-tools/stlink.rst:1532
+#: ../../../plus/debug-tools/stlink.rst:1553
+#: ../../../plus/debug-tools/stlink.rst:1567
+#: ../../../plus/debug-tools/stlink.rst:1658
+#: ../../../plus/debug-tools/stlink.rst:1665
+#: ../../../plus/debug-tools/stlink.rst:1672
+#: ../../../plus/debug-tools/stlink.rst:1679
+#: ../../../plus/debug-tools/stlink.rst:1735
+#: ../../../plus/debug-tools/stlink.rst:1805
+#: ../../../plus/debug-tools/stlink.rst:1819
+#: ../../../plus/debug-tools/stlink.rst:1826
+#: ../../../plus/debug-tools/stlink.rst:1938
+#: ../../../plus/debug-tools/stlink.rst:2015
+#: ../../../plus/debug-tools/stlink.rst:2050
+#: ../../../plus/debug-tools/stlink.rst:2127
+#: ../../../plus/debug-tools/stlink.rst:2134
+#: ../../../plus/debug-tools/stlink.rst:2148
+#: ../../../plus/debug-tools/stlink.rst:2218
+#: ../../../plus/debug-tools/stlink.rst:2232
+#: ../../../plus/debug-tools/stlink.rst:2239
+#: ../../../plus/debug-tools/stlink.rst:2253
+#: ../../../plus/debug-tools/stlink.rst:2267
+#: ../../../plus/debug-tools/stlink.rst:2281
+#: ../../../plus/debug-tools/stlink.rst:2316
+#: ../../../plus/debug-tools/stlink.rst:2337
+#: ../../../plus/debug-tools/stlink.rst:2435
+#: ../../../plus/debug-tools/stlink.rst:2491
+#: ../../../plus/debug-tools/stlink.rst:2596
+#: ../../../plus/debug-tools/stlink.rst:2617
+#: ../../../plus/debug-tools/stlink.rst:2624
+#: ../../../plus/debug-tools/stlink.rst:2631
+#: ../../../plus/debug-tools/stlink.rst:2638
+msgid "1MB"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:161
+#: ../../../plus/debug-tools/stlink.rst:182
+#: ../../../plus/debug-tools/stlink.rst:189
+#: ../../../plus/debug-tools/stlink.rst:217
+#: ../../../plus/debug-tools/stlink.rst:231
+#: ../../../plus/debug-tools/stlink.rst:259
+#: ../../../plus/debug-tools/stlink.rst:266
+#: ../../../plus/debug-tools/stlink.rst:273
+#: ../../../plus/debug-tools/stlink.rst:279
+#: ../../../plus/debug-tools/stlink.rst:322
+#: ../../../plus/debug-tools/stlink.rst:342
+#: ../../../plus/debug-tools/stlink.rst:441
+#: ../../../plus/debug-tools/stlink.rst:455
+#: ../../../plus/debug-tools/stlink.rst:468
+#: ../../../plus/debug-tools/stlink.rst:476
+#: ../../../plus/debug-tools/stlink.rst:483
+#: ../../../plus/debug-tools/stlink.rst:490
+#: ../../../plus/debug-tools/stlink.rst:497
+#: ../../../plus/debug-tools/stlink.rst:510
+#: ../../../plus/debug-tools/stlink.rst:525
+#: ../../../plus/debug-tools/stlink.rst:545
+#: ../../../plus/debug-tools/stlink.rst:588
+#: ../../../plus/debug-tools/stlink.rst:644
+#: ../../../plus/debug-tools/stlink.rst:685
+#: ../../../plus/debug-tools/stlink.rst:692
+#: ../../../plus/debug-tools/stlink.rst:699
+#: ../../../plus/debug-tools/stlink.rst:706
+#: ../../../plus/debug-tools/stlink.rst:721
+#: ../../../plus/debug-tools/stlink.rst:728
+#: ../../../plus/debug-tools/stlink.rst:735
+#: ../../../plus/debug-tools/stlink.rst:742
+#: ../../../plus/debug-tools/stlink.rst:777
+#: ../../../plus/debug-tools/stlink.rst:812
+#: ../../../plus/debug-tools/stlink.rst:896
+#: ../../../plus/debug-tools/stlink.rst:903
+#: ../../../plus/debug-tools/stlink.rst:917
+#: ../../../plus/debug-tools/stlink.rst:937
+#: ../../../plus/debug-tools/stlink.rst:973
+#: ../../../plus/debug-tools/stlink.rst:993
+#: ../../../plus/debug-tools/stlink.rst:1000
+#: ../../../plus/debug-tools/stlink.rst:1007
+#: ../../../plus/debug-tools/stlink.rst:1014
+#: ../../../plus/debug-tools/stlink.rst:1022
+#: ../../../plus/debug-tools/stlink.rst:1035
+#: ../../../plus/debug-tools/stlink.rst:1056
+#: ../../../plus/debug-tools/stlink.rst:1064
+#: ../../../plus/debug-tools/stlink.rst:1091
+#: ../../../plus/debug-tools/stlink.rst:1113
+#: ../../../plus/debug-tools/stlink.rst:1126
+#: ../../../plus/debug-tools/stlink.rst:1134
+#: ../../../plus/debug-tools/stlink.rst:1140
+#: ../../../plus/debug-tools/stlink.rst:1147
+#: ../../../plus/debug-tools/stlink.rst:1169
+#: ../../../plus/debug-tools/stlink.rst:1218
+#: ../../../plus/debug-tools/stlink.rst:1253
+#: ../../../plus/debug-tools/stlink.rst:1309
+#: ../../../plus/debug-tools/stlink.rst:1322
+#: ../../../plus/debug-tools/stlink.rst:1350
+#: ../../../plus/debug-tools/stlink.rst:1385
+#: ../../../plus/debug-tools/stlink.rst:1392
+#: ../../../plus/debug-tools/stlink.rst:1406
+#: ../../../plus/debug-tools/stlink.rst:1414
+#: ../../../plus/debug-tools/stlink.rst:1462
+#: ../../../plus/debug-tools/stlink.rst:1470
+#: ../../../plus/debug-tools/stlink.rst:1505
+#: ../../../plus/debug-tools/stlink.rst:1512
+#: ../../../plus/debug-tools/stlink.rst:1581
+#: ../../../plus/debug-tools/stlink.rst:1623
+#: ../../../plus/debug-tools/stlink.rst:1630
+#: ../../../plus/debug-tools/stlink.rst:1666
+#: ../../../plus/debug-tools/stlink.rst:1736
+#: ../../../plus/debug-tools/stlink.rst:1742
+#: ../../../plus/debug-tools/stlink.rst:1763
+#: ../../../plus/debug-tools/stlink.rst:1770
+#: ../../../plus/debug-tools/stlink.rst:1806
+#: ../../../plus/debug-tools/stlink.rst:1820
+#: ../../../plus/debug-tools/stlink.rst:1827
+#: ../../../plus/debug-tools/stlink.rst:1847
+#: ../../../plus/debug-tools/stlink.rst:1875
+#: ../../../plus/debug-tools/stlink.rst:1903
+#: ../../../plus/debug-tools/stlink.rst:1966
+#: ../../../plus/debug-tools/stlink.rst:1980
+#: ../../../plus/debug-tools/stlink.rst:2057
+#: ../../../plus/debug-tools/stlink.rst:2071
+#: ../../../plus/debug-tools/stlink.rst:2099
+#: ../../../plus/debug-tools/stlink.rst:2128
+#: ../../../plus/debug-tools/stlink.rst:2135
+#: ../../../plus/debug-tools/stlink.rst:2142
+#: ../../../plus/debug-tools/stlink.rst:2149
+#: ../../../plus/debug-tools/stlink.rst:2162
+#: ../../../plus/debug-tools/stlink.rst:2176
+#: ../../../plus/debug-tools/stlink.rst:2184
+#: ../../../plus/debug-tools/stlink.rst:2191
+#: ../../../plus/debug-tools/stlink.rst:2198
+#: ../../../plus/debug-tools/stlink.rst:2205
+#: ../../../plus/debug-tools/stlink.rst:2268
+#: ../../../plus/debug-tools/stlink.rst:2275
+#: ../../../plus/debug-tools/stlink.rst:2282
+#: ../../../plus/debug-tools/stlink.rst:2303
+#: ../../../plus/debug-tools/stlink.rst:2310
+#: ../../../plus/debug-tools/stlink.rst:2317
+#: ../../../plus/debug-tools/stlink.rst:2330
+#: ../../../plus/debug-tools/stlink.rst:2351
+#: ../../../plus/debug-tools/stlink.rst:2421
+#: ../../../plus/debug-tools/stlink.rst:2436
+#: ../../../plus/debug-tools/stlink.rst:2464
+#: ../../../plus/debug-tools/stlink.rst:2470
+#: ../../../plus/debug-tools/stlink.rst:2478
+#: ../../../plus/debug-tools/stlink.rst:2492
+#: ../../../plus/debug-tools/stlink.rst:2541
+#: ../../../plus/debug-tools/stlink.rst:2562
+#: ../../../plus/debug-tools/stlink.rst:2597
+#: ../../../plus/debug-tools/stlink.rst:2603
+msgid "128KB"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:162
+msgid ":ref:`board_ststm32_disco_f412zg`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:164
+#: ../../../plus/debug-tools/stlink.rst:171
+#: ../../../plus/debug-tools/stlink.rst:192
+#: ../../../plus/debug-tools/stlink.rst:199
+#: ../../../plus/debug-tools/stlink.rst:213
+#: ../../../plus/debug-tools/stlink.rst:248
+#: ../../../plus/debug-tools/stlink.rst:416
+#: ../../../plus/debug-tools/stlink.rst:423
+#: ../../../plus/debug-tools/stlink.rst:430
+#: ../../../plus/debug-tools/stlink.rst:437
+#: ../../../plus/debug-tools/stlink.rst:444
+#: ../../../plus/debug-tools/stlink.rst:451
+#: ../../../plus/debug-tools/stlink.rst:458
+#: ../../../plus/debug-tools/stlink.rst:465
+#: ../../../plus/debug-tools/stlink.rst:619
+#: ../../../plus/debug-tools/stlink.rst:668
+#: ../../../plus/debug-tools/stlink.rst:675
+#: ../../../plus/debug-tools/stlink.rst:773
+#: ../../../plus/debug-tools/stlink.rst:787
+#: ../../../plus/debug-tools/stlink.rst:815
+#: ../../../plus/debug-tools/stlink.rst:822
+#: ../../../plus/debug-tools/stlink.rst:864
+#: ../../../plus/debug-tools/stlink.rst:885
+#: ../../../plus/debug-tools/stlink.rst:927
+#: ../../../plus/debug-tools/stlink.rst:934
+#: ../../../plus/debug-tools/stlink.rst:941
+#: ../../../plus/debug-tools/stlink.rst:955
+#: ../../../plus/debug-tools/stlink.rst:962
+#: ../../../plus/debug-tools/stlink.rst:969
+#: ../../../plus/debug-tools/stlink.rst:976
+#: ../../../plus/debug-tools/stlink.rst:983
+#: ../../../plus/debug-tools/stlink.rst:990
+#: ../../../plus/debug-tools/stlink.rst:997
+#: ../../../plus/debug-tools/stlink.rst:1004
+#: ../../../plus/debug-tools/stlink.rst:1011
+#: ../../../plus/debug-tools/stlink.rst:1018
+#: ../../../plus/debug-tools/stlink.rst:1025
+#: ../../../plus/debug-tools/stlink.rst:1067
+#: ../../../plus/debug-tools/stlink.rst:1074
+#: ../../../plus/debug-tools/stlink.rst:1081
+#: ../../../plus/debug-tools/stlink.rst:1179
+#: ../../../plus/debug-tools/stlink.rst:1186
+#: ../../../plus/debug-tools/stlink.rst:1193
+#: ../../../plus/debug-tools/stlink.rst:1200
+#: ../../../plus/debug-tools/stlink.rst:1207
+#: ../../../plus/debug-tools/stlink.rst:1214
+#: ../../../plus/debug-tools/stlink.rst:1235
+#: ../../../plus/debug-tools/stlink.rst:1242
+#: ../../../plus/debug-tools/stlink.rst:1249
+#: ../../../plus/debug-tools/stlink.rst:1256
+#: ../../../plus/debug-tools/stlink.rst:1263
+#: ../../../plus/debug-tools/stlink.rst:1270
+#: ../../../plus/debug-tools/stlink.rst:1277
+#: ../../../plus/debug-tools/stlink.rst:1284
+#: ../../../plus/debug-tools/stlink.rst:1291
+#: ../../../plus/debug-tools/stlink.rst:1298
+#: ../../../plus/debug-tools/stlink.rst:1305
+#: ../../../plus/debug-tools/stlink.rst:1312
+#: ../../../plus/debug-tools/stlink.rst:1319
+#: ../../../plus/debug-tools/stlink.rst:1326
+#: ../../../plus/debug-tools/stlink.rst:1333
+#: ../../../plus/debug-tools/stlink.rst:1340
+#: ../../../plus/debug-tools/stlink.rst:1347
+#: ../../../plus/debug-tools/stlink.rst:1354
+#: ../../../plus/debug-tools/stlink.rst:1361
+#: ../../../plus/debug-tools/stlink.rst:1368
+#: ../../../plus/debug-tools/stlink.rst:1375
+#: ../../../plus/debug-tools/stlink.rst:1382
+#: ../../../plus/debug-tools/stlink.rst:1389
+#: ../../../plus/debug-tools/stlink.rst:1396
+#: ../../../plus/debug-tools/stlink.rst:1403
+#: ../../../plus/debug-tools/stlink.rst:1410
+#: ../../../plus/debug-tools/stlink.rst:1417
+#: ../../../plus/debug-tools/stlink.rst:1424
+#: ../../../plus/debug-tools/stlink.rst:1431
+#: ../../../plus/debug-tools/stlink.rst:1438
+#: ../../../plus/debug-tools/stlink.rst:1445
+#: ../../../plus/debug-tools/stlink.rst:1452
+#: ../../../plus/debug-tools/stlink.rst:1459
+#: ../../../plus/debug-tools/stlink.rst:1466
+#: ../../../plus/debug-tools/stlink.rst:1473
+#: ../../../plus/debug-tools/stlink.rst:1480
+#: ../../../plus/debug-tools/stlink.rst:1487
+#: ../../../plus/debug-tools/stlink.rst:1494
+#: ../../../plus/debug-tools/stlink.rst:1501
+#: ../../../plus/debug-tools/stlink.rst:1508
+#: ../../../plus/debug-tools/stlink.rst:1515
+#: ../../../plus/debug-tools/stlink.rst:1522
+#: ../../../plus/debug-tools/stlink.rst:1529
+#: ../../../plus/debug-tools/stlink.rst:1536
+#: ../../../plus/debug-tools/stlink.rst:1543
+#: ../../../plus/debug-tools/stlink.rst:1550
+#: ../../../plus/debug-tools/stlink.rst:1557
+#: ../../../plus/debug-tools/stlink.rst:1564
+#: ../../../plus/debug-tools/stlink.rst:1571
+#: ../../../plus/debug-tools/stlink.rst:1578
+#: ../../../plus/debug-tools/stlink.rst:1585
+#: ../../../plus/debug-tools/stlink.rst:1592
+#: ../../../plus/debug-tools/stlink.rst:1599
+#: ../../../plus/debug-tools/stlink.rst:1606
+#: ../../../plus/debug-tools/stlink.rst:1613
+#: ../../../plus/debug-tools/stlink.rst:1620
+#: ../../../plus/debug-tools/stlink.rst:1627
+#: ../../../plus/debug-tools/stlink.rst:1634
+#: ../../../plus/debug-tools/stlink.rst:1641
+#: ../../../plus/debug-tools/stlink.rst:1648
+#: ../../../plus/debug-tools/stlink.rst:1655
+#: ../../../plus/debug-tools/stlink.rst:1662
+#: ../../../plus/debug-tools/stlink.rst:1669
+#: ../../../plus/debug-tools/stlink.rst:1676
+#: ../../../plus/debug-tools/stlink.rst:1683
+#: ../../../plus/debug-tools/stlink.rst:1690
+#: ../../../plus/debug-tools/stlink.rst:1697
+#: ../../../plus/debug-tools/stlink.rst:1704
+#: ../../../plus/debug-tools/stlink.rst:1711
+#: ../../../plus/debug-tools/stlink.rst:1718
+#: ../../../plus/debug-tools/stlink.rst:1725
+#: ../../../plus/debug-tools/stlink.rst:1732
+#: ../../../plus/debug-tools/stlink.rst:1739
+#: ../../../plus/debug-tools/stlink.rst:1746
+#: ../../../plus/debug-tools/stlink.rst:1753
+#: ../../../plus/debug-tools/stlink.rst:1760
+#: ../../../plus/debug-tools/stlink.rst:1767
+#: ../../../plus/debug-tools/stlink.rst:1774
+#: ../../../plus/debug-tools/stlink.rst:1802
+#: ../../../plus/debug-tools/stlink.rst:2320
+#: ../../../plus/debug-tools/stlink.rst:2334
+#: ../../../plus/debug-tools/stlink.rst:2341
+#: ../../../plus/debug-tools/stlink.rst:2376
+#: ../../../plus/debug-tools/stlink.rst:2383
+#: ../../../plus/debug-tools/stlink.rst:2390
+#: ../../../plus/debug-tools/stlink.rst:2495
+#: ../../../plus/debug-tools/stlink.rst:2572
+#: ../../../plus/debug-tools/stlink.rst:2593
+#: ../../../plus/debug-tools/stlink.rst:2614
+#: ../../../plus/debug-tools/stlink.rst:2628
+#: ../../../plus/debug-tools/stlink.rst:2642
+#: ../../../plus/debug-tools/stlink.rst:2656
+msgid "On-board"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:165
+#: ../../../plus/debug-tools/stlink.rst:886
+#: ../../../plus/debug-tools/stlink.rst:1474
+msgid "STM32F412ZGT6"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:166
+#: ../../../plus/debug-tools/stlink.rst:208
+#: ../../../plus/debug-tools/stlink.rst:229
+#: ../../../plus/debug-tools/stlink.rst:719
+#: ../../../plus/debug-tools/stlink.rst:810
+#: ../../../plus/debug-tools/stlink.rst:887
+#: ../../../plus/debug-tools/stlink.rst:894
+#: ../../../plus/debug-tools/stlink.rst:901
+#: ../../../plus/debug-tools/stlink.rst:1097
+#: ../../../plus/debug-tools/stlink.rst:1111
+#: ../../../plus/debug-tools/stlink.rst:1251
+#: ../../../plus/debug-tools/stlink.rst:1258
+#: ../../../plus/debug-tools/stlink.rst:1461
+#: ../../../plus/debug-tools/stlink.rst:1468
+#: ../../../plus/debug-tools/stlink.rst:1475
+#: ../../../plus/debug-tools/stlink.rst:1482
+#: ../../../plus/debug-tools/stlink.rst:2154
+#: ../../../plus/debug-tools/stlink.rst:2161
+#: ../../../plus/debug-tools/stlink.rst:2168
+#: ../../../plus/debug-tools/stlink.rst:2175
+#: ../../../plus/debug-tools/stlink.rst:2182
+#: ../../../plus/debug-tools/stlink.rst:2189
+#: ../../../plus/debug-tools/stlink.rst:2196
+#: ../../../plus/debug-tools/stlink.rst:2203
+#: ../../../plus/debug-tools/stlink.rst:2210
+#: ../../../plus/debug-tools/stlink.rst:2217
+#: ../../../plus/debug-tools/stlink.rst:2224
+#: ../../../plus/debug-tools/stlink.rst:2231
+#: ../../../plus/debug-tools/stlink.rst:2238
+#: ../../../plus/debug-tools/stlink.rst:2245
+#: ../../../plus/debug-tools/stlink.rst:2252
+#: ../../../plus/debug-tools/stlink.rst:2259
+#: ../../../plus/debug-tools/stlink.rst:2287
+#: ../../../plus/debug-tools/stlink.rst:2294
+#: ../../../plus/debug-tools/stlink.rst:2462
+#: ../../../plus/debug-tools/stlink.rst:2539
+#: ../../../plus/debug-tools/stlink.rst:2595
+msgid "100MHz"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:168
+#: ../../../plus/debug-tools/stlink.rst:210
+#: ../../../plus/debug-tools/stlink.rst:224
+#: ../../../plus/debug-tools/stlink.rst:427
+#: ../../../plus/debug-tools/stlink.rst:462
+#: ../../../plus/debug-tools/stlink.rst:517
+#: ../../../plus/debug-tools/stlink.rst:552
+#: ../../../plus/debug-tools/stlink.rst:580
+#: ../../../plus/debug-tools/stlink.rst:608
+#: ../../../plus/debug-tools/stlink.rst:657
+#: ../../../plus/debug-tools/stlink.rst:672
+#: ../../../plus/debug-tools/stlink.rst:679
+#: ../../../plus/debug-tools/stlink.rst:784
+#: ../../../plus/debug-tools/stlink.rst:826
+#: ../../../plus/debug-tools/stlink.rst:846
+#: ../../../plus/debug-tools/stlink.rst:868
+#: ../../../plus/debug-tools/stlink.rst:889
+#: ../../../plus/debug-tools/stlink.rst:909
+#: ../../../plus/debug-tools/stlink.rst:923
+#: ../../../plus/debug-tools/stlink.rst:944
+#: ../../../plus/debug-tools/stlink.rst:958
+#: ../../../plus/debug-tools/stlink.rst:980
+#: ../../../plus/debug-tools/stlink.rst:1042
+#: ../../../plus/debug-tools/stlink.rst:1049
+#: ../../../plus/debug-tools/stlink.rst:1078
+#: ../../../plus/debug-tools/stlink.rst:1085
+#: ../../../plus/debug-tools/stlink.rst:1099
+#: ../../../plus/debug-tools/stlink.rst:1182
+#: ../../../plus/debug-tools/stlink.rst:1203
+#: ../../../plus/debug-tools/stlink.rst:1245
+#: ../../../plus/debug-tools/stlink.rst:1267
+#: ../../../plus/debug-tools/stlink.rst:1301
+#: ../../../plus/debug-tools/stlink.rst:1337
+#: ../../../plus/debug-tools/stlink.rst:1399
+#: ../../../plus/debug-tools/stlink.rst:1477
+#: ../../../plus/debug-tools/stlink.rst:1519
+#: ../../../plus/debug-tools/stlink.rst:1637
+#: ../../../plus/debug-tools/stlink.rst:1644
+#: ../../../plus/debug-tools/stlink.rst:1701
+#: ../../../plus/debug-tools/stlink.rst:1707
+#: ../../../plus/debug-tools/stlink.rst:1728
+#: ../../../plus/debug-tools/stlink.rst:1812
+#: ../../../plus/debug-tools/stlink.rst:1833
+#: ../../../plus/debug-tools/stlink.rst:1840
+#: ../../../plus/debug-tools/stlink.rst:1910
+#: ../../../plus/debug-tools/stlink.rst:1987
+#: ../../../plus/debug-tools/stlink.rst:2022
+#: ../../../plus/debug-tools/stlink.rst:2064
+#: ../../../plus/debug-tools/stlink.rst:2078
+#: ../../../plus/debug-tools/stlink.rst:2106
+#: ../../../plus/debug-tools/stlink.rst:2183
+#: ../../../plus/debug-tools/stlink.rst:2197
+#: ../../../plus/debug-tools/stlink.rst:2212
+#: ../../../plus/debug-tools/stlink.rst:2219
+#: ../../../plus/debug-tools/stlink.rst:2226
+#: ../../../plus/debug-tools/stlink.rst:2233
+#: ../../../plus/debug-tools/stlink.rst:2302
+#: ../../../plus/debug-tools/stlink.rst:2358
+#: ../../../plus/debug-tools/stlink.rst:2386
+#: ../../../plus/debug-tools/stlink.rst:2394
+#: ../../../plus/debug-tools/stlink.rst:2400
+#: ../../../plus/debug-tools/stlink.rst:2407
+#: ../../../plus/debug-tools/stlink.rst:2428
+#: ../../../plus/debug-tools/stlink.rst:2442
+#: ../../../plus/debug-tools/stlink.rst:2505
+#: ../../../plus/debug-tools/stlink.rst:2512
+#: ../../../plus/debug-tools/stlink.rst:2519
+#: ../../../plus/debug-tools/stlink.rst:2533
+#: ../../../plus/debug-tools/stlink.rst:2589
+#: ../../../plus/debug-tools/stlink.rst:2618
+#: ../../../plus/debug-tools/stlink.rst:2625
+#: ../../../plus/debug-tools/stlink.rst:2632
+#: ../../../plus/debug-tools/stlink.rst:2639
+#: ../../../plus/debug-tools/stlink.rst:2653
+#: ../../../plus/debug-tools/stlink.rst:2660
+msgid "256KB"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:169
+msgid ":ref:`board_ststm32_disco_f723ie`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:172
+msgid "STM32F723IEK6"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:173
+#: ../../../plus/debug-tools/stlink.rst:194
+#: ../../../plus/debug-tools/stlink.rst:1279
+#: ../../../plus/debug-tools/stlink.rst:1286
+#: ../../../plus/debug-tools/stlink.rst:1517
+#: ../../../plus/debug-tools/stlink.rst:1524
+#: ../../../plus/debug-tools/stlink.rst:1531
+#: ../../../plus/debug-tools/stlink.rst:1538
+#: ../../../plus/debug-tools/stlink.rst:2322
+msgid "216MHz"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:174
+#: ../../../plus/debug-tools/stlink.rst:181
+#: ../../../plus/debug-tools/stlink.rst:188
+#: ../../../plus/debug-tools/stlink.rst:196
+#: ../../../plus/debug-tools/stlink.rst:202
+#: ../../../plus/debug-tools/stlink.rst:216
+#: ../../../plus/debug-tools/stlink.rst:230
+#: ../../../plus/debug-tools/stlink.rst:237
+#: ../../../plus/debug-tools/stlink.rst:300
+#: ../../../plus/debug-tools/stlink.rst:349
+#: ../../../plus/debug-tools/stlink.rst:356
+#: ../../../plus/debug-tools/stlink.rst:433
+#: ../../../plus/debug-tools/stlink.rst:440
+#: ../../../plus/debug-tools/stlink.rst:447
+#: ../../../plus/debug-tools/stlink.rst:454
+#: ../../../plus/debug-tools/stlink.rst:475
+#: ../../../plus/debug-tools/stlink.rst:482
+#: ../../../plus/debug-tools/stlink.rst:489
+#: ../../../plus/debug-tools/stlink.rst:524
+#: ../../../plus/debug-tools/stlink.rst:573
+#: ../../../plus/debug-tools/stlink.rst:587
+#: ../../../plus/debug-tools/stlink.rst:622
+#: ../../../plus/debug-tools/stlink.rst:637
+#: ../../../plus/debug-tools/stlink.rst:643
+#: ../../../plus/debug-tools/stlink.rst:650
+#: ../../../plus/debug-tools/stlink.rst:686
+#: ../../../plus/debug-tools/stlink.rst:693
+#: ../../../plus/debug-tools/stlink.rst:700
+#: ../../../plus/debug-tools/stlink.rst:720
+#: ../../../plus/debug-tools/stlink.rst:734
+#: ../../../plus/debug-tools/stlink.rst:741
+#: ../../../plus/debug-tools/stlink.rst:762
+#: ../../../plus/debug-tools/stlink.rst:790
+#: ../../../plus/debug-tools/stlink.rst:811
+#: ../../../plus/debug-tools/stlink.rst:818
+#: ../../../plus/debug-tools/stlink.rst:895
+#: ../../../plus/debug-tools/stlink.rst:902
+#: ../../../plus/debug-tools/stlink.rst:951
+#: ../../../plus/debug-tools/stlink.rst:965
+#: ../../../plus/debug-tools/stlink.rst:972
+#: ../../../plus/debug-tools/stlink.rst:1021
+#: ../../../plus/debug-tools/stlink.rst:1028
+#: ../../../plus/debug-tools/stlink.rst:1070
+#: ../../../plus/debug-tools/stlink.rst:1098
+#: ../../../plus/debug-tools/stlink.rst:1105
+#: ../../../plus/debug-tools/stlink.rst:1112
+#: ../../../plus/debug-tools/stlink.rst:1133
+#: ../../../plus/debug-tools/stlink.rst:1161
+#: ../../../plus/debug-tools/stlink.rst:1189
+#: ../../../plus/debug-tools/stlink.rst:1196
+#: ../../../plus/debug-tools/stlink.rst:1210
+#: ../../../plus/debug-tools/stlink.rst:1224
+#: ../../../plus/debug-tools/stlink.rst:1231
+#: ../../../plus/debug-tools/stlink.rst:1252
+#: ../../../plus/debug-tools/stlink.rst:1288
+#: ../../../plus/debug-tools/stlink.rst:1434
+#: ../../../plus/debug-tools/stlink.rst:1441
+#: ../../../plus/debug-tools/stlink.rst:1455
+#: ../../../plus/debug-tools/stlink.rst:1469
+#: ../../../plus/debug-tools/stlink.rst:1504
+#: ../../../plus/debug-tools/stlink.rst:1511
+#: ../../../plus/debug-tools/stlink.rst:1518
+#: ../../../plus/debug-tools/stlink.rst:1540
+#: ../../../plus/debug-tools/stlink.rst:1546
+#: ../../../plus/debug-tools/stlink.rst:1561
+#: ../../../plus/debug-tools/stlink.rst:1568
+#: ../../../plus/debug-tools/stlink.rst:1575
+#: ../../../plus/debug-tools/stlink.rst:1616
+#: ../../../plus/debug-tools/stlink.rst:1651
+#: ../../../plus/debug-tools/stlink.rst:1693
+#: ../../../plus/debug-tools/stlink.rst:1924
+#: ../../../plus/debug-tools/stlink.rst:2001
+#: ../../../plus/debug-tools/stlink.rst:2036
+#: ../../../plus/debug-tools/stlink.rst:2092
+#: ../../../plus/debug-tools/stlink.rst:2120
+#: ../../../plus/debug-tools/stlink.rst:2190
+#: ../../../plus/debug-tools/stlink.rst:2204
+#: ../../../plus/debug-tools/stlink.rst:2211
+#: ../../../plus/debug-tools/stlink.rst:2225
+#: ../../../plus/debug-tools/stlink.rst:2274
+#: ../../../plus/debug-tools/stlink.rst:2309
+#: ../../../plus/debug-tools/stlink.rst:2345
+#: ../../../plus/debug-tools/stlink.rst:2352
+#: ../../../plus/debug-tools/stlink.rst:2365
+#: ../../../plus/debug-tools/stlink.rst:2372
+#: ../../../plus/debug-tools/stlink.rst:2379
+#: ../../../plus/debug-tools/stlink.rst:2449
+#: ../../../plus/debug-tools/stlink.rst:2463
+#: ../../../plus/debug-tools/stlink.rst:2477
+#: ../../../plus/debug-tools/stlink.rst:2484
+#: ../../../plus/debug-tools/stlink.rst:2498
+#: ../../../plus/debug-tools/stlink.rst:2526
+#: ../../../plus/debug-tools/stlink.rst:2540
+#: ../../../plus/debug-tools/stlink.rst:2547
+#: ../../../plus/debug-tools/stlink.rst:2555
+#: ../../../plus/debug-tools/stlink.rst:2561
+#: ../../../plus/debug-tools/stlink.rst:2575
+#: ../../../plus/debug-tools/stlink.rst:2582
+#: ../../../plus/debug-tools/stlink.rst:2645
+msgid "512KB"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:175
+#: ../../../plus/debug-tools/stlink.rst:244
+#: ../../../plus/debug-tools/stlink.rst:420
+#: ../../../plus/debug-tools/stlink.rst:434
+#: ../../../plus/debug-tools/stlink.rst:594
+#: ../../../plus/debug-tools/stlink.rst:615
+#: ../../../plus/debug-tools/stlink.rst:664
+#: ../../../plus/debug-tools/stlink.rst:748
+#: ../../../plus/debug-tools/stlink.rst:755
+#: ../../../plus/debug-tools/stlink.rst:1071
+#: ../../../plus/debug-tools/stlink.rst:1343
+#: ../../../plus/debug-tools/stlink.rst:1491
+#: ../../../plus/debug-tools/stlink.rst:1498
+#: ../../../plus/debug-tools/stlink.rst:1609
+#: ../../../plus/debug-tools/stlink.rst:1694
+#: ../../../plus/debug-tools/stlink.rst:1749
+#: ../../../plus/debug-tools/stlink.rst:2380
+#: ../../../plus/debug-tools/stlink.rst:2456
+msgid "192KB"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:176
+msgid ":ref:`board_ststm32_armed_v1`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:179
+#: ../../../plus/debug-tools/stlink.rst:431
+#: ../../../plus/debug-tools/stlink.rst:473
+#: ../../../plus/debug-tools/stlink.rst:522
+#: ../../../plus/debug-tools/stlink.rst:732
+#: ../../../plus/debug-tools/stlink.rst:1131
+#: ../../../plus/debug-tools/stlink.rst:1166
+#: ../../../plus/debug-tools/stlink.rst:2139
+#: ../../../plus/debug-tools/stlink.rst:2377
+msgid "STM32F407VET6"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:183
+msgid ":ref:`board_ststm32_rumba32_f446ve`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:186
+#: ../../../plus/debug-tools/stlink.rst:1502
+#: ../../../plus/debug-tools/stlink.rst:2307
+#: ../../../plus/debug-tools/stlink.rst:2475
+msgid "STM32F446RET6"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:187
+#: ../../../plus/debug-tools/stlink.rst:250
+#: ../../../plus/debug-tools/stlink.rst:285
+#: ../../../plus/debug-tools/stlink.rst:292
+#: ../../../plus/debug-tools/stlink.rst:1265
+#: ../../../plus/debug-tools/stlink.rst:1272
+#: ../../../plus/debug-tools/stlink.rst:1489
+#: ../../../plus/debug-tools/stlink.rst:1496
+#: ../../../plus/debug-tools/stlink.rst:1503
+#: ../../../plus/debug-tools/stlink.rst:1510
+#: ../../../plus/debug-tools/stlink.rst:2301
+#: ../../../plus/debug-tools/stlink.rst:2308
+#: ../../../plus/debug-tools/stlink.rst:2392
+#: ../../../plus/debug-tools/stlink.rst:2476
+#: ../../../plus/debug-tools/stlink.rst:2623
+#: ../../../plus/debug-tools/stlink.rst:2630
+#: ../../../plus/debug-tools/stlink.rst:2637
+msgid "180MHz"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:190
+msgid ":ref:`board_ststm32_remram_v1`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:193
+msgid "STM32F765VIT6"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:195
+#: ../../../plus/debug-tools/stlink.rst:559
+#: ../../../plus/debug-tools/stlink.rst:566
+#: ../../../plus/debug-tools/stlink.rst:636
+#: ../../../plus/debug-tools/stlink.rst:867
+#: ../../../plus/debug-tools/stlink.rst:1266
+#: ../../../plus/debug-tools/stlink.rst:1273
+#: ../../../plus/debug-tools/stlink.rst:1287
+#: ../../../plus/debug-tools/stlink.rst:1336
+#: ../../../plus/debug-tools/stlink.rst:1490
+#: ../../../plus/debug-tools/stlink.rst:1497
+#: ../../../plus/debug-tools/stlink.rst:1539
+#: ../../../plus/debug-tools/stlink.rst:1560
+#: ../../../plus/debug-tools/stlink.rst:1574
+#: ../../../plus/debug-tools/stlink.rst:1686
+#: ../../../plus/debug-tools/stlink.rst:1700
+#: ../../../plus/debug-tools/stlink.rst:1756
+#: ../../../plus/debug-tools/stlink.rst:2344
+#: ../../../plus/debug-tools/stlink.rst:2393
+#: ../../../plus/debug-tools/stlink.rst:2414
+#: ../../../plus/debug-tools/stlink.rst:2554
+#: ../../../plus/debug-tools/stlink.rst:2652
+#: ../../../plus/debug-tools/stlink.rst:2659
+msgid "2MB"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:197
+msgid ":ref:`board_ststm32_st3dp001_eval`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:200
+msgid "STM32F401VET6"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:201
+#: ../../../plus/debug-tools/stlink.rst:348
+#: ../../../plus/debug-tools/stlink.rst:355
+#: ../../../plus/debug-tools/stlink.rst:607
+#: ../../../plus/debug-tools/stlink.rst:649
+#: ../../../plus/debug-tools/stlink.rst:1104
+#: ../../../plus/debug-tools/stlink.rst:1209
+#: ../../../plus/debug-tools/stlink.rst:1244
+#: ../../../plus/debug-tools/stlink.rst:1454
+#: ../../../plus/debug-tools/stlink.rst:1811
+#: ../../../plus/debug-tools/stlink.rst:2070
+#: ../../../plus/debug-tools/stlink.rst:2077
+#: ../../../plus/debug-tools/stlink.rst:2084
+#: ../../../plus/debug-tools/stlink.rst:2091
+#: ../../../plus/debug-tools/stlink.rst:2098
+#: ../../../plus/debug-tools/stlink.rst:2105
+#: ../../../plus/debug-tools/stlink.rst:2112
+#: ../../../plus/debug-tools/stlink.rst:2119
+#: ../../../plus/debug-tools/stlink.rst:2364
+#: ../../../plus/debug-tools/stlink.rst:2371
+#: ../../../plus/debug-tools/stlink.rst:2532
+#: ../../../plus/debug-tools/stlink.rst:2546
+msgid "84MHz"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:203
+#: ../../../plus/debug-tools/stlink.rst:350
+#: ../../../plus/debug-tools/stlink.rst:357
+#: ../../../plus/debug-tools/stlink.rst:651
+#: ../../../plus/debug-tools/stlink.rst:1106
+#: ../../../plus/debug-tools/stlink.rst:1211
+#: ../../../plus/debug-tools/stlink.rst:1330
+#: ../../../plus/debug-tools/stlink.rst:1456
+#: ../../../plus/debug-tools/stlink.rst:1659
+#: ../../../plus/debug-tools/stlink.rst:1932
+#: ../../../plus/debug-tools/stlink.rst:1939
+#: ../../../plus/debug-tools/stlink.rst:2009
+#: ../../../plus/debug-tools/stlink.rst:2016
+#: ../../../plus/debug-tools/stlink.rst:2044
+#: ../../../plus/debug-tools/stlink.rst:2051
+#: ../../../plus/debug-tools/stlink.rst:2086
+#: ../../../plus/debug-tools/stlink.rst:2093
+#: ../../../plus/debug-tools/stlink.rst:2114
+#: ../../../plus/debug-tools/stlink.rst:2121
+#: ../../../plus/debug-tools/stlink.rst:2366
+#: ../../../plus/debug-tools/stlink.rst:2373
+#: ../../../plus/debug-tools/stlink.rst:2548
+msgid "96KB"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:204
+msgid ":ref:`board_ststm32_b96b_argonkey`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:207
+msgid "STM32F412CG"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:211
+msgid ":ref:`board_ststm32_b96b_f446ve`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:214
+#: ../../../plus/debug-tools/stlink.rst:739
+msgid "STM32F446VET6"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:218
+msgid ":ref:`board_ststm32_b96b_aerocore2`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:221
+#: ../../../plus/debug-tools/stlink.rst:424
+msgid "STM32F427VIT6"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:223
+#: ../../../plus/debug-tools/stlink.rst:426
+msgid "1.99MB"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:225
+msgid ":ref:`board_ststm32_b96b_neonkey`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:228
+msgid "STM32F411CE"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:232
+msgid ":ref:`board_nordicnrf52_96b_nitrogen`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:235
+#: ../../../plus/debug-tools/stlink.rst:298
+#: ../../../plus/debug-tools/stlink.rst:445
+#: ../../../plus/debug-tools/stlink.rst:571
+#: ../../../plus/debug-tools/stlink.rst:620
+#: ../../../plus/debug-tools/stlink.rst:760
+#: ../../../plus/debug-tools/stlink.rst:816
+#: ../../../plus/debug-tools/stlink.rst:949
+#: ../../../plus/debug-tools/stlink.rst:963
+#: ../../../plus/debug-tools/stlink.rst:1187
+#: ../../../plus/debug-tools/stlink.rst:1194
+#: ../../../plus/debug-tools/stlink.rst:1222
+#: ../../../plus/debug-tools/stlink.rst:1229
+#: ../../../plus/debug-tools/stlink.rst:2447
+#: ../../../plus/debug-tools/stlink.rst:2496
+#: ../../../plus/debug-tools/stlink.rst:2573
+#: ../../../plus/debug-tools/stlink.rst:2580
+#: ../../../plus/debug-tools/stlink.rst:2643
+msgid "NRF52832"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:236
+#: ../../../plus/debug-tools/stlink.rst:299
+#: ../../../plus/debug-tools/stlink.rst:306
+#: ../../../plus/debug-tools/stlink.rst:313
+#: ../../../plus/debug-tools/stlink.rst:327
+#: ../../../plus/debug-tools/stlink.rst:334
+#: ../../../plus/debug-tools/stlink.rst:439
+#: ../../../plus/debug-tools/stlink.rst:446
+#: ../../../plus/debug-tools/stlink.rst:453
+#: ../../../plus/debug-tools/stlink.rst:460
+#: ../../../plus/debug-tools/stlink.rst:467
+#: ../../../plus/debug-tools/stlink.rst:572
+#: ../../../plus/debug-tools/stlink.rst:586
+#: ../../../plus/debug-tools/stlink.rst:600
+#: ../../../plus/debug-tools/stlink.rst:621
+#: ../../../plus/debug-tools/stlink.rst:670
+#: ../../../plus/debug-tools/stlink.rst:677
+#: ../../../plus/debug-tools/stlink.rst:761
+#: ../../../plus/debug-tools/stlink.rst:768
+#: ../../../plus/debug-tools/stlink.rst:782
+#: ../../../plus/debug-tools/stlink.rst:817
+#: ../../../plus/debug-tools/stlink.rst:824
+#: ../../../plus/debug-tools/stlink.rst:873
+#: ../../../plus/debug-tools/stlink.rst:950
+#: ../../../plus/debug-tools/stlink.rst:964
+#: ../../../plus/debug-tools/stlink.rst:971
+#: ../../../plus/debug-tools/stlink.rst:978
+#: ../../../plus/debug-tools/stlink.rst:985
+#: ../../../plus/debug-tools/stlink.rst:992
+#: ../../../plus/debug-tools/stlink.rst:999
+#: ../../../plus/debug-tools/stlink.rst:1069
+#: ../../../plus/debug-tools/stlink.rst:1076
+#: ../../../plus/debug-tools/stlink.rst:1083
+#: ../../../plus/debug-tools/stlink.rst:1118
+#: ../../../plus/debug-tools/stlink.rst:1174
+#: ../../../plus/debug-tools/stlink.rst:1188
+#: ../../../plus/debug-tools/stlink.rst:1195
+#: ../../../plus/debug-tools/stlink.rst:1223
+#: ../../../plus/debug-tools/stlink.rst:1230
+#: ../../../plus/debug-tools/stlink.rst:1356
+#: ../../../plus/debug-tools/stlink.rst:1545
+#: ../../../plus/debug-tools/stlink.rst:1741
+#: ../../../plus/debug-tools/stlink.rst:2420
+#: ../../../plus/debug-tools/stlink.rst:2448
+#: ../../../plus/debug-tools/stlink.rst:2497
+#: ../../../plus/debug-tools/stlink.rst:2574
+#: ../../../plus/debug-tools/stlink.rst:2581
+#: ../../../plus/debug-tools/stlink.rst:2616
+#: ../../../plus/debug-tools/stlink.rst:2644
+msgid "64MHz"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:238
+#: ../../../plus/debug-tools/stlink.rst:280
+#: ../../../plus/debug-tools/stlink.rst:301
+#: ../../../plus/debug-tools/stlink.rst:448
+#: ../../../plus/debug-tools/stlink.rst:503
+#: ../../../plus/debug-tools/stlink.rst:538
+#: ../../../plus/debug-tools/stlink.rst:553
+#: ../../../plus/debug-tools/stlink.rst:574
+#: ../../../plus/debug-tools/stlink.rst:609
+#: ../../../plus/debug-tools/stlink.rst:623
+#: ../../../plus/debug-tools/stlink.rst:658
+#: ../../../plus/debug-tools/stlink.rst:713
+#: ../../../plus/debug-tools/stlink.rst:763
+#: ../../../plus/debug-tools/stlink.rst:819
+#: ../../../plus/debug-tools/stlink.rst:930
+#: ../../../plus/debug-tools/stlink.rst:952
+#: ../../../plus/debug-tools/stlink.rst:966
+#: ../../../plus/debug-tools/stlink.rst:1154
+#: ../../../plus/debug-tools/stlink.rst:1162
+#: ../../../plus/debug-tools/stlink.rst:1190
+#: ../../../plus/debug-tools/stlink.rst:1197
+#: ../../../plus/debug-tools/stlink.rst:1225
+#: ../../../plus/debug-tools/stlink.rst:1232
+#: ../../../plus/debug-tools/stlink.rst:1238
+#: ../../../plus/debug-tools/stlink.rst:1246
+#: ../../../plus/debug-tools/stlink.rst:1294
+#: ../../../plus/debug-tools/stlink.rst:1357
+#: ../../../plus/debug-tools/stlink.rst:1364
+#: ../../../plus/debug-tools/stlink.rst:1420
+#: ../../../plus/debug-tools/stlink.rst:1427
+#: ../../../plus/debug-tools/stlink.rst:1435
+#: ../../../plus/debug-tools/stlink.rst:1442
+#: ../../../plus/debug-tools/stlink.rst:1448
+#: ../../../plus/debug-tools/stlink.rst:1602
+#: ../../../plus/debug-tools/stlink.rst:1638
+#: ../../../plus/debug-tools/stlink.rst:1645
+#: ../../../plus/debug-tools/stlink.rst:1708
+#: ../../../plus/debug-tools/stlink.rst:1714
+#: ../../../plus/debug-tools/stlink.rst:1721
+#: ../../../plus/debug-tools/stlink.rst:1813
+#: ../../../plus/debug-tools/stlink.rst:1834
+#: ../../../plus/debug-tools/stlink.rst:1868
+#: ../../../plus/debug-tools/stlink.rst:1896
+#: ../../../plus/debug-tools/stlink.rst:1918
+#: ../../../plus/debug-tools/stlink.rst:1925
+#: ../../../plus/debug-tools/stlink.rst:1959
+#: ../../../plus/debug-tools/stlink.rst:1973
+#: ../../../plus/debug-tools/stlink.rst:1995
+#: ../../../plus/debug-tools/stlink.rst:2002
+#: ../../../plus/debug-tools/stlink.rst:2030
+#: ../../../plus/debug-tools/stlink.rst:2037
+#: ../../../plus/debug-tools/stlink.rst:2072
+#: ../../../plus/debug-tools/stlink.rst:2079
+#: ../../../plus/debug-tools/stlink.rst:2100
+#: ../../../plus/debug-tools/stlink.rst:2107
+#: ../../../plus/debug-tools/stlink.rst:2155
+#: ../../../plus/debug-tools/stlink.rst:2169
+#: ../../../plus/debug-tools/stlink.rst:2323
+#: ../../../plus/debug-tools/stlink.rst:2401
+#: ../../../plus/debug-tools/stlink.rst:2408
+#: ../../../plus/debug-tools/stlink.rst:2450
+#: ../../../plus/debug-tools/stlink.rst:2485
+#: ../../../plus/debug-tools/stlink.rst:2499
+#: ../../../plus/debug-tools/stlink.rst:2506
+#: ../../../plus/debug-tools/stlink.rst:2513
+#: ../../../plus/debug-tools/stlink.rst:2527
+#: ../../../plus/debug-tools/stlink.rst:2534
+#: ../../../plus/debug-tools/stlink.rst:2576
+#: ../../../plus/debug-tools/stlink.rst:2583
+#: ../../../plus/debug-tools/stlink.rst:2646
+msgid "64KB"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:239
+msgid ":ref:`board_ststm32_acsip_s76s`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:242
+#: ../../../plus/debug-tools/stlink.rst:1607
+msgid "STM32L073RZ"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:243
+#: ../../../plus/debug-tools/stlink.rst:579
+#: ../../../plus/debug-tools/stlink.rst:593
+#: ../../../plus/debug-tools/stlink.rst:614
+#: ../../../plus/debug-tools/stlink.rst:663
+#: ../../../plus/debug-tools/stlink.rst:747
+#: ../../../plus/debug-tools/stlink.rst:754
+#: ../../../plus/debug-tools/stlink.rst:908
+#: ../../../plus/debug-tools/stlink.rst:922
+#: ../../../plus/debug-tools/stlink.rst:943
+#: ../../../plus/debug-tools/stlink.rst:957
+#: ../../../plus/debug-tools/stlink.rst:1041
+#: ../../../plus/debug-tools/stlink.rst:1125
+#: ../../../plus/debug-tools/stlink.rst:1139
+#: ../../../plus/debug-tools/stlink.rst:1146
+#: ../../../plus/debug-tools/stlink.rst:1153
+#: ../../../plus/debug-tools/stlink.rst:1293
+#: ../../../plus/debug-tools/stlink.rst:1300
+#: ../../../plus/debug-tools/stlink.rst:1342
+#: ../../../plus/debug-tools/stlink.rst:1580
+#: ../../../plus/debug-tools/stlink.rst:1587
+#: ../../../plus/debug-tools/stlink.rst:1594
+#: ../../../plus/debug-tools/stlink.rst:1601
+#: ../../../plus/debug-tools/stlink.rst:1608
+#: ../../../plus/debug-tools/stlink.rst:1615
+#: ../../../plus/debug-tools/stlink.rst:1748
+#: ../../../plus/debug-tools/stlink.rst:1762
+#: ../../../plus/debug-tools/stlink.rst:2427
+#: ../../../plus/debug-tools/stlink.rst:2455
+#: ../../../plus/debug-tools/stlink.rst:2518
+msgid "32MHz"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:245
+#: ../../../plus/debug-tools/stlink.rst:343
+#: ../../../plus/debug-tools/stlink.rst:504
+#: ../../../plus/debug-tools/stlink.rst:511
+#: ../../../plus/debug-tools/stlink.rst:539
+#: ../../../plus/debug-tools/stlink.rst:546
+#: ../../../plus/debug-tools/stlink.rst:595
+#: ../../../plus/debug-tools/stlink.rst:616
+#: ../../../plus/debug-tools/stlink.rst:665
+#: ../../../plus/debug-tools/stlink.rst:749
+#: ../../../plus/debug-tools/stlink.rst:756
+#: ../../../plus/debug-tools/stlink.rst:833
+#: ../../../plus/debug-tools/stlink.rst:854
+#: ../../../plus/debug-tools/stlink.rst:861
+#: ../../../plus/debug-tools/stlink.rst:882
+#: ../../../plus/debug-tools/stlink.rst:1036
+#: ../../../plus/debug-tools/stlink.rst:1057
+#: ../../../plus/debug-tools/stlink.rst:1127
+#: ../../../plus/debug-tools/stlink.rst:1344
+#: ../../../plus/debug-tools/stlink.rst:1407
+#: ../../../plus/debug-tools/stlink.rst:1582
+#: ../../../plus/debug-tools/stlink.rst:1610
+#: ../../../plus/debug-tools/stlink.rst:1750
+#: ../../../plus/debug-tools/stlink.rst:1869
+#: ../../../plus/debug-tools/stlink.rst:1876
+#: ../../../plus/debug-tools/stlink.rst:1897
+#: ../../../plus/debug-tools/stlink.rst:1904
+#: ../../../plus/debug-tools/stlink.rst:1960
+#: ../../../plus/debug-tools/stlink.rst:1967
+#: ../../../plus/debug-tools/stlink.rst:1974
+#: ../../../plus/debug-tools/stlink.rst:1981
+#: ../../../plus/debug-tools/stlink.rst:2457
+#: ../../../plus/debug-tools/stlink.rst:2471
+msgid "20KB"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:246
+msgid ":ref:`board_aceinna_imu_LowCostRTK`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:249
+#: ../../../plus/debug-tools/stlink.rst:1271
+msgid "STM32F469NIH6"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:252
+#: ../../../plus/debug-tools/stlink.rst:287
+#: ../../../plus/debug-tools/stlink.rst:294
+#: ../../../plus/debug-tools/stlink.rst:1274
+#: ../../../plus/debug-tools/stlink.rst:1917
+#: ../../../plus/debug-tools/stlink.rst:1994
+#: ../../../plus/debug-tools/stlink.rst:2029
+#: ../../../plus/debug-tools/stlink.rst:2085
+#: ../../../plus/debug-tools/stlink.rst:2113
+msgid "384KB"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:253
+msgid ":ref:`board_aceinna_imu_OpenIMU335`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:256
+#: ../../../plus/debug-tools/stlink.rst:263
+#: ../../../plus/debug-tools/stlink.rst:270
+msgid "STM32F405RG"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:257
+#: ../../../plus/debug-tools/stlink.rst:264
+#: ../../../plus/debug-tools/stlink.rst:271
+#: ../../../plus/debug-tools/stlink.rst:558
+#: ../../../plus/debug-tools/stlink.rst:565
+#: ../../../plus/debug-tools/stlink.rst:1412
+#: ../../../plus/debug-tools/stlink.rst:1685
+#: ../../../plus/debug-tools/stlink.rst:2413
+msgid "120MHz"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:260
+msgid ":ref:`board_aceinna_imu_OpenIMU300`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:267
+msgid ":ref:`board_aceinna_imu_OpenIMU300ZA`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:274
+msgid ":ref:`board_aceinna_imu_OpenIMU330`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:277
+msgid "STM32L431CB"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:278
+#: ../../../plus/debug-tools/stlink.rst:551
+#: ../../../plus/debug-tools/stlink.rst:775
+#: ../../../plus/debug-tools/stlink.rst:789
+#: ../../../plus/debug-tools/stlink.rst:1216
+#: ../../../plus/debug-tools/stlink.rst:1307
+#: ../../../plus/debug-tools/stlink.rst:1314
+#: ../../../plus/debug-tools/stlink.rst:1328
+#: ../../../plus/debug-tools/stlink.rst:1622
+#: ../../../plus/debug-tools/stlink.rst:1629
+#: ../../../plus/debug-tools/stlink.rst:1636
+#: ../../../plus/debug-tools/stlink.rst:1643
+#: ../../../plus/debug-tools/stlink.rst:1650
+#: ../../../plus/debug-tools/stlink.rst:1657
+#: ../../../plus/debug-tools/stlink.rst:1664
+#: ../../../plus/debug-tools/stlink.rst:1671
+#: ../../../plus/debug-tools/stlink.rst:1678
+#: ../../../plus/debug-tools/stlink.rst:1692
+#: ../../../plus/debug-tools/stlink.rst:1755
+#: ../../../plus/debug-tools/stlink.rst:1804
+msgid "80MHz"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:281
+msgid ":ref:`board_aceinna_imu_OpenRTK`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:284
+#: ../../../plus/debug-tools/stlink.rst:291
+msgid "STM32F469IG"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:288
+msgid ":ref:`board_aceinna_imu_OpenRTK330L`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:295
+msgid ":ref:`board_nordicnrf52_adafruit_feather_nrf52832`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:302
+msgid ":ref:`board_nordicnrf52_adafruit_clue_nrf52840`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:305
+#: ../../../plus/debug-tools/stlink.rst:312
+#: ../../../plus/debug-tools/stlink.rst:326
+#: ../../../plus/debug-tools/stlink.rst:333
+#: ../../../plus/debug-tools/stlink.rst:459
+#: ../../../plus/debug-tools/stlink.rst:599
+#: ../../../plus/debug-tools/stlink.rst:669
+#: ../../../plus/debug-tools/stlink.rst:676
+#: ../../../plus/debug-tools/stlink.rst:767
+#: ../../../plus/debug-tools/stlink.rst:781
+#: ../../../plus/debug-tools/stlink.rst:823
+#: ../../../plus/debug-tools/stlink.rst:872
+#: ../../../plus/debug-tools/stlink.rst:977
+#: ../../../plus/debug-tools/stlink.rst:984
+#: ../../../plus/debug-tools/stlink.rst:1075
+#: ../../../plus/debug-tools/stlink.rst:1082
+#: ../../../plus/debug-tools/stlink.rst:1117
+#: ../../../plus/debug-tools/stlink.rst:1173
+#: ../../../plus/debug-tools/stlink.rst:2615
+msgid "NRF52840"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:307
+#: ../../../plus/debug-tools/stlink.rst:314
+#: ../../../plus/debug-tools/stlink.rst:328
+#: ../../../plus/debug-tools/stlink.rst:335
+#: ../../../plus/debug-tools/stlink.rst:601
+#: ../../../plus/debug-tools/stlink.rst:769
+#: ../../../plus/debug-tools/stlink.rst:874
+#: ../../../plus/debug-tools/stlink.rst:986
+#: ../../../plus/debug-tools/stlink.rst:1119
+#: ../../../plus/debug-tools/stlink.rst:1175
+msgid "796KB"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:308
+#: ../../../plus/debug-tools/stlink.rst:315
+#: ../../../plus/debug-tools/stlink.rst:329
+#: ../../../plus/debug-tools/stlink.rst:602
+#: ../../../plus/debug-tools/stlink.rst:770
+#: ../../../plus/debug-tools/stlink.rst:875
+#: ../../../plus/debug-tools/stlink.rst:987
+#: ../../../plus/debug-tools/stlink.rst:1120
+#: ../../../plus/debug-tools/stlink.rst:1176
+msgid "243KB"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:309
+msgid ":ref:`board_nordicnrf52_adafruit_feather_nrf52840_sense`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:316
+msgid ":ref:`board_ststm32_adafruit_feather_f405`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:319
+#: ../../../plus/debug-tools/stlink.rst:914
+#: ../../../plus/debug-tools/stlink.rst:1061
+#: ../../../plus/debug-tools/stlink.rst:2125
+#: ../../../plus/debug-tools/stlink.rst:2314
+#: ../../../plus/debug-tools/stlink.rst:2433
+msgid "STM32F405RGT6"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:323
+msgid ":ref:`board_nordicnrf52_adafruit_feather_nrf52840`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:330
+msgid ":ref:`board_nordicnrf52_adafruit_ledglasses_nrf52840`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:336
+msgid "232KB"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:337
+msgid ":ref:`board_ststm32_afroflight_f103cb`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:340
+#: ../../../plus/debug-tools/stlink.rst:830
+#: ../../../plus/debug-tools/stlink.rst:851
+#: ../../../plus/debug-tools/stlink.rst:858
+#: ../../../plus/debug-tools/stlink.rst:879
+#: ../../../plus/debug-tools/stlink.rst:1873
+msgid "STM32F103CBT6"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:341
+#: ../../../plus/debug-tools/stlink.rst:502
+#: ../../../plus/debug-tools/stlink.rst:509
+#: ../../../plus/debug-tools/stlink.rst:516
+#: ../../../plus/debug-tools/stlink.rst:530
+#: ../../../plus/debug-tools/stlink.rst:537
+#: ../../../plus/debug-tools/stlink.rst:544
+#: ../../../plus/debug-tools/stlink.rst:831
+#: ../../../plus/debug-tools/stlink.rst:838
+#: ../../../plus/debug-tools/stlink.rst:845
+#: ../../../plus/debug-tools/stlink.rst:852
+#: ../../../plus/debug-tools/stlink.rst:859
+#: ../../../plus/debug-tools/stlink.rst:880
+#: ../../../plus/debug-tools/stlink.rst:1034
+#: ../../../plus/debug-tools/stlink.rst:1048
+#: ../../../plus/debug-tools/stlink.rst:1055
+#: ../../../plus/debug-tools/stlink.rst:1160
+#: ../../../plus/debug-tools/stlink.rst:1237
+#: ../../../plus/debug-tools/stlink.rst:1405
+#: ../../../plus/debug-tools/stlink.rst:1419
+#: ../../../plus/debug-tools/stlink.rst:1426
+#: ../../../plus/debug-tools/stlink.rst:1433
+#: ../../../plus/debug-tools/stlink.rst:1440
+#: ../../../plus/debug-tools/stlink.rst:1447
+#: ../../../plus/debug-tools/stlink.rst:1727
+#: ../../../plus/debug-tools/stlink.rst:1832
+#: ../../../plus/debug-tools/stlink.rst:1839
+#: ../../../plus/debug-tools/stlink.rst:1853
+#: ../../../plus/debug-tools/stlink.rst:1860
+#: ../../../plus/debug-tools/stlink.rst:1867
+#: ../../../plus/debug-tools/stlink.rst:1874
+#: ../../../plus/debug-tools/stlink.rst:1881
+#: ../../../plus/debug-tools/stlink.rst:1888
+#: ../../../plus/debug-tools/stlink.rst:1895
+#: ../../../plus/debug-tools/stlink.rst:1902
+#: ../../../plus/debug-tools/stlink.rst:1909
+#: ../../../plus/debug-tools/stlink.rst:1916
+#: ../../../plus/debug-tools/stlink.rst:1923
+#: ../../../plus/debug-tools/stlink.rst:1930
+#: ../../../plus/debug-tools/stlink.rst:1937
+#: ../../../plus/debug-tools/stlink.rst:1944
+#: ../../../plus/debug-tools/stlink.rst:1951
+#: ../../../plus/debug-tools/stlink.rst:1958
+#: ../../../plus/debug-tools/stlink.rst:1965
+#: ../../../plus/debug-tools/stlink.rst:1972
+#: ../../../plus/debug-tools/stlink.rst:1979
+#: ../../../plus/debug-tools/stlink.rst:1986
+#: ../../../plus/debug-tools/stlink.rst:1993
+#: ../../../plus/debug-tools/stlink.rst:2000
+#: ../../../plus/debug-tools/stlink.rst:2007
+#: ../../../plus/debug-tools/stlink.rst:2014
+#: ../../../plus/debug-tools/stlink.rst:2021
+#: ../../../plus/debug-tools/stlink.rst:2028
+#: ../../../plus/debug-tools/stlink.rst:2035
+#: ../../../plus/debug-tools/stlink.rst:2042
+#: ../../../plus/debug-tools/stlink.rst:2049
+#: ../../../plus/debug-tools/stlink.rst:2056
+#: ../../../plus/debug-tools/stlink.rst:2063
+#: ../../../plus/debug-tools/stlink.rst:2357
+#: ../../../plus/debug-tools/stlink.rst:2441
+#: ../../../plus/debug-tools/stlink.rst:2469
+#: ../../../plus/debug-tools/stlink.rst:2483
+#: ../../../plus/debug-tools/stlink.rst:2525
+msgid "72MHz"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:344
+msgid ":ref:`board_atmelsam_due`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:347
+#: ../../../plus/debug-tools/stlink.rst:354
+#: ../../../plus/debug-tools/stlink.rst:648
+#: ../../../plus/debug-tools/stlink.rst:2363
+#: ../../../plus/debug-tools/stlink.rst:2370
+msgid "AT91SAM3X8E"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:351
+msgid ":ref:`board_atmelsam_dueUSB`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:358
+msgid ":ref:`board_ststm32_giga_r1_m4`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:361
+#: ../../../plus/debug-tools/stlink.rst:368
+#: ../../../plus/debug-tools/stlink.rst:375
+#: ../../../plus/debug-tools/stlink.rst:382
+#: ../../../plus/debug-tools/stlink.rst:389
+#: ../../../plus/debug-tools/stlink.rst:396
+#: ../../../plus/debug-tools/stlink.rst:403
+#: ../../../plus/debug-tools/stlink.rst:410
+#: ../../../plus/debug-tools/stlink.rst:2342
+msgid "STM32H747XIH6"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:362
+#: ../../../plus/debug-tools/stlink.rst:369
+#: ../../../plus/debug-tools/stlink.rst:376
+#: ../../../plus/debug-tools/stlink.rst:383
+#: ../../../plus/debug-tools/stlink.rst:390
+#: ../../../plus/debug-tools/stlink.rst:397
+#: ../../../plus/debug-tools/stlink.rst:404
+#: ../../../plus/debug-tools/stlink.rst:411
+#: ../../../plus/debug-tools/stlink.rst:635
+#: ../../../plus/debug-tools/stlink.rst:642
+#: ../../../plus/debug-tools/stlink.rst:1566
+#: ../../../plus/debug-tools/stlink.rst:2350
+#: ../../../plus/debug-tools/stlink.rst:2553
+#: ../../../plus/debug-tools/stlink.rst:2560
+msgid "480MHz"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:364
+#: ../../../plus/debug-tools/stlink.rst:385
+#: ../../../plus/debug-tools/stlink.rst:399
+#: ../../../plus/debug-tools/stlink.rst:406
+msgid "287.35KB"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:365
+msgid ":ref:`board_ststm32_giga_r1_m7`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:370
+#: ../../../plus/debug-tools/stlink.rst:377
+#: ../../../plus/debug-tools/stlink.rst:391
+#: ../../../plus/debug-tools/stlink.rst:412
+#: ../../../plus/debug-tools/stlink.rst:1931
+#: ../../../plus/debug-tools/stlink.rst:2008
+#: ../../../plus/debug-tools/stlink.rst:2043
+msgid "768KB"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:371
+#: ../../../plus/debug-tools/stlink.rst:378
+#: ../../../plus/debug-tools/stlink.rst:392
+#: ../../../plus/debug-tools/stlink.rst:413
+msgid "511.35KB"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:372
+msgid ":ref:`board_ststm32_nicla_vision`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:379
+msgid ":ref:`board_ststm32_nicla_vision_m4`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:386
+msgid ":ref:`board_ststm32_opta`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:393
+msgid ":ref:`board_ststm32_opta_m4`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:400
+msgid ":ref:`board_ststm32_portenta_h7_m4`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:407
+msgid ":ref:`board_ststm32_portenta_h7_m7`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:414
+msgid ":ref:`board_ststm32_armstrap_eagle1024`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:417
+#: ../../../plus/debug-tools/stlink.rst:2279
+msgid "STM32F417VGT6"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:421
+msgid ":ref:`board_ststm32_armstrap_eagle2048`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:428
+msgid ":ref:`board_ststm32_armstrap_eagle512`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:435
+msgid ":ref:`board_nordicnrf52_bbcmicrobit_v2`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:438
+#: ../../../plus/debug-tools/stlink.rst:452
+#: ../../../plus/debug-tools/stlink.rst:585
+#: ../../../plus/debug-tools/stlink.rst:970
+msgid "NRF52833"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:442
+msgid ":ref:`board_nordicnrf52_laird_bl652_dvk`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:449
+msgid ":ref:`board_nordicnrf52_laird_bl653_dvk`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:456
+msgid ":ref:`board_nordicnrf52_laird_bl654_dvk`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:463
+msgid ":ref:`board_ststm32_btt_ebb42_v1_1`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:466
+#: ../../../plus/debug-tools/stlink.rst:1544
+msgid "STM32G0B1RET6"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:469
+#: ../../../plus/debug-tools/stlink.rst:1547
+msgid "144KB"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:470
+msgid ":ref:`board_ststm32_black_f407ve`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:477
+msgid ":ref:`board_ststm32_black_f407vg`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:480
+#: ../../../plus/debug-tools/stlink.rst:725
+#: ../../../plus/debug-tools/stlink.rst:1733
+#: ../../../plus/debug-tools/stlink.rst:2146
+msgid "STM32F407VGT6"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:484
+msgid ":ref:`board_ststm32_black_f407ze`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:487
+msgid "STM32F407ZET6"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:491
+msgid ":ref:`board_ststm32_black_f407zg`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:494
+#: ../../../plus/debug-tools/stlink.rst:1817
+#: ../../../plus/debug-tools/stlink.rst:1824
+#: ../../../plus/debug-tools/stlink.rst:2489
+msgid "STM32F407ZGT6"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:498
+msgid ":ref:`board_ststm32_blackpill_f103c8`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:501
+#: ../../../plus/debug-tools/stlink.rst:508
+#: ../../../plus/debug-tools/stlink.rst:536
+#: ../../../plus/debug-tools/stlink.rst:543
+#: ../../../plus/debug-tools/stlink.rst:1866
+msgid "STM32F103C8T6"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:505
+msgid ":ref:`board_ststm32_blackpill_f103c8_128`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:512
+msgid ":ref:`board_ststm32_robotdyn_blackpill_f303cc`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:515
+#: ../../../plus/debug-tools/stlink.rst:2440
+msgid "STM32F303CCT6"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:518
+#: ../../../plus/debug-tools/stlink.rst:1050
+#: ../../../plus/debug-tools/stlink.rst:1624
+#: ../../../plus/debug-tools/stlink.rst:1631
+#: ../../../plus/debug-tools/stlink.rst:1729
+#: ../../../plus/debug-tools/stlink.rst:2443
+msgid "40KB"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:519
+msgid ":ref:`board_ststm32_blue_f407ve_mini`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:526
+msgid ":ref:`board_ststm32_bluepill_f103c6`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:529
+#: ../../../plus/debug-tools/stlink.rst:1859
+msgid "STM32F103C6T6"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:531
+#: ../../../plus/debug-tools/stlink.rst:581
+#: ../../../plus/debug-tools/stlink.rst:910
+#: ../../../plus/debug-tools/stlink.rst:924
+#: ../../../plus/debug-tools/stlink.rst:945
+#: ../../../plus/debug-tools/stlink.rst:959
+#: ../../../plus/debug-tools/stlink.rst:1008
+#: ../../../plus/debug-tools/stlink.rst:1015
+#: ../../../plus/debug-tools/stlink.rst:1043
+#: ../../../plus/debug-tools/stlink.rst:1148
+#: ../../../plus/debug-tools/stlink.rst:1183
+#: ../../../plus/debug-tools/stlink.rst:1323
+#: ../../../plus/debug-tools/stlink.rst:1371
+#: ../../../plus/debug-tools/stlink.rst:1378
+#: ../../../plus/debug-tools/stlink.rst:1400
+#: ../../../plus/debug-tools/stlink.rst:1463
+#: ../../../plus/debug-tools/stlink.rst:1595
+#: ../../../plus/debug-tools/stlink.rst:1777
+#: ../../../plus/debug-tools/stlink.rst:1841
+#: ../../../plus/debug-tools/stlink.rst:1861
+#: ../../../plus/debug-tools/stlink.rst:1889
+#: ../../../plus/debug-tools/stlink.rst:1952
+#: ../../../plus/debug-tools/stlink.rst:2058
+#: ../../../plus/debug-tools/stlink.rst:2065
+#: ../../../plus/debug-tools/stlink.rst:2156
+#: ../../../plus/debug-tools/stlink.rst:2163
+#: ../../../plus/debug-tools/stlink.rst:2170
+#: ../../../plus/debug-tools/stlink.rst:2177
+#: ../../../plus/debug-tools/stlink.rst:2331
+#: ../../../plus/debug-tools/stlink.rst:2429
+#: ../../../plus/debug-tools/stlink.rst:2520
+#: ../../../plus/debug-tools/stlink.rst:2568
+#: ../../../plus/debug-tools/stlink.rst:2590
+#: ../../../plus/debug-tools/stlink.rst:2610
+msgid "32KB"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:532
+#: ../../../plus/debug-tools/stlink.rst:1862
+#: ../../../plus/debug-tools/stlink.rst:1890
+#: ../../../plus/debug-tools/stlink.rst:1953
+msgid "10KB"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:533
+msgid ":ref:`board_ststm32_bluepill_f103c8`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:540
+msgid ":ref:`board_ststm32_bluepill_f103c8_128k`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:547
+msgid ":ref:`board_ststm32_blues_cygnet`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:550
+msgid "STM32L433CCT6"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:554
+msgid ":ref:`board_ststm32_blues_swan_r5`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:557
+#: ../../../plus/debug-tools/stlink.rst:564
+msgid "STM32L4R5ZIY6"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:560
+#: ../../../plus/debug-tools/stlink.rst:567
+#: ../../../plus/debug-tools/stlink.rst:1687
+#: ../../../plus/debug-tools/stlink.rst:1757
+#: ../../../plus/debug-tools/stlink.rst:2415
+msgid "640KB"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:561
+msgid ":ref:`board_ststm32_bw_swan_r5`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:568
+msgid ":ref:`board_nordicnrf52_bluey`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:575
+msgid ":ref:`board_nordicnrf51_bluz_dk`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:578
+#: ../../../plus/debug-tools/stlink.rst:942
+#: ../../../plus/debug-tools/stlink.rst:956
+#: ../../../plus/debug-tools/stlink.rst:1040
+#: ../../../plus/debug-tools/stlink.rst:1180
+#: ../../../plus/debug-tools/stlink.rst:1201
+#: ../../../plus/debug-tools/stlink.rst:2384
+#: ../../../plus/debug-tools/stlink.rst:2426
+#: ../../../plus/debug-tools/stlink.rst:2517
+#: ../../../plus/debug-tools/stlink.rst:2587
+msgid "NRF51822"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:582
+msgid ":ref:`board_nordicnrf52_calliopemini_v3`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:589
+msgid ":ref:`board_ststm32_cicada_l082cz`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:592
+#: ../../../plus/debug-tools/stlink.rst:613
+#: ../../../plus/debug-tools/stlink.rst:662
+#: ../../../plus/debug-tools/stlink.rst:746
+#: ../../../plus/debug-tools/stlink.rst:753
+msgid "STM32L082CZY6"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:596
+msgid ":ref:`board_nordicnrf52_adafruit_cplaynrf52840`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:603
+msgid ":ref:`board_ststm32_coreboard_f401rc`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:606
+#: ../../../plus/debug-tools/stlink.rst:2104
+msgid "STM32F401RCT6"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:610
+msgid ":ref:`board_ststm32_cricket_l082cz`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:617
+msgid ":ref:`board_nordicnrf52_delta_dfbm_nq620`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:624
+msgid ":ref:`board_ststm32_demo_f030f4`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:627
+msgid "STM32F030F4P6"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:628
+#: ../../../plus/debug-tools/stlink.rst:656
+#: ../../../plus/debug-tools/stlink.rst:705
+#: ../../../plus/debug-tools/stlink.rst:712
+#: ../../../plus/debug-tools/stlink.rst:796
+#: ../../../plus/debug-tools/stlink.rst:803
+#: ../../../plus/debug-tools/stlink.rst:1090
+#: ../../../plus/debug-tools/stlink.rst:1349
+#: ../../../plus/debug-tools/stlink.rst:1363
+#: ../../../plus/debug-tools/stlink.rst:1370
+#: ../../../plus/debug-tools/stlink.rst:1377
+#: ../../../plus/debug-tools/stlink.rst:1384
+#: ../../../plus/debug-tools/stlink.rst:1391
+#: ../../../plus/debug-tools/stlink.rst:1398
+#: ../../../plus/debug-tools/stlink.rst:1706
+#: ../../../plus/debug-tools/stlink.rst:1713
+#: ../../../plus/debug-tools/stlink.rst:1720
+#: ../../../plus/debug-tools/stlink.rst:1846
+#: ../../../plus/debug-tools/stlink.rst:2399
+#: ../../../plus/debug-tools/stlink.rst:2406
+#: ../../../plus/debug-tools/stlink.rst:2504
+#: ../../../plus/debug-tools/stlink.rst:2511
+#: ../../../plus/debug-tools/stlink.rst:2567
+msgid "48MHz"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:629
+#: ../../../plus/debug-tools/stlink.rst:707
+#: ../../../plus/debug-tools/stlink.rst:714
+#: ../../../plus/debug-tools/stlink.rst:1092
+#: ../../../plus/debug-tools/stlink.rst:1141
+#: ../../../plus/debug-tools/stlink.rst:1204
+#: ../../../plus/debug-tools/stlink.rst:1302
+#: ../../../plus/debug-tools/stlink.rst:1351
+#: ../../../plus/debug-tools/stlink.rst:1386
+#: ../../../plus/debug-tools/stlink.rst:1393
+#: ../../../plus/debug-tools/stlink.rst:1421
+#: ../../../plus/debug-tools/stlink.rst:1449
+#: ../../../plus/debug-tools/stlink.rst:1588
+#: ../../../plus/debug-tools/stlink.rst:1764
+#: ../../../plus/debug-tools/stlink.rst:1798
+#: ../../../plus/debug-tools/stlink.rst:1848
+#: ../../../plus/debug-tools/stlink.rst:1854
+#: ../../../plus/debug-tools/stlink.rst:1882
+#: ../../../plus/debug-tools/stlink.rst:1945
+#: ../../../plus/debug-tools/stlink.rst:2387
+msgid "16KB"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:630
+#: ../../../plus/debug-tools/stlink.rst:1372
+msgid "4KB"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:631
+msgid ":ref:`board_ststm32_devebox_h743vitx`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:634
+#: ../../../plus/debug-tools/stlink.rst:2552
+msgid "STM32H743VIT6"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:638
+msgid ":ref:`board_ststm32_devebox_h750vbtx`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:641
+#: ../../../plus/debug-tools/stlink.rst:2349
+#: ../../../plus/debug-tools/stlink.rst:2559
+msgid "STM32H750VBT6"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:645
+msgid ":ref:`board_atmelsam_digix`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:652
+msgid ":ref:`board_ststm32_ebyte_e77_dev`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:655
+msgid "STM32WLE5CC"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:659
+msgid ":ref:`board_ststm32_econode_l082cz`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:666
+msgid ":ref:`board_nordicnrf52_electronut_blip`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:673
+msgid ":ref:`board_nordicnrf52_electronut_papyr`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:680
+msgid ":ref:`board_ststm32_electrosmith_daisy`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:683
+#: ../../../plus/debug-tools/stlink.rst:690
+#: ../../../plus/debug-tools/stlink.rst:697
+msgid "STM32H750IBK6"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:684
+#: ../../../plus/debug-tools/stlink.rst:691
+#: ../../../plus/debug-tools/stlink.rst:698
+#: ../../../plus/debug-tools/stlink.rst:1559
+#: ../../../plus/debug-tools/stlink.rst:1573
+#: ../../../plus/debug-tools/stlink.rst:2343
+msgid "400MHz"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:687
+msgid ":ref:`board_ststm32_electrosmith_daisy_patch_sm`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:694
+msgid ":ref:`board_ststm32_electrosmith_daisy_petal_sm`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:701
+msgid ":ref:`board_ststm32_elektor_f072cb`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:704
+#: ../../../plus/debug-tools/stlink.rst:711
+msgid "STM32F072C8T6"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:708
+msgid ":ref:`board_ststm32_elektor_f072c8`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:715
+msgid ":ref:`board_ststm32_elmo_f411re`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:718
+#: ../../../plus/debug-tools/stlink.rst:809
+#: ../../../plus/debug-tools/stlink.rst:893
+#: ../../../plus/debug-tools/stlink.rst:900
+#: ../../../plus/debug-tools/stlink.rst:1467
+#: ../../../plus/debug-tools/stlink.rst:2202
+#: ../../../plus/debug-tools/stlink.rst:2594
+msgid "STM32F411RET6"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:722
+msgid ":ref:`board_ststm32_diymore_f407vgt`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:729
+msgid ":ref:`board_ststm32_fk407m1`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:736
+msgid ":ref:`board_ststm32_fysetc_s6`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:743
+msgid ":ref:`board_ststm32_gnat_l082cz`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:750
+msgid ":ref:`board_ststm32_grasshopper_l082cz`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:757
+msgid ":ref:`board_nordicnrf52_holyiot_yj16019`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:764
+msgid ":ref:`board_nordicnrf52_adafruit_itsybitsy_nrf52840`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:771
+msgid ":ref:`board_ststm32_rhombio_l476dmw1k`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:774
+#: ../../../plus/debug-tools/stlink.rst:1306
+msgid "STM32L476VGT6"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:778
+msgid ":ref:`board_nordicnrf52_laird_pinnacle_100_dvk`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:785
+msgid ":ref:`board_ststm32_leafony_ap03`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:788
+#: ../../../plus/debug-tools/stlink.rst:1649
+msgid "STM32L452RET6"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:791
+#: ../../../plus/debug-tools/stlink.rst:1652
+msgid "160KB"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:792
+msgid ":ref:`board_ststm32_malyanm200_f070cb`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:795
+#: ../../../plus/debug-tools/stlink.rst:802
+msgid "STM32F070CBT6"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:797
+#: ../../../plus/debug-tools/stlink.rst:804
+#: ../../../plus/debug-tools/stlink.rst:832
+#: ../../../plus/debug-tools/stlink.rst:853
+msgid "120KB"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:798
+#: ../../../plus/debug-tools/stlink.rst:805
+msgid "14.81KB"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:799
+msgid ":ref:`board_ststm32_malyanm300_f070cb`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:806
+msgid ":ref:`board_ststm32_mts_dragonfly_f411re`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:813
+msgid ":ref:`board_nordicnrf52_nrf52832_mdk`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:820
+msgid ":ref:`board_nordicnrf52_nrf52840_mdk`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:827
+msgid ":ref:`board_ststm32_malyanm200_f103cb`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:834
+msgid ":ref:`board_ststm32_maple`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:837
+#: ../../../plus/debug-tools/stlink.rst:1033
+#: ../../../plus/debug-tools/stlink.rst:1054
+#: ../../../plus/debug-tools/stlink.rst:1404
+#: ../../../plus/debug-tools/stlink.rst:1901
+msgid "STM32F103RBT6"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:839
+#: ../../../plus/debug-tools/stlink.rst:860
+msgid "108KB"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:840
+msgid "17KB"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:841
+msgid ":ref:`board_ststm32_maple_ret6`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:844
+#: ../../../plus/debug-tools/stlink.rst:1922
+msgid "STM32F103RET6"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:847
+#: ../../../plus/debug-tools/stlink.rst:1911
+#: ../../../plus/debug-tools/stlink.rst:1988
+#: ../../../plus/debug-tools/stlink.rst:2023
+#: ../../../plus/debug-tools/stlink.rst:2359
+msgid "48KB"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:848
+msgid ":ref:`board_ststm32_maple_mini_b20`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:855
+msgid ":ref:`board_ststm32_maple_mini_origin`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:862
+msgid ":ref:`board_ststm32_mbed_connect_odin`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:865
+#: ../../../plus/debug-tools/stlink.rst:2650
+#: ../../../plus/debug-tools/stlink.rst:2657
+msgid "STM32F439ZIY6"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:869
+msgid ":ref:`board_nordicnrf52_adafruit_metro_nrf52840`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:876
+msgid ":ref:`board_ststm32_microduino32_flash`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:881
+msgid "105.47KB"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:883
+msgid ":ref:`board_ststm32_mxchip_az3166`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:890
+msgid ":ref:`board_ststm32_mts_mdot_f405rg`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:897
+msgid ":ref:`board_ststm32_mts_mdot_f411re`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:904
+msgid ":ref:`board_ststm32_xdot_l151cc`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:907
+msgid "STM32L151CCU6"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:911
+msgid ":ref:`board_ststm32_netduino2plus`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:918
+msgid ":ref:`board_ststm32_mote_l152rc`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:921
+msgid "STM32L152RC"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:925
+msgid ":ref:`board_ststm8_nucleo_8s207k8`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:928
+msgid "STM8S207K8T6"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:929
+#: ../../../plus/debug-tools/stlink.rst:936
+#: ../../../plus/debug-tools/stlink.rst:1181
+#: ../../../plus/debug-tools/stlink.rst:1202
+#: ../../../plus/debug-tools/stlink.rst:1776
+#: ../../../plus/debug-tools/stlink.rst:1783
+#: ../../../plus/debug-tools/stlink.rst:1790
+#: ../../../plus/debug-tools/stlink.rst:1797
+#: ../../../plus/debug-tools/stlink.rst:2385
+#: ../../../plus/debug-tools/stlink.rst:2588
+#: ../../../plus/debug-tools/stlink.rst:2602
+#: ../../../plus/debug-tools/stlink.rst:2609
+msgid "16MHz"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:931
+#: ../../../plus/debug-tools/stlink.rst:938
+#: ../../../plus/debug-tools/stlink.rst:1379
+#: ../../../plus/debug-tools/stlink.rst:1855
+#: ../../../plus/debug-tools/stlink.rst:1883
+#: ../../../plus/debug-tools/stlink.rst:1946
+#: ../../../plus/debug-tools/stlink.rst:2604
+msgid "6KB"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:932
+msgid ":ref:`board_ststm8_nucleo_8s208rb`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:935
+msgid "STM8S208RBT6"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:939
+msgid ":ref:`board_nordicnrf51_nrf51_beacon`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:946
+msgid ":ref:`board_nordicnrf52_thingy_52`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:953
+msgid ":ref:`board_nordicnrf51_nrf51_dk`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:960
+msgid ":ref:`board_nordicnrf52_nrf52_dk`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:967
+msgid ":ref:`board_nordicnrf52_nrf52833_dk`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:974
+msgid ":ref:`board_nordicnrf52_nrf52840_dk`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:981
+msgid ":ref:`board_nordicnrf52_nrf52840_dk_adafruit`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:988
+msgid ":ref:`board_ststm32_nucleo_g070rb`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:991
+msgid "STM32G070RBT6"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:994
+#: ../../../plus/debug-tools/stlink.rst:1001
+#: ../../../plus/debug-tools/stlink.rst:1743
+#: ../../../plus/debug-tools/stlink.rst:2422
+msgid "36KB"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:995
+msgid ":ref:`board_ststm32_nucleo_g071rb`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:998
+#: ../../../plus/debug-tools/stlink.rst:1740
+#: ../../../plus/debug-tools/stlink.rst:2419
+msgid "STM32G071RBT6"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1002
+msgid ":ref:`board_ststm32_nucleo_g431kb`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1005
+msgid "STM32G431KBT6"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1006
+#: ../../../plus/debug-tools/stlink.rst:1013
+#: ../../../plus/debug-tools/stlink.rst:1020
+#: ../../../plus/debug-tools/stlink.rst:1027
+#: ../../../plus/debug-tools/stlink.rst:1321
+#: ../../../plus/debug-tools/stlink.rst:2329
+msgid "170MHz"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1009
+msgid ":ref:`board_ststm32_nucleo_g431rb`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1012
+msgid "STM32G431RBT6"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1016
+msgid ":ref:`board_ststm32_nucleo_g474re`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1019
+msgid "STM32G474RET6"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1023
+msgid ":ref:`board_ststm32_nucleo_g491re`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1026
+msgid "STM32G491RET6"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1029
+msgid "112KB"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1030
+msgid ":ref:`board_ststm32_olimexino`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1037
+msgid ":ref:`board_nordicnrf51_oshchip`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1044
+msgid ":ref:`board_ststm32_olimexino_stm32f3`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1047
+msgid "STM32F303RCT6"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1051
+msgid ":ref:`board_ststm32_olimex_f103`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1058
+msgid ":ref:`board_ststm32_olimex_p405`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1065
+msgid ":ref:`board_ststm32_nucleo_wb55rg_p`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1068
+msgid "STM32WB55RG"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1072
+msgid ":ref:`board_nordicnrf52_reel_board`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1079
+msgid ":ref:`board_nordicnrf52_reel_board_v2`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1086
+msgid ":ref:`board_ststm32_pybstick26_duino`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1089
+msgid "STM32F072RB"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1093
+msgid ":ref:`board_ststm32_pybstick26_pro`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1096
+msgid "STM32F412RE"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1100
+msgid ":ref:`board_ststm32_pybstick26_lite`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1103
+#: ../../../plus/debug-tools/stlink.rst:2090
+#: ../../../plus/debug-tools/stlink.rst:2545
+msgid "STM32F401CEU6"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1107
+msgid ":ref:`board_ststm32_pybstick26_std`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1110
+#: ../../../plus/debug-tools/stlink.rst:2188
+#: ../../../plus/debug-tools/stlink.rst:2461
+#: ../../../plus/debug-tools/stlink.rst:2538
+msgid "STM32F411CEU6"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1114
+msgid ":ref:`board_nordicnrf52_particle_xenon`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1121
+msgid ":ref:`board_ststm32_piconomix_px_her0`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1124
+msgid "STM32L072RB"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1128
+msgid ":ref:`board_ststm32_prntr_v2`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1135
+msgid ":ref:`board_ststm32_rak811_tracker`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1138
+#: ../../../plus/debug-tools/stlink.rst:1145
+msgid "STM32L151RBT6"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1142
+msgid ":ref:`board_ststm32_rak811_tracker_32`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1149
+msgid ":ref:`board_ststm32_rhf76_052`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1152
+msgid "STM32L051C8T6"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1155
+#: ../../../plus/debug-tools/stlink.rst:1295
+#: ../../../plus/debug-tools/stlink.rst:1358
+#: ../../../plus/debug-tools/stlink.rst:1365
+#: ../../../plus/debug-tools/stlink.rst:1596
+#: ../../../plus/debug-tools/stlink.rst:1603
+#: ../../../plus/debug-tools/stlink.rst:1715
+#: ../../../plus/debug-tools/stlink.rst:1722
+#: ../../../plus/debug-tools/stlink.rst:1771
+#: ../../../plus/debug-tools/stlink.rst:1784
+#: ../../../plus/debug-tools/stlink.rst:1791
+msgid "8KB"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1156
+msgid ":ref:`board_ststm32_rymcu_nebulapi_f103ve`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1159
+#: ../../../plus/debug-tools/stlink.rst:1999
+msgid "STM32F103VET6"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1163
+msgid ":ref:`board_ststm32_rymcu_f407ve`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1168
+#: ../../../plus/debug-tools/stlink.rst:2141
+msgid "502.23KB"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1170
+msgid ":ref:`board_nordicnrf52_raytac_mdbt50q_rx`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1177
+msgid ":ref:`board_nordicnrf51_redBearLabBLENano`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1184
+msgid ":ref:`board_nordicnrf52_redbear_blenano2`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1191
+msgid ":ref:`board_nordicnrf52_redbear_blend2`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1198
+msgid ":ref:`board_nordicnrf51_redBearLab`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1205
+msgid ":ref:`board_ststm32_cloud_jam`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1208
+#: ../../../plus/debug-tools/stlink.rst:1453
+#: ../../../plus/debug-tools/stlink.rst:2118
+msgid "STM32F401RET6"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1212
+msgid ":ref:`board_ststm32_cloud_jam_l4`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1215
+#: ../../../plus/debug-tools/stlink.rst:1656
+msgid "STM32L476RGT6"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1219
+msgid ":ref:`board_nordicnrf52_ruuvitag`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1226
+msgid ":ref:`board_nordicnrf52_sdt52832b`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1233
+msgid ":ref:`board_ststm32_disco_f334c8`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1236
+msgid "STM32F334C8T6"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1239
+#: ../../../plus/debug-tools/stlink.rst:1428
+msgid "12KB"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1240
+msgid ":ref:`board_ststm32_disco_f401vc`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1243
+msgid "STM32F401VCT6"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1247
+msgid ":ref:`board_ststm32_disco_f411ve`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1250
+msgid "STM32F411VET6"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1254
+msgid ":ref:`board_ststm32_disco_f413zh`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1257
+#: ../../../plus/debug-tools/stlink.rst:1481
+msgid "STM32F413ZHT6"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1259
+#: ../../../plus/debug-tools/stlink.rst:1483
+#: ../../../plus/debug-tools/stlink.rst:2246
+#: ../../../plus/debug-tools/stlink.rst:2260
+#: ../../../plus/debug-tools/stlink.rst:2288
+#: ../../../plus/debug-tools/stlink.rst:2295
+msgid "1.50MB"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1260
+#: ../../../plus/debug-tools/stlink.rst:1281
+#: ../../../plus/debug-tools/stlink.rst:1316
+#: ../../../plus/debug-tools/stlink.rst:1484
+#: ../../../plus/debug-tools/stlink.rst:1526
+#: ../../../plus/debug-tools/stlink.rst:1533
+#: ../../../plus/debug-tools/stlink.rst:1554
+#: ../../../plus/debug-tools/stlink.rst:1673
+#: ../../../plus/debug-tools/stlink.rst:1680
+#: ../../../plus/debug-tools/stlink.rst:2240
+#: ../../../plus/debug-tools/stlink.rst:2247
+#: ../../../plus/debug-tools/stlink.rst:2254
+#: ../../../plus/debug-tools/stlink.rst:2261
+#: ../../../plus/debug-tools/stlink.rst:2289
+#: ../../../plus/debug-tools/stlink.rst:2296
+msgid "320KB"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1261
+msgid ":ref:`board_ststm32_disco_f429zi`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1264
+#: ../../../plus/debug-tools/stlink.rst:1488
+msgid "STM32F429ZIT6"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1268
+msgid ":ref:`board_ststm32_disco_f469ni`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1275
+msgid ":ref:`board_ststm32_disco_f746ng`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1278
+msgid "STM32F746NGH6"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1282
+msgid ":ref:`board_ststm32_disco_f769ni`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1285
+msgid "STM32F769NIH6"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1289
+msgid ":ref:`board_ststm32_disco_l053c8`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1292
+msgid "STM32L053C8T6"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1296
+msgid ":ref:`board_ststm32_disco_l100rc`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1299
+msgid "STM32L100RCT6"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1303
+msgid ":ref:`board_ststm32_disco_l476vg`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1310
+msgid ":ref:`board_ststm32_disco_l496ag`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1313
+msgid "STM32L496AGI6"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1317
+msgid ":ref:`board_ststm32_disco_b_g431b_esc1`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1320
+#: ../../../plus/debug-tools/stlink.rst:2328
+msgid "STM32G431CBU6"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1324
+msgid ":ref:`board_ststm32_disco_l475vg_iot01a`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1327
+msgid "STM32L475VGT6"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1331
+msgid ":ref:`board_ststm32_disco_b_u585i_iot02a`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1334
+msgid "STM32U585AII6Q"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1335
+#: ../../../plus/debug-tools/stlink.rst:1699
+msgid "160MHz"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1338
+msgid ":ref:`board_ststm32_disco_l072cz_lrwan1`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1341
+msgid "STM32L072CZ"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1345
+msgid ":ref:`board_ststm32_disco_f072rb`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1348
+#: ../../../plus/debug-tools/stlink.rst:1390
+msgid "STM32F072RBT6"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1352
+msgid ":ref:`board_ststm32_nucleo_g031k8`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1355
+msgid "STM32G031K8"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1359
+msgid ":ref:`board_ststm32_nucleo_f030r8`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1362
+#: ../../../plus/debug-tools/stlink.rst:1712
+msgid "STM32F030R8T6"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1366
+msgid ":ref:`board_ststm32_nucleo_f031k6`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1369
+msgid "STM32F031K6T6"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1373
+msgid ":ref:`board_ststm32_nucleo_f042k6`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1376
+msgid "STM32F042K6T6"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1380
+msgid ":ref:`board_ststm32_nucleo_f070rb`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1383
+msgid "STM32F070RBT6"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1387
+msgid ":ref:`board_ststm32_nucleo_f072rb`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1394
+msgid ":ref:`board_ststm32_nucleo_f091rc`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1397
+msgid "STM32F091RCT6"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1401
+msgid ":ref:`board_ststm32_nucleo_f103rb`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1408
+msgid ":ref:`board_ststm32_nucleo_f207zg`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1411
+msgid "STM32F207ZGT6"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1415
+msgid ":ref:`board_ststm32_nucleo_f302r8`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1418
+msgid "STM32F302R8T6"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1422
+msgid ":ref:`board_ststm32_nucleo_f303k8`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1425
+msgid "STM32F303K8T6"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1429
+msgid ":ref:`board_ststm32_nucleo_f303re`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1432
+msgid "STM32F303RET6"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1436
+msgid ":ref:`board_ststm32_nucleo_f303ze`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1439
+msgid "STM32F303ZET6"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1443
+msgid ":ref:`board_ststm32_nucleo_f334r8`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1446
+msgid "STM32F334R8T6"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1450
+msgid ":ref:`board_ststm32_nucleo_f401re`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1457
+msgid ":ref:`board_ststm32_nucleo_f410rb`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1460
+#: ../../../plus/debug-tools/stlink.rst:2174
+msgid "STM32F410RBT6"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1464
+msgid ":ref:`board_ststm32_nucleo_f411re`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1471
+msgid ":ref:`board_ststm32_nucleo_f412zg`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1478
+msgid ":ref:`board_ststm32_nucleo_f413zh`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1485
+msgid ":ref:`board_ststm32_nucleo_f429zi`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1492
+msgid ":ref:`board_ststm32_nucleo_f439zi`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1495
+msgid "STM32F439ZIT6"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1499
+msgid ":ref:`board_ststm32_nucleo_f446re`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1506
+msgid ":ref:`board_ststm32_nucleo_f446ze`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1509
+msgid "STM32F446ZET6"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1513
+msgid ":ref:`board_ststm32_nucleo_f722ze`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1516
+msgid "STM32F722ZET6"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1520
+msgid ":ref:`board_ststm32_nucleo_f746zg`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1523
+msgid "STM32F746ZGT6"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1527
+msgid ":ref:`board_ststm32_nucleo_f756zg`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1530
+msgid "STM32F756ZG"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1534
+msgid ":ref:`board_ststm32_nucleo_f767zi`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1537
+msgid "STM32F767ZIT6"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1541
+msgid ":ref:`board_ststm32_nucleo_g0b1re`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1548
+msgid ":ref:`board_ststm32_nucleo_h723zg`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1551
+msgid "STM32H723ZGT6"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1552
+#: ../../../plus/debug-tools/stlink.rst:2336
+msgid "550MHz"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1555
+msgid ":ref:`board_ststm32_nucleo_h743zi`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1558
+msgid "STM32H743ZIT6"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1562
+msgid ":ref:`board_ststm32_nucleo_h745zi_q`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1565
+msgid "STM32H745ZIT6"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1569
+msgid ":ref:`board_ststm32_nucleo_h753zi`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1572
+msgid "STM32H753ZIT6"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1576
+msgid ":ref:`board_ststm32_nucleo_l010rb`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1579
+msgid "STM32L010RBT6"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1583
+msgid ":ref:`board_ststm32_nucleo_l011k4`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1586
+msgid "STM32L011K4T6"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1589
+#: ../../../plus/debug-tools/stlink.rst:1778
+#: ../../../plus/debug-tools/stlink.rst:1799
+#: ../../../plus/debug-tools/stlink.rst:2611
+msgid "2KB"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1590
+msgid ":ref:`board_ststm32_nucleo_l031k6`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1593
+msgid "STM32L031K6T6"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1597
+msgid ":ref:`board_ststm32_nucleo_l053r8`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1600
+msgid "STM32L053R8T6"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1604
+msgid ":ref:`board_ststm32_nucleo_l073rz`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1611
+msgid ":ref:`board_ststm32_nucleo_l152re`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1614
+msgid "STM32L152RET6"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1617
+msgid "80KB"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1618
+msgid ":ref:`board_ststm32_nucleo_l412kb`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1621
+msgid "STM32L412KBU6"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1625
+msgid ":ref:`board_ststm32_nucleo_l412rb_p`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1628
+msgid "STM32L412RBT6P"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1632
+msgid ":ref:`board_ststm32_nucleo_l432kc`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1635
+msgid "STM32L432KCU6"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1639
+msgid ":ref:`board_ststm32_nucleo_l433rc_p`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1642
+msgid "STM32L433RC"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1646
+msgid ":ref:`board_ststm32_nucleo_l452re`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1653
+msgid ":ref:`board_ststm32_nucleo_l476rg`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1660
+msgid ":ref:`board_ststm32_nucleo_l486rg`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1663
+msgid "STM32L486RGT6"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1667
+msgid ":ref:`board_ststm32_nucleo_l496zg`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1670
+msgid "STM32L496ZGT6"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1674
+msgid ":ref:`board_ststm32_nucleo_l496zg_p`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1677
+msgid "STM32L496ZGT6P"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1681
+msgid ":ref:`board_ststm32_nucleo_l4r5zi`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1684
+msgid "STM32L4R5ZIT6"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1688
+msgid ":ref:`board_ststm32_nucleo_l552ze_q`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1691
+msgid "STM32L552ZET6"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1695
+msgid ":ref:`board_ststm32_nucleo_u575zi_q`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1698
+msgid "STM32U575ZIT6Q"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1702
+msgid ":ref:`board_ststm32_nucleo_wl55jc`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1705
+msgid "STM32WL55JC"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1709
+msgid ":ref:`board_ststm32_disco_f030r8`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1716
+msgid ":ref:`board_ststm32_disco_f051r8`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1719
+msgid "STM32F051R8T6"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1723
+msgid ":ref:`board_ststm32_disco_f303vc`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1726
+msgid "STM32F303VCT6"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1730
+msgid ":ref:`board_ststm32_disco_f407vg`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1737
+msgid ":ref:`board_ststm32_disco_g071rb`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1744
+msgid ":ref:`board_ststm32_eval_l073z`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1747
+msgid "STM32L073VZT6"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1751
+msgid ":ref:`board_ststm32_disco_l4s5i_iot01a`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1754
+msgid "STM32L4S5VIT6"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1758
+msgid ":ref:`board_ststm32_disco_l152rb`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1761
+msgid "STM32L152RBT6"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1765
+msgid ":ref:`board_ststm32_disco_f100rb`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1768
+msgid "STM32F100RBT6"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1769
+msgid "24MHz"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1772
+msgid ":ref:`board_ststm8_stm8sdisco`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1775
+msgid "STM8S105C6T6"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1779
+msgid ":ref:`board_ststm8_stm8s003f3`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1782
+msgid "STM8S003F3P6"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1785
+#: ../../../plus/debug-tools/stlink.rst:1792
+msgid "1KB"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1786
+msgid ":ref:`board_ststm8_stm8sblue`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1789
+msgid "STM8S103F3P6"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1793
+msgid ":ref:`board_ststm8_stm8sblack`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1796
+msgid "STM8S105K4T6"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1800
+msgid ":ref:`board_ststm32_silica_sensor_node`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1803
+msgid "STM32L476JG"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1807
+msgid ":ref:`board_ststm32_steval_fcu001v1`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1810
+#: ../../../plus/debug-tools/stlink.rst:2076
+#: ../../../plus/debug-tools/stlink.rst:2531
+msgid "STM32F401CCU6"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1814
+msgid ":ref:`board_ststm32_olimex_e407`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1821
+msgid ":ref:`board_ststm32_olimex_h407`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1828
+msgid ":ref:`board_ststm32_eval_f107vc`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1831
+msgid "STM32F107VCT6"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1835
+msgid ":ref:`board_ststm32_eval_f373vc`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1838
+msgid "STM32F373VCT6"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1842
+msgid ":ref:`board_ststm32_eval_f072vb`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1845
+msgid "STM32F072VBT6"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1849
+msgid ":ref:`board_ststm32_genericSTM32F103C4`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1852
+msgid "STM32F103C4T6"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1856
+msgid ":ref:`board_ststm32_genericSTM32F103C6`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1863
+msgid ":ref:`board_ststm32_genericSTM32F103C8`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1870
+msgid ":ref:`board_ststm32_genericSTM32F103CB`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1877
+msgid ":ref:`board_ststm32_genericSTM32F103R4`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1880
+msgid "STM32F103R4T6"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1884
+msgid ":ref:`board_ststm32_genericSTM32F103R6`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1887
+msgid "STM32F103R6T6"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1891
+msgid ":ref:`board_ststm32_genericSTM32F103R8`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1894
+msgid "STM32F103R8T6"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1898
+msgid ":ref:`board_ststm32_genericSTM32F103RB`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1905
+msgid ":ref:`board_ststm32_genericSTM32F103RC`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1908
+#: ../../../plus/debug-tools/stlink.rst:2356
+msgid "STM32F103RCT6"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1912
+msgid ":ref:`board_ststm32_genericSTM32F103RD`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1915
+msgid "STM32F103RDT6"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1919
+msgid ":ref:`board_ststm32_genericSTM32F103RE`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1926
+msgid ":ref:`board_ststm32_genericSTM32F103RF`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1929
+msgid "STM32F103RFT6"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1933
+msgid ":ref:`board_ststm32_genericSTM32F103RG`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1936
+msgid "STM32F103RGT6"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1940
+msgid ":ref:`board_ststm32_genericSTM32F103T4`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1943
+msgid "STM32F103T4U6"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1947
+msgid ":ref:`board_ststm32_genericSTM32F103T6`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1950
+msgid "STM32F103T6U6"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1954
+msgid ":ref:`board_ststm32_genericSTM32F103T8`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1957
+msgid "STM32F103T8U6"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1961
+msgid ":ref:`board_ststm32_genericSTM32F103TB`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1964
+#: ../../../plus/debug-tools/stlink.rst:2468
+msgid "STM32F103TBU6"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1968
+msgid ":ref:`board_ststm32_genericSTM32F103V8`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1971
+msgid "STM32F103V8T6"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1975
+msgid ":ref:`board_ststm32_genericSTM32F103VB`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1978
+msgid "STM32F103VBT6"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1982
+msgid ":ref:`board_ststm32_genericSTM32F103VC`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1985
+msgid "STM32F103VCT6"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1989
+msgid ":ref:`board_ststm32_genericSTM32F103VD`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1992
+msgid "STM32F103VDT6"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:1996
+msgid ":ref:`board_ststm32_genericSTM32F103VE`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:2003
+msgid ":ref:`board_ststm32_genericSTM32F103VF`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:2006
+msgid "STM32F103VFT6"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:2010
+msgid ":ref:`board_ststm32_genericSTM32F103VG`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:2013
+msgid "STM32F103VGT6"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:2017
+msgid ":ref:`board_ststm32_genericSTM32F103ZC`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:2020
+msgid "STM32F103ZCT6"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:2024
+msgid ":ref:`board_ststm32_genericSTM32F103ZD`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:2027
+msgid "STM32F103ZDT6"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:2031
+msgid ":ref:`board_ststm32_genericSTM32F103ZE`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:2034
+#: ../../../plus/debug-tools/stlink.rst:2482
+#: ../../../plus/debug-tools/stlink.rst:2524
+msgid "STM32F103ZET6"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:2038
+msgid ":ref:`board_ststm32_genericSTM32F103ZF`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:2041
+msgid "STM32F103ZFT6"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:2045
+msgid ":ref:`board_ststm32_genericSTM32F103ZG`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:2048
+msgid "STM32F103ZGT6"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:2052
+msgid ":ref:`board_ststm32_genericSTM32F303CB`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:2055
+msgid "STM32F303CBT6"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:2059
+msgid ":ref:`board_ststm32_genericSTM32F373RC`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:2062
+msgid "STM32F373RCT6"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:2066
+msgid ":ref:`board_ststm32_genericSTM32F401CB`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:2069
+msgid "STM32F401CBU6"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:2073
+msgid ":ref:`board_ststm32_genericSTM32F401CC`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:2080
+msgid ":ref:`board_ststm32_genericSTM32F401CD`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:2083
+msgid "STM32F401CDU6"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:2087
+msgid ":ref:`board_ststm32_genericSTM32F401CE`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:2094
+msgid ":ref:`board_ststm32_genericSTM32F401RB`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:2097
+msgid "STM32F401RBT6"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:2101
+msgid ":ref:`board_ststm32_genericSTM32F401RC`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:2108
+msgid ":ref:`board_ststm32_genericSTM32F401RD`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:2111
+msgid "STM32F401RDT6"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:2115
+msgid ":ref:`board_ststm32_genericSTM32F401RE`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:2122
+msgid ":ref:`board_ststm32_genericSTM32F405RG`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:2129
+msgid ":ref:`board_ststm32_genericSTM32F407IGT6`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:2132
+msgid "STM32F407IGT6"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:2136
+msgid ":ref:`board_ststm32_genericSTM32F407VET6`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:2143
+msgid ":ref:`board_ststm32_genericSTM32F407VGT6`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:2150
+msgid ":ref:`board_ststm32_genericSTM32F410C8`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:2153
+msgid "STM32F410C8T6"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:2157
+msgid ":ref:`board_ststm32_genericSTM32F410CB`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:2160
+msgid "STM32F410CBT6"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:2164
+msgid ":ref:`board_ststm32_genericSTM32F410R8`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:2167
+msgid "STM32F410R8T6"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:2171
+msgid ":ref:`board_ststm32_genericSTM32F410RB`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:2178
+msgid ":ref:`board_ststm32_genericSTM32F411CC`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:2181
+msgid "STM32F411CCU6"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:2185
+msgid ":ref:`board_ststm32_genericSTM32F411CE`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:2192
+msgid ":ref:`board_ststm32_genericSTM32F411RC`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:2195
+msgid "STM32F411RCT6"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:2199
+msgid ":ref:`board_ststm32_genericSTM32F411RE`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:2206
+msgid ":ref:`board_ststm32_genericSTM32F412CE`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:2209
+msgid "STM32F412CEU6"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:2213
+msgid ":ref:`board_ststm32_genericSTM32F412CG`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:2216
+msgid "STM32F412CGU6"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:2220
+msgid ":ref:`board_ststm32_genericSTM32F412RE`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:2223
+msgid "STM32F412RET6"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:2227
+msgid ":ref:`board_ststm32_genericSTM32F412RG`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:2230
+msgid "STM32F412RGT6"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:2234
+msgid ":ref:`board_ststm32_genericSTM32F413CG`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:2237
+msgid "STM32F413CGU6"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:2241
+msgid ":ref:`board_ststm32_genericSTM32F413CH`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:2244
+msgid "STM32F413CHU6"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:2248
+msgid ":ref:`board_ststm32_genericSTM32F413RG`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:2251
+msgid "STM32F413RGT6"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:2255
+msgid ":ref:`board_ststm32_genericSTM32F413RH`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:2258
+msgid "STM32F413RHT6"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:2262
+msgid ":ref:`board_ststm32_genericSTM32F415RG`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:2265
+msgid "STM32F415RGT6"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:2269
+msgid ":ref:`board_ststm32_genericSTM32F417VE`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:2272
+msgid "STM32F417VET6"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:2276
+msgid ":ref:`board_ststm32_genericSTM32F417VG`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:2283
+msgid ":ref:`board_ststm32_genericSTM32F423CH`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:2286
+msgid "STM32F423CHU6"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:2290
+msgid ":ref:`board_ststm32_genericSTM32F423RH`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:2293
+msgid "STM32F423RHT6"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:2297
+msgid ":ref:`board_ststm32_genericSTM32F446RC`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:2300
+msgid "STM32F446RCT6"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:2304
+msgid ":ref:`board_ststm32_genericSTM32F446RE`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:2311
+msgid ":ref:`board_ststm32_stm32f4stamp`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:2318
+msgid ":ref:`board_ststm32_disco_f750n8`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:2321
+msgid "STM32F750N8H6"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:2324
+msgid "340KB"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:2325
+msgid ":ref:`board_ststm32_genericSTM32G431CB`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:2332
+msgid ":ref:`board_ststm32_disco_h735ig`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:2335
+msgid "STM32H735IGK6"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:2338
+msgid "432KB"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:2339
+msgid ":ref:`board_ststm32_disco_h747xi`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:2346
+msgid ":ref:`board_ststm32_genericSTM32H750VB`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:2353
+msgid ":ref:`board_ststm32_storm32_v1_31_rc`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:2360
+msgid ":ref:`board_atmelsam_sainSmartDue`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:2367
+msgid ":ref:`board_atmelsam_sainSmartDueUSB`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:2374
+msgid ":ref:`board_ststm32_seeedArchMax`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:2381
+msgid ":ref:`board_nordicnrf51_seeedTinyBLE`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:2388
+msgid ":ref:`board_ststm32_wio_3g`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:2391
+msgid "STM32F439VI"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:2395
+msgid ":ref:`board_ststm32_lora_e5_dev_board`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:2398
+#: ../../../plus/debug-tools/stlink.rst:2405
+msgid "STM32WLE5JC"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:2402
+msgid ":ref:`board_ststm32_lora_e5_mini`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:2409
+msgid ":ref:`board_ststm32_steval_mksboxv1`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:2412
+msgid "STM32L4R9ZI"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:2416
+msgid ":ref:`board_ststm32_agafia_sg0`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:2423
+msgid ":ref:`board_nordicnrf51_Sinobit`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:2430
+msgid ":ref:`board_ststm32_sparkfun_micromod_f405`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:2437
+msgid ":ref:`board_ststm32_sparky_v1`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:2444
+msgid ":ref:`board_nordicnrf52_stct_nrf52_minidev`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:2451
+msgid ":ref:`board_ststm32_thunder_pack`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:2454
+msgid "STM32L072KZ"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:2458
+msgid ":ref:`board_ststm32_thunder_pack_f411`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:2465
+msgid ":ref:`board_ststm32_hy_tinystm103tb`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:2472
+msgid ":ref:`board_ststm32_vake_v1`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:2479
+msgid ":ref:`board_ststm32_vccgnd_f103zet6`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:2486
+msgid ":ref:`board_ststm32_vccgnd_f407zg_mini`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:2493
+msgid ":ref:`board_nordicnrf52_vbluno52`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:2500
+msgid ":ref:`board_ststm32_we_oceanus1_ev`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:2503
+#: ../../../plus/debug-tools/stlink.rst:2510
+msgid "STM32WLE5CCU6"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:2507
+msgid ":ref:`board_ststm32_we_oceanus1`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:2514
+msgid ":ref:`board_nordicnrf51_waveshare_ble400`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:2521
+msgid ":ref:`board_ststm32_waveshare_open103z`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:2528
+msgid ":ref:`board_ststm32_blackpill_f401cc`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:2535
+msgid ":ref:`board_ststm32_blackpill_f411ce`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:2542
+msgid ":ref:`board_ststm32_blackpill_f401ce`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:2549
+msgid ":ref:`board_ststm32_weact_mini_h743vitx`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:2556
+msgid ":ref:`board_ststm32_weact_mini_h750vbtx`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:2563
+msgid ":ref:`board_ststm32_wraith32_v1`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:2566
+msgid "STM32F051K6"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:2569
+msgid "7.75KB"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:2570
+msgid ":ref:`board_nordicnrf52_dwm1001_dev`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:2577
+msgid ":ref:`board_nordicnrf52_hackaBLE`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:2584
+msgid ":ref:`board_nordicnrf51_ng_beacon`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:2591
+msgid ":ref:`board_ststm32_sakuraio_evb_01`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:2598
+msgid ":ref:`board_ststm8_mb208`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:2601
+msgid "STM8S208MBT6"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:2605
+msgid ":ref:`board_ststm8_s8uno`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:2608
+msgid "STM8S105K6T6"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:2612
+msgid ":ref:`board_nordicnrf52_ublox_bmd345eval_nrf52840`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:2619
+msgid ":ref:`board_ststm32_ublox_c030_n211`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:2622
+#: ../../../plus/debug-tools/stlink.rst:2629
+#: ../../../plus/debug-tools/stlink.rst:2636
+msgid "STM32F437VG"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:2626
+msgid ":ref:`board_ststm32_ublox_c030_r410m`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:2633
+msgid ":ref:`board_ststm32_ublox_c030_u201`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:2640
+msgid ":ref:`board_nordicnrf52_ublox_evk_nina_b1`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:2647
+msgid ":ref:`board_ststm32_ublox_evk_odin_w2`"
+msgstr ""
+
+#: ../../../plus/debug-tools/stlink.rst:2654
+msgid ":ref:`board_ststm32_mtb_ublox_odin_w2`"
+msgstr ""

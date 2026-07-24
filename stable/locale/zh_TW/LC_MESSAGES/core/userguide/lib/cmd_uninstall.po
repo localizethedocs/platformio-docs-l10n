@@ -1,0 +1,109 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present, PlatformIO
+# This file is distributed under the same license as the PlatformIO package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PlatformIO stable\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-24 14:03+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../core/userguide/lib/cmd_uninstall.rst:15
+msgid "pio lib uninstall"
+msgstr ""
+
+#: ../../../core/userguide/lib/cmd_uninstall.rst:20
+msgid "This command is deprecated and will be removed in the next releases."
+msgstr ""
+
+#: ../../../core/userguide/lib/cmd_uninstall.rst:22
+msgid "Please use the :ref:`cmd_pkg_uninstall` command instead."
+msgstr ""
+
+#: ../../../core/userguide/lib/cmd_uninstall.rst:24
+msgid "Contents"
+msgstr ""
+
+#: ../../../core/userguide/lib/cmd_uninstall.rst:27
+msgid "Usage"
+msgstr ""
+
+#: ../../../core/userguide/lib/cmd_uninstall.rst:59
+msgid "Description"
+msgstr ""
+
+#: ../../../core/userguide/lib/cmd_uninstall.rst:61
+msgid "Uninstall specified library"
+msgstr ""
+
+#: ../../../core/userguide/lib/cmd_uninstall.rst:63
+msgid ""
+"The ``version`` supports `Semantic Versioning <https://devhints.io/semver>`_ "
+"( ``<major>.<minor>.<patch>``) and can take any of the following forms:"
+msgstr ""
+
+#: ../../../core/userguide/lib/cmd_uninstall.rst:66
+msgid "``1.2.3`` - an exact version number. Use only this exact version"
+msgstr ""
+
+#: ../../../core/userguide/lib/cmd_uninstall.rst:67
+msgid ""
+"``^1.2.3`` - any compatible version (exact version for ``1.x.x`` versions)"
+msgstr ""
+
+#: ../../../core/userguide/lib/cmd_uninstall.rst:68
+msgid ""
+"``~1.2.3`` - any version with the same major and minor versions, and an "
+"equal or greater patch version"
+msgstr ""
+
+#: ../../../core/userguide/lib/cmd_uninstall.rst:70
+msgid ""
+"``>1.2.3`` - any version greater than ``1.2.3``. ``>=``, ``<``, and ``<=`` "
+"are also possible"
+msgstr ""
+
+#: ../../../core/userguide/lib/cmd_uninstall.rst:72
+msgid ""
+"``>0.1.0,!=0.2.0,<0.3.0`` - any version greater than ``0.1.0``, not equal to "
+"``0.2.0`` and less than ``0.3.0``"
+msgstr ""
+
+#: ../../../core/userguide/lib/cmd_uninstall.rst:76
+msgid "Storage Options"
+msgstr ""
+
+#: ../../../core/userguide/lib/cmd_uninstall.rst:78
+msgid "See base options for :ref:`cmd_lib`."
+msgstr ""
+
+#: ../../../core/userguide/lib/cmd_uninstall.rst:81
+msgid "Options"
+msgstr ""
+
+#: ../../../core/userguide/lib/cmd_uninstall.rst:88
+msgid ""
+"Remove libraries from the :ref:`projectconf` dependency list (:ref:"
+"`projectconf_lib_deps`) and save changes. Default value is to save."
+msgstr ""
+
+#: ../../../core/userguide/lib/cmd_uninstall.rst:95
+msgid "Suppress progress reporting."
+msgstr ""
+
+#: ../../../core/userguide/lib/cmd_uninstall.rst:100
+msgid "Reinstall library if it is already installed."
+msgstr ""
+
+#: ../../../core/userguide/lib/cmd_uninstall.rst:103
+msgid "Examples"
+msgstr ""

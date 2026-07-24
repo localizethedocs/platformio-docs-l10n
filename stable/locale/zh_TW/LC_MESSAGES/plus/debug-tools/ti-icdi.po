@@ -1,0 +1,238 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present, PlatformIO
+# This file is distributed under the same license as the PlatformIO package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PlatformIO stable\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-24 14:03+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../plus/debug-tools/ti-icdi.rst:15
+msgid "TI-ICDI"
+msgstr ""
+
+#: ../../../plus/debug-tools/ti-icdi.rst:17
+msgid ""
+"Tiva™ C Series evaluation and reference design kits provide an integrated In-"
+"Circuit Debug Interface (ICDI) which allows programming and debugging of the "
+"onboard C Series microcontroller. Official reference can be found `here "
+"<http://www.ti.com/tool/stellaris_icdi_drivers?"
+"utm_source=platformio&utm_medium=docs>`__."
+msgstr ""
+
+#: ../../../plus/debug-tools/ti-icdi.rst:23
+msgid "Contents"
+msgstr ""
+
+#: ../../../plus/debug-tools/ti-icdi.rst:26
+msgid "Configuration"
+msgstr ""
+
+#: ../../../plus/debug-tools/ti-icdi.rst:28
+msgid ""
+"You can configure debugging tool using :ref:`projectconf_debug_tool` option "
+"in :ref:`projectconf`:"
+msgstr ""
+
+#: ../../../plus/debug-tools/ti-icdi.rst:38
+msgid ""
+"If you would like to use this tool for firmware uploading, please change "
+"upload protocol:"
+msgstr ""
+
+#: ../../../plus/debug-tools/ti-icdi.rst:49
+msgid "More options:"
+msgstr ""
+
+#: ../../../plus/debug-tools/ti-icdi.rst:51
+msgid ":ref:`projectconf_section_env_debug`"
+msgstr ""
+
+#: ../../../plus/debug-tools/ti-icdi.rst:52
+msgid ":ref:`projectconf_section_env_upload`"
+msgstr ""
+
+#: ../../../plus/debug-tools/ti-icdi.rst:55
+msgid "Drivers"
+msgstr ""
+
+#: ../../../plus/debug-tools/ti-icdi.rst:0
+msgid "Windows"
+msgstr ""
+
+#: ../../../plus/debug-tools/ti-icdi.rst:58
+msgid "Please \"USB Driver Installation\" guide for your board."
+msgstr ""
+
+#: ../../../plus/debug-tools/ti-icdi.rst:0
+msgid "Mac"
+msgstr ""
+
+#: ../../../plus/debug-tools/ti-icdi.rst:61
+msgid "Not required."
+msgstr ""
+
+#: ../../../plus/debug-tools/ti-icdi.rst:0
+msgid "Linux"
+msgstr ""
+
+#: ../../../plus/debug-tools/ti-icdi.rst:64
+msgid ""
+"Please install \"udev\" rules :ref:`platformio_udev_rules`. If you already "
+"installed them before, please check that your rules are up-to-date or repeat "
+"steps."
+msgstr ""
+
+#: ../../../plus/debug-tools/ti-icdi.rst:70
+msgid "Platforms"
+msgstr ""
+
+#: ../../../plus/debug-tools/ti-icdi.rst:74
+#: ../../../plus/debug-tools/ti-icdi.rst:85
+#: ../../../plus/debug-tools/ti-icdi.rst:104
+msgid "Name"
+msgstr ""
+
+#: ../../../plus/debug-tools/ti-icdi.rst:75
+#: ../../../plus/debug-tools/ti-icdi.rst:86
+msgid "Description"
+msgstr ""
+
+#: ../../../plus/debug-tools/ti-icdi.rst:77
+#: ../../../plus/debug-tools/ti-icdi.rst:112
+#: ../../../plus/debug-tools/ti-icdi.rst:119
+#: ../../../plus/debug-tools/ti-icdi.rst:126
+msgid ":ref:`platform_titiva`"
+msgstr ""
+
+#: ../../../plus/debug-tools/ti-icdi.rst:78
+msgid ""
+"Texas Instruments TM4C12x MCUs offer the industrys most popular ARM Cortex-"
+"M4 core with scalable memory and package options, unparalleled connectivity "
+"peripherals, advanced application functions, industry-leading analog "
+"integration, and extensive software solutions."
+msgstr ""
+
+#: ../../../plus/debug-tools/ti-icdi.rst:81
+msgid "Frameworks"
+msgstr ""
+
+#: ../../../plus/debug-tools/ti-icdi.rst:88
+msgid ":ref:`framework_arduino`"
+msgstr ""
+
+#: ../../../plus/debug-tools/ti-icdi.rst:89
+msgid ""
+"Arduino Wiring-based Framework allows writing cross-platform software to "
+"control devices attached to a wide range of Arduino boards to create all "
+"kinds of creative coding, interactive objects, spaces or physical "
+"experiences."
+msgstr ""
+
+#: ../../../plus/debug-tools/ti-icdi.rst:91
+msgid ":ref:`framework_libopencm3`"
+msgstr ""
+
+#: ../../../plus/debug-tools/ti-icdi.rst:92
+msgid ""
+"The libopencm3 project aims to create an open-source firmware library for "
+"various ARM Cortex-M microcontrollers."
+msgstr ""
+
+#: ../../../plus/debug-tools/ti-icdi.rst:95
+msgid "Boards"
+msgstr ""
+
+#: ../../../plus/debug-tools/ti-icdi.rst:98
+msgid ""
+"For more detailed ``board`` information please scroll tables below by "
+"horizontal."
+msgstr ""
+
+#: ../../../plus/debug-tools/ti-icdi.rst:105
+msgid "Platform"
+msgstr ""
+
+#: ../../../plus/debug-tools/ti-icdi.rst:106
+msgid "Debug"
+msgstr ""
+
+#: ../../../plus/debug-tools/ti-icdi.rst:107
+msgid "MCU"
+msgstr ""
+
+#: ../../../plus/debug-tools/ti-icdi.rst:108
+msgid "Frequency"
+msgstr ""
+
+#: ../../../plus/debug-tools/ti-icdi.rst:109
+msgid "Flash"
+msgstr ""
+
+#: ../../../plus/debug-tools/ti-icdi.rst:110
+msgid "RAM"
+msgstr ""
+
+#: ../../../plus/debug-tools/ti-icdi.rst:111
+msgid ":ref:`board_titiva_lplm4f120h5qr`"
+msgstr ""
+
+#: ../../../plus/debug-tools/ti-icdi.rst:113
+#: ../../../plus/debug-tools/ti-icdi.rst:120
+#: ../../../plus/debug-tools/ti-icdi.rst:127
+msgid "On-board"
+msgstr ""
+
+#: ../../../plus/debug-tools/ti-icdi.rst:114
+msgid "LPLM4F120H5QR"
+msgstr ""
+
+#: ../../../plus/debug-tools/ti-icdi.rst:115
+#: ../../../plus/debug-tools/ti-icdi.rst:122
+msgid "80MHz"
+msgstr ""
+
+#: ../../../plus/debug-tools/ti-icdi.rst:116
+#: ../../../plus/debug-tools/ti-icdi.rst:123
+#: ../../../plus/debug-tools/ti-icdi.rst:131
+msgid "256KB"
+msgstr ""
+
+#: ../../../plus/debug-tools/ti-icdi.rst:117
+#: ../../../plus/debug-tools/ti-icdi.rst:124
+msgid "32KB"
+msgstr ""
+
+#: ../../../plus/debug-tools/ti-icdi.rst:118
+msgid ":ref:`board_titiva_lptm4c123gh6pm`"
+msgstr ""
+
+#: ../../../plus/debug-tools/ti-icdi.rst:121
+msgid "LPTM4C123GH6PM"
+msgstr ""
+
+#: ../../../plus/debug-tools/ti-icdi.rst:125
+msgid ":ref:`board_titiva_lptm4c1294ncpdt`"
+msgstr ""
+
+#: ../../../plus/debug-tools/ti-icdi.rst:128
+msgid "LPTM4C1294NCPDT"
+msgstr ""
+
+#: ../../../plus/debug-tools/ti-icdi.rst:129
+msgid "120MHz"
+msgstr ""
+
+#: ../../../plus/debug-tools/ti-icdi.rst:130
+msgid "1MB"
+msgstr ""

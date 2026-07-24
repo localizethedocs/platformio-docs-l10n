@@ -1,0 +1,5262 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present, PlatformIO
+# This file is distributed under the same license as the PlatformIO package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PlatformIO stable\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-24 14:03+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../platforms/espressif32.rst:15
+msgid "Espressif 32"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:0
+msgid "Registry"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:18
+msgid ""
+"`https://registry.platformio.org/platforms/platformio/espressif32 <https://"
+"registry.platformio.org/platforms/platformio/espressif32>`__"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:0
+#: ../../../platforms/espressif32_extra.rst:20
+msgid "Configuration"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:20
+msgid ":ref:`projectconf_env_platform` = ``platformio/espressif32``"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:22
+msgid ""
+"ESP32 is a series of low-cost, low-power system on a chip microcontrollers "
+"with integrated Wi-Fi and Bluetooth. ESP32 integrates an antenna switch, RF "
+"balun, power amplifier, low-noise receive amplifier, filters, and power "
+"management modules."
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:24
+msgid ""
+"For more detailed information please visit `vendor site <https://espressif."
+"com/?utm_source=platformio.org&utm_medium=docs>`_."
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:28
+msgid "Contents"
+msgstr ""
+
+#: ../../../platforms/espressif32_extra.rst:13
+msgid "Tutorials"
+msgstr ""
+
+#: ../../../platforms/espressif32_extra.rst:15
+msgid ":ref:`tutorial_espressif32_arduino_debugging_unit_testing`"
+msgstr ""
+
+#: ../../../platforms/espressif32_extra.rst:16
+msgid ":ref:`tutorial_espressif32_espidf_debugging_unit_testing_analysis`"
+msgstr ""
+
+#: ../../../platforms/espressif32_extra.rst:17
+msgid ""
+"`Video: Free Inline Debugging for ESP32 and Arduino Sketches <https://www."
+"youtube.com/watch?v=psMqilqlrRQ>`__"
+msgstr ""
+
+#: ../../../platforms/espressif32_extra.rst:26
+msgid "CPU Frequency"
+msgstr ""
+
+#: ../../../platforms/espressif32_extra.rst:28
+msgid "See :ref:`projectconf_board_build.f_cpu` option from :ref:`projectconf`"
+msgstr ""
+
+#: ../../../platforms/espressif32_extra.rst:37
+msgid "FLASH Frequency"
+msgstr ""
+
+#: ../../../platforms/espressif32_extra.rst:39
+msgid ""
+"Please use ``board_build.f_flash`` option from :ref:`projectconf` to change "
+"a value. Possible values:"
+msgstr ""
+
+#: ../../../platforms/espressif32_extra.rst:42
+msgid "``40000000L`` (default)"
+msgstr ""
+
+#: ../../../platforms/espressif32_extra.rst:43
+msgid "``80000000L``"
+msgstr ""
+
+#: ../../../platforms/espressif32_extra.rst:52
+msgid "FLASH Mode"
+msgstr ""
+
+#: ../../../platforms/espressif32_extra.rst:54
+msgid ""
+"Flash chip interface mode. This parameter is stored in the binary image "
+"header, along with the flash size and flash frequency. The ROM bootloader in "
+"the ESP chip uses the value of these parameters in order to know how to talk "
+"to the flash chip."
+msgstr ""
+
+#: ../../../platforms/espressif32_extra.rst:59
+msgid ""
+"Please use ``board_build.flash_mode`` option from :ref:`projectconf` to "
+"change a value. Possible values:"
+msgstr ""
+
+#: ../../../platforms/espressif32_extra.rst:62
+msgid "``qio``"
+msgstr ""
+
+#: ../../../platforms/espressif32_extra.rst:63
+msgid "``qout``"
+msgstr ""
+
+#: ../../../platforms/espressif32_extra.rst:64
+msgid "``dio``"
+msgstr ""
+
+#: ../../../platforms/espressif32_extra.rst:65
+msgid "``dout``"
+msgstr ""
+
+#: ../../../platforms/espressif32_extra.rst:73
+msgid "External RAM (PSRAM)"
+msgstr ""
+
+#: ../../../platforms/espressif32_extra.rst:75
+msgid ""
+"You can enable external RAM using the next extra :ref:"
+"`projectconf_build_flags` in :ref:`projectconf` depending on a framework "
+"type."
+msgstr ""
+
+#: ../../../platforms/espressif32_extra.rst:78
+msgid "Framework :ref:`framework_arduino`:"
+msgstr ""
+
+#: ../../../platforms/espressif32_extra.rst:90
+msgid "Framework :ref:`framework_espidf`:"
+msgstr ""
+
+#: ../../../platforms/espressif32_extra.rst:101
+msgid ""
+"More details are located in the official ESP-IDF documentation - `Support "
+"for external RAM <http://esp-idf.readthedocs.io/en/latest/api-guides/"
+"external-ram.html>`_."
+msgstr ""
+
+#: ../../../platforms/espressif32_extra.rst:105
+msgid "Debug Level"
+msgstr ""
+
+#: ../../../platforms/espressif32_extra.rst:107
+msgid ""
+"Please use one of the next :ref:`projectconf_build_flags` to change debug "
+"level. A :ref:`projectconf_build_flags` option could be used only the one "
+"time per build environment. If you need to specify more flags, please "
+"separate them with a new line or space."
+msgstr ""
+
+#: ../../../platforms/espressif32_extra.rst:112
+msgid ""
+"Actual information is available in `Arduino for ESP32 Board Manifest "
+"<https://github.com/espressif/arduino-esp32/blob/master/boards.txt#L80>`_. "
+"Please scroll to ``esp32.menu.DebugLevel`` section."
+msgstr ""
+
+#: ../../../platforms/espressif32_extra.rst:144
+msgid "Upload Speed"
+msgstr ""
+
+#: ../../../platforms/espressif32_extra.rst:146
+msgid ""
+"You can set custom upload speed using  :ref:`projectconf_upload_speed` "
+"option from :ref:`projectconf`"
+msgstr ""
+
+#: ../../../platforms/espressif32_extra.rst:155
+msgid "Erase Flash"
+msgstr ""
+
+#: ../../../platforms/espressif32_extra.rst:157
+msgid ""
+"Please :option:`pio run --target` the next command to erase the entire flash "
+"chip (all data replaced with 0xFF bytes):"
+msgstr ""
+
+#: ../../../platforms/espressif32_extra.rst:169
+msgid "Partition Tables"
+msgstr ""
+
+#: ../../../platforms/espressif32_extra.rst:170
+msgid ""
+"You can create a custom partitions table (CSV) following `ESP32 Partition "
+"Tables <https://docs.espressif.com/projects/esp-idf/en/latest/api-guides/"
+"partition-tables.html>`_ documentation. PlatformIO uses **default partition "
+"tables** depending on a :ref:`projectconf_env_framework` type:"
+msgstr ""
+
+#: ../../../platforms/espressif32_extra.rst:174
+msgid ""
+"``default.csv`` for :ref:`framework_arduino` (`show pre-configured partition "
+"tables <https://github.com/espressif/arduino-esp32/blob/master/tools/"
+"partitions>`__)"
+msgstr ""
+
+#: ../../../platforms/espressif32_extra.rst:176
+msgid ""
+"``partitions_singleapp.csv`` for :ref:`framework_espidf` (`show pre-"
+"configured partition tables <https://github.com/espressif/esp-idf/blob/"
+"master/components/partition_table>`__)"
+msgstr ""
+
+#: ../../../platforms/espressif32_extra.rst:179
+msgid ""
+"To override default table please use ``board_build.partitions`` option in :"
+"ref:`projectconf`."
+msgstr ""
+
+#: ../../../platforms/espressif32_extra.rst:183
+msgid ""
+"SPIFFS partition **MUST** have configured \"Type\" as \"data\" and "
+"\"SubType\" as \"spiffs\". For example, ``spiffs, data, spiffs, 0x291000, 1M,"
+"``"
+msgstr ""
+
+#: ../../../platforms/espressif32_extra.rst:186
+#: ../../../platforms/espressif32_extra.rst:279
+msgid "Examples:"
+msgstr ""
+
+#: ../../../platforms/espressif32_extra.rst:201
+msgid "Embedding Binary Data"
+msgstr ""
+
+#: ../../../platforms/espressif32_extra.rst:203
+msgid ""
+"Sometimes you have a file with some binary or text data that you’d like to "
+"make available to your program - but you don’t want to reformat the file as "
+"C source."
+msgstr ""
+
+#: ../../../platforms/espressif32_extra.rst:207
+msgid ""
+"There are two options ``board_build.embed_txtfiles`` and ``board_build."
+"embed_files`` which can be used for embedding data. The only difference is "
+"that files specified in ``board_build.embed_txtfiles`` option are null-"
+"terminated in the final binary."
+msgstr ""
+
+#: ../../../platforms/espressif32_extra.rst:222
+msgid ""
+"In case with ESP-IDF, these files also need to be specified in ``CMakeLists."
+"txt`` using the ``target_add_binary_data`` function."
+msgstr ""
+
+#: ../../../platforms/espressif32_extra.rst:225
+msgid ""
+"The file contents will be added to the ``.rodata`` section in flash, and are "
+"available via symbol names as follows:"
+msgstr ""
+
+#: ../../../platforms/espressif32_extra.rst:237
+msgid ""
+"The names are generated from the full name of the file. Characters ``/, .``, "
+"etc. are replaced with underscores. The ``_binary`` + ``_nested_folder`` "
+"prefix in the symbol name is added by \"objcopy\" and is the same for both "
+"text and binary files."
+msgstr ""
+
+#: ../../../platforms/espressif32_extra.rst:242
+msgid ""
+"With the ESP-IDF framework symbol names should not contain path to the "
+"files, for example ``_binary_private_pem_key_start`` instead of "
+"``_binary_src_private_pem_key_start``."
+msgstr ""
+
+#: ../../../platforms/espressif32_extra.rst:245
+msgid "See full example with embedding Amazon AWS certificates:"
+msgstr ""
+
+#: ../../../platforms/espressif32_extra.rst:247
+msgid ""
+"https://github.com/platformio/platform-espressif32/tree/develop/examples/"
+"espidf-aws-iot"
+msgstr ""
+
+#: ../../../platforms/espressif32_extra.rst:251
+msgid "Uploading files to file system"
+msgstr ""
+
+#: ../../../platforms/espressif32_extra.rst:253
+msgid ""
+"Create new project using :ref:`pioide` or initialize project using :ref:"
+"`piocore` and :ref:`cmd_project_init` (if you have not initialized it yet)"
+msgstr ""
+
+#: ../../../platforms/espressif32_extra.rst:255
+msgid ""
+"Create ``data`` folder (it should be on the same level as ``src`` folder) "
+"and put files here. Also, you can specify own location for :ref:"
+"`projectconf_pio_data_dir`"
+msgstr ""
+
+#: ../../../platforms/espressif32_extra.rst:258
+msgid ""
+"Run \"Upload File System image\" task in :ref:`pioide` or use :ref:`piocore` "
+"and :option:`pio run --target` command with ``uploadfs`` target."
+msgstr ""
+
+#: ../../../platforms/espressif32_extra.rst:261
+msgid ""
+"The ``SPIFFS`` file system is used by default in order to keep legacy "
+"project compatible. To choose ``LittleFS`` or ``FFat`` as the file system, "
+"it should be explicitly specified using ``board_build.filesystem`` option "
+"in :ref:`projectconf`, for example:"
+msgstr ""
+
+#: ../../../platforms/espressif32_extra.rst:274
+msgid ""
+"Possible  values for ``board_build.filesystem`` are ``spiffs`` (default), "
+"``littlefs`` and ``fatfs``."
+msgstr ""
+
+#: ../../../platforms/espressif32_extra.rst:276
+msgid ""
+"To upload SPIFFS image using OTA update please specify ``upload_port`` / ``--"
+"upload-port`` as IP address or mDNS host name (ending with the ``*.local``)."
+msgstr ""
+
+#: ../../../platforms/espressif32_extra.rst:281
+msgid ""
+"`SPIFFS for Arduino <https://github.com/espressif/arduino-esp32/tree/master/"
+"libraries/SPIFFS/examples>`_"
+msgstr ""
+
+#: ../../../platforms/espressif32_extra.rst:282
+msgid ""
+"`LittleFS for Arduino <https://github.com/espressif/arduino-esp32/tree/"
+"master/libraries/LittleFS/examples>`_"
+msgstr ""
+
+#: ../../../platforms/espressif32_extra.rst:283
+msgid ""
+"`FFat for Arduino <https://github.com/espressif/arduino-esp32/tree/master/"
+"libraries/FFat/examples>`_"
+msgstr ""
+
+#: ../../../platforms/espressif32_extra.rst:284
+msgid ""
+"`SPIFFS for ESP-IDF <https://github.com/espressif/esp-idf/tree/master/"
+"examples/storage/spiffs>`_"
+msgstr ""
+
+#: ../../../platforms/espressif32_extra.rst:288
+msgid "Over-the-Air (OTA) update"
+msgstr ""
+
+#: ../../../platforms/espressif32_extra.rst:291
+msgid ""
+"Please make sure to read the theory behind the OTA updates in the `Over The "
+"Air Updates (OTA) <https://docs.espressif.com/projects/esp-idf/en/latest/"
+"esp32/api-reference/system/ota.html>`_ article."
+msgstr ""
+
+#: ../../../platforms/espressif32_extra.rst:295
+msgid ""
+"Create a new project using :ref:`piohome` or initialize a project via :ref:"
+"`piocore` and :ref:`cmd_project_init` (if you have not initialized it yet)"
+msgstr ""
+
+#: ../../../platforms/espressif32_extra.rst:297
+msgid ""
+"Copy the `basicOTA <https://github.com/espressif/arduino-esp32/tree/master/"
+"libraries/ArduinoOTA/examples/BasicOTA>`_ example for Arduino or `Simple OTA "
+"<https://github.com/espressif/esp-idf/tree/master/examples/system/ota/"
+"simple_ota_example>`_ example for ESP-IDF to :ref:`projectconf_pio_src_dir` "
+"and configure your WiFi credentials (SSID and password)."
+msgstr ""
+
+#: ../../../platforms/espressif32_extra.rst:301
+msgid "Compile the project to ensure there are no syntax errors in the code."
+msgstr ""
+
+#: ../../../platforms/espressif32_extra.rst:303
+msgid ""
+"To upload the binary you can either specify the upload address directly in "
+"the CLI command using the :option:`pio run --upload-port` option:"
+msgstr ""
+
+#: ../../../platforms/espressif32_extra.rst:310
+#: ../../../platforms/espressif32_extra.rst:326
+msgid "For example:"
+msgstr ""
+
+#: ../../../platforms/espressif32_extra.rst:317
+msgid ""
+"Or use the ``upload_port`` option in :ref:`projectconf`. Please note that "
+"you also need to set :ref:`projectconf_upload_protocol` to ``espota``:"
+msgstr ""
+
+#: ../../../platforms/espressif32_extra.rst:339
+msgid "Authentication and upload options"
+msgstr ""
+
+#: ../../../platforms/espressif32_extra.rst:341
+msgid ""
+"You can pass additional options/flags to OTA uploader using ``upload_flags`` "
+"option in :ref:`projectconf`"
+msgstr ""
+
+#: ../../../platforms/espressif32_extra.rst:352
+msgid "Available flags"
+msgstr ""
+
+#: ../../../platforms/espressif32_extra.rst:354
+msgid "``--port=ESP_PORT`` ESP32 OTA Port. **Default 8266**"
+msgstr ""
+
+#: ../../../platforms/espressif32_extra.rst:355
+msgid "``--auth=AUTH`` Set authentication password"
+msgstr ""
+
+#: ../../../platforms/espressif32_extra.rst:356
+msgid ""
+"``--spiffs`` Use this option to transmit a SPIFFS image and do not flash the "
+"module"
+msgstr ""
+
+#: ../../../platforms/espressif32_extra.rst:359
+msgid "For the full list with available options please run"
+msgstr ""
+
+#: ../../../platforms/espressif32_extra.rst:399
+msgid ""
+"For windows users. To manage OTA check the ESP wifi network profile isn't "
+"checked on public be sure it's on private mode``"
+msgstr ""
+
+#: ../../../platforms/espressif32_extra.rst:404
+msgid "Using Arduino Framework with Staging version"
+msgstr ""
+
+#: ../../../platforms/espressif32_extra.rst:406
+msgid ""
+"PlatformIO will install the latest Arduino Core for ESP32 from https://"
+"github.com/espressif/arduino-esp32. The `Git <https://git-scm.com>`_ should "
+"be installed in a system. To update Arduino Core to the latest revision, "
+"please open :ref:`pioide` and navigate to ``PlatformIO Home > Platforms > "
+"Updates``."
+msgstr ""
+
+#: ../../../platforms/espressif32_extra.rst:411
+msgid "Please install :ref:`pioide`"
+msgstr ""
+
+#: ../../../platforms/espressif32_extra.rst:412
+msgid ""
+"Initialize a new project, open :ref:`projectconf` and specify the link to "
+"the framework repository in :ref:`projectconf_env_platform_packages` "
+"section. For example,"
+msgstr ""
+
+#: ../../../platforms/espressif32_extra.rst:425
+msgid "Try to build the project"
+msgstr ""
+
+#: ../../../platforms/espressif32_extra.rst:426
+msgid ""
+"If you see build errors, then try to build this project using the same "
+"``stage`` with Arduino IDE"
+msgstr ""
+
+#: ../../../platforms/espressif32_extra.rst:428
+msgid ""
+"If it works with Arduino IDE but doesn't work with PlatformIO, then please "
+"`file a new issue <https://github.com/platformio/platform-espressif32/"
+"issuess>`_ with attached information:"
+msgstr ""
+
+#: ../../../platforms/espressif32_extra.rst:432
+msgid "test project/files"
+msgstr ""
+
+#: ../../../platforms/espressif32_extra.rst:433
+msgid ""
+"detailed log of build process from Arduino IDE (please copy it from console "
+"to https://hastebin.com)"
+msgstr ""
+
+#: ../../../platforms/espressif32_extra.rst:435
+msgid ""
+"detailed log of build process from PlatformIO Build System (please copy it "
+"from console to https://hastebin.com)"
+msgstr ""
+
+#: ../../../platforms/espressif32_extra.rst:439
+msgid "Arduino Core Wiki"
+msgstr ""
+
+#: ../../../platforms/espressif32_extra.rst:441
+msgid ""
+"Tips, tricks and common problems: http://desire.giesecke.tk/index."
+"php/2018/01/30/esp32-wiki-entries/"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:33
+msgid "Examples"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:35
+msgid ""
+"Examples are listed from `Espressif 32 development platform repository "
+"<https://github.com/platformio/platform-espressif32/tree/master/examples?"
+"utm_source=platformio.org&utm_medium=docs>`_:"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:37
+msgid ""
+"`espidf-storage-sdcard <https://github.com/platformio/platform-espressif32/"
+"tree/master/examples/espidf-storage-sdcard?utm_source=platformio."
+"org&utm_medium=docs>`_"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:38
+msgid ""
+"`arduino-usb-keyboard <https://github.com/platformio/platform-espressif32/"
+"tree/master/examples/arduino-usb-keyboard?utm_source=platformio."
+"org&utm_medium=docs>`_"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:39
+msgid ""
+"`espidf-coap-server <https://github.com/platformio/platform-espressif32/tree/"
+"master/examples/espidf-coap-server?utm_source=platformio."
+"org&utm_medium=docs>`_"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:40
+msgid ""
+"`espidf-storage-spiffs <https://github.com/platformio/platform-espressif32/"
+"tree/master/examples/espidf-storage-spiffs?utm_source=platformio."
+"org&utm_medium=docs>`_"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:41
+msgid ""
+"`espidf-exceptions <https://github.com/platformio/platform-espressif32/tree/"
+"master/examples/espidf-exceptions?utm_source=platformio."
+"org&utm_medium=docs>`_"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:42
+msgid ""
+"`arduino-blink <https://github.com/platformio/platform-espressif32/tree/"
+"master/examples/arduino-blink?utm_source=platformio.org&utm_medium=docs>`_"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:43
+msgid ""
+"`espidf-ble-eddystone <https://github.com/platformio/platform-espressif32/"
+"tree/master/examples/espidf-ble-eddystone?utm_source=platformio."
+"org&utm_medium=docs>`_"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:44
+msgid ""
+"`espidf-ulp-adc <https://github.com/platformio/platform-espressif32/tree/"
+"master/examples/espidf-ulp-adc?utm_source=platformio.org&utm_medium=docs>`_"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:45
+msgid ""
+"`espidf-ulp-pulse <https://github.com/platformio/platform-espressif32/tree/"
+"master/examples/espidf-ulp-pulse?utm_source=platformio.org&utm_medium=docs>`_"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:46
+msgid ""
+"`espidf-arduino-wifiscan <https://github.com/platformio/platform-espressif32/"
+"tree/master/examples/espidf-arduino-wifiscan?utm_source=platformio."
+"org&utm_medium=docs>`_"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:47
+msgid ""
+"`espidf-http-request <https://github.com/platformio/platform-espressif32/"
+"tree/master/examples/espidf-http-request?utm_source=platformio."
+"org&utm_medium=docs>`_"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:48
+msgid ""
+"`espidf-arduino-blink <https://github.com/platformio/platform-espressif32/"
+"tree/master/examples/espidf-arduino-blink?utm_source=platformio."
+"org&utm_medium=docs>`_"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:49
+msgid ""
+"`espidf-security-secureboot <https://github.com/platformio/platform-"
+"espressif32/tree/master/examples/espidf-security-secureboot?"
+"utm_source=platformio.org&utm_medium=docs>`_"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:50
+msgid ""
+"`espidf-hello-world <https://github.com/platformio/platform-espressif32/tree/"
+"master/examples/espidf-hello-world?utm_source=platformio."
+"org&utm_medium=docs>`_"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:51
+msgid ""
+"`arduino-ble5-advertising <https://github.com/platformio/platform-"
+"espressif32/tree/master/examples/arduino-ble5-advertising?"
+"utm_source=platformio.org&utm_medium=docs>`_"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:52
+msgid ""
+"`espidf-peripherals-usb <https://github.com/platformio/platform-espressif32/"
+"tree/master/examples/espidf-peripherals-usb?utm_source=platformio."
+"org&utm_medium=docs>`_"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:53
+msgid ""
+"`espidf-peripherals-uart <https://github.com/platformio/platform-espressif32/"
+"tree/master/examples/espidf-peripherals-uart?utm_source=platformio."
+"org&utm_medium=docs>`_"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:54
+msgid ""
+"`arduino-wifiscan <https://github.com/platformio/platform-espressif32/tree/"
+"master/examples/arduino-wifiscan?utm_source=platformio.org&utm_medium=docs>`_"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:57
+msgid "Debugging"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:59
+msgid ""
+":ref:`piodebug` - \"1-click\" solution for debugging with a zero "
+"configuration."
+msgstr ""
+
+#: ../../../platforms/espressif32_debug.rst:13
+msgid "Pinout Diagram"
+msgstr ""
+
+#: ../../../platforms/espressif32_debug.rst:15
+msgid "**JTAG Wiring Connections**"
+msgstr ""
+
+#: ../../../platforms/espressif32_debug.rst:20
+msgid "Board Pin"
+msgstr ""
+
+#: ../../../platforms/espressif32_debug.rst:21
+msgid "JTAG Tool Pin"
+msgstr ""
+
+#: ../../../platforms/espressif32_debug.rst:22
+msgid "IO13"
+msgstr ""
+
+#: ../../../platforms/espressif32_debug.rst:23
+msgid "TCK"
+msgstr ""
+
+#: ../../../platforms/espressif32_debug.rst:24
+msgid "IO12"
+msgstr ""
+
+#: ../../../platforms/espressif32_debug.rst:25
+msgid "TDI"
+msgstr ""
+
+#: ../../../platforms/espressif32_debug.rst:26
+msgid "IO15"
+msgstr ""
+
+#: ../../../platforms/espressif32_debug.rst:27
+msgid "TDO"
+msgstr ""
+
+#: ../../../platforms/espressif32_debug.rst:28
+msgid "IO14"
+msgstr ""
+
+#: ../../../platforms/espressif32_debug.rst:29
+msgid "TMS"
+msgstr ""
+
+#: ../../../platforms/espressif32_debug.rst:30
+msgid "EN"
+msgstr ""
+
+#: ../../../platforms/espressif32_debug.rst:31
+msgid "RST"
+msgstr ""
+
+#: ../../../platforms/espressif32_debug.rst:32
+#: ../../../platforms/espressif32_debug.rst:33
+msgid "GND"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:67
+msgid "Tools & Debug Probes"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:69
+msgid ""
+"Supported debugging tools are listed in \"Debug\" column. For more detailed "
+"information, please scroll table by horizontal. You can switch between "
+"debugging :ref:`debugging_tools` using :ref:`projectconf_debug_tool` option "
+"in :ref:`projectconf`."
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:75
+msgid ""
+"You will need to install debug tool drivers depending on your system. Please "
+"click on compatible debug tool below for the further instructions."
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:82
+msgid ""
+"Boards listed below have on-board debug probe and **ARE READY** for "
+"debugging! You do not need to use/buy external debug probe."
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:89 ../../../platforms/espressif32.rst:147
+#: ../../../platforms/espressif32.rst:1083
+#: ../../../platforms/espressif32.rst:1168
+#: ../../../platforms/espressif32.rst:1191
+#: ../../../platforms/espressif32.rst:1210
+#: ../../../platforms/espressif32.rst:1229
+#: ../../../platforms/espressif32.rst:1248
+#: ../../../platforms/espressif32.rst:1399
+#: ../../../platforms/espressif32.rst:1424
+#: ../../../platforms/espressif32.rst:1443
+#: ../../../platforms/espressif32.rst:1462
+#: ../../../platforms/espressif32.rst:1481
+#: ../../../platforms/espressif32.rst:1500
+#: ../../../platforms/espressif32.rst:1519
+#: ../../../platforms/espressif32.rst:1550
+#: ../../../platforms/espressif32.rst:1569
+#: ../../../platforms/espressif32.rst:1594
+#: ../../../platforms/espressif32.rst:1625
+#: ../../../platforms/espressif32.rst:1644
+#: ../../../platforms/espressif32.rst:1663
+#: ../../../platforms/espressif32.rst:1682
+#: ../../../platforms/espressif32.rst:1725
+#: ../../../platforms/espressif32.rst:1750
+#: ../../../platforms/espressif32.rst:1769
+#: ../../../platforms/espressif32.rst:1794
+#: ../../../platforms/espressif32.rst:1813
+#: ../../../platforms/espressif32.rst:1832
+#: ../../../platforms/espressif32.rst:1851
+#: ../../../platforms/espressif32.rst:1870
+#: ../../../platforms/espressif32.rst:1889
+#: ../../../platforms/espressif32.rst:1908
+#: ../../../platforms/espressif32.rst:1927
+#: ../../../platforms/espressif32.rst:2024
+#: ../../../platforms/espressif32.rst:2043
+#: ../../../platforms/espressif32.rst:2062
+#: ../../../platforms/espressif32.rst:2093
+#: ../../../platforms/espressif32.rst:2112
+#: ../../../platforms/espressif32.rst:2137
+#: ../../../platforms/espressif32.rst:2156
+#: ../../../platforms/espressif32.rst:2175
+#: ../../../platforms/espressif32.rst:2200
+#: ../../../platforms/espressif32.rst:2249
+#: ../../../platforms/espressif32.rst:2274
+#: ../../../platforms/espressif32.rst:2293
+#: ../../../platforms/espressif32.rst:2312
+#: ../../../platforms/espressif32.rst:2331
+#: ../../../platforms/espressif32.rst:2350
+#: ../../../platforms/espressif32.rst:2369
+#: ../../../platforms/espressif32.rst:2388
+#: ../../../platforms/espressif32.rst:2407
+#: ../../../platforms/espressif32.rst:2426
+#: ../../../platforms/espressif32.rst:2457
+#: ../../../platforms/espressif32.rst:2482
+#: ../../../platforms/espressif32.rst:2579
+#: ../../../platforms/espressif32.rst:2604
+#: ../../../platforms/espressif32.rst:2629
+#: ../../../platforms/espressif32.rst:2654
+#: ../../../platforms/espressif32.rst:2673
+#: ../../../platforms/espressif32.rst:2698
+#: ../../../platforms/espressif32.rst:2717
+#: ../../../platforms/espressif32.rst:2736
+#: ../../../platforms/espressif32.rst:2755
+#: ../../../platforms/espressif32.rst:2774
+#: ../../../platforms/espressif32.rst:2793
+#: ../../../platforms/espressif32.rst:2842
+#: ../../../platforms/espressif32.rst:2861
+#: ../../../platforms/espressif32.rst:2880
+#: ../../../platforms/espressif32.rst:2899
+#: ../../../platforms/espressif32.rst:2918
+#: ../../../platforms/espressif32.rst:2955
+#: ../../../platforms/espressif32.rst:2974
+#: ../../../platforms/espressif32.rst:3005
+#: ../../../platforms/espressif32.rst:3024
+#: ../../../platforms/espressif32.rst:3043
+#: ../../../platforms/espressif32.rst:3062
+#: ../../../platforms/espressif32.rst:3081
+#: ../../../platforms/espressif32.rst:3100
+#: ../../../platforms/espressif32.rst:3137
+#: ../../../platforms/espressif32.rst:3156
+#: ../../../platforms/espressif32.rst:3199
+#: ../../../platforms/espressif32.rst:3242
+#: ../../../platforms/espressif32.rst:3267
+#: ../../../platforms/espressif32.rst:3316
+#: ../../../platforms/espressif32.rst:3341
+#: ../../../platforms/espressif32.rst:3408
+#: ../../../platforms/espressif32.rst:3427
+#: ../../../platforms/espressif32.rst:3458
+#: ../../../platforms/espressif32.rst:3477
+#: ../../../platforms/espressif32.rst:3544
+#: ../../../platforms/espressif32.rst:3575
+#: ../../../platforms/espressif32.rst:3594
+#: ../../../platforms/espressif32.rst:3619
+#: ../../../platforms/espressif32.rst:3638
+#: ../../../platforms/espressif32.rst:3729
+#: ../../../platforms/espressif32.rst:3748
+#: ../../../platforms/espressif32.rst:3767
+#: ../../../platforms/espressif32.rst:3786
+#: ../../../platforms/espressif32.rst:3805
+#: ../../../platforms/espressif32.rst:3824
+#: ../../../platforms/espressif32.rst:3849
+#: ../../../platforms/espressif32.rst:3868
+#: ../../../platforms/espressif32.rst:3893
+#: ../../../platforms/espressif32.rst:3912
+#: ../../../platforms/espressif32.rst:3931
+msgid "Name"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:90 ../../../platforms/espressif32.rst:148
+#: ../../../platforms/espressif32.rst:1193
+#: ../../../platforms/espressif32.rst:1212
+#: ../../../platforms/espressif32.rst:1231
+#: ../../../platforms/espressif32.rst:1250
+#: ../../../platforms/espressif32.rst:1401
+#: ../../../platforms/espressif32.rst:1426
+#: ../../../platforms/espressif32.rst:1445
+#: ../../../platforms/espressif32.rst:1464
+#: ../../../platforms/espressif32.rst:1483
+#: ../../../platforms/espressif32.rst:1502
+#: ../../../platforms/espressif32.rst:1521
+#: ../../../platforms/espressif32.rst:1552
+#: ../../../platforms/espressif32.rst:1571
+#: ../../../platforms/espressif32.rst:1596
+#: ../../../platforms/espressif32.rst:1627
+#: ../../../platforms/espressif32.rst:1646
+#: ../../../platforms/espressif32.rst:1665
+#: ../../../platforms/espressif32.rst:1684
+#: ../../../platforms/espressif32.rst:1727
+#: ../../../platforms/espressif32.rst:1752
+#: ../../../platforms/espressif32.rst:1771
+#: ../../../platforms/espressif32.rst:1796
+#: ../../../platforms/espressif32.rst:1815
+#: ../../../platforms/espressif32.rst:1834
+#: ../../../platforms/espressif32.rst:1853
+#: ../../../platforms/espressif32.rst:1872
+#: ../../../platforms/espressif32.rst:1891
+#: ../../../platforms/espressif32.rst:1910
+#: ../../../platforms/espressif32.rst:1929
+#: ../../../platforms/espressif32.rst:2026
+#: ../../../platforms/espressif32.rst:2045
+#: ../../../platforms/espressif32.rst:2064
+#: ../../../platforms/espressif32.rst:2095
+#: ../../../platforms/espressif32.rst:2114
+#: ../../../platforms/espressif32.rst:2139
+#: ../../../platforms/espressif32.rst:2158
+#: ../../../platforms/espressif32.rst:2177
+#: ../../../platforms/espressif32.rst:2202
+#: ../../../platforms/espressif32.rst:2251
+#: ../../../platforms/espressif32.rst:2276
+#: ../../../platforms/espressif32.rst:2295
+#: ../../../platforms/espressif32.rst:2314
+#: ../../../platforms/espressif32.rst:2333
+#: ../../../platforms/espressif32.rst:2352
+#: ../../../platforms/espressif32.rst:2371
+#: ../../../platforms/espressif32.rst:2390
+#: ../../../platforms/espressif32.rst:2409
+#: ../../../platforms/espressif32.rst:2428
+#: ../../../platforms/espressif32.rst:2459
+#: ../../../platforms/espressif32.rst:2484
+#: ../../../platforms/espressif32.rst:2581
+#: ../../../platforms/espressif32.rst:2606
+#: ../../../platforms/espressif32.rst:2631
+#: ../../../platforms/espressif32.rst:2656
+#: ../../../platforms/espressif32.rst:2675
+#: ../../../platforms/espressif32.rst:2700
+#: ../../../platforms/espressif32.rst:2719
+#: ../../../platforms/espressif32.rst:2738
+#: ../../../platforms/espressif32.rst:2757
+#: ../../../platforms/espressif32.rst:2776
+#: ../../../platforms/espressif32.rst:2795
+#: ../../../platforms/espressif32.rst:2844
+#: ../../../platforms/espressif32.rst:2863
+#: ../../../platforms/espressif32.rst:2882
+#: ../../../platforms/espressif32.rst:2901
+#: ../../../platforms/espressif32.rst:2920
+#: ../../../platforms/espressif32.rst:2957
+#: ../../../platforms/espressif32.rst:2976
+#: ../../../platforms/espressif32.rst:3007
+#: ../../../platforms/espressif32.rst:3026
+#: ../../../platforms/espressif32.rst:3045
+#: ../../../platforms/espressif32.rst:3064
+#: ../../../platforms/espressif32.rst:3083
+#: ../../../platforms/espressif32.rst:3102
+#: ../../../platforms/espressif32.rst:3139
+#: ../../../platforms/espressif32.rst:3158
+#: ../../../platforms/espressif32.rst:3201
+#: ../../../platforms/espressif32.rst:3244
+#: ../../../platforms/espressif32.rst:3269
+#: ../../../platforms/espressif32.rst:3318
+#: ../../../platforms/espressif32.rst:3343
+#: ../../../platforms/espressif32.rst:3410
+#: ../../../platforms/espressif32.rst:3429
+#: ../../../platforms/espressif32.rst:3460
+#: ../../../platforms/espressif32.rst:3479
+#: ../../../platforms/espressif32.rst:3546
+#: ../../../platforms/espressif32.rst:3577
+#: ../../../platforms/espressif32.rst:3596
+#: ../../../platforms/espressif32.rst:3621
+#: ../../../platforms/espressif32.rst:3640
+#: ../../../platforms/espressif32.rst:3731
+#: ../../../platforms/espressif32.rst:3750
+#: ../../../platforms/espressif32.rst:3769
+#: ../../../platforms/espressif32.rst:3788
+#: ../../../platforms/espressif32.rst:3807
+#: ../../../platforms/espressif32.rst:3826
+#: ../../../platforms/espressif32.rst:3851
+#: ../../../platforms/espressif32.rst:3870
+#: ../../../platforms/espressif32.rst:3895
+#: ../../../platforms/espressif32.rst:3914
+#: ../../../platforms/espressif32.rst:3933
+msgid "MCU"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:91 ../../../platforms/espressif32.rst:149
+#: ../../../platforms/espressif32.rst:1194
+#: ../../../platforms/espressif32.rst:1213
+#: ../../../platforms/espressif32.rst:1232
+#: ../../../platforms/espressif32.rst:1251
+#: ../../../platforms/espressif32.rst:1402
+#: ../../../platforms/espressif32.rst:1427
+#: ../../../platforms/espressif32.rst:1446
+#: ../../../platforms/espressif32.rst:1465
+#: ../../../platforms/espressif32.rst:1484
+#: ../../../platforms/espressif32.rst:1503
+#: ../../../platforms/espressif32.rst:1522
+#: ../../../platforms/espressif32.rst:1553
+#: ../../../platforms/espressif32.rst:1572
+#: ../../../platforms/espressif32.rst:1597
+#: ../../../platforms/espressif32.rst:1628
+#: ../../../platforms/espressif32.rst:1647
+#: ../../../platforms/espressif32.rst:1666
+#: ../../../platforms/espressif32.rst:1685
+#: ../../../platforms/espressif32.rst:1728
+#: ../../../platforms/espressif32.rst:1753
+#: ../../../platforms/espressif32.rst:1772
+#: ../../../platforms/espressif32.rst:1797
+#: ../../../platforms/espressif32.rst:1816
+#: ../../../platforms/espressif32.rst:1835
+#: ../../../platforms/espressif32.rst:1854
+#: ../../../platforms/espressif32.rst:1873
+#: ../../../platforms/espressif32.rst:1892
+#: ../../../platforms/espressif32.rst:1911
+#: ../../../platforms/espressif32.rst:1930
+#: ../../../platforms/espressif32.rst:2027
+#: ../../../platforms/espressif32.rst:2046
+#: ../../../platforms/espressif32.rst:2065
+#: ../../../platforms/espressif32.rst:2096
+#: ../../../platforms/espressif32.rst:2115
+#: ../../../platforms/espressif32.rst:2140
+#: ../../../platforms/espressif32.rst:2159
+#: ../../../platforms/espressif32.rst:2178
+#: ../../../platforms/espressif32.rst:2203
+#: ../../../platforms/espressif32.rst:2252
+#: ../../../platforms/espressif32.rst:2277
+#: ../../../platforms/espressif32.rst:2296
+#: ../../../platforms/espressif32.rst:2315
+#: ../../../platforms/espressif32.rst:2334
+#: ../../../platforms/espressif32.rst:2353
+#: ../../../platforms/espressif32.rst:2372
+#: ../../../platforms/espressif32.rst:2391
+#: ../../../platforms/espressif32.rst:2410
+#: ../../../platforms/espressif32.rst:2429
+#: ../../../platforms/espressif32.rst:2460
+#: ../../../platforms/espressif32.rst:2485
+#: ../../../platforms/espressif32.rst:2582
+#: ../../../platforms/espressif32.rst:2607
+#: ../../../platforms/espressif32.rst:2632
+#: ../../../platforms/espressif32.rst:2657
+#: ../../../platforms/espressif32.rst:2676
+#: ../../../platforms/espressif32.rst:2701
+#: ../../../platforms/espressif32.rst:2720
+#: ../../../platforms/espressif32.rst:2739
+#: ../../../platforms/espressif32.rst:2758
+#: ../../../platforms/espressif32.rst:2777
+#: ../../../platforms/espressif32.rst:2796
+#: ../../../platforms/espressif32.rst:2845
+#: ../../../platforms/espressif32.rst:2864
+#: ../../../platforms/espressif32.rst:2883
+#: ../../../platforms/espressif32.rst:2902
+#: ../../../platforms/espressif32.rst:2921
+#: ../../../platforms/espressif32.rst:2958
+#: ../../../platforms/espressif32.rst:2977
+#: ../../../platforms/espressif32.rst:3008
+#: ../../../platforms/espressif32.rst:3027
+#: ../../../platforms/espressif32.rst:3046
+#: ../../../platforms/espressif32.rst:3065
+#: ../../../platforms/espressif32.rst:3084
+#: ../../../platforms/espressif32.rst:3103
+#: ../../../platforms/espressif32.rst:3140
+#: ../../../platforms/espressif32.rst:3159
+#: ../../../platforms/espressif32.rst:3202
+#: ../../../platforms/espressif32.rst:3245
+#: ../../../platforms/espressif32.rst:3270
+#: ../../../platforms/espressif32.rst:3319
+#: ../../../platforms/espressif32.rst:3344
+#: ../../../platforms/espressif32.rst:3411
+#: ../../../platforms/espressif32.rst:3430
+#: ../../../platforms/espressif32.rst:3461
+#: ../../../platforms/espressif32.rst:3480
+#: ../../../platforms/espressif32.rst:3547
+#: ../../../platforms/espressif32.rst:3578
+#: ../../../platforms/espressif32.rst:3597
+#: ../../../platforms/espressif32.rst:3622
+#: ../../../platforms/espressif32.rst:3641
+#: ../../../platforms/espressif32.rst:3732
+#: ../../../platforms/espressif32.rst:3751
+#: ../../../platforms/espressif32.rst:3770
+#: ../../../platforms/espressif32.rst:3789
+#: ../../../platforms/espressif32.rst:3808
+#: ../../../platforms/espressif32.rst:3827
+#: ../../../platforms/espressif32.rst:3852
+#: ../../../platforms/espressif32.rst:3871
+#: ../../../platforms/espressif32.rst:3896
+#: ../../../platforms/espressif32.rst:3915
+#: ../../../platforms/espressif32.rst:3934
+msgid "Frequency"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:92 ../../../platforms/espressif32.rst:150
+#: ../../../platforms/espressif32.rst:1195
+#: ../../../platforms/espressif32.rst:1214
+#: ../../../platforms/espressif32.rst:1233
+#: ../../../platforms/espressif32.rst:1252
+#: ../../../platforms/espressif32.rst:1403
+#: ../../../platforms/espressif32.rst:1428
+#: ../../../platforms/espressif32.rst:1447
+#: ../../../platforms/espressif32.rst:1466
+#: ../../../platforms/espressif32.rst:1485
+#: ../../../platforms/espressif32.rst:1504
+#: ../../../platforms/espressif32.rst:1523
+#: ../../../platforms/espressif32.rst:1554
+#: ../../../platforms/espressif32.rst:1573
+#: ../../../platforms/espressif32.rst:1598
+#: ../../../platforms/espressif32.rst:1629
+#: ../../../platforms/espressif32.rst:1648
+#: ../../../platforms/espressif32.rst:1667
+#: ../../../platforms/espressif32.rst:1686
+#: ../../../platforms/espressif32.rst:1729
+#: ../../../platforms/espressif32.rst:1754
+#: ../../../platforms/espressif32.rst:1773
+#: ../../../platforms/espressif32.rst:1798
+#: ../../../platforms/espressif32.rst:1817
+#: ../../../platforms/espressif32.rst:1836
+#: ../../../platforms/espressif32.rst:1855
+#: ../../../platforms/espressif32.rst:1874
+#: ../../../platforms/espressif32.rst:1893
+#: ../../../platforms/espressif32.rst:1912
+#: ../../../platforms/espressif32.rst:1931
+#: ../../../platforms/espressif32.rst:2028
+#: ../../../platforms/espressif32.rst:2047
+#: ../../../platforms/espressif32.rst:2066
+#: ../../../platforms/espressif32.rst:2097
+#: ../../../platforms/espressif32.rst:2116
+#: ../../../platforms/espressif32.rst:2141
+#: ../../../platforms/espressif32.rst:2160
+#: ../../../platforms/espressif32.rst:2179
+#: ../../../platforms/espressif32.rst:2204
+#: ../../../platforms/espressif32.rst:2253
+#: ../../../platforms/espressif32.rst:2278
+#: ../../../platforms/espressif32.rst:2297
+#: ../../../platforms/espressif32.rst:2316
+#: ../../../platforms/espressif32.rst:2335
+#: ../../../platforms/espressif32.rst:2354
+#: ../../../platforms/espressif32.rst:2373
+#: ../../../platforms/espressif32.rst:2392
+#: ../../../platforms/espressif32.rst:2411
+#: ../../../platforms/espressif32.rst:2430
+#: ../../../platforms/espressif32.rst:2461
+#: ../../../platforms/espressif32.rst:2486
+#: ../../../platforms/espressif32.rst:2583
+#: ../../../platforms/espressif32.rst:2608
+#: ../../../platforms/espressif32.rst:2633
+#: ../../../platforms/espressif32.rst:2658
+#: ../../../platforms/espressif32.rst:2677
+#: ../../../platforms/espressif32.rst:2702
+#: ../../../platforms/espressif32.rst:2721
+#: ../../../platforms/espressif32.rst:2740
+#: ../../../platforms/espressif32.rst:2759
+#: ../../../platforms/espressif32.rst:2778
+#: ../../../platforms/espressif32.rst:2797
+#: ../../../platforms/espressif32.rst:2846
+#: ../../../platforms/espressif32.rst:2865
+#: ../../../platforms/espressif32.rst:2884
+#: ../../../platforms/espressif32.rst:2903
+#: ../../../platforms/espressif32.rst:2922
+#: ../../../platforms/espressif32.rst:2959
+#: ../../../platforms/espressif32.rst:2978
+#: ../../../platforms/espressif32.rst:3009
+#: ../../../platforms/espressif32.rst:3028
+#: ../../../platforms/espressif32.rst:3047
+#: ../../../platforms/espressif32.rst:3066
+#: ../../../platforms/espressif32.rst:3085
+#: ../../../platforms/espressif32.rst:3104
+#: ../../../platforms/espressif32.rst:3141
+#: ../../../platforms/espressif32.rst:3160
+#: ../../../platforms/espressif32.rst:3203
+#: ../../../platforms/espressif32.rst:3246
+#: ../../../platforms/espressif32.rst:3271
+#: ../../../platforms/espressif32.rst:3320
+#: ../../../platforms/espressif32.rst:3345
+#: ../../../platforms/espressif32.rst:3412
+#: ../../../platforms/espressif32.rst:3431
+#: ../../../platforms/espressif32.rst:3462
+#: ../../../platforms/espressif32.rst:3481
+#: ../../../platforms/espressif32.rst:3548
+#: ../../../platforms/espressif32.rst:3579
+#: ../../../platforms/espressif32.rst:3598
+#: ../../../platforms/espressif32.rst:3623
+#: ../../../platforms/espressif32.rst:3642
+#: ../../../platforms/espressif32.rst:3733
+#: ../../../platforms/espressif32.rst:3752
+#: ../../../platforms/espressif32.rst:3771
+#: ../../../platforms/espressif32.rst:3790
+#: ../../../platforms/espressif32.rst:3809
+#: ../../../platforms/espressif32.rst:3828
+#: ../../../platforms/espressif32.rst:3853
+#: ../../../platforms/espressif32.rst:3872
+#: ../../../platforms/espressif32.rst:3897
+#: ../../../platforms/espressif32.rst:3916
+#: ../../../platforms/espressif32.rst:3935
+msgid "Flash"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:93 ../../../platforms/espressif32.rst:151
+#: ../../../platforms/espressif32.rst:1196
+#: ../../../platforms/espressif32.rst:1215
+#: ../../../platforms/espressif32.rst:1234
+#: ../../../platforms/espressif32.rst:1253
+#: ../../../platforms/espressif32.rst:1404
+#: ../../../platforms/espressif32.rst:1429
+#: ../../../platforms/espressif32.rst:1448
+#: ../../../platforms/espressif32.rst:1467
+#: ../../../platforms/espressif32.rst:1486
+#: ../../../platforms/espressif32.rst:1505
+#: ../../../platforms/espressif32.rst:1524
+#: ../../../platforms/espressif32.rst:1555
+#: ../../../platforms/espressif32.rst:1574
+#: ../../../platforms/espressif32.rst:1599
+#: ../../../platforms/espressif32.rst:1630
+#: ../../../platforms/espressif32.rst:1649
+#: ../../../platforms/espressif32.rst:1668
+#: ../../../platforms/espressif32.rst:1687
+#: ../../../platforms/espressif32.rst:1730
+#: ../../../platforms/espressif32.rst:1755
+#: ../../../platforms/espressif32.rst:1774
+#: ../../../platforms/espressif32.rst:1799
+#: ../../../platforms/espressif32.rst:1818
+#: ../../../platforms/espressif32.rst:1837
+#: ../../../platforms/espressif32.rst:1856
+#: ../../../platforms/espressif32.rst:1875
+#: ../../../platforms/espressif32.rst:1894
+#: ../../../platforms/espressif32.rst:1913
+#: ../../../platforms/espressif32.rst:1932
+#: ../../../platforms/espressif32.rst:2029
+#: ../../../platforms/espressif32.rst:2048
+#: ../../../platforms/espressif32.rst:2067
+#: ../../../platforms/espressif32.rst:2098
+#: ../../../platforms/espressif32.rst:2117
+#: ../../../platforms/espressif32.rst:2142
+#: ../../../platforms/espressif32.rst:2161
+#: ../../../platforms/espressif32.rst:2180
+#: ../../../platforms/espressif32.rst:2205
+#: ../../../platforms/espressif32.rst:2254
+#: ../../../platforms/espressif32.rst:2279
+#: ../../../platforms/espressif32.rst:2298
+#: ../../../platforms/espressif32.rst:2317
+#: ../../../platforms/espressif32.rst:2336
+#: ../../../platforms/espressif32.rst:2355
+#: ../../../platforms/espressif32.rst:2374
+#: ../../../platforms/espressif32.rst:2393
+#: ../../../platforms/espressif32.rst:2412
+#: ../../../platforms/espressif32.rst:2431
+#: ../../../platforms/espressif32.rst:2462
+#: ../../../platforms/espressif32.rst:2487
+#: ../../../platforms/espressif32.rst:2584
+#: ../../../platforms/espressif32.rst:2609
+#: ../../../platforms/espressif32.rst:2634
+#: ../../../platforms/espressif32.rst:2659
+#: ../../../platforms/espressif32.rst:2678
+#: ../../../platforms/espressif32.rst:2703
+#: ../../../platforms/espressif32.rst:2722
+#: ../../../platforms/espressif32.rst:2741
+#: ../../../platforms/espressif32.rst:2760
+#: ../../../platforms/espressif32.rst:2779
+#: ../../../platforms/espressif32.rst:2798
+#: ../../../platforms/espressif32.rst:2847
+#: ../../../platforms/espressif32.rst:2866
+#: ../../../platforms/espressif32.rst:2885
+#: ../../../platforms/espressif32.rst:2904
+#: ../../../platforms/espressif32.rst:2923
+#: ../../../platforms/espressif32.rst:2960
+#: ../../../platforms/espressif32.rst:2979
+#: ../../../platforms/espressif32.rst:3010
+#: ../../../platforms/espressif32.rst:3029
+#: ../../../platforms/espressif32.rst:3048
+#: ../../../platforms/espressif32.rst:3067
+#: ../../../platforms/espressif32.rst:3086
+#: ../../../platforms/espressif32.rst:3105
+#: ../../../platforms/espressif32.rst:3142
+#: ../../../platforms/espressif32.rst:3161
+#: ../../../platforms/espressif32.rst:3204
+#: ../../../platforms/espressif32.rst:3247
+#: ../../../platforms/espressif32.rst:3272
+#: ../../../platforms/espressif32.rst:3321
+#: ../../../platforms/espressif32.rst:3346
+#: ../../../platforms/espressif32.rst:3413
+#: ../../../platforms/espressif32.rst:3432
+#: ../../../platforms/espressif32.rst:3463
+#: ../../../platforms/espressif32.rst:3482
+#: ../../../platforms/espressif32.rst:3549
+#: ../../../platforms/espressif32.rst:3580
+#: ../../../platforms/espressif32.rst:3599
+#: ../../../platforms/espressif32.rst:3624
+#: ../../../platforms/espressif32.rst:3643
+#: ../../../platforms/espressif32.rst:3734
+#: ../../../platforms/espressif32.rst:3753
+#: ../../../platforms/espressif32.rst:3772
+#: ../../../platforms/espressif32.rst:3791
+#: ../../../platforms/espressif32.rst:3810
+#: ../../../platforms/espressif32.rst:3829
+#: ../../../platforms/espressif32.rst:3854
+#: ../../../platforms/espressif32.rst:3873
+#: ../../../platforms/espressif32.rst:3898
+#: ../../../platforms/espressif32.rst:3917
+#: ../../../platforms/espressif32.rst:3936
+msgid "RAM"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:94
+#: ../../../platforms/espressif32.rst:1945
+msgid ":ref:`board_espressif32_esp-wrover-kit`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:95 ../../../platforms/espressif32.rst:158
+#: ../../../platforms/espressif32.rst:163
+#: ../../../platforms/espressif32.rst:168
+#: ../../../platforms/espressif32.rst:173
+#: ../../../platforms/espressif32.rst:183
+#: ../../../platforms/espressif32.rst:228
+#: ../../../platforms/espressif32.rst:253
+#: ../../../platforms/espressif32.rst:313
+#: ../../../platforms/espressif32.rst:318
+#: ../../../platforms/espressif32.rst:343
+#: ../../../platforms/espressif32.rst:353
+#: ../../../platforms/espressif32.rst:363
+#: ../../../platforms/espressif32.rst:378
+#: ../../../platforms/espressif32.rst:383
+#: ../../../platforms/espressif32.rst:388
+#: ../../../platforms/espressif32.rst:393
+#: ../../../platforms/espressif32.rst:423
+#: ../../../platforms/espressif32.rst:428
+#: ../../../platforms/espressif32.rst:433
+#: ../../../platforms/espressif32.rst:448
+#: ../../../platforms/espressif32.rst:453
+#: ../../../platforms/espressif32.rst:458
+#: ../../../platforms/espressif32.rst:468
+#: ../../../platforms/espressif32.rst:498
+#: ../../../platforms/espressif32.rst:518
+#: ../../../platforms/espressif32.rst:523
+#: ../../../platforms/espressif32.rst:528
+#: ../../../platforms/espressif32.rst:538
+#: ../../../platforms/espressif32.rst:543
+#: ../../../platforms/espressif32.rst:553
+#: ../../../platforms/espressif32.rst:558
+#: ../../../platforms/espressif32.rst:563
+#: ../../../platforms/espressif32.rst:568
+#: ../../../platforms/espressif32.rst:578
+#: ../../../platforms/espressif32.rst:598
+#: ../../../platforms/espressif32.rst:618
+#: ../../../platforms/espressif32.rst:623
+#: ../../../platforms/espressif32.rst:628
+#: ../../../platforms/espressif32.rst:653
+#: ../../../platforms/espressif32.rst:658
+#: ../../../platforms/espressif32.rst:663
+#: ../../../platforms/espressif32.rst:668
+#: ../../../platforms/espressif32.rst:673
+#: ../../../platforms/espressif32.rst:678
+#: ../../../platforms/espressif32.rst:683
+#: ../../../platforms/espressif32.rst:688
+#: ../../../platforms/espressif32.rst:698
+#: ../../../platforms/espressif32.rst:703
+#: ../../../platforms/espressif32.rst:708
+#: ../../../platforms/espressif32.rst:733
+#: ../../../platforms/espressif32.rst:763
+#: ../../../platforms/espressif32.rst:768
+#: ../../../platforms/espressif32.rst:773
+#: ../../../platforms/espressif32.rst:778
+#: ../../../platforms/espressif32.rst:788
+#: ../../../platforms/espressif32.rst:793
+#: ../../../platforms/espressif32.rst:803
+#: ../../../platforms/espressif32.rst:808
+#: ../../../platforms/espressif32.rst:813
+#: ../../../platforms/espressif32.rst:818
+#: ../../../platforms/espressif32.rst:828
+#: ../../../platforms/espressif32.rst:833
+#: ../../../platforms/espressif32.rst:838
+#: ../../../platforms/espressif32.rst:843
+#: ../../../platforms/espressif32.rst:848
+#: ../../../platforms/espressif32.rst:903
+#: ../../../platforms/espressif32.rst:908
+#: ../../../platforms/espressif32.rst:913
+#: ../../../platforms/espressif32.rst:923
+#: ../../../platforms/espressif32.rst:928
+#: ../../../platforms/espressif32.rst:958
+#: ../../../platforms/espressif32.rst:963
+#: ../../../platforms/espressif32.rst:973
+#: ../../../platforms/espressif32.rst:978
+#: ../../../platforms/espressif32.rst:983
+#: ../../../platforms/espressif32.rst:1003
+#: ../../../platforms/espressif32.rst:1008
+#: ../../../platforms/espressif32.rst:1018
+#: ../../../platforms/espressif32.rst:1023
+#: ../../../platforms/espressif32.rst:1028
+#: ../../../platforms/espressif32.rst:1218
+#: ../../../platforms/espressif32.rst:1237
+#: ../../../platforms/espressif32.rst:1256
+#: ../../../platforms/espressif32.rst:1268
+#: ../../../platforms/espressif32.rst:1322
+#: ../../../platforms/espressif32.rst:1352
+#: ../../../platforms/espressif32.rst:1451
+#: ../../../platforms/espressif32.rst:1489
+#: ../../../platforms/espressif32.rst:1533
+#: ../../../platforms/espressif32.rst:1539
+#: ../../../platforms/espressif32.rst:1577
+#: ../../../platforms/espressif32.rst:1602
+#: ../../../platforms/espressif32.rst:1633
+#: ../../../platforms/espressif32.rst:1652
+#: ../../../platforms/espressif32.rst:1696
+#: ../../../platforms/espressif32.rst:1714
+#: ../../../platforms/espressif32.rst:1733
+#: ../../../platforms/espressif32.rst:1739
+#: ../../../platforms/espressif32.rst:1758
+#: ../../../platforms/espressif32.rst:1777
+#: ../../../platforms/espressif32.rst:1783
+#: ../../../platforms/espressif32.rst:1821
+#: ../../../platforms/espressif32.rst:1840
+#: ../../../platforms/espressif32.rst:1859
+#: ../../../platforms/espressif32.rst:1878
+#: ../../../platforms/espressif32.rst:1897
+#: ../../../platforms/espressif32.rst:1935
+#: ../../../platforms/espressif32.rst:1947
+#: ../../../platforms/espressif32.rst:1953
+#: ../../../platforms/espressif32.rst:2032
+#: ../../../platforms/espressif32.rst:2051
+#: ../../../platforms/espressif32.rst:2101
+#: ../../../platforms/espressif32.rst:2126
+#: ../../../platforms/espressif32.rst:2145
+#: ../../../platforms/espressif32.rst:2164
+#: ../../../platforms/espressif32.rst:2208
+#: ../../../platforms/espressif32.rst:2214
+#: ../../../platforms/espressif32.rst:2220
+#: ../../../platforms/espressif32.rst:2226
+#: ../../../platforms/espressif32.rst:2232
+#: ../../../platforms/espressif32.rst:2238
+#: ../../../platforms/espressif32.rst:2257
+#: ../../../platforms/espressif32.rst:2263
+#: ../../../platforms/espressif32.rst:2282
+#: ../../../platforms/espressif32.rst:2301
+#: ../../../platforms/espressif32.rst:2320
+#: ../../../platforms/espressif32.rst:2339
+#: ../../../platforms/espressif32.rst:2358
+#: ../../../platforms/espressif32.rst:2396
+#: ../../../platforms/espressif32.rst:2415
+#: ../../../platforms/espressif32.rst:2434
+#: ../../../platforms/espressif32.rst:2465
+#: ../../../platforms/espressif32.rst:2496
+#: ../../../platforms/espressif32.rst:2502
+#: ../../../platforms/espressif32.rst:2508
+#: ../../../platforms/espressif32.rst:2520
+#: ../../../platforms/espressif32.rst:2526
+#: ../../../platforms/espressif32.rst:2538
+#: ../../../platforms/espressif32.rst:2544
+#: ../../../platforms/espressif32.rst:2550
+#: ../../../platforms/espressif32.rst:2556
+#: ../../../platforms/espressif32.rst:2562
+#: ../../../platforms/espressif32.rst:2568
+#: ../../../platforms/espressif32.rst:2612
+#: ../../../platforms/espressif32.rst:2618
+#: ../../../platforms/espressif32.rst:2637
+#: ../../../platforms/espressif32.rst:2643
+#: ../../../platforms/espressif32.rst:2662
+#: ../../../platforms/espressif32.rst:2681
+#: ../../../platforms/espressif32.rst:2687
+#: ../../../platforms/espressif32.rst:2706
+#: ../../../platforms/espressif32.rst:2763
+#: ../../../platforms/espressif32.rst:2782
+#: ../../../platforms/espressif32.rst:2801
+#: ../../../platforms/espressif32.rst:2807
+#: ../../../platforms/espressif32.rst:2813
+#: ../../../platforms/espressif32.rst:2819
+#: ../../../platforms/espressif32.rst:2825
+#: ../../../platforms/espressif32.rst:2831
+#: ../../../platforms/espressif32.rst:2850
+#: ../../../platforms/espressif32.rst:2869
+#: ../../../platforms/espressif32.rst:2907
+#: ../../../platforms/espressif32.rst:2926
+#: ../../../platforms/espressif32.rst:2932
+#: ../../../platforms/espressif32.rst:2938
+#: ../../../platforms/espressif32.rst:2944
+#: ../../../platforms/espressif32.rst:2963
+#: ../../../platforms/espressif32.rst:2988
+#: ../../../platforms/espressif32.rst:3013
+#: ../../../platforms/espressif32.rst:3032
+#: ../../../platforms/espressif32.rst:3051
+#: ../../../platforms/espressif32.rst:3070
+#: ../../../platforms/espressif32.rst:3089
+#: ../../../platforms/espressif32.rst:3145
+#: ../../../platforms/espressif32.rst:3207
+#: ../../../platforms/espressif32.rst:3213
+#: ../../../platforms/espressif32.rst:3219
+#: ../../../platforms/espressif32.rst:3231
+#: ../../../platforms/espressif32.rst:3250
+#: ../../../platforms/espressif32.rst:3256
+#: ../../../platforms/espressif32.rst:3275
+#: ../../../platforms/espressif32.rst:3281
+#: ../../../platforms/espressif32.rst:3324
+#: ../../../platforms/espressif32.rst:3349
+#: ../../../platforms/espressif32.rst:3355
+#: ../../../platforms/espressif32.rst:3361
+#: ../../../platforms/espressif32.rst:3367
+#: ../../../platforms/espressif32.rst:3379
+#: ../../../platforms/espressif32.rst:3385
+#: ../../../platforms/espressif32.rst:3391
+#: ../../../platforms/espressif32.rst:3397
+#: ../../../platforms/espressif32.rst:3416
+#: ../../../platforms/espressif32.rst:3435
+#: ../../../platforms/espressif32.rst:3441
+#: ../../../platforms/espressif32.rst:3447
+#: ../../../platforms/espressif32.rst:3466
+#: ../../../platforms/espressif32.rst:3521
+#: ../../../platforms/espressif32.rst:3552
+#: ../../../platforms/espressif32.rst:3583
+#: ../../../platforms/espressif32.rst:3627
+#: ../../../platforms/espressif32.rst:3646
+#: ../../../platforms/espressif32.rst:3652
+#: ../../../platforms/espressif32.rst:3664
+#: ../../../platforms/espressif32.rst:3670
+#: ../../../platforms/espressif32.rst:3706
+#: ../../../platforms/espressif32.rst:3712
+#: ../../../platforms/espressif32.rst:3718
+#: ../../../platforms/espressif32.rst:3756
+#: ../../../platforms/espressif32.rst:3775
+#: ../../../platforms/espressif32.rst:3794
+#: ../../../platforms/espressif32.rst:3813
+#: ../../../platforms/espressif32.rst:3876
+#: ../../../platforms/espressif32.rst:3882
+#: ../../../platforms/espressif32.rst:3920
+#: ../../../platforms/espressif32.rst:3939
+#: ../../../platforms/espressif32.rst:3945
+msgid "ESP32"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:96 ../../../platforms/espressif32.rst:101
+#: ../../../platforms/espressif32.rst:106
+#: ../../../platforms/espressif32.rst:111
+#: ../../../platforms/espressif32.rst:116
+#: ../../../platforms/espressif32.rst:121
+#: ../../../platforms/espressif32.rst:126
+#: ../../../platforms/espressif32.rst:131
+#: ../../../platforms/espressif32.rst:154
+#: ../../../platforms/espressif32.rst:159
+#: ../../../platforms/espressif32.rst:164
+#: ../../../platforms/espressif32.rst:169
+#: ../../../platforms/espressif32.rst:174
+#: ../../../platforms/espressif32.rst:179
+#: ../../../platforms/espressif32.rst:184
+#: ../../../platforms/espressif32.rst:189
+#: ../../../platforms/espressif32.rst:194
+#: ../../../platforms/espressif32.rst:199
+#: ../../../platforms/espressif32.rst:204
+#: ../../../platforms/espressif32.rst:209
+#: ../../../platforms/espressif32.rst:214
+#: ../../../platforms/espressif32.rst:219
+#: ../../../platforms/espressif32.rst:224
+#: ../../../platforms/espressif32.rst:229
+#: ../../../platforms/espressif32.rst:234
+#: ../../../platforms/espressif32.rst:239
+#: ../../../platforms/espressif32.rst:244
+#: ../../../platforms/espressif32.rst:249
+#: ../../../platforms/espressif32.rst:254
+#: ../../../platforms/espressif32.rst:264
+#: ../../../platforms/espressif32.rst:269
+#: ../../../platforms/espressif32.rst:274
+#: ../../../platforms/espressif32.rst:279
+#: ../../../platforms/espressif32.rst:284
+#: ../../../platforms/espressif32.rst:294
+#: ../../../platforms/espressif32.rst:304
+#: ../../../platforms/espressif32.rst:309
+#: ../../../platforms/espressif32.rst:314
+#: ../../../platforms/espressif32.rst:319
+#: ../../../platforms/espressif32.rst:324
+#: ../../../platforms/espressif32.rst:329
+#: ../../../platforms/espressif32.rst:334
+#: ../../../platforms/espressif32.rst:344
+#: ../../../platforms/espressif32.rst:349
+#: ../../../platforms/espressif32.rst:354
+#: ../../../platforms/espressif32.rst:364
+#: ../../../platforms/espressif32.rst:369
+#: ../../../platforms/espressif32.rst:374
+#: ../../../platforms/espressif32.rst:379
+#: ../../../platforms/espressif32.rst:384
+#: ../../../platforms/espressif32.rst:389
+#: ../../../platforms/espressif32.rst:394
+#: ../../../platforms/espressif32.rst:399
+#: ../../../platforms/espressif32.rst:409
+#: ../../../platforms/espressif32.rst:414
+#: ../../../platforms/espressif32.rst:419
+#: ../../../platforms/espressif32.rst:424
+#: ../../../platforms/espressif32.rst:429
+#: ../../../platforms/espressif32.rst:434
+#: ../../../platforms/espressif32.rst:439
+#: ../../../platforms/espressif32.rst:444
+#: ../../../platforms/espressif32.rst:449
+#: ../../../platforms/espressif32.rst:454
+#: ../../../platforms/espressif32.rst:459
+#: ../../../platforms/espressif32.rst:464
+#: ../../../platforms/espressif32.rst:469
+#: ../../../platforms/espressif32.rst:489
+#: ../../../platforms/espressif32.rst:494
+#: ../../../platforms/espressif32.rst:499
+#: ../../../platforms/espressif32.rst:504
+#: ../../../platforms/espressif32.rst:509
+#: ../../../platforms/espressif32.rst:514
+#: ../../../platforms/espressif32.rst:519
+#: ../../../platforms/espressif32.rst:524
+#: ../../../platforms/espressif32.rst:529
+#: ../../../platforms/espressif32.rst:534
+#: ../../../platforms/espressif32.rst:539
+#: ../../../platforms/espressif32.rst:544
+#: ../../../platforms/espressif32.rst:549
+#: ../../../platforms/espressif32.rst:554
+#: ../../../platforms/espressif32.rst:559
+#: ../../../platforms/espressif32.rst:564
+#: ../../../platforms/espressif32.rst:569
+#: ../../../platforms/espressif32.rst:574
+#: ../../../platforms/espressif32.rst:579
+#: ../../../platforms/espressif32.rst:584
+#: ../../../platforms/espressif32.rst:589
+#: ../../../platforms/espressif32.rst:594
+#: ../../../platforms/espressif32.rst:599
+#: ../../../platforms/espressif32.rst:604
+#: ../../../platforms/espressif32.rst:609
+#: ../../../platforms/espressif32.rst:614
+#: ../../../platforms/espressif32.rst:619
+#: ../../../platforms/espressif32.rst:624
+#: ../../../platforms/espressif32.rst:629
+#: ../../../platforms/espressif32.rst:634
+#: ../../../platforms/espressif32.rst:639
+#: ../../../platforms/espressif32.rst:644
+#: ../../../platforms/espressif32.rst:649
+#: ../../../platforms/espressif32.rst:654
+#: ../../../platforms/espressif32.rst:659
+#: ../../../platforms/espressif32.rst:664
+#: ../../../platforms/espressif32.rst:669
+#: ../../../platforms/espressif32.rst:674
+#: ../../../platforms/espressif32.rst:679
+#: ../../../platforms/espressif32.rst:684
+#: ../../../platforms/espressif32.rst:689
+#: ../../../platforms/espressif32.rst:699
+#: ../../../platforms/espressif32.rst:704
+#: ../../../platforms/espressif32.rst:709
+#: ../../../platforms/espressif32.rst:714
+#: ../../../platforms/espressif32.rst:729
+#: ../../../platforms/espressif32.rst:734
+#: ../../../platforms/espressif32.rst:739
+#: ../../../platforms/espressif32.rst:744
+#: ../../../platforms/espressif32.rst:754
+#: ../../../platforms/espressif32.rst:759
+#: ../../../platforms/espressif32.rst:764
+#: ../../../platforms/espressif32.rst:769
+#: ../../../platforms/espressif32.rst:774
+#: ../../../platforms/espressif32.rst:779
+#: ../../../platforms/espressif32.rst:784
+#: ../../../platforms/espressif32.rst:789
+#: ../../../platforms/espressif32.rst:794
+#: ../../../platforms/espressif32.rst:799
+#: ../../../platforms/espressif32.rst:804
+#: ../../../platforms/espressif32.rst:809
+#: ../../../platforms/espressif32.rst:814
+#: ../../../platforms/espressif32.rst:819
+#: ../../../platforms/espressif32.rst:829
+#: ../../../platforms/espressif32.rst:834
+#: ../../../platforms/espressif32.rst:839
+#: ../../../platforms/espressif32.rst:844
+#: ../../../platforms/espressif32.rst:849
+#: ../../../platforms/espressif32.rst:854
+#: ../../../platforms/espressif32.rst:859
+#: ../../../platforms/espressif32.rst:864
+#: ../../../platforms/espressif32.rst:869
+#: ../../../platforms/espressif32.rst:874
+#: ../../../platforms/espressif32.rst:879
+#: ../../../platforms/espressif32.rst:884
+#: ../../../platforms/espressif32.rst:889
+#: ../../../platforms/espressif32.rst:904
+#: ../../../platforms/espressif32.rst:909
+#: ../../../platforms/espressif32.rst:914
+#: ../../../platforms/espressif32.rst:924
+#: ../../../platforms/espressif32.rst:929
+#: ../../../platforms/espressif32.rst:934
+#: ../../../platforms/espressif32.rst:939
+#: ../../../platforms/espressif32.rst:944
+#: ../../../platforms/espressif32.rst:949
+#: ../../../platforms/espressif32.rst:954
+#: ../../../platforms/espressif32.rst:959
+#: ../../../platforms/espressif32.rst:964
+#: ../../../platforms/espressif32.rst:974
+#: ../../../platforms/espressif32.rst:979
+#: ../../../platforms/espressif32.rst:984
+#: ../../../platforms/espressif32.rst:999
+#: ../../../platforms/espressif32.rst:1004
+#: ../../../platforms/espressif32.rst:1009
+#: ../../../platforms/espressif32.rst:1014
+#: ../../../platforms/espressif32.rst:1019
+#: ../../../platforms/espressif32.rst:1024
+#: ../../../platforms/espressif32.rst:1029
+#: ../../../platforms/espressif32.rst:1034
+#: ../../../platforms/espressif32.rst:1039
+#: ../../../platforms/espressif32.rst:1200
+#: ../../../platforms/espressif32.rst:1219
+#: ../../../platforms/espressif32.rst:1238
+#: ../../../platforms/espressif32.rst:1257
+#: ../../../platforms/espressif32.rst:1263
+#: ../../../platforms/espressif32.rst:1269
+#: ../../../platforms/espressif32.rst:1275
+#: ../../../platforms/espressif32.rst:1281
+#: ../../../platforms/espressif32.rst:1287
+#: ../../../platforms/espressif32.rst:1293
+#: ../../../platforms/espressif32.rst:1299
+#: ../../../platforms/espressif32.rst:1305
+#: ../../../platforms/espressif32.rst:1311
+#: ../../../platforms/espressif32.rst:1317
+#: ../../../platforms/espressif32.rst:1323
+#: ../../../platforms/espressif32.rst:1329
+#: ../../../platforms/espressif32.rst:1335
+#: ../../../platforms/espressif32.rst:1341
+#: ../../../platforms/espressif32.rst:1347
+#: ../../../platforms/espressif32.rst:1353
+#: ../../../platforms/espressif32.rst:1365
+#: ../../../platforms/espressif32.rst:1371
+#: ../../../platforms/espressif32.rst:1377
+#: ../../../platforms/espressif32.rst:1383
+#: ../../../platforms/espressif32.rst:1389
+#: ../../../platforms/espressif32.rst:1414
+#: ../../../platforms/espressif32.rst:1452
+#: ../../../platforms/espressif32.rst:1471
+#: ../../../platforms/espressif32.rst:1490
+#: ../../../platforms/espressif32.rst:1509
+#: ../../../platforms/espressif32.rst:1528
+#: ../../../platforms/espressif32.rst:1534
+#: ../../../platforms/espressif32.rst:1540
+#: ../../../platforms/espressif32.rst:1559
+#: ../../../platforms/espressif32.rst:1584
+#: ../../../platforms/espressif32.rst:1603
+#: ../../../platforms/espressif32.rst:1609
+#: ../../../platforms/espressif32.rst:1634
+#: ../../../platforms/espressif32.rst:1653
+#: ../../../platforms/espressif32.rst:1672
+#: ../../../platforms/espressif32.rst:1697
+#: ../../../platforms/espressif32.rst:1703
+#: ../../../platforms/espressif32.rst:1709
+#: ../../../platforms/espressif32.rst:1715
+#: ../../../platforms/espressif32.rst:1734
+#: ../../../platforms/espressif32.rst:1740
+#: ../../../platforms/espressif32.rst:1759
+#: ../../../platforms/espressif32.rst:1778
+#: ../../../platforms/espressif32.rst:1784
+#: ../../../platforms/espressif32.rst:1803
+#: ../../../platforms/espressif32.rst:1822
+#: ../../../platforms/espressif32.rst:1841
+#: ../../../platforms/espressif32.rst:1860
+#: ../../../platforms/espressif32.rst:1879
+#: ../../../platforms/espressif32.rst:1898
+#: ../../../platforms/espressif32.rst:1917
+#: ../../../platforms/espressif32.rst:1936
+#: ../../../platforms/espressif32.rst:1942
+#: ../../../platforms/espressif32.rst:1948
+#: ../../../platforms/espressif32.rst:1954
+#: ../../../platforms/espressif32.rst:1984
+#: ../../../platforms/espressif32.rst:1990
+#: ../../../platforms/espressif32.rst:1996
+#: ../../../platforms/espressif32.rst:2002
+#: ../../../platforms/espressif32.rst:2008
+#: ../../../platforms/espressif32.rst:2014
+#: ../../../platforms/espressif32.rst:2033
+#: ../../../platforms/espressif32.rst:2052
+#: ../../../platforms/espressif32.rst:2071
+#: ../../../platforms/espressif32.rst:2077
+#: ../../../platforms/espressif32.rst:2083
+#: ../../../platforms/espressif32.rst:2102
+#: ../../../platforms/espressif32.rst:2121
+#: ../../../platforms/espressif32.rst:2127
+#: ../../../platforms/espressif32.rst:2146
+#: ../../../platforms/espressif32.rst:2165
+#: ../../../platforms/espressif32.rst:2184
+#: ../../../platforms/espressif32.rst:2190
+#: ../../../platforms/espressif32.rst:2209
+#: ../../../platforms/espressif32.rst:2215
+#: ../../../platforms/espressif32.rst:2221
+#: ../../../platforms/espressif32.rst:2227
+#: ../../../platforms/espressif32.rst:2233
+#: ../../../platforms/espressif32.rst:2239
+#: ../../../platforms/espressif32.rst:2258
+#: ../../../platforms/espressif32.rst:2264
+#: ../../../platforms/espressif32.rst:2283
+#: ../../../platforms/espressif32.rst:2302
+#: ../../../platforms/espressif32.rst:2321
+#: ../../../platforms/espressif32.rst:2340
+#: ../../../platforms/espressif32.rst:2359
+#: ../../../platforms/espressif32.rst:2378
+#: ../../../platforms/espressif32.rst:2397
+#: ../../../platforms/espressif32.rst:2416
+#: ../../../platforms/espressif32.rst:2435
+#: ../../../platforms/espressif32.rst:2441
+#: ../../../platforms/espressif32.rst:2447
+#: ../../../platforms/espressif32.rst:2466
+#: ../../../platforms/espressif32.rst:2472
+#: ../../../platforms/espressif32.rst:2491
+#: ../../../platforms/espressif32.rst:2497
+#: ../../../platforms/espressif32.rst:2503
+#: ../../../platforms/espressif32.rst:2509
+#: ../../../platforms/espressif32.rst:2515
+#: ../../../platforms/espressif32.rst:2521
+#: ../../../platforms/espressif32.rst:2527
+#: ../../../platforms/espressif32.rst:2533
+#: ../../../platforms/espressif32.rst:2539
+#: ../../../platforms/espressif32.rst:2545
+#: ../../../platforms/espressif32.rst:2551
+#: ../../../platforms/espressif32.rst:2557
+#: ../../../platforms/espressif32.rst:2563
+#: ../../../platforms/espressif32.rst:2569
+#: ../../../platforms/espressif32.rst:2588
+#: ../../../platforms/espressif32.rst:2594
+#: ../../../platforms/espressif32.rst:2613
+#: ../../../platforms/espressif32.rst:2619
+#: ../../../platforms/espressif32.rst:2638
+#: ../../../platforms/espressif32.rst:2644
+#: ../../../platforms/espressif32.rst:2663
+#: ../../../platforms/espressif32.rst:2682
+#: ../../../platforms/espressif32.rst:2688
+#: ../../../platforms/espressif32.rst:2707
+#: ../../../platforms/espressif32.rst:2726
+#: ../../../platforms/espressif32.rst:2745
+#: ../../../platforms/espressif32.rst:2764
+#: ../../../platforms/espressif32.rst:2783
+#: ../../../platforms/espressif32.rst:2802
+#: ../../../platforms/espressif32.rst:2808
+#: ../../../platforms/espressif32.rst:2814
+#: ../../../platforms/espressif32.rst:2820
+#: ../../../platforms/espressif32.rst:2826
+#: ../../../platforms/espressif32.rst:2832
+#: ../../../platforms/espressif32.rst:2851
+#: ../../../platforms/espressif32.rst:2870
+#: ../../../platforms/espressif32.rst:2889
+#: ../../../platforms/espressif32.rst:2908
+#: ../../../platforms/espressif32.rst:2927
+#: ../../../platforms/espressif32.rst:2933
+#: ../../../platforms/espressif32.rst:2939
+#: ../../../platforms/espressif32.rst:2945
+#: ../../../platforms/espressif32.rst:2964
+#: ../../../platforms/espressif32.rst:2989
+#: ../../../platforms/espressif32.rst:2995
+#: ../../../platforms/espressif32.rst:3014
+#: ../../../platforms/espressif32.rst:3033
+#: ../../../platforms/espressif32.rst:3052
+#: ../../../platforms/espressif32.rst:3071
+#: ../../../platforms/espressif32.rst:3090
+#: ../../../platforms/espressif32.rst:3109
+#: ../../../platforms/espressif32.rst:3127
+#: ../../../platforms/espressif32.rst:3146
+#: ../../../platforms/espressif32.rst:3165
+#: ../../../platforms/espressif32.rst:3171
+#: ../../../platforms/espressif32.rst:3183
+#: ../../../platforms/espressif32.rst:3189
+#: ../../../platforms/espressif32.rst:3208
+#: ../../../platforms/espressif32.rst:3214
+#: ../../../platforms/espressif32.rst:3220
+#: ../../../platforms/espressif32.rst:3226
+#: ../../../platforms/espressif32.rst:3232
+#: ../../../platforms/espressif32.rst:3251
+#: ../../../platforms/espressif32.rst:3257
+#: ../../../platforms/espressif32.rst:3276
+#: ../../../platforms/espressif32.rst:3282
+#: ../../../platforms/espressif32.rst:3288
+#: ../../../platforms/espressif32.rst:3300
+#: ../../../platforms/espressif32.rst:3306
+#: ../../../platforms/espressif32.rst:3325
+#: ../../../platforms/espressif32.rst:3331
+#: ../../../platforms/espressif32.rst:3350
+#: ../../../platforms/espressif32.rst:3356
+#: ../../../platforms/espressif32.rst:3362
+#: ../../../platforms/espressif32.rst:3368
+#: ../../../platforms/espressif32.rst:3380
+#: ../../../platforms/espressif32.rst:3386
+#: ../../../platforms/espressif32.rst:3392
+#: ../../../platforms/espressif32.rst:3398
+#: ../../../platforms/espressif32.rst:3417
+#: ../../../platforms/espressif32.rst:3436
+#: ../../../platforms/espressif32.rst:3442
+#: ../../../platforms/espressif32.rst:3448
+#: ../../../platforms/espressif32.rst:3467
+#: ../../../platforms/espressif32.rst:3486
+#: ../../../platforms/espressif32.rst:3492
+#: ../../../platforms/espressif32.rst:3498
+#: ../../../platforms/espressif32.rst:3504
+#: ../../../platforms/espressif32.rst:3510
+#: ../../../platforms/espressif32.rst:3516
+#: ../../../platforms/espressif32.rst:3522
+#: ../../../platforms/espressif32.rst:3528
+#: ../../../platforms/espressif32.rst:3534
+#: ../../../platforms/espressif32.rst:3553
+#: ../../../platforms/espressif32.rst:3559
+#: ../../../platforms/espressif32.rst:3565
+#: ../../../platforms/espressif32.rst:3584
+#: ../../../platforms/espressif32.rst:3628
+#: ../../../platforms/espressif32.rst:3647
+#: ../../../platforms/espressif32.rst:3653
+#: ../../../platforms/espressif32.rst:3665
+#: ../../../platforms/espressif32.rst:3671
+#: ../../../platforms/espressif32.rst:3677
+#: ../../../platforms/espressif32.rst:3683
+#: ../../../platforms/espressif32.rst:3689
+#: ../../../platforms/espressif32.rst:3695
+#: ../../../platforms/espressif32.rst:3701
+#: ../../../platforms/espressif32.rst:3707
+#: ../../../platforms/espressif32.rst:3713
+#: ../../../platforms/espressif32.rst:3719
+#: ../../../platforms/espressif32.rst:3757
+#: ../../../platforms/espressif32.rst:3776
+#: ../../../platforms/espressif32.rst:3795
+#: ../../../platforms/espressif32.rst:3814
+#: ../../../platforms/espressif32.rst:3858
+#: ../../../platforms/espressif32.rst:3877
+#: ../../../platforms/espressif32.rst:3883
+#: ../../../platforms/espressif32.rst:3902
+#: ../../../platforms/espressif32.rst:3921
+#: ../../../platforms/espressif32.rst:3940
+#: ../../../platforms/espressif32.rst:3946
+msgid "240MHz"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:97 ../../../platforms/espressif32.rst:102
+#: ../../../platforms/espressif32.rst:127
+#: ../../../platforms/espressif32.rst:160
+#: ../../../platforms/espressif32.rst:165
+#: ../../../platforms/espressif32.rst:170
+#: ../../../platforms/espressif32.rst:175
+#: ../../../platforms/espressif32.rst:180
+#: ../../../platforms/espressif32.rst:190
+#: ../../../platforms/espressif32.rst:195
+#: ../../../platforms/espressif32.rst:200
+#: ../../../platforms/espressif32.rst:205
+#: ../../../platforms/espressif32.rst:215
+#: ../../../platforms/espressif32.rst:220
+#: ../../../platforms/espressif32.rst:225
+#: ../../../platforms/espressif32.rst:235
+#: ../../../platforms/espressif32.rst:245
+#: ../../../platforms/espressif32.rst:260
+#: ../../../platforms/espressif32.rst:265
+#: ../../../platforms/espressif32.rst:270
+#: ../../../platforms/espressif32.rst:285
+#: ../../../platforms/espressif32.rst:290
+#: ../../../platforms/espressif32.rst:295
+#: ../../../platforms/espressif32.rst:300
+#: ../../../platforms/espressif32.rst:315
+#: ../../../platforms/espressif32.rst:320
+#: ../../../platforms/espressif32.rst:340
+#: ../../../platforms/espressif32.rst:345
+#: ../../../platforms/espressif32.rst:355
+#: ../../../platforms/espressif32.rst:360
+#: ../../../platforms/espressif32.rst:365
+#: ../../../platforms/espressif32.rst:370
+#: ../../../platforms/espressif32.rst:380
+#: ../../../platforms/espressif32.rst:385
+#: ../../../platforms/espressif32.rst:390
+#: ../../../platforms/espressif32.rst:395
+#: ../../../platforms/espressif32.rst:400
+#: ../../../platforms/espressif32.rst:405
+#: ../../../platforms/espressif32.rst:410
+#: ../../../platforms/espressif32.rst:415
+#: ../../../platforms/espressif32.rst:420
+#: ../../../platforms/espressif32.rst:425
+#: ../../../platforms/espressif32.rst:430
+#: ../../../platforms/espressif32.rst:435
+#: ../../../platforms/espressif32.rst:450
+#: ../../../platforms/espressif32.rst:455
+#: ../../../platforms/espressif32.rst:460
+#: ../../../platforms/espressif32.rst:470
+#: ../../../platforms/espressif32.rst:475
+#: ../../../platforms/espressif32.rst:480
+#: ../../../platforms/espressif32.rst:485
+#: ../../../platforms/espressif32.rst:490
+#: ../../../platforms/espressif32.rst:505
+#: ../../../platforms/espressif32.rst:510
+#: ../../../platforms/espressif32.rst:515
+#: ../../../platforms/espressif32.rst:520
+#: ../../../platforms/espressif32.rst:525
+#: ../../../platforms/espressif32.rst:530
+#: ../../../platforms/espressif32.rst:540
+#: ../../../platforms/espressif32.rst:560
+#: ../../../platforms/espressif32.rst:565
+#: ../../../platforms/espressif32.rst:570
+#: ../../../platforms/espressif32.rst:575
+#: ../../../platforms/espressif32.rst:580
+#: ../../../platforms/espressif32.rst:595
+#: ../../../platforms/espressif32.rst:600
+#: ../../../platforms/espressif32.rst:620
+#: ../../../platforms/espressif32.rst:625
+#: ../../../platforms/espressif32.rst:630
+#: ../../../platforms/espressif32.rst:635
+#: ../../../platforms/espressif32.rst:645
+#: ../../../platforms/espressif32.rst:650
+#: ../../../platforms/espressif32.rst:655
+#: ../../../platforms/espressif32.rst:660
+#: ../../../platforms/espressif32.rst:665
+#: ../../../platforms/espressif32.rst:670
+#: ../../../platforms/espressif32.rst:675
+#: ../../../platforms/espressif32.rst:680
+#: ../../../platforms/espressif32.rst:685
+#: ../../../platforms/espressif32.rst:690
+#: ../../../platforms/espressif32.rst:695
+#: ../../../platforms/espressif32.rst:700
+#: ../../../platforms/espressif32.rst:705
+#: ../../../platforms/espressif32.rst:710
+#: ../../../platforms/espressif32.rst:715
+#: ../../../platforms/espressif32.rst:720
+#: ../../../platforms/espressif32.rst:725
+#: ../../../platforms/espressif32.rst:735
+#: ../../../platforms/espressif32.rst:745
+#: ../../../platforms/espressif32.rst:750
+#: ../../../platforms/espressif32.rst:765
+#: ../../../platforms/espressif32.rst:770
+#: ../../../platforms/espressif32.rst:785
+#: ../../../platforms/espressif32.rst:790
+#: ../../../platforms/espressif32.rst:805
+#: ../../../platforms/espressif32.rst:810
+#: ../../../platforms/espressif32.rst:815
+#: ../../../platforms/espressif32.rst:820
+#: ../../../platforms/espressif32.rst:825
+#: ../../../platforms/espressif32.rst:830
+#: ../../../platforms/espressif32.rst:835
+#: ../../../platforms/espressif32.rst:840
+#: ../../../platforms/espressif32.rst:845
+#: ../../../platforms/espressif32.rst:850
+#: ../../../platforms/espressif32.rst:860
+#: ../../../platforms/espressif32.rst:880
+#: ../../../platforms/espressif32.rst:885
+#: ../../../platforms/espressif32.rst:895
+#: ../../../platforms/espressif32.rst:900
+#: ../../../platforms/espressif32.rst:905
+#: ../../../platforms/espressif32.rst:910
+#: ../../../platforms/espressif32.rst:915
+#: ../../../platforms/espressif32.rst:920
+#: ../../../platforms/espressif32.rst:925
+#: ../../../platforms/espressif32.rst:930
+#: ../../../platforms/espressif32.rst:935
+#: ../../../platforms/espressif32.rst:940
+#: ../../../platforms/espressif32.rst:950
+#: ../../../platforms/espressif32.rst:960
+#: ../../../platforms/espressif32.rst:965
+#: ../../../platforms/espressif32.rst:975
+#: ../../../platforms/espressif32.rst:980
+#: ../../../platforms/espressif32.rst:985
+#: ../../../platforms/espressif32.rst:990
+#: ../../../platforms/espressif32.rst:995
+#: ../../../platforms/espressif32.rst:1005
+#: ../../../platforms/espressif32.rst:1010
+#: ../../../platforms/espressif32.rst:1015
+#: ../../../platforms/espressif32.rst:1020
+#: ../../../platforms/espressif32.rst:1025
+#: ../../../platforms/espressif32.rst:1030
+#: ../../../platforms/espressif32.rst:1220
+#: ../../../platforms/espressif32.rst:1239
+#: ../../../platforms/espressif32.rst:1258
+#: ../../../platforms/espressif32.rst:1264
+#: ../../../platforms/espressif32.rst:1276
+#: ../../../platforms/espressif32.rst:1282
+#: ../../../platforms/espressif32.rst:1288
+#: ../../../platforms/espressif32.rst:1294
+#: ../../../platforms/espressif32.rst:1306
+#: ../../../platforms/espressif32.rst:1312
+#: ../../../platforms/espressif32.rst:1318
+#: ../../../platforms/espressif32.rst:1330
+#: ../../../platforms/espressif32.rst:1342
+#: ../../../platforms/espressif32.rst:1360
+#: ../../../platforms/espressif32.rst:1366
+#: ../../../platforms/espressif32.rst:1372
+#: ../../../platforms/espressif32.rst:1390
+#: ../../../platforms/espressif32.rst:1409
+#: ../../../platforms/espressif32.rst:1415
+#: ../../../platforms/espressif32.rst:1434
+#: ../../../platforms/espressif32.rst:1453
+#: ../../../platforms/espressif32.rst:1491
+#: ../../../platforms/espressif32.rst:1535
+#: ../../../platforms/espressif32.rst:1541
+#: ../../../platforms/espressif32.rst:1579
+#: ../../../platforms/espressif32.rst:1604
+#: ../../../platforms/espressif32.rst:1616
+#: ../../../platforms/espressif32.rst:1635
+#: ../../../platforms/espressif32.rst:1654
+#: ../../../platforms/espressif32.rst:1692
+#: ../../../platforms/espressif32.rst:1698
+#: ../../../platforms/espressif32.rst:1704
+#: ../../../platforms/espressif32.rst:1735
+#: ../../../platforms/espressif32.rst:1741
+#: ../../../platforms/espressif32.rst:1760
+#: ../../../platforms/espressif32.rst:1785
+#: ../../../platforms/espressif32.rst:1804
+#: ../../../platforms/espressif32.rst:1823
+#: ../../../platforms/espressif32.rst:1842
+#: ../../../platforms/espressif32.rst:1861
+#: ../../../platforms/espressif32.rst:1880
+#: ../../../platforms/espressif32.rst:1899
+#: ../../../platforms/espressif32.rst:1937
+#: ../../../platforms/espressif32.rst:1949
+#: ../../../platforms/espressif32.rst:1955
+#: ../../../platforms/espressif32.rst:1961
+#: ../../../platforms/espressif32.rst:1967
+#: ../../../platforms/espressif32.rst:1979
+#: ../../../platforms/espressif32.rst:1985
+#: ../../../platforms/espressif32.rst:1991
+#: ../../../platforms/espressif32.rst:2053
+#: ../../../platforms/espressif32.rst:2072
+#: ../../../platforms/espressif32.rst:2078
+#: ../../../platforms/espressif32.rst:2084
+#: ../../../platforms/espressif32.rst:2103
+#: ../../../platforms/espressif32.rst:2128
+#: ../../../platforms/espressif32.rst:2147
+#: ../../../platforms/espressif32.rst:2210
+#: ../../../platforms/espressif32.rst:2222
+#: ../../../platforms/espressif32.rst:2240
+#: ../../../platforms/espressif32.rst:2259
+#: ../../../platforms/espressif32.rst:2265
+#: ../../../platforms/espressif32.rst:2284
+#: ../../../platforms/espressif32.rst:2303
+#: ../../../platforms/espressif32.rst:2322
+#: ../../../platforms/espressif32.rst:2341
+#: ../../../platforms/espressif32.rst:2360
+#: ../../../platforms/espressif32.rst:2379
+#: ../../../platforms/espressif32.rst:2398
+#: ../../../platforms/espressif32.rst:2417
+#: ../../../platforms/espressif32.rst:2436
+#: ../../../platforms/espressif32.rst:2448
+#: ../../../platforms/espressif32.rst:2467
+#: ../../../platforms/espressif32.rst:2473
+#: ../../../platforms/espressif32.rst:2498
+#: ../../../platforms/espressif32.rst:2546
+#: ../../../platforms/espressif32.rst:2552
+#: ../../../platforms/espressif32.rst:2558
+#: ../../../platforms/espressif32.rst:2564
+#: ../../../platforms/espressif32.rst:2570
+#: ../../../platforms/espressif32.rst:2589
+#: ../../../platforms/espressif32.rst:2595
+#: ../../../platforms/espressif32.rst:2614
+#: ../../../platforms/espressif32.rst:2620
+#: ../../../platforms/espressif32.rst:2639
+#: ../../../platforms/espressif32.rst:2645
+#: ../../../platforms/espressif32.rst:2664
+#: ../../../platforms/espressif32.rst:2683
+#: ../../../platforms/espressif32.rst:2689
+#: ../../../platforms/espressif32.rst:2708
+#: ../../../platforms/espressif32.rst:2727
+#: ../../../platforms/espressif32.rst:2765
+#: ../../../platforms/espressif32.rst:2803
+#: ../../../platforms/espressif32.rst:2809
+#: ../../../platforms/espressif32.rst:2815
+#: ../../../platforms/espressif32.rst:2821
+#: ../../../platforms/espressif32.rst:2827
+#: ../../../platforms/espressif32.rst:2833
+#: ../../../platforms/espressif32.rst:2852
+#: ../../../platforms/espressif32.rst:2871
+#: ../../../platforms/espressif32.rst:2909
+#: ../../../platforms/espressif32.rst:2928
+#: ../../../platforms/espressif32.rst:2934
+#: ../../../platforms/espressif32.rst:2940
+#: ../../../platforms/espressif32.rst:2946
+#: ../../../platforms/espressif32.rst:2965
+#: ../../../platforms/espressif32.rst:2984
+#: ../../../platforms/espressif32.rst:2990
+#: ../../../platforms/espressif32.rst:3015
+#: ../../../platforms/espressif32.rst:3034
+#: ../../../platforms/espressif32.rst:3053
+#: ../../../platforms/espressif32.rst:3072
+#: ../../../platforms/espressif32.rst:3091
+#: ../../../platforms/espressif32.rst:3110
+#: ../../../platforms/espressif32.rst:3116
+#: ../../../platforms/espressif32.rst:3122
+#: ../../../platforms/espressif32.rst:3147
+#: ../../../platforms/espressif32.rst:3172
+#: ../../../platforms/espressif32.rst:3178
+#: ../../../platforms/espressif32.rst:3209
+#: ../../../platforms/espressif32.rst:3215
+#: ../../../platforms/espressif32.rst:3227
+#: ../../../platforms/espressif32.rst:3233
+#: ../../../platforms/espressif32.rst:3252
+#: ../../../platforms/espressif32.rst:3277
+#: ../../../platforms/espressif32.rst:3283
+#: ../../../platforms/espressif32.rst:3289
+#: ../../../platforms/espressif32.rst:3295
+#: ../../../platforms/espressif32.rst:3301
+#: ../../../platforms/espressif32.rst:3307
+#: ../../../platforms/espressif32.rst:3351
+#: ../../../platforms/espressif32.rst:3357
+#: ../../../platforms/espressif32.rst:3363
+#: ../../../platforms/espressif32.rst:3369
+#: ../../../platforms/espressif32.rst:3375
+#: ../../../platforms/espressif32.rst:3387
+#: ../../../platforms/espressif32.rst:3393
+#: ../../../platforms/espressif32.rst:3399
+#: ../../../platforms/espressif32.rst:3418
+#: ../../../platforms/espressif32.rst:3437
+#: ../../../platforms/espressif32.rst:3443
+#: ../../../platforms/espressif32.rst:3449
+#: ../../../platforms/espressif32.rst:3468
+#: ../../../platforms/espressif32.rst:3493
+#: ../../../platforms/espressif32.rst:3517
+#: ../../../platforms/espressif32.rst:3523
+#: ../../../platforms/espressif32.rst:3529
+#: ../../../platforms/espressif32.rst:3554
+#: ../../../platforms/espressif32.rst:3585
+#: ../../../platforms/espressif32.rst:3604
+#: ../../../platforms/espressif32.rst:3610
+#: ../../../platforms/espressif32.rst:3629
+#: ../../../platforms/espressif32.rst:3648
+#: ../../../platforms/espressif32.rst:3654
+#: ../../../platforms/espressif32.rst:3660
+#: ../../../platforms/espressif32.rst:3666
+#: ../../../platforms/espressif32.rst:3672
+#: ../../../platforms/espressif32.rst:3678
+#: ../../../platforms/espressif32.rst:3684
+#: ../../../platforms/espressif32.rst:3696
+#: ../../../platforms/espressif32.rst:3708
+#: ../../../platforms/espressif32.rst:3714
+#: ../../../platforms/espressif32.rst:3720
+#: ../../../platforms/espressif32.rst:3777
+#: ../../../platforms/espressif32.rst:3796
+#: ../../../platforms/espressif32.rst:3834
+#: ../../../platforms/espressif32.rst:3840
+#: ../../../platforms/espressif32.rst:3878
+#: ../../../platforms/espressif32.rst:3884
+#: ../../../platforms/espressif32.rst:3903
+#: ../../../platforms/espressif32.rst:3941
+#: ../../../platforms/espressif32.rst:3947
+msgid "4MB"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:98 ../../../platforms/espressif32.rst:103
+#: ../../../platforms/espressif32.rst:108
+#: ../../../platforms/espressif32.rst:113
+#: ../../../platforms/espressif32.rst:118
+#: ../../../platforms/espressif32.rst:123
+#: ../../../platforms/espressif32.rst:128
+#: ../../../platforms/espressif32.rst:133
+#: ../../../platforms/espressif32.rst:156
+#: ../../../platforms/espressif32.rst:161
+#: ../../../platforms/espressif32.rst:166
+#: ../../../platforms/espressif32.rst:176
+#: ../../../platforms/espressif32.rst:181
+#: ../../../platforms/espressif32.rst:186
+#: ../../../platforms/espressif32.rst:191
+#: ../../../platforms/espressif32.rst:196
+#: ../../../platforms/espressif32.rst:201
+#: ../../../platforms/espressif32.rst:206
+#: ../../../platforms/espressif32.rst:211
+#: ../../../platforms/espressif32.rst:216
+#: ../../../platforms/espressif32.rst:221
+#: ../../../platforms/espressif32.rst:226
+#: ../../../platforms/espressif32.rst:231
+#: ../../../platforms/espressif32.rst:236
+#: ../../../platforms/espressif32.rst:241
+#: ../../../platforms/espressif32.rst:246
+#: ../../../platforms/espressif32.rst:251
+#: ../../../platforms/espressif32.rst:256
+#: ../../../platforms/espressif32.rst:261
+#: ../../../platforms/espressif32.rst:266
+#: ../../../platforms/espressif32.rst:271
+#: ../../../platforms/espressif32.rst:276
+#: ../../../platforms/espressif32.rst:281
+#: ../../../platforms/espressif32.rst:286
+#: ../../../platforms/espressif32.rst:291
+#: ../../../platforms/espressif32.rst:296
+#: ../../../platforms/espressif32.rst:301
+#: ../../../platforms/espressif32.rst:306
+#: ../../../platforms/espressif32.rst:311
+#: ../../../platforms/espressif32.rst:316
+#: ../../../platforms/espressif32.rst:321
+#: ../../../platforms/espressif32.rst:326
+#: ../../../platforms/espressif32.rst:331
+#: ../../../platforms/espressif32.rst:336
+#: ../../../platforms/espressif32.rst:341
+#: ../../../platforms/espressif32.rst:346
+#: ../../../platforms/espressif32.rst:351
+#: ../../../platforms/espressif32.rst:356
+#: ../../../platforms/espressif32.rst:361
+#: ../../../platforms/espressif32.rst:366
+#: ../../../platforms/espressif32.rst:371
+#: ../../../platforms/espressif32.rst:376
+#: ../../../platforms/espressif32.rst:381
+#: ../../../platforms/espressif32.rst:386
+#: ../../../platforms/espressif32.rst:391
+#: ../../../platforms/espressif32.rst:396
+#: ../../../platforms/espressif32.rst:401
+#: ../../../platforms/espressif32.rst:406
+#: ../../../platforms/espressif32.rst:411
+#: ../../../platforms/espressif32.rst:416
+#: ../../../platforms/espressif32.rst:421
+#: ../../../platforms/espressif32.rst:426
+#: ../../../platforms/espressif32.rst:431
+#: ../../../platforms/espressif32.rst:436
+#: ../../../platforms/espressif32.rst:441
+#: ../../../platforms/espressif32.rst:446
+#: ../../../platforms/espressif32.rst:451
+#: ../../../platforms/espressif32.rst:456
+#: ../../../platforms/espressif32.rst:461
+#: ../../../platforms/espressif32.rst:466
+#: ../../../platforms/espressif32.rst:471
+#: ../../../platforms/espressif32.rst:476
+#: ../../../platforms/espressif32.rst:481
+#: ../../../platforms/espressif32.rst:486
+#: ../../../platforms/espressif32.rst:491
+#: ../../../platforms/espressif32.rst:496
+#: ../../../platforms/espressif32.rst:506
+#: ../../../platforms/espressif32.rst:511
+#: ../../../platforms/espressif32.rst:516
+#: ../../../platforms/espressif32.rst:521
+#: ../../../platforms/espressif32.rst:526
+#: ../../../platforms/espressif32.rst:531
+#: ../../../platforms/espressif32.rst:536
+#: ../../../platforms/espressif32.rst:541
+#: ../../../platforms/espressif32.rst:546
+#: ../../../platforms/espressif32.rst:551
+#: ../../../platforms/espressif32.rst:556
+#: ../../../platforms/espressif32.rst:561
+#: ../../../platforms/espressif32.rst:566
+#: ../../../platforms/espressif32.rst:571
+#: ../../../platforms/espressif32.rst:576
+#: ../../../platforms/espressif32.rst:581
+#: ../../../platforms/espressif32.rst:586
+#: ../../../platforms/espressif32.rst:591
+#: ../../../platforms/espressif32.rst:596
+#: ../../../platforms/espressif32.rst:601
+#: ../../../platforms/espressif32.rst:606
+#: ../../../platforms/espressif32.rst:611
+#: ../../../platforms/espressif32.rst:616
+#: ../../../platforms/espressif32.rst:621
+#: ../../../platforms/espressif32.rst:626
+#: ../../../platforms/espressif32.rst:631
+#: ../../../platforms/espressif32.rst:636
+#: ../../../platforms/espressif32.rst:641
+#: ../../../platforms/espressif32.rst:646
+#: ../../../platforms/espressif32.rst:651
+#: ../../../platforms/espressif32.rst:656
+#: ../../../platforms/espressif32.rst:661
+#: ../../../platforms/espressif32.rst:666
+#: ../../../platforms/espressif32.rst:671
+#: ../../../platforms/espressif32.rst:676
+#: ../../../platforms/espressif32.rst:681
+#: ../../../platforms/espressif32.rst:696
+#: ../../../platforms/espressif32.rst:701
+#: ../../../platforms/espressif32.rst:706
+#: ../../../platforms/espressif32.rst:711
+#: ../../../platforms/espressif32.rst:716
+#: ../../../platforms/espressif32.rst:721
+#: ../../../platforms/espressif32.rst:726
+#: ../../../platforms/espressif32.rst:731
+#: ../../../platforms/espressif32.rst:736
+#: ../../../platforms/espressif32.rst:741
+#: ../../../platforms/espressif32.rst:746
+#: ../../../platforms/espressif32.rst:751
+#: ../../../platforms/espressif32.rst:756
+#: ../../../platforms/espressif32.rst:761
+#: ../../../platforms/espressif32.rst:766
+#: ../../../platforms/espressif32.rst:771
+#: ../../../platforms/espressif32.rst:776
+#: ../../../platforms/espressif32.rst:781
+#: ../../../platforms/espressif32.rst:786
+#: ../../../platforms/espressif32.rst:791
+#: ../../../platforms/espressif32.rst:796
+#: ../../../platforms/espressif32.rst:801
+#: ../../../platforms/espressif32.rst:806
+#: ../../../platforms/espressif32.rst:811
+#: ../../../platforms/espressif32.rst:816
+#: ../../../platforms/espressif32.rst:826
+#: ../../../platforms/espressif32.rst:831
+#: ../../../platforms/espressif32.rst:841
+#: ../../../platforms/espressif32.rst:846
+#: ../../../platforms/espressif32.rst:851
+#: ../../../platforms/espressif32.rst:856
+#: ../../../platforms/espressif32.rst:861
+#: ../../../platforms/espressif32.rst:866
+#: ../../../platforms/espressif32.rst:871
+#: ../../../platforms/espressif32.rst:876
+#: ../../../platforms/espressif32.rst:881
+#: ../../../platforms/espressif32.rst:886
+#: ../../../platforms/espressif32.rst:891
+#: ../../../platforms/espressif32.rst:896
+#: ../../../platforms/espressif32.rst:901
+#: ../../../platforms/espressif32.rst:906
+#: ../../../platforms/espressif32.rst:911
+#: ../../../platforms/espressif32.rst:916
+#: ../../../platforms/espressif32.rst:921
+#: ../../../platforms/espressif32.rst:926
+#: ../../../platforms/espressif32.rst:931
+#: ../../../platforms/espressif32.rst:936
+#: ../../../platforms/espressif32.rst:941
+#: ../../../platforms/espressif32.rst:946
+#: ../../../platforms/espressif32.rst:951
+#: ../../../platforms/espressif32.rst:956
+#: ../../../platforms/espressif32.rst:961
+#: ../../../platforms/espressif32.rst:966
+#: ../../../platforms/espressif32.rst:976
+#: ../../../platforms/espressif32.rst:981
+#: ../../../platforms/espressif32.rst:986
+#: ../../../platforms/espressif32.rst:991
+#: ../../../platforms/espressif32.rst:996
+#: ../../../platforms/espressif32.rst:1001
+#: ../../../platforms/espressif32.rst:1006
+#: ../../../platforms/espressif32.rst:1011
+#: ../../../platforms/espressif32.rst:1016
+#: ../../../platforms/espressif32.rst:1021
+#: ../../../platforms/espressif32.rst:1026
+#: ../../../platforms/espressif32.rst:1031
+#: ../../../platforms/espressif32.rst:1202
+#: ../../../platforms/espressif32.rst:1221
+#: ../../../platforms/espressif32.rst:1259
+#: ../../../platforms/espressif32.rst:1265
+#: ../../../platforms/espressif32.rst:1271
+#: ../../../platforms/espressif32.rst:1277
+#: ../../../platforms/espressif32.rst:1283
+#: ../../../platforms/espressif32.rst:1289
+#: ../../../platforms/espressif32.rst:1295
+#: ../../../platforms/espressif32.rst:1301
+#: ../../../platforms/espressif32.rst:1307
+#: ../../../platforms/espressif32.rst:1313
+#: ../../../platforms/espressif32.rst:1319
+#: ../../../platforms/espressif32.rst:1325
+#: ../../../platforms/espressif32.rst:1331
+#: ../../../platforms/espressif32.rst:1337
+#: ../../../platforms/espressif32.rst:1343
+#: ../../../platforms/espressif32.rst:1349
+#: ../../../platforms/espressif32.rst:1355
+#: ../../../platforms/espressif32.rst:1361
+#: ../../../platforms/espressif32.rst:1367
+#: ../../../platforms/espressif32.rst:1373
+#: ../../../platforms/espressif32.rst:1379
+#: ../../../platforms/espressif32.rst:1385
+#: ../../../platforms/espressif32.rst:1391
+#: ../../../platforms/espressif32.rst:1410
+#: ../../../platforms/espressif32.rst:1416
+#: ../../../platforms/espressif32.rst:1435
+#: ../../../platforms/espressif32.rst:1454
+#: ../../../platforms/espressif32.rst:1473
+#: ../../../platforms/espressif32.rst:1492
+#: ../../../platforms/espressif32.rst:1511
+#: ../../../platforms/espressif32.rst:1530
+#: ../../../platforms/espressif32.rst:1536
+#: ../../../platforms/espressif32.rst:1542
+#: ../../../platforms/espressif32.rst:1561
+#: ../../../platforms/espressif32.rst:1580
+#: ../../../platforms/espressif32.rst:1586
+#: ../../../platforms/espressif32.rst:1605
+#: ../../../platforms/espressif32.rst:1611
+#: ../../../platforms/espressif32.rst:1617
+#: ../../../platforms/espressif32.rst:1636
+#: ../../../platforms/espressif32.rst:1655
+#: ../../../platforms/espressif32.rst:1674
+#: ../../../platforms/espressif32.rst:1693
+#: ../../../platforms/espressif32.rst:1699
+#: ../../../platforms/espressif32.rst:1705
+#: ../../../platforms/espressif32.rst:1711
+#: ../../../platforms/espressif32.rst:1736
+#: ../../../platforms/espressif32.rst:1742
+#: ../../../platforms/espressif32.rst:1761
+#: ../../../platforms/espressif32.rst:1780
+#: ../../../platforms/espressif32.rst:1786
+#: ../../../platforms/espressif32.rst:1805
+#: ../../../platforms/espressif32.rst:1824
+#: ../../../platforms/espressif32.rst:1843
+#: ../../../platforms/espressif32.rst:1862
+#: ../../../platforms/espressif32.rst:1881
+#: ../../../platforms/espressif32.rst:1900
+#: ../../../platforms/espressif32.rst:1919
+#: ../../../platforms/espressif32.rst:1938
+#: ../../../platforms/espressif32.rst:1944
+#: ../../../platforms/espressif32.rst:1950
+#: ../../../platforms/espressif32.rst:1956
+#: ../../../platforms/espressif32.rst:1962
+#: ../../../platforms/espressif32.rst:1968
+#: ../../../platforms/espressif32.rst:1974
+#: ../../../platforms/espressif32.rst:1980
+#: ../../../platforms/espressif32.rst:1986
+#: ../../../platforms/espressif32.rst:1992
+#: ../../../platforms/espressif32.rst:1998
+#: ../../../platforms/espressif32.rst:2004
+#: ../../../platforms/espressif32.rst:2010
+#: ../../../platforms/espressif32.rst:2016
+#: ../../../platforms/espressif32.rst:2035
+#: ../../../platforms/espressif32.rst:2054
+#: ../../../platforms/espressif32.rst:2073
+#: ../../../platforms/espressif32.rst:2079
+#: ../../../platforms/espressif32.rst:2085
+#: ../../../platforms/espressif32.rst:2104
+#: ../../../platforms/espressif32.rst:2123
+#: ../../../platforms/espressif32.rst:2129
+#: ../../../platforms/espressif32.rst:2148
+#: ../../../platforms/espressif32.rst:2167
+#: ../../../platforms/espressif32.rst:2186
+#: ../../../platforms/espressif32.rst:2192
+#: ../../../platforms/espressif32.rst:2211
+#: ../../../platforms/espressif32.rst:2217
+#: ../../../platforms/espressif32.rst:2223
+#: ../../../platforms/espressif32.rst:2229
+#: ../../../platforms/espressif32.rst:2235
+#: ../../../platforms/espressif32.rst:2241
+#: ../../../platforms/espressif32.rst:2260
+#: ../../../platforms/espressif32.rst:2266
+#: ../../../platforms/espressif32.rst:2285
+#: ../../../platforms/espressif32.rst:2304
+#: ../../../platforms/espressif32.rst:2323
+#: ../../../platforms/espressif32.rst:2342
+#: ../../../platforms/espressif32.rst:2361
+#: ../../../platforms/espressif32.rst:2380
+#: ../../../platforms/espressif32.rst:2399
+#: ../../../platforms/espressif32.rst:2418
+#: ../../../platforms/espressif32.rst:2437
+#: ../../../platforms/espressif32.rst:2443
+#: ../../../platforms/espressif32.rst:2449
+#: ../../../platforms/espressif32.rst:2468
+#: ../../../platforms/espressif32.rst:2474
+#: ../../../platforms/espressif32.rst:2493
+#: ../../../platforms/espressif32.rst:2499
+#: ../../../platforms/espressif32.rst:2517
+#: ../../../platforms/espressif32.rst:2535
+#: ../../../platforms/espressif32.rst:2547
+#: ../../../platforms/espressif32.rst:2553
+#: ../../../platforms/espressif32.rst:2559
+#: ../../../platforms/espressif32.rst:2565
+#: ../../../platforms/espressif32.rst:2571
+#: ../../../platforms/espressif32.rst:2590
+#: ../../../platforms/espressif32.rst:2596
+#: ../../../platforms/espressif32.rst:2615
+#: ../../../platforms/espressif32.rst:2621
+#: ../../../platforms/espressif32.rst:2640
+#: ../../../platforms/espressif32.rst:2646
+#: ../../../platforms/espressif32.rst:2665
+#: ../../../platforms/espressif32.rst:2684
+#: ../../../platforms/espressif32.rst:2690
+#: ../../../platforms/espressif32.rst:2709
+#: ../../../platforms/espressif32.rst:2728
+#: ../../../platforms/espressif32.rst:2747
+#: ../../../platforms/espressif32.rst:2766
+#: ../../../platforms/espressif32.rst:2785
+#: ../../../platforms/espressif32.rst:2804
+#: ../../../platforms/espressif32.rst:2810
+#: ../../../platforms/espressif32.rst:2816
+#: ../../../platforms/espressif32.rst:2822
+#: ../../../platforms/espressif32.rst:2828
+#: ../../../platforms/espressif32.rst:2834
+#: ../../../platforms/espressif32.rst:2853
+#: ../../../platforms/espressif32.rst:2872
+#: ../../../platforms/espressif32.rst:2891
+#: ../../../platforms/espressif32.rst:2910
+#: ../../../platforms/espressif32.rst:2929
+#: ../../../platforms/espressif32.rst:2935
+#: ../../../platforms/espressif32.rst:2966
+#: ../../../platforms/espressif32.rst:2985
+#: ../../../platforms/espressif32.rst:2991
+#: ../../../platforms/espressif32.rst:2997
+#: ../../../platforms/espressif32.rst:3016
+#: ../../../platforms/espressif32.rst:3035
+#: ../../../platforms/espressif32.rst:3054
+#: ../../../platforms/espressif32.rst:3073
+#: ../../../platforms/espressif32.rst:3092
+#: ../../../platforms/espressif32.rst:3111
+#: ../../../platforms/espressif32.rst:3117
+#: ../../../platforms/espressif32.rst:3123
+#: ../../../platforms/espressif32.rst:3129
+#: ../../../platforms/espressif32.rst:3148
+#: ../../../platforms/espressif32.rst:3167
+#: ../../../platforms/espressif32.rst:3173
+#: ../../../platforms/espressif32.rst:3179
+#: ../../../platforms/espressif32.rst:3185
+#: ../../../platforms/espressif32.rst:3191
+#: ../../../platforms/espressif32.rst:3210
+#: ../../../platforms/espressif32.rst:3216
+#: ../../../platforms/espressif32.rst:3222
+#: ../../../platforms/espressif32.rst:3228
+#: ../../../platforms/espressif32.rst:3234
+#: ../../../platforms/espressif32.rst:3253
+#: ../../../platforms/espressif32.rst:3259
+#: ../../../platforms/espressif32.rst:3278
+#: ../../../platforms/espressif32.rst:3284
+#: ../../../platforms/espressif32.rst:3290
+#: ../../../platforms/espressif32.rst:3296
+#: ../../../platforms/espressif32.rst:3302
+#: ../../../platforms/espressif32.rst:3308
+#: ../../../platforms/espressif32.rst:3327
+#: ../../../platforms/espressif32.rst:3333
+#: ../../../platforms/espressif32.rst:3352
+#: ../../../platforms/espressif32.rst:3358
+#: ../../../platforms/espressif32.rst:3364
+#: ../../../platforms/espressif32.rst:3376
+#: ../../../platforms/espressif32.rst:3382
+#: ../../../platforms/espressif32.rst:3388
+#: ../../../platforms/espressif32.rst:3419
+#: ../../../platforms/espressif32.rst:3438
+#: ../../../platforms/espressif32.rst:3444
+#: ../../../platforms/espressif32.rst:3450
+#: ../../../platforms/espressif32.rst:3469
+#: ../../../platforms/espressif32.rst:3488
+#: ../../../platforms/espressif32.rst:3494
+#: ../../../platforms/espressif32.rst:3500
+#: ../../../platforms/espressif32.rst:3506
+#: ../../../platforms/espressif32.rst:3512
+#: ../../../platforms/espressif32.rst:3518
+#: ../../../platforms/espressif32.rst:3524
+#: ../../../platforms/espressif32.rst:3530
+#: ../../../platforms/espressif32.rst:3536
+#: ../../../platforms/espressif32.rst:3555
+#: ../../../platforms/espressif32.rst:3586
+#: ../../../platforms/espressif32.rst:3605
+#: ../../../platforms/espressif32.rst:3611
+#: ../../../platforms/espressif32.rst:3630
+#: ../../../platforms/espressif32.rst:3649
+#: ../../../platforms/espressif32.rst:3655
+#: ../../../platforms/espressif32.rst:3661
+#: ../../../platforms/espressif32.rst:3667
+#: ../../../platforms/espressif32.rst:3673
+#: ../../../platforms/espressif32.rst:3679
+#: ../../../platforms/espressif32.rst:3685
+#: ../../../platforms/espressif32.rst:3691
+#: ../../../platforms/espressif32.rst:3697
+#: ../../../platforms/espressif32.rst:3703
+#: ../../../platforms/espressif32.rst:3709
+#: ../../../platforms/espressif32.rst:3715
+#: ../../../platforms/espressif32.rst:3721
+#: ../../../platforms/espressif32.rst:3759
+#: ../../../platforms/espressif32.rst:3778
+#: ../../../platforms/espressif32.rst:3797
+#: ../../../platforms/espressif32.rst:3816
+#: ../../../platforms/espressif32.rst:3835
+#: ../../../platforms/espressif32.rst:3841
+#: ../../../platforms/espressif32.rst:3860
+#: ../../../platforms/espressif32.rst:3879
+#: ../../../platforms/espressif32.rst:3885
+#: ../../../platforms/espressif32.rst:3904
+#: ../../../platforms/espressif32.rst:3923
+#: ../../../platforms/espressif32.rst:3942
+#: ../../../platforms/espressif32.rst:3948
+msgid "320KB"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:99
+#: ../../../platforms/espressif32.rst:1981
+msgid ":ref:`board_espressif32_esp32-s2-kaluga-1`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:100
+#: ../../../platforms/espressif32.rst:178
+#: ../../../platforms/espressif32.rst:188
+#: ../../../platforms/espressif32.rst:193
+#: ../../../platforms/espressif32.rst:198
+#: ../../../platforms/espressif32.rst:223
+#: ../../../platforms/espressif32.rst:233
+#: ../../../platforms/espressif32.rst:243
+#: ../../../platforms/espressif32.rst:263
+#: ../../../platforms/espressif32.rst:293
+#: ../../../platforms/espressif32.rst:408
+#: ../../../platforms/espressif32.rst:413
+#: ../../../platforms/espressif32.rst:418
+#: ../../../platforms/espressif32.rst:463
+#: ../../../platforms/espressif32.rst:488
+#: ../../../platforms/espressif32.rst:503
+#: ../../../platforms/espressif32.rst:508
+#: ../../../platforms/espressif32.rst:513
+#: ../../../platforms/espressif32.rst:743
+#: ../../../platforms/espressif32.rst:783
+#: ../../../platforms/espressif32.rst:853
+#: ../../../platforms/espressif32.rst:858
+#: ../../../platforms/espressif32.rst:878
+#: ../../../platforms/espressif32.rst:883
+#: ../../../platforms/espressif32.rst:933
+#: ../../../platforms/espressif32.rst:938
+#: ../../../platforms/espressif32.rst:998
+#: ../../../platforms/espressif32.rst:1013
+#: ../../../platforms/espressif32.rst:1262
+#: ../../../platforms/espressif32.rst:1274
+#: ../../../platforms/espressif32.rst:1280
+#: ../../../platforms/espressif32.rst:1286
+#: ../../../platforms/espressif32.rst:1316
+#: ../../../platforms/espressif32.rst:1328
+#: ../../../platforms/espressif32.rst:1340
+#: ../../../platforms/espressif32.rst:1364
+#: ../../../platforms/espressif32.rst:1413
+#: ../../../platforms/espressif32.rst:1802
+#: ../../../platforms/espressif32.rst:1916
+#: ../../../platforms/espressif32.rst:1983
+#: ../../../platforms/espressif32.rst:1989
+#: ../../../platforms/espressif32.rst:2070
+#: ../../../platforms/espressif32.rst:2076
+#: ../../../platforms/espressif32.rst:2082
+#: ../../../platforms/espressif32.rst:3170
+#: ../../../platforms/espressif32.rst:3225
+#: ../../../platforms/espressif32.rst:3299
+#: ../../../platforms/espressif32.rst:3305
+#: ../../../platforms/espressif32.rst:3485
+#: ../../../platforms/espressif32.rst:3491
+#: ../../../platforms/espressif32.rst:3515
+#: ../../../platforms/espressif32.rst:3527
+#: ../../../platforms/espressif32.rst:3676
+#: ../../../platforms/espressif32.rst:3682
+#: ../../../platforms/espressif32.rst:3857
+#: ../../../platforms/espressif32.rst:3901
+msgid "ESP32S2"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:104
+#: ../../../platforms/espressif32.rst:1999
+msgid ":ref:`board_espressif32_esp32-s3-devkitc-1`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:105
+#: ../../../platforms/espressif32.rst:110
+#: ../../../platforms/espressif32.rst:115
+#: ../../../platforms/espressif32.rst:120
+#: ../../../platforms/espressif32.rst:125
+#: ../../../platforms/espressif32.rst:130
+#: ../../../platforms/espressif32.rst:153
+#: ../../../platforms/espressif32.rst:203
+#: ../../../platforms/espressif32.rst:208
+#: ../../../platforms/espressif32.rst:213
+#: ../../../platforms/espressif32.rst:218
+#: ../../../platforms/espressif32.rst:238
+#: ../../../platforms/espressif32.rst:248
+#: ../../../platforms/espressif32.rst:268
+#: ../../../platforms/espressif32.rst:273
+#: ../../../platforms/espressif32.rst:278
+#: ../../../platforms/espressif32.rst:283
+#: ../../../platforms/espressif32.rst:303
+#: ../../../platforms/espressif32.rst:308
+#: ../../../platforms/espressif32.rst:323
+#: ../../../platforms/espressif32.rst:328
+#: ../../../platforms/espressif32.rst:333
+#: ../../../platforms/espressif32.rst:348
+#: ../../../platforms/espressif32.rst:368
+#: ../../../platforms/espressif32.rst:373
+#: ../../../platforms/espressif32.rst:398
+#: ../../../platforms/espressif32.rst:438
+#: ../../../platforms/espressif32.rst:443
+#: ../../../platforms/espressif32.rst:493
+#: ../../../platforms/espressif32.rst:533
+#: ../../../platforms/espressif32.rst:548
+#: ../../../platforms/espressif32.rst:573
+#: ../../../platforms/espressif32.rst:583
+#: ../../../platforms/espressif32.rst:588
+#: ../../../platforms/espressif32.rst:593
+#: ../../../platforms/espressif32.rst:603
+#: ../../../platforms/espressif32.rst:608
+#: ../../../platforms/espressif32.rst:613
+#: ../../../platforms/espressif32.rst:633
+#: ../../../platforms/espressif32.rst:638
+#: ../../../platforms/espressif32.rst:643
+#: ../../../platforms/espressif32.rst:648
+#: ../../../platforms/espressif32.rst:713
+#: ../../../platforms/espressif32.rst:728
+#: ../../../platforms/espressif32.rst:738
+#: ../../../platforms/espressif32.rst:753
+#: ../../../platforms/espressif32.rst:758
+#: ../../../platforms/espressif32.rst:798
+#: ../../../platforms/espressif32.rst:863
+#: ../../../platforms/espressif32.rst:868
+#: ../../../platforms/espressif32.rst:873
+#: ../../../platforms/espressif32.rst:888
+#: ../../../platforms/espressif32.rst:943
+#: ../../../platforms/espressif32.rst:948
+#: ../../../platforms/espressif32.rst:953
+#: ../../../platforms/espressif32.rst:1033
+#: ../../../platforms/espressif32.rst:1038
+#: ../../../platforms/espressif32.rst:1199
+#: ../../../platforms/espressif32.rst:1292
+#: ../../../platforms/espressif32.rst:1298
+#: ../../../platforms/espressif32.rst:1304
+#: ../../../platforms/espressif32.rst:1310
+#: ../../../platforms/espressif32.rst:1334
+#: ../../../platforms/espressif32.rst:1346
+#: ../../../platforms/espressif32.rst:1370
+#: ../../../platforms/espressif32.rst:1376
+#: ../../../platforms/espressif32.rst:1382
+#: ../../../platforms/espressif32.rst:1388
+#: ../../../platforms/espressif32.rst:1470
+#: ../../../platforms/espressif32.rst:1508
+#: ../../../platforms/espressif32.rst:1527
+#: ../../../platforms/espressif32.rst:1558
+#: ../../../platforms/espressif32.rst:1583
+#: ../../../platforms/espressif32.rst:1608
+#: ../../../platforms/espressif32.rst:1671
+#: ../../../platforms/espressif32.rst:1702
+#: ../../../platforms/espressif32.rst:1708
+#: ../../../platforms/espressif32.rst:1941
+#: ../../../platforms/espressif32.rst:1995
+#: ../../../platforms/espressif32.rst:2001
+#: ../../../platforms/espressif32.rst:2007
+#: ../../../platforms/espressif32.rst:2013
+#: ../../../platforms/espressif32.rst:2120
+#: ../../../platforms/espressif32.rst:2183
+#: ../../../platforms/espressif32.rst:2189
+#: ../../../platforms/espressif32.rst:2377
+#: ../../../platforms/espressif32.rst:2440
+#: ../../../platforms/espressif32.rst:2446
+#: ../../../platforms/espressif32.rst:2471
+#: ../../../platforms/espressif32.rst:2490
+#: ../../../platforms/espressif32.rst:2514
+#: ../../../platforms/espressif32.rst:2532
+#: ../../../platforms/espressif32.rst:2587
+#: ../../../platforms/espressif32.rst:2593
+#: ../../../platforms/espressif32.rst:2725
+#: ../../../platforms/espressif32.rst:2744
+#: ../../../platforms/espressif32.rst:2888
+#: ../../../platforms/espressif32.rst:2994
+#: ../../../platforms/espressif32.rst:3108
+#: ../../../platforms/espressif32.rst:3126
+#: ../../../platforms/espressif32.rst:3164
+#: ../../../platforms/espressif32.rst:3182
+#: ../../../platforms/espressif32.rst:3188
+#: ../../../platforms/espressif32.rst:3287
+#: ../../../platforms/espressif32.rst:3330
+#: ../../../platforms/espressif32.rst:3497
+#: ../../../platforms/espressif32.rst:3503
+#: ../../../platforms/espressif32.rst:3509
+#: ../../../platforms/espressif32.rst:3533
+#: ../../../platforms/espressif32.rst:3558
+#: ../../../platforms/espressif32.rst:3564
+#: ../../../platforms/espressif32.rst:3688
+#: ../../../platforms/espressif32.rst:3694
+#: ../../../platforms/espressif32.rst:3700
+msgid "ESP32S3"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:107
+#: ../../../platforms/espressif32.rst:112
+#: ../../../platforms/espressif32.rst:117
+#: ../../../platforms/espressif32.rst:122
+#: ../../../platforms/espressif32.rst:132
+#: ../../../platforms/espressif32.rst:185
+#: ../../../platforms/espressif32.rst:210
+#: ../../../platforms/espressif32.rst:230
+#: ../../../platforms/espressif32.rst:240
+#: ../../../platforms/espressif32.rst:255
+#: ../../../platforms/espressif32.rst:275
+#: ../../../platforms/espressif32.rst:310
+#: ../../../platforms/espressif32.rst:330
+#: ../../../platforms/espressif32.rst:335
+#: ../../../platforms/espressif32.rst:350
+#: ../../../platforms/espressif32.rst:440
+#: ../../../platforms/espressif32.rst:445
+#: ../../../platforms/espressif32.rst:535
+#: ../../../platforms/espressif32.rst:545
+#: ../../../platforms/espressif32.rst:550
+#: ../../../platforms/espressif32.rst:555
+#: ../../../platforms/espressif32.rst:605
+#: ../../../platforms/espressif32.rst:615
+#: ../../../platforms/espressif32.rst:640
+#: ../../../platforms/espressif32.rst:730
+#: ../../../platforms/espressif32.rst:740
+#: ../../../platforms/espressif32.rst:755
+#: ../../../platforms/espressif32.rst:760
+#: ../../../platforms/espressif32.rst:795
+#: ../../../platforms/espressif32.rst:800
+#: ../../../platforms/espressif32.rst:870
+#: ../../../platforms/espressif32.rst:890
+#: ../../../platforms/espressif32.rst:1270
+#: ../../../platforms/espressif32.rst:1300
+#: ../../../platforms/espressif32.rst:1324
+#: ../../../platforms/espressif32.rst:1336
+#: ../../../platforms/espressif32.rst:1354
+#: ../../../platforms/espressif32.rst:1378
+#: ../../../platforms/espressif32.rst:1529
+#: ../../../platforms/espressif32.rst:1585
+#: ../../../platforms/espressif32.rst:1610
+#: ../../../platforms/espressif32.rst:1673
+#: ../../../platforms/espressif32.rst:1779
+#: ../../../platforms/espressif32.rst:1943
+#: ../../../platforms/espressif32.rst:1973
+#: ../../../platforms/espressif32.rst:2003
+#: ../../../platforms/espressif32.rst:2009
+#: ../../../platforms/espressif32.rst:2015
+#: ../../../platforms/espressif32.rst:2034
+#: ../../../platforms/espressif32.rst:2122
+#: ../../../platforms/espressif32.rst:2185
+#: ../../../platforms/espressif32.rst:2191
+#: ../../../platforms/espressif32.rst:2216
+#: ../../../platforms/espressif32.rst:2228
+#: ../../../platforms/espressif32.rst:2234
+#: ../../../platforms/espressif32.rst:2492
+#: ../../../platforms/espressif32.rst:2534
+#: ../../../platforms/espressif32.rst:2746
+#: ../../../platforms/espressif32.rst:2890
+#: ../../../platforms/espressif32.rst:2996
+#: ../../../platforms/espressif32.rst:3128
+#: ../../../platforms/espressif32.rst:3166
+#: ../../../platforms/espressif32.rst:3184
+#: ../../../platforms/espressif32.rst:3190
+#: ../../../platforms/espressif32.rst:3326
+#: ../../../platforms/espressif32.rst:3332
+#: ../../../platforms/espressif32.rst:3505
+#: ../../../platforms/espressif32.rst:3535
+msgid "8MB"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:109
+#: ../../../platforms/espressif32.rst:2005
+msgid ":ref:`board_espressif32_esp32-s3-devkitm-1`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:114
+#: ../../../platforms/espressif32.rst:2011
+msgid ":ref:`board_espressif32_esp32s3usbotg`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:119
+#: ../../../platforms/espressif32.rst:2118
+msgid ":ref:`board_espressif32_freenove_esp32_s3_wroom`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:124
+#: ../../../platforms/espressif32.rst:2469
+msgid ":ref:`board_espressif32_lionbits3`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:129
+#: ../../../platforms/espressif32.rst:2992
+msgid ":ref:`board_espressif32_rymcu-esp32-s3-devkitc-1`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:139
+msgid ""
+"Boards listed below are compatible with :ref:`piodebug` but **DEPEND ON** "
+"external debug probe. They **ARE NOT READY** for debugging. Please click on "
+"board name for the further details."
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:152
+#: ../../../platforms/espressif32.rst:1197
+msgid ":ref:`board_espressif32_4d_systems_esp32s3_gen4_r8n16`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:155
+#: ../../../platforms/espressif32.rst:250
+#: ../../../platforms/espressif32.rst:280
+#: ../../../platforms/espressif32.rst:305
+#: ../../../platforms/espressif32.rst:325
+#: ../../../platforms/espressif32.rst:375
+#: ../../../platforms/espressif32.rst:465
+#: ../../../platforms/espressif32.rst:495
+#: ../../../platforms/espressif32.rst:500
+#: ../../../platforms/espressif32.rst:585
+#: ../../../platforms/espressif32.rst:590
+#: ../../../platforms/espressif32.rst:610
+#: ../../../platforms/espressif32.rst:775
+#: ../../../platforms/espressif32.rst:780
+#: ../../../platforms/espressif32.rst:855
+#: ../../../platforms/espressif32.rst:865
+#: ../../../platforms/espressif32.rst:875
+#: ../../../platforms/espressif32.rst:945
+#: ../../../platforms/espressif32.rst:955
+#: ../../../platforms/espressif32.rst:1000
+#: ../../../platforms/espressif32.rst:1201
+#: ../../../platforms/espressif32.rst:1348
+#: ../../../platforms/espressif32.rst:1384
+#: ../../../platforms/espressif32.rst:1472
+#: ../../../platforms/espressif32.rst:1510
+#: ../../../platforms/espressif32.rst:1560
+#: ../../../platforms/espressif32.rst:1710
+#: ../../../platforms/espressif32.rst:1716
+#: ../../../platforms/espressif32.rst:1918
+#: ../../../platforms/espressif32.rst:1997
+#: ../../../platforms/espressif32.rst:2166
+#: ../../../platforms/espressif32.rst:2442
+#: ../../../platforms/espressif32.rst:2504
+#: ../../../platforms/espressif32.rst:2510
+#: ../../../platforms/espressif32.rst:2516
+#: ../../../platforms/espressif32.rst:2522
+#: ../../../platforms/espressif32.rst:2528
+#: ../../../platforms/espressif32.rst:2540
+#: ../../../platforms/espressif32.rst:2784
+#: ../../../platforms/espressif32.rst:3221
+#: ../../../platforms/espressif32.rst:3258
+#: ../../../platforms/espressif32.rst:3381
+#: ../../../platforms/espressif32.rst:3487
+#: ../../../platforms/espressif32.rst:3499
+#: ../../../platforms/espressif32.rst:3511
+#: ../../../platforms/espressif32.rst:3690
+#: ../../../platforms/espressif32.rst:3702
+#: ../../../platforms/espressif32.rst:3758
+#: ../../../platforms/espressif32.rst:3815
+#: ../../../platforms/espressif32.rst:3859
+msgid "16MB"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:157
+#: ../../../platforms/espressif32.rst:1216
+msgid ":ref:`board_espressif32_esp32cam`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:162
+#: ../../../platforms/espressif32.rst:3030
+msgid ":ref:`board_espressif32_alksesp32`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:167
+#: ../../../platforms/espressif32.rst:1235
+msgid ":ref:`board_espressif32_az-delivery-devkit-v4`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:171
+#: ../../../platforms/espressif32.rst:501
+#: ../../../platforms/espressif32.rst:1240
+#: ../../../platforms/espressif32.rst:1717
+#: ../../../platforms/espressif32.rst:2505
+#: ../../../platforms/espressif32.rst:2529
+msgid "520KB"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:172
+#: ../../../platforms/espressif32.rst:1254
+msgid ":ref:`board_espressif32_featheresp32`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:177
+#: ../../../platforms/espressif32.rst:1260
+msgid ":ref:`board_espressif32_featheresp32-s2`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:182
+#: ../../../platforms/espressif32.rst:1266
+msgid ":ref:`board_espressif32_adafruit_feather_esp32_v2`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:187
+#: ../../../platforms/espressif32.rst:1272
+msgid ":ref:`board_espressif32_adafruit_feather_esp32s2`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:192
+#: ../../../platforms/espressif32.rst:1278
+msgid ":ref:`board_espressif32_adafruit_feather_esp32s2_reversetft`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:197
+#: ../../../platforms/espressif32.rst:1284
+msgid ":ref:`board_espressif32_adafruit_feather_esp32s2_tft`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:202
+#: ../../../platforms/espressif32.rst:1290
+msgid ":ref:`board_espressif32_adafruit_feather_esp32s3`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:207
+#: ../../../platforms/espressif32.rst:1296
+msgid ":ref:`board_espressif32_adafruit_feather_esp32s3_nopsram`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:212
+#: ../../../platforms/espressif32.rst:1302
+msgid ":ref:`board_espressif32_adafruit_feather_esp32s3_reversetft`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:217
+#: ../../../platforms/espressif32.rst:1308
+msgid ":ref:`board_espressif32_adafruit_feather_esp32s3_tft`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:222
+#: ../../../platforms/espressif32.rst:1314
+msgid ":ref:`board_espressif32_adafruit_funhouse_esp32s2`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:227
+#: ../../../platforms/espressif32.rst:1320
+msgid ":ref:`board_espressif32_adafruit_itsybitsy_esp32`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:232
+#: ../../../platforms/espressif32.rst:1326
+msgid ":ref:`board_espressif32_adafruit_magtag29_esp32s2`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:237
+#: ../../../platforms/espressif32.rst:1332
+msgid ":ref:`board_espressif32_adafruit_matrixportal_esp32s3`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:242
+#: ../../../platforms/espressif32.rst:1338
+msgid ":ref:`board_espressif32_adafruit_metro_esp32s2`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:247
+#: ../../../platforms/espressif32.rst:1344
+msgid ":ref:`board_espressif32_adafruit_metro_esp32s3`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:252
+#: ../../../platforms/espressif32.rst:1350
+msgid ":ref:`board_espressif32_adafruit_qtpy_esp32`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:257
+#: ../../../platforms/espressif32.rst:1356
+msgid ":ref:`board_espressif32_adafruit_qtpy_esp32c3`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:258
+#: ../../../platforms/espressif32.rst:288
+#: ../../../platforms/espressif32.rst:298
+#: ../../../platforms/espressif32.rst:338
+#: ../../../platforms/espressif32.rst:358
+#: ../../../platforms/espressif32.rst:403
+#: ../../../platforms/espressif32.rst:473
+#: ../../../platforms/espressif32.rst:478
+#: ../../../platforms/espressif32.rst:693
+#: ../../../platforms/espressif32.rst:718
+#: ../../../platforms/espressif32.rst:748
+#: ../../../platforms/espressif32.rst:823
+#: ../../../platforms/espressif32.rst:893
+#: ../../../platforms/espressif32.rst:898
+#: ../../../platforms/espressif32.rst:918
+#: ../../../platforms/espressif32.rst:968
+#: ../../../platforms/espressif32.rst:1358
+#: ../../../platforms/espressif32.rst:1407
+#: ../../../platforms/espressif32.rst:1432
+#: ../../../platforms/espressif32.rst:1614
+#: ../../../platforms/espressif32.rst:1690
+#: ../../../platforms/espressif32.rst:1959
+#: ../../../platforms/espressif32.rst:1965
+#: ../../../platforms/espressif32.rst:2982
+#: ../../../platforms/espressif32.rst:3114
+#: ../../../platforms/espressif32.rst:3176
+#: ../../../platforms/espressif32.rst:3293
+#: ../../../platforms/espressif32.rst:3373
+#: ../../../platforms/espressif32.rst:3602
+#: ../../../platforms/espressif32.rst:3608
+#: ../../../platforms/espressif32.rst:3658
+#: ../../../platforms/espressif32.rst:3737
+msgid "ESP32C3"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:259
+#: ../../../platforms/espressif32.rst:289
+#: ../../../platforms/espressif32.rst:299
+#: ../../../platforms/espressif32.rst:339
+#: ../../../platforms/espressif32.rst:359
+#: ../../../platforms/espressif32.rst:404
+#: ../../../platforms/espressif32.rst:474
+#: ../../../platforms/espressif32.rst:479
+#: ../../../platforms/espressif32.rst:484
+#: ../../../platforms/espressif32.rst:694
+#: ../../../platforms/espressif32.rst:719
+#: ../../../platforms/espressif32.rst:724
+#: ../../../platforms/espressif32.rst:749
+#: ../../../platforms/espressif32.rst:824
+#: ../../../platforms/espressif32.rst:894
+#: ../../../platforms/espressif32.rst:899
+#: ../../../platforms/espressif32.rst:919
+#: ../../../platforms/espressif32.rst:969
+#: ../../../platforms/espressif32.rst:989
+#: ../../../platforms/espressif32.rst:994
+#: ../../../platforms/espressif32.rst:1359
+#: ../../../platforms/espressif32.rst:1408
+#: ../../../platforms/espressif32.rst:1433
+#: ../../../platforms/espressif32.rst:1578
+#: ../../../platforms/espressif32.rst:1615
+#: ../../../platforms/espressif32.rst:1691
+#: ../../../platforms/espressif32.rst:1960
+#: ../../../platforms/espressif32.rst:1966
+#: ../../../platforms/espressif32.rst:1972
+#: ../../../platforms/espressif32.rst:1978
+#: ../../../platforms/espressif32.rst:2983
+#: ../../../platforms/espressif32.rst:3115
+#: ../../../platforms/espressif32.rst:3121
+#: ../../../platforms/espressif32.rst:3177
+#: ../../../platforms/espressif32.rst:3294
+#: ../../../platforms/espressif32.rst:3374
+#: ../../../platforms/espressif32.rst:3603
+#: ../../../platforms/espressif32.rst:3609
+#: ../../../platforms/espressif32.rst:3659
+#: ../../../platforms/espressif32.rst:3738
+#: ../../../platforms/espressif32.rst:3833
+#: ../../../platforms/espressif32.rst:3839
+msgid "160MHz"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:262
+#: ../../../platforms/espressif32.rst:1362
+msgid ":ref:`board_espressif32_adafruit_qtpy_esp32s2`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:267
+#: ../../../platforms/espressif32.rst:1368
+msgid ":ref:`board_espressif32_adafruit_qtpy_esp32s3_n4r2`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:272
+#: ../../../platforms/espressif32.rst:1374
+msgid ":ref:`board_espressif32_adafruit_qtpy_esp32s3_nopsram`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:277
+#: ../../../platforms/espressif32.rst:1380
+msgid ":ref:`board_espressif32_adafruit_qualia_s3_rgb666`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:282
+#: ../../../platforms/espressif32.rst:1386
+msgid ":ref:`board_espressif32_adafruit_camera_esp32s3`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:287
+#: ../../../platforms/espressif32.rst:1405
+msgid ":ref:`board_espressif32_esp32-c3-m1i-kit`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:292
+#: ../../../platforms/espressif32.rst:1411
+msgid ":ref:`board_espressif32_nodemcu-32s2`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:297
+#: ../../../platforms/espressif32.rst:1430
+msgid ":ref:`board_espressif32_airm2m_core_esp32c3`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:302
+#: ../../../platforms/espressif32.rst:1506
+msgid ":ref:`board_espressif32_arduino_nano_esp32`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:307
+#: ../../../platforms/espressif32.rst:1525
+msgid ":ref:`board_espressif32_atd147_s3`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:312
+#: ../../../platforms/espressif32.rst:1531
+msgid ":ref:`board_espressif32_ioxesp32`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:317
+#: ../../../platforms/espressif32.rst:1537
+msgid ":ref:`board_espressif32_ioxesp32ps`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:322
+#: ../../../platforms/espressif32.rst:1556
+msgid ":ref:`board_espressif32_aventen_s3_sync`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:327
+#: ../../../platforms/espressif32.rst:1581
+msgid ":ref:`board_espressif32_bpi_leaf_s3`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:332
+#: ../../../platforms/espressif32.rst:1606
+msgid ":ref:`board_espressif32_wifiduino32s3`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:337
+#: ../../../platforms/espressif32.rst:1612
+msgid ":ref:`board_espressif32_wifiduino32c3`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:342
+#: ../../../platforms/espressif32.rst:1650
+msgid ":ref:`board_espressif32_connaxio_espoir`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:347
+#: ../../../platforms/espressif32.rst:1669
+msgid ":ref:`board_espressif32_cytron_maker_feather_aiot_s3`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:352
+#: ../../../platforms/espressif32.rst:1756
+msgid ":ref:`board_espressif32_d-duino-32`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:357
+#: ../../../platforms/espressif32.rst:1688
+msgid ":ref:`board_espressif32_dfrobot_beetle_esp32c3`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:362
+#: ../../../platforms/espressif32.rst:1694
+msgid ":ref:`board_espressif32_dfrobot_firebeetle2_esp32e`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:367
+#: ../../../platforms/espressif32.rst:1700
+msgid ":ref:`board_espressif32_dfrobot_firebeetle2_esp32s3`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:372
+#: ../../../platforms/espressif32.rst:1706
+msgid ":ref:`board_espressif32_dfrobot_romeo_esp32s3`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:377
+#: ../../../platforms/espressif32.rst:1731
+msgid ":ref:`board_espressif32_esp32doit-devkit-v1`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:382
+#: ../../../platforms/espressif32.rst:1737
+msgid ":ref:`board_espressif32_esp32doit-espduino`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:387
+#: ../../../platforms/espressif32.rst:3273
+msgid ":ref:`board_espressif32_deneyapkart`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:392
+#: ../../../platforms/espressif32.rst:3279
+msgid ":ref:`board_espressif32_deneyapkart1A`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:397
+#: ../../../platforms/espressif32.rst:3285
+msgid ":ref:`board_espressif32_deneyapkart1Av2`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:402
+#: ../../../platforms/espressif32.rst:3291
+msgid ":ref:`board_espressif32_deneyapkartg`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:407
+#: ../../../platforms/espressif32.rst:3297
+msgid ":ref:`board_espressif32_deneyapmini`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:412
+#: ../../../platforms/espressif32.rst:3303
+msgid ":ref:`board_espressif32_deneyapminiv2`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:417
+#: ../../../platforms/espressif32.rst:1800
+msgid ":ref:`board_espressif32_minimain_esp32s2`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:422
+#: ../../../platforms/espressif32.rst:1819
+msgid ":ref:`board_espressif32_pocket_32`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:427
+#: ../../../platforms/espressif32.rst:3581
+msgid ":ref:`board_espressif32_fm-devkit`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:432
+#: ../../../platforms/espressif32.rst:1933
+msgid ":ref:`board_espressif32_pico32`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:437
+#: ../../../platforms/espressif32.rst:2886
+msgid ":ref:`board_espressif32_esp32s3_powerfeather`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:442
+#: ../../../platforms/espressif32.rst:1939
+msgid ":ref:`board_espressif32_esp32s3camlcd`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:447
+#: ../../../platforms/espressif32.rst:1857
+msgid ":ref:`board_espressif32_esp32vn-iot-uno`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:452
+#: ../../../platforms/espressif32.rst:1838
+msgid ":ref:`board_espressif32_espectro32`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:457
+#: ../../../platforms/espressif32.rst:3414
+msgid ":ref:`board_espressif32_espino32`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:462
+#: ../../../platforms/espressif32.rst:1914
+msgid ":ref:`board_espressif32_atmegazero_esp32s2`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:467
+#: ../../../platforms/espressif32.rst:1951
+msgid ":ref:`board_espressif32_esp32dev`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:472
+#: ../../../platforms/espressif32.rst:1957
+msgid ":ref:`board_espressif32_esp32-c3-devkitc-02`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:477
+#: ../../../platforms/espressif32.rst:1963
+msgid ":ref:`board_espressif32_esp32-c3-devkitm-1`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:482
+#: ../../../platforms/espressif32.rst:1975
+msgid ":ref:`board_espressif32_esp32-c6-devkitm-1`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:483
+#: ../../../platforms/espressif32.rst:723
+#: ../../../platforms/espressif32.rst:988
+#: ../../../platforms/espressif32.rst:993
+#: ../../../platforms/espressif32.rst:1971
+#: ../../../platforms/espressif32.rst:1977
+#: ../../../platforms/espressif32.rst:3120
+#: ../../../platforms/espressif32.rst:3832
+#: ../../../platforms/espressif32.rst:3838
+msgid "ESP32C6"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:487
+#: ../../../platforms/espressif32.rst:1987
+msgid ":ref:`board_espressif32_esp32-s2-saola-1`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:492
+#: ../../../platforms/espressif32.rst:1993
+msgid ":ref:`board_espressif32_esp32s3box`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:497
+#: ../../../platforms/espressif32.rst:1712
+msgid ":ref:`board_espressif32_firebeetle32`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:502
+#: ../../../platforms/espressif32.rst:2068
+msgid ":ref:`board_espressif32_franzininho_wifi_esp32s2`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:507
+#: ../../../platforms/espressif32.rst:2074
+msgid ":ref:`board_espressif32_esp32-s2-franzininho`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:512
+#: ../../../platforms/espressif32.rst:2080
+msgid ":ref:`board_espressif32_franzininho_wifi_msc_esp32s2`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:517
+#: ../../../platforms/espressif32.rst:2124
+msgid ":ref:`board_espressif32_freenove_esp32_wrover`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:522
+#: ../../../platforms/espressif32.rst:2099
+msgid ":ref:`board_espressif32_frogboard`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:527
+#: ../../../platforms/espressif32.rst:2143
+msgid ":ref:`board_espressif32_honeylemon`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:532
+#: ../../../platforms/espressif32.rst:2181
+msgid ":ref:`board_espressif32_heltec_wifi_kit_32_V3`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:537
+#: ../../../platforms/espressif32.rst:2218
+msgid ":ref:`board_espressif32_heltec_wifi_lora_32`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:542
+#: ../../../platforms/espressif32.rst:2224
+msgid ":ref:`board_espressif32_heltec_wifi_lora_32_V2`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:547
+#: ../../../platforms/espressif32.rst:2187
+msgid ":ref:`board_espressif32_heltec_wifi_lora_32_V3`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:552
+#: ../../../platforms/espressif32.rst:2230
+msgid ":ref:`board_espressif32_heltec_wireless_stick`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:557
+#: ../../../platforms/espressif32.rst:2255
+msgid ":ref:`board_espressif32_hornbill32dev`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:562
+#: ../../../platforms/espressif32.rst:2261
+msgid ":ref:`board_espressif32_hornbill32minima`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:567
+#: ../../../platforms/espressif32.rst:2337
+msgid ":ref:`board_espressif32_iotaap_magnolia`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:572
+#: ../../../platforms/espressif32.rst:2375
+msgid ":ref:`board_espressif32_nebulas3`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:577
+#: ../../../platforms/espressif32.rst:2394
+msgid ":ref:`board_espressif32_sensesiot_weizen`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:582
+#: ../../../platforms/espressif32.rst:1468
+msgid ":ref:`board_espressif32_lilka_v2`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:587
+#: ../../../platforms/espressif32.rst:2438
+msgid ":ref:`board_espressif32_lilygo-t-display-s3`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:592
+#: ../../../platforms/espressif32.rst:2444
+msgid ":ref:`board_espressif32_lilygo-t3-s3`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:597
+#: ../../../platforms/espressif32.rst:2463
+msgid ":ref:`board_espressif32_lionbit`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:602
+#: ../../../platforms/espressif32.rst:2488
+msgid ":ref:`board_espressif32_m5stack-atoms3`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:607
+#: ../../../platforms/espressif32.rst:2512
+msgid ":ref:`board_espressif32_m5stack-cores3`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:612
+#: ../../../platforms/espressif32.rst:2530
+msgid ":ref:`board_espressif32_m5stack-stamps3`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:617
+#: ../../../platforms/espressif32.rst:2635
+msgid ":ref:`board_espressif32_mhetesp32devkit`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:622
+#: ../../../platforms/espressif32.rst:2641
+msgid ":ref:`board_espressif32_mhetesp32minikit`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:627
+#: ../../../platforms/espressif32.rst:2679
+msgid ":ref:`board_espressif32_kb32-ft`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:632
+#: ../../../platforms/espressif32.rst:2723
+msgid ":ref:`board_espressif32_motorgo_mini_1`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:637
+#: ../../../platforms/espressif32.rst:2742
+msgid ":ref:`board_espressif32_redpill_esp32s3`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:642
+#: ../../../platforms/espressif32.rst:2585
+msgid ":ref:`board_espressif32_namino_arancio`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:647
+#: ../../../platforms/espressif32.rst:2591
+msgid ":ref:`board_espressif32_namino_rosso`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:652
+#: ../../../platforms/espressif32.rst:1449
+msgid ":ref:`board_espressif32_node32s`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:657
+#: ../../../platforms/espressif32.rst:2761
+msgid ":ref:`board_espressif32_nodemcu-32s`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:662
+#: ../../../platforms/espressif32.rst:2799
+msgid ":ref:`board_espressif32_esp32-devkitlipo`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:667
+#: ../../../platforms/espressif32.rst:2805
+msgid ":ref:`board_espressif32_esp32-evb`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:672
+#: ../../../platforms/espressif32.rst:2811
+msgid ":ref:`board_espressif32_esp32-gateway`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:677
+#: ../../../platforms/espressif32.rst:2930
+msgid ":ref:`board_espressif32_lopy`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:682
+#: ../../../platforms/espressif32.rst:2936
+msgid ":ref:`board_espressif32_lopy4`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:686
+#: ../../../platforms/espressif32.rst:691
+#: ../../../platforms/espressif32.rst:821
+#: ../../../platforms/espressif32.rst:836
+#: ../../../platforms/espressif32.rst:2941
+#: ../../../platforms/espressif32.rst:2947
+#: ../../../platforms/espressif32.rst:3370
+#: ../../../platforms/espressif32.rst:3394
+#: ../../../platforms/espressif32.rst:3400
+msgid "1.25MB"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:687
+#: ../../../platforms/espressif32.rst:2942
+msgid ":ref:`board_espressif32_wipy3`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:692
+#: ../../../platforms/espressif32.rst:2980
+msgid ":ref:`board_espressif32_rymcu-esp32-c3-devkitm-1`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:697
+#: ../../../platforms/espressif32.rst:2986
+msgid ":ref:`board_espressif32_rymcu-esp32-devkitc`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:702
+#: ../../../platforms/espressif32.rst:3068
+msgid ":ref:`board_espressif32_sg-o_airMon`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:707
+#: ../../../platforms/espressif32.rst:3087
+msgid ":ref:`board_espressif32_watchy`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:712
+#: ../../../platforms/espressif32.rst:3106
+msgid ":ref:`board_espressif32_edgebox-esp-100`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:717
+#: ../../../platforms/espressif32.rst:3112
+msgid ":ref:`board_espressif32_seeed_xiao_esp32c3`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:722
+#: ../../../platforms/espressif32.rst:3118
+msgid ":ref:`board_espressif32_seeed_xiao_esp32c6`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:727
+#: ../../../platforms/espressif32.rst:3124
+msgid ":ref:`board_espressif32_seeed_xiao_esp32s3`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:732
+#: ../../../platforms/espressif32.rst:3143
+msgid ":ref:`board_espressif32_wesp32`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:737
+#: ../../../platforms/espressif32.rst:3162
+msgid ":ref:`board_espressif32_bee_data_logger`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:742
+#: ../../../platforms/espressif32.rst:3168
+msgid ":ref:`board_espressif32_bee_motion`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:747
+#: ../../../platforms/espressif32.rst:3174
+msgid ":ref:`board_espressif32_bee_motion_mini`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:752
+#: ../../../platforms/espressif32.rst:3180
+msgid ":ref:`board_espressif32_bee_motion_s3`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:757
+#: ../../../platforms/espressif32.rst:3186
+msgid ":ref:`board_espressif32_bee_s3`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:762
+#: ../../../platforms/espressif32.rst:3205
+msgid ":ref:`board_espressif32_sparkfun_esp32_iot_redboard`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:767
+#: ../../../platforms/espressif32.rst:3248
+msgid ":ref:`board_espressif32_esp32thing`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:772
+#: ../../../platforms/espressif32.rst:3254
+msgid ":ref:`board_espressif32_esp32thing_plus`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:777
+#: ../../../platforms/espressif32.rst:3217
+msgid ":ref:`board_espressif32_sparkfun_esp32s2_thing_plus_c`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:782
+#: ../../../platforms/espressif32.rst:3223
+msgid ":ref:`board_espressif32_sparkfun_esp32s2_thing_plus`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:787
+#: ../../../platforms/espressif32.rst:3229
+msgid ":ref:`board_espressif32_sparkfun_lora_gateway_1-channel`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:792
+#: ../../../platforms/espressif32.rst:3322
+msgid ":ref:`board_espressif32_dpu_esp32`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:797
+#: ../../../platforms/espressif32.rst:3328
+msgid ":ref:`board_espressif32_tamc_termod_s3`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:802
+#: ../../../platforms/espressif32.rst:3347
+msgid ":ref:`board_espressif32_ttgo-lora32-v1`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:807
+#: ../../../platforms/espressif32.rst:3353
+msgid ":ref:`board_espressif32_ttgo-lora32-v2`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:812
+#: ../../../platforms/espressif32.rst:3359
+msgid ":ref:`board_espressif32_ttgo-lora32-v21`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:817
+#: ../../../platforms/espressif32.rst:3365
+msgid ":ref:`board_espressif32_ttgo-t-beam`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:822
+#: ../../../platforms/espressif32.rst:3371
+msgid ":ref:`board_espressif32_ttgo-t-oi-plus`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:827
+#: ../../../platforms/espressif32.rst:3383
+msgid ":ref:`board_espressif32_ttgo-t1`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:832
+#: ../../../platforms/espressif32.rst:3395
+msgid ":ref:`board_espressif32_ttgo-t7-v14-mini32`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:837
+#: ../../../platforms/espressif32.rst:3433
+msgid ":ref:`board_espressif32_trueverit-iot-driver`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:842
+#: ../../../platforms/espressif32.rst:3439
+msgid ":ref:`board_espressif32_trueverit-iot-driver-mk2`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:847
+#: ../../../platforms/espressif32.rst:3445
+msgid ":ref:`board_espressif32_trueverit-iot-driver-mk3`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:852
+#: ../../../platforms/espressif32.rst:3483
+msgid ":ref:`board_espressif32_um_feathers2`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:857
+#: ../../../platforms/espressif32.rst:3489
+msgid ":ref:`board_espressif32_um_feathers2_neo`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:862
+#: ../../../platforms/espressif32.rst:3495
+msgid ":ref:`board_espressif32_um_feathers3`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:867
+#: ../../../platforms/espressif32.rst:3501
+msgid ":ref:`board_espressif32_um_nanos3`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:872
+#: ../../../platforms/espressif32.rst:3507
+msgid ":ref:`board_espressif32_um_pros3`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:877
+#: ../../../platforms/espressif32.rst:3513
+msgid ":ref:`board_espressif32_um_rmp`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:882
+#: ../../../platforms/espressif32.rst:3525
+msgid ":ref:`board_espressif32_um_tinys2`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:887
+#: ../../../platforms/espressif32.rst:3531
+msgid ":ref:`board_espressif32_um_tinys3`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:892
+#: ../../../platforms/espressif32.rst:3600
+msgid ":ref:`board_espressif32_valtrack_v4_mfw_esp32_c3`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:897
+#: ../../../platforms/espressif32.rst:3606
+msgid ":ref:`board_espressif32_valtrack_v4_vts_esp32_c3`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:902
+#: ../../../platforms/espressif32.rst:3625
+msgid ":ref:`board_espressif32_vintlabs-devkit-v1`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:907
+#: ../../../platforms/espressif32.rst:3644
+msgid ":ref:`board_espressif32_wemos_d1_mini32`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:912
+#: ../../../platforms/espressif32.rst:3650
+msgid ":ref:`board_espressif32_wemos_d1_uno32`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:917
+#: ../../../platforms/espressif32.rst:3656
+msgid ":ref:`board_espressif32_lolin_c3_mini`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:922
+#: ../../../platforms/espressif32.rst:3662
+msgid ":ref:`board_espressif32_lolin_d32`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:927
+#: ../../../platforms/espressif32.rst:3668
+msgid ":ref:`board_espressif32_lolin_d32_pro`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:932
+#: ../../../platforms/espressif32.rst:3674
+msgid ":ref:`board_espressif32_lolin_s2_mini`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:937
+#: ../../../platforms/espressif32.rst:3680
+msgid ":ref:`board_espressif32_lolin_s2_pico`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:942
+#: ../../../platforms/espressif32.rst:3686
+msgid ":ref:`board_espressif32_lolin_s3`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:947
+#: ../../../platforms/espressif32.rst:3692
+msgid ":ref:`board_espressif32_lolin_s3_mini`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:952
+#: ../../../platforms/espressif32.rst:3698
+msgid ":ref:`board_espressif32_lolin_s3_pro`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:957
+#: ../../../platforms/espressif32.rst:3704
+msgid ":ref:`board_espressif32_lolin32`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:962
+#: ../../../platforms/espressif32.rst:3710
+msgid ":ref:`board_espressif32_lolin32_lite`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:967
+#: ../../../platforms/espressif32.rst:3735
+msgid ":ref:`board_espressif32_weactstudio_esp32c3coreboard`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:970
+#: ../../../platforms/espressif32.rst:3739
+msgid "384KB"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:971
+#: ../../../platforms/espressif32.rst:3740
+msgid "400KB"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:972
+#: ../../../platforms/espressif32.rst:3716
+msgid ":ref:`board_espressif32_wemosbat`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:977
+#: ../../../platforms/espressif32.rst:3773
+msgid ":ref:`board_espressif32_wt32-eth01`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:982
+#: ../../../platforms/espressif32.rst:3792
+msgid ":ref:`board_espressif32_xinabox_cw02`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:987
+#: ../../../platforms/espressif32.rst:3830
+msgid ":ref:`board_espressif32_cezerio_dev_esp32c6`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:992
+#: ../../../platforms/espressif32.rst:3836
+msgid ":ref:`board_espressif32_cezerio_mini_dev_esp32c6`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:997
+#: ../../../platforms/espressif32.rst:3855
+msgid ":ref:`board_espressif32_micros2`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:1002
+#: ../../../platforms/espressif32.rst:3874
+msgid ":ref:`board_espressif32_iotbusio`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:1007
+#: ../../../platforms/espressif32.rst:3880
+msgid ":ref:`board_espressif32_iotbusproteus`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:1012
+#: ../../../platforms/espressif32.rst:3899
+msgid ":ref:`board_espressif32_sensebox_mcu_esp32s2`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:1017
+#: ../../../platforms/espressif32.rst:3937
+msgid ":ref:`board_espressif32_upesy_wroom`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:1022
+#: ../../../platforms/espressif32.rst:3943
+msgid ":ref:`board_espressif32_upesy_wrover`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:1027
+#: ../../../platforms/espressif32.rst:3550
+msgid ":ref:`board_espressif32_unphone7`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:1032
+#: ../../../platforms/espressif32.rst:3556
+msgid ":ref:`board_espressif32_unphone8`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:1035
+#: ../../../platforms/espressif32.rst:1040
+#: ../../../platforms/espressif32.rst:3560
+#: ../../../platforms/espressif32.rst:3566
+msgid "7.94MB"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:1036
+#: ../../../platforms/espressif32.rst:3561
+msgid "2.31MB"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:1037
+#: ../../../platforms/espressif32.rst:3562
+msgid ":ref:`board_espressif32_unphone9`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:1041
+#: ../../../platforms/espressif32.rst:3567
+msgid "8.31MB"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:1045
+msgid "Stable and upstream versions"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:1047
+msgid ""
+"You can switch between `stable releases <https://github.com/platformio/"
+"platform-espressif32/releases>`__ of Espressif 32 development platform and "
+"the latest upstream version using :ref:`projectconf_env_platform` option in :"
+"ref:`projectconf` as described below."
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:1052
+msgid "Stable"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:1068
+msgid "Upstream"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:1078
+msgid "Packages"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:1084
+#: ../../../platforms/espressif32.rst:1169
+msgid "Description"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:1086
+msgid ""
+"`framework-arduinoespressif32 <https://registry.platformio.org/tools/"
+"platformio/framework-arduinoespressif32>`__"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:1087
+msgid ""
+"Arduino Wiring-based Framework for the Espressif ESP32, ESP32-S and ESP32-C "
+"series of SoCs"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:1089
+msgid ""
+"`framework-espidf <https://registry.platformio.org/tools/platformio/"
+"framework-espidf>`__"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:1090
+#: ../../../platforms/espressif32.rst:1175
+msgid ""
+"Espressif IoT Development Framework. Official development framework for "
+"ESP32 chip"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:1092
+msgid ""
+"`tool-cmake <https://registry.platformio.org/tools/platformio/tool-cmake>`__"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:1093
+msgid ""
+"CMake is an open-source, cross-platform family of tools designed to build, "
+"test and package software"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:1095
+msgid ""
+"`tool-dfuutil-arduino <https://registry.platformio.org/tools/platformio/tool-"
+"dfuutil-arduino>`__"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:1096
+msgid "Device Firmware Upgrade Utilities"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:1098
+msgid ""
+"`tool-esp-rom-elfs <https://registry.platformio.org/tools/platformio/tool-"
+"esp-rom-elfs>`__"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:1099
+msgid "ELF files of ROMs used by ESP32 series of chips"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:1101
+msgid ""
+"`tool-esptoolpy <https://registry.platformio.org/tools/platformio/tool-"
+"esptoolpy>`__"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:1102
+msgid ""
+"A Python-based, open-source, platform-independent utility to communicate "
+"with the ROM bootloader in Espressif chips"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:1104
+msgid ""
+"`tool-idf <https://registry.platformio.org/tools/platformio/tool-idf>`__"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:1105
+msgid "idf is a top-level config/build command line tool for ESP-IDF"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:1107
+msgid ""
+"`tool-mconf <https://registry.platformio.org/tools/platformio/tool-mconf>`__"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:1108
+msgid ""
+"Fork of kconfig-frontends project with some modifications for use with ESP-"
+"IDF"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:1110
+msgid ""
+"`tool-mkfatfs <https://registry.platformio.org/tools/platformio/tool-"
+"mkfatfs>`__"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:1111
+msgid "Utility for creating FFat images"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:1113
+msgid ""
+"`tool-mklittlefs <https://registry.platformio.org/tools/platformio/tool-"
+"mklittlefs>`__"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:1114
+msgid "Utility for creating littlefs images for upload on the ESP8266"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:1116
+msgid ""
+"`tool-mkspiffs <https://registry.platformio.org/tools/platformio/tool-"
+"mkspiffs>`__"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:1117
+msgid "Tool to build and unpack SPIFFS images"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:1119
+msgid ""
+"`tool-ninja <https://registry.platformio.org/tools/platformio/tool-ninja>`__"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:1120
+msgid "Ninja is a small build system with a focus on speed"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:1122
+msgid ""
+"`tool-openocd-esp32 <https://registry.platformio.org/tools/platformio/tool-"
+"openocd-esp32>`__"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:1123
+msgid "Open On-Chip Debugger for Espressif ESP32"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:1125
+msgid ""
+"`tool-riscv32-esp-elf-gdb <https://registry.platformio.org/tools/espressif/"
+"tool-riscv32-esp-elf-gdb>`__"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:1126
+#: ../../../platforms/espressif32.rst:1129
+msgid "GNU GDB for Espressif ESP32 Xtensa MCUs (RISC-V Core)"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:1128
+msgid ""
+"`tool-xtensa-esp-elf-gdb <https://registry.platformio.org/tools/espressif/"
+"tool-xtensa-esp-elf-gdb>`__"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:1131
+msgid ""
+"`toolchain-esp32ulp <https://registry.platformio.org/tools/platformio/"
+"toolchain-esp32ulp>`__"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:1132
+msgid "Binutils fork with support for the Espressif ESP32 ULP co-processor"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:1134
+msgid ""
+"`toolchain-riscv32-esp <https://registry.platformio.org/tools/espressif/"
+"toolchain-riscv32-esp>`__"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:1135
+msgid "GCC Toolchain for Espressif 32-bit RISC-V based MCUs"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:1137
+msgid ""
+"`toolchain-xtensa-esp-elf <https://registry.platformio.org/tools/platformio/"
+"toolchain-xtensa-esp-elf>`__"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:1138
+#: ../../../platforms/espressif32.rst:1141
+msgid "GCC Toolchain for Espressif ESP32 Xtensa MCUs"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:1140
+msgid ""
+"`toolchain-xtensa-esp32 <https://registry.platformio.org/tools/espressif/"
+"toolchain-xtensa-esp32>`__"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:1143
+msgid ""
+"`toolchain-xtensa-esp32s2 <https://registry.platformio.org/tools/espressif/"
+"toolchain-xtensa-esp32s2>`__"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:1144
+msgid "GCC Toolchain for Espressif ESP32-S2 Xtensa MCUs"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:1146
+msgid ""
+"`toolchain-xtensa-esp32s3 <https://registry.platformio.org/tools/espressif/"
+"toolchain-xtensa-esp32s3>`__"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:1147
+msgid "GCC Toolchain for Espressif ESP32-S3 Xtensa MCUs"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:1150
+msgid "**Linux Users**:"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:1152
+msgid "Install \"udev\" rules :ref:`platformio_udev_rules`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:1153
+msgid ""
+"Raspberry Pi users, please read this article `Enable serial port on "
+"Raspberry Pi <https://hallard.me/enable-serial-port-on-raspberry-pi/>`__."
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:1157
+msgid "**Windows Users:**"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:1159
+msgid ""
+"Please check that you have a correctly installed USB driver from board "
+"manufacturer"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:1164
+msgid "Frameworks"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:1171
+msgid ":ref:`framework_arduino`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:1172
+msgid ""
+"Arduino Wiring-based Framework allows writing cross-platform software to "
+"control devices attached to a wide range of Arduino boards to create all "
+"kinds of creative coding, interactive objects, spaces or physical "
+"experiences."
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:1174
+msgid ":ref:`framework_espidf`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:1178
+msgid "Boards"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:1181
+msgid "You can list pre-configured boards by :ref:`cmd_boards` command"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:1182
+msgid ""
+"For more detailed ``board`` information please scroll the tables below by "
+"horizontally."
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:1186
+msgid "4D Systems"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:1192
+#: ../../../platforms/espressif32.rst:1211
+#: ../../../platforms/espressif32.rst:1230
+#: ../../../platforms/espressif32.rst:1249
+#: ../../../platforms/espressif32.rst:1400
+#: ../../../platforms/espressif32.rst:1425
+#: ../../../platforms/espressif32.rst:1444
+#: ../../../platforms/espressif32.rst:1463
+#: ../../../platforms/espressif32.rst:1482
+#: ../../../platforms/espressif32.rst:1501
+#: ../../../platforms/espressif32.rst:1520
+#: ../../../platforms/espressif32.rst:1551
+#: ../../../platforms/espressif32.rst:1570
+#: ../../../platforms/espressif32.rst:1595
+#: ../../../platforms/espressif32.rst:1626
+#: ../../../platforms/espressif32.rst:1645
+#: ../../../platforms/espressif32.rst:1664
+#: ../../../platforms/espressif32.rst:1683
+#: ../../../platforms/espressif32.rst:1726
+#: ../../../platforms/espressif32.rst:1751
+#: ../../../platforms/espressif32.rst:1770
+#: ../../../platforms/espressif32.rst:1795
+#: ../../../platforms/espressif32.rst:1814
+#: ../../../platforms/espressif32.rst:1833
+#: ../../../platforms/espressif32.rst:1852
+#: ../../../platforms/espressif32.rst:1871
+#: ../../../platforms/espressif32.rst:1890
+#: ../../../platforms/espressif32.rst:1909
+#: ../../../platforms/espressif32.rst:1928
+#: ../../../platforms/espressif32.rst:2025
+#: ../../../platforms/espressif32.rst:2044
+#: ../../../platforms/espressif32.rst:2063
+#: ../../../platforms/espressif32.rst:2094
+#: ../../../platforms/espressif32.rst:2113
+#: ../../../platforms/espressif32.rst:2138
+#: ../../../platforms/espressif32.rst:2157
+#: ../../../platforms/espressif32.rst:2176
+#: ../../../platforms/espressif32.rst:2201
+#: ../../../platforms/espressif32.rst:2250
+#: ../../../platforms/espressif32.rst:2275
+#: ../../../platforms/espressif32.rst:2294
+#: ../../../platforms/espressif32.rst:2313
+#: ../../../platforms/espressif32.rst:2332
+#: ../../../platforms/espressif32.rst:2351
+#: ../../../platforms/espressif32.rst:2370
+#: ../../../platforms/espressif32.rst:2389
+#: ../../../platforms/espressif32.rst:2408
+#: ../../../platforms/espressif32.rst:2427
+#: ../../../platforms/espressif32.rst:2458
+#: ../../../platforms/espressif32.rst:2483
+#: ../../../platforms/espressif32.rst:2580
+#: ../../../platforms/espressif32.rst:2605
+#: ../../../platforms/espressif32.rst:2630
+#: ../../../platforms/espressif32.rst:2655
+#: ../../../platforms/espressif32.rst:2674
+#: ../../../platforms/espressif32.rst:2699
+#: ../../../platforms/espressif32.rst:2718
+#: ../../../platforms/espressif32.rst:2737
+#: ../../../platforms/espressif32.rst:2756
+#: ../../../platforms/espressif32.rst:2775
+#: ../../../platforms/espressif32.rst:2794
+#: ../../../platforms/espressif32.rst:2843
+#: ../../../platforms/espressif32.rst:2862
+#: ../../../platforms/espressif32.rst:2881
+#: ../../../platforms/espressif32.rst:2900
+#: ../../../platforms/espressif32.rst:2919
+#: ../../../platforms/espressif32.rst:2956
+#: ../../../platforms/espressif32.rst:2975
+#: ../../../platforms/espressif32.rst:3006
+#: ../../../platforms/espressif32.rst:3025
+#: ../../../platforms/espressif32.rst:3044
+#: ../../../platforms/espressif32.rst:3063
+#: ../../../platforms/espressif32.rst:3082
+#: ../../../platforms/espressif32.rst:3101
+#: ../../../platforms/espressif32.rst:3138
+#: ../../../platforms/espressif32.rst:3157
+#: ../../../platforms/espressif32.rst:3200
+#: ../../../platforms/espressif32.rst:3243
+#: ../../../platforms/espressif32.rst:3268
+#: ../../../platforms/espressif32.rst:3317
+#: ../../../platforms/espressif32.rst:3342
+#: ../../../platforms/espressif32.rst:3409
+#: ../../../platforms/espressif32.rst:3428
+#: ../../../platforms/espressif32.rst:3459
+#: ../../../platforms/espressif32.rst:3478
+#: ../../../platforms/espressif32.rst:3545
+#: ../../../platforms/espressif32.rst:3576
+#: ../../../platforms/espressif32.rst:3595
+#: ../../../platforms/espressif32.rst:3620
+#: ../../../platforms/espressif32.rst:3639
+#: ../../../platforms/espressif32.rst:3730
+#: ../../../platforms/espressif32.rst:3749
+#: ../../../platforms/espressif32.rst:3768
+#: ../../../platforms/espressif32.rst:3787
+#: ../../../platforms/espressif32.rst:3806
+#: ../../../platforms/espressif32.rst:3825
+#: ../../../platforms/espressif32.rst:3850
+#: ../../../platforms/espressif32.rst:3869
+#: ../../../platforms/espressif32.rst:3894
+#: ../../../platforms/espressif32.rst:3913
+#: ../../../platforms/espressif32.rst:3932
+msgid "Debug"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:1198
+#: ../../../platforms/espressif32.rst:1217
+#: ../../../platforms/espressif32.rst:1236
+#: ../../../platforms/espressif32.rst:1255
+#: ../../../platforms/espressif32.rst:1261
+#: ../../../platforms/espressif32.rst:1267
+#: ../../../platforms/espressif32.rst:1273
+#: ../../../platforms/espressif32.rst:1279
+#: ../../../platforms/espressif32.rst:1285
+#: ../../../platforms/espressif32.rst:1291
+#: ../../../platforms/espressif32.rst:1297
+#: ../../../platforms/espressif32.rst:1303
+#: ../../../platforms/espressif32.rst:1309
+#: ../../../platforms/espressif32.rst:1315
+#: ../../../platforms/espressif32.rst:1321
+#: ../../../platforms/espressif32.rst:1327
+#: ../../../platforms/espressif32.rst:1333
+#: ../../../platforms/espressif32.rst:1339
+#: ../../../platforms/espressif32.rst:1345
+#: ../../../platforms/espressif32.rst:1351
+#: ../../../platforms/espressif32.rst:1357
+#: ../../../platforms/espressif32.rst:1363
+#: ../../../platforms/espressif32.rst:1369
+#: ../../../platforms/espressif32.rst:1375
+#: ../../../platforms/espressif32.rst:1381
+#: ../../../platforms/espressif32.rst:1387
+#: ../../../platforms/espressif32.rst:1406
+#: ../../../platforms/espressif32.rst:1412
+#: ../../../platforms/espressif32.rst:1431
+#: ../../../platforms/espressif32.rst:1450
+#: ../../../platforms/espressif32.rst:1469
+#: ../../../platforms/espressif32.rst:1507
+#: ../../../platforms/espressif32.rst:1526
+#: ../../../platforms/espressif32.rst:1532
+#: ../../../platforms/espressif32.rst:1538
+#: ../../../platforms/espressif32.rst:1557
+#: ../../../platforms/espressif32.rst:1582
+#: ../../../platforms/espressif32.rst:1607
+#: ../../../platforms/espressif32.rst:1613
+#: ../../../platforms/espressif32.rst:1651
+#: ../../../platforms/espressif32.rst:1670
+#: ../../../platforms/espressif32.rst:1689
+#: ../../../platforms/espressif32.rst:1695
+#: ../../../platforms/espressif32.rst:1701
+#: ../../../platforms/espressif32.rst:1707
+#: ../../../platforms/espressif32.rst:1713
+#: ../../../platforms/espressif32.rst:1732
+#: ../../../platforms/espressif32.rst:1738
+#: ../../../platforms/espressif32.rst:1757
+#: ../../../platforms/espressif32.rst:1801
+#: ../../../platforms/espressif32.rst:1820
+#: ../../../platforms/espressif32.rst:1839
+#: ../../../platforms/espressif32.rst:1858
+#: ../../../platforms/espressif32.rst:1915
+#: ../../../platforms/espressif32.rst:1934
+#: ../../../platforms/espressif32.rst:1940
+#: ../../../platforms/espressif32.rst:1952
+#: ../../../platforms/espressif32.rst:1958
+#: ../../../platforms/espressif32.rst:1964
+#: ../../../platforms/espressif32.rst:1976
+#: ../../../platforms/espressif32.rst:1988
+#: ../../../platforms/espressif32.rst:1994
+#: ../../../platforms/espressif32.rst:2069
+#: ../../../platforms/espressif32.rst:2075
+#: ../../../platforms/espressif32.rst:2081
+#: ../../../platforms/espressif32.rst:2100
+#: ../../../platforms/espressif32.rst:2125
+#: ../../../platforms/espressif32.rst:2144
+#: ../../../platforms/espressif32.rst:2182
+#: ../../../platforms/espressif32.rst:2188
+#: ../../../platforms/espressif32.rst:2219
+#: ../../../platforms/espressif32.rst:2225
+#: ../../../platforms/espressif32.rst:2231
+#: ../../../platforms/espressif32.rst:2256
+#: ../../../platforms/espressif32.rst:2262
+#: ../../../platforms/espressif32.rst:2338
+#: ../../../platforms/espressif32.rst:2376
+#: ../../../platforms/espressif32.rst:2395
+#: ../../../platforms/espressif32.rst:2439
+#: ../../../platforms/espressif32.rst:2445
+#: ../../../platforms/espressif32.rst:2464
+#: ../../../platforms/espressif32.rst:2489
+#: ../../../platforms/espressif32.rst:2513
+#: ../../../platforms/espressif32.rst:2531
+#: ../../../platforms/espressif32.rst:2586
+#: ../../../platforms/espressif32.rst:2592
+#: ../../../platforms/espressif32.rst:2636
+#: ../../../platforms/espressif32.rst:2642
+#: ../../../platforms/espressif32.rst:2680
+#: ../../../platforms/espressif32.rst:2724
+#: ../../../platforms/espressif32.rst:2743
+#: ../../../platforms/espressif32.rst:2762
+#: ../../../platforms/espressif32.rst:2800
+#: ../../../platforms/espressif32.rst:2806
+#: ../../../platforms/espressif32.rst:2812
+#: ../../../platforms/espressif32.rst:2887
+#: ../../../platforms/espressif32.rst:2931
+#: ../../../platforms/espressif32.rst:2937
+#: ../../../platforms/espressif32.rst:2943
+#: ../../../platforms/espressif32.rst:2981
+#: ../../../platforms/espressif32.rst:2987
+#: ../../../platforms/espressif32.rst:3031
+#: ../../../platforms/espressif32.rst:3069
+#: ../../../platforms/espressif32.rst:3088
+#: ../../../platforms/espressif32.rst:3107
+#: ../../../platforms/espressif32.rst:3113
+#: ../../../platforms/espressif32.rst:3119
+#: ../../../platforms/espressif32.rst:3125
+#: ../../../platforms/espressif32.rst:3144
+#: ../../../platforms/espressif32.rst:3163
+#: ../../../platforms/espressif32.rst:3169
+#: ../../../platforms/espressif32.rst:3175
+#: ../../../platforms/espressif32.rst:3181
+#: ../../../platforms/espressif32.rst:3187
+#: ../../../platforms/espressif32.rst:3206
+#: ../../../platforms/espressif32.rst:3218
+#: ../../../platforms/espressif32.rst:3224
+#: ../../../platforms/espressif32.rst:3230
+#: ../../../platforms/espressif32.rst:3249
+#: ../../../platforms/espressif32.rst:3255
+#: ../../../platforms/espressif32.rst:3274
+#: ../../../platforms/espressif32.rst:3280
+#: ../../../platforms/espressif32.rst:3286
+#: ../../../platforms/espressif32.rst:3292
+#: ../../../platforms/espressif32.rst:3298
+#: ../../../platforms/espressif32.rst:3304
+#: ../../../platforms/espressif32.rst:3323
+#: ../../../platforms/espressif32.rst:3329
+#: ../../../platforms/espressif32.rst:3348
+#: ../../../platforms/espressif32.rst:3354
+#: ../../../platforms/espressif32.rst:3360
+#: ../../../platforms/espressif32.rst:3366
+#: ../../../platforms/espressif32.rst:3372
+#: ../../../platforms/espressif32.rst:3384
+#: ../../../platforms/espressif32.rst:3396
+#: ../../../platforms/espressif32.rst:3415
+#: ../../../platforms/espressif32.rst:3434
+#: ../../../platforms/espressif32.rst:3440
+#: ../../../platforms/espressif32.rst:3446
+#: ../../../platforms/espressif32.rst:3484
+#: ../../../platforms/espressif32.rst:3490
+#: ../../../platforms/espressif32.rst:3496
+#: ../../../platforms/espressif32.rst:3502
+#: ../../../platforms/espressif32.rst:3508
+#: ../../../platforms/espressif32.rst:3514
+#: ../../../platforms/espressif32.rst:3526
+#: ../../../platforms/espressif32.rst:3532
+#: ../../../platforms/espressif32.rst:3551
+#: ../../../platforms/espressif32.rst:3557
+#: ../../../platforms/espressif32.rst:3563
+#: ../../../platforms/espressif32.rst:3582
+#: ../../../platforms/espressif32.rst:3601
+#: ../../../platforms/espressif32.rst:3607
+#: ../../../platforms/espressif32.rst:3626
+#: ../../../platforms/espressif32.rst:3645
+#: ../../../platforms/espressif32.rst:3651
+#: ../../../platforms/espressif32.rst:3657
+#: ../../../platforms/espressif32.rst:3663
+#: ../../../platforms/espressif32.rst:3669
+#: ../../../platforms/espressif32.rst:3675
+#: ../../../platforms/espressif32.rst:3681
+#: ../../../platforms/espressif32.rst:3687
+#: ../../../platforms/espressif32.rst:3693
+#: ../../../platforms/espressif32.rst:3699
+#: ../../../platforms/espressif32.rst:3705
+#: ../../../platforms/espressif32.rst:3711
+#: ../../../platforms/espressif32.rst:3717
+#: ../../../platforms/espressif32.rst:3736
+#: ../../../platforms/espressif32.rst:3774
+#: ../../../platforms/espressif32.rst:3793
+#: ../../../platforms/espressif32.rst:3831
+#: ../../../platforms/espressif32.rst:3837
+#: ../../../platforms/espressif32.rst:3856
+#: ../../../platforms/espressif32.rst:3875
+#: ../../../platforms/espressif32.rst:3881
+#: ../../../platforms/espressif32.rst:3900
+#: ../../../platforms/espressif32.rst:3938
+#: ../../../platforms/espressif32.rst:3944
+msgid "External"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:1205
+msgid "AI Thinker"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:1224
+msgid "AZ-Delivery"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:1243
+msgid "Adafruit"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:1394
+msgid "Ai-Thinker"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:1419
+msgid "AirM2M"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:1438
+msgid "Aiyarafun"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:1457
+msgid "Anderson & friends"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:1476
+msgid "April Brother"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:1487
+msgid ":ref:`board_espressif32_espea32`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:1488
+#: ../../../platforms/espressif32.rst:1576
+#: ../../../platforms/espressif32.rst:1601
+#: ../../../platforms/espressif32.rst:1632
+#: ../../../platforms/espressif32.rst:1776
+#: ../../../platforms/espressif32.rst:1782
+#: ../../../platforms/espressif32.rst:1877
+#: ../../../platforms/espressif32.rst:1896
+#: ../../../platforms/espressif32.rst:1970
+#: ../../../platforms/espressif32.rst:2031
+#: ../../../platforms/espressif32.rst:2050
+#: ../../../platforms/espressif32.rst:2163
+#: ../../../platforms/espressif32.rst:2207
+#: ../../../platforms/espressif32.rst:2213
+#: ../../../platforms/espressif32.rst:2237
+#: ../../../platforms/espressif32.rst:2281
+#: ../../../platforms/espressif32.rst:2300
+#: ../../../platforms/espressif32.rst:2319
+#: ../../../platforms/espressif32.rst:2357
+#: ../../../platforms/espressif32.rst:2414
+#: ../../../platforms/espressif32.rst:2433
+#: ../../../platforms/espressif32.rst:2495
+#: ../../../platforms/espressif32.rst:2501
+#: ../../../platforms/espressif32.rst:2507
+#: ../../../platforms/espressif32.rst:2519
+#: ../../../platforms/espressif32.rst:2525
+#: ../../../platforms/espressif32.rst:2537
+#: ../../../platforms/espressif32.rst:2543
+#: ../../../platforms/espressif32.rst:2549
+#: ../../../platforms/espressif32.rst:2555
+#: ../../../platforms/espressif32.rst:2561
+#: ../../../platforms/espressif32.rst:2567
+#: ../../../platforms/espressif32.rst:2611
+#: ../../../platforms/espressif32.rst:2617
+#: ../../../platforms/espressif32.rst:2661
+#: ../../../platforms/espressif32.rst:2686
+#: ../../../platforms/espressif32.rst:2705
+#: ../../../platforms/espressif32.rst:2781
+#: ../../../platforms/espressif32.rst:2818
+#: ../../../platforms/espressif32.rst:2824
+#: ../../../platforms/espressif32.rst:2830
+#: ../../../platforms/espressif32.rst:2849
+#: ../../../platforms/espressif32.rst:2868
+#: ../../../platforms/espressif32.rst:2906
+#: ../../../platforms/espressif32.rst:2925
+#: ../../../platforms/espressif32.rst:2962
+#: ../../../platforms/espressif32.rst:3012
+#: ../../../platforms/espressif32.rst:3050
+#: ../../../platforms/espressif32.rst:3212
+#: ../../../platforms/espressif32.rst:3378
+#: ../../../platforms/espressif32.rst:3390
+#: ../../../platforms/espressif32.rst:3465
+#: ../../../platforms/espressif32.rst:3520
+#: ../../../platforms/espressif32.rst:3755
+#: ../../../platforms/espressif32.rst:3812
+#: ../../../platforms/espressif32.rst:3919
+msgid "No"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:1495
+msgid "Arduino"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:1514
+msgid "ArtronShop"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:1545
+msgid "Aventen"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:1564
+msgid "BPI Tech"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:1575
+msgid ":ref:`board_espressif32_bpi-bit`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:1589
+msgid "Blinker"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:1600
+msgid ":ref:`board_espressif32_wifiduino32`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:1620
+msgid "CNRS"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:1631
+msgid ":ref:`board_espressif32_cnrs_aw2eth`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:1639
+msgid "Connaxio"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:1658
+msgid "Cytron Technologies"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:1677
+msgid "DFRobot"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:1720
+msgid "DOIT"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:1745
+msgid "DSTIKE"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:1764
+msgid "Denky"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:1775
+msgid ":ref:`board_espressif32_denky_d4`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:1781
+msgid ":ref:`board_espressif32_denky32`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:1789
+msgid "Department of Alchemy"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:1808
+msgid "Dongsen Technology"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:1827
+msgid "DycodeX"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:1846
+msgid "ESP32vn"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:1865
+msgid "ETBoard"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:1876
+msgid ":ref:`board_espressif32_etboard`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:1884
+msgid "Electronic SweetPeas"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:1895
+msgid ":ref:`board_espressif32_esp320`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:1903
+msgid "EspinalLab"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:1922
+msgid "Espressif"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:1946
+#: ../../../platforms/espressif32.rst:1982
+#: ../../../platforms/espressif32.rst:2000
+#: ../../../platforms/espressif32.rst:2006
+#: ../../../platforms/espressif32.rst:2012
+#: ../../../platforms/espressif32.rst:2119
+#: ../../../platforms/espressif32.rst:2470
+#: ../../../platforms/espressif32.rst:2993
+msgid "On-board"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:1969
+msgid ":ref:`board_espressif32_esp32-c6-devkitc-1`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:2019
+msgid "Espressif Systems"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:2030
+msgid ":ref:`board_espressif32_esp32-pico-devkitm-2`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:2038
+msgid "Fishino"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:2049
+msgid ":ref:`board_espressif32_piranha_esp32`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:2057
+msgid "Franzininho"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:2088
+msgid "Fred"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:2107
+msgid "Freenove"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:2132
+msgid "HONEYLemon"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:2151
+msgid "Hardkernel"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:2162
+msgid ":ref:`board_espressif32_odroid_esp32`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:2170
+msgid "Heltec"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:2195
+msgid "Heltec Automation"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:2206
+msgid ":ref:`board_espressif32_heltec_wifi_kit_32`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:2212
+msgid ":ref:`board_espressif32_heltec_wifi_kit_32_v2`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:2236
+msgid ":ref:`board_espressif32_heltec_wireless_stick_lite`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:2244
+msgid "Hornbill"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:2269
+msgid "INEX"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:2280
+msgid ":ref:`board_espressif32_inex_openkb`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:2288
+msgid "Imbrios"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:2299
+msgid ":ref:`board_espressif32_imbrios-logsens-v1p1`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:2307
+msgid "IntoRobot"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:2318
+msgid ":ref:`board_espressif32_intorobot`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:2326
+msgid "IoTaaP"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:2345
+msgid "KITS"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:2356
+msgid ":ref:`board_espressif32_kits-edu`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:2364
+msgid "Kinetic Dynamics"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:2383
+msgid "LOGISENSES"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:2402
+msgid "Labplus"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:2413
+msgid ":ref:`board_espressif32_labplus_mpython`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:2421
+msgid "LilyGo"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:2432
+msgid ":ref:`board_espressif32_lilygo-t-display`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:2452
+msgid "Lion:Bit"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:2477
+msgid "M5Stack"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:2494
+msgid ":ref:`board_espressif32_m5stack-core-esp32`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:2500
+msgid ":ref:`board_espressif32_m5stack-core-esp32-16M`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:2506
+msgid ":ref:`board_espressif32_m5stack-core2`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:2511
+#: ../../../platforms/espressif32.rst:2523
+#: ../../../platforms/espressif32.rst:2541
+msgid "4.31MB"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:2518
+msgid ":ref:`board_espressif32_m5stack-fire`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:2524
+msgid ":ref:`board_espressif32_m5stack-grey`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:2536
+msgid ":ref:`board_espressif32_m5stack-station`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:2542
+msgid ":ref:`board_espressif32_m5stack-timer-cam`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:2548
+msgid ":ref:`board_espressif32_m5stack-atom`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:2554
+msgid ":ref:`board_espressif32_m5stack-coreink`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:2560
+msgid ":ref:`board_espressif32_m5stamp-pico`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:2566
+msgid ":ref:`board_espressif32_m5stick-c`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:2574
+msgid "MECT SRL"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:2599
+msgid "MGBOT"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:2610
+msgid ":ref:`board_espressif32_mgbot-iotik32a`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:2616
+msgid ":ref:`board_espressif32_mgbot-iotik32b`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:2624
+msgid "MH-ET Live"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:2649
+msgid "Magicblocks.io"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:2660
+msgid ":ref:`board_espressif32_magicbit`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:2668
+msgid "MakerAsia"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:2685
+msgid ":ref:`board_espressif32_nano32`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:2693
+msgid "Microduino"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:2704
+msgid ":ref:`board_espressif32_microduino-core-esp32`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:2712
+msgid "MotorGo"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:2731
+msgid "Munich Labs"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:2750
+msgid "NodeMCU"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:2769
+msgid "Noduino"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:2780
+msgid ":ref:`board_espressif32_quantum`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:2788
+msgid "OLIMEX"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:2817
+msgid ":ref:`board_espressif32_esp32-pro`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:2823
+msgid ":ref:`board_espressif32_esp32-poe`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:2829
+msgid ":ref:`board_espressif32_esp32-poe-iso`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:2837
+msgid "OROCA"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:2848
+msgid ":ref:`board_espressif32_oroca_edubot`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:2856
+msgid "Onehorse"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:2867
+msgid ":ref:`board_espressif32_onehorse32dev`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:2875
+msgid "PowerFeather"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:2894
+msgid "ProtoCentral"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:2905
+msgid ":ref:`board_espressif32_healthypi4`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:2913
+msgid "Pycom Ltd."
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:2924
+msgid ":ref:`board_espressif32_pycom_gpy`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:2950
+msgid "Qmobot LLP"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:2961
+msgid ":ref:`board_espressif32_qchip`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:2969
+msgid "RYMCU"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:3000
+msgid "RoboHeart"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:3011
+msgid ":ref:`board_espressif32_roboheart_hercules`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:3019
+msgid "RoboticsBrno"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:3038
+msgid "S.ODI"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:3049
+msgid ":ref:`board_espressif32_s_odi_ultra`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:3057
+msgid "SG-O"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:3076
+msgid "SQFMI"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:3095
+msgid "Seeed Studio"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:3132
+msgid "Silicognition"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:3151
+msgid "Smart Bee"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:3194
+msgid "SparkFun"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:3211
+msgid ":ref:`board_espressif32_sparkfun_esp32micromod`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:3237
+msgid "SparkFun Electronics"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:3262
+msgid "T3 Foundation"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:3311
+msgid "TAMC"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:3336
+msgid "TTGO"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:3377
+msgid ":ref:`board_espressif32_ttgo-t-watch`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:3389
+msgid ":ref:`board_espressif32_ttgo-t7-v13-mini32`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:3403
+msgid "ThaiEasyElec"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:3422
+msgid "Trueverit"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:3453
+msgid "Turta"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:3464
+msgid ":ref:`board_espressif32_turta_iot_node`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:3472
+msgid "Unexpected Maker"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:3519
+msgid ":ref:`board_espressif32_tinypico`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:3539
+msgid "University of Sheffield"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:3570
+msgid "Unknown"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:3589
+msgid "Valetron Systems"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:3614
+msgid "VintLabs"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:3633
+msgid "WEMOS"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:3724
+msgid "WeAct Studio"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:3743
+msgid "Widora"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:3754
+msgid ":ref:`board_espressif32_widora-air`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:3762
+msgid "Wireless-Tag"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:3781
+msgid "XinaBox"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:3800
+msgid "YeaCreate"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:3811
+msgid ":ref:`board_espressif32_nscreen-32`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:3819
+msgid "cezerio"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:3844
+msgid "microS2"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:3863
+msgid "oddWires"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:3888
+msgid "senseBox"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:3907
+msgid "u-blox"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:3918
+msgid ":ref:`board_espressif32_nina_w10`"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:3922
+msgid "2MB"
+msgstr ""
+
+#: ../../../platforms/espressif32.rst:3926
+msgid "uPesy"
+msgstr ""

@@ -1,0 +1,108 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present, PlatformIO
+# This file is distributed under the same license as the PlatformIO package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PlatformIO stable\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-24 14:03+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../boards/intel_mcs51/MS51DA9AE.rst:15
+msgid "Generic MS51DA9AE"
+msgstr ""
+
+#: ../../../boards/intel_mcs51/MS51DA9AE.rst:17
+msgid "Contents"
+msgstr ""
+
+#: ../../../boards/intel_mcs51/MS51DA9AE.rst:20
+msgid "Hardware"
+msgstr ""
+
+#: ../../../boards/intel_mcs51/MS51DA9AE.rst:22
+msgid ""
+"Platform :ref:`platform_intel_mcs51`: The Intel MCS-51 (commonly termed "
+"8051) is an internally Harvard architecture, complex instruction set "
+"computer (CISC) instruction set, single chip microcontroller (uC) series "
+"developed by Intel in 1980 for use in embedded systems."
+msgstr ""
+
+#: ../../../boards/intel_mcs51/MS51DA9AE.rst:26
+msgid "**Microcontroller**"
+msgstr ""
+
+#: ../../../boards/intel_mcs51/MS51DA9AE.rst:27
+msgid "MS51DA9AE"
+msgstr ""
+
+#: ../../../boards/intel_mcs51/MS51DA9AE.rst:28
+msgid "**Frequency**"
+msgstr ""
+
+#: ../../../boards/intel_mcs51/MS51DA9AE.rst:29
+msgid "16MHz"
+msgstr ""
+
+#: ../../../boards/intel_mcs51/MS51DA9AE.rst:30
+msgid "**Flash**"
+msgstr ""
+
+#: ../../../boards/intel_mcs51/MS51DA9AE.rst:31
+msgid "8KB"
+msgstr ""
+
+#: ../../../boards/intel_mcs51/MS51DA9AE.rst:32
+msgid "**RAM**"
+msgstr ""
+
+#: ../../../boards/intel_mcs51/MS51DA9AE.rst:33
+msgid "1.25KB"
+msgstr ""
+
+#: ../../../boards/intel_mcs51/MS51DA9AE.rst:34
+msgid "**Vendor**"
+msgstr ""
+
+#: ../../../boards/intel_mcs51/MS51DA9AE.rst:35
+msgid ""
+"`Nuvoton <https://www.nuvoton.com/products/microcontrollers/8bit-8051-mcus/"
+"industrial-8051-series/ms51da9ae/?utm_source=platformio."
+"org&utm_medium=docs>`__"
+msgstr ""
+
+#: ../../../boards/intel_mcs51/MS51DA9AE.rst:39
+msgid "Configuration"
+msgstr ""
+
+#: ../../../boards/intel_mcs51/MS51DA9AE.rst:41
+msgid ""
+"Please use ``MS51DA9AE`` ID for :ref:`projectconf_env_board` option in :ref:"
+"`projectconf`:"
+msgstr ""
+
+#: ../../../boards/intel_mcs51/MS51DA9AE.rst:49
+msgid ""
+"You can override default Generic MS51DA9AE settings per build environment "
+"using ``board_***`` option, where ``***`` is a JSON object path from board "
+"manifest `MS51DA9AE.json <https://github.com/platformio/platform-intel_mcs51/"
+"blob/master/boards/MS51DA9AE.json>`_. For example, ``board_build.mcu``, "
+"``board_build.f_cpu``, etc."
+msgstr ""
+
+#: ../../../boards/intel_mcs51/MS51DA9AE.rst:67
+msgid "Debugging"
+msgstr ""
+
+#: ../../../boards/intel_mcs51/MS51DA9AE.rst:68
+msgid ":ref:`piodebug` currently does not support Generic MS51DA9AE board."
+msgstr ""
