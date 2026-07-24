@@ -1,0 +1,31 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present, PlatformIO
+# This file is distributed under the same license as the PlatformIO package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PlatformIO stable\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-24 14:03+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../manifests/library-json/fields/build/unflags.rst:13
+msgid "``unflags``"
+msgstr ""
+
+#: ../../../manifests/library-json/fields/build/unflags.rst:15
+msgid "*Optional* | Type: ``String`` or ``Array``"
+msgstr ""
+
+#: ../../../manifests/library-json/fields/build/unflags.rst:17
+msgid ""
+"Remove base/initial flags which were set by development platform. More "
+"details :ref:`projectconf_build_unflags`."
+msgstr ""

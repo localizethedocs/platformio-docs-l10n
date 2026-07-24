@@ -1,0 +1,47 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present, PlatformIO
+# This file is distributed under the same license as the PlatformIO package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PlatformIO stable\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-24 14:03+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../projectconf/sections/env/options/upload/upload_flags.rst:15
+msgid "``upload_flags``"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/upload/upload_flags.rst:17
+msgid "Type: ``String`` | Multiple: ``Yes``"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/upload/upload_flags.rst:19
+msgid ""
+"Extra flags for uploader. Will be added to the end of uploader command. If "
+"you need to override uploader command or base flags please use :ref:"
+"`projectconf_extra_scripts`."
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/upload/upload_flags.rst:23
+msgid ""
+"This option can also be set by global environment variable :envvar:"
+"`PLATFORMIO_UPLOAD_FLAGS`."
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/upload/upload_flags.rst:26
+msgid "**Example**"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/upload/upload_flags.rst:28
+msgid ""
+"Please specify each flag/option in a new line starting with minimum 2 spaces."
+msgstr ""

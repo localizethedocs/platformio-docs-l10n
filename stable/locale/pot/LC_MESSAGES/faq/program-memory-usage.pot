@@ -1,0 +1,98 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present, PlatformIO
+# This file is distributed under the same license as the PlatformIO package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PlatformIO stable\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-24 14:03+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../faq/program-memory-usage.rst:13
+msgid "Program Memory Usage"
+msgstr ""
+
+#: ../../../faq/program-memory-usage.rst:15
+msgid ""
+"PlatformIO calculates firmware/program memory usage based on the next "
+"segments:"
+msgstr ""
+
+#: ../../../faq/program-memory-usage.rst:0
+msgid "``.text``"
+msgstr ""
+
+#: ../../../faq/program-memory-usage.rst:19
+msgid ""
+"The code segment, also known as a text segment or simply as text, is where a "
+"portion of an object file or the corresponding section of the program's "
+"virtual address space that contains executable instructions is stored and is "
+"generally read-only and fixed size."
+msgstr ""
+
+#: ../../../faq/program-memory-usage.rst:0
+msgid "``.data``"
+msgstr ""
+
+#: ../../../faq/program-memory-usage.rst:26
+msgid ""
+"The .data segment contains any global or static variables which have a pre-"
+"defined value and can be modified. The values for these variables are "
+"initially stored within the read-only memory (typically within ``.text``) "
+"and are copied into the ``.data`` segment during the start-up routine of the "
+"program. Example,"
+msgstr ""
+
+#: ../../../faq/program-memory-usage.rst:0
+msgid "``.bss``"
+msgstr ""
+
+#: ../../../faq/program-memory-usage.rst:39
+msgid ""
+"Uninitialized data is usually adjacent to the data segment. The BSS segment "
+"contains all global variables and static variables that are initialized to "
+"zero or do not have explicit initialization in the source code. For "
+"instance, a variable defined as ``static int i;`` would be contained in the "
+"BSS segment."
+msgstr ""
+
+#: ../../../faq/program-memory-usage.rst:45
+msgid "The rough calculation could be done as:"
+msgstr ""
+
+#: ../../../faq/program-memory-usage.rst:47
+msgid "PROGRAM (Flash) = ``.text`` + ``.data``"
+msgstr ""
+
+#: ../../../faq/program-memory-usage.rst:48
+msgid "DATA (RAM) = ``.bss`` + ``.data``"
+msgstr ""
+
+#: ../../../faq/program-memory-usage.rst:50
+msgid ""
+"If you need to print **all memory sections and addresses**, please use :"
+"option:`pio run --verbose` command."
+msgstr ""
+
+#: ../../../faq/program-memory-usage.rst:53
+msgid "Recommended for reading:"
+msgstr ""
+
+#: ../../../faq/program-memory-usage.rst:55
+msgid "https://en.wikipedia.org/wiki/Data_segment"
+msgstr ""
+
+#: ../../../faq/program-memory-usage.rst:56
+msgid ""
+"`text, data and bss: Code and Data Size Explained <https://mcuoneclipse."
+"com/2013/04/14/text-data-and-bss-code-and-data-size-explained/?"
+"utm_source=platformio&utm_medium=docs>`_"
+msgstr ""

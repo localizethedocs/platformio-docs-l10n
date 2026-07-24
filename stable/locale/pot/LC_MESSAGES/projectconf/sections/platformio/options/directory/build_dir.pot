@@ -1,0 +1,61 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present, PlatformIO
+# This file is distributed under the same license as the PlatformIO package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PlatformIO stable\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-24 14:03+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../projectconf/sections/platformio/options/directory/build_dir.rst:15
+msgid "``build_dir``"
+msgstr ""
+
+#: ../../../projectconf/sections/platformio/options/directory/build_dir.rst:18
+msgid ""
+"**PLEASE DO NOT EDIT FILES IN THIS FOLDER**. PlatformIO will overwrite your "
+"changes on the next build. **THIS IS A CACHE DIRECTORY**."
+msgstr ""
+
+#: ../../../projectconf/sections/platformio/options/directory/build_dir.rst:21
+msgid ""
+"Type: ``DirPath`` | Multiple: ``No`` | Default: \":ref:"
+"`projectconf_pio_workspace_dir`/build\""
+msgstr ""
+
+#: ../../../projectconf/sections/platformio/options/directory/build_dir.rst:23
+msgid ""
+"*PlatformIO Build System* uses this folder for project environments to store "
+"compiled object files, static libraries, firmwares and other cached "
+"information. It allows PlatformIO to build source code extremely fast!"
+msgstr ""
+
+#: ../../../projectconf/sections/platformio/options/directory/build_dir.rst:28
+msgid ""
+"*You can delete this folder without any risk!* If you modify :ref:"
+"`projectconf`, then PlatformIO will remove this folder automatically. It "
+"will be created on the next build operation."
+msgstr ""
+
+#: ../../../projectconf/sections/platformio/options/directory/build_dir.rst:32
+msgid ""
+"This option can also be configured by the global environment variable :"
+"envvar:`PLATFORMIO_BUILD_DIR`."
+msgstr ""
+
+#: ../../../projectconf/sections/platformio/options/directory/build_dir.rst:36
+msgid ""
+"If you have any problems with building your project environments which are "
+"defined in :ref:`projectconf`, then **TRY TO DELETE** this folder. In this "
+"situation you will remove all cached files without any risk. Also, you can "
+"use \"clean\" target for :option:`pio run --target` command."
+msgstr ""

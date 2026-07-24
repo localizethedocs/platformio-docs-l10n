@@ -1,0 +1,634 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present, PlatformIO
+# This file is distributed under the same license as the PlatformIO package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PlatformIO stable\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-24 14:03+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../core/userguide/pkg/cmd_install.rst:17
+msgid "pio pkg install"
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_install.rst:19
+msgid "Contents"
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_install.rst:22
+msgid "Usage"
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_install.rst:29
+#: ../../../core/userguide/pkg/cmd_install.rst:356
+msgid "Description"
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_install.rst:31
+msgid ""
+"Install the project dependencies or custom packages from the |PIOREGISTRY| "
+"or external sources."
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_install.rst:34
+msgid ""
+"If no custom packages (``--library``, ``--platform``, or ``--tool``) are "
+"specified, the command will install the following project dependencies based "
+"on :ref:`projectconf`:"
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_install.rst:38
+msgid ""
+"Library dependencies declared using the :ref:`projectconf_lib_deps` option"
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_install.rst:39
+msgid ""
+"Development platform declared using the :ref:`projectconf_env_platform` "
+"option and its dependencies (toolchain, framework, SDKs, debugging server, "
+"etc)"
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_install.rst:41
+msgid ""
+"Custom tools declared using the :ref:`projectconf_env_platform_packages` "
+"option."
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_install.rst:44
+msgid "Options"
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_install.rst:51
+msgid ""
+"Specify the path to project directory. By default, ``--project-dir`` is "
+"equal to current working directory (``CWD``)."
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_install.rst:57
+msgid ""
+"Install project dependencies only for the specified environments. Multiple "
+"environments are allowed."
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_install.rst:63
+msgid ""
+"Install specified development platform using :ref:"
+"`cmd_pkg_install_specifications`. Multiple items are allowed."
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_install.rst:66
+#: ../../../core/userguide/pkg/cmd_install.rst:79
+#: ../../../core/userguide/pkg/cmd_install.rst:92
+#: ../../../core/userguide/pkg/cmd_install.rst:201
+#: ../../../core/userguide/pkg/cmd_install.rst:286
+#: ../../../core/userguide/pkg/cmd_install.rst:372
+#: ../../../core/userguide/pkg/cmd_install.rst:401
+#: ../../../core/userguide/pkg/cmd_install.rst:425
+msgid "**Examples**"
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_install.rst:76
+msgid ""
+"Install specified tool using :ref:`cmd_pkg_install_specifications`. Multiple "
+"items are allowed."
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_install.rst:89
+msgid ""
+"Install specified library using :ref:`cmd_pkg_install_specifications`. "
+"Multiple items are allowed."
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_install.rst:102
+msgid "Prevent saving specified packages to :ref:`projectconf`."
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_install.rst:107
+msgid ""
+"Install a package but skip its dependencies declared in the manifest :ref:"
+"`manifest_library_json_dependencies` field."
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_install.rst:115
+msgid ""
+"We **DO NOT recommend installing** libraries in the global storage. Please "
+"use the :ref:`projectconf_lib_deps` option and declare library dependencies "
+"per project."
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_install.rst:119
+msgid "Install packages to the global storage:"
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_install.rst:121
+msgid ":ref:`projectconf_pio_platforms_dir` - development platforms"
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_install.rst:122
+msgid ":ref:`projectconf_pio_packages_dir` - tools"
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_install.rst:123
+msgid ":ref:`projectconf_pio_globallib_dir` - libraries."
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_install.rst:125
+msgid ""
+"A package installed to the global storage will be available for any "
+"PlatformIO project."
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_install.rst:131
+msgid "Specify a custom Package Manager storage for global packages."
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_install.rst:136
+msgid ""
+"Reinstall a package if exists. The existing package will be removed and the "
+"latest compatible version will be installed."
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_install.rst:142
+msgid "Suppress progress reporting."
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_install.rst:147
+msgid "Package Types"
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_install.rst:149
+msgid "PlatformIO supports the next package types:"
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_install.rst:0
+msgid "``library``"
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_install.rst:152
+msgid "The Assembly/C/C++ files that can extend project functionality"
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_install.rst:0
+msgid "``platform``"
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_install.rst:155
+msgid "See :ref:`platforms` for details"
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_install.rst:0
+msgid "``tool``"
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_install.rst:158
+msgid ""
+"A specialized program, toolchain, or source of auxiliary files (framework, "
+"SDK) that are used to build a project, debug it or upload firmware to the "
+"target device."
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_install.rst:161
+msgid "Browse over 10,000 packages in the |PIOREGISTRY|."
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_install.rst:166
+msgid "Package Specifications"
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_install.rst:168
+msgid ""
+"PlatformIO supports different package sources which you can specify for :ref:"
+"`cmd_pkg_install` command or configure project dependencies using :ref:"
+"`projectconf` options:"
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_install.rst:172
+msgid ":ref:`projectconf_env_platform` - development platform"
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_install.rst:173
+msgid ":ref:`projectconf_env_platform_packages` - custom tools/packages"
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_install.rst:174
+msgid ":ref:`projectconf_lib_deps` - libraries."
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_install.rst:176
+msgid "A ``package`` is:"
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_install.rst:178
+msgid ""
+"A folder containing manifest file (:ref:`library_json`, ``platform.json`` or "
+"``package.json``)"
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_install.rst:179
+msgid "TAR or ZIP archive containing (a)"
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_install.rst:180
+msgid "A URL that resolves to (b)"
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_install.rst:181
+msgid ""
+"An ``<owner>/<name>@<version requirements>`` that is published on the |"
+"PIOREGISTRY|"
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_install.rst:182
+msgid "A <git/hg/svn remote url> that resolves to (a)."
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_install.rst:185
+msgid "Specifications"
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_install.rst:188
+msgid "Registry: Latest Version"
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_install.rst:190
+msgid "**Specification:** ``<owner>/<name>``"
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_install.rst:192
+msgid "Install the latest package version from the |PIOREGISTRY|."
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_install.rst:195
+msgid ""
+"We highly recommend pinning a package to a :ref:"
+"`cmd_pkg_install_specific_version` and to prefix the version with the ``^`` "
+"(caret) symbol. This will instruct PlatformIO to install the latest "
+"compatible version avoiding breaking changes in the future. See :ref:"
+"`cmd_pkg_install_requirements` for details."
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_install.rst:203
+msgid ""
+"Install `ArduinoJson <https://registry.platformio.org/libraries/bblanchon/"
+"ArduinoJson>`__ and `Embedded Template <https://registry.platformio.org/"
+"libraries/etlcpp/Embedded%20Template%20Library>`_ libraries, and add them to "
+"the project dependencies (:ref:`projectconf_lib_deps`):"
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_install.rst:211
+msgid ""
+"Declare `ArduinoJson <https://registry.platformio.org/libraries/bblanchon/"
+"ArduinoJson>`__ and `Embedded Template <https://registry.platformio.org/"
+"libraries/etlcpp/Embedded%20Template%20Library>`_ libraries as the project "
+"dependencies using :ref:`projectconf_lib_deps` configuration option:"
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_install.rst:223
+msgid ""
+"Install `SEGGER J-Link Software <https://registry.platformio.org/tools/"
+"platformio/tool-jlink>`__ for debug probes:"
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_install.rst:233
+msgid "Registry: Specific Version"
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_install.rst:235
+msgid "**Specification:** ``<owner>/<name>@<version>``"
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_install.rst:237
+msgid ""
+"Install the specified version of a package from the |PIOREGISTRY|. This will "
+"fail if the version has not been published to the registry."
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_install.rst:240
+#: ../../../core/userguide/pkg/cmd_install.rst:254
+msgid "**Example**"
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_install.rst:247
+msgid "Registry: Version Requirements"
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_install.rst:249
+msgid "**Specification:** ``<owner>/<name>@<version requirements>``"
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_install.rst:251
+msgid ""
+"Install the latest version of a package from the |PIOREGISTRY| matching the "
+"specified version requirements. See :ref:`cmd_pkg_install_requirements` for "
+"details."
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_install.rst:261
+msgid "Repository (git, hg, svn)"
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_install.rst:263
+msgid ""
+"**Specification:** ``[<name>=][<scheme>://][<user>[:<password>]@]<hostname>[:"
+"<port>][:][/]<path>[#<commit-ish|branch|tag>]``"
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_install.rst:265
+msgid ""
+"Install the package at the specified URL by attempting to clone it. If the "
+"repository makes use of submodules, those submodules will be cloned as well."
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_install.rst:268
+msgid "The supported schemes are:"
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_install.rst:270
+msgid "``http``"
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_install.rst:271
+msgid "``https``"
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_install.rst:272
+msgid "``git``"
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_install.rst:273
+msgid "``git+http``"
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_install.rst:274
+msgid "``git+https``"
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_install.rst:275
+msgid "``git+ssh``"
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_install.rst:276
+msgid "``hg+http``"
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_install.rst:277
+msgid "``hg+https``"
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_install.rst:278
+msgid "``hg+ssh``"
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_install.rst:279
+msgid "``svn+http``"
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_install.rst:280
+msgid "``svn+https``"
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_install.rst:281
+msgid "``svn+ssh``"
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_install.rst:283
+#: ../../../core/userguide/pkg/cmd_install.rst:369
+#: ../../../core/userguide/pkg/cmd_install.rst:398
+#: ../../../core/userguide/pkg/cmd_install.rst:422
+msgid ""
+"You can override a package folder name in the Package Manager storage using "
+"the ``<name>=`` syntax. See the example below."
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_install.rst:288
+msgid "Clone default branch of Github repository using HTTPS"
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_install.rst:294
+msgid "Clone default branch of Github repository using SSH"
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_install.rst:304
+msgid "Clone Git repository using SSH and custom username"
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_install.rst:314
+msgid "Clone \"master\" branch of Git repository"
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_install.rst:320
+msgid "Clone \"v3.3.0\" tag of Git repository"
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_install.rst:326
+msgid "Clone specified commit of Git repository"
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_install.rst:332
+msgid ""
+"Clone specified commit of Git repository and set custom package folder name "
+"to \"ESP32\""
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_install.rst:338
+msgid "Clone Mercurial repository"
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_install.rst:349
+msgid "Local Folder"
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_install.rst:355
+msgid "Specification"
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_install.rst:357
+msgid "``[<name>=]file://<folder>``"
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_install.rst:358
+msgid ""
+"Copy all files from the local folder to the Package Manager. Making changes "
+"in the source folder **WILL NOT** affect the installed package."
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_install.rst:360
+msgid "``[<name>=]symlink://<folder>``"
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_install.rst:361
+msgid ""
+"Create a symbolic link pointing the local source folder to the Package "
+"Manager. Making changes in the source folder **WILL** affect the installed "
+"package."
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_install.rst:364
+msgid ""
+"Install a package and its :ref:`manifest_library_json_dependencies` from a "
+"local folder. A path should start with ``file://`` or ``symlink://`` prefix "
+"and the package folder must contain a manifest file (:ref:`library_json`, "
+"``platform.json``, or ``package.json``) with name and version properties."
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_install.rst:386
+msgid "Local TAR or ZIP archive"
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_install.rst:388
+msgid "**Specification:** ``[<name>=]file://<tar or zip file>``"
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_install.rst:390
+msgid ""
+"Install a package and its :ref:`manifest_library_json_dependencies` from a "
+"local TAR or ZIP archive."
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_install.rst:392
+msgid "Archive requirements:"
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_install.rst:394
+msgid ""
+"the filename must use ``.tar.gz``, ``.tar``, ``.tgz``, or ``.zip`` as the "
+"extension"
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_install.rst:395
+msgid ""
+"the package must contain a manifest file (:ref:`library_json`, ``platform."
+"json``, or ``package.json``) with ``name`` and ``version`` properties."
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_install.rst:415
+msgid "Remote TAR or ZIP archive"
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_install.rst:417
+msgid "**Specification:** ``[<name>=]<archive url>``"
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_install.rst:419
+msgid ""
+"Fetch the archive URL, and then install a package and its :ref:"
+"`manifest_library_json_dependencies`. The URL must start with ``http://`` or "
+"``https://``."
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_install.rst:441
+msgid "Version Requirements"
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_install.rst:445
+msgid ""
+"PlatformIO uses `python-semanticversion <https://github.com/rbarrois/python-"
+"semanticversion>`_ library to handle SemVer versions and specifications."
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_install.rst:448
+msgid ""
+"The ``@<version requirements>`` specification supports `Semantic Versioning "
+"<https://semver.org/>`_ ( ``<MAJOR>.<MINOR>.<PATCH>``):"
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_install.rst:451
+msgid "``MAJOR`` - incompatible API changes"
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_install.rst:452
+msgid "``MINOR`` - add functionality (backwards-compatible)"
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_install.rst:453
+msgid "``PATCH`` - bug fixes (backwards-compatible)."
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_install.rst:455
+msgid ""
+"The version requirements can take any of the following forms (see `Semver "
+"cheatsheet <https://devhints.io/semver>`_):"
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_install.rst:457
+msgid ""
+"``^1.2.3`` - any compatible version (new functionality in a backwards "
+"compatible manner and patches are allowed, 1.x.x). **RECOMMENDED**"
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_install.rst:459
+msgid ""
+"``~1.2.3`` - any version with the same major and minor versions, and an "
+"equal or greater patch version"
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_install.rst:461
+msgid ""
+"``>1.2.3`` - any version greater than ``1.2.3``. ``>=``, ``<``, and ``<=`` "
+"are also possible"
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_install.rst:463
+msgid ""
+"``>0.1.0,!=0.2.0,<0.3.0`` - any version greater than ``0.1.0``, not equal to "
+"``0.2.0`` and less than ``0.3.0``"
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_install.rst:465
+msgid "``1.2.3`` - an exact version number. Use only this exact version."
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_install.rst:467
+msgid ""
+"To list available package versions and installation instructions, please "
+"visit the |PIOREGISTRY|."
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_install.rst:469
+msgid "**Example:**"
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_install.rst:471
+msgid ""
+"Depend on the `platformio/espressif32 <https://registry.platformio.org/"
+"platforms/platformio/espressif32>`__ development platform with the next "
+"requirements:"
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_install.rst:474
+msgid "version is ``>=3.5.0``"
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_install.rst:475
+msgid "version is ``<4.0.0``"
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_install.rst:476
+msgid "version is not ``3.2.0``"
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_install.rst:486
+msgid "See Also"
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_install.rst:488
+msgid ":ref:`cmd_pkg_uninstall`"
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_install.rst:489
+msgid ":ref:`cmd_pkg_outdated`"
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_install.rst:490
+msgid ":ref:`library_json`"
+msgstr ""

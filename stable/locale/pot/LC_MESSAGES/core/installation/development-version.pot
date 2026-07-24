@@ -1,0 +1,52 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present, PlatformIO
+# This file is distributed under the same license as the PlatformIO package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PlatformIO stable\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-24 14:03+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../core/installation/development-version.rst:15
+msgid "Development Version"
+msgstr ""
+
+#: ../../../core/installation/development-version.rst:18
+msgid ""
+"If you use :ref:`pioide`, please enable development version and restart IDE:"
+msgstr ""
+
+#: ../../../core/installation/development-version.rst:20
+msgid ""
+":ref:`ide_vscode`: Set ``platformio-ide.useDevelopmentPIOCore`` to ``true`` "
+"in :ref:`ide_vscode_settings`."
+msgstr ""
+
+#: ../../../core/installation/development-version.rst:23
+msgid "Install the latest PlatformIO from the ``develop`` branch:"
+msgstr ""
+
+#: ../../../core/installation/development-version.rst:29
+msgid ""
+"If you want to be up-to-date with the latest ``develop`` version of "
+"PlatformIO, then you need to re-install PlatformIO each time you see a new "
+"commit in `PlatformIO GitHub repository (branch: develop) <https://github."
+"com/platformio/platformio-core/commits/develop>`_ like so:"
+msgstr ""
+
+#: ../../../core/installation/development-version.rst:37
+msgid "Or:"
+msgstr ""
+
+#: ../../../core/installation/development-version.rst:43
+msgid "To revert to the latest stable version:"
+msgstr ""

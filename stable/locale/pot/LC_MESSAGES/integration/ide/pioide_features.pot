@@ -1,0 +1,85 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present, PlatformIO
+# This file is distributed under the same license as the PlatformIO package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PlatformIO stable\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-24 14:03+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../integration/ide/pioide_features.rst:12
+msgid ""
+"**PlatformIO IDE is the next-generation integrated development environment "
+"for IoT.**"
+msgstr ""
+
+#: ../../../integration/ide/pioide_features.rst:14
+msgid ""
+"Cross-platform build system without external dependencies to the OS software:"
+msgstr ""
+
+#: ../../../integration/ide/pioide_features.rst:16
+msgid "1,000+ :ref:`boards`"
+msgstr ""
+
+#: ../../../integration/ide/pioide_features.rst:17
+msgid "40+ :ref:`platforms`"
+msgstr ""
+
+#: ../../../integration/ide/pioide_features.rst:18
+msgid "20+ :ref:`frameworks`"
+msgstr ""
+
+#: ../../../integration/ide/pioide_features.rst:20
+msgid ":ref:`piodebug`"
+msgstr ""
+
+#: ../../../integration/ide/pioide_features.rst:21
+msgid ":ref:`pioremote`"
+msgstr ""
+
+#: ../../../integration/ide/pioide_features.rst:22
+msgid ":ref:`unit_testing`"
+msgstr ""
+
+#: ../../../integration/ide/pioide_features.rst:23
+msgid "C/C++ Intelligent Code Completion"
+msgstr ""
+
+#: ../../../integration/ide/pioide_features.rst:24
+msgid "C/C++ Smart Code Linter for rapid professional development"
+msgstr ""
+
+#: ../../../integration/ide/pioide_features.rst:25
+msgid "Library Manager for the hundreds popular libraries"
+msgstr ""
+
+#: ../../../integration/ide/pioide_features.rst:26
+msgid "Multi-projects workflow with multiple panes"
+msgstr ""
+
+#: ../../../integration/ide/pioide_features.rst:27
+msgid "Themes support with dark and light colors"
+msgstr ""
+
+#: ../../../integration/ide/pioide_features.rst:28
+msgid "Serial Port Monitor"
+msgstr ""
+
+#: ../../../integration/ide/pioide_features.rst:29
+msgid ""
+"Built-in Terminal with :ref:`piocore` and CLI tool (``pio``, ``platformio``)"
+msgstr ""
+
+#: ../../../integration/ide/pioide_features.rst:30
+msgid "Built-in :ref:`piohome`."
+msgstr ""

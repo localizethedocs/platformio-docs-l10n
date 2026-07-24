@@ -1,0 +1,1056 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present, PlatformIO
+# This file is distributed under the same license as the PlatformIO package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PlatformIO stable\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-24 14:03+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../plus/debug-tools/atmel-ice.rst:15
+msgid "Atmel-ICE"
+msgstr ""
+
+#: ../../../plus/debug-tools/atmel-ice.rst:20
+msgid ""
+"Atmel-ICE is a powerful development tool for debugging and programming ARM® "
+"Cortex®-M based SAM and AVR microcontrollers with on-chip debug capability. "
+"Official reference can be found `here <https://www.microchip.com/"
+"DevelopmentTools/ProductDetails/PartNo/atatmel-ice?PartNO=atatmel-"
+"ice&utm_source=platformio&utm_medium=docs>`__."
+msgstr ""
+
+#: ../../../plus/debug-tools/atmel-ice.rst:25
+msgid "Contents"
+msgstr ""
+
+#: ../../../plus/debug-tools/atmel-ice.rst:28
+msgid "Configuration"
+msgstr ""
+
+#: ../../../plus/debug-tools/atmel-ice.rst:30
+msgid ""
+"You can configure debugging tool using :ref:`projectconf_debug_tool` option "
+"in :ref:`projectconf`:"
+msgstr ""
+
+#: ../../../plus/debug-tools/atmel-ice.rst:40
+msgid ""
+"If you would like to use this tool for firmware uploading, please change "
+"upload protocol:"
+msgstr ""
+
+#: ../../../plus/debug-tools/atmel-ice.rst:51
+msgid "More options:"
+msgstr ""
+
+#: ../../../plus/debug-tools/atmel-ice.rst:53
+msgid ":ref:`projectconf_section_env_debug`"
+msgstr ""
+
+#: ../../../plus/debug-tools/atmel-ice.rst:54
+msgid ":ref:`projectconf_section_env_upload`"
+msgstr ""
+
+#: ../../../plus/debug-tools/atmel-ice.rst:57
+msgid "Drivers"
+msgstr ""
+
+#: ../../../plus/debug-tools/atmel-ice.rst:0
+msgid "Windows"
+msgstr ""
+
+#: ../../../plus/debug-tools/atmel-ice.rst:60
+msgid ""
+"When installing the Atmel-ICE on a computer running Microsoft Windows, the "
+"USB driver is loaded when the Atmel-ICE is first plugged in."
+msgstr ""
+
+#: ../../../plus/debug-tools/atmel-ice.rst:0
+msgid "Mac"
+msgstr ""
+
+#: ../../../plus/debug-tools/atmel-ice.rst:64
+msgid "Not required."
+msgstr ""
+
+#: ../../../plus/debug-tools/atmel-ice.rst:0
+msgid "Linux"
+msgstr ""
+
+#: ../../../plus/debug-tools/atmel-ice.rst:67
+msgid ""
+"Please install \"udev\" rules :ref:`platformio_udev_rules`. If you already "
+"installed them before, please check that your rules are up-to-date or repeat "
+"steps."
+msgstr ""
+
+#: ../../../plus/debug-tools/atmel-ice.rst:73
+msgid "Platforms"
+msgstr ""
+
+#: ../../../plus/debug-tools/atmel-ice.rst:77
+#: ../../../plus/debug-tools/atmel-ice.rst:88
+#: ../../../plus/debug-tools/atmel-ice.rst:107
+msgid "Name"
+msgstr ""
+
+#: ../../../plus/debug-tools/atmel-ice.rst:78
+#: ../../../plus/debug-tools/atmel-ice.rst:89
+msgid "Description"
+msgstr ""
+
+#: ../../../plus/debug-tools/atmel-ice.rst:80
+#: ../../../plus/debug-tools/atmel-ice.rst:115
+#: ../../../plus/debug-tools/atmel-ice.rst:122
+#: ../../../plus/debug-tools/atmel-ice.rst:129
+#: ../../../plus/debug-tools/atmel-ice.rst:136
+#: ../../../plus/debug-tools/atmel-ice.rst:143
+#: ../../../plus/debug-tools/atmel-ice.rst:150
+#: ../../../plus/debug-tools/atmel-ice.rst:157
+#: ../../../plus/debug-tools/atmel-ice.rst:164
+#: ../../../plus/debug-tools/atmel-ice.rst:171
+#: ../../../plus/debug-tools/atmel-ice.rst:178
+#: ../../../plus/debug-tools/atmel-ice.rst:185
+#: ../../../plus/debug-tools/atmel-ice.rst:192
+#: ../../../plus/debug-tools/atmel-ice.rst:199
+#: ../../../plus/debug-tools/atmel-ice.rst:206
+#: ../../../plus/debug-tools/atmel-ice.rst:213
+#: ../../../plus/debug-tools/atmel-ice.rst:220
+#: ../../../plus/debug-tools/atmel-ice.rst:227
+#: ../../../plus/debug-tools/atmel-ice.rst:234
+#: ../../../plus/debug-tools/atmel-ice.rst:241
+#: ../../../plus/debug-tools/atmel-ice.rst:248
+#: ../../../plus/debug-tools/atmel-ice.rst:255
+#: ../../../plus/debug-tools/atmel-ice.rst:262
+#: ../../../plus/debug-tools/atmel-ice.rst:269
+#: ../../../plus/debug-tools/atmel-ice.rst:276
+#: ../../../plus/debug-tools/atmel-ice.rst:283
+#: ../../../plus/debug-tools/atmel-ice.rst:290
+#: ../../../plus/debug-tools/atmel-ice.rst:297
+#: ../../../plus/debug-tools/atmel-ice.rst:304
+#: ../../../plus/debug-tools/atmel-ice.rst:311
+#: ../../../plus/debug-tools/atmel-ice.rst:318
+#: ../../../plus/debug-tools/atmel-ice.rst:325
+#: ../../../plus/debug-tools/atmel-ice.rst:332
+#: ../../../plus/debug-tools/atmel-ice.rst:339
+#: ../../../plus/debug-tools/atmel-ice.rst:346
+#: ../../../plus/debug-tools/atmel-ice.rst:353
+#: ../../../plus/debug-tools/atmel-ice.rst:360
+#: ../../../plus/debug-tools/atmel-ice.rst:367
+#: ../../../plus/debug-tools/atmel-ice.rst:374
+#: ../../../plus/debug-tools/atmel-ice.rst:381
+#: ../../../plus/debug-tools/atmel-ice.rst:388
+#: ../../../plus/debug-tools/atmel-ice.rst:395
+#: ../../../plus/debug-tools/atmel-ice.rst:402
+#: ../../../plus/debug-tools/atmel-ice.rst:409
+#: ../../../plus/debug-tools/atmel-ice.rst:416
+#: ../../../plus/debug-tools/atmel-ice.rst:423
+#: ../../../plus/debug-tools/atmel-ice.rst:430
+#: ../../../plus/debug-tools/atmel-ice.rst:437
+#: ../../../plus/debug-tools/atmel-ice.rst:444
+#: ../../../plus/debug-tools/atmel-ice.rst:451
+#: ../../../plus/debug-tools/atmel-ice.rst:458
+#: ../../../plus/debug-tools/atmel-ice.rst:465
+#: ../../../plus/debug-tools/atmel-ice.rst:472
+#: ../../../plus/debug-tools/atmel-ice.rst:479
+#: ../../../plus/debug-tools/atmel-ice.rst:486
+#: ../../../plus/debug-tools/atmel-ice.rst:493
+#: ../../../plus/debug-tools/atmel-ice.rst:500
+#: ../../../plus/debug-tools/atmel-ice.rst:507
+#: ../../../plus/debug-tools/atmel-ice.rst:514
+#: ../../../plus/debug-tools/atmel-ice.rst:521
+#: ../../../plus/debug-tools/atmel-ice.rst:528
+#: ../../../plus/debug-tools/atmel-ice.rst:535
+#: ../../../plus/debug-tools/atmel-ice.rst:542
+#: ../../../plus/debug-tools/atmel-ice.rst:549
+#: ../../../plus/debug-tools/atmel-ice.rst:556
+#: ../../../plus/debug-tools/atmel-ice.rst:563
+#: ../../../plus/debug-tools/atmel-ice.rst:570
+#: ../../../plus/debug-tools/atmel-ice.rst:577
+#: ../../../plus/debug-tools/atmel-ice.rst:584
+#: ../../../plus/debug-tools/atmel-ice.rst:591
+#: ../../../plus/debug-tools/atmel-ice.rst:598
+#: ../../../plus/debug-tools/atmel-ice.rst:605
+#: ../../../plus/debug-tools/atmel-ice.rst:612
+#: ../../../plus/debug-tools/atmel-ice.rst:619
+#: ../../../plus/debug-tools/atmel-ice.rst:626
+#: ../../../plus/debug-tools/atmel-ice.rst:633
+#: ../../../plus/debug-tools/atmel-ice.rst:640
+#: ../../../plus/debug-tools/atmel-ice.rst:647
+#: ../../../plus/debug-tools/atmel-ice.rst:654
+#: ../../../plus/debug-tools/atmel-ice.rst:661
+#: ../../../plus/debug-tools/atmel-ice.rst:668
+msgid ":ref:`platform_atmelsam`"
+msgstr ""
+
+#: ../../../plus/debug-tools/atmel-ice.rst:81
+msgid ""
+"Atmel | SMART offers Flash- based ARM products based on the ARM Cortex-M0+, "
+"Cortex-M3 and Cortex-M4 architectures, ranging from 8KB to 2MB of Flash "
+"including a rich peripheral and feature mix."
+msgstr ""
+
+#: ../../../plus/debug-tools/atmel-ice.rst:84
+msgid "Frameworks"
+msgstr ""
+
+#: ../../../plus/debug-tools/atmel-ice.rst:91
+msgid ":ref:`framework_arduino`"
+msgstr ""
+
+#: ../../../plus/debug-tools/atmel-ice.rst:92
+msgid ""
+"Arduino Wiring-based Framework allows writing cross-platform software to "
+"control devices attached to a wide range of Arduino boards to create all "
+"kinds of creative coding, interactive objects, spaces or physical "
+"experiences."
+msgstr ""
+
+#: ../../../plus/debug-tools/atmel-ice.rst:94
+msgid ":ref:`framework_zephyr`"
+msgstr ""
+
+#: ../../../plus/debug-tools/atmel-ice.rst:95
+msgid ""
+"Zephyr is a new generation, scalable, optimized, secure RTOS for multiple "
+"hardware architectures"
+msgstr ""
+
+#: ../../../plus/debug-tools/atmel-ice.rst:98
+msgid "Boards"
+msgstr ""
+
+#: ../../../plus/debug-tools/atmel-ice.rst:101
+msgid ""
+"For more detailed ``board`` information please scroll tables below by "
+"horizontal."
+msgstr ""
+
+#: ../../../plus/debug-tools/atmel-ice.rst:108
+msgid "Platform"
+msgstr ""
+
+#: ../../../plus/debug-tools/atmel-ice.rst:109
+msgid "Debug"
+msgstr ""
+
+#: ../../../plus/debug-tools/atmel-ice.rst:110
+msgid "MCU"
+msgstr ""
+
+#: ../../../plus/debug-tools/atmel-ice.rst:111
+msgid "Frequency"
+msgstr ""
+
+#: ../../../plus/debug-tools/atmel-ice.rst:112
+msgid "Flash"
+msgstr ""
+
+#: ../../../plus/debug-tools/atmel-ice.rst:113
+msgid "RAM"
+msgstr ""
+
+#: ../../../plus/debug-tools/atmel-ice.rst:114
+msgid ":ref:`board_atmelsam_adafruit_blm_badge`"
+msgstr ""
+
+#: ../../../plus/debug-tools/atmel-ice.rst:116
+#: ../../../plus/debug-tools/atmel-ice.rst:123
+#: ../../../plus/debug-tools/atmel-ice.rst:130
+#: ../../../plus/debug-tools/atmel-ice.rst:137
+#: ../../../plus/debug-tools/atmel-ice.rst:144
+#: ../../../plus/debug-tools/atmel-ice.rst:151
+#: ../../../plus/debug-tools/atmel-ice.rst:158
+#: ../../../plus/debug-tools/atmel-ice.rst:165
+#: ../../../plus/debug-tools/atmel-ice.rst:172
+#: ../../../plus/debug-tools/atmel-ice.rst:179
+#: ../../../plus/debug-tools/atmel-ice.rst:186
+#: ../../../plus/debug-tools/atmel-ice.rst:193
+#: ../../../plus/debug-tools/atmel-ice.rst:200
+#: ../../../plus/debug-tools/atmel-ice.rst:207
+#: ../../../plus/debug-tools/atmel-ice.rst:214
+#: ../../../plus/debug-tools/atmel-ice.rst:221
+#: ../../../plus/debug-tools/atmel-ice.rst:228
+#: ../../../plus/debug-tools/atmel-ice.rst:235
+#: ../../../plus/debug-tools/atmel-ice.rst:242
+#: ../../../plus/debug-tools/atmel-ice.rst:249
+#: ../../../plus/debug-tools/atmel-ice.rst:256
+#: ../../../plus/debug-tools/atmel-ice.rst:263
+#: ../../../plus/debug-tools/atmel-ice.rst:270
+#: ../../../plus/debug-tools/atmel-ice.rst:277
+#: ../../../plus/debug-tools/atmel-ice.rst:284
+#: ../../../plus/debug-tools/atmel-ice.rst:291
+#: ../../../plus/debug-tools/atmel-ice.rst:298
+#: ../../../plus/debug-tools/atmel-ice.rst:305
+#: ../../../plus/debug-tools/atmel-ice.rst:312
+#: ../../../plus/debug-tools/atmel-ice.rst:319
+#: ../../../plus/debug-tools/atmel-ice.rst:326
+#: ../../../plus/debug-tools/atmel-ice.rst:333
+#: ../../../plus/debug-tools/atmel-ice.rst:340
+#: ../../../plus/debug-tools/atmel-ice.rst:347
+#: ../../../plus/debug-tools/atmel-ice.rst:354
+#: ../../../plus/debug-tools/atmel-ice.rst:361
+#: ../../../plus/debug-tools/atmel-ice.rst:368
+#: ../../../plus/debug-tools/atmel-ice.rst:382
+#: ../../../plus/debug-tools/atmel-ice.rst:389
+#: ../../../plus/debug-tools/atmel-ice.rst:396
+#: ../../../plus/debug-tools/atmel-ice.rst:403
+#: ../../../plus/debug-tools/atmel-ice.rst:410
+#: ../../../plus/debug-tools/atmel-ice.rst:417
+#: ../../../plus/debug-tools/atmel-ice.rst:424
+#: ../../../plus/debug-tools/atmel-ice.rst:431
+#: ../../../plus/debug-tools/atmel-ice.rst:438
+#: ../../../plus/debug-tools/atmel-ice.rst:452
+#: ../../../plus/debug-tools/atmel-ice.rst:487
+#: ../../../plus/debug-tools/atmel-ice.rst:494
+#: ../../../plus/debug-tools/atmel-ice.rst:501
+#: ../../../plus/debug-tools/atmel-ice.rst:508
+#: ../../../plus/debug-tools/atmel-ice.rst:515
+#: ../../../plus/debug-tools/atmel-ice.rst:522
+#: ../../../plus/debug-tools/atmel-ice.rst:529
+#: ../../../plus/debug-tools/atmel-ice.rst:536
+#: ../../../plus/debug-tools/atmel-ice.rst:543
+#: ../../../plus/debug-tools/atmel-ice.rst:550
+#: ../../../plus/debug-tools/atmel-ice.rst:557
+#: ../../../plus/debug-tools/atmel-ice.rst:564
+#: ../../../plus/debug-tools/atmel-ice.rst:571
+#: ../../../plus/debug-tools/atmel-ice.rst:578
+#: ../../../plus/debug-tools/atmel-ice.rst:585
+#: ../../../plus/debug-tools/atmel-ice.rst:592
+#: ../../../plus/debug-tools/atmel-ice.rst:599
+#: ../../../plus/debug-tools/atmel-ice.rst:606
+#: ../../../plus/debug-tools/atmel-ice.rst:613
+#: ../../../plus/debug-tools/atmel-ice.rst:620
+#: ../../../plus/debug-tools/atmel-ice.rst:627
+#: ../../../plus/debug-tools/atmel-ice.rst:634
+#: ../../../plus/debug-tools/atmel-ice.rst:641
+#: ../../../plus/debug-tools/atmel-ice.rst:648
+#: ../../../plus/debug-tools/atmel-ice.rst:655
+#: ../../../plus/debug-tools/atmel-ice.rst:662
+#: ../../../plus/debug-tools/atmel-ice.rst:669
+msgid "External"
+msgstr ""
+
+#: ../../../plus/debug-tools/atmel-ice.rst:117
+#: ../../../plus/debug-tools/atmel-ice.rst:166
+#: ../../../plus/debug-tools/atmel-ice.rst:243
+#: ../../../plus/debug-tools/atmel-ice.rst:250
+#: ../../../plus/debug-tools/atmel-ice.rst:257
+#: ../../../plus/debug-tools/atmel-ice.rst:292
+#: ../../../plus/debug-tools/atmel-ice.rst:299
+#: ../../../plus/debug-tools/atmel-ice.rst:306
+#: ../../../plus/debug-tools/atmel-ice.rst:320
+#: ../../../plus/debug-tools/atmel-ice.rst:327
+#: ../../../plus/debug-tools/atmel-ice.rst:621
+msgid "SAMD21E18A"
+msgstr ""
+
+#: ../../../plus/debug-tools/atmel-ice.rst:118
+#: ../../../plus/debug-tools/atmel-ice.rst:125
+#: ../../../plus/debug-tools/atmel-ice.rst:132
+#: ../../../plus/debug-tools/atmel-ice.rst:139
+#: ../../../plus/debug-tools/atmel-ice.rst:146
+#: ../../../plus/debug-tools/atmel-ice.rst:167
+#: ../../../plus/debug-tools/atmel-ice.rst:181
+#: ../../../plus/debug-tools/atmel-ice.rst:195
+#: ../../../plus/debug-tools/atmel-ice.rst:223
+#: ../../../plus/debug-tools/atmel-ice.rst:244
+#: ../../../plus/debug-tools/atmel-ice.rst:251
+#: ../../../plus/debug-tools/atmel-ice.rst:258
+#: ../../../plus/debug-tools/atmel-ice.rst:293
+#: ../../../plus/debug-tools/atmel-ice.rst:300
+#: ../../../plus/debug-tools/atmel-ice.rst:307
+#: ../../../plus/debug-tools/atmel-ice.rst:321
+#: ../../../plus/debug-tools/atmel-ice.rst:328
+#: ../../../plus/debug-tools/atmel-ice.rst:363
+#: ../../../plus/debug-tools/atmel-ice.rst:370
+#: ../../../plus/debug-tools/atmel-ice.rst:377
+#: ../../../plus/debug-tools/atmel-ice.rst:384
+#: ../../../plus/debug-tools/atmel-ice.rst:391
+#: ../../../plus/debug-tools/atmel-ice.rst:398
+#: ../../../plus/debug-tools/atmel-ice.rst:405
+#: ../../../plus/debug-tools/atmel-ice.rst:412
+#: ../../../plus/debug-tools/atmel-ice.rst:419
+#: ../../../plus/debug-tools/atmel-ice.rst:426
+#: ../../../plus/debug-tools/atmel-ice.rst:433
+#: ../../../plus/debug-tools/atmel-ice.rst:440
+#: ../../../plus/debug-tools/atmel-ice.rst:447
+#: ../../../plus/debug-tools/atmel-ice.rst:454
+#: ../../../plus/debug-tools/atmel-ice.rst:461
+#: ../../../plus/debug-tools/atmel-ice.rst:468
+#: ../../../plus/debug-tools/atmel-ice.rst:475
+#: ../../../plus/debug-tools/atmel-ice.rst:482
+#: ../../../plus/debug-tools/atmel-ice.rst:496
+#: ../../../plus/debug-tools/atmel-ice.rst:503
+#: ../../../plus/debug-tools/atmel-ice.rst:510
+#: ../../../plus/debug-tools/atmel-ice.rst:517
+#: ../../../plus/debug-tools/atmel-ice.rst:524
+#: ../../../plus/debug-tools/atmel-ice.rst:531
+#: ../../../plus/debug-tools/atmel-ice.rst:538
+#: ../../../plus/debug-tools/atmel-ice.rst:545
+#: ../../../plus/debug-tools/atmel-ice.rst:552
+#: ../../../plus/debug-tools/atmel-ice.rst:573
+#: ../../../plus/debug-tools/atmel-ice.rst:580
+#: ../../../plus/debug-tools/atmel-ice.rst:587
+#: ../../../plus/debug-tools/atmel-ice.rst:601
+#: ../../../plus/debug-tools/atmel-ice.rst:608
+#: ../../../plus/debug-tools/atmel-ice.rst:615
+#: ../../../plus/debug-tools/atmel-ice.rst:622
+#: ../../../plus/debug-tools/atmel-ice.rst:629
+#: ../../../plus/debug-tools/atmel-ice.rst:636
+#: ../../../plus/debug-tools/atmel-ice.rst:643
+#: ../../../plus/debug-tools/atmel-ice.rst:650
+#: ../../../plus/debug-tools/atmel-ice.rst:671
+msgid "48MHz"
+msgstr ""
+
+#: ../../../plus/debug-tools/atmel-ice.rst:119
+#: ../../../plus/debug-tools/atmel-ice.rst:126
+#: ../../../plus/debug-tools/atmel-ice.rst:133
+#: ../../../plus/debug-tools/atmel-ice.rst:140
+#: ../../../plus/debug-tools/atmel-ice.rst:147
+#: ../../../plus/debug-tools/atmel-ice.rst:168
+#: ../../../plus/debug-tools/atmel-ice.rst:176
+#: ../../../plus/debug-tools/atmel-ice.rst:182
+#: ../../../plus/debug-tools/atmel-ice.rst:196
+#: ../../../plus/debug-tools/atmel-ice.rst:224
+#: ../../../plus/debug-tools/atmel-ice.rst:245
+#: ../../../plus/debug-tools/atmel-ice.rst:252
+#: ../../../plus/debug-tools/atmel-ice.rst:259
+#: ../../../plus/debug-tools/atmel-ice.rst:267
+#: ../../../plus/debug-tools/atmel-ice.rst:281
+#: ../../../plus/debug-tools/atmel-ice.rst:288
+#: ../../../plus/debug-tools/atmel-ice.rst:294
+#: ../../../plus/debug-tools/atmel-ice.rst:301
+#: ../../../plus/debug-tools/atmel-ice.rst:308
+#: ../../../plus/debug-tools/atmel-ice.rst:322
+#: ../../../plus/debug-tools/atmel-ice.rst:329
+#: ../../../plus/debug-tools/atmel-ice.rst:364
+#: ../../../plus/debug-tools/atmel-ice.rst:371
+#: ../../../plus/debug-tools/atmel-ice.rst:378
+#: ../../../plus/debug-tools/atmel-ice.rst:385
+#: ../../../plus/debug-tools/atmel-ice.rst:392
+#: ../../../plus/debug-tools/atmel-ice.rst:399
+#: ../../../plus/debug-tools/atmel-ice.rst:406
+#: ../../../plus/debug-tools/atmel-ice.rst:413
+#: ../../../plus/debug-tools/atmel-ice.rst:420
+#: ../../../plus/debug-tools/atmel-ice.rst:427
+#: ../../../plus/debug-tools/atmel-ice.rst:434
+#: ../../../plus/debug-tools/atmel-ice.rst:441
+#: ../../../plus/debug-tools/atmel-ice.rst:448
+#: ../../../plus/debug-tools/atmel-ice.rst:455
+#: ../../../plus/debug-tools/atmel-ice.rst:462
+#: ../../../plus/debug-tools/atmel-ice.rst:469
+#: ../../../plus/debug-tools/atmel-ice.rst:476
+#: ../../../plus/debug-tools/atmel-ice.rst:483
+#: ../../../plus/debug-tools/atmel-ice.rst:497
+#: ../../../plus/debug-tools/atmel-ice.rst:504
+#: ../../../plus/debug-tools/atmel-ice.rst:511
+#: ../../../plus/debug-tools/atmel-ice.rst:518
+#: ../../../plus/debug-tools/atmel-ice.rst:525
+#: ../../../plus/debug-tools/atmel-ice.rst:532
+#: ../../../plus/debug-tools/atmel-ice.rst:539
+#: ../../../plus/debug-tools/atmel-ice.rst:546
+#: ../../../plus/debug-tools/atmel-ice.rst:553
+#: ../../../plus/debug-tools/atmel-ice.rst:574
+#: ../../../plus/debug-tools/atmel-ice.rst:581
+#: ../../../plus/debug-tools/atmel-ice.rst:588
+#: ../../../plus/debug-tools/atmel-ice.rst:602
+#: ../../../plus/debug-tools/atmel-ice.rst:609
+#: ../../../plus/debug-tools/atmel-ice.rst:616
+#: ../../../plus/debug-tools/atmel-ice.rst:623
+#: ../../../plus/debug-tools/atmel-ice.rst:630
+#: ../../../plus/debug-tools/atmel-ice.rst:637
+#: ../../../plus/debug-tools/atmel-ice.rst:644
+#: ../../../plus/debug-tools/atmel-ice.rst:651
+#: ../../../plus/debug-tools/atmel-ice.rst:672
+msgid "256KB"
+msgstr ""
+
+#: ../../../plus/debug-tools/atmel-ice.rst:120
+#: ../../../plus/debug-tools/atmel-ice.rst:127
+#: ../../../plus/debug-tools/atmel-ice.rst:134
+#: ../../../plus/debug-tools/atmel-ice.rst:141
+#: ../../../plus/debug-tools/atmel-ice.rst:148
+#: ../../../plus/debug-tools/atmel-ice.rst:169
+#: ../../../plus/debug-tools/atmel-ice.rst:183
+#: ../../../plus/debug-tools/atmel-ice.rst:197
+#: ../../../plus/debug-tools/atmel-ice.rst:225
+#: ../../../plus/debug-tools/atmel-ice.rst:246
+#: ../../../plus/debug-tools/atmel-ice.rst:253
+#: ../../../plus/debug-tools/atmel-ice.rst:260
+#: ../../../plus/debug-tools/atmel-ice.rst:295
+#: ../../../plus/debug-tools/atmel-ice.rst:302
+#: ../../../plus/debug-tools/atmel-ice.rst:309
+#: ../../../plus/debug-tools/atmel-ice.rst:323
+#: ../../../plus/debug-tools/atmel-ice.rst:330
+#: ../../../plus/debug-tools/atmel-ice.rst:365
+#: ../../../plus/debug-tools/atmel-ice.rst:372
+#: ../../../plus/debug-tools/atmel-ice.rst:379
+#: ../../../plus/debug-tools/atmel-ice.rst:386
+#: ../../../plus/debug-tools/atmel-ice.rst:393
+#: ../../../plus/debug-tools/atmel-ice.rst:400
+#: ../../../plus/debug-tools/atmel-ice.rst:407
+#: ../../../plus/debug-tools/atmel-ice.rst:414
+#: ../../../plus/debug-tools/atmel-ice.rst:421
+#: ../../../plus/debug-tools/atmel-ice.rst:428
+#: ../../../plus/debug-tools/atmel-ice.rst:435
+#: ../../../plus/debug-tools/atmel-ice.rst:442
+#: ../../../plus/debug-tools/atmel-ice.rst:449
+#: ../../../plus/debug-tools/atmel-ice.rst:456
+#: ../../../plus/debug-tools/atmel-ice.rst:463
+#: ../../../plus/debug-tools/atmel-ice.rst:470
+#: ../../../plus/debug-tools/atmel-ice.rst:477
+#: ../../../plus/debug-tools/atmel-ice.rst:484
+#: ../../../plus/debug-tools/atmel-ice.rst:498
+#: ../../../plus/debug-tools/atmel-ice.rst:505
+#: ../../../plus/debug-tools/atmel-ice.rst:512
+#: ../../../plus/debug-tools/atmel-ice.rst:519
+#: ../../../plus/debug-tools/atmel-ice.rst:526
+#: ../../../plus/debug-tools/atmel-ice.rst:533
+#: ../../../plus/debug-tools/atmel-ice.rst:540
+#: ../../../plus/debug-tools/atmel-ice.rst:547
+#: ../../../plus/debug-tools/atmel-ice.rst:554
+#: ../../../plus/debug-tools/atmel-ice.rst:575
+#: ../../../plus/debug-tools/atmel-ice.rst:582
+#: ../../../plus/debug-tools/atmel-ice.rst:589
+#: ../../../plus/debug-tools/atmel-ice.rst:603
+#: ../../../plus/debug-tools/atmel-ice.rst:610
+#: ../../../plus/debug-tools/atmel-ice.rst:617
+#: ../../../plus/debug-tools/atmel-ice.rst:624
+#: ../../../plus/debug-tools/atmel-ice.rst:631
+#: ../../../plus/debug-tools/atmel-ice.rst:638
+#: ../../../plus/debug-tools/atmel-ice.rst:645
+#: ../../../plus/debug-tools/atmel-ice.rst:652
+#: ../../../plus/debug-tools/atmel-ice.rst:673
+msgid "32KB"
+msgstr ""
+
+#: ../../../plus/debug-tools/atmel-ice.rst:121
+msgid ":ref:`board_atmelsam_adafruit_circuitplayground_m0`"
+msgstr ""
+
+#: ../../../plus/debug-tools/atmel-ice.rst:124
+#: ../../../plus/debug-tools/atmel-ice.rst:131
+#: ../../../plus/debug-tools/atmel-ice.rst:138
+#: ../../../plus/debug-tools/atmel-ice.rst:145
+#: ../../../plus/debug-tools/atmel-ice.rst:180
+#: ../../../plus/debug-tools/atmel-ice.rst:194
+#: ../../../plus/debug-tools/atmel-ice.rst:222
+#: ../../../plus/debug-tools/atmel-ice.rst:362
+#: ../../../plus/debug-tools/atmel-ice.rst:369
+#: ../../../plus/debug-tools/atmel-ice.rst:376
+#: ../../../plus/debug-tools/atmel-ice.rst:383
+#: ../../../plus/debug-tools/atmel-ice.rst:390
+#: ../../../plus/debug-tools/atmel-ice.rst:397
+#: ../../../plus/debug-tools/atmel-ice.rst:404
+#: ../../../plus/debug-tools/atmel-ice.rst:411
+#: ../../../plus/debug-tools/atmel-ice.rst:418
+#: ../../../plus/debug-tools/atmel-ice.rst:425
+#: ../../../plus/debug-tools/atmel-ice.rst:432
+#: ../../../plus/debug-tools/atmel-ice.rst:439
+#: ../../../plus/debug-tools/atmel-ice.rst:446
+#: ../../../plus/debug-tools/atmel-ice.rst:453
+#: ../../../plus/debug-tools/atmel-ice.rst:467
+#: ../../../plus/debug-tools/atmel-ice.rst:495
+#: ../../../plus/debug-tools/atmel-ice.rst:509
+#: ../../../plus/debug-tools/atmel-ice.rst:516
+#: ../../../plus/debug-tools/atmel-ice.rst:537
+#: ../../../plus/debug-tools/atmel-ice.rst:551
+#: ../../../plus/debug-tools/atmel-ice.rst:572
+#: ../../../plus/debug-tools/atmel-ice.rst:579
+#: ../../../plus/debug-tools/atmel-ice.rst:586
+#: ../../../plus/debug-tools/atmel-ice.rst:600
+#: ../../../plus/debug-tools/atmel-ice.rst:607
+#: ../../../plus/debug-tools/atmel-ice.rst:614
+#: ../../../plus/debug-tools/atmel-ice.rst:628
+#: ../../../plus/debug-tools/atmel-ice.rst:635
+#: ../../../plus/debug-tools/atmel-ice.rst:642
+#: ../../../plus/debug-tools/atmel-ice.rst:649
+#: ../../../plus/debug-tools/atmel-ice.rst:670
+msgid "SAMD21G18A"
+msgstr ""
+
+#: ../../../plus/debug-tools/atmel-ice.rst:128
+msgid ":ref:`board_atmelsam_adafruit_crickit_m0`"
+msgstr ""
+
+#: ../../../plus/debug-tools/atmel-ice.rst:135
+msgid ":ref:`board_atmelsam_adafruit_feather_m0`"
+msgstr ""
+
+#: ../../../plus/debug-tools/atmel-ice.rst:142
+msgid ":ref:`board_atmelsam_adafruit_feather_m0_express`"
+msgstr ""
+
+#: ../../../plus/debug-tools/atmel-ice.rst:149
+msgid ":ref:`board_atmelsam_adafruit_feather_m4_can`"
+msgstr ""
+
+#: ../../../plus/debug-tools/atmel-ice.rst:152
+msgid "SAME51J19A"
+msgstr ""
+
+#: ../../../plus/debug-tools/atmel-ice.rst:153
+#: ../../../plus/debug-tools/atmel-ice.rst:160
+#: ../../../plus/debug-tools/atmel-ice.rst:174
+#: ../../../plus/debug-tools/atmel-ice.rst:188
+#: ../../../plus/debug-tools/atmel-ice.rst:202
+#: ../../../plus/debug-tools/atmel-ice.rst:209
+#: ../../../plus/debug-tools/atmel-ice.rst:216
+#: ../../../plus/debug-tools/atmel-ice.rst:230
+#: ../../../plus/debug-tools/atmel-ice.rst:237
+#: ../../../plus/debug-tools/atmel-ice.rst:265
+#: ../../../plus/debug-tools/atmel-ice.rst:272
+#: ../../../plus/debug-tools/atmel-ice.rst:279
+#: ../../../plus/debug-tools/atmel-ice.rst:286
+#: ../../../plus/debug-tools/atmel-ice.rst:314
+#: ../../../plus/debug-tools/atmel-ice.rst:335
+#: ../../../plus/debug-tools/atmel-ice.rst:342
+#: ../../../plus/debug-tools/atmel-ice.rst:594
+#: ../../../plus/debug-tools/atmel-ice.rst:657
+#: ../../../plus/debug-tools/atmel-ice.rst:664
+msgid "120MHz"
+msgstr ""
+
+#: ../../../plus/debug-tools/atmel-ice.rst:154
+#: ../../../plus/debug-tools/atmel-ice.rst:189
+#: ../../../plus/debug-tools/atmel-ice.rst:210
+#: ../../../plus/debug-tools/atmel-ice.rst:217
+#: ../../../plus/debug-tools/atmel-ice.rst:595
+#: ../../../plus/debug-tools/atmel-ice.rst:658
+#: ../../../plus/debug-tools/atmel-ice.rst:665
+msgid "496KB"
+msgstr ""
+
+#: ../../../plus/debug-tools/atmel-ice.rst:155
+#: ../../../plus/debug-tools/atmel-ice.rst:162
+#: ../../../plus/debug-tools/atmel-ice.rst:190
+#: ../../../plus/debug-tools/atmel-ice.rst:204
+#: ../../../plus/debug-tools/atmel-ice.rst:211
+#: ../../../plus/debug-tools/atmel-ice.rst:218
+#: ../../../plus/debug-tools/atmel-ice.rst:232
+#: ../../../plus/debug-tools/atmel-ice.rst:239
+#: ../../../plus/debug-tools/atmel-ice.rst:274
+#: ../../../plus/debug-tools/atmel-ice.rst:316
+#: ../../../plus/debug-tools/atmel-ice.rst:337
+#: ../../../plus/debug-tools/atmel-ice.rst:344
+#: ../../../plus/debug-tools/atmel-ice.rst:596
+#: ../../../plus/debug-tools/atmel-ice.rst:659
+#: ../../../plus/debug-tools/atmel-ice.rst:666
+msgid "192KB"
+msgstr ""
+
+#: ../../../plus/debug-tools/atmel-ice.rst:156
+msgid ":ref:`board_atmelsam_adafruit_feather_m4`"
+msgstr ""
+
+#: ../../../plus/debug-tools/atmel-ice.rst:159
+#: ../../../plus/debug-tools/atmel-ice.rst:187
+#: ../../../plus/debug-tools/atmel-ice.rst:215
+#: ../../../plus/debug-tools/atmel-ice.rst:229
+#: ../../../plus/debug-tools/atmel-ice.rst:236
+#: ../../../plus/debug-tools/atmel-ice.rst:271
+#: ../../../plus/debug-tools/atmel-ice.rst:313
+#: ../../../plus/debug-tools/atmel-ice.rst:341
+msgid "SAMD51J19A"
+msgstr ""
+
+#: ../../../plus/debug-tools/atmel-ice.rst:161
+#: ../../../plus/debug-tools/atmel-ice.rst:203
+#: ../../../plus/debug-tools/atmel-ice.rst:231
+#: ../../../plus/debug-tools/atmel-ice.rst:238
+#: ../../../plus/debug-tools/atmel-ice.rst:273
+#: ../../../plus/debug-tools/atmel-ice.rst:315
+#: ../../../plus/debug-tools/atmel-ice.rst:343
+#: ../../../plus/debug-tools/atmel-ice.rst:350
+#: ../../../plus/debug-tools/atmel-ice.rst:357
+#: ../../../plus/debug-tools/atmel-ice.rst:490
+#: ../../../plus/debug-tools/atmel-ice.rst:560
+#: ../../../plus/debug-tools/atmel-ice.rst:567
+msgid "512KB"
+msgstr ""
+
+#: ../../../plus/debug-tools/atmel-ice.rst:163
+msgid ":ref:`board_atmelsam_adafruit_gemma_m0`"
+msgstr ""
+
+#: ../../../plus/debug-tools/atmel-ice.rst:170
+msgid ":ref:`board_atmelsam_adafruit_grandcentral_m4`"
+msgstr ""
+
+#: ../../../plus/debug-tools/atmel-ice.rst:173
+msgid "SAMD51P20A"
+msgstr ""
+
+#: ../../../plus/debug-tools/atmel-ice.rst:175
+#: ../../../plus/debug-tools/atmel-ice.rst:266
+#: ../../../plus/debug-tools/atmel-ice.rst:280
+#: ../../../plus/debug-tools/atmel-ice.rst:287
+msgid "1MB"
+msgstr ""
+
+#: ../../../plus/debug-tools/atmel-ice.rst:177
+msgid ":ref:`board_atmelsam_adafruit_hallowing`"
+msgstr ""
+
+#: ../../../plus/debug-tools/atmel-ice.rst:184
+msgid ":ref:`board_atmelsam_adafruit_hallowing_m4`"
+msgstr ""
+
+#: ../../../plus/debug-tools/atmel-ice.rst:191
+msgid ":ref:`board_atmelsam_adafruit_itsybitsy_m0`"
+msgstr ""
+
+#: ../../../plus/debug-tools/atmel-ice.rst:198
+msgid ":ref:`board_atmelsam_adafruit_itsybitsy_m4`"
+msgstr ""
+
+#: ../../../plus/debug-tools/atmel-ice.rst:201
+#: ../../../plus/debug-tools/atmel-ice.rst:208
+msgid "SAMD51G19A"
+msgstr ""
+
+#: ../../../plus/debug-tools/atmel-ice.rst:205
+msgid ":ref:`board_atmelsam_adafruit_monster_m4sk`"
+msgstr ""
+
+#: ../../../plus/debug-tools/atmel-ice.rst:212
+msgid ":ref:`board_atmelsam_adafruit_matrix_portal_m4`"
+msgstr ""
+
+#: ../../../plus/debug-tools/atmel-ice.rst:219
+msgid ":ref:`board_atmelsam_adafruit_metro_m0`"
+msgstr ""
+
+#: ../../../plus/debug-tools/atmel-ice.rst:226
+msgid ":ref:`board_atmelsam_adafruit_metro_m4`"
+msgstr ""
+
+#: ../../../plus/debug-tools/atmel-ice.rst:233
+msgid ":ref:`board_atmelsam_adafruit_metro_m4_airliftlite`"
+msgstr ""
+
+#: ../../../plus/debug-tools/atmel-ice.rst:240
+msgid ":ref:`board_atmelsam_adafruit_neokeytrinkey_m0`"
+msgstr ""
+
+#: ../../../plus/debug-tools/atmel-ice.rst:247
+msgid ":ref:`board_atmelsam_adafruit_neotrinkey_m0`"
+msgstr ""
+
+#: ../../../plus/debug-tools/atmel-ice.rst:254
+msgid ":ref:`board_atmelsam_adafruit_proxlighttrinkey_m0`"
+msgstr ""
+
+#: ../../../plus/debug-tools/atmel-ice.rst:261
+msgid ":ref:`board_atmelsam_adafruit_pygamer_advance_m4`"
+msgstr ""
+
+#: ../../../plus/debug-tools/atmel-ice.rst:264
+#: ../../../plus/debug-tools/atmel-ice.rst:278
+#: ../../../plus/debug-tools/atmel-ice.rst:285
+#: ../../../plus/debug-tools/atmel-ice.rst:334
+#: ../../../plus/debug-tools/atmel-ice.rst:656
+#: ../../../plus/debug-tools/atmel-ice.rst:663
+msgid "SAMD51J20A"
+msgstr ""
+
+#: ../../../plus/debug-tools/atmel-ice.rst:268
+msgid ":ref:`board_atmelsam_adafruit_pygamer_m4`"
+msgstr ""
+
+#: ../../../plus/debug-tools/atmel-ice.rst:275
+msgid ":ref:`board_atmelsam_adafruit_pyportal_m4`"
+msgstr ""
+
+#: ../../../plus/debug-tools/atmel-ice.rst:282
+msgid ":ref:`board_atmelsam_adafruit_pyportal_m4_titano`"
+msgstr ""
+
+#: ../../../plus/debug-tools/atmel-ice.rst:289
+msgid ":ref:`board_atmelsam_adafruit_qt_py_m0`"
+msgstr ""
+
+#: ../../../plus/debug-tools/atmel-ice.rst:296
+msgid ":ref:`board_atmelsam_adafruit_rotarytrinkey_m0`"
+msgstr ""
+
+#: ../../../plus/debug-tools/atmel-ice.rst:303
+msgid ":ref:`board_atmelsam_adafruit_slidetrinkey_m0`"
+msgstr ""
+
+#: ../../../plus/debug-tools/atmel-ice.rst:310
+msgid ":ref:`board_atmelsam_adafruit_trellis_m4`"
+msgstr ""
+
+#: ../../../plus/debug-tools/atmel-ice.rst:317
+msgid ":ref:`board_atmelsam_adafruit_trinket_m0`"
+msgstr ""
+
+#: ../../../plus/debug-tools/atmel-ice.rst:324
+msgid ":ref:`board_atmelsam_adafruit_pirkey`"
+msgstr ""
+
+#: ../../../plus/debug-tools/atmel-ice.rst:331
+msgid ":ref:`board_atmelsam_adafruit_pybadge_airlift_m4`"
+msgstr ""
+
+#: ../../../plus/debug-tools/atmel-ice.rst:336
+msgid "1008KB"
+msgstr ""
+
+#: ../../../plus/debug-tools/atmel-ice.rst:338
+msgid ":ref:`board_atmelsam_adafruit_pybadge_m4`"
+msgstr ""
+
+#: ../../../plus/debug-tools/atmel-ice.rst:345
+msgid ":ref:`board_atmelsam_due`"
+msgstr ""
+
+#: ../../../plus/debug-tools/atmel-ice.rst:348
+#: ../../../plus/debug-tools/atmel-ice.rst:355
+#: ../../../plus/debug-tools/atmel-ice.rst:488
+#: ../../../plus/debug-tools/atmel-ice.rst:558
+#: ../../../plus/debug-tools/atmel-ice.rst:565
+msgid "AT91SAM3X8E"
+msgstr ""
+
+#: ../../../plus/debug-tools/atmel-ice.rst:349
+#: ../../../plus/debug-tools/atmel-ice.rst:356
+#: ../../../plus/debug-tools/atmel-ice.rst:489
+#: ../../../plus/debug-tools/atmel-ice.rst:559
+#: ../../../plus/debug-tools/atmel-ice.rst:566
+msgid "84MHz"
+msgstr ""
+
+#: ../../../plus/debug-tools/atmel-ice.rst:351
+#: ../../../plus/debug-tools/atmel-ice.rst:358
+#: ../../../plus/debug-tools/atmel-ice.rst:491
+#: ../../../plus/debug-tools/atmel-ice.rst:561
+#: ../../../plus/debug-tools/atmel-ice.rst:568
+msgid "96KB"
+msgstr ""
+
+#: ../../../plus/debug-tools/atmel-ice.rst:352
+msgid ":ref:`board_atmelsam_dueUSB`"
+msgstr ""
+
+#: ../../../plus/debug-tools/atmel-ice.rst:359
+msgid ":ref:`board_atmelsam_mzeroUSB`"
+msgstr ""
+
+#: ../../../plus/debug-tools/atmel-ice.rst:366
+msgid ":ref:`board_atmelsam_mzeroproUSB`"
+msgstr ""
+
+#: ../../../plus/debug-tools/atmel-ice.rst:373
+msgid ":ref:`board_atmelsam_mzeropro`"
+msgstr ""
+
+#: ../../../plus/debug-tools/atmel-ice.rst:375
+#: ../../../plus/debug-tools/atmel-ice.rst:445
+#: ../../../plus/debug-tools/atmel-ice.rst:459
+#: ../../../plus/debug-tools/atmel-ice.rst:466
+#: ../../../plus/debug-tools/atmel-ice.rst:473
+#: ../../../plus/debug-tools/atmel-ice.rst:480
+msgid "On-board"
+msgstr ""
+
+#: ../../../plus/debug-tools/atmel-ice.rst:380
+msgid ":ref:`board_atmelsam_mkrfox1200`"
+msgstr ""
+
+#: ../../../plus/debug-tools/atmel-ice.rst:387
+msgid ":ref:`board_atmelsam_mkrgsm1400`"
+msgstr ""
+
+#: ../../../plus/debug-tools/atmel-ice.rst:394
+msgid ":ref:`board_atmelsam_mkrnb1500`"
+msgstr ""
+
+#: ../../../plus/debug-tools/atmel-ice.rst:401
+msgid ":ref:`board_atmelsam_mkrwan1300`"
+msgstr ""
+
+#: ../../../plus/debug-tools/atmel-ice.rst:408
+msgid ":ref:`board_atmelsam_mkrwan1310`"
+msgstr ""
+
+#: ../../../plus/debug-tools/atmel-ice.rst:415
+msgid ":ref:`board_atmelsam_mkrwifi1010`"
+msgstr ""
+
+#: ../../../plus/debug-tools/atmel-ice.rst:422
+msgid ":ref:`board_atmelsam_mkr1000USB`"
+msgstr ""
+
+#: ../../../plus/debug-tools/atmel-ice.rst:429
+msgid ":ref:`board_atmelsam_mkrzero`"
+msgstr ""
+
+#: ../../../plus/debug-tools/atmel-ice.rst:436
+msgid ":ref:`board_atmelsam_tian`"
+msgstr ""
+
+#: ../../../plus/debug-tools/atmel-ice.rst:443
+msgid ":ref:`board_atmelsam_zero`"
+msgstr ""
+
+#: ../../../plus/debug-tools/atmel-ice.rst:450
+msgid ":ref:`board_atmelsam_zeroUSB`"
+msgstr ""
+
+#: ../../../plus/debug-tools/atmel-ice.rst:457
+msgid ":ref:`board_atmelsam_samr21_xpro`"
+msgstr ""
+
+#: ../../../plus/debug-tools/atmel-ice.rst:460
+msgid "SAMR21G18A"
+msgstr ""
+
+#: ../../../plus/debug-tools/atmel-ice.rst:464
+msgid ":ref:`board_atmelsam_samd21g18a`"
+msgstr ""
+
+#: ../../../plus/debug-tools/atmel-ice.rst:471
+msgid ":ref:`board_atmelsam_samc21_xpro`"
+msgstr ""
+
+#: ../../../plus/debug-tools/atmel-ice.rst:474
+msgid "SAMC21J18A"
+msgstr ""
+
+#: ../../../plus/debug-tools/atmel-ice.rst:478
+msgid ":ref:`board_atmelsam_samd21_xpro`"
+msgstr ""
+
+#: ../../../plus/debug-tools/atmel-ice.rst:481
+#: ../../../plus/debug-tools/atmel-ice.rst:502
+#: ../../../plus/debug-tools/atmel-ice.rst:523
+#: ../../../plus/debug-tools/atmel-ice.rst:530
+#: ../../../plus/debug-tools/atmel-ice.rst:544
+msgid "SAMD21J18A"
+msgstr ""
+
+#: ../../../plus/debug-tools/atmel-ice.rst:485
+msgid ":ref:`board_atmelsam_digix`"
+msgstr ""
+
+#: ../../../plus/debug-tools/atmel-ice.rst:492
+msgid ":ref:`board_atmelsam_mkrvidor4000`"
+msgstr ""
+
+#: ../../../plus/debug-tools/atmel-ice.rst:499
+msgid ":ref:`board_atmelsam_minitronics20`"
+msgstr ""
+
+#: ../../../plus/debug-tools/atmel-ice.rst:506
+msgid ":ref:`board_atmelsam_moteino_zero`"
+msgstr ""
+
+#: ../../../plus/debug-tools/atmel-ice.rst:513
+msgid ":ref:`board_atmelsam_nano_33_iot`"
+msgstr ""
+
+#: ../../../plus/debug-tools/atmel-ice.rst:520
+msgid ":ref:`board_atmelsam_sodaq_autonomo`"
+msgstr ""
+
+#: ../../../plus/debug-tools/atmel-ice.rst:527
+msgid ":ref:`board_atmelsam_sodaq_explorer`"
+msgstr ""
+
+#: ../../../plus/debug-tools/atmel-ice.rst:534
+msgid ":ref:`board_atmelsam_sodaq_one`"
+msgstr ""
+
+#: ../../../plus/debug-tools/atmel-ice.rst:541
+msgid ":ref:`board_atmelsam_sodaq_sara`"
+msgstr ""
+
+#: ../../../plus/debug-tools/atmel-ice.rst:548
+msgid ":ref:`board_atmelsam_sodaq_sff`"
+msgstr ""
+
+#: ../../../plus/debug-tools/atmel-ice.rst:555
+msgid ":ref:`board_atmelsam_sainSmartDue`"
+msgstr ""
+
+#: ../../../plus/debug-tools/atmel-ice.rst:562
+msgid ":ref:`board_atmelsam_sainSmartDueUSB`"
+msgstr ""
+
+#: ../../../plus/debug-tools/atmel-ice.rst:569
+msgid ":ref:`board_atmelsam_seeed_femto`"
+msgstr ""
+
+#: ../../../plus/debug-tools/atmel-ice.rst:576
+msgid ":ref:`board_atmelsam_seeeduino_lorawan`"
+msgstr ""
+
+#: ../../../plus/debug-tools/atmel-ice.rst:583
+msgid ":ref:`board_atmelsam_seeed_wio_lite_mg126`"
+msgstr ""
+
+#: ../../../plus/debug-tools/atmel-ice.rst:590
+msgid ":ref:`board_atmelsam_seeed_wio_terminal`"
+msgstr ""
+
+#: ../../../plus/debug-tools/atmel-ice.rst:593
+msgid "SAMD51P19A"
+msgstr ""
+
+#: ../../../plus/debug-tools/atmel-ice.rst:597
+msgid ":ref:`board_atmelsam_seeed_xiao`"
+msgstr ""
+
+#: ../../../plus/debug-tools/atmel-ice.rst:604
+msgid ":ref:`board_atmelsam_seeed_zero`"
+msgstr ""
+
+#: ../../../plus/debug-tools/atmel-ice.rst:611
+msgid ":ref:`board_atmelsam_sparkfun_samd21_9dof`"
+msgstr ""
+
+#: ../../../plus/debug-tools/atmel-ice.rst:618
+msgid ":ref:`board_atmelsam_sparkfun_qwiic_micro_samd21e`"
+msgstr ""
+
+#: ../../../plus/debug-tools/atmel-ice.rst:625
+msgid ":ref:`board_atmelsam_sparkfun_redboard_turbo`"
+msgstr ""
+
+#: ../../../plus/debug-tools/atmel-ice.rst:632
+msgid ":ref:`board_atmelsam_sparkfun_samd21_dev_usb`"
+msgstr ""
+
+#: ../../../plus/debug-tools/atmel-ice.rst:639
+msgid ":ref:`board_atmelsam_sparkfun_samd21_mini_usb`"
+msgstr ""
+
+#: ../../../plus/debug-tools/atmel-ice.rst:646
+msgid ":ref:`board_atmelsam_sparkfun_samd21_proRF`"
+msgstr ""
+
+#: ../../../plus/debug-tools/atmel-ice.rst:653
+msgid ":ref:`board_atmelsam_sparkfun_samd51_micromod`"
+msgstr ""
+
+#: ../../../plus/debug-tools/atmel-ice.rst:660
+msgid ":ref:`board_atmelsam_sparkfun_samd51_thing_plus`"
+msgstr ""
+
+#: ../../../plus/debug-tools/atmel-ice.rst:667
+msgid ":ref:`board_atmelsam_tuinozero96`"
+msgstr ""

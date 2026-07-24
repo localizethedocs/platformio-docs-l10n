@@ -1,0 +1,102 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present, PlatformIO
+# This file is distributed under the same license as the PlatformIO package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PlatformIO stable\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-24 14:03+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../integration/ide/codeblocks.rst:15
+msgid "CodeBlocks"
+msgstr ""
+
+#: ../../../integration/ide/codeblocks.rst:17
+msgid ""
+"Code::Blocks is a free, open-source cross-platform IDE that supports "
+"multiple compilers including GCC, Clang and Visual C++. It is developed in C+"
+"+ using wxWidgets as the GUI toolkit. Using a plugin architecture, its "
+"capabilities and features are defined by the provided plugins. Currently, "
+"Code::Blocks is oriented towards C, C++, and Fortran."
+msgstr ""
+
+#: ../../../integration/ide/codeblocks.rst:23
+msgid ""
+"CodeBlocks IDE can be downloaded from `here <http://www.codeblocks.org/"
+"downloads>`_."
+msgstr ""
+
+#: ../../../integration/ide/codeblocks.rst:28
+msgid "Contents"
+msgstr ""
+
+#: ../../../integration/ide/codeblocks.rst:31
+msgid "Integration"
+msgstr ""
+
+#: ../../../integration/ide/codeblocks.rst:33
+msgid "Integration process consists of these steps:"
+msgstr ""
+
+#: ../../../integration/ide/codeblocks.rst:35
+msgid "Open system Terminal and install :ref:`piocore`"
+msgstr ""
+
+#: ../../../integration/ide/codeblocks.rst:36
+msgid "Create new folder for your project and change directory (``cd``) to it"
+msgstr ""
+
+#: ../../../integration/ide/codeblocks.rst:37
+msgid ""
+"Generate a project using PlatformIO Core Project Generator (:option:`pio "
+"project init --ide`)"
+msgstr ""
+
+#: ../../../integration/ide/codeblocks.rst:38
+msgid "Import project in IDE."
+msgstr ""
+
+#: ../../../integration/ide/codeblocks.rst:42
+msgid ""
+"Choose board ``ID`` using :ref:`cmd_boards` or `Embedded Boards Explorer "
+"<https://platformio.org/boards>`_ command and generate project via :option:"
+"`pio project init --ide` command:"
+msgstr ""
+
+#: ../../../integration/ide/codeblocks.rst:52
+msgid "Then:"
+msgstr ""
+
+#: ../../../integration/ide/codeblocks.rst:54
+msgid "Open this project via ``Menu: File > Open...``"
+msgstr ""
+
+#: ../../../integration/ide/codeblocks.rst:55
+msgid ""
+"Add new files to ``src`` directory (``*.c, *.cpp, *.ino, etc.``) via ``Menu: "
+"File > New > File...``"
+msgstr ""
+
+#: ../../../integration/ide/codeblocks.rst:57
+msgid "Build project using ``Menu: Build > Build``"
+msgstr ""
+
+#: ../../../integration/ide/codeblocks.rst:58
+msgid "Upload firmware using ``Menu: Build > Run``"
+msgstr ""
+
+#: ../../../integration/ide/codeblocks.rst:61
+msgid ""
+"The libraries which are added, installed or used in the project after "
+"generating process won't be reflected in IDE. To fix it you need to "
+"reinitialize project using :ref:`cmd_project_init` (repeat it)."
+msgstr ""

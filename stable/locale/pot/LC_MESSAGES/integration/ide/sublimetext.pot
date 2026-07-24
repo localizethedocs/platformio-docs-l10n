@@ -1,0 +1,276 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present, PlatformIO
+# This file is distributed under the same license as the PlatformIO package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PlatformIO stable\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-24 14:03+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../integration/ide/sublimetext.rst:15
+msgid "Sublime Text"
+msgstr ""
+
+#: ../../../integration/ide/sublimetext.rst:17
+msgid ""
+"The `Sublime Text <http://www.sublimetext.com/>`_ is a cross-platform text "
+"and source code editor, with a Python application programming interface "
+"(API). Sublime Text is proprietary software. Its functionality is extendable "
+"with plugins. Most of the extending packages have free-software licenses and "
+"are community-built and maintained. Sublime Text lacks graphical setting "
+"dialogues and is entirely configured by editing text files."
+msgstr ""
+
+#: ../../../integration/ide/sublimetext.rst:19
+msgid ""
+"Refer to the `Sublime Text Documentation <http://docs.sublimetext.info/en/"
+"latest>`_ page for more detailed information."
+msgstr ""
+
+#: ../../../integration/ide/sublimetext.rst:26
+msgid "Contents"
+msgstr ""
+
+#: ../../../integration/ide/sublimetext.rst:29
+msgid "Deviot Plugin"
+msgstr ""
+
+#: ../../../integration/ide/sublimetext.rst:31
+msgid ""
+"We are glad to inform you about an awesome Sublime Text plugin for IoT "
+"development named `Deviot <https://github.com/gepd/Deviot>`_. It is based "
+"on :ref:`piocore` and will automatically install it for you. Please visit "
+"`official Deviot page <https://github.com/gepd/Deviot>`_ for the further "
+"installation steps and documentation."
+msgstr ""
+
+#: ../../../integration/ide/sublimetext.rst:41
+msgid "Integration"
+msgstr ""
+
+#: ../../../integration/ide/sublimetext.rst:44
+msgid "Project Generator"
+msgstr ""
+
+#: ../../../integration/ide/sublimetext.rst:46
+msgid "Integration process consists of these steps:"
+msgstr ""
+
+#: ../../../integration/ide/sublimetext.rst:48
+msgid "Open system Terminal and install :ref:`piocore`"
+msgstr ""
+
+#: ../../../integration/ide/sublimetext.rst:49
+msgid "Create new folder for your project and change directory (``cd``) to it"
+msgstr ""
+
+#: ../../../integration/ide/sublimetext.rst:50
+msgid ""
+"Generate a project using PlatformIO Core Project Generator (:option:`pio "
+"project init --ide`)"
+msgstr ""
+
+#: ../../../integration/ide/sublimetext.rst:51
+msgid "Import project in IDE."
+msgstr ""
+
+#: ../../../integration/ide/sublimetext.rst:55
+msgid ""
+"Choose board ``ID`` using :ref:`cmd_boards` or `Embedded Boards Explorer "
+"<https://platformio.org/boards>`_ command and generate project via :option:"
+"`pio project init --ide` command:"
+msgstr ""
+
+#: ../../../integration/ide/sublimetext.rst:65
+msgid "Then:"
+msgstr ""
+
+#: ../../../integration/ide/sublimetext.rst:67
+msgid ""
+"Import project via ``Menu: Project > Open Project...`` and select "
+"``platformio.sublime-project`` from the folder where is located :ref:"
+"`projectconf`"
+msgstr ""
+
+#: ../../../integration/ide/sublimetext.rst:69
+msgid ""
+"Select PlatformIO as build system: ``Menu: Tools > Build System > "
+"PlatformIO``"
+msgstr ""
+
+#: ../../../integration/ide/sublimetext.rst:70
+msgid "Open source file from ``src`` directory (``*.c, *.cpp, *.ino, etc.``)"
+msgstr ""
+
+#: ../../../integration/ide/sublimetext.rst:71
+msgid "Build project: ``Menu: Tools > Build``."
+msgstr ""
+
+#: ../../../integration/ide/sublimetext.rst:73
+msgid ""
+"Also, you can access to all pre-configured targets via ``Menu: Tools > "
+"Builds With...`` (ST3)"
+msgstr ""
+
+#: ../../../integration/ide/sublimetext.rst:76
+msgid "``PlatformIO - Build`` - Build project without auto-uploading"
+msgstr ""
+
+#: ../../../integration/ide/sublimetext.rst:77
+msgid "``PlatformIO - Clean`` - Clean compiled objects."
+msgstr ""
+
+#: ../../../integration/ide/sublimetext.rst:78
+msgid "``PlatformIO - Test`` - :ref:`unit_testing`"
+msgstr ""
+
+#: ../../../integration/ide/sublimetext.rst:79
+msgid "``PlatformIO - Upload`` - Build and upload (if no errors)"
+msgstr ""
+
+#: ../../../integration/ide/sublimetext.rst:80
+msgid ""
+"``PlatformIO - Upload using Programmer`` see :ref:"
+"`atmelavr_upload_via_programmer`"
+msgstr ""
+
+#: ../../../integration/ide/sublimetext.rst:81
+msgid ""
+"``PlatformIO - Upload SPIFFS image`` see :ref:`platform_espressif_uploadfs`"
+msgstr ""
+
+#: ../../../integration/ide/sublimetext.rst:82
+msgid ""
+"``PlatformIO - Update platforms and libraries`` - Update installed platforms "
+"and libraries via :ref:`cmd_update`."
+msgstr ""
+
+#: ../../../integration/ide/sublimetext.rst:85
+msgid "Manual Integration"
+msgstr ""
+
+#: ../../../integration/ide/sublimetext.rst:88
+msgid ""
+"Please verify that folder where is located ``platformio`` program is added "
+"to `PATH (wiki) <https://en.wikipedia.org/wiki/PATH_(variable)>`_ "
+"environment variable."
+msgstr ""
+
+#: ../../../integration/ide/sublimetext.rst:93
+msgid "Initial configuration"
+msgstr ""
+
+#: ../../../integration/ide/sublimetext.rst:95
+msgid ""
+"First of all, we need to create \"New Build System\" with name "
+"\"PlatformIO\" from ``Menu: Tools > Build System > New Build System`` and "
+"fill it like described below:"
+msgstr ""
+
+#: ../../../integration/ide/sublimetext.rst:117
+msgid "Secondly, we need to select \"PlatformIO\" Build System from a list:"
+msgstr ""
+
+#: ../../../integration/ide/sublimetext.rst:121
+msgid ""
+"After that, we can use the necessary commands from ``Menu: Tools > Command "
+"Palette`` or with ``Ctrl+Shift+P`` (Windows/Linux) ``Cmd+Shift+P`` (Mac) "
+"shortcut."
+msgstr ""
+
+#: ../../../integration/ide/sublimetext.rst:128
+msgid "Command Hotkeys"
+msgstr ""
+
+#: ../../../integration/ide/sublimetext.rst:130
+msgid ""
+"Sublime Text allows one to bind own hotkey per command. Let's setup them for "
+"PlatformIO commands using shortcut ``Menu: Preferences > Key-Bindings - "
+"User``:"
+msgstr ""
+
+#: ../../../integration/ide/sublimetext.rst:135
+msgid "We are going to use these shortcuts:"
+msgstr ""
+
+#: ../../../integration/ide/sublimetext.rst:137
+msgid "``F11`` for clean project"
+msgstr ""
+
+#: ../../../integration/ide/sublimetext.rst:138
+msgid "``F12`` for upload firmware to target device"
+msgstr ""
+
+#: ../../../integration/ide/sublimetext.rst:140
+msgid "In this case, the final code will look like:"
+msgstr ""
+
+#: ../../../integration/ide/sublimetext.rst:150
+msgid "First program in Sublime Text"
+msgstr ""
+
+#: ../../../integration/ide/sublimetext.rst:152
+msgid "Simple \"Blink\" project will consist from two files:"
+msgstr ""
+
+#: ../../../integration/ide/sublimetext.rst:154
+msgid ""
+"1. Main \"C\" source file named ``main.c`` must be located in the ``src`` "
+"directory. Let's create new file named ``main.c`` using ``Menu: File > New "
+"File`` or shortcut ``Ctrl+N`` (Windows/Linux) ``Cmd+N`` (Mac) with the next "
+"contents:"
+msgstr ""
+
+#: ../../../integration/ide/sublimetext.rst:175
+msgid ""
+"2. Project Configuration File named ``platformio.ini`` must be located in "
+"the project root directory. Copy the source code which is described below to "
+"it."
+msgstr ""
+
+#: ../../../integration/ide/sublimetext.rst:195
+msgid "Conclusion"
+msgstr ""
+
+#: ../../../integration/ide/sublimetext.rst:197
+msgid ""
+"Taking everything into account, we can open project directory in Sublime "
+"Text using ``Menu: File > Open Folder`` and build it with shortcut "
+"``Ctrl+B`` (Windows/Linux) or ``Cmd+B`` (Mac), clean project with shortcut "
+"``F11`` and upload firmware to target with shortcut ``F12``."
+msgstr ""
+
+#: ../../../integration/ide/sublimetext.rst:200
+msgid "Debugging"
+msgstr ""
+
+#: ../../../integration/ide/sublimetext.rst:202
+msgid ""
+"A debugging feature is provided by :ref:`piodebug` and new debug "
+"configuration named \"PlatformIO Debugger\" is created. No need to do extra "
+"configuration steps!"
+msgstr ""
+
+#: ../../../integration/ide/sublimetext.rst:205
+msgid ""
+"Install `SublimeGDB <https://github.com/quarnster/SublimeGDB>`__ package"
+msgstr ""
+
+#: ../../../integration/ide/sublimetext.rst:206
+msgid "Launch debugger with ``F5``"
+msgstr ""
+
+#: ../../../integration/ide/sublimetext.rst:207
+msgid ""
+"Wait for a while, PlatformIO will prepare project for debugging and session "
+"will be started soon."
+msgstr ""

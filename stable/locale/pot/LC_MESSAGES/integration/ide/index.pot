@@ -1,0 +1,58 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present, PlatformIO
+# This file is distributed under the same license as the PlatformIO package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PlatformIO stable\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-24 14:03+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../integration/ide/index.rst:34
+msgid "VSCode"
+msgstr ""
+
+#: ../../../integration/ide/index.rst:15
+msgid "Cloud & Desktop IDEs"
+msgstr ""
+
+#: ../../../integration/ide/index.rst:18
+msgid "Native Extensions"
+msgstr ""
+
+#: ../../../integration/ide/index.rst:20
+msgid ""
+"Native extensions and plugins provide official integration with IDEs/Text "
+"Editors and contain built-in :ref:`piocore` and :ref:`piohome`. We **highly "
+"recommend** to use the next native integrations for:"
+msgstr ""
+
+#: ../../../integration/ide/index.rst:24
+msgid ":ref:`ide_vscode`"
+msgstr ""
+
+#: ../../../integration/ide/index.rst:25
+msgid ":ref:`ide_clion` (Experimental)"
+msgstr ""
+
+#: ../../../integration/ide/index.rst:28
+msgid ""
+"In our experience, :ref:`ide_vscode` offers better system performance, and "
+"users have found it easier to get started."
+msgstr ""
+
+#: ../../../integration/ide/index.rst:32
+msgid "Desktop IDEs"
+msgstr ""
+
+#: ../../../integration/ide/index.rst:51
+msgid "Cloud IDEs"
+msgstr ""

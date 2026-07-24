@@ -1,0 +1,42 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present, PlatformIO
+# This file is distributed under the same license as the PlatformIO package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PlatformIO stable\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-24 14:03+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../integration/ci/index.rst:15
+msgid "Continuous Integration"
+msgstr ""
+
+#: ../../../integration/ci/index.rst:17
+msgid ""
+"`Continuous Integration (CI, wiki) <http://en.wikipedia.org/wiki/"
+"Continuous_integration>`_ is the practice, in software engineering, of "
+"merging all developer working copies with a shared mainline several times a "
+"day."
+msgstr ""
+
+#: ../../../integration/ci/index.rst:21
+msgid ""
+":ref:`cmd_ci` command is intended to be used in combination with the build "
+"servers and the popular `Continuous Integration Software <http://en."
+"wikipedia.org/wiki/Comparison_of_continuous_integration_software>`_."
+msgstr ""
+
+#: ../../../integration/ci/index.rst:25
+msgid ""
+"By integrating regularly, you can detect errors quickly, and locate them "
+"more easily."
+msgstr ""

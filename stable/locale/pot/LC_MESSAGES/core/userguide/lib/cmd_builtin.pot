@@ -1,0 +1,65 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present, PlatformIO
+# This file is distributed under the same license as the PlatformIO package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PlatformIO stable\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-24 14:03+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../core/userguide/lib/cmd_builtin.rst:15
+msgid "pio lib builtin"
+msgstr ""
+
+#: ../../../core/userguide/lib/cmd_builtin.rst:20
+msgid "This command is deprecated and will be removed in the next releases."
+msgstr ""
+
+#: ../../../core/userguide/lib/cmd_builtin.rst:22
+msgid "Please use the unified :ref:`cmd_pkg` instead."
+msgstr ""
+
+#: ../../../core/userguide/lib/cmd_builtin.rst:24
+msgid "Contents"
+msgstr ""
+
+#: ../../../core/userguide/lib/cmd_builtin.rst:27
+msgid "Usage"
+msgstr ""
+
+#: ../../../core/userguide/lib/cmd_builtin.rst:35
+msgid "Description"
+msgstr ""
+
+#: ../../../core/userguide/lib/cmd_builtin.rst:37
+msgid ""
+"List built-in libraries based on installed :ref:`platforms` and their "
+"frameworks, SDKs, etc."
+msgstr ""
+
+#: ../../../core/userguide/lib/cmd_builtin.rst:41
+msgid "Options"
+msgstr ""
+
+#: ../../../core/userguide/lib/cmd_builtin.rst:48
+msgid ""
+"List libraries from specified storages. For example, ``framework-"
+"arduinoavr``."
+msgstr ""
+
+#: ../../../core/userguide/lib/cmd_builtin.rst:53
+msgid "Return the output in `JSON <http://en.wikipedia.org/wiki/JSON>`_ format"
+msgstr ""
+
+#: ../../../core/userguide/lib/cmd_builtin.rst:56
+msgid "Examples"
+msgstr ""

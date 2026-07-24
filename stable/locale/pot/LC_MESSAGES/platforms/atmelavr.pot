@@ -1,0 +1,3539 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present, PlatformIO
+# This file is distributed under the same license as the PlatformIO package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PlatformIO stable\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-24 14:03+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../platforms/atmelavr.rst:15
+msgid "Atmel AVR"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:0
+msgid "Registry"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:18
+msgid ""
+"`https://registry.platformio.org/platforms/platformio/atmelavr <https://"
+"registry.platformio.org/platforms/platformio/atmelavr>`__"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:0 ../../../platforms/atmelavr_extra.rst:13
+msgid "Configuration"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:20
+msgid ":ref:`projectconf_env_platform` = ``platformio/atmelavr``"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:22
+msgid ""
+"Atmel AVR 8-bit MCUs deliver a unique combination of performance, power "
+"efficiency and design flexibility. Optimized to speed time to market-and "
+"easily adapt to new ones-they are based on the industry's most code-"
+"efficient architecture for C and assembly programming"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:24
+msgid ""
+"For more detailed information please visit `vendor site <http://www.atmel."
+"com/products/microcontrollers/avr/default.aspx?utm_source=platformio."
+"org&utm_medium=docs>`_."
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:28
+msgid "Contents"
+msgstr ""
+
+#: ../../../platforms/atmelavr_extra.rst:21
+msgid "Upload using Programmer"
+msgstr ""
+
+#: ../../../platforms/atmelavr_extra.rst:23
+msgid ""
+"In the case of external programmers, it's easy to brick a board simply by "
+"specifying incorrect upload flags. It's highly recommended to use the :ref:"
+"`projectconf_upload_command` option that gives the full control over flags "
+"used for uploading."
+msgstr ""
+
+#: ../../../platforms/atmelavr_extra.rst:29
+msgid ""
+"The list of supported programmers available in avrdude is accessible via the "
+"``avrdude -c ?`` command"
+msgstr ""
+
+#: ../../../platforms/atmelavr_extra.rst:32
+msgid "Configuration for the programmers:"
+msgstr ""
+
+#: ../../../platforms/atmelavr_extra.rst:34
+msgid "AVRISP"
+msgstr ""
+
+#: ../../../platforms/atmelavr_extra.rst:58
+msgid "AVRISP mkII"
+msgstr ""
+
+#: ../../../platforms/atmelavr_extra.rst:79
+msgid "USBtinyISP"
+msgstr ""
+
+#: ../../../platforms/atmelavr_extra.rst:102
+msgid "DiamexISP"
+msgstr ""
+
+#: ../../../platforms/atmelavr_extra.rst:126
+msgid "Arduino as ISP"
+msgstr ""
+
+#: ../../../platforms/atmelavr_extra.rst:150
+msgid "USBasp"
+msgstr ""
+
+#: ../../../platforms/atmelavr_extra.rst:171
+msgid "Parallel Programmer"
+msgstr ""
+
+#: ../../../platforms/atmelavr_extra.rst:190
+msgid "Bus Pirate as ISP"
+msgstr ""
+
+#: ../../../platforms/atmelavr_extra.rst:215
+msgid "Upload EEPROM data"
+msgstr ""
+
+#: ../../../platforms/atmelavr_extra.rst:217
+msgid ""
+"To upload EEPROM data (from EEMEM directive) you need to use ``uploadeep`` "
+"target instead ``upload`` for :option:`pio run --target` command. For "
+"example, ``pio run -t uploadeep``."
+msgstr ""
+
+#: ../../../platforms/atmelavr_extra.rst:222
+msgid "Erase chip before programming"
+msgstr ""
+
+#: ../../../platforms/atmelavr_extra.rst:224
+msgid ""
+"In some cases erasing chip memory is a mandatory procedure before uploading "
+"bootloader or setting fuses. AVRDUDE provides a special flag ``-e`` that "
+"causes a chip erase to be executed. This will reset the contents of the "
+"flash ROM and EEPROM to the value ``0xff``, and clear all lock bits. The "
+"easiest way to use it is to add this flag via the :ref:"
+"`projectconf_upload_flags` option:"
+msgstr ""
+
+#: ../../../platforms/atmelavr_extra.rst:240
+msgid "Fuses programming"
+msgstr ""
+
+#: ../../../platforms/atmelavr_extra.rst:242
+msgid ""
+"PlatformIO has a built-in target called ``fuses`` for setting fuse bits. The "
+"default fuse bits are predefined in the board manifest file in the ``fuses`` "
+"section. For example, `fuses section for Arduino Uno board <https://github."
+"com/platformio/platform-atmelavr/blob/develop/boards/uno.json>`_. To set "
+"fuse bits you need to use target ``fuses`` with :option:`pio run --target` "
+"command."
+msgstr ""
+
+#: ../../../platforms/atmelavr_extra.rst:248
+msgid "Custom fuses"
+msgstr ""
+
+#: ../../../platforms/atmelavr_extra.rst:250
+msgid ""
+"Custom fuse values and upload flags (based on upload protocol) should be "
+"specified in :ref:`projectconf`. The ``lfuse`` and ``hfuse`` bits are "
+"mandatory, ``efuse`` is optional and not supported by all targets. An "
+"example of setting custom fuses for ``uno`` board:"
+msgstr ""
+
+#: ../../../platforms/atmelavr_extra.rst:271
+msgid "MiniCore, MegaCore, MightyCore, MajorCore and MicroCore"
+msgstr ""
+
+#: ../../../platforms/atmelavr_extra.rst:273
+msgid ""
+"``MiniCore``, ``MegaCore``, ``MightyCore``, ``MajorCore`` and ``MicroCore`` "
+"support dynamic fuses generation. Generated values are based on the "
+"following parameters:"
+msgstr ""
+
+#: ../../../platforms/atmelavr_extra.rst:279
+msgid "Parameter"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:956 ../../../platforms/atmelavr.rst:1032
+#: ../../../platforms/atmelavr_extra.rst:280
+#: ../../../platforms/atmelavr_extra.rst:395
+#: ../../../platforms/atmelavr_extra.rst:570
+msgid "Description"
+msgstr ""
+
+#: ../../../platforms/atmelavr_extra.rst:281
+msgid "Default value"
+msgstr ""
+
+#: ../../../platforms/atmelavr_extra.rst:283
+msgid "``board_build.f_cpu``"
+msgstr ""
+
+#: ../../../platforms/atmelavr_extra.rst:284
+msgid ""
+"Specifies the clock frequencies in Hz. Used to determine what oscillator "
+"option to choose. A capital L has to be added to the end of the frequency "
+"number."
+msgstr ""
+
+#: ../../../platforms/atmelavr_extra.rst:286
+#: ../../../platforms/atmelavr_extra.rst:514
+msgid "``16000000L``"
+msgstr ""
+
+#: ../../../platforms/atmelavr_extra.rst:288
+msgid "``board_hardware.oscillator``"
+msgstr ""
+
+#: ../../../platforms/atmelavr_extra.rst:289
+msgid ""
+"Specifies which oscillator is used ``internal`` or ``external``. Internal "
+"oscillator only works with ``f_cpu`` values ``8000000L`` and ``1000000L``"
+msgstr ""
+
+#: ../../../platforms/atmelavr_extra.rst:291
+msgid "``external``"
+msgstr ""
+
+#: ../../../platforms/atmelavr_extra.rst:293
+msgid "``board_hardware.uart``"
+msgstr ""
+
+#: ../../../platforms/atmelavr_extra.rst:294
+msgid ""
+"Specifies the hardware UART port used for serial upload. can be ``uart0``, "
+"``uart1``, ``uart2`` or ``uart3`` depending on the target. Use "
+"``no_bootloader`` if you're not using a bootloader for serial upload."
+msgstr ""
+
+#: ../../../platforms/atmelavr_extra.rst:296
+msgid "``uart0``"
+msgstr ""
+
+#: ../../../platforms/atmelavr_extra.rst:298
+msgid "``board_hardware.bod``"
+msgstr ""
+
+#: ../../../platforms/atmelavr_extra.rst:299
+msgid ""
+"Specifies the hardware brown-out detection. Use ``disabled`` to disable "
+"brown-out detection."
+msgstr ""
+
+#: ../../../platforms/atmelavr_extra.rst:301
+msgid "``2.7v``"
+msgstr ""
+
+#: ../../../platforms/atmelavr_extra.rst:303
+msgid "``board_hardware.eesave``"
+msgstr ""
+
+#: ../../../platforms/atmelavr_extra.rst:304
+msgid ""
+"Specifies if the EEPROM memory should be retained when uploading using a "
+"programmer. Use ``no`` to disable"
+msgstr ""
+
+#: ../../../platforms/atmelavr_extra.rst:306
+msgid "``yes``"
+msgstr ""
+
+#: ../../../platforms/atmelavr_extra.rst:308
+msgid "``board_hardware.ckout``"
+msgstr ""
+
+#: ../../../platforms/atmelavr_extra.rst:309
+msgid ""
+"Enables system clock output on targets that have this feature. The system "
+"clock will be output on a dedicated output pin. See the target datasheet for "
+"more information. Use ``Yes`` to enable"
+msgstr ""
+
+#: ../../../platforms/atmelavr_extra.rst:311
+#: ../../../platforms/atmelavr_extra.rst:316
+#: ../../../platforms/atmelavr_extra.rst:321
+msgid "``no``"
+msgstr ""
+
+#: ../../../platforms/atmelavr_extra.rst:313
+msgid "``board_hardware.jtagen``"
+msgstr ""
+
+#: ../../../platforms/atmelavr_extra.rst:314
+msgid ""
+"Enables the JTAG programming and debugging interface for targets that "
+"supports JTAG. Use ``Yes`` to enable"
+msgstr ""
+
+#: ../../../platforms/atmelavr_extra.rst:318
+msgid "``board_hardware.cfd``"
+msgstr ""
+
+#: ../../../platforms/atmelavr_extra.rst:319
+msgid ""
+"Enables clock failure detection. Note that this feature is only available on "
+"ATmega324PB and ATmega328PB. Use ``Yes`` to enable CFD"
+msgstr ""
+
+#: ../../../platforms/atmelavr_extra.rst:323
+msgid "Valid BOD values:"
+msgstr ""
+
+#: ../../../platforms/atmelavr_extra.rst:328
+msgid "ATmega8, ATmega8515, ATmega8535/16/32, ATmega64/128"
+msgstr ""
+
+#: ../../../platforms/atmelavr_extra.rst:329
+msgid "AT90CAN32/64/128"
+msgstr ""
+
+#: ../../../platforms/atmelavr_extra.rst:330
+msgid "Other targets"
+msgstr ""
+
+#: ../../../platforms/atmelavr_extra.rst:332
+#: ../../../platforms/atmelavr_extra.rst:337
+msgid "4.0v"
+msgstr ""
+
+#: ../../../platforms/atmelavr_extra.rst:333
+msgid "4.1v"
+msgstr ""
+
+#: ../../../platforms/atmelavr_extra.rst:334
+msgid "4.3v"
+msgstr ""
+
+#: ../../../platforms/atmelavr_extra.rst:336
+#: ../../../platforms/atmelavr_extra.rst:338
+#: ../../../platforms/atmelavr_extra.rst:349
+msgid "2.7v"
+msgstr ""
+
+#: ../../../platforms/atmelavr_extra.rst:340
+#: ../../../platforms/atmelavr_extra.rst:346
+#: ../../../platforms/atmelavr_extra.rst:361
+msgid "disabled"
+msgstr ""
+
+#: ../../../platforms/atmelavr_extra.rst:341
+msgid "3.9v"
+msgstr ""
+
+#: ../../../platforms/atmelavr_extra.rst:342
+msgid "1.8v"
+msgstr ""
+
+#: ../../../platforms/atmelavr_extra.rst:345
+msgid "3.8v"
+msgstr ""
+
+#: ../../../platforms/atmelavr_extra.rst:353
+msgid "2.6v"
+msgstr ""
+
+#: ../../../platforms/atmelavr_extra.rst:357
+msgid "2.5v"
+msgstr ""
+
+#: ../../../platforms/atmelavr_extra.rst:364
+msgid "Hardware configuration example:"
+msgstr ""
+
+#: ../../../platforms/atmelavr_extra.rst:387
+msgid "Overriding default fuses command"
+msgstr ""
+
+#: ../../../platforms/atmelavr_extra.rst:389
+msgid ""
+"PlatformIO splits the command for programming fuses in the following "
+"overridable parts:"
+msgstr ""
+
+#: ../../../platforms/atmelavr_extra.rst:394
+#: ../../../platforms/atmelavr_extra.rst:569
+msgid "Variable"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:33 ../../../platforms/atmelavr_extra.rst:396
+#: ../../../platforms/atmelavr_extra.rst:571
+msgid "Examples"
+msgstr ""
+
+#: ../../../platforms/atmelavr_extra.rst:398
+msgid "``FUSESUPLOADER``"
+msgstr ""
+
+#: ../../../platforms/atmelavr_extra.rst:399
+msgid "The tool used for setting fuses"
+msgstr ""
+
+#: ../../../platforms/atmelavr_extra.rst:400
+#: ../../../platforms/atmelavr_extra.rst:575
+msgid "By default ``avrdude`` is used"
+msgstr ""
+
+#: ../../../platforms/atmelavr_extra.rst:402
+msgid "``FUSESUPLOADERFLAGS``"
+msgstr ""
+
+#: ../../../platforms/atmelavr_extra.rst:403
+#: ../../../platforms/atmelavr_extra.rst:578
+msgid "General command-line options that control uploader's behavior"
+msgstr ""
+
+#: ../../../platforms/atmelavr_extra.rst:404
+#: ../../../platforms/atmelavr_extra.rst:579
+msgid "``-D``, ``-V``, ``-P COM1``, ``-C atmelice_isp``, ``-b 115200``"
+msgstr ""
+
+#: ../../../platforms/atmelavr_extra.rst:406
+msgid "``FUSESFLAGS``"
+msgstr ""
+
+#: ../../../platforms/atmelavr_extra.rst:407
+msgid "A list of flags specific to fuses settings"
+msgstr ""
+
+#: ../../../platforms/atmelavr_extra.rst:408
+msgid "``-Ulock:w:0x2F:m``, ``-Uefuse:w:0xCB:m``, ``-Ulfuse:w:0xFF:m``"
+msgstr ""
+
+#: ../../../platforms/atmelavr_extra.rst:410
+msgid "``SETFUSESCMD``"
+msgstr ""
+
+#: ../../../platforms/atmelavr_extra.rst:411
+#: ../../../platforms/atmelavr_extra.rst:586
+msgid "Variable that holds the final command compiled from variables above"
+msgstr ""
+
+#: ../../../platforms/atmelavr_extra.rst:412
+msgid "``$FUSESUPLOADER $FUSESUPLOADERFLAGS $UPLOAD_FLAGS $FUSESFLAGS``"
+msgstr ""
+
+#: ../../../platforms/atmelavr_extra.rst:414
+#: ../../../platforms/atmelavr_extra.rst:589
+msgid ""
+"If for any reason default parameters are not suitable for your project, you "
+"can override the entire upload command or any particular part of that "
+"command using `an extra script <https://docs.platformio.org/en/latest/"
+"projectconf/advanced_scripting.html#before-pre-and-after-post-actions>`_, "
+"for example, you can override only fuses values:"
+msgstr ""
+
+#: ../../../platforms/atmelavr_extra.rst:432
+#: ../../../platforms/atmelavr_extra.rst:607
+msgid "Or override a specific uploader flag:"
+msgstr ""
+
+#: ../../../platforms/atmelavr_extra.rst:445
+#: ../../../platforms/atmelavr_extra.rst:619
+msgid "It's also possible to completely override the entire upload command:"
+msgstr ""
+
+#: ../../../platforms/atmelavr_extra.rst:463
+msgid "Bootloader programming"
+msgstr ""
+
+#: ../../../platforms/atmelavr_extra.rst:465
+msgid ""
+"PlatformIO has a built-in target called ``bootloader`` for flashing "
+"bootloaders. The default bootloader image and corresponding fuse bits are "
+"predefined in the board manifest file in the ``bootloader`` section, for "
+"example, `Arduino Uno <https://github.com/platformio/platform-atmelavr/blob/"
+"develop/boards/uno.json>`_. To upload a bootloader image you need to use "
+"target ``bootloader`` with :option:`pio run --target` command."
+msgstr ""
+
+#: ../../../platforms/atmelavr_extra.rst:472
+msgid "Custom bootloader"
+msgstr ""
+
+#: ../../../platforms/atmelavr_extra.rst:474
+msgid ""
+"Custom bootloader and accompanying fuses should be specified in :ref:"
+"`projectconf`. If ``lock_bits`` and ``unlock_bits`` are not set then the "
+"default values ``0x0F`` and ``0x3F`` are used accordingly. An example of "
+"setting custom bootloader for ``uno`` board:"
+msgstr ""
+
+#: ../../../platforms/atmelavr_extra.rst:493
+msgid ""
+"``MiniCore``, ``MegaCore``, ``MightyCore`` and ``MajorCore`` have a wide "
+"variety of precompiled bootloaders. Bootloader binaries are dynamically "
+"selected according to the hardware parameters ``f_cpu``, ``oscillator``, "
+"``uart`` and ``upload_speed``. For a complete table with all available baud "
+"rates, see the `Optiboot flash repo <https://github.com/MCUdude/"
+"optiboot_flash>`_. Here is a table with recommended baud rates for different "
+"clock frequencies:"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:81 ../../../platforms/atmelavr.rst:1054
+#: ../../../platforms/atmelavr.rst:1157 ../../../platforms/atmelavr.rst:1188
+#: ../../../platforms/atmelavr.rst:1207 ../../../platforms/atmelavr.rst:1232
+#: ../../../platforms/atmelavr.rst:1449 ../../../platforms/atmelavr.rst:1588
+#: ../../../platforms/atmelavr.rst:1607 ../../../platforms/atmelavr.rst:1626
+#: ../../../platforms/atmelavr.rst:1645 ../../../platforms/atmelavr.rst:1682
+#: ../../../platforms/atmelavr.rst:1719 ../../../platforms/atmelavr.rst:1738
+#: ../../../platforms/atmelavr.rst:1757 ../../../platforms/atmelavr.rst:1776
+#: ../../../platforms/atmelavr.rst:1795 ../../../platforms/atmelavr.rst:1814
+#: ../../../platforms/atmelavr.rst:1833 ../../../platforms/atmelavr.rst:1852
+#: ../../../platforms/atmelavr.rst:1889 ../../../platforms/atmelavr.rst:1908
+#: ../../../platforms/atmelavr.rst:2293 ../../../platforms/atmelavr.rst:2360
+#: ../../../platforms/atmelavr.rst:2379 ../../../platforms/atmelavr.rst:2398
+#: ../../../platforms/atmelavr.rst:2417 ../../../platforms/atmelavr.rst:2436
+#: ../../../platforms/atmelavr.rst:2461 ../../../platforms/atmelavr.rst:2486
+#: ../../../platforms/atmelavr.rst:2505 ../../../platforms/atmelavr.rst:2536
+#: ../../../platforms/atmelavr.rst:2555 ../../../platforms/atmelavr.rst:2598
+#: ../../../platforms/atmelavr.rst:2647 ../../../platforms/atmelavr.rst:2666
+#: ../../../platforms/atmelavr.rst:2757 ../../../platforms/atmelavr.rst:2776
+#: ../../../platforms/atmelavr.rst:2795 ../../../platforms/atmelavr.rst:2814
+#: ../../../platforms/atmelavr.rst:2839 ../../../platforms/atmelavr.rst:2864
+#: ../../../platforms/atmelavr.rst:2883 ../../../platforms/atmelavr.rst:2902
+#: ../../../platforms/atmelavr.rst:2951
+#: ../../../platforms/atmelavr_extra.rst:502
+msgid "Frequency"
+msgstr ""
+
+#: ../../../platforms/atmelavr_extra.rst:503
+msgid "Oscillator type"
+msgstr ""
+
+#: ../../../platforms/atmelavr_extra.rst:504
+msgid "Recommended upload speed"
+msgstr ""
+
+#: ../../../platforms/atmelavr_extra.rst:506
+msgid "``20000000L``"
+msgstr ""
+
+#: ../../../platforms/atmelavr_extra.rst:507
+#: ../../../platforms/atmelavr_extra.rst:511
+#: ../../../platforms/atmelavr_extra.rst:515
+#: ../../../platforms/atmelavr_extra.rst:519
+#: ../../../platforms/atmelavr_extra.rst:523
+#: ../../../platforms/atmelavr_extra.rst:527
+#: ../../../platforms/atmelavr_extra.rst:535
+#: ../../../platforms/atmelavr_extra.rst:539
+#: ../../../platforms/atmelavr_extra.rst:543
+#: ../../../platforms/atmelavr_extra.rst:547
+#: ../../../platforms/atmelavr_extra.rst:551
+msgid "external"
+msgstr ""
+
+#: ../../../platforms/atmelavr_extra.rst:508
+#: ../../../platforms/atmelavr_extra.rst:512
+#: ../../../platforms/atmelavr_extra.rst:516
+#: ../../../platforms/atmelavr_extra.rst:520
+#: ../../../platforms/atmelavr_extra.rst:528
+#: ../../../platforms/atmelavr_extra.rst:536
+#: ../../../platforms/atmelavr_extra.rst:544
+#: ../../../platforms/atmelavr_extra.rst:552
+msgid "``115200``"
+msgstr ""
+
+#: ../../../platforms/atmelavr_extra.rst:510
+msgid "``18432000L``"
+msgstr ""
+
+#: ../../../platforms/atmelavr_extra.rst:518
+msgid "``14745600L``"
+msgstr ""
+
+#: ../../../platforms/atmelavr_extra.rst:522
+msgid "``12000000L``"
+msgstr ""
+
+#: ../../../platforms/atmelavr_extra.rst:524
+msgid "``57600``"
+msgstr ""
+
+#: ../../../platforms/atmelavr_extra.rst:526
+msgid "``11059200L``"
+msgstr ""
+
+#: ../../../platforms/atmelavr_extra.rst:530
+msgid "``8000000L``"
+msgstr ""
+
+#: ../../../platforms/atmelavr_extra.rst:531
+#: ../../../platforms/atmelavr_extra.rst:555
+msgid "external/internal"
+msgstr ""
+
+#: ../../../platforms/atmelavr_extra.rst:532
+msgid "``57600/38400``"
+msgstr ""
+
+#: ../../../platforms/atmelavr_extra.rst:534
+msgid "``7372800L``"
+msgstr ""
+
+#: ../../../platforms/atmelavr_extra.rst:538
+msgid "``4000000L``"
+msgstr ""
+
+#: ../../../platforms/atmelavr_extra.rst:540
+#: ../../../platforms/atmelavr_extra.rst:548
+#: ../../../platforms/atmelavr_extra.rst:556
+msgid "``9600``"
+msgstr ""
+
+#: ../../../platforms/atmelavr_extra.rst:542
+msgid "``3686400L``"
+msgstr ""
+
+#: ../../../platforms/atmelavr_extra.rst:546
+msgid "``2000000L``"
+msgstr ""
+
+#: ../../../platforms/atmelavr_extra.rst:550
+msgid "``1843200L``"
+msgstr ""
+
+#: ../../../platforms/atmelavr_extra.rst:554
+msgid "``1000000L``"
+msgstr ""
+
+#: ../../../platforms/atmelavr_extra.rst:561
+msgid "Overriding default bootloader command"
+msgstr ""
+
+#: ../../../platforms/atmelavr_extra.rst:563
+msgid ""
+"PlatformIO splits the command for programming bootloader in the following "
+"overridable parts:"
+msgstr ""
+
+#: ../../../platforms/atmelavr_extra.rst:573
+msgid "``BOOTUPLOADER``"
+msgstr ""
+
+#: ../../../platforms/atmelavr_extra.rst:574
+msgid "The tool used for programming bootloader image"
+msgstr ""
+
+#: ../../../platforms/atmelavr_extra.rst:577
+msgid "``BOOTUPLOADERFLAGS``"
+msgstr ""
+
+#: ../../../platforms/atmelavr_extra.rst:581
+msgid "``BOOTFLAGS``"
+msgstr ""
+
+#: ../../../platforms/atmelavr_extra.rst:582
+msgid "A list of flags specific to bootloader settings"
+msgstr ""
+
+#: ../../../platforms/atmelavr_extra.rst:583
+msgid "``-Uflash:w:/path/to/bootlader_image:i``, ``-Ulock:w:0x2F:m``"
+msgstr ""
+
+#: ../../../platforms/atmelavr_extra.rst:585
+msgid "``UPLOADBOOTCMD``"
+msgstr ""
+
+#: ../../../platforms/atmelavr_extra.rst:587
+msgid "``$BOOTUPLOADER $BOOTUPLOADERFLAGS $UPLOAD_FLAGS $BOOTFLAGS``"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:35
+msgid ""
+"Examples are listed from `Atmel AVR development platform repository <https://"
+"github.com/platformio/platform-atmelavr/tree/master/examples?"
+"utm_source=platformio.org&utm_medium=docs>`_:"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:37
+msgid ""
+"`arduino-blink <https://github.com/platformio/platform-atmelavr/tree/master/"
+"examples/arduino-blink?utm_source=platformio.org&utm_medium=docs>`_"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:38
+msgid ""
+"`assembly-blink <https://github.com/platformio/platform-atmelavr/tree/master/"
+"examples/assembly-blink?utm_source=platformio.org&utm_medium=docs>`_"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:39
+msgid ""
+"`native-blink <https://github.com/platformio/platform-atmelavr/tree/master/"
+"examples/native-blink?utm_source=platformio.org&utm_medium=docs>`_"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:40
+msgid ""
+"`arduino-own-src_dir <https://github.com/platformio/platform-atmelavr/tree/"
+"master/examples/arduino-own-src_dir?utm_source=platformio."
+"org&utm_medium=docs>`_"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:41
+msgid ""
+"`engduino-magnetometer <https://github.com/platformio/platform-atmelavr/tree/"
+"master/examples/engduino-magnetometer?utm_source=platformio."
+"org&utm_medium=docs>`_"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:42
+msgid ""
+"`digitstump-mouse <https://github.com/platformio/platform-atmelavr/tree/"
+"master/examples/digitstump-mouse?utm_source=platformio.org&utm_medium=docs>`_"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:43
+msgid ""
+"`arduino-internal-libs <https://github.com/platformio/platform-atmelavr/tree/"
+"master/examples/arduino-internal-libs?utm_source=platformio."
+"org&utm_medium=docs>`_"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:44
+msgid ""
+"`arduino-external-libs <https://github.com/platformio/platform-atmelavr/tree/"
+"master/examples/arduino-external-libs?utm_source=platformio."
+"org&utm_medium=docs>`_"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:47
+msgid "Debugging"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:49
+msgid ""
+":ref:`piodebug` - \"1-click\" solution for debugging with a zero "
+"configuration."
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:56
+msgid "Tools & Debug Probes"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:58
+msgid ""
+"Supported debugging tools are listed in \"Debug\" column. For more detailed "
+"information, please scroll table by horizontal. You can switch between "
+"debugging :ref:`debugging_tools` using :ref:`projectconf_debug_tool` option "
+"in :ref:`projectconf`."
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:64
+msgid ""
+"You will need to install debug tool drivers depending on your system. Please "
+"click on compatible debug tool below for the further instructions."
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:69
+msgid "External Debug Tools"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:71
+msgid ""
+"Boards listed below are compatible with :ref:`piodebug` but **DEPEND ON** "
+"external debug probe. They **ARE NOT READY** for debugging. Please click on "
+"board name for the further details."
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:79 ../../../platforms/atmelavr.rst:955
+#: ../../../platforms/atmelavr.rst:1031 ../../../platforms/atmelavr.rst:1051
+#: ../../../platforms/atmelavr.rst:1154 ../../../platforms/atmelavr.rst:1185
+#: ../../../platforms/atmelavr.rst:1204 ../../../platforms/atmelavr.rst:1229
+#: ../../../platforms/atmelavr.rst:1446 ../../../platforms/atmelavr.rst:1585
+#: ../../../platforms/atmelavr.rst:1604 ../../../platforms/atmelavr.rst:1623
+#: ../../../platforms/atmelavr.rst:1642 ../../../platforms/atmelavr.rst:1679
+#: ../../../platforms/atmelavr.rst:1716 ../../../platforms/atmelavr.rst:1735
+#: ../../../platforms/atmelavr.rst:1754 ../../../platforms/atmelavr.rst:1773
+#: ../../../platforms/atmelavr.rst:1792 ../../../platforms/atmelavr.rst:1811
+#: ../../../platforms/atmelavr.rst:1830 ../../../platforms/atmelavr.rst:1849
+#: ../../../platforms/atmelavr.rst:1886 ../../../platforms/atmelavr.rst:1905
+#: ../../../platforms/atmelavr.rst:2290 ../../../platforms/atmelavr.rst:2357
+#: ../../../platforms/atmelavr.rst:2376 ../../../platforms/atmelavr.rst:2395
+#: ../../../platforms/atmelavr.rst:2414 ../../../platforms/atmelavr.rst:2433
+#: ../../../platforms/atmelavr.rst:2458 ../../../platforms/atmelavr.rst:2483
+#: ../../../platforms/atmelavr.rst:2502 ../../../platforms/atmelavr.rst:2533
+#: ../../../platforms/atmelavr.rst:2552 ../../../platforms/atmelavr.rst:2595
+#: ../../../platforms/atmelavr.rst:2644 ../../../platforms/atmelavr.rst:2663
+#: ../../../platforms/atmelavr.rst:2754 ../../../platforms/atmelavr.rst:2773
+#: ../../../platforms/atmelavr.rst:2792 ../../../platforms/atmelavr.rst:2811
+#: ../../../platforms/atmelavr.rst:2836 ../../../platforms/atmelavr.rst:2861
+#: ../../../platforms/atmelavr.rst:2880 ../../../platforms/atmelavr.rst:2899
+#: ../../../platforms/atmelavr.rst:2948
+msgid "Name"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:80 ../../../platforms/atmelavr.rst:1053
+#: ../../../platforms/atmelavr.rst:1156 ../../../platforms/atmelavr.rst:1187
+#: ../../../platforms/atmelavr.rst:1206 ../../../platforms/atmelavr.rst:1231
+#: ../../../platforms/atmelavr.rst:1448 ../../../platforms/atmelavr.rst:1587
+#: ../../../platforms/atmelavr.rst:1606 ../../../platforms/atmelavr.rst:1625
+#: ../../../platforms/atmelavr.rst:1644 ../../../platforms/atmelavr.rst:1681
+#: ../../../platforms/atmelavr.rst:1718 ../../../platforms/atmelavr.rst:1737
+#: ../../../platforms/atmelavr.rst:1756 ../../../platforms/atmelavr.rst:1775
+#: ../../../platforms/atmelavr.rst:1794 ../../../platforms/atmelavr.rst:1813
+#: ../../../platforms/atmelavr.rst:1832 ../../../platforms/atmelavr.rst:1851
+#: ../../../platforms/atmelavr.rst:1888 ../../../platforms/atmelavr.rst:1907
+#: ../../../platforms/atmelavr.rst:2292 ../../../platforms/atmelavr.rst:2359
+#: ../../../platforms/atmelavr.rst:2378 ../../../platforms/atmelavr.rst:2397
+#: ../../../platforms/atmelavr.rst:2416 ../../../platforms/atmelavr.rst:2435
+#: ../../../platforms/atmelavr.rst:2460 ../../../platforms/atmelavr.rst:2485
+#: ../../../platforms/atmelavr.rst:2504 ../../../platforms/atmelavr.rst:2535
+#: ../../../platforms/atmelavr.rst:2554 ../../../platforms/atmelavr.rst:2597
+#: ../../../platforms/atmelavr.rst:2646 ../../../platforms/atmelavr.rst:2665
+#: ../../../platforms/atmelavr.rst:2756 ../../../platforms/atmelavr.rst:2775
+#: ../../../platforms/atmelavr.rst:2794 ../../../platforms/atmelavr.rst:2813
+#: ../../../platforms/atmelavr.rst:2838 ../../../platforms/atmelavr.rst:2863
+#: ../../../platforms/atmelavr.rst:2882 ../../../platforms/atmelavr.rst:2901
+#: ../../../platforms/atmelavr.rst:2950
+msgid "MCU"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:82 ../../../platforms/atmelavr.rst:1055
+#: ../../../platforms/atmelavr.rst:1158 ../../../platforms/atmelavr.rst:1189
+#: ../../../platforms/atmelavr.rst:1208 ../../../platforms/atmelavr.rst:1233
+#: ../../../platforms/atmelavr.rst:1450 ../../../platforms/atmelavr.rst:1589
+#: ../../../platforms/atmelavr.rst:1608 ../../../platforms/atmelavr.rst:1627
+#: ../../../platforms/atmelavr.rst:1646 ../../../platforms/atmelavr.rst:1683
+#: ../../../platforms/atmelavr.rst:1720 ../../../platforms/atmelavr.rst:1739
+#: ../../../platforms/atmelavr.rst:1758 ../../../platforms/atmelavr.rst:1777
+#: ../../../platforms/atmelavr.rst:1796 ../../../platforms/atmelavr.rst:1815
+#: ../../../platforms/atmelavr.rst:1834 ../../../platforms/atmelavr.rst:1853
+#: ../../../platforms/atmelavr.rst:1890 ../../../platforms/atmelavr.rst:1909
+#: ../../../platforms/atmelavr.rst:2294 ../../../platforms/atmelavr.rst:2361
+#: ../../../platforms/atmelavr.rst:2380 ../../../platforms/atmelavr.rst:2399
+#: ../../../platforms/atmelavr.rst:2418 ../../../platforms/atmelavr.rst:2437
+#: ../../../platforms/atmelavr.rst:2462 ../../../platforms/atmelavr.rst:2487
+#: ../../../platforms/atmelavr.rst:2506 ../../../platforms/atmelavr.rst:2537
+#: ../../../platforms/atmelavr.rst:2556 ../../../platforms/atmelavr.rst:2599
+#: ../../../platforms/atmelavr.rst:2648 ../../../platforms/atmelavr.rst:2667
+#: ../../../platforms/atmelavr.rst:2758 ../../../platforms/atmelavr.rst:2777
+#: ../../../platforms/atmelavr.rst:2796 ../../../platforms/atmelavr.rst:2815
+#: ../../../platforms/atmelavr.rst:2840 ../../../platforms/atmelavr.rst:2865
+#: ../../../platforms/atmelavr.rst:2884 ../../../platforms/atmelavr.rst:2903
+#: ../../../platforms/atmelavr.rst:2952
+msgid "Flash"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:83 ../../../platforms/atmelavr.rst:1056
+#: ../../../platforms/atmelavr.rst:1159 ../../../platforms/atmelavr.rst:1190
+#: ../../../platforms/atmelavr.rst:1209 ../../../platforms/atmelavr.rst:1234
+#: ../../../platforms/atmelavr.rst:1451 ../../../platforms/atmelavr.rst:1590
+#: ../../../platforms/atmelavr.rst:1609 ../../../platforms/atmelavr.rst:1628
+#: ../../../platforms/atmelavr.rst:1647 ../../../platforms/atmelavr.rst:1684
+#: ../../../platforms/atmelavr.rst:1721 ../../../platforms/atmelavr.rst:1740
+#: ../../../platforms/atmelavr.rst:1759 ../../../platforms/atmelavr.rst:1778
+#: ../../../platforms/atmelavr.rst:1797 ../../../platforms/atmelavr.rst:1816
+#: ../../../platforms/atmelavr.rst:1835 ../../../platforms/atmelavr.rst:1854
+#: ../../../platforms/atmelavr.rst:1891 ../../../platforms/atmelavr.rst:1910
+#: ../../../platforms/atmelavr.rst:2295 ../../../platforms/atmelavr.rst:2362
+#: ../../../platforms/atmelavr.rst:2381 ../../../platforms/atmelavr.rst:2400
+#: ../../../platforms/atmelavr.rst:2419 ../../../platforms/atmelavr.rst:2438
+#: ../../../platforms/atmelavr.rst:2463 ../../../platforms/atmelavr.rst:2488
+#: ../../../platforms/atmelavr.rst:2507 ../../../platforms/atmelavr.rst:2538
+#: ../../../platforms/atmelavr.rst:2557 ../../../platforms/atmelavr.rst:2600
+#: ../../../platforms/atmelavr.rst:2649 ../../../platforms/atmelavr.rst:2668
+#: ../../../platforms/atmelavr.rst:2759 ../../../platforms/atmelavr.rst:2778
+#: ../../../platforms/atmelavr.rst:2797 ../../../platforms/atmelavr.rst:2816
+#: ../../../platforms/atmelavr.rst:2841 ../../../platforms/atmelavr.rst:2866
+#: ../../../platforms/atmelavr.rst:2885 ../../../platforms/atmelavr.rst:2904
+#: ../../../platforms/atmelavr.rst:2953
+msgid "RAM"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:84 ../../../platforms/atmelavr.rst:1929
+msgid ":ref:`board_atmelavr_ATmega128`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:85 ../../../platforms/atmelavr.rst:885
+#: ../../../platforms/atmelavr.rst:1931 ../../../platforms/atmelavr.rst:2913
+msgid "ATMEGA128"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:86 ../../../platforms/atmelavr.rst:91
+#: ../../../platforms/atmelavr.rst:96 ../../../platforms/atmelavr.rst:101
+#: ../../../platforms/atmelavr.rst:106 ../../../platforms/atmelavr.rst:111
+#: ../../../platforms/atmelavr.rst:116 ../../../platforms/atmelavr.rst:121
+#: ../../../platforms/atmelavr.rst:126 ../../../platforms/atmelavr.rst:131
+#: ../../../platforms/atmelavr.rst:136 ../../../platforms/atmelavr.rst:141
+#: ../../../platforms/atmelavr.rst:146 ../../../platforms/atmelavr.rst:151
+#: ../../../platforms/atmelavr.rst:156 ../../../platforms/atmelavr.rst:161
+#: ../../../platforms/atmelavr.rst:166 ../../../platforms/atmelavr.rst:171
+#: ../../../platforms/atmelavr.rst:176 ../../../platforms/atmelavr.rst:181
+#: ../../../platforms/atmelavr.rst:186 ../../../platforms/atmelavr.rst:236
+#: ../../../platforms/atmelavr.rst:241 ../../../platforms/atmelavr.rst:256
+#: ../../../platforms/atmelavr.rst:261 ../../../platforms/atmelavr.rst:271
+#: ../../../platforms/atmelavr.rst:276 ../../../platforms/atmelavr.rst:281
+#: ../../../platforms/atmelavr.rst:286 ../../../platforms/atmelavr.rst:291
+#: ../../../platforms/atmelavr.rst:296 ../../../platforms/atmelavr.rst:301
+#: ../../../platforms/atmelavr.rst:306 ../../../platforms/atmelavr.rst:311
+#: ../../../platforms/atmelavr.rst:316 ../../../platforms/atmelavr.rst:321
+#: ../../../platforms/atmelavr.rst:326 ../../../platforms/atmelavr.rst:331
+#: ../../../platforms/atmelavr.rst:341 ../../../platforms/atmelavr.rst:346
+#: ../../../platforms/atmelavr.rst:351 ../../../platforms/atmelavr.rst:371
+#: ../../../platforms/atmelavr.rst:376 ../../../platforms/atmelavr.rst:381
+#: ../../../platforms/atmelavr.rst:386 ../../../platforms/atmelavr.rst:391
+#: ../../../platforms/atmelavr.rst:396 ../../../platforms/atmelavr.rst:401
+#: ../../../platforms/atmelavr.rst:406 ../../../platforms/atmelavr.rst:411
+#: ../../../platforms/atmelavr.rst:416 ../../../platforms/atmelavr.rst:421
+#: ../../../platforms/atmelavr.rst:431 ../../../platforms/atmelavr.rst:441
+#: ../../../platforms/atmelavr.rst:446 ../../../platforms/atmelavr.rst:451
+#: ../../../platforms/atmelavr.rst:456 ../../../platforms/atmelavr.rst:461
+#: ../../../platforms/atmelavr.rst:466 ../../../platforms/atmelavr.rst:471
+#: ../../../platforms/atmelavr.rst:476 ../../../platforms/atmelavr.rst:481
+#: ../../../platforms/atmelavr.rst:486 ../../../platforms/atmelavr.rst:491
+#: ../../../platforms/atmelavr.rst:496 ../../../platforms/atmelavr.rst:501
+#: ../../../platforms/atmelavr.rst:506 ../../../platforms/atmelavr.rst:521
+#: ../../../platforms/atmelavr.rst:571 ../../../platforms/atmelavr.rst:581
+#: ../../../platforms/atmelavr.rst:596 ../../../platforms/atmelavr.rst:601
+#: ../../../platforms/atmelavr.rst:611 ../../../platforms/atmelavr.rst:616
+#: ../../../platforms/atmelavr.rst:626 ../../../platforms/atmelavr.rst:636
+#: ../../../platforms/atmelavr.rst:641 ../../../platforms/atmelavr.rst:651
+#: ../../../platforms/atmelavr.rst:661 ../../../platforms/atmelavr.rst:666
+#: ../../../platforms/atmelavr.rst:676 ../../../platforms/atmelavr.rst:681
+#: ../../../platforms/atmelavr.rst:691 ../../../platforms/atmelavr.rst:696
+#: ../../../platforms/atmelavr.rst:706 ../../../platforms/atmelavr.rst:736
+#: ../../../platforms/atmelavr.rst:746 ../../../platforms/atmelavr.rst:756
+#: ../../../platforms/atmelavr.rst:766 ../../../platforms/atmelavr.rst:771
+#: ../../../platforms/atmelavr.rst:786 ../../../platforms/atmelavr.rst:796
+#: ../../../platforms/atmelavr.rst:806 ../../../platforms/atmelavr.rst:816
+#: ../../../platforms/atmelavr.rst:826 ../../../platforms/atmelavr.rst:841
+#: ../../../platforms/atmelavr.rst:846 ../../../platforms/atmelavr.rst:866
+#: ../../../platforms/atmelavr.rst:871 ../../../platforms/atmelavr.rst:876
+#: ../../../platforms/atmelavr.rst:886 ../../../platforms/atmelavr.rst:911
+#: ../../../platforms/atmelavr.rst:1102 ../../../platforms/atmelavr.rst:1108
+#: ../../../platforms/atmelavr.rst:1126 ../../../platforms/atmelavr.rst:1132
+#: ../../../platforms/atmelavr.rst:1144 ../../../platforms/atmelavr.rst:1163
+#: ../../../platforms/atmelavr.rst:1169 ../../../platforms/atmelavr.rst:1175
+#: ../../../platforms/atmelavr.rst:1194 ../../../platforms/atmelavr.rst:1213
+#: ../../../platforms/atmelavr.rst:1219 ../../../platforms/atmelavr.rst:1238
+#: ../../../platforms/atmelavr.rst:1244 ../../../platforms/atmelavr.rst:1250
+#: ../../../platforms/atmelavr.rst:1256 ../../../platforms/atmelavr.rst:1262
+#: ../../../platforms/atmelavr.rst:1268 ../../../platforms/atmelavr.rst:1280
+#: ../../../platforms/atmelavr.rst:1286 ../../../platforms/atmelavr.rst:1292
+#: ../../../platforms/atmelavr.rst:1316 ../../../platforms/atmelavr.rst:1322
+#: ../../../platforms/atmelavr.rst:1328 ../../../platforms/atmelavr.rst:1334
+#: ../../../platforms/atmelavr.rst:1340 ../../../platforms/atmelavr.rst:1346
+#: ../../../platforms/atmelavr.rst:1352 ../../../platforms/atmelavr.rst:1358
+#: ../../../platforms/atmelavr.rst:1364 ../../../platforms/atmelavr.rst:1370
+#: ../../../platforms/atmelavr.rst:1376 ../../../platforms/atmelavr.rst:1388
+#: ../../../platforms/atmelavr.rst:1400 ../../../platforms/atmelavr.rst:1406
+#: ../../../platforms/atmelavr.rst:1412 ../../../platforms/atmelavr.rst:1418
+#: ../../../platforms/atmelavr.rst:1424 ../../../platforms/atmelavr.rst:1430
+#: ../../../platforms/atmelavr.rst:1436 ../../../platforms/atmelavr.rst:1594
+#: ../../../platforms/atmelavr.rst:1632 ../../../platforms/atmelavr.rst:1651
+#: ../../../platforms/atmelavr.rst:1657 ../../../platforms/atmelavr.rst:1663
+#: ../../../platforms/atmelavr.rst:1669 ../../../platforms/atmelavr.rst:1688
+#: ../../../platforms/atmelavr.rst:1694 ../../../platforms/atmelavr.rst:1700
+#: ../../../platforms/atmelavr.rst:1706 ../../../platforms/atmelavr.rst:1725
+#: ../../../platforms/atmelavr.rst:1744 ../../../platforms/atmelavr.rst:1801
+#: ../../../platforms/atmelavr.rst:1839 ../../../platforms/atmelavr.rst:1858
+#: ../../../platforms/atmelavr.rst:1864 ../../../platforms/atmelavr.rst:1876
+#: ../../../platforms/atmelavr.rst:1914 ../../../platforms/atmelavr.rst:1920
+#: ../../../platforms/atmelavr.rst:1926 ../../../platforms/atmelavr.rst:1932
+#: ../../../platforms/atmelavr.rst:1938 ../../../platforms/atmelavr.rst:1944
+#: ../../../platforms/atmelavr.rst:1950 ../../../platforms/atmelavr.rst:1956
+#: ../../../platforms/atmelavr.rst:1962 ../../../platforms/atmelavr.rst:1968
+#: ../../../platforms/atmelavr.rst:1974 ../../../platforms/atmelavr.rst:1980
+#: ../../../platforms/atmelavr.rst:1986 ../../../platforms/atmelavr.rst:1992
+#: ../../../platforms/atmelavr.rst:1998 ../../../platforms/atmelavr.rst:2004
+#: ../../../platforms/atmelavr.rst:2010 ../../../platforms/atmelavr.rst:2016
+#: ../../../platforms/atmelavr.rst:2022 ../../../platforms/atmelavr.rst:2028
+#: ../../../platforms/atmelavr.rst:2034 ../../../platforms/atmelavr.rst:2040
+#: ../../../platforms/atmelavr.rst:2046 ../../../platforms/atmelavr.rst:2052
+#: ../../../platforms/atmelavr.rst:2058 ../../../platforms/atmelavr.rst:2064
+#: ../../../platforms/atmelavr.rst:2070 ../../../platforms/atmelavr.rst:2076
+#: ../../../platforms/atmelavr.rst:2082 ../../../platforms/atmelavr.rst:2088
+#: ../../../platforms/atmelavr.rst:2094 ../../../platforms/atmelavr.rst:2100
+#: ../../../platforms/atmelavr.rst:2106 ../../../platforms/atmelavr.rst:2112
+#: ../../../platforms/atmelavr.rst:2118 ../../../platforms/atmelavr.rst:2124
+#: ../../../platforms/atmelavr.rst:2130 ../../../platforms/atmelavr.rst:2136
+#: ../../../platforms/atmelavr.rst:2142 ../../../platforms/atmelavr.rst:2148
+#: ../../../platforms/atmelavr.rst:2154 ../../../platforms/atmelavr.rst:2160
+#: ../../../platforms/atmelavr.rst:2166 ../../../platforms/atmelavr.rst:2172
+#: ../../../platforms/atmelavr.rst:2178 ../../../platforms/atmelavr.rst:2184
+#: ../../../platforms/atmelavr.rst:2190 ../../../platforms/atmelavr.rst:2196
+#: ../../../platforms/atmelavr.rst:2202 ../../../platforms/atmelavr.rst:2208
+#: ../../../platforms/atmelavr.rst:2214 ../../../platforms/atmelavr.rst:2220
+#: ../../../platforms/atmelavr.rst:2226 ../../../platforms/atmelavr.rst:2232
+#: ../../../platforms/atmelavr.rst:2238 ../../../platforms/atmelavr.rst:2244
+#: ../../../platforms/atmelavr.rst:2250 ../../../platforms/atmelavr.rst:2256
+#: ../../../platforms/atmelavr.rst:2274 ../../../platforms/atmelavr.rst:2280
+#: ../../../platforms/atmelavr.rst:2299 ../../../platforms/atmelavr.rst:2311
+#: ../../../platforms/atmelavr.rst:2323 ../../../platforms/atmelavr.rst:2329
+#: ../../../platforms/atmelavr.rst:2341 ../../../platforms/atmelavr.rst:2366
+#: ../../../platforms/atmelavr.rst:2404 ../../../platforms/atmelavr.rst:2423
+#: ../../../platforms/atmelavr.rst:2442 ../../../platforms/atmelavr.rst:2448
+#: ../../../platforms/atmelavr.rst:2473 ../../../platforms/atmelavr.rst:2511
+#: ../../../platforms/atmelavr.rst:2517 ../../../platforms/atmelavr.rst:2542
+#: ../../../platforms/atmelavr.rst:2604 ../../../platforms/atmelavr.rst:2616
+#: ../../../platforms/atmelavr.rst:2628 ../../../platforms/atmelavr.rst:2653
+#: ../../../platforms/atmelavr.rst:2672 ../../../platforms/atmelavr.rst:2690
+#: ../../../platforms/atmelavr.rst:2702 ../../../platforms/atmelavr.rst:2714
+#: ../../../platforms/atmelavr.rst:2726 ../../../platforms/atmelavr.rst:2738
+#: ../../../platforms/atmelavr.rst:2782 ../../../platforms/atmelavr.rst:2801
+#: ../../../platforms/atmelavr.rst:2845 ../../../platforms/atmelavr.rst:2851
+#: ../../../platforms/atmelavr.rst:2870 ../../../platforms/atmelavr.rst:2889
+#: ../../../platforms/atmelavr.rst:2914 ../../../platforms/atmelavr.rst:2957
+msgid "16MHz"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:87 ../../../platforms/atmelavr.rst:92
+#: ../../../platforms/atmelavr.rst:97 ../../../platforms/atmelavr.rst:102
+#: ../../../platforms/atmelavr.rst:107 ../../../platforms/atmelavr.rst:887
+#: ../../../platforms/atmelavr.rst:897 ../../../platforms/atmelavr.rst:907
+#: ../../../platforms/atmelavr.rst:1915 ../../../platforms/atmelavr.rst:1933
+#: ../../../platforms/atmelavr.rst:1939 ../../../platforms/atmelavr.rst:1945
+#: ../../../platforms/atmelavr.rst:1951 ../../../platforms/atmelavr.rst:1957
+#: ../../../platforms/atmelavr.rst:2915 ../../../platforms/atmelavr.rst:2927
+#: ../../../platforms/atmelavr.rst:2939
+msgid "128KB"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:88 ../../../platforms/atmelavr.rst:162
+#: ../../../platforms/atmelavr.rst:167 ../../../platforms/atmelavr.rst:173
+#: ../../../platforms/atmelavr.rst:542 ../../../platforms/atmelavr.rst:547
+#: ../../../platforms/atmelavr.rst:552 ../../../platforms/atmelavr.rst:653
+#: ../../../platforms/atmelavr.rst:658 ../../../platforms/atmelavr.rst:748
+#: ../../../platforms/atmelavr.rst:753 ../../../platforms/atmelavr.rst:758
+#: ../../../platforms/atmelavr.rst:763 ../../../platforms/atmelavr.rst:888
+#: ../../../platforms/atmelavr.rst:1492 ../../../platforms/atmelavr.rst:1498
+#: ../../../platforms/atmelavr.rst:1504 ../../../platforms/atmelavr.rst:1510
+#: ../../../platforms/atmelavr.rst:1516 ../../../platforms/atmelavr.rst:1522
+#: ../../../platforms/atmelavr.rst:1528 ../../../platforms/atmelavr.rst:1916
+#: ../../../platforms/atmelavr.rst:1928 ../../../platforms/atmelavr.rst:1934
+#: ../../../platforms/atmelavr.rst:2137 ../../../platforms/atmelavr.rst:2143
+#: ../../../platforms/atmelavr.rst:2149 ../../../platforms/atmelavr.rst:2156
+#: ../../../platforms/atmelavr.rst:2168 ../../../platforms/atmelavr.rst:2174
+#: ../../../platforms/atmelavr.rst:2180 ../../../platforms/atmelavr.rst:2186
+#: ../../../platforms/atmelavr.rst:2192 ../../../platforms/atmelavr.rst:2198
+#: ../../../platforms/atmelavr.rst:2204 ../../../platforms/atmelavr.rst:2210
+#: ../../../platforms/atmelavr.rst:2216 ../../../platforms/atmelavr.rst:2222
+#: ../../../platforms/atmelavr.rst:2343 ../../../platforms/atmelavr.rst:2349
+#: ../../../platforms/atmelavr.rst:2618 ../../../platforms/atmelavr.rst:2624
+#: ../../../platforms/atmelavr.rst:2630 ../../../platforms/atmelavr.rst:2636
+#: ../../../platforms/atmelavr.rst:2916
+msgid "4KB"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:89 ../../../platforms/atmelavr.rst:1935
+msgid ":ref:`board_atmelavr_ATmega1280`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:90 ../../../platforms/atmelavr.rst:375
+#: ../../../platforms/atmelavr.rst:1321 ../../../platforms/atmelavr.rst:1937
+msgid "ATMEGA1280"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:93 ../../../platforms/atmelavr.rst:98
+#: ../../../platforms/atmelavr.rst:133 ../../../platforms/atmelavr.rst:177
+#: ../../../platforms/atmelavr.rst:182 ../../../platforms/atmelavr.rst:187
+#: ../../../platforms/atmelavr.rst:227 ../../../platforms/atmelavr.rst:267
+#: ../../../platforms/atmelavr.rst:272 ../../../platforms/atmelavr.rst:373
+#: ../../../platforms/atmelavr.rst:378 ../../../platforms/atmelavr.rst:383
+#: ../../../platforms/atmelavr.rst:488 ../../../platforms/atmelavr.rst:493
+#: ../../../platforms/atmelavr.rst:498 ../../../platforms/atmelavr.rst:523
+#: ../../../platforms/atmelavr.rst:557 ../../../platforms/atmelavr.rst:562
+#: ../../../platforms/atmelavr.rst:683 ../../../platforms/atmelavr.rst:708
+#: ../../../platforms/atmelavr.rst:793 ../../../platforms/atmelavr.rst:798
+#: ../../../platforms/atmelavr.rst:803 ../../../platforms/atmelavr.rst:862
+#: ../../../platforms/atmelavr.rst:882 ../../../platforms/atmelavr.rst:1091
+#: ../../../platforms/atmelavr.rst:1139 ../../../platforms/atmelavr.rst:1145
+#: ../../../platforms/atmelavr.rst:1318 ../../../platforms/atmelavr.rst:1324
+#: ../../../platforms/atmelavr.rst:1330 ../../../platforms/atmelavr.rst:1534
+#: ../../../platforms/atmelavr.rst:1540 ../../../platforms/atmelavr.rst:1546
+#: ../../../platforms/atmelavr.rst:1552 ../../../platforms/atmelavr.rst:1558
+#: ../../../platforms/atmelavr.rst:1564 ../../../platforms/atmelavr.rst:1570
+#: ../../../platforms/atmelavr.rst:1576 ../../../platforms/atmelavr.rst:1653
+#: ../../../platforms/atmelavr.rst:1659 ../../../platforms/atmelavr.rst:1665
+#: ../../../platforms/atmelavr.rst:1803 ../../../platforms/atmelavr.rst:1940
+#: ../../../platforms/atmelavr.rst:1946 ../../../platforms/atmelavr.rst:2030
+#: ../../../platforms/atmelavr.rst:2036 ../../../platforms/atmelavr.rst:2162
+#: ../../../platforms/atmelavr.rst:2227 ../../../platforms/atmelavr.rst:2233
+#: ../../../platforms/atmelavr.rst:2239 ../../../platforms/atmelavr.rst:2245
+#: ../../../platforms/atmelavr.rst:2251 ../../../platforms/atmelavr.rst:2257
+#: ../../../platforms/atmelavr.rst:2450 ../../../platforms/atmelavr.rst:2544
+#: ../../../platforms/atmelavr.rst:2698 ../../../platforms/atmelavr.rst:2704
+#: ../../../platforms/atmelavr.rst:2710 ../../../platforms/atmelavr.rst:2909
+msgid "8KB"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:94 ../../../platforms/atmelavr.rst:1941
+msgid ":ref:`board_atmelavr_ATmega1281`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:95 ../../../platforms/atmelavr.rst:1943
+msgid "ATMEGA1281"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:99 ../../../platforms/atmelavr.rst:1947
+msgid ":ref:`board_atmelavr_ATmega1284`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:100 ../../../platforms/atmelavr.rst:1949
+msgid "ATMEGA1284"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:103 ../../../platforms/atmelavr.rst:108
+#: ../../../platforms/atmelavr.rst:112 ../../../platforms/atmelavr.rst:117
+#: ../../../platforms/atmelavr.rst:122 ../../../platforms/atmelavr.rst:127
+#: ../../../platforms/atmelavr.rst:518 ../../../platforms/atmelavr.rst:613
+#: ../../../platforms/atmelavr.rst:643 ../../../platforms/atmelavr.rst:648
+#: ../../../platforms/atmelavr.rst:713 ../../../platforms/atmelavr.rst:718
+#: ../../../platforms/atmelavr.rst:728 ../../../platforms/atmelavr.rst:733
+#: ../../../platforms/atmelavr.rst:738 ../../../platforms/atmelavr.rst:743
+#: ../../../platforms/atmelavr.rst:773 ../../../platforms/atmelavr.rst:868
+#: ../../../platforms/atmelavr.rst:873 ../../../platforms/atmelavr.rst:892
+#: ../../../platforms/atmelavr.rst:898 ../../../platforms/atmelavr.rst:902
+#: ../../../platforms/atmelavr.rst:908 ../../../platforms/atmelavr.rst:1456
+#: ../../../platforms/atmelavr.rst:1462 ../../../platforms/atmelavr.rst:1784
+#: ../../../platforms/atmelavr.rst:1878 ../../../platforms/atmelavr.rst:1952
+#: ../../../platforms/atmelavr.rst:1958 ../../../platforms/atmelavr.rst:1963
+#: ../../../platforms/atmelavr.rst:1969 ../../../platforms/atmelavr.rst:1975
+#: ../../../platforms/atmelavr.rst:1981 ../../../platforms/atmelavr.rst:1987
+#: ../../../platforms/atmelavr.rst:1993 ../../../platforms/atmelavr.rst:1999
+#: ../../../platforms/atmelavr.rst:2005 ../../../platforms/atmelavr.rst:2011
+#: ../../../platforms/atmelavr.rst:2017 ../../../platforms/atmelavr.rst:2023
+#: ../../../platforms/atmelavr.rst:2275 ../../../platforms/atmelavr.rst:2281
+#: ../../../platforms/atmelavr.rst:2331 ../../../platforms/atmelavr.rst:2337
+#: ../../../platforms/atmelavr.rst:2563 ../../../platforms/atmelavr.rst:2569
+#: ../../../platforms/atmelavr.rst:2581 ../../../platforms/atmelavr.rst:2587
+#: ../../../platforms/atmelavr.rst:2606 ../../../platforms/atmelavr.rst:2612
+#: ../../../platforms/atmelavr.rst:2674 ../../../platforms/atmelavr.rst:2847
+#: ../../../platforms/atmelavr.rst:2853 ../../../platforms/atmelavr.rst:2921
+#: ../../../platforms/atmelavr.rst:2928 ../../../platforms/atmelavr.rst:2933
+#: ../../../platforms/atmelavr.rst:2940
+msgid "16KB"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:104 ../../../platforms/atmelavr.rst:1953
+msgid ":ref:`board_atmelavr_ATmega1284P`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:105 ../../../platforms/atmelavr.rst:515
+#: ../../../platforms/atmelavr.rst:610 ../../../platforms/atmelavr.rst:640
+#: ../../../platforms/atmelavr.rst:645 ../../../platforms/atmelavr.rst:710
+#: ../../../platforms/atmelavr.rst:715 ../../../platforms/atmelavr.rst:725
+#: ../../../platforms/atmelavr.rst:730 ../../../platforms/atmelavr.rst:735
+#: ../../../platforms/atmelavr.rst:740 ../../../platforms/atmelavr.rst:865
+#: ../../../platforms/atmelavr.rst:870 ../../../platforms/atmelavr.rst:895
+#: ../../../platforms/atmelavr.rst:905 ../../../platforms/atmelavr.rst:1781
+#: ../../../platforms/atmelavr.rst:1875 ../../../platforms/atmelavr.rst:1955
+#: ../../../platforms/atmelavr.rst:2328 ../../../platforms/atmelavr.rst:2334
+#: ../../../platforms/atmelavr.rst:2560 ../../../platforms/atmelavr.rst:2566
+#: ../../../platforms/atmelavr.rst:2578 ../../../platforms/atmelavr.rst:2584
+#: ../../../platforms/atmelavr.rst:2603 ../../../platforms/atmelavr.rst:2609
+#: ../../../platforms/atmelavr.rst:2844 ../../../platforms/atmelavr.rst:2850
+#: ../../../platforms/atmelavr.rst:2925 ../../../platforms/atmelavr.rst:2937
+msgid "ATMEGA1284P"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:109 ../../../platforms/atmelavr.rst:1959
+msgid ":ref:`board_atmelavr_ATmega16`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:110 ../../../platforms/atmelavr.rst:890
+#: ../../../platforms/atmelavr.rst:900 ../../../platforms/atmelavr.rst:1961
+#: ../../../platforms/atmelavr.rst:2919 ../../../platforms/atmelavr.rst:2931
+msgid "ATMEGA16"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:113 ../../../platforms/atmelavr.rst:118
+#: ../../../platforms/atmelavr.rst:123 ../../../platforms/atmelavr.rst:128
+#: ../../../platforms/atmelavr.rst:178 ../../../platforms/atmelavr.rst:183
+#: ../../../platforms/atmelavr.rst:188 ../../../platforms/atmelavr.rst:192
+#: ../../../platforms/atmelavr.rst:197 ../../../platforms/atmelavr.rst:308
+#: ../../../platforms/atmelavr.rst:318 ../../../platforms/atmelavr.rst:358
+#: ../../../platforms/atmelavr.rst:393 ../../../platforms/atmelavr.rst:403
+#: ../../../platforms/atmelavr.rst:408 ../../../platforms/atmelavr.rst:413
+#: ../../../platforms/atmelavr.rst:428 ../../../platforms/atmelavr.rst:433
+#: ../../../platforms/atmelavr.rst:618 ../../../platforms/atmelavr.rst:623
+#: ../../../platforms/atmelavr.rst:863 ../../../platforms/atmelavr.rst:883
+#: ../../../platforms/atmelavr.rst:893 ../../../platforms/atmelavr.rst:903
+#: ../../../platforms/atmelavr.rst:1240 ../../../platforms/atmelavr.rst:1252
+#: ../../../platforms/atmelavr.rst:1300 ../../../platforms/atmelavr.rst:1342
+#: ../../../platforms/atmelavr.rst:1354 ../../../platforms/atmelavr.rst:1360
+#: ../../../platforms/atmelavr.rst:1366 ../../../platforms/atmelavr.rst:1384
+#: ../../../platforms/atmelavr.rst:1390 ../../../platforms/atmelavr.rst:1457
+#: ../../../platforms/atmelavr.rst:1577 ../../../platforms/atmelavr.rst:1964
+#: ../../../platforms/atmelavr.rst:1970 ../../../platforms/atmelavr.rst:1976
+#: ../../../platforms/atmelavr.rst:1982 ../../../platforms/atmelavr.rst:1988
+#: ../../../platforms/atmelavr.rst:1994 ../../../platforms/atmelavr.rst:2000
+#: ../../../platforms/atmelavr.rst:2006 ../../../platforms/atmelavr.rst:2012
+#: ../../../platforms/atmelavr.rst:2018 ../../../platforms/atmelavr.rst:2024
+#: ../../../platforms/atmelavr.rst:2228 ../../../platforms/atmelavr.rst:2246
+#: ../../../platforms/atmelavr.rst:2252 ../../../platforms/atmelavr.rst:2258
+#: ../../../platforms/atmelavr.rst:2263 ../../../platforms/atmelavr.rst:2269
+#: ../../../platforms/atmelavr.rst:2276 ../../../platforms/atmelavr.rst:2282
+#: ../../../platforms/atmelavr.rst:2301 ../../../platforms/atmelavr.rst:2307
+#: ../../../platforms/atmelavr.rst:2910 ../../../platforms/atmelavr.rst:2922
+#: ../../../platforms/atmelavr.rst:2934
+msgid "1KB"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:114 ../../../platforms/atmelavr.rst:1977
+msgid ":ref:`board_atmelavr_ATmega164P`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:115 ../../../platforms/atmelavr.rst:1979
+msgid "ATMEGA164P"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:119 ../../../platforms/atmelavr.rst:1995
+msgid ":ref:`board_atmelavr_ATmega168`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:120 ../../../platforms/atmelavr.rst:305
+#: ../../../platforms/atmelavr.rst:315 ../../../platforms/atmelavr.rst:355
+#: ../../../platforms/atmelavr.rst:390 ../../../platforms/atmelavr.rst:400
+#: ../../../platforms/atmelavr.rst:410 ../../../platforms/atmelavr.rst:425
+#: ../../../platforms/atmelavr.rst:430 ../../../platforms/atmelavr.rst:1237
+#: ../../../platforms/atmelavr.rst:1249 ../../../platforms/atmelavr.rst:1297
+#: ../../../platforms/atmelavr.rst:1339 ../../../platforms/atmelavr.rst:1351
+#: ../../../platforms/atmelavr.rst:1363 ../../../platforms/atmelavr.rst:1381
+#: ../../../platforms/atmelavr.rst:1387 ../../../platforms/atmelavr.rst:1997
+msgid "ATMEGA168"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:124 ../../../platforms/atmelavr.rst:2001
+msgid ":ref:`board_atmelavr_ATmega168P`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:125 ../../../platforms/atmelavr.rst:615
+#: ../../../platforms/atmelavr.rst:620 ../../../platforms/atmelavr.rst:2003
+#: ../../../platforms/atmelavr.rst:2298 ../../../platforms/atmelavr.rst:2304
+msgid "ATMEGA168P"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:129 ../../../platforms/atmelavr.rst:2025
+msgid ":ref:`board_atmelavr_ATmega2560`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:130 ../../../platforms/atmelavr.rst:370
+#: ../../../platforms/atmelavr.rst:380 ../../../platforms/atmelavr.rst:485
+#: ../../../platforms/atmelavr.rst:490 ../../../platforms/atmelavr.rst:495
+#: ../../../platforms/atmelavr.rst:520 ../../../platforms/atmelavr.rst:680
+#: ../../../platforms/atmelavr.rst:705 ../../../platforms/atmelavr.rst:790
+#: ../../../platforms/atmelavr.rst:795 ../../../platforms/atmelavr.rst:800
+#: ../../../platforms/atmelavr.rst:1315 ../../../platforms/atmelavr.rst:1327
+#: ../../../platforms/atmelavr.rst:1650 ../../../platforms/atmelavr.rst:1656
+#: ../../../platforms/atmelavr.rst:1662 ../../../platforms/atmelavr.rst:1800
+#: ../../../platforms/atmelavr.rst:2027 ../../../platforms/atmelavr.rst:2447
+#: ../../../platforms/atmelavr.rst:2541 ../../../platforms/atmelavr.rst:2695
+#: ../../../platforms/atmelavr.rst:2701 ../../../platforms/atmelavr.rst:2707
+msgid "ATMEGA2560"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:132 ../../../platforms/atmelavr.rst:2029
+#: ../../../platforms/atmelavr.rst:2035
+msgid "256KB"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:134 ../../../platforms/atmelavr.rst:2043
+msgid ":ref:`board_atmelavr_ATmega324A`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:135 ../../../platforms/atmelavr.rst:2045
+msgid "ATMEGA324A"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:137 ../../../platforms/atmelavr.rst:142
+#: ../../../platforms/atmelavr.rst:147 ../../../platforms/atmelavr.rst:152
+#: ../../../platforms/atmelavr.rst:157 ../../../platforms/atmelavr.rst:1921
+#: ../../../platforms/atmelavr.rst:2041 ../../../platforms/atmelavr.rst:2047
+#: ../../../platforms/atmelavr.rst:2053 ../../../platforms/atmelavr.rst:2059
+#: ../../../platforms/atmelavr.rst:2065 ../../../platforms/atmelavr.rst:2071
+#: ../../../platforms/atmelavr.rst:2077 ../../../platforms/atmelavr.rst:2083
+#: ../../../platforms/atmelavr.rst:2089 ../../../platforms/atmelavr.rst:2095
+#: ../../../platforms/atmelavr.rst:2101 ../../../platforms/atmelavr.rst:2107
+#: ../../../platforms/atmelavr.rst:2113 ../../../platforms/atmelavr.rst:2119
+#: ../../../platforms/atmelavr.rst:2125 ../../../platforms/atmelavr.rst:2131
+#: ../../../platforms/atmelavr.rst:2406 ../../../platforms/atmelavr.rst:2891
+msgid "32KB"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:138 ../../../platforms/atmelavr.rst:143
+#: ../../../platforms/atmelavr.rst:148 ../../../platforms/atmelavr.rst:153
+#: ../../../platforms/atmelavr.rst:158 ../../../platforms/atmelavr.rst:213
+#: ../../../platforms/atmelavr.rst:243 ../../../platforms/atmelavr.rst:248
+#: ../../../platforms/atmelavr.rst:253 ../../../platforms/atmelavr.rst:258
+#: ../../../platforms/atmelavr.rst:263 ../../../platforms/atmelavr.rst:278
+#: ../../../platforms/atmelavr.rst:283 ../../../platforms/atmelavr.rst:288
+#: ../../../platforms/atmelavr.rst:293 ../../../platforms/atmelavr.rst:313
+#: ../../../platforms/atmelavr.rst:323 ../../../platforms/atmelavr.rst:333
+#: ../../../platforms/atmelavr.rst:338 ../../../platforms/atmelavr.rst:363
+#: ../../../platforms/atmelavr.rst:398 ../../../platforms/atmelavr.rst:418
+#: ../../../platforms/atmelavr.rst:423 ../../../platforms/atmelavr.rst:438
+#: ../../../platforms/atmelavr.rst:443 ../../../platforms/atmelavr.rst:458
+#: ../../../platforms/atmelavr.rst:463 ../../../platforms/atmelavr.rst:478
+#: ../../../platforms/atmelavr.rst:483 ../../../platforms/atmelavr.rst:503
+#: ../../../platforms/atmelavr.rst:527 ../../../platforms/atmelavr.rst:532
+#: ../../../platforms/atmelavr.rst:537 ../../../platforms/atmelavr.rst:568
+#: ../../../platforms/atmelavr.rst:573 ../../../platforms/atmelavr.rst:598
+#: ../../../platforms/atmelavr.rst:603 ../../../platforms/atmelavr.rst:608
+#: ../../../platforms/atmelavr.rst:628 ../../../platforms/atmelavr.rst:633
+#: ../../../platforms/atmelavr.rst:663 ../../../platforms/atmelavr.rst:673
+#: ../../../platforms/atmelavr.rst:723 ../../../platforms/atmelavr.rst:768
+#: ../../../platforms/atmelavr.rst:778 ../../../platforms/atmelavr.rst:808
+#: ../../../platforms/atmelavr.rst:828 ../../../platforms/atmelavr.rst:833
+#: ../../../platforms/atmelavr.rst:838 ../../../platforms/atmelavr.rst:843
+#: ../../../platforms/atmelavr.rst:853 ../../../platforms/atmelavr.rst:858
+#: ../../../platforms/atmelavr.rst:913 ../../../platforms/atmelavr.rst:1074
+#: ../../../platforms/atmelavr.rst:1110 ../../../platforms/atmelavr.rst:1116
+#: ../../../platforms/atmelavr.rst:1122 ../../../platforms/atmelavr.rst:1128
+#: ../../../platforms/atmelavr.rst:1134 ../../../platforms/atmelavr.rst:1165
+#: ../../../platforms/atmelavr.rst:1171 ../../../platforms/atmelavr.rst:1177
+#: ../../../platforms/atmelavr.rst:1196 ../../../platforms/atmelavr.rst:1246
+#: ../../../platforms/atmelavr.rst:1258 ../../../platforms/atmelavr.rst:1270
+#: ../../../platforms/atmelavr.rst:1276 ../../../platforms/atmelavr.rst:1306
+#: ../../../platforms/atmelavr.rst:1348 ../../../platforms/atmelavr.rst:1372
+#: ../../../platforms/atmelavr.rst:1378 ../../../platforms/atmelavr.rst:1396
+#: ../../../platforms/atmelavr.rst:1402 ../../../platforms/atmelavr.rst:1420
+#: ../../../platforms/atmelavr.rst:1426 ../../../platforms/atmelavr.rst:1468
+#: ../../../platforms/atmelavr.rst:1474 ../../../platforms/atmelavr.rst:1480
+#: ../../../platforms/atmelavr.rst:1486 ../../../platforms/atmelavr.rst:1596
+#: ../../../platforms/atmelavr.rst:1634 ../../../platforms/atmelavr.rst:1671
+#: ../../../platforms/atmelavr.rst:1727 ../../../platforms/atmelavr.rst:1746
+#: ../../../platforms/atmelavr.rst:1860 ../../../platforms/atmelavr.rst:1866
+#: ../../../platforms/atmelavr.rst:1872 ../../../platforms/atmelavr.rst:1922
+#: ../../../platforms/atmelavr.rst:2042 ../../../platforms/atmelavr.rst:2048
+#: ../../../platforms/atmelavr.rst:2054 ../../../platforms/atmelavr.rst:2060
+#: ../../../platforms/atmelavr.rst:2066 ../../../platforms/atmelavr.rst:2072
+#: ../../../platforms/atmelavr.rst:2078 ../../../platforms/atmelavr.rst:2084
+#: ../../../platforms/atmelavr.rst:2090 ../../../platforms/atmelavr.rst:2096
+#: ../../../platforms/atmelavr.rst:2102 ../../../platforms/atmelavr.rst:2108
+#: ../../../platforms/atmelavr.rst:2114 ../../../platforms/atmelavr.rst:2120
+#: ../../../platforms/atmelavr.rst:2126 ../../../platforms/atmelavr.rst:2132
+#: ../../../platforms/atmelavr.rst:2313 ../../../platforms/atmelavr.rst:2319
+#: ../../../platforms/atmelavr.rst:2368 ../../../platforms/atmelavr.rst:2387
+#: ../../../platforms/atmelavr.rst:2469 ../../../platforms/atmelavr.rst:2475
+#: ../../../platforms/atmelavr.rst:2575 ../../../platforms/atmelavr.rst:2655
+#: ../../../platforms/atmelavr.rst:2680 ../../../platforms/atmelavr.rst:2716
+#: ../../../platforms/atmelavr.rst:2740 ../../../platforms/atmelavr.rst:2746
+#: ../../../platforms/atmelavr.rst:2765 ../../../platforms/atmelavr.rst:2822
+#: ../../../platforms/atmelavr.rst:2828 ../../../platforms/atmelavr.rst:2872
+#: ../../../platforms/atmelavr.rst:2959
+msgid "2KB"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:139 ../../../platforms/atmelavr.rst:2049
+msgid ":ref:`board_atmelavr_ATmega324P`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:140 ../../../platforms/atmelavr.rst:2051
+msgid "ATMEGA324P"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:144 ../../../platforms/atmelavr.rst:2055
+msgid ":ref:`board_atmelavr_ATmega324PA`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:145 ../../../platforms/atmelavr.rst:2057
+msgid "ATMEGA324PA"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:149 ../../../platforms/atmelavr.rst:2091
+msgid ":ref:`board_atmelavr_ATmega328`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:150 ../../../platforms/atmelavr.rst:2093
+msgid "ATMEGA328"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:154 ../../../platforms/atmelavr.rst:2097
+msgid ":ref:`board_atmelavr_ATmega328P`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:155 ../../../platforms/atmelavr.rst:210
+#: ../../../platforms/atmelavr.rst:240 ../../../platforms/atmelavr.rst:245
+#: ../../../platforms/atmelavr.rst:250 ../../../platforms/atmelavr.rst:255
+#: ../../../platforms/atmelavr.rst:260 ../../../platforms/atmelavr.rst:275
+#: ../../../platforms/atmelavr.rst:280 ../../../platforms/atmelavr.rst:285
+#: ../../../platforms/atmelavr.rst:290 ../../../platforms/atmelavr.rst:310
+#: ../../../platforms/atmelavr.rst:320 ../../../platforms/atmelavr.rst:330
+#: ../../../platforms/atmelavr.rst:335 ../../../platforms/atmelavr.rst:360
+#: ../../../platforms/atmelavr.rst:395 ../../../platforms/atmelavr.rst:415
+#: ../../../platforms/atmelavr.rst:420 ../../../platforms/atmelavr.rst:435
+#: ../../../platforms/atmelavr.rst:440 ../../../platforms/atmelavr.rst:455
+#: ../../../platforms/atmelavr.rst:460 ../../../platforms/atmelavr.rst:475
+#: ../../../platforms/atmelavr.rst:480 ../../../platforms/atmelavr.rst:500
+#: ../../../platforms/atmelavr.rst:565 ../../../platforms/atmelavr.rst:570
+#: ../../../platforms/atmelavr.rst:595 ../../../platforms/atmelavr.rst:600
+#: ../../../platforms/atmelavr.rst:605 ../../../platforms/atmelavr.rst:625
+#: ../../../platforms/atmelavr.rst:630 ../../../platforms/atmelavr.rst:660
+#: ../../../platforms/atmelavr.rst:670 ../../../platforms/atmelavr.rst:720
+#: ../../../platforms/atmelavr.rst:765 ../../../platforms/atmelavr.rst:775
+#: ../../../platforms/atmelavr.rst:805 ../../../platforms/atmelavr.rst:825
+#: ../../../platforms/atmelavr.rst:830 ../../../platforms/atmelavr.rst:835
+#: ../../../platforms/atmelavr.rst:840 ../../../platforms/atmelavr.rst:850
+#: ../../../platforms/atmelavr.rst:855 ../../../platforms/atmelavr.rst:910
+#: ../../../platforms/atmelavr.rst:1071 ../../../platforms/atmelavr.rst:1107
+#: ../../../platforms/atmelavr.rst:1113 ../../../platforms/atmelavr.rst:1119
+#: ../../../platforms/atmelavr.rst:1125 ../../../platforms/atmelavr.rst:1131
+#: ../../../platforms/atmelavr.rst:1162 ../../../platforms/atmelavr.rst:1168
+#: ../../../platforms/atmelavr.rst:1174 ../../../platforms/atmelavr.rst:1193
+#: ../../../platforms/atmelavr.rst:1243 ../../../platforms/atmelavr.rst:1255
+#: ../../../platforms/atmelavr.rst:1267 ../../../platforms/atmelavr.rst:1273
+#: ../../../platforms/atmelavr.rst:1303 ../../../platforms/atmelavr.rst:1345
+#: ../../../platforms/atmelavr.rst:1369 ../../../platforms/atmelavr.rst:1375
+#: ../../../platforms/atmelavr.rst:1393 ../../../platforms/atmelavr.rst:1399
+#: ../../../platforms/atmelavr.rst:1417 ../../../platforms/atmelavr.rst:1423
+#: ../../../platforms/atmelavr.rst:1593 ../../../platforms/atmelavr.rst:1631
+#: ../../../platforms/atmelavr.rst:1668 ../../../platforms/atmelavr.rst:1857
+#: ../../../platforms/atmelavr.rst:1863 ../../../platforms/atmelavr.rst:1869
+#: ../../../platforms/atmelavr.rst:2099 ../../../platforms/atmelavr.rst:2310
+#: ../../../platforms/atmelavr.rst:2316 ../../../platforms/atmelavr.rst:2365
+#: ../../../platforms/atmelavr.rst:2384 ../../../platforms/atmelavr.rst:2466
+#: ../../../platforms/atmelavr.rst:2472 ../../../platforms/atmelavr.rst:2572
+#: ../../../platforms/atmelavr.rst:2652 ../../../platforms/atmelavr.rst:2677
+#: ../../../platforms/atmelavr.rst:2713 ../../../platforms/atmelavr.rst:2737
+#: ../../../platforms/atmelavr.rst:2743 ../../../platforms/atmelavr.rst:2762
+#: ../../../platforms/atmelavr.rst:2819 ../../../platforms/atmelavr.rst:2825
+#: ../../../platforms/atmelavr.rst:2869 ../../../platforms/atmelavr.rst:2956
+msgid "ATMEGA328P"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:159 ../../../platforms/atmelavr.rst:2133
+msgid ":ref:`board_atmelavr_ATmega48`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:160 ../../../platforms/atmelavr.rst:2135
+msgid "ATMEGA48"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:163 ../../../platforms/atmelavr.rst:168
+#: ../../../platforms/atmelavr.rst:228 ../../../platforms/atmelavr.rst:268
+#: ../../../platforms/atmelavr.rst:273 ../../../platforms/atmelavr.rst:508
+#: ../../../platforms/atmelavr.rst:558 ../../../platforms/atmelavr.rst:563
+#: ../../../platforms/atmelavr.rst:1092 ../../../platforms/atmelavr.rst:1140
+#: ../../../platforms/atmelavr.rst:1146 ../../../platforms/atmelavr.rst:1463
+#: ../../../platforms/atmelavr.rst:1535 ../../../platforms/atmelavr.rst:1541
+#: ../../../platforms/atmelavr.rst:1547 ../../../platforms/atmelavr.rst:1553
+#: ../../../platforms/atmelavr.rst:1559 ../../../platforms/atmelavr.rst:1565
+#: ../../../platforms/atmelavr.rst:1571 ../../../platforms/atmelavr.rst:1690
+#: ../../../platforms/atmelavr.rst:1696 ../../../platforms/atmelavr.rst:1702
+#: ../../../platforms/atmelavr.rst:1708 ../../../platforms/atmelavr.rst:2138
+#: ../../../platforms/atmelavr.rst:2144 ../../../platforms/atmelavr.rst:2150
+#: ../../../platforms/atmelavr.rst:2234 ../../../platforms/atmelavr.rst:2240
+msgid "512B"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:164 ../../../platforms/atmelavr.rst:2139
+msgid ":ref:`board_atmelavr_ATmega48P`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:165 ../../../platforms/atmelavr.rst:2141
+msgid "ATMEGA48P"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:169 ../../../platforms/atmelavr.rst:2169
+msgid ":ref:`board_atmelavr_ATmega644P`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:170 ../../../platforms/atmelavr.rst:650
+#: ../../../platforms/atmelavr.rst:655 ../../../platforms/atmelavr.rst:755
+#: ../../../platforms/atmelavr.rst:760 ../../../platforms/atmelavr.rst:2171
+#: ../../../platforms/atmelavr.rst:2340 ../../../platforms/atmelavr.rst:2346
+#: ../../../platforms/atmelavr.rst:2627 ../../../platforms/atmelavr.rst:2633
+msgid "ATMEGA644P"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:172 ../../../platforms/atmelavr.rst:1927
+#: ../../../platforms/atmelavr.rst:2155 ../../../platforms/atmelavr.rst:2161
+#: ../../../platforms/atmelavr.rst:2167 ../../../platforms/atmelavr.rst:2173
+#: ../../../platforms/atmelavr.rst:2179 ../../../platforms/atmelavr.rst:2185
+#: ../../../platforms/atmelavr.rst:2191 ../../../platforms/atmelavr.rst:2197
+#: ../../../platforms/atmelavr.rst:2203 ../../../platforms/atmelavr.rst:2209
+#: ../../../platforms/atmelavr.rst:2215 ../../../platforms/atmelavr.rst:2221
+msgid "64KB"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:174 ../../../platforms/atmelavr.rst:2223
+msgid ":ref:`board_atmelavr_ATmega8`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:175 ../../../platforms/atmelavr.rst:405
+#: ../../../platforms/atmelavr.rst:860 ../../../platforms/atmelavr.rst:1357
+#: ../../../platforms/atmelavr.rst:1574 ../../../platforms/atmelavr.rst:2225
+msgid "ATMEGA8"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:179 ../../../platforms/atmelavr.rst:2241
+msgid ":ref:`board_atmelavr_ATmega88`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:180 ../../../platforms/atmelavr.rst:880
+#: ../../../platforms/atmelavr.rst:2243 ../../../platforms/atmelavr.rst:2907
+msgid "ATMEGA88"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:184 ../../../platforms/atmelavr.rst:2247
+msgid ":ref:`board_atmelavr_ATmega88P`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:185 ../../../platforms/atmelavr.rst:2249
+msgid "ATMEGA88P"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:189 ../../../platforms/atmelavr.rst:2259
+msgid ":ref:`board_atmelavr_attiny13`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:190 ../../../platforms/atmelavr.rst:2261
+msgid "ATTINY13"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:191 ../../../platforms/atmelavr.rst:196
+#: ../../../platforms/atmelavr.rst:2262 ../../../platforms/atmelavr.rst:2268
+msgid "9MHz"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:193 ../../../platforms/atmelavr.rst:198
+#: ../../../platforms/atmelavr.rst:2264 ../../../platforms/atmelavr.rst:2270
+msgid "64B"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:194 ../../../platforms/atmelavr.rst:2265
+msgid ":ref:`board_atmelavr_attiny13a`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:195 ../../../platforms/atmelavr.rst:2267
+msgid "ATTINY13A"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:199 ../../../platforms/atmelavr.rst:1057
+msgid ":ref:`board_atmelavr_bluefruitmicro`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:200 ../../../platforms/atmelavr.rst:205
+#: ../../../platforms/atmelavr.rst:215 ../../../platforms/atmelavr.rst:220
+#: ../../../platforms/atmelavr.rst:230 ../../../platforms/atmelavr.rst:235
+#: ../../../platforms/atmelavr.rst:295 ../../../platforms/atmelavr.rst:300
+#: ../../../platforms/atmelavr.rst:325 ../../../platforms/atmelavr.rst:340
+#: ../../../platforms/atmelavr.rst:345 ../../../platforms/atmelavr.rst:350
+#: ../../../platforms/atmelavr.rst:365 ../../../platforms/atmelavr.rst:385
+#: ../../../platforms/atmelavr.rst:445 ../../../platforms/atmelavr.rst:450
+#: ../../../platforms/atmelavr.rst:465 ../../../platforms/atmelavr.rst:470
+#: ../../../platforms/atmelavr.rst:510 ../../../platforms/atmelavr.rst:575
+#: ../../../platforms/atmelavr.rst:580 ../../../platforms/atmelavr.rst:585
+#: ../../../platforms/atmelavr.rst:590 ../../../platforms/atmelavr.rst:635
+#: ../../../platforms/atmelavr.rst:665 ../../../platforms/atmelavr.rst:675
+#: ../../../platforms/atmelavr.rst:685 ../../../platforms/atmelavr.rst:690
+#: ../../../platforms/atmelavr.rst:695 ../../../platforms/atmelavr.rst:700
+#: ../../../platforms/atmelavr.rst:780 ../../../platforms/atmelavr.rst:785
+#: ../../../platforms/atmelavr.rst:810 ../../../platforms/atmelavr.rst:815
+#: ../../../platforms/atmelavr.rst:820 ../../../platforms/atmelavr.rst:845
+#: ../../../platforms/atmelavr.rst:875 ../../../platforms/atmelavr.rst:1059
+#: ../../../platforms/atmelavr.rst:1065 ../../../platforms/atmelavr.rst:1077
+#: ../../../platforms/atmelavr.rst:1083 ../../../platforms/atmelavr.rst:1095
+#: ../../../platforms/atmelavr.rst:1101 ../../../platforms/atmelavr.rst:1212
+#: ../../../platforms/atmelavr.rst:1218 ../../../platforms/atmelavr.rst:1261
+#: ../../../platforms/atmelavr.rst:1279 ../../../platforms/atmelavr.rst:1285
+#: ../../../platforms/atmelavr.rst:1291 ../../../platforms/atmelavr.rst:1309
+#: ../../../platforms/atmelavr.rst:1333 ../../../platforms/atmelavr.rst:1405
+#: ../../../platforms/atmelavr.rst:1411 ../../../platforms/atmelavr.rst:1429
+#: ../../../platforms/atmelavr.rst:1435 ../../../platforms/atmelavr.rst:1612
+#: ../../../platforms/atmelavr.rst:1762 ../../../platforms/atmelavr.rst:1819
+#: ../../../platforms/atmelavr.rst:1838 ../../../platforms/atmelavr.rst:1894
+#: ../../../platforms/atmelavr.rst:2322 ../../../platforms/atmelavr.rst:2422
+#: ../../../platforms/atmelavr.rst:2441 ../../../platforms/atmelavr.rst:2491
+#: ../../../platforms/atmelavr.rst:2510 ../../../platforms/atmelavr.rst:2516
+#: ../../../platforms/atmelavr.rst:2522 ../../../platforms/atmelavr.rst:2683
+#: ../../../platforms/atmelavr.rst:2689 ../../../platforms/atmelavr.rst:2719
+#: ../../../platforms/atmelavr.rst:2725 ../../../platforms/atmelavr.rst:2731
+#: ../../../platforms/atmelavr.rst:2781 ../../../platforms/atmelavr.rst:2800
+msgid "ATMEGA32U4"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:201 ../../../platforms/atmelavr.rst:206
+#: ../../../platforms/atmelavr.rst:211 ../../../platforms/atmelavr.rst:216
+#: ../../../platforms/atmelavr.rst:221 ../../../platforms/atmelavr.rst:226
+#: ../../../platforms/atmelavr.rst:231 ../../../platforms/atmelavr.rst:266
+#: ../../../platforms/atmelavr.rst:336 ../../../platforms/atmelavr.rst:356
+#: ../../../platforms/atmelavr.rst:361 ../../../platforms/atmelavr.rst:366
+#: ../../../platforms/atmelavr.rst:426 ../../../platforms/atmelavr.rst:436
+#: ../../../platforms/atmelavr.rst:511 ../../../platforms/atmelavr.rst:516
+#: ../../../platforms/atmelavr.rst:526 ../../../platforms/atmelavr.rst:531
+#: ../../../platforms/atmelavr.rst:536 ../../../platforms/atmelavr.rst:541
+#: ../../../platforms/atmelavr.rst:546 ../../../platforms/atmelavr.rst:551
+#: ../../../platforms/atmelavr.rst:556 ../../../platforms/atmelavr.rst:561
+#: ../../../platforms/atmelavr.rst:566 ../../../platforms/atmelavr.rst:576
+#: ../../../platforms/atmelavr.rst:586 ../../../platforms/atmelavr.rst:591
+#: ../../../platforms/atmelavr.rst:606 ../../../platforms/atmelavr.rst:621
+#: ../../../platforms/atmelavr.rst:631 ../../../platforms/atmelavr.rst:646
+#: ../../../platforms/atmelavr.rst:656 ../../../platforms/atmelavr.rst:671
+#: ../../../platforms/atmelavr.rst:686 ../../../platforms/atmelavr.rst:701
+#: ../../../platforms/atmelavr.rst:711 ../../../platforms/atmelavr.rst:716
+#: ../../../platforms/atmelavr.rst:721 ../../../platforms/atmelavr.rst:726
+#: ../../../platforms/atmelavr.rst:731 ../../../platforms/atmelavr.rst:741
+#: ../../../platforms/atmelavr.rst:751 ../../../platforms/atmelavr.rst:761
+#: ../../../platforms/atmelavr.rst:776 ../../../platforms/atmelavr.rst:781
+#: ../../../platforms/atmelavr.rst:791 ../../../platforms/atmelavr.rst:801
+#: ../../../platforms/atmelavr.rst:811 ../../../platforms/atmelavr.rst:821
+#: ../../../platforms/atmelavr.rst:831 ../../../platforms/atmelavr.rst:836
+#: ../../../platforms/atmelavr.rst:851 ../../../platforms/atmelavr.rst:856
+#: ../../../platforms/atmelavr.rst:881 ../../../platforms/atmelavr.rst:1060
+#: ../../../platforms/atmelavr.rst:1066 ../../../platforms/atmelavr.rst:1072
+#: ../../../platforms/atmelavr.rst:1078 ../../../platforms/atmelavr.rst:1084
+#: ../../../platforms/atmelavr.rst:1090 ../../../platforms/atmelavr.rst:1096
+#: ../../../platforms/atmelavr.rst:1138 ../../../platforms/atmelavr.rst:1274
+#: ../../../platforms/atmelavr.rst:1298 ../../../platforms/atmelavr.rst:1304
+#: ../../../platforms/atmelavr.rst:1310 ../../../platforms/atmelavr.rst:1382
+#: ../../../platforms/atmelavr.rst:1394 ../../../platforms/atmelavr.rst:1455
+#: ../../../platforms/atmelavr.rst:1461 ../../../platforms/atmelavr.rst:1467
+#: ../../../platforms/atmelavr.rst:1473 ../../../platforms/atmelavr.rst:1479
+#: ../../../platforms/atmelavr.rst:1485 ../../../platforms/atmelavr.rst:1491
+#: ../../../platforms/atmelavr.rst:1497 ../../../platforms/atmelavr.rst:1503
+#: ../../../platforms/atmelavr.rst:1509 ../../../platforms/atmelavr.rst:1515
+#: ../../../platforms/atmelavr.rst:1521 ../../../platforms/atmelavr.rst:1527
+#: ../../../platforms/atmelavr.rst:1533 ../../../platforms/atmelavr.rst:1539
+#: ../../../platforms/atmelavr.rst:1545 ../../../platforms/atmelavr.rst:1551
+#: ../../../platforms/atmelavr.rst:1557 ../../../platforms/atmelavr.rst:1563
+#: ../../../platforms/atmelavr.rst:1569 ../../../platforms/atmelavr.rst:1613
+#: ../../../platforms/atmelavr.rst:1763 ../../../platforms/atmelavr.rst:1782
+#: ../../../platforms/atmelavr.rst:1820 ../../../platforms/atmelavr.rst:1870
+#: ../../../platforms/atmelavr.rst:1895 ../../../platforms/atmelavr.rst:2305
+#: ../../../platforms/atmelavr.rst:2317 ../../../platforms/atmelavr.rst:2335
+#: ../../../platforms/atmelavr.rst:2347 ../../../platforms/atmelavr.rst:2385
+#: ../../../platforms/atmelavr.rst:2467 ../../../platforms/atmelavr.rst:2492
+#: ../../../platforms/atmelavr.rst:2523 ../../../platforms/atmelavr.rst:2561
+#: ../../../platforms/atmelavr.rst:2567 ../../../platforms/atmelavr.rst:2573
+#: ../../../platforms/atmelavr.rst:2579 ../../../platforms/atmelavr.rst:2585
+#: ../../../platforms/atmelavr.rst:2610 ../../../platforms/atmelavr.rst:2622
+#: ../../../platforms/atmelavr.rst:2634 ../../../platforms/atmelavr.rst:2678
+#: ../../../platforms/atmelavr.rst:2684 ../../../platforms/atmelavr.rst:2696
+#: ../../../platforms/atmelavr.rst:2708 ../../../platforms/atmelavr.rst:2720
+#: ../../../platforms/atmelavr.rst:2732 ../../../platforms/atmelavr.rst:2744
+#: ../../../platforms/atmelavr.rst:2763 ../../../platforms/atmelavr.rst:2820
+#: ../../../platforms/atmelavr.rst:2826 ../../../platforms/atmelavr.rst:2908
+msgid "8MHz"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:202 ../../../platforms/atmelavr.rst:207
+#: ../../../platforms/atmelavr.rst:217 ../../../platforms/atmelavr.rst:222
+#: ../../../platforms/atmelavr.rst:232 ../../../platforms/atmelavr.rst:237
+#: ../../../platforms/atmelavr.rst:247 ../../../platforms/atmelavr.rst:252
+#: ../../../platforms/atmelavr.rst:257 ../../../platforms/atmelavr.rst:262
+#: ../../../platforms/atmelavr.rst:297 ../../../platforms/atmelavr.rst:302
+#: ../../../platforms/atmelavr.rst:312 ../../../platforms/atmelavr.rst:327
+#: ../../../platforms/atmelavr.rst:342 ../../../platforms/atmelavr.rst:347
+#: ../../../platforms/atmelavr.rst:352 ../../../platforms/atmelavr.rst:367
+#: ../../../platforms/atmelavr.rst:387 ../../../platforms/atmelavr.rst:397
+#: ../../../platforms/atmelavr.rst:447 ../../../platforms/atmelavr.rst:452
+#: ../../../platforms/atmelavr.rst:467 ../../../platforms/atmelavr.rst:472
+#: ../../../platforms/atmelavr.rst:477 ../../../platforms/atmelavr.rst:512
+#: ../../../platforms/atmelavr.rst:577 ../../../platforms/atmelavr.rst:582
+#: ../../../platforms/atmelavr.rst:587 ../../../platforms/atmelavr.rst:592
+#: ../../../platforms/atmelavr.rst:637 ../../../platforms/atmelavr.rst:667
+#: ../../../platforms/atmelavr.rst:677 ../../../platforms/atmelavr.rst:687
+#: ../../../platforms/atmelavr.rst:692 ../../../platforms/atmelavr.rst:697
+#: ../../../platforms/atmelavr.rst:702 ../../../platforms/atmelavr.rst:782
+#: ../../../platforms/atmelavr.rst:787 ../../../platforms/atmelavr.rst:812
+#: ../../../platforms/atmelavr.rst:817 ../../../platforms/atmelavr.rst:822
+#: ../../../platforms/atmelavr.rst:847 ../../../platforms/atmelavr.rst:877
+#: ../../../platforms/atmelavr.rst:1061 ../../../platforms/atmelavr.rst:1067
+#: ../../../platforms/atmelavr.rst:1079 ../../../platforms/atmelavr.rst:1085
+#: ../../../platforms/atmelavr.rst:1097 ../../../platforms/atmelavr.rst:1103
+#: ../../../platforms/atmelavr.rst:1115 ../../../platforms/atmelavr.rst:1121
+#: ../../../platforms/atmelavr.rst:1127 ../../../platforms/atmelavr.rst:1133
+#: ../../../platforms/atmelavr.rst:1214 ../../../platforms/atmelavr.rst:1220
+#: ../../../platforms/atmelavr.rst:1245 ../../../platforms/atmelavr.rst:1263
+#: ../../../platforms/atmelavr.rst:1281 ../../../platforms/atmelavr.rst:1287
+#: ../../../platforms/atmelavr.rst:1293 ../../../platforms/atmelavr.rst:1311
+#: ../../../platforms/atmelavr.rst:1335 ../../../platforms/atmelavr.rst:1347
+#: ../../../platforms/atmelavr.rst:1407 ../../../platforms/atmelavr.rst:1413
+#: ../../../platforms/atmelavr.rst:1431 ../../../platforms/atmelavr.rst:1437
+#: ../../../platforms/atmelavr.rst:1595 ../../../platforms/atmelavr.rst:1614
+#: ../../../platforms/atmelavr.rst:1764 ../../../platforms/atmelavr.rst:1821
+#: ../../../platforms/atmelavr.rst:1840 ../../../platforms/atmelavr.rst:1896
+#: ../../../platforms/atmelavr.rst:2324 ../../../platforms/atmelavr.rst:2424
+#: ../../../platforms/atmelavr.rst:2443 ../../../platforms/atmelavr.rst:2493
+#: ../../../platforms/atmelavr.rst:2512 ../../../platforms/atmelavr.rst:2518
+#: ../../../platforms/atmelavr.rst:2524 ../../../platforms/atmelavr.rst:2685
+#: ../../../platforms/atmelavr.rst:2691 ../../../platforms/atmelavr.rst:2721
+#: ../../../platforms/atmelavr.rst:2727 ../../../platforms/atmelavr.rst:2733
+#: ../../../platforms/atmelavr.rst:2783 ../../../platforms/atmelavr.rst:2802
+msgid "28KB"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:203 ../../../platforms/atmelavr.rst:208
+#: ../../../platforms/atmelavr.rst:218 ../../../platforms/atmelavr.rst:223
+#: ../../../platforms/atmelavr.rst:233 ../../../platforms/atmelavr.rst:238
+#: ../../../platforms/atmelavr.rst:298 ../../../platforms/atmelavr.rst:303
+#: ../../../platforms/atmelavr.rst:328 ../../../platforms/atmelavr.rst:343
+#: ../../../platforms/atmelavr.rst:348 ../../../platforms/atmelavr.rst:353
+#: ../../../platforms/atmelavr.rst:368 ../../../platforms/atmelavr.rst:388
+#: ../../../platforms/atmelavr.rst:448 ../../../platforms/atmelavr.rst:453
+#: ../../../platforms/atmelavr.rst:468 ../../../platforms/atmelavr.rst:473
+#: ../../../platforms/atmelavr.rst:513 ../../../platforms/atmelavr.rst:578
+#: ../../../platforms/atmelavr.rst:583 ../../../platforms/atmelavr.rst:588
+#: ../../../platforms/atmelavr.rst:593 ../../../platforms/atmelavr.rst:638
+#: ../../../platforms/atmelavr.rst:668 ../../../platforms/atmelavr.rst:678
+#: ../../../platforms/atmelavr.rst:688 ../../../platforms/atmelavr.rst:693
+#: ../../../platforms/atmelavr.rst:698 ../../../platforms/atmelavr.rst:703
+#: ../../../platforms/atmelavr.rst:783 ../../../platforms/atmelavr.rst:788
+#: ../../../platforms/atmelavr.rst:813 ../../../platforms/atmelavr.rst:818
+#: ../../../platforms/atmelavr.rst:823 ../../../platforms/atmelavr.rst:848
+#: ../../../platforms/atmelavr.rst:878 ../../../platforms/atmelavr.rst:1062
+#: ../../../platforms/atmelavr.rst:1068 ../../../platforms/atmelavr.rst:1080
+#: ../../../platforms/atmelavr.rst:1086 ../../../platforms/atmelavr.rst:1098
+#: ../../../platforms/atmelavr.rst:1104 ../../../platforms/atmelavr.rst:1215
+#: ../../../platforms/atmelavr.rst:1221 ../../../platforms/atmelavr.rst:1264
+#: ../../../platforms/atmelavr.rst:1282 ../../../platforms/atmelavr.rst:1288
+#: ../../../platforms/atmelavr.rst:1294 ../../../platforms/atmelavr.rst:1312
+#: ../../../platforms/atmelavr.rst:1336 ../../../platforms/atmelavr.rst:1408
+#: ../../../platforms/atmelavr.rst:1414 ../../../platforms/atmelavr.rst:1432
+#: ../../../platforms/atmelavr.rst:1438 ../../../platforms/atmelavr.rst:1615
+#: ../../../platforms/atmelavr.rst:1765 ../../../platforms/atmelavr.rst:1822
+#: ../../../platforms/atmelavr.rst:1841 ../../../platforms/atmelavr.rst:1897
+#: ../../../platforms/atmelavr.rst:2325 ../../../platforms/atmelavr.rst:2425
+#: ../../../platforms/atmelavr.rst:2444 ../../../platforms/atmelavr.rst:2494
+#: ../../../platforms/atmelavr.rst:2513 ../../../platforms/atmelavr.rst:2519
+#: ../../../platforms/atmelavr.rst:2525 ../../../platforms/atmelavr.rst:2686
+#: ../../../platforms/atmelavr.rst:2692 ../../../platforms/atmelavr.rst:2722
+#: ../../../platforms/atmelavr.rst:2728 ../../../platforms/atmelavr.rst:2734
+#: ../../../platforms/atmelavr.rst:2784 ../../../platforms/atmelavr.rst:2803
+msgid "2.50KB"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:204 ../../../platforms/atmelavr.rst:1063
+msgid ":ref:`board_atmelavr_circuitplay_classic`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:209 ../../../platforms/atmelavr.rst:1069
+msgid ":ref:`board_atmelavr_feather328p`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:212 ../../../platforms/atmelavr.rst:242
+#: ../../../platforms/atmelavr.rst:277 ../../../platforms/atmelavr.rst:282
+#: ../../../platforms/atmelavr.rst:287 ../../../platforms/atmelavr.rst:292
+#: ../../../platforms/atmelavr.rst:332 ../../../platforms/atmelavr.rst:457
+#: ../../../platforms/atmelavr.rst:462 ../../../platforms/atmelavr.rst:502
+#: ../../../platforms/atmelavr.rst:567 ../../../platforms/atmelavr.rst:572
+#: ../../../platforms/atmelavr.rst:602 ../../../platforms/atmelavr.rst:607
+#: ../../../platforms/atmelavr.rst:627 ../../../platforms/atmelavr.rst:632
+#: ../../../platforms/atmelavr.rst:672 ../../../platforms/atmelavr.rst:722
+#: ../../../platforms/atmelavr.rst:767 ../../../platforms/atmelavr.rst:777
+#: ../../../platforms/atmelavr.rst:807 ../../../platforms/atmelavr.rst:827
+#: ../../../platforms/atmelavr.rst:832 ../../../platforms/atmelavr.rst:842
+#: ../../../platforms/atmelavr.rst:912 ../../../platforms/atmelavr.rst:1073
+#: ../../../platforms/atmelavr.rst:1109 ../../../platforms/atmelavr.rst:1164
+#: ../../../platforms/atmelavr.rst:1170 ../../../platforms/atmelavr.rst:1176
+#: ../../../platforms/atmelavr.rst:1195 ../../../platforms/atmelavr.rst:1269
+#: ../../../platforms/atmelavr.rst:1419 ../../../platforms/atmelavr.rst:1425
+#: ../../../platforms/atmelavr.rst:1670 ../../../platforms/atmelavr.rst:1745
+#: ../../../platforms/atmelavr.rst:1865 ../../../platforms/atmelavr.rst:1871
+#: ../../../platforms/atmelavr.rst:2312 ../../../platforms/atmelavr.rst:2318
+#: ../../../platforms/atmelavr.rst:2386 ../../../platforms/atmelavr.rst:2468
+#: ../../../platforms/atmelavr.rst:2474 ../../../platforms/atmelavr.rst:2574
+#: ../../../platforms/atmelavr.rst:2654 ../../../platforms/atmelavr.rst:2679
+#: ../../../platforms/atmelavr.rst:2715 ../../../platforms/atmelavr.rst:2739
+#: ../../../platforms/atmelavr.rst:2745 ../../../platforms/atmelavr.rst:2871
+#: ../../../platforms/atmelavr.rst:2958
+msgid "31.50KB"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:214 ../../../platforms/atmelavr.rst:1075
+msgid ":ref:`board_atmelavr_feather32u4`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:219 ../../../platforms/atmelavr.rst:1081
+msgid ":ref:`board_atmelavr_flora8`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:224 ../../../platforms/atmelavr.rst:1087
+msgid ":ref:`board_atmelavr_gemma`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:225 ../../../platforms/atmelavr.rst:265
+#: ../../../platforms/atmelavr.rst:270 ../../../platforms/atmelavr.rst:505
+#: ../../../platforms/atmelavr.rst:560 ../../../platforms/atmelavr.rst:1089
+#: ../../../platforms/atmelavr.rst:1137 ../../../platforms/atmelavr.rst:1143
+#: ../../../platforms/atmelavr.rst:1550 ../../../platforms/atmelavr.rst:1705
+msgid "ATTINY85"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:229 ../../../platforms/atmelavr.rst:1093
+msgid ":ref:`board_atmelavr_itsybitsy32u4_3V`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:234 ../../../platforms/atmelavr.rst:1099
+msgid ":ref:`board_atmelavr_itsybitsy32u4_5V`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:239 ../../../platforms/atmelavr.rst:1105
+msgid ":ref:`board_atmelavr_metro`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:244 ../../../platforms/atmelavr.rst:1111
+msgid ":ref:`board_atmelavr_protrinket3ftdi`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:246 ../../../platforms/atmelavr.rst:251
+#: ../../../platforms/atmelavr.rst:861 ../../../platforms/atmelavr.rst:1114
+#: ../../../platforms/atmelavr.rst:1120 ../../../platforms/atmelavr.rst:1575
+msgid "12MHz"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:249 ../../../platforms/atmelavr.rst:1117
+msgid ":ref:`board_atmelavr_protrinket3`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:254 ../../../platforms/atmelavr.rst:1123
+msgid ":ref:`board_atmelavr_protrinket5ftdi`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:259 ../../../platforms/atmelavr.rst:1129
+msgid ":ref:`board_atmelavr_protrinket5`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:264 ../../../platforms/atmelavr.rst:1135
+msgid ":ref:`board_atmelavr_trinket3`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:269 ../../../platforms/atmelavr.rst:1141
+msgid ":ref:`board_atmelavr_trinket5`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:274 ../../../platforms/atmelavr.rst:1160
+msgid ":ref:`board_atmelavr_alorium_hinj`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:279 ../../../platforms/atmelavr.rst:1166
+msgid ":ref:`board_atmelavr_alorium_sno`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:284 ../../../platforms/atmelavr.rst:1172
+msgid ":ref:`board_atmelavr_alorium_xlr8`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:289 ../../../platforms/atmelavr.rst:1191
+msgid ":ref:`board_atmelavr_miniwireless`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:294 ../../../platforms/atmelavr.rst:1210
+msgid ":ref:`board_atmelavr_arduboy`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:299 ../../../platforms/atmelavr.rst:1216
+msgid ":ref:`board_atmelavr_arduboy_devkit`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:304 ../../../platforms/atmelavr.rst:1235
+msgid ":ref:`board_atmelavr_btatmega168`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:307 ../../../platforms/atmelavr.rst:317
+#: ../../../platforms/atmelavr.rst:357 ../../../platforms/atmelavr.rst:392
+#: ../../../platforms/atmelavr.rst:402 ../../../platforms/atmelavr.rst:412
+#: ../../../platforms/atmelavr.rst:427 ../../../platforms/atmelavr.rst:432
+#: ../../../platforms/atmelavr.rst:1239 ../../../platforms/atmelavr.rst:1251
+#: ../../../platforms/atmelavr.rst:1299 ../../../platforms/atmelavr.rst:1341
+#: ../../../platforms/atmelavr.rst:1353 ../../../platforms/atmelavr.rst:1365
+#: ../../../platforms/atmelavr.rst:1383 ../../../platforms/atmelavr.rst:1389
+msgid "14KB"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:309 ../../../platforms/atmelavr.rst:1241
+msgid ":ref:`board_atmelavr_btatmega328`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:314 ../../../platforms/atmelavr.rst:1247
+msgid ":ref:`board_atmelavr_diecimilaatmega168`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:319 ../../../platforms/atmelavr.rst:1253
+msgid ":ref:`board_atmelavr_diecimilaatmega328`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:322 ../../../platforms/atmelavr.rst:337
+#: ../../../platforms/atmelavr.rst:362 ../../../platforms/atmelavr.rst:417
+#: ../../../platforms/atmelavr.rst:422 ../../../platforms/atmelavr.rst:437
+#: ../../../platforms/atmelavr.rst:442 ../../../platforms/atmelavr.rst:482
+#: ../../../platforms/atmelavr.rst:662 ../../../platforms/atmelavr.rst:837
+#: ../../../platforms/atmelavr.rst:852 ../../../platforms/atmelavr.rst:857
+#: ../../../platforms/atmelavr.rst:1257 ../../../platforms/atmelavr.rst:1275
+#: ../../../platforms/atmelavr.rst:1305 ../../../platforms/atmelavr.rst:1371
+#: ../../../platforms/atmelavr.rst:1377 ../../../platforms/atmelavr.rst:1395
+#: ../../../platforms/atmelavr.rst:1401 ../../../platforms/atmelavr.rst:1633
+#: ../../../platforms/atmelavr.rst:2367 ../../../platforms/atmelavr.rst:2764
+#: ../../../platforms/atmelavr.rst:2821 ../../../platforms/atmelavr.rst:2827
+msgid "30KB"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:324 ../../../platforms/atmelavr.rst:1259
+msgid ":ref:`board_atmelavr_esplora`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:329 ../../../platforms/atmelavr.rst:1265
+msgid ":ref:`board_atmelavr_ethernet`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:334 ../../../platforms/atmelavr.rst:1271
+msgid ":ref:`board_atmelavr_fio`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:339 ../../../platforms/atmelavr.rst:1277
+msgid ":ref:`board_atmelavr_chiwawa`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:344 ../../../platforms/atmelavr.rst:1283
+msgid ":ref:`board_atmelavr_leonardo`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:349 ../../../platforms/atmelavr.rst:1289
+msgid ":ref:`board_atmelavr_leonardoeth`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:354 ../../../platforms/atmelavr.rst:1295
+msgid ":ref:`board_atmelavr_lilypadatmega168`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:359 ../../../platforms/atmelavr.rst:1301
+msgid ":ref:`board_atmelavr_lilypadatmega328`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:364 ../../../platforms/atmelavr.rst:1307
+msgid ":ref:`board_atmelavr_LilyPadUSB`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:369 ../../../platforms/atmelavr.rst:1313
+msgid ":ref:`board_atmelavr_megaADK`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:372 ../../../platforms/atmelavr.rst:382
+#: ../../../platforms/atmelavr.rst:487 ../../../platforms/atmelavr.rst:492
+#: ../../../platforms/atmelavr.rst:497 ../../../platforms/atmelavr.rst:797
+#: ../../../platforms/atmelavr.rst:1317 ../../../platforms/atmelavr.rst:1329
+#: ../../../platforms/atmelavr.rst:1652 ../../../platforms/atmelavr.rst:1658
+#: ../../../platforms/atmelavr.rst:1664 ../../../platforms/atmelavr.rst:2405
+#: ../../../platforms/atmelavr.rst:2703 ../../../platforms/atmelavr.rst:2890
+msgid "248KB"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:374 ../../../platforms/atmelavr.rst:1319
+msgid ":ref:`board_atmelavr_megaatmega1280`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:377 ../../../platforms/atmelavr.rst:772
+#: ../../../platforms/atmelavr.rst:1323 ../../../platforms/atmelavr.rst:2673
+msgid "124KB"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:379 ../../../platforms/atmelavr.rst:1325
+msgid ":ref:`board_atmelavr_megaatmega2560`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:384 ../../../platforms/atmelavr.rst:1331
+msgid ":ref:`board_atmelavr_micro`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:389 ../../../platforms/atmelavr.rst:1337
+msgid ":ref:`board_atmelavr_miniatmega168`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:394 ../../../platforms/atmelavr.rst:1343
+msgid ":ref:`board_atmelavr_miniatmega328`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:399 ../../../platforms/atmelavr.rst:1349
+msgid ":ref:`board_atmelavr_atmegangatmega168`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:404 ../../../platforms/atmelavr.rst:1355
+msgid ":ref:`board_atmelavr_atmegangatmega8`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:407 ../../../platforms/atmelavr.rst:1359
+msgid "7KB"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:409 ../../../platforms/atmelavr.rst:1361
+msgid ":ref:`board_atmelavr_nanoatmega168`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:414 ../../../platforms/atmelavr.rst:1367
+msgid ":ref:`board_atmelavr_nanoatmega328`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:419 ../../../platforms/atmelavr.rst:1373
+msgid ":ref:`board_atmelavr_nanoatmega328new`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:424 ../../../platforms/atmelavr.rst:1379
+msgid ":ref:`board_atmelavr_pro8MHzatmega168`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:429 ../../../platforms/atmelavr.rst:1385
+msgid ":ref:`board_atmelavr_pro16MHzatmega168`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:434 ../../../platforms/atmelavr.rst:1391
+msgid ":ref:`board_atmelavr_pro8MHzatmega328`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:439 ../../../platforms/atmelavr.rst:1397
+msgid ":ref:`board_atmelavr_pro16MHzatmega328`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:444 ../../../platforms/atmelavr.rst:1403
+msgid ":ref:`board_atmelavr_robotControl`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:449 ../../../platforms/atmelavr.rst:1409
+msgid ":ref:`board_atmelavr_robotMotor`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:454 ../../../platforms/atmelavr.rst:1415
+msgid ":ref:`board_atmelavr_uno`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:459 ../../../platforms/atmelavr.rst:1421
+msgid ":ref:`board_atmelavr_uno_mini`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:464 ../../../platforms/atmelavr.rst:1427
+msgid ":ref:`board_atmelavr_yun`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:469 ../../../platforms/atmelavr.rst:1433
+msgid ":ref:`board_atmelavr_yunmini`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:474 ../../../platforms/atmelavr.rst:1591
+msgid ":ref:`board_atmelavr_zumbt328`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:479 ../../../platforms/atmelavr.rst:1629
+msgid ":ref:`board_atmelavr_raspduino`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:484 ../../../platforms/atmelavr.rst:1648
+msgid ":ref:`board_atmelavr_controllino_maxi`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:489 ../../../platforms/atmelavr.rst:1654
+msgid ":ref:`board_atmelavr_controllino_maxi_automation`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:494 ../../../platforms/atmelavr.rst:1660
+msgid ":ref:`board_atmelavr_controllino_mega`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:499 ../../../platforms/atmelavr.rst:1666
+msgid ":ref:`board_atmelavr_controllino_mini`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:504 ../../../platforms/atmelavr.rst:1703
+msgid ":ref:`board_atmelavr_digispark-tiny`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:507 ../../../platforms/atmelavr.rst:1707
+msgid "5.87KB"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:509 ../../../platforms/atmelavr.rst:1760
+msgid ":ref:`board_atmelavr_engduinov3`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:514 ../../../platforms/atmelavr.rst:1779
+msgid ":ref:`board_atmelavr_mayfly`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:517 ../../../platforms/atmelavr.rst:612
+#: ../../../platforms/atmelavr.rst:642 ../../../platforms/atmelavr.rst:647
+#: ../../../platforms/atmelavr.rst:712 ../../../platforms/atmelavr.rst:717
+#: ../../../platforms/atmelavr.rst:727 ../../../platforms/atmelavr.rst:732
+#: ../../../platforms/atmelavr.rst:737 ../../../platforms/atmelavr.rst:742
+#: ../../../platforms/atmelavr.rst:872 ../../../platforms/atmelavr.rst:1783
+#: ../../../platforms/atmelavr.rst:1877 ../../../platforms/atmelavr.rst:2330
+#: ../../../platforms/atmelavr.rst:2336 ../../../platforms/atmelavr.rst:2562
+#: ../../../platforms/atmelavr.rst:2568 ../../../platforms/atmelavr.rst:2580
+#: ../../../platforms/atmelavr.rst:2586 ../../../platforms/atmelavr.rst:2605
+#: ../../../platforms/atmelavr.rst:2611 ../../../platforms/atmelavr.rst:2852
+msgid "127KB"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:519 ../../../platforms/atmelavr.rst:1798
+msgid ":ref:`board_atmelavr_fysetc_f6_13`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:522 ../../../platforms/atmelavr.rst:682
+#: ../../../platforms/atmelavr.rst:707 ../../../platforms/atmelavr.rst:792
+#: ../../../platforms/atmelavr.rst:802 ../../../platforms/atmelavr.rst:1802
+#: ../../../platforms/atmelavr.rst:2449 ../../../platforms/atmelavr.rst:2543
+#: ../../../platforms/atmelavr.rst:2697 ../../../platforms/atmelavr.rst:2709
+msgid "252KB"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:524 ../../../platforms/atmelavr.rst:1464
+msgid ":ref:`board_atmelavr_attiny2313`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:525 ../../../platforms/atmelavr.rst:1466
+msgid "ATTINY2313"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:528 ../../../platforms/atmelavr.rst:533
+#: ../../../platforms/atmelavr.rst:538 ../../../platforms/atmelavr.rst:1469
+#: ../../../platforms/atmelavr.rst:1475 ../../../platforms/atmelavr.rst:1481
+#: ../../../platforms/atmelavr.rst:1487
+msgid "128B"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:529 ../../../platforms/atmelavr.rst:1470
+msgid ":ref:`board_atmelavr_attiny24`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:530 ../../../platforms/atmelavr.rst:1472
+msgid "ATTINY24"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:534 ../../../platforms/atmelavr.rst:1476
+msgid ":ref:`board_atmelavr_attiny25`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:535 ../../../platforms/atmelavr.rst:1478
+msgid "ATTINY25"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:539 ../../../platforms/atmelavr.rst:1488
+msgid ":ref:`board_atmelavr_attiny4313`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:540 ../../../platforms/atmelavr.rst:1490
+msgid "ATTINY4313"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:543 ../../../platforms/atmelavr.rst:548
+#: ../../../platforms/atmelavr.rst:553 ../../../platforms/atmelavr.rst:1493
+#: ../../../platforms/atmelavr.rst:1499 ../../../platforms/atmelavr.rst:1505
+#: ../../../platforms/atmelavr.rst:1511 ../../../platforms/atmelavr.rst:1517
+#: ../../../platforms/atmelavr.rst:1523 ../../../platforms/atmelavr.rst:1529
+msgid "256B"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:544 ../../../platforms/atmelavr.rst:1500
+msgid ":ref:`board_atmelavr_attiny44`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:545 ../../../platforms/atmelavr.rst:1502
+msgid "ATTINY44"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:549 ../../../platforms/atmelavr.rst:1512
+msgid ":ref:`board_atmelavr_attiny45`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:550 ../../../platforms/atmelavr.rst:1514
+msgid "ATTINY45"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:554 ../../../platforms/atmelavr.rst:1536
+msgid ":ref:`board_atmelavr_attiny84`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:555 ../../../platforms/atmelavr.rst:1538
+msgid "ATTINY84"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:559 ../../../platforms/atmelavr.rst:1548
+msgid ":ref:`board_atmelavr_attiny85`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:564 ../../../platforms/atmelavr.rst:2464
+msgid ":ref:`board_atmelavr_lightblue-bean`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:569 ../../../platforms/atmelavr.rst:2470
+msgid ":ref:`board_atmelavr_lightblue-beanplus`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:574 ../../../platforms/atmelavr.rst:1817
+msgid ":ref:`board_atmelavr_lightup`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:579 ../../../platforms/atmelavr.rst:1836
+msgid ":ref:`board_atmelavr_one`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:584 ../../../platforms/atmelavr.rst:1892
+msgid ":ref:`board_atmelavr_smart7688`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:589 ../../../platforms/atmelavr.rst:1610
+msgid ":ref:`board_atmelavr_lora32u4II`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:594 ../../../platforms/atmelavr.rst:1855
+msgid ":ref:`board_atmelavr_mightyhat`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:597 ../../../platforms/atmelavr.rst:1859
+msgid "31KB"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:599 ../../../platforms/atmelavr.rst:1861
+msgid ":ref:`board_atmelavr_moteino`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:604 ../../../platforms/atmelavr.rst:1867
+msgid ":ref:`board_atmelavr_moteino8mhz`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:609 ../../../platforms/atmelavr.rst:1873
+msgid ":ref:`board_atmelavr_moteinomega`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:614 ../../../platforms/atmelavr.rst:2296
+msgid ":ref:`board_atmelavr_168pa16m`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:617 ../../../platforms/atmelavr.rst:622
+#: ../../../platforms/atmelavr.rst:2300 ../../../platforms/atmelavr.rst:2306
+msgid "15.50KB"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:619 ../../../platforms/atmelavr.rst:2302
+msgid ":ref:`board_atmelavr_168pa8m`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:624 ../../../platforms/atmelavr.rst:2308
+msgid ":ref:`board_atmelavr_328p16m`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:629 ../../../platforms/atmelavr.rst:2314
+msgid ":ref:`board_atmelavr_328p8m`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:634 ../../../platforms/atmelavr.rst:2320
+msgid ":ref:`board_atmelavr_32u416m`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:639 ../../../platforms/atmelavr.rst:2326
+msgid ":ref:`board_atmelavr_1284p16m`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:644 ../../../platforms/atmelavr.rst:2332
+msgid ":ref:`board_atmelavr_1284p8m`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:649 ../../../platforms/atmelavr.rst:2338
+msgid ":ref:`board_atmelavr_644pa16m`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:652 ../../../platforms/atmelavr.rst:657
+#: ../../../platforms/atmelavr.rst:747 ../../../platforms/atmelavr.rst:752
+#: ../../../platforms/atmelavr.rst:757 ../../../platforms/atmelavr.rst:762
+#: ../../../platforms/atmelavr.rst:2342 ../../../platforms/atmelavr.rst:2348
+#: ../../../platforms/atmelavr.rst:2617 ../../../platforms/atmelavr.rst:2623
+#: ../../../platforms/atmelavr.rst:2629 ../../../platforms/atmelavr.rst:2635
+msgid "63KB"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:654 ../../../platforms/atmelavr.rst:2344
+msgid ":ref:`board_atmelavr_644pa8m`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:659 ../../../platforms/atmelavr.rst:2363
+msgid ":ref:`board_atmelavr_emonpi`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:664 ../../../platforms/atmelavr.rst:2439
+msgid ":ref:`board_atmelavr_prusa_mm_control`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:669 ../../../platforms/atmelavr.rst:2382
+msgid ":ref:`board_atmelavr_panStampAVR`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:674 ../../../platforms/atmelavr.rst:2420
+msgid ":ref:`board_atmelavr_a-star32U4`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:679 ../../../platforms/atmelavr.rst:2445
+msgid ":ref:`board_atmelavr_prusa_rambo`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:684 ../../../platforms/atmelavr.rst:2489
+msgid ":ref:`board_atmelavr_quirkbot`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:689 ../../../platforms/atmelavr.rst:2508
+msgid ":ref:`board_atmelavr_blend`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:694 ../../../platforms/atmelavr.rst:2514
+msgid ":ref:`board_atmelavr_blendmicro16`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:699 ../../../platforms/atmelavr.rst:2520
+msgid ":ref:`board_atmelavr_blendmicro8`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:704 ../../../platforms/atmelavr.rst:2539
+msgid ":ref:`board_atmelavr_reprap_rambo`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:709 ../../../platforms/atmelavr.rst:2558
+msgid ":ref:`board_atmelavr_sodaq_galora`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:714 ../../../platforms/atmelavr.rst:2564
+msgid ":ref:`board_atmelavr_sodaq_mbili`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:719 ../../../platforms/atmelavr.rst:2570
+msgid ":ref:`board_atmelavr_sodaq_moja`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:724 ../../../platforms/atmelavr.rst:2576
+msgid ":ref:`board_atmelavr_sodaq_ndogo`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:729 ../../../platforms/atmelavr.rst:2582
+msgid ":ref:`board_atmelavr_sodaq_tatu`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:734 ../../../platforms/atmelavr.rst:2601
+msgid ":ref:`board_atmelavr_sanguino_atmega1284p`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:739 ../../../platforms/atmelavr.rst:2607
+msgid ":ref:`board_atmelavr_sanguino_atmega1284_8m`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:744 ../../../platforms/atmelavr.rst:2613
+msgid ":ref:`board_atmelavr_sanguino_atmega644`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:745 ../../../platforms/atmelavr.rst:750
+#: ../../../platforms/atmelavr.rst:2615 ../../../platforms/atmelavr.rst:2621
+msgid "ATMEGA644"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:749 ../../../platforms/atmelavr.rst:2619
+msgid ":ref:`board_atmelavr_sanguino_atmega644_8m`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:754 ../../../platforms/atmelavr.rst:2625
+msgid ":ref:`board_atmelavr_sanguino_atmega644p`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:759 ../../../platforms/atmelavr.rst:2631
+msgid ":ref:`board_atmelavr_sanguino_atmega644p_8m`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:764 ../../../platforms/atmelavr.rst:2650
+msgid ":ref:`board_atmelavr_seeeduino`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:769 ../../../platforms/atmelavr.rst:2669
+msgid ":ref:`board_atmelavr_sparkfun_satmega128rfa1`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:770 ../../../platforms/atmelavr.rst:2671
+msgid "ATMEGA128RFA1"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:774 ../../../platforms/atmelavr.rst:2675
+msgid ":ref:`board_atmelavr_sparkfun_digitalsandbox`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:779 ../../../platforms/atmelavr.rst:2681
+msgid ":ref:`board_atmelavr_sparkfun_fiov3`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:784 ../../../platforms/atmelavr.rst:2687
+msgid ":ref:`board_atmelavr_sparkfun_makeymakey`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:789 ../../../platforms/atmelavr.rst:2693
+msgid ":ref:`board_atmelavr_sparkfun_megapro8MHz`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:794 ../../../platforms/atmelavr.rst:2699
+msgid ":ref:`board_atmelavr_sparkfun_megapro16MHz`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:799 ../../../platforms/atmelavr.rst:2705
+msgid ":ref:`board_atmelavr_sparkfun_megamini`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:804 ../../../platforms/atmelavr.rst:2711
+msgid ":ref:`board_atmelavr_uview`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:809 ../../../platforms/atmelavr.rst:2717
+msgid ":ref:`board_atmelavr_sparkfun_promicro8`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:814 ../../../platforms/atmelavr.rst:2723
+msgid ":ref:`board_atmelavr_sparkfun_promicro16`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:819 ../../../platforms/atmelavr.rst:2729
+msgid ":ref:`board_atmelavr_sparkfun_qduinomini`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:824 ../../../platforms/atmelavr.rst:2735
+msgid ":ref:`board_atmelavr_sparkfun_redboard`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:829 ../../../platforms/atmelavr.rst:2741
+msgid ":ref:`board_atmelavr_sparkfun_serial7seg`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:834 ../../../platforms/atmelavr.rst:2760
+msgid ":ref:`board_atmelavr_sleepypi`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:839 ../../../platforms/atmelavr.rst:2867
+msgid ":ref:`board_atmelavr_whispernode`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:844 ../../../platforms/atmelavr.rst:2779
+msgid ":ref:`board_atmelavr_the_things_uno`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:849 ../../../platforms/atmelavr.rst:2817
+msgid ":ref:`board_atmelavr_tinyduino`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:854 ../../../platforms/atmelavr.rst:2823
+msgid ":ref:`board_atmelavr_tinylily`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:859 ../../../platforms/atmelavr.rst:1572
+msgid ":ref:`board_atmelavr_usbasp`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:864 ../../../platforms/atmelavr.rst:2842
+msgid ":ref:`board_atmelavr_wildfirev2`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:867 ../../../platforms/atmelavr.rst:2846
+msgid "120.00KB"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:869 ../../../platforms/atmelavr.rst:2848
+msgid ":ref:`board_atmelavr_wildfirev3`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:874 ../../../platforms/atmelavr.rst:2798
+msgid ":ref:`board_atmelavr_ftduino`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:879 ../../../platforms/atmelavr.rst:2905
+msgid ":ref:`board_atmelavr_bob3`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:884 ../../../platforms/atmelavr.rst:2911
+msgid ":ref:`board_atmelavr_nibo2`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:889 ../../../platforms/atmelavr.rst:2917
+msgid ":ref:`board_atmelavr_niboburger`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:891 ../../../platforms/atmelavr.rst:901
+#: ../../../platforms/atmelavr.rst:2920 ../../../platforms/atmelavr.rst:2932
+msgid "15MHz"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:894 ../../../platforms/atmelavr.rst:2923
+msgid ":ref:`board_atmelavr_niboburger_1284`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:896 ../../../platforms/atmelavr.rst:906
+#: ../../../platforms/atmelavr.rst:2926 ../../../platforms/atmelavr.rst:2938
+msgid "20MHz"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:899 ../../../platforms/atmelavr.rst:2929
+msgid ":ref:`board_atmelavr_nibobee`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:904 ../../../platforms/atmelavr.rst:2935
+msgid ":ref:`board_atmelavr_nibobee_1284`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:909 ../../../platforms/atmelavr.rst:2954
+msgid ":ref:`board_atmelavr_ardhat`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:917
+msgid "Stable and upstream versions"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:919
+msgid ""
+"You can switch between `stable releases <https://github.com/platformio/"
+"platform-atmelavr/releases>`__ of Atmel AVR development platform and the "
+"latest upstream version using :ref:`projectconf_env_platform` option in :ref:"
+"`projectconf` as described below."
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:924
+msgid "Stable"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:940
+msgid "Upstream"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:950
+msgid "Packages"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:958
+msgid ""
+"`framework-arduino-avr <https://registry.platformio.org/tools/platformio/"
+"framework-arduino-avr>`__"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:959
+msgid ""
+"The official Arduino Wiring-based Framework for Microchip AVR "
+"microcontrollers"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:961
+msgid ""
+"`framework-arduino-avr-attiny <https://registry.platformio.org/tools/"
+"platformio/framework-arduino-avr-attiny>`__"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:962
+msgid "Arduino Wiring-based Framework (ATtinyCore)"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:964
+msgid ""
+"`framework-arduino-avr-bean <https://registry.platformio.org/tools/"
+"platformio/framework-arduino-avr-bean>`__"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:965
+msgid ""
+"Arduino Wiring-based Framework for Microchip AVR microcontrollers (Bean Core)"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:967
+msgid ""
+"`framework-arduino-avr-core13 <https://registry.platformio.org/tools/"
+"platformio/framework-arduino-avr-core13>`__"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:968
+msgid ""
+"Arduino Wiring-based Framework for Microchip AVR microcontrollers (Core13)"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:970
+msgid ""
+"`framework-arduino-avr-digistump <https://registry.platformio.org/tools/"
+"platformio/framework-arduino-avr-digistump>`__"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:971
+msgid ""
+"Arduino Wiring-based Framework for Microchip AVR microcontrollers (Digistump "
+"Core)"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:973
+msgid ""
+"`framework-arduino-avr-dwenguino <https://registry.platformio.org/tools/"
+"platformio/framework-arduino-avr-dwenguino>`__"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:974
+msgid ""
+"Arduino Wiring-based Framework for Microchip AVR microcontrollers (Dwenguino "
+"Core)"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:976
+msgid ""
+"`framework-arduino-avr-majorcore <https://registry.platformio.org/tools/"
+"platformio/framework-arduino-avr-majorcore>`__"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:977
+msgid ""
+"Arduino Wiring-based Framework for Microchip AVR microcontrollers (MajorCore)"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:979
+msgid ""
+"`framework-arduino-avr-megacore <https://registry.platformio.org/tools/"
+"platformio/framework-arduino-avr-megacore>`__"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:980
+msgid ""
+"Arduino Wiring-based Framework for Microchip AVR microcontrollers (MegaCore)"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:982
+msgid ""
+"`framework-arduino-avr-microcore <https://registry.platformio.org/tools/"
+"platformio/framework-arduino-avr-microcore>`__"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:983
+msgid ""
+"Arduino Wiring-based Framework for Microchip AVR microcontrollers (MicroCore)"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:985
+msgid ""
+"`framework-arduino-avr-mightycore <https://registry.platformio.org/tools/"
+"platformio/framework-arduino-avr-mightycore>`__"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:986
+msgid ""
+"Arduino Wiring-based Framework for Microchip AVR microcontrollers "
+"(MightyCore)"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:988
+msgid ""
+"`framework-arduino-avr-minicore <https://registry.platformio.org/tools/"
+"platformio/framework-arduino-avr-minicore>`__"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:989
+msgid ""
+"Arduino Wiring-based Framework for Microchip AVR microcontrollers (MiniCore)"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:991
+msgid ""
+"`framework-arduino-avr-nicai <https://registry.platformio.org/tools/"
+"platformio/framework-arduino-avr-nicai>`__"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:992
+msgid ""
+"Arduino Wiring-based Framework for Microchip AVR microcontrollers (Nicai "
+"Core)"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:994
+msgid ""
+"`framework-arduino-avr-panstamp <https://registry.platformio.org/tools/"
+"platformio/framework-arduino-avr-panstamp>`__"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:995
+msgid ""
+"Arduino Wiring-based Framework for Microchip AVR microcontrollers (Panstamp "
+"Core)"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:997
+msgid ""
+"`framework-arduino-avr-prusa_rambo <https://registry.platformio.org/tools/"
+"platformio/framework-arduino-avr-prusa_rambo>`__"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:998
+msgid ""
+"Arduino Wiring-based Framework for Microchip AVR microcontrollers (Prusa "
+"Rambo Core)"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:1000
+msgid ""
+"`tool-avrdude <https://registry.platformio.org/tools/platformio/tool-"
+"avrdude>`__"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:1001
+msgid ""
+"AVRDUDE is a utility to download/upload/manipulate the ROM and EEPROM "
+"contents of AVR microcontrollers"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:1003
+msgid ""
+"`tool-micronucleus <https://registry.platformio.org/tools/platformio/tool-"
+"micronucleus>`__"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:1004
+msgid "ATTiny usb bootloader with a strong emphasis on bootloader compactness"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:1006
+msgid ""
+"`tool-simavr <https://registry.platformio.org/tools/platformio/tool-"
+"simavr>`__"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:1007
+msgid "simavr is a lean, mean and hackable AVR simulator"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:1009
+msgid ""
+"`toolchain-atmelavr <https://registry.platformio.org/tools/platformio/"
+"toolchain-atmelavr>`__"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:1010
+msgid "GCC Toolchain for Microchip AVR microcontrollers"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:1013
+msgid "**Linux Users**:"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:1015
+msgid "Install \"udev\" rules :ref:`platformio_udev_rules`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:1016
+msgid ""
+"Raspberry Pi users, please read this article `Enable serial port on "
+"Raspberry Pi <https://hallard.me/enable-serial-port-on-raspberry-pi/>`__."
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:1020
+msgid "**Windows Users:**"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:1022
+msgid ""
+"Please check that you have a correctly installed USB driver from board "
+"manufacturer"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:1027
+msgid "Frameworks"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:1034
+msgid ":ref:`framework_arduino`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:1035
+msgid ""
+"Arduino Wiring-based Framework allows writing cross-platform software to "
+"control devices attached to a wide range of Arduino boards to create all "
+"kinds of creative coding, interactive objects, spaces or physical "
+"experiences."
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:1038
+msgid "Boards"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:1041
+msgid "You can list pre-configured boards by :ref:`cmd_boards` command"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:1042
+msgid ""
+"For more detailed ``board`` information please scroll the tables below by "
+"horizontally."
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:1046
+msgid "Adafruit"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:1052 ../../../platforms/atmelavr.rst:1155
+#: ../../../platforms/atmelavr.rst:1186 ../../../platforms/atmelavr.rst:1205
+#: ../../../platforms/atmelavr.rst:1230 ../../../platforms/atmelavr.rst:1447
+#: ../../../platforms/atmelavr.rst:1586 ../../../platforms/atmelavr.rst:1605
+#: ../../../platforms/atmelavr.rst:1624 ../../../platforms/atmelavr.rst:1643
+#: ../../../platforms/atmelavr.rst:1680 ../../../platforms/atmelavr.rst:1717
+#: ../../../platforms/atmelavr.rst:1736 ../../../platforms/atmelavr.rst:1755
+#: ../../../platforms/atmelavr.rst:1774 ../../../platforms/atmelavr.rst:1793
+#: ../../../platforms/atmelavr.rst:1812 ../../../platforms/atmelavr.rst:1831
+#: ../../../platforms/atmelavr.rst:1850 ../../../platforms/atmelavr.rst:1887
+#: ../../../platforms/atmelavr.rst:1906 ../../../platforms/atmelavr.rst:2291
+#: ../../../platforms/atmelavr.rst:2358 ../../../platforms/atmelavr.rst:2377
+#: ../../../platforms/atmelavr.rst:2396 ../../../platforms/atmelavr.rst:2415
+#: ../../../platforms/atmelavr.rst:2434 ../../../platforms/atmelavr.rst:2459
+#: ../../../platforms/atmelavr.rst:2484 ../../../platforms/atmelavr.rst:2503
+#: ../../../platforms/atmelavr.rst:2534 ../../../platforms/atmelavr.rst:2553
+#: ../../../platforms/atmelavr.rst:2596 ../../../platforms/atmelavr.rst:2645
+#: ../../../platforms/atmelavr.rst:2664 ../../../platforms/atmelavr.rst:2755
+#: ../../../platforms/atmelavr.rst:2774 ../../../platforms/atmelavr.rst:2793
+#: ../../../platforms/atmelavr.rst:2812 ../../../platforms/atmelavr.rst:2837
+#: ../../../platforms/atmelavr.rst:2862 ../../../platforms/atmelavr.rst:2881
+#: ../../../platforms/atmelavr.rst:2900 ../../../platforms/atmelavr.rst:2949
+msgid "Debug"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:1058 ../../../platforms/atmelavr.rst:1064
+#: ../../../platforms/atmelavr.rst:1070 ../../../platforms/atmelavr.rst:1076
+#: ../../../platforms/atmelavr.rst:1082 ../../../platforms/atmelavr.rst:1088
+#: ../../../platforms/atmelavr.rst:1094 ../../../platforms/atmelavr.rst:1100
+#: ../../../platforms/atmelavr.rst:1106 ../../../platforms/atmelavr.rst:1112
+#: ../../../platforms/atmelavr.rst:1118 ../../../platforms/atmelavr.rst:1124
+#: ../../../platforms/atmelavr.rst:1130 ../../../platforms/atmelavr.rst:1136
+#: ../../../platforms/atmelavr.rst:1142 ../../../platforms/atmelavr.rst:1161
+#: ../../../platforms/atmelavr.rst:1167 ../../../platforms/atmelavr.rst:1173
+#: ../../../platforms/atmelavr.rst:1192 ../../../platforms/atmelavr.rst:1211
+#: ../../../platforms/atmelavr.rst:1217 ../../../platforms/atmelavr.rst:1236
+#: ../../../platforms/atmelavr.rst:1242 ../../../platforms/atmelavr.rst:1248
+#: ../../../platforms/atmelavr.rst:1254 ../../../platforms/atmelavr.rst:1260
+#: ../../../platforms/atmelavr.rst:1266 ../../../platforms/atmelavr.rst:1272
+#: ../../../platforms/atmelavr.rst:1278 ../../../platforms/atmelavr.rst:1284
+#: ../../../platforms/atmelavr.rst:1290 ../../../platforms/atmelavr.rst:1296
+#: ../../../platforms/atmelavr.rst:1302 ../../../platforms/atmelavr.rst:1308
+#: ../../../platforms/atmelavr.rst:1314 ../../../platforms/atmelavr.rst:1320
+#: ../../../platforms/atmelavr.rst:1326 ../../../platforms/atmelavr.rst:1332
+#: ../../../platforms/atmelavr.rst:1338 ../../../platforms/atmelavr.rst:1344
+#: ../../../platforms/atmelavr.rst:1350 ../../../platforms/atmelavr.rst:1356
+#: ../../../platforms/atmelavr.rst:1362 ../../../platforms/atmelavr.rst:1368
+#: ../../../platforms/atmelavr.rst:1374 ../../../platforms/atmelavr.rst:1380
+#: ../../../platforms/atmelavr.rst:1386 ../../../platforms/atmelavr.rst:1392
+#: ../../../platforms/atmelavr.rst:1398 ../../../platforms/atmelavr.rst:1404
+#: ../../../platforms/atmelavr.rst:1410 ../../../platforms/atmelavr.rst:1416
+#: ../../../platforms/atmelavr.rst:1422 ../../../platforms/atmelavr.rst:1428
+#: ../../../platforms/atmelavr.rst:1434 ../../../platforms/atmelavr.rst:1465
+#: ../../../platforms/atmelavr.rst:1471 ../../../platforms/atmelavr.rst:1477
+#: ../../../platforms/atmelavr.rst:1489 ../../../platforms/atmelavr.rst:1501
+#: ../../../platforms/atmelavr.rst:1513 ../../../platforms/atmelavr.rst:1537
+#: ../../../platforms/atmelavr.rst:1549 ../../../platforms/atmelavr.rst:1573
+#: ../../../platforms/atmelavr.rst:1592 ../../../platforms/atmelavr.rst:1611
+#: ../../../platforms/atmelavr.rst:1630 ../../../platforms/atmelavr.rst:1649
+#: ../../../platforms/atmelavr.rst:1655 ../../../platforms/atmelavr.rst:1661
+#: ../../../platforms/atmelavr.rst:1667 ../../../platforms/atmelavr.rst:1704
+#: ../../../platforms/atmelavr.rst:1761 ../../../platforms/atmelavr.rst:1780
+#: ../../../platforms/atmelavr.rst:1799 ../../../platforms/atmelavr.rst:1818
+#: ../../../platforms/atmelavr.rst:1837 ../../../platforms/atmelavr.rst:1856
+#: ../../../platforms/atmelavr.rst:1862 ../../../platforms/atmelavr.rst:1868
+#: ../../../platforms/atmelavr.rst:1874 ../../../platforms/atmelavr.rst:1893
+#: ../../../platforms/atmelavr.rst:1930 ../../../platforms/atmelavr.rst:1936
+#: ../../../platforms/atmelavr.rst:1942 ../../../platforms/atmelavr.rst:1948
+#: ../../../platforms/atmelavr.rst:1954 ../../../platforms/atmelavr.rst:1960
+#: ../../../platforms/atmelavr.rst:1978 ../../../platforms/atmelavr.rst:1996
+#: ../../../platforms/atmelavr.rst:2002 ../../../platforms/atmelavr.rst:2026
+#: ../../../platforms/atmelavr.rst:2044 ../../../platforms/atmelavr.rst:2050
+#: ../../../platforms/atmelavr.rst:2056 ../../../platforms/atmelavr.rst:2092
+#: ../../../platforms/atmelavr.rst:2098 ../../../platforms/atmelavr.rst:2134
+#: ../../../platforms/atmelavr.rst:2140 ../../../platforms/atmelavr.rst:2170
+#: ../../../platforms/atmelavr.rst:2224 ../../../platforms/atmelavr.rst:2242
+#: ../../../platforms/atmelavr.rst:2248 ../../../platforms/atmelavr.rst:2260
+#: ../../../platforms/atmelavr.rst:2266 ../../../platforms/atmelavr.rst:2297
+#: ../../../platforms/atmelavr.rst:2303 ../../../platforms/atmelavr.rst:2309
+#: ../../../platforms/atmelavr.rst:2315 ../../../platforms/atmelavr.rst:2321
+#: ../../../platforms/atmelavr.rst:2327 ../../../platforms/atmelavr.rst:2333
+#: ../../../platforms/atmelavr.rst:2339 ../../../platforms/atmelavr.rst:2345
+#: ../../../platforms/atmelavr.rst:2364 ../../../platforms/atmelavr.rst:2383
+#: ../../../platforms/atmelavr.rst:2421 ../../../platforms/atmelavr.rst:2440
+#: ../../../platforms/atmelavr.rst:2446 ../../../platforms/atmelavr.rst:2465
+#: ../../../platforms/atmelavr.rst:2471 ../../../platforms/atmelavr.rst:2490
+#: ../../../platforms/atmelavr.rst:2509 ../../../platforms/atmelavr.rst:2515
+#: ../../../platforms/atmelavr.rst:2521 ../../../platforms/atmelavr.rst:2540
+#: ../../../platforms/atmelavr.rst:2559 ../../../platforms/atmelavr.rst:2565
+#: ../../../platforms/atmelavr.rst:2571 ../../../platforms/atmelavr.rst:2577
+#: ../../../platforms/atmelavr.rst:2583 ../../../platforms/atmelavr.rst:2602
+#: ../../../platforms/atmelavr.rst:2608 ../../../platforms/atmelavr.rst:2614
+#: ../../../platforms/atmelavr.rst:2620 ../../../platforms/atmelavr.rst:2626
+#: ../../../platforms/atmelavr.rst:2632 ../../../platforms/atmelavr.rst:2651
+#: ../../../platforms/atmelavr.rst:2670 ../../../platforms/atmelavr.rst:2676
+#: ../../../platforms/atmelavr.rst:2682 ../../../platforms/atmelavr.rst:2688
+#: ../../../platforms/atmelavr.rst:2694 ../../../platforms/atmelavr.rst:2700
+#: ../../../platforms/atmelavr.rst:2706 ../../../platforms/atmelavr.rst:2712
+#: ../../../platforms/atmelavr.rst:2718 ../../../platforms/atmelavr.rst:2724
+#: ../../../platforms/atmelavr.rst:2730 ../../../platforms/atmelavr.rst:2736
+#: ../../../platforms/atmelavr.rst:2742 ../../../platforms/atmelavr.rst:2761
+#: ../../../platforms/atmelavr.rst:2780 ../../../platforms/atmelavr.rst:2799
+#: ../../../platforms/atmelavr.rst:2818 ../../../platforms/atmelavr.rst:2824
+#: ../../../platforms/atmelavr.rst:2843 ../../../platforms/atmelavr.rst:2849
+#: ../../../platforms/atmelavr.rst:2868 ../../../platforms/atmelavr.rst:2906
+#: ../../../platforms/atmelavr.rst:2912 ../../../platforms/atmelavr.rst:2918
+#: ../../../platforms/atmelavr.rst:2924 ../../../platforms/atmelavr.rst:2930
+#: ../../../platforms/atmelavr.rst:2936 ../../../platforms/atmelavr.rst:2955
+msgid "External"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:1149
+msgid "Alorium Technology"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:1180
+msgid "Anarduino"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:1199
+msgid "Arduboy"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:1224
+msgid "Arduino"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:1441
+msgid "Atmel"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:1452
+msgid ":ref:`board_atmelavr_attiny1634`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:1453 ../../../platforms/atmelavr.rst:1459
+#: ../../../platforms/atmelavr.rst:1483 ../../../platforms/atmelavr.rst:1495
+#: ../../../platforms/atmelavr.rst:1507 ../../../platforms/atmelavr.rst:1519
+#: ../../../platforms/atmelavr.rst:1525 ../../../platforms/atmelavr.rst:1531
+#: ../../../platforms/atmelavr.rst:1543 ../../../platforms/atmelavr.rst:1555
+#: ../../../platforms/atmelavr.rst:1561 ../../../platforms/atmelavr.rst:1567
+#: ../../../platforms/atmelavr.rst:1686 ../../../platforms/atmelavr.rst:1692
+#: ../../../platforms/atmelavr.rst:1698 ../../../platforms/atmelavr.rst:1723
+#: ../../../platforms/atmelavr.rst:1742 ../../../platforms/atmelavr.rst:1912
+#: ../../../platforms/atmelavr.rst:1918 ../../../platforms/atmelavr.rst:1924
+#: ../../../platforms/atmelavr.rst:1966 ../../../platforms/atmelavr.rst:1972
+#: ../../../platforms/atmelavr.rst:1984 ../../../platforms/atmelavr.rst:1990
+#: ../../../platforms/atmelavr.rst:2008 ../../../platforms/atmelavr.rst:2014
+#: ../../../platforms/atmelavr.rst:2020 ../../../platforms/atmelavr.rst:2032
+#: ../../../platforms/atmelavr.rst:2038 ../../../platforms/atmelavr.rst:2062
+#: ../../../platforms/atmelavr.rst:2068 ../../../platforms/atmelavr.rst:2074
+#: ../../../platforms/atmelavr.rst:2080 ../../../platforms/atmelavr.rst:2086
+#: ../../../platforms/atmelavr.rst:2104 ../../../platforms/atmelavr.rst:2110
+#: ../../../platforms/atmelavr.rst:2116 ../../../platforms/atmelavr.rst:2122
+#: ../../../platforms/atmelavr.rst:2128 ../../../platforms/atmelavr.rst:2146
+#: ../../../platforms/atmelavr.rst:2152 ../../../platforms/atmelavr.rst:2158
+#: ../../../platforms/atmelavr.rst:2164 ../../../platforms/atmelavr.rst:2176
+#: ../../../platforms/atmelavr.rst:2182 ../../../platforms/atmelavr.rst:2188
+#: ../../../platforms/atmelavr.rst:2194 ../../../platforms/atmelavr.rst:2200
+#: ../../../platforms/atmelavr.rst:2206 ../../../platforms/atmelavr.rst:2212
+#: ../../../platforms/atmelavr.rst:2218 ../../../platforms/atmelavr.rst:2230
+#: ../../../platforms/atmelavr.rst:2236 ../../../platforms/atmelavr.rst:2254
+#: ../../../platforms/atmelavr.rst:2272 ../../../platforms/atmelavr.rst:2278
+#: ../../../platforms/atmelavr.rst:2402 ../../../platforms/atmelavr.rst:2887
+msgid "No"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:1454
+msgid "ATTINY1634"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:1458
+msgid ":ref:`board_atmelavr_attiny167`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:1460 ../../../platforms/atmelavr.rst:1687
+#: ../../../platforms/atmelavr.rst:1693 ../../../platforms/atmelavr.rst:1699
+msgid "ATTINY167"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:1482
+msgid ":ref:`board_atmelavr_attiny261`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:1484
+msgid "ATTINY261"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:1494
+msgid ":ref:`board_atmelavr_attiny43`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:1496
+msgid "ATTINY43U"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:1506
+msgid ":ref:`board_atmelavr_attiny441`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:1508
+msgid "ATTINY441"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:1518
+msgid ":ref:`board_atmelavr_attiny461`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:1520
+msgid "ATTINY461"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:1524
+msgid ":ref:`board_atmelavr_attiny48`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:1526
+msgid "ATTINY48"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:1530
+msgid ":ref:`board_atmelavr_attiny828`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:1532
+msgid "ATTINY828"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:1542
+msgid ":ref:`board_atmelavr_attiny841`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:1544
+msgid "ATTINY841"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:1554
+msgid ":ref:`board_atmelavr_attiny861`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:1556
+msgid "ATTINY861"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:1560
+msgid ":ref:`board_atmelavr_attiny87`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:1562
+msgid "ATTINY87"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:1566
+msgid ":ref:`board_atmelavr_attiny88`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:1568
+msgid "ATTINY88"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:1580
+msgid "BQ"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:1599
+msgid "BSFrance"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:1618
+msgid "BitWizard"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:1637
+msgid "Controllino"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:1674
+msgid "Digistump"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:1685
+msgid ":ref:`board_atmelavr_digispark-pro`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:1689 ../../../platforms/atmelavr.rst:1695
+#: ../../../platforms/atmelavr.rst:1701
+msgid "14.50KB"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:1691
+msgid ":ref:`board_atmelavr_digispark-pro64`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:1697
+msgid ":ref:`board_atmelavr_digispark-pro32`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:1711
+msgid "Dwengo"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:1722
+msgid ":ref:`board_atmelavr_dwenguino`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:1724
+msgid "AT90USB646"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:1726
+msgid "60KB"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:1730
+msgid "Elektor"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:1741
+msgid ":ref:`board_atmelavr_elektor_uno_r4`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:1743 ../../../platforms/atmelavr.rst:2105
+msgid "ATMEGA328PB"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:1749
+msgid "Engduino"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:1768
+msgid "EnviroDIY"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:1787
+msgid "FYSETC"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:1806
+msgid "LightUp"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:1825
+msgid "Linino"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:1844
+msgid "LowPowerLab"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:1881
+msgid "MediaTek Labs"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:1900
+msgid "Microchip"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:1911
+msgid ":ref:`board_atmelavr_AT90CAN128`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:1913
+msgid "AT90CAN128"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:1917
+msgid ":ref:`board_atmelavr_AT90CAN32`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:1919
+msgid "AT90CAN32"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:1923
+msgid ":ref:`board_atmelavr_AT90CAN64`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:1925
+msgid "AT90CAN64"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:1965
+msgid ":ref:`board_atmelavr_ATmega162`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:1967
+msgid "ATMEGA162"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:1971
+msgid ":ref:`board_atmelavr_ATmega164A`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:1973
+msgid "ATMEGA164A"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:1983
+msgid ":ref:`board_atmelavr_ATmega165`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:1985
+msgid "ATMEGA165A"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:1989
+msgid ":ref:`board_atmelavr_ATmega165P`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:1991
+msgid "ATMEGA165P"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:2007
+msgid ":ref:`board_atmelavr_ATmega168PB`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:2009
+msgid "ATMEGA168PB"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:2013
+msgid ":ref:`board_atmelavr_ATmega169P`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:2015
+msgid "ATMEGA169P"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:2019
+msgid ":ref:`board_atmelavr_ATmega169A`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:2021
+msgid "ATMEGA169A"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:2031
+msgid ":ref:`board_atmelavr_ATmega2561`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:2033
+msgid "ATMEGA2561"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:2037
+msgid ":ref:`board_atmelavr_ATmega32`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:2039
+msgid "ATMEGA32"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:2061
+msgid ":ref:`board_atmelavr_ATmega324PB`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:2063
+msgid "ATMEGA324PB"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:2067
+msgid ":ref:`board_atmelavr_ATmega325`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:2069
+msgid "ATMEGA325"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:2073
+msgid ":ref:`board_atmelavr_ATmega3250`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:2075
+msgid "ATMEGA3250"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:2079
+msgid ":ref:`board_atmelavr_ATmega3250P`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:2081
+msgid "ATMEGA3250P"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:2085
+msgid ":ref:`board_atmelavr_ATmega325P`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:2087
+msgid "ATMEGA325P"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:2103
+msgid ":ref:`board_atmelavr_ATmega328PB`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:2109
+msgid ":ref:`board_atmelavr_ATmega329`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:2111
+msgid "ATMEGA329"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:2115
+msgid ":ref:`board_atmelavr_ATmega3290`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:2117
+msgid "ATMEGA3290"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:2121
+msgid ":ref:`board_atmelavr_ATmega3290P`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:2123
+msgid "ATMEGA3290P"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:2127
+msgid ":ref:`board_atmelavr_ATmega329P`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:2129
+msgid "ATMEGA329P"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:2145
+msgid ":ref:`board_atmelavr_ATmega48PB`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:2147
+msgid "ATMEGA48PB"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:2151
+msgid ":ref:`board_atmelavr_ATmega64`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:2153
+msgid "ATMEGA64"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:2157
+msgid ":ref:`board_atmelavr_ATmega640`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:2159
+msgid "ATMEGA640"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:2163
+msgid ":ref:`board_atmelavr_ATmega644A`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:2165
+msgid "ATMEGA644A"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:2175
+msgid ":ref:`board_atmelavr_ATmega645`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:2177
+msgid "ATMEGA645"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:2181
+msgid ":ref:`board_atmelavr_ATmega6450`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:2183
+msgid "ATMEGA6450"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:2187
+msgid ":ref:`board_atmelavr_ATmega6450P`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:2189
+msgid "ATMEGA6450P"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:2193
+msgid ":ref:`board_atmelavr_ATmega645P`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:2195
+msgid "ATMEGA645P"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:2199
+msgid ":ref:`board_atmelavr_ATmega649`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:2201
+msgid "ATMEGA649"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:2205
+msgid ":ref:`board_atmelavr_ATmega6490`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:2207
+msgid "ATMEGA6490"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:2211
+msgid ":ref:`board_atmelavr_ATmega6490P`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:2213
+msgid "ATMEGA6490P"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:2217
+msgid ":ref:`board_atmelavr_ATmega649P`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:2219
+msgid "ATMEGA649P"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:2229
+msgid ":ref:`board_atmelavr_ATmega8515`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:2231
+msgid "ATMEGA8515"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:2235
+msgid ":ref:`board_atmelavr_ATmega8535`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:2237
+msgid "ATMEGA8535"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:2253
+msgid ":ref:`board_atmelavr_ATmega88PB`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:2255
+msgid "ATMEGA88PB"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:2271
+msgid ":ref:`board_atmelavr_at90pwm216`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:2273
+msgid "AT90PWM216"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:2277
+msgid ":ref:`board_atmelavr_at90pwm316`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:2279
+msgid "AT90PWM316"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:2285
+msgid "Microduino"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:2352
+msgid "OpenEnergyMonitor"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:2371
+msgid "PanStamp"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:2390
+msgid "Pinoccio"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:2401
+msgid ":ref:`board_atmelavr_pinoccio`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:2403 ../../../platforms/atmelavr.rst:2888
+msgid "ATMEGA256RFR2"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:2409
+msgid "Pololu Corporation"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:2428
+msgid "Prusa 3D"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:2453
+msgid "Punch Through"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:2478
+msgid "Quirkbot"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:2497
+msgid "RedBearLab"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:2528
+msgid "RepRap"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:2547
+msgid "SODAQ"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:2590
+msgid "Sanguino"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:2639
+msgid "SeeedStudio"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:2658
+msgid "SparkFun"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:2749
+msgid "SpellFoundry"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:2768
+msgid "The Things Network"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:2787
+msgid "Till Harbaum"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:2806
+msgid "TinyCircuits"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:2831
+msgid "Wicked Device"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:2856
+msgid "Wisen"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:2875
+msgid "makerlab.mx"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:2886
+msgid ":ref:`board_atmelavr_altair`"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:2894
+msgid "nicai-systems"
+msgstr ""
+
+#: ../../../platforms/atmelavr.rst:2943
+msgid "ubIQio"
+msgstr ""

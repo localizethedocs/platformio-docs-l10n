@@ -1,0 +1,46 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present, PlatformIO
+# This file is distributed under the same license as the PlatformIO package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PlatformIO stable\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-24 14:03+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../projectconf/sections/env/options/debug/debug_extra_cmds.rst:15
+msgid "``debug_extra_cmds``"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/debug/debug_extra_cmds.rst:17
+msgid "Type: ``String`` | Multiple: ``Yes``"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/debug/debug_extra_cmds.rst:19
+msgid ""
+"Extra commands that will be passed to back-end debugger after :ref:"
+"`projectconf_debug_init_cmds`. For example, add custom breakpoint and load "
+"``.gdbinit`` from a project directory for GDB:"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/debug/debug_extra_cmds.rst:35
+msgid ""
+"**Initial Project Breakpoints**: Use ``break path/to/file:LINE_NUMBER`` to "
+"define initial breakpoints for debug environment. Multiple breakpoints are "
+"allowed."
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/debug/debug_extra_cmds.rst:39
+msgid ""
+"To save session breakpoints, please use ``save breakpoints [filename]`` "
+"command in Debug Console. For example, ``save breakpoints .gdbinit``. Later, "
+"this file could be loaded via ``source [filename]`` command. See above."
+msgstr ""

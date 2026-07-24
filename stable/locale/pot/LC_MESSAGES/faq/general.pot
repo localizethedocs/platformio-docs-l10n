@@ -1,0 +1,61 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present, PlatformIO
+# This file is distributed under the same license as the PlatformIO package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PlatformIO stable\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-24 14:03+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../faq/general.rst:13
+msgid "General"
+msgstr ""
+
+#: ../../../faq/general.rst:16
+msgid "What is PlatformIO?"
+msgstr ""
+
+#: ../../../faq/general.rst:18
+msgid "Please refer to :ref:`what_is_pio`"
+msgstr ""
+
+#: ../../../faq/general.rst:21
+msgid "What is ``.pio`` directory"
+msgstr ""
+
+#: ../../../faq/general.rst:23
+msgid "Please refer to :ref:`projectconf_pio_workspace_dir`."
+msgstr ""
+
+#: ../../../faq/general.rst:26
+msgid "Command completion in Terminal"
+msgstr ""
+
+#: ../../../faq/general.rst:28
+msgid "Please refer to :ref:`cmd_system_completion`."
+msgstr ""
+
+#: ../../../faq/general.rst:31
+msgid "99-platformio-udev.rules"
+msgstr ""
+
+#: ../../../faq/general.rst:33
+msgid "Please refer to :ref:`platformio_udev_rules`."
+msgstr ""
+
+#: ../../../faq/general.rst:36
+msgid "Multiple PlatformIO Cores in a system"
+msgstr ""
+
+#: ../../../faq/general.rst:38
+msgid "Please refer to :ref:`multiple_pio_cores_issue`."
+msgstr ""
