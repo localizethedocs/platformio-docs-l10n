@@ -1,0 +1,56 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present, PlatformIO
+# This file is distributed under the same license as the PlatformIO package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PlatformIO stable\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-24 14:03+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../projectconf/sections/env/options/library/lib_extra_dirs.rst:15
+msgid "``lib_extra_dirs``"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/library/lib_extra_dirs.rst:19
+msgid ""
+"The ``lib_extra_dirs`` option has been deprecated and will be removed in the "
+"next major release."
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/library/lib_extra_dirs.rst:22
+msgid ""
+"If you need to use an external local library that is not part of the "
+"project, please utilize the :ref:`cmd_pkg_install_local_folder` and "
+"\"Symbolic Link\" features."
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/library/lib_extra_dirs.rst:34
+msgid "Type: ``DirPath`` | Multiple: ``Yes``"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/library/lib_extra_dirs.rst:36
+msgid ""
+"A list with extra directories/storages where :ref:`ldf` will look for "
+"dependencies."
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/library/lib_extra_dirs.rst:40
+msgid ""
+"This is a not direct path to a library with source code. It should be a path "
+"to storage that contains libraries grouped by folders. For example, ``D:"
+"\\PlatformIO\\extra\\libraries`` but not ``D:"
+"\\PlatformIO\\extra\\libraries\\FooLibrary``."
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/library/lib_extra_dirs.rst:44
+msgid "Example:"
+msgstr ""

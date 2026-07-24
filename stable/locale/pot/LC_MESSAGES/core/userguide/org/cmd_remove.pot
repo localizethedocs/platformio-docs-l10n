@@ -1,0 +1,63 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present, PlatformIO
+# This file is distributed under the same license as the PlatformIO package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PlatformIO stable\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-24 14:03+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../core/userguide/org/cmd_remove.rst:15
+msgid "pio org remove"
+msgstr ""
+
+#: ../../../core/userguide/org/cmd_remove.rst:17
+msgid "Contents"
+msgstr ""
+
+#: ../../../core/userguide/org/cmd_remove.rst:20
+msgid "Usage"
+msgstr ""
+
+#: ../../../core/userguide/org/cmd_remove.rst:27
+msgid "Description"
+msgstr ""
+
+#: ../../../core/userguide/org/cmd_remove.rst:29
+msgid "Remove a user from an organization."
+msgstr ""
+
+#: ../../../core/userguide/org/cmd_remove.rst:31
+msgid ""
+"If you need to destroy an existing organization, please use :ref:"
+"`cmd_org_destroy` command."
+msgstr ""
+
+#: ../../../core/userguide/org/cmd_remove.rst:34
+msgid "Examples"
+msgstr ""
+
+#: ../../../core/userguide/org/cmd_remove.rst:36
+msgid "Remove Bob from \"platformio\" organization:"
+msgstr ""
+
+#: ../../../core/userguide/org/cmd_remove.rst:44
+msgid "See Also"
+msgstr ""
+
+#: ../../../core/userguide/org/cmd_remove.rst:46
+msgid ":ref:`cmd_org_add`"
+msgstr ""
+
+#: ../../../core/userguide/org/cmd_remove.rst:47
+msgid ":ref:`cmd_org_list`"
+msgstr ""

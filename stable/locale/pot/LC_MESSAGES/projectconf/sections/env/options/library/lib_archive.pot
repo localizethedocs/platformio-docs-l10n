@@ -1,0 +1,50 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present, PlatformIO
+# This file is distributed under the same license as the PlatformIO package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PlatformIO stable\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-24 14:03+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../projectconf/sections/env/options/library/lib_archive.rst:15
+msgid "``lib_archive``"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/library/lib_archive.rst:17
+msgid "Type: ``Bool (yes or no)`` | Multiple: ``No`` | Default: ``yes``"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/library/lib_archive.rst:19
+msgid ""
+"Create an archive (``*.a``, static library) from the object files and link "
+"it into a firmware (program). This is default behavior of PlatformIO Build "
+"System (``lib_archive = yes``)."
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/library/lib_archive.rst:23
+msgid ""
+"Setting ``lib_archive = no`` will instruct PlatformIO Build System to link "
+"object files directly (in-line). This could be useful if you need to "
+"override ``weak`` symbols defined in framework or other libraries."
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/library/lib_archive.rst:27
+msgid ""
+"You can disable library archiving per a custom library using :ref:"
+"`manifest_library_json_build_libArchive` field in :ref:`library_json` "
+"manifest."
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/library/lib_archive.rst:30
+msgid "Example:"
+msgstr ""

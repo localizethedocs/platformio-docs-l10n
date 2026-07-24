@@ -1,0 +1,2213 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present, PlatformIO
+# This file is distributed under the same license as the PlatformIO package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PlatformIO stable\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-24 14:03+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:15
+msgid "oddWires IOT-Bus JTAG"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:20
+msgid ""
+"This IoT-Bus module provides JTAG debugging for the :ref:"
+"`board_espressif32_iotbusio` and :ref:`board_espressif32_iotbusproteus` "
+"boards (can be used with other boards too, see wiring connections below). "
+"The board uses the FT232H to provide a USB controller with JTAG support. "
+"Both debugging and flashing is possible using this port. Official reference "
+"can be found `here <http://www.oddwires.com/iot-bus-esp32-jtag/?"
+"utm_source=platformio&utm_medium=docs>`__."
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:28
+msgid "Contents"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:31
+msgid "Configuration"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:33
+msgid ""
+"You can configure debugging tool using :ref:`projectconf_debug_tool` option "
+"in :ref:`projectconf`:"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:43
+msgid ""
+"If you would like to use this tool for firmware uploading, please change "
+"upload protocol:"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:54
+msgid "More options:"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:56
+msgid ":ref:`projectconf_section_env_debug`"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:57
+msgid ":ref:`projectconf_section_env_upload`"
+msgstr ""
+
+#: ../../../plus/debug-tools/_common_jtag_drivers.rst:13
+msgid "Drivers"
+msgstr ""
+
+#: ../../../plus/debug-tools/_common_jtag_drivers.rst:0
+msgid "Windows"
+msgstr ""
+
+#: ../../../plus/debug-tools/_common_jtag_drivers.rst:16
+msgid ""
+"`Step-by-step guide: Drivers, Zadig, Wiring <https://community.platformio."
+"org/t/esp32-pio-unified-debugger/4541/20>`_"
+msgstr ""
+
+#: ../../../plus/debug-tools/_common_jtag_drivers.rst:17
+msgid ""
+"`Video tutorial <https://www.hackster.io/brian-lough/use-the-platformio-"
+"debugger-on-the-esp32-using-an-esp-prog-f633b6>`_"
+msgstr ""
+
+#: ../../../plus/debug-tools/_common_jtag_drivers.rst:0
+msgid "Mac"
+msgstr ""
+
+#: ../../../plus/debug-tools/_common_jtag_drivers.rst:20
+msgid ""
+"macOS contains default FTDIUSBSerialDriver driver which conflicts with debug "
+"tools which are based on this chip. FTDI Chip company recommends removing "
+"this default driver from a system. Everything should work after system "
+"rebooting. See detailed instruction in official application note (Page 16, "
+"Section 4: Uninstalling FTDI Drivers on OS X) `AN134: FTDI Drivers "
+"Installation guide for MAC OS X <http://www.ftdichip.com/Support/Documents/"
+"AppNotes/AN_134_FTDI_Drivers_Installation_Guide_for_MAC_OSX.pdf>`__"
+msgstr ""
+
+#: ../../../plus/debug-tools/_common_jtag_drivers.rst:0
+msgid "Linux"
+msgstr ""
+
+#: ../../../plus/debug-tools/_common_jtag_drivers.rst:28
+msgid ""
+"Please install \"udev\" rules :ref:`platformio_udev_rules`. If you already "
+"installed them before, please check that your rules are up-to-date or repeat "
+"steps."
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:62
+msgid "Wiring Connections"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:67
+msgid "IOT-Bus JTAG Pin"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:68
+msgid "Board JTAG Pin"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:69
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:100
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:111
+msgid "Description"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:70
+msgid "3V3"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:71
+msgid "VCC"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:72
+msgid "Positive Supply Voltage — Power supply for JTAG interface drivers"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:73
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:74
+msgid "GND"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:75
+msgid "Digital ground"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:76
+msgid "12"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:77
+msgid "TDI"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:78
+msgid "Test Data In pin"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:79
+msgid "14"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:80
+msgid "TMS"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:81
+msgid "Test Mode State pin"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:82
+msgid "13"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:83
+msgid "TCK"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:84
+msgid "JTAG Return Test Clock"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:85
+msgid "15"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:86
+msgid "TDO"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:87
+msgid "Test Data Out pin"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:88
+msgid "EN"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:89
+msgid "RESET"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:90
+msgid ""
+"Connect this pin to the (active low) reset input of the target CPU (EN for "
+"ESP32)"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:95
+msgid "Platforms"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:99
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:110
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:129
+msgid "Name"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:102
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:137
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:144
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:151
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:158
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:165
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:172
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:179
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:186
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:193
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:200
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:207
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:214
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:221
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:228
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:235
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:242
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:249
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:256
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:263
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:270
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:277
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:284
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:291
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:298
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:305
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:312
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:319
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:326
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:333
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:340
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:347
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:354
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:361
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:368
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:375
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:382
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:389
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:396
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:403
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:410
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:417
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:424
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:431
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:438
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:445
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:452
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:459
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:466
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:473
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:480
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:487
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:494
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:501
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:508
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:515
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:522
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:529
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:536
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:543
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:550
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:557
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:564
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:571
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:578
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:585
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:592
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:599
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:606
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:613
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:620
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:627
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:634
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:641
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:648
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:655
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:662
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:669
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:676
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:683
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:690
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:697
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:704
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:711
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:718
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:725
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:732
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:739
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:746
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:753
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:760
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:767
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:774
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:781
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:788
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:795
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:802
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:809
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:816
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:823
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:830
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:837
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:844
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:851
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:858
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:865
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:872
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:879
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:886
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:893
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:900
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:907
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:914
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:921
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:928
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:935
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:942
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:949
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:956
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:963
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:970
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:977
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:984
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:991
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:998
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1005
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1012
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1019
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1026
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1033
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1040
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1047
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1054
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1061
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1068
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1075
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1082
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1089
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1096
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1103
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1110
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1117
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1124
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1131
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1138
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1145
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1152
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1159
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1166
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1173
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1180
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1187
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1194
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1201
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1208
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1215
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1222
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1229
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1236
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1243
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1250
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1257
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1264
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1271
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1278
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1285
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1292
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1299
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1306
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1313
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1320
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1327
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1334
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1341
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1348
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1355
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1362
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1369
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1376
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1383
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1390
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1397
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1404
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1411
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1418
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1425
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1432
+msgid ":ref:`platform_espressif32`"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:103
+msgid ""
+"ESP32 is a series of low-cost, low-power system on a chip microcontrollers "
+"with integrated Wi-Fi and Bluetooth. ESP32 integrates an antenna switch, RF "
+"balun, power amplifier, low-noise receive amplifier, filters, and power "
+"management modules."
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:106
+msgid "Frameworks"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:113
+msgid ":ref:`framework_arduino`"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:114
+msgid ""
+"Arduino Wiring-based Framework allows writing cross-platform software to "
+"control devices attached to a wide range of Arduino boards to create all "
+"kinds of creative coding, interactive objects, spaces or physical "
+"experiences."
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:116
+msgid ":ref:`framework_espidf`"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:117
+msgid ""
+"Espressif IoT Development Framework. Official development framework for "
+"ESP32 chip"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:120
+msgid "Boards"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:123
+msgid ""
+"For more detailed ``board`` information please scroll tables below by "
+"horizontal."
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:130
+msgid "Platform"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:131
+msgid "Debug"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:132
+msgid "MCU"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:133
+msgid "Frequency"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:134
+msgid "Flash"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:135
+msgid "RAM"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:136
+msgid ":ref:`board_espressif32_4d_systems_esp32s3_gen4_r8n16`"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:138
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:145
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:152
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:159
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:166
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:173
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:180
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:187
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:194
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:201
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:208
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:215
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:222
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:229
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:236
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:243
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:250
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:257
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:264
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:271
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:278
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:285
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:292
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:299
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:306
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:313
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:320
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:327
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:334
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:341
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:348
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:355
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:362
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:369
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:376
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:383
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:390
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:397
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:404
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:411
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:418
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:425
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:432
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:439
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:446
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:453
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:460
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:467
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:474
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:481
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:488
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:495
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:502
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:509
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:516
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:523
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:530
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:537
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:544
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:551
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:558
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:565
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:572
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:586
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:593
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:600
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:607
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:621
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:628
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:656
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:663
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:670
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:677
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:691
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:698
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:705
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:712
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:719
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:726
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:733
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:740
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:747
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:754
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:761
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:768
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:775
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:782
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:789
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:796
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:803
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:817
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:824
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:831
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:838
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:845
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:852
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:859
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:866
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:873
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:880
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:887
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:894
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:901
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:908
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:915
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:922
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:929
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:936
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:943
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:950
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:964
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:971
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:978
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:985
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:992
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:999
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1006
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1013
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1020
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1027
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1034
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1041
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1048
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1055
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1062
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1069
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1076
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1083
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1090
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1097
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1104
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1111
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1118
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1125
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1132
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1139
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1146
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1153
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1160
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1167
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1174
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1181
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1188
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1195
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1202
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1209
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1216
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1223
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1230
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1237
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1244
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1251
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1258
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1265
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1272
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1279
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1286
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1293
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1300
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1307
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1314
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1321
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1328
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1335
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1342
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1349
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1356
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1363
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1370
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1377
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1384
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1391
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1398
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1405
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1412
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1419
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1426
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1433
+msgid "External"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:139
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:209
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:216
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:223
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:230
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:258
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:272
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:300
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:307
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:314
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:321
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:349
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:356
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:377
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:384
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:391
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:412
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:440
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:447
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:482
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:538
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:545
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:629
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:636
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:643
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:650
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:685
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:713
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:734
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:769
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:783
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:790
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:797
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:811
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:818
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:825
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:832
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:860
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:867
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:874
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:881
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:958
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:979
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1000
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1014
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1035
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1042
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1098
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1189
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1196
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1203
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1224
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1301
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1308
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1315
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1427
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1434
+msgid "ESP32S3"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:140
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:147
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:154
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:161
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:168
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:175
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:182
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:189
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:196
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:203
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:210
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:217
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:224
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:231
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:238
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:245
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:252
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:259
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:266
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:273
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:280
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:294
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:301
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:308
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:315
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:322
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:336
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:350
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:357
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:364
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:371
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:378
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:385
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:392
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:406
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:413
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:420
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:434
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:441
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:448
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:455
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:462
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:469
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:476
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:483
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:497
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:504
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:511
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:518
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:525
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:532
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:539
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:546
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:553
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:560
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:567
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:574
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:581
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:588
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:616
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:623
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:630
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:637
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:644
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:651
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:658
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:665
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:672
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:679
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:686
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:693
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:700
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:707
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:714
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:721
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:728
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:735
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:742
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:749
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:756
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:763
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:770
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:777
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:784
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:791
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:798
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:805
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:812
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:819
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:826
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:833
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:840
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:847
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:854
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:861
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:868
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:875
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:882
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:889
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:896
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:903
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:910
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:917
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:924
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:931
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:938
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:952
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:959
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:966
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:973
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:980
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1001
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1008
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1015
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1022
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1036
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1043
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1050
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1057
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1064
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1071
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1078
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1085
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1092
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1099
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1106
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1113
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1120
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1127
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1141
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1148
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1155
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1162
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1169
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1176
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1183
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1190
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1197
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1204
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1211
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1218
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1225
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1246
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1253
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1260
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1274
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1281
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1288
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1295
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1302
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1309
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1316
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1323
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1330
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1344
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1351
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1358
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1379
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1386
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1393
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1400
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1407
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1414
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1421
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1428
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1435
+msgid "240MHz"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:141
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:274
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:316
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:351
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:379
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:449
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:575
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:631
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:659
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:785
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:792
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:827
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1065
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1072
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1177
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1191
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1205
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1303
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1317
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1380
+msgid "16MB"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:142
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:149
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:156
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:170
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:177
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:184
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:191
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:198
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:205
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:212
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:219
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:226
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:233
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:240
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:247
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:254
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:261
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:268
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:275
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:282
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:289
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:296
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:303
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:310
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:317
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:324
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:331
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:338
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:345
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:352
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:359
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:366
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:373
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:380
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:387
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:394
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:401
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:408
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:415
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:422
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:429
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:436
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:443
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:450
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:457
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:464
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:471
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:478
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:485
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:492
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:499
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:506
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:513
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:520
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:527
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:534
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:541
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:548
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:555
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:562
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:569
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:576
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:583
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:590
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:597
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:604
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:611
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:618
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:625
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:632
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:639
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:646
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:653
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:667
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:674
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:681
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:688
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:695
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:702
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:709
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:716
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:723
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:730
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:737
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:744
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:751
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:758
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:765
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:772
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:779
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:786
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:793
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:800
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:807
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:814
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:821
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:828
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:835
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:842
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:849
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:856
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:863
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:870
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:877
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:884
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:891
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:898
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:905
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:912
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:919
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:926
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:947
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:954
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:961
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:968
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:975
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:982
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:989
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:996
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1003
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1010
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1017
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1024
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1031
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1038
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1045
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1052
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1059
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1066
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1073
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1080
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1087
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1094
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1101
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1108
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1115
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1122
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1136
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1143
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1157
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1164
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1171
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1178
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1185
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1192
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1199
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1206
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1213
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1220
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1227
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1234
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1241
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1248
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1255
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1262
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1269
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1276
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1283
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1290
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1297
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1304
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1311
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1318
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1325
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1332
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1346
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1353
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1360
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1367
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1374
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1381
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1388
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1395
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1402
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1409
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1416
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1423
+msgid "320KB"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:143
+msgid ":ref:`board_espressif32_esp32cam`"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:146
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:153
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:160
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:167
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:181
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:244
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:279
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:363
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:370
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:405
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:419
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:433
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:454
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:461
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:468
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:475
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:517
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:524
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:531
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:552
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:559
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:566
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:580
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:587
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:657
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:692
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:699
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:706
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:720
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:727
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:741
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:748
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:755
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:762
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:776
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:804
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:839
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:846
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:853
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:888
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:895
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:902
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:909
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:916
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:923
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:930
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:937
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:951
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:965
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:972
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1007
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1049
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1056
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1063
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1070
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1084
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1091
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1105
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1112
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1119
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1126
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1140
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1147
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1154
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1161
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1168
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1245
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1252
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1259
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1273
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1280
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1322
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1329
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1343
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1350
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1357
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1385
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1392
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1406
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1413
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1420
+msgid "ESP32"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:148
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:155
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:162
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:169
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:176
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:190
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:197
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:204
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:211
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:225
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:232
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:239
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:253
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:267
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:288
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:295
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:302
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:323
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:330
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:337
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:344
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:365
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:372
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:400
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:407
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:421
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:428
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:435
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:442
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:456
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:463
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:470
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:477
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:484
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:491
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:498
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:505
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:512
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:519
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:526
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:533
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:554
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:561
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:568
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:582
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:589
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:596
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:603
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:610
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:617
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:624
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:666
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:673
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:680
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:694
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:701
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:708
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:722
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:750
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:757
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:764
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:771
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:778
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:799
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:806
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:813
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:841
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:848
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:855
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:862
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:876
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:883
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:890
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:897
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:904
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:911
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:918
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:925
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:932
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:939
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:946
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:953
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:967
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:974
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:981
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:988
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:995
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1009
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1023
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1030
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1051
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1058
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1079
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1086
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1107
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1114
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1121
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1128
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1135
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1142
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1149
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1156
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1163
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1170
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1184
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1212
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1219
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1233
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1240
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1247
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1254
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1261
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1268
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1275
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1282
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1289
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1296
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1310
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1324
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1331
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1345
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1352
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1359
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1366
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1373
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1387
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1394
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1401
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1408
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1415
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1422
+msgid "4MB"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:150
+msgid ":ref:`board_espressif32_alksesp32`"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:157
+msgid ":ref:`board_espressif32_az-delivery-devkit-v4`"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:163
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:660
+msgid "520KB"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:164
+msgid ":ref:`board_espressif32_featheresp32`"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:171
+msgid ":ref:`board_espressif32_featheresp32-s2`"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:174
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:188
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:195
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:202
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:237
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:251
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:265
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:293
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:335
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:496
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:503
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:510
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:573
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:615
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:622
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:664
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:671
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:678
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1021
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1077
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1175
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1182
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1210
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1217
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1287
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1294
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1378
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1399
+msgid "ESP32S2"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:178
+msgid ":ref:`board_espressif32_adafruit_feather_esp32_v2`"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:183
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:218
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:246
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:260
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:281
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:309
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:358
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:386
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:393
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:414
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:540
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:547
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:638
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:645
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:652
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:687
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:715
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:729
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:736
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:743
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:820
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:834
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:869
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:960
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1002
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1016
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1037
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1044
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1093
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1100
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1198
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1226
+msgid "8MB"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:185
+msgid ":ref:`board_espressif32_adafruit_feather_esp32s2`"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:192
+msgid ":ref:`board_espressif32_adafruit_feather_esp32s2_reversetft`"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:199
+msgid ":ref:`board_espressif32_adafruit_feather_esp32s2_tft`"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:206
+msgid ":ref:`board_espressif32_adafruit_feather_esp32s3`"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:213
+msgid ":ref:`board_espressif32_adafruit_feather_esp32s3_nopsram`"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:220
+msgid ":ref:`board_espressif32_adafruit_feather_esp32s3_reversetft`"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:227
+msgid ":ref:`board_espressif32_adafruit_feather_esp32s3_tft`"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:234
+msgid ":ref:`board_espressif32_adafruit_funhouse_esp32s2`"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:241
+msgid ":ref:`board_espressif32_adafruit_itsybitsy_esp32`"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:248
+msgid ":ref:`board_espressif32_adafruit_magtag29_esp32s2`"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:255
+msgid ":ref:`board_espressif32_adafruit_matrixportal_esp32s3`"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:262
+msgid ":ref:`board_espressif32_adafruit_metro_esp32s2`"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:269
+msgid ":ref:`board_espressif32_adafruit_metro_esp32s3`"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:276
+msgid ":ref:`board_espressif32_adafruit_qtpy_esp32`"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:283
+msgid ":ref:`board_espressif32_adafruit_qtpy_esp32c3`"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:286
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:328
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:342
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:398
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:426
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:489
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:594
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:601
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:944
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:986
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1028
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1133
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1231
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1238
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1266
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1336
+msgid "ESP32C3"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:287
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:329
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:343
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:399
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:427
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:490
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:595
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:602
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:609
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:945
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:987
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:994
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1029
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1134
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1232
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1239
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1267
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1337
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1365
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1372
+msgid "160MHz"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:290
+msgid ":ref:`board_espressif32_adafruit_qtpy_esp32s2`"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:297
+msgid ":ref:`board_espressif32_adafruit_qtpy_esp32s3_n4r2`"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:304
+msgid ":ref:`board_espressif32_adafruit_qtpy_esp32s3_nopsram`"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:311
+msgid ":ref:`board_espressif32_adafruit_qualia_s3_rgb666`"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:318
+msgid ":ref:`board_espressif32_adafruit_camera_esp32s3`"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:325
+msgid ":ref:`board_espressif32_esp32-c3-m1i-kit`"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:332
+msgid ":ref:`board_espressif32_nodemcu-32s2`"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:339
+msgid ":ref:`board_espressif32_airm2m_core_esp32c3`"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:346
+msgid ":ref:`board_espressif32_arduino_nano_esp32`"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:353
+msgid ":ref:`board_espressif32_atd147_s3`"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:360
+msgid ":ref:`board_espressif32_ioxesp32`"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:367
+msgid ":ref:`board_espressif32_ioxesp32ps`"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:374
+msgid ":ref:`board_espressif32_aventen_s3_sync`"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:381
+msgid ":ref:`board_espressif32_bpi_leaf_s3`"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:388
+msgid ":ref:`board_espressif32_wifiduino32s3`"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:395
+msgid ":ref:`board_espressif32_wifiduino32c3`"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:402
+msgid ":ref:`board_espressif32_connaxio_espoir`"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:409
+msgid ":ref:`board_espressif32_cytron_maker_feather_aiot_s3`"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:416
+msgid ":ref:`board_espressif32_d-duino-32`"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:423
+msgid ":ref:`board_espressif32_dfrobot_beetle_esp32c3`"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:430
+msgid ":ref:`board_espressif32_dfrobot_firebeetle2_esp32e`"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:437
+msgid ":ref:`board_espressif32_dfrobot_firebeetle2_esp32s3`"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:444
+msgid ":ref:`board_espressif32_dfrobot_romeo_esp32s3`"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:451
+msgid ":ref:`board_espressif32_esp32doit-devkit-v1`"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:458
+msgid ":ref:`board_espressif32_esp32doit-espduino`"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:465
+msgid ":ref:`board_espressif32_deneyapkart`"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:472
+msgid ":ref:`board_espressif32_deneyapkart1A`"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:479
+msgid ":ref:`board_espressif32_deneyapkart1Av2`"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:486
+msgid ":ref:`board_espressif32_deneyapkartg`"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:493
+msgid ":ref:`board_espressif32_deneyapmini`"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:500
+msgid ":ref:`board_espressif32_deneyapminiv2`"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:507
+msgid ":ref:`board_espressif32_minimain_esp32s2`"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:514
+msgid ":ref:`board_espressif32_pocket_32`"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:521
+msgid ":ref:`board_espressif32_fm-devkit`"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:528
+msgid ":ref:`board_espressif32_pico32`"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:535
+msgid ":ref:`board_espressif32_esp32s3_powerfeather`"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:542
+msgid ":ref:`board_espressif32_esp32s3camlcd`"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:549
+msgid ":ref:`board_espressif32_esp32vn-iot-uno`"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:556
+msgid ":ref:`board_espressif32_espectro32`"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:563
+msgid ":ref:`board_espressif32_espino32`"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:570
+msgid ":ref:`board_espressif32_atmegazero_esp32s2`"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:577
+msgid ":ref:`board_espressif32_esp-wrover-kit`"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:579
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:614
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:635
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:642
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:649
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:684
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:810
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:957
+msgid "On-board"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:584
+msgid ":ref:`board_espressif32_esp32dev`"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:591
+msgid ":ref:`board_espressif32_esp32-c3-devkitc-02`"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:598
+msgid ":ref:`board_espressif32_esp32-c3-devkitm-1`"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:605
+msgid ":ref:`board_espressif32_esp32-c6-devkitm-1`"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:608
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:993
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1364
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1371
+msgid "ESP32C6"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:612
+msgid ":ref:`board_espressif32_esp32-s2-kaluga-1`"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:619
+msgid ":ref:`board_espressif32_esp32-s2-saola-1`"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:626
+msgid ":ref:`board_espressif32_esp32s3box`"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:633
+msgid ":ref:`board_espressif32_esp32-s3-devkitc-1`"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:640
+msgid ":ref:`board_espressif32_esp32-s3-devkitm-1`"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:647
+msgid ":ref:`board_espressif32_esp32s3usbotg`"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:654
+msgid ":ref:`board_espressif32_firebeetle32`"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:661
+msgid ":ref:`board_espressif32_franzininho_wifi_esp32s2`"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:668
+msgid ":ref:`board_espressif32_esp32-s2-franzininho`"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:675
+msgid ":ref:`board_espressif32_franzininho_wifi_msc_esp32s2`"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:682
+msgid ":ref:`board_espressif32_freenove_esp32_s3_wroom`"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:689
+msgid ":ref:`board_espressif32_freenove_esp32_wrover`"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:696
+msgid ":ref:`board_espressif32_frogboard`"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:703
+msgid ":ref:`board_espressif32_honeylemon`"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:710
+msgid ":ref:`board_espressif32_heltec_wifi_kit_32_V3`"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:717
+msgid ":ref:`board_espressif32_heltec_wifi_lora_32`"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:724
+msgid ":ref:`board_espressif32_heltec_wifi_lora_32_V2`"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:731
+msgid ":ref:`board_espressif32_heltec_wifi_lora_32_V3`"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:738
+msgid ":ref:`board_espressif32_heltec_wireless_stick`"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:745
+msgid ":ref:`board_espressif32_hornbill32dev`"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:752
+msgid ":ref:`board_espressif32_hornbill32minima`"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:759
+msgid ":ref:`board_espressif32_iotaap_magnolia`"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:766
+msgid ":ref:`board_espressif32_nebulas3`"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:773
+msgid ":ref:`board_espressif32_sensesiot_weizen`"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:780
+msgid ":ref:`board_espressif32_lilka_v2`"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:787
+msgid ":ref:`board_espressif32_lilygo-t-display-s3`"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:794
+msgid ":ref:`board_espressif32_lilygo-t3-s3`"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:801
+msgid ":ref:`board_espressif32_lionbit`"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:808
+msgid ":ref:`board_espressif32_lionbits3`"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:815
+msgid ":ref:`board_espressif32_m5stack-atoms3`"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:822
+msgid ":ref:`board_espressif32_m5stack-cores3`"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:829
+msgid ":ref:`board_espressif32_m5stack-stamps3`"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:836
+msgid ":ref:`board_espressif32_mhetesp32devkit`"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:843
+msgid ":ref:`board_espressif32_mhetesp32minikit`"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:850
+msgid ":ref:`board_espressif32_kb32-ft`"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:857
+msgid ":ref:`board_espressif32_motorgo_mini_1`"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:864
+msgid ":ref:`board_espressif32_redpill_esp32s3`"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:871
+msgid ":ref:`board_espressif32_namino_arancio`"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:878
+msgid ":ref:`board_espressif32_namino_rosso`"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:885
+msgid ":ref:`board_espressif32_node32s`"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:892
+msgid ":ref:`board_espressif32_nodemcu-32s`"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:899
+msgid ":ref:`board_espressif32_esp32-devkitlipo`"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:906
+msgid ":ref:`board_espressif32_esp32-evb`"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:913
+msgid ":ref:`board_espressif32_esp32-gateway`"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:920
+msgid ":ref:`board_espressif32_lopy`"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:927
+msgid ":ref:`board_espressif32_lopy4`"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:933
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:940
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1129
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1150
+msgid "1.25MB"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:934
+msgid ":ref:`board_espressif32_wipy3`"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:941
+msgid ":ref:`board_espressif32_rymcu-esp32-c3-devkitm-1`"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:948
+msgid ":ref:`board_espressif32_rymcu-esp32-devkitc`"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:955
+msgid ":ref:`board_espressif32_rymcu-esp32-s3-devkitc-1`"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:962
+msgid ":ref:`board_espressif32_sg-o_airMon`"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:969
+msgid ":ref:`board_espressif32_watchy`"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:976
+msgid ":ref:`board_espressif32_edgebox-esp-100`"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:983
+msgid ":ref:`board_espressif32_seeed_xiao_esp32c3`"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:990
+msgid ":ref:`board_espressif32_seeed_xiao_esp32c6`"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:997
+msgid ":ref:`board_espressif32_seeed_xiao_esp32s3`"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1004
+msgid ":ref:`board_espressif32_wesp32`"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1011
+msgid ":ref:`board_espressif32_bee_data_logger`"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1018
+msgid ":ref:`board_espressif32_bee_motion`"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1025
+msgid ":ref:`board_espressif32_bee_motion_mini`"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1032
+msgid ":ref:`board_espressif32_bee_motion_s3`"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1039
+msgid ":ref:`board_espressif32_bee_s3`"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1046
+msgid ":ref:`board_espressif32_sparkfun_esp32_iot_redboard`"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1053
+msgid ":ref:`board_espressif32_esp32thing`"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1060
+msgid ":ref:`board_espressif32_esp32thing_plus`"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1067
+msgid ":ref:`board_espressif32_sparkfun_esp32s2_thing_plus_c`"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1074
+msgid ":ref:`board_espressif32_sparkfun_esp32s2_thing_plus`"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1081
+msgid ":ref:`board_espressif32_sparkfun_lora_gateway_1-channel`"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1088
+msgid ":ref:`board_espressif32_dpu_esp32`"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1095
+msgid ":ref:`board_espressif32_tamc_termod_s3`"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1102
+msgid ":ref:`board_espressif32_ttgo-lora32-v1`"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1109
+msgid ":ref:`board_espressif32_ttgo-lora32-v2`"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1116
+msgid ":ref:`board_espressif32_ttgo-lora32-v21`"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1123
+msgid ":ref:`board_espressif32_ttgo-t-beam`"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1130
+msgid ":ref:`board_espressif32_ttgo-t-oi-plus`"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1137
+msgid ":ref:`board_espressif32_ttgo-t1`"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1144
+msgid ":ref:`board_espressif32_ttgo-t7-v14-mini32`"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1151
+msgid ":ref:`board_espressif32_trueverit-iot-driver`"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1158
+msgid ":ref:`board_espressif32_trueverit-iot-driver-mk2`"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1165
+msgid ":ref:`board_espressif32_trueverit-iot-driver-mk3`"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1172
+msgid ":ref:`board_espressif32_um_feathers2`"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1179
+msgid ":ref:`board_espressif32_um_feathers2_neo`"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1186
+msgid ":ref:`board_espressif32_um_feathers3`"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1193
+msgid ":ref:`board_espressif32_um_nanos3`"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1200
+msgid ":ref:`board_espressif32_um_pros3`"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1207
+msgid ":ref:`board_espressif32_um_rmp`"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1214
+msgid ":ref:`board_espressif32_um_tinys2`"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1221
+msgid ":ref:`board_espressif32_um_tinys3`"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1228
+msgid ":ref:`board_espressif32_valtrack_v4_mfw_esp32_c3`"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1235
+msgid ":ref:`board_espressif32_valtrack_v4_vts_esp32_c3`"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1242
+msgid ":ref:`board_espressif32_vintlabs-devkit-v1`"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1249
+msgid ":ref:`board_espressif32_wemos_d1_mini32`"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1256
+msgid ":ref:`board_espressif32_wemos_d1_uno32`"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1263
+msgid ":ref:`board_espressif32_lolin_c3_mini`"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1270
+msgid ":ref:`board_espressif32_lolin_d32`"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1277
+msgid ":ref:`board_espressif32_lolin_d32_pro`"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1284
+msgid ":ref:`board_espressif32_lolin_s2_mini`"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1291
+msgid ":ref:`board_espressif32_lolin_s2_pico`"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1298
+msgid ":ref:`board_espressif32_lolin_s3`"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1305
+msgid ":ref:`board_espressif32_lolin_s3_mini`"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1312
+msgid ":ref:`board_espressif32_lolin_s3_pro`"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1319
+msgid ":ref:`board_espressif32_lolin32`"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1326
+msgid ":ref:`board_espressif32_lolin32_lite`"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1333
+msgid ":ref:`board_espressif32_weactstudio_esp32c3coreboard`"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1338
+msgid "384KB"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1339
+msgid "400KB"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1340
+msgid ":ref:`board_espressif32_wemosbat`"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1347
+msgid ":ref:`board_espressif32_wt32-eth01`"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1354
+msgid ":ref:`board_espressif32_xinabox_cw02`"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1361
+msgid ":ref:`board_espressif32_cezerio_dev_esp32c6`"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1368
+msgid ":ref:`board_espressif32_cezerio_mini_dev_esp32c6`"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1375
+msgid ":ref:`board_espressif32_micros2`"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1382
+msgid ":ref:`board_espressif32_iotbusio`"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1389
+msgid ":ref:`board_espressif32_iotbusproteus`"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1396
+msgid ":ref:`board_espressif32_sensebox_mcu_esp32s2`"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1403
+msgid ":ref:`board_espressif32_upesy_wroom`"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1410
+msgid ":ref:`board_espressif32_upesy_wrover`"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1417
+msgid ":ref:`board_espressif32_unphone7`"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1424
+msgid ":ref:`board_espressif32_unphone8`"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1429
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1436
+msgid "7.94MB"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1430
+msgid "2.31MB"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1431
+msgid ":ref:`board_espressif32_unphone9`"
+msgstr ""
+
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:1437
+msgid "8.31MB"
+msgstr ""

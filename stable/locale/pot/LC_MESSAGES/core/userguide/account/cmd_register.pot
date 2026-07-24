@@ -1,0 +1,78 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present, PlatformIO
+# This file is distributed under the same license as the PlatformIO package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PlatformIO stable\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-24 14:03+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../core/userguide/account/cmd_register.rst:15
+msgid "pio account register"
+msgstr ""
+
+#: ../../../core/userguide/account/cmd_register.rst:17
+msgid "Contents"
+msgstr ""
+
+#: ../../../core/userguide/account/cmd_register.rst:20
+msgid "Usage"
+msgstr ""
+
+#: ../../../core/userguide/account/cmd_register.rst:27
+msgid "Description"
+msgstr ""
+
+#: ../../../core/userguide/account/cmd_register.rst:29
+msgid "Create a new :ref:`pioaccount`."
+msgstr ""
+
+#: ../../../core/userguide/account/cmd_register.rst:32
+msgid "Options"
+msgstr ""
+
+#: ../../../core/userguide/account/cmd_register.rst:34
+msgid "You can omit these options and enter them later in Register Wizard."
+msgstr ""
+
+#: ../../../core/userguide/account/cmd_register.rst:41
+msgid ""
+"A username. You can use it later for :ref:`cmd_account_login`, :ref:"
+"`cmd_account_update`, and :ref:`cmd_account_forgot` commands."
+msgstr ""
+
+#: ../../../core/userguide/account/cmd_register.rst:44
+msgid ""
+"The username must contain at least 4 characters including single hyphens, "
+"and cannot begin or end with a hyphen."
+msgstr ""
+
+#: ../../../core/userguide/account/cmd_register.rst:50
+msgid ""
+"An email. Please enter existing email, you will receive a confirmation "
+"letter."
+msgstr ""
+
+#: ../../../core/userguide/account/cmd_register.rst:55
+msgid ""
+"A password. You will need it for :ref:`cmd_account_login`, :ref:"
+"`cmd_account_password`, :ref:`cmd_account_token`, and :ref:"
+"`cmd_account_update` commands."
+msgstr ""
+
+#: ../../../core/userguide/account/cmd_register.rst:62
+msgid "A first name."
+msgstr ""
+
+#: ../../../core/userguide/account/cmd_register.rst:67
+msgid "A last name."
+msgstr ""

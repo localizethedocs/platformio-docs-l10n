@@ -1,0 +1,55 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present, PlatformIO
+# This file is distributed under the same license as the PlatformIO package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PlatformIO stable\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-24 14:03+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../core/userguide/remote/cmd_update.rst:15
+msgid "pio remote update"
+msgstr ""
+
+#: ../../../core/userguide/remote/cmd_update.rst:17
+msgid "Contents"
+msgstr ""
+
+#: ../../../core/userguide/remote/cmd_update.rst:20
+msgid "Usage"
+msgstr ""
+
+#: ../../../core/userguide/remote/cmd_update.rst:30
+msgid "Description"
+msgstr ""
+
+#: ../../../core/userguide/remote/cmd_update.rst:32
+msgid ""
+"Check or update installed :ref:`platforms` and global :ref:`Libraries "
+"<librarymanager>` on the remote machine."
+msgstr ""
+
+#: ../../../core/userguide/remote/cmd_update.rst:36
+msgid "Options"
+msgstr ""
+
+#: ../../../core/userguide/remote/cmd_update.rst:43
+msgid "DEPRECATED. Please use ``--dry-run`` instead."
+msgstr ""
+
+#: ../../../core/userguide/remote/cmd_update.rst:49
+msgid "Do not update, only check for the new versions"
+msgstr ""
+
+#: ../../../core/userguide/remote/cmd_update.rst:53
+msgid "Examples"
+msgstr ""

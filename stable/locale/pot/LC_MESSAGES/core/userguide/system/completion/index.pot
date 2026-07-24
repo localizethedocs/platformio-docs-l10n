@@ -1,0 +1,46 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present, PlatformIO
+# This file is distributed under the same license as the PlatformIO package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PlatformIO stable\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-24 14:03+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../core/userguide/system/completion/index.rst:15
+msgid "PlatformIO Shell Completion"
+msgstr ""
+
+#: ../../../core/userguide/system/completion/index.rst:17
+msgid "Shell completion support for"
+msgstr ""
+
+#: ../../../core/userguide/system/completion/index.rst:19
+msgid "`Fish <https://fishshell.com/>`__"
+msgstr ""
+
+#: ../../../core/userguide/system/completion/index.rst:20
+msgid "`Zsh <http://www.zsh.org/>`__"
+msgstr ""
+
+#: ../../../core/userguide/system/completion/index.rst:21
+msgid "`Bash <https://www.gnu.org/software/bash>`__"
+msgstr ""
+
+#: ../../../core/userguide/system/completion/index.rst:22
+msgid ""
+"`PowerShell <https://msdn.microsoft.com/en-us/powershell/mt173057.aspx>`__"
+msgstr ""
+
+#: ../../../core/userguide/system/completion/index.rst:24
+msgid "To print all available commands and options use:"
+msgstr ""

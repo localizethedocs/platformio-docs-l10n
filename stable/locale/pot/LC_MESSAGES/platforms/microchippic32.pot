@@ -1,0 +1,834 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present, PlatformIO
+# This file is distributed under the same license as the PlatformIO package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PlatformIO stable\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-24 14:03+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../platforms/microchippic32.rst:15
+msgid "Microchip PIC32"
+msgstr ""
+
+#: ../../../platforms/microchippic32.rst:0
+msgid "Registry"
+msgstr ""
+
+#: ../../../platforms/microchippic32.rst:18
+msgid ""
+"`https://registry.platformio.org/platforms/platformio/microchippic32 "
+"<https://registry.platformio.org/platforms/platformio/microchippic32>`__"
+msgstr ""
+
+#: ../../../platforms/microchippic32.rst:0
+msgid "Configuration"
+msgstr ""
+
+#: ../../../platforms/microchippic32.rst:20
+msgid ":ref:`projectconf_env_platform` = ``platformio/microchippic32``"
+msgstr ""
+
+#: ../../../platforms/microchippic32.rst:22
+msgid ""
+"Microchip's 32-bit portfolio with the MIPS microAptiv or M4K core offer high "
+"performance microcontrollers, and all the tools needed to develop your "
+"embedded projects. PIC32 MCUs gives your application the processing power, "
+"memory and peripherals your design needs!"
+msgstr ""
+
+#: ../../../platforms/microchippic32.rst:24
+msgid ""
+"For more detailed information please visit `vendor site <http://www."
+"microchip.com/design-centers/32-bit?utm_source=platformio."
+"org&utm_medium=docs>`_."
+msgstr ""
+
+#: ../../../platforms/microchippic32.rst:29
+msgid "Contents"
+msgstr ""
+
+#: ../../../platforms/microchippic32.rst:32
+msgid "Examples"
+msgstr ""
+
+#: ../../../platforms/microchippic32.rst:34
+msgid ""
+"Examples are listed from `Microchip PIC32 development platform repository "
+"<https://github.com/platformio/platform-microchippic32/tree/master/examples?"
+"utm_source=platformio.org&utm_medium=docs>`_:"
+msgstr ""
+
+#: ../../../platforms/microchippic32.rst:36
+msgid ""
+"`arduino-blink <https://github.com/platformio/platform-microchippic32/tree/"
+"master/examples/arduino-blink?utm_source=platformio.org&utm_medium=docs>`_"
+msgstr ""
+
+#: ../../../platforms/microchippic32.rst:37
+msgid ""
+"`arduino-internal-libs <https://github.com/platformio/platform-"
+"microchippic32/tree/master/examples/arduino-internal-libs?"
+"utm_source=platformio.org&utm_medium=docs>`_"
+msgstr ""
+
+#: ../../../platforms/microchippic32.rst:40
+msgid "Stable and upstream versions"
+msgstr ""
+
+#: ../../../platforms/microchippic32.rst:42
+msgid ""
+"You can switch between `stable releases <https://github.com/platformio/"
+"platform-microchippic32/releases>`__ of Microchip PIC32 development platform "
+"and the latest upstream version using :ref:`projectconf_env_platform` option "
+"in :ref:`projectconf` as described below."
+msgstr ""
+
+#: ../../../platforms/microchippic32.rst:47
+msgid "Stable"
+msgstr ""
+
+#: ../../../platforms/microchippic32.rst:63
+msgid "Upstream"
+msgstr ""
+
+#: ../../../platforms/microchippic32.rst:73
+msgid "Packages"
+msgstr ""
+
+#: ../../../platforms/microchippic32.rst:78
+#: ../../../platforms/microchippic32.rst:109
+#: ../../../platforms/microchippic32.rst:129
+#: ../../../platforms/microchippic32.rst:148
+#: ../../../platforms/microchippic32.rst:197
+#: ../../../platforms/microchippic32.rst:216
+#: ../../../platforms/microchippic32.rst:313
+#: ../../../platforms/microchippic32.rst:344
+#: ../../../platforms/microchippic32.rst:363
+#: ../../../platforms/microchippic32.rst:388
+#: ../../../platforms/microchippic32.rst:407
+#: ../../../platforms/microchippic32.rst:426
+#: ../../../platforms/microchippic32.rst:445
+#: ../../../platforms/microchippic32.rst:470
+#: ../../../platforms/microchippic32.rst:489
+#: ../../../platforms/microchippic32.rst:508
+#: ../../../platforms/microchippic32.rst:533
+#: ../../../platforms/microchippic32.rst:552
+msgid "Name"
+msgstr ""
+
+#: ../../../platforms/microchippic32.rst:79
+#: ../../../platforms/microchippic32.rst:110
+msgid "Description"
+msgstr ""
+
+#: ../../../platforms/microchippic32.rst:81
+msgid ""
+"`framework-arduinomicrochippic32 <https://registry.platformio.org/tools/"
+"platformio/framework-arduinomicrochippic32>`__"
+msgstr ""
+
+#: ../../../platforms/microchippic32.rst:82
+msgid "Arduino Wiring-based Framework for Microchip PIC32 microcontrollers"
+msgstr ""
+
+#: ../../../platforms/microchippic32.rst:84
+msgid ""
+"`tool-pic32prog <https://registry.platformio.org/tools/platformio/tool-"
+"pic32prog>`__"
+msgstr ""
+
+#: ../../../platforms/microchippic32.rst:85
+msgid "Flash programming utility for Microchip PIC32 microcontrollers"
+msgstr ""
+
+#: ../../../platforms/microchippic32.rst:87
+msgid ""
+"`toolchain-microchippic32 <https://registry.platformio.org/tools/platformio/"
+"toolchain-microchippic32>`__"
+msgstr ""
+
+#: ../../../platforms/microchippic32.rst:88
+msgid "GCC Toolchain for Microchip PIC32"
+msgstr ""
+
+#: ../../../platforms/microchippic32.rst:91
+msgid "**Linux Users**:"
+msgstr ""
+
+#: ../../../platforms/microchippic32.rst:93
+msgid "Install \"udev\" rules :ref:`platformio_udev_rules`"
+msgstr ""
+
+#: ../../../platforms/microchippic32.rst:94
+msgid ""
+"Raspberry Pi users, please read this article `Enable serial port on "
+"Raspberry Pi <https://hallard.me/enable-serial-port-on-raspberry-pi/>`__."
+msgstr ""
+
+#: ../../../platforms/microchippic32.rst:98
+msgid "**Windows Users:**"
+msgstr ""
+
+#: ../../../platforms/microchippic32.rst:100
+msgid ""
+"Please check that you have a correctly installed USB driver from board "
+"manufacturer"
+msgstr ""
+
+#: ../../../platforms/microchippic32.rst:105
+msgid "Frameworks"
+msgstr ""
+
+#: ../../../platforms/microchippic32.rst:112
+msgid ":ref:`framework_arduino`"
+msgstr ""
+
+#: ../../../platforms/microchippic32.rst:113
+msgid ""
+"Arduino Wiring-based Framework allows writing cross-platform software to "
+"control devices attached to a wide range of Arduino boards to create all "
+"kinds of creative coding, interactive objects, spaces or physical "
+"experiences."
+msgstr ""
+
+#: ../../../platforms/microchippic32.rst:116
+msgid "Boards"
+msgstr ""
+
+#: ../../../platforms/microchippic32.rst:119
+msgid "You can list pre-configured boards by :ref:`cmd_boards` command"
+msgstr ""
+
+#: ../../../platforms/microchippic32.rst:120
+msgid ""
+"For more detailed ``board`` information please scroll the tables below by "
+"horizontally."
+msgstr ""
+
+#: ../../../platforms/microchippic32.rst:124
+msgid "4D Systems"
+msgstr ""
+
+#: ../../../platforms/microchippic32.rst:130
+#: ../../../platforms/microchippic32.rst:149
+#: ../../../platforms/microchippic32.rst:198
+#: ../../../platforms/microchippic32.rst:217
+#: ../../../platforms/microchippic32.rst:314
+#: ../../../platforms/microchippic32.rst:345
+#: ../../../platforms/microchippic32.rst:364
+#: ../../../platforms/microchippic32.rst:389
+#: ../../../platforms/microchippic32.rst:408
+#: ../../../platforms/microchippic32.rst:427
+#: ../../../platforms/microchippic32.rst:446
+#: ../../../platforms/microchippic32.rst:471
+#: ../../../platforms/microchippic32.rst:490
+#: ../../../platforms/microchippic32.rst:509
+#: ../../../platforms/microchippic32.rst:534
+#: ../../../platforms/microchippic32.rst:553
+msgid "Debug"
+msgstr ""
+
+#: ../../../platforms/microchippic32.rst:131
+#: ../../../platforms/microchippic32.rst:150
+#: ../../../platforms/microchippic32.rst:199
+#: ../../../platforms/microchippic32.rst:218
+#: ../../../platforms/microchippic32.rst:315
+#: ../../../platforms/microchippic32.rst:346
+#: ../../../platforms/microchippic32.rst:365
+#: ../../../platforms/microchippic32.rst:390
+#: ../../../platforms/microchippic32.rst:409
+#: ../../../platforms/microchippic32.rst:428
+#: ../../../platforms/microchippic32.rst:447
+#: ../../../platforms/microchippic32.rst:472
+#: ../../../platforms/microchippic32.rst:491
+#: ../../../platforms/microchippic32.rst:510
+#: ../../../platforms/microchippic32.rst:535
+#: ../../../platforms/microchippic32.rst:554
+msgid "MCU"
+msgstr ""
+
+#: ../../../platforms/microchippic32.rst:132
+#: ../../../platforms/microchippic32.rst:151
+#: ../../../platforms/microchippic32.rst:200
+#: ../../../platforms/microchippic32.rst:219
+#: ../../../platforms/microchippic32.rst:316
+#: ../../../platforms/microchippic32.rst:347
+#: ../../../platforms/microchippic32.rst:366
+#: ../../../platforms/microchippic32.rst:391
+#: ../../../platforms/microchippic32.rst:410
+#: ../../../platforms/microchippic32.rst:429
+#: ../../../platforms/microchippic32.rst:448
+#: ../../../platforms/microchippic32.rst:473
+#: ../../../platforms/microchippic32.rst:492
+#: ../../../platforms/microchippic32.rst:511
+#: ../../../platforms/microchippic32.rst:536
+#: ../../../platforms/microchippic32.rst:555
+msgid "Frequency"
+msgstr ""
+
+#: ../../../platforms/microchippic32.rst:133
+#: ../../../platforms/microchippic32.rst:152
+#: ../../../platforms/microchippic32.rst:201
+#: ../../../platforms/microchippic32.rst:220
+#: ../../../platforms/microchippic32.rst:317
+#: ../../../platforms/microchippic32.rst:348
+#: ../../../platforms/microchippic32.rst:367
+#: ../../../platforms/microchippic32.rst:392
+#: ../../../platforms/microchippic32.rst:411
+#: ../../../platforms/microchippic32.rst:430
+#: ../../../platforms/microchippic32.rst:449
+#: ../../../platforms/microchippic32.rst:474
+#: ../../../platforms/microchippic32.rst:493
+#: ../../../platforms/microchippic32.rst:512
+#: ../../../platforms/microchippic32.rst:537
+#: ../../../platforms/microchippic32.rst:556
+msgid "Flash"
+msgstr ""
+
+#: ../../../platforms/microchippic32.rst:134
+#: ../../../platforms/microchippic32.rst:153
+#: ../../../platforms/microchippic32.rst:202
+#: ../../../platforms/microchippic32.rst:221
+#: ../../../platforms/microchippic32.rst:318
+#: ../../../platforms/microchippic32.rst:349
+#: ../../../platforms/microchippic32.rst:368
+#: ../../../platforms/microchippic32.rst:393
+#: ../../../platforms/microchippic32.rst:412
+#: ../../../platforms/microchippic32.rst:431
+#: ../../../platforms/microchippic32.rst:450
+#: ../../../platforms/microchippic32.rst:475
+#: ../../../platforms/microchippic32.rst:494
+#: ../../../platforms/microchippic32.rst:513
+#: ../../../platforms/microchippic32.rst:538
+#: ../../../platforms/microchippic32.rst:557
+msgid "RAM"
+msgstr ""
+
+#: ../../../platforms/microchippic32.rst:135
+msgid ":ref:`board_microchippic32_picadillo_35t`"
+msgstr ""
+
+#: ../../../platforms/microchippic32.rst:136
+#: ../../../platforms/microchippic32.rst:155
+#: ../../../platforms/microchippic32.rst:161
+#: ../../../platforms/microchippic32.rst:167
+#: ../../../platforms/microchippic32.rst:173
+#: ../../../platforms/microchippic32.rst:179
+#: ../../../platforms/microchippic32.rst:185
+#: ../../../platforms/microchippic32.rst:204
+#: ../../../platforms/microchippic32.rst:223
+#: ../../../platforms/microchippic32.rst:229
+#: ../../../platforms/microchippic32.rst:235
+#: ../../../platforms/microchippic32.rst:241
+#: ../../../platforms/microchippic32.rst:247
+#: ../../../platforms/microchippic32.rst:253
+#: ../../../platforms/microchippic32.rst:259
+#: ../../../platforms/microchippic32.rst:265
+#: ../../../platforms/microchippic32.rst:271
+#: ../../../platforms/microchippic32.rst:277
+#: ../../../platforms/microchippic32.rst:283
+#: ../../../platforms/microchippic32.rst:289
+#: ../../../platforms/microchippic32.rst:295
+#: ../../../platforms/microchippic32.rst:301
+#: ../../../platforms/microchippic32.rst:320
+#: ../../../platforms/microchippic32.rst:326
+#: ../../../platforms/microchippic32.rst:332
+#: ../../../platforms/microchippic32.rst:351
+#: ../../../platforms/microchippic32.rst:370
+#: ../../../platforms/microchippic32.rst:376
+#: ../../../platforms/microchippic32.rst:395
+#: ../../../platforms/microchippic32.rst:414
+#: ../../../platforms/microchippic32.rst:433
+#: ../../../platforms/microchippic32.rst:452
+#: ../../../platforms/microchippic32.rst:458
+#: ../../../platforms/microchippic32.rst:477
+#: ../../../platforms/microchippic32.rst:496
+#: ../../../platforms/microchippic32.rst:515
+#: ../../../platforms/microchippic32.rst:521
+#: ../../../platforms/microchippic32.rst:540
+#: ../../../platforms/microchippic32.rst:559
+msgid "No"
+msgstr ""
+
+#: ../../../platforms/microchippic32.rst:137
+#: ../../../platforms/microchippic32.rst:230
+#: ../../../platforms/microchippic32.rst:254
+#: ../../../platforms/microchippic32.rst:272
+#: ../../../platforms/microchippic32.rst:459
+#: ../../../platforms/microchippic32.rst:522
+msgid "32MX795F512L"
+msgstr ""
+
+#: ../../../platforms/microchippic32.rst:138
+#: ../../../platforms/microchippic32.rst:225
+#: ../../../platforms/microchippic32.rst:231
+#: ../../../platforms/microchippic32.rst:255
+#: ../../../platforms/microchippic32.rst:261
+#: ../../../platforms/microchippic32.rst:267
+#: ../../../platforms/microchippic32.rst:273
+#: ../../../platforms/microchippic32.rst:279
+#: ../../../platforms/microchippic32.rst:285
+#: ../../../platforms/microchippic32.rst:297
+#: ../../../platforms/microchippic32.rst:328
+#: ../../../platforms/microchippic32.rst:372
+#: ../../../platforms/microchippic32.rst:397
+#: ../../../platforms/microchippic32.rst:435
+#: ../../../platforms/microchippic32.rst:460
+#: ../../../platforms/microchippic32.rst:479
+#: ../../../platforms/microchippic32.rst:498
+#: ../../../platforms/microchippic32.rst:517
+#: ../../../platforms/microchippic32.rst:523
+msgid "80MHz"
+msgstr ""
+
+#: ../../../platforms/microchippic32.rst:139
+#: ../../../platforms/microchippic32.rst:226
+#: ../../../platforms/microchippic32.rst:232
+#: ../../../platforms/microchippic32.rst:256
+#: ../../../platforms/microchippic32.rst:268
+#: ../../../platforms/microchippic32.rst:274
+#: ../../../platforms/microchippic32.rst:286
+#: ../../../platforms/microchippic32.rst:298
+#: ../../../platforms/microchippic32.rst:329
+#: ../../../platforms/microchippic32.rst:373
+#: ../../../platforms/microchippic32.rst:436
+#: ../../../platforms/microchippic32.rst:461
+#: ../../../platforms/microchippic32.rst:480
+#: ../../../platforms/microchippic32.rst:499
+#: ../../../platforms/microchippic32.rst:518
+#: ../../../platforms/microchippic32.rst:524
+msgid "508KB"
+msgstr ""
+
+#: ../../../platforms/microchippic32.rst:140
+#: ../../../platforms/microchippic32.rst:233
+#: ../../../platforms/microchippic32.rst:257
+#: ../../../platforms/microchippic32.rst:275
+#: ../../../platforms/microchippic32.rst:287
+#: ../../../platforms/microchippic32.rst:330
+#: ../../../platforms/microchippic32.rst:462
+#: ../../../platforms/microchippic32.rst:481
+#: ../../../platforms/microchippic32.rst:525
+msgid "128KB"
+msgstr ""
+
+#: ../../../platforms/microchippic32.rst:143
+msgid "BOXTEC"
+msgstr ""
+
+#: ../../../platforms/microchippic32.rst:154
+msgid ":ref:`board_microchippic32_helvepic32`"
+msgstr ""
+
+#: ../../../platforms/microchippic32.rst:156
+#: ../../../platforms/microchippic32.rst:162
+#: ../../../platforms/microchippic32.rst:248
+#: ../../../platforms/microchippic32.rst:415
+#: ../../../platforms/microchippic32.rst:560
+msgid "32MX250F128B"
+msgstr ""
+
+#: ../../../platforms/microchippic32.rst:157
+#: ../../../platforms/microchippic32.rst:163
+#: ../../../platforms/microchippic32.rst:169
+#: ../../../platforms/microchippic32.rst:175
+#: ../../../platforms/microchippic32.rst:181
+#: ../../../platforms/microchippic32.rst:187
+#: ../../../platforms/microchippic32.rst:206
+#: ../../../platforms/microchippic32.rst:322
+#: ../../../platforms/microchippic32.rst:334
+msgid "48MHz"
+msgstr ""
+
+#: ../../../platforms/microchippic32.rst:158
+#: ../../../platforms/microchippic32.rst:164
+#: ../../../platforms/microchippic32.rst:170
+#: ../../../platforms/microchippic32.rst:250
+#: ../../../platforms/microchippic32.rst:323
+#: ../../../platforms/microchippic32.rst:354
+#: ../../../platforms/microchippic32.rst:417
+#: ../../../platforms/microchippic32.rst:543
+#: ../../../platforms/microchippic32.rst:562
+msgid "120KB"
+msgstr ""
+
+#: ../../../platforms/microchippic32.rst:159
+#: ../../../platforms/microchippic32.rst:165
+#: ../../../platforms/microchippic32.rst:171
+#: ../../../platforms/microchippic32.rst:227
+#: ../../../platforms/microchippic32.rst:245
+#: ../../../platforms/microchippic32.rst:251
+#: ../../../platforms/microchippic32.rst:269
+#: ../../../platforms/microchippic32.rst:299
+#: ../../../platforms/microchippic32.rst:324
+#: ../../../platforms/microchippic32.rst:355
+#: ../../../platforms/microchippic32.rst:374
+#: ../../../platforms/microchippic32.rst:399
+#: ../../../platforms/microchippic32.rst:418
+#: ../../../platforms/microchippic32.rst:437
+#: ../../../platforms/microchippic32.rst:500
+#: ../../../platforms/microchippic32.rst:519
+#: ../../../platforms/microchippic32.rst:544
+#: ../../../platforms/microchippic32.rst:563
+msgid "32KB"
+msgstr ""
+
+#: ../../../platforms/microchippic32.rst:160
+msgid ":ref:`board_microchippic32_helvepic32_breadboardside`"
+msgstr ""
+
+#: ../../../platforms/microchippic32.rst:166
+msgid ":ref:`board_microchippic32_helvepic32_smd`"
+msgstr ""
+
+#: ../../../platforms/microchippic32.rst:168
+#: ../../../platforms/microchippic32.rst:321
+msgid "32MX250F128D"
+msgstr ""
+
+#: ../../../platforms/microchippic32.rst:172
+msgid ":ref:`board_microchippic32_helvepic32_mx270`"
+msgstr ""
+
+#: ../../../platforms/microchippic32.rst:174
+msgid "32MX270F256B"
+msgstr ""
+
+#: ../../../platforms/microchippic32.rst:176
+#: ../../../platforms/microchippic32.rst:182
+#: ../../../platforms/microchippic32.rst:188
+msgid "244KB"
+msgstr ""
+
+#: ../../../platforms/microchippic32.rst:177
+#: ../../../platforms/microchippic32.rst:183
+#: ../../../platforms/microchippic32.rst:189
+#: ../../../platforms/microchippic32.rst:208
+#: ../../../platforms/microchippic32.rst:336
+msgid "62KB"
+msgstr ""
+
+#: ../../../platforms/microchippic32.rst:178
+msgid ":ref:`board_microchippic32_helvepic32_robot`"
+msgstr ""
+
+#: ../../../platforms/microchippic32.rst:180
+#: ../../../platforms/microchippic32.rst:186
+#: ../../../platforms/microchippic32.rst:205
+#: ../../../platforms/microchippic32.rst:333
+#: ../../../platforms/microchippic32.rst:541
+msgid "32MX270F256D"
+msgstr ""
+
+#: ../../../platforms/microchippic32.rst:184
+msgid ":ref:`board_microchippic32_helvepic32_smd_mx270`"
+msgstr ""
+
+#: ../../../platforms/microchippic32.rst:192
+msgid "ChipKIT"
+msgstr ""
+
+#: ../../../platforms/microchippic32.rst:203
+msgid ":ref:`board_microchippic32_rgb_station`"
+msgstr ""
+
+#: ../../../platforms/microchippic32.rst:207
+#: ../../../platforms/microchippic32.rst:335
+msgid "240KB"
+msgstr ""
+
+#: ../../../platforms/microchippic32.rst:211
+msgid "Digilent"
+msgstr ""
+
+#: ../../../platforms/microchippic32.rst:222
+msgid ":ref:`board_microchippic32_cerebot32mx4`"
+msgstr ""
+
+#: ../../../platforms/microchippic32.rst:224
+#: ../../../platforms/microchippic32.rst:266
+#: ../../../platforms/microchippic32.rst:371
+#: ../../../platforms/microchippic32.rst:516
+msgid "32MX460F512L"
+msgstr ""
+
+#: ../../../platforms/microchippic32.rst:228
+msgid ":ref:`board_microchippic32_cerebot32mx7`"
+msgstr ""
+
+#: ../../../platforms/microchippic32.rst:234
+msgid ":ref:`board_microchippic32_openscope`"
+msgstr ""
+
+#: ../../../platforms/microchippic32.rst:236
+msgid "32MZ2048EFG124"
+msgstr ""
+
+#: ../../../platforms/microchippic32.rst:237
+#: ../../../platforms/microchippic32.rst:291
+#: ../../../platforms/microchippic32.rst:303
+#: ../../../platforms/microchippic32.rst:454
+msgid "200MHz"
+msgstr ""
+
+#: ../../../platforms/microchippic32.rst:238
+#: ../../../platforms/microchippic32.rst:292
+#: ../../../platforms/microchippic32.rst:304
+#: ../../../platforms/microchippic32.rst:379
+#: ../../../platforms/microchippic32.rst:455
+msgid "1.98MB"
+msgstr ""
+
+#: ../../../platforms/microchippic32.rst:239
+#: ../../../platforms/microchippic32.rst:293
+#: ../../../platforms/microchippic32.rst:305
+#: ../../../platforms/microchippic32.rst:380
+#: ../../../platforms/microchippic32.rst:456
+msgid "512KB"
+msgstr ""
+
+#: ../../../platforms/microchippic32.rst:240
+msgid ":ref:`board_microchippic32_chipkit_cmod`"
+msgstr ""
+
+#: ../../../platforms/microchippic32.rst:242
+msgid "32MX150F128D"
+msgstr ""
+
+#: ../../../platforms/microchippic32.rst:243
+#: ../../../platforms/microchippic32.rst:249
+#: ../../../platforms/microchippic32.rst:353
+#: ../../../platforms/microchippic32.rst:416
+#: ../../../platforms/microchippic32.rst:542
+#: ../../../platforms/microchippic32.rst:561
+msgid "40MHz"
+msgstr ""
+
+#: ../../../platforms/microchippic32.rst:244
+#: ../../../platforms/microchippic32.rst:262
+#: ../../../platforms/microchippic32.rst:280
+msgid "124KB"
+msgstr ""
+
+#: ../../../platforms/microchippic32.rst:246
+msgid ":ref:`board_microchippic32_chipkit_dp32`"
+msgstr ""
+
+#: ../../../platforms/microchippic32.rst:252
+msgid ":ref:`board_microchippic32_mega_pic32`"
+msgstr ""
+
+#: ../../../platforms/microchippic32.rst:258
+msgid ":ref:`board_microchippic32_chipkit_mx3`"
+msgstr ""
+
+#: ../../../platforms/microchippic32.rst:260
+#: ../../../platforms/microchippic32.rst:278
+msgid "32MX320F128H"
+msgstr ""
+
+#: ../../../platforms/microchippic32.rst:263
+#: ../../../platforms/microchippic32.rst:281
+msgid "16KB"
+msgstr ""
+
+#: ../../../platforms/microchippic32.rst:264
+msgid ":ref:`board_microchippic32_chipkit_pro_mx4`"
+msgstr ""
+
+#: ../../../platforms/microchippic32.rst:270
+msgid ":ref:`board_microchippic32_chipkit_pro_mx7`"
+msgstr ""
+
+#: ../../../platforms/microchippic32.rst:276
+msgid ":ref:`board_microchippic32_uno_pic32`"
+msgstr ""
+
+#: ../../../platforms/microchippic32.rst:282
+msgid ":ref:`board_microchippic32_chipkit_wf32`"
+msgstr ""
+
+#: ../../../platforms/microchippic32.rst:284
+msgid "32MX695F512L"
+msgstr ""
+
+#: ../../../platforms/microchippic32.rst:288
+msgid ":ref:`board_microchippic32_chipkit_wifire`"
+msgstr ""
+
+#: ../../../platforms/microchippic32.rst:290
+msgid "32MZ2048ECG100"
+msgstr ""
+
+#: ../../../platforms/microchippic32.rst:294
+msgid ":ref:`board_microchippic32_chipkit_uc32`"
+msgstr ""
+
+#: ../../../platforms/microchippic32.rst:296
+msgid "32MX340F512H"
+msgstr ""
+
+#: ../../../platforms/microchippic32.rst:300
+msgid ":ref:`board_microchippic32_chipkit_wifire_revc`"
+msgstr ""
+
+#: ../../../platforms/microchippic32.rst:302
+#: ../../../platforms/microchippic32.rst:453
+msgid "32MZ2048EFG100"
+msgstr ""
+
+#: ../../../platforms/microchippic32.rst:308
+msgid "Fubarino"
+msgstr ""
+
+#: ../../../platforms/microchippic32.rst:319
+msgid ":ref:`board_microchippic32_fubarino_mini`"
+msgstr ""
+
+#: ../../../platforms/microchippic32.rst:325
+msgid ":ref:`board_microchippic32_fubarino_sd`"
+msgstr ""
+
+#: ../../../platforms/microchippic32.rst:327
+#: ../../../platforms/microchippic32.rst:478
+msgid "32MX795F512H"
+msgstr ""
+
+#: ../../../platforms/microchippic32.rst:331
+msgid ":ref:`board_microchippic32_fubarino_mini_20`"
+msgstr ""
+
+#: ../../../platforms/microchippic32.rst:339
+msgid "Makerology"
+msgstr ""
+
+#: ../../../platforms/microchippic32.rst:350
+msgid ":ref:`board_microchippic32_dsmini`"
+msgstr ""
+
+#: ../../../platforms/microchippic32.rst:352
+msgid "32MX150F128C"
+msgstr ""
+
+#: ../../../platforms/microchippic32.rst:358
+msgid "MikroElektronika"
+msgstr ""
+
+#: ../../../platforms/microchippic32.rst:369
+msgid ":ref:`board_microchippic32_clicker2`"
+msgstr ""
+
+#: ../../../platforms/microchippic32.rst:375
+msgid ":ref:`board_microchippic32_flipnclickmz`"
+msgstr ""
+
+#: ../../../platforms/microchippic32.rst:377
+msgid "32MZ2048EFH100"
+msgstr ""
+
+#: ../../../platforms/microchippic32.rst:378
+msgid "252MHz"
+msgstr ""
+
+#: ../../../platforms/microchippic32.rst:383
+msgid "Olimex"
+msgstr ""
+
+#: ../../../platforms/microchippic32.rst:394
+msgid ":ref:`board_microchippic32_pinguino32`"
+msgstr ""
+
+#: ../../../platforms/microchippic32.rst:396
+msgid "32MX440F256H"
+msgstr ""
+
+#: ../../../platforms/microchippic32.rst:398
+msgid "252KB"
+msgstr ""
+
+#: ../../../platforms/microchippic32.rst:402
+msgid "OpenBCI"
+msgstr ""
+
+#: ../../../platforms/microchippic32.rst:413
+msgid ":ref:`board_microchippic32_openbci`"
+msgstr ""
+
+#: ../../../platforms/microchippic32.rst:421
+msgid "PONTECH"
+msgstr ""
+
+#: ../../../platforms/microchippic32.rst:432
+msgid ":ref:`board_microchippic32_usbono_pic32`"
+msgstr ""
+
+#: ../../../platforms/microchippic32.rst:434
+#: ../../../platforms/microchippic32.rst:497
+msgid "32MX440F512H"
+msgstr ""
+
+#: ../../../platforms/microchippic32.rst:440
+msgid "Pontech"
+msgstr ""
+
+#: ../../../platforms/microchippic32.rst:451
+msgid ":ref:`board_microchippic32_nofire`"
+msgstr ""
+
+#: ../../../platforms/microchippic32.rst:457
+msgid ":ref:`board_microchippic32_quick240_usb`"
+msgstr ""
+
+#: ../../../platforms/microchippic32.rst:465
+msgid "SeeedStudio"
+msgstr ""
+
+#: ../../../platforms/microchippic32.rst:476
+msgid ":ref:`board_microchippic32_cui32stem`"
+msgstr ""
+
+#: ../../../platforms/microchippic32.rst:484
+msgid "SparkFun"
+msgstr ""
+
+#: ../../../platforms/microchippic32.rst:495
+msgid ":ref:`board_microchippic32_cui32`"
+msgstr ""
+
+#: ../../../platforms/microchippic32.rst:503
+msgid "UBW32"
+msgstr ""
+
+#: ../../../platforms/microchippic32.rst:514
+msgid ":ref:`board_microchippic32_ubw32_mx460`"
+msgstr ""
+
+#: ../../../platforms/microchippic32.rst:520
+msgid ":ref:`board_microchippic32_ubw32_mx795`"
+msgstr ""
+
+#: ../../../platforms/microchippic32.rst:528
+msgid "chipKIT"
+msgstr ""
+
+#: ../../../platforms/microchippic32.rst:539
+msgid ":ref:`board_microchippic32_lenny`"
+msgstr ""
+
+#: ../../../platforms/microchippic32.rst:547
+msgid "element14"
+msgstr ""
+
+#: ../../../platforms/microchippic32.rst:558
+msgid ":ref:`board_microchippic32_chipkit_pi`"
+msgstr ""

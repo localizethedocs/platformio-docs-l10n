@@ -1,0 +1,67 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present, PlatformIO
+# This file is distributed under the same license as the PlatformIO package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PlatformIO stable\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-24 14:03+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../core/userguide/pkg/cmd_outdated.rst:15
+msgid "pio pkg outdated"
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_outdated.rst:17
+msgid "Contents"
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_outdated.rst:20
+msgid "Usage"
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_outdated.rst:27
+msgid "Description"
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_outdated.rst:29
+msgid ""
+"Check for outdated project packages and list version information for all "
+"dependencies. This information includes the currently installed version, the "
+"desired version based on `Semantic Versioning <https://semver.org/>`__, and "
+"the latest available version."
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_outdated.rst:34
+msgid "Options"
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_outdated.rst:41
+msgid ""
+"Specify the path to project directory. By default, ``--project-dir`` is "
+"equal to current working directory (``CWD``)."
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_outdated.rst:47
+msgid ""
+"Check for outdated packages only for the specified environments. Multiple "
+"environments are allowed."
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_outdated.rst:50
+msgid "Examples"
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_outdated.rst:52
+msgid ""
+"Check outdated packages for `ESPHome <https://github.com/esphome/esphome>`__ "
+"project"
+msgstr ""

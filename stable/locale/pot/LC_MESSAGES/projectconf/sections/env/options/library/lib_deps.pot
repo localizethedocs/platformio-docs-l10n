@@ -1,0 +1,54 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present, PlatformIO
+# This file is distributed under the same license as the PlatformIO package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PlatformIO stable\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-24 14:03+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../projectconf/sections/env/options/library/lib_deps.rst:15
+msgid "``lib_deps``"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/library/lib_deps.rst:17
+msgid "Type: ``Package Specification`` | Multiple: ``Yes``"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/library/lib_deps.rst:20
+msgid ""
+"Please make sure to read :ref:`librarymanager_dependencies` guide first."
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/library/lib_deps.rst:22
+msgid ""
+"Specify project dependencies using :ref:`cmd_pkg_install_specifications` "
+"that should be installed automatically to the :ref:"
+"`projectconf_pio_libdeps_dir` before environment processing."
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/library/lib_deps.rst:26
+msgid ""
+"If you have multiple build environments that depend on the same libraries, "
+"you can use :ref:`projectconf_section_env` or :ref:"
+"`projectconf_interpolation` to use the common configuration."
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/library/lib_deps.rst:30
+msgid ""
+"Check the `PlatformIO Registry <https://registry.platformio.org>`__ for the "
+"available libraries and the installation instructions."
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/library/lib_deps.rst:33
+msgid "**Example**"
+msgstr ""

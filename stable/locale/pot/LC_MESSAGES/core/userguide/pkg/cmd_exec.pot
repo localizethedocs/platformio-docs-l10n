@@ -1,0 +1,77 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present, PlatformIO
+# This file is distributed under the same license as the PlatformIO package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PlatformIO stable\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-24 14:03+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../core/userguide/pkg/cmd_exec.rst:15
+msgid "pio pkg exec"
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_exec.rst:17
+msgid "Contents"
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_exec.rst:20
+msgid "Usage"
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_exec.rst:30
+msgid "Description"
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_exec.rst:32
+msgid "Run command from a PlatformIO package."
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_exec.rst:35
+msgid ""
+"A double-hyphen ``--`` flag is required before a command when passing its "
+"options."
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_exec.rst:38
+msgid "Options"
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_exec.rst:45
+msgid ""
+"Run a command from the specified package using :ref:"
+"`cmd_pkg_install_specifications`. If a package has not been installed yet, "
+"PlatformIO will install it from the `PlatformIO Registry <https://registry."
+"platformio.org>`__."
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_exec.rst:49
+msgid ""
+"If a package is not provided, run an arbitrary command from the first "
+"matched installed package."
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_exec.rst:54
+msgid "Run a command and its arguments specified as a string."
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_exec.rst:57
+msgid "Examples"
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_exec.rst:59
+msgid "Run an arbitrary command from the first matched installed package"
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_exec.rst:80
+msgid "Install JLink package and run GDB server"
+msgstr ""

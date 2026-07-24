@@ -1,0 +1,67 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present, PlatformIO
+# This file is distributed under the same license as the PlatformIO package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PlatformIO stable\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-24 14:03+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../advanced/static-code-analysis/severity.rst:15
+msgid "Defect severity"
+msgstr ""
+
+#: ../../../advanced/static-code-analysis/severity.rst:17
+msgid ""
+"Defect severity is a classification of software defect (bug, vulnerability, "
+"etc) that indicates the degree of negative impact on the quality of software."
+msgstr ""
+
+#: ../../../advanced/static-code-analysis/severity.rst:21
+msgid ""
+"**Static Code Analysis** uses the next classification of possible defects:"
+msgstr ""
+
+#: ../../../advanced/static-code-analysis/severity.rst:26
+msgid "Severity"
+msgstr ""
+
+#: ../../../advanced/static-code-analysis/severity.rst:27
+msgid "Meaning"
+msgstr ""
+
+#: ../../../advanced/static-code-analysis/severity.rst:29
+msgid "``high``"
+msgstr ""
+
+#: ../../../advanced/static-code-analysis/severity.rst:30
+msgid "Issues that are possibly bugs"
+msgstr ""
+
+#: ../../../advanced/static-code-analysis/severity.rst:32
+msgid "``medium``"
+msgstr ""
+
+#: ../../../advanced/static-code-analysis/severity.rst:33
+msgid ""
+"Suggestions about defensive programming in order to prevent potential bugs"
+msgstr ""
+
+#: ../../../advanced/static-code-analysis/severity.rst:35
+msgid "``low``"
+msgstr ""
+
+#: ../../../advanced/static-code-analysis/severity.rst:36
+msgid ""
+"Issues related to code cleanup and performance (unused functions, redundant "
+"code, const-ness, etc)"
+msgstr ""

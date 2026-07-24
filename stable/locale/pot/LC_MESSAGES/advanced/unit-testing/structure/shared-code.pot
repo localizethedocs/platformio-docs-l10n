@@ -1,0 +1,69 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present, PlatformIO
+# This file is distributed under the same license as the PlatformIO package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PlatformIO stable\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-24 14:03+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../advanced/unit-testing/structure/shared-code.rst:15
+msgid "Shared Code"
+msgstr ""
+
+#: ../../../advanced/unit-testing/structure/shared-code.rst:17
+msgid ""
+"By default, PlatformIO does not build the main source code from the :ref:"
+"`projectconf_pio_src_dir` folder in pair with a test source code. If you "
+"have a shared/common code between your \"main\" and \"test\" programs, you "
+"have 2 options:"
+msgstr ""
+
+#: ../../../advanced/unit-testing/structure/shared-code.rst:21
+msgid ""
+"We recommend splitting the source code into multiple components and placing "
+"them into the :ref:`projectconf_pio_lib_dir` (project's private libraries "
+"and components). :ref:`ldf` will find and include these libraries "
+"automatically in the build process. You can include any library/component "
+"header file in your test or main application source code using ``#include "
+"<MyComponent.h>``."
+msgstr ""
+
+#: ../../../advanced/unit-testing/structure/shared-code.rst:27
+msgid ""
+"See `Local & Embedded: Calculator <https://github.com/platformio/platformio-"
+"examples/tree/develop/unit-testing/calculator>`__ for an example, where we "
+"have a \"calculator\" component in the :ref:`projectconf_pio_lib_dir` folder "
+"and include it in the tests and the main application using ``#include "
+"<calculator.h>``."
+msgstr ""
+
+#: ../../../advanced/unit-testing/structure/shared-code.rst:32
+msgid ""
+"**NOT RECOMMENDED**. Manually instruct PlatformIO to build the main source "
+"code from the :ref:`projectconf_pio_src_dir` folder in pair with a test "
+"source code using the :ref:`projectconf_test_build_src` option in :ref:"
+"`projectconf`:"
+msgstr ""
+
+#: ../../../advanced/unit-testing/structure/shared-code.rst:42
+msgid ""
+"This is very useful if you unit test independent libraries where you can't "
+"split source code."
+msgstr ""
+
+#: ../../../advanced/unit-testing/structure/shared-code.rst:46
+msgid ""
+"Please note that you will need to use ``#ifndef PIO_UNIT_TESTING`` and "
+"``#endif`` guard to hide non-test related source code. For example, own "
+"``main()``, ``setup() / loop()``, or ``app_main()`` functions."
+msgstr ""

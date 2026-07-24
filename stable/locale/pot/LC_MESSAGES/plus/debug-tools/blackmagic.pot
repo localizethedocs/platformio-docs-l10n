@@ -1,0 +1,5401 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present, PlatformIO
+# This file is distributed under the same license as the PlatformIO package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PlatformIO stable\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-24 14:03+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../plus/debug-tools/blackmagic.rst:15
+msgid "Black Magic Probe"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:20
+msgid ""
+"The Black Magic Probe is a modern, in-application debugging tool for "
+"embedded microprocessors. It is able to control and examine the state of the "
+"target microprocessor using a JTAG or Serial Wire Debugging (SWD) port and "
+"on-chip debug logic provided by the microprocessor. The probe connects to a "
+"host computer using a standard USB interface. Official reference can be "
+"found `here <https://github.com/blacksphere/blackmagic/wiki?"
+"utm_source=platformio&utm_medium=docs>`__."
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:27
+msgid ""
+"Also, see :ref:`debugging_tool_custom` debugging configuration with Black "
+"Magic Probe."
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:31
+msgid "Contents"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:34
+msgid "Configuration"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:36
+msgid ""
+"You can configure debugging tool using :ref:`projectconf_debug_tool` option "
+"in :ref:`projectconf`:"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:62
+msgid ""
+"Black Magic Probe has 2 serial ports: UART and GDB. We will need \"GDB\" "
+"port. Please use :ref:`piohome` > Devices or :ref:`piocore` and :ref:"
+"`cmd_device_list` command to list available ports. If you do not see \"Black "
+"Magic Probe GDB\" port, please try both. More `details <https://github.com/"
+"blacksphere/blackmagic/wiki/Useful-GDB-commands#connecting-gdb-to-the-black-"
+"magic-probe>`_."
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:67
+msgid ""
+"If you would like to use this tool for firmware uploading, please change "
+"upload protocol:"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:86
+msgid "More options:"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:88
+msgid ":ref:`projectconf_section_env_debug`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:89
+msgid ":ref:`projectconf_section_env_upload`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:92
+msgid "Drivers"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:94
+msgid "Not required."
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:97
+msgid "Wiring Connections"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:100
+msgid "JTAG Interface"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:107
+#: ../../../plus/debug-tools/blackmagic.rst:140
+msgid "Black Magic Probe 10-Pin Connector"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:108
+msgid "Board JTAG Pin"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:109
+#: ../../../plus/debug-tools/blackmagic.rst:142
+#: ../../../plus/debug-tools/blackmagic.rst:167
+#: ../../../plus/debug-tools/blackmagic.rst:202
+msgid "Description"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:110
+#: ../../../plus/debug-tools/blackmagic.rst:143
+msgid "1"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:111
+#: ../../../plus/debug-tools/blackmagic.rst:144
+msgid "VCC"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:112
+#: ../../../plus/debug-tools/blackmagic.rst:145
+msgid "Positive Supply Voltage — Power supply for JTAG interface drivers"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:113
+#: ../../../plus/debug-tools/blackmagic.rst:146
+msgid "3"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:114
+#: ../../../plus/debug-tools/blackmagic.rst:147
+msgid "GND"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:115
+#: ../../../plus/debug-tools/blackmagic.rst:148
+msgid "Digital ground"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:116
+#: ../../../plus/debug-tools/blackmagic.rst:149
+msgid "2"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:117
+msgid "TMS"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:118
+msgid "Test Mode State"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:119
+#: ../../../plus/debug-tools/blackmagic.rst:152
+msgid "4"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:120
+msgid "TCLK"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:121
+msgid "JTAG Return Test Clock"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:122
+msgid "6"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:123
+msgid "TDO"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:124
+msgid "Test Data Out"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:125
+msgid "8"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:126
+msgid "TDI"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:127
+msgid "Test Data In"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:128
+#: ../../../plus/debug-tools/blackmagic.rst:155
+msgid "10"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:129
+#: ../../../plus/debug-tools/blackmagic.rst:156
+msgid "RESET"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:130
+#: ../../../plus/debug-tools/blackmagic.rst:157
+msgid "Connect this pin to the (active low) reset input of the target CPU"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:133
+msgid "Serial Wire Mode Interface (SWD)"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:141
+msgid "Board SWD Pin"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:150
+msgid "SWDIO"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:151
+msgid "Data I/O"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:153
+msgid "SWCLK"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:154
+msgid "Clock"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:162
+msgid "Platforms"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:166
+#: ../../../plus/debug-tools/blackmagic.rst:201
+#: ../../../plus/debug-tools/blackmagic.rst:235
+msgid "Name"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:169
+#: ../../../plus/debug-tools/blackmagic.rst:334
+#: ../../../plus/debug-tools/blackmagic.rst:341
+#: ../../../plus/debug-tools/blackmagic.rst:348
+#: ../../../plus/debug-tools/blackmagic.rst:355
+#: ../../../plus/debug-tools/blackmagic.rst:362
+#: ../../../plus/debug-tools/blackmagic.rst:369
+#: ../../../plus/debug-tools/blackmagic.rst:376
+msgid ":ref:`platform_aceinna_imu`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:170
+msgid ""
+"Open-source, embedded development platform for Aceinna IMU hardware. Run "
+"custom algorithms and navigation code on Aceinna IMU/INS hardware."
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:172
+#: ../../../plus/debug-tools/blackmagic.rst:383
+#: ../../../plus/debug-tools/blackmagic.rst:404
+#: ../../../plus/debug-tools/blackmagic.rst:411
+#: ../../../plus/debug-tools/blackmagic.rst:425
+#: ../../../plus/debug-tools/blackmagic.rst:432
+#: ../../../plus/debug-tools/blackmagic.rst:453
+#: ../../../plus/debug-tools/blackmagic.rst:460
+#: ../../../plus/debug-tools/blackmagic.rst:467
+#: ../../../plus/debug-tools/blackmagic.rst:481
+#: ../../../plus/debug-tools/blackmagic.rst:488
+#: ../../../plus/debug-tools/blackmagic.rst:495
+#: ../../../plus/debug-tools/blackmagic.rst:502
+#: ../../../plus/debug-tools/blackmagic.rst:509
+#: ../../../plus/debug-tools/blackmagic.rst:516
+#: ../../../plus/debug-tools/blackmagic.rst:523
+#: ../../../plus/debug-tools/blackmagic.rst:530
+#: ../../../plus/debug-tools/blackmagic.rst:537
+#: ../../../plus/debug-tools/blackmagic.rst:551
+#: ../../../plus/debug-tools/blackmagic.rst:558
+#: ../../../plus/debug-tools/blackmagic.rst:565
+#: ../../../plus/debug-tools/blackmagic.rst:572
+#: ../../../plus/debug-tools/blackmagic.rst:579
+#: ../../../plus/debug-tools/blackmagic.rst:586
+#: ../../../plus/debug-tools/blackmagic.rst:593
+#: ../../../plus/debug-tools/blackmagic.rst:600
+#: ../../../plus/debug-tools/blackmagic.rst:607
+#: ../../../plus/debug-tools/blackmagic.rst:614
+#: ../../../plus/debug-tools/blackmagic.rst:621
+#: ../../../plus/debug-tools/blackmagic.rst:628
+#: ../../../plus/debug-tools/blackmagic.rst:635
+#: ../../../plus/debug-tools/blackmagic.rst:656
+#: ../../../plus/debug-tools/blackmagic.rst:663
+#: ../../../plus/debug-tools/blackmagic.rst:670
+#: ../../../plus/debug-tools/blackmagic.rst:698
+#: ../../../plus/debug-tools/blackmagic.rst:705
+#: ../../../plus/debug-tools/blackmagic.rst:712
+#: ../../../plus/debug-tools/blackmagic.rst:719
+#: ../../../plus/debug-tools/blackmagic.rst:936
+#: ../../../plus/debug-tools/blackmagic.rst:1125
+#: ../../../plus/debug-tools/blackmagic.rst:1216
+#: ../../../plus/debug-tools/blackmagic.rst:1223
+#: ../../../plus/debug-tools/blackmagic.rst:1258
+#: ../../../plus/debug-tools/blackmagic.rst:1636
+#: ../../../plus/debug-tools/blackmagic.rst:1643
+#: ../../../plus/debug-tools/blackmagic.rst:1650
+#: ../../../plus/debug-tools/blackmagic.rst:1657
+#: ../../../plus/debug-tools/blackmagic.rst:1664
+#: ../../../plus/debug-tools/blackmagic.rst:2749
+#: ../../../plus/debug-tools/blackmagic.rst:2756
+#: ../../../plus/debug-tools/blackmagic.rst:2784
+#: ../../../plus/debug-tools/blackmagic.rst:2791
+#: ../../../plus/debug-tools/blackmagic.rst:2798
+#: ../../../plus/debug-tools/blackmagic.rst:2805
+#: ../../../plus/debug-tools/blackmagic.rst:2812
+#: ../../../plus/debug-tools/blackmagic.rst:2819
+#: ../../../plus/debug-tools/blackmagic.rst:2847
+#: ../../../plus/debug-tools/blackmagic.rst:2861
+#: ../../../plus/debug-tools/blackmagic.rst:2868
+#: ../../../plus/debug-tools/blackmagic.rst:2875
+#: ../../../plus/debug-tools/blackmagic.rst:2882
+#: ../../../plus/debug-tools/blackmagic.rst:2889
+#: ../../../plus/debug-tools/blackmagic.rst:2938
+msgid ":ref:`platform_atmelsam`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:173
+msgid ""
+"Atmel | SMART offers Flash- based ARM products based on the ARM Cortex-M0+, "
+"Cortex-M3 and Cortex-M4 architectures, ranging from 8KB to 2MB of Flash "
+"including a rich peripheral and feature mix."
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:175
+#: ../../../plus/debug-tools/blackmagic.rst:1041
+msgid ":ref:`platform_freescalekinetis`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:176
+msgid ""
+"Freescale Kinetis Microcontrollers is family of multiple hardware- and "
+"software-compatible ARM Cortex-M0+, Cortex-M4 and Cortex-M7-based MCU "
+"series. Kinetis MCUs offer exceptional low-power performance, scalability "
+"and feature integration."
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:178
+#: ../../../plus/debug-tools/blackmagic.rst:866
+#: ../../../plus/debug-tools/blackmagic.rst:1314
+#: ../../../plus/debug-tools/blackmagic.rst:1328
+#: ../../../plus/debug-tools/blackmagic.rst:1412
+#: ../../../plus/debug-tools/blackmagic.rst:1566
+#: ../../../plus/debug-tools/blackmagic.rst:1587
+#: ../../../plus/debug-tools/blackmagic.rst:2770
+#: ../../../plus/debug-tools/blackmagic.rst:2840
+#: ../../../plus/debug-tools/blackmagic.rst:2973
+#: ../../../plus/debug-tools/blackmagic.rst:3043
+msgid ":ref:`platform_nordicnrf51`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:179
+msgid ""
+"The Nordic nRF51 Series is a family of highly flexible, multi-protocol, "
+"system-on-chip (SoC) devices for ultra-low power wireless applications. "
+"nRF51 Series devices support a range of protocol stacks including Bluetooth "
+"Smart (previously called Bluetooth low energy), ANT and proprietary 2.4GHz "
+"protocols such as Gazell."
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:181
+#: ../../../plus/debug-tools/blackmagic.rst:320
+#: ../../../plus/debug-tools/blackmagic.rst:390
+#: ../../../plus/debug-tools/blackmagic.rst:397
+#: ../../../plus/debug-tools/blackmagic.rst:418
+#: ../../../plus/debug-tools/blackmagic.rst:446
+#: ../../../plus/debug-tools/blackmagic.rst:474
+#: ../../../plus/debug-tools/blackmagic.rst:642
+#: ../../../plus/debug-tools/blackmagic.rst:649
+#: ../../../plus/debug-tools/blackmagic.rst:726
+#: ../../../plus/debug-tools/blackmagic.rst:733
+#: ../../../plus/debug-tools/blackmagic.rst:740
+#: ../../../plus/debug-tools/blackmagic.rst:747
+#: ../../../plus/debug-tools/blackmagic.rst:859
+#: ../../../plus/debug-tools/blackmagic.rst:873
+#: ../../../plus/debug-tools/blackmagic.rst:887
+#: ../../../plus/debug-tools/blackmagic.rst:908
+#: ../../../plus/debug-tools/blackmagic.rst:964
+#: ../../../plus/debug-tools/blackmagic.rst:971
+#: ../../../plus/debug-tools/blackmagic.rst:1062
+#: ../../../plus/debug-tools/blackmagic.rst:1069
+#: ../../../plus/debug-tools/blackmagic.rst:1090
+#: ../../../plus/debug-tools/blackmagic.rst:1139
+#: ../../../plus/debug-tools/blackmagic.rst:1146
+#: ../../../plus/debug-tools/blackmagic.rst:1195
+#: ../../../plus/debug-tools/blackmagic.rst:1321
+#: ../../../plus/debug-tools/blackmagic.rst:1335
+#: ../../../plus/debug-tools/blackmagic.rst:1342
+#: ../../../plus/debug-tools/blackmagic.rst:1349
+#: ../../../plus/debug-tools/blackmagic.rst:1356
+#: ../../../plus/debug-tools/blackmagic.rst:1447
+#: ../../../plus/debug-tools/blackmagic.rst:1454
+#: ../../../plus/debug-tools/blackmagic.rst:1489
+#: ../../../plus/debug-tools/blackmagic.rst:1496
+#: ../../../plus/debug-tools/blackmagic.rst:1503
+#: ../../../plus/debug-tools/blackmagic.rst:1559
+#: ../../../plus/debug-tools/blackmagic.rst:1573
+#: ../../../plus/debug-tools/blackmagic.rst:1580
+#: ../../../plus/debug-tools/blackmagic.rst:1608
+#: ../../../plus/debug-tools/blackmagic.rst:1615
+#: ../../../plus/debug-tools/blackmagic.rst:2903
+#: ../../../plus/debug-tools/blackmagic.rst:2966
+#: ../../../plus/debug-tools/blackmagic.rst:3029
+#: ../../../plus/debug-tools/blackmagic.rst:3036
+#: ../../../plus/debug-tools/blackmagic.rst:3057
+#: ../../../plus/debug-tools/blackmagic.rst:3085
+msgid ":ref:`platform_nordicnrf52`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:182
+msgid ""
+"The nRF52 Series are built for speed to carry out increasingly complex tasks "
+"in the shortest possible time and return to sleep, conserving precious "
+"battery power. They have a Cortex-M4F processor which makes them quite "
+"capable Bluetooth Smart SoCs."
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:184
+#: ../../../plus/debug-tools/blackmagic.rst:1265
+#: ../../../plus/debug-tools/blackmagic.rst:1272
+#: ../../../plus/debug-tools/blackmagic.rst:1279
+#: ../../../plus/debug-tools/blackmagic.rst:1286
+#: ../../../plus/debug-tools/blackmagic.rst:1293
+#: ../../../plus/debug-tools/blackmagic.rst:1300
+msgid ":ref:`platform_nxpimxrt`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:185
+msgid ""
+"The i.MX RT series of crossover processors features the Arm Cortex-M core, "
+"real-time functionality and MCU usability at a cost-effective price."
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:187
+#: ../../../plus/debug-tools/blackmagic.rst:1083
+#: ../../../plus/debug-tools/blackmagic.rst:1307
+msgid ":ref:`platform_nxplpc`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:188
+msgid ""
+"The NXP LPC is a family of 32-bit microcontroller integrated circuits by NXP "
+"Semiconductors. The LPC chips are grouped into related series that are based "
+"around the same 32-bit ARM processor core, such as the Cortex-M4F, Cortex-"
+"M3, Cortex-M0+, or Cortex-M0. Internally, each microcontroller consists of "
+"the processor core, static RAM memory, flash memory, debugging interface, "
+"and various peripherals."
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:190
+#: ../../../plus/debug-tools/blackmagic.rst:943
+#: ../../../plus/debug-tools/blackmagic.rst:950
+#: ../../../plus/debug-tools/blackmagic.rst:1622
+#: ../../../plus/debug-tools/blackmagic.rst:1629
+#: ../../../plus/debug-tools/blackmagic.rst:2924
+msgid ":ref:`platform_siliconlabsefm32`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:191
+msgid ""
+"Silicon Labs EFM32 Gecko 32-bit microcontroller (MCU) family includes "
+"devices that offer flash memory configurations up to 256 kB, 32 kB of RAM "
+"and CPU speeds up to 48 MHz. Based on the powerful ARM Cortex-M core, the "
+"Gecko family features innovative low energy techniques, short wake-up time "
+"from energy saving modes and a wide selection of peripherals, making it "
+"ideal for battery operated applications and other systems requiring high "
+"performance and low-energy consumption."
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:193
+#: ../../../plus/debug-tools/blackmagic.rst:243
+#: ../../../plus/debug-tools/blackmagic.rst:250
+#: ../../../plus/debug-tools/blackmagic.rst:257
+#: ../../../plus/debug-tools/blackmagic.rst:264
+#: ../../../plus/debug-tools/blackmagic.rst:271
+#: ../../../plus/debug-tools/blackmagic.rst:278
+#: ../../../plus/debug-tools/blackmagic.rst:285
+#: ../../../plus/debug-tools/blackmagic.rst:292
+#: ../../../plus/debug-tools/blackmagic.rst:299
+#: ../../../plus/debug-tools/blackmagic.rst:306
+#: ../../../plus/debug-tools/blackmagic.rst:313
+#: ../../../plus/debug-tools/blackmagic.rst:327
+#: ../../../plus/debug-tools/blackmagic.rst:439
+#: ../../../plus/debug-tools/blackmagic.rst:544
+#: ../../../plus/debug-tools/blackmagic.rst:677
+#: ../../../plus/debug-tools/blackmagic.rst:684
+#: ../../../plus/debug-tools/blackmagic.rst:691
+#: ../../../plus/debug-tools/blackmagic.rst:754
+#: ../../../plus/debug-tools/blackmagic.rst:761
+#: ../../../plus/debug-tools/blackmagic.rst:768
+#: ../../../plus/debug-tools/blackmagic.rst:775
+#: ../../../plus/debug-tools/blackmagic.rst:782
+#: ../../../plus/debug-tools/blackmagic.rst:789
+#: ../../../plus/debug-tools/blackmagic.rst:796
+#: ../../../plus/debug-tools/blackmagic.rst:803
+#: ../../../plus/debug-tools/blackmagic.rst:810
+#: ../../../plus/debug-tools/blackmagic.rst:817
+#: ../../../plus/debug-tools/blackmagic.rst:824
+#: ../../../plus/debug-tools/blackmagic.rst:831
+#: ../../../plus/debug-tools/blackmagic.rst:838
+#: ../../../plus/debug-tools/blackmagic.rst:845
+#: ../../../plus/debug-tools/blackmagic.rst:852
+#: ../../../plus/debug-tools/blackmagic.rst:880
+#: ../../../plus/debug-tools/blackmagic.rst:894
+#: ../../../plus/debug-tools/blackmagic.rst:901
+#: ../../../plus/debug-tools/blackmagic.rst:915
+#: ../../../plus/debug-tools/blackmagic.rst:922
+#: ../../../plus/debug-tools/blackmagic.rst:929
+#: ../../../plus/debug-tools/blackmagic.rst:957
+#: ../../../plus/debug-tools/blackmagic.rst:978
+#: ../../../plus/debug-tools/blackmagic.rst:985
+#: ../../../plus/debug-tools/blackmagic.rst:992
+#: ../../../plus/debug-tools/blackmagic.rst:999
+#: ../../../plus/debug-tools/blackmagic.rst:1006
+#: ../../../plus/debug-tools/blackmagic.rst:1013
+#: ../../../plus/debug-tools/blackmagic.rst:1020
+#: ../../../plus/debug-tools/blackmagic.rst:1027
+#: ../../../plus/debug-tools/blackmagic.rst:1034
+#: ../../../plus/debug-tools/blackmagic.rst:1048
+#: ../../../plus/debug-tools/blackmagic.rst:1055
+#: ../../../plus/debug-tools/blackmagic.rst:1076
+#: ../../../plus/debug-tools/blackmagic.rst:1097
+#: ../../../plus/debug-tools/blackmagic.rst:1104
+#: ../../../plus/debug-tools/blackmagic.rst:1111
+#: ../../../plus/debug-tools/blackmagic.rst:1118
+#: ../../../plus/debug-tools/blackmagic.rst:1132
+#: ../../../plus/debug-tools/blackmagic.rst:1153
+#: ../../../plus/debug-tools/blackmagic.rst:1160
+#: ../../../plus/debug-tools/blackmagic.rst:1167
+#: ../../../plus/debug-tools/blackmagic.rst:1174
+#: ../../../plus/debug-tools/blackmagic.rst:1181
+#: ../../../plus/debug-tools/blackmagic.rst:1188
+#: ../../../plus/debug-tools/blackmagic.rst:1202
+#: ../../../plus/debug-tools/blackmagic.rst:1209
+#: ../../../plus/debug-tools/blackmagic.rst:1230
+#: ../../../plus/debug-tools/blackmagic.rst:1237
+#: ../../../plus/debug-tools/blackmagic.rst:1244
+#: ../../../plus/debug-tools/blackmagic.rst:1251
+#: ../../../plus/debug-tools/blackmagic.rst:1363
+#: ../../../plus/debug-tools/blackmagic.rst:1370
+#: ../../../plus/debug-tools/blackmagic.rst:1377
+#: ../../../plus/debug-tools/blackmagic.rst:1384
+#: ../../../plus/debug-tools/blackmagic.rst:1391
+#: ../../../plus/debug-tools/blackmagic.rst:1398
+#: ../../../plus/debug-tools/blackmagic.rst:1405
+#: ../../../plus/debug-tools/blackmagic.rst:1419
+#: ../../../plus/debug-tools/blackmagic.rst:1426
+#: ../../../plus/debug-tools/blackmagic.rst:1433
+#: ../../../plus/debug-tools/blackmagic.rst:1440
+#: ../../../plus/debug-tools/blackmagic.rst:1461
+#: ../../../plus/debug-tools/blackmagic.rst:1468
+#: ../../../plus/debug-tools/blackmagic.rst:1475
+#: ../../../plus/debug-tools/blackmagic.rst:1482
+#: ../../../plus/debug-tools/blackmagic.rst:1510
+#: ../../../plus/debug-tools/blackmagic.rst:1517
+#: ../../../plus/debug-tools/blackmagic.rst:1524
+#: ../../../plus/debug-tools/blackmagic.rst:1531
+#: ../../../plus/debug-tools/blackmagic.rst:1538
+#: ../../../plus/debug-tools/blackmagic.rst:1545
+#: ../../../plus/debug-tools/blackmagic.rst:1552
+#: ../../../plus/debug-tools/blackmagic.rst:1594
+#: ../../../plus/debug-tools/blackmagic.rst:1601
+#: ../../../plus/debug-tools/blackmagic.rst:1671
+#: ../../../plus/debug-tools/blackmagic.rst:1678
+#: ../../../plus/debug-tools/blackmagic.rst:1685
+#: ../../../plus/debug-tools/blackmagic.rst:1692
+#: ../../../plus/debug-tools/blackmagic.rst:1699
+#: ../../../plus/debug-tools/blackmagic.rst:1706
+#: ../../../plus/debug-tools/blackmagic.rst:1713
+#: ../../../plus/debug-tools/blackmagic.rst:1720
+#: ../../../plus/debug-tools/blackmagic.rst:1727
+#: ../../../plus/debug-tools/blackmagic.rst:1734
+#: ../../../plus/debug-tools/blackmagic.rst:1741
+#: ../../../plus/debug-tools/blackmagic.rst:1748
+#: ../../../plus/debug-tools/blackmagic.rst:1755
+#: ../../../plus/debug-tools/blackmagic.rst:1762
+#: ../../../plus/debug-tools/blackmagic.rst:1769
+#: ../../../plus/debug-tools/blackmagic.rst:1776
+#: ../../../plus/debug-tools/blackmagic.rst:1783
+#: ../../../plus/debug-tools/blackmagic.rst:1790
+#: ../../../plus/debug-tools/blackmagic.rst:1797
+#: ../../../plus/debug-tools/blackmagic.rst:1804
+#: ../../../plus/debug-tools/blackmagic.rst:1811
+#: ../../../plus/debug-tools/blackmagic.rst:1818
+#: ../../../plus/debug-tools/blackmagic.rst:1825
+#: ../../../plus/debug-tools/blackmagic.rst:1832
+#: ../../../plus/debug-tools/blackmagic.rst:1839
+#: ../../../plus/debug-tools/blackmagic.rst:1846
+#: ../../../plus/debug-tools/blackmagic.rst:1853
+#: ../../../plus/debug-tools/blackmagic.rst:1860
+#: ../../../plus/debug-tools/blackmagic.rst:1867
+#: ../../../plus/debug-tools/blackmagic.rst:1874
+#: ../../../plus/debug-tools/blackmagic.rst:1881
+#: ../../../plus/debug-tools/blackmagic.rst:1888
+#: ../../../plus/debug-tools/blackmagic.rst:1895
+#: ../../../plus/debug-tools/blackmagic.rst:1902
+#: ../../../plus/debug-tools/blackmagic.rst:1909
+#: ../../../plus/debug-tools/blackmagic.rst:1916
+#: ../../../plus/debug-tools/blackmagic.rst:1923
+#: ../../../plus/debug-tools/blackmagic.rst:1930
+#: ../../../plus/debug-tools/blackmagic.rst:1937
+#: ../../../plus/debug-tools/blackmagic.rst:1944
+#: ../../../plus/debug-tools/blackmagic.rst:1951
+#: ../../../plus/debug-tools/blackmagic.rst:1958
+#: ../../../plus/debug-tools/blackmagic.rst:1965
+#: ../../../plus/debug-tools/blackmagic.rst:1972
+#: ../../../plus/debug-tools/blackmagic.rst:1979
+#: ../../../plus/debug-tools/blackmagic.rst:1986
+#: ../../../plus/debug-tools/blackmagic.rst:1993
+#: ../../../plus/debug-tools/blackmagic.rst:2000
+#: ../../../plus/debug-tools/blackmagic.rst:2007
+#: ../../../plus/debug-tools/blackmagic.rst:2014
+#: ../../../plus/debug-tools/blackmagic.rst:2021
+#: ../../../plus/debug-tools/blackmagic.rst:2028
+#: ../../../plus/debug-tools/blackmagic.rst:2035
+#: ../../../plus/debug-tools/blackmagic.rst:2042
+#: ../../../plus/debug-tools/blackmagic.rst:2049
+#: ../../../plus/debug-tools/blackmagic.rst:2056
+#: ../../../plus/debug-tools/blackmagic.rst:2063
+#: ../../../plus/debug-tools/blackmagic.rst:2070
+#: ../../../plus/debug-tools/blackmagic.rst:2077
+#: ../../../plus/debug-tools/blackmagic.rst:2084
+#: ../../../plus/debug-tools/blackmagic.rst:2091
+#: ../../../plus/debug-tools/blackmagic.rst:2098
+#: ../../../plus/debug-tools/blackmagic.rst:2105
+#: ../../../plus/debug-tools/blackmagic.rst:2112
+#: ../../../plus/debug-tools/blackmagic.rst:2119
+#: ../../../plus/debug-tools/blackmagic.rst:2126
+#: ../../../plus/debug-tools/blackmagic.rst:2133
+#: ../../../plus/debug-tools/blackmagic.rst:2140
+#: ../../../plus/debug-tools/blackmagic.rst:2147
+#: ../../../plus/debug-tools/blackmagic.rst:2154
+#: ../../../plus/debug-tools/blackmagic.rst:2161
+#: ../../../plus/debug-tools/blackmagic.rst:2168
+#: ../../../plus/debug-tools/blackmagic.rst:2175
+#: ../../../plus/debug-tools/blackmagic.rst:2182
+#: ../../../plus/debug-tools/blackmagic.rst:2189
+#: ../../../plus/debug-tools/blackmagic.rst:2196
+#: ../../../plus/debug-tools/blackmagic.rst:2203
+#: ../../../plus/debug-tools/blackmagic.rst:2210
+#: ../../../plus/debug-tools/blackmagic.rst:2217
+#: ../../../plus/debug-tools/blackmagic.rst:2224
+#: ../../../plus/debug-tools/blackmagic.rst:2231
+#: ../../../plus/debug-tools/blackmagic.rst:2238
+#: ../../../plus/debug-tools/blackmagic.rst:2245
+#: ../../../plus/debug-tools/blackmagic.rst:2252
+#: ../../../plus/debug-tools/blackmagic.rst:2259
+#: ../../../plus/debug-tools/blackmagic.rst:2266
+#: ../../../plus/debug-tools/blackmagic.rst:2273
+#: ../../../plus/debug-tools/blackmagic.rst:2280
+#: ../../../plus/debug-tools/blackmagic.rst:2287
+#: ../../../plus/debug-tools/blackmagic.rst:2294
+#: ../../../plus/debug-tools/blackmagic.rst:2301
+#: ../../../plus/debug-tools/blackmagic.rst:2308
+#: ../../../plus/debug-tools/blackmagic.rst:2315
+#: ../../../plus/debug-tools/blackmagic.rst:2322
+#: ../../../plus/debug-tools/blackmagic.rst:2329
+#: ../../../plus/debug-tools/blackmagic.rst:2336
+#: ../../../plus/debug-tools/blackmagic.rst:2343
+#: ../../../plus/debug-tools/blackmagic.rst:2350
+#: ../../../plus/debug-tools/blackmagic.rst:2357
+#: ../../../plus/debug-tools/blackmagic.rst:2364
+#: ../../../plus/debug-tools/blackmagic.rst:2371
+#: ../../../plus/debug-tools/blackmagic.rst:2378
+#: ../../../plus/debug-tools/blackmagic.rst:2385
+#: ../../../plus/debug-tools/blackmagic.rst:2392
+#: ../../../plus/debug-tools/blackmagic.rst:2399
+#: ../../../plus/debug-tools/blackmagic.rst:2406
+#: ../../../plus/debug-tools/blackmagic.rst:2413
+#: ../../../plus/debug-tools/blackmagic.rst:2420
+#: ../../../plus/debug-tools/blackmagic.rst:2427
+#: ../../../plus/debug-tools/blackmagic.rst:2434
+#: ../../../plus/debug-tools/blackmagic.rst:2441
+#: ../../../plus/debug-tools/blackmagic.rst:2448
+#: ../../../plus/debug-tools/blackmagic.rst:2455
+#: ../../../plus/debug-tools/blackmagic.rst:2462
+#: ../../../plus/debug-tools/blackmagic.rst:2469
+#: ../../../plus/debug-tools/blackmagic.rst:2476
+#: ../../../plus/debug-tools/blackmagic.rst:2483
+#: ../../../plus/debug-tools/blackmagic.rst:2490
+#: ../../../plus/debug-tools/blackmagic.rst:2497
+#: ../../../plus/debug-tools/blackmagic.rst:2504
+#: ../../../plus/debug-tools/blackmagic.rst:2511
+#: ../../../plus/debug-tools/blackmagic.rst:2518
+#: ../../../plus/debug-tools/blackmagic.rst:2525
+#: ../../../plus/debug-tools/blackmagic.rst:2532
+#: ../../../plus/debug-tools/blackmagic.rst:2539
+#: ../../../plus/debug-tools/blackmagic.rst:2546
+#: ../../../plus/debug-tools/blackmagic.rst:2553
+#: ../../../plus/debug-tools/blackmagic.rst:2560
+#: ../../../plus/debug-tools/blackmagic.rst:2567
+#: ../../../plus/debug-tools/blackmagic.rst:2574
+#: ../../../plus/debug-tools/blackmagic.rst:2581
+#: ../../../plus/debug-tools/blackmagic.rst:2588
+#: ../../../plus/debug-tools/blackmagic.rst:2595
+#: ../../../plus/debug-tools/blackmagic.rst:2602
+#: ../../../plus/debug-tools/blackmagic.rst:2609
+#: ../../../plus/debug-tools/blackmagic.rst:2616
+#: ../../../plus/debug-tools/blackmagic.rst:2623
+#: ../../../plus/debug-tools/blackmagic.rst:2630
+#: ../../../plus/debug-tools/blackmagic.rst:2637
+#: ../../../plus/debug-tools/blackmagic.rst:2644
+#: ../../../plus/debug-tools/blackmagic.rst:2651
+#: ../../../plus/debug-tools/blackmagic.rst:2658
+#: ../../../plus/debug-tools/blackmagic.rst:2665
+#: ../../../plus/debug-tools/blackmagic.rst:2672
+#: ../../../plus/debug-tools/blackmagic.rst:2679
+#: ../../../plus/debug-tools/blackmagic.rst:2686
+#: ../../../plus/debug-tools/blackmagic.rst:2693
+#: ../../../plus/debug-tools/blackmagic.rst:2700
+#: ../../../plus/debug-tools/blackmagic.rst:2707
+#: ../../../plus/debug-tools/blackmagic.rst:2714
+#: ../../../plus/debug-tools/blackmagic.rst:2721
+#: ../../../plus/debug-tools/blackmagic.rst:2728
+#: ../../../plus/debug-tools/blackmagic.rst:2735
+#: ../../../plus/debug-tools/blackmagic.rst:2742
+#: ../../../plus/debug-tools/blackmagic.rst:2763
+#: ../../../plus/debug-tools/blackmagic.rst:2777
+#: ../../../plus/debug-tools/blackmagic.rst:2826
+#: ../../../plus/debug-tools/blackmagic.rst:2833
+#: ../../../plus/debug-tools/blackmagic.rst:2854
+#: ../../../plus/debug-tools/blackmagic.rst:2896
+#: ../../../plus/debug-tools/blackmagic.rst:2910
+#: ../../../plus/debug-tools/blackmagic.rst:2917
+#: ../../../plus/debug-tools/blackmagic.rst:2931
+#: ../../../plus/debug-tools/blackmagic.rst:2945
+#: ../../../plus/debug-tools/blackmagic.rst:2952
+#: ../../../plus/debug-tools/blackmagic.rst:2959
+#: ../../../plus/debug-tools/blackmagic.rst:2980
+#: ../../../plus/debug-tools/blackmagic.rst:2987
+#: ../../../plus/debug-tools/blackmagic.rst:2994
+#: ../../../plus/debug-tools/blackmagic.rst:3001
+#: ../../../plus/debug-tools/blackmagic.rst:3008
+#: ../../../plus/debug-tools/blackmagic.rst:3015
+#: ../../../plus/debug-tools/blackmagic.rst:3022
+#: ../../../plus/debug-tools/blackmagic.rst:3050
+#: ../../../plus/debug-tools/blackmagic.rst:3064
+#: ../../../plus/debug-tools/blackmagic.rst:3071
+#: ../../../plus/debug-tools/blackmagic.rst:3078
+#: ../../../plus/debug-tools/blackmagic.rst:3092
+#: ../../../plus/debug-tools/blackmagic.rst:3099
+msgid ":ref:`platform_ststm32`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:194
+msgid ""
+"The STM32 family of 32-bit Flash MCUs based on the ARM Cortex-M processor is "
+"designed to offer new degrees of freedom to MCU users. It offers a 32-bit "
+"product range that combines very high performance, real-time capabilities, "
+"digital signal processing, and low-power, low-voltage operation, while "
+"maintaining full integration and ease of development."
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:197
+msgid "Frameworks"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:204
+msgid ":ref:`framework_arduino`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:205
+msgid ""
+"Arduino Wiring-based Framework allows writing cross-platform software to "
+"control devices attached to a wide range of Arduino boards to create all "
+"kinds of creative coding, interactive objects, spaces or physical "
+"experiences."
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:207
+msgid ":ref:`framework_cmsis`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:208
+msgid ""
+"Vendor-independent hardware abstraction layer for the Cortex-M processor "
+"series"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:210
+msgid ":ref:`framework_libopencm3`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:211
+msgid ""
+"The libopencm3 project aims to create an open-source firmware library for "
+"various ARM Cortex-M microcontrollers."
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:213
+msgid ":ref:`framework_mbed`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:214
+msgid ""
+"Arm Mbed OS is a platform operating system designed for the internet of "
+"things"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:216
+msgid ":ref:`framework_spl`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:217
+msgid "Standard Peripheral Library for ST STM32 microcontrollers"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:219
+msgid ":ref:`framework_stm32cube`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:220
+msgid ""
+"STM32Cube embedded software libraries, including: The HAL hardware "
+"abstraction layer, enabling portability between different STM32 devices via "
+"standardized API calls; The Low-Layer (LL) APIs, a light-weight, optimized, "
+"expert oriented set of APIs designed for both performance and runtime "
+"efficiency"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:222
+msgid ":ref:`framework_zephyr`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:223
+msgid ""
+"Zephyr is a new generation, scalable, optimized, secure RTOS for multiple "
+"hardware architectures"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:226
+msgid "Boards"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:229
+msgid ""
+"For more detailed ``board`` information please scroll tables below by "
+"horizontal."
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:236
+msgid "Platform"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:237
+msgid "Debug"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:238
+msgid "MCU"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:239
+msgid "Frequency"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:240
+msgid "Flash"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:241
+msgid "RAM"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:242
+msgid ":ref:`board_ststm32_1bitsy_stm32f415rgt`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:244
+#: ../../../plus/debug-tools/blackmagic.rst:265
+#: ../../../plus/debug-tools/blackmagic.rst:272
+#: ../../../plus/debug-tools/blackmagic.rst:293
+#: ../../../plus/debug-tools/blackmagic.rst:307
+#: ../../../plus/debug-tools/blackmagic.rst:314
+#: ../../../plus/debug-tools/blackmagic.rst:321
+#: ../../../plus/debug-tools/blackmagic.rst:328
+#: ../../../plus/debug-tools/blackmagic.rst:342
+#: ../../../plus/debug-tools/blackmagic.rst:349
+#: ../../../plus/debug-tools/blackmagic.rst:356
+#: ../../../plus/debug-tools/blackmagic.rst:363
+#: ../../../plus/debug-tools/blackmagic.rst:370
+#: ../../../plus/debug-tools/blackmagic.rst:377
+#: ../../../plus/debug-tools/blackmagic.rst:384
+#: ../../../plus/debug-tools/blackmagic.rst:391
+#: ../../../plus/debug-tools/blackmagic.rst:398
+#: ../../../plus/debug-tools/blackmagic.rst:405
+#: ../../../plus/debug-tools/blackmagic.rst:412
+#: ../../../plus/debug-tools/blackmagic.rst:419
+#: ../../../plus/debug-tools/blackmagic.rst:426
+#: ../../../plus/debug-tools/blackmagic.rst:433
+#: ../../../plus/debug-tools/blackmagic.rst:440
+#: ../../../plus/debug-tools/blackmagic.rst:447
+#: ../../../plus/debug-tools/blackmagic.rst:454
+#: ../../../plus/debug-tools/blackmagic.rst:461
+#: ../../../plus/debug-tools/blackmagic.rst:468
+#: ../../../plus/debug-tools/blackmagic.rst:475
+#: ../../../plus/debug-tools/blackmagic.rst:482
+#: ../../../plus/debug-tools/blackmagic.rst:489
+#: ../../../plus/debug-tools/blackmagic.rst:496
+#: ../../../plus/debug-tools/blackmagic.rst:503
+#: ../../../plus/debug-tools/blackmagic.rst:510
+#: ../../../plus/debug-tools/blackmagic.rst:517
+#: ../../../plus/debug-tools/blackmagic.rst:524
+#: ../../../plus/debug-tools/blackmagic.rst:531
+#: ../../../plus/debug-tools/blackmagic.rst:538
+#: ../../../plus/debug-tools/blackmagic.rst:545
+#: ../../../plus/debug-tools/blackmagic.rst:552
+#: ../../../plus/debug-tools/blackmagic.rst:559
+#: ../../../plus/debug-tools/blackmagic.rst:566
+#: ../../../plus/debug-tools/blackmagic.rst:573
+#: ../../../plus/debug-tools/blackmagic.rst:587
+#: ../../../plus/debug-tools/blackmagic.rst:594
+#: ../../../plus/debug-tools/blackmagic.rst:601
+#: ../../../plus/debug-tools/blackmagic.rst:608
+#: ../../../plus/debug-tools/blackmagic.rst:615
+#: ../../../plus/debug-tools/blackmagic.rst:622
+#: ../../../plus/debug-tools/blackmagic.rst:629
+#: ../../../plus/debug-tools/blackmagic.rst:636
+#: ../../../plus/debug-tools/blackmagic.rst:643
+#: ../../../plus/debug-tools/blackmagic.rst:657
+#: ../../../plus/debug-tools/blackmagic.rst:671
+#: ../../../plus/debug-tools/blackmagic.rst:762
+#: ../../../plus/debug-tools/blackmagic.rst:769
+#: ../../../plus/debug-tools/blackmagic.rst:776
+#: ../../../plus/debug-tools/blackmagic.rst:783
+#: ../../../plus/debug-tools/blackmagic.rst:790
+#: ../../../plus/debug-tools/blackmagic.rst:797
+#: ../../../plus/debug-tools/blackmagic.rst:804
+#: ../../../plus/debug-tools/blackmagic.rst:811
+#: ../../../plus/debug-tools/blackmagic.rst:818
+#: ../../../plus/debug-tools/blackmagic.rst:825
+#: ../../../plus/debug-tools/blackmagic.rst:832
+#: ../../../plus/debug-tools/blackmagic.rst:839
+#: ../../../plus/debug-tools/blackmagic.rst:846
+#: ../../../plus/debug-tools/blackmagic.rst:853
+#: ../../../plus/debug-tools/blackmagic.rst:860
+#: ../../../plus/debug-tools/blackmagic.rst:867
+#: ../../../plus/debug-tools/blackmagic.rst:874
+#: ../../../plus/debug-tools/blackmagic.rst:881
+#: ../../../plus/debug-tools/blackmagic.rst:888
+#: ../../../plus/debug-tools/blackmagic.rst:895
+#: ../../../plus/debug-tools/blackmagic.rst:902
+#: ../../../plus/debug-tools/blackmagic.rst:916
+#: ../../../plus/debug-tools/blackmagic.rst:923
+#: ../../../plus/debug-tools/blackmagic.rst:930
+#: ../../../plus/debug-tools/blackmagic.rst:937
+#: ../../../plus/debug-tools/blackmagic.rst:958
+#: ../../../plus/debug-tools/blackmagic.rst:979
+#: ../../../plus/debug-tools/blackmagic.rst:986
+#: ../../../plus/debug-tools/blackmagic.rst:993
+#: ../../../plus/debug-tools/blackmagic.rst:1000
+#: ../../../plus/debug-tools/blackmagic.rst:1007
+#: ../../../plus/debug-tools/blackmagic.rst:1014
+#: ../../../plus/debug-tools/blackmagic.rst:1021
+#: ../../../plus/debug-tools/blackmagic.rst:1028
+#: ../../../plus/debug-tools/blackmagic.rst:1035
+#: ../../../plus/debug-tools/blackmagic.rst:1049
+#: ../../../plus/debug-tools/blackmagic.rst:1056
+#: ../../../plus/debug-tools/blackmagic.rst:1063
+#: ../../../plus/debug-tools/blackmagic.rst:1070
+#: ../../../plus/debug-tools/blackmagic.rst:1091
+#: ../../../plus/debug-tools/blackmagic.rst:1105
+#: ../../../plus/debug-tools/blackmagic.rst:1112
+#: ../../../plus/debug-tools/blackmagic.rst:1119
+#: ../../../plus/debug-tools/blackmagic.rst:1126
+#: ../../../plus/debug-tools/blackmagic.rst:1133
+#: ../../../plus/debug-tools/blackmagic.rst:1154
+#: ../../../plus/debug-tools/blackmagic.rst:1161
+#: ../../../plus/debug-tools/blackmagic.rst:1168
+#: ../../../plus/debug-tools/blackmagic.rst:1175
+#: ../../../plus/debug-tools/blackmagic.rst:1182
+#: ../../../plus/debug-tools/blackmagic.rst:1196
+#: ../../../plus/debug-tools/blackmagic.rst:1203
+#: ../../../plus/debug-tools/blackmagic.rst:1217
+#: ../../../plus/debug-tools/blackmagic.rst:1224
+#: ../../../plus/debug-tools/blackmagic.rst:1231
+#: ../../../plus/debug-tools/blackmagic.rst:1238
+#: ../../../plus/debug-tools/blackmagic.rst:1245
+#: ../../../plus/debug-tools/blackmagic.rst:1252
+#: ../../../plus/debug-tools/blackmagic.rst:1259
+#: ../../../plus/debug-tools/blackmagic.rst:1322
+#: ../../../plus/debug-tools/blackmagic.rst:1406
+#: ../../../plus/debug-tools/blackmagic.rst:1413
+#: ../../../plus/debug-tools/blackmagic.rst:1420
+#: ../../../plus/debug-tools/blackmagic.rst:1427
+#: ../../../plus/debug-tools/blackmagic.rst:1434
+#: ../../../plus/debug-tools/blackmagic.rst:1462
+#: ../../../plus/debug-tools/blackmagic.rst:1469
+#: ../../../plus/debug-tools/blackmagic.rst:1476
+#: ../../../plus/debug-tools/blackmagic.rst:1483
+#: ../../../plus/debug-tools/blackmagic.rst:1490
+#: ../../../plus/debug-tools/blackmagic.rst:1497
+#: ../../../plus/debug-tools/blackmagic.rst:1504
+#: ../../../plus/debug-tools/blackmagic.rst:1511
+#: ../../../plus/debug-tools/blackmagic.rst:1518
+#: ../../../plus/debug-tools/blackmagic.rst:1525
+#: ../../../plus/debug-tools/blackmagic.rst:1532
+#: ../../../plus/debug-tools/blackmagic.rst:1539
+#: ../../../plus/debug-tools/blackmagic.rst:1546
+#: ../../../plus/debug-tools/blackmagic.rst:1553
+#: ../../../plus/debug-tools/blackmagic.rst:1560
+#: ../../../plus/debug-tools/blackmagic.rst:1609
+#: ../../../plus/debug-tools/blackmagic.rst:1616
+#: ../../../plus/debug-tools/blackmagic.rst:1637
+#: ../../../plus/debug-tools/blackmagic.rst:1644
+#: ../../../plus/debug-tools/blackmagic.rst:1651
+#: ../../../plus/debug-tools/blackmagic.rst:1658
+#: ../../../plus/debug-tools/blackmagic.rst:1665
+#: ../../../plus/debug-tools/blackmagic.rst:2169
+#: ../../../plus/debug-tools/blackmagic.rst:2218
+#: ../../../plus/debug-tools/blackmagic.rst:2225
+#: ../../../plus/debug-tools/blackmagic.rst:2232
+#: ../../../plus/debug-tools/blackmagic.rst:2239
+#: ../../../plus/debug-tools/blackmagic.rst:2246
+#: ../../../plus/debug-tools/blackmagic.rst:2253
+#: ../../../plus/debug-tools/blackmagic.rst:2260
+#: ../../../plus/debug-tools/blackmagic.rst:2267
+#: ../../../plus/debug-tools/blackmagic.rst:2274
+#: ../../../plus/debug-tools/blackmagic.rst:2281
+#: ../../../plus/debug-tools/blackmagic.rst:2288
+#: ../../../plus/debug-tools/blackmagic.rst:2295
+#: ../../../plus/debug-tools/blackmagic.rst:2302
+#: ../../../plus/debug-tools/blackmagic.rst:2309
+#: ../../../plus/debug-tools/blackmagic.rst:2316
+#: ../../../plus/debug-tools/blackmagic.rst:2323
+#: ../../../plus/debug-tools/blackmagic.rst:2330
+#: ../../../plus/debug-tools/blackmagic.rst:2337
+#: ../../../plus/debug-tools/blackmagic.rst:2344
+#: ../../../plus/debug-tools/blackmagic.rst:2351
+#: ../../../plus/debug-tools/blackmagic.rst:2358
+#: ../../../plus/debug-tools/blackmagic.rst:2365
+#: ../../../plus/debug-tools/blackmagic.rst:2372
+#: ../../../plus/debug-tools/blackmagic.rst:2379
+#: ../../../plus/debug-tools/blackmagic.rst:2386
+#: ../../../plus/debug-tools/blackmagic.rst:2393
+#: ../../../plus/debug-tools/blackmagic.rst:2400
+#: ../../../plus/debug-tools/blackmagic.rst:2407
+#: ../../../plus/debug-tools/blackmagic.rst:2414
+#: ../../../plus/debug-tools/blackmagic.rst:2421
+#: ../../../plus/debug-tools/blackmagic.rst:2428
+#: ../../../plus/debug-tools/blackmagic.rst:2435
+#: ../../../plus/debug-tools/blackmagic.rst:2442
+#: ../../../plus/debug-tools/blackmagic.rst:2449
+#: ../../../plus/debug-tools/blackmagic.rst:2456
+#: ../../../plus/debug-tools/blackmagic.rst:2463
+#: ../../../plus/debug-tools/blackmagic.rst:2470
+#: ../../../plus/debug-tools/blackmagic.rst:2477
+#: ../../../plus/debug-tools/blackmagic.rst:2484
+#: ../../../plus/debug-tools/blackmagic.rst:2491
+#: ../../../plus/debug-tools/blackmagic.rst:2498
+#: ../../../plus/debug-tools/blackmagic.rst:2505
+#: ../../../plus/debug-tools/blackmagic.rst:2512
+#: ../../../plus/debug-tools/blackmagic.rst:2519
+#: ../../../plus/debug-tools/blackmagic.rst:2526
+#: ../../../plus/debug-tools/blackmagic.rst:2533
+#: ../../../plus/debug-tools/blackmagic.rst:2540
+#: ../../../plus/debug-tools/blackmagic.rst:2547
+#: ../../../plus/debug-tools/blackmagic.rst:2554
+#: ../../../plus/debug-tools/blackmagic.rst:2561
+#: ../../../plus/debug-tools/blackmagic.rst:2568
+#: ../../../plus/debug-tools/blackmagic.rst:2575
+#: ../../../plus/debug-tools/blackmagic.rst:2582
+#: ../../../plus/debug-tools/blackmagic.rst:2589
+#: ../../../plus/debug-tools/blackmagic.rst:2596
+#: ../../../plus/debug-tools/blackmagic.rst:2603
+#: ../../../plus/debug-tools/blackmagic.rst:2610
+#: ../../../plus/debug-tools/blackmagic.rst:2617
+#: ../../../plus/debug-tools/blackmagic.rst:2624
+#: ../../../plus/debug-tools/blackmagic.rst:2631
+#: ../../../plus/debug-tools/blackmagic.rst:2638
+#: ../../../plus/debug-tools/blackmagic.rst:2645
+#: ../../../plus/debug-tools/blackmagic.rst:2652
+#: ../../../plus/debug-tools/blackmagic.rst:2659
+#: ../../../plus/debug-tools/blackmagic.rst:2666
+#: ../../../plus/debug-tools/blackmagic.rst:2673
+#: ../../../plus/debug-tools/blackmagic.rst:2680
+#: ../../../plus/debug-tools/blackmagic.rst:2687
+#: ../../../plus/debug-tools/blackmagic.rst:2694
+#: ../../../plus/debug-tools/blackmagic.rst:2701
+#: ../../../plus/debug-tools/blackmagic.rst:2715
+#: ../../../plus/debug-tools/blackmagic.rst:2736
+#: ../../../plus/debug-tools/blackmagic.rst:2743
+#: ../../../plus/debug-tools/blackmagic.rst:2750
+#: ../../../plus/debug-tools/blackmagic.rst:2757
+#: ../../../plus/debug-tools/blackmagic.rst:2785
+#: ../../../plus/debug-tools/blackmagic.rst:2792
+#: ../../../plus/debug-tools/blackmagic.rst:2799
+#: ../../../plus/debug-tools/blackmagic.rst:2806
+#: ../../../plus/debug-tools/blackmagic.rst:2813
+#: ../../../plus/debug-tools/blackmagic.rst:2820
+#: ../../../plus/debug-tools/blackmagic.rst:2827
+#: ../../../plus/debug-tools/blackmagic.rst:2834
+#: ../../../plus/debug-tools/blackmagic.rst:2841
+#: ../../../plus/debug-tools/blackmagic.rst:2848
+#: ../../../plus/debug-tools/blackmagic.rst:2855
+#: ../../../plus/debug-tools/blackmagic.rst:2862
+#: ../../../plus/debug-tools/blackmagic.rst:2869
+#: ../../../plus/debug-tools/blackmagic.rst:2876
+#: ../../../plus/debug-tools/blackmagic.rst:2883
+#: ../../../plus/debug-tools/blackmagic.rst:2890
+#: ../../../plus/debug-tools/blackmagic.rst:2897
+#: ../../../plus/debug-tools/blackmagic.rst:2904
+#: ../../../plus/debug-tools/blackmagic.rst:2911
+#: ../../../plus/debug-tools/blackmagic.rst:2918
+#: ../../../plus/debug-tools/blackmagic.rst:2932
+#: ../../../plus/debug-tools/blackmagic.rst:2939
+#: ../../../plus/debug-tools/blackmagic.rst:2946
+#: ../../../plus/debug-tools/blackmagic.rst:2953
+#: ../../../plus/debug-tools/blackmagic.rst:2960
+#: ../../../plus/debug-tools/blackmagic.rst:2974
+#: ../../../plus/debug-tools/blackmagic.rst:2981
+#: ../../../plus/debug-tools/blackmagic.rst:2988
+#: ../../../plus/debug-tools/blackmagic.rst:2995
+#: ../../../plus/debug-tools/blackmagic.rst:3002
+#: ../../../plus/debug-tools/blackmagic.rst:3009
+#: ../../../plus/debug-tools/blackmagic.rst:3016
+#: ../../../plus/debug-tools/blackmagic.rst:3023
+#: ../../../plus/debug-tools/blackmagic.rst:3037
+#: ../../../plus/debug-tools/blackmagic.rst:3044
+#: ../../../plus/debug-tools/blackmagic.rst:3065
+#: ../../../plus/debug-tools/blackmagic.rst:3079
+#: ../../../plus/debug-tools/blackmagic.rst:3093
+msgid "External"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:245
+msgid "STM32F415RGT"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:246
+#: ../../../plus/debug-tools/blackmagic.rst:267
+#: ../../../plus/debug-tools/blackmagic.rst:302
+#: ../../../plus/debug-tools/blackmagic.rst:309
+#: ../../../plus/debug-tools/blackmagic.rst:442
+#: ../../../plus/debug-tools/blackmagic.rst:680
+#: ../../../plus/debug-tools/blackmagic.rst:687
+#: ../../../plus/debug-tools/blackmagic.rst:694
+#: ../../../plus/debug-tools/blackmagic.rst:764
+#: ../../../plus/debug-tools/blackmagic.rst:771
+#: ../../../plus/debug-tools/blackmagic.rst:778
+#: ../../../plus/debug-tools/blackmagic.rst:785
+#: ../../../plus/debug-tools/blackmagic.rst:813
+#: ../../../plus/debug-tools/blackmagic.rst:1023
+#: ../../../plus/debug-tools/blackmagic.rst:1030
+#: ../../../plus/debug-tools/blackmagic.rst:1037
+#: ../../../plus/debug-tools/blackmagic.rst:1191
+#: ../../../plus/debug-tools/blackmagic.rst:1436
+#: ../../../plus/debug-tools/blackmagic.rst:1520
+#: ../../../plus/debug-tools/blackmagic.rst:1555
+#: ../../../plus/debug-tools/blackmagic.rst:2164
+#: ../../../plus/debug-tools/blackmagic.rst:2227
+#: ../../../plus/debug-tools/blackmagic.rst:2234
+#: ../../../plus/debug-tools/blackmagic.rst:2535
+#: ../../../plus/debug-tools/blackmagic.rst:2542
+#: ../../../plus/debug-tools/blackmagic.rst:2661
+#: ../../../plus/debug-tools/blackmagic.rst:2668
+#: ../../../plus/debug-tools/blackmagic.rst:2675
+#: ../../../plus/debug-tools/blackmagic.rst:2766
+#: ../../../plus/debug-tools/blackmagic.rst:2857
+#: ../../../plus/debug-tools/blackmagic.rst:2962
+#: ../../../plus/debug-tools/blackmagic.rst:3095
+#: ../../../plus/debug-tools/blackmagic.rst:3102
+msgid "168MHz"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:247
+#: ../../../plus/debug-tools/blackmagic.rst:254
+#: ../../../plus/debug-tools/blackmagic.rst:296
+#: ../../../plus/debug-tools/blackmagic.rst:338
+#: ../../../plus/debug-tools/blackmagic.rst:345
+#: ../../../plus/debug-tools/blackmagic.rst:352
+#: ../../../plus/debug-tools/blackmagic.rst:359
+#: ../../../plus/debug-tools/blackmagic.rst:373
+#: ../../../plus/debug-tools/blackmagic.rst:380
+#: ../../../plus/debug-tools/blackmagic.rst:443
+#: ../../../plus/debug-tools/blackmagic.rst:681
+#: ../../../plus/debug-tools/blackmagic.rst:751
+#: ../../../plus/debug-tools/blackmagic.rst:786
+#: ../../../plus/debug-tools/blackmagic.rst:947
+#: ../../../plus/debug-tools/blackmagic.rst:968
+#: ../../../plus/debug-tools/blackmagic.rst:975
+#: ../../../plus/debug-tools/blackmagic.rst:1024
+#: ../../../plus/debug-tools/blackmagic.rst:1080
+#: ../../../plus/debug-tools/blackmagic.rst:1094
+#: ../../../plus/debug-tools/blackmagic.rst:1150
+#: ../../../plus/debug-tools/blackmagic.rst:1213
+#: ../../../plus/debug-tools/blackmagic.rst:1353
+#: ../../../plus/debug-tools/blackmagic.rst:1437
+#: ../../../plus/debug-tools/blackmagic.rst:1451
+#: ../../../plus/debug-tools/blackmagic.rst:1458
+#: ../../../plus/debug-tools/blackmagic.rst:1605
+#: ../../../plus/debug-tools/blackmagic.rst:1717
+#: ../../../plus/debug-tools/blackmagic.rst:1745
+#: ../../../plus/debug-tools/blackmagic.rst:1752
+#: ../../../plus/debug-tools/blackmagic.rst:1766
+#: ../../../plus/debug-tools/blackmagic.rst:1850
+#: ../../../plus/debug-tools/blackmagic.rst:1913
+#: ../../../plus/debug-tools/blackmagic.rst:1962
+#: ../../../plus/debug-tools/blackmagic.rst:1969
+#: ../../../plus/debug-tools/blackmagic.rst:1990
+#: ../../../plus/debug-tools/blackmagic.rst:2004
+#: ../../../plus/debug-tools/blackmagic.rst:2095
+#: ../../../plus/debug-tools/blackmagic.rst:2102
+#: ../../../plus/debug-tools/blackmagic.rst:2109
+#: ../../../plus/debug-tools/blackmagic.rst:2116
+#: ../../../plus/debug-tools/blackmagic.rst:2165
+#: ../../../plus/debug-tools/blackmagic.rst:2214
+#: ../../../plus/debug-tools/blackmagic.rst:2228
+#: ../../../plus/debug-tools/blackmagic.rst:2235
+#: ../../../plus/debug-tools/blackmagic.rst:2347
+#: ../../../plus/debug-tools/blackmagic.rst:2424
+#: ../../../plus/debug-tools/blackmagic.rst:2459
+#: ../../../plus/debug-tools/blackmagic.rst:2536
+#: ../../../plus/debug-tools/blackmagic.rst:2543
+#: ../../../plus/debug-tools/blackmagic.rst:2613
+#: ../../../plus/debug-tools/blackmagic.rst:2627
+#: ../../../plus/debug-tools/blackmagic.rst:2634
+#: ../../../plus/debug-tools/blackmagic.rst:2648
+#: ../../../plus/debug-tools/blackmagic.rst:2662
+#: ../../../plus/debug-tools/blackmagic.rst:2676
+#: ../../../plus/debug-tools/blackmagic.rst:2725
+#: ../../../plus/debug-tools/blackmagic.rst:2858
+#: ../../../plus/debug-tools/blackmagic.rst:2928
+#: ../../../plus/debug-tools/blackmagic.rst:2963
+#: ../../../plus/debug-tools/blackmagic.rst:3054
+#: ../../../plus/debug-tools/blackmagic.rst:3061
+#: ../../../plus/debug-tools/blackmagic.rst:3068
+#: ../../../plus/debug-tools/blackmagic.rst:3075
+#: ../../../plus/debug-tools/blackmagic.rst:3082
+msgid "1MB"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:248
+#: ../../../plus/debug-tools/blackmagic.rst:269
+#: ../../../plus/debug-tools/blackmagic.rst:276
+#: ../../../plus/debug-tools/blackmagic.rst:304
+#: ../../../plus/debug-tools/blackmagic.rst:318
+#: ../../../plus/debug-tools/blackmagic.rst:346
+#: ../../../plus/debug-tools/blackmagic.rst:353
+#: ../../../plus/debug-tools/blackmagic.rst:360
+#: ../../../plus/debug-tools/blackmagic.rst:366
+#: ../../../plus/debug-tools/blackmagic.rst:444
+#: ../../../plus/debug-tools/blackmagic.rst:548
+#: ../../../plus/debug-tools/blackmagic.rst:731
+#: ../../../plus/debug-tools/blackmagic.rst:745
+#: ../../../plus/debug-tools/blackmagic.rst:758
+#: ../../../plus/debug-tools/blackmagic.rst:766
+#: ../../../plus/debug-tools/blackmagic.rst:773
+#: ../../../plus/debug-tools/blackmagic.rst:780
+#: ../../../plus/debug-tools/blackmagic.rst:787
+#: ../../../plus/debug-tools/blackmagic.rst:800
+#: ../../../plus/debug-tools/blackmagic.rst:815
+#: ../../../plus/debug-tools/blackmagic.rst:835
+#: ../../../plus/debug-tools/blackmagic.rst:878
+#: ../../../plus/debug-tools/blackmagic.rst:934
+#: ../../../plus/debug-tools/blackmagic.rst:948
+#: ../../../plus/debug-tools/blackmagic.rst:982
+#: ../../../plus/debug-tools/blackmagic.rst:989
+#: ../../../plus/debug-tools/blackmagic.rst:996
+#: ../../../plus/debug-tools/blackmagic.rst:1003
+#: ../../../plus/debug-tools/blackmagic.rst:1018
+#: ../../../plus/debug-tools/blackmagic.rst:1025
+#: ../../../plus/debug-tools/blackmagic.rst:1032
+#: ../../../plus/debug-tools/blackmagic.rst:1039
+#: ../../../plus/debug-tools/blackmagic.rst:1045
+#: ../../../plus/debug-tools/blackmagic.rst:1081
+#: ../../../plus/debug-tools/blackmagic.rst:1137
+#: ../../../plus/debug-tools/blackmagic.rst:1235
+#: ../../../plus/debug-tools/blackmagic.rst:1242
+#: ../../../plus/debug-tools/blackmagic.rst:1270
+#: ../../../plus/debug-tools/blackmagic.rst:1277
+#: ../../../plus/debug-tools/blackmagic.rst:1347
+#: ../../../plus/debug-tools/blackmagic.rst:1367
+#: ../../../plus/debug-tools/blackmagic.rst:1374
+#: ../../../plus/debug-tools/blackmagic.rst:1381
+#: ../../../plus/debug-tools/blackmagic.rst:1388
+#: ../../../plus/debug-tools/blackmagic.rst:1396
+#: ../../../plus/debug-tools/blackmagic.rst:1409
+#: ../../../plus/debug-tools/blackmagic.rst:1430
+#: ../../../plus/debug-tools/blackmagic.rst:1438
+#: ../../../plus/debug-tools/blackmagic.rst:1465
+#: ../../../plus/debug-tools/blackmagic.rst:1487
+#: ../../../plus/debug-tools/blackmagic.rst:1514
+#: ../../../plus/debug-tools/blackmagic.rst:1522
+#: ../../../plus/debug-tools/blackmagic.rst:1528
+#: ../../../plus/debug-tools/blackmagic.rst:1535
+#: ../../../plus/debug-tools/blackmagic.rst:1557
+#: ../../../plus/debug-tools/blackmagic.rst:1606
+#: ../../../plus/debug-tools/blackmagic.rst:1690
+#: ../../../plus/debug-tools/blackmagic.rst:1746
+#: ../../../plus/debug-tools/blackmagic.rst:1759
+#: ../../../plus/debug-tools/blackmagic.rst:1787
+#: ../../../plus/debug-tools/blackmagic.rst:1822
+#: ../../../plus/debug-tools/blackmagic.rst:1829
+#: ../../../plus/debug-tools/blackmagic.rst:1843
+#: ../../../plus/debug-tools/blackmagic.rst:1851
+#: ../../../plus/debug-tools/blackmagic.rst:1899
+#: ../../../plus/debug-tools/blackmagic.rst:1907
+#: ../../../plus/debug-tools/blackmagic.rst:1942
+#: ../../../plus/debug-tools/blackmagic.rst:1949
+#: ../../../plus/debug-tools/blackmagic.rst:2018
+#: ../../../plus/debug-tools/blackmagic.rst:2060
+#: ../../../plus/debug-tools/blackmagic.rst:2067
+#: ../../../plus/debug-tools/blackmagic.rst:2103
+#: ../../../plus/debug-tools/blackmagic.rst:2166
+#: ../../../plus/debug-tools/blackmagic.rst:2179
+#: ../../../plus/debug-tools/blackmagic.rst:2200
+#: ../../../plus/debug-tools/blackmagic.rst:2207
+#: ../../../plus/debug-tools/blackmagic.rst:2215
+#: ../../../plus/debug-tools/blackmagic.rst:2229
+#: ../../../plus/debug-tools/blackmagic.rst:2236
+#: ../../../plus/debug-tools/blackmagic.rst:2256
+#: ../../../plus/debug-tools/blackmagic.rst:2284
+#: ../../../plus/debug-tools/blackmagic.rst:2312
+#: ../../../plus/debug-tools/blackmagic.rst:2375
+#: ../../../plus/debug-tools/blackmagic.rst:2389
+#: ../../../plus/debug-tools/blackmagic.rst:2466
+#: ../../../plus/debug-tools/blackmagic.rst:2480
+#: ../../../plus/debug-tools/blackmagic.rst:2508
+#: ../../../plus/debug-tools/blackmagic.rst:2537
+#: ../../../plus/debug-tools/blackmagic.rst:2544
+#: ../../../plus/debug-tools/blackmagic.rst:2557
+#: ../../../plus/debug-tools/blackmagic.rst:2571
+#: ../../../plus/debug-tools/blackmagic.rst:2579
+#: ../../../plus/debug-tools/blackmagic.rst:2586
+#: ../../../plus/debug-tools/blackmagic.rst:2593
+#: ../../../plus/debug-tools/blackmagic.rst:2600
+#: ../../../plus/debug-tools/blackmagic.rst:2663
+#: ../../../plus/debug-tools/blackmagic.rst:2670
+#: ../../../plus/debug-tools/blackmagic.rst:2677
+#: ../../../plus/debug-tools/blackmagic.rst:2698
+#: ../../../plus/debug-tools/blackmagic.rst:2705
+#: ../../../plus/debug-tools/blackmagic.rst:2718
+#: ../../../plus/debug-tools/blackmagic.rst:2739
+#: ../../../plus/debug-tools/blackmagic.rst:2837
+#: ../../../plus/debug-tools/blackmagic.rst:2859
+#: ../../../plus/debug-tools/blackmagic.rst:2922
+#: ../../../plus/debug-tools/blackmagic.rst:2935
+#: ../../../plus/debug-tools/blackmagic.rst:2950
+#: ../../../plus/debug-tools/blackmagic.rst:2964
+#: ../../../plus/debug-tools/blackmagic.rst:2999
+#: ../../../plus/debug-tools/blackmagic.rst:3020
+#: ../../../plus/debug-tools/blackmagic.rst:3055
+msgid "128KB"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:249
+msgid ":ref:`board_ststm32_disco_f412zg`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:251
+#: ../../../plus/debug-tools/blackmagic.rst:258
+#: ../../../plus/debug-tools/blackmagic.rst:279
+#: ../../../plus/debug-tools/blackmagic.rst:286
+#: ../../../plus/debug-tools/blackmagic.rst:300
+#: ../../../plus/debug-tools/blackmagic.rst:335
+#: ../../../plus/debug-tools/blackmagic.rst:580
+#: ../../../plus/debug-tools/blackmagic.rst:650
+#: ../../../plus/debug-tools/blackmagic.rst:664
+#: ../../../plus/debug-tools/blackmagic.rst:678
+#: ../../../plus/debug-tools/blackmagic.rst:685
+#: ../../../plus/debug-tools/blackmagic.rst:692
+#: ../../../plus/debug-tools/blackmagic.rst:699
+#: ../../../plus/debug-tools/blackmagic.rst:706
+#: ../../../plus/debug-tools/blackmagic.rst:713
+#: ../../../plus/debug-tools/blackmagic.rst:720
+#: ../../../plus/debug-tools/blackmagic.rst:727
+#: ../../../plus/debug-tools/blackmagic.rst:734
+#: ../../../plus/debug-tools/blackmagic.rst:741
+#: ../../../plus/debug-tools/blackmagic.rst:748
+#: ../../../plus/debug-tools/blackmagic.rst:755
+#: ../../../plus/debug-tools/blackmagic.rst:909
+#: ../../../plus/debug-tools/blackmagic.rst:944
+#: ../../../plus/debug-tools/blackmagic.rst:951
+#: ../../../plus/debug-tools/blackmagic.rst:965
+#: ../../../plus/debug-tools/blackmagic.rst:972
+#: ../../../plus/debug-tools/blackmagic.rst:1042
+#: ../../../plus/debug-tools/blackmagic.rst:1077
+#: ../../../plus/debug-tools/blackmagic.rst:1084
+#: ../../../plus/debug-tools/blackmagic.rst:1098
+#: ../../../plus/debug-tools/blackmagic.rst:1140
+#: ../../../plus/debug-tools/blackmagic.rst:1147
+#: ../../../plus/debug-tools/blackmagic.rst:1189
+#: ../../../plus/debug-tools/blackmagic.rst:1210
+#: ../../../plus/debug-tools/blackmagic.rst:1266
+#: ../../../plus/debug-tools/blackmagic.rst:1273
+#: ../../../plus/debug-tools/blackmagic.rst:1280
+#: ../../../plus/debug-tools/blackmagic.rst:1287
+#: ../../../plus/debug-tools/blackmagic.rst:1294
+#: ../../../plus/debug-tools/blackmagic.rst:1301
+#: ../../../plus/debug-tools/blackmagic.rst:1308
+#: ../../../plus/debug-tools/blackmagic.rst:1315
+#: ../../../plus/debug-tools/blackmagic.rst:1329
+#: ../../../plus/debug-tools/blackmagic.rst:1336
+#: ../../../plus/debug-tools/blackmagic.rst:1343
+#: ../../../plus/debug-tools/blackmagic.rst:1350
+#: ../../../plus/debug-tools/blackmagic.rst:1357
+#: ../../../plus/debug-tools/blackmagic.rst:1364
+#: ../../../plus/debug-tools/blackmagic.rst:1371
+#: ../../../plus/debug-tools/blackmagic.rst:1378
+#: ../../../plus/debug-tools/blackmagic.rst:1385
+#: ../../../plus/debug-tools/blackmagic.rst:1392
+#: ../../../plus/debug-tools/blackmagic.rst:1399
+#: ../../../plus/debug-tools/blackmagic.rst:1441
+#: ../../../plus/debug-tools/blackmagic.rst:1448
+#: ../../../plus/debug-tools/blackmagic.rst:1455
+#: ../../../plus/debug-tools/blackmagic.rst:1567
+#: ../../../plus/debug-tools/blackmagic.rst:1574
+#: ../../../plus/debug-tools/blackmagic.rst:1581
+#: ../../../plus/debug-tools/blackmagic.rst:1588
+#: ../../../plus/debug-tools/blackmagic.rst:1595
+#: ../../../plus/debug-tools/blackmagic.rst:1602
+#: ../../../plus/debug-tools/blackmagic.rst:1623
+#: ../../../plus/debug-tools/blackmagic.rst:1630
+#: ../../../plus/debug-tools/blackmagic.rst:1672
+#: ../../../plus/debug-tools/blackmagic.rst:1679
+#: ../../../plus/debug-tools/blackmagic.rst:1686
+#: ../../../plus/debug-tools/blackmagic.rst:1693
+#: ../../../plus/debug-tools/blackmagic.rst:1700
+#: ../../../plus/debug-tools/blackmagic.rst:1707
+#: ../../../plus/debug-tools/blackmagic.rst:1714
+#: ../../../plus/debug-tools/blackmagic.rst:1721
+#: ../../../plus/debug-tools/blackmagic.rst:1728
+#: ../../../plus/debug-tools/blackmagic.rst:1735
+#: ../../../plus/debug-tools/blackmagic.rst:1742
+#: ../../../plus/debug-tools/blackmagic.rst:1749
+#: ../../../plus/debug-tools/blackmagic.rst:1756
+#: ../../../plus/debug-tools/blackmagic.rst:1763
+#: ../../../plus/debug-tools/blackmagic.rst:1770
+#: ../../../plus/debug-tools/blackmagic.rst:1777
+#: ../../../plus/debug-tools/blackmagic.rst:1784
+#: ../../../plus/debug-tools/blackmagic.rst:1791
+#: ../../../plus/debug-tools/blackmagic.rst:1798
+#: ../../../plus/debug-tools/blackmagic.rst:1805
+#: ../../../plus/debug-tools/blackmagic.rst:1812
+#: ../../../plus/debug-tools/blackmagic.rst:1819
+#: ../../../plus/debug-tools/blackmagic.rst:1826
+#: ../../../plus/debug-tools/blackmagic.rst:1833
+#: ../../../plus/debug-tools/blackmagic.rst:1840
+#: ../../../plus/debug-tools/blackmagic.rst:1847
+#: ../../../plus/debug-tools/blackmagic.rst:1854
+#: ../../../plus/debug-tools/blackmagic.rst:1861
+#: ../../../plus/debug-tools/blackmagic.rst:1868
+#: ../../../plus/debug-tools/blackmagic.rst:1875
+#: ../../../plus/debug-tools/blackmagic.rst:1882
+#: ../../../plus/debug-tools/blackmagic.rst:1889
+#: ../../../plus/debug-tools/blackmagic.rst:1896
+#: ../../../plus/debug-tools/blackmagic.rst:1903
+#: ../../../plus/debug-tools/blackmagic.rst:1910
+#: ../../../plus/debug-tools/blackmagic.rst:1917
+#: ../../../plus/debug-tools/blackmagic.rst:1924
+#: ../../../plus/debug-tools/blackmagic.rst:1931
+#: ../../../plus/debug-tools/blackmagic.rst:1938
+#: ../../../plus/debug-tools/blackmagic.rst:1945
+#: ../../../plus/debug-tools/blackmagic.rst:1952
+#: ../../../plus/debug-tools/blackmagic.rst:1959
+#: ../../../plus/debug-tools/blackmagic.rst:1966
+#: ../../../plus/debug-tools/blackmagic.rst:1973
+#: ../../../plus/debug-tools/blackmagic.rst:1980
+#: ../../../plus/debug-tools/blackmagic.rst:1987
+#: ../../../plus/debug-tools/blackmagic.rst:1994
+#: ../../../plus/debug-tools/blackmagic.rst:2001
+#: ../../../plus/debug-tools/blackmagic.rst:2008
+#: ../../../plus/debug-tools/blackmagic.rst:2015
+#: ../../../plus/debug-tools/blackmagic.rst:2022
+#: ../../../plus/debug-tools/blackmagic.rst:2029
+#: ../../../plus/debug-tools/blackmagic.rst:2036
+#: ../../../plus/debug-tools/blackmagic.rst:2043
+#: ../../../plus/debug-tools/blackmagic.rst:2050
+#: ../../../plus/debug-tools/blackmagic.rst:2057
+#: ../../../plus/debug-tools/blackmagic.rst:2064
+#: ../../../plus/debug-tools/blackmagic.rst:2071
+#: ../../../plus/debug-tools/blackmagic.rst:2078
+#: ../../../plus/debug-tools/blackmagic.rst:2085
+#: ../../../plus/debug-tools/blackmagic.rst:2092
+#: ../../../plus/debug-tools/blackmagic.rst:2099
+#: ../../../plus/debug-tools/blackmagic.rst:2106
+#: ../../../plus/debug-tools/blackmagic.rst:2113
+#: ../../../plus/debug-tools/blackmagic.rst:2120
+#: ../../../plus/debug-tools/blackmagic.rst:2127
+#: ../../../plus/debug-tools/blackmagic.rst:2134
+#: ../../../plus/debug-tools/blackmagic.rst:2141
+#: ../../../plus/debug-tools/blackmagic.rst:2148
+#: ../../../plus/debug-tools/blackmagic.rst:2155
+#: ../../../plus/debug-tools/blackmagic.rst:2162
+#: ../../../plus/debug-tools/blackmagic.rst:2176
+#: ../../../plus/debug-tools/blackmagic.rst:2183
+#: ../../../plus/debug-tools/blackmagic.rst:2190
+#: ../../../plus/debug-tools/blackmagic.rst:2197
+#: ../../../plus/debug-tools/blackmagic.rst:2204
+#: ../../../plus/debug-tools/blackmagic.rst:2211
+#: ../../../plus/debug-tools/blackmagic.rst:2708
+#: ../../../plus/debug-tools/blackmagic.rst:2722
+#: ../../../plus/debug-tools/blackmagic.rst:2729
+#: ../../../plus/debug-tools/blackmagic.rst:2764
+#: ../../../plus/debug-tools/blackmagic.rst:2771
+#: ../../../plus/debug-tools/blackmagic.rst:2778
+#: ../../../plus/debug-tools/blackmagic.rst:2925
+#: ../../../plus/debug-tools/blackmagic.rst:2967
+#: ../../../plus/debug-tools/blackmagic.rst:3030
+#: ../../../plus/debug-tools/blackmagic.rst:3051
+#: ../../../plus/debug-tools/blackmagic.rst:3058
+#: ../../../plus/debug-tools/blackmagic.rst:3072
+#: ../../../plus/debug-tools/blackmagic.rst:3086
+#: ../../../plus/debug-tools/blackmagic.rst:3100
+msgid "On-board"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:252
+#: ../../../plus/debug-tools/blackmagic.rst:1211
+#: ../../../plus/debug-tools/blackmagic.rst:1911
+msgid "STM32F412ZGT6"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:253
+#: ../../../plus/debug-tools/blackmagic.rst:295
+#: ../../../plus/debug-tools/blackmagic.rst:316
+#: ../../../plus/debug-tools/blackmagic.rst:1016
+#: ../../../plus/debug-tools/blackmagic.rst:1135
+#: ../../../plus/debug-tools/blackmagic.rst:1212
+#: ../../../plus/debug-tools/blackmagic.rst:1233
+#: ../../../plus/debug-tools/blackmagic.rst:1240
+#: ../../../plus/debug-tools/blackmagic.rst:1471
+#: ../../../plus/debug-tools/blackmagic.rst:1485
+#: ../../../plus/debug-tools/blackmagic.rst:1688
+#: ../../../plus/debug-tools/blackmagic.rst:1695
+#: ../../../plus/debug-tools/blackmagic.rst:1898
+#: ../../../plus/debug-tools/blackmagic.rst:1905
+#: ../../../plus/debug-tools/blackmagic.rst:1912
+#: ../../../plus/debug-tools/blackmagic.rst:1919
+#: ../../../plus/debug-tools/blackmagic.rst:2549
+#: ../../../plus/debug-tools/blackmagic.rst:2556
+#: ../../../plus/debug-tools/blackmagic.rst:2563
+#: ../../../plus/debug-tools/blackmagic.rst:2570
+#: ../../../plus/debug-tools/blackmagic.rst:2577
+#: ../../../plus/debug-tools/blackmagic.rst:2584
+#: ../../../plus/debug-tools/blackmagic.rst:2591
+#: ../../../plus/debug-tools/blackmagic.rst:2598
+#: ../../../plus/debug-tools/blackmagic.rst:2605
+#: ../../../plus/debug-tools/blackmagic.rst:2612
+#: ../../../plus/debug-tools/blackmagic.rst:2619
+#: ../../../plus/debug-tools/blackmagic.rst:2626
+#: ../../../plus/debug-tools/blackmagic.rst:2633
+#: ../../../plus/debug-tools/blackmagic.rst:2640
+#: ../../../plus/debug-tools/blackmagic.rst:2647
+#: ../../../plus/debug-tools/blackmagic.rst:2654
+#: ../../../plus/debug-tools/blackmagic.rst:2682
+#: ../../../plus/debug-tools/blackmagic.rst:2689
+#: ../../../plus/debug-tools/blackmagic.rst:2920
+#: ../../../plus/debug-tools/blackmagic.rst:2997
+#: ../../../plus/debug-tools/blackmagic.rst:3053
+msgid "100MHz"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:255
+#: ../../../plus/debug-tools/blackmagic.rst:297
+#: ../../../plus/debug-tools/blackmagic.rst:311
+#: ../../../plus/debug-tools/blackmagic.rst:387
+#: ../../../plus/debug-tools/blackmagic.rst:408
+#: ../../../plus/debug-tools/blackmagic.rst:415
+#: ../../../plus/debug-tools/blackmagic.rst:429
+#: ../../../plus/debug-tools/blackmagic.rst:436
+#: ../../../plus/debug-tools/blackmagic.rst:457
+#: ../../../plus/debug-tools/blackmagic.rst:464
+#: ../../../plus/debug-tools/blackmagic.rst:471
+#: ../../../plus/debug-tools/blackmagic.rst:485
+#: ../../../plus/debug-tools/blackmagic.rst:492
+#: ../../../plus/debug-tools/blackmagic.rst:499
+#: ../../../plus/debug-tools/blackmagic.rst:506
+#: ../../../plus/debug-tools/blackmagic.rst:513
+#: ../../../plus/debug-tools/blackmagic.rst:520
+#: ../../../plus/debug-tools/blackmagic.rst:527
+#: ../../../plus/debug-tools/blackmagic.rst:534
+#: ../../../plus/debug-tools/blackmagic.rst:541
+#: ../../../plus/debug-tools/blackmagic.rst:569
+#: ../../../plus/debug-tools/blackmagic.rst:576
+#: ../../../plus/debug-tools/blackmagic.rst:583
+#: ../../../plus/debug-tools/blackmagic.rst:590
+#: ../../../plus/debug-tools/blackmagic.rst:597
+#: ../../../plus/debug-tools/blackmagic.rst:604
+#: ../../../plus/debug-tools/blackmagic.rst:611
+#: ../../../plus/debug-tools/blackmagic.rst:618
+#: ../../../plus/debug-tools/blackmagic.rst:625
+#: ../../../plus/debug-tools/blackmagic.rst:632
+#: ../../../plus/debug-tools/blackmagic.rst:639
+#: ../../../plus/debug-tools/blackmagic.rst:647
+#: ../../../plus/debug-tools/blackmagic.rst:660
+#: ../../../plus/debug-tools/blackmagic.rst:667
+#: ../../../plus/debug-tools/blackmagic.rst:674
+#: ../../../plus/debug-tools/blackmagic.rst:689
+#: ../../../plus/debug-tools/blackmagic.rst:702
+#: ../../../plus/debug-tools/blackmagic.rst:709
+#: ../../../plus/debug-tools/blackmagic.rst:716
+#: ../../../plus/debug-tools/blackmagic.rst:723
+#: ../../../plus/debug-tools/blackmagic.rst:752
+#: ../../../plus/debug-tools/blackmagic.rst:807
+#: ../../../plus/debug-tools/blackmagic.rst:842
+#: ../../../plus/debug-tools/blackmagic.rst:870
+#: ../../../plus/debug-tools/blackmagic.rst:898
+#: ../../../plus/debug-tools/blackmagic.rst:954
+#: ../../../plus/debug-tools/blackmagic.rst:969
+#: ../../../plus/debug-tools/blackmagic.rst:976
+#: ../../../plus/debug-tools/blackmagic.rst:1087
+#: ../../../plus/debug-tools/blackmagic.rst:1095
+#: ../../../plus/debug-tools/blackmagic.rst:1129
+#: ../../../plus/debug-tools/blackmagic.rst:1151
+#: ../../../plus/debug-tools/blackmagic.rst:1171
+#: ../../../plus/debug-tools/blackmagic.rst:1193
+#: ../../../plus/debug-tools/blackmagic.rst:1214
+#: ../../../plus/debug-tools/blackmagic.rst:1220
+#: ../../../plus/debug-tools/blackmagic.rst:1227
+#: ../../../plus/debug-tools/blackmagic.rst:1248
+#: ../../../plus/debug-tools/blackmagic.rst:1255
+#: ../../../plus/debug-tools/blackmagic.rst:1262
+#: ../../../plus/debug-tools/blackmagic.rst:1318
+#: ../../../plus/debug-tools/blackmagic.rst:1332
+#: ../../../plus/debug-tools/blackmagic.rst:1354
+#: ../../../plus/debug-tools/blackmagic.rst:1416
+#: ../../../plus/debug-tools/blackmagic.rst:1423
+#: ../../../plus/debug-tools/blackmagic.rst:1452
+#: ../../../plus/debug-tools/blackmagic.rst:1459
+#: ../../../plus/debug-tools/blackmagic.rst:1473
+#: ../../../plus/debug-tools/blackmagic.rst:1570
+#: ../../../plus/debug-tools/blackmagic.rst:1591
+#: ../../../plus/debug-tools/blackmagic.rst:1640
+#: ../../../plus/debug-tools/blackmagic.rst:1647
+#: ../../../plus/debug-tools/blackmagic.rst:1654
+#: ../../../plus/debug-tools/blackmagic.rst:1661
+#: ../../../plus/debug-tools/blackmagic.rst:1668
+#: ../../../plus/debug-tools/blackmagic.rst:1682
+#: ../../../plus/debug-tools/blackmagic.rst:1704
+#: ../../../plus/debug-tools/blackmagic.rst:1738
+#: ../../../plus/debug-tools/blackmagic.rst:1774
+#: ../../../plus/debug-tools/blackmagic.rst:1836
+#: ../../../plus/debug-tools/blackmagic.rst:1914
+#: ../../../plus/debug-tools/blackmagic.rst:1956
+#: ../../../plus/debug-tools/blackmagic.rst:2074
+#: ../../../plus/debug-tools/blackmagic.rst:2081
+#: ../../../plus/debug-tools/blackmagic.rst:2138
+#: ../../../plus/debug-tools/blackmagic.rst:2158
+#: ../../../plus/debug-tools/blackmagic.rst:2221
+#: ../../../plus/debug-tools/blackmagic.rst:2242
+#: ../../../plus/debug-tools/blackmagic.rst:2249
+#: ../../../plus/debug-tools/blackmagic.rst:2319
+#: ../../../plus/debug-tools/blackmagic.rst:2396
+#: ../../../plus/debug-tools/blackmagic.rst:2431
+#: ../../../plus/debug-tools/blackmagic.rst:2473
+#: ../../../plus/debug-tools/blackmagic.rst:2487
+#: ../../../plus/debug-tools/blackmagic.rst:2515
+#: ../../../plus/debug-tools/blackmagic.rst:2578
+#: ../../../plus/debug-tools/blackmagic.rst:2592
+#: ../../../plus/debug-tools/blackmagic.rst:2607
+#: ../../../plus/debug-tools/blackmagic.rst:2614
+#: ../../../plus/debug-tools/blackmagic.rst:2621
+#: ../../../plus/debug-tools/blackmagic.rst:2628
+#: ../../../plus/debug-tools/blackmagic.rst:2697
+#: ../../../plus/debug-tools/blackmagic.rst:2746
+#: ../../../plus/debug-tools/blackmagic.rst:2774
+#: ../../../plus/debug-tools/blackmagic.rst:2782
+#: ../../../plus/debug-tools/blackmagic.rst:2788
+#: ../../../plus/debug-tools/blackmagic.rst:2795
+#: ../../../plus/debug-tools/blackmagic.rst:2802
+#: ../../../plus/debug-tools/blackmagic.rst:2816
+#: ../../../plus/debug-tools/blackmagic.rst:2823
+#: ../../../plus/debug-tools/blackmagic.rst:2844
+#: ../../../plus/debug-tools/blackmagic.rst:2851
+#: ../../../plus/debug-tools/blackmagic.rst:2865
+#: ../../../plus/debug-tools/blackmagic.rst:2872
+#: ../../../plus/debug-tools/blackmagic.rst:2879
+#: ../../../plus/debug-tools/blackmagic.rst:2886
+#: ../../../plus/debug-tools/blackmagic.rst:2893
+#: ../../../plus/debug-tools/blackmagic.rst:2900
+#: ../../../plus/debug-tools/blackmagic.rst:2929
+#: ../../../plus/debug-tools/blackmagic.rst:2942
+#: ../../../plus/debug-tools/blackmagic.rst:2977
+#: ../../../plus/debug-tools/blackmagic.rst:2991
+#: ../../../plus/debug-tools/blackmagic.rst:3047
+#: ../../../plus/debug-tools/blackmagic.rst:3062
+#: ../../../plus/debug-tools/blackmagic.rst:3069
+#: ../../../plus/debug-tools/blackmagic.rst:3076
+#: ../../../plus/debug-tools/blackmagic.rst:3083
+#: ../../../plus/debug-tools/blackmagic.rst:3097
+#: ../../../plus/debug-tools/blackmagic.rst:3104
+msgid "256KB"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:256
+msgid ":ref:`board_ststm32_disco_f723ie`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:259
+msgid "STM32F723IEK6"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:260
+#: ../../../plus/debug-tools/blackmagic.rst:281
+#: ../../../plus/debug-tools/blackmagic.rst:1716
+#: ../../../plus/debug-tools/blackmagic.rst:1723
+#: ../../../plus/debug-tools/blackmagic.rst:1954
+#: ../../../plus/debug-tools/blackmagic.rst:1961
+#: ../../../plus/debug-tools/blackmagic.rst:1968
+#: ../../../plus/debug-tools/blackmagic.rst:1975
+#: ../../../plus/debug-tools/blackmagic.rst:2710
+msgid "216MHz"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:261
+#: ../../../plus/debug-tools/blackmagic.rst:268
+#: ../../../plus/debug-tools/blackmagic.rst:275
+#: ../../../plus/debug-tools/blackmagic.rst:283
+#: ../../../plus/debug-tools/blackmagic.rst:289
+#: ../../../plus/debug-tools/blackmagic.rst:303
+#: ../../../plus/debug-tools/blackmagic.rst:317
+#: ../../../plus/debug-tools/blackmagic.rst:324
+#: ../../../plus/debug-tools/blackmagic.rst:394
+#: ../../../plus/debug-tools/blackmagic.rst:555
+#: ../../../plus/debug-tools/blackmagic.rst:562
+#: ../../../plus/debug-tools/blackmagic.rst:695
+#: ../../../plus/debug-tools/blackmagic.rst:730
+#: ../../../plus/debug-tools/blackmagic.rst:737
+#: ../../../plus/debug-tools/blackmagic.rst:744
+#: ../../../plus/debug-tools/blackmagic.rst:765
+#: ../../../plus/debug-tools/blackmagic.rst:772
+#: ../../../plus/debug-tools/blackmagic.rst:779
+#: ../../../plus/debug-tools/blackmagic.rst:814
+#: ../../../plus/debug-tools/blackmagic.rst:863
+#: ../../../plus/debug-tools/blackmagic.rst:877
+#: ../../../plus/debug-tools/blackmagic.rst:912
+#: ../../../plus/debug-tools/blackmagic.rst:927
+#: ../../../plus/debug-tools/blackmagic.rst:933
+#: ../../../plus/debug-tools/blackmagic.rst:940
+#: ../../../plus/debug-tools/blackmagic.rst:983
+#: ../../../plus/debug-tools/blackmagic.rst:990
+#: ../../../plus/debug-tools/blackmagic.rst:997
+#: ../../../plus/debug-tools/blackmagic.rst:1017
+#: ../../../plus/debug-tools/blackmagic.rst:1031
+#: ../../../plus/debug-tools/blackmagic.rst:1038
+#: ../../../plus/debug-tools/blackmagic.rst:1066
+#: ../../../plus/debug-tools/blackmagic.rst:1101
+#: ../../../plus/debug-tools/blackmagic.rst:1122
+#: ../../../plus/debug-tools/blackmagic.rst:1136
+#: ../../../plus/debug-tools/blackmagic.rst:1143
+#: ../../../plus/debug-tools/blackmagic.rst:1234
+#: ../../../plus/debug-tools/blackmagic.rst:1241
+#: ../../../plus/debug-tools/blackmagic.rst:1311
+#: ../../../plus/debug-tools/blackmagic.rst:1325
+#: ../../../plus/debug-tools/blackmagic.rst:1339
+#: ../../../plus/debug-tools/blackmagic.rst:1346
+#: ../../../plus/debug-tools/blackmagic.rst:1395
+#: ../../../plus/debug-tools/blackmagic.rst:1402
+#: ../../../plus/debug-tools/blackmagic.rst:1444
+#: ../../../plus/debug-tools/blackmagic.rst:1472
+#: ../../../plus/debug-tools/blackmagic.rst:1479
+#: ../../../plus/debug-tools/blackmagic.rst:1486
+#: ../../../plus/debug-tools/blackmagic.rst:1521
+#: ../../../plus/debug-tools/blackmagic.rst:1549
+#: ../../../plus/debug-tools/blackmagic.rst:1577
+#: ../../../plus/debug-tools/blackmagic.rst:1584
+#: ../../../plus/debug-tools/blackmagic.rst:1598
+#: ../../../plus/debug-tools/blackmagic.rst:1612
+#: ../../../plus/debug-tools/blackmagic.rst:1619
+#: ../../../plus/debug-tools/blackmagic.rst:1634
+#: ../../../plus/debug-tools/blackmagic.rst:1689
+#: ../../../plus/debug-tools/blackmagic.rst:1725
+#: ../../../plus/debug-tools/blackmagic.rst:1871
+#: ../../../plus/debug-tools/blackmagic.rst:1878
+#: ../../../plus/debug-tools/blackmagic.rst:1892
+#: ../../../plus/debug-tools/blackmagic.rst:1906
+#: ../../../plus/debug-tools/blackmagic.rst:1941
+#: ../../../plus/debug-tools/blackmagic.rst:1948
+#: ../../../plus/debug-tools/blackmagic.rst:1955
+#: ../../../plus/debug-tools/blackmagic.rst:1977
+#: ../../../plus/debug-tools/blackmagic.rst:1983
+#: ../../../plus/debug-tools/blackmagic.rst:1998
+#: ../../../plus/debug-tools/blackmagic.rst:2005
+#: ../../../plus/debug-tools/blackmagic.rst:2012
+#: ../../../plus/debug-tools/blackmagic.rst:2053
+#: ../../../plus/debug-tools/blackmagic.rst:2088
+#: ../../../plus/debug-tools/blackmagic.rst:2130
+#: ../../../plus/debug-tools/blackmagic.rst:2333
+#: ../../../plus/debug-tools/blackmagic.rst:2410
+#: ../../../plus/debug-tools/blackmagic.rst:2445
+#: ../../../plus/debug-tools/blackmagic.rst:2501
+#: ../../../plus/debug-tools/blackmagic.rst:2529
+#: ../../../plus/debug-tools/blackmagic.rst:2585
+#: ../../../plus/debug-tools/blackmagic.rst:2599
+#: ../../../plus/debug-tools/blackmagic.rst:2606
+#: ../../../plus/debug-tools/blackmagic.rst:2620
+#: ../../../plus/debug-tools/blackmagic.rst:2669
+#: ../../../plus/debug-tools/blackmagic.rst:2704
+#: ../../../plus/debug-tools/blackmagic.rst:2733
+#: ../../../plus/debug-tools/blackmagic.rst:2740
+#: ../../../plus/debug-tools/blackmagic.rst:2753
+#: ../../../plus/debug-tools/blackmagic.rst:2760
+#: ../../../plus/debug-tools/blackmagic.rst:2767
+#: ../../../plus/debug-tools/blackmagic.rst:2907
+#: ../../../plus/debug-tools/blackmagic.rst:2921
+#: ../../../plus/debug-tools/blackmagic.rst:2949
+#: ../../../plus/debug-tools/blackmagic.rst:2956
+#: ../../../plus/debug-tools/blackmagic.rst:2970
+#: ../../../plus/debug-tools/blackmagic.rst:2984
+#: ../../../plus/debug-tools/blackmagic.rst:2998
+#: ../../../plus/debug-tools/blackmagic.rst:3005
+#: ../../../plus/debug-tools/blackmagic.rst:3013
+#: ../../../plus/debug-tools/blackmagic.rst:3019
+#: ../../../plus/debug-tools/blackmagic.rst:3033
+#: ../../../plus/debug-tools/blackmagic.rst:3040
+#: ../../../plus/debug-tools/blackmagic.rst:3089
+msgid "512KB"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:262
+#: ../../../plus/debug-tools/blackmagic.rst:331
+#: ../../../plus/debug-tools/blackmagic.rst:682
+#: ../../../plus/debug-tools/blackmagic.rst:696
+#: ../../../plus/debug-tools/blackmagic.rst:884
+#: ../../../plus/debug-tools/blackmagic.rst:905
+#: ../../../plus/debug-tools/blackmagic.rst:961
+#: ../../../plus/debug-tools/blackmagic.rst:1052
+#: ../../../plus/debug-tools/blackmagic.rst:1059
+#: ../../../plus/debug-tools/blackmagic.rst:1123
+#: ../../../plus/debug-tools/blackmagic.rst:1445
+#: ../../../plus/debug-tools/blackmagic.rst:1780
+#: ../../../plus/debug-tools/blackmagic.rst:1928
+#: ../../../plus/debug-tools/blackmagic.rst:1935
+#: ../../../plus/debug-tools/blackmagic.rst:2046
+#: ../../../plus/debug-tools/blackmagic.rst:2131
+#: ../../../plus/debug-tools/blackmagic.rst:2186
+#: ../../../plus/debug-tools/blackmagic.rst:2768
+#: ../../../plus/debug-tools/blackmagic.rst:2810
+#: ../../../plus/debug-tools/blackmagic.rst:2914
+msgid "192KB"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:263
+msgid ":ref:`board_ststm32_armed_v1`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:266
+#: ../../../plus/debug-tools/blackmagic.rst:693
+#: ../../../plus/debug-tools/blackmagic.rst:763
+#: ../../../plus/debug-tools/blackmagic.rst:812
+#: ../../../plus/debug-tools/blackmagic.rst:1029
+#: ../../../plus/debug-tools/blackmagic.rst:1519
+#: ../../../plus/debug-tools/blackmagic.rst:1554
+#: ../../../plus/debug-tools/blackmagic.rst:2765
+msgid "STM32F407VET6"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:270
+msgid ":ref:`board_ststm32_rumba32_f446ve`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:273
+#: ../../../plus/debug-tools/blackmagic.rst:1939
+#: ../../../plus/debug-tools/blackmagic.rst:2702
+#: ../../../plus/debug-tools/blackmagic.rst:2947
+msgid "STM32F446RET6"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:274
+#: ../../../plus/debug-tools/blackmagic.rst:337
+#: ../../../plus/debug-tools/blackmagic.rst:372
+#: ../../../plus/debug-tools/blackmagic.rst:379
+#: ../../../plus/debug-tools/blackmagic.rst:1702
+#: ../../../plus/debug-tools/blackmagic.rst:1709
+#: ../../../plus/debug-tools/blackmagic.rst:1926
+#: ../../../plus/debug-tools/blackmagic.rst:1933
+#: ../../../plus/debug-tools/blackmagic.rst:1940
+#: ../../../plus/debug-tools/blackmagic.rst:1947
+#: ../../../plus/debug-tools/blackmagic.rst:2696
+#: ../../../plus/debug-tools/blackmagic.rst:2703
+#: ../../../plus/debug-tools/blackmagic.rst:2780
+#: ../../../plus/debug-tools/blackmagic.rst:2948
+#: ../../../plus/debug-tools/blackmagic.rst:3067
+#: ../../../plus/debug-tools/blackmagic.rst:3074
+#: ../../../plus/debug-tools/blackmagic.rst:3081
+msgid "180MHz"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:277
+msgid ":ref:`board_ststm32_remram_v1`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:280
+msgid "STM32F765VIT6"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:282
+#: ../../../plus/debug-tools/blackmagic.rst:849
+#: ../../../plus/debug-tools/blackmagic.rst:856
+#: ../../../plus/debug-tools/blackmagic.rst:926
+#: ../../../plus/debug-tools/blackmagic.rst:1192
+#: ../../../plus/debug-tools/blackmagic.rst:1633
+#: ../../../plus/debug-tools/blackmagic.rst:1703
+#: ../../../plus/debug-tools/blackmagic.rst:1710
+#: ../../../plus/debug-tools/blackmagic.rst:1724
+#: ../../../plus/debug-tools/blackmagic.rst:1773
+#: ../../../plus/debug-tools/blackmagic.rst:1927
+#: ../../../plus/debug-tools/blackmagic.rst:1934
+#: ../../../plus/debug-tools/blackmagic.rst:1976
+#: ../../../plus/debug-tools/blackmagic.rst:1997
+#: ../../../plus/debug-tools/blackmagic.rst:2011
+#: ../../../plus/debug-tools/blackmagic.rst:2123
+#: ../../../plus/debug-tools/blackmagic.rst:2137
+#: ../../../plus/debug-tools/blackmagic.rst:2193
+#: ../../../plus/debug-tools/blackmagic.rst:2732
+#: ../../../plus/debug-tools/blackmagic.rst:2781
+#: ../../../plus/debug-tools/blackmagic.rst:2830
+#: ../../../plus/debug-tools/blackmagic.rst:3012
+#: ../../../plus/debug-tools/blackmagic.rst:3096
+#: ../../../plus/debug-tools/blackmagic.rst:3103
+msgid "2MB"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:284
+msgid ":ref:`board_ststm32_st3dp001_eval`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:287
+msgid "STM32F401VET6"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:288
+#: ../../../plus/debug-tools/blackmagic.rst:554
+#: ../../../plus/debug-tools/blackmagic.rst:561
+#: ../../../plus/debug-tools/blackmagic.rst:897
+#: ../../../plus/debug-tools/blackmagic.rst:939
+#: ../../../plus/debug-tools/blackmagic.rst:1478
+#: ../../../plus/debug-tools/blackmagic.rst:1597
+#: ../../../plus/debug-tools/blackmagic.rst:1681
+#: ../../../plus/debug-tools/blackmagic.rst:1891
+#: ../../../plus/debug-tools/blackmagic.rst:2220
+#: ../../../plus/debug-tools/blackmagic.rst:2479
+#: ../../../plus/debug-tools/blackmagic.rst:2486
+#: ../../../plus/debug-tools/blackmagic.rst:2493
+#: ../../../plus/debug-tools/blackmagic.rst:2500
+#: ../../../plus/debug-tools/blackmagic.rst:2507
+#: ../../../plus/debug-tools/blackmagic.rst:2514
+#: ../../../plus/debug-tools/blackmagic.rst:2521
+#: ../../../plus/debug-tools/blackmagic.rst:2528
+#: ../../../plus/debug-tools/blackmagic.rst:2752
+#: ../../../plus/debug-tools/blackmagic.rst:2759
+#: ../../../plus/debug-tools/blackmagic.rst:2990
+#: ../../../plus/debug-tools/blackmagic.rst:3004
+msgid "84MHz"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:290
+#: ../../../plus/debug-tools/blackmagic.rst:556
+#: ../../../plus/debug-tools/blackmagic.rst:563
+#: ../../../plus/debug-tools/blackmagic.rst:941
+#: ../../../plus/debug-tools/blackmagic.rst:1276
+#: ../../../plus/debug-tools/blackmagic.rst:1480
+#: ../../../plus/debug-tools/blackmagic.rst:1599
+#: ../../../plus/debug-tools/blackmagic.rst:1767
+#: ../../../plus/debug-tools/blackmagic.rst:1893
+#: ../../../plus/debug-tools/blackmagic.rst:2096
+#: ../../../plus/debug-tools/blackmagic.rst:2341
+#: ../../../plus/debug-tools/blackmagic.rst:2348
+#: ../../../plus/debug-tools/blackmagic.rst:2418
+#: ../../../plus/debug-tools/blackmagic.rst:2425
+#: ../../../plus/debug-tools/blackmagic.rst:2453
+#: ../../../plus/debug-tools/blackmagic.rst:2460
+#: ../../../plus/debug-tools/blackmagic.rst:2495
+#: ../../../plus/debug-tools/blackmagic.rst:2502
+#: ../../../plus/debug-tools/blackmagic.rst:2523
+#: ../../../plus/debug-tools/blackmagic.rst:2530
+#: ../../../plus/debug-tools/blackmagic.rst:2754
+#: ../../../plus/debug-tools/blackmagic.rst:2761
+#: ../../../plus/debug-tools/blackmagic.rst:3006
+msgid "96KB"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:291
+msgid ":ref:`board_ststm32_b96b_argonkey`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:294
+msgid "STM32F412CG"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:298
+msgid ":ref:`board_ststm32_b96b_f446ve`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:301
+#: ../../../plus/debug-tools/blackmagic.rst:1036
+msgid "STM32F446VET6"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:305
+msgid ":ref:`board_ststm32_b96b_aerocore2`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:308
+#: ../../../plus/debug-tools/blackmagic.rst:686
+msgid "STM32F427VIT6"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:310
+#: ../../../plus/debug-tools/blackmagic.rst:688
+msgid "1.99MB"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:312
+msgid ":ref:`board_ststm32_b96b_neonkey`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:315
+msgid "STM32F411CE"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:319
+msgid ":ref:`board_nordicnrf52_96b_nitrogen`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:322
+#: ../../../plus/debug-tools/blackmagic.rst:392
+#: ../../../plus/debug-tools/blackmagic.rst:651
+#: ../../../plus/debug-tools/blackmagic.rst:735
+#: ../../../plus/debug-tools/blackmagic.rst:861
+#: ../../../plus/debug-tools/blackmagic.rst:910
+#: ../../../plus/debug-tools/blackmagic.rst:1064
+#: ../../../plus/debug-tools/blackmagic.rst:1141
+#: ../../../plus/debug-tools/blackmagic.rst:1323
+#: ../../../plus/debug-tools/blackmagic.rst:1337
+#: ../../../plus/debug-tools/blackmagic.rst:1575
+#: ../../../plus/debug-tools/blackmagic.rst:1582
+#: ../../../plus/debug-tools/blackmagic.rst:1610
+#: ../../../plus/debug-tools/blackmagic.rst:1617
+#: ../../../plus/debug-tools/blackmagic.rst:2905
+#: ../../../plus/debug-tools/blackmagic.rst:2968
+#: ../../../plus/debug-tools/blackmagic.rst:3031
+#: ../../../plus/debug-tools/blackmagic.rst:3038
+#: ../../../plus/debug-tools/blackmagic.rst:3087
+msgid "NRF52832"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:323
+#: ../../../plus/debug-tools/blackmagic.rst:393
+#: ../../../plus/debug-tools/blackmagic.rst:400
+#: ../../../plus/debug-tools/blackmagic.rst:421
+#: ../../../plus/debug-tools/blackmagic.rst:449
+#: ../../../plus/debug-tools/blackmagic.rst:477
+#: ../../../plus/debug-tools/blackmagic.rst:645
+#: ../../../plus/debug-tools/blackmagic.rst:652
+#: ../../../plus/debug-tools/blackmagic.rst:729
+#: ../../../plus/debug-tools/blackmagic.rst:736
+#: ../../../plus/debug-tools/blackmagic.rst:743
+#: ../../../plus/debug-tools/blackmagic.rst:750
+#: ../../../plus/debug-tools/blackmagic.rst:757
+#: ../../../plus/debug-tools/blackmagic.rst:862
+#: ../../../plus/debug-tools/blackmagic.rst:876
+#: ../../../plus/debug-tools/blackmagic.rst:890
+#: ../../../plus/debug-tools/blackmagic.rst:911
+#: ../../../plus/debug-tools/blackmagic.rst:967
+#: ../../../plus/debug-tools/blackmagic.rst:974
+#: ../../../plus/debug-tools/blackmagic.rst:1065
+#: ../../../plus/debug-tools/blackmagic.rst:1072
+#: ../../../plus/debug-tools/blackmagic.rst:1093
+#: ../../../plus/debug-tools/blackmagic.rst:1121
+#: ../../../plus/debug-tools/blackmagic.rst:1142
+#: ../../../plus/debug-tools/blackmagic.rst:1149
+#: ../../../plus/debug-tools/blackmagic.rst:1198
+#: ../../../plus/debug-tools/blackmagic.rst:1324
+#: ../../../plus/debug-tools/blackmagic.rst:1338
+#: ../../../plus/debug-tools/blackmagic.rst:1345
+#: ../../../plus/debug-tools/blackmagic.rst:1352
+#: ../../../plus/debug-tools/blackmagic.rst:1359
+#: ../../../plus/debug-tools/blackmagic.rst:1366
+#: ../../../plus/debug-tools/blackmagic.rst:1373
+#: ../../../plus/debug-tools/blackmagic.rst:1443
+#: ../../../plus/debug-tools/blackmagic.rst:1450
+#: ../../../plus/debug-tools/blackmagic.rst:1457
+#: ../../../plus/debug-tools/blackmagic.rst:1492
+#: ../../../plus/debug-tools/blackmagic.rst:1499
+#: ../../../plus/debug-tools/blackmagic.rst:1506
+#: ../../../plus/debug-tools/blackmagic.rst:1562
+#: ../../../plus/debug-tools/blackmagic.rst:1576
+#: ../../../plus/debug-tools/blackmagic.rst:1583
+#: ../../../plus/debug-tools/blackmagic.rst:1611
+#: ../../../plus/debug-tools/blackmagic.rst:1618
+#: ../../../plus/debug-tools/blackmagic.rst:1793
+#: ../../../plus/debug-tools/blackmagic.rst:1982
+#: ../../../plus/debug-tools/blackmagic.rst:2171
+#: ../../../plus/debug-tools/blackmagic.rst:2178
+#: ../../../plus/debug-tools/blackmagic.rst:2836
+#: ../../../plus/debug-tools/blackmagic.rst:2906
+#: ../../../plus/debug-tools/blackmagic.rst:2969
+#: ../../../plus/debug-tools/blackmagic.rst:3032
+#: ../../../plus/debug-tools/blackmagic.rst:3039
+#: ../../../plus/debug-tools/blackmagic.rst:3060
+#: ../../../plus/debug-tools/blackmagic.rst:3088
+msgid "64MHz"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:325
+#: ../../../plus/debug-tools/blackmagic.rst:367
+#: ../../../plus/debug-tools/blackmagic.rst:395
+#: ../../../plus/debug-tools/blackmagic.rst:738
+#: ../../../plus/debug-tools/blackmagic.rst:793
+#: ../../../plus/debug-tools/blackmagic.rst:828
+#: ../../../plus/debug-tools/blackmagic.rst:843
+#: ../../../plus/debug-tools/blackmagic.rst:864
+#: ../../../plus/debug-tools/blackmagic.rst:899
+#: ../../../plus/debug-tools/blackmagic.rst:913
+#: ../../../plus/debug-tools/blackmagic.rst:1010
+#: ../../../plus/debug-tools/blackmagic.rst:1067
+#: ../../../plus/debug-tools/blackmagic.rst:1144
+#: ../../../plus/debug-tools/blackmagic.rst:1269
+#: ../../../plus/debug-tools/blackmagic.rst:1312
+#: ../../../plus/debug-tools/blackmagic.rst:1326
+#: ../../../plus/debug-tools/blackmagic.rst:1340
+#: ../../../plus/debug-tools/blackmagic.rst:1542
+#: ../../../plus/debug-tools/blackmagic.rst:1550
+#: ../../../plus/debug-tools/blackmagic.rst:1578
+#: ../../../plus/debug-tools/blackmagic.rst:1585
+#: ../../../plus/debug-tools/blackmagic.rst:1613
+#: ../../../plus/debug-tools/blackmagic.rst:1620
+#: ../../../plus/debug-tools/blackmagic.rst:1626
+#: ../../../plus/debug-tools/blackmagic.rst:1675
+#: ../../../plus/debug-tools/blackmagic.rst:1683
+#: ../../../plus/debug-tools/blackmagic.rst:1731
+#: ../../../plus/debug-tools/blackmagic.rst:1794
+#: ../../../plus/debug-tools/blackmagic.rst:1801
+#: ../../../plus/debug-tools/blackmagic.rst:1857
+#: ../../../plus/debug-tools/blackmagic.rst:1864
+#: ../../../plus/debug-tools/blackmagic.rst:1872
+#: ../../../plus/debug-tools/blackmagic.rst:1879
+#: ../../../plus/debug-tools/blackmagic.rst:1885
+#: ../../../plus/debug-tools/blackmagic.rst:2039
+#: ../../../plus/debug-tools/blackmagic.rst:2075
+#: ../../../plus/debug-tools/blackmagic.rst:2082
+#: ../../../plus/debug-tools/blackmagic.rst:2144
+#: ../../../plus/debug-tools/blackmagic.rst:2151
+#: ../../../plus/debug-tools/blackmagic.rst:2222
+#: ../../../plus/debug-tools/blackmagic.rst:2243
+#: ../../../plus/debug-tools/blackmagic.rst:2277
+#: ../../../plus/debug-tools/blackmagic.rst:2305
+#: ../../../plus/debug-tools/blackmagic.rst:2327
+#: ../../../plus/debug-tools/blackmagic.rst:2334
+#: ../../../plus/debug-tools/blackmagic.rst:2368
+#: ../../../plus/debug-tools/blackmagic.rst:2382
+#: ../../../plus/debug-tools/blackmagic.rst:2404
+#: ../../../plus/debug-tools/blackmagic.rst:2411
+#: ../../../plus/debug-tools/blackmagic.rst:2439
+#: ../../../plus/debug-tools/blackmagic.rst:2446
+#: ../../../plus/debug-tools/blackmagic.rst:2481
+#: ../../../plus/debug-tools/blackmagic.rst:2488
+#: ../../../plus/debug-tools/blackmagic.rst:2509
+#: ../../../plus/debug-tools/blackmagic.rst:2516
+#: ../../../plus/debug-tools/blackmagic.rst:2550
+#: ../../../plus/debug-tools/blackmagic.rst:2564
+#: ../../../plus/debug-tools/blackmagic.rst:2711
+#: ../../../plus/debug-tools/blackmagic.rst:2908
+#: ../../../plus/debug-tools/blackmagic.rst:2957
+#: ../../../plus/debug-tools/blackmagic.rst:2971
+#: ../../../plus/debug-tools/blackmagic.rst:2985
+#: ../../../plus/debug-tools/blackmagic.rst:2992
+#: ../../../plus/debug-tools/blackmagic.rst:3034
+#: ../../../plus/debug-tools/blackmagic.rst:3041
+#: ../../../plus/debug-tools/blackmagic.rst:3090
+msgid "64KB"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:326
+msgid ":ref:`board_ststm32_acsip_s76s`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:329
+#: ../../../plus/debug-tools/blackmagic.rst:2044
+msgid "STM32L073RZ"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:330
+#: ../../../plus/debug-tools/blackmagic.rst:869
+#: ../../../plus/debug-tools/blackmagic.rst:883
+#: ../../../plus/debug-tools/blackmagic.rst:904
+#: ../../../plus/debug-tools/blackmagic.rst:960
+#: ../../../plus/debug-tools/blackmagic.rst:1051
+#: ../../../plus/debug-tools/blackmagic.rst:1058
+#: ../../../plus/debug-tools/blackmagic.rst:1247
+#: ../../../plus/debug-tools/blackmagic.rst:1254
+#: ../../../plus/debug-tools/blackmagic.rst:1317
+#: ../../../plus/debug-tools/blackmagic.rst:1331
+#: ../../../plus/debug-tools/blackmagic.rst:1415
+#: ../../../plus/debug-tools/blackmagic.rst:1513
+#: ../../../plus/debug-tools/blackmagic.rst:1527
+#: ../../../plus/debug-tools/blackmagic.rst:1534
+#: ../../../plus/debug-tools/blackmagic.rst:1541
+#: ../../../plus/debug-tools/blackmagic.rst:1730
+#: ../../../plus/debug-tools/blackmagic.rst:1737
+#: ../../../plus/debug-tools/blackmagic.rst:1779
+#: ../../../plus/debug-tools/blackmagic.rst:2017
+#: ../../../plus/debug-tools/blackmagic.rst:2024
+#: ../../../plus/debug-tools/blackmagic.rst:2031
+#: ../../../plus/debug-tools/blackmagic.rst:2038
+#: ../../../plus/debug-tools/blackmagic.rst:2045
+#: ../../../plus/debug-tools/blackmagic.rst:2052
+#: ../../../plus/debug-tools/blackmagic.rst:2185
+#: ../../../plus/debug-tools/blackmagic.rst:2199
+#: ../../../plus/debug-tools/blackmagic.rst:2843
+#: ../../../plus/debug-tools/blackmagic.rst:2913
+#: ../../../plus/debug-tools/blackmagic.rst:2976
+msgid "32MHz"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:332
+#: ../../../plus/debug-tools/blackmagic.rst:549
+#: ../../../plus/debug-tools/blackmagic.rst:794
+#: ../../../plus/debug-tools/blackmagic.rst:801
+#: ../../../plus/debug-tools/blackmagic.rst:829
+#: ../../../plus/debug-tools/blackmagic.rst:836
+#: ../../../plus/debug-tools/blackmagic.rst:885
+#: ../../../plus/debug-tools/blackmagic.rst:906
+#: ../../../plus/debug-tools/blackmagic.rst:962
+#: ../../../plus/debug-tools/blackmagic.rst:1053
+#: ../../../plus/debug-tools/blackmagic.rst:1060
+#: ../../../plus/debug-tools/blackmagic.rst:1158
+#: ../../../plus/debug-tools/blackmagic.rst:1179
+#: ../../../plus/debug-tools/blackmagic.rst:1186
+#: ../../../plus/debug-tools/blackmagic.rst:1207
+#: ../../../plus/debug-tools/blackmagic.rst:1410
+#: ../../../plus/debug-tools/blackmagic.rst:1431
+#: ../../../plus/debug-tools/blackmagic.rst:1515
+#: ../../../plus/debug-tools/blackmagic.rst:1781
+#: ../../../plus/debug-tools/blackmagic.rst:1844
+#: ../../../plus/debug-tools/blackmagic.rst:2019
+#: ../../../plus/debug-tools/blackmagic.rst:2047
+#: ../../../plus/debug-tools/blackmagic.rst:2187
+#: ../../../plus/debug-tools/blackmagic.rst:2278
+#: ../../../plus/debug-tools/blackmagic.rst:2285
+#: ../../../plus/debug-tools/blackmagic.rst:2306
+#: ../../../plus/debug-tools/blackmagic.rst:2313
+#: ../../../plus/debug-tools/blackmagic.rst:2369
+#: ../../../plus/debug-tools/blackmagic.rst:2376
+#: ../../../plus/debug-tools/blackmagic.rst:2383
+#: ../../../plus/debug-tools/blackmagic.rst:2390
+#: ../../../plus/debug-tools/blackmagic.rst:2915
+#: ../../../plus/debug-tools/blackmagic.rst:2936
+msgid "20KB"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:333
+msgid ":ref:`board_aceinna_imu_LowCostRTK`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:336
+#: ../../../plus/debug-tools/blackmagic.rst:1708
+msgid "STM32F469NIH6"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:339
+#: ../../../plus/debug-tools/blackmagic.rst:374
+#: ../../../plus/debug-tools/blackmagic.rst:381
+#: ../../../plus/debug-tools/blackmagic.rst:1711
+#: ../../../plus/debug-tools/blackmagic.rst:2326
+#: ../../../plus/debug-tools/blackmagic.rst:2403
+#: ../../../plus/debug-tools/blackmagic.rst:2438
+#: ../../../plus/debug-tools/blackmagic.rst:2494
+#: ../../../plus/debug-tools/blackmagic.rst:2522
+msgid "384KB"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:340
+msgid ":ref:`board_aceinna_imu_OpenIMU335`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:343
+#: ../../../plus/debug-tools/blackmagic.rst:350
+#: ../../../plus/debug-tools/blackmagic.rst:357
+msgid "STM32F405RG"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:344
+#: ../../../plus/debug-tools/blackmagic.rst:351
+#: ../../../plus/debug-tools/blackmagic.rst:358
+#: ../../../plus/debug-tools/blackmagic.rst:848
+#: ../../../plus/debug-tools/blackmagic.rst:855
+#: ../../../plus/debug-tools/blackmagic.rst:1849
+#: ../../../plus/debug-tools/blackmagic.rst:2122
+#: ../../../plus/debug-tools/blackmagic.rst:2808
+#: ../../../plus/debug-tools/blackmagic.rst:2829
+msgid "120MHz"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:347
+msgid ":ref:`board_aceinna_imu_OpenIMU300`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:354
+msgid ":ref:`board_aceinna_imu_OpenIMU300ZA`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:361
+msgid ":ref:`board_aceinna_imu_OpenIMU330`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:364
+msgid "STM32L431CB"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:365
+#: ../../../plus/debug-tools/blackmagic.rst:841
+#: ../../../plus/debug-tools/blackmagic.rst:1079
+#: ../../../plus/debug-tools/blackmagic.rst:1100
+#: ../../../plus/debug-tools/blackmagic.rst:1604
+#: ../../../plus/debug-tools/blackmagic.rst:1744
+#: ../../../plus/debug-tools/blackmagic.rst:1751
+#: ../../../plus/debug-tools/blackmagic.rst:1765
+#: ../../../plus/debug-tools/blackmagic.rst:2059
+#: ../../../plus/debug-tools/blackmagic.rst:2066
+#: ../../../plus/debug-tools/blackmagic.rst:2073
+#: ../../../plus/debug-tools/blackmagic.rst:2080
+#: ../../../plus/debug-tools/blackmagic.rst:2087
+#: ../../../plus/debug-tools/blackmagic.rst:2094
+#: ../../../plus/debug-tools/blackmagic.rst:2101
+#: ../../../plus/debug-tools/blackmagic.rst:2108
+#: ../../../plus/debug-tools/blackmagic.rst:2115
+#: ../../../plus/debug-tools/blackmagic.rst:2129
+#: ../../../plus/debug-tools/blackmagic.rst:2192
+#: ../../../plus/debug-tools/blackmagic.rst:2213
+msgid "80MHz"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:368
+msgid ":ref:`board_aceinna_imu_OpenRTK`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:371
+#: ../../../plus/debug-tools/blackmagic.rst:378
+msgid "STM32F469IG"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:375
+msgid ":ref:`board_aceinna_imu_OpenRTK330L`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:382
+msgid ":ref:`board_atmelsam_adafruit_blm_badge`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:385
+#: ../../../plus/debug-tools/blackmagic.rst:455
+#: ../../../plus/debug-tools/blackmagic.rst:490
+#: ../../../plus/debug-tools/blackmagic.rst:497
+#: ../../../plus/debug-tools/blackmagic.rst:504
+#: ../../../plus/debug-tools/blackmagic.rst:511
+#: ../../../plus/debug-tools/blackmagic.rst:518
+#: ../../../plus/debug-tools/blackmagic.rst:525
+#: ../../../plus/debug-tools/blackmagic.rst:532
+#: ../../../plus/debug-tools/blackmagic.rst:539
+#: ../../../plus/debug-tools/blackmagic.rst:2863
+msgid "SAMD21E18A"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:386
+#: ../../../plus/debug-tools/blackmagic.rst:407
+#: ../../../plus/debug-tools/blackmagic.rst:414
+#: ../../../plus/debug-tools/blackmagic.rst:428
+#: ../../../plus/debug-tools/blackmagic.rst:435
+#: ../../../plus/debug-tools/blackmagic.rst:456
+#: ../../../plus/debug-tools/blackmagic.rst:463
+#: ../../../plus/debug-tools/blackmagic.rst:470
+#: ../../../plus/debug-tools/blackmagic.rst:484
+#: ../../../plus/debug-tools/blackmagic.rst:491
+#: ../../../plus/debug-tools/blackmagic.rst:498
+#: ../../../plus/debug-tools/blackmagic.rst:505
+#: ../../../plus/debug-tools/blackmagic.rst:512
+#: ../../../plus/debug-tools/blackmagic.rst:519
+#: ../../../plus/debug-tools/blackmagic.rst:526
+#: ../../../plus/debug-tools/blackmagic.rst:533
+#: ../../../plus/debug-tools/blackmagic.rst:540
+#: ../../../plus/debug-tools/blackmagic.rst:568
+#: ../../../plus/debug-tools/blackmagic.rst:575
+#: ../../../plus/debug-tools/blackmagic.rst:582
+#: ../../../plus/debug-tools/blackmagic.rst:589
+#: ../../../plus/debug-tools/blackmagic.rst:596
+#: ../../../plus/debug-tools/blackmagic.rst:603
+#: ../../../plus/debug-tools/blackmagic.rst:610
+#: ../../../plus/debug-tools/blackmagic.rst:617
+#: ../../../plus/debug-tools/blackmagic.rst:624
+#: ../../../plus/debug-tools/blackmagic.rst:631
+#: ../../../plus/debug-tools/blackmagic.rst:638
+#: ../../../plus/debug-tools/blackmagic.rst:659
+#: ../../../plus/debug-tools/blackmagic.rst:666
+#: ../../../plus/debug-tools/blackmagic.rst:673
+#: ../../../plus/debug-tools/blackmagic.rst:701
+#: ../../../plus/debug-tools/blackmagic.rst:708
+#: ../../../plus/debug-tools/blackmagic.rst:715
+#: ../../../plus/debug-tools/blackmagic.rst:722
+#: ../../../plus/debug-tools/blackmagic.rst:918
+#: ../../../plus/debug-tools/blackmagic.rst:946
+#: ../../../plus/debug-tools/blackmagic.rst:953
+#: ../../../plus/debug-tools/blackmagic.rst:1002
+#: ../../../plus/debug-tools/blackmagic.rst:1009
+#: ../../../plus/debug-tools/blackmagic.rst:1044
+#: ../../../plus/debug-tools/blackmagic.rst:1107
+#: ../../../plus/debug-tools/blackmagic.rst:1114
+#: ../../../plus/debug-tools/blackmagic.rst:1128
+#: ../../../plus/debug-tools/blackmagic.rst:1219
+#: ../../../plus/debug-tools/blackmagic.rst:1226
+#: ../../../plus/debug-tools/blackmagic.rst:1261
+#: ../../../plus/debug-tools/blackmagic.rst:1464
+#: ../../../plus/debug-tools/blackmagic.rst:1632
+#: ../../../plus/debug-tools/blackmagic.rst:1639
+#: ../../../plus/debug-tools/blackmagic.rst:1646
+#: ../../../plus/debug-tools/blackmagic.rst:1653
+#: ../../../plus/debug-tools/blackmagic.rst:1660
+#: ../../../plus/debug-tools/blackmagic.rst:1667
+#: ../../../plus/debug-tools/blackmagic.rst:1786
+#: ../../../plus/debug-tools/blackmagic.rst:1800
+#: ../../../plus/debug-tools/blackmagic.rst:1807
+#: ../../../plus/debug-tools/blackmagic.rst:1814
+#: ../../../plus/debug-tools/blackmagic.rst:1821
+#: ../../../plus/debug-tools/blackmagic.rst:1828
+#: ../../../plus/debug-tools/blackmagic.rst:1835
+#: ../../../plus/debug-tools/blackmagic.rst:2143
+#: ../../../plus/debug-tools/blackmagic.rst:2150
+#: ../../../plus/debug-tools/blackmagic.rst:2255
+#: ../../../plus/debug-tools/blackmagic.rst:2787
+#: ../../../plus/debug-tools/blackmagic.rst:2794
+#: ../../../plus/debug-tools/blackmagic.rst:2801
+#: ../../../plus/debug-tools/blackmagic.rst:2815
+#: ../../../plus/debug-tools/blackmagic.rst:2822
+#: ../../../plus/debug-tools/blackmagic.rst:2850
+#: ../../../plus/debug-tools/blackmagic.rst:2864
+#: ../../../plus/debug-tools/blackmagic.rst:2871
+#: ../../../plus/debug-tools/blackmagic.rst:2878
+#: ../../../plus/debug-tools/blackmagic.rst:2885
+#: ../../../plus/debug-tools/blackmagic.rst:2892
+#: ../../../plus/debug-tools/blackmagic.rst:2941
+#: ../../../plus/debug-tools/blackmagic.rst:3025
+msgid "48MHz"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:388
+#: ../../../plus/debug-tools/blackmagic.rst:409
+#: ../../../plus/debug-tools/blackmagic.rst:416
+#: ../../../plus/debug-tools/blackmagic.rst:430
+#: ../../../plus/debug-tools/blackmagic.rst:437
+#: ../../../plus/debug-tools/blackmagic.rst:458
+#: ../../../plus/debug-tools/blackmagic.rst:465
+#: ../../../plus/debug-tools/blackmagic.rst:472
+#: ../../../plus/debug-tools/blackmagic.rst:486
+#: ../../../plus/debug-tools/blackmagic.rst:493
+#: ../../../plus/debug-tools/blackmagic.rst:500
+#: ../../../plus/debug-tools/blackmagic.rst:507
+#: ../../../plus/debug-tools/blackmagic.rst:514
+#: ../../../plus/debug-tools/blackmagic.rst:521
+#: ../../../plus/debug-tools/blackmagic.rst:528
+#: ../../../plus/debug-tools/blackmagic.rst:535
+#: ../../../plus/debug-tools/blackmagic.rst:542
+#: ../../../plus/debug-tools/blackmagic.rst:570
+#: ../../../plus/debug-tools/blackmagic.rst:577
+#: ../../../plus/debug-tools/blackmagic.rst:584
+#: ../../../plus/debug-tools/blackmagic.rst:591
+#: ../../../plus/debug-tools/blackmagic.rst:598
+#: ../../../plus/debug-tools/blackmagic.rst:605
+#: ../../../plus/debug-tools/blackmagic.rst:612
+#: ../../../plus/debug-tools/blackmagic.rst:619
+#: ../../../plus/debug-tools/blackmagic.rst:626
+#: ../../../plus/debug-tools/blackmagic.rst:633
+#: ../../../plus/debug-tools/blackmagic.rst:640
+#: ../../../plus/debug-tools/blackmagic.rst:661
+#: ../../../plus/debug-tools/blackmagic.rst:668
+#: ../../../plus/debug-tools/blackmagic.rst:675
+#: ../../../plus/debug-tools/blackmagic.rst:703
+#: ../../../plus/debug-tools/blackmagic.rst:710
+#: ../../../plus/debug-tools/blackmagic.rst:717
+#: ../../../plus/debug-tools/blackmagic.rst:724
+#: ../../../plus/debug-tools/blackmagic.rst:821
+#: ../../../plus/debug-tools/blackmagic.rst:871
+#: ../../../plus/debug-tools/blackmagic.rst:955
+#: ../../../plus/debug-tools/blackmagic.rst:1130
+#: ../../../plus/debug-tools/blackmagic.rst:1221
+#: ../../../plus/debug-tools/blackmagic.rst:1228
+#: ../../../plus/debug-tools/blackmagic.rst:1249
+#: ../../../plus/debug-tools/blackmagic.rst:1256
+#: ../../../plus/debug-tools/blackmagic.rst:1263
+#: ../../../plus/debug-tools/blackmagic.rst:1319
+#: ../../../plus/debug-tools/blackmagic.rst:1333
+#: ../../../plus/debug-tools/blackmagic.rst:1382
+#: ../../../plus/debug-tools/blackmagic.rst:1389
+#: ../../../plus/debug-tools/blackmagic.rst:1417
+#: ../../../plus/debug-tools/blackmagic.rst:1536
+#: ../../../plus/debug-tools/blackmagic.rst:1571
+#: ../../../plus/debug-tools/blackmagic.rst:1641
+#: ../../../plus/debug-tools/blackmagic.rst:1648
+#: ../../../plus/debug-tools/blackmagic.rst:1655
+#: ../../../plus/debug-tools/blackmagic.rst:1662
+#: ../../../plus/debug-tools/blackmagic.rst:1669
+#: ../../../plus/debug-tools/blackmagic.rst:1760
+#: ../../../plus/debug-tools/blackmagic.rst:1808
+#: ../../../plus/debug-tools/blackmagic.rst:1815
+#: ../../../plus/debug-tools/blackmagic.rst:1837
+#: ../../../plus/debug-tools/blackmagic.rst:1900
+#: ../../../plus/debug-tools/blackmagic.rst:2032
+#: ../../../plus/debug-tools/blackmagic.rst:2172
+#: ../../../plus/debug-tools/blackmagic.rst:2250
+#: ../../../plus/debug-tools/blackmagic.rst:2270
+#: ../../../plus/debug-tools/blackmagic.rst:2298
+#: ../../../plus/debug-tools/blackmagic.rst:2361
+#: ../../../plus/debug-tools/blackmagic.rst:2467
+#: ../../../plus/debug-tools/blackmagic.rst:2474
+#: ../../../plus/debug-tools/blackmagic.rst:2551
+#: ../../../plus/debug-tools/blackmagic.rst:2558
+#: ../../../plus/debug-tools/blackmagic.rst:2565
+#: ../../../plus/debug-tools/blackmagic.rst:2572
+#: ../../../plus/debug-tools/blackmagic.rst:2719
+#: ../../../plus/debug-tools/blackmagic.rst:2789
+#: ../../../plus/debug-tools/blackmagic.rst:2796
+#: ../../../plus/debug-tools/blackmagic.rst:2803
+#: ../../../plus/debug-tools/blackmagic.rst:2817
+#: ../../../plus/debug-tools/blackmagic.rst:2824
+#: ../../../plus/debug-tools/blackmagic.rst:2845
+#: ../../../plus/debug-tools/blackmagic.rst:2852
+#: ../../../plus/debug-tools/blackmagic.rst:2866
+#: ../../../plus/debug-tools/blackmagic.rst:2873
+#: ../../../plus/debug-tools/blackmagic.rst:2880
+#: ../../../plus/debug-tools/blackmagic.rst:2887
+#: ../../../plus/debug-tools/blackmagic.rst:2894
+#: ../../../plus/debug-tools/blackmagic.rst:2943
+#: ../../../plus/debug-tools/blackmagic.rst:2978
+#: ../../../plus/debug-tools/blackmagic.rst:3026
+#: ../../../plus/debug-tools/blackmagic.rst:3048
+msgid "32KB"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:389
+msgid ":ref:`board_nordicnrf52_adafruit_feather_nrf52832`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:396
+msgid ":ref:`board_nordicnrf52_adafruit_clue_nrf52840`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:399
+#: ../../../plus/debug-tools/blackmagic.rst:420
+#: ../../../plus/debug-tools/blackmagic.rst:448
+#: ../../../plus/debug-tools/blackmagic.rst:476
+#: ../../../plus/debug-tools/blackmagic.rst:644
+#: ../../../plus/debug-tools/blackmagic.rst:749
+#: ../../../plus/debug-tools/blackmagic.rst:889
+#: ../../../plus/debug-tools/blackmagic.rst:966
+#: ../../../plus/debug-tools/blackmagic.rst:973
+#: ../../../plus/debug-tools/blackmagic.rst:1071
+#: ../../../plus/debug-tools/blackmagic.rst:1092
+#: ../../../plus/debug-tools/blackmagic.rst:1148
+#: ../../../plus/debug-tools/blackmagic.rst:1197
+#: ../../../plus/debug-tools/blackmagic.rst:1351
+#: ../../../plus/debug-tools/blackmagic.rst:1358
+#: ../../../plus/debug-tools/blackmagic.rst:1449
+#: ../../../plus/debug-tools/blackmagic.rst:1456
+#: ../../../plus/debug-tools/blackmagic.rst:1491
+#: ../../../plus/debug-tools/blackmagic.rst:1498
+#: ../../../plus/debug-tools/blackmagic.rst:1505
+#: ../../../plus/debug-tools/blackmagic.rst:1561
+#: ../../../plus/debug-tools/blackmagic.rst:3059
+msgid "NRF52840"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:401
+#: ../../../plus/debug-tools/blackmagic.rst:422
+#: ../../../plus/debug-tools/blackmagic.rst:450
+#: ../../../plus/debug-tools/blackmagic.rst:478
+#: ../../../plus/debug-tools/blackmagic.rst:891
+#: ../../../plus/debug-tools/blackmagic.rst:1073
+#: ../../../plus/debug-tools/blackmagic.rst:1199
+#: ../../../plus/debug-tools/blackmagic.rst:1360
+#: ../../../plus/debug-tools/blackmagic.rst:1493
+#: ../../../plus/debug-tools/blackmagic.rst:1500
+#: ../../../plus/debug-tools/blackmagic.rst:1507
+#: ../../../plus/debug-tools/blackmagic.rst:1563
+msgid "796KB"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:402
+#: ../../../plus/debug-tools/blackmagic.rst:423
+#: ../../../plus/debug-tools/blackmagic.rst:451
+#: ../../../plus/debug-tools/blackmagic.rst:892
+#: ../../../plus/debug-tools/blackmagic.rst:1074
+#: ../../../plus/debug-tools/blackmagic.rst:1200
+#: ../../../plus/debug-tools/blackmagic.rst:1361
+#: ../../../plus/debug-tools/blackmagic.rst:1494
+#: ../../../plus/debug-tools/blackmagic.rst:1501
+#: ../../../plus/debug-tools/blackmagic.rst:1508
+#: ../../../plus/debug-tools/blackmagic.rst:1564
+msgid "243KB"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:403
+msgid ":ref:`board_atmelsam_adafruit_circuitplayground_m0`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:406
+#: ../../../plus/debug-tools/blackmagic.rst:413
+#: ../../../plus/debug-tools/blackmagic.rst:427
+#: ../../../plus/debug-tools/blackmagic.rst:434
+#: ../../../plus/debug-tools/blackmagic.rst:462
+#: ../../../plus/debug-tools/blackmagic.rst:469
+#: ../../../plus/debug-tools/blackmagic.rst:483
+#: ../../../plus/debug-tools/blackmagic.rst:567
+#: ../../../plus/debug-tools/blackmagic.rst:574
+#: ../../../plus/debug-tools/blackmagic.rst:581
+#: ../../../plus/debug-tools/blackmagic.rst:588
+#: ../../../plus/debug-tools/blackmagic.rst:595
+#: ../../../plus/debug-tools/blackmagic.rst:602
+#: ../../../plus/debug-tools/blackmagic.rst:609
+#: ../../../plus/debug-tools/blackmagic.rst:616
+#: ../../../plus/debug-tools/blackmagic.rst:623
+#: ../../../plus/debug-tools/blackmagic.rst:630
+#: ../../../plus/debug-tools/blackmagic.rst:637
+#: ../../../plus/debug-tools/blackmagic.rst:658
+#: ../../../plus/debug-tools/blackmagic.rst:665
+#: ../../../plus/debug-tools/blackmagic.rst:672
+#: ../../../plus/debug-tools/blackmagic.rst:707
+#: ../../../plus/debug-tools/blackmagic.rst:1127
+#: ../../../plus/debug-tools/blackmagic.rst:1225
+#: ../../../plus/debug-tools/blackmagic.rst:1260
+#: ../../../plus/debug-tools/blackmagic.rst:1652
+#: ../../../plus/debug-tools/blackmagic.rst:1666
+#: ../../../plus/debug-tools/blackmagic.rst:2786
+#: ../../../plus/debug-tools/blackmagic.rst:2793
+#: ../../../plus/debug-tools/blackmagic.rst:2800
+#: ../../../plus/debug-tools/blackmagic.rst:2814
+#: ../../../plus/debug-tools/blackmagic.rst:2821
+#: ../../../plus/debug-tools/blackmagic.rst:2849
+#: ../../../plus/debug-tools/blackmagic.rst:2870
+#: ../../../plus/debug-tools/blackmagic.rst:2877
+#: ../../../plus/debug-tools/blackmagic.rst:2884
+#: ../../../plus/debug-tools/blackmagic.rst:2891
+#: ../../../plus/debug-tools/blackmagic.rst:2940
+msgid "SAMD21G18A"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:410
+msgid ":ref:`board_atmelsam_adafruit_crickit_m0`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:417
+msgid ":ref:`board_nordicnrf52_adafruit_feather_nrf52840_sense`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:424
+msgid ":ref:`board_atmelsam_adafruit_feather_m0`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:431
+msgid ":ref:`board_atmelsam_adafruit_feather_m0_express`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:438
+msgid ":ref:`board_ststm32_adafruit_feather_f405`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:441
+#: ../../../plus/debug-tools/blackmagic.rst:1435
+#: ../../../plus/debug-tools/blackmagic.rst:2534
+#: ../../../plus/debug-tools/blackmagic.rst:2856
+msgid "STM32F405RGT6"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:445
+msgid ":ref:`board_nordicnrf52_adafruit_feather_nrf52840`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:452
+msgid ":ref:`board_atmelsam_adafruit_gemma_m0`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:459
+msgid ":ref:`board_atmelsam_adafruit_hallowing`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:466
+msgid ":ref:`board_atmelsam_adafruit_itsybitsy_m0`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:473
+msgid ":ref:`board_nordicnrf52_adafruit_ledglasses_nrf52840`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:479
+msgid "232KB"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:480
+msgid ":ref:`board_atmelsam_adafruit_metro_m0`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:487
+msgid ":ref:`board_atmelsam_adafruit_neokeytrinkey_m0`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:494
+msgid ":ref:`board_atmelsam_adafruit_neotrinkey_m0`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:501
+msgid ":ref:`board_atmelsam_adafruit_proxlighttrinkey_m0`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:508
+msgid ":ref:`board_atmelsam_adafruit_qt_py_m0`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:515
+msgid ":ref:`board_atmelsam_adafruit_rotarytrinkey_m0`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:522
+msgid ":ref:`board_atmelsam_adafruit_slidetrinkey_m0`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:529
+msgid ":ref:`board_atmelsam_adafruit_trinket_m0`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:536
+msgid ":ref:`board_atmelsam_adafruit_pirkey`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:543
+msgid ":ref:`board_ststm32_afroflight_f103cb`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:546
+#: ../../../plus/debug-tools/blackmagic.rst:1155
+#: ../../../plus/debug-tools/blackmagic.rst:1176
+#: ../../../plus/debug-tools/blackmagic.rst:1183
+#: ../../../plus/debug-tools/blackmagic.rst:1204
+#: ../../../plus/debug-tools/blackmagic.rst:2282
+msgid "STM32F103CBT6"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:547
+#: ../../../plus/debug-tools/blackmagic.rst:792
+#: ../../../plus/debug-tools/blackmagic.rst:799
+#: ../../../plus/debug-tools/blackmagic.rst:806
+#: ../../../plus/debug-tools/blackmagic.rst:820
+#: ../../../plus/debug-tools/blackmagic.rst:827
+#: ../../../plus/debug-tools/blackmagic.rst:834
+#: ../../../plus/debug-tools/blackmagic.rst:1156
+#: ../../../plus/debug-tools/blackmagic.rst:1163
+#: ../../../plus/debug-tools/blackmagic.rst:1170
+#: ../../../plus/debug-tools/blackmagic.rst:1177
+#: ../../../plus/debug-tools/blackmagic.rst:1184
+#: ../../../plus/debug-tools/blackmagic.rst:1205
+#: ../../../plus/debug-tools/blackmagic.rst:1408
+#: ../../../plus/debug-tools/blackmagic.rst:1422
+#: ../../../plus/debug-tools/blackmagic.rst:1429
+#: ../../../plus/debug-tools/blackmagic.rst:1548
+#: ../../../plus/debug-tools/blackmagic.rst:1674
+#: ../../../plus/debug-tools/blackmagic.rst:1842
+#: ../../../plus/debug-tools/blackmagic.rst:1856
+#: ../../../plus/debug-tools/blackmagic.rst:1863
+#: ../../../plus/debug-tools/blackmagic.rst:1870
+#: ../../../plus/debug-tools/blackmagic.rst:1877
+#: ../../../plus/debug-tools/blackmagic.rst:1884
+#: ../../../plus/debug-tools/blackmagic.rst:2157
+#: ../../../plus/debug-tools/blackmagic.rst:2241
+#: ../../../plus/debug-tools/blackmagic.rst:2248
+#: ../../../plus/debug-tools/blackmagic.rst:2262
+#: ../../../plus/debug-tools/blackmagic.rst:2269
+#: ../../../plus/debug-tools/blackmagic.rst:2276
+#: ../../../plus/debug-tools/blackmagic.rst:2283
+#: ../../../plus/debug-tools/blackmagic.rst:2290
+#: ../../../plus/debug-tools/blackmagic.rst:2297
+#: ../../../plus/debug-tools/blackmagic.rst:2304
+#: ../../../plus/debug-tools/blackmagic.rst:2311
+#: ../../../plus/debug-tools/blackmagic.rst:2318
+#: ../../../plus/debug-tools/blackmagic.rst:2325
+#: ../../../plus/debug-tools/blackmagic.rst:2332
+#: ../../../plus/debug-tools/blackmagic.rst:2339
+#: ../../../plus/debug-tools/blackmagic.rst:2346
+#: ../../../plus/debug-tools/blackmagic.rst:2353
+#: ../../../plus/debug-tools/blackmagic.rst:2360
+#: ../../../plus/debug-tools/blackmagic.rst:2367
+#: ../../../plus/debug-tools/blackmagic.rst:2374
+#: ../../../plus/debug-tools/blackmagic.rst:2381
+#: ../../../plus/debug-tools/blackmagic.rst:2388
+#: ../../../plus/debug-tools/blackmagic.rst:2395
+#: ../../../plus/debug-tools/blackmagic.rst:2402
+#: ../../../plus/debug-tools/blackmagic.rst:2409
+#: ../../../plus/debug-tools/blackmagic.rst:2416
+#: ../../../plus/debug-tools/blackmagic.rst:2423
+#: ../../../plus/debug-tools/blackmagic.rst:2430
+#: ../../../plus/debug-tools/blackmagic.rst:2437
+#: ../../../plus/debug-tools/blackmagic.rst:2444
+#: ../../../plus/debug-tools/blackmagic.rst:2451
+#: ../../../plus/debug-tools/blackmagic.rst:2458
+#: ../../../plus/debug-tools/blackmagic.rst:2465
+#: ../../../plus/debug-tools/blackmagic.rst:2472
+#: ../../../plus/debug-tools/blackmagic.rst:2745
+#: ../../../plus/debug-tools/blackmagic.rst:2899
+#: ../../../plus/debug-tools/blackmagic.rst:2934
+#: ../../../plus/debug-tools/blackmagic.rst:2955
+#: ../../../plus/debug-tools/blackmagic.rst:2983
+msgid "72MHz"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:550
+msgid ":ref:`board_atmelsam_due`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:553
+#: ../../../plus/debug-tools/blackmagic.rst:560
+#: ../../../plus/debug-tools/blackmagic.rst:938
+#: ../../../plus/debug-tools/blackmagic.rst:2751
+#: ../../../plus/debug-tools/blackmagic.rst:2758
+msgid "AT91SAM3X8E"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:557
+msgid ":ref:`board_atmelsam_dueUSB`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:564
+msgid ":ref:`board_atmelsam_mzeroUSB`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:571
+msgid ":ref:`board_atmelsam_mzeroproUSB`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:578
+msgid ":ref:`board_atmelsam_mzeropro`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:585
+msgid ":ref:`board_atmelsam_mkrfox1200`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:592
+msgid ":ref:`board_atmelsam_mkrgsm1400`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:599
+msgid ":ref:`board_atmelsam_mkrnb1500`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:606
+msgid ":ref:`board_atmelsam_mkrwan1300`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:613
+msgid ":ref:`board_atmelsam_mkrwan1310`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:620
+msgid ":ref:`board_atmelsam_mkrwifi1010`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:627
+msgid ":ref:`board_atmelsam_mkr1000USB`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:634
+msgid ":ref:`board_atmelsam_mkrzero`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:641
+msgid ":ref:`board_nordicnrf52_nano33ble`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:646
+msgid "960KB"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:648
+msgid ":ref:`board_nordicnrf52_nicla_sense_me`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:653
+msgid "515.25KB"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:654
+msgid "62.78KB"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:655
+msgid ":ref:`board_atmelsam_tian`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:662
+msgid ":ref:`board_atmelsam_zero`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:669
+msgid ":ref:`board_atmelsam_zeroUSB`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:676
+msgid ":ref:`board_ststm32_armstrap_eagle1024`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:679
+#: ../../../plus/debug-tools/blackmagic.rst:2674
+msgid "STM32F417VGT6"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:683
+msgid ":ref:`board_ststm32_armstrap_eagle2048`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:690
+msgid ":ref:`board_ststm32_armstrap_eagle512`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:697
+msgid ":ref:`board_atmelsam_samr21_xpro`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:700
+msgid "SAMR21G18A"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:704
+msgid ":ref:`board_atmelsam_samd21g18a`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:711
+msgid ":ref:`board_atmelsam_samc21_xpro`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:714
+msgid "SAMC21J18A"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:718
+msgid ":ref:`board_atmelsam_samd21_xpro`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:721
+#: ../../../plus/debug-tools/blackmagic.rst:1218
+#: ../../../plus/debug-tools/blackmagic.rst:1638
+#: ../../../plus/debug-tools/blackmagic.rst:1645
+#: ../../../plus/debug-tools/blackmagic.rst:1659
+msgid "SAMD21J18A"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:725
+msgid ":ref:`board_nordicnrf52_bbcmicrobit_v2`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:728
+#: ../../../plus/debug-tools/blackmagic.rst:742
+#: ../../../plus/debug-tools/blackmagic.rst:875
+#: ../../../plus/debug-tools/blackmagic.rst:1344
+msgid "NRF52833"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:732
+msgid ":ref:`board_nordicnrf52_laird_bl652_dvk`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:739
+msgid ":ref:`board_nordicnrf52_laird_bl653_dvk`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:746
+msgid ":ref:`board_nordicnrf52_laird_bl654_dvk`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:753
+msgid ":ref:`board_ststm32_btt_ebb42_v1_1`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:756
+#: ../../../plus/debug-tools/blackmagic.rst:1981
+msgid "STM32G0B1RET6"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:759
+#: ../../../plus/debug-tools/blackmagic.rst:1984
+msgid "144KB"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:760
+msgid ":ref:`board_ststm32_black_f407ve`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:767
+msgid ":ref:`board_ststm32_black_f407vg`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:770
+#: ../../../plus/debug-tools/blackmagic.rst:1022
+#: ../../../plus/debug-tools/blackmagic.rst:2163
+msgid "STM32F407VGT6"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:774
+msgid ":ref:`board_ststm32_black_f407ze`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:777
+msgid "STM32F407ZET6"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:781
+msgid ":ref:`board_ststm32_black_f407zg`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:784
+#: ../../../plus/debug-tools/blackmagic.rst:2226
+#: ../../../plus/debug-tools/blackmagic.rst:2233
+#: ../../../plus/debug-tools/blackmagic.rst:2961
+msgid "STM32F407ZGT6"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:788
+msgid ":ref:`board_ststm32_blackpill_f103c8`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:791
+#: ../../../plus/debug-tools/blackmagic.rst:798
+#: ../../../plus/debug-tools/blackmagic.rst:826
+#: ../../../plus/debug-tools/blackmagic.rst:833
+#: ../../../plus/debug-tools/blackmagic.rst:2275
+msgid "STM32F103C8T6"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:795
+msgid ":ref:`board_ststm32_blackpill_f103c8_128`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:802
+msgid ":ref:`board_ststm32_robotdyn_blackpill_f303cc`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:805
+#: ../../../plus/debug-tools/blackmagic.rst:2898
+msgid "STM32F303CCT6"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:808
+#: ../../../plus/debug-tools/blackmagic.rst:1424
+#: ../../../plus/debug-tools/blackmagic.rst:2061
+#: ../../../plus/debug-tools/blackmagic.rst:2068
+#: ../../../plus/debug-tools/blackmagic.rst:2159
+#: ../../../plus/debug-tools/blackmagic.rst:2901
+msgid "40KB"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:809
+msgid ":ref:`board_ststm32_blue_f407ve_mini`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:816
+msgid ":ref:`board_ststm32_bluepill_f103c6`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:819
+#: ../../../plus/debug-tools/blackmagic.rst:2268
+msgid "STM32F103C6T6"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:822
+#: ../../../plus/debug-tools/blackmagic.rst:2271
+#: ../../../plus/debug-tools/blackmagic.rst:2299
+#: ../../../plus/debug-tools/blackmagic.rst:2362
+msgid "10KB"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:823
+msgid ":ref:`board_ststm32_bluepill_f103c8`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:830
+msgid ":ref:`board_ststm32_bluepill_f103c8_128k`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:837
+msgid ":ref:`board_ststm32_blues_cygnet`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:840
+msgid "STM32L433CCT6"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:844
+msgid ":ref:`board_ststm32_blues_swan_r5`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:847
+#: ../../../plus/debug-tools/blackmagic.rst:854
+msgid "STM32L4R5ZIY6"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:850
+#: ../../../plus/debug-tools/blackmagic.rst:857
+#: ../../../plus/debug-tools/blackmagic.rst:2124
+#: ../../../plus/debug-tools/blackmagic.rst:2194
+#: ../../../plus/debug-tools/blackmagic.rst:2831
+msgid "640KB"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:851
+msgid ":ref:`board_ststm32_bw_swan_r5`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:858
+msgid ":ref:`board_nordicnrf52_bluey`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:865
+msgid ":ref:`board_nordicnrf51_bluz_dk`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:868
+#: ../../../plus/debug-tools/blackmagic.rst:1316
+#: ../../../plus/debug-tools/blackmagic.rst:1330
+#: ../../../plus/debug-tools/blackmagic.rst:1414
+#: ../../../plus/debug-tools/blackmagic.rst:1568
+#: ../../../plus/debug-tools/blackmagic.rst:1589
+#: ../../../plus/debug-tools/blackmagic.rst:2772
+#: ../../../plus/debug-tools/blackmagic.rst:2842
+#: ../../../plus/debug-tools/blackmagic.rst:2975
+#: ../../../plus/debug-tools/blackmagic.rst:3045
+msgid "NRF51822"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:872
+msgid ":ref:`board_nordicnrf52_calliopemini_v3`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:879
+msgid ":ref:`board_ststm32_cicada_l082cz`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:882
+#: ../../../plus/debug-tools/blackmagic.rst:903
+#: ../../../plus/debug-tools/blackmagic.rst:959
+#: ../../../plus/debug-tools/blackmagic.rst:1050
+#: ../../../plus/debug-tools/blackmagic.rst:1057
+msgid "STM32L082CZY6"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:886
+msgid ":ref:`board_nordicnrf52_adafruit_cplaynrf52840`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:893
+msgid ":ref:`board_ststm32_coreboard_f401rc`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:896
+#: ../../../plus/debug-tools/blackmagic.rst:2513
+msgid "STM32F401RCT6"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:900
+msgid ":ref:`board_ststm32_cricket_l082cz`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:907
+msgid ":ref:`board_nordicnrf52_delta_dfbm_nq620`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:914
+msgid ":ref:`board_ststm32_demo_f030f4`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:917
+msgid "STM32F030F4P6"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:919
+#: ../../../plus/debug-tools/blackmagic.rst:1004
+#: ../../../plus/debug-tools/blackmagic.rst:1011
+#: ../../../plus/debug-tools/blackmagic.rst:1046
+#: ../../../plus/debug-tools/blackmagic.rst:1466
+#: ../../../plus/debug-tools/blackmagic.rst:1529
+#: ../../../plus/debug-tools/blackmagic.rst:1592
+#: ../../../plus/debug-tools/blackmagic.rst:1739
+#: ../../../plus/debug-tools/blackmagic.rst:1788
+#: ../../../plus/debug-tools/blackmagic.rst:1823
+#: ../../../plus/debug-tools/blackmagic.rst:1830
+#: ../../../plus/debug-tools/blackmagic.rst:1858
+#: ../../../plus/debug-tools/blackmagic.rst:1886
+#: ../../../plus/debug-tools/blackmagic.rst:2025
+#: ../../../plus/debug-tools/blackmagic.rst:2201
+#: ../../../plus/debug-tools/blackmagic.rst:2257
+#: ../../../plus/debug-tools/blackmagic.rst:2263
+#: ../../../plus/debug-tools/blackmagic.rst:2291
+#: ../../../plus/debug-tools/blackmagic.rst:2354
+#: ../../../plus/debug-tools/blackmagic.rst:2775
+msgid "16KB"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:920
+#: ../../../plus/debug-tools/blackmagic.rst:1809
+msgid "4KB"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:921
+msgid ":ref:`board_ststm32_devebox_h743vitx`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:924
+#: ../../../plus/debug-tools/blackmagic.rst:3010
+msgid "STM32H743VIT6"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:925
+#: ../../../plus/debug-tools/blackmagic.rst:932
+#: ../../../plus/debug-tools/blackmagic.rst:2003
+#: ../../../plus/debug-tools/blackmagic.rst:2738
+#: ../../../plus/debug-tools/blackmagic.rst:3011
+#: ../../../plus/debug-tools/blackmagic.rst:3018
+msgid "480MHz"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:928
+msgid ":ref:`board_ststm32_devebox_h750vbtx`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:931
+#: ../../../plus/debug-tools/blackmagic.rst:2737
+#: ../../../plus/debug-tools/blackmagic.rst:3017
+msgid "STM32H750VBT6"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:935
+msgid ":ref:`board_atmelsam_digix`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:942
+msgid ":ref:`board_siliconlabsefm32_efm32gg_stk3700`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:945
+msgid "EFM32GG990F1024"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:949
+msgid ":ref:`board_siliconlabsefm32_efm32wg_stk3800`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:952
+msgid "EFM32WG990F256"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:956
+msgid ":ref:`board_ststm32_econode_l082cz`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:963
+msgid ":ref:`board_nordicnrf52_electronut_blip`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:970
+msgid ":ref:`board_nordicnrf52_electronut_papyr`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:977
+msgid ":ref:`board_ststm32_electrosmith_daisy`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:980
+#: ../../../plus/debug-tools/blackmagic.rst:987
+#: ../../../plus/debug-tools/blackmagic.rst:994
+msgid "STM32H750IBK6"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:981
+#: ../../../plus/debug-tools/blackmagic.rst:988
+#: ../../../plus/debug-tools/blackmagic.rst:995
+#: ../../../plus/debug-tools/blackmagic.rst:1996
+#: ../../../plus/debug-tools/blackmagic.rst:2010
+#: ../../../plus/debug-tools/blackmagic.rst:2731
+msgid "400MHz"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:984
+msgid ":ref:`board_ststm32_electrosmith_daisy_patch_sm`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:991
+msgid ":ref:`board_ststm32_electrosmith_daisy_petal_sm`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:998
+msgid ":ref:`board_ststm32_elektor_f072cb`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1001
+#: ../../../plus/debug-tools/blackmagic.rst:1008
+msgid "STM32F072C8T6"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1005
+msgid ":ref:`board_ststm32_elektor_f072c8`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1012
+msgid ":ref:`board_ststm32_elmo_f411re`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1015
+#: ../../../plus/debug-tools/blackmagic.rst:1134
+#: ../../../plus/debug-tools/blackmagic.rst:1232
+#: ../../../plus/debug-tools/blackmagic.rst:1239
+#: ../../../plus/debug-tools/blackmagic.rst:1904
+#: ../../../plus/debug-tools/blackmagic.rst:2597
+#: ../../../plus/debug-tools/blackmagic.rst:3052
+msgid "STM32F411RET6"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1019
+msgid ":ref:`board_ststm32_diymore_f407vgt`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1026
+msgid ":ref:`board_ststm32_fk407m1`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1033
+msgid ":ref:`board_ststm32_fysetc_s6`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1040
+msgid ":ref:`board_freescalekinetis_frdm_kl25z`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1043
+msgid "MKL25Z128VLK4"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1047
+msgid ":ref:`board_ststm32_gnat_l082cz`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1054
+msgid ":ref:`board_ststm32_grasshopper_l082cz`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1061
+msgid ":ref:`board_nordicnrf52_holyiot_yj16019`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1068
+msgid ":ref:`board_nordicnrf52_adafruit_itsybitsy_nrf52840`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1075
+msgid ":ref:`board_ststm32_rhombio_l476dmw1k`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1078
+#: ../../../plus/debug-tools/blackmagic.rst:1743
+msgid "STM32L476VGT6"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1082
+msgid ":ref:`board_nxplpc_lpc11u68`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1085
+msgid "LPC11U68"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1086
+msgid "50MHz"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1088
+#: ../../../plus/debug-tools/blackmagic.rst:1368
+#: ../../../plus/debug-tools/blackmagic.rst:1375
+#: ../../../plus/debug-tools/blackmagic.rst:2180
+#: ../../../plus/debug-tools/blackmagic.rst:2838
+msgid "36KB"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1089
+msgid ":ref:`board_nordicnrf52_laird_pinnacle_100_dvk`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1096
+msgid ":ref:`board_ststm32_leafony_ap03`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1099
+#: ../../../plus/debug-tools/blackmagic.rst:2086
+msgid "STM32L452RET6"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1102
+#: ../../../plus/debug-tools/blackmagic.rst:2089
+msgid "160KB"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1103
+msgid ":ref:`board_ststm32_malyanm200_f070cb`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1106
+#: ../../../plus/debug-tools/blackmagic.rst:1113
+msgid "STM32F070CBT6"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1108
+#: ../../../plus/debug-tools/blackmagic.rst:1115
+#: ../../../plus/debug-tools/blackmagic.rst:1157
+#: ../../../plus/debug-tools/blackmagic.rst:1178
+msgid "120KB"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1109
+#: ../../../plus/debug-tools/blackmagic.rst:1116
+msgid "14.81KB"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1110
+msgid ":ref:`board_ststm32_malyanm300_f070cb`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1117
+msgid ":ref:`board_ststm32_mkr_sharky`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1120
+msgid "STM32WB55CG"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1124
+msgid ":ref:`board_atmelsam_mkrvidor4000`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1131
+msgid ":ref:`board_ststm32_mts_dragonfly_f411re`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1138
+msgid ":ref:`board_nordicnrf52_nrf52832_mdk`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1145
+msgid ":ref:`board_nordicnrf52_nrf52840_mdk`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1152
+msgid ":ref:`board_ststm32_malyanm200_f103cb`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1159
+msgid ":ref:`board_ststm32_maple`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1162
+#: ../../../plus/debug-tools/blackmagic.rst:1407
+#: ../../../plus/debug-tools/blackmagic.rst:1428
+#: ../../../plus/debug-tools/blackmagic.rst:1841
+#: ../../../plus/debug-tools/blackmagic.rst:2310
+msgid "STM32F103RBT6"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1164
+#: ../../../plus/debug-tools/blackmagic.rst:1185
+msgid "108KB"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1165
+msgid "17KB"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1166
+msgid ":ref:`board_ststm32_maple_ret6`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1169
+#: ../../../plus/debug-tools/blackmagic.rst:2331
+msgid "STM32F103RET6"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1172
+#: ../../../plus/debug-tools/blackmagic.rst:2320
+#: ../../../plus/debug-tools/blackmagic.rst:2397
+#: ../../../plus/debug-tools/blackmagic.rst:2432
+#: ../../../plus/debug-tools/blackmagic.rst:2747
+msgid "48KB"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1173
+msgid ":ref:`board_ststm32_maple_mini_b20`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1180
+msgid ":ref:`board_ststm32_maple_mini_origin`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1187
+msgid ":ref:`board_ststm32_mbed_connect_odin`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1190
+#: ../../../plus/debug-tools/blackmagic.rst:3094
+#: ../../../plus/debug-tools/blackmagic.rst:3101
+msgid "STM32F439ZIY6"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1194
+msgid ":ref:`board_nordicnrf52_adafruit_metro_nrf52840`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1201
+msgid ":ref:`board_ststm32_microduino32_flash`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1206
+msgid "105.47KB"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1208
+msgid ":ref:`board_ststm32_mxchip_az3166`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1215
+msgid ":ref:`board_atmelsam_minitronics20`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1222
+msgid ":ref:`board_atmelsam_moteino_zero`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1229
+msgid ":ref:`board_ststm32_mts_mdot_f405rg`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1236
+msgid ":ref:`board_ststm32_mts_mdot_f411re`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1243
+msgid ":ref:`board_ststm32_xdot_l151cc`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1246
+msgid "STM32L151CCU6"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1250
+msgid ":ref:`board_ststm32_mote_l152rc`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1253
+msgid "STM32L152RC"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1257
+msgid ":ref:`board_atmelsam_nano_33_iot`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1264
+msgid ":ref:`board_nxpimxrt_mimxrt1010_evk`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1267
+msgid "MIMXRT1011DAE5A"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1268
+#: ../../../plus/debug-tools/blackmagic.rst:1275
+#: ../../../plus/debug-tools/blackmagic.rst:1282
+msgid "500MHz"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1271
+msgid ":ref:`board_nxpimxrt_mimxrt1015_evk`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1274
+msgid "MIMXRT1015DAF5A"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1278
+msgid ":ref:`board_nxpimxrt_mimxrt1020_evk`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1281
+msgid "MIMXRT1021DAG5A"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1283
+#: ../../../plus/debug-tools/blackmagic.rst:1290
+#: ../../../plus/debug-tools/blackmagic.rst:1297
+#: ../../../plus/debug-tools/blackmagic.rst:1304
+msgid "8MB"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1284
+#: ../../../plus/debug-tools/blackmagic.rst:1291
+#: ../../../plus/debug-tools/blackmagic.rst:1298
+#: ../../../plus/debug-tools/blackmagic.rst:1305
+msgid "32MB"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1285
+msgid ":ref:`board_nxpimxrt_mimxrt1050_evk`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1288
+msgid "MIMXRT1052DVL6B"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1289
+#: ../../../plus/debug-tools/blackmagic.rst:1296
+#: ../../../plus/debug-tools/blackmagic.rst:1303
+msgid "600MHz"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1292
+msgid ":ref:`board_nxpimxrt_mimxrt1060_evk`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1295
+msgid "MIMXRT1062DVL6A"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1299
+msgid ":ref:`board_nxpimxrt_mimxrt1064_evk`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1302
+msgid "MIMXRT1064DVL6A"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1306
+msgid ":ref:`board_nxplpc_lpc1768`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1309
+msgid "LPC1768"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1310
+msgid "96MHz"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1313
+msgid ":ref:`board_nordicnrf51_nrf51_beacon`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1320
+msgid ":ref:`board_nordicnrf52_thingy_52`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1327
+msgid ":ref:`board_nordicnrf51_nrf51_dk`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1334
+msgid ":ref:`board_nordicnrf52_nrf52_dk`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1341
+msgid ":ref:`board_nordicnrf52_nrf52833_dk`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1348
+msgid ":ref:`board_nordicnrf52_nrf52840_dk`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1355
+msgid ":ref:`board_nordicnrf52_nrf52840_dk_adafruit`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1362
+msgid ":ref:`board_ststm32_nucleo_g070rb`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1365
+msgid "STM32G070RBT6"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1369
+msgid ":ref:`board_ststm32_nucleo_g071rb`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1372
+#: ../../../plus/debug-tools/blackmagic.rst:2177
+#: ../../../plus/debug-tools/blackmagic.rst:2835
+msgid "STM32G071RBT6"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1376
+msgid ":ref:`board_ststm32_nucleo_g431kb`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1379
+msgid "STM32G431KBT6"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1380
+#: ../../../plus/debug-tools/blackmagic.rst:1387
+#: ../../../plus/debug-tools/blackmagic.rst:1394
+#: ../../../plus/debug-tools/blackmagic.rst:1401
+#: ../../../plus/debug-tools/blackmagic.rst:1758
+#: ../../../plus/debug-tools/blackmagic.rst:2717
+msgid "170MHz"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1383
+msgid ":ref:`board_ststm32_nucleo_g431rb`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1386
+msgid "STM32G431RBT6"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1390
+msgid ":ref:`board_ststm32_nucleo_g474re`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1393
+msgid "STM32G474RET6"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1397
+msgid ":ref:`board_ststm32_nucleo_g491re`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1400
+msgid "STM32G491RET6"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1403
+msgid "112KB"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1404
+msgid ":ref:`board_ststm32_olimexino`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1411
+msgid ":ref:`board_nordicnrf51_oshchip`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1418
+msgid ":ref:`board_ststm32_olimexino_stm32f3`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1421
+msgid "STM32F303RCT6"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1425
+msgid ":ref:`board_ststm32_olimex_f103`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1432
+msgid ":ref:`board_ststm32_olimex_p405`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1439
+msgid ":ref:`board_ststm32_nucleo_wb55rg_p`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1442
+msgid "STM32WB55RG"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1446
+msgid ":ref:`board_nordicnrf52_reel_board`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1453
+msgid ":ref:`board_nordicnrf52_reel_board_v2`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1460
+msgid ":ref:`board_ststm32_pybstick26_duino`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1463
+msgid "STM32F072RB"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1467
+msgid ":ref:`board_ststm32_pybstick26_pro`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1470
+msgid "STM32F412RE"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1474
+msgid ":ref:`board_ststm32_pybstick26_lite`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1477
+#: ../../../plus/debug-tools/blackmagic.rst:2499
+#: ../../../plus/debug-tools/blackmagic.rst:3003
+msgid "STM32F401CEU6"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1481
+msgid ":ref:`board_ststm32_pybstick26_std`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1484
+#: ../../../plus/debug-tools/blackmagic.rst:2583
+#: ../../../plus/debug-tools/blackmagic.rst:2919
+#: ../../../plus/debug-tools/blackmagic.rst:2996
+msgid "STM32F411CEU6"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1488
+msgid ":ref:`board_nordicnrf52_particle_argon`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1495
+msgid ":ref:`board_nordicnrf52_particle_boron`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1502
+msgid ":ref:`board_nordicnrf52_particle_xenon`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1509
+msgid ":ref:`board_ststm32_piconomix_px_her0`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1512
+msgid "STM32L072RB"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1516
+msgid ":ref:`board_ststm32_prntr_v2`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1523
+msgid ":ref:`board_ststm32_rak811_tracker`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1526
+#: ../../../plus/debug-tools/blackmagic.rst:1533
+msgid "STM32L151RBT6"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1530
+msgid ":ref:`board_ststm32_rak811_tracker_32`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1537
+msgid ":ref:`board_ststm32_rhf76_052`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1540
+msgid "STM32L051C8T6"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1543
+#: ../../../plus/debug-tools/blackmagic.rst:1627
+#: ../../../plus/debug-tools/blackmagic.rst:1732
+#: ../../../plus/debug-tools/blackmagic.rst:1795
+#: ../../../plus/debug-tools/blackmagic.rst:1802
+#: ../../../plus/debug-tools/blackmagic.rst:2033
+#: ../../../plus/debug-tools/blackmagic.rst:2040
+#: ../../../plus/debug-tools/blackmagic.rst:2145
+#: ../../../plus/debug-tools/blackmagic.rst:2152
+#: ../../../plus/debug-tools/blackmagic.rst:2173
+#: ../../../plus/debug-tools/blackmagic.rst:2208
+msgid "8KB"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1544
+msgid ":ref:`board_ststm32_rymcu_nebulapi_f103ve`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1547
+#: ../../../plus/debug-tools/blackmagic.rst:2408
+msgid "STM32F103VET6"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1551
+msgid ":ref:`board_ststm32_rymcu_f407ve`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1556
+msgid "502.23KB"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1558
+msgid ":ref:`board_nordicnrf52_raytac_mdbt50q_rx`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1565
+msgid ":ref:`board_nordicnrf51_redBearLabBLENano`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1569
+#: ../../../plus/debug-tools/blackmagic.rst:1590
+#: ../../../plus/debug-tools/blackmagic.rst:2773
+#: ../../../plus/debug-tools/blackmagic.rst:3046
+msgid "16MHz"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1572
+msgid ":ref:`board_nordicnrf52_redbear_blenano2`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1579
+msgid ":ref:`board_nordicnrf52_redbear_blend2`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1586
+msgid ":ref:`board_nordicnrf51_redBearLab`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1593
+msgid ":ref:`board_ststm32_cloud_jam`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1596
+#: ../../../plus/debug-tools/blackmagic.rst:1890
+#: ../../../plus/debug-tools/blackmagic.rst:2527
+msgid "STM32F401RET6"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1600
+msgid ":ref:`board_ststm32_cloud_jam_l4`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1603
+#: ../../../plus/debug-tools/blackmagic.rst:2093
+msgid "STM32L476RGT6"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1607
+msgid ":ref:`board_nordicnrf52_ruuvitag`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1614
+msgid ":ref:`board_nordicnrf52_sdt52832b`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1621
+msgid ":ref:`board_siliconlabsefm32_efm32hg_stk3400`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1624
+msgid "EFM32HG322F64"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1625
+msgid "25MHz"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1628
+msgid ":ref:`board_siliconlabsefm32_efm32gg11_stk3701`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1631
+msgid "EFM32GG11B820F2048GL192"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1635
+msgid ":ref:`board_atmelsam_sodaq_autonomo`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1642
+msgid ":ref:`board_atmelsam_sodaq_explorer`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1649
+msgid ":ref:`board_atmelsam_sodaq_one`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1656
+msgid ":ref:`board_atmelsam_sodaq_sara`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1663
+msgid ":ref:`board_atmelsam_sodaq_sff`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1670
+msgid ":ref:`board_ststm32_disco_f334c8`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1673
+msgid "STM32F334C8T6"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1676
+#: ../../../plus/debug-tools/blackmagic.rst:1865
+msgid "12KB"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1677
+msgid ":ref:`board_ststm32_disco_f401vc`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1680
+msgid "STM32F401VCT6"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1684
+msgid ":ref:`board_ststm32_disco_f411ve`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1687
+msgid "STM32F411VET6"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1691
+msgid ":ref:`board_ststm32_disco_f413zh`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1694
+#: ../../../plus/debug-tools/blackmagic.rst:1918
+msgid "STM32F413ZHT6"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1696
+#: ../../../plus/debug-tools/blackmagic.rst:1920
+#: ../../../plus/debug-tools/blackmagic.rst:2641
+#: ../../../plus/debug-tools/blackmagic.rst:2655
+#: ../../../plus/debug-tools/blackmagic.rst:2683
+#: ../../../plus/debug-tools/blackmagic.rst:2690
+msgid "1.50MB"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1697
+#: ../../../plus/debug-tools/blackmagic.rst:1718
+#: ../../../plus/debug-tools/blackmagic.rst:1753
+#: ../../../plus/debug-tools/blackmagic.rst:1921
+#: ../../../plus/debug-tools/blackmagic.rst:1963
+#: ../../../plus/debug-tools/blackmagic.rst:1970
+#: ../../../plus/debug-tools/blackmagic.rst:1991
+#: ../../../plus/debug-tools/blackmagic.rst:2110
+#: ../../../plus/debug-tools/blackmagic.rst:2117
+#: ../../../plus/debug-tools/blackmagic.rst:2635
+#: ../../../plus/debug-tools/blackmagic.rst:2642
+#: ../../../plus/debug-tools/blackmagic.rst:2649
+#: ../../../plus/debug-tools/blackmagic.rst:2656
+#: ../../../plus/debug-tools/blackmagic.rst:2684
+#: ../../../plus/debug-tools/blackmagic.rst:2691
+msgid "320KB"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1698
+msgid ":ref:`board_ststm32_disco_f429zi`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1701
+#: ../../../plus/debug-tools/blackmagic.rst:1925
+msgid "STM32F429ZIT6"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1705
+msgid ":ref:`board_ststm32_disco_f469ni`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1712
+msgid ":ref:`board_ststm32_disco_f746ng`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1715
+msgid "STM32F746NGH6"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1719
+msgid ":ref:`board_ststm32_disco_f769ni`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1722
+msgid "STM32F769NIH6"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1726
+msgid ":ref:`board_ststm32_disco_l053c8`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1729
+msgid "STM32L053C8T6"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1733
+msgid ":ref:`board_ststm32_disco_l100rc`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1736
+msgid "STM32L100RCT6"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1740
+msgid ":ref:`board_ststm32_disco_l476vg`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1747
+msgid ":ref:`board_ststm32_disco_l496ag`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1750
+msgid "STM32L496AGI6"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1754
+msgid ":ref:`board_ststm32_disco_b_g431b_esc1`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1757
+#: ../../../plus/debug-tools/blackmagic.rst:2716
+msgid "STM32G431CBU6"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1761
+msgid ":ref:`board_ststm32_disco_l475vg_iot01a`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1764
+msgid "STM32L475VGT6"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1768
+msgid ":ref:`board_ststm32_disco_b_u585i_iot02a`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1771
+msgid "STM32U585AII6Q"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1772
+#: ../../../plus/debug-tools/blackmagic.rst:2136
+msgid "160MHz"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1775
+msgid ":ref:`board_ststm32_disco_l072cz_lrwan1`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1778
+msgid "STM32L072CZ"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1782
+msgid ":ref:`board_ststm32_disco_f072rb`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1785
+#: ../../../plus/debug-tools/blackmagic.rst:1827
+msgid "STM32F072RBT6"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1789
+msgid ":ref:`board_ststm32_nucleo_g031k8`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1792
+msgid "STM32G031K8"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1796
+msgid ":ref:`board_ststm32_nucleo_f030r8`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1799
+#: ../../../plus/debug-tools/blackmagic.rst:2142
+msgid "STM32F030R8T6"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1803
+msgid ":ref:`board_ststm32_nucleo_f031k6`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1806
+msgid "STM32F031K6T6"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1810
+msgid ":ref:`board_ststm32_nucleo_f042k6`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1813
+msgid "STM32F042K6T6"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1816
+#: ../../../plus/debug-tools/blackmagic.rst:2264
+#: ../../../plus/debug-tools/blackmagic.rst:2292
+#: ../../../plus/debug-tools/blackmagic.rst:2355
+msgid "6KB"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1817
+msgid ":ref:`board_ststm32_nucleo_f070rb`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1820
+msgid "STM32F070RBT6"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1824
+msgid ":ref:`board_ststm32_nucleo_f072rb`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1831
+msgid ":ref:`board_ststm32_nucleo_f091rc`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1834
+msgid "STM32F091RCT6"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1838
+msgid ":ref:`board_ststm32_nucleo_f103rb`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1845
+msgid ":ref:`board_ststm32_nucleo_f207zg`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1848
+msgid "STM32F207ZGT6"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1852
+msgid ":ref:`board_ststm32_nucleo_f302r8`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1855
+msgid "STM32F302R8T6"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1859
+msgid ":ref:`board_ststm32_nucleo_f303k8`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1862
+msgid "STM32F303K8T6"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1866
+msgid ":ref:`board_ststm32_nucleo_f303re`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1869
+msgid "STM32F303RET6"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1873
+msgid ":ref:`board_ststm32_nucleo_f303ze`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1876
+msgid "STM32F303ZET6"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1880
+msgid ":ref:`board_ststm32_nucleo_f334r8`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1883
+msgid "STM32F334R8T6"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1887
+msgid ":ref:`board_ststm32_nucleo_f401re`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1894
+msgid ":ref:`board_ststm32_nucleo_f410rb`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1897
+#: ../../../plus/debug-tools/blackmagic.rst:2569
+msgid "STM32F410RBT6"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1901
+msgid ":ref:`board_ststm32_nucleo_f411re`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1908
+msgid ":ref:`board_ststm32_nucleo_f412zg`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1915
+msgid ":ref:`board_ststm32_nucleo_f413zh`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1922
+msgid ":ref:`board_ststm32_nucleo_f429zi`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1929
+msgid ":ref:`board_ststm32_nucleo_f439zi`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1932
+msgid "STM32F439ZIT6"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1936
+msgid ":ref:`board_ststm32_nucleo_f446re`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1943
+msgid ":ref:`board_ststm32_nucleo_f446ze`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1946
+msgid "STM32F446ZET6"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1950
+msgid ":ref:`board_ststm32_nucleo_f722ze`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1953
+msgid "STM32F722ZET6"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1957
+msgid ":ref:`board_ststm32_nucleo_f746zg`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1960
+msgid "STM32F746ZGT6"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1964
+msgid ":ref:`board_ststm32_nucleo_f756zg`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1967
+msgid "STM32F756ZG"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1971
+msgid ":ref:`board_ststm32_nucleo_f767zi`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1974
+msgid "STM32F767ZIT6"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1978
+msgid ":ref:`board_ststm32_nucleo_g0b1re`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1985
+msgid ":ref:`board_ststm32_nucleo_h723zg`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1988
+msgid "STM32H723ZGT6"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1989
+#: ../../../plus/debug-tools/blackmagic.rst:2724
+msgid "550MHz"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1992
+msgid ":ref:`board_ststm32_nucleo_h743zi`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1995
+msgid "STM32H743ZIT6"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:1999
+msgid ":ref:`board_ststm32_nucleo_h745zi_q`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2002
+msgid "STM32H745ZIT6"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2006
+msgid ":ref:`board_ststm32_nucleo_h753zi`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2009
+msgid "STM32H753ZIT6"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2013
+msgid ":ref:`board_ststm32_nucleo_l010rb`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2016
+msgid "STM32L010RBT6"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2020
+msgid ":ref:`board_ststm32_nucleo_l011k4`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2023
+msgid "STM32L011K4T6"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2026
+msgid "2KB"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2027
+msgid ":ref:`board_ststm32_nucleo_l031k6`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2030
+msgid "STM32L031K6T6"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2034
+msgid ":ref:`board_ststm32_nucleo_l053r8`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2037
+msgid "STM32L053R8T6"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2041
+msgid ":ref:`board_ststm32_nucleo_l073rz`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2048
+msgid ":ref:`board_ststm32_nucleo_l152re`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2051
+msgid "STM32L152RET6"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2054
+msgid "80KB"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2055
+msgid ":ref:`board_ststm32_nucleo_l412kb`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2058
+msgid "STM32L412KBU6"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2062
+msgid ":ref:`board_ststm32_nucleo_l412rb_p`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2065
+msgid "STM32L412RBT6P"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2069
+msgid ":ref:`board_ststm32_nucleo_l432kc`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2072
+msgid "STM32L432KCU6"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2076
+msgid ":ref:`board_ststm32_nucleo_l433rc_p`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2079
+msgid "STM32L433RC"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2083
+msgid ":ref:`board_ststm32_nucleo_l452re`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2090
+msgid ":ref:`board_ststm32_nucleo_l476rg`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2097
+msgid ":ref:`board_ststm32_nucleo_l486rg`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2100
+msgid "STM32L486RGT6"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2104
+msgid ":ref:`board_ststm32_nucleo_l496zg`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2107
+msgid "STM32L496ZGT6"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2111
+msgid ":ref:`board_ststm32_nucleo_l496zg_p`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2114
+msgid "STM32L496ZGT6P"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2118
+msgid ":ref:`board_ststm32_nucleo_l4r5zi`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2121
+msgid "STM32L4R5ZIT6"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2125
+msgid ":ref:`board_ststm32_nucleo_l552ze_q`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2128
+msgid "STM32L552ZET6"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2132
+msgid ":ref:`board_ststm32_nucleo_u575zi_q`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2135
+msgid "STM32U575ZIT6Q"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2139
+msgid ":ref:`board_ststm32_disco_f030r8`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2146
+msgid ":ref:`board_ststm32_disco_f051r8`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2149
+msgid "STM32F051R8T6"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2153
+msgid ":ref:`board_ststm32_disco_f303vc`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2156
+msgid "STM32F303VCT6"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2160
+msgid ":ref:`board_ststm32_disco_f407vg`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2167
+msgid ":ref:`board_ststm32_disco_g031j6`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2170
+msgid "STM32G031J6"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2174
+msgid ":ref:`board_ststm32_disco_g071rb`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2181
+msgid ":ref:`board_ststm32_eval_l073z`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2184
+msgid "STM32L073VZT6"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2188
+msgid ":ref:`board_ststm32_disco_l4s5i_iot01a`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2191
+msgid "STM32L4S5VIT6"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2195
+msgid ":ref:`board_ststm32_disco_l152rb`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2198
+msgid "STM32L152RBT6"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2202
+msgid ":ref:`board_ststm32_disco_f100rb`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2205
+msgid "STM32F100RBT6"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2206
+msgid "24MHz"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2209
+msgid ":ref:`board_ststm32_silica_sensor_node`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2212
+msgid "STM32L476JG"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2216
+msgid ":ref:`board_ststm32_steval_fcu001v1`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2219
+#: ../../../plus/debug-tools/blackmagic.rst:2485
+#: ../../../plus/debug-tools/blackmagic.rst:2989
+msgid "STM32F401CCU6"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2223
+msgid ":ref:`board_ststm32_olimex_e407`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2230
+msgid ":ref:`board_ststm32_olimex_h407`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2237
+msgid ":ref:`board_ststm32_eval_f107vc`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2240
+msgid "STM32F107VCT6"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2244
+msgid ":ref:`board_ststm32_eval_f373vc`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2247
+msgid "STM32F373VCT6"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2251
+msgid ":ref:`board_ststm32_eval_f072vb`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2254
+msgid "STM32F072VBT6"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2258
+msgid ":ref:`board_ststm32_genericSTM32F103C4`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2261
+msgid "STM32F103C4T6"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2265
+msgid ":ref:`board_ststm32_genericSTM32F103C6`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2272
+msgid ":ref:`board_ststm32_genericSTM32F103C8`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2279
+msgid ":ref:`board_ststm32_genericSTM32F103CB`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2286
+msgid ":ref:`board_ststm32_genericSTM32F103R4`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2289
+msgid "STM32F103R4T6"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2293
+msgid ":ref:`board_ststm32_genericSTM32F103R6`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2296
+msgid "STM32F103R6T6"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2300
+msgid ":ref:`board_ststm32_genericSTM32F103R8`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2303
+msgid "STM32F103R8T6"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2307
+msgid ":ref:`board_ststm32_genericSTM32F103RB`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2314
+msgid ":ref:`board_ststm32_genericSTM32F103RC`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2317
+#: ../../../plus/debug-tools/blackmagic.rst:2744
+msgid "STM32F103RCT6"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2321
+msgid ":ref:`board_ststm32_genericSTM32F103RD`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2324
+msgid "STM32F103RDT6"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2328
+msgid ":ref:`board_ststm32_genericSTM32F103RE`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2335
+msgid ":ref:`board_ststm32_genericSTM32F103RF`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2338
+msgid "STM32F103RFT6"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2340
+#: ../../../plus/debug-tools/blackmagic.rst:2417
+#: ../../../plus/debug-tools/blackmagic.rst:2452
+msgid "768KB"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2342
+msgid ":ref:`board_ststm32_genericSTM32F103RG`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2345
+msgid "STM32F103RGT6"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2349
+msgid ":ref:`board_ststm32_genericSTM32F103T4`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2352
+msgid "STM32F103T4U6"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2356
+msgid ":ref:`board_ststm32_genericSTM32F103T6`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2359
+msgid "STM32F103T6U6"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2363
+msgid ":ref:`board_ststm32_genericSTM32F103T8`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2366
+msgid "STM32F103T8U6"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2370
+msgid ":ref:`board_ststm32_genericSTM32F103TB`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2373
+#: ../../../plus/debug-tools/blackmagic.rst:2933
+msgid "STM32F103TBU6"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2377
+msgid ":ref:`board_ststm32_genericSTM32F103V8`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2380
+msgid "STM32F103V8T6"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2384
+msgid ":ref:`board_ststm32_genericSTM32F103VB`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2387
+msgid "STM32F103VBT6"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2391
+msgid ":ref:`board_ststm32_genericSTM32F103VC`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2394
+msgid "STM32F103VCT6"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2398
+msgid ":ref:`board_ststm32_genericSTM32F103VD`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2401
+msgid "STM32F103VDT6"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2405
+msgid ":ref:`board_ststm32_genericSTM32F103VE`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2412
+msgid ":ref:`board_ststm32_genericSTM32F103VF`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2415
+msgid "STM32F103VFT6"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2419
+msgid ":ref:`board_ststm32_genericSTM32F103VG`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2422
+msgid "STM32F103VGT6"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2426
+msgid ":ref:`board_ststm32_genericSTM32F103ZC`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2429
+msgid "STM32F103ZCT6"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2433
+msgid ":ref:`board_ststm32_genericSTM32F103ZD`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2436
+msgid "STM32F103ZDT6"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2440
+msgid ":ref:`board_ststm32_genericSTM32F103ZE`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2443
+#: ../../../plus/debug-tools/blackmagic.rst:2954
+#: ../../../plus/debug-tools/blackmagic.rst:2982
+msgid "STM32F103ZET6"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2447
+msgid ":ref:`board_ststm32_genericSTM32F103ZF`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2450
+msgid "STM32F103ZFT6"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2454
+msgid ":ref:`board_ststm32_genericSTM32F103ZG`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2457
+msgid "STM32F103ZGT6"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2461
+msgid ":ref:`board_ststm32_genericSTM32F303CB`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2464
+msgid "STM32F303CBT6"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2468
+msgid ":ref:`board_ststm32_genericSTM32F373RC`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2471
+msgid "STM32F373RCT6"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2475
+msgid ":ref:`board_ststm32_genericSTM32F401CB`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2478
+msgid "STM32F401CBU6"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2482
+msgid ":ref:`board_ststm32_genericSTM32F401CC`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2489
+msgid ":ref:`board_ststm32_genericSTM32F401CD`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2492
+msgid "STM32F401CDU6"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2496
+msgid ":ref:`board_ststm32_genericSTM32F401CE`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2503
+msgid ":ref:`board_ststm32_genericSTM32F401RB`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2506
+msgid "STM32F401RBT6"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2510
+msgid ":ref:`board_ststm32_genericSTM32F401RC`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2517
+msgid ":ref:`board_ststm32_genericSTM32F401RD`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2520
+msgid "STM32F401RDT6"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2524
+msgid ":ref:`board_ststm32_genericSTM32F401RE`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2531
+msgid ":ref:`board_ststm32_genericSTM32F405RG`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2538
+msgid ":ref:`board_ststm32_genericSTM32F407IGT6`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2541
+msgid "STM32F407IGT6"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2545
+msgid ":ref:`board_ststm32_genericSTM32F410C8`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2548
+msgid "STM32F410C8T6"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2552
+msgid ":ref:`board_ststm32_genericSTM32F410CB`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2555
+msgid "STM32F410CBT6"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2559
+msgid ":ref:`board_ststm32_genericSTM32F410R8`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2562
+msgid "STM32F410R8T6"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2566
+msgid ":ref:`board_ststm32_genericSTM32F410RB`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2573
+msgid ":ref:`board_ststm32_genericSTM32F411CC`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2576
+msgid "STM32F411CCU6"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2580
+msgid ":ref:`board_ststm32_genericSTM32F411CE`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2587
+msgid ":ref:`board_ststm32_genericSTM32F411RC`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2590
+msgid "STM32F411RCT6"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2594
+msgid ":ref:`board_ststm32_genericSTM32F411RE`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2601
+msgid ":ref:`board_ststm32_genericSTM32F412CE`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2604
+msgid "STM32F412CEU6"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2608
+msgid ":ref:`board_ststm32_genericSTM32F412CG`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2611
+msgid "STM32F412CGU6"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2615
+msgid ":ref:`board_ststm32_genericSTM32F412RE`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2618
+msgid "STM32F412RET6"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2622
+msgid ":ref:`board_ststm32_genericSTM32F412RG`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2625
+msgid "STM32F412RGT6"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2629
+msgid ":ref:`board_ststm32_genericSTM32F413CG`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2632
+msgid "STM32F413CGU6"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2636
+msgid ":ref:`board_ststm32_genericSTM32F413CH`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2639
+msgid "STM32F413CHU6"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2643
+msgid ":ref:`board_ststm32_genericSTM32F413RG`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2646
+msgid "STM32F413RGT6"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2650
+msgid ":ref:`board_ststm32_genericSTM32F413RH`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2653
+msgid "STM32F413RHT6"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2657
+msgid ":ref:`board_ststm32_genericSTM32F415RG`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2660
+msgid "STM32F415RGT6"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2664
+msgid ":ref:`board_ststm32_genericSTM32F417VE`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2667
+msgid "STM32F417VET6"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2671
+msgid ":ref:`board_ststm32_genericSTM32F417VG`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2678
+msgid ":ref:`board_ststm32_genericSTM32F423CH`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2681
+msgid "STM32F423CHU6"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2685
+msgid ":ref:`board_ststm32_genericSTM32F423RH`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2688
+msgid "STM32F423RHT6"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2692
+msgid ":ref:`board_ststm32_genericSTM32F446RC`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2695
+msgid "STM32F446RCT6"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2699
+msgid ":ref:`board_ststm32_genericSTM32F446RE`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2706
+msgid ":ref:`board_ststm32_disco_f750n8`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2709
+msgid "STM32F750N8H6"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2712
+msgid "340KB"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2713
+msgid ":ref:`board_ststm32_genericSTM32G431CB`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2720
+msgid ":ref:`board_ststm32_disco_h735ig`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2723
+msgid "STM32H735IGK6"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2726
+msgid "432KB"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2727
+msgid ":ref:`board_ststm32_disco_h747xi`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2730
+msgid "STM32H747XIH6"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2734
+msgid ":ref:`board_ststm32_genericSTM32H750VB`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2741
+msgid ":ref:`board_ststm32_storm32_v1_31_rc`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2748
+msgid ":ref:`board_atmelsam_sainSmartDue`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2755
+msgid ":ref:`board_atmelsam_sainSmartDueUSB`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2762
+msgid ":ref:`board_ststm32_seeedArchMax`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2769
+msgid ":ref:`board_nordicnrf51_seeedTinyBLE`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2776
+msgid ":ref:`board_ststm32_wio_3g`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2779
+msgid "STM32F439VI"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2783
+msgid ":ref:`board_atmelsam_seeed_femto`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2790
+msgid ":ref:`board_atmelsam_seeeduino_lorawan`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2797
+msgid ":ref:`board_atmelsam_seeed_wio_lite_mg126`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2804
+msgid ":ref:`board_atmelsam_seeed_wio_terminal`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2807
+msgid "SAMD51P19A"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2809
+msgid "496KB"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2811
+msgid ":ref:`board_atmelsam_seeed_xiao`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2818
+msgid ":ref:`board_atmelsam_seeed_zero`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2825
+msgid ":ref:`board_ststm32_steval_mksboxv1`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2828
+msgid "STM32L4R9ZI"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2832
+msgid ":ref:`board_ststm32_agafia_sg0`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2839
+msgid ":ref:`board_nordicnrf51_Sinobit`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2846
+msgid ":ref:`board_atmelsam_sparkfun_samd21_9dof`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2853
+msgid ":ref:`board_ststm32_sparkfun_micromod_f405`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2860
+msgid ":ref:`board_atmelsam_sparkfun_qwiic_micro_samd21e`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2867
+msgid ":ref:`board_atmelsam_sparkfun_redboard_turbo`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2874
+msgid ":ref:`board_atmelsam_sparkfun_samd21_dev_usb`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2881
+msgid ":ref:`board_atmelsam_sparkfun_samd21_mini_usb`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2888
+msgid ":ref:`board_atmelsam_sparkfun_samd21_proRF`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2895
+msgid ":ref:`board_ststm32_sparky_v1`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2902
+msgid ":ref:`board_nordicnrf52_stct_nrf52_minidev`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2909
+msgid ":ref:`board_ststm32_thunder_pack`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2912
+msgid "STM32L072KZ"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2916
+msgid ":ref:`board_ststm32_thunder_pack_f411`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2923
+msgid ":ref:`board_siliconlabsefm32_tb_sense_12`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2926
+msgid "EFR32MG12P432F1024"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2927
+msgid "40MHz"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2930
+msgid ":ref:`board_ststm32_hy_tinystm103tb`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2937
+msgid ":ref:`board_atmelsam_tuinozero96`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2944
+msgid ":ref:`board_ststm32_vake_v1`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2951
+msgid ":ref:`board_ststm32_vccgnd_f103zet6`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2958
+msgid ":ref:`board_ststm32_vccgnd_f407zg_mini`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2965
+msgid ":ref:`board_nordicnrf52_vbluno52`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2972
+msgid ":ref:`board_nordicnrf51_waveshare_ble400`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2979
+msgid ":ref:`board_ststm32_waveshare_open103z`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2986
+msgid ":ref:`board_ststm32_blackpill_f401cc`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:2993
+msgid ":ref:`board_ststm32_blackpill_f411ce`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:3000
+msgid ":ref:`board_ststm32_blackpill_f401ce`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:3007
+msgid ":ref:`board_ststm32_weact_mini_h743vitx`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:3014
+msgid ":ref:`board_ststm32_weact_mini_h750vbtx`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:3021
+msgid ":ref:`board_ststm32_wraith32_v1`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:3024
+msgid "STM32F051K6"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:3027
+msgid "7.75KB"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:3028
+msgid ":ref:`board_nordicnrf52_dwm1001_dev`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:3035
+msgid ":ref:`board_nordicnrf52_hackaBLE`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:3042
+msgid ":ref:`board_nordicnrf51_ng_beacon`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:3049
+msgid ":ref:`board_ststm32_sakuraio_evb_01`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:3056
+msgid ":ref:`board_nordicnrf52_ublox_bmd345eval_nrf52840`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:3063
+msgid ":ref:`board_ststm32_ublox_c030_n211`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:3066
+#: ../../../plus/debug-tools/blackmagic.rst:3073
+#: ../../../plus/debug-tools/blackmagic.rst:3080
+msgid "STM32F437VG"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:3070
+msgid ":ref:`board_ststm32_ublox_c030_r410m`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:3077
+msgid ":ref:`board_ststm32_ublox_c030_u201`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:3084
+msgid ":ref:`board_nordicnrf52_ublox_evk_nina_b1`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:3091
+msgid ":ref:`board_ststm32_ublox_evk_odin_w2`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:3098
+msgid ":ref:`board_ststm32_mtb_ublox_odin_w2`"
+msgstr ""

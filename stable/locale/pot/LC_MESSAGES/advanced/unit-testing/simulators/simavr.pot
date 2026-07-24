@@ -1,0 +1,62 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present, PlatformIO
+# This file is distributed under the same license as the PlatformIO package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PlatformIO stable\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-24 14:03+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../advanced/unit-testing/simulators/simavr.rst:15
+msgid "SimAVR"
+msgstr ""
+
+#: ../../../advanced/unit-testing/simulators/simavr.rst:17
+msgid ""
+"`SimAVR <https://github.com/buserror/simavr/>`_ is a lean, mean and hackable "
+"AVR simulator."
+msgstr ""
+
+#: ../../../advanced/unit-testing/simulators/simavr.rst:21
+msgid ""
+"SimAVR does not work on Windows for the Unit Testing due to `issue #489 "
+"<https://github.com/buserror/simavr/issues/489>`_."
+msgstr ""
+
+#: ../../../advanced/unit-testing/simulators/simavr.rst:25
+msgid "Configuration"
+msgstr ""
+
+#: ../../../advanced/unit-testing/simulators/simavr.rst:27
+msgid ""
+"Integration of the SimAVR simulator requires adding the `platformio/tool-"
+"simavr <https://registry.platformio.org/tools/platformio/tool-simavr>`_ "
+"package to the :ref:`projectconf_env_platform_packages` option in your :ref:"
+"`projectconf`, setting :ref:`projectconf_test_speed` to the ``9600``, and "
+"overriding  :ref:`projectconf_test_testing_command`."
+msgstr ""
+
+#: ../../../advanced/unit-testing/simulators/simavr.rst:33
+msgid ""
+"See the example of ``platformio.ini`` for the :ref:`board_atmelavr_uno` "
+"board from :ref:`platform_atmelavr`:"
+msgstr ""
+
+#: ../../../advanced/unit-testing/simulators/simavr.rst:55
+msgid "Testing"
+msgstr ""
+
+#: ../../../advanced/unit-testing/simulators/simavr.rst:57
+msgid ""
+"SimAVR does not require a firmware uploading stage. Please use the :option:"
+"`pio test --without-uploading` command option."
+msgstr ""
