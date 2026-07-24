@@ -1,0 +1,6 @@
+sphinx
+sphinx-rtd-theme==3.0.2
+sphinxcontrib-googleanalytics
+sphinx-notfound-page
+sphinx-copybutton
+restructuredtext-lint
