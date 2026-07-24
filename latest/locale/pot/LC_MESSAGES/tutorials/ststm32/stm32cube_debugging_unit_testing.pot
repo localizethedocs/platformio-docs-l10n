@@ -1,0 +1,285 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present, PlatformIO
+# This file is distributed under the same license as the PlatformIO package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PlatformIO latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-24 14:02+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../tutorials/ststm32/stm32cube_debugging_unit_testing.rst:15
+msgid "STM32Cube HAL and Nucleo-F401RE: debugging and unit testing"
+msgstr ""
+
+#: ../../../tutorials/ststm32/stm32cube_debugging_unit_testing.rst:17
+msgid ""
+"The goal of this tutorial is to demonstrate how simple it is to use :ref:"
+"`ide_vscode` to develop, run and debug a basic blink project with :ref:"
+"`framework_stm32cube` framework for ``STM32 Nucleo-F401RE`` board."
+msgstr ""
+
+#: ../../../tutorials/ststm32/stm32cube_debugging_unit_testing.rst:19
+msgid "**Level:** Intermediate"
+msgstr ""
+
+#: ../../../tutorials/ststm32/stm32cube_debugging_unit_testing.rst:20
+msgid "**Platforms:** Windows, Mac OS X, Linux"
+msgstr ""
+
+#: ../../../tutorials/ststm32/stm32cube_debugging_unit_testing.rst:22
+msgid "**Requirements:**"
+msgstr ""
+
+#: ../../../tutorials/ststm32/stm32cube_debugging_unit_testing.rst:24
+msgid "Downloaded and installed :ref:`ide_vscode`"
+msgstr ""
+
+#: ../../../tutorials/ststm32/stm32cube_debugging_unit_testing.rst:25
+msgid "Install drivers for :ref:`debugging_tool_stlink` debug tool"
+msgstr ""
+
+#: ../../../tutorials/ststm32/stm32cube_debugging_unit_testing.rst:26
+msgid ":ref:`board_ststm32_nucleo_f401re` development board"
+msgstr ""
+
+#: ../../../tutorials/ststm32/stm32cube_debugging_unit_testing.rst:30
+msgid "Contents"
+msgstr ""
+
+#: ../../../tutorials/ststm32/stm32cube_debugging_unit_testing.rst:33
+msgid "Setting Up the Project"
+msgstr ""
+
+#: ../../../tutorials/ststm32/stm32cube_debugging_unit_testing.rst:35
+msgid ""
+"At first step, we need to create a new project using PlatformIO Home Page "
+"(to open this page just press Home icon on the toolbar):"
+msgstr ""
+
+#: ../../../tutorials/ststm32/stm32cube_debugging_unit_testing.rst:39
+msgid ""
+"On the next step, we need to select ``ST Nucleo-F401RE`` as a development "
+"board, :ref:`framework_stm32cube` as a framework and a path to the project "
+"location (or use the default one):"
+msgstr ""
+
+#: ../../../tutorials/ststm32/stm32cube_debugging_unit_testing.rst:43
+msgid ""
+"Processing the selected project may take some amount of time (PlatformIO "
+"will download and install all required packages) and after these steps, we "
+"have a fully configured project that is ready for developing code with :ref:"
+"`framework_stm32cube` framework."
+msgstr ""
+
+#: ../../../tutorials/ststm32/stm32cube_debugging_unit_testing.rst:46
+msgid "Adding Code to the Generated Project"
+msgstr ""
+
+#: ../../../tutorials/ststm32/stm32cube_debugging_unit_testing.rst:48
+msgid ""
+"Let's add some actual code to the project. Firstly, we create two main files "
+"``main.c`` and ``main.h`` in the :ref:`projectconf_pio_src_dir` folder. "
+"Right click on the ``src`` in the project window:"
+msgstr ""
+
+#: ../../../tutorials/ststm32/stm32cube_debugging_unit_testing.rst:52
+msgid "Add next content to ``main.h``:"
+msgstr ""
+
+#: ../../../tutorials/ststm32/stm32cube_debugging_unit_testing.rst:68
+msgid "Add this code to ``main.c``:"
+msgstr ""
+
+#: ../../../tutorials/ststm32/stm32cube_debugging_unit_testing.rst:104
+msgid ""
+"After this step, we created a basic blink project that is ready for "
+"compiling and uploading."
+msgstr ""
+
+#: ../../../tutorials/ststm32/stm32cube_debugging_unit_testing.rst:107
+msgid "Compiling and Uploading the Firmware"
+msgstr ""
+
+#: ../../../tutorials/ststm32/stm32cube_debugging_unit_testing.rst:109
+msgid ""
+"Now we can build the project. To compile firmware we can use next options: "
+"Build option on the ``Project Tasks`` menu, Build button on :ref:"
+"`ide_vscode_toolbar`, using Command Palette ``View: Command Palette > "
+"PlatformIO: Build``, using Task Menu ``Tasks: Run Task... > PlatformIO: "
+"Build`` or via hotkeys ``cmd-alt-b / ctrl-alt-b``:"
+msgstr ""
+
+#: ../../../tutorials/ststm32/stm32cube_debugging_unit_testing.rst:114
+msgid ""
+"If everything went well, we should see the successful result in the terminal "
+"window:"
+msgstr ""
+
+#: ../../../tutorials/ststm32/stm32cube_debugging_unit_testing.rst:118
+msgid ""
+"To upload the firmware to the board we can use next options: Upload option "
+"on the ``Project Tasks`` menu, Upload button on :ref:`ide_vscode_toolbar`, "
+"using Command Palette ``View: Command Palette > PlatformIO: Upload``, using "
+"Task Menu ``Tasks: Run Task... > PlatformIO: Upload`` or via hotkeys ``cmd-"
+"alt-u / ctrl-alt-u``:"
+msgstr ""
+
+#: ../../../tutorials/ststm32/stm32cube_debugging_unit_testing.rst:123
+msgid "After successful uploading, the green LED2 should start blinking."
+msgstr ""
+
+#: ../../../tutorials/ststm32/stm32cube_debugging_unit_testing.rst:126
+msgid "Debugging the Firmware"
+msgstr ""
+
+#: ../../../tutorials/ststm32/stm32cube_debugging_unit_testing.rst:128
+msgid ""
+":ref:`piodebug` offers the easiest way to debug your board. To start "
+"debugging session you can use ``Start debugging`` option in ``PlatformIO "
+"Quick Access`` menu, ``Debug: Start debugging`` from the top menu or hotkey "
+"button ``F5``:"
+msgstr ""
+
+#: ../../../tutorials/ststm32/stm32cube_debugging_unit_testing.rst:132
+msgid ""
+"We need to wait some time while PlatformIO is initializing debug session and "
+"when the first line after the main function is highlighted we are ready to "
+"debug:"
+msgstr ""
+
+#: ../../../tutorials/ststm32/stm32cube_debugging_unit_testing.rst:136
+msgid ""
+"We can walk through the code using control buttons, set breakpoints, see "
+"peripheral registers, add variables to ``Watch window``:"
+msgstr ""
+
+#: ../../../tutorials/ststm32/stm32cube_debugging_unit_testing.rst:141
+msgid "Writing Unit Tests"
+msgstr ""
+
+#: ../../../tutorials/ststm32/stm32cube_debugging_unit_testing.rst:143
+msgid ""
+"Now let's write some tests using the :ref:`unit_testing` solution that can "
+"help us test code directly on the target board. We will use the :ref:"
+"`unit_testing_frameworks_unity` testing framework. Since there is no default "
+"configuration for the :ref:`framework_stm32cube` framework, we will provide "
+"a :ref:`unit_testing_frameworks_unity_custom_config`."
+msgstr ""
+
+#: ../../../tutorials/ststm32/stm32cube_debugging_unit_testing.rst:148
+msgid ""
+"Also, we need to create a new folder ``test`` where the tests and custom :"
+"ref:`unit_testing_frameworks_unity` configuration (described next) will be "
+"located:"
+msgstr ""
+
+#: ../../../tutorials/ststm32/stm32cube_debugging_unit_testing.rst:153
+msgid ""
+"We will use ``USART2`` on ``ST Nucleo-F401RE`` board because it's directly "
+"connected to the STLink debug interface and in OS it can be visible as a "
+"Virtual Com Port, so we don't need any additional USB-UART converter. To "
+"implement the custom :ref:`unit_testing_frameworks_unity` configuration we "
+"need to create two files ``unity_config.h`` and ``unity_config.c`` and put "
+"them in the :ref:`projectconf_pio_test_dir` in the root folder of our "
+"project."
+msgstr ""
+
+#: ../../../tutorials/ststm32/stm32cube_debugging_unit_testing.rst:160
+msgid "Implementation of ``unity_config.h``:"
+msgstr ""
+
+#: ../../../tutorials/ststm32/stm32cube_debugging_unit_testing.rst:196
+msgid "Implementation of ``unity_config.c``:"
+msgstr ""
+
+#: ../../../tutorials/ststm32/stm32cube_debugging_unit_testing.rst:276
+msgid ""
+"Now we need to add some test cases. Tests can be added to a single C file "
+"that may include multiple tests. First of all, we need to add three default "
+"functions: ``setUp``, ``tearDown`` and ``main``. ``setUp`` and ``tearDown`` "
+"are used to initialize and finalize test conditions. Implementations of "
+"these functions are not required for running tests but if you need to "
+"initialize some variables before you run a test, you use the ``setUp`` "
+"function and if you need to clean up variables you use ``tearDown`` "
+"function. In our example, we will use these functions to accordingly "
+"initialize and deinitialize LED.  ``main`` function acts as a simple program "
+"where we describe our test plan."
+msgstr ""
+
+#: ../../../tutorials/ststm32/stm32cube_debugging_unit_testing.rst:278
+msgid ""
+"Let's add a new file ``test_main.c`` to the folder ``test``. Next basic "
+"tests for blinking routine will be implemented in this file:"
+msgstr ""
+
+#: ../../../tutorials/ststm32/stm32cube_debugging_unit_testing.rst:280
+msgid ""
+"``test_led_builtin_pin_number`` ensures that ``LED_PIN`` has the correct "
+"value"
+msgstr ""
+
+#: ../../../tutorials/ststm32/stm32cube_debugging_unit_testing.rst:281
+msgid ""
+"``test_led_state_high``  tests functions ``HAL_GPIO_WritePin`` and "
+"``HAL_GPIO_ReadPin`` with ``GPIO_PIN_SET`` value"
+msgstr ""
+
+#: ../../../tutorials/ststm32/stm32cube_debugging_unit_testing.rst:282
+msgid ""
+"``test_led_state_low``  tests functions ``HAL_GPIO_WritePin`` and "
+"``HAL_GPIO_ReadPin`` with ``GPIO_PIN_RESET`` value"
+msgstr ""
+
+#: ../../../tutorials/ststm32/stm32cube_debugging_unit_testing.rst:285
+msgid ""
+"2 sec delay is required  since the board doesn't support software resetting  "
+"via ``Serial.DTR/RTS``"
+msgstr ""
+
+#: ../../../tutorials/ststm32/stm32cube_debugging_unit_testing.rst:354
+msgid ""
+"Now we are ready to upload tests to the board. To do this we can use "
+"``Test`` option from the Project Tasks menu, ``Tasks: Run Task... > "
+"PlatformIO Test`` option from the top menu or Test button on :ref:"
+"`ide_vscode_toolbar`:"
+msgstr ""
+
+#: ../../../tutorials/ststm32/stm32cube_debugging_unit_testing.rst:358
+msgid ""
+"After processing we should see a detailed report about the testing results:"
+msgstr ""
+
+#: ../../../tutorials/ststm32/stm32cube_debugging_unit_testing.rst:362
+msgid ""
+"Congratulations! As we can see from the report, all our tests went "
+"successfully!"
+msgstr ""
+
+#: ../../../tutorials/ststm32/stm32cube_debugging_unit_testing.rst:365
+msgid "Conclusion"
+msgstr ""
+
+#: ../../../tutorials/ststm32/stm32cube_debugging_unit_testing.rst:367
+msgid ""
+"Now we have a decent template that we can improve for our next more complex "
+"projects."
+msgstr ""
+
+#: ../../../tutorials/ststm32/stm32cube_debugging_unit_testing.rst:370
+msgid "Project Source Code"
+msgstr ""
+
+#: ../../../tutorials/ststm32/stm32cube_debugging_unit_testing.rst:372
+msgid ""
+"The source code of this tutorial is available at https://github.com/"
+"platformio/platformio-examples/tree/develop/unit-testing/stm32cube"
+msgstr ""

@@ -1,0 +1,58 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present, PlatformIO
+# This file is distributed under the same license as the PlatformIO package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PlatformIO latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-24 14:02+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../projectconf/sections/platformio/options/directory/lib_dir.rst:15
+msgid "``lib_dir``"
+msgstr ""
+
+#: ../../../projectconf/sections/platformio/options/directory/lib_dir.rst:17
+msgid "Type: ``DirPath`` | Multiple: ``No`` | Default: \"<Project>/``lib``\""
+msgstr ""
+
+#: ../../../projectconf/sections/platformio/options/directory/lib_dir.rst:19
+msgid ""
+"You can put your own/private libraries here. The source code of each library "
+"should be placed in separate directory, like ``lib/private_lib/[here are "
+"source files]``. This directory has the highest priority for :ref:`ldf`."
+msgstr ""
+
+#: ../../../projectconf/sections/platformio/options/directory/lib_dir.rst:24
+msgid ""
+"The default value is ``lib``, meaning a ``lib`` directory located in the "
+"root of the project."
+msgstr ""
+
+#: ../../../projectconf/sections/platformio/options/directory/lib_dir.rst:27
+msgid ""
+"This option can also be configured by the global environment variable :"
+"envvar:`PLATFORMIO_LIB_DIR`."
+msgstr ""
+
+#: ../../../projectconf/sections/platformio/options/directory/lib_dir.rst:30
+msgid "For example, see how the ``Foo`` and ``Bar`` libraries are organized:"
+msgstr ""
+
+#: ../../../projectconf/sections/platformio/options/directory/lib_dir.rst:49
+msgid "Then in ``src/main.c`` you should use:"
+msgstr ""
+
+#: ../../../projectconf/sections/platformio/options/directory/lib_dir.rst:58
+msgid ""
+"PlatformIO will find your libraries automatically, configure the "
+"preprocessor's include paths and build them."
+msgstr ""

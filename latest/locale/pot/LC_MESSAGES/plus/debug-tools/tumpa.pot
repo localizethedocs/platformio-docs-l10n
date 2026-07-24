@@ -1,0 +1,2322 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present, PlatformIO
+# This file is distributed under the same license as the PlatformIO package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PlatformIO latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-24 14:02+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../plus/debug-tools/tumpa.rst:15
+msgid "TIAO USB Multi-Protocol Adapter (TUMPA)"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:20
+msgid ""
+"The TIAO USB Multi Protocol Adapter (TUMPA) is a multi-functional USB "
+"communication adapter for hobbyists or engineers. The adapter is based on "
+"FDTI's flagship communication chip FT2232H, a USB 2.0 Hi-Speed (480Mb/s) to "
+"UART/FIFO IC. It has two multi-protocol synchronous serial engines (MPSSEs) "
+"which allow for communication using JTAG, I2C and SPI on two channels "
+"simultaneously. Official reference can be found `here <https://www.diygadget."
+"com/jtag-cables-and-microcontroller-programmers/114-tiao-usb-multi-protocol-"
+"adapter-jtag-spi-i2c-serial.html?utm_source=platformio&utm_medium=docs>`__."
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:29
+msgid "Contents"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:32
+msgid "Configuration"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:34
+msgid ""
+"You can configure debugging tool using :ref:`projectconf_debug_tool` option "
+"in :ref:`projectconf`:"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:44
+msgid ""
+"If you would like to use this tool for firmware uploading, please change "
+"upload protocol:"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:55
+msgid "More options:"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:57
+msgid ":ref:`projectconf_section_env_debug`"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:58
+msgid ":ref:`projectconf_section_env_upload`"
+msgstr ""
+
+#: ../../../plus/debug-tools/_common_jtag_drivers.rst:13
+msgid "Drivers"
+msgstr ""
+
+#: ../../../plus/debug-tools/_common_jtag_drivers.rst:0
+msgid "Windows"
+msgstr ""
+
+#: ../../../plus/debug-tools/_common_jtag_drivers.rst:16
+msgid ""
+"`Step-by-step guide: Drivers, Zadig, Wiring <https://community.platformio."
+"org/t/esp32-pio-unified-debugger/4541/20>`_"
+msgstr ""
+
+#: ../../../plus/debug-tools/_common_jtag_drivers.rst:17
+msgid ""
+"`Video tutorial <https://www.hackster.io/brian-lough/use-the-platformio-"
+"debugger-on-the-esp32-using-an-esp-prog-f633b6>`_"
+msgstr ""
+
+#: ../../../plus/debug-tools/_common_jtag_drivers.rst:0
+msgid "Mac"
+msgstr ""
+
+#: ../../../plus/debug-tools/_common_jtag_drivers.rst:20
+msgid ""
+"macOS contains default FTDIUSBSerialDriver driver which conflicts with debug "
+"tools which are based on this chip. FTDI Chip company recommends removing "
+"this default driver from a system. Everything should work after system "
+"rebooting. See detailed instruction in official application note (Page 16, "
+"Section 4: Uninstalling FTDI Drivers on OS X) `AN134: FTDI Drivers "
+"Installation guide for MAC OS X <http://www.ftdichip.com/Support/Documents/"
+"AppNotes/AN_134_FTDI_Drivers_Installation_Guide_for_MAC_OSX.pdf>`__"
+msgstr ""
+
+#: ../../../plus/debug-tools/_common_jtag_drivers.rst:0
+msgid "Linux"
+msgstr ""
+
+#: ../../../plus/debug-tools/_common_jtag_drivers.rst:28
+msgid ""
+"Please install \"udev\" rules :ref:`platformio_udev_rules`. If you already "
+"installed them before, please check that your rules are up-to-date or repeat "
+"steps."
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:63
+msgid "Wiring Connections"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:68
+msgid "JTAG Interface"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:73
+msgid "TUMPA JTAG 20-Pin Connector"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:74
+msgid "Board JTAG Pin"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:75
+#: ../../../plus/debug-tools/tumpa.rst:106
+#: ../../../plus/debug-tools/tumpa.rst:131
+#: ../../../plus/debug-tools/tumpa.rst:145
+msgid "Description"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:76
+#: ../../../plus/debug-tools/tumpa.rst:107
+msgid "1"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:77
+#: ../../../plus/debug-tools/tumpa.rst:108
+msgid "VCC"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:78
+#: ../../../plus/debug-tools/tumpa.rst:109
+msgid "Positive Supply Voltage — Power supply for JTAG interface drivers"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:79
+#: ../../../plus/debug-tools/tumpa.rst:110
+msgid "4"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:80
+#: ../../../plus/debug-tools/tumpa.rst:111
+msgid "GND"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:81
+#: ../../../plus/debug-tools/tumpa.rst:112
+msgid "Digital ground"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:82
+msgid "5"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:83
+msgid "TDI"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:84
+msgid "Test Data In pin"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:85
+#: ../../../plus/debug-tools/tumpa.rst:113
+msgid "7"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:86
+msgid "TMS"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:87
+msgid "Test Mode State pin"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:88
+#: ../../../plus/debug-tools/tumpa.rst:116
+msgid "9"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:89
+msgid "TCK"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:90
+msgid "JTAG Return Test Clock"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:91
+msgid "13"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:92
+msgid "TDO"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:93
+msgid "Test Data Out pin"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:94
+#: ../../../plus/debug-tools/tumpa.rst:119
+msgid "15"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:95
+#: ../../../plus/debug-tools/tumpa.rst:120
+msgid "RESET"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:96
+msgid ""
+"Connect this pin to the (active low) reset input of the target CPU (EN for "
+"ESP32)"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:99
+msgid "Serial Wire Mode Interface (SWD)"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:104
+msgid "TUMPA SWD 20-Pin Connector"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:105
+msgid "Board SWD Pin"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:114
+msgid "SWDIO"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:115
+msgid "Data I/O"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:117
+msgid "SWCLK"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:118
+msgid "Clock"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:121
+msgid "Connect this pin to the (active low) reset input of the target CPU"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:126
+msgid "Platforms"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:130
+#: ../../../plus/debug-tools/tumpa.rst:144
+#: ../../../plus/debug-tools/tumpa.rst:172
+msgid "Name"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:133
+#: ../../../plus/debug-tools/tumpa.rst:180
+#: ../../../plus/debug-tools/tumpa.rst:187
+#: ../../../plus/debug-tools/tumpa.rst:194
+#: ../../../plus/debug-tools/tumpa.rst:201
+#: ../../../plus/debug-tools/tumpa.rst:208
+#: ../../../plus/debug-tools/tumpa.rst:215
+#: ../../../plus/debug-tools/tumpa.rst:222
+#: ../../../plus/debug-tools/tumpa.rst:229
+#: ../../../plus/debug-tools/tumpa.rst:236
+#: ../../../plus/debug-tools/tumpa.rst:243
+#: ../../../plus/debug-tools/tumpa.rst:250
+#: ../../../plus/debug-tools/tumpa.rst:257
+#: ../../../plus/debug-tools/tumpa.rst:264
+#: ../../../plus/debug-tools/tumpa.rst:271
+#: ../../../plus/debug-tools/tumpa.rst:278
+#: ../../../plus/debug-tools/tumpa.rst:285
+#: ../../../plus/debug-tools/tumpa.rst:292
+#: ../../../plus/debug-tools/tumpa.rst:299
+#: ../../../plus/debug-tools/tumpa.rst:306
+#: ../../../plus/debug-tools/tumpa.rst:313
+#: ../../../plus/debug-tools/tumpa.rst:320
+#: ../../../plus/debug-tools/tumpa.rst:327
+#: ../../../plus/debug-tools/tumpa.rst:334
+#: ../../../plus/debug-tools/tumpa.rst:341
+#: ../../../plus/debug-tools/tumpa.rst:348
+#: ../../../plus/debug-tools/tumpa.rst:355
+#: ../../../plus/debug-tools/tumpa.rst:362
+#: ../../../plus/debug-tools/tumpa.rst:369
+#: ../../../plus/debug-tools/tumpa.rst:376
+#: ../../../plus/debug-tools/tumpa.rst:383
+#: ../../../plus/debug-tools/tumpa.rst:390
+#: ../../../plus/debug-tools/tumpa.rst:397
+#: ../../../plus/debug-tools/tumpa.rst:404
+#: ../../../plus/debug-tools/tumpa.rst:411
+#: ../../../plus/debug-tools/tumpa.rst:425
+#: ../../../plus/debug-tools/tumpa.rst:432
+#: ../../../plus/debug-tools/tumpa.rst:439
+#: ../../../plus/debug-tools/tumpa.rst:446
+#: ../../../plus/debug-tools/tumpa.rst:453
+#: ../../../plus/debug-tools/tumpa.rst:460
+#: ../../../plus/debug-tools/tumpa.rst:467
+#: ../../../plus/debug-tools/tumpa.rst:474
+#: ../../../plus/debug-tools/tumpa.rst:481
+#: ../../../plus/debug-tools/tumpa.rst:488
+#: ../../../plus/debug-tools/tumpa.rst:495
+#: ../../../plus/debug-tools/tumpa.rst:502
+#: ../../../plus/debug-tools/tumpa.rst:509
+#: ../../../plus/debug-tools/tumpa.rst:516
+#: ../../../plus/debug-tools/tumpa.rst:523
+#: ../../../plus/debug-tools/tumpa.rst:530
+#: ../../../plus/debug-tools/tumpa.rst:537
+#: ../../../plus/debug-tools/tumpa.rst:544
+#: ../../../plus/debug-tools/tumpa.rst:551
+#: ../../../plus/debug-tools/tumpa.rst:558
+#: ../../../plus/debug-tools/tumpa.rst:565
+#: ../../../plus/debug-tools/tumpa.rst:572
+#: ../../../plus/debug-tools/tumpa.rst:579
+#: ../../../plus/debug-tools/tumpa.rst:586
+#: ../../../plus/debug-tools/tumpa.rst:593
+#: ../../../plus/debug-tools/tumpa.rst:600
+#: ../../../plus/debug-tools/tumpa.rst:607
+#: ../../../plus/debug-tools/tumpa.rst:614
+#: ../../../plus/debug-tools/tumpa.rst:621
+#: ../../../plus/debug-tools/tumpa.rst:628
+#: ../../../plus/debug-tools/tumpa.rst:635
+#: ../../../plus/debug-tools/tumpa.rst:642
+#: ../../../plus/debug-tools/tumpa.rst:649
+#: ../../../plus/debug-tools/tumpa.rst:656
+#: ../../../plus/debug-tools/tumpa.rst:663
+#: ../../../plus/debug-tools/tumpa.rst:670
+#: ../../../plus/debug-tools/tumpa.rst:677
+#: ../../../plus/debug-tools/tumpa.rst:684
+#: ../../../plus/debug-tools/tumpa.rst:691
+#: ../../../plus/debug-tools/tumpa.rst:698
+#: ../../../plus/debug-tools/tumpa.rst:705
+#: ../../../plus/debug-tools/tumpa.rst:712
+#: ../../../plus/debug-tools/tumpa.rst:719
+#: ../../../plus/debug-tools/tumpa.rst:726
+#: ../../../plus/debug-tools/tumpa.rst:733
+#: ../../../plus/debug-tools/tumpa.rst:740
+#: ../../../plus/debug-tools/tumpa.rst:747
+#: ../../../plus/debug-tools/tumpa.rst:754
+#: ../../../plus/debug-tools/tumpa.rst:761
+#: ../../../plus/debug-tools/tumpa.rst:768
+#: ../../../plus/debug-tools/tumpa.rst:775
+#: ../../../plus/debug-tools/tumpa.rst:782
+#: ../../../plus/debug-tools/tumpa.rst:789
+#: ../../../plus/debug-tools/tumpa.rst:796
+#: ../../../plus/debug-tools/tumpa.rst:803
+#: ../../../plus/debug-tools/tumpa.rst:810
+#: ../../../plus/debug-tools/tumpa.rst:817
+#: ../../../plus/debug-tools/tumpa.rst:824
+#: ../../../plus/debug-tools/tumpa.rst:831
+#: ../../../plus/debug-tools/tumpa.rst:838
+#: ../../../plus/debug-tools/tumpa.rst:845
+#: ../../../plus/debug-tools/tumpa.rst:852
+#: ../../../plus/debug-tools/tumpa.rst:859
+#: ../../../plus/debug-tools/tumpa.rst:866
+#: ../../../plus/debug-tools/tumpa.rst:873
+#: ../../../plus/debug-tools/tumpa.rst:880
+#: ../../../plus/debug-tools/tumpa.rst:887
+#: ../../../plus/debug-tools/tumpa.rst:894
+#: ../../../plus/debug-tools/tumpa.rst:901
+#: ../../../plus/debug-tools/tumpa.rst:908
+#: ../../../plus/debug-tools/tumpa.rst:915
+#: ../../../plus/debug-tools/tumpa.rst:922
+#: ../../../plus/debug-tools/tumpa.rst:929
+#: ../../../plus/debug-tools/tumpa.rst:936
+#: ../../../plus/debug-tools/tumpa.rst:943
+#: ../../../plus/debug-tools/tumpa.rst:950
+#: ../../../plus/debug-tools/tumpa.rst:957
+#: ../../../plus/debug-tools/tumpa.rst:964
+#: ../../../plus/debug-tools/tumpa.rst:971
+#: ../../../plus/debug-tools/tumpa.rst:978
+#: ../../../plus/debug-tools/tumpa.rst:985
+#: ../../../plus/debug-tools/tumpa.rst:992
+#: ../../../plus/debug-tools/tumpa.rst:999
+#: ../../../plus/debug-tools/tumpa.rst:1006
+#: ../../../plus/debug-tools/tumpa.rst:1013
+#: ../../../plus/debug-tools/tumpa.rst:1020
+#: ../../../plus/debug-tools/tumpa.rst:1027
+#: ../../../plus/debug-tools/tumpa.rst:1034
+#: ../../../plus/debug-tools/tumpa.rst:1041
+#: ../../../plus/debug-tools/tumpa.rst:1048
+#: ../../../plus/debug-tools/tumpa.rst:1055
+#: ../../../plus/debug-tools/tumpa.rst:1062
+#: ../../../plus/debug-tools/tumpa.rst:1069
+#: ../../../plus/debug-tools/tumpa.rst:1076
+#: ../../../plus/debug-tools/tumpa.rst:1083
+#: ../../../plus/debug-tools/tumpa.rst:1090
+#: ../../../plus/debug-tools/tumpa.rst:1097
+#: ../../../plus/debug-tools/tumpa.rst:1104
+#: ../../../plus/debug-tools/tumpa.rst:1111
+#: ../../../plus/debug-tools/tumpa.rst:1118
+#: ../../../plus/debug-tools/tumpa.rst:1125
+#: ../../../plus/debug-tools/tumpa.rst:1132
+#: ../../../plus/debug-tools/tumpa.rst:1139
+#: ../../../plus/debug-tools/tumpa.rst:1146
+#: ../../../plus/debug-tools/tumpa.rst:1153
+#: ../../../plus/debug-tools/tumpa.rst:1160
+#: ../../../plus/debug-tools/tumpa.rst:1167
+#: ../../../plus/debug-tools/tumpa.rst:1174
+#: ../../../plus/debug-tools/tumpa.rst:1181
+#: ../../../plus/debug-tools/tumpa.rst:1188
+#: ../../../plus/debug-tools/tumpa.rst:1195
+#: ../../../plus/debug-tools/tumpa.rst:1202
+#: ../../../plus/debug-tools/tumpa.rst:1209
+#: ../../../plus/debug-tools/tumpa.rst:1216
+#: ../../../plus/debug-tools/tumpa.rst:1223
+#: ../../../plus/debug-tools/tumpa.rst:1230
+#: ../../../plus/debug-tools/tumpa.rst:1237
+#: ../../../plus/debug-tools/tumpa.rst:1244
+#: ../../../plus/debug-tools/tumpa.rst:1251
+#: ../../../plus/debug-tools/tumpa.rst:1258
+#: ../../../plus/debug-tools/tumpa.rst:1265
+#: ../../../plus/debug-tools/tumpa.rst:1272
+#: ../../../plus/debug-tools/tumpa.rst:1279
+#: ../../../plus/debug-tools/tumpa.rst:1286
+#: ../../../plus/debug-tools/tumpa.rst:1293
+#: ../../../plus/debug-tools/tumpa.rst:1300
+#: ../../../plus/debug-tools/tumpa.rst:1307
+#: ../../../plus/debug-tools/tumpa.rst:1314
+#: ../../../plus/debug-tools/tumpa.rst:1321
+#: ../../../plus/debug-tools/tumpa.rst:1328
+#: ../../../plus/debug-tools/tumpa.rst:1335
+#: ../../../plus/debug-tools/tumpa.rst:1342
+#: ../../../plus/debug-tools/tumpa.rst:1349
+#: ../../../plus/debug-tools/tumpa.rst:1356
+#: ../../../plus/debug-tools/tumpa.rst:1363
+#: ../../../plus/debug-tools/tumpa.rst:1370
+#: ../../../plus/debug-tools/tumpa.rst:1377
+#: ../../../plus/debug-tools/tumpa.rst:1384
+#: ../../../plus/debug-tools/tumpa.rst:1391
+#: ../../../plus/debug-tools/tumpa.rst:1398
+#: ../../../plus/debug-tools/tumpa.rst:1405
+#: ../../../plus/debug-tools/tumpa.rst:1412
+#: ../../../plus/debug-tools/tumpa.rst:1419
+#: ../../../plus/debug-tools/tumpa.rst:1426
+#: ../../../plus/debug-tools/tumpa.rst:1433
+#: ../../../plus/debug-tools/tumpa.rst:1440
+#: ../../../plus/debug-tools/tumpa.rst:1447
+#: ../../../plus/debug-tools/tumpa.rst:1454
+#: ../../../plus/debug-tools/tumpa.rst:1461
+#: ../../../plus/debug-tools/tumpa.rst:1468
+#: ../../../plus/debug-tools/tumpa.rst:1475
+#: ../../../plus/debug-tools/tumpa.rst:1482
+msgid ":ref:`platform_espressif32`"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:134
+msgid ""
+"ESP32 is a series of low-cost, low-power system on a chip microcontrollers "
+"with integrated Wi-Fi and Bluetooth. ESP32 integrates an antenna switch, RF "
+"balun, power amplifier, low-noise receive amplifier, filters, and power "
+"management modules."
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:136
+#: ../../../plus/debug-tools/tumpa.rst:418
+msgid ":ref:`platform_sifive`"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:137
+msgid ""
+"SiFive brings the power of open source and software automation to the "
+"semiconductor industry, making it possible to develop new hardware faster "
+"and more affordably than ever before."
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:140
+msgid "Frameworks"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:147
+msgid ":ref:`framework_arduino`"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:148
+msgid ""
+"Arduino Wiring-based Framework allows writing cross-platform software to "
+"control devices attached to a wide range of Arduino boards to create all "
+"kinds of creative coding, interactive objects, spaces or physical "
+"experiences."
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:150
+msgid ":ref:`framework_espidf`"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:151
+msgid ""
+"Espressif IoT Development Framework. Official development framework for "
+"ESP32 chip"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:153
+msgid ":ref:`framework_freedom-e-sdk`"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:154
+msgid "Open Source Software for Developing on the SiFive Freedom E Platform"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:156
+msgid ":ref:`framework_freertos`"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:157
+msgid ""
+"FreeRTOS is a real-time operating system kernel for embedded devices that "
+"has been ported to 40 microcontroller platforms."
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:159
+msgid ":ref:`framework_zephyr`"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:160
+msgid ""
+"Zephyr is a new generation, scalable, optimized, secure RTOS for multiple "
+"hardware architectures"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:163
+msgid "Boards"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:166
+msgid ""
+"For more detailed ``board`` information please scroll tables below by "
+"horizontal."
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:173
+msgid "Platform"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:174
+msgid "Debug"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:175
+msgid "MCU"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:176
+msgid "Frequency"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:177
+msgid "Flash"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:178
+msgid "RAM"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:179
+msgid ":ref:`board_espressif32_4d_systems_esp32s3_gen4_r8n16`"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:181
+#: ../../../plus/debug-tools/tumpa.rst:188
+#: ../../../plus/debug-tools/tumpa.rst:195
+#: ../../../plus/debug-tools/tumpa.rst:202
+#: ../../../plus/debug-tools/tumpa.rst:209
+#: ../../../plus/debug-tools/tumpa.rst:216
+#: ../../../plus/debug-tools/tumpa.rst:223
+#: ../../../plus/debug-tools/tumpa.rst:230
+#: ../../../plus/debug-tools/tumpa.rst:237
+#: ../../../plus/debug-tools/tumpa.rst:244
+#: ../../../plus/debug-tools/tumpa.rst:251
+#: ../../../plus/debug-tools/tumpa.rst:258
+#: ../../../plus/debug-tools/tumpa.rst:265
+#: ../../../plus/debug-tools/tumpa.rst:272
+#: ../../../plus/debug-tools/tumpa.rst:279
+#: ../../../plus/debug-tools/tumpa.rst:286
+#: ../../../plus/debug-tools/tumpa.rst:293
+#: ../../../plus/debug-tools/tumpa.rst:300
+#: ../../../plus/debug-tools/tumpa.rst:307
+#: ../../../plus/debug-tools/tumpa.rst:314
+#: ../../../plus/debug-tools/tumpa.rst:321
+#: ../../../plus/debug-tools/tumpa.rst:328
+#: ../../../plus/debug-tools/tumpa.rst:335
+#: ../../../plus/debug-tools/tumpa.rst:342
+#: ../../../plus/debug-tools/tumpa.rst:349
+#: ../../../plus/debug-tools/tumpa.rst:356
+#: ../../../plus/debug-tools/tumpa.rst:363
+#: ../../../plus/debug-tools/tumpa.rst:370
+#: ../../../plus/debug-tools/tumpa.rst:377
+#: ../../../plus/debug-tools/tumpa.rst:384
+#: ../../../plus/debug-tools/tumpa.rst:391
+#: ../../../plus/debug-tools/tumpa.rst:398
+#: ../../../plus/debug-tools/tumpa.rst:405
+#: ../../../plus/debug-tools/tumpa.rst:412
+#: ../../../plus/debug-tools/tumpa.rst:426
+#: ../../../plus/debug-tools/tumpa.rst:433
+#: ../../../plus/debug-tools/tumpa.rst:440
+#: ../../../plus/debug-tools/tumpa.rst:447
+#: ../../../plus/debug-tools/tumpa.rst:454
+#: ../../../plus/debug-tools/tumpa.rst:461
+#: ../../../plus/debug-tools/tumpa.rst:468
+#: ../../../plus/debug-tools/tumpa.rst:475
+#: ../../../plus/debug-tools/tumpa.rst:482
+#: ../../../plus/debug-tools/tumpa.rst:489
+#: ../../../plus/debug-tools/tumpa.rst:496
+#: ../../../plus/debug-tools/tumpa.rst:503
+#: ../../../plus/debug-tools/tumpa.rst:510
+#: ../../../plus/debug-tools/tumpa.rst:517
+#: ../../../plus/debug-tools/tumpa.rst:524
+#: ../../../plus/debug-tools/tumpa.rst:531
+#: ../../../plus/debug-tools/tumpa.rst:538
+#: ../../../plus/debug-tools/tumpa.rst:545
+#: ../../../plus/debug-tools/tumpa.rst:552
+#: ../../../plus/debug-tools/tumpa.rst:559
+#: ../../../plus/debug-tools/tumpa.rst:566
+#: ../../../plus/debug-tools/tumpa.rst:573
+#: ../../../plus/debug-tools/tumpa.rst:580
+#: ../../../plus/debug-tools/tumpa.rst:587
+#: ../../../plus/debug-tools/tumpa.rst:594
+#: ../../../plus/debug-tools/tumpa.rst:601
+#: ../../../plus/debug-tools/tumpa.rst:608
+#: ../../../plus/debug-tools/tumpa.rst:615
+#: ../../../plus/debug-tools/tumpa.rst:622
+#: ../../../plus/debug-tools/tumpa.rst:636
+#: ../../../plus/debug-tools/tumpa.rst:643
+#: ../../../plus/debug-tools/tumpa.rst:650
+#: ../../../plus/debug-tools/tumpa.rst:657
+#: ../../../plus/debug-tools/tumpa.rst:671
+#: ../../../plus/debug-tools/tumpa.rst:678
+#: ../../../plus/debug-tools/tumpa.rst:706
+#: ../../../plus/debug-tools/tumpa.rst:713
+#: ../../../plus/debug-tools/tumpa.rst:720
+#: ../../../plus/debug-tools/tumpa.rst:727
+#: ../../../plus/debug-tools/tumpa.rst:741
+#: ../../../plus/debug-tools/tumpa.rst:748
+#: ../../../plus/debug-tools/tumpa.rst:755
+#: ../../../plus/debug-tools/tumpa.rst:762
+#: ../../../plus/debug-tools/tumpa.rst:769
+#: ../../../plus/debug-tools/tumpa.rst:776
+#: ../../../plus/debug-tools/tumpa.rst:783
+#: ../../../plus/debug-tools/tumpa.rst:790
+#: ../../../plus/debug-tools/tumpa.rst:797
+#: ../../../plus/debug-tools/tumpa.rst:804
+#: ../../../plus/debug-tools/tumpa.rst:811
+#: ../../../plus/debug-tools/tumpa.rst:818
+#: ../../../plus/debug-tools/tumpa.rst:825
+#: ../../../plus/debug-tools/tumpa.rst:832
+#: ../../../plus/debug-tools/tumpa.rst:839
+#: ../../../plus/debug-tools/tumpa.rst:846
+#: ../../../plus/debug-tools/tumpa.rst:853
+#: ../../../plus/debug-tools/tumpa.rst:867
+#: ../../../plus/debug-tools/tumpa.rst:874
+#: ../../../plus/debug-tools/tumpa.rst:881
+#: ../../../plus/debug-tools/tumpa.rst:888
+#: ../../../plus/debug-tools/tumpa.rst:895
+#: ../../../plus/debug-tools/tumpa.rst:902
+#: ../../../plus/debug-tools/tumpa.rst:909
+#: ../../../plus/debug-tools/tumpa.rst:916
+#: ../../../plus/debug-tools/tumpa.rst:923
+#: ../../../plus/debug-tools/tumpa.rst:930
+#: ../../../plus/debug-tools/tumpa.rst:937
+#: ../../../plus/debug-tools/tumpa.rst:944
+#: ../../../plus/debug-tools/tumpa.rst:951
+#: ../../../plus/debug-tools/tumpa.rst:958
+#: ../../../plus/debug-tools/tumpa.rst:965
+#: ../../../plus/debug-tools/tumpa.rst:972
+#: ../../../plus/debug-tools/tumpa.rst:979
+#: ../../../plus/debug-tools/tumpa.rst:986
+#: ../../../plus/debug-tools/tumpa.rst:993
+#: ../../../plus/debug-tools/tumpa.rst:1000
+#: ../../../plus/debug-tools/tumpa.rst:1014
+#: ../../../plus/debug-tools/tumpa.rst:1021
+#: ../../../plus/debug-tools/tumpa.rst:1028
+#: ../../../plus/debug-tools/tumpa.rst:1035
+#: ../../../plus/debug-tools/tumpa.rst:1042
+#: ../../../plus/debug-tools/tumpa.rst:1049
+#: ../../../plus/debug-tools/tumpa.rst:1056
+#: ../../../plus/debug-tools/tumpa.rst:1063
+#: ../../../plus/debug-tools/tumpa.rst:1070
+#: ../../../plus/debug-tools/tumpa.rst:1077
+#: ../../../plus/debug-tools/tumpa.rst:1084
+#: ../../../plus/debug-tools/tumpa.rst:1091
+#: ../../../plus/debug-tools/tumpa.rst:1098
+#: ../../../plus/debug-tools/tumpa.rst:1105
+#: ../../../plus/debug-tools/tumpa.rst:1112
+#: ../../../plus/debug-tools/tumpa.rst:1119
+#: ../../../plus/debug-tools/tumpa.rst:1126
+#: ../../../plus/debug-tools/tumpa.rst:1133
+#: ../../../plus/debug-tools/tumpa.rst:1140
+#: ../../../plus/debug-tools/tumpa.rst:1147
+#: ../../../plus/debug-tools/tumpa.rst:1154
+#: ../../../plus/debug-tools/tumpa.rst:1161
+#: ../../../plus/debug-tools/tumpa.rst:1168
+#: ../../../plus/debug-tools/tumpa.rst:1175
+#: ../../../plus/debug-tools/tumpa.rst:1182
+#: ../../../plus/debug-tools/tumpa.rst:1189
+#: ../../../plus/debug-tools/tumpa.rst:1196
+#: ../../../plus/debug-tools/tumpa.rst:1203
+#: ../../../plus/debug-tools/tumpa.rst:1210
+#: ../../../plus/debug-tools/tumpa.rst:1217
+#: ../../../plus/debug-tools/tumpa.rst:1224
+#: ../../../plus/debug-tools/tumpa.rst:1231
+#: ../../../plus/debug-tools/tumpa.rst:1238
+#: ../../../plus/debug-tools/tumpa.rst:1245
+#: ../../../plus/debug-tools/tumpa.rst:1252
+#: ../../../plus/debug-tools/tumpa.rst:1259
+#: ../../../plus/debug-tools/tumpa.rst:1266
+#: ../../../plus/debug-tools/tumpa.rst:1273
+#: ../../../plus/debug-tools/tumpa.rst:1280
+#: ../../../plus/debug-tools/tumpa.rst:1287
+#: ../../../plus/debug-tools/tumpa.rst:1294
+#: ../../../plus/debug-tools/tumpa.rst:1301
+#: ../../../plus/debug-tools/tumpa.rst:1308
+#: ../../../plus/debug-tools/tumpa.rst:1315
+#: ../../../plus/debug-tools/tumpa.rst:1322
+#: ../../../plus/debug-tools/tumpa.rst:1329
+#: ../../../plus/debug-tools/tumpa.rst:1336
+#: ../../../plus/debug-tools/tumpa.rst:1343
+#: ../../../plus/debug-tools/tumpa.rst:1350
+#: ../../../plus/debug-tools/tumpa.rst:1357
+#: ../../../plus/debug-tools/tumpa.rst:1364
+#: ../../../plus/debug-tools/tumpa.rst:1371
+#: ../../../plus/debug-tools/tumpa.rst:1378
+#: ../../../plus/debug-tools/tumpa.rst:1385
+#: ../../../plus/debug-tools/tumpa.rst:1392
+#: ../../../plus/debug-tools/tumpa.rst:1399
+#: ../../../plus/debug-tools/tumpa.rst:1406
+#: ../../../plus/debug-tools/tumpa.rst:1413
+#: ../../../plus/debug-tools/tumpa.rst:1420
+#: ../../../plus/debug-tools/tumpa.rst:1427
+#: ../../../plus/debug-tools/tumpa.rst:1434
+#: ../../../plus/debug-tools/tumpa.rst:1441
+#: ../../../plus/debug-tools/tumpa.rst:1448
+#: ../../../plus/debug-tools/tumpa.rst:1455
+#: ../../../plus/debug-tools/tumpa.rst:1462
+#: ../../../plus/debug-tools/tumpa.rst:1469
+#: ../../../plus/debug-tools/tumpa.rst:1476
+#: ../../../plus/debug-tools/tumpa.rst:1483
+msgid "External"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:182
+#: ../../../plus/debug-tools/tumpa.rst:252
+#: ../../../plus/debug-tools/tumpa.rst:259
+#: ../../../plus/debug-tools/tumpa.rst:266
+#: ../../../plus/debug-tools/tumpa.rst:273
+#: ../../../plus/debug-tools/tumpa.rst:301
+#: ../../../plus/debug-tools/tumpa.rst:315
+#: ../../../plus/debug-tools/tumpa.rst:343
+#: ../../../plus/debug-tools/tumpa.rst:350
+#: ../../../plus/debug-tools/tumpa.rst:357
+#: ../../../plus/debug-tools/tumpa.rst:364
+#: ../../../plus/debug-tools/tumpa.rst:392
+#: ../../../plus/debug-tools/tumpa.rst:399
+#: ../../../plus/debug-tools/tumpa.rst:427
+#: ../../../plus/debug-tools/tumpa.rst:434
+#: ../../../plus/debug-tools/tumpa.rst:441
+#: ../../../plus/debug-tools/tumpa.rst:462
+#: ../../../plus/debug-tools/tumpa.rst:490
+#: ../../../plus/debug-tools/tumpa.rst:497
+#: ../../../plus/debug-tools/tumpa.rst:532
+#: ../../../plus/debug-tools/tumpa.rst:588
+#: ../../../plus/debug-tools/tumpa.rst:595
+#: ../../../plus/debug-tools/tumpa.rst:679
+#: ../../../plus/debug-tools/tumpa.rst:686
+#: ../../../plus/debug-tools/tumpa.rst:693
+#: ../../../plus/debug-tools/tumpa.rst:700
+#: ../../../plus/debug-tools/tumpa.rst:735
+#: ../../../plus/debug-tools/tumpa.rst:763
+#: ../../../plus/debug-tools/tumpa.rst:784
+#: ../../../plus/debug-tools/tumpa.rst:819
+#: ../../../plus/debug-tools/tumpa.rst:833
+#: ../../../plus/debug-tools/tumpa.rst:840
+#: ../../../plus/debug-tools/tumpa.rst:847
+#: ../../../plus/debug-tools/tumpa.rst:861
+#: ../../../plus/debug-tools/tumpa.rst:868
+#: ../../../plus/debug-tools/tumpa.rst:875
+#: ../../../plus/debug-tools/tumpa.rst:882
+#: ../../../plus/debug-tools/tumpa.rst:910
+#: ../../../plus/debug-tools/tumpa.rst:917
+#: ../../../plus/debug-tools/tumpa.rst:924
+#: ../../../plus/debug-tools/tumpa.rst:931
+#: ../../../plus/debug-tools/tumpa.rst:1008
+#: ../../../plus/debug-tools/tumpa.rst:1029
+#: ../../../plus/debug-tools/tumpa.rst:1050
+#: ../../../plus/debug-tools/tumpa.rst:1064
+#: ../../../plus/debug-tools/tumpa.rst:1085
+#: ../../../plus/debug-tools/tumpa.rst:1092
+#: ../../../plus/debug-tools/tumpa.rst:1148
+#: ../../../plus/debug-tools/tumpa.rst:1239
+#: ../../../plus/debug-tools/tumpa.rst:1246
+#: ../../../plus/debug-tools/tumpa.rst:1253
+#: ../../../plus/debug-tools/tumpa.rst:1274
+#: ../../../plus/debug-tools/tumpa.rst:1351
+#: ../../../plus/debug-tools/tumpa.rst:1358
+#: ../../../plus/debug-tools/tumpa.rst:1365
+#: ../../../plus/debug-tools/tumpa.rst:1477
+#: ../../../plus/debug-tools/tumpa.rst:1484
+msgid "ESP32S3"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:183
+#: ../../../plus/debug-tools/tumpa.rst:190
+#: ../../../plus/debug-tools/tumpa.rst:197
+#: ../../../plus/debug-tools/tumpa.rst:204
+#: ../../../plus/debug-tools/tumpa.rst:211
+#: ../../../plus/debug-tools/tumpa.rst:218
+#: ../../../plus/debug-tools/tumpa.rst:225
+#: ../../../plus/debug-tools/tumpa.rst:232
+#: ../../../plus/debug-tools/tumpa.rst:239
+#: ../../../plus/debug-tools/tumpa.rst:246
+#: ../../../plus/debug-tools/tumpa.rst:253
+#: ../../../plus/debug-tools/tumpa.rst:260
+#: ../../../plus/debug-tools/tumpa.rst:267
+#: ../../../plus/debug-tools/tumpa.rst:274
+#: ../../../plus/debug-tools/tumpa.rst:281
+#: ../../../plus/debug-tools/tumpa.rst:288
+#: ../../../plus/debug-tools/tumpa.rst:295
+#: ../../../plus/debug-tools/tumpa.rst:302
+#: ../../../plus/debug-tools/tumpa.rst:309
+#: ../../../plus/debug-tools/tumpa.rst:316
+#: ../../../plus/debug-tools/tumpa.rst:323
+#: ../../../plus/debug-tools/tumpa.rst:337
+#: ../../../plus/debug-tools/tumpa.rst:344
+#: ../../../plus/debug-tools/tumpa.rst:351
+#: ../../../plus/debug-tools/tumpa.rst:358
+#: ../../../plus/debug-tools/tumpa.rst:365
+#: ../../../plus/debug-tools/tumpa.rst:379
+#: ../../../plus/debug-tools/tumpa.rst:393
+#: ../../../plus/debug-tools/tumpa.rst:400
+#: ../../../plus/debug-tools/tumpa.rst:407
+#: ../../../plus/debug-tools/tumpa.rst:414
+#: ../../../plus/debug-tools/tumpa.rst:428
+#: ../../../plus/debug-tools/tumpa.rst:435
+#: ../../../plus/debug-tools/tumpa.rst:442
+#: ../../../plus/debug-tools/tumpa.rst:456
+#: ../../../plus/debug-tools/tumpa.rst:463
+#: ../../../plus/debug-tools/tumpa.rst:470
+#: ../../../plus/debug-tools/tumpa.rst:484
+#: ../../../plus/debug-tools/tumpa.rst:491
+#: ../../../plus/debug-tools/tumpa.rst:498
+#: ../../../plus/debug-tools/tumpa.rst:505
+#: ../../../plus/debug-tools/tumpa.rst:512
+#: ../../../plus/debug-tools/tumpa.rst:519
+#: ../../../plus/debug-tools/tumpa.rst:526
+#: ../../../plus/debug-tools/tumpa.rst:533
+#: ../../../plus/debug-tools/tumpa.rst:547
+#: ../../../plus/debug-tools/tumpa.rst:554
+#: ../../../plus/debug-tools/tumpa.rst:561
+#: ../../../plus/debug-tools/tumpa.rst:568
+#: ../../../plus/debug-tools/tumpa.rst:575
+#: ../../../plus/debug-tools/tumpa.rst:582
+#: ../../../plus/debug-tools/tumpa.rst:589
+#: ../../../plus/debug-tools/tumpa.rst:596
+#: ../../../plus/debug-tools/tumpa.rst:603
+#: ../../../plus/debug-tools/tumpa.rst:610
+#: ../../../plus/debug-tools/tumpa.rst:617
+#: ../../../plus/debug-tools/tumpa.rst:624
+#: ../../../plus/debug-tools/tumpa.rst:631
+#: ../../../plus/debug-tools/tumpa.rst:638
+#: ../../../plus/debug-tools/tumpa.rst:666
+#: ../../../plus/debug-tools/tumpa.rst:673
+#: ../../../plus/debug-tools/tumpa.rst:680
+#: ../../../plus/debug-tools/tumpa.rst:687
+#: ../../../plus/debug-tools/tumpa.rst:694
+#: ../../../plus/debug-tools/tumpa.rst:701
+#: ../../../plus/debug-tools/tumpa.rst:708
+#: ../../../plus/debug-tools/tumpa.rst:715
+#: ../../../plus/debug-tools/tumpa.rst:722
+#: ../../../plus/debug-tools/tumpa.rst:729
+#: ../../../plus/debug-tools/tumpa.rst:736
+#: ../../../plus/debug-tools/tumpa.rst:743
+#: ../../../plus/debug-tools/tumpa.rst:750
+#: ../../../plus/debug-tools/tumpa.rst:757
+#: ../../../plus/debug-tools/tumpa.rst:764
+#: ../../../plus/debug-tools/tumpa.rst:771
+#: ../../../plus/debug-tools/tumpa.rst:778
+#: ../../../plus/debug-tools/tumpa.rst:785
+#: ../../../plus/debug-tools/tumpa.rst:792
+#: ../../../plus/debug-tools/tumpa.rst:799
+#: ../../../plus/debug-tools/tumpa.rst:806
+#: ../../../plus/debug-tools/tumpa.rst:813
+#: ../../../plus/debug-tools/tumpa.rst:820
+#: ../../../plus/debug-tools/tumpa.rst:827
+#: ../../../plus/debug-tools/tumpa.rst:834
+#: ../../../plus/debug-tools/tumpa.rst:841
+#: ../../../plus/debug-tools/tumpa.rst:848
+#: ../../../plus/debug-tools/tumpa.rst:855
+#: ../../../plus/debug-tools/tumpa.rst:862
+#: ../../../plus/debug-tools/tumpa.rst:869
+#: ../../../plus/debug-tools/tumpa.rst:876
+#: ../../../plus/debug-tools/tumpa.rst:883
+#: ../../../plus/debug-tools/tumpa.rst:890
+#: ../../../plus/debug-tools/tumpa.rst:897
+#: ../../../plus/debug-tools/tumpa.rst:904
+#: ../../../plus/debug-tools/tumpa.rst:911
+#: ../../../plus/debug-tools/tumpa.rst:918
+#: ../../../plus/debug-tools/tumpa.rst:925
+#: ../../../plus/debug-tools/tumpa.rst:932
+#: ../../../plus/debug-tools/tumpa.rst:939
+#: ../../../plus/debug-tools/tumpa.rst:946
+#: ../../../plus/debug-tools/tumpa.rst:953
+#: ../../../plus/debug-tools/tumpa.rst:960
+#: ../../../plus/debug-tools/tumpa.rst:967
+#: ../../../plus/debug-tools/tumpa.rst:974
+#: ../../../plus/debug-tools/tumpa.rst:981
+#: ../../../plus/debug-tools/tumpa.rst:988
+#: ../../../plus/debug-tools/tumpa.rst:1002
+#: ../../../plus/debug-tools/tumpa.rst:1009
+#: ../../../plus/debug-tools/tumpa.rst:1016
+#: ../../../plus/debug-tools/tumpa.rst:1023
+#: ../../../plus/debug-tools/tumpa.rst:1030
+#: ../../../plus/debug-tools/tumpa.rst:1051
+#: ../../../plus/debug-tools/tumpa.rst:1058
+#: ../../../plus/debug-tools/tumpa.rst:1065
+#: ../../../plus/debug-tools/tumpa.rst:1072
+#: ../../../plus/debug-tools/tumpa.rst:1086
+#: ../../../plus/debug-tools/tumpa.rst:1093
+#: ../../../plus/debug-tools/tumpa.rst:1100
+#: ../../../plus/debug-tools/tumpa.rst:1107
+#: ../../../plus/debug-tools/tumpa.rst:1114
+#: ../../../plus/debug-tools/tumpa.rst:1121
+#: ../../../plus/debug-tools/tumpa.rst:1128
+#: ../../../plus/debug-tools/tumpa.rst:1135
+#: ../../../plus/debug-tools/tumpa.rst:1142
+#: ../../../plus/debug-tools/tumpa.rst:1149
+#: ../../../plus/debug-tools/tumpa.rst:1156
+#: ../../../plus/debug-tools/tumpa.rst:1163
+#: ../../../plus/debug-tools/tumpa.rst:1170
+#: ../../../plus/debug-tools/tumpa.rst:1177
+#: ../../../plus/debug-tools/tumpa.rst:1191
+#: ../../../plus/debug-tools/tumpa.rst:1198
+#: ../../../plus/debug-tools/tumpa.rst:1205
+#: ../../../plus/debug-tools/tumpa.rst:1212
+#: ../../../plus/debug-tools/tumpa.rst:1219
+#: ../../../plus/debug-tools/tumpa.rst:1226
+#: ../../../plus/debug-tools/tumpa.rst:1233
+#: ../../../plus/debug-tools/tumpa.rst:1240
+#: ../../../plus/debug-tools/tumpa.rst:1247
+#: ../../../plus/debug-tools/tumpa.rst:1254
+#: ../../../plus/debug-tools/tumpa.rst:1261
+#: ../../../plus/debug-tools/tumpa.rst:1268
+#: ../../../plus/debug-tools/tumpa.rst:1275
+#: ../../../plus/debug-tools/tumpa.rst:1296
+#: ../../../plus/debug-tools/tumpa.rst:1303
+#: ../../../plus/debug-tools/tumpa.rst:1310
+#: ../../../plus/debug-tools/tumpa.rst:1324
+#: ../../../plus/debug-tools/tumpa.rst:1331
+#: ../../../plus/debug-tools/tumpa.rst:1338
+#: ../../../plus/debug-tools/tumpa.rst:1345
+#: ../../../plus/debug-tools/tumpa.rst:1352
+#: ../../../plus/debug-tools/tumpa.rst:1359
+#: ../../../plus/debug-tools/tumpa.rst:1366
+#: ../../../plus/debug-tools/tumpa.rst:1373
+#: ../../../plus/debug-tools/tumpa.rst:1380
+#: ../../../plus/debug-tools/tumpa.rst:1394
+#: ../../../plus/debug-tools/tumpa.rst:1401
+#: ../../../plus/debug-tools/tumpa.rst:1408
+#: ../../../plus/debug-tools/tumpa.rst:1429
+#: ../../../plus/debug-tools/tumpa.rst:1436
+#: ../../../plus/debug-tools/tumpa.rst:1443
+#: ../../../plus/debug-tools/tumpa.rst:1450
+#: ../../../plus/debug-tools/tumpa.rst:1457
+#: ../../../plus/debug-tools/tumpa.rst:1464
+#: ../../../plus/debug-tools/tumpa.rst:1471
+#: ../../../plus/debug-tools/tumpa.rst:1478
+#: ../../../plus/debug-tools/tumpa.rst:1485
+msgid "240MHz"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:184
+#: ../../../plus/debug-tools/tumpa.rst:317
+#: ../../../plus/debug-tools/tumpa.rst:359
+#: ../../../plus/debug-tools/tumpa.rst:394
+#: ../../../plus/debug-tools/tumpa.rst:422
+#: ../../../plus/debug-tools/tumpa.rst:429
+#: ../../../plus/debug-tools/tumpa.rst:499
+#: ../../../plus/debug-tools/tumpa.rst:625
+#: ../../../plus/debug-tools/tumpa.rst:681
+#: ../../../plus/debug-tools/tumpa.rst:709
+#: ../../../plus/debug-tools/tumpa.rst:835
+#: ../../../plus/debug-tools/tumpa.rst:842
+#: ../../../plus/debug-tools/tumpa.rst:877
+#: ../../../plus/debug-tools/tumpa.rst:1115
+#: ../../../plus/debug-tools/tumpa.rst:1122
+#: ../../../plus/debug-tools/tumpa.rst:1227
+#: ../../../plus/debug-tools/tumpa.rst:1241
+#: ../../../plus/debug-tools/tumpa.rst:1255
+#: ../../../plus/debug-tools/tumpa.rst:1353
+#: ../../../plus/debug-tools/tumpa.rst:1367
+#: ../../../plus/debug-tools/tumpa.rst:1430
+msgid "16MB"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:185
+#: ../../../plus/debug-tools/tumpa.rst:192
+#: ../../../plus/debug-tools/tumpa.rst:199
+#: ../../../plus/debug-tools/tumpa.rst:213
+#: ../../../plus/debug-tools/tumpa.rst:220
+#: ../../../plus/debug-tools/tumpa.rst:227
+#: ../../../plus/debug-tools/tumpa.rst:234
+#: ../../../plus/debug-tools/tumpa.rst:241
+#: ../../../plus/debug-tools/tumpa.rst:248
+#: ../../../plus/debug-tools/tumpa.rst:255
+#: ../../../plus/debug-tools/tumpa.rst:262
+#: ../../../plus/debug-tools/tumpa.rst:269
+#: ../../../plus/debug-tools/tumpa.rst:276
+#: ../../../plus/debug-tools/tumpa.rst:283
+#: ../../../plus/debug-tools/tumpa.rst:290
+#: ../../../plus/debug-tools/tumpa.rst:297
+#: ../../../plus/debug-tools/tumpa.rst:304
+#: ../../../plus/debug-tools/tumpa.rst:311
+#: ../../../plus/debug-tools/tumpa.rst:318
+#: ../../../plus/debug-tools/tumpa.rst:325
+#: ../../../plus/debug-tools/tumpa.rst:332
+#: ../../../plus/debug-tools/tumpa.rst:339
+#: ../../../plus/debug-tools/tumpa.rst:346
+#: ../../../plus/debug-tools/tumpa.rst:353
+#: ../../../plus/debug-tools/tumpa.rst:360
+#: ../../../plus/debug-tools/tumpa.rst:367
+#: ../../../plus/debug-tools/tumpa.rst:374
+#: ../../../plus/debug-tools/tumpa.rst:381
+#: ../../../plus/debug-tools/tumpa.rst:388
+#: ../../../plus/debug-tools/tumpa.rst:395
+#: ../../../plus/debug-tools/tumpa.rst:402
+#: ../../../plus/debug-tools/tumpa.rst:409
+#: ../../../plus/debug-tools/tumpa.rst:416
+#: ../../../plus/debug-tools/tumpa.rst:430
+#: ../../../plus/debug-tools/tumpa.rst:437
+#: ../../../plus/debug-tools/tumpa.rst:444
+#: ../../../plus/debug-tools/tumpa.rst:451
+#: ../../../plus/debug-tools/tumpa.rst:458
+#: ../../../plus/debug-tools/tumpa.rst:465
+#: ../../../plus/debug-tools/tumpa.rst:472
+#: ../../../plus/debug-tools/tumpa.rst:479
+#: ../../../plus/debug-tools/tumpa.rst:486
+#: ../../../plus/debug-tools/tumpa.rst:493
+#: ../../../plus/debug-tools/tumpa.rst:500
+#: ../../../plus/debug-tools/tumpa.rst:507
+#: ../../../plus/debug-tools/tumpa.rst:514
+#: ../../../plus/debug-tools/tumpa.rst:521
+#: ../../../plus/debug-tools/tumpa.rst:528
+#: ../../../plus/debug-tools/tumpa.rst:535
+#: ../../../plus/debug-tools/tumpa.rst:542
+#: ../../../plus/debug-tools/tumpa.rst:549
+#: ../../../plus/debug-tools/tumpa.rst:556
+#: ../../../plus/debug-tools/tumpa.rst:563
+#: ../../../plus/debug-tools/tumpa.rst:570
+#: ../../../plus/debug-tools/tumpa.rst:577
+#: ../../../plus/debug-tools/tumpa.rst:584
+#: ../../../plus/debug-tools/tumpa.rst:591
+#: ../../../plus/debug-tools/tumpa.rst:598
+#: ../../../plus/debug-tools/tumpa.rst:605
+#: ../../../plus/debug-tools/tumpa.rst:612
+#: ../../../plus/debug-tools/tumpa.rst:619
+#: ../../../plus/debug-tools/tumpa.rst:626
+#: ../../../plus/debug-tools/tumpa.rst:633
+#: ../../../plus/debug-tools/tumpa.rst:640
+#: ../../../plus/debug-tools/tumpa.rst:647
+#: ../../../plus/debug-tools/tumpa.rst:654
+#: ../../../plus/debug-tools/tumpa.rst:661
+#: ../../../plus/debug-tools/tumpa.rst:668
+#: ../../../plus/debug-tools/tumpa.rst:675
+#: ../../../plus/debug-tools/tumpa.rst:682
+#: ../../../plus/debug-tools/tumpa.rst:689
+#: ../../../plus/debug-tools/tumpa.rst:696
+#: ../../../plus/debug-tools/tumpa.rst:703
+#: ../../../plus/debug-tools/tumpa.rst:717
+#: ../../../plus/debug-tools/tumpa.rst:724
+#: ../../../plus/debug-tools/tumpa.rst:731
+#: ../../../plus/debug-tools/tumpa.rst:738
+#: ../../../plus/debug-tools/tumpa.rst:745
+#: ../../../plus/debug-tools/tumpa.rst:752
+#: ../../../plus/debug-tools/tumpa.rst:759
+#: ../../../plus/debug-tools/tumpa.rst:766
+#: ../../../plus/debug-tools/tumpa.rst:773
+#: ../../../plus/debug-tools/tumpa.rst:780
+#: ../../../plus/debug-tools/tumpa.rst:787
+#: ../../../plus/debug-tools/tumpa.rst:794
+#: ../../../plus/debug-tools/tumpa.rst:801
+#: ../../../plus/debug-tools/tumpa.rst:808
+#: ../../../plus/debug-tools/tumpa.rst:815
+#: ../../../plus/debug-tools/tumpa.rst:822
+#: ../../../plus/debug-tools/tumpa.rst:829
+#: ../../../plus/debug-tools/tumpa.rst:836
+#: ../../../plus/debug-tools/tumpa.rst:843
+#: ../../../plus/debug-tools/tumpa.rst:850
+#: ../../../plus/debug-tools/tumpa.rst:857
+#: ../../../plus/debug-tools/tumpa.rst:864
+#: ../../../plus/debug-tools/tumpa.rst:871
+#: ../../../plus/debug-tools/tumpa.rst:878
+#: ../../../plus/debug-tools/tumpa.rst:885
+#: ../../../plus/debug-tools/tumpa.rst:892
+#: ../../../plus/debug-tools/tumpa.rst:899
+#: ../../../plus/debug-tools/tumpa.rst:906
+#: ../../../plus/debug-tools/tumpa.rst:913
+#: ../../../plus/debug-tools/tumpa.rst:920
+#: ../../../plus/debug-tools/tumpa.rst:927
+#: ../../../plus/debug-tools/tumpa.rst:934
+#: ../../../plus/debug-tools/tumpa.rst:941
+#: ../../../plus/debug-tools/tumpa.rst:948
+#: ../../../plus/debug-tools/tumpa.rst:955
+#: ../../../plus/debug-tools/tumpa.rst:962
+#: ../../../plus/debug-tools/tumpa.rst:969
+#: ../../../plus/debug-tools/tumpa.rst:976
+#: ../../../plus/debug-tools/tumpa.rst:997
+#: ../../../plus/debug-tools/tumpa.rst:1004
+#: ../../../plus/debug-tools/tumpa.rst:1011
+#: ../../../plus/debug-tools/tumpa.rst:1018
+#: ../../../plus/debug-tools/tumpa.rst:1025
+#: ../../../plus/debug-tools/tumpa.rst:1032
+#: ../../../plus/debug-tools/tumpa.rst:1039
+#: ../../../plus/debug-tools/tumpa.rst:1046
+#: ../../../plus/debug-tools/tumpa.rst:1053
+#: ../../../plus/debug-tools/tumpa.rst:1060
+#: ../../../plus/debug-tools/tumpa.rst:1067
+#: ../../../plus/debug-tools/tumpa.rst:1074
+#: ../../../plus/debug-tools/tumpa.rst:1081
+#: ../../../plus/debug-tools/tumpa.rst:1088
+#: ../../../plus/debug-tools/tumpa.rst:1095
+#: ../../../plus/debug-tools/tumpa.rst:1102
+#: ../../../plus/debug-tools/tumpa.rst:1109
+#: ../../../plus/debug-tools/tumpa.rst:1116
+#: ../../../plus/debug-tools/tumpa.rst:1123
+#: ../../../plus/debug-tools/tumpa.rst:1130
+#: ../../../plus/debug-tools/tumpa.rst:1137
+#: ../../../plus/debug-tools/tumpa.rst:1144
+#: ../../../plus/debug-tools/tumpa.rst:1151
+#: ../../../plus/debug-tools/tumpa.rst:1158
+#: ../../../plus/debug-tools/tumpa.rst:1165
+#: ../../../plus/debug-tools/tumpa.rst:1172
+#: ../../../plus/debug-tools/tumpa.rst:1186
+#: ../../../plus/debug-tools/tumpa.rst:1193
+#: ../../../plus/debug-tools/tumpa.rst:1207
+#: ../../../plus/debug-tools/tumpa.rst:1214
+#: ../../../plus/debug-tools/tumpa.rst:1221
+#: ../../../plus/debug-tools/tumpa.rst:1228
+#: ../../../plus/debug-tools/tumpa.rst:1235
+#: ../../../plus/debug-tools/tumpa.rst:1242
+#: ../../../plus/debug-tools/tumpa.rst:1249
+#: ../../../plus/debug-tools/tumpa.rst:1256
+#: ../../../plus/debug-tools/tumpa.rst:1263
+#: ../../../plus/debug-tools/tumpa.rst:1270
+#: ../../../plus/debug-tools/tumpa.rst:1277
+#: ../../../plus/debug-tools/tumpa.rst:1284
+#: ../../../plus/debug-tools/tumpa.rst:1291
+#: ../../../plus/debug-tools/tumpa.rst:1298
+#: ../../../plus/debug-tools/tumpa.rst:1305
+#: ../../../plus/debug-tools/tumpa.rst:1312
+#: ../../../plus/debug-tools/tumpa.rst:1319
+#: ../../../plus/debug-tools/tumpa.rst:1326
+#: ../../../plus/debug-tools/tumpa.rst:1333
+#: ../../../plus/debug-tools/tumpa.rst:1340
+#: ../../../plus/debug-tools/tumpa.rst:1347
+#: ../../../plus/debug-tools/tumpa.rst:1354
+#: ../../../plus/debug-tools/tumpa.rst:1361
+#: ../../../plus/debug-tools/tumpa.rst:1368
+#: ../../../plus/debug-tools/tumpa.rst:1375
+#: ../../../plus/debug-tools/tumpa.rst:1382
+#: ../../../plus/debug-tools/tumpa.rst:1396
+#: ../../../plus/debug-tools/tumpa.rst:1403
+#: ../../../plus/debug-tools/tumpa.rst:1410
+#: ../../../plus/debug-tools/tumpa.rst:1417
+#: ../../../plus/debug-tools/tumpa.rst:1424
+#: ../../../plus/debug-tools/tumpa.rst:1431
+#: ../../../plus/debug-tools/tumpa.rst:1438
+#: ../../../plus/debug-tools/tumpa.rst:1445
+#: ../../../plus/debug-tools/tumpa.rst:1452
+#: ../../../plus/debug-tools/tumpa.rst:1459
+#: ../../../plus/debug-tools/tumpa.rst:1466
+#: ../../../plus/debug-tools/tumpa.rst:1473
+msgid "320KB"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:186
+msgid ":ref:`board_espressif32_esp32cam`"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:189
+#: ../../../plus/debug-tools/tumpa.rst:196
+#: ../../../plus/debug-tools/tumpa.rst:203
+#: ../../../plus/debug-tools/tumpa.rst:210
+#: ../../../plus/debug-tools/tumpa.rst:224
+#: ../../../plus/debug-tools/tumpa.rst:287
+#: ../../../plus/debug-tools/tumpa.rst:322
+#: ../../../plus/debug-tools/tumpa.rst:406
+#: ../../../plus/debug-tools/tumpa.rst:413
+#: ../../../plus/debug-tools/tumpa.rst:455
+#: ../../../plus/debug-tools/tumpa.rst:469
+#: ../../../plus/debug-tools/tumpa.rst:483
+#: ../../../plus/debug-tools/tumpa.rst:504
+#: ../../../plus/debug-tools/tumpa.rst:511
+#: ../../../plus/debug-tools/tumpa.rst:518
+#: ../../../plus/debug-tools/tumpa.rst:525
+#: ../../../plus/debug-tools/tumpa.rst:567
+#: ../../../plus/debug-tools/tumpa.rst:574
+#: ../../../plus/debug-tools/tumpa.rst:581
+#: ../../../plus/debug-tools/tumpa.rst:602
+#: ../../../plus/debug-tools/tumpa.rst:609
+#: ../../../plus/debug-tools/tumpa.rst:616
+#: ../../../plus/debug-tools/tumpa.rst:630
+#: ../../../plus/debug-tools/tumpa.rst:637
+#: ../../../plus/debug-tools/tumpa.rst:707
+#: ../../../plus/debug-tools/tumpa.rst:742
+#: ../../../plus/debug-tools/tumpa.rst:749
+#: ../../../plus/debug-tools/tumpa.rst:756
+#: ../../../plus/debug-tools/tumpa.rst:770
+#: ../../../plus/debug-tools/tumpa.rst:777
+#: ../../../plus/debug-tools/tumpa.rst:791
+#: ../../../plus/debug-tools/tumpa.rst:798
+#: ../../../plus/debug-tools/tumpa.rst:805
+#: ../../../plus/debug-tools/tumpa.rst:812
+#: ../../../plus/debug-tools/tumpa.rst:826
+#: ../../../plus/debug-tools/tumpa.rst:854
+#: ../../../plus/debug-tools/tumpa.rst:889
+#: ../../../plus/debug-tools/tumpa.rst:896
+#: ../../../plus/debug-tools/tumpa.rst:903
+#: ../../../plus/debug-tools/tumpa.rst:938
+#: ../../../plus/debug-tools/tumpa.rst:945
+#: ../../../plus/debug-tools/tumpa.rst:952
+#: ../../../plus/debug-tools/tumpa.rst:959
+#: ../../../plus/debug-tools/tumpa.rst:966
+#: ../../../plus/debug-tools/tumpa.rst:973
+#: ../../../plus/debug-tools/tumpa.rst:980
+#: ../../../plus/debug-tools/tumpa.rst:987
+#: ../../../plus/debug-tools/tumpa.rst:1001
+#: ../../../plus/debug-tools/tumpa.rst:1015
+#: ../../../plus/debug-tools/tumpa.rst:1022
+#: ../../../plus/debug-tools/tumpa.rst:1057
+#: ../../../plus/debug-tools/tumpa.rst:1099
+#: ../../../plus/debug-tools/tumpa.rst:1106
+#: ../../../plus/debug-tools/tumpa.rst:1113
+#: ../../../plus/debug-tools/tumpa.rst:1120
+#: ../../../plus/debug-tools/tumpa.rst:1134
+#: ../../../plus/debug-tools/tumpa.rst:1141
+#: ../../../plus/debug-tools/tumpa.rst:1155
+#: ../../../plus/debug-tools/tumpa.rst:1162
+#: ../../../plus/debug-tools/tumpa.rst:1169
+#: ../../../plus/debug-tools/tumpa.rst:1176
+#: ../../../plus/debug-tools/tumpa.rst:1190
+#: ../../../plus/debug-tools/tumpa.rst:1197
+#: ../../../plus/debug-tools/tumpa.rst:1204
+#: ../../../plus/debug-tools/tumpa.rst:1211
+#: ../../../plus/debug-tools/tumpa.rst:1218
+#: ../../../plus/debug-tools/tumpa.rst:1295
+#: ../../../plus/debug-tools/tumpa.rst:1302
+#: ../../../plus/debug-tools/tumpa.rst:1309
+#: ../../../plus/debug-tools/tumpa.rst:1323
+#: ../../../plus/debug-tools/tumpa.rst:1330
+#: ../../../plus/debug-tools/tumpa.rst:1372
+#: ../../../plus/debug-tools/tumpa.rst:1379
+#: ../../../plus/debug-tools/tumpa.rst:1393
+#: ../../../plus/debug-tools/tumpa.rst:1400
+#: ../../../plus/debug-tools/tumpa.rst:1407
+#: ../../../plus/debug-tools/tumpa.rst:1435
+#: ../../../plus/debug-tools/tumpa.rst:1442
+#: ../../../plus/debug-tools/tumpa.rst:1456
+#: ../../../plus/debug-tools/tumpa.rst:1463
+#: ../../../plus/debug-tools/tumpa.rst:1470
+msgid "ESP32"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:191
+#: ../../../plus/debug-tools/tumpa.rst:198
+#: ../../../plus/debug-tools/tumpa.rst:205
+#: ../../../plus/debug-tools/tumpa.rst:212
+#: ../../../plus/debug-tools/tumpa.rst:219
+#: ../../../plus/debug-tools/tumpa.rst:233
+#: ../../../plus/debug-tools/tumpa.rst:240
+#: ../../../plus/debug-tools/tumpa.rst:247
+#: ../../../plus/debug-tools/tumpa.rst:254
+#: ../../../plus/debug-tools/tumpa.rst:268
+#: ../../../plus/debug-tools/tumpa.rst:275
+#: ../../../plus/debug-tools/tumpa.rst:282
+#: ../../../plus/debug-tools/tumpa.rst:296
+#: ../../../plus/debug-tools/tumpa.rst:310
+#: ../../../plus/debug-tools/tumpa.rst:331
+#: ../../../plus/debug-tools/tumpa.rst:338
+#: ../../../plus/debug-tools/tumpa.rst:345
+#: ../../../plus/debug-tools/tumpa.rst:366
+#: ../../../plus/debug-tools/tumpa.rst:373
+#: ../../../plus/debug-tools/tumpa.rst:380
+#: ../../../plus/debug-tools/tumpa.rst:387
+#: ../../../plus/debug-tools/tumpa.rst:408
+#: ../../../plus/debug-tools/tumpa.rst:415
+#: ../../../plus/debug-tools/tumpa.rst:450
+#: ../../../plus/debug-tools/tumpa.rst:457
+#: ../../../plus/debug-tools/tumpa.rst:471
+#: ../../../plus/debug-tools/tumpa.rst:478
+#: ../../../plus/debug-tools/tumpa.rst:485
+#: ../../../plus/debug-tools/tumpa.rst:492
+#: ../../../plus/debug-tools/tumpa.rst:506
+#: ../../../plus/debug-tools/tumpa.rst:513
+#: ../../../plus/debug-tools/tumpa.rst:520
+#: ../../../plus/debug-tools/tumpa.rst:527
+#: ../../../plus/debug-tools/tumpa.rst:534
+#: ../../../plus/debug-tools/tumpa.rst:541
+#: ../../../plus/debug-tools/tumpa.rst:548
+#: ../../../plus/debug-tools/tumpa.rst:555
+#: ../../../plus/debug-tools/tumpa.rst:562
+#: ../../../plus/debug-tools/tumpa.rst:569
+#: ../../../plus/debug-tools/tumpa.rst:576
+#: ../../../plus/debug-tools/tumpa.rst:583
+#: ../../../plus/debug-tools/tumpa.rst:604
+#: ../../../plus/debug-tools/tumpa.rst:611
+#: ../../../plus/debug-tools/tumpa.rst:618
+#: ../../../plus/debug-tools/tumpa.rst:632
+#: ../../../plus/debug-tools/tumpa.rst:639
+#: ../../../plus/debug-tools/tumpa.rst:646
+#: ../../../plus/debug-tools/tumpa.rst:653
+#: ../../../plus/debug-tools/tumpa.rst:660
+#: ../../../plus/debug-tools/tumpa.rst:667
+#: ../../../plus/debug-tools/tumpa.rst:674
+#: ../../../plus/debug-tools/tumpa.rst:716
+#: ../../../plus/debug-tools/tumpa.rst:723
+#: ../../../plus/debug-tools/tumpa.rst:730
+#: ../../../plus/debug-tools/tumpa.rst:744
+#: ../../../plus/debug-tools/tumpa.rst:751
+#: ../../../plus/debug-tools/tumpa.rst:758
+#: ../../../plus/debug-tools/tumpa.rst:772
+#: ../../../plus/debug-tools/tumpa.rst:800
+#: ../../../plus/debug-tools/tumpa.rst:807
+#: ../../../plus/debug-tools/tumpa.rst:814
+#: ../../../plus/debug-tools/tumpa.rst:821
+#: ../../../plus/debug-tools/tumpa.rst:828
+#: ../../../plus/debug-tools/tumpa.rst:849
+#: ../../../plus/debug-tools/tumpa.rst:856
+#: ../../../plus/debug-tools/tumpa.rst:863
+#: ../../../plus/debug-tools/tumpa.rst:891
+#: ../../../plus/debug-tools/tumpa.rst:898
+#: ../../../plus/debug-tools/tumpa.rst:905
+#: ../../../plus/debug-tools/tumpa.rst:912
+#: ../../../plus/debug-tools/tumpa.rst:926
+#: ../../../plus/debug-tools/tumpa.rst:933
+#: ../../../plus/debug-tools/tumpa.rst:940
+#: ../../../plus/debug-tools/tumpa.rst:947
+#: ../../../plus/debug-tools/tumpa.rst:954
+#: ../../../plus/debug-tools/tumpa.rst:961
+#: ../../../plus/debug-tools/tumpa.rst:968
+#: ../../../plus/debug-tools/tumpa.rst:975
+#: ../../../plus/debug-tools/tumpa.rst:982
+#: ../../../plus/debug-tools/tumpa.rst:989
+#: ../../../plus/debug-tools/tumpa.rst:996
+#: ../../../plus/debug-tools/tumpa.rst:1003
+#: ../../../plus/debug-tools/tumpa.rst:1017
+#: ../../../plus/debug-tools/tumpa.rst:1024
+#: ../../../plus/debug-tools/tumpa.rst:1031
+#: ../../../plus/debug-tools/tumpa.rst:1038
+#: ../../../plus/debug-tools/tumpa.rst:1045
+#: ../../../plus/debug-tools/tumpa.rst:1059
+#: ../../../plus/debug-tools/tumpa.rst:1073
+#: ../../../plus/debug-tools/tumpa.rst:1080
+#: ../../../plus/debug-tools/tumpa.rst:1101
+#: ../../../plus/debug-tools/tumpa.rst:1108
+#: ../../../plus/debug-tools/tumpa.rst:1129
+#: ../../../plus/debug-tools/tumpa.rst:1136
+#: ../../../plus/debug-tools/tumpa.rst:1157
+#: ../../../plus/debug-tools/tumpa.rst:1164
+#: ../../../plus/debug-tools/tumpa.rst:1171
+#: ../../../plus/debug-tools/tumpa.rst:1178
+#: ../../../plus/debug-tools/tumpa.rst:1185
+#: ../../../plus/debug-tools/tumpa.rst:1192
+#: ../../../plus/debug-tools/tumpa.rst:1199
+#: ../../../plus/debug-tools/tumpa.rst:1206
+#: ../../../plus/debug-tools/tumpa.rst:1213
+#: ../../../plus/debug-tools/tumpa.rst:1220
+#: ../../../plus/debug-tools/tumpa.rst:1234
+#: ../../../plus/debug-tools/tumpa.rst:1262
+#: ../../../plus/debug-tools/tumpa.rst:1269
+#: ../../../plus/debug-tools/tumpa.rst:1283
+#: ../../../plus/debug-tools/tumpa.rst:1290
+#: ../../../plus/debug-tools/tumpa.rst:1297
+#: ../../../plus/debug-tools/tumpa.rst:1304
+#: ../../../plus/debug-tools/tumpa.rst:1311
+#: ../../../plus/debug-tools/tumpa.rst:1318
+#: ../../../plus/debug-tools/tumpa.rst:1325
+#: ../../../plus/debug-tools/tumpa.rst:1332
+#: ../../../plus/debug-tools/tumpa.rst:1339
+#: ../../../plus/debug-tools/tumpa.rst:1346
+#: ../../../plus/debug-tools/tumpa.rst:1360
+#: ../../../plus/debug-tools/tumpa.rst:1374
+#: ../../../plus/debug-tools/tumpa.rst:1381
+#: ../../../plus/debug-tools/tumpa.rst:1395
+#: ../../../plus/debug-tools/tumpa.rst:1402
+#: ../../../plus/debug-tools/tumpa.rst:1409
+#: ../../../plus/debug-tools/tumpa.rst:1416
+#: ../../../plus/debug-tools/tumpa.rst:1423
+#: ../../../plus/debug-tools/tumpa.rst:1437
+#: ../../../plus/debug-tools/tumpa.rst:1444
+#: ../../../plus/debug-tools/tumpa.rst:1451
+#: ../../../plus/debug-tools/tumpa.rst:1458
+#: ../../../plus/debug-tools/tumpa.rst:1465
+#: ../../../plus/debug-tools/tumpa.rst:1472
+msgid "4MB"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:193
+msgid ":ref:`board_espressif32_alksesp32`"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:200
+msgid ":ref:`board_espressif32_az-delivery-devkit-v4`"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:206
+#: ../../../plus/debug-tools/tumpa.rst:710
+msgid "520KB"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:207
+msgid ":ref:`board_espressif32_featheresp32`"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:214
+msgid ":ref:`board_espressif32_featheresp32-s2`"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:217
+#: ../../../plus/debug-tools/tumpa.rst:231
+#: ../../../plus/debug-tools/tumpa.rst:238
+#: ../../../plus/debug-tools/tumpa.rst:245
+#: ../../../plus/debug-tools/tumpa.rst:280
+#: ../../../plus/debug-tools/tumpa.rst:294
+#: ../../../plus/debug-tools/tumpa.rst:308
+#: ../../../plus/debug-tools/tumpa.rst:336
+#: ../../../plus/debug-tools/tumpa.rst:378
+#: ../../../plus/debug-tools/tumpa.rst:546
+#: ../../../plus/debug-tools/tumpa.rst:553
+#: ../../../plus/debug-tools/tumpa.rst:560
+#: ../../../plus/debug-tools/tumpa.rst:623
+#: ../../../plus/debug-tools/tumpa.rst:665
+#: ../../../plus/debug-tools/tumpa.rst:672
+#: ../../../plus/debug-tools/tumpa.rst:714
+#: ../../../plus/debug-tools/tumpa.rst:721
+#: ../../../plus/debug-tools/tumpa.rst:728
+#: ../../../plus/debug-tools/tumpa.rst:1071
+#: ../../../plus/debug-tools/tumpa.rst:1127
+#: ../../../plus/debug-tools/tumpa.rst:1225
+#: ../../../plus/debug-tools/tumpa.rst:1232
+#: ../../../plus/debug-tools/tumpa.rst:1260
+#: ../../../plus/debug-tools/tumpa.rst:1267
+#: ../../../plus/debug-tools/tumpa.rst:1337
+#: ../../../plus/debug-tools/tumpa.rst:1344
+#: ../../../plus/debug-tools/tumpa.rst:1428
+#: ../../../plus/debug-tools/tumpa.rst:1449
+msgid "ESP32S2"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:221
+msgid ":ref:`board_espressif32_adafruit_feather_esp32_v2`"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:226
+#: ../../../plus/debug-tools/tumpa.rst:261
+#: ../../../plus/debug-tools/tumpa.rst:289
+#: ../../../plus/debug-tools/tumpa.rst:303
+#: ../../../plus/debug-tools/tumpa.rst:324
+#: ../../../plus/debug-tools/tumpa.rst:352
+#: ../../../plus/debug-tools/tumpa.rst:401
+#: ../../../plus/debug-tools/tumpa.rst:436
+#: ../../../plus/debug-tools/tumpa.rst:443
+#: ../../../plus/debug-tools/tumpa.rst:464
+#: ../../../plus/debug-tools/tumpa.rst:590
+#: ../../../plus/debug-tools/tumpa.rst:597
+#: ../../../plus/debug-tools/tumpa.rst:688
+#: ../../../plus/debug-tools/tumpa.rst:695
+#: ../../../plus/debug-tools/tumpa.rst:702
+#: ../../../plus/debug-tools/tumpa.rst:737
+#: ../../../plus/debug-tools/tumpa.rst:765
+#: ../../../plus/debug-tools/tumpa.rst:779
+#: ../../../plus/debug-tools/tumpa.rst:786
+#: ../../../plus/debug-tools/tumpa.rst:793
+#: ../../../plus/debug-tools/tumpa.rst:870
+#: ../../../plus/debug-tools/tumpa.rst:884
+#: ../../../plus/debug-tools/tumpa.rst:919
+#: ../../../plus/debug-tools/tumpa.rst:1010
+#: ../../../plus/debug-tools/tumpa.rst:1052
+#: ../../../plus/debug-tools/tumpa.rst:1066
+#: ../../../plus/debug-tools/tumpa.rst:1087
+#: ../../../plus/debug-tools/tumpa.rst:1094
+#: ../../../plus/debug-tools/tumpa.rst:1143
+#: ../../../plus/debug-tools/tumpa.rst:1150
+#: ../../../plus/debug-tools/tumpa.rst:1248
+#: ../../../plus/debug-tools/tumpa.rst:1276
+msgid "8MB"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:228
+msgid ":ref:`board_espressif32_adafruit_feather_esp32s2`"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:235
+msgid ":ref:`board_espressif32_adafruit_feather_esp32s2_reversetft`"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:242
+msgid ":ref:`board_espressif32_adafruit_feather_esp32s2_tft`"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:249
+msgid ":ref:`board_espressif32_adafruit_feather_esp32s3`"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:256
+msgid ":ref:`board_espressif32_adafruit_feather_esp32s3_nopsram`"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:263
+msgid ":ref:`board_espressif32_adafruit_feather_esp32s3_reversetft`"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:270
+msgid ":ref:`board_espressif32_adafruit_feather_esp32s3_tft`"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:277
+msgid ":ref:`board_espressif32_adafruit_funhouse_esp32s2`"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:284
+msgid ":ref:`board_espressif32_adafruit_itsybitsy_esp32`"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:291
+msgid ":ref:`board_espressif32_adafruit_magtag29_esp32s2`"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:298
+msgid ":ref:`board_espressif32_adafruit_matrixportal_esp32s3`"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:305
+msgid ":ref:`board_espressif32_adafruit_metro_esp32s2`"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:312
+msgid ":ref:`board_espressif32_adafruit_metro_esp32s3`"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:319
+msgid ":ref:`board_espressif32_adafruit_qtpy_esp32`"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:326
+msgid ":ref:`board_espressif32_adafruit_qtpy_esp32c3`"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:329
+#: ../../../plus/debug-tools/tumpa.rst:371
+#: ../../../plus/debug-tools/tumpa.rst:385
+#: ../../../plus/debug-tools/tumpa.rst:448
+#: ../../../plus/debug-tools/tumpa.rst:476
+#: ../../../plus/debug-tools/tumpa.rst:539
+#: ../../../plus/debug-tools/tumpa.rst:644
+#: ../../../plus/debug-tools/tumpa.rst:651
+#: ../../../plus/debug-tools/tumpa.rst:994
+#: ../../../plus/debug-tools/tumpa.rst:1036
+#: ../../../plus/debug-tools/tumpa.rst:1078
+#: ../../../plus/debug-tools/tumpa.rst:1183
+#: ../../../plus/debug-tools/tumpa.rst:1281
+#: ../../../plus/debug-tools/tumpa.rst:1288
+#: ../../../plus/debug-tools/tumpa.rst:1316
+#: ../../../plus/debug-tools/tumpa.rst:1386
+msgid "ESP32C3"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:330
+#: ../../../plus/debug-tools/tumpa.rst:372
+#: ../../../plus/debug-tools/tumpa.rst:386
+#: ../../../plus/debug-tools/tumpa.rst:449
+#: ../../../plus/debug-tools/tumpa.rst:477
+#: ../../../plus/debug-tools/tumpa.rst:540
+#: ../../../plus/debug-tools/tumpa.rst:645
+#: ../../../plus/debug-tools/tumpa.rst:652
+#: ../../../plus/debug-tools/tumpa.rst:659
+#: ../../../plus/debug-tools/tumpa.rst:995
+#: ../../../plus/debug-tools/tumpa.rst:1037
+#: ../../../plus/debug-tools/tumpa.rst:1044
+#: ../../../plus/debug-tools/tumpa.rst:1079
+#: ../../../plus/debug-tools/tumpa.rst:1184
+#: ../../../plus/debug-tools/tumpa.rst:1282
+#: ../../../plus/debug-tools/tumpa.rst:1289
+#: ../../../plus/debug-tools/tumpa.rst:1317
+#: ../../../plus/debug-tools/tumpa.rst:1387
+#: ../../../plus/debug-tools/tumpa.rst:1415
+#: ../../../plus/debug-tools/tumpa.rst:1422
+msgid "160MHz"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:333
+msgid ":ref:`board_espressif32_adafruit_qtpy_esp32s2`"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:340
+msgid ":ref:`board_espressif32_adafruit_qtpy_esp32s3_n4r2`"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:347
+msgid ":ref:`board_espressif32_adafruit_qtpy_esp32s3_nopsram`"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:354
+msgid ":ref:`board_espressif32_adafruit_qualia_s3_rgb666`"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:361
+msgid ":ref:`board_espressif32_adafruit_camera_esp32s3`"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:368
+msgid ":ref:`board_espressif32_esp32-c3-m1i-kit`"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:375
+msgid ":ref:`board_espressif32_nodemcu-32s2`"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:382
+msgid ":ref:`board_espressif32_airm2m_core_esp32c3`"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:389
+msgid ":ref:`board_espressif32_arduino_nano_esp32`"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:396
+msgid ":ref:`board_espressif32_atd147_s3`"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:403
+msgid ":ref:`board_espressif32_ioxesp32`"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:410
+msgid ":ref:`board_espressif32_ioxesp32ps`"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:417
+msgid ":ref:`board_sifive_e310-arty`"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:419
+#: ../../../plus/debug-tools/tumpa.rst:629
+#: ../../../plus/debug-tools/tumpa.rst:664
+#: ../../../plus/debug-tools/tumpa.rst:685
+#: ../../../plus/debug-tools/tumpa.rst:692
+#: ../../../plus/debug-tools/tumpa.rst:699
+#: ../../../plus/debug-tools/tumpa.rst:734
+#: ../../../plus/debug-tools/tumpa.rst:860
+#: ../../../plus/debug-tools/tumpa.rst:1007
+msgid "On-board"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:420
+msgid "FE310"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:421
+msgid "450MHz"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:423
+msgid "256MB"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:424
+msgid ":ref:`board_espressif32_aventen_s3_sync`"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:431
+msgid ":ref:`board_espressif32_bpi_leaf_s3`"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:438
+msgid ":ref:`board_espressif32_wifiduino32s3`"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:445
+msgid ":ref:`board_espressif32_wifiduino32c3`"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:452
+msgid ":ref:`board_espressif32_connaxio_espoir`"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:459
+msgid ":ref:`board_espressif32_cytron_maker_feather_aiot_s3`"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:466
+msgid ":ref:`board_espressif32_d-duino-32`"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:473
+msgid ":ref:`board_espressif32_dfrobot_beetle_esp32c3`"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:480
+msgid ":ref:`board_espressif32_dfrobot_firebeetle2_esp32e`"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:487
+msgid ":ref:`board_espressif32_dfrobot_firebeetle2_esp32s3`"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:494
+msgid ":ref:`board_espressif32_dfrobot_romeo_esp32s3`"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:501
+msgid ":ref:`board_espressif32_esp32doit-devkit-v1`"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:508
+msgid ":ref:`board_espressif32_esp32doit-espduino`"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:515
+msgid ":ref:`board_espressif32_deneyapkart`"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:522
+msgid ":ref:`board_espressif32_deneyapkart1A`"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:529
+msgid ":ref:`board_espressif32_deneyapkart1Av2`"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:536
+msgid ":ref:`board_espressif32_deneyapkartg`"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:543
+msgid ":ref:`board_espressif32_deneyapmini`"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:550
+msgid ":ref:`board_espressif32_deneyapminiv2`"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:557
+msgid ":ref:`board_espressif32_minimain_esp32s2`"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:564
+msgid ":ref:`board_espressif32_pocket_32`"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:571
+msgid ":ref:`board_espressif32_fm-devkit`"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:578
+msgid ":ref:`board_espressif32_pico32`"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:585
+msgid ":ref:`board_espressif32_esp32s3_powerfeather`"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:592
+msgid ":ref:`board_espressif32_esp32s3camlcd`"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:599
+msgid ":ref:`board_espressif32_esp32vn-iot-uno`"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:606
+msgid ":ref:`board_espressif32_espectro32`"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:613
+msgid ":ref:`board_espressif32_espino32`"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:620
+msgid ":ref:`board_espressif32_atmegazero_esp32s2`"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:627
+msgid ":ref:`board_espressif32_esp-wrover-kit`"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:634
+msgid ":ref:`board_espressif32_esp32dev`"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:641
+msgid ":ref:`board_espressif32_esp32-c3-devkitc-02`"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:648
+msgid ":ref:`board_espressif32_esp32-c3-devkitm-1`"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:655
+msgid ":ref:`board_espressif32_esp32-c6-devkitm-1`"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:658
+#: ../../../plus/debug-tools/tumpa.rst:1043
+#: ../../../plus/debug-tools/tumpa.rst:1414
+#: ../../../plus/debug-tools/tumpa.rst:1421
+msgid "ESP32C6"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:662
+msgid ":ref:`board_espressif32_esp32-s2-kaluga-1`"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:669
+msgid ":ref:`board_espressif32_esp32-s2-saola-1`"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:676
+msgid ":ref:`board_espressif32_esp32s3box`"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:683
+msgid ":ref:`board_espressif32_esp32-s3-devkitc-1`"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:690
+msgid ":ref:`board_espressif32_esp32-s3-devkitm-1`"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:697
+msgid ":ref:`board_espressif32_esp32s3usbotg`"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:704
+msgid ":ref:`board_espressif32_firebeetle32`"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:711
+msgid ":ref:`board_espressif32_franzininho_wifi_esp32s2`"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:718
+msgid ":ref:`board_espressif32_esp32-s2-franzininho`"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:725
+msgid ":ref:`board_espressif32_franzininho_wifi_msc_esp32s2`"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:732
+msgid ":ref:`board_espressif32_freenove_esp32_s3_wroom`"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:739
+msgid ":ref:`board_espressif32_freenove_esp32_wrover`"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:746
+msgid ":ref:`board_espressif32_frogboard`"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:753
+msgid ":ref:`board_espressif32_honeylemon`"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:760
+msgid ":ref:`board_espressif32_heltec_wifi_kit_32_V3`"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:767
+msgid ":ref:`board_espressif32_heltec_wifi_lora_32`"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:774
+msgid ":ref:`board_espressif32_heltec_wifi_lora_32_V2`"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:781
+msgid ":ref:`board_espressif32_heltec_wifi_lora_32_V3`"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:788
+msgid ":ref:`board_espressif32_heltec_wireless_stick`"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:795
+msgid ":ref:`board_espressif32_hornbill32dev`"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:802
+msgid ":ref:`board_espressif32_hornbill32minima`"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:809
+msgid ":ref:`board_espressif32_iotaap_magnolia`"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:816
+msgid ":ref:`board_espressif32_nebulas3`"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:823
+msgid ":ref:`board_espressif32_sensesiot_weizen`"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:830
+msgid ":ref:`board_espressif32_lilka_v2`"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:837
+msgid ":ref:`board_espressif32_lilygo-t-display-s3`"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:844
+msgid ":ref:`board_espressif32_lilygo-t3-s3`"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:851
+msgid ":ref:`board_espressif32_lionbit`"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:858
+msgid ":ref:`board_espressif32_lionbits3`"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:865
+msgid ":ref:`board_espressif32_m5stack-atoms3`"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:872
+msgid ":ref:`board_espressif32_m5stack-cores3`"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:879
+msgid ":ref:`board_espressif32_m5stack-stamps3`"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:886
+msgid ":ref:`board_espressif32_mhetesp32devkit`"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:893
+msgid ":ref:`board_espressif32_mhetesp32minikit`"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:900
+msgid ":ref:`board_espressif32_kb32-ft`"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:907
+msgid ":ref:`board_espressif32_motorgo_mini_1`"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:914
+msgid ":ref:`board_espressif32_redpill_esp32s3`"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:921
+msgid ":ref:`board_espressif32_namino_arancio`"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:928
+msgid ":ref:`board_espressif32_namino_rosso`"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:935
+msgid ":ref:`board_espressif32_node32s`"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:942
+msgid ":ref:`board_espressif32_nodemcu-32s`"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:949
+msgid ":ref:`board_espressif32_esp32-devkitlipo`"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:956
+msgid ":ref:`board_espressif32_esp32-evb`"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:963
+msgid ":ref:`board_espressif32_esp32-gateway`"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:970
+msgid ":ref:`board_espressif32_lopy`"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:977
+msgid ":ref:`board_espressif32_lopy4`"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:983
+#: ../../../plus/debug-tools/tumpa.rst:990
+#: ../../../plus/debug-tools/tumpa.rst:1179
+#: ../../../plus/debug-tools/tumpa.rst:1200
+msgid "1.25MB"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:984
+msgid ":ref:`board_espressif32_wipy3`"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:991
+msgid ":ref:`board_espressif32_rymcu-esp32-c3-devkitm-1`"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:998
+msgid ":ref:`board_espressif32_rymcu-esp32-devkitc`"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:1005
+msgid ":ref:`board_espressif32_rymcu-esp32-s3-devkitc-1`"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:1012
+msgid ":ref:`board_espressif32_sg-o_airMon`"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:1019
+msgid ":ref:`board_espressif32_watchy`"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:1026
+msgid ":ref:`board_espressif32_edgebox-esp-100`"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:1033
+msgid ":ref:`board_espressif32_seeed_xiao_esp32c3`"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:1040
+msgid ":ref:`board_espressif32_seeed_xiao_esp32c6`"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:1047
+msgid ":ref:`board_espressif32_seeed_xiao_esp32s3`"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:1054
+msgid ":ref:`board_espressif32_wesp32`"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:1061
+msgid ":ref:`board_espressif32_bee_data_logger`"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:1068
+msgid ":ref:`board_espressif32_bee_motion`"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:1075
+msgid ":ref:`board_espressif32_bee_motion_mini`"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:1082
+msgid ":ref:`board_espressif32_bee_motion_s3`"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:1089
+msgid ":ref:`board_espressif32_bee_s3`"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:1096
+msgid ":ref:`board_espressif32_sparkfun_esp32_iot_redboard`"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:1103
+msgid ":ref:`board_espressif32_esp32thing`"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:1110
+msgid ":ref:`board_espressif32_esp32thing_plus`"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:1117
+msgid ":ref:`board_espressif32_sparkfun_esp32s2_thing_plus_c`"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:1124
+msgid ":ref:`board_espressif32_sparkfun_esp32s2_thing_plus`"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:1131
+msgid ":ref:`board_espressif32_sparkfun_lora_gateway_1-channel`"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:1138
+msgid ":ref:`board_espressif32_dpu_esp32`"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:1145
+msgid ":ref:`board_espressif32_tamc_termod_s3`"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:1152
+msgid ":ref:`board_espressif32_ttgo-lora32-v1`"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:1159
+msgid ":ref:`board_espressif32_ttgo-lora32-v2`"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:1166
+msgid ":ref:`board_espressif32_ttgo-lora32-v21`"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:1173
+msgid ":ref:`board_espressif32_ttgo-t-beam`"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:1180
+msgid ":ref:`board_espressif32_ttgo-t-oi-plus`"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:1187
+msgid ":ref:`board_espressif32_ttgo-t1`"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:1194
+msgid ":ref:`board_espressif32_ttgo-t7-v14-mini32`"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:1201
+msgid ":ref:`board_espressif32_trueverit-iot-driver`"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:1208
+msgid ":ref:`board_espressif32_trueverit-iot-driver-mk2`"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:1215
+msgid ":ref:`board_espressif32_trueverit-iot-driver-mk3`"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:1222
+msgid ":ref:`board_espressif32_um_feathers2`"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:1229
+msgid ":ref:`board_espressif32_um_feathers2_neo`"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:1236
+msgid ":ref:`board_espressif32_um_feathers3`"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:1243
+msgid ":ref:`board_espressif32_um_nanos3`"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:1250
+msgid ":ref:`board_espressif32_um_pros3`"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:1257
+msgid ":ref:`board_espressif32_um_rmp`"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:1264
+msgid ":ref:`board_espressif32_um_tinys2`"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:1271
+msgid ":ref:`board_espressif32_um_tinys3`"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:1278
+msgid ":ref:`board_espressif32_valtrack_v4_mfw_esp32_c3`"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:1285
+msgid ":ref:`board_espressif32_valtrack_v4_vts_esp32_c3`"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:1292
+msgid ":ref:`board_espressif32_vintlabs-devkit-v1`"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:1299
+msgid ":ref:`board_espressif32_wemos_d1_mini32`"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:1306
+msgid ":ref:`board_espressif32_wemos_d1_uno32`"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:1313
+msgid ":ref:`board_espressif32_lolin_c3_mini`"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:1320
+msgid ":ref:`board_espressif32_lolin_d32`"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:1327
+msgid ":ref:`board_espressif32_lolin_d32_pro`"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:1334
+msgid ":ref:`board_espressif32_lolin_s2_mini`"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:1341
+msgid ":ref:`board_espressif32_lolin_s2_pico`"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:1348
+msgid ":ref:`board_espressif32_lolin_s3`"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:1355
+msgid ":ref:`board_espressif32_lolin_s3_mini`"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:1362
+msgid ":ref:`board_espressif32_lolin_s3_pro`"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:1369
+msgid ":ref:`board_espressif32_lolin32`"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:1376
+msgid ":ref:`board_espressif32_lolin32_lite`"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:1383
+msgid ":ref:`board_espressif32_weactstudio_esp32c3coreboard`"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:1388
+msgid "384KB"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:1389
+msgid "400KB"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:1390
+msgid ":ref:`board_espressif32_wemosbat`"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:1397
+msgid ":ref:`board_espressif32_wt32-eth01`"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:1404
+msgid ":ref:`board_espressif32_xinabox_cw02`"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:1411
+msgid ":ref:`board_espressif32_cezerio_dev_esp32c6`"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:1418
+msgid ":ref:`board_espressif32_cezerio_mini_dev_esp32c6`"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:1425
+msgid ":ref:`board_espressif32_micros2`"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:1432
+msgid ":ref:`board_espressif32_iotbusio`"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:1439
+msgid ":ref:`board_espressif32_iotbusproteus`"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:1446
+msgid ":ref:`board_espressif32_sensebox_mcu_esp32s2`"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:1453
+msgid ":ref:`board_espressif32_upesy_wroom`"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:1460
+msgid ":ref:`board_espressif32_upesy_wrover`"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:1467
+msgid ":ref:`board_espressif32_unphone7`"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:1474
+msgid ":ref:`board_espressif32_unphone8`"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:1479
+#: ../../../plus/debug-tools/tumpa.rst:1486
+msgid "7.94MB"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:1480
+msgid "2.31MB"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:1481
+msgid ":ref:`board_espressif32_unphone9`"
+msgstr ""
+
+#: ../../../plus/debug-tools/tumpa.rst:1487
+msgid "8.31MB"
+msgstr ""

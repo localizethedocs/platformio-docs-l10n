@@ -1,0 +1,79 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present, PlatformIO
+# This file is distributed under the same license as the PlatformIO package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PlatformIO latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-24 14:02+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../core/userguide/index.rst:59
+msgid "pio device"
+msgstr ""
+
+#: ../../../core/userguide/index.rst:59
+msgid "pio lib"
+msgstr ""
+
+#: ../../../core/userguide/index.rst:59
+msgid "pio pkg"
+msgstr ""
+
+#: ../../../core/userguide/index.rst:59
+msgid "pio platform"
+msgstr ""
+
+#: ../../../core/userguide/index.rst:59
+msgid "pio project"
+msgstr ""
+
+#: ../../../core/userguide/index.rst:59
+msgid "pio remote"
+msgstr ""
+
+#: ../../../core/userguide/index.rst:15
+msgid "CLI Guide"
+msgstr ""
+
+#: ../../../core/userguide/index.rst:17
+msgid "Contents"
+msgstr ""
+
+#: ../../../core/userguide/index.rst:20
+msgid "Usage"
+msgstr ""
+
+#: ../../../core/userguide/index.rst:27
+msgid "Options"
+msgstr ""
+
+#: ../../../core/userguide/index.rst:34
+msgid "Do not print ANSI control characters."
+msgstr ""
+
+#: ../../../core/userguide/index.rst:36
+msgid ""
+"See also :envvar:`PLATFORMIO_NO_ANSI` and :envvar:`PLATFORMIO_FORCE_ANSI` "
+"environment variables."
+msgstr ""
+
+#: ../../../core/userguide/index.rst:43
+msgid "Show the version of PlatformIO"
+msgstr ""
+
+#: ../../../core/userguide/index.rst:48
+msgid "Show help for the available options and commands"
+msgstr ""
+
+#: ../../../core/userguide/index.rst:57
+msgid "Commands"
+msgstr ""

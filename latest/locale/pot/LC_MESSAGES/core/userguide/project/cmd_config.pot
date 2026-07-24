@@ -1,0 +1,68 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present, PlatformIO
+# This file is distributed under the same license as the PlatformIO package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PlatformIO latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-24 14:02+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../core/userguide/project/cmd_config.rst:15
+msgid "pio project config"
+msgstr ""
+
+#: ../../../core/userguide/project/cmd_config.rst:17
+msgid "Contents"
+msgstr ""
+
+#: ../../../core/userguide/project/cmd_config.rst:20
+msgid "Usage"
+msgstr ""
+
+#: ../../../core/userguide/project/cmd_config.rst:28
+msgid "Description"
+msgstr ""
+
+#: ../../../core/userguide/project/cmd_config.rst:30
+msgid ""
+"Show project computed configuration based on :ref:`projectconf`. The extra "
+"configuration files and dynamic variables will be expanded."
+msgstr ""
+
+#: ../../../core/userguide/project/cmd_config.rst:33
+msgid ""
+"This command is useful for developers to check how PlatformIO computes "
+"configuration from :ref:`projectconf`."
+msgstr ""
+
+#: ../../../core/userguide/project/cmd_config.rst:37
+msgid "Options"
+msgstr ""
+
+#: ../../../core/userguide/project/cmd_config.rst:44
+msgid ""
+"Specify the path to project directory. By default, ``--project-dir`` is "
+"equal to current working directory (``CWD``)."
+msgstr ""
+
+#: ../../../core/userguide/project/cmd_config.rst:52
+msgid "Perform linting on :ref:`projectconf`."
+msgstr ""
+
+#: ../../../core/userguide/project/cmd_config.rst:57
+msgid ""
+"Return the output in `JSON <http://en.wikipedia.org/wiki/JSON>`_ format."
+msgstr ""
+
+#: ../../../core/userguide/project/cmd_config.rst:60
+msgid "Examples"
+msgstr ""

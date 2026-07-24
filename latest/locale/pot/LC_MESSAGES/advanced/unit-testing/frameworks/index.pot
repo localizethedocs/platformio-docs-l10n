@@ -1,0 +1,115 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present, PlatformIO
+# This file is distributed under the same license as the PlatformIO package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PlatformIO latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-24 14:02+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../advanced/unit-testing/frameworks/index.rst:62
+msgid "Custom"
+msgstr ""
+
+#: ../../../advanced/unit-testing/frameworks/index.rst:15
+msgid "Testing Frameworks"
+msgstr ""
+
+#: ../../../advanced/unit-testing/frameworks/index.rst:17
+msgid ""
+"PlatformIO supports the most popular testing frameworks and allows you to "
+"easily switch between them using the :ref:`projectconf_test_framework` "
+"option in :ref:`projectconf`."
+msgstr ""
+
+#: ../../../advanced/unit-testing/frameworks/index.rst:21
+msgid ""
+"You can mix different frameworks in the same project. For example, use a "
+"more advanced C++ testing framework with Mocks for the :ref:"
+"`platform_native` development platform to run desktop tests on a host "
+"machine and a lightweight framework, such as :ref:"
+"`unit_testing_frameworks_unity`, for running tests on the target embedded "
+"device with constrained resources."
+msgstr ""
+
+#: ../../../advanced/unit-testing/frameworks/index.rst:27
+msgid "**Compatibility**"
+msgstr ""
+
+#: ../../../advanced/unit-testing/frameworks/index.rst:32
+msgid "Framework"
+msgstr ""
+
+#: ../../../advanced/unit-testing/frameworks/index.rst:33
+msgid ":ref:`unit_testing_runner_test_types`"
+msgstr ""
+
+#: ../../../advanced/unit-testing/frameworks/index.rst:34
+msgid ":ref:`platforms`"
+msgstr ""
+
+#: ../../../advanced/unit-testing/frameworks/index.rst:35
+msgid "Mocking"
+msgstr ""
+
+#: ../../../advanced/unit-testing/frameworks/index.rst:37
+msgid ":ref:`unit_testing_frameworks_doctest`"
+msgstr ""
+
+#: ../../../advanced/unit-testing/frameworks/index.rst:38
+msgid "Native"
+msgstr ""
+
+#: ../../../advanced/unit-testing/frameworks/index.rst:39
+msgid ":ref:`platform_native`"
+msgstr ""
+
+#: ../../../advanced/unit-testing/frameworks/index.rst:40
+#: ../../../advanced/unit-testing/frameworks/index.rst:51
+msgid "No"
+msgstr ""
+
+#: ../../../advanced/unit-testing/frameworks/index.rst:42
+msgid ":ref:`unit_testing_frameworks_googletest`"
+msgstr ""
+
+#: ../../../advanced/unit-testing/frameworks/index.rst:43
+#: ../../../advanced/unit-testing/frameworks/index.rst:49
+#: ../../../advanced/unit-testing/frameworks/index.rst:50
+msgid "Any"
+msgstr ""
+
+#: ../../../advanced/unit-testing/frameworks/index.rst:44
+msgid ""
+":ref:`platform_native`, :ref:`platform_espressif8266`, :ref:"
+"`platform_espressif32`"
+msgstr ""
+
+#: ../../../advanced/unit-testing/frameworks/index.rst:46
+msgid "Yes"
+msgstr ""
+
+#: ../../../advanced/unit-testing/frameworks/index.rst:48
+msgid ":ref:`unit_testing_frameworks_unity`"
+msgstr ""
+
+#: ../../../advanced/unit-testing/frameworks/index.rst:55
+msgid ""
+"We highly recommend using the :ref:`unit_testing_frameworks_unity` testing "
+"framework if you plan to run tests on the target devices with constrained "
+"resources. The :ref:`unit_testing_frameworks_unity` has minimal requirements "
+"and works even on the 8-bit AVR MCUs."
+msgstr ""
+
+#: ../../../advanced/unit-testing/frameworks/index.rst:60
+msgid "See supported testing frameworks:"
+msgstr ""

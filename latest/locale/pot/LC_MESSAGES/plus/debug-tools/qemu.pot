@@ -1,0 +1,198 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present, PlatformIO
+# This file is distributed under the same license as the PlatformIO package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PlatformIO latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-24 14:02+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../plus/debug-tools/qemu.rst:15
+msgid "QEMU"
+msgstr ""
+
+#: ../../../plus/debug-tools/qemu.rst:20
+msgid ""
+"QEMU is a free and open-source emulator that performs hardware "
+"virtualization. Official reference can be found `here  <https://www.qemu."
+"org/?utm_source=platformio&utm_medium=docs>`__."
+msgstr ""
+
+#: ../../../plus/debug-tools/qemu.rst:24
+msgid "Contents"
+msgstr ""
+
+#: ../../../plus/debug-tools/qemu.rst:27
+msgid "Configuration"
+msgstr ""
+
+#: ../../../plus/debug-tools/qemu.rst:29
+msgid ""
+"You can configure debugging tool using :ref:`projectconf_debug_tool` option "
+"in :ref:`projectconf`:"
+msgstr ""
+
+#: ../../../plus/debug-tools/qemu.rst:39
+msgid "More options:"
+msgstr ""
+
+#: ../../../plus/debug-tools/qemu.rst:41
+msgid ":ref:`projectconf_section_env_debug`"
+msgstr ""
+
+#: ../../../plus/debug-tools/qemu.rst:46
+msgid "Platforms"
+msgstr ""
+
+#: ../../../plus/debug-tools/qemu.rst:50 ../../../plus/debug-tools/qemu.rst:61
+#: ../../../plus/debug-tools/qemu.rst:83
+msgid "Name"
+msgstr ""
+
+#: ../../../plus/debug-tools/qemu.rst:51 ../../../plus/debug-tools/qemu.rst:62
+msgid "Description"
+msgstr ""
+
+#: ../../../plus/debug-tools/qemu.rst:53 ../../../plus/debug-tools/qemu.rst:91
+#: ../../../plus/debug-tools/qemu.rst:98 ../../../plus/debug-tools/qemu.rst:105
+msgid ":ref:`platform_sifive`"
+msgstr ""
+
+#: ../../../plus/debug-tools/qemu.rst:54
+msgid ""
+"SiFive brings the power of open source and software automation to the "
+"semiconductor industry, making it possible to develop new hardware faster "
+"and more affordably than ever before."
+msgstr ""
+
+#: ../../../plus/debug-tools/qemu.rst:57
+msgid "Frameworks"
+msgstr ""
+
+#: ../../../plus/debug-tools/qemu.rst:64
+msgid ":ref:`framework_freedom-e-sdk`"
+msgstr ""
+
+#: ../../../plus/debug-tools/qemu.rst:65
+msgid "Open Source Software for Developing on the SiFive Freedom E Platform"
+msgstr ""
+
+#: ../../../plus/debug-tools/qemu.rst:67
+msgid ":ref:`framework_freertos`"
+msgstr ""
+
+#: ../../../plus/debug-tools/qemu.rst:68
+msgid ""
+"FreeRTOS is a real-time operating system kernel for embedded devices that "
+"has been ported to 40 microcontroller platforms."
+msgstr ""
+
+#: ../../../plus/debug-tools/qemu.rst:70
+msgid ":ref:`framework_zephyr`"
+msgstr ""
+
+#: ../../../plus/debug-tools/qemu.rst:71
+msgid ""
+"Zephyr is a new generation, scalable, optimized, secure RTOS for multiple "
+"hardware architectures"
+msgstr ""
+
+#: ../../../plus/debug-tools/qemu.rst:74
+msgid "Boards"
+msgstr ""
+
+#: ../../../plus/debug-tools/qemu.rst:77
+msgid ""
+"For more detailed ``board`` information please scroll tables below by "
+"horizontal."
+msgstr ""
+
+#: ../../../plus/debug-tools/qemu.rst:84
+msgid "Platform"
+msgstr ""
+
+#: ../../../plus/debug-tools/qemu.rst:85
+msgid "Debug"
+msgstr ""
+
+#: ../../../plus/debug-tools/qemu.rst:86
+msgid "MCU"
+msgstr ""
+
+#: ../../../plus/debug-tools/qemu.rst:87
+msgid "Frequency"
+msgstr ""
+
+#: ../../../plus/debug-tools/qemu.rst:88
+msgid "Flash"
+msgstr ""
+
+#: ../../../plus/debug-tools/qemu.rst:89
+msgid "RAM"
+msgstr ""
+
+#: ../../../plus/debug-tools/qemu.rst:90
+msgid ":ref:`board_sifive_e310-arty`"
+msgstr ""
+
+#: ../../../plus/debug-tools/qemu.rst:92 ../../../plus/debug-tools/qemu.rst:99
+#: ../../../plus/debug-tools/qemu.rst:106
+msgid "On-board"
+msgstr ""
+
+#: ../../../plus/debug-tools/qemu.rst:93 ../../../plus/debug-tools/qemu.rst:107
+msgid "FE310"
+msgstr ""
+
+#: ../../../plus/debug-tools/qemu.rst:94
+msgid "450MHz"
+msgstr ""
+
+#: ../../../plus/debug-tools/qemu.rst:95 ../../../plus/debug-tools/qemu.rst:109
+msgid "16MB"
+msgstr ""
+
+#: ../../../plus/debug-tools/qemu.rst:96
+msgid "256MB"
+msgstr ""
+
+#: ../../../plus/debug-tools/qemu.rst:97
+msgid ":ref:`board_sifive_hifive-unleashed`"
+msgstr ""
+
+#: ../../../plus/debug-tools/qemu.rst:100
+msgid "FU540"
+msgstr ""
+
+#: ../../../plus/debug-tools/qemu.rst:101
+msgid "1500MHz"
+msgstr ""
+
+#: ../../../plus/debug-tools/qemu.rst:102
+msgid "32MB"
+msgstr ""
+
+#: ../../../plus/debug-tools/qemu.rst:103
+msgid "8GB"
+msgstr ""
+
+#: ../../../plus/debug-tools/qemu.rst:104
+msgid ":ref:`board_sifive_hifive1`"
+msgstr ""
+
+#: ../../../plus/debug-tools/qemu.rst:108
+msgid "320MHz"
+msgstr ""
+
+#: ../../../plus/debug-tools/qemu.rst:110
+msgid "16KB"
+msgstr ""

@@ -1,0 +1,84 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present, PlatformIO
+# This file is distributed under the same license as the PlatformIO package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PlatformIO latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-24 14:02+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../faq/install-python.rst:15
+msgid "Install Python Interpreter"
+msgstr ""
+
+#: ../../../faq/install-python.rst:17
+msgid ""
+":ref:`piocore` is written in `Python <https://www.python.org/downloads/>`_ "
+"that is installed by default on all the popular OSs except Windows."
+msgstr ""
+
+#: ../../../faq/install-python.rst:20
+msgid ""
+"Please navigate to official website and `Download the latest Python <https://"
+"www.python.org/downloads/>`_ and install it. Please **READ NOTES BELOW**."
+msgstr ""
+
+#: ../../../faq/install-python.rst:0
+msgid "Linux"
+msgstr ""
+
+#: ../../../faq/install-python.rst:24
+msgid ""
+"Most linux distributions will include a Python installation already. You may "
+"need to ensure that the Python Virtual Environment is installed."
+msgstr ""
+
+#: ../../../faq/install-python.rst:26
+msgid "Debian/Ubuntu derivatives have this package in Apt as ``python3-venv``."
+msgstr ""
+
+#: ../../../faq/install-python.rst:28
+msgid "``sudo apt install python3-venv`` should be all that is required."
+msgstr ""
+
+#: ../../../faq/install-python.rst:30
+msgid ""
+"For more details, please check the `platformio-core-installer/issues/85 "
+"<https://github.com/platformio/platformio-core-installer/issues/85>`__."
+msgstr ""
+
+#: ../../../faq/install-python.rst:0
+msgid "macOS"
+msgstr ""
+
+#: ../../../faq/install-python.rst:33
+msgid ""
+"Please read the \"Important Information\" displayed during installation for "
+"information about SSL/TLS certificate validation and the running the "
+"**\"Install Certificates.command\"**."
+msgstr ""
+
+#: ../../../faq/install-python.rst:36
+msgid ""
+"If you do not install SSL/TLS certificates, PlatformIO will not be able to "
+"download dependent packages, libraries, and toolchains."
+msgstr ""
+
+#: ../../../faq/install-python.rst:0
+msgid "Windows"
+msgstr ""
+
+#: ../../../faq/install-python.rst:40
+msgid ""
+"Please select ``Add Python to Path`` (see below), otherwise, ``python`` "
+"command will not be available."
+msgstr ""

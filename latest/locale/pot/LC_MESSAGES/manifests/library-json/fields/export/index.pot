@@ -1,0 +1,41 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present, PlatformIO
+# This file is distributed under the same license as the PlatformIO package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PlatformIO latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-24 14:02+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../manifests/library-json/fields/export/index.rst:15
+msgid "``export``"
+msgstr ""
+
+#: ../../../manifests/library-json/fields/export/index.rst:17
+msgid "*Optional* | Type: ``Object``"
+msgstr ""
+
+#: ../../../manifests/library-json/fields/export/index.rst:19
+msgid ""
+"This option is useful if you need to exclude extra data (test code, docs, "
+"images, PDFs, etc). It allows one to reduce the size of the final archive."
+msgstr ""
+
+#: ../../../manifests/library-json/fields/export/index.rst:22
+msgid ""
+"To check which files will be included in the final packages, please use :ref:"
+"`cmd_pkg_pack` command."
+msgstr ""
+
+#: ../../../manifests/library-json/fields/export/index.rst:25
+msgid "Possible options:"
+msgstr ""

@@ -1,0 +1,43 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present, PlatformIO
+# This file is distributed under the same license as the PlatformIO package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PlatformIO latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-24 14:02+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../core/installation/methods/pypi.rst:15
+msgid "Python Package Manager"
+msgstr ""
+
+#: ../../../core/installation/methods/pypi.rst:18
+msgid ""
+"It's best to stick with this method **ONLY IF** you're dealing with :ref:"
+"`ci` systems/containers or if you have complete permissions to set up "
+"PlatformIO Core across your entire operating system."
+msgstr ""
+
+#: ../../../core/installation/methods/pypi.rst:22
+msgid ""
+"For your own personal use, and to steer clear of troubles when it comes to "
+"maintenance and updates, we **STRONGLY SUGGEST** going for the :ref:"
+"`installation_installer_script`. This script installs PlatformIO Core in a "
+"separate virtual environment, keeping it isolated from your operating system "
+"and avoiding any impact on it."
+msgstr ""
+
+#: ../../../core/installation/methods/pypi.rst:28
+msgid ""
+"The latest stable version of PlatformIO Core may be installed or upgraded "
+"via Python Package Manager (`pip <https://pip.pypa.io>`_) as follows:"
+msgstr ""

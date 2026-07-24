@@ -1,0 +1,4024 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present, PlatformIO
+# This file is distributed under the same license as the PlatformIO package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PlatformIO latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-24 14:02+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../frameworks/espidf.rst:15
+msgid "Espressif IoT Development Framework"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:0 ../../../frameworks/espidf_extra.rst:22
+msgid "Configuration"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:18
+msgid ":ref:`projectconf_env_framework` = ``espidf``"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:20
+msgid ""
+"Espressif IoT Development Framework. Official development framework for "
+"ESP32 chip"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:23
+msgid "Contents"
+msgstr ""
+
+#: ../../../frameworks/espidf_extra.rst:13
+msgid "Tutorials"
+msgstr ""
+
+#: ../../../frameworks/espidf_extra.rst:15
+msgid ":ref:`tutorial_espressif32_espidf_debugging_unit_testing_analysis`"
+msgstr ""
+
+#: ../../../frameworks/espidf_extra.rst:16
+msgid ""
+"Book: `Developing IoT Projects with ESP32: Automate your home or business "
+"with inexpensive Wi-Fi devices <https://www.amazon.com/Developing-IoT-"
+"Projects-ESP32-inexpensive-ebook-dp-B093CCWGDP/dp/B093CCWGDP/>`_ (using the "
+"PlatformIO with ESP-IDF)"
+msgstr ""
+
+#: ../../../frameworks/espidf_extra.rst:19
+msgid ""
+"Each release of the :ref:`platform_espressif32` platform uses a specific "
+"version of ESP-IDF. The latest version of the platform only supports the "
+"latest stable version of the framework."
+msgstr ""
+
+#: ../../../frameworks/espidf_extra.rst:27
+msgid ""
+"The general project configuration (default optimization level, bootloader "
+"configuration partition tables, etc) is set in a single file called "
+"``sdkconfig`` in the root folder of the project. This configuration file can "
+"be modified via a special target called ``menuconfig`` (PlatformIO v4.3.0 "
+"greater is required):"
+msgstr ""
+
+#: ../../../frameworks/espidf_extra.rst:37
+msgid ""
+"ESP-IDF requires some extra tools to be installed in your system in order to "
+"build firmware for supported chips. Most of these tools are available in "
+"PlatformIO ecosystem as standalone packages, but in order to use "
+"configuration tool called ``menuconfig`` several additional packages need to "
+"be installed on Linux-based systems:"
+msgstr ""
+
+#: ../../../frameworks/espidf_extra.rst:47
+msgid ""
+"More details about required packages can be found in the official ESP-IDF "
+"documentation - `Standard Setup of Toolchain for Linux <https://docs."
+"espressif.com/projects/esp-idf/en/latest/get-started/linux-setup.html>`_."
+msgstr ""
+
+#: ../../../frameworks/espidf_extra.rst:51
+msgid ""
+"If menuconfig is not showed properly in the integrated VS Code terminal try "
+"changing the default terminal shell by clicking the dropdown menu on the top-"
+"right of the terminal panel and selectiing the ``Select Default Shell`` "
+"option."
+msgstr ""
+
+#: ../../../frameworks/espidf_extra.rst:56
+msgid ""
+"In case the ``UP`` and ``DOWN`` arrows don't work in menuconfig try using "
+"the ``J`` key to move the cursor down and ``K`` to move the cursor up. "
+"Another option is to use ``-`` and ``+`` keys on the numeric keypad."
+msgstr ""
+
+#: ../../../frameworks/espidf_extra.rst:61
+msgid "Project Structure"
+msgstr ""
+
+#: ../../../frameworks/espidf_extra.rst:63
+msgid ""
+"The ESP-IDF framework requires an unusual project structure because most of "
+"the framework configuration is performed by the native for the ESP-IDF build "
+"system called ``CMake``."
+msgstr ""
+
+#: ../../../frameworks/espidf_extra.rst:66
+msgid ""
+"A typical PlatformIO project for the ESP-IDF framework must have the "
+"following structure:"
+msgstr ""
+
+#: ../../../frameworks/espidf_extra.rst:79
+msgid ""
+"It's also possible to use the default ESP-IDF project structure with "
+"``main`` folder. To specify ``main`` as the folder with source files use :"
+"ref:`projectconf_pio_src_dir` option, for example:"
+msgstr ""
+
+#: ../../../frameworks/espidf_extra.rst:94
+msgid ""
+"Besides the files related to PlatformIO project, there are several "
+"additional ESP-IDF-specific files: the main ``CMakeLists.txt``, project-"
+"specific ``CMakeLists.txt`` in :ref:`projectconf_pio_src_dir` and optional "
+"default configuration file ``sdkconfig.defaults``. ``CMakeLists.txt`` files "
+"enable features supported by the ESP-IDF's build system, e.g. ULP "
+"configuration, adding extra components, etc. A typical ``CMakeLists.txt`` "
+"file in the root folder has the following content:"
+msgstr ""
+
+#: ../../../frameworks/espidf_extra.rst:110
+msgid ""
+"The second ``CMakeLists.txt`` in :ref:`projectconf_pio_src_dir` is "
+"responsible for controlling the build process of the component and its "
+"integration into the overall project. The minimal component ``CMakeLists."
+"txt`` file simply registers the component to the build system using "
+"``idf_component_register``:"
+msgstr ""
+
+#: ../../../frameworks/espidf_extra.rst:119
+msgid ""
+"The files specified using ``idf_component_register`` are used **ONLY** for "
+"generating build configurations, but it's highly recommended to specify all "
+"application source files in order to keep the project compatible with the "
+"usual ESP-IDF workflow."
+msgstr ""
+
+#: ../../../frameworks/espidf_extra.rst:124
+msgid ""
+"By default PlatformIO expects source files to be located in the ``src`` "
+"folder. At the same time, the default location for source files within the "
+"ESP-IDF build system is a special folder with the name ``main``. Renaming "
+"the main component may require users to manually specify additional "
+"dependencies:"
+msgstr ""
+
+#: ../../../frameworks/espidf_extra.rst:133
+msgid ""
+"More details in the official ESP-IDF documentation - `Renaming main "
+"component <https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-"
+"guides/build-system.html?highlight=rename#renaming-main-component>`_."
+msgstr ""
+
+#: ../../../frameworks/espidf_extra.rst:136
+msgid ""
+"Due to the current limitations of CMake file-based API, there is no way of "
+"generating build configuration for source files written in various "
+"programming languages if they are not specified in  "
+"``idf_component_register`` command. If your project contains libraries "
+"written in languages that differ from the language used for the main "
+"application you need to create an empty file with the desired extension (e."
+"g. ``*.cpp`` for ``C++``) in order to force CMake generate build "
+"configuration for this language."
+msgstr ""
+
+#: ../../../frameworks/espidf_extra.rst:144
+msgid ""
+"Build configuration generated for source files specified in "
+"``idf_component_register`` is also used as the base build environment for "
+"project sources (including libraries)."
+msgstr ""
+
+#: ../../../frameworks/espidf_extra.rst:149
+msgid "ESP-IDF components"
+msgstr ""
+
+#: ../../../frameworks/espidf_extra.rst:151
+msgid ""
+"ESP-IDF modules as modular pieces of standalone code might be useful for "
+"structuring reusable code or including third party components that aren’t "
+"part of ESP-IDF."
+msgstr ""
+
+#: ../../../frameworks/espidf_extra.rst:154
+msgid ""
+"These components contain either a single ``CMakeLists.txt`` file which "
+"controls the build process of the component and its integration into the "
+"overall project. An optional ``Kconfig`` file defines the component "
+"configuration options that can be set via ``menuconfig``. Some components "
+"may also include ``Kconfig.projbuild`` and ``project_include.cmake`` files, "
+"which are special files for overriding parts of the project. All valid "
+"components will be compiled as static libraries and linked to the final "
+"firmware. There are two possible ways of adding extra components to "
+"PlatformIO project:"
+msgstr ""
+
+#: ../../../frameworks/espidf_extra.rst:163
+msgid ""
+"By adding a new component to an optional folder called ``components`` in the "
+"root of your project. This folder will be automatically scanned for valid "
+"components."
+msgstr ""
+
+#: ../../../frameworks/espidf_extra.rst:165
+msgid ""
+"Using ``EXTRA_COMPONENT_DIRS`` option in the root ``CMakeLists.txt`` file. "
+"This option represents a list of extra directories to search for components."
+msgstr ""
+
+#: ../../../frameworks/espidf_extra.rst:168
+msgid "An example of specifying ``esp-aws-iot`` as an extra component:"
+msgstr ""
+
+#: ../../../frameworks/espidf_extra.rst:181
+msgid ""
+"Since :ref:`projectconf_pio_src_dir` is also passed to CMake as an extra "
+"component, you should only append to ``EXTRA_COMPONENT_DIRS`` variable in "
+"order not to override the default package."
+msgstr ""
+
+#: ../../../frameworks/espidf_extra.rst:185
+msgid ""
+"Since the build may not work correctly if the full path to sources is "
+"greater than 250 characters (see ``CMAKE_OBJECT_PATH_MAX``) it might be a "
+"good idea to keep modules close to the project files."
+msgstr ""
+
+#: ../../../frameworks/espidf_extra.rst:190
+msgid "ULP coprocessor programming"
+msgstr ""
+
+#: ../../../frameworks/espidf_extra.rst:192
+msgid ""
+"If you want to take measurements using ADC, internal temperature sensor or "
+"external I2C sensors, while the main processors are in deep sleep mode you "
+"need to use ULP coprocessor. At the moment ULP can be used only with the :"
+"ref:`framework_espidf`."
+msgstr ""
+
+#: ../../../frameworks/espidf_extra.rst:196
+msgid ""
+"All ULP code, usually written in assembly in files with ``.S`` extension, "
+"must be placed into a separate directory with the name ``ulp`` in the root "
+"folder of your project. So your project structure should look like this:"
+msgstr ""
+
+#: ../../../frameworks/espidf_extra.rst:212
+msgid ""
+"Since PlatformIO uses the code model generated by CMake it's mandatory to "
+"specify ULP source files in ``CMakeLists.txt`` as well. An example of "
+"typical ``CMakeLists.txt`` for ULP:"
+msgstr ""
+
+#: ../../../frameworks/espidf_extra.rst:238
+msgid "See full examples with ULP coprocessor programming:"
+msgstr ""
+
+#: ../../../frameworks/espidf_extra.rst:240
+msgid ""
+"https://github.com/platformio/platform-espressif32/tree/develop/examples/"
+"espidf-ulp-adc"
+msgstr ""
+
+#: ../../../frameworks/espidf_extra.rst:241
+msgid ""
+"https://github.com/platformio/platform-espressif32/tree/develop/examples/"
+"espidf-ulp-pulse"
+msgstr ""
+
+#: ../../../frameworks/espidf_extra.rst:243
+msgid ""
+"More details are located in the official ESP-IDF documentation - `ULP "
+"coprocessor programming <https://docs.espressif.com/projects/esp-idf/en/"
+"latest/api-guides/ulp.html#accessing-ulp-program-variable>`_."
+msgstr ""
+
+#: ../../../frameworks/espidf_extra.rst:247
+msgid "Security Features"
+msgstr ""
+
+#: ../../../frameworks/espidf_extra.rst:251
+msgid "This functionality can **brick your device** if used incorrectly."
+msgstr ""
+
+#: ../../../frameworks/espidf_extra.rst:253
+msgid ""
+"**Proceed with extreme caution. Everything you do is at your own risk.**"
+msgstr ""
+
+#: ../../../frameworks/espidf_extra.rst:257
+msgid ""
+"By default, enabling Flash Encryption and/or Secure Boot will disable JTAG "
+"debugging. On first boot, the bootloader will burn an eFuse bit to "
+"permanently disable JTAG at the same time it enables the other features."
+msgstr ""
+
+#: ../../../frameworks/espidf_extra.rst:263
+msgid ""
+"It's strongly recommended to test the security features using the vendor-"
+"provided QEMU emulator."
+msgstr ""
+
+#: ../../../frameworks/espidf_extra.rst:268
+msgid ""
+"When enabling the Flash Encryption and Secure Boot v2 together, the Flash "
+"Encryption should be enabled first."
+msgstr ""
+
+#: ../../../frameworks/espidf_extra.rst:273
+msgid ""
+"To use this functionality, the version of the `espressif32 <https://registry."
+"platformio.org/platforms/platformio/espressif32>`_ development platform must "
+"be **v6.12.0 or later**."
+msgstr ""
+
+#: ../../../frameworks/espidf_extra.rst:275
+msgid ""
+"Before you begin working with these security features, make sure to "
+"carefully read the official documentation provided by the vendor. Here are "
+"several useful pages to get started:"
+msgstr ""
+
+#: ../../../frameworks/espidf_extra.rst:279
+msgid ""
+"`Security Features Overview <https://docs.espressif.com/projects/esp-idf/en/"
+"release-v5.4/esp32/security/security.html>`_"
+msgstr ""
+
+#: ../../../frameworks/espidf_extra.rst:280
+msgid ""
+"`Flash Encryption <https://docs.espressif.com/projects/esp-idf/en/release-"
+"v5.4/esp32/security/flash-encryption.html>`_"
+msgstr ""
+
+#: ../../../frameworks/espidf_extra.rst:281
+msgid ""
+"`Flash Encryption section from ESP-IDF Programming Guide <https://espressif-"
+"docs.readthedocs-hosted.com/projects/esp-idf/en/latest/security/flash-"
+"encryption.html>`_"
+msgstr ""
+
+#: ../../../frameworks/espidf_extra.rst:282
+msgid ""
+"`Secure Boot v2 <https://docs.espressif.com/projects/esp-idf/en/stable/esp32/"
+"security/secure-boot-v2.html>`_"
+msgstr ""
+
+#: ../../../frameworks/espidf_extra.rst:283
+msgid ""
+"`Secure Boot section from ESP-IDF Programming Guide <https://espressif-docs."
+"readthedocs-hosted.com/projects/esp-idf/en/latest/security/secure-boot."
+"html>`_"
+msgstr ""
+
+#: ../../../frameworks/espidf_extra.rst:284
+msgid ""
+"`Vulnerabilities <https://docs.espressif.com/projects/esp-idf/en/stable/"
+"esp32/security/vulnerabilities.html>`_"
+msgstr ""
+
+#: ../../../frameworks/espidf_extra.rst:287
+msgid "Flash Encryption"
+msgstr ""
+
+#: ../../../frameworks/espidf_extra.rst:291
+msgid ""
+"Enabling flash encryption limits the options for further updates of your "
+"device. Before using this feature, make sure to read the entire page and "
+"fully understand the implications."
+msgstr ""
+
+#: ../../../frameworks/espidf_extra.rst:297
+msgid ""
+"Enabling flash encryption will increase the size of the bootloader, which "
+"might require updating partition table offset."
+msgstr ""
+
+#: ../../../frameworks/espidf_extra.rst:301
+msgid ""
+"Flash encryption is intended for encrypting the contents of the ESP32's off-"
+"chip flash memory. Once this feature is enabled, firmware is flashed as "
+"plaintext, and then the data is encrypted in place on the first boot. As a "
+"result, physical readout of flash will not be sufficient to recover most "
+"flash contents."
+msgstr ""
+
+#: ../../../frameworks/espidf_extra.rst:303
+msgid ""
+"It's recommended to read the official `Flash Encryption Programming Guide "
+"<https://docs.espressif.com/projects/esp-idf/en/v5.4.1/esp32/security/flash-"
+"encryption.html>`_ to understand the overall workflow before getting "
+"started. Here's an adapted version of that page that uses PlatformIO "
+"packages to enable the Flash Encryption Feature on ESP32 ECO V3 target:"
+msgstr ""
+
+#: ../../../frameworks/espidf_extra.rst:305
+msgid ""
+"Ensure that you have an ESP32 device with default Flash Encryption eFuse "
+"settings as shown in `Relevant eFuses <https://docs.espressif.com/projects/"
+"esp-idf/en/v5.4.1/esp32/security/flash-encryption.html#flash-encryption-"
+"efuse>`_. At this point, the Flash Encryption must not be already enabled on "
+"the chip."
+msgstr ""
+
+#: ../../../frameworks/espidf_extra.rst:307
+msgid "Generate a Flash Encryption key"
+msgstr ""
+
+#: ../../../frameworks/espidf_extra.rst:309
+msgid "A random Flash Encryption key can be generated by running:"
+msgstr ""
+
+#: ../../../frameworks/espidf_extra.rst:315
+msgid ""
+"Set the ``board_build.encryption_key`` option in your ``platformio.ini`` "
+"file to the name of the key:"
+msgstr ""
+
+#: ../../../frameworks/espidf_extra.rst:326
+msgid "Burn the Flash Encryption key into eFuse"
+msgstr ""
+
+#: ../../../frameworks/espidf_extra.rst:330
+msgid "Burning this key into eFuse is a permanent action and cannot be undone."
+msgstr ""
+
+#: ../../../frameworks/espidf_extra.rst:332
+#: ../../../frameworks/espidf_extra.rst:524
+msgid "Where ``$PORT`` is the serial port of your target device:"
+msgstr ""
+
+#: ../../../frameworks/espidf_extra.rst:338
+msgid "Burn the ``FLASH_CRYPT_CNT`` eFuse"
+msgstr ""
+
+#: ../../../frameworks/espidf_extra.rst:340
+msgid ""
+"If you only want to enable Flash Encryption in Development mode and want to "
+"keep the ability to disable it in the future, Update the ``FLASH_CRYPT_CNT`` "
+"value in the below command from ``127`` to ``0x1`` (not recommended for "
+"production)."
+msgstr ""
+
+#: ../../../frameworks/espidf_extra.rst:346
+msgid ""
+"In the case of ESP32, you also need to burn the ``FLASH_CRYPT_CONFIG`` fuse. "
+"It can be done by running:"
+msgstr ""
+
+#: ../../../frameworks/espidf_extra.rst:352
+msgid "Burn Flash Encryption-related security eFuses"
+msgstr ""
+
+#: ../../../frameworks/espidf_extra.rst:356
+msgid ""
+"For production use cases, it is highly recommended to burn all the eFuses "
+"listed below."
+msgstr ""
+
+#: ../../../frameworks/espidf_extra.rst:358
+msgid "``DISABLE_DL_ENCRYPT`` - Disable the UART bootloader encryption access"
+msgstr ""
+
+#: ../../../frameworks/espidf_extra.rst:359
+msgid "``DISABLE_DL_DECRYPT`` - Disable the UART bootloader decryption access"
+msgstr ""
+
+#: ../../../frameworks/espidf_extra.rst:360
+msgid "``DISABLE_DL_CACHE`` - Disable the UART bootloader flash cache access"
+msgstr ""
+
+#: ../../../frameworks/espidf_extra.rst:361
+msgid "``JTAG_DISABLE`` - Disable the JTAG"
+msgstr ""
+
+#: ../../../frameworks/espidf_extra.rst:363
+msgid "The respective eFuses can be burned by running:"
+msgstr ""
+
+#: ../../../frameworks/espidf_extra.rst:369
+msgid "Write protect security eFuses"
+msgstr ""
+
+#: ../../../frameworks/espidf_extra.rst:371
+msgid ""
+"After burning the respective eFuses, we need to ``write_protect`` the "
+"security configurations. It can be done by burning following eFuse:"
+msgstr ""
+
+#: ../../../frameworks/espidf_extra.rst:380
+msgid ""
+"The write protection of above eFuse also write protects multiple other "
+"eFuses. Please refer to the ESP32 eFuse table for more details."
+msgstr ""
+
+#: ../../../frameworks/espidf_extra.rst:382
+#: ../../../frameworks/espidf_extra.rst:677
+msgid "Configure the project"
+msgstr ""
+
+#: ../../../frameworks/espidf_extra.rst:384
+msgid ""
+"Flash Encryption release mode can be set in the your ``sdkconfig.defaults`` "
+"as follows:"
+msgstr ""
+
+#: ../../../frameworks/espidf_extra.rst:402
+msgid ""
+"Note that once release mode is selected, the ``DISABLE_DL_ENCRYPT`` and "
+"``DISABLE_DL_DECRYPT`` eFuse bits will be burned to disable Flash Encryption "
+"hardware in ROM download mode"
+msgstr ""
+
+#: ../../../frameworks/espidf_extra.rst:404
+msgid "Add extra upload flags"
+msgstr ""
+
+#: ../../../frameworks/espidf_extra.rst:406
+msgid ""
+"Since the Flash Encryption feature was enabled in advance and we're "
+"uploading pre-encrypted binaries, we need to add a special ``--force`` flag "
+"to the upload process using an extra script:"
+msgstr ""
+
+#: ../../../frameworks/espidf_extra.rst:417
+msgid "The ``force_upload.py`` file should contain the following:"
+msgstr ""
+
+#: ../../../frameworks/espidf_extra.rst:425
+msgid "Build, Encrypt and Upload the binaries"
+msgstr ""
+
+#: ../../../frameworks/espidf_extra.rst:427
+#: ../../../frameworks/espidf_extra.rst:587
+msgid "The project can be built via the usual ``run`` command."
+msgstr ""
+
+#: ../../../frameworks/espidf_extra.rst:433
+msgid ""
+"The encrypted binaries can be generated by running the ``encrypt`` target:"
+msgstr ""
+
+#: ../../../frameworks/espidf_extra.rst:439
+msgid ""
+"To upload the encrypted binaries run the combination of the ``encrypt`` and "
+"``upload`` targets:"
+msgstr ""
+
+#: ../../../frameworks/espidf_extra.rst:445
+msgid "Secure the ROM download mode"
+msgstr ""
+
+#: ../../../frameworks/espidf_extra.rst:449
+msgid ""
+"Please perform the following step at the very end after enabling Flash "
+"Encryption and Secure Boot features. Once this eFuse is burned, the espefuse "
+"tool can no longer be used to burn additional eFuses."
+msgstr ""
+
+#: ../../../frameworks/espidf_extra.rst:452
+msgid "Disable UART ROM DL mode:"
+msgstr ""
+
+#: ../../../frameworks/espidf_extra.rst:458
+msgid "Delete Flash Encryption key on host"
+msgstr ""
+
+#: ../../../frameworks/espidf_extra.rst:460
+msgid ""
+"Once the Flash Encryption has been enabled for the device, the key must be "
+"deleted immediately. This ensures that the host can't produce encrypted "
+"binaries for the same device going forward. This step is important to reduce "
+"the vulnerability of the Flash Encryption key."
+msgstr ""
+
+#: ../../../frameworks/espidf_extra.rst:463
+msgid "Secure Bootloader"
+msgstr ""
+
+#: ../../../frameworks/espidf_extra.rst:465
+msgid ""
+"Secure Boot protects a device from running any unauthorized (i.e., unsigned) "
+"code by checking that each piece of software that is being booted is signed. "
+"On an ESP32, these pieces of software include the second stage bootloader "
+"and each application binary. Note that the first stage (ROM) bootloader does "
+"not require signing as it is ROM code and thus cannot be changed."
+msgstr ""
+
+#: ../../../frameworks/espidf_extra.rst:469
+msgid "Only Secure Boot v2 is supported"
+msgstr ""
+
+#: ../../../frameworks/espidf_extra.rst:473
+msgid ""
+"The Secure Boot v2 option is available on ESP32 chips starting from revision "
+"v3.0. To enable this option in ``menuconfig``, set ``CONFIG_ESP32_REV_MIN`` "
+"to v3.0 or higher."
+msgstr ""
+
+#: ../../../frameworks/espidf_extra.rst:479
+msgid ""
+"If Secure Boot or Flash Encryption is enabled, the reset method is set to "
+"``no_reset`` to stay in the bootloader after uploading."
+msgstr ""
+
+#: ../../../frameworks/espidf_extra.rst:484
+msgid ""
+"Turning on Secure Boot increases the bootloader size, which may require "
+"adjusting the partition table offset."
+msgstr ""
+
+#: ../../../frameworks/espidf_extra.rst:489
+msgid ""
+"By default, the bootloader binary is not programmed unless the "
+"``CONFIG_SECURE_BOOT_FLASH_BOOTLOADER_DEFAULT`` option is explicitly enabled "
+"in your ``sdkconfig`` file."
+msgstr ""
+
+#: ../../../frameworks/espidf_extra.rst:493
+msgid ""
+"It's recommended to read the official `Secure Boot Programming Guide "
+"<https://docs.espressif.com/projects/esp-idf/en/stable/esp32/security/secure-"
+"boot-v2.html>`_ to understand the overall workflow before getting started. "
+"Here's an adapted version of that page that uses PlatformIO packages to "
+"build, sign and upload binaries:"
+msgstr ""
+
+#: ../../../frameworks/espidf_extra.rst:498
+msgid ""
+"The instructions below are intended for ESP32 targets. For other variants "
+"open `Secure Boot Programming Guide <https://docs.espressif.com/projects/esp-"
+"idf/en/stable/esp32/security/secure-boot-v2.html>`_ and select your target "
+"from the menu on the left."
+msgstr ""
+
+#: ../../../frameworks/espidf_extra.rst:500
+msgid "Generate Secure Boot Signing Private Key:"
+msgstr ""
+
+#: ../../../frameworks/espidf_extra.rst:508
+msgid ""
+"For production environments, we recommend generating the key pair using "
+"OpenSSL or another industry-standard encryption program."
+msgstr ""
+
+#: ../../../frameworks/espidf_extra.rst:512
+msgid ""
+"``secure_boot_signing_key.pem``  is the default key name. If you change it, "
+"don't forget to update your project configuration accordingly. For example, "
+"by adding the ``CONFIG_SECURE_BOOT_SIGNING_KEY=\"my_sb_signing_key.pem\"`` "
+"option to your ``sdkconfig.defaults``."
+msgstr ""
+
+#: ../../../frameworks/espidf_extra.rst:516
+msgid "Generate Public Key Digest:"
+msgstr ""
+
+#: ../../../frameworks/espidf_extra.rst:522
+msgid "Burn the key digest in eFuse:"
+msgstr ""
+
+#: ../../../frameworks/espidf_extra.rst:530
+msgid "Enable Secure Boot:"
+msgstr ""
+
+#: ../../../frameworks/espidf_extra.rst:537
+msgid "Burn security eFuses:"
+msgstr ""
+
+#: ../../../frameworks/espidf_extra.rst:539
+msgid "``JTAG_DISABLE``: Disable the JTAG."
+msgstr ""
+
+#: ../../../frameworks/espidf_extra.rst:545
+msgid "Burn Secure Boot related eFuses"
+msgstr ""
+
+#: ../../../frameworks/espidf_extra.rst:547
+msgid ""
+"The Secure Boot digest burned in the eFuse must be kept readable otherwise "
+"the Secure Boot operation would result in a failure. To prevent the "
+"accidental enabling of read protection for this key block, the following "
+"eFuse needs to be burned:"
+msgstr ""
+
+#: ../../../frameworks/espidf_extra.rst:555
+msgid ""
+"After burning above-mentioned eFuse, the read protection can't be enabled "
+"for any key. For example, if Flash Encryption which requires read protection "
+"for its key is not enabled at this point, then it can't be enabled "
+"afterwards. Please ensure that no eFuse keys are going to need read "
+"protection after completing this step."
+msgstr ""
+
+#: ../../../frameworks/espidf_extra.rst:557
+msgid "Configure the project:"
+msgstr ""
+
+#: ../../../frameworks/espidf_extra.rst:559
+msgid ""
+"The Secure Boot can be enabled either by running the ``pio run -t "
+"menuconfig`` target and setting ``Security features -> Enable hardware "
+"Secure Boot`` option."
+msgstr ""
+
+#: ../../../frameworks/espidf_extra.rst:564
+msgid ""
+"For ESP32, Secure Boot v2 is available only for ESP32 ECO3 onwards. To view "
+"the Secure Boot v2 option the chip revision should be changed to revision "
+"v3.0 (ECO3). To change the chip revision, run the ``menuconfig`` target and "
+"set ``Minimum Supported ESP32 Revision`` to ``Rev 3.0 (ECO3)`` in "
+"``Component Config -> Hardware Settings -> Chip Revision``"
+msgstr ""
+
+#: ../../../frameworks/espidf_extra.rst:569
+msgid "or directly in the ``sdkconfig.defaults`` file:"
+msgstr ""
+
+#: ../../../frameworks/espidf_extra.rst:582
+msgid ""
+"By default PlatformIO won't automatically sign any built binaries, unless "
+"the ``CONFIG_SECURE_BOOT_BUILD_SIGNED_BINARIES`` option is set."
+msgstr ""
+
+#: ../../../frameworks/espidf_extra.rst:585
+msgid "Build, Sign and Upload the binaries:"
+msgstr ""
+
+#: ../../../frameworks/espidf_extra.rst:593
+msgid ""
+"Signed binaries will be generated automatically if the "
+"``CONFIG_SECURE_BOOT_BUILD_SIGNED_BINARIES`` option is enabled. "
+"Alternatively, they can be generated by running the ``sign`` target:"
+msgstr ""
+
+#: ../../../frameworks/espidf_extra.rst:600
+msgid ""
+"To upload the signed binaries run the usual ``upload`` target (if the "
+"``CONFIG_SECURE_BOOT_BUILD_SIGNED_BINARIES`` option is enabled) or use the "
+"combination of the ``sign`` and ``upload`` targets:"
+msgstr ""
+
+#: ../../../frameworks/espidf_extra.rst:610
+msgid ""
+"By default the bootloader binary is not uploaded when Secure Boot is enabled "
+"unless the ``SECURE_BOOT_FLASH_BOOTLOADER_DEFAULT`` is enabled. As an "
+"alternative, there is a special target ``pio run -t sign -t upload-"
+"bootloader`` that can be used to upload only the signed bootloader binary."
+msgstr ""
+
+#: ../../../frameworks/espidf_extra.rst:614
+msgid "Secure the ROM download mode:"
+msgstr ""
+
+#: ../../../frameworks/espidf_extra.rst:618
+msgid ""
+"Please perform the following step at the very end. After this eFuse is "
+"burned, the ``espefuse`` tool can no longer be used to burn additional "
+"eFuses."
+msgstr ""
+
+#: ../../../frameworks/espidf_extra.rst:622
+msgid "Burn the fuse that disables the UART ROM download mode"
+msgstr ""
+
+#: ../../../frameworks/espidf_extra.rst:630
+msgid ""
+"It is recommended to store the Secure Boot key in a highly secure place. A "
+"physical or a cloud HSM may be used for secure storage of the Secure Boot "
+"private key."
+msgstr ""
+
+#: ../../../frameworks/espidf_extra.rst:633
+msgid "NVS Encryption: Flash Encryption-Based Scheme"
+msgstr ""
+
+#: ../../../frameworks/espidf_extra.rst:637
+msgid ""
+"The instructions below are intended for ESP32 targets. For other variants "
+"open `Secure Boot Programming Guide <https://docs.espressif.com/projects/esp-"
+"idf/en/v5.4.1/esp32/security/security-features-enablement-workflows."
+"html#enable-nvs-encryption-externally>`_ and select your target from the "
+"menu on the left."
+msgstr ""
+
+#: ../../../frameworks/espidf_extra.rst:641
+msgid ""
+"In this scheme, the keys required for NVS encryption are stored in yet "
+"another partition, which is protected using Flash Encryption. Therefore, "
+"enabling Flash Encryption becomes a prerequisite for NVS encryption here."
+msgstr ""
+
+#: ../../../frameworks/espidf_extra.rst:645
+msgid ""
+"An application requiring NVS encryption support (using the Flash Encryption-"
+"based scheme) needs to be compiled with a key-partition of the type data and "
+"subtype ``nvs_keys``. This partition should be marked as encrypted and its "
+"size should be the minimum partition size (4 KB)."
+msgstr ""
+
+#: ../../../frameworks/espidf_extra.rst:649
+msgid ""
+"NVS encryption is enabled by default when Flash Encryption is enabled. This "
+"is done because Wi-Fi driver stores credentials (like SSID and passphrase) "
+"in the default NVS partition. It is important to encrypt them as default "
+"choice if platform-level encryption is already enabled."
+msgstr ""
+
+#: ../../../frameworks/espidf_extra.rst:651
+msgid ""
+"It's recommended to read the official `NVS Encryption Guide <https://docs."
+"espressif.com/projects/esp-idf/en/stable/esp32/api-reference/storage/"
+"nvs_encryption.html>`_ to understand the overall workflow before getting "
+"started. Here's an adapted version of that page that uses PlatformIO "
+"packages to build, sign and upload binaries:"
+msgstr ""
+
+#: ../../../frameworks/espidf_extra.rst:654
+msgid "Generate the NVS encryption key"
+msgstr ""
+
+#: ../../../frameworks/espidf_extra.rst:656
+msgid ""
+"The NVS Encryption key can be generated using the following command. This "
+"key is then flashed on the chip and protected with the help of Flash "
+"Encryption features"
+msgstr ""
+
+#: ../../../frameworks/espidf_extra.rst:662
+msgid "This command will generate the respective key in the ``keys`` folder."
+msgstr ""
+
+#: ../../../frameworks/espidf_extra.rst:664
+msgid "Generate an encrypted NVS partition"
+msgstr ""
+
+#: ../../../frameworks/espidf_extra.rst:666
+msgid ""
+"On this step we need to generate an encrypted NVS partition from a special "
+"CSV file. Please refer to `Generate Encrypted NVS Partition <https://docs."
+"espressif.com/projects/esp-idf/en/v5.4.1/esp32/api-reference/storage/"
+"nvs_partition_gen.html#generate-encrypted-nvs-partition>`_ and `CSV File "
+"Format <https://docs.espressif.com/projects/esp-idf/en/v5.4.1/esp32/api-"
+"reference/storage/nvs_partition_gen.html#nvs-csv-file-format>`_ for more "
+"details."
+msgstr ""
+
+#: ../../../frameworks/espidf_extra.rst:672
+msgid "``nvs_data.csv`` - a CSV file which contains the NVS data"
+msgstr ""
+
+#: ../../../frameworks/espidf_extra.rst:673
+#: ../../../frameworks/espidf_extra.rst:709
+msgid ""
+"``0x121000`` is the NVS partition offset according to your partition table"
+msgstr ""
+
+#: ../../../frameworks/espidf_extra.rst:674
+#: ../../../frameworks/espidf_extra.rst:699
+#: ../../../frameworks/espidf_extra.rst:710
+msgid ""
+"``keys/nvs_encr_key.bin`` is an encryption key generated on the previous step"
+msgstr ""
+
+#: ../../../frameworks/espidf_extra.rst:679
+msgid ""
+"The NVS encryption using Flash Encryption can be enabled in your ``sdkconfig."
+"defaults`` as follows:"
+msgstr ""
+
+#: ../../../frameworks/espidf_extra.rst:686
+msgid "Flash NVS partition and NVS encryption keys"
+msgstr ""
+
+#: ../../../frameworks/espidf_extra.rst:690
+msgid ""
+"If Flash Encryption is enabled, the ``nvs_key`` partition need to be "
+"encrypted using Flash Encryption key before flashing."
+msgstr ""
+
+#: ../../../frameworks/espidf_extra.rst:697
+msgid "``my_flash_encryption_key.bin`` - is your Flash Encryption Key"
+msgstr ""
+
+#: ../../../frameworks/espidf_extra.rst:698
+#: ../../../frameworks/espidf_extra.rst:708
+msgid ""
+"``0x120000`` is the NVS Key partition offset according to your partition "
+"table"
+msgstr ""
+
+#: ../../../frameworks/espidf_extra.rst:701
+msgid ""
+"The final binaries can be uploaded via the ``esptool.py`` tool with "
+"corresponding offsets. You can change generic hardware parameters according "
+"to your target:"
+msgstr ""
+
+#: ../../../frameworks/espidf_extra.rst:707
+msgid "``$PORT`` is the serial port of your target device"
+msgstr ""
+
+#: ../../../frameworks/espidf_extra.rst:713
+msgid "Limitations"
+msgstr ""
+
+#: ../../../frameworks/espidf_extra.rst:715
+msgid "At the moment several limitations are present:"
+msgstr ""
+
+#: ../../../frameworks/espidf_extra.rst:717
+msgid ""
+"No whitespace characters allowed in project paths. This limitation is "
+"imposed by the `native ESP-IDF build system <https://docs.espressif.com/"
+"projects/esp-idf/en/latest/esp32/get-started/index.html?"
+"highlight=spaces#step-2-get-esp-idf>`_. This affects users that have a "
+"whitespace in their username or added a whitespace to the project name. As a "
+"workaround, it's recommended to move :ref:`projectconf_pio_core_dir` to a "
+"folder without spaces. For example:"
+msgstr ""
+
+#: ../../../frameworks/espidf_extra.rst:733
+msgid ""
+"The ``src_filter`` option cannot be used. It's done to preserve "
+"compatibility with existing ESP-IDF projects. List of source files is "
+"specified in the project ``CMakeLists.txt`` file."
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:28
+msgid "Platforms"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:32 ../../../frameworks/espidf.rst:75
+#: ../../../frameworks/espidf.rst:142 ../../../frameworks/espidf.rst:1219
+#: ../../../frameworks/espidf.rst:1240 ../../../frameworks/espidf.rst:1261
+#: ../../../frameworks/espidf.rst:1282 ../../../frameworks/espidf.rst:1457
+#: ../../../frameworks/espidf.rst:1485 ../../../frameworks/espidf.rst:1506
+#: ../../../frameworks/espidf.rst:1527 ../../../frameworks/espidf.rst:1548
+#: ../../../frameworks/espidf.rst:1569 ../../../frameworks/espidf.rst:1590
+#: ../../../frameworks/espidf.rst:1625 ../../../frameworks/espidf.rst:1646
+#: ../../../frameworks/espidf.rst:1674 ../../../frameworks/espidf.rst:1709
+#: ../../../frameworks/espidf.rst:1730 ../../../frameworks/espidf.rst:1751
+#: ../../../frameworks/espidf.rst:1772 ../../../frameworks/espidf.rst:1821
+#: ../../../frameworks/espidf.rst:1849 ../../../frameworks/espidf.rst:1870
+#: ../../../frameworks/espidf.rst:1898 ../../../frameworks/espidf.rst:1919
+#: ../../../frameworks/espidf.rst:1940 ../../../frameworks/espidf.rst:1961
+#: ../../../frameworks/espidf.rst:1982 ../../../frameworks/espidf.rst:2003
+#: ../../../frameworks/espidf.rst:2024 ../../../frameworks/espidf.rst:2045
+#: ../../../frameworks/espidf.rst:2157 ../../../frameworks/espidf.rst:2178
+#: ../../../frameworks/espidf.rst:2199 ../../../frameworks/espidf.rst:2234
+#: ../../../frameworks/espidf.rst:2255 ../../../frameworks/espidf.rst:2283
+#: ../../../frameworks/espidf.rst:2304 ../../../frameworks/espidf.rst:2325
+#: ../../../frameworks/espidf.rst:2353 ../../../frameworks/espidf.rst:2409
+#: ../../../frameworks/espidf.rst:2437 ../../../frameworks/espidf.rst:2458
+#: ../../../frameworks/espidf.rst:2479 ../../../frameworks/espidf.rst:2500
+#: ../../../frameworks/espidf.rst:2521 ../../../frameworks/espidf.rst:2542
+#: ../../../frameworks/espidf.rst:2563 ../../../frameworks/espidf.rst:2584
+#: ../../../frameworks/espidf.rst:2619 ../../../frameworks/espidf.rst:2647
+#: ../../../frameworks/espidf.rst:2759 ../../../frameworks/espidf.rst:2787
+#: ../../../frameworks/espidf.rst:2815 ../../../frameworks/espidf.rst:2843
+#: ../../../frameworks/espidf.rst:2864 ../../../frameworks/espidf.rst:2892
+#: ../../../frameworks/espidf.rst:2913 ../../../frameworks/espidf.rst:2934
+#: ../../../frameworks/espidf.rst:2955 ../../../frameworks/espidf.rst:2976
+#: ../../../frameworks/espidf.rst:2997 ../../../frameworks/espidf.rst:3053
+#: ../../../frameworks/espidf.rst:3074 ../../../frameworks/espidf.rst:3095
+#: ../../../frameworks/espidf.rst:3116 ../../../frameworks/espidf.rst:3137
+#: ../../../frameworks/espidf.rst:3179 ../../../frameworks/espidf.rst:3200
+#: ../../../frameworks/espidf.rst:3235 ../../../frameworks/espidf.rst:3256
+#: ../../../frameworks/espidf.rst:3277 ../../../frameworks/espidf.rst:3298
+#: ../../../frameworks/espidf.rst:3319 ../../../frameworks/espidf.rst:3361
+#: ../../../frameworks/espidf.rst:3382 ../../../frameworks/espidf.rst:3431
+#: ../../../frameworks/espidf.rst:3480 ../../../frameworks/espidf.rst:3508
+#: ../../../frameworks/espidf.rst:3564 ../../../frameworks/espidf.rst:3592
+#: ../../../frameworks/espidf.rst:3669 ../../../frameworks/espidf.rst:3690
+#: ../../../frameworks/espidf.rst:3725 ../../../frameworks/espidf.rst:3746
+#: ../../../frameworks/espidf.rst:3823 ../../../frameworks/espidf.rst:3858
+#: ../../../frameworks/espidf.rst:3879 ../../../frameworks/espidf.rst:3907
+#: ../../../frameworks/espidf.rst:3928 ../../../frameworks/espidf.rst:4033
+#: ../../../frameworks/espidf.rst:4054 ../../../frameworks/espidf.rst:4075
+#: ../../../frameworks/espidf.rst:4096 ../../../frameworks/espidf.rst:4117
+#: ../../../frameworks/espidf.rst:4138 ../../../frameworks/espidf.rst:4166
+#: ../../../frameworks/espidf.rst:4187 ../../../frameworks/espidf.rst:4215
+#: ../../../frameworks/espidf.rst:4236 ../../../frameworks/espidf.rst:4257
+msgid "Name"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:33
+msgid "Description"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:35 ../../../frameworks/espidf.rst:82
+#: ../../../frameworks/espidf.rst:88 ../../../frameworks/espidf.rst:94
+#: ../../../frameworks/espidf.rst:100 ../../../frameworks/espidf.rst:106
+#: ../../../frameworks/espidf.rst:112 ../../../frameworks/espidf.rst:118
+#: ../../../frameworks/espidf.rst:124 ../../../frameworks/espidf.rst:149
+#: ../../../frameworks/espidf.rst:155 ../../../frameworks/espidf.rst:161
+#: ../../../frameworks/espidf.rst:167 ../../../frameworks/espidf.rst:173
+#: ../../../frameworks/espidf.rst:179 ../../../frameworks/espidf.rst:185
+#: ../../../frameworks/espidf.rst:191 ../../../frameworks/espidf.rst:197
+#: ../../../frameworks/espidf.rst:203 ../../../frameworks/espidf.rst:209
+#: ../../../frameworks/espidf.rst:215 ../../../frameworks/espidf.rst:221
+#: ../../../frameworks/espidf.rst:227 ../../../frameworks/espidf.rst:233
+#: ../../../frameworks/espidf.rst:239 ../../../frameworks/espidf.rst:245
+#: ../../../frameworks/espidf.rst:251 ../../../frameworks/espidf.rst:257
+#: ../../../frameworks/espidf.rst:263 ../../../frameworks/espidf.rst:269
+#: ../../../frameworks/espidf.rst:275 ../../../frameworks/espidf.rst:281
+#: ../../../frameworks/espidf.rst:287 ../../../frameworks/espidf.rst:293
+#: ../../../frameworks/espidf.rst:299 ../../../frameworks/espidf.rst:305
+#: ../../../frameworks/espidf.rst:311 ../../../frameworks/espidf.rst:317
+#: ../../../frameworks/espidf.rst:323 ../../../frameworks/espidf.rst:329
+#: ../../../frameworks/espidf.rst:335 ../../../frameworks/espidf.rst:341
+#: ../../../frameworks/espidf.rst:347 ../../../frameworks/espidf.rst:353
+#: ../../../frameworks/espidf.rst:359 ../../../frameworks/espidf.rst:365
+#: ../../../frameworks/espidf.rst:371 ../../../frameworks/espidf.rst:377
+#: ../../../frameworks/espidf.rst:383 ../../../frameworks/espidf.rst:389
+#: ../../../frameworks/espidf.rst:395 ../../../frameworks/espidf.rst:401
+#: ../../../frameworks/espidf.rst:407 ../../../frameworks/espidf.rst:413
+#: ../../../frameworks/espidf.rst:419 ../../../frameworks/espidf.rst:425
+#: ../../../frameworks/espidf.rst:431 ../../../frameworks/espidf.rst:437
+#: ../../../frameworks/espidf.rst:443 ../../../frameworks/espidf.rst:449
+#: ../../../frameworks/espidf.rst:455 ../../../frameworks/espidf.rst:461
+#: ../../../frameworks/espidf.rst:467 ../../../frameworks/espidf.rst:473
+#: ../../../frameworks/espidf.rst:479 ../../../frameworks/espidf.rst:485
+#: ../../../frameworks/espidf.rst:491 ../../../frameworks/espidf.rst:497
+#: ../../../frameworks/espidf.rst:503 ../../../frameworks/espidf.rst:509
+#: ../../../frameworks/espidf.rst:515 ../../../frameworks/espidf.rst:521
+#: ../../../frameworks/espidf.rst:527 ../../../frameworks/espidf.rst:533
+#: ../../../frameworks/espidf.rst:539 ../../../frameworks/espidf.rst:545
+#: ../../../frameworks/espidf.rst:551 ../../../frameworks/espidf.rst:557
+#: ../../../frameworks/espidf.rst:563 ../../../frameworks/espidf.rst:569
+#: ../../../frameworks/espidf.rst:575 ../../../frameworks/espidf.rst:581
+#: ../../../frameworks/espidf.rst:587 ../../../frameworks/espidf.rst:593
+#: ../../../frameworks/espidf.rst:599 ../../../frameworks/espidf.rst:605
+#: ../../../frameworks/espidf.rst:611 ../../../frameworks/espidf.rst:617
+#: ../../../frameworks/espidf.rst:623 ../../../frameworks/espidf.rst:629
+#: ../../../frameworks/espidf.rst:635 ../../../frameworks/espidf.rst:641
+#: ../../../frameworks/espidf.rst:647 ../../../frameworks/espidf.rst:653
+#: ../../../frameworks/espidf.rst:659 ../../../frameworks/espidf.rst:665
+#: ../../../frameworks/espidf.rst:671 ../../../frameworks/espidf.rst:677
+#: ../../../frameworks/espidf.rst:683 ../../../frameworks/espidf.rst:689
+#: ../../../frameworks/espidf.rst:695 ../../../frameworks/espidf.rst:701
+#: ../../../frameworks/espidf.rst:707 ../../../frameworks/espidf.rst:713
+#: ../../../frameworks/espidf.rst:719 ../../../frameworks/espidf.rst:725
+#: ../../../frameworks/espidf.rst:731 ../../../frameworks/espidf.rst:737
+#: ../../../frameworks/espidf.rst:743 ../../../frameworks/espidf.rst:749
+#: ../../../frameworks/espidf.rst:755 ../../../frameworks/espidf.rst:761
+#: ../../../frameworks/espidf.rst:767 ../../../frameworks/espidf.rst:773
+#: ../../../frameworks/espidf.rst:779 ../../../frameworks/espidf.rst:785
+#: ../../../frameworks/espidf.rst:791 ../../../frameworks/espidf.rst:797
+#: ../../../frameworks/espidf.rst:803 ../../../frameworks/espidf.rst:809
+#: ../../../frameworks/espidf.rst:815 ../../../frameworks/espidf.rst:821
+#: ../../../frameworks/espidf.rst:827 ../../../frameworks/espidf.rst:833
+#: ../../../frameworks/espidf.rst:839 ../../../frameworks/espidf.rst:845
+#: ../../../frameworks/espidf.rst:851 ../../../frameworks/espidf.rst:857
+#: ../../../frameworks/espidf.rst:863 ../../../frameworks/espidf.rst:869
+#: ../../../frameworks/espidf.rst:875 ../../../frameworks/espidf.rst:881
+#: ../../../frameworks/espidf.rst:887 ../../../frameworks/espidf.rst:893
+#: ../../../frameworks/espidf.rst:899 ../../../frameworks/espidf.rst:905
+#: ../../../frameworks/espidf.rst:911 ../../../frameworks/espidf.rst:917
+#: ../../../frameworks/espidf.rst:923 ../../../frameworks/espidf.rst:929
+#: ../../../frameworks/espidf.rst:935 ../../../frameworks/espidf.rst:941
+#: ../../../frameworks/espidf.rst:947 ../../../frameworks/espidf.rst:953
+#: ../../../frameworks/espidf.rst:959 ../../../frameworks/espidf.rst:965
+#: ../../../frameworks/espidf.rst:971 ../../../frameworks/espidf.rst:977
+#: ../../../frameworks/espidf.rst:983 ../../../frameworks/espidf.rst:989
+#: ../../../frameworks/espidf.rst:995 ../../../frameworks/espidf.rst:1001
+#: ../../../frameworks/espidf.rst:1007 ../../../frameworks/espidf.rst:1013
+#: ../../../frameworks/espidf.rst:1019 ../../../frameworks/espidf.rst:1025
+#: ../../../frameworks/espidf.rst:1031 ../../../frameworks/espidf.rst:1037
+#: ../../../frameworks/espidf.rst:1043 ../../../frameworks/espidf.rst:1049
+#: ../../../frameworks/espidf.rst:1055 ../../../frameworks/espidf.rst:1061
+#: ../../../frameworks/espidf.rst:1067 ../../../frameworks/espidf.rst:1073
+#: ../../../frameworks/espidf.rst:1079 ../../../frameworks/espidf.rst:1085
+#: ../../../frameworks/espidf.rst:1091 ../../../frameworks/espidf.rst:1097
+#: ../../../frameworks/espidf.rst:1103 ../../../frameworks/espidf.rst:1109
+#: ../../../frameworks/espidf.rst:1115 ../../../frameworks/espidf.rst:1121
+#: ../../../frameworks/espidf.rst:1127 ../../../frameworks/espidf.rst:1133
+#: ../../../frameworks/espidf.rst:1139 ../../../frameworks/espidf.rst:1145
+#: ../../../frameworks/espidf.rst:1151 ../../../frameworks/espidf.rst:1157
+#: ../../../frameworks/espidf.rst:1163 ../../../frameworks/espidf.rst:1169
+#: ../../../frameworks/espidf.rst:1175 ../../../frameworks/espidf.rst:1181
+#: ../../../frameworks/espidf.rst:1187 ../../../frameworks/espidf.rst:1193
+#: ../../../frameworks/espidf.rst:1199 ../../../frameworks/espidf.rst:1227
+#: ../../../frameworks/espidf.rst:1248 ../../../frameworks/espidf.rst:1269
+#: ../../../frameworks/espidf.rst:1290 ../../../frameworks/espidf.rst:1297
+#: ../../../frameworks/espidf.rst:1304 ../../../frameworks/espidf.rst:1311
+#: ../../../frameworks/espidf.rst:1318 ../../../frameworks/espidf.rst:1325
+#: ../../../frameworks/espidf.rst:1332 ../../../frameworks/espidf.rst:1339
+#: ../../../frameworks/espidf.rst:1346 ../../../frameworks/espidf.rst:1353
+#: ../../../frameworks/espidf.rst:1360 ../../../frameworks/espidf.rst:1367
+#: ../../../frameworks/espidf.rst:1374 ../../../frameworks/espidf.rst:1381
+#: ../../../frameworks/espidf.rst:1388 ../../../frameworks/espidf.rst:1395
+#: ../../../frameworks/espidf.rst:1402 ../../../frameworks/espidf.rst:1409
+#: ../../../frameworks/espidf.rst:1416 ../../../frameworks/espidf.rst:1423
+#: ../../../frameworks/espidf.rst:1430 ../../../frameworks/espidf.rst:1437
+#: ../../../frameworks/espidf.rst:1444 ../../../frameworks/espidf.rst:1465
+#: ../../../frameworks/espidf.rst:1472 ../../../frameworks/espidf.rst:1493
+#: ../../../frameworks/espidf.rst:1514 ../../../frameworks/espidf.rst:1535
+#: ../../../frameworks/espidf.rst:1556 ../../../frameworks/espidf.rst:1577
+#: ../../../frameworks/espidf.rst:1598 ../../../frameworks/espidf.rst:1605
+#: ../../../frameworks/espidf.rst:1612 ../../../frameworks/espidf.rst:1633
+#: ../../../frameworks/espidf.rst:1654 ../../../frameworks/espidf.rst:1661
+#: ../../../frameworks/espidf.rst:1682 ../../../frameworks/espidf.rst:1689
+#: ../../../frameworks/espidf.rst:1696 ../../../frameworks/espidf.rst:1717
+#: ../../../frameworks/espidf.rst:1738 ../../../frameworks/espidf.rst:1759
+#: ../../../frameworks/espidf.rst:1780 ../../../frameworks/espidf.rst:1787
+#: ../../../frameworks/espidf.rst:1794 ../../../frameworks/espidf.rst:1801
+#: ../../../frameworks/espidf.rst:1808 ../../../frameworks/espidf.rst:1829
+#: ../../../frameworks/espidf.rst:1836 ../../../frameworks/espidf.rst:1857
+#: ../../../frameworks/espidf.rst:1878 ../../../frameworks/espidf.rst:1885
+#: ../../../frameworks/espidf.rst:1906 ../../../frameworks/espidf.rst:1927
+#: ../../../frameworks/espidf.rst:1948 ../../../frameworks/espidf.rst:1969
+#: ../../../frameworks/espidf.rst:1990 ../../../frameworks/espidf.rst:2011
+#: ../../../frameworks/espidf.rst:2032 ../../../frameworks/espidf.rst:2053
+#: ../../../frameworks/espidf.rst:2060 ../../../frameworks/espidf.rst:2067
+#: ../../../frameworks/espidf.rst:2074 ../../../frameworks/espidf.rst:2081
+#: ../../../frameworks/espidf.rst:2088 ../../../frameworks/espidf.rst:2095
+#: ../../../frameworks/espidf.rst:2102 ../../../frameworks/espidf.rst:2109
+#: ../../../frameworks/espidf.rst:2116 ../../../frameworks/espidf.rst:2123
+#: ../../../frameworks/espidf.rst:2130 ../../../frameworks/espidf.rst:2137
+#: ../../../frameworks/espidf.rst:2144 ../../../frameworks/espidf.rst:2165
+#: ../../../frameworks/espidf.rst:2186 ../../../frameworks/espidf.rst:2207
+#: ../../../frameworks/espidf.rst:2214 ../../../frameworks/espidf.rst:2221
+#: ../../../frameworks/espidf.rst:2242 ../../../frameworks/espidf.rst:2263
+#: ../../../frameworks/espidf.rst:2270 ../../../frameworks/espidf.rst:2291
+#: ../../../frameworks/espidf.rst:2312 ../../../frameworks/espidf.rst:2333
+#: ../../../frameworks/espidf.rst:2340 ../../../frameworks/espidf.rst:2361
+#: ../../../frameworks/espidf.rst:2368 ../../../frameworks/espidf.rst:2375
+#: ../../../frameworks/espidf.rst:2382 ../../../frameworks/espidf.rst:2389
+#: ../../../frameworks/espidf.rst:2396 ../../../frameworks/espidf.rst:2417
+#: ../../../frameworks/espidf.rst:2424 ../../../frameworks/espidf.rst:2445
+#: ../../../frameworks/espidf.rst:2466 ../../../frameworks/espidf.rst:2487
+#: ../../../frameworks/espidf.rst:2508 ../../../frameworks/espidf.rst:2529
+#: ../../../frameworks/espidf.rst:2550 ../../../frameworks/espidf.rst:2571
+#: ../../../frameworks/espidf.rst:2592 ../../../frameworks/espidf.rst:2599
+#: ../../../frameworks/espidf.rst:2606 ../../../frameworks/espidf.rst:2627
+#: ../../../frameworks/espidf.rst:2634 ../../../frameworks/espidf.rst:2655
+#: ../../../frameworks/espidf.rst:2662 ../../../frameworks/espidf.rst:2669
+#: ../../../frameworks/espidf.rst:2676 ../../../frameworks/espidf.rst:2683
+#: ../../../frameworks/espidf.rst:2690 ../../../frameworks/espidf.rst:2697
+#: ../../../frameworks/espidf.rst:2704 ../../../frameworks/espidf.rst:2711
+#: ../../../frameworks/espidf.rst:2718 ../../../frameworks/espidf.rst:2725
+#: ../../../frameworks/espidf.rst:2732 ../../../frameworks/espidf.rst:2739
+#: ../../../frameworks/espidf.rst:2746 ../../../frameworks/espidf.rst:2767
+#: ../../../frameworks/espidf.rst:2774 ../../../frameworks/espidf.rst:2795
+#: ../../../frameworks/espidf.rst:2802 ../../../frameworks/espidf.rst:2823
+#: ../../../frameworks/espidf.rst:2830 ../../../frameworks/espidf.rst:2851
+#: ../../../frameworks/espidf.rst:2872 ../../../frameworks/espidf.rst:2879
+#: ../../../frameworks/espidf.rst:2900 ../../../frameworks/espidf.rst:2921
+#: ../../../frameworks/espidf.rst:2942 ../../../frameworks/espidf.rst:2963
+#: ../../../frameworks/espidf.rst:2984 ../../../frameworks/espidf.rst:3005
+#: ../../../frameworks/espidf.rst:3012 ../../../frameworks/espidf.rst:3019
+#: ../../../frameworks/espidf.rst:3026 ../../../frameworks/espidf.rst:3033
+#: ../../../frameworks/espidf.rst:3040 ../../../frameworks/espidf.rst:3061
+#: ../../../frameworks/espidf.rst:3082 ../../../frameworks/espidf.rst:3103
+#: ../../../frameworks/espidf.rst:3124 ../../../frameworks/espidf.rst:3145
+#: ../../../frameworks/espidf.rst:3152 ../../../frameworks/espidf.rst:3159
+#: ../../../frameworks/espidf.rst:3166 ../../../frameworks/espidf.rst:3187
+#: ../../../frameworks/espidf.rst:3208 ../../../frameworks/espidf.rst:3215
+#: ../../../frameworks/espidf.rst:3222 ../../../frameworks/espidf.rst:3243
+#: ../../../frameworks/espidf.rst:3264 ../../../frameworks/espidf.rst:3285
+#: ../../../frameworks/espidf.rst:3306 ../../../frameworks/espidf.rst:3327
+#: ../../../frameworks/espidf.rst:3334 ../../../frameworks/espidf.rst:3341
+#: ../../../frameworks/espidf.rst:3348 ../../../frameworks/espidf.rst:3369
+#: ../../../frameworks/espidf.rst:3390 ../../../frameworks/espidf.rst:3397
+#: ../../../frameworks/espidf.rst:3404 ../../../frameworks/espidf.rst:3411
+#: ../../../frameworks/espidf.rst:3418 ../../../frameworks/espidf.rst:3439
+#: ../../../frameworks/espidf.rst:3446 ../../../frameworks/espidf.rst:3453
+#: ../../../frameworks/espidf.rst:3460 ../../../frameworks/espidf.rst:3467
+#: ../../../frameworks/espidf.rst:3488 ../../../frameworks/espidf.rst:3495
+#: ../../../frameworks/espidf.rst:3516 ../../../frameworks/espidf.rst:3523
+#: ../../../frameworks/espidf.rst:3530 ../../../frameworks/espidf.rst:3537
+#: ../../../frameworks/espidf.rst:3544 ../../../frameworks/espidf.rst:3551
+#: ../../../frameworks/espidf.rst:3572 ../../../frameworks/espidf.rst:3579
+#: ../../../frameworks/espidf.rst:3600 ../../../frameworks/espidf.rst:3607
+#: ../../../frameworks/espidf.rst:3614 ../../../frameworks/espidf.rst:3621
+#: ../../../frameworks/espidf.rst:3628 ../../../frameworks/espidf.rst:3635
+#: ../../../frameworks/espidf.rst:3642 ../../../frameworks/espidf.rst:3649
+#: ../../../frameworks/espidf.rst:3656 ../../../frameworks/espidf.rst:3677
+#: ../../../frameworks/espidf.rst:3698 ../../../frameworks/espidf.rst:3705
+#: ../../../frameworks/espidf.rst:3712 ../../../frameworks/espidf.rst:3733
+#: ../../../frameworks/espidf.rst:3754 ../../../frameworks/espidf.rst:3761
+#: ../../../frameworks/espidf.rst:3768 ../../../frameworks/espidf.rst:3775
+#: ../../../frameworks/espidf.rst:3782 ../../../frameworks/espidf.rst:3789
+#: ../../../frameworks/espidf.rst:3796 ../../../frameworks/espidf.rst:3803
+#: ../../../frameworks/espidf.rst:3810 ../../../frameworks/espidf.rst:3831
+#: ../../../frameworks/espidf.rst:3838 ../../../frameworks/espidf.rst:3845
+#: ../../../frameworks/espidf.rst:3866 ../../../frameworks/espidf.rst:3887
+#: ../../../frameworks/espidf.rst:3894 ../../../frameworks/espidf.rst:3915
+#: ../../../frameworks/espidf.rst:3936 ../../../frameworks/espidf.rst:3943
+#: ../../../frameworks/espidf.rst:3950 ../../../frameworks/espidf.rst:3957
+#: ../../../frameworks/espidf.rst:3964 ../../../frameworks/espidf.rst:3971
+#: ../../../frameworks/espidf.rst:3978 ../../../frameworks/espidf.rst:3985
+#: ../../../frameworks/espidf.rst:3992 ../../../frameworks/espidf.rst:3999
+#: ../../../frameworks/espidf.rst:4006 ../../../frameworks/espidf.rst:4013
+#: ../../../frameworks/espidf.rst:4020 ../../../frameworks/espidf.rst:4041
+#: ../../../frameworks/espidf.rst:4062 ../../../frameworks/espidf.rst:4083
+#: ../../../frameworks/espidf.rst:4104 ../../../frameworks/espidf.rst:4125
+#: ../../../frameworks/espidf.rst:4146 ../../../frameworks/espidf.rst:4153
+#: ../../../frameworks/espidf.rst:4174 ../../../frameworks/espidf.rst:4195
+#: ../../../frameworks/espidf.rst:4202 ../../../frameworks/espidf.rst:4223
+#: ../../../frameworks/espidf.rst:4244 ../../../frameworks/espidf.rst:4265
+#: ../../../frameworks/espidf.rst:4272
+msgid ":ref:`platform_espressif32`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:36
+msgid ""
+"ESP32 is a series of low-cost, low-power system on a chip microcontrollers "
+"with integrated Wi-Fi and Bluetooth. ESP32 integrates an antenna switch, RF "
+"balun, power amplifier, low-noise receive amplifier, filters, and power "
+"management modules."
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:39
+msgid "Examples"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:41
+msgid ""
+"`Espressif IoT Development Framework for Espressif 32 <https://github.com/"
+"platformio/platform-espressif32/tree/master/examples?utm_source=platformio."
+"org&utm_medium=docs>`_"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:44
+msgid "Debugging"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:46
+msgid ""
+":ref:`piodebug` - \"1-click\" solution for debugging with a zero "
+"configuration."
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:53
+msgid "Tools & Debug Probes"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:55
+msgid ""
+"Supported debugging tools are listed in \"Debug\" column. For more detailed "
+"information, please scroll table by horizontal. You can switch between "
+"debugging :ref:`debugging_tools` using :ref:`projectconf_debug_tool` option "
+"in :ref:`projectconf`."
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:61
+msgid ""
+"You will need to install debug tool drivers depending on your system. Please "
+"click on compatible debug tool below for the further instructions."
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:66
+msgid "On-Board Debug Tools"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:68
+msgid ""
+"Boards listed below have on-board debug probe and **ARE READY** for "
+"debugging! You do not need to use/buy external debug probe."
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:76 ../../../frameworks/espidf.rst:143
+#: ../../../frameworks/espidf.rst:1220 ../../../frameworks/espidf.rst:1241
+#: ../../../frameworks/espidf.rst:1262 ../../../frameworks/espidf.rst:1283
+#: ../../../frameworks/espidf.rst:1458 ../../../frameworks/espidf.rst:1486
+#: ../../../frameworks/espidf.rst:1507 ../../../frameworks/espidf.rst:1528
+#: ../../../frameworks/espidf.rst:1549 ../../../frameworks/espidf.rst:1570
+#: ../../../frameworks/espidf.rst:1591 ../../../frameworks/espidf.rst:1626
+#: ../../../frameworks/espidf.rst:1647 ../../../frameworks/espidf.rst:1675
+#: ../../../frameworks/espidf.rst:1710 ../../../frameworks/espidf.rst:1731
+#: ../../../frameworks/espidf.rst:1752 ../../../frameworks/espidf.rst:1773
+#: ../../../frameworks/espidf.rst:1822 ../../../frameworks/espidf.rst:1850
+#: ../../../frameworks/espidf.rst:1871 ../../../frameworks/espidf.rst:1899
+#: ../../../frameworks/espidf.rst:1920 ../../../frameworks/espidf.rst:1941
+#: ../../../frameworks/espidf.rst:1962 ../../../frameworks/espidf.rst:1983
+#: ../../../frameworks/espidf.rst:2004 ../../../frameworks/espidf.rst:2025
+#: ../../../frameworks/espidf.rst:2046 ../../../frameworks/espidf.rst:2158
+#: ../../../frameworks/espidf.rst:2179 ../../../frameworks/espidf.rst:2200
+#: ../../../frameworks/espidf.rst:2235 ../../../frameworks/espidf.rst:2256
+#: ../../../frameworks/espidf.rst:2284 ../../../frameworks/espidf.rst:2305
+#: ../../../frameworks/espidf.rst:2326 ../../../frameworks/espidf.rst:2354
+#: ../../../frameworks/espidf.rst:2410 ../../../frameworks/espidf.rst:2438
+#: ../../../frameworks/espidf.rst:2459 ../../../frameworks/espidf.rst:2480
+#: ../../../frameworks/espidf.rst:2501 ../../../frameworks/espidf.rst:2522
+#: ../../../frameworks/espidf.rst:2543 ../../../frameworks/espidf.rst:2564
+#: ../../../frameworks/espidf.rst:2585 ../../../frameworks/espidf.rst:2620
+#: ../../../frameworks/espidf.rst:2648 ../../../frameworks/espidf.rst:2760
+#: ../../../frameworks/espidf.rst:2788 ../../../frameworks/espidf.rst:2816
+#: ../../../frameworks/espidf.rst:2844 ../../../frameworks/espidf.rst:2865
+#: ../../../frameworks/espidf.rst:2893 ../../../frameworks/espidf.rst:2914
+#: ../../../frameworks/espidf.rst:2935 ../../../frameworks/espidf.rst:2956
+#: ../../../frameworks/espidf.rst:2977 ../../../frameworks/espidf.rst:2998
+#: ../../../frameworks/espidf.rst:3054 ../../../frameworks/espidf.rst:3075
+#: ../../../frameworks/espidf.rst:3096 ../../../frameworks/espidf.rst:3117
+#: ../../../frameworks/espidf.rst:3138 ../../../frameworks/espidf.rst:3180
+#: ../../../frameworks/espidf.rst:3201 ../../../frameworks/espidf.rst:3236
+#: ../../../frameworks/espidf.rst:3257 ../../../frameworks/espidf.rst:3278
+#: ../../../frameworks/espidf.rst:3299 ../../../frameworks/espidf.rst:3320
+#: ../../../frameworks/espidf.rst:3362 ../../../frameworks/espidf.rst:3383
+#: ../../../frameworks/espidf.rst:3432 ../../../frameworks/espidf.rst:3481
+#: ../../../frameworks/espidf.rst:3509 ../../../frameworks/espidf.rst:3565
+#: ../../../frameworks/espidf.rst:3593 ../../../frameworks/espidf.rst:3670
+#: ../../../frameworks/espidf.rst:3691 ../../../frameworks/espidf.rst:3726
+#: ../../../frameworks/espidf.rst:3747 ../../../frameworks/espidf.rst:3824
+#: ../../../frameworks/espidf.rst:3859 ../../../frameworks/espidf.rst:3880
+#: ../../../frameworks/espidf.rst:3908 ../../../frameworks/espidf.rst:3929
+#: ../../../frameworks/espidf.rst:4034 ../../../frameworks/espidf.rst:4055
+#: ../../../frameworks/espidf.rst:4076 ../../../frameworks/espidf.rst:4097
+#: ../../../frameworks/espidf.rst:4118 ../../../frameworks/espidf.rst:4139
+#: ../../../frameworks/espidf.rst:4167 ../../../frameworks/espidf.rst:4188
+#: ../../../frameworks/espidf.rst:4216 ../../../frameworks/espidf.rst:4237
+#: ../../../frameworks/espidf.rst:4258
+msgid "Platform"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:77 ../../../frameworks/espidf.rst:144
+#: ../../../frameworks/espidf.rst:1222 ../../../frameworks/espidf.rst:1243
+#: ../../../frameworks/espidf.rst:1264 ../../../frameworks/espidf.rst:1285
+#: ../../../frameworks/espidf.rst:1460 ../../../frameworks/espidf.rst:1488
+#: ../../../frameworks/espidf.rst:1509 ../../../frameworks/espidf.rst:1530
+#: ../../../frameworks/espidf.rst:1551 ../../../frameworks/espidf.rst:1572
+#: ../../../frameworks/espidf.rst:1593 ../../../frameworks/espidf.rst:1628
+#: ../../../frameworks/espidf.rst:1649 ../../../frameworks/espidf.rst:1677
+#: ../../../frameworks/espidf.rst:1712 ../../../frameworks/espidf.rst:1733
+#: ../../../frameworks/espidf.rst:1754 ../../../frameworks/espidf.rst:1775
+#: ../../../frameworks/espidf.rst:1824 ../../../frameworks/espidf.rst:1852
+#: ../../../frameworks/espidf.rst:1873 ../../../frameworks/espidf.rst:1901
+#: ../../../frameworks/espidf.rst:1922 ../../../frameworks/espidf.rst:1943
+#: ../../../frameworks/espidf.rst:1964 ../../../frameworks/espidf.rst:1985
+#: ../../../frameworks/espidf.rst:2006 ../../../frameworks/espidf.rst:2027
+#: ../../../frameworks/espidf.rst:2048 ../../../frameworks/espidf.rst:2160
+#: ../../../frameworks/espidf.rst:2181 ../../../frameworks/espidf.rst:2202
+#: ../../../frameworks/espidf.rst:2237 ../../../frameworks/espidf.rst:2258
+#: ../../../frameworks/espidf.rst:2286 ../../../frameworks/espidf.rst:2307
+#: ../../../frameworks/espidf.rst:2328 ../../../frameworks/espidf.rst:2356
+#: ../../../frameworks/espidf.rst:2412 ../../../frameworks/espidf.rst:2440
+#: ../../../frameworks/espidf.rst:2461 ../../../frameworks/espidf.rst:2482
+#: ../../../frameworks/espidf.rst:2503 ../../../frameworks/espidf.rst:2524
+#: ../../../frameworks/espidf.rst:2545 ../../../frameworks/espidf.rst:2566
+#: ../../../frameworks/espidf.rst:2587 ../../../frameworks/espidf.rst:2622
+#: ../../../frameworks/espidf.rst:2650 ../../../frameworks/espidf.rst:2762
+#: ../../../frameworks/espidf.rst:2790 ../../../frameworks/espidf.rst:2818
+#: ../../../frameworks/espidf.rst:2846 ../../../frameworks/espidf.rst:2867
+#: ../../../frameworks/espidf.rst:2895 ../../../frameworks/espidf.rst:2916
+#: ../../../frameworks/espidf.rst:2937 ../../../frameworks/espidf.rst:2958
+#: ../../../frameworks/espidf.rst:2979 ../../../frameworks/espidf.rst:3000
+#: ../../../frameworks/espidf.rst:3056 ../../../frameworks/espidf.rst:3077
+#: ../../../frameworks/espidf.rst:3098 ../../../frameworks/espidf.rst:3119
+#: ../../../frameworks/espidf.rst:3140 ../../../frameworks/espidf.rst:3182
+#: ../../../frameworks/espidf.rst:3203 ../../../frameworks/espidf.rst:3238
+#: ../../../frameworks/espidf.rst:3259 ../../../frameworks/espidf.rst:3280
+#: ../../../frameworks/espidf.rst:3301 ../../../frameworks/espidf.rst:3322
+#: ../../../frameworks/espidf.rst:3364 ../../../frameworks/espidf.rst:3385
+#: ../../../frameworks/espidf.rst:3434 ../../../frameworks/espidf.rst:3483
+#: ../../../frameworks/espidf.rst:3511 ../../../frameworks/espidf.rst:3567
+#: ../../../frameworks/espidf.rst:3595 ../../../frameworks/espidf.rst:3672
+#: ../../../frameworks/espidf.rst:3693 ../../../frameworks/espidf.rst:3728
+#: ../../../frameworks/espidf.rst:3749 ../../../frameworks/espidf.rst:3826
+#: ../../../frameworks/espidf.rst:3861 ../../../frameworks/espidf.rst:3882
+#: ../../../frameworks/espidf.rst:3910 ../../../frameworks/espidf.rst:3931
+#: ../../../frameworks/espidf.rst:4036 ../../../frameworks/espidf.rst:4057
+#: ../../../frameworks/espidf.rst:4078 ../../../frameworks/espidf.rst:4099
+#: ../../../frameworks/espidf.rst:4120 ../../../frameworks/espidf.rst:4141
+#: ../../../frameworks/espidf.rst:4169 ../../../frameworks/espidf.rst:4190
+#: ../../../frameworks/espidf.rst:4218 ../../../frameworks/espidf.rst:4239
+#: ../../../frameworks/espidf.rst:4260
+msgid "MCU"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:78 ../../../frameworks/espidf.rst:145
+#: ../../../frameworks/espidf.rst:1223 ../../../frameworks/espidf.rst:1244
+#: ../../../frameworks/espidf.rst:1265 ../../../frameworks/espidf.rst:1286
+#: ../../../frameworks/espidf.rst:1461 ../../../frameworks/espidf.rst:1489
+#: ../../../frameworks/espidf.rst:1510 ../../../frameworks/espidf.rst:1531
+#: ../../../frameworks/espidf.rst:1552 ../../../frameworks/espidf.rst:1573
+#: ../../../frameworks/espidf.rst:1594 ../../../frameworks/espidf.rst:1629
+#: ../../../frameworks/espidf.rst:1650 ../../../frameworks/espidf.rst:1678
+#: ../../../frameworks/espidf.rst:1713 ../../../frameworks/espidf.rst:1734
+#: ../../../frameworks/espidf.rst:1755 ../../../frameworks/espidf.rst:1776
+#: ../../../frameworks/espidf.rst:1825 ../../../frameworks/espidf.rst:1853
+#: ../../../frameworks/espidf.rst:1874 ../../../frameworks/espidf.rst:1902
+#: ../../../frameworks/espidf.rst:1923 ../../../frameworks/espidf.rst:1944
+#: ../../../frameworks/espidf.rst:1965 ../../../frameworks/espidf.rst:1986
+#: ../../../frameworks/espidf.rst:2007 ../../../frameworks/espidf.rst:2028
+#: ../../../frameworks/espidf.rst:2049 ../../../frameworks/espidf.rst:2161
+#: ../../../frameworks/espidf.rst:2182 ../../../frameworks/espidf.rst:2203
+#: ../../../frameworks/espidf.rst:2238 ../../../frameworks/espidf.rst:2259
+#: ../../../frameworks/espidf.rst:2287 ../../../frameworks/espidf.rst:2308
+#: ../../../frameworks/espidf.rst:2329 ../../../frameworks/espidf.rst:2357
+#: ../../../frameworks/espidf.rst:2413 ../../../frameworks/espidf.rst:2441
+#: ../../../frameworks/espidf.rst:2462 ../../../frameworks/espidf.rst:2483
+#: ../../../frameworks/espidf.rst:2504 ../../../frameworks/espidf.rst:2525
+#: ../../../frameworks/espidf.rst:2546 ../../../frameworks/espidf.rst:2567
+#: ../../../frameworks/espidf.rst:2588 ../../../frameworks/espidf.rst:2623
+#: ../../../frameworks/espidf.rst:2651 ../../../frameworks/espidf.rst:2763
+#: ../../../frameworks/espidf.rst:2791 ../../../frameworks/espidf.rst:2819
+#: ../../../frameworks/espidf.rst:2847 ../../../frameworks/espidf.rst:2868
+#: ../../../frameworks/espidf.rst:2896 ../../../frameworks/espidf.rst:2917
+#: ../../../frameworks/espidf.rst:2938 ../../../frameworks/espidf.rst:2959
+#: ../../../frameworks/espidf.rst:2980 ../../../frameworks/espidf.rst:3001
+#: ../../../frameworks/espidf.rst:3057 ../../../frameworks/espidf.rst:3078
+#: ../../../frameworks/espidf.rst:3099 ../../../frameworks/espidf.rst:3120
+#: ../../../frameworks/espidf.rst:3141 ../../../frameworks/espidf.rst:3183
+#: ../../../frameworks/espidf.rst:3204 ../../../frameworks/espidf.rst:3239
+#: ../../../frameworks/espidf.rst:3260 ../../../frameworks/espidf.rst:3281
+#: ../../../frameworks/espidf.rst:3302 ../../../frameworks/espidf.rst:3323
+#: ../../../frameworks/espidf.rst:3365 ../../../frameworks/espidf.rst:3386
+#: ../../../frameworks/espidf.rst:3435 ../../../frameworks/espidf.rst:3484
+#: ../../../frameworks/espidf.rst:3512 ../../../frameworks/espidf.rst:3568
+#: ../../../frameworks/espidf.rst:3596 ../../../frameworks/espidf.rst:3673
+#: ../../../frameworks/espidf.rst:3694 ../../../frameworks/espidf.rst:3729
+#: ../../../frameworks/espidf.rst:3750 ../../../frameworks/espidf.rst:3827
+#: ../../../frameworks/espidf.rst:3862 ../../../frameworks/espidf.rst:3883
+#: ../../../frameworks/espidf.rst:3911 ../../../frameworks/espidf.rst:3932
+#: ../../../frameworks/espidf.rst:4037 ../../../frameworks/espidf.rst:4058
+#: ../../../frameworks/espidf.rst:4079 ../../../frameworks/espidf.rst:4100
+#: ../../../frameworks/espidf.rst:4121 ../../../frameworks/espidf.rst:4142
+#: ../../../frameworks/espidf.rst:4170 ../../../frameworks/espidf.rst:4191
+#: ../../../frameworks/espidf.rst:4219 ../../../frameworks/espidf.rst:4240
+#: ../../../frameworks/espidf.rst:4261
+msgid "Frequency"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:79 ../../../frameworks/espidf.rst:146
+#: ../../../frameworks/espidf.rst:1224 ../../../frameworks/espidf.rst:1245
+#: ../../../frameworks/espidf.rst:1266 ../../../frameworks/espidf.rst:1287
+#: ../../../frameworks/espidf.rst:1462 ../../../frameworks/espidf.rst:1490
+#: ../../../frameworks/espidf.rst:1511 ../../../frameworks/espidf.rst:1532
+#: ../../../frameworks/espidf.rst:1553 ../../../frameworks/espidf.rst:1574
+#: ../../../frameworks/espidf.rst:1595 ../../../frameworks/espidf.rst:1630
+#: ../../../frameworks/espidf.rst:1651 ../../../frameworks/espidf.rst:1679
+#: ../../../frameworks/espidf.rst:1714 ../../../frameworks/espidf.rst:1735
+#: ../../../frameworks/espidf.rst:1756 ../../../frameworks/espidf.rst:1777
+#: ../../../frameworks/espidf.rst:1826 ../../../frameworks/espidf.rst:1854
+#: ../../../frameworks/espidf.rst:1875 ../../../frameworks/espidf.rst:1903
+#: ../../../frameworks/espidf.rst:1924 ../../../frameworks/espidf.rst:1945
+#: ../../../frameworks/espidf.rst:1966 ../../../frameworks/espidf.rst:1987
+#: ../../../frameworks/espidf.rst:2008 ../../../frameworks/espidf.rst:2029
+#: ../../../frameworks/espidf.rst:2050 ../../../frameworks/espidf.rst:2162
+#: ../../../frameworks/espidf.rst:2183 ../../../frameworks/espidf.rst:2204
+#: ../../../frameworks/espidf.rst:2239 ../../../frameworks/espidf.rst:2260
+#: ../../../frameworks/espidf.rst:2288 ../../../frameworks/espidf.rst:2309
+#: ../../../frameworks/espidf.rst:2330 ../../../frameworks/espidf.rst:2358
+#: ../../../frameworks/espidf.rst:2414 ../../../frameworks/espidf.rst:2442
+#: ../../../frameworks/espidf.rst:2463 ../../../frameworks/espidf.rst:2484
+#: ../../../frameworks/espidf.rst:2505 ../../../frameworks/espidf.rst:2526
+#: ../../../frameworks/espidf.rst:2547 ../../../frameworks/espidf.rst:2568
+#: ../../../frameworks/espidf.rst:2589 ../../../frameworks/espidf.rst:2624
+#: ../../../frameworks/espidf.rst:2652 ../../../frameworks/espidf.rst:2764
+#: ../../../frameworks/espidf.rst:2792 ../../../frameworks/espidf.rst:2820
+#: ../../../frameworks/espidf.rst:2848 ../../../frameworks/espidf.rst:2869
+#: ../../../frameworks/espidf.rst:2897 ../../../frameworks/espidf.rst:2918
+#: ../../../frameworks/espidf.rst:2939 ../../../frameworks/espidf.rst:2960
+#: ../../../frameworks/espidf.rst:2981 ../../../frameworks/espidf.rst:3002
+#: ../../../frameworks/espidf.rst:3058 ../../../frameworks/espidf.rst:3079
+#: ../../../frameworks/espidf.rst:3100 ../../../frameworks/espidf.rst:3121
+#: ../../../frameworks/espidf.rst:3142 ../../../frameworks/espidf.rst:3184
+#: ../../../frameworks/espidf.rst:3205 ../../../frameworks/espidf.rst:3240
+#: ../../../frameworks/espidf.rst:3261 ../../../frameworks/espidf.rst:3282
+#: ../../../frameworks/espidf.rst:3303 ../../../frameworks/espidf.rst:3324
+#: ../../../frameworks/espidf.rst:3366 ../../../frameworks/espidf.rst:3387
+#: ../../../frameworks/espidf.rst:3436 ../../../frameworks/espidf.rst:3485
+#: ../../../frameworks/espidf.rst:3513 ../../../frameworks/espidf.rst:3569
+#: ../../../frameworks/espidf.rst:3597 ../../../frameworks/espidf.rst:3674
+#: ../../../frameworks/espidf.rst:3695 ../../../frameworks/espidf.rst:3730
+#: ../../../frameworks/espidf.rst:3751 ../../../frameworks/espidf.rst:3828
+#: ../../../frameworks/espidf.rst:3863 ../../../frameworks/espidf.rst:3884
+#: ../../../frameworks/espidf.rst:3912 ../../../frameworks/espidf.rst:3933
+#: ../../../frameworks/espidf.rst:4038 ../../../frameworks/espidf.rst:4059
+#: ../../../frameworks/espidf.rst:4080 ../../../frameworks/espidf.rst:4101
+#: ../../../frameworks/espidf.rst:4122 ../../../frameworks/espidf.rst:4143
+#: ../../../frameworks/espidf.rst:4171 ../../../frameworks/espidf.rst:4192
+#: ../../../frameworks/espidf.rst:4220 ../../../frameworks/espidf.rst:4241
+#: ../../../frameworks/espidf.rst:4262
+msgid "Flash"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:80 ../../../frameworks/espidf.rst:147
+#: ../../../frameworks/espidf.rst:1225 ../../../frameworks/espidf.rst:1246
+#: ../../../frameworks/espidf.rst:1267 ../../../frameworks/espidf.rst:1288
+#: ../../../frameworks/espidf.rst:1463 ../../../frameworks/espidf.rst:1491
+#: ../../../frameworks/espidf.rst:1512 ../../../frameworks/espidf.rst:1533
+#: ../../../frameworks/espidf.rst:1554 ../../../frameworks/espidf.rst:1575
+#: ../../../frameworks/espidf.rst:1596 ../../../frameworks/espidf.rst:1631
+#: ../../../frameworks/espidf.rst:1652 ../../../frameworks/espidf.rst:1680
+#: ../../../frameworks/espidf.rst:1715 ../../../frameworks/espidf.rst:1736
+#: ../../../frameworks/espidf.rst:1757 ../../../frameworks/espidf.rst:1778
+#: ../../../frameworks/espidf.rst:1827 ../../../frameworks/espidf.rst:1855
+#: ../../../frameworks/espidf.rst:1876 ../../../frameworks/espidf.rst:1904
+#: ../../../frameworks/espidf.rst:1925 ../../../frameworks/espidf.rst:1946
+#: ../../../frameworks/espidf.rst:1967 ../../../frameworks/espidf.rst:1988
+#: ../../../frameworks/espidf.rst:2009 ../../../frameworks/espidf.rst:2030
+#: ../../../frameworks/espidf.rst:2051 ../../../frameworks/espidf.rst:2163
+#: ../../../frameworks/espidf.rst:2184 ../../../frameworks/espidf.rst:2205
+#: ../../../frameworks/espidf.rst:2240 ../../../frameworks/espidf.rst:2261
+#: ../../../frameworks/espidf.rst:2289 ../../../frameworks/espidf.rst:2310
+#: ../../../frameworks/espidf.rst:2331 ../../../frameworks/espidf.rst:2359
+#: ../../../frameworks/espidf.rst:2415 ../../../frameworks/espidf.rst:2443
+#: ../../../frameworks/espidf.rst:2464 ../../../frameworks/espidf.rst:2485
+#: ../../../frameworks/espidf.rst:2506 ../../../frameworks/espidf.rst:2527
+#: ../../../frameworks/espidf.rst:2548 ../../../frameworks/espidf.rst:2569
+#: ../../../frameworks/espidf.rst:2590 ../../../frameworks/espidf.rst:2625
+#: ../../../frameworks/espidf.rst:2653 ../../../frameworks/espidf.rst:2765
+#: ../../../frameworks/espidf.rst:2793 ../../../frameworks/espidf.rst:2821
+#: ../../../frameworks/espidf.rst:2849 ../../../frameworks/espidf.rst:2870
+#: ../../../frameworks/espidf.rst:2898 ../../../frameworks/espidf.rst:2919
+#: ../../../frameworks/espidf.rst:2940 ../../../frameworks/espidf.rst:2961
+#: ../../../frameworks/espidf.rst:2982 ../../../frameworks/espidf.rst:3003
+#: ../../../frameworks/espidf.rst:3059 ../../../frameworks/espidf.rst:3080
+#: ../../../frameworks/espidf.rst:3101 ../../../frameworks/espidf.rst:3122
+#: ../../../frameworks/espidf.rst:3143 ../../../frameworks/espidf.rst:3185
+#: ../../../frameworks/espidf.rst:3206 ../../../frameworks/espidf.rst:3241
+#: ../../../frameworks/espidf.rst:3262 ../../../frameworks/espidf.rst:3283
+#: ../../../frameworks/espidf.rst:3304 ../../../frameworks/espidf.rst:3325
+#: ../../../frameworks/espidf.rst:3367 ../../../frameworks/espidf.rst:3388
+#: ../../../frameworks/espidf.rst:3437 ../../../frameworks/espidf.rst:3486
+#: ../../../frameworks/espidf.rst:3514 ../../../frameworks/espidf.rst:3570
+#: ../../../frameworks/espidf.rst:3598 ../../../frameworks/espidf.rst:3675
+#: ../../../frameworks/espidf.rst:3696 ../../../frameworks/espidf.rst:3731
+#: ../../../frameworks/espidf.rst:3752 ../../../frameworks/espidf.rst:3829
+#: ../../../frameworks/espidf.rst:3864 ../../../frameworks/espidf.rst:3885
+#: ../../../frameworks/espidf.rst:3913 ../../../frameworks/espidf.rst:3934
+#: ../../../frameworks/espidf.rst:4039 ../../../frameworks/espidf.rst:4060
+#: ../../../frameworks/espidf.rst:4081 ../../../frameworks/espidf.rst:4102
+#: ../../../frameworks/espidf.rst:4123 ../../../frameworks/espidf.rst:4144
+#: ../../../frameworks/espidf.rst:4172 ../../../frameworks/espidf.rst:4193
+#: ../../../frameworks/espidf.rst:4221 ../../../frameworks/espidf.rst:4242
+#: ../../../frameworks/espidf.rst:4263
+msgid "RAM"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:81 ../../../frameworks/espidf.rst:2066
+msgid ":ref:`board_espressif32_esp-wrover-kit`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:83 ../../../frameworks/espidf.rst:156
+#: ../../../frameworks/espidf.rst:162 ../../../frameworks/espidf.rst:168
+#: ../../../frameworks/espidf.rst:180 ../../../frameworks/espidf.rst:234
+#: ../../../frameworks/espidf.rst:264 ../../../frameworks/espidf.rst:336
+#: ../../../frameworks/espidf.rst:342 ../../../frameworks/espidf.rst:372
+#: ../../../frameworks/espidf.rst:384 ../../../frameworks/espidf.rst:396
+#: ../../../frameworks/espidf.rst:414 ../../../frameworks/espidf.rst:420
+#: ../../../frameworks/espidf.rst:426 ../../../frameworks/espidf.rst:432
+#: ../../../frameworks/espidf.rst:468 ../../../frameworks/espidf.rst:474
+#: ../../../frameworks/espidf.rst:480 ../../../frameworks/espidf.rst:498
+#: ../../../frameworks/espidf.rst:504 ../../../frameworks/espidf.rst:510
+#: ../../../frameworks/espidf.rst:522 ../../../frameworks/espidf.rst:558
+#: ../../../frameworks/espidf.rst:582 ../../../frameworks/espidf.rst:588
+#: ../../../frameworks/espidf.rst:594 ../../../frameworks/espidf.rst:606
+#: ../../../frameworks/espidf.rst:612 ../../../frameworks/espidf.rst:624
+#: ../../../frameworks/espidf.rst:630 ../../../frameworks/espidf.rst:636
+#: ../../../frameworks/espidf.rst:648 ../../../frameworks/espidf.rst:672
+#: ../../../frameworks/espidf.rst:696 ../../../frameworks/espidf.rst:702
+#: ../../../frameworks/espidf.rst:708 ../../../frameworks/espidf.rst:738
+#: ../../../frameworks/espidf.rst:744 ../../../frameworks/espidf.rst:750
+#: ../../../frameworks/espidf.rst:756 ../../../frameworks/espidf.rst:762
+#: ../../../frameworks/espidf.rst:768 ../../../frameworks/espidf.rst:774
+#: ../../../frameworks/espidf.rst:780 ../../../frameworks/espidf.rst:792
+#: ../../../frameworks/espidf.rst:798 ../../../frameworks/espidf.rst:804
+#: ../../../frameworks/espidf.rst:834 ../../../frameworks/espidf.rst:870
+#: ../../../frameworks/espidf.rst:876 ../../../frameworks/espidf.rst:882
+#: ../../../frameworks/espidf.rst:888 ../../../frameworks/espidf.rst:900
+#: ../../../frameworks/espidf.rst:906 ../../../frameworks/espidf.rst:918
+#: ../../../frameworks/espidf.rst:924 ../../../frameworks/espidf.rst:930
+#: ../../../frameworks/espidf.rst:936 ../../../frameworks/espidf.rst:948
+#: ../../../frameworks/espidf.rst:954 ../../../frameworks/espidf.rst:960
+#: ../../../frameworks/espidf.rst:966 ../../../frameworks/espidf.rst:972
+#: ../../../frameworks/espidf.rst:1038 ../../../frameworks/espidf.rst:1044
+#: ../../../frameworks/espidf.rst:1050 ../../../frameworks/espidf.rst:1062
+#: ../../../frameworks/espidf.rst:1068 ../../../frameworks/espidf.rst:1104
+#: ../../../frameworks/espidf.rst:1110 ../../../frameworks/espidf.rst:1122
+#: ../../../frameworks/espidf.rst:1128 ../../../frameworks/espidf.rst:1134
+#: ../../../frameworks/espidf.rst:1158 ../../../frameworks/espidf.rst:1164
+#: ../../../frameworks/espidf.rst:1176 ../../../frameworks/espidf.rst:1182
+#: ../../../frameworks/espidf.rst:1188 ../../../frameworks/espidf.rst:1250
+#: ../../../frameworks/espidf.rst:1271 ../../../frameworks/espidf.rst:1292
+#: ../../../frameworks/espidf.rst:1306 ../../../frameworks/espidf.rst:1369
+#: ../../../frameworks/espidf.rst:1404 ../../../frameworks/espidf.rst:1516
+#: ../../../frameworks/espidf.rst:1558 ../../../frameworks/espidf.rst:1607
+#: ../../../frameworks/espidf.rst:1614 ../../../frameworks/espidf.rst:1656
+#: ../../../frameworks/espidf.rst:1684 ../../../frameworks/espidf.rst:1719
+#: ../../../frameworks/espidf.rst:1740 ../../../frameworks/espidf.rst:1789
+#: ../../../frameworks/espidf.rst:1810 ../../../frameworks/espidf.rst:1831
+#: ../../../frameworks/espidf.rst:1838 ../../../frameworks/espidf.rst:1859
+#: ../../../frameworks/espidf.rst:1880 ../../../frameworks/espidf.rst:1887
+#: ../../../frameworks/espidf.rst:1929 ../../../frameworks/espidf.rst:1950
+#: ../../../frameworks/espidf.rst:1971 ../../../frameworks/espidf.rst:1992
+#: ../../../frameworks/espidf.rst:2013 ../../../frameworks/espidf.rst:2055
+#: ../../../frameworks/espidf.rst:2069 ../../../frameworks/espidf.rst:2076
+#: ../../../frameworks/espidf.rst:2167 ../../../frameworks/espidf.rst:2188
+#: ../../../frameworks/espidf.rst:2244 ../../../frameworks/espidf.rst:2272
+#: ../../../frameworks/espidf.rst:2293 ../../../frameworks/espidf.rst:2314
+#: ../../../frameworks/espidf.rst:2363 ../../../frameworks/espidf.rst:2370
+#: ../../../frameworks/espidf.rst:2377 ../../../frameworks/espidf.rst:2384
+#: ../../../frameworks/espidf.rst:2391 ../../../frameworks/espidf.rst:2398
+#: ../../../frameworks/espidf.rst:2419 ../../../frameworks/espidf.rst:2426
+#: ../../../frameworks/espidf.rst:2447 ../../../frameworks/espidf.rst:2468
+#: ../../../frameworks/espidf.rst:2489 ../../../frameworks/espidf.rst:2510
+#: ../../../frameworks/espidf.rst:2552 ../../../frameworks/espidf.rst:2573
+#: ../../../frameworks/espidf.rst:2594 ../../../frameworks/espidf.rst:2629
+#: ../../../frameworks/espidf.rst:2664 ../../../frameworks/espidf.rst:2671
+#: ../../../frameworks/espidf.rst:2678 ../../../frameworks/espidf.rst:2692
+#: ../../../frameworks/espidf.rst:2699 ../../../frameworks/espidf.rst:2713
+#: ../../../frameworks/espidf.rst:2720 ../../../frameworks/espidf.rst:2727
+#: ../../../frameworks/espidf.rst:2734 ../../../frameworks/espidf.rst:2741
+#: ../../../frameworks/espidf.rst:2748 ../../../frameworks/espidf.rst:2797
+#: ../../../frameworks/espidf.rst:2804 ../../../frameworks/espidf.rst:2825
+#: ../../../frameworks/espidf.rst:2832 ../../../frameworks/espidf.rst:2853
+#: ../../../frameworks/espidf.rst:2874 ../../../frameworks/espidf.rst:2881
+#: ../../../frameworks/espidf.rst:2902 ../../../frameworks/espidf.rst:2965
+#: ../../../frameworks/espidf.rst:2986 ../../../frameworks/espidf.rst:3007
+#: ../../../frameworks/espidf.rst:3014 ../../../frameworks/espidf.rst:3021
+#: ../../../frameworks/espidf.rst:3028 ../../../frameworks/espidf.rst:3035
+#: ../../../frameworks/espidf.rst:3042 ../../../frameworks/espidf.rst:3063
+#: ../../../frameworks/espidf.rst:3084 ../../../frameworks/espidf.rst:3126
+#: ../../../frameworks/espidf.rst:3147 ../../../frameworks/espidf.rst:3154
+#: ../../../frameworks/espidf.rst:3161 ../../../frameworks/espidf.rst:3168
+#: ../../../frameworks/espidf.rst:3189 ../../../frameworks/espidf.rst:3217
+#: ../../../frameworks/espidf.rst:3245 ../../../frameworks/espidf.rst:3266
+#: ../../../frameworks/espidf.rst:3287 ../../../frameworks/espidf.rst:3308
+#: ../../../frameworks/espidf.rst:3371 ../../../frameworks/espidf.rst:3441
+#: ../../../frameworks/espidf.rst:3448 ../../../frameworks/espidf.rst:3455
+#: ../../../frameworks/espidf.rst:3469 ../../../frameworks/espidf.rst:3490
+#: ../../../frameworks/espidf.rst:3497 ../../../frameworks/espidf.rst:3518
+#: ../../../frameworks/espidf.rst:3525 ../../../frameworks/espidf.rst:3574
+#: ../../../frameworks/espidf.rst:3602 ../../../frameworks/espidf.rst:3609
+#: ../../../frameworks/espidf.rst:3616 ../../../frameworks/espidf.rst:3623
+#: ../../../frameworks/espidf.rst:3637 ../../../frameworks/espidf.rst:3644
+#: ../../../frameworks/espidf.rst:3651 ../../../frameworks/espidf.rst:3658
+#: ../../../frameworks/espidf.rst:3679 ../../../frameworks/espidf.rst:3700
+#: ../../../frameworks/espidf.rst:3707 ../../../frameworks/espidf.rst:3714
+#: ../../../frameworks/espidf.rst:3735 ../../../frameworks/espidf.rst:3798
+#: ../../../frameworks/espidf.rst:3833 ../../../frameworks/espidf.rst:3868
+#: ../../../frameworks/espidf.rst:3917 ../../../frameworks/espidf.rst:3938
+#: ../../../frameworks/espidf.rst:3945 ../../../frameworks/espidf.rst:3959
+#: ../../../frameworks/espidf.rst:3966 ../../../frameworks/espidf.rst:4008
+#: ../../../frameworks/espidf.rst:4015 ../../../frameworks/espidf.rst:4022
+#: ../../../frameworks/espidf.rst:4064 ../../../frameworks/espidf.rst:4085
+#: ../../../frameworks/espidf.rst:4106 ../../../frameworks/espidf.rst:4127
+#: ../../../frameworks/espidf.rst:4197 ../../../frameworks/espidf.rst:4204
+#: ../../../frameworks/espidf.rst:4246 ../../../frameworks/espidf.rst:4267
+#: ../../../frameworks/espidf.rst:4274
+msgid "ESP32"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:84 ../../../frameworks/espidf.rst:90
+#: ../../../frameworks/espidf.rst:96 ../../../frameworks/espidf.rst:102
+#: ../../../frameworks/espidf.rst:108 ../../../frameworks/espidf.rst:114
+#: ../../../frameworks/espidf.rst:120 ../../../frameworks/espidf.rst:126
+#: ../../../frameworks/espidf.rst:151 ../../../frameworks/espidf.rst:157
+#: ../../../frameworks/espidf.rst:163 ../../../frameworks/espidf.rst:169
+#: ../../../frameworks/espidf.rst:175 ../../../frameworks/espidf.rst:181
+#: ../../../frameworks/espidf.rst:187 ../../../frameworks/espidf.rst:193
+#: ../../../frameworks/espidf.rst:199 ../../../frameworks/espidf.rst:205
+#: ../../../frameworks/espidf.rst:211 ../../../frameworks/espidf.rst:217
+#: ../../../frameworks/espidf.rst:223 ../../../frameworks/espidf.rst:229
+#: ../../../frameworks/espidf.rst:235 ../../../frameworks/espidf.rst:241
+#: ../../../frameworks/espidf.rst:247 ../../../frameworks/espidf.rst:253
+#: ../../../frameworks/espidf.rst:259 ../../../frameworks/espidf.rst:265
+#: ../../../frameworks/espidf.rst:277 ../../../frameworks/espidf.rst:283
+#: ../../../frameworks/espidf.rst:289 ../../../frameworks/espidf.rst:295
+#: ../../../frameworks/espidf.rst:301 ../../../frameworks/espidf.rst:313
+#: ../../../frameworks/espidf.rst:325 ../../../frameworks/espidf.rst:331
+#: ../../../frameworks/espidf.rst:337 ../../../frameworks/espidf.rst:343
+#: ../../../frameworks/espidf.rst:349 ../../../frameworks/espidf.rst:355
+#: ../../../frameworks/espidf.rst:361 ../../../frameworks/espidf.rst:373
+#: ../../../frameworks/espidf.rst:379 ../../../frameworks/espidf.rst:385
+#: ../../../frameworks/espidf.rst:397 ../../../frameworks/espidf.rst:403
+#: ../../../frameworks/espidf.rst:409 ../../../frameworks/espidf.rst:415
+#: ../../../frameworks/espidf.rst:421 ../../../frameworks/espidf.rst:427
+#: ../../../frameworks/espidf.rst:433 ../../../frameworks/espidf.rst:439
+#: ../../../frameworks/espidf.rst:451 ../../../frameworks/espidf.rst:457
+#: ../../../frameworks/espidf.rst:463 ../../../frameworks/espidf.rst:469
+#: ../../../frameworks/espidf.rst:475 ../../../frameworks/espidf.rst:481
+#: ../../../frameworks/espidf.rst:487 ../../../frameworks/espidf.rst:493
+#: ../../../frameworks/espidf.rst:499 ../../../frameworks/espidf.rst:505
+#: ../../../frameworks/espidf.rst:511 ../../../frameworks/espidf.rst:517
+#: ../../../frameworks/espidf.rst:523 ../../../frameworks/espidf.rst:547
+#: ../../../frameworks/espidf.rst:553 ../../../frameworks/espidf.rst:559
+#: ../../../frameworks/espidf.rst:565 ../../../frameworks/espidf.rst:571
+#: ../../../frameworks/espidf.rst:577 ../../../frameworks/espidf.rst:583
+#: ../../../frameworks/espidf.rst:589 ../../../frameworks/espidf.rst:595
+#: ../../../frameworks/espidf.rst:601 ../../../frameworks/espidf.rst:607
+#: ../../../frameworks/espidf.rst:613 ../../../frameworks/espidf.rst:619
+#: ../../../frameworks/espidf.rst:625 ../../../frameworks/espidf.rst:631
+#: ../../../frameworks/espidf.rst:637 ../../../frameworks/espidf.rst:643
+#: ../../../frameworks/espidf.rst:649 ../../../frameworks/espidf.rst:655
+#: ../../../frameworks/espidf.rst:661 ../../../frameworks/espidf.rst:667
+#: ../../../frameworks/espidf.rst:673 ../../../frameworks/espidf.rst:679
+#: ../../../frameworks/espidf.rst:685 ../../../frameworks/espidf.rst:691
+#: ../../../frameworks/espidf.rst:697 ../../../frameworks/espidf.rst:703
+#: ../../../frameworks/espidf.rst:709 ../../../frameworks/espidf.rst:715
+#: ../../../frameworks/espidf.rst:721 ../../../frameworks/espidf.rst:727
+#: ../../../frameworks/espidf.rst:733 ../../../frameworks/espidf.rst:739
+#: ../../../frameworks/espidf.rst:745 ../../../frameworks/espidf.rst:751
+#: ../../../frameworks/espidf.rst:757 ../../../frameworks/espidf.rst:763
+#: ../../../frameworks/espidf.rst:769 ../../../frameworks/espidf.rst:775
+#: ../../../frameworks/espidf.rst:781 ../../../frameworks/espidf.rst:793
+#: ../../../frameworks/espidf.rst:799 ../../../frameworks/espidf.rst:805
+#: ../../../frameworks/espidf.rst:811 ../../../frameworks/espidf.rst:829
+#: ../../../frameworks/espidf.rst:835 ../../../frameworks/espidf.rst:841
+#: ../../../frameworks/espidf.rst:847 ../../../frameworks/espidf.rst:859
+#: ../../../frameworks/espidf.rst:865 ../../../frameworks/espidf.rst:871
+#: ../../../frameworks/espidf.rst:877 ../../../frameworks/espidf.rst:883
+#: ../../../frameworks/espidf.rst:889 ../../../frameworks/espidf.rst:895
+#: ../../../frameworks/espidf.rst:901 ../../../frameworks/espidf.rst:907
+#: ../../../frameworks/espidf.rst:913 ../../../frameworks/espidf.rst:919
+#: ../../../frameworks/espidf.rst:925 ../../../frameworks/espidf.rst:931
+#: ../../../frameworks/espidf.rst:937 ../../../frameworks/espidf.rst:949
+#: ../../../frameworks/espidf.rst:955 ../../../frameworks/espidf.rst:961
+#: ../../../frameworks/espidf.rst:967 ../../../frameworks/espidf.rst:973
+#: ../../../frameworks/espidf.rst:979 ../../../frameworks/espidf.rst:985
+#: ../../../frameworks/espidf.rst:991 ../../../frameworks/espidf.rst:997
+#: ../../../frameworks/espidf.rst:1003 ../../../frameworks/espidf.rst:1009
+#: ../../../frameworks/espidf.rst:1015 ../../../frameworks/espidf.rst:1021
+#: ../../../frameworks/espidf.rst:1039 ../../../frameworks/espidf.rst:1045
+#: ../../../frameworks/espidf.rst:1051 ../../../frameworks/espidf.rst:1063
+#: ../../../frameworks/espidf.rst:1069 ../../../frameworks/espidf.rst:1075
+#: ../../../frameworks/espidf.rst:1081 ../../../frameworks/espidf.rst:1087
+#: ../../../frameworks/espidf.rst:1093 ../../../frameworks/espidf.rst:1099
+#: ../../../frameworks/espidf.rst:1105 ../../../frameworks/espidf.rst:1111
+#: ../../../frameworks/espidf.rst:1123 ../../../frameworks/espidf.rst:1129
+#: ../../../frameworks/espidf.rst:1135 ../../../frameworks/espidf.rst:1153
+#: ../../../frameworks/espidf.rst:1159 ../../../frameworks/espidf.rst:1165
+#: ../../../frameworks/espidf.rst:1171 ../../../frameworks/espidf.rst:1177
+#: ../../../frameworks/espidf.rst:1183 ../../../frameworks/espidf.rst:1189
+#: ../../../frameworks/espidf.rst:1195 ../../../frameworks/espidf.rst:1201
+#: ../../../frameworks/espidf.rst:1230 ../../../frameworks/espidf.rst:1251
+#: ../../../frameworks/espidf.rst:1272 ../../../frameworks/espidf.rst:1293
+#: ../../../frameworks/espidf.rst:1300 ../../../frameworks/espidf.rst:1307
+#: ../../../frameworks/espidf.rst:1314 ../../../frameworks/espidf.rst:1321
+#: ../../../frameworks/espidf.rst:1328 ../../../frameworks/espidf.rst:1335
+#: ../../../frameworks/espidf.rst:1342 ../../../frameworks/espidf.rst:1349
+#: ../../../frameworks/espidf.rst:1356 ../../../frameworks/espidf.rst:1363
+#: ../../../frameworks/espidf.rst:1370 ../../../frameworks/espidf.rst:1377
+#: ../../../frameworks/espidf.rst:1384 ../../../frameworks/espidf.rst:1391
+#: ../../../frameworks/espidf.rst:1398 ../../../frameworks/espidf.rst:1405
+#: ../../../frameworks/espidf.rst:1419 ../../../frameworks/espidf.rst:1426
+#: ../../../frameworks/espidf.rst:1433 ../../../frameworks/espidf.rst:1440
+#: ../../../frameworks/espidf.rst:1447 ../../../frameworks/espidf.rst:1475
+#: ../../../frameworks/espidf.rst:1517 ../../../frameworks/espidf.rst:1538
+#: ../../../frameworks/espidf.rst:1559 ../../../frameworks/espidf.rst:1580
+#: ../../../frameworks/espidf.rst:1601 ../../../frameworks/espidf.rst:1608
+#: ../../../frameworks/espidf.rst:1615 ../../../frameworks/espidf.rst:1636
+#: ../../../frameworks/espidf.rst:1664 ../../../frameworks/espidf.rst:1685
+#: ../../../frameworks/espidf.rst:1692 ../../../frameworks/espidf.rst:1720
+#: ../../../frameworks/espidf.rst:1741 ../../../frameworks/espidf.rst:1762
+#: ../../../frameworks/espidf.rst:1790 ../../../frameworks/espidf.rst:1797
+#: ../../../frameworks/espidf.rst:1804 ../../../frameworks/espidf.rst:1811
+#: ../../../frameworks/espidf.rst:1832 ../../../frameworks/espidf.rst:1839
+#: ../../../frameworks/espidf.rst:1860 ../../../frameworks/espidf.rst:1881
+#: ../../../frameworks/espidf.rst:1888 ../../../frameworks/espidf.rst:1909
+#: ../../../frameworks/espidf.rst:1930 ../../../frameworks/espidf.rst:1951
+#: ../../../frameworks/espidf.rst:1972 ../../../frameworks/espidf.rst:1993
+#: ../../../frameworks/espidf.rst:2014 ../../../frameworks/espidf.rst:2035
+#: ../../../frameworks/espidf.rst:2056 ../../../frameworks/espidf.rst:2063
+#: ../../../frameworks/espidf.rst:2070 ../../../frameworks/espidf.rst:2077
+#: ../../../frameworks/espidf.rst:2112 ../../../frameworks/espidf.rst:2119
+#: ../../../frameworks/espidf.rst:2126 ../../../frameworks/espidf.rst:2133
+#: ../../../frameworks/espidf.rst:2140 ../../../frameworks/espidf.rst:2147
+#: ../../../frameworks/espidf.rst:2168 ../../../frameworks/espidf.rst:2189
+#: ../../../frameworks/espidf.rst:2210 ../../../frameworks/espidf.rst:2217
+#: ../../../frameworks/espidf.rst:2224 ../../../frameworks/espidf.rst:2245
+#: ../../../frameworks/espidf.rst:2266 ../../../frameworks/espidf.rst:2273
+#: ../../../frameworks/espidf.rst:2294 ../../../frameworks/espidf.rst:2315
+#: ../../../frameworks/espidf.rst:2336 ../../../frameworks/espidf.rst:2343
+#: ../../../frameworks/espidf.rst:2364 ../../../frameworks/espidf.rst:2371
+#: ../../../frameworks/espidf.rst:2378 ../../../frameworks/espidf.rst:2385
+#: ../../../frameworks/espidf.rst:2392 ../../../frameworks/espidf.rst:2399
+#: ../../../frameworks/espidf.rst:2420 ../../../frameworks/espidf.rst:2427
+#: ../../../frameworks/espidf.rst:2448 ../../../frameworks/espidf.rst:2469
+#: ../../../frameworks/espidf.rst:2490 ../../../frameworks/espidf.rst:2511
+#: ../../../frameworks/espidf.rst:2532 ../../../frameworks/espidf.rst:2553
+#: ../../../frameworks/espidf.rst:2574 ../../../frameworks/espidf.rst:2595
+#: ../../../frameworks/espidf.rst:2602 ../../../frameworks/espidf.rst:2609
+#: ../../../frameworks/espidf.rst:2630 ../../../frameworks/espidf.rst:2637
+#: ../../../frameworks/espidf.rst:2658 ../../../frameworks/espidf.rst:2665
+#: ../../../frameworks/espidf.rst:2672 ../../../frameworks/espidf.rst:2679
+#: ../../../frameworks/espidf.rst:2686 ../../../frameworks/espidf.rst:2693
+#: ../../../frameworks/espidf.rst:2700 ../../../frameworks/espidf.rst:2707
+#: ../../../frameworks/espidf.rst:2714 ../../../frameworks/espidf.rst:2721
+#: ../../../frameworks/espidf.rst:2728 ../../../frameworks/espidf.rst:2735
+#: ../../../frameworks/espidf.rst:2742 ../../../frameworks/espidf.rst:2749
+#: ../../../frameworks/espidf.rst:2770 ../../../frameworks/espidf.rst:2777
+#: ../../../frameworks/espidf.rst:2798 ../../../frameworks/espidf.rst:2805
+#: ../../../frameworks/espidf.rst:2826 ../../../frameworks/espidf.rst:2833
+#: ../../../frameworks/espidf.rst:2854 ../../../frameworks/espidf.rst:2875
+#: ../../../frameworks/espidf.rst:2882 ../../../frameworks/espidf.rst:2903
+#: ../../../frameworks/espidf.rst:2924 ../../../frameworks/espidf.rst:2945
+#: ../../../frameworks/espidf.rst:2966 ../../../frameworks/espidf.rst:2987
+#: ../../../frameworks/espidf.rst:3008 ../../../frameworks/espidf.rst:3015
+#: ../../../frameworks/espidf.rst:3022 ../../../frameworks/espidf.rst:3029
+#: ../../../frameworks/espidf.rst:3036 ../../../frameworks/espidf.rst:3043
+#: ../../../frameworks/espidf.rst:3064 ../../../frameworks/espidf.rst:3085
+#: ../../../frameworks/espidf.rst:3106 ../../../frameworks/espidf.rst:3127
+#: ../../../frameworks/espidf.rst:3148 ../../../frameworks/espidf.rst:3155
+#: ../../../frameworks/espidf.rst:3162 ../../../frameworks/espidf.rst:3169
+#: ../../../frameworks/espidf.rst:3190 ../../../frameworks/espidf.rst:3218
+#: ../../../frameworks/espidf.rst:3225 ../../../frameworks/espidf.rst:3246
+#: ../../../frameworks/espidf.rst:3267 ../../../frameworks/espidf.rst:3288
+#: ../../../frameworks/espidf.rst:3309 ../../../frameworks/espidf.rst:3330
+#: ../../../frameworks/espidf.rst:3351 ../../../frameworks/espidf.rst:3372
+#: ../../../frameworks/espidf.rst:3393 ../../../frameworks/espidf.rst:3400
+#: ../../../frameworks/espidf.rst:3414 ../../../frameworks/espidf.rst:3421
+#: ../../../frameworks/espidf.rst:3442 ../../../frameworks/espidf.rst:3449
+#: ../../../frameworks/espidf.rst:3456 ../../../frameworks/espidf.rst:3463
+#: ../../../frameworks/espidf.rst:3470 ../../../frameworks/espidf.rst:3491
+#: ../../../frameworks/espidf.rst:3498 ../../../frameworks/espidf.rst:3519
+#: ../../../frameworks/espidf.rst:3526 ../../../frameworks/espidf.rst:3533
+#: ../../../frameworks/espidf.rst:3547 ../../../frameworks/espidf.rst:3554
+#: ../../../frameworks/espidf.rst:3575 ../../../frameworks/espidf.rst:3582
+#: ../../../frameworks/espidf.rst:3603 ../../../frameworks/espidf.rst:3610
+#: ../../../frameworks/espidf.rst:3617 ../../../frameworks/espidf.rst:3624
+#: ../../../frameworks/espidf.rst:3638 ../../../frameworks/espidf.rst:3645
+#: ../../../frameworks/espidf.rst:3652 ../../../frameworks/espidf.rst:3659
+#: ../../../frameworks/espidf.rst:3680 ../../../frameworks/espidf.rst:3701
+#: ../../../frameworks/espidf.rst:3708 ../../../frameworks/espidf.rst:3715
+#: ../../../frameworks/espidf.rst:3736 ../../../frameworks/espidf.rst:3757
+#: ../../../frameworks/espidf.rst:3764 ../../../frameworks/espidf.rst:3771
+#: ../../../frameworks/espidf.rst:3778 ../../../frameworks/espidf.rst:3785
+#: ../../../frameworks/espidf.rst:3792 ../../../frameworks/espidf.rst:3799
+#: ../../../frameworks/espidf.rst:3806 ../../../frameworks/espidf.rst:3813
+#: ../../../frameworks/espidf.rst:3834 ../../../frameworks/espidf.rst:3841
+#: ../../../frameworks/espidf.rst:3848 ../../../frameworks/espidf.rst:3869
+#: ../../../frameworks/espidf.rst:3918 ../../../frameworks/espidf.rst:3939
+#: ../../../frameworks/espidf.rst:3946 ../../../frameworks/espidf.rst:3960
+#: ../../../frameworks/espidf.rst:3967 ../../../frameworks/espidf.rst:3974
+#: ../../../frameworks/espidf.rst:3981 ../../../frameworks/espidf.rst:3988
+#: ../../../frameworks/espidf.rst:3995 ../../../frameworks/espidf.rst:4002
+#: ../../../frameworks/espidf.rst:4009 ../../../frameworks/espidf.rst:4016
+#: ../../../frameworks/espidf.rst:4023 ../../../frameworks/espidf.rst:4065
+#: ../../../frameworks/espidf.rst:4086 ../../../frameworks/espidf.rst:4107
+#: ../../../frameworks/espidf.rst:4128 ../../../frameworks/espidf.rst:4177
+#: ../../../frameworks/espidf.rst:4198 ../../../frameworks/espidf.rst:4205
+#: ../../../frameworks/espidf.rst:4226 ../../../frameworks/espidf.rst:4247
+#: ../../../frameworks/espidf.rst:4268 ../../../frameworks/espidf.rst:4275
+msgid "240MHz"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:85 ../../../frameworks/espidf.rst:91
+#: ../../../frameworks/espidf.rst:121 ../../../frameworks/espidf.rst:158
+#: ../../../frameworks/espidf.rst:164 ../../../frameworks/espidf.rst:170
+#: ../../../frameworks/espidf.rst:176 ../../../frameworks/espidf.rst:188
+#: ../../../frameworks/espidf.rst:194 ../../../frameworks/espidf.rst:200
+#: ../../../frameworks/espidf.rst:206 ../../../frameworks/espidf.rst:218
+#: ../../../frameworks/espidf.rst:224 ../../../frameworks/espidf.rst:230
+#: ../../../frameworks/espidf.rst:242 ../../../frameworks/espidf.rst:254
+#: ../../../frameworks/espidf.rst:272 ../../../frameworks/espidf.rst:278
+#: ../../../frameworks/espidf.rst:284 ../../../frameworks/espidf.rst:302
+#: ../../../frameworks/espidf.rst:308 ../../../frameworks/espidf.rst:314
+#: ../../../frameworks/espidf.rst:320 ../../../frameworks/espidf.rst:338
+#: ../../../frameworks/espidf.rst:344 ../../../frameworks/espidf.rst:368
+#: ../../../frameworks/espidf.rst:374 ../../../frameworks/espidf.rst:386
+#: ../../../frameworks/espidf.rst:392 ../../../frameworks/espidf.rst:398
+#: ../../../frameworks/espidf.rst:404 ../../../frameworks/espidf.rst:416
+#: ../../../frameworks/espidf.rst:422 ../../../frameworks/espidf.rst:428
+#: ../../../frameworks/espidf.rst:434 ../../../frameworks/espidf.rst:440
+#: ../../../frameworks/espidf.rst:446 ../../../frameworks/espidf.rst:452
+#: ../../../frameworks/espidf.rst:458 ../../../frameworks/espidf.rst:464
+#: ../../../frameworks/espidf.rst:470 ../../../frameworks/espidf.rst:476
+#: ../../../frameworks/espidf.rst:482 ../../../frameworks/espidf.rst:500
+#: ../../../frameworks/espidf.rst:506 ../../../frameworks/espidf.rst:512
+#: ../../../frameworks/espidf.rst:524 ../../../frameworks/espidf.rst:530
+#: ../../../frameworks/espidf.rst:536 ../../../frameworks/espidf.rst:542
+#: ../../../frameworks/espidf.rst:548 ../../../frameworks/espidf.rst:566
+#: ../../../frameworks/espidf.rst:572 ../../../frameworks/espidf.rst:578
+#: ../../../frameworks/espidf.rst:584 ../../../frameworks/espidf.rst:590
+#: ../../../frameworks/espidf.rst:596 ../../../frameworks/espidf.rst:608
+#: ../../../frameworks/espidf.rst:632 ../../../frameworks/espidf.rst:638
+#: ../../../frameworks/espidf.rst:644 ../../../frameworks/espidf.rst:650
+#: ../../../frameworks/espidf.rst:668 ../../../frameworks/espidf.rst:674
+#: ../../../frameworks/espidf.rst:698 ../../../frameworks/espidf.rst:704
+#: ../../../frameworks/espidf.rst:710 ../../../frameworks/espidf.rst:716
+#: ../../../frameworks/espidf.rst:728 ../../../frameworks/espidf.rst:734
+#: ../../../frameworks/espidf.rst:740 ../../../frameworks/espidf.rst:746
+#: ../../../frameworks/espidf.rst:752 ../../../frameworks/espidf.rst:758
+#: ../../../frameworks/espidf.rst:764 ../../../frameworks/espidf.rst:770
+#: ../../../frameworks/espidf.rst:776 ../../../frameworks/espidf.rst:782
+#: ../../../frameworks/espidf.rst:788 ../../../frameworks/espidf.rst:794
+#: ../../../frameworks/espidf.rst:800 ../../../frameworks/espidf.rst:806
+#: ../../../frameworks/espidf.rst:812 ../../../frameworks/espidf.rst:818
+#: ../../../frameworks/espidf.rst:824 ../../../frameworks/espidf.rst:836
+#: ../../../frameworks/espidf.rst:848 ../../../frameworks/espidf.rst:854
+#: ../../../frameworks/espidf.rst:872 ../../../frameworks/espidf.rst:878
+#: ../../../frameworks/espidf.rst:896 ../../../frameworks/espidf.rst:902
+#: ../../../frameworks/espidf.rst:920 ../../../frameworks/espidf.rst:926
+#: ../../../frameworks/espidf.rst:932 ../../../frameworks/espidf.rst:938
+#: ../../../frameworks/espidf.rst:944 ../../../frameworks/espidf.rst:950
+#: ../../../frameworks/espidf.rst:956 ../../../frameworks/espidf.rst:962
+#: ../../../frameworks/espidf.rst:968 ../../../frameworks/espidf.rst:974
+#: ../../../frameworks/espidf.rst:986 ../../../frameworks/espidf.rst:1010
+#: ../../../frameworks/espidf.rst:1016 ../../../frameworks/espidf.rst:1028
+#: ../../../frameworks/espidf.rst:1034 ../../../frameworks/espidf.rst:1040
+#: ../../../frameworks/espidf.rst:1046 ../../../frameworks/espidf.rst:1052
+#: ../../../frameworks/espidf.rst:1058 ../../../frameworks/espidf.rst:1064
+#: ../../../frameworks/espidf.rst:1070 ../../../frameworks/espidf.rst:1076
+#: ../../../frameworks/espidf.rst:1082 ../../../frameworks/espidf.rst:1094
+#: ../../../frameworks/espidf.rst:1106 ../../../frameworks/espidf.rst:1112
+#: ../../../frameworks/espidf.rst:1124 ../../../frameworks/espidf.rst:1130
+#: ../../../frameworks/espidf.rst:1136 ../../../frameworks/espidf.rst:1142
+#: ../../../frameworks/espidf.rst:1148 ../../../frameworks/espidf.rst:1160
+#: ../../../frameworks/espidf.rst:1166 ../../../frameworks/espidf.rst:1172
+#: ../../../frameworks/espidf.rst:1178 ../../../frameworks/espidf.rst:1184
+#: ../../../frameworks/espidf.rst:1190 ../../../frameworks/espidf.rst:1252
+#: ../../../frameworks/espidf.rst:1273 ../../../frameworks/espidf.rst:1294
+#: ../../../frameworks/espidf.rst:1301 ../../../frameworks/espidf.rst:1315
+#: ../../../frameworks/espidf.rst:1322 ../../../frameworks/espidf.rst:1329
+#: ../../../frameworks/espidf.rst:1336 ../../../frameworks/espidf.rst:1350
+#: ../../../frameworks/espidf.rst:1357 ../../../frameworks/espidf.rst:1364
+#: ../../../frameworks/espidf.rst:1378 ../../../frameworks/espidf.rst:1392
+#: ../../../frameworks/espidf.rst:1413 ../../../frameworks/espidf.rst:1420
+#: ../../../frameworks/espidf.rst:1427 ../../../frameworks/espidf.rst:1448
+#: ../../../frameworks/espidf.rst:1469 ../../../frameworks/espidf.rst:1476
+#: ../../../frameworks/espidf.rst:1497 ../../../frameworks/espidf.rst:1518
+#: ../../../frameworks/espidf.rst:1560 ../../../frameworks/espidf.rst:1609
+#: ../../../frameworks/espidf.rst:1616 ../../../frameworks/espidf.rst:1658
+#: ../../../frameworks/espidf.rst:1686 ../../../frameworks/espidf.rst:1700
+#: ../../../frameworks/espidf.rst:1721 ../../../frameworks/espidf.rst:1742
+#: ../../../frameworks/espidf.rst:1784 ../../../frameworks/espidf.rst:1791
+#: ../../../frameworks/espidf.rst:1798 ../../../frameworks/espidf.rst:1833
+#: ../../../frameworks/espidf.rst:1840 ../../../frameworks/espidf.rst:1861
+#: ../../../frameworks/espidf.rst:1889 ../../../frameworks/espidf.rst:1910
+#: ../../../frameworks/espidf.rst:1931 ../../../frameworks/espidf.rst:1952
+#: ../../../frameworks/espidf.rst:1973 ../../../frameworks/espidf.rst:1994
+#: ../../../frameworks/espidf.rst:2015 ../../../frameworks/espidf.rst:2057
+#: ../../../frameworks/espidf.rst:2071 ../../../frameworks/espidf.rst:2078
+#: ../../../frameworks/espidf.rst:2085 ../../../frameworks/espidf.rst:2092
+#: ../../../frameworks/espidf.rst:2106 ../../../frameworks/espidf.rst:2113
+#: ../../../frameworks/espidf.rst:2120 ../../../frameworks/espidf.rst:2190
+#: ../../../frameworks/espidf.rst:2211 ../../../frameworks/espidf.rst:2218
+#: ../../../frameworks/espidf.rst:2225 ../../../frameworks/espidf.rst:2246
+#: ../../../frameworks/espidf.rst:2274 ../../../frameworks/espidf.rst:2295
+#: ../../../frameworks/espidf.rst:2365 ../../../frameworks/espidf.rst:2379
+#: ../../../frameworks/espidf.rst:2400 ../../../frameworks/espidf.rst:2421
+#: ../../../frameworks/espidf.rst:2428 ../../../frameworks/espidf.rst:2449
+#: ../../../frameworks/espidf.rst:2470 ../../../frameworks/espidf.rst:2491
+#: ../../../frameworks/espidf.rst:2512 ../../../frameworks/espidf.rst:2533
+#: ../../../frameworks/espidf.rst:2554 ../../../frameworks/espidf.rst:2575
+#: ../../../frameworks/espidf.rst:2596 ../../../frameworks/espidf.rst:2610
+#: ../../../frameworks/espidf.rst:2631 ../../../frameworks/espidf.rst:2638
+#: ../../../frameworks/espidf.rst:2666 ../../../frameworks/espidf.rst:2722
+#: ../../../frameworks/espidf.rst:2729 ../../../frameworks/espidf.rst:2736
+#: ../../../frameworks/espidf.rst:2743 ../../../frameworks/espidf.rst:2750
+#: ../../../frameworks/espidf.rst:2771 ../../../frameworks/espidf.rst:2778
+#: ../../../frameworks/espidf.rst:2799 ../../../frameworks/espidf.rst:2806
+#: ../../../frameworks/espidf.rst:2827 ../../../frameworks/espidf.rst:2834
+#: ../../../frameworks/espidf.rst:2855 ../../../frameworks/espidf.rst:2876
+#: ../../../frameworks/espidf.rst:2883 ../../../frameworks/espidf.rst:2904
+#: ../../../frameworks/espidf.rst:2925 ../../../frameworks/espidf.rst:2967
+#: ../../../frameworks/espidf.rst:3009 ../../../frameworks/espidf.rst:3016
+#: ../../../frameworks/espidf.rst:3023 ../../../frameworks/espidf.rst:3030
+#: ../../../frameworks/espidf.rst:3037 ../../../frameworks/espidf.rst:3044
+#: ../../../frameworks/espidf.rst:3065 ../../../frameworks/espidf.rst:3086
+#: ../../../frameworks/espidf.rst:3128 ../../../frameworks/espidf.rst:3149
+#: ../../../frameworks/espidf.rst:3156 ../../../frameworks/espidf.rst:3163
+#: ../../../frameworks/espidf.rst:3170 ../../../frameworks/espidf.rst:3191
+#: ../../../frameworks/espidf.rst:3212 ../../../frameworks/espidf.rst:3219
+#: ../../../frameworks/espidf.rst:3247 ../../../frameworks/espidf.rst:3268
+#: ../../../frameworks/espidf.rst:3289 ../../../frameworks/espidf.rst:3310
+#: ../../../frameworks/espidf.rst:3331 ../../../frameworks/espidf.rst:3338
+#: ../../../frameworks/espidf.rst:3345 ../../../frameworks/espidf.rst:3373
+#: ../../../frameworks/espidf.rst:3401 ../../../frameworks/espidf.rst:3408
+#: ../../../frameworks/espidf.rst:3443 ../../../frameworks/espidf.rst:3450
+#: ../../../frameworks/espidf.rst:3464 ../../../frameworks/espidf.rst:3471
+#: ../../../frameworks/espidf.rst:3492 ../../../frameworks/espidf.rst:3520
+#: ../../../frameworks/espidf.rst:3527 ../../../frameworks/espidf.rst:3534
+#: ../../../frameworks/espidf.rst:3541 ../../../frameworks/espidf.rst:3548
+#: ../../../frameworks/espidf.rst:3555 ../../../frameworks/espidf.rst:3604
+#: ../../../frameworks/espidf.rst:3611 ../../../frameworks/espidf.rst:3618
+#: ../../../frameworks/espidf.rst:3625 ../../../frameworks/espidf.rst:3632
+#: ../../../frameworks/espidf.rst:3646 ../../../frameworks/espidf.rst:3653
+#: ../../../frameworks/espidf.rst:3660 ../../../frameworks/espidf.rst:3681
+#: ../../../frameworks/espidf.rst:3702 ../../../frameworks/espidf.rst:3709
+#: ../../../frameworks/espidf.rst:3716 ../../../frameworks/espidf.rst:3737
+#: ../../../frameworks/espidf.rst:3765 ../../../frameworks/espidf.rst:3793
+#: ../../../frameworks/espidf.rst:3800 ../../../frameworks/espidf.rst:3807
+#: ../../../frameworks/espidf.rst:3835 ../../../frameworks/espidf.rst:3870
+#: ../../../frameworks/espidf.rst:3891 ../../../frameworks/espidf.rst:3898
+#: ../../../frameworks/espidf.rst:3919 ../../../frameworks/espidf.rst:3940
+#: ../../../frameworks/espidf.rst:3947 ../../../frameworks/espidf.rst:3954
+#: ../../../frameworks/espidf.rst:3961 ../../../frameworks/espidf.rst:3968
+#: ../../../frameworks/espidf.rst:3975 ../../../frameworks/espidf.rst:3982
+#: ../../../frameworks/espidf.rst:3996 ../../../frameworks/espidf.rst:4010
+#: ../../../frameworks/espidf.rst:4017 ../../../frameworks/espidf.rst:4024
+#: ../../../frameworks/espidf.rst:4087 ../../../frameworks/espidf.rst:4108
+#: ../../../frameworks/espidf.rst:4150 ../../../frameworks/espidf.rst:4157
+#: ../../../frameworks/espidf.rst:4199 ../../../frameworks/espidf.rst:4206
+#: ../../../frameworks/espidf.rst:4227 ../../../frameworks/espidf.rst:4269
+#: ../../../frameworks/espidf.rst:4276
+msgid "4MB"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:86 ../../../frameworks/espidf.rst:92
+#: ../../../frameworks/espidf.rst:98 ../../../frameworks/espidf.rst:104
+#: ../../../frameworks/espidf.rst:110 ../../../frameworks/espidf.rst:116
+#: ../../../frameworks/espidf.rst:122 ../../../frameworks/espidf.rst:128
+#: ../../../frameworks/espidf.rst:153 ../../../frameworks/espidf.rst:159
+#: ../../../frameworks/espidf.rst:171 ../../../frameworks/espidf.rst:177
+#: ../../../frameworks/espidf.rst:183 ../../../frameworks/espidf.rst:189
+#: ../../../frameworks/espidf.rst:195 ../../../frameworks/espidf.rst:201
+#: ../../../frameworks/espidf.rst:207 ../../../frameworks/espidf.rst:213
+#: ../../../frameworks/espidf.rst:219 ../../../frameworks/espidf.rst:225
+#: ../../../frameworks/espidf.rst:231 ../../../frameworks/espidf.rst:237
+#: ../../../frameworks/espidf.rst:243 ../../../frameworks/espidf.rst:249
+#: ../../../frameworks/espidf.rst:255 ../../../frameworks/espidf.rst:261
+#: ../../../frameworks/espidf.rst:267 ../../../frameworks/espidf.rst:273
+#: ../../../frameworks/espidf.rst:279 ../../../frameworks/espidf.rst:285
+#: ../../../frameworks/espidf.rst:291 ../../../frameworks/espidf.rst:297
+#: ../../../frameworks/espidf.rst:303 ../../../frameworks/espidf.rst:309
+#: ../../../frameworks/espidf.rst:315 ../../../frameworks/espidf.rst:321
+#: ../../../frameworks/espidf.rst:327 ../../../frameworks/espidf.rst:333
+#: ../../../frameworks/espidf.rst:339 ../../../frameworks/espidf.rst:345
+#: ../../../frameworks/espidf.rst:351 ../../../frameworks/espidf.rst:357
+#: ../../../frameworks/espidf.rst:363 ../../../frameworks/espidf.rst:369
+#: ../../../frameworks/espidf.rst:375 ../../../frameworks/espidf.rst:381
+#: ../../../frameworks/espidf.rst:387 ../../../frameworks/espidf.rst:393
+#: ../../../frameworks/espidf.rst:399 ../../../frameworks/espidf.rst:405
+#: ../../../frameworks/espidf.rst:411 ../../../frameworks/espidf.rst:417
+#: ../../../frameworks/espidf.rst:423 ../../../frameworks/espidf.rst:429
+#: ../../../frameworks/espidf.rst:435 ../../../frameworks/espidf.rst:441
+#: ../../../frameworks/espidf.rst:447 ../../../frameworks/espidf.rst:453
+#: ../../../frameworks/espidf.rst:459 ../../../frameworks/espidf.rst:465
+#: ../../../frameworks/espidf.rst:471 ../../../frameworks/espidf.rst:477
+#: ../../../frameworks/espidf.rst:483 ../../../frameworks/espidf.rst:489
+#: ../../../frameworks/espidf.rst:495 ../../../frameworks/espidf.rst:501
+#: ../../../frameworks/espidf.rst:507 ../../../frameworks/espidf.rst:513
+#: ../../../frameworks/espidf.rst:519 ../../../frameworks/espidf.rst:525
+#: ../../../frameworks/espidf.rst:531 ../../../frameworks/espidf.rst:537
+#: ../../../frameworks/espidf.rst:543 ../../../frameworks/espidf.rst:549
+#: ../../../frameworks/espidf.rst:555 ../../../frameworks/espidf.rst:567
+#: ../../../frameworks/espidf.rst:573 ../../../frameworks/espidf.rst:579
+#: ../../../frameworks/espidf.rst:585 ../../../frameworks/espidf.rst:591
+#: ../../../frameworks/espidf.rst:597 ../../../frameworks/espidf.rst:603
+#: ../../../frameworks/espidf.rst:609 ../../../frameworks/espidf.rst:615
+#: ../../../frameworks/espidf.rst:621 ../../../frameworks/espidf.rst:627
+#: ../../../frameworks/espidf.rst:633 ../../../frameworks/espidf.rst:639
+#: ../../../frameworks/espidf.rst:645 ../../../frameworks/espidf.rst:651
+#: ../../../frameworks/espidf.rst:657 ../../../frameworks/espidf.rst:663
+#: ../../../frameworks/espidf.rst:669 ../../../frameworks/espidf.rst:675
+#: ../../../frameworks/espidf.rst:681 ../../../frameworks/espidf.rst:687
+#: ../../../frameworks/espidf.rst:693 ../../../frameworks/espidf.rst:699
+#: ../../../frameworks/espidf.rst:705 ../../../frameworks/espidf.rst:711
+#: ../../../frameworks/espidf.rst:717 ../../../frameworks/espidf.rst:723
+#: ../../../frameworks/espidf.rst:729 ../../../frameworks/espidf.rst:735
+#: ../../../frameworks/espidf.rst:741 ../../../frameworks/espidf.rst:747
+#: ../../../frameworks/espidf.rst:753 ../../../frameworks/espidf.rst:759
+#: ../../../frameworks/espidf.rst:765 ../../../frameworks/espidf.rst:771
+#: ../../../frameworks/espidf.rst:789 ../../../frameworks/espidf.rst:795
+#: ../../../frameworks/espidf.rst:801 ../../../frameworks/espidf.rst:807
+#: ../../../frameworks/espidf.rst:813 ../../../frameworks/espidf.rst:819
+#: ../../../frameworks/espidf.rst:825 ../../../frameworks/espidf.rst:831
+#: ../../../frameworks/espidf.rst:837 ../../../frameworks/espidf.rst:843
+#: ../../../frameworks/espidf.rst:849 ../../../frameworks/espidf.rst:855
+#: ../../../frameworks/espidf.rst:861 ../../../frameworks/espidf.rst:867
+#: ../../../frameworks/espidf.rst:873 ../../../frameworks/espidf.rst:879
+#: ../../../frameworks/espidf.rst:885 ../../../frameworks/espidf.rst:891
+#: ../../../frameworks/espidf.rst:897 ../../../frameworks/espidf.rst:903
+#: ../../../frameworks/espidf.rst:909 ../../../frameworks/espidf.rst:915
+#: ../../../frameworks/espidf.rst:921 ../../../frameworks/espidf.rst:927
+#: ../../../frameworks/espidf.rst:933 ../../../frameworks/espidf.rst:945
+#: ../../../frameworks/espidf.rst:951 ../../../frameworks/espidf.rst:963
+#: ../../../frameworks/espidf.rst:969 ../../../frameworks/espidf.rst:975
+#: ../../../frameworks/espidf.rst:981 ../../../frameworks/espidf.rst:987
+#: ../../../frameworks/espidf.rst:993 ../../../frameworks/espidf.rst:999
+#: ../../../frameworks/espidf.rst:1005 ../../../frameworks/espidf.rst:1011
+#: ../../../frameworks/espidf.rst:1017 ../../../frameworks/espidf.rst:1023
+#: ../../../frameworks/espidf.rst:1029 ../../../frameworks/espidf.rst:1035
+#: ../../../frameworks/espidf.rst:1041 ../../../frameworks/espidf.rst:1047
+#: ../../../frameworks/espidf.rst:1053 ../../../frameworks/espidf.rst:1059
+#: ../../../frameworks/espidf.rst:1065 ../../../frameworks/espidf.rst:1071
+#: ../../../frameworks/espidf.rst:1077 ../../../frameworks/espidf.rst:1083
+#: ../../../frameworks/espidf.rst:1089 ../../../frameworks/espidf.rst:1095
+#: ../../../frameworks/espidf.rst:1101 ../../../frameworks/espidf.rst:1107
+#: ../../../frameworks/espidf.rst:1113 ../../../frameworks/espidf.rst:1125
+#: ../../../frameworks/espidf.rst:1131 ../../../frameworks/espidf.rst:1137
+#: ../../../frameworks/espidf.rst:1143 ../../../frameworks/espidf.rst:1149
+#: ../../../frameworks/espidf.rst:1155 ../../../frameworks/espidf.rst:1161
+#: ../../../frameworks/espidf.rst:1167 ../../../frameworks/espidf.rst:1173
+#: ../../../frameworks/espidf.rst:1179 ../../../frameworks/espidf.rst:1185
+#: ../../../frameworks/espidf.rst:1191 ../../../frameworks/espidf.rst:1232
+#: ../../../frameworks/espidf.rst:1253 ../../../frameworks/espidf.rst:1295
+#: ../../../frameworks/espidf.rst:1302 ../../../frameworks/espidf.rst:1309
+#: ../../../frameworks/espidf.rst:1316 ../../../frameworks/espidf.rst:1323
+#: ../../../frameworks/espidf.rst:1330 ../../../frameworks/espidf.rst:1337
+#: ../../../frameworks/espidf.rst:1344 ../../../frameworks/espidf.rst:1351
+#: ../../../frameworks/espidf.rst:1358 ../../../frameworks/espidf.rst:1365
+#: ../../../frameworks/espidf.rst:1372 ../../../frameworks/espidf.rst:1379
+#: ../../../frameworks/espidf.rst:1386 ../../../frameworks/espidf.rst:1393
+#: ../../../frameworks/espidf.rst:1400 ../../../frameworks/espidf.rst:1407
+#: ../../../frameworks/espidf.rst:1414 ../../../frameworks/espidf.rst:1421
+#: ../../../frameworks/espidf.rst:1428 ../../../frameworks/espidf.rst:1435
+#: ../../../frameworks/espidf.rst:1442 ../../../frameworks/espidf.rst:1449
+#: ../../../frameworks/espidf.rst:1470 ../../../frameworks/espidf.rst:1477
+#: ../../../frameworks/espidf.rst:1498 ../../../frameworks/espidf.rst:1519
+#: ../../../frameworks/espidf.rst:1540 ../../../frameworks/espidf.rst:1561
+#: ../../../frameworks/espidf.rst:1582 ../../../frameworks/espidf.rst:1603
+#: ../../../frameworks/espidf.rst:1610 ../../../frameworks/espidf.rst:1617
+#: ../../../frameworks/espidf.rst:1638 ../../../frameworks/espidf.rst:1659
+#: ../../../frameworks/espidf.rst:1666 ../../../frameworks/espidf.rst:1687
+#: ../../../frameworks/espidf.rst:1694 ../../../frameworks/espidf.rst:1701
+#: ../../../frameworks/espidf.rst:1722 ../../../frameworks/espidf.rst:1743
+#: ../../../frameworks/espidf.rst:1764 ../../../frameworks/espidf.rst:1785
+#: ../../../frameworks/espidf.rst:1792 ../../../frameworks/espidf.rst:1799
+#: ../../../frameworks/espidf.rst:1806 ../../../frameworks/espidf.rst:1834
+#: ../../../frameworks/espidf.rst:1841 ../../../frameworks/espidf.rst:1862
+#: ../../../frameworks/espidf.rst:1883 ../../../frameworks/espidf.rst:1890
+#: ../../../frameworks/espidf.rst:1911 ../../../frameworks/espidf.rst:1932
+#: ../../../frameworks/espidf.rst:1953 ../../../frameworks/espidf.rst:1974
+#: ../../../frameworks/espidf.rst:1995 ../../../frameworks/espidf.rst:2016
+#: ../../../frameworks/espidf.rst:2037 ../../../frameworks/espidf.rst:2058
+#: ../../../frameworks/espidf.rst:2065 ../../../frameworks/espidf.rst:2072
+#: ../../../frameworks/espidf.rst:2079 ../../../frameworks/espidf.rst:2086
+#: ../../../frameworks/espidf.rst:2093 ../../../frameworks/espidf.rst:2100
+#: ../../../frameworks/espidf.rst:2107 ../../../frameworks/espidf.rst:2114
+#: ../../../frameworks/espidf.rst:2121 ../../../frameworks/espidf.rst:2128
+#: ../../../frameworks/espidf.rst:2135 ../../../frameworks/espidf.rst:2142
+#: ../../../frameworks/espidf.rst:2149 ../../../frameworks/espidf.rst:2170
+#: ../../../frameworks/espidf.rst:2191 ../../../frameworks/espidf.rst:2212
+#: ../../../frameworks/espidf.rst:2219 ../../../frameworks/espidf.rst:2226
+#: ../../../frameworks/espidf.rst:2247 ../../../frameworks/espidf.rst:2268
+#: ../../../frameworks/espidf.rst:2275 ../../../frameworks/espidf.rst:2296
+#: ../../../frameworks/espidf.rst:2317 ../../../frameworks/espidf.rst:2338
+#: ../../../frameworks/espidf.rst:2345 ../../../frameworks/espidf.rst:2366
+#: ../../../frameworks/espidf.rst:2373 ../../../frameworks/espidf.rst:2380
+#: ../../../frameworks/espidf.rst:2387 ../../../frameworks/espidf.rst:2394
+#: ../../../frameworks/espidf.rst:2401 ../../../frameworks/espidf.rst:2422
+#: ../../../frameworks/espidf.rst:2429 ../../../frameworks/espidf.rst:2450
+#: ../../../frameworks/espidf.rst:2471 ../../../frameworks/espidf.rst:2492
+#: ../../../frameworks/espidf.rst:2513 ../../../frameworks/espidf.rst:2534
+#: ../../../frameworks/espidf.rst:2555 ../../../frameworks/espidf.rst:2576
+#: ../../../frameworks/espidf.rst:2597 ../../../frameworks/espidf.rst:2604
+#: ../../../frameworks/espidf.rst:2611 ../../../frameworks/espidf.rst:2632
+#: ../../../frameworks/espidf.rst:2639 ../../../frameworks/espidf.rst:2660
+#: ../../../frameworks/espidf.rst:2667 ../../../frameworks/espidf.rst:2688
+#: ../../../frameworks/espidf.rst:2709 ../../../frameworks/espidf.rst:2723
+#: ../../../frameworks/espidf.rst:2730 ../../../frameworks/espidf.rst:2737
+#: ../../../frameworks/espidf.rst:2744 ../../../frameworks/espidf.rst:2751
+#: ../../../frameworks/espidf.rst:2772 ../../../frameworks/espidf.rst:2779
+#: ../../../frameworks/espidf.rst:2800 ../../../frameworks/espidf.rst:2807
+#: ../../../frameworks/espidf.rst:2828 ../../../frameworks/espidf.rst:2835
+#: ../../../frameworks/espidf.rst:2856 ../../../frameworks/espidf.rst:2877
+#: ../../../frameworks/espidf.rst:2884 ../../../frameworks/espidf.rst:2905
+#: ../../../frameworks/espidf.rst:2926 ../../../frameworks/espidf.rst:2947
+#: ../../../frameworks/espidf.rst:2968 ../../../frameworks/espidf.rst:2989
+#: ../../../frameworks/espidf.rst:3010 ../../../frameworks/espidf.rst:3017
+#: ../../../frameworks/espidf.rst:3024 ../../../frameworks/espidf.rst:3031
+#: ../../../frameworks/espidf.rst:3038 ../../../frameworks/espidf.rst:3045
+#: ../../../frameworks/espidf.rst:3066 ../../../frameworks/espidf.rst:3087
+#: ../../../frameworks/espidf.rst:3108 ../../../frameworks/espidf.rst:3129
+#: ../../../frameworks/espidf.rst:3150 ../../../frameworks/espidf.rst:3157
+#: ../../../frameworks/espidf.rst:3192 ../../../frameworks/espidf.rst:3213
+#: ../../../frameworks/espidf.rst:3220 ../../../frameworks/espidf.rst:3227
+#: ../../../frameworks/espidf.rst:3248 ../../../frameworks/espidf.rst:3269
+#: ../../../frameworks/espidf.rst:3290 ../../../frameworks/espidf.rst:3311
+#: ../../../frameworks/espidf.rst:3332 ../../../frameworks/espidf.rst:3339
+#: ../../../frameworks/espidf.rst:3346 ../../../frameworks/espidf.rst:3353
+#: ../../../frameworks/espidf.rst:3374 ../../../frameworks/espidf.rst:3395
+#: ../../../frameworks/espidf.rst:3402 ../../../frameworks/espidf.rst:3409
+#: ../../../frameworks/espidf.rst:3416 ../../../frameworks/espidf.rst:3423
+#: ../../../frameworks/espidf.rst:3444 ../../../frameworks/espidf.rst:3451
+#: ../../../frameworks/espidf.rst:3458 ../../../frameworks/espidf.rst:3465
+#: ../../../frameworks/espidf.rst:3472 ../../../frameworks/espidf.rst:3493
+#: ../../../frameworks/espidf.rst:3500 ../../../frameworks/espidf.rst:3521
+#: ../../../frameworks/espidf.rst:3528 ../../../frameworks/espidf.rst:3535
+#: ../../../frameworks/espidf.rst:3542 ../../../frameworks/espidf.rst:3549
+#: ../../../frameworks/espidf.rst:3556 ../../../frameworks/espidf.rst:3577
+#: ../../../frameworks/espidf.rst:3584 ../../../frameworks/espidf.rst:3605
+#: ../../../frameworks/espidf.rst:3612 ../../../frameworks/espidf.rst:3619
+#: ../../../frameworks/espidf.rst:3633 ../../../frameworks/espidf.rst:3640
+#: ../../../frameworks/espidf.rst:3647 ../../../frameworks/espidf.rst:3682
+#: ../../../frameworks/espidf.rst:3703 ../../../frameworks/espidf.rst:3710
+#: ../../../frameworks/espidf.rst:3717 ../../../frameworks/espidf.rst:3738
+#: ../../../frameworks/espidf.rst:3759 ../../../frameworks/espidf.rst:3766
+#: ../../../frameworks/espidf.rst:3773 ../../../frameworks/espidf.rst:3780
+#: ../../../frameworks/espidf.rst:3787 ../../../frameworks/espidf.rst:3794
+#: ../../../frameworks/espidf.rst:3801 ../../../frameworks/espidf.rst:3808
+#: ../../../frameworks/espidf.rst:3815 ../../../frameworks/espidf.rst:3836
+#: ../../../frameworks/espidf.rst:3871 ../../../frameworks/espidf.rst:3892
+#: ../../../frameworks/espidf.rst:3899 ../../../frameworks/espidf.rst:3920
+#: ../../../frameworks/espidf.rst:3941 ../../../frameworks/espidf.rst:3948
+#: ../../../frameworks/espidf.rst:3955 ../../../frameworks/espidf.rst:3962
+#: ../../../frameworks/espidf.rst:3969 ../../../frameworks/espidf.rst:3976
+#: ../../../frameworks/espidf.rst:3983 ../../../frameworks/espidf.rst:3990
+#: ../../../frameworks/espidf.rst:3997 ../../../frameworks/espidf.rst:4004
+#: ../../../frameworks/espidf.rst:4011 ../../../frameworks/espidf.rst:4018
+#: ../../../frameworks/espidf.rst:4025 ../../../frameworks/espidf.rst:4067
+#: ../../../frameworks/espidf.rst:4088 ../../../frameworks/espidf.rst:4109
+#: ../../../frameworks/espidf.rst:4130 ../../../frameworks/espidf.rst:4151
+#: ../../../frameworks/espidf.rst:4158 ../../../frameworks/espidf.rst:4179
+#: ../../../frameworks/espidf.rst:4200 ../../../frameworks/espidf.rst:4207
+#: ../../../frameworks/espidf.rst:4228 ../../../frameworks/espidf.rst:4249
+#: ../../../frameworks/espidf.rst:4270 ../../../frameworks/espidf.rst:4277
+msgid "320KB"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:87 ../../../frameworks/espidf.rst:2108
+msgid ":ref:`board_espressif32_esp32-s2-kaluga-1`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:89 ../../../frameworks/espidf.rst:174
+#: ../../../frameworks/espidf.rst:186 ../../../frameworks/espidf.rst:192
+#: ../../../frameworks/espidf.rst:198 ../../../frameworks/espidf.rst:228
+#: ../../../frameworks/espidf.rst:240 ../../../frameworks/espidf.rst:252
+#: ../../../frameworks/espidf.rst:276 ../../../frameworks/espidf.rst:312
+#: ../../../frameworks/espidf.rst:450 ../../../frameworks/espidf.rst:456
+#: ../../../frameworks/espidf.rst:462 ../../../frameworks/espidf.rst:516
+#: ../../../frameworks/espidf.rst:546 ../../../frameworks/espidf.rst:564
+#: ../../../frameworks/espidf.rst:570 ../../../frameworks/espidf.rst:576
+#: ../../../frameworks/espidf.rst:846 ../../../frameworks/espidf.rst:894
+#: ../../../frameworks/espidf.rst:978 ../../../frameworks/espidf.rst:984
+#: ../../../frameworks/espidf.rst:1008 ../../../frameworks/espidf.rst:1014
+#: ../../../frameworks/espidf.rst:1074 ../../../frameworks/espidf.rst:1080
+#: ../../../frameworks/espidf.rst:1152 ../../../frameworks/espidf.rst:1170
+#: ../../../frameworks/espidf.rst:1299 ../../../frameworks/espidf.rst:1313
+#: ../../../frameworks/espidf.rst:1320 ../../../frameworks/espidf.rst:1327
+#: ../../../frameworks/espidf.rst:1362 ../../../frameworks/espidf.rst:1376
+#: ../../../frameworks/espidf.rst:1390 ../../../frameworks/espidf.rst:1418
+#: ../../../frameworks/espidf.rst:1474 ../../../frameworks/espidf.rst:1908
+#: ../../../frameworks/espidf.rst:2034 ../../../frameworks/espidf.rst:2111
+#: ../../../frameworks/espidf.rst:2118 ../../../frameworks/espidf.rst:2209
+#: ../../../frameworks/espidf.rst:2216 ../../../frameworks/espidf.rst:2223
+#: ../../../frameworks/espidf.rst:3399 ../../../frameworks/espidf.rst:3462
+#: ../../../frameworks/espidf.rst:3546 ../../../frameworks/espidf.rst:3553
+#: ../../../frameworks/espidf.rst:3756 ../../../frameworks/espidf.rst:3763
+#: ../../../frameworks/espidf.rst:3791 ../../../frameworks/espidf.rst:3805
+#: ../../../frameworks/espidf.rst:3973 ../../../frameworks/espidf.rst:3980
+#: ../../../frameworks/espidf.rst:4176 ../../../frameworks/espidf.rst:4225
+msgid "ESP32S2"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:93 ../../../frameworks/espidf.rst:2129
+msgid ":ref:`board_espressif32_esp32-s3-devkitc-1`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:95 ../../../frameworks/espidf.rst:101
+#: ../../../frameworks/espidf.rst:107 ../../../frameworks/espidf.rst:113
+#: ../../../frameworks/espidf.rst:119 ../../../frameworks/espidf.rst:125
+#: ../../../frameworks/espidf.rst:150 ../../../frameworks/espidf.rst:204
+#: ../../../frameworks/espidf.rst:210 ../../../frameworks/espidf.rst:216
+#: ../../../frameworks/espidf.rst:222 ../../../frameworks/espidf.rst:246
+#: ../../../frameworks/espidf.rst:258 ../../../frameworks/espidf.rst:282
+#: ../../../frameworks/espidf.rst:288 ../../../frameworks/espidf.rst:294
+#: ../../../frameworks/espidf.rst:300 ../../../frameworks/espidf.rst:324
+#: ../../../frameworks/espidf.rst:330 ../../../frameworks/espidf.rst:348
+#: ../../../frameworks/espidf.rst:354 ../../../frameworks/espidf.rst:360
+#: ../../../frameworks/espidf.rst:378 ../../../frameworks/espidf.rst:402
+#: ../../../frameworks/espidf.rst:408 ../../../frameworks/espidf.rst:438
+#: ../../../frameworks/espidf.rst:486 ../../../frameworks/espidf.rst:492
+#: ../../../frameworks/espidf.rst:552 ../../../frameworks/espidf.rst:600
+#: ../../../frameworks/espidf.rst:618 ../../../frameworks/espidf.rst:642
+#: ../../../frameworks/espidf.rst:654 ../../../frameworks/espidf.rst:660
+#: ../../../frameworks/espidf.rst:666 ../../../frameworks/espidf.rst:678
+#: ../../../frameworks/espidf.rst:684 ../../../frameworks/espidf.rst:690
+#: ../../../frameworks/espidf.rst:714 ../../../frameworks/espidf.rst:720
+#: ../../../frameworks/espidf.rst:726 ../../../frameworks/espidf.rst:732
+#: ../../../frameworks/espidf.rst:810 ../../../frameworks/espidf.rst:828
+#: ../../../frameworks/espidf.rst:840 ../../../frameworks/espidf.rst:858
+#: ../../../frameworks/espidf.rst:864 ../../../frameworks/espidf.rst:912
+#: ../../../frameworks/espidf.rst:990 ../../../frameworks/espidf.rst:996
+#: ../../../frameworks/espidf.rst:1002 ../../../frameworks/espidf.rst:1020
+#: ../../../frameworks/espidf.rst:1086 ../../../frameworks/espidf.rst:1092
+#: ../../../frameworks/espidf.rst:1098 ../../../frameworks/espidf.rst:1194
+#: ../../../frameworks/espidf.rst:1200 ../../../frameworks/espidf.rst:1229
+#: ../../../frameworks/espidf.rst:1334 ../../../frameworks/espidf.rst:1341
+#: ../../../frameworks/espidf.rst:1348 ../../../frameworks/espidf.rst:1355
+#: ../../../frameworks/espidf.rst:1383 ../../../frameworks/espidf.rst:1397
+#: ../../../frameworks/espidf.rst:1425 ../../../frameworks/espidf.rst:1432
+#: ../../../frameworks/espidf.rst:1439 ../../../frameworks/espidf.rst:1446
+#: ../../../frameworks/espidf.rst:1537 ../../../frameworks/espidf.rst:1579
+#: ../../../frameworks/espidf.rst:1600 ../../../frameworks/espidf.rst:1635
+#: ../../../frameworks/espidf.rst:1663 ../../../frameworks/espidf.rst:1691
+#: ../../../frameworks/espidf.rst:1761 ../../../frameworks/espidf.rst:1796
+#: ../../../frameworks/espidf.rst:1803 ../../../frameworks/espidf.rst:2062
+#: ../../../frameworks/espidf.rst:2125 ../../../frameworks/espidf.rst:2132
+#: ../../../frameworks/espidf.rst:2139 ../../../frameworks/espidf.rst:2146
+#: ../../../frameworks/espidf.rst:2265 ../../../frameworks/espidf.rst:2335
+#: ../../../frameworks/espidf.rst:2342 ../../../frameworks/espidf.rst:2531
+#: ../../../frameworks/espidf.rst:2601 ../../../frameworks/espidf.rst:2608
+#: ../../../frameworks/espidf.rst:2636 ../../../frameworks/espidf.rst:2657
+#: ../../../frameworks/espidf.rst:2685 ../../../frameworks/espidf.rst:2706
+#: ../../../frameworks/espidf.rst:2769 ../../../frameworks/espidf.rst:2776
+#: ../../../frameworks/espidf.rst:2923 ../../../frameworks/espidf.rst:2944
+#: ../../../frameworks/espidf.rst:3105 ../../../frameworks/espidf.rst:3224
+#: ../../../frameworks/espidf.rst:3329 ../../../frameworks/espidf.rst:3350
+#: ../../../frameworks/espidf.rst:3392 ../../../frameworks/espidf.rst:3413
+#: ../../../frameworks/espidf.rst:3420 ../../../frameworks/espidf.rst:3532
+#: ../../../frameworks/espidf.rst:3581 ../../../frameworks/espidf.rst:3770
+#: ../../../frameworks/espidf.rst:3777 ../../../frameworks/espidf.rst:3784
+#: ../../../frameworks/espidf.rst:3812 ../../../frameworks/espidf.rst:3840
+#: ../../../frameworks/espidf.rst:3847 ../../../frameworks/espidf.rst:3987
+#: ../../../frameworks/espidf.rst:3994 ../../../frameworks/espidf.rst:4001
+msgid "ESP32S3"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:97 ../../../frameworks/espidf.rst:103
+#: ../../../frameworks/espidf.rst:109 ../../../frameworks/espidf.rst:115
+#: ../../../frameworks/espidf.rst:127 ../../../frameworks/espidf.rst:182
+#: ../../../frameworks/espidf.rst:212 ../../../frameworks/espidf.rst:236
+#: ../../../frameworks/espidf.rst:248 ../../../frameworks/espidf.rst:266
+#: ../../../frameworks/espidf.rst:290 ../../../frameworks/espidf.rst:332
+#: ../../../frameworks/espidf.rst:356 ../../../frameworks/espidf.rst:362
+#: ../../../frameworks/espidf.rst:380 ../../../frameworks/espidf.rst:488
+#: ../../../frameworks/espidf.rst:494 ../../../frameworks/espidf.rst:602
+#: ../../../frameworks/espidf.rst:614 ../../../frameworks/espidf.rst:620
+#: ../../../frameworks/espidf.rst:626 ../../../frameworks/espidf.rst:680
+#: ../../../frameworks/espidf.rst:692 ../../../frameworks/espidf.rst:722
+#: ../../../frameworks/espidf.rst:830 ../../../frameworks/espidf.rst:842
+#: ../../../frameworks/espidf.rst:860 ../../../frameworks/espidf.rst:866
+#: ../../../frameworks/espidf.rst:908 ../../../frameworks/espidf.rst:914
+#: ../../../frameworks/espidf.rst:998 ../../../frameworks/espidf.rst:1022
+#: ../../../frameworks/espidf.rst:1308 ../../../frameworks/espidf.rst:1343
+#: ../../../frameworks/espidf.rst:1371 ../../../frameworks/espidf.rst:1385
+#: ../../../frameworks/espidf.rst:1406 ../../../frameworks/espidf.rst:1434
+#: ../../../frameworks/espidf.rst:1602 ../../../frameworks/espidf.rst:1665
+#: ../../../frameworks/espidf.rst:1693 ../../../frameworks/espidf.rst:1763
+#: ../../../frameworks/espidf.rst:1882 ../../../frameworks/espidf.rst:2064
+#: ../../../frameworks/espidf.rst:2099 ../../../frameworks/espidf.rst:2134
+#: ../../../frameworks/espidf.rst:2141 ../../../frameworks/espidf.rst:2148
+#: ../../../frameworks/espidf.rst:2169 ../../../frameworks/espidf.rst:2267
+#: ../../../frameworks/espidf.rst:2337 ../../../frameworks/espidf.rst:2344
+#: ../../../frameworks/espidf.rst:2372 ../../../frameworks/espidf.rst:2386
+#: ../../../frameworks/espidf.rst:2393 ../../../frameworks/espidf.rst:2659
+#: ../../../frameworks/espidf.rst:2708 ../../../frameworks/espidf.rst:2946
+#: ../../../frameworks/espidf.rst:3107 ../../../frameworks/espidf.rst:3226
+#: ../../../frameworks/espidf.rst:3352 ../../../frameworks/espidf.rst:3394
+#: ../../../frameworks/espidf.rst:3415 ../../../frameworks/espidf.rst:3422
+#: ../../../frameworks/espidf.rst:3576 ../../../frameworks/espidf.rst:3583
+#: ../../../frameworks/espidf.rst:3779 ../../../frameworks/espidf.rst:3814
+msgid "8MB"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:99 ../../../frameworks/espidf.rst:2136
+msgid ":ref:`board_espressif32_esp32-s3-devkitm-1`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:105 ../../../frameworks/espidf.rst:2143
+msgid ":ref:`board_espressif32_esp32s3usbotg`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:111 ../../../frameworks/espidf.rst:2262
+msgid ":ref:`board_espressif32_freenove_esp32_s3_wroom`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:117 ../../../frameworks/espidf.rst:2633
+msgid ":ref:`board_espressif32_lionbits3`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:123 ../../../frameworks/espidf.rst:3221
+msgid ":ref:`board_espressif32_rymcu-esp32-s3-devkitc-1`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:132
+msgid "External Debug Tools"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:134
+msgid ""
+"Boards listed below are compatible with :ref:`piodebug` but **DEPEND ON** "
+"external debug probe. They **ARE NOT READY** for debugging. Please click on "
+"board name for the further details."
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:148 ../../../frameworks/espidf.rst:1226
+msgid ":ref:`board_espressif32_4d_systems_esp32s3_gen4_r8n16`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:152 ../../../frameworks/espidf.rst:260
+#: ../../../frameworks/espidf.rst:296 ../../../frameworks/espidf.rst:326
+#: ../../../frameworks/espidf.rst:350 ../../../frameworks/espidf.rst:410
+#: ../../../frameworks/espidf.rst:518 ../../../frameworks/espidf.rst:554
+#: ../../../frameworks/espidf.rst:560 ../../../frameworks/espidf.rst:656
+#: ../../../frameworks/espidf.rst:662 ../../../frameworks/espidf.rst:686
+#: ../../../frameworks/espidf.rst:884 ../../../frameworks/espidf.rst:890
+#: ../../../frameworks/espidf.rst:980 ../../../frameworks/espidf.rst:992
+#: ../../../frameworks/espidf.rst:1004 ../../../frameworks/espidf.rst:1088
+#: ../../../frameworks/espidf.rst:1100 ../../../frameworks/espidf.rst:1154
+#: ../../../frameworks/espidf.rst:1231 ../../../frameworks/espidf.rst:1399
+#: ../../../frameworks/espidf.rst:1441 ../../../frameworks/espidf.rst:1539
+#: ../../../frameworks/espidf.rst:1581 ../../../frameworks/espidf.rst:1637
+#: ../../../frameworks/espidf.rst:1805 ../../../frameworks/espidf.rst:1812
+#: ../../../frameworks/espidf.rst:2036 ../../../frameworks/espidf.rst:2127
+#: ../../../frameworks/espidf.rst:2316 ../../../frameworks/espidf.rst:2603
+#: ../../../frameworks/espidf.rst:2673 ../../../frameworks/espidf.rst:2680
+#: ../../../frameworks/espidf.rst:2687 ../../../frameworks/espidf.rst:2694
+#: ../../../frameworks/espidf.rst:2701 ../../../frameworks/espidf.rst:2715
+#: ../../../frameworks/espidf.rst:2988 ../../../frameworks/espidf.rst:3457
+#: ../../../frameworks/espidf.rst:3499 ../../../frameworks/espidf.rst:3639
+#: ../../../frameworks/espidf.rst:3758 ../../../frameworks/espidf.rst:3772
+#: ../../../frameworks/espidf.rst:3786 ../../../frameworks/espidf.rst:3989
+#: ../../../frameworks/espidf.rst:4003 ../../../frameworks/espidf.rst:4066
+#: ../../../frameworks/espidf.rst:4129 ../../../frameworks/espidf.rst:4178
+msgid "16MB"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:154 ../../../frameworks/espidf.rst:1247
+msgid ":ref:`board_espressif32_esp32cam`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:160 ../../../frameworks/espidf.rst:1268
+msgid ":ref:`board_espressif32_az-delivery-devkit-v4`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:165 ../../../frameworks/espidf.rst:561
+#: ../../../frameworks/espidf.rst:1274 ../../../frameworks/espidf.rst:1813
+#: ../../../frameworks/espidf.rst:2674 ../../../frameworks/espidf.rst:2702
+msgid "520KB"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:166 ../../../frameworks/espidf.rst:1289
+msgid ":ref:`board_espressif32_featheresp32`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:172 ../../../frameworks/espidf.rst:1296
+msgid ":ref:`board_espressif32_featheresp32-s2`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:178 ../../../frameworks/espidf.rst:1303
+msgid ":ref:`board_espressif32_adafruit_feather_esp32_v2`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:184 ../../../frameworks/espidf.rst:1310
+msgid ":ref:`board_espressif32_adafruit_feather_esp32s2`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:190 ../../../frameworks/espidf.rst:1317
+msgid ":ref:`board_espressif32_adafruit_feather_esp32s2_reversetft`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:196 ../../../frameworks/espidf.rst:1324
+msgid ":ref:`board_espressif32_adafruit_feather_esp32s2_tft`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:202 ../../../frameworks/espidf.rst:1331
+msgid ":ref:`board_espressif32_adafruit_feather_esp32s3`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:208 ../../../frameworks/espidf.rst:1338
+msgid ":ref:`board_espressif32_adafruit_feather_esp32s3_nopsram`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:214 ../../../frameworks/espidf.rst:1345
+msgid ":ref:`board_espressif32_adafruit_feather_esp32s3_reversetft`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:220 ../../../frameworks/espidf.rst:1352
+msgid ":ref:`board_espressif32_adafruit_feather_esp32s3_tft`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:226 ../../../frameworks/espidf.rst:1359
+msgid ":ref:`board_espressif32_adafruit_funhouse_esp32s2`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:232 ../../../frameworks/espidf.rst:1366
+msgid ":ref:`board_espressif32_adafruit_itsybitsy_esp32`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:238 ../../../frameworks/espidf.rst:1373
+msgid ":ref:`board_espressif32_adafruit_magtag29_esp32s2`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:244 ../../../frameworks/espidf.rst:1380
+msgid ":ref:`board_espressif32_adafruit_matrixportal_esp32s3`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:250 ../../../frameworks/espidf.rst:1387
+msgid ":ref:`board_espressif32_adafruit_metro_esp32s2`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:256 ../../../frameworks/espidf.rst:1394
+msgid ":ref:`board_espressif32_adafruit_metro_esp32s3`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:262 ../../../frameworks/espidf.rst:1401
+msgid ":ref:`board_espressif32_adafruit_qtpy_esp32`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:268 ../../../frameworks/espidf.rst:1408
+msgid ":ref:`board_espressif32_adafruit_qtpy_esp32c3`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:270 ../../../frameworks/espidf.rst:306
+#: ../../../frameworks/espidf.rst:318 ../../../frameworks/espidf.rst:366
+#: ../../../frameworks/espidf.rst:390 ../../../frameworks/espidf.rst:444
+#: ../../../frameworks/espidf.rst:528 ../../../frameworks/espidf.rst:534
+#: ../../../frameworks/espidf.rst:786 ../../../frameworks/espidf.rst:816
+#: ../../../frameworks/espidf.rst:852 ../../../frameworks/espidf.rst:942
+#: ../../../frameworks/espidf.rst:1026 ../../../frameworks/espidf.rst:1032
+#: ../../../frameworks/espidf.rst:1056 ../../../frameworks/espidf.rst:1116
+#: ../../../frameworks/espidf.rst:1411 ../../../frameworks/espidf.rst:1467
+#: ../../../frameworks/espidf.rst:1495 ../../../frameworks/espidf.rst:1698
+#: ../../../frameworks/espidf.rst:1782 ../../../frameworks/espidf.rst:2083
+#: ../../../frameworks/espidf.rst:2090 ../../../frameworks/espidf.rst:3210
+#: ../../../frameworks/espidf.rst:3336 ../../../frameworks/espidf.rst:3406
+#: ../../../frameworks/espidf.rst:3539 ../../../frameworks/espidf.rst:3630
+#: ../../../frameworks/espidf.rst:3889 ../../../frameworks/espidf.rst:3896
+#: ../../../frameworks/espidf.rst:3952 ../../../frameworks/espidf.rst:4043
+msgid "ESP32C3"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:271 ../../../frameworks/espidf.rst:307
+#: ../../../frameworks/espidf.rst:319 ../../../frameworks/espidf.rst:367
+#: ../../../frameworks/espidf.rst:391 ../../../frameworks/espidf.rst:445
+#: ../../../frameworks/espidf.rst:529 ../../../frameworks/espidf.rst:535
+#: ../../../frameworks/espidf.rst:541 ../../../frameworks/espidf.rst:787
+#: ../../../frameworks/espidf.rst:817 ../../../frameworks/espidf.rst:823
+#: ../../../frameworks/espidf.rst:853 ../../../frameworks/espidf.rst:943
+#: ../../../frameworks/espidf.rst:1027 ../../../frameworks/espidf.rst:1033
+#: ../../../frameworks/espidf.rst:1057 ../../../frameworks/espidf.rst:1117
+#: ../../../frameworks/espidf.rst:1141 ../../../frameworks/espidf.rst:1147
+#: ../../../frameworks/espidf.rst:1412 ../../../frameworks/espidf.rst:1468
+#: ../../../frameworks/espidf.rst:1496 ../../../frameworks/espidf.rst:1657
+#: ../../../frameworks/espidf.rst:1699 ../../../frameworks/espidf.rst:1783
+#: ../../../frameworks/espidf.rst:2084 ../../../frameworks/espidf.rst:2091
+#: ../../../frameworks/espidf.rst:2098 ../../../frameworks/espidf.rst:2105
+#: ../../../frameworks/espidf.rst:3211 ../../../frameworks/espidf.rst:3337
+#: ../../../frameworks/espidf.rst:3344 ../../../frameworks/espidf.rst:3407
+#: ../../../frameworks/espidf.rst:3540 ../../../frameworks/espidf.rst:3631
+#: ../../../frameworks/espidf.rst:3890 ../../../frameworks/espidf.rst:3897
+#: ../../../frameworks/espidf.rst:3953 ../../../frameworks/espidf.rst:4044
+#: ../../../frameworks/espidf.rst:4149 ../../../frameworks/espidf.rst:4156
+msgid "160MHz"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:274 ../../../frameworks/espidf.rst:1415
+msgid ":ref:`board_espressif32_adafruit_qtpy_esp32s2`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:280 ../../../frameworks/espidf.rst:1422
+msgid ":ref:`board_espressif32_adafruit_qtpy_esp32s3_n4r2`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:286 ../../../frameworks/espidf.rst:1429
+msgid ":ref:`board_espressif32_adafruit_qtpy_esp32s3_nopsram`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:292 ../../../frameworks/espidf.rst:1436
+msgid ":ref:`board_espressif32_adafruit_qualia_s3_rgb666`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:298 ../../../frameworks/espidf.rst:1443
+msgid ":ref:`board_espressif32_adafruit_camera_esp32s3`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:304 ../../../frameworks/espidf.rst:1464
+msgid ":ref:`board_espressif32_esp32-c3-m1i-kit`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:310 ../../../frameworks/espidf.rst:1471
+msgid ":ref:`board_espressif32_nodemcu-32s2`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:316 ../../../frameworks/espidf.rst:1492
+msgid ":ref:`board_espressif32_airm2m_core_esp32c3`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:322 ../../../frameworks/espidf.rst:1576
+msgid ":ref:`board_espressif32_arduino_nano_esp32`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:328 ../../../frameworks/espidf.rst:1597
+msgid ":ref:`board_espressif32_atd147_s3`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:334 ../../../frameworks/espidf.rst:1604
+msgid ":ref:`board_espressif32_ioxesp32`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:340 ../../../frameworks/espidf.rst:1611
+msgid ":ref:`board_espressif32_ioxesp32ps`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:346 ../../../frameworks/espidf.rst:1632
+msgid ":ref:`board_espressif32_aventen_s3_sync`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:352 ../../../frameworks/espidf.rst:1660
+msgid ":ref:`board_espressif32_bpi_leaf_s3`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:358 ../../../frameworks/espidf.rst:1688
+msgid ":ref:`board_espressif32_wifiduino32s3`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:364 ../../../frameworks/espidf.rst:1695
+msgid ":ref:`board_espressif32_wifiduino32c3`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:370 ../../../frameworks/espidf.rst:1737
+msgid ":ref:`board_espressif32_connaxio_espoir`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:376 ../../../frameworks/espidf.rst:1758
+msgid ":ref:`board_espressif32_cytron_maker_feather_aiot_s3`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:382 ../../../frameworks/espidf.rst:1856
+msgid ":ref:`board_espressif32_d-duino-32`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:388 ../../../frameworks/espidf.rst:1779
+msgid ":ref:`board_espressif32_dfrobot_beetle_esp32c3`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:394 ../../../frameworks/espidf.rst:1786
+msgid ":ref:`board_espressif32_dfrobot_firebeetle2_esp32e`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:400 ../../../frameworks/espidf.rst:1793
+msgid ":ref:`board_espressif32_dfrobot_firebeetle2_esp32s3`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:406 ../../../frameworks/espidf.rst:1800
+msgid ":ref:`board_espressif32_dfrobot_romeo_esp32s3`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:412 ../../../frameworks/espidf.rst:1828
+msgid ":ref:`board_espressif32_esp32doit-devkit-v1`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:418 ../../../frameworks/espidf.rst:1835
+msgid ":ref:`board_espressif32_esp32doit-espduino`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:424 ../../../frameworks/espidf.rst:3515
+msgid ":ref:`board_espressif32_deneyapkart`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:430 ../../../frameworks/espidf.rst:3522
+msgid ":ref:`board_espressif32_deneyapkart1A`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:436 ../../../frameworks/espidf.rst:3529
+msgid ":ref:`board_espressif32_deneyapkart1Av2`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:442 ../../../frameworks/espidf.rst:3536
+msgid ":ref:`board_espressif32_deneyapkartg`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:448 ../../../frameworks/espidf.rst:3543
+msgid ":ref:`board_espressif32_deneyapmini`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:454 ../../../frameworks/espidf.rst:3550
+msgid ":ref:`board_espressif32_deneyapminiv2`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:460 ../../../frameworks/espidf.rst:1905
+msgid ":ref:`board_espressif32_minimain_esp32s2`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:466 ../../../frameworks/espidf.rst:1926
+msgid ":ref:`board_espressif32_pocket_32`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:472 ../../../frameworks/espidf.rst:3865
+msgid ":ref:`board_espressif32_fm-devkit`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:478 ../../../frameworks/espidf.rst:2052
+msgid ":ref:`board_espressif32_pico32`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:484 ../../../frameworks/espidf.rst:3102
+msgid ":ref:`board_espressif32_esp32s3_powerfeather`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:490 ../../../frameworks/espidf.rst:2059
+msgid ":ref:`board_espressif32_esp32s3camlcd`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:496 ../../../frameworks/espidf.rst:1968
+msgid ":ref:`board_espressif32_esp32vn-iot-uno`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:502 ../../../frameworks/espidf.rst:1947
+msgid ":ref:`board_espressif32_espectro32`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:508 ../../../frameworks/espidf.rst:3676
+msgid ":ref:`board_espressif32_espino32`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:514 ../../../frameworks/espidf.rst:2031
+msgid ":ref:`board_espressif32_atmegazero_esp32s2`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:520 ../../../frameworks/espidf.rst:2073
+msgid ":ref:`board_espressif32_esp32dev`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:526 ../../../frameworks/espidf.rst:2080
+msgid ":ref:`board_espressif32_esp32-c3-devkitc-02`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:532 ../../../frameworks/espidf.rst:2087
+msgid ":ref:`board_espressif32_esp32-c3-devkitm-1`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:538 ../../../frameworks/espidf.rst:2101
+msgid ":ref:`board_espressif32_esp32-c6-devkitm-1`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:540 ../../../frameworks/espidf.rst:822
+#: ../../../frameworks/espidf.rst:1140 ../../../frameworks/espidf.rst:1146
+#: ../../../frameworks/espidf.rst:2097 ../../../frameworks/espidf.rst:2104
+#: ../../../frameworks/espidf.rst:3343 ../../../frameworks/espidf.rst:4148
+#: ../../../frameworks/espidf.rst:4155
+msgid "ESP32C6"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:544 ../../../frameworks/espidf.rst:2115
+msgid ":ref:`board_espressif32_esp32-s2-saola-1`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:550 ../../../frameworks/espidf.rst:2122
+msgid ":ref:`board_espressif32_esp32s3box`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:556 ../../../frameworks/espidf.rst:1807
+msgid ":ref:`board_espressif32_firebeetle32`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:562 ../../../frameworks/espidf.rst:2206
+msgid ":ref:`board_espressif32_franzininho_wifi_esp32s2`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:568 ../../../frameworks/espidf.rst:2213
+msgid ":ref:`board_espressif32_esp32-s2-franzininho`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:574 ../../../frameworks/espidf.rst:2220
+msgid ":ref:`board_espressif32_franzininho_wifi_msc_esp32s2`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:580 ../../../frameworks/espidf.rst:2269
+msgid ":ref:`board_espressif32_freenove_esp32_wrover`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:586 ../../../frameworks/espidf.rst:2241
+msgid ":ref:`board_espressif32_frogboard`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:592 ../../../frameworks/espidf.rst:2290
+msgid ":ref:`board_espressif32_honeylemon`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:598 ../../../frameworks/espidf.rst:2332
+msgid ":ref:`board_espressif32_heltec_wifi_kit_32_V3`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:604 ../../../frameworks/espidf.rst:2374
+msgid ":ref:`board_espressif32_heltec_wifi_lora_32`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:610 ../../../frameworks/espidf.rst:2381
+msgid ":ref:`board_espressif32_heltec_wifi_lora_32_V2`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:616 ../../../frameworks/espidf.rst:2339
+msgid ":ref:`board_espressif32_heltec_wifi_lora_32_V3`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:622 ../../../frameworks/espidf.rst:2388
+msgid ":ref:`board_espressif32_heltec_wireless_stick`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:628 ../../../frameworks/espidf.rst:2416
+msgid ":ref:`board_espressif32_hornbill32dev`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:634 ../../../frameworks/espidf.rst:2423
+msgid ":ref:`board_espressif32_hornbill32minima`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:640 ../../../frameworks/espidf.rst:2528
+msgid ":ref:`board_espressif32_nebulas3`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:646 ../../../frameworks/espidf.rst:2549
+msgid ":ref:`board_espressif32_sensesiot_weizen`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:652 ../../../frameworks/espidf.rst:1534
+msgid ":ref:`board_espressif32_lilka_v2`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:658 ../../../frameworks/espidf.rst:2598
+msgid ":ref:`board_espressif32_lilygo-t-display-s3`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:664 ../../../frameworks/espidf.rst:2605
+msgid ":ref:`board_espressif32_lilygo-t3-s3`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:670 ../../../frameworks/espidf.rst:2626
+msgid ":ref:`board_espressif32_lionbit`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:676 ../../../frameworks/espidf.rst:2654
+msgid ":ref:`board_espressif32_m5stack-atoms3`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:682 ../../../frameworks/espidf.rst:2682
+msgid ":ref:`board_espressif32_m5stack-cores3`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:688 ../../../frameworks/espidf.rst:2703
+msgid ":ref:`board_espressif32_m5stack-stamps3`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:694 ../../../frameworks/espidf.rst:2822
+msgid ":ref:`board_espressif32_mhetesp32devkit`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:700 ../../../frameworks/espidf.rst:2829
+msgid ":ref:`board_espressif32_mhetesp32minikit`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:706 ../../../frameworks/espidf.rst:2871
+msgid ":ref:`board_espressif32_kb32-ft`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:712 ../../../frameworks/espidf.rst:2920
+msgid ":ref:`board_espressif32_motorgo_mini_1`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:718 ../../../frameworks/espidf.rst:2941
+msgid ":ref:`board_espressif32_redpill_esp32s3`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:724 ../../../frameworks/espidf.rst:2766
+msgid ":ref:`board_espressif32_namino_arancio`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:730 ../../../frameworks/espidf.rst:2773
+msgid ":ref:`board_espressif32_namino_rosso`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:736 ../../../frameworks/espidf.rst:1513
+msgid ":ref:`board_espressif32_node32s`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:742 ../../../frameworks/espidf.rst:2962
+msgid ":ref:`board_espressif32_nodemcu-32s`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:748 ../../../frameworks/espidf.rst:3004
+msgid ":ref:`board_espressif32_esp32-devkitlipo`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:754 ../../../frameworks/espidf.rst:3011
+msgid ":ref:`board_espressif32_esp32-evb`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:760 ../../../frameworks/espidf.rst:3018
+msgid ":ref:`board_espressif32_esp32-gateway`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:766 ../../../frameworks/espidf.rst:3151
+msgid ":ref:`board_espressif32_lopy`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:772 ../../../frameworks/espidf.rst:3158
+msgid ":ref:`board_espressif32_lopy4`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:777 ../../../frameworks/espidf.rst:783
+#: ../../../frameworks/espidf.rst:939 ../../../frameworks/espidf.rst:957
+#: ../../../frameworks/espidf.rst:3164 ../../../frameworks/espidf.rst:3171
+#: ../../../frameworks/espidf.rst:3626 ../../../frameworks/espidf.rst:3654
+#: ../../../frameworks/espidf.rst:3661
+msgid "1.25MB"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:778 ../../../frameworks/espidf.rst:3165
+msgid ":ref:`board_espressif32_wipy3`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:784 ../../../frameworks/espidf.rst:3207
+msgid ":ref:`board_espressif32_rymcu-esp32-c3-devkitm-1`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:790 ../../../frameworks/espidf.rst:3214
+msgid ":ref:`board_espressif32_rymcu-esp32-devkitc`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:796 ../../../frameworks/espidf.rst:3284
+msgid ":ref:`board_espressif32_sg-o_airMon`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:802 ../../../frameworks/espidf.rst:3305
+msgid ":ref:`board_espressif32_watchy`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:808 ../../../frameworks/espidf.rst:3326
+msgid ":ref:`board_espressif32_edgebox-esp-100`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:814 ../../../frameworks/espidf.rst:3333
+msgid ":ref:`board_espressif32_seeed_xiao_esp32c3`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:820 ../../../frameworks/espidf.rst:3340
+msgid ":ref:`board_espressif32_seeed_xiao_esp32c6`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:826 ../../../frameworks/espidf.rst:3347
+msgid ":ref:`board_espressif32_seeed_xiao_esp32s3`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:832 ../../../frameworks/espidf.rst:3368
+msgid ":ref:`board_espressif32_wesp32`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:838 ../../../frameworks/espidf.rst:3389
+msgid ":ref:`board_espressif32_bee_data_logger`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:844 ../../../frameworks/espidf.rst:3396
+msgid ":ref:`board_espressif32_bee_motion`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:850 ../../../frameworks/espidf.rst:3403
+msgid ":ref:`board_espressif32_bee_motion_mini`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:856 ../../../frameworks/espidf.rst:3410
+msgid ":ref:`board_espressif32_bee_motion_s3`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:862 ../../../frameworks/espidf.rst:3417
+msgid ":ref:`board_espressif32_bee_s3`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:868 ../../../frameworks/espidf.rst:3438
+msgid ":ref:`board_espressif32_sparkfun_esp32_iot_redboard`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:874 ../../../frameworks/espidf.rst:3487
+msgid ":ref:`board_espressif32_esp32thing`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:880 ../../../frameworks/espidf.rst:3494
+msgid ":ref:`board_espressif32_esp32thing_plus`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:886 ../../../frameworks/espidf.rst:3452
+msgid ":ref:`board_espressif32_sparkfun_esp32s2_thing_plus_c`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:892 ../../../frameworks/espidf.rst:3459
+msgid ":ref:`board_espressif32_sparkfun_esp32s2_thing_plus`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:898 ../../../frameworks/espidf.rst:3466
+msgid ":ref:`board_espressif32_sparkfun_lora_gateway_1-channel`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:904 ../../../frameworks/espidf.rst:3571
+msgid ":ref:`board_espressif32_dpu_esp32`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:910 ../../../frameworks/espidf.rst:3578
+msgid ":ref:`board_espressif32_tamc_termod_s3`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:916 ../../../frameworks/espidf.rst:3599
+msgid ":ref:`board_espressif32_ttgo-lora32-v1`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:922 ../../../frameworks/espidf.rst:3606
+msgid ":ref:`board_espressif32_ttgo-lora32-v2`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:928 ../../../frameworks/espidf.rst:3613
+msgid ":ref:`board_espressif32_ttgo-lora32-v21`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:934 ../../../frameworks/espidf.rst:3620
+msgid ":ref:`board_espressif32_ttgo-t-beam`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:940 ../../../frameworks/espidf.rst:3627
+msgid ":ref:`board_espressif32_ttgo-t-oi-plus`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:946 ../../../frameworks/espidf.rst:3641
+msgid ":ref:`board_espressif32_ttgo-t1`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:952 ../../../frameworks/espidf.rst:3655
+msgid ":ref:`board_espressif32_ttgo-t7-v14-mini32`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:958 ../../../frameworks/espidf.rst:3697
+msgid ":ref:`board_espressif32_trueverit-iot-driver`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:964 ../../../frameworks/espidf.rst:3704
+msgid ":ref:`board_espressif32_trueverit-iot-driver-mk2`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:970 ../../../frameworks/espidf.rst:3711
+msgid ":ref:`board_espressif32_trueverit-iot-driver-mk3`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:976 ../../../frameworks/espidf.rst:3753
+msgid ":ref:`board_espressif32_um_feathers2`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:982 ../../../frameworks/espidf.rst:3760
+msgid ":ref:`board_espressif32_um_feathers2_neo`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:988 ../../../frameworks/espidf.rst:3767
+msgid ":ref:`board_espressif32_um_feathers3`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:994 ../../../frameworks/espidf.rst:3774
+msgid ":ref:`board_espressif32_um_nanos3`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:1000 ../../../frameworks/espidf.rst:3781
+msgid ":ref:`board_espressif32_um_pros3`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:1006 ../../../frameworks/espidf.rst:3788
+msgid ":ref:`board_espressif32_um_rmp`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:1012 ../../../frameworks/espidf.rst:3802
+msgid ":ref:`board_espressif32_um_tinys2`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:1018 ../../../frameworks/espidf.rst:3809
+msgid ":ref:`board_espressif32_um_tinys3`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:1024 ../../../frameworks/espidf.rst:3886
+msgid ":ref:`board_espressif32_valtrack_v4_mfw_esp32_c3`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:1030 ../../../frameworks/espidf.rst:3893
+msgid ":ref:`board_espressif32_valtrack_v4_vts_esp32_c3`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:1036 ../../../frameworks/espidf.rst:3914
+msgid ":ref:`board_espressif32_vintlabs-devkit-v1`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:1042 ../../../frameworks/espidf.rst:3935
+msgid ":ref:`board_espressif32_wemos_d1_mini32`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:1048 ../../../frameworks/espidf.rst:3942
+msgid ":ref:`board_espressif32_wemos_d1_uno32`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:1054 ../../../frameworks/espidf.rst:3949
+msgid ":ref:`board_espressif32_lolin_c3_mini`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:1060 ../../../frameworks/espidf.rst:3956
+msgid ":ref:`board_espressif32_lolin_d32`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:1066 ../../../frameworks/espidf.rst:3963
+msgid ":ref:`board_espressif32_lolin_d32_pro`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:1072 ../../../frameworks/espidf.rst:3970
+msgid ":ref:`board_espressif32_lolin_s2_mini`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:1078 ../../../frameworks/espidf.rst:3977
+msgid ":ref:`board_espressif32_lolin_s2_pico`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:1084 ../../../frameworks/espidf.rst:3984
+msgid ":ref:`board_espressif32_lolin_s3`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:1090 ../../../frameworks/espidf.rst:3991
+msgid ":ref:`board_espressif32_lolin_s3_mini`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:1096 ../../../frameworks/espidf.rst:3998
+msgid ":ref:`board_espressif32_lolin_s3_pro`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:1102 ../../../frameworks/espidf.rst:4005
+msgid ":ref:`board_espressif32_lolin32`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:1108 ../../../frameworks/espidf.rst:4012
+msgid ":ref:`board_espressif32_lolin32_lite`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:1114 ../../../frameworks/espidf.rst:4040
+msgid ":ref:`board_espressif32_weactstudio_esp32c3coreboard`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:1118 ../../../frameworks/espidf.rst:4045
+msgid "384KB"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:1119 ../../../frameworks/espidf.rst:4046
+msgid "400KB"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:1120 ../../../frameworks/espidf.rst:4019
+msgid ":ref:`board_espressif32_wemosbat`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:1126 ../../../frameworks/espidf.rst:4082
+msgid ":ref:`board_espressif32_wt32-eth01`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:1132 ../../../frameworks/espidf.rst:4103
+msgid ":ref:`board_espressif32_xinabox_cw02`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:1138 ../../../frameworks/espidf.rst:4145
+msgid ":ref:`board_espressif32_cezerio_dev_esp32c6`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:1144 ../../../frameworks/espidf.rst:4152
+msgid ":ref:`board_espressif32_cezerio_mini_dev_esp32c6`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:1150 ../../../frameworks/espidf.rst:4173
+msgid ":ref:`board_espressif32_micros2`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:1156 ../../../frameworks/espidf.rst:4194
+msgid ":ref:`board_espressif32_iotbusio`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:1162 ../../../frameworks/espidf.rst:4201
+msgid ":ref:`board_espressif32_iotbusproteus`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:1168 ../../../frameworks/espidf.rst:4222
+msgid ":ref:`board_espressif32_sensebox_mcu_esp32s2`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:1174 ../../../frameworks/espidf.rst:4264
+msgid ":ref:`board_espressif32_upesy_wroom`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:1180 ../../../frameworks/espidf.rst:4271
+msgid ":ref:`board_espressif32_upesy_wrover`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:1186 ../../../frameworks/espidf.rst:3830
+msgid ":ref:`board_espressif32_unphone7`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:1192 ../../../frameworks/espidf.rst:3837
+msgid ":ref:`board_espressif32_unphone8`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:1196 ../../../frameworks/espidf.rst:1202
+#: ../../../frameworks/espidf.rst:3842 ../../../frameworks/espidf.rst:3849
+msgid "7.94MB"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:1197 ../../../frameworks/espidf.rst:3843
+msgid "2.31MB"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:1198 ../../../frameworks/espidf.rst:3844
+msgid ":ref:`board_espressif32_unphone9`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:1203 ../../../frameworks/espidf.rst:3850
+msgid "8.31MB"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:1207
+msgid "Boards"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:1210
+msgid "You can list pre-configured boards by :ref:`cmd_boards` command"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:1211
+msgid ""
+"For more detailed ``board`` information please scroll the tables below by "
+"horizontally."
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:1214
+msgid "4D Systems"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:1221 ../../../frameworks/espidf.rst:1242
+#: ../../../frameworks/espidf.rst:1263 ../../../frameworks/espidf.rst:1284
+#: ../../../frameworks/espidf.rst:1459 ../../../frameworks/espidf.rst:1487
+#: ../../../frameworks/espidf.rst:1508 ../../../frameworks/espidf.rst:1529
+#: ../../../frameworks/espidf.rst:1550 ../../../frameworks/espidf.rst:1571
+#: ../../../frameworks/espidf.rst:1592 ../../../frameworks/espidf.rst:1627
+#: ../../../frameworks/espidf.rst:1648 ../../../frameworks/espidf.rst:1676
+#: ../../../frameworks/espidf.rst:1711 ../../../frameworks/espidf.rst:1732
+#: ../../../frameworks/espidf.rst:1753 ../../../frameworks/espidf.rst:1774
+#: ../../../frameworks/espidf.rst:1823 ../../../frameworks/espidf.rst:1851
+#: ../../../frameworks/espidf.rst:1872 ../../../frameworks/espidf.rst:1900
+#: ../../../frameworks/espidf.rst:1921 ../../../frameworks/espidf.rst:1942
+#: ../../../frameworks/espidf.rst:1963 ../../../frameworks/espidf.rst:1984
+#: ../../../frameworks/espidf.rst:2005 ../../../frameworks/espidf.rst:2026
+#: ../../../frameworks/espidf.rst:2047 ../../../frameworks/espidf.rst:2159
+#: ../../../frameworks/espidf.rst:2180 ../../../frameworks/espidf.rst:2201
+#: ../../../frameworks/espidf.rst:2236 ../../../frameworks/espidf.rst:2257
+#: ../../../frameworks/espidf.rst:2285 ../../../frameworks/espidf.rst:2306
+#: ../../../frameworks/espidf.rst:2327 ../../../frameworks/espidf.rst:2355
+#: ../../../frameworks/espidf.rst:2411 ../../../frameworks/espidf.rst:2439
+#: ../../../frameworks/espidf.rst:2460 ../../../frameworks/espidf.rst:2481
+#: ../../../frameworks/espidf.rst:2502 ../../../frameworks/espidf.rst:2523
+#: ../../../frameworks/espidf.rst:2544 ../../../frameworks/espidf.rst:2565
+#: ../../../frameworks/espidf.rst:2586 ../../../frameworks/espidf.rst:2621
+#: ../../../frameworks/espidf.rst:2649 ../../../frameworks/espidf.rst:2761
+#: ../../../frameworks/espidf.rst:2789 ../../../frameworks/espidf.rst:2817
+#: ../../../frameworks/espidf.rst:2845 ../../../frameworks/espidf.rst:2866
+#: ../../../frameworks/espidf.rst:2894 ../../../frameworks/espidf.rst:2915
+#: ../../../frameworks/espidf.rst:2936 ../../../frameworks/espidf.rst:2957
+#: ../../../frameworks/espidf.rst:2978 ../../../frameworks/espidf.rst:2999
+#: ../../../frameworks/espidf.rst:3055 ../../../frameworks/espidf.rst:3076
+#: ../../../frameworks/espidf.rst:3097 ../../../frameworks/espidf.rst:3118
+#: ../../../frameworks/espidf.rst:3139 ../../../frameworks/espidf.rst:3181
+#: ../../../frameworks/espidf.rst:3202 ../../../frameworks/espidf.rst:3237
+#: ../../../frameworks/espidf.rst:3258 ../../../frameworks/espidf.rst:3279
+#: ../../../frameworks/espidf.rst:3300 ../../../frameworks/espidf.rst:3321
+#: ../../../frameworks/espidf.rst:3363 ../../../frameworks/espidf.rst:3384
+#: ../../../frameworks/espidf.rst:3433 ../../../frameworks/espidf.rst:3482
+#: ../../../frameworks/espidf.rst:3510 ../../../frameworks/espidf.rst:3566
+#: ../../../frameworks/espidf.rst:3594 ../../../frameworks/espidf.rst:3671
+#: ../../../frameworks/espidf.rst:3692 ../../../frameworks/espidf.rst:3727
+#: ../../../frameworks/espidf.rst:3748 ../../../frameworks/espidf.rst:3825
+#: ../../../frameworks/espidf.rst:3860 ../../../frameworks/espidf.rst:3881
+#: ../../../frameworks/espidf.rst:3909 ../../../frameworks/espidf.rst:3930
+#: ../../../frameworks/espidf.rst:4035 ../../../frameworks/espidf.rst:4056
+#: ../../../frameworks/espidf.rst:4077 ../../../frameworks/espidf.rst:4098
+#: ../../../frameworks/espidf.rst:4119 ../../../frameworks/espidf.rst:4140
+#: ../../../frameworks/espidf.rst:4168 ../../../frameworks/espidf.rst:4189
+#: ../../../frameworks/espidf.rst:4217 ../../../frameworks/espidf.rst:4238
+#: ../../../frameworks/espidf.rst:4259
+msgid "Debug"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:1228 ../../../frameworks/espidf.rst:1249
+#: ../../../frameworks/espidf.rst:1270 ../../../frameworks/espidf.rst:1291
+#: ../../../frameworks/espidf.rst:1298 ../../../frameworks/espidf.rst:1305
+#: ../../../frameworks/espidf.rst:1312 ../../../frameworks/espidf.rst:1319
+#: ../../../frameworks/espidf.rst:1326 ../../../frameworks/espidf.rst:1333
+#: ../../../frameworks/espidf.rst:1340 ../../../frameworks/espidf.rst:1347
+#: ../../../frameworks/espidf.rst:1354 ../../../frameworks/espidf.rst:1361
+#: ../../../frameworks/espidf.rst:1368 ../../../frameworks/espidf.rst:1375
+#: ../../../frameworks/espidf.rst:1382 ../../../frameworks/espidf.rst:1389
+#: ../../../frameworks/espidf.rst:1396 ../../../frameworks/espidf.rst:1403
+#: ../../../frameworks/espidf.rst:1410 ../../../frameworks/espidf.rst:1417
+#: ../../../frameworks/espidf.rst:1424 ../../../frameworks/espidf.rst:1431
+#: ../../../frameworks/espidf.rst:1438 ../../../frameworks/espidf.rst:1445
+#: ../../../frameworks/espidf.rst:1466 ../../../frameworks/espidf.rst:1473
+#: ../../../frameworks/espidf.rst:1494 ../../../frameworks/espidf.rst:1515
+#: ../../../frameworks/espidf.rst:1536 ../../../frameworks/espidf.rst:1578
+#: ../../../frameworks/espidf.rst:1599 ../../../frameworks/espidf.rst:1606
+#: ../../../frameworks/espidf.rst:1613 ../../../frameworks/espidf.rst:1634
+#: ../../../frameworks/espidf.rst:1662 ../../../frameworks/espidf.rst:1690
+#: ../../../frameworks/espidf.rst:1697 ../../../frameworks/espidf.rst:1739
+#: ../../../frameworks/espidf.rst:1760 ../../../frameworks/espidf.rst:1781
+#: ../../../frameworks/espidf.rst:1788 ../../../frameworks/espidf.rst:1795
+#: ../../../frameworks/espidf.rst:1802 ../../../frameworks/espidf.rst:1809
+#: ../../../frameworks/espidf.rst:1830 ../../../frameworks/espidf.rst:1837
+#: ../../../frameworks/espidf.rst:1858 ../../../frameworks/espidf.rst:1907
+#: ../../../frameworks/espidf.rst:1928 ../../../frameworks/espidf.rst:1949
+#: ../../../frameworks/espidf.rst:1970 ../../../frameworks/espidf.rst:2033
+#: ../../../frameworks/espidf.rst:2054 ../../../frameworks/espidf.rst:2061
+#: ../../../frameworks/espidf.rst:2075 ../../../frameworks/espidf.rst:2082
+#: ../../../frameworks/espidf.rst:2089 ../../../frameworks/espidf.rst:2103
+#: ../../../frameworks/espidf.rst:2117 ../../../frameworks/espidf.rst:2124
+#: ../../../frameworks/espidf.rst:2208 ../../../frameworks/espidf.rst:2215
+#: ../../../frameworks/espidf.rst:2222 ../../../frameworks/espidf.rst:2243
+#: ../../../frameworks/espidf.rst:2271 ../../../frameworks/espidf.rst:2292
+#: ../../../frameworks/espidf.rst:2334 ../../../frameworks/espidf.rst:2341
+#: ../../../frameworks/espidf.rst:2376 ../../../frameworks/espidf.rst:2383
+#: ../../../frameworks/espidf.rst:2390 ../../../frameworks/espidf.rst:2418
+#: ../../../frameworks/espidf.rst:2425 ../../../frameworks/espidf.rst:2530
+#: ../../../frameworks/espidf.rst:2551 ../../../frameworks/espidf.rst:2600
+#: ../../../frameworks/espidf.rst:2607 ../../../frameworks/espidf.rst:2628
+#: ../../../frameworks/espidf.rst:2656 ../../../frameworks/espidf.rst:2684
+#: ../../../frameworks/espidf.rst:2705 ../../../frameworks/espidf.rst:2768
+#: ../../../frameworks/espidf.rst:2775 ../../../frameworks/espidf.rst:2824
+#: ../../../frameworks/espidf.rst:2831 ../../../frameworks/espidf.rst:2873
+#: ../../../frameworks/espidf.rst:2922 ../../../frameworks/espidf.rst:2943
+#: ../../../frameworks/espidf.rst:2964 ../../../frameworks/espidf.rst:3006
+#: ../../../frameworks/espidf.rst:3013 ../../../frameworks/espidf.rst:3020
+#: ../../../frameworks/espidf.rst:3104 ../../../frameworks/espidf.rst:3153
+#: ../../../frameworks/espidf.rst:3160 ../../../frameworks/espidf.rst:3167
+#: ../../../frameworks/espidf.rst:3209 ../../../frameworks/espidf.rst:3216
+#: ../../../frameworks/espidf.rst:3286 ../../../frameworks/espidf.rst:3307
+#: ../../../frameworks/espidf.rst:3328 ../../../frameworks/espidf.rst:3335
+#: ../../../frameworks/espidf.rst:3342 ../../../frameworks/espidf.rst:3349
+#: ../../../frameworks/espidf.rst:3370 ../../../frameworks/espidf.rst:3391
+#: ../../../frameworks/espidf.rst:3398 ../../../frameworks/espidf.rst:3405
+#: ../../../frameworks/espidf.rst:3412 ../../../frameworks/espidf.rst:3419
+#: ../../../frameworks/espidf.rst:3440 ../../../frameworks/espidf.rst:3454
+#: ../../../frameworks/espidf.rst:3461 ../../../frameworks/espidf.rst:3468
+#: ../../../frameworks/espidf.rst:3489 ../../../frameworks/espidf.rst:3496
+#: ../../../frameworks/espidf.rst:3517 ../../../frameworks/espidf.rst:3524
+#: ../../../frameworks/espidf.rst:3531 ../../../frameworks/espidf.rst:3538
+#: ../../../frameworks/espidf.rst:3545 ../../../frameworks/espidf.rst:3552
+#: ../../../frameworks/espidf.rst:3573 ../../../frameworks/espidf.rst:3580
+#: ../../../frameworks/espidf.rst:3601 ../../../frameworks/espidf.rst:3608
+#: ../../../frameworks/espidf.rst:3615 ../../../frameworks/espidf.rst:3622
+#: ../../../frameworks/espidf.rst:3629 ../../../frameworks/espidf.rst:3643
+#: ../../../frameworks/espidf.rst:3657 ../../../frameworks/espidf.rst:3678
+#: ../../../frameworks/espidf.rst:3699 ../../../frameworks/espidf.rst:3706
+#: ../../../frameworks/espidf.rst:3713 ../../../frameworks/espidf.rst:3755
+#: ../../../frameworks/espidf.rst:3762 ../../../frameworks/espidf.rst:3769
+#: ../../../frameworks/espidf.rst:3776 ../../../frameworks/espidf.rst:3783
+#: ../../../frameworks/espidf.rst:3790 ../../../frameworks/espidf.rst:3804
+#: ../../../frameworks/espidf.rst:3811 ../../../frameworks/espidf.rst:3832
+#: ../../../frameworks/espidf.rst:3839 ../../../frameworks/espidf.rst:3846
+#: ../../../frameworks/espidf.rst:3867 ../../../frameworks/espidf.rst:3888
+#: ../../../frameworks/espidf.rst:3895 ../../../frameworks/espidf.rst:3916
+#: ../../../frameworks/espidf.rst:3937 ../../../frameworks/espidf.rst:3944
+#: ../../../frameworks/espidf.rst:3951 ../../../frameworks/espidf.rst:3958
+#: ../../../frameworks/espidf.rst:3965 ../../../frameworks/espidf.rst:3972
+#: ../../../frameworks/espidf.rst:3979 ../../../frameworks/espidf.rst:3986
+#: ../../../frameworks/espidf.rst:3993 ../../../frameworks/espidf.rst:4000
+#: ../../../frameworks/espidf.rst:4007 ../../../frameworks/espidf.rst:4014
+#: ../../../frameworks/espidf.rst:4021 ../../../frameworks/espidf.rst:4042
+#: ../../../frameworks/espidf.rst:4084 ../../../frameworks/espidf.rst:4105
+#: ../../../frameworks/espidf.rst:4147 ../../../frameworks/espidf.rst:4154
+#: ../../../frameworks/espidf.rst:4175 ../../../frameworks/espidf.rst:4196
+#: ../../../frameworks/espidf.rst:4203 ../../../frameworks/espidf.rst:4224
+#: ../../../frameworks/espidf.rst:4266 ../../../frameworks/espidf.rst:4273
+msgid "External"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:1235
+msgid "AI Thinker"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:1256
+msgid "AZ-Delivery"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:1277
+msgid "Adafruit"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:1452
+msgid "Ai-Thinker"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:1480
+msgid "AirM2M"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:1501
+msgid "Aiyarafun"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:1522
+msgid "Anderson & friends"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:1543
+msgid "April Brother"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:1555
+msgid ":ref:`board_espressif32_espea32`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:1557 ../../../frameworks/espidf.rst:1655
+#: ../../../frameworks/espidf.rst:1683 ../../../frameworks/espidf.rst:1718
+#: ../../../frameworks/espidf.rst:1879 ../../../frameworks/espidf.rst:1886
+#: ../../../frameworks/espidf.rst:1991 ../../../frameworks/espidf.rst:2012
+#: ../../../frameworks/espidf.rst:2096 ../../../frameworks/espidf.rst:2166
+#: ../../../frameworks/espidf.rst:2187 ../../../frameworks/espidf.rst:2313
+#: ../../../frameworks/espidf.rst:2362 ../../../frameworks/espidf.rst:2369
+#: ../../../frameworks/espidf.rst:2397 ../../../frameworks/espidf.rst:2446
+#: ../../../frameworks/espidf.rst:2467 ../../../frameworks/espidf.rst:2488
+#: ../../../frameworks/espidf.rst:2509 ../../../frameworks/espidf.rst:2572
+#: ../../../frameworks/espidf.rst:2593 ../../../frameworks/espidf.rst:2663
+#: ../../../frameworks/espidf.rst:2670 ../../../frameworks/espidf.rst:2677
+#: ../../../frameworks/espidf.rst:2691 ../../../frameworks/espidf.rst:2698
+#: ../../../frameworks/espidf.rst:2712 ../../../frameworks/espidf.rst:2719
+#: ../../../frameworks/espidf.rst:2726 ../../../frameworks/espidf.rst:2733
+#: ../../../frameworks/espidf.rst:2740 ../../../frameworks/espidf.rst:2747
+#: ../../../frameworks/espidf.rst:2796 ../../../frameworks/espidf.rst:2803
+#: ../../../frameworks/espidf.rst:2852 ../../../frameworks/espidf.rst:2880
+#: ../../../frameworks/espidf.rst:2901 ../../../frameworks/espidf.rst:2985
+#: ../../../frameworks/espidf.rst:3027 ../../../frameworks/espidf.rst:3034
+#: ../../../frameworks/espidf.rst:3041 ../../../frameworks/espidf.rst:3062
+#: ../../../frameworks/espidf.rst:3083 ../../../frameworks/espidf.rst:3125
+#: ../../../frameworks/espidf.rst:3146 ../../../frameworks/espidf.rst:3188
+#: ../../../frameworks/espidf.rst:3244 ../../../frameworks/espidf.rst:3265
+#: ../../../frameworks/espidf.rst:3447 ../../../frameworks/espidf.rst:3636
+#: ../../../frameworks/espidf.rst:3650 ../../../frameworks/espidf.rst:3734
+#: ../../../frameworks/espidf.rst:3797 ../../../frameworks/espidf.rst:4063
+#: ../../../frameworks/espidf.rst:4126 ../../../frameworks/espidf.rst:4245
+msgid "No"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:1564
+msgid "Arduino"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:1585
+msgid "ArtronShop"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:1620
+msgid "Aventen"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:1641
+msgid "BPI Tech"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:1653
+msgid ":ref:`board_espressif32_bpi-bit`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:1669
+msgid "Blinker"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:1681
+msgid ":ref:`board_espressif32_wifiduino32`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:1704
+msgid "CNRS"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:1716
+msgid ":ref:`board_espressif32_cnrs_aw2eth`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:1725
+msgid "Connaxio"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:1746
+msgid "Cytron Technologies"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:1767
+msgid "DFRobot"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:1816
+msgid "DOIT"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:1844
+msgid "DSTIKE"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:1865
+msgid "Denky"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:1877
+msgid ":ref:`board_espressif32_denky_d4`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:1884
+msgid ":ref:`board_espressif32_denky32`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:1893
+msgid "Department of Alchemy"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:1914
+msgid "Dongsen Technology"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:1935
+msgid "DycodeX"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:1956
+msgid "ESP32vn"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:1977
+msgid "ETBoard"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:1989
+msgid ":ref:`board_espressif32_etboard`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:1998
+msgid "Electronic SweetPeas"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:2010
+msgid ":ref:`board_espressif32_esp320`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:2019
+msgid "EspinalLab"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:2040
+msgid "Espressif"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:2068 ../../../frameworks/espidf.rst:2110
+#: ../../../frameworks/espidf.rst:2131 ../../../frameworks/espidf.rst:2138
+#: ../../../frameworks/espidf.rst:2145 ../../../frameworks/espidf.rst:2264
+#: ../../../frameworks/espidf.rst:2635 ../../../frameworks/espidf.rst:3223
+msgid "On-board"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:2094
+msgid ":ref:`board_espressif32_esp32-c6-devkitc-1`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:2152
+msgid "Espressif Systems"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:2164
+msgid ":ref:`board_espressif32_esp32-pico-devkitm-2`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:2173
+msgid "Fishino"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:2185
+msgid ":ref:`board_espressif32_piranha_esp32`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:2194
+msgid "Franzininho"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:2229
+msgid "Fred"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:2250
+msgid "Freenove"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:2278
+msgid "HONEYLemon"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:2299
+msgid "Hardkernel"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:2311
+msgid ":ref:`board_espressif32_odroid_esp32`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:2320
+msgid "Heltec"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:2348
+msgid "Heltec Automation"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:2360
+msgid ":ref:`board_espressif32_heltec_wifi_kit_32`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:2367
+msgid ":ref:`board_espressif32_heltec_wifi_kit_32_v2`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:2395
+msgid ":ref:`board_espressif32_heltec_wireless_stick_lite`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:2404
+msgid "Hornbill"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:2432
+msgid "INEX"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:2444
+msgid ":ref:`board_espressif32_inex_openkb`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:2453
+msgid "Imbrios"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:2465
+msgid ":ref:`board_espressif32_imbrios-logsens-v1p1`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:2474
+msgid "IntoRobot"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:2486
+msgid ":ref:`board_espressif32_intorobot`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:2495
+msgid "KITS"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:2507
+msgid ":ref:`board_espressif32_kits-edu`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:2516
+msgid "Kinetic Dynamics"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:2537
+msgid "LOGISENSES"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:2558
+msgid "Labplus"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:2570
+msgid ":ref:`board_espressif32_labplus_mpython`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:2579
+msgid "LilyGo"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:2591
+msgid ":ref:`board_espressif32_lilygo-t-display`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:2614
+msgid "Lion:Bit"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:2642
+msgid "M5Stack"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:2661
+msgid ":ref:`board_espressif32_m5stack-core-esp32`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:2668
+msgid ":ref:`board_espressif32_m5stack-core-esp32-16M`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:2675
+msgid ":ref:`board_espressif32_m5stack-core2`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:2681 ../../../frameworks/espidf.rst:2695
+#: ../../../frameworks/espidf.rst:2716
+msgid "4.31MB"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:2689
+msgid ":ref:`board_espressif32_m5stack-fire`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:2696
+msgid ":ref:`board_espressif32_m5stack-grey`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:2710
+msgid ":ref:`board_espressif32_m5stack-station`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:2717
+msgid ":ref:`board_espressif32_m5stack-timer-cam`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:2724
+msgid ":ref:`board_espressif32_m5stack-atom`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:2731
+msgid ":ref:`board_espressif32_m5stack-coreink`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:2738
+msgid ":ref:`board_espressif32_m5stamp-pico`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:2745
+msgid ":ref:`board_espressif32_m5stick-c`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:2754
+msgid "MECT SRL"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:2782
+msgid "MGBOT"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:2794
+msgid ":ref:`board_espressif32_mgbot-iotik32a`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:2801
+msgid ":ref:`board_espressif32_mgbot-iotik32b`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:2810
+msgid "MH-ET Live"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:2838
+msgid "Magicblocks.io"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:2850
+msgid ":ref:`board_espressif32_magicbit`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:2859
+msgid "MakerAsia"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:2878
+msgid ":ref:`board_espressif32_nano32`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:2887
+msgid "Microduino"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:2899
+msgid ":ref:`board_espressif32_microduino-core-esp32`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:2908
+msgid "MotorGo"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:2929
+msgid "Munich Labs"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:2950
+msgid "NodeMCU"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:2971
+msgid "Noduino"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:2983
+msgid ":ref:`board_espressif32_quantum`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:2992
+msgid "OLIMEX"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:3025
+msgid ":ref:`board_espressif32_esp32-pro`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:3032
+msgid ":ref:`board_espressif32_esp32-poe`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:3039
+msgid ":ref:`board_espressif32_esp32-poe-iso`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:3048
+msgid "OROCA"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:3060
+msgid ":ref:`board_espressif32_oroca_edubot`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:3069
+msgid "Onehorse"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:3081
+msgid ":ref:`board_espressif32_onehorse32dev`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:3090
+msgid "PowerFeather"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:3111
+msgid "ProtoCentral"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:3123
+msgid ":ref:`board_espressif32_healthypi4`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:3132
+msgid "Pycom Ltd."
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:3144
+msgid ":ref:`board_espressif32_pycom_gpy`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:3174
+msgid "Qmobot LLP"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:3186
+msgid ":ref:`board_espressif32_qchip`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:3195
+msgid "RYMCU"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:3230
+msgid "RoboHeart"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:3242
+msgid ":ref:`board_espressif32_roboheart_hercules`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:3251
+msgid "S.ODI"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:3263
+msgid ":ref:`board_espressif32_s_odi_ultra`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:3272
+msgid "SG-O"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:3293
+msgid "SQFMI"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:3314
+msgid "Seeed Studio"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:3356
+msgid "Silicognition"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:3377
+msgid "Smart Bee"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:3426
+msgid "SparkFun"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:3445
+msgid ":ref:`board_espressif32_sparkfun_esp32micromod`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:3475
+msgid "SparkFun Electronics"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:3503
+msgid "T3 Foundation"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:3559
+msgid "TAMC"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:3587
+msgid "TTGO"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:3634
+msgid ":ref:`board_espressif32_ttgo-t-watch`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:3648
+msgid ":ref:`board_espressif32_ttgo-t7-v13-mini32`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:3664
+msgid "ThaiEasyElec"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:3685
+msgid "Trueverit"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:3720
+msgid "Turta"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:3732
+msgid ":ref:`board_espressif32_turta_iot_node`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:3741
+msgid "Unexpected Maker"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:3795
+msgid ":ref:`board_espressif32_tinypico`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:3818
+msgid "University of Sheffield"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:3853
+msgid "Unknown"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:3874
+msgid "Valetron Systems"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:3902
+msgid "VintLabs"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:3923
+msgid "WEMOS"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:4028
+msgid "WeAct Studio"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:4049
+msgid "Widora"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:4061
+msgid ":ref:`board_espressif32_widora-air`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:4070
+msgid "Wireless-Tag"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:4091
+msgid "XinaBox"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:4112
+msgid "YeaCreate"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:4124
+msgid ":ref:`board_espressif32_nscreen-32`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:4133
+msgid "cezerio"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:4161
+msgid "microS2"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:4182
+msgid "oddWires"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:4210
+msgid "senseBox"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:4231
+msgid "u-blox"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:4243
+msgid ":ref:`board_espressif32_nina_w10`"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:4248
+msgid "2MB"
+msgstr ""
+
+#: ../../../frameworks/espidf.rst:4252
+msgid "uPesy"
+msgstr ""

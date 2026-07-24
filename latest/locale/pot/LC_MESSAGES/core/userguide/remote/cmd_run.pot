@@ -1,0 +1,126 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present, PlatformIO
+# This file is distributed under the same license as the PlatformIO package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PlatformIO latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-24 14:02+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../core/userguide/remote/cmd_run.rst:15
+msgid "pio remote run"
+msgstr ""
+
+#: ../../../core/userguide/remote/cmd_run.rst:17
+msgid "**Remote Firmware Updates**"
+msgstr ""
+
+#: ../../../core/userguide/remote/cmd_run.rst:19
+msgid "Contents"
+msgstr ""
+
+#: ../../../core/userguide/remote/cmd_run.rst:22
+msgid "Usage"
+msgstr ""
+
+#: ../../../core/userguide/remote/cmd_run.rst:32
+msgid "Description"
+msgstr ""
+
+#: ../../../core/userguide/remote/cmd_run.rst:34
+msgid ""
+"Process environments which are defined in :ref:`projectconf` file remotely. "
+"By default, :ref:`pioremote` builds project on a host machine and deploy "
+"final firmware (program) to a remote device (embedded board)."
+msgstr ""
+
+#: ../../../core/userguide/remote/cmd_run.rst:38
+msgid ""
+"If you need to process project on a remote machine, please use :option:`pio "
+"remote run --force-remote` option. In this case, :ref:`pioremote` will "
+"automatically synchronize your project with remote machine, install required "
+"toolchains, frameworks, SDKs, etc., and process project."
+msgstr ""
+
+#: ../../../core/userguide/remote/cmd_run.rst:45
+msgid "Options"
+msgstr ""
+
+#: ../../../core/userguide/remote/cmd_run.rst:52
+msgid "Process specified environments."
+msgstr ""
+
+#: ../../../core/userguide/remote/cmd_run.rst:54
+msgid ""
+"You can also specify which environments should be processed by default "
+"using :ref:`projectconf_pio_default_envs` option from :ref:`projectconf`."
+msgstr ""
+
+#: ../../../core/userguide/remote/cmd_run.rst:61
+msgid ""
+"Process specified targets. See :option:`pio run --list-targets` "
+"documentation for available targets."
+msgstr ""
+
+#: ../../../core/userguide/remote/cmd_run.rst:67
+msgid ""
+"Custom upload port of embedded board. To print all available ports use :ref:"
+"`cmd_remote_device` command."
+msgstr ""
+
+#: ../../../core/userguide/remote/cmd_run.rst:70
+msgid ""
+"If upload port is not specified, PlatformIO will try to detect it "
+"automatically."
+msgstr ""
+
+#: ../../../core/userguide/remote/cmd_run.rst:75
+msgid ""
+"Specify the path to project directory. By default, ``--project-dir`` is "
+"equal to current working directory (``CWD``)."
+msgstr ""
+
+#: ../../../core/userguide/remote/cmd_run.rst:81
+msgid "Shows detailed information when processing environments."
+msgstr ""
+
+#: ../../../core/userguide/remote/cmd_run.rst:83
+msgid ""
+"This option can also be set globally using :ref:`setting_force_verbose` "
+"setting or by environment variable :envvar:"
+"`PLATFORMIO_SETTING_FORCE_VERBOSE`."
+msgstr ""
+
+#: ../../../core/userguide/remote/cmd_run.rst:89
+msgid ""
+"Disable auto-clean of :ref:`projectconf_pio_build_dir` when :ref:"
+"`projectconf` or :ref:`projectconf_pio_src_dir` (project structure) have "
+"been modified."
+msgstr ""
+
+#: ../../../core/userguide/remote/cmd_run.rst:95
+msgid ""
+"By default, :ref:`pioremote` builds project on a host machine and deploy "
+"final firmware (program) to remote device (embedded board)."
+msgstr ""
+
+#: ../../../core/userguide/remote/cmd_run.rst:98
+msgid ""
+"If you need to process project on remote machine, please use :option:`pio "
+"remote run --force-remote` option. In this case, :ref:`pioremote` will "
+"automatically synchronize your project with remote machine, install required "
+"toolchains, frameworks, SDKs, etc., and process project."
+msgstr ""
+
+#: ../../../core/userguide/remote/cmd_run.rst:104
+msgid "Example"
+msgstr ""

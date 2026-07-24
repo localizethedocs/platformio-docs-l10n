@@ -1,0 +1,55 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present, PlatformIO
+# This file is distributed under the same license as the PlatformIO package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PlatformIO latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-24 14:02+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../faq/arduino-vs-platformio.rst:13
+msgid "Arduino IDE vs PlatformIO IDE"
+msgstr ""
+
+#: ../../../faq/arduino-vs-platformio.rst:15
+msgid ""
+"The choice between Arduino IDE and PlatformIO IDE depends on the specific "
+"needs and requirements of the project and the user."
+msgstr ""
+
+#: ../../../faq/arduino-vs-platformio.rst:18
+msgid ""
+"Arduino IDE is a simple and easy-to-use development environment that is "
+"specifically designed for the Arduino platform. It provides a "
+"straightforward and intuitive interface for writing and uploading code to "
+"the board. The Arduino IDE is well-suited for simple projects and for users "
+"who are new to the world of microcontrollers."
+msgstr ""
+
+#: ../../../faq/arduino-vs-platformio.rst:24
+msgid ""
+":ref:`pioide`, on the other hand, is a more powerful and feature-rich "
+"development environment. It supports a wider range of microcontroller "
+"platforms and development boards, and provides a comprehensive set of tools "
+"for :ref:`librarymanager`, :ref:`ci`, :ref:`unit_testing`, and :ref:"
+"`piodebug`. PlatformIO IDE is well-suited for more complex projects and for "
+"experienced users who need more advanced features."
+msgstr ""
+
+#: ../../../faq/arduino-vs-platformio.rst:31
+msgid ""
+"In conclusion, it depends on the project requirements and user experience. "
+"If you need a simple and easy-to-use environment for a small project, "
+"Arduino IDE may be the better choice. If you need a more powerful and "
+"feature-rich development environment for a larger project that uses the :ref:"
+"`framework_arduino` framework, PlatformIO IDE may be the better choice."
+msgstr ""

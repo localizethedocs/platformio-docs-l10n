@@ -1,0 +1,48 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present, PlatformIO
+# This file is distributed under the same license as the PlatformIO package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PlatformIO latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-24 14:02+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../projectconf/sections/platformio/options/generic/default_envs.rst:15
+msgid "``default_envs``"
+msgstr ""
+
+#: ../../../projectconf/sections/platformio/options/generic/default_envs.rst:17
+msgid "Type: ``String`` | Multiple: ``Yes``"
+msgstr ""
+
+#: ../../../projectconf/sections/platformio/options/generic/default_envs.rst:19
+msgid ""
+"The :ref:`cmd_run` command processes all environments ``[env:***]`` by "
+"default if the :option:`pio run --environment` option is not specified. :ref:"
+"`projectconf_pio_default_envs` allows one to define which environments that "
+"should be processed by default."
+msgstr ""
+
+#: ../../../projectconf/sections/platformio/options/generic/default_envs.rst:24
+msgid ""
+"Also, :ref:`piodebug` checks this option when looking for debug environment."
+msgstr ""
+
+#: ../../../projectconf/sections/platformio/options/generic/default_envs.rst:26
+msgid ""
+"This option can also be configured by the global environment variable :"
+"envvar:`PLATFORMIO_DEFAULT_ENVS`."
+msgstr ""
+
+#: ../../../projectconf/sections/platformio/options/generic/default_envs.rst:29
+msgid "Example:"
+msgstr ""

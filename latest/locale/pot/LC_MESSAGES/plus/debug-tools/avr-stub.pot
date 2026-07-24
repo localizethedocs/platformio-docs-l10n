@@ -1,0 +1,869 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present, PlatformIO
+# This file is distributed under the same license as the PlatformIO package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PlatformIO latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-24 14:02+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../plus/debug-tools/avr-stub.rst:15
+msgid "avr-stub"
+msgstr ""
+
+#: ../../../plus/debug-tools/avr-stub.rst:17
+msgid ""
+"avr-stub is a source level debugger based on GDB stub mechanism. It works "
+"with ATmega328 and Arduino Mega microcontrollers without an external "
+"programmer. The official reference can be found `here  <https://github.com/"
+"jdolinay/avr_debug/?utm_source=platformio&utm_medium=docs>`__."
+msgstr ""
+
+#: ../../../plus/debug-tools/avr-stub.rst:22
+msgid "Contents"
+msgstr ""
+
+#: ../../../plus/debug-tools/avr-stub_extra.rst:14
+msgid "Configuration"
+msgstr ""
+
+#: ../../../plus/debug-tools/avr-stub_extra.rst:19
+msgid ""
+"In a nutshell, avr-stub is a piece of software (stub) that is added to your "
+"application and communicates with PlatformIO when a debug session is "
+"running. It requires several additional configuration steps in order to use "
+"it as a debug tool. To use avr-stub, the following settings in :ref:"
+"`projectconf`:"
+msgstr ""
+
+#: ../../../plus/debug-tools/avr-stub_extra.rst:37
+msgid ""
+"Where the value in :ref:`projectconf_debug_port` is a serial port connected "
+"to your board and ``jdolinay/avr-debugger`` is a special library that "
+"implements the GDB stub."
+msgstr ""
+
+#: ../../../plus/debug-tools/avr-stub_extra.rst:40
+msgid ""
+"In order to enable the GDB stub in your application, a call to the special "
+"function ``debug_init`` must be added at the beginning of your application. "
+"For example, with the Arduino framework it might look like this:"
+msgstr ""
+
+#: ../../../plus/debug-tools/avr-stub_extra.rst:66
+msgid ""
+"If your program doesn't stop on a breakpoint, try specifying an explicit "
+"breakpoint directly in the code using the ``breakpoint`` function:"
+msgstr ""
+
+#: ../../../plus/debug-tools/avr-stub_extra.rst:85
+msgid "Breakpoint modes"
+msgstr ""
+
+#: ../../../plus/debug-tools/avr-stub_extra.rst:87
+msgid "The avr-stub tool supports the following three breakpoint modes:"
+msgstr ""
+
+#: ../../../plus/debug-tools/avr-stub.rst:34
+#: ../../../plus/debug-tools/avr-stub.rst:45
+#: ../../../plus/debug-tools/avr-stub_extra.rst:93
+msgid "Description"
+msgstr ""
+
+#: ../../../plus/debug-tools/avr-stub_extra.rst:94
+msgid "AVR8_BREAKPOINT_MODE"
+msgstr ""
+
+#: ../../../plus/debug-tools/avr-stub_extra.rst:96
+msgid ""
+"FLASH breakpoint mode, which works only with atmega328 based boards and "
+"requires a special bootloader"
+msgstr ""
+
+#: ../../../plus/debug-tools/avr-stub_extra.rst:98
+msgid "``0``"
+msgstr ""
+
+#: ../../../plus/debug-tools/avr-stub_extra.rst:100
+msgid ""
+"RAM breakpoint mode, the default mode which works out of the box with all "
+"atmega328, atmega1280, and atmega2560 based boards"
+msgstr ""
+
+#: ../../../plus/debug-tools/avr-stub_extra.rst:102
+msgid "``1``"
+msgstr ""
+
+#: ../../../plus/debug-tools/avr-stub_extra.rst:104
+msgid ""
+"FLASH breakpoint mode through Optiboot, which works with all atmega328, "
+"atmega1280, and atmega2560 based boards and requires the version 8 of the "
+"bootloader."
+msgstr ""
+
+#: ../../../plus/debug-tools/avr-stub_extra.rst:107
+msgid "``2``"
+msgstr ""
+
+#: ../../../plus/debug-tools/avr-stub_extra.rst:109
+msgid ""
+"To switch between modes, specify a special macro definition "
+"``AVR8_BREAKPOINT_MODE`` with the appropriate value from the table above, "
+"for example:"
+msgstr ""
+
+#: ../../../plus/debug-tools/avr-stub_extra.rst:130
+msgid "Debugger limitations"
+msgstr ""
+
+#: ../../../plus/debug-tools/avr-stub_extra.rst:132
+msgid "One external interrupt pin must be reserved for the debugger."
+msgstr ""
+
+#: ../../../plus/debug-tools/avr-stub_extra.rst:133
+msgid ""
+"Any part of your application that uses the UART module (e.g. Arduino Serial "
+"class) cannot be used in your program together with the debugger."
+msgstr ""
+
+#: ../../../plus/debug-tools/avr-stub_extra.rst:135
+msgid "When using flash breakpoints the watchdog cannot be used."
+msgstr ""
+
+#: ../../../plus/debug-tools/avr-stub_extra.rst:137
+msgid ""
+"More detailed information can be found in the ``Important limitations of the "
+"debugger`` section in `the official documentation <https://github.com/"
+"jdolinay/avr_debug/blob/master/doc/avr_debug.pdf>`__."
+msgstr ""
+
+#: ../../../plus/debug-tools/avr-stub.rst:29
+msgid "Platforms"
+msgstr ""
+
+#: ../../../plus/debug-tools/avr-stub.rst:33
+#: ../../../plus/debug-tools/avr-stub.rst:44
+#: ../../../plus/debug-tools/avr-stub.rst:60
+msgid "Name"
+msgstr ""
+
+#: ../../../plus/debug-tools/avr-stub.rst:36
+#: ../../../plus/debug-tools/avr-stub.rst:68
+#: ../../../plus/debug-tools/avr-stub.rst:75
+#: ../../../plus/debug-tools/avr-stub.rst:82
+#: ../../../plus/debug-tools/avr-stub.rst:89
+#: ../../../plus/debug-tools/avr-stub.rst:96
+#: ../../../plus/debug-tools/avr-stub.rst:103
+#: ../../../plus/debug-tools/avr-stub.rst:110
+#: ../../../plus/debug-tools/avr-stub.rst:117
+#: ../../../plus/debug-tools/avr-stub.rst:124
+#: ../../../plus/debug-tools/avr-stub.rst:131
+#: ../../../plus/debug-tools/avr-stub.rst:138
+#: ../../../plus/debug-tools/avr-stub.rst:145
+#: ../../../plus/debug-tools/avr-stub.rst:152
+#: ../../../plus/debug-tools/avr-stub.rst:159
+#: ../../../plus/debug-tools/avr-stub.rst:166
+#: ../../../plus/debug-tools/avr-stub.rst:173
+#: ../../../plus/debug-tools/avr-stub.rst:180
+#: ../../../plus/debug-tools/avr-stub.rst:187
+#: ../../../plus/debug-tools/avr-stub.rst:194
+#: ../../../plus/debug-tools/avr-stub.rst:201
+#: ../../../plus/debug-tools/avr-stub.rst:208
+#: ../../../plus/debug-tools/avr-stub.rst:215
+#: ../../../plus/debug-tools/avr-stub.rst:222
+#: ../../../plus/debug-tools/avr-stub.rst:229
+#: ../../../plus/debug-tools/avr-stub.rst:236
+#: ../../../plus/debug-tools/avr-stub.rst:243
+#: ../../../plus/debug-tools/avr-stub.rst:250
+#: ../../../plus/debug-tools/avr-stub.rst:257
+#: ../../../plus/debug-tools/avr-stub.rst:264
+#: ../../../plus/debug-tools/avr-stub.rst:271
+#: ../../../plus/debug-tools/avr-stub.rst:278
+#: ../../../plus/debug-tools/avr-stub.rst:285
+#: ../../../plus/debug-tools/avr-stub.rst:292
+#: ../../../plus/debug-tools/avr-stub.rst:299
+#: ../../../plus/debug-tools/avr-stub.rst:306
+#: ../../../plus/debug-tools/avr-stub.rst:313
+#: ../../../plus/debug-tools/avr-stub.rst:320
+#: ../../../plus/debug-tools/avr-stub.rst:327
+#: ../../../plus/debug-tools/avr-stub.rst:334
+#: ../../../plus/debug-tools/avr-stub.rst:341
+#: ../../../plus/debug-tools/avr-stub.rst:348
+#: ../../../plus/debug-tools/avr-stub.rst:355
+#: ../../../plus/debug-tools/avr-stub.rst:362
+#: ../../../plus/debug-tools/avr-stub.rst:369
+#: ../../../plus/debug-tools/avr-stub.rst:376
+#: ../../../plus/debug-tools/avr-stub.rst:383
+#: ../../../plus/debug-tools/avr-stub.rst:390
+#: ../../../plus/debug-tools/avr-stub.rst:397
+#: ../../../plus/debug-tools/avr-stub.rst:404
+#: ../../../plus/debug-tools/avr-stub.rst:411
+#: ../../../plus/debug-tools/avr-stub.rst:418
+#: ../../../plus/debug-tools/avr-stub.rst:425
+#: ../../../plus/debug-tools/avr-stub.rst:432
+#: ../../../plus/debug-tools/avr-stub.rst:439
+#: ../../../plus/debug-tools/avr-stub.rst:446
+#: ../../../plus/debug-tools/avr-stub.rst:453
+#: ../../../plus/debug-tools/avr-stub.rst:460
+#: ../../../plus/debug-tools/avr-stub.rst:467
+#: ../../../plus/debug-tools/avr-stub.rst:474
+msgid ":ref:`platform_atmelavr`"
+msgstr ""
+
+#: ../../../plus/debug-tools/avr-stub.rst:37
+msgid ""
+"Atmel AVR 8-bit MCUs deliver a unique combination of performance, power "
+"efficiency and design flexibility. Optimized to speed time to market-and "
+"easily adapt to new ones-they are based on the industry's most code-"
+"efficient architecture for C and assembly programming"
+msgstr ""
+
+#: ../../../plus/debug-tools/avr-stub.rst:40
+msgid "Frameworks"
+msgstr ""
+
+#: ../../../plus/debug-tools/avr-stub.rst:47
+msgid ":ref:`framework_arduino`"
+msgstr ""
+
+#: ../../../plus/debug-tools/avr-stub.rst:48
+msgid ""
+"Arduino Wiring-based Framework allows writing cross-platform software to "
+"control devices attached to a wide range of Arduino boards to create all "
+"kinds of creative coding, interactive objects, spaces or physical "
+"experiences."
+msgstr ""
+
+#: ../../../plus/debug-tools/avr-stub.rst:51
+msgid "Boards"
+msgstr ""
+
+#: ../../../plus/debug-tools/avr-stub.rst:54
+msgid ""
+"For more detailed ``board`` information please scroll tables below by "
+"horizontal."
+msgstr ""
+
+#: ../../../plus/debug-tools/avr-stub.rst:61
+msgid "Platform"
+msgstr ""
+
+#: ../../../plus/debug-tools/avr-stub.rst:62
+msgid "Debug"
+msgstr ""
+
+#: ../../../plus/debug-tools/avr-stub.rst:63
+msgid "MCU"
+msgstr ""
+
+#: ../../../plus/debug-tools/avr-stub.rst:64
+msgid "Frequency"
+msgstr ""
+
+#: ../../../plus/debug-tools/avr-stub.rst:65
+msgid "Flash"
+msgstr ""
+
+#: ../../../plus/debug-tools/avr-stub.rst:66
+msgid "RAM"
+msgstr ""
+
+#: ../../../plus/debug-tools/avr-stub.rst:67
+msgid ":ref:`board_atmelavr_ATmega1280`"
+msgstr ""
+
+#: ../../../plus/debug-tools/avr-stub.rst:69
+#: ../../../plus/debug-tools/avr-stub.rst:76
+#: ../../../plus/debug-tools/avr-stub.rst:83
+#: ../../../plus/debug-tools/avr-stub.rst:90
+#: ../../../plus/debug-tools/avr-stub.rst:97
+#: ../../../plus/debug-tools/avr-stub.rst:104
+#: ../../../plus/debug-tools/avr-stub.rst:111
+#: ../../../plus/debug-tools/avr-stub.rst:118
+#: ../../../plus/debug-tools/avr-stub.rst:125
+#: ../../../plus/debug-tools/avr-stub.rst:132
+#: ../../../plus/debug-tools/avr-stub.rst:139
+#: ../../../plus/debug-tools/avr-stub.rst:146
+#: ../../../plus/debug-tools/avr-stub.rst:153
+#: ../../../plus/debug-tools/avr-stub.rst:160
+#: ../../../plus/debug-tools/avr-stub.rst:167
+#: ../../../plus/debug-tools/avr-stub.rst:174
+#: ../../../plus/debug-tools/avr-stub.rst:181
+#: ../../../plus/debug-tools/avr-stub.rst:188
+#: ../../../plus/debug-tools/avr-stub.rst:195
+#: ../../../plus/debug-tools/avr-stub.rst:202
+#: ../../../plus/debug-tools/avr-stub.rst:209
+#: ../../../plus/debug-tools/avr-stub.rst:216
+#: ../../../plus/debug-tools/avr-stub.rst:223
+#: ../../../plus/debug-tools/avr-stub.rst:230
+#: ../../../plus/debug-tools/avr-stub.rst:237
+#: ../../../plus/debug-tools/avr-stub.rst:244
+#: ../../../plus/debug-tools/avr-stub.rst:251
+#: ../../../plus/debug-tools/avr-stub.rst:258
+#: ../../../plus/debug-tools/avr-stub.rst:265
+#: ../../../plus/debug-tools/avr-stub.rst:272
+#: ../../../plus/debug-tools/avr-stub.rst:279
+#: ../../../plus/debug-tools/avr-stub.rst:286
+#: ../../../plus/debug-tools/avr-stub.rst:293
+#: ../../../plus/debug-tools/avr-stub.rst:300
+#: ../../../plus/debug-tools/avr-stub.rst:307
+#: ../../../plus/debug-tools/avr-stub.rst:314
+#: ../../../plus/debug-tools/avr-stub.rst:321
+#: ../../../plus/debug-tools/avr-stub.rst:328
+#: ../../../plus/debug-tools/avr-stub.rst:335
+#: ../../../plus/debug-tools/avr-stub.rst:342
+#: ../../../plus/debug-tools/avr-stub.rst:349
+#: ../../../plus/debug-tools/avr-stub.rst:356
+#: ../../../plus/debug-tools/avr-stub.rst:363
+#: ../../../plus/debug-tools/avr-stub.rst:370
+#: ../../../plus/debug-tools/avr-stub.rst:377
+#: ../../../plus/debug-tools/avr-stub.rst:384
+#: ../../../plus/debug-tools/avr-stub.rst:391
+#: ../../../plus/debug-tools/avr-stub.rst:398
+#: ../../../plus/debug-tools/avr-stub.rst:405
+#: ../../../plus/debug-tools/avr-stub.rst:412
+#: ../../../plus/debug-tools/avr-stub.rst:419
+#: ../../../plus/debug-tools/avr-stub.rst:426
+#: ../../../plus/debug-tools/avr-stub.rst:433
+#: ../../../plus/debug-tools/avr-stub.rst:440
+#: ../../../plus/debug-tools/avr-stub.rst:447
+#: ../../../plus/debug-tools/avr-stub.rst:454
+#: ../../../plus/debug-tools/avr-stub.rst:461
+#: ../../../plus/debug-tools/avr-stub.rst:468
+#: ../../../plus/debug-tools/avr-stub.rst:475
+msgid "External"
+msgstr ""
+
+#: ../../../plus/debug-tools/avr-stub.rst:70
+#: ../../../plus/debug-tools/avr-stub.rst:196
+msgid "ATMEGA1280"
+msgstr ""
+
+#: ../../../plus/debug-tools/avr-stub.rst:71
+#: ../../../plus/debug-tools/avr-stub.rst:78
+#: ../../../plus/debug-tools/avr-stub.rst:85
+#: ../../../plus/debug-tools/avr-stub.rst:92
+#: ../../../plus/debug-tools/avr-stub.rst:106
+#: ../../../plus/debug-tools/avr-stub.rst:120
+#: ../../../plus/debug-tools/avr-stub.rst:127
+#: ../../../plus/debug-tools/avr-stub.rst:134
+#: ../../../plus/debug-tools/avr-stub.rst:141
+#: ../../../plus/debug-tools/avr-stub.rst:148
+#: ../../../plus/debug-tools/avr-stub.rst:155
+#: ../../../plus/debug-tools/avr-stub.rst:162
+#: ../../../plus/debug-tools/avr-stub.rst:169
+#: ../../../plus/debug-tools/avr-stub.rst:190
+#: ../../../plus/debug-tools/avr-stub.rst:197
+#: ../../../plus/debug-tools/avr-stub.rst:204
+#: ../../../plus/debug-tools/avr-stub.rst:211
+#: ../../../plus/debug-tools/avr-stub.rst:218
+#: ../../../plus/debug-tools/avr-stub.rst:225
+#: ../../../plus/debug-tools/avr-stub.rst:239
+#: ../../../plus/debug-tools/avr-stub.rst:246
+#: ../../../plus/debug-tools/avr-stub.rst:253
+#: ../../../plus/debug-tools/avr-stub.rst:260
+#: ../../../plus/debug-tools/avr-stub.rst:267
+#: ../../../plus/debug-tools/avr-stub.rst:274
+#: ../../../plus/debug-tools/avr-stub.rst:281
+#: ../../../plus/debug-tools/avr-stub.rst:288
+#: ../../../plus/debug-tools/avr-stub.rst:295
+#: ../../../plus/debug-tools/avr-stub.rst:302
+#: ../../../plus/debug-tools/avr-stub.rst:316
+#: ../../../plus/debug-tools/avr-stub.rst:323
+#: ../../../plus/debug-tools/avr-stub.rst:330
+#: ../../../plus/debug-tools/avr-stub.rst:344
+#: ../../../plus/debug-tools/avr-stub.rst:358
+#: ../../../plus/debug-tools/avr-stub.rst:372
+#: ../../../plus/debug-tools/avr-stub.rst:379
+#: ../../../plus/debug-tools/avr-stub.rst:393
+#: ../../../plus/debug-tools/avr-stub.rst:414
+#: ../../../plus/debug-tools/avr-stub.rst:428
+#: ../../../plus/debug-tools/avr-stub.rst:435
+#: ../../../plus/debug-tools/avr-stub.rst:456
+#: ../../../plus/debug-tools/avr-stub.rst:477
+msgid "16MHz"
+msgstr ""
+
+#: ../../../plus/debug-tools/avr-stub.rst:72
+msgid "128KB"
+msgstr ""
+
+#: ../../../plus/debug-tools/avr-stub.rst:73
+#: ../../../plus/debug-tools/avr-stub.rst:80
+#: ../../../plus/debug-tools/avr-stub.rst:192
+#: ../../../plus/debug-tools/avr-stub.rst:199
+#: ../../../plus/debug-tools/avr-stub.rst:206
+#: ../../../plus/debug-tools/avr-stub.rst:276
+#: ../../../plus/debug-tools/avr-stub.rst:283
+#: ../../../plus/debug-tools/avr-stub.rst:290
+#: ../../../plus/debug-tools/avr-stub.rst:304
+#: ../../../plus/debug-tools/avr-stub.rst:374
+#: ../../../plus/debug-tools/avr-stub.rst:381
+#: ../../../plus/debug-tools/avr-stub.rst:409
+#: ../../../plus/debug-tools/avr-stub.rst:416
+#: ../../../plus/debug-tools/avr-stub.rst:423
+msgid "8KB"
+msgstr ""
+
+#: ../../../plus/debug-tools/avr-stub.rst:74
+msgid ":ref:`board_atmelavr_ATmega2560`"
+msgstr ""
+
+#: ../../../plus/debug-tools/avr-stub.rst:77
+#: ../../../plus/debug-tools/avr-stub.rst:189
+#: ../../../plus/debug-tools/avr-stub.rst:203
+#: ../../../plus/debug-tools/avr-stub.rst:273
+#: ../../../plus/debug-tools/avr-stub.rst:280
+#: ../../../plus/debug-tools/avr-stub.rst:287
+#: ../../../plus/debug-tools/avr-stub.rst:301
+#: ../../../plus/debug-tools/avr-stub.rst:371
+#: ../../../plus/debug-tools/avr-stub.rst:378
+#: ../../../plus/debug-tools/avr-stub.rst:406
+#: ../../../plus/debug-tools/avr-stub.rst:413
+#: ../../../plus/debug-tools/avr-stub.rst:420
+msgid "ATMEGA2560"
+msgstr ""
+
+#: ../../../plus/debug-tools/avr-stub.rst:79
+msgid "256KB"
+msgstr ""
+
+#: ../../../plus/debug-tools/avr-stub.rst:81
+msgid ":ref:`board_atmelavr_ATmega328`"
+msgstr ""
+
+#: ../../../plus/debug-tools/avr-stub.rst:84
+msgid "ATMEGA328"
+msgstr ""
+
+#: ../../../plus/debug-tools/avr-stub.rst:86
+#: ../../../plus/debug-tools/avr-stub.rst:93
+msgid "32KB"
+msgstr ""
+
+#: ../../../plus/debug-tools/avr-stub.rst:87
+#: ../../../plus/debug-tools/avr-stub.rst:94
+#: ../../../plus/debug-tools/avr-stub.rst:101
+#: ../../../plus/debug-tools/avr-stub.rst:108
+#: ../../../plus/debug-tools/avr-stub.rst:115
+#: ../../../plus/debug-tools/avr-stub.rst:122
+#: ../../../plus/debug-tools/avr-stub.rst:129
+#: ../../../plus/debug-tools/avr-stub.rst:136
+#: ../../../plus/debug-tools/avr-stub.rst:143
+#: ../../../plus/debug-tools/avr-stub.rst:150
+#: ../../../plus/debug-tools/avr-stub.rst:157
+#: ../../../plus/debug-tools/avr-stub.rst:164
+#: ../../../plus/debug-tools/avr-stub.rst:171
+#: ../../../plus/debug-tools/avr-stub.rst:178
+#: ../../../plus/debug-tools/avr-stub.rst:185
+#: ../../../plus/debug-tools/avr-stub.rst:213
+#: ../../../plus/debug-tools/avr-stub.rst:220
+#: ../../../plus/debug-tools/avr-stub.rst:227
+#: ../../../plus/debug-tools/avr-stub.rst:234
+#: ../../../plus/debug-tools/avr-stub.rst:241
+#: ../../../plus/debug-tools/avr-stub.rst:248
+#: ../../../plus/debug-tools/avr-stub.rst:255
+#: ../../../plus/debug-tools/avr-stub.rst:262
+#: ../../../plus/debug-tools/avr-stub.rst:269
+#: ../../../plus/debug-tools/avr-stub.rst:297
+#: ../../../plus/debug-tools/avr-stub.rst:311
+#: ../../../plus/debug-tools/avr-stub.rst:318
+#: ../../../plus/debug-tools/avr-stub.rst:325
+#: ../../../plus/debug-tools/avr-stub.rst:332
+#: ../../../plus/debug-tools/avr-stub.rst:339
+#: ../../../plus/debug-tools/avr-stub.rst:346
+#: ../../../plus/debug-tools/avr-stub.rst:353
+#: ../../../plus/debug-tools/avr-stub.rst:360
+#: ../../../plus/debug-tools/avr-stub.rst:367
+#: ../../../plus/debug-tools/avr-stub.rst:388
+#: ../../../plus/debug-tools/avr-stub.rst:395
+#: ../../../plus/debug-tools/avr-stub.rst:402
+#: ../../../plus/debug-tools/avr-stub.rst:430
+#: ../../../plus/debug-tools/avr-stub.rst:437
+#: ../../../plus/debug-tools/avr-stub.rst:444
+#: ../../../plus/debug-tools/avr-stub.rst:451
+#: ../../../plus/debug-tools/avr-stub.rst:458
+#: ../../../plus/debug-tools/avr-stub.rst:465
+#: ../../../plus/debug-tools/avr-stub.rst:472
+#: ../../../plus/debug-tools/avr-stub.rst:479
+msgid "2KB"
+msgstr ""
+
+#: ../../../plus/debug-tools/avr-stub.rst:88
+msgid ":ref:`board_atmelavr_ATmega328P`"
+msgstr ""
+
+#: ../../../plus/debug-tools/avr-stub.rst:91
+#: ../../../plus/debug-tools/avr-stub.rst:98
+#: ../../../plus/debug-tools/avr-stub.rst:105
+#: ../../../plus/debug-tools/avr-stub.rst:112
+#: ../../../plus/debug-tools/avr-stub.rst:119
+#: ../../../plus/debug-tools/avr-stub.rst:126
+#: ../../../plus/debug-tools/avr-stub.rst:133
+#: ../../../plus/debug-tools/avr-stub.rst:140
+#: ../../../plus/debug-tools/avr-stub.rst:147
+#: ../../../plus/debug-tools/avr-stub.rst:154
+#: ../../../plus/debug-tools/avr-stub.rst:161
+#: ../../../plus/debug-tools/avr-stub.rst:168
+#: ../../../plus/debug-tools/avr-stub.rst:175
+#: ../../../plus/debug-tools/avr-stub.rst:182
+#: ../../../plus/debug-tools/avr-stub.rst:210
+#: ../../../plus/debug-tools/avr-stub.rst:217
+#: ../../../plus/debug-tools/avr-stub.rst:224
+#: ../../../plus/debug-tools/avr-stub.rst:231
+#: ../../../plus/debug-tools/avr-stub.rst:238
+#: ../../../plus/debug-tools/avr-stub.rst:245
+#: ../../../plus/debug-tools/avr-stub.rst:252
+#: ../../../plus/debug-tools/avr-stub.rst:259
+#: ../../../plus/debug-tools/avr-stub.rst:266
+#: ../../../plus/debug-tools/avr-stub.rst:294
+#: ../../../plus/debug-tools/avr-stub.rst:308
+#: ../../../plus/debug-tools/avr-stub.rst:315
+#: ../../../plus/debug-tools/avr-stub.rst:322
+#: ../../../plus/debug-tools/avr-stub.rst:329
+#: ../../../plus/debug-tools/avr-stub.rst:336
+#: ../../../plus/debug-tools/avr-stub.rst:343
+#: ../../../plus/debug-tools/avr-stub.rst:350
+#: ../../../plus/debug-tools/avr-stub.rst:357
+#: ../../../plus/debug-tools/avr-stub.rst:364
+#: ../../../plus/debug-tools/avr-stub.rst:385
+#: ../../../plus/debug-tools/avr-stub.rst:392
+#: ../../../plus/debug-tools/avr-stub.rst:399
+#: ../../../plus/debug-tools/avr-stub.rst:427
+#: ../../../plus/debug-tools/avr-stub.rst:434
+#: ../../../plus/debug-tools/avr-stub.rst:441
+#: ../../../plus/debug-tools/avr-stub.rst:448
+#: ../../../plus/debug-tools/avr-stub.rst:455
+#: ../../../plus/debug-tools/avr-stub.rst:462
+#: ../../../plus/debug-tools/avr-stub.rst:469
+#: ../../../plus/debug-tools/avr-stub.rst:476
+msgid "ATMEGA328P"
+msgstr ""
+
+#: ../../../plus/debug-tools/avr-stub.rst:95
+msgid ":ref:`board_atmelavr_feather328p`"
+msgstr ""
+
+#: ../../../plus/debug-tools/avr-stub.rst:99
+#: ../../../plus/debug-tools/avr-stub.rst:176
+#: ../../../plus/debug-tools/avr-stub.rst:183
+#: ../../../plus/debug-tools/avr-stub.rst:232
+#: ../../../plus/debug-tools/avr-stub.rst:309
+#: ../../../plus/debug-tools/avr-stub.rst:337
+#: ../../../plus/debug-tools/avr-stub.rst:351
+#: ../../../plus/debug-tools/avr-stub.rst:365
+#: ../../../plus/debug-tools/avr-stub.rst:386
+#: ../../../plus/debug-tools/avr-stub.rst:400
+#: ../../../plus/debug-tools/avr-stub.rst:407
+#: ../../../plus/debug-tools/avr-stub.rst:421
+#: ../../../plus/debug-tools/avr-stub.rst:442
+#: ../../../plus/debug-tools/avr-stub.rst:449
+#: ../../../plus/debug-tools/avr-stub.rst:463
+#: ../../../plus/debug-tools/avr-stub.rst:470
+msgid "8MHz"
+msgstr ""
+
+#: ../../../plus/debug-tools/avr-stub.rst:100
+#: ../../../plus/debug-tools/avr-stub.rst:107
+#: ../../../plus/debug-tools/avr-stub.rst:128
+#: ../../../plus/debug-tools/avr-stub.rst:135
+#: ../../../plus/debug-tools/avr-stub.rst:142
+#: ../../../plus/debug-tools/avr-stub.rst:149
+#: ../../../plus/debug-tools/avr-stub.rst:170
+#: ../../../plus/debug-tools/avr-stub.rst:247
+#: ../../../plus/debug-tools/avr-stub.rst:254
+#: ../../../plus/debug-tools/avr-stub.rst:296
+#: ../../../plus/debug-tools/avr-stub.rst:310
+#: ../../../plus/debug-tools/avr-stub.rst:317
+#: ../../../plus/debug-tools/avr-stub.rst:331
+#: ../../../plus/debug-tools/avr-stub.rst:338
+#: ../../../plus/debug-tools/avr-stub.rst:345
+#: ../../../plus/debug-tools/avr-stub.rst:352
+#: ../../../plus/debug-tools/avr-stub.rst:366
+#: ../../../plus/debug-tools/avr-stub.rst:387
+#: ../../../plus/debug-tools/avr-stub.rst:394
+#: ../../../plus/debug-tools/avr-stub.rst:401
+#: ../../../plus/debug-tools/avr-stub.rst:429
+#: ../../../plus/debug-tools/avr-stub.rst:436
+#: ../../../plus/debug-tools/avr-stub.rst:443
+#: ../../../plus/debug-tools/avr-stub.rst:457
+#: ../../../plus/debug-tools/avr-stub.rst:478
+msgid "31.50KB"
+msgstr ""
+
+#: ../../../plus/debug-tools/avr-stub.rst:102
+msgid ":ref:`board_atmelavr_metro`"
+msgstr ""
+
+#: ../../../plus/debug-tools/avr-stub.rst:109
+msgid ":ref:`board_atmelavr_protrinket3ftdi`"
+msgstr ""
+
+#: ../../../plus/debug-tools/avr-stub.rst:113
+msgid "12MHz"
+msgstr ""
+
+#: ../../../plus/debug-tools/avr-stub.rst:114
+#: ../../../plus/debug-tools/avr-stub.rst:121
+#: ../../../plus/debug-tools/avr-stub.rst:156
+#: ../../../plus/debug-tools/avr-stub.rst:212
+#: ../../../plus/debug-tools/avr-stub.rst:261
+msgid "28KB"
+msgstr ""
+
+#: ../../../plus/debug-tools/avr-stub.rst:116
+msgid ":ref:`board_atmelavr_protrinket5ftdi`"
+msgstr ""
+
+#: ../../../plus/debug-tools/avr-stub.rst:123
+msgid ":ref:`board_atmelavr_alorium_hinj`"
+msgstr ""
+
+#: ../../../plus/debug-tools/avr-stub.rst:130
+msgid ":ref:`board_atmelavr_alorium_sno`"
+msgstr ""
+
+#: ../../../plus/debug-tools/avr-stub.rst:137
+msgid ":ref:`board_atmelavr_alorium_xlr8`"
+msgstr ""
+
+#: ../../../plus/debug-tools/avr-stub.rst:144
+msgid ":ref:`board_atmelavr_miniwireless`"
+msgstr ""
+
+#: ../../../plus/debug-tools/avr-stub.rst:151
+msgid ":ref:`board_atmelavr_btatmega328`"
+msgstr ""
+
+#: ../../../plus/debug-tools/avr-stub.rst:158
+msgid ":ref:`board_atmelavr_diecimilaatmega328`"
+msgstr ""
+
+#: ../../../plus/debug-tools/avr-stub.rst:163
+#: ../../../plus/debug-tools/avr-stub.rst:177
+#: ../../../plus/debug-tools/avr-stub.rst:184
+#: ../../../plus/debug-tools/avr-stub.rst:219
+#: ../../../plus/debug-tools/avr-stub.rst:226
+#: ../../../plus/debug-tools/avr-stub.rst:233
+#: ../../../plus/debug-tools/avr-stub.rst:240
+#: ../../../plus/debug-tools/avr-stub.rst:268
+#: ../../../plus/debug-tools/avr-stub.rst:359
+#: ../../../plus/debug-tools/avr-stub.rst:450
+#: ../../../plus/debug-tools/avr-stub.rst:464
+#: ../../../plus/debug-tools/avr-stub.rst:471
+msgid "30KB"
+msgstr ""
+
+#: ../../../plus/debug-tools/avr-stub.rst:165
+msgid ":ref:`board_atmelavr_ethernet`"
+msgstr ""
+
+#: ../../../plus/debug-tools/avr-stub.rst:172
+msgid ":ref:`board_atmelavr_fio`"
+msgstr ""
+
+#: ../../../plus/debug-tools/avr-stub.rst:179
+msgid ":ref:`board_atmelavr_lilypadatmega328`"
+msgstr ""
+
+#: ../../../plus/debug-tools/avr-stub.rst:186
+msgid ":ref:`board_atmelavr_megaADK`"
+msgstr ""
+
+#: ../../../plus/debug-tools/avr-stub.rst:191
+#: ../../../plus/debug-tools/avr-stub.rst:205
+#: ../../../plus/debug-tools/avr-stub.rst:275
+#: ../../../plus/debug-tools/avr-stub.rst:282
+#: ../../../plus/debug-tools/avr-stub.rst:289
+#: ../../../plus/debug-tools/avr-stub.rst:415
+msgid "248KB"
+msgstr ""
+
+#: ../../../plus/debug-tools/avr-stub.rst:193
+msgid ":ref:`board_atmelavr_megaatmega1280`"
+msgstr ""
+
+#: ../../../plus/debug-tools/avr-stub.rst:198
+msgid "124KB"
+msgstr ""
+
+#: ../../../plus/debug-tools/avr-stub.rst:200
+msgid ":ref:`board_atmelavr_megaatmega2560`"
+msgstr ""
+
+#: ../../../plus/debug-tools/avr-stub.rst:207
+msgid ":ref:`board_atmelavr_miniatmega328`"
+msgstr ""
+
+#: ../../../plus/debug-tools/avr-stub.rst:214
+msgid ":ref:`board_atmelavr_nanoatmega328`"
+msgstr ""
+
+#: ../../../plus/debug-tools/avr-stub.rst:221
+msgid ":ref:`board_atmelavr_nanoatmega328new`"
+msgstr ""
+
+#: ../../../plus/debug-tools/avr-stub.rst:228
+msgid ":ref:`board_atmelavr_pro8MHzatmega328`"
+msgstr ""
+
+#: ../../../plus/debug-tools/avr-stub.rst:235
+msgid ":ref:`board_atmelavr_pro16MHzatmega328`"
+msgstr ""
+
+#: ../../../plus/debug-tools/avr-stub.rst:242
+msgid ":ref:`board_atmelavr_uno`"
+msgstr ""
+
+#: ../../../plus/debug-tools/avr-stub.rst:249
+msgid ":ref:`board_atmelavr_uno_mini`"
+msgstr ""
+
+#: ../../../plus/debug-tools/avr-stub.rst:256
+msgid ":ref:`board_atmelavr_zumbt328`"
+msgstr ""
+
+#: ../../../plus/debug-tools/avr-stub.rst:263
+msgid ":ref:`board_atmelavr_raspduino`"
+msgstr ""
+
+#: ../../../plus/debug-tools/avr-stub.rst:270
+msgid ":ref:`board_atmelavr_controllino_maxi`"
+msgstr ""
+
+#: ../../../plus/debug-tools/avr-stub.rst:277
+msgid ":ref:`board_atmelavr_controllino_maxi_automation`"
+msgstr ""
+
+#: ../../../plus/debug-tools/avr-stub.rst:284
+msgid ":ref:`board_atmelavr_controllino_mega`"
+msgstr ""
+
+#: ../../../plus/debug-tools/avr-stub.rst:291
+msgid ":ref:`board_atmelavr_controllino_mini`"
+msgstr ""
+
+#: ../../../plus/debug-tools/avr-stub.rst:298
+msgid ":ref:`board_atmelavr_fysetc_f6_13`"
+msgstr ""
+
+#: ../../../plus/debug-tools/avr-stub.rst:303
+#: ../../../plus/debug-tools/avr-stub.rst:373
+#: ../../../plus/debug-tools/avr-stub.rst:380
+#: ../../../plus/debug-tools/avr-stub.rst:408
+#: ../../../plus/debug-tools/avr-stub.rst:422
+msgid "252KB"
+msgstr ""
+
+#: ../../../plus/debug-tools/avr-stub.rst:305
+msgid ":ref:`board_atmelavr_lightblue-bean`"
+msgstr ""
+
+#: ../../../plus/debug-tools/avr-stub.rst:312
+msgid ":ref:`board_atmelavr_lightblue-beanplus`"
+msgstr ""
+
+#: ../../../plus/debug-tools/avr-stub.rst:319
+msgid ":ref:`board_atmelavr_mightyhat`"
+msgstr ""
+
+#: ../../../plus/debug-tools/avr-stub.rst:324
+msgid "31KB"
+msgstr ""
+
+#: ../../../plus/debug-tools/avr-stub.rst:326
+msgid ":ref:`board_atmelavr_moteino`"
+msgstr ""
+
+#: ../../../plus/debug-tools/avr-stub.rst:333
+msgid ":ref:`board_atmelavr_moteino8mhz`"
+msgstr ""
+
+#: ../../../plus/debug-tools/avr-stub.rst:340
+msgid ":ref:`board_atmelavr_328p16m`"
+msgstr ""
+
+#: ../../../plus/debug-tools/avr-stub.rst:347
+msgid ":ref:`board_atmelavr_328p8m`"
+msgstr ""
+
+#: ../../../plus/debug-tools/avr-stub.rst:354
+msgid ":ref:`board_atmelavr_emonpi`"
+msgstr ""
+
+#: ../../../plus/debug-tools/avr-stub.rst:361
+msgid ":ref:`board_atmelavr_panStampAVR`"
+msgstr ""
+
+#: ../../../plus/debug-tools/avr-stub.rst:368
+msgid ":ref:`board_atmelavr_prusa_rambo`"
+msgstr ""
+
+#: ../../../plus/debug-tools/avr-stub.rst:375
+msgid ":ref:`board_atmelavr_reprap_rambo`"
+msgstr ""
+
+#: ../../../plus/debug-tools/avr-stub.rst:382
+msgid ":ref:`board_atmelavr_sodaq_moja`"
+msgstr ""
+
+#: ../../../plus/debug-tools/avr-stub.rst:389
+msgid ":ref:`board_atmelavr_seeeduino`"
+msgstr ""
+
+#: ../../../plus/debug-tools/avr-stub.rst:396
+msgid ":ref:`board_atmelavr_sparkfun_digitalsandbox`"
+msgstr ""
+
+#: ../../../plus/debug-tools/avr-stub.rst:403
+msgid ":ref:`board_atmelavr_sparkfun_megapro8MHz`"
+msgstr ""
+
+#: ../../../plus/debug-tools/avr-stub.rst:410
+msgid ":ref:`board_atmelavr_sparkfun_megapro16MHz`"
+msgstr ""
+
+#: ../../../plus/debug-tools/avr-stub.rst:417
+msgid ":ref:`board_atmelavr_sparkfun_megamini`"
+msgstr ""
+
+#: ../../../plus/debug-tools/avr-stub.rst:424
+msgid ":ref:`board_atmelavr_uview`"
+msgstr ""
+
+#: ../../../plus/debug-tools/avr-stub.rst:431
+msgid ":ref:`board_atmelavr_sparkfun_redboard`"
+msgstr ""
+
+#: ../../../plus/debug-tools/avr-stub.rst:438
+msgid ":ref:`board_atmelavr_sparkfun_serial7seg`"
+msgstr ""
+
+#: ../../../plus/debug-tools/avr-stub.rst:445
+msgid ":ref:`board_atmelavr_sleepypi`"
+msgstr ""
+
+#: ../../../plus/debug-tools/avr-stub.rst:452
+msgid ":ref:`board_atmelavr_whispernode`"
+msgstr ""
+
+#: ../../../plus/debug-tools/avr-stub.rst:459
+msgid ":ref:`board_atmelavr_tinyduino`"
+msgstr ""
+
+#: ../../../plus/debug-tools/avr-stub.rst:466
+msgid ":ref:`board_atmelavr_tinylily`"
+msgstr ""
+
+#: ../../../plus/debug-tools/avr-stub.rst:473
+msgid ":ref:`board_atmelavr_ardhat`"
+msgstr ""

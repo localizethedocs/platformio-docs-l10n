@@ -1,0 +1,376 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present, PlatformIO
+# This file is distributed under the same license as the PlatformIO package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PlatformIO latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-24 14:02+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../plus/debug-tools/renode.rst:15
+msgid "Renode"
+msgstr ""
+
+#: ../../../plus/debug-tools/renode.rst:20
+msgid ""
+"Renode is a development framework which accelerates IoT and embedded systems "
+"development by letting you simulate physical hardware systems - including "
+"both the CPU, peripherals, sensors, environment and wired or wireless medium "
+"between nodes. For more information, see `Renode's official website <https://"
+"renode.io/?utm_source=platformio&utm_medium=docs>`__."
+msgstr ""
+
+#: ../../../plus/debug-tools/renode.rst:26
+msgid "Contents"
+msgstr ""
+
+#: ../../../plus/debug-tools/renode_extra.rst:14
+msgid "Configuration"
+msgstr ""
+
+#: ../../../plus/debug-tools/renode_extra.rst:19
+msgid ""
+"You can configure Renode as a debugging tool using :ref:"
+"`projectconf_debug_tool` option in :ref:`projectconf`:"
+msgstr ""
+
+#: ../../../plus/debug-tools/renode_extra.rst:29
+msgid "More options:"
+msgstr ""
+
+#: ../../../plus/debug-tools/renode_extra.rst:31
+msgid ":ref:`projectconf_section_env_debug`"
+msgstr ""
+
+#: ../../../plus/debug-tools/renode_extra.rst:34
+msgid "Installation"
+msgstr ""
+
+#: ../../../plus/debug-tools/renode_extra.rst:36
+msgid ""
+"We will automatically install for you the latest Renode package using "
+"PlatformIO package manager. The only requirement is to install Mono/.NET "
+"framework."
+msgstr ""
+
+#: ../../../plus/debug-tools/renode_extra.rst:0
+msgid "Windows"
+msgstr ""
+
+#: ../../../plus/debug-tools/renode_extra.rst:40
+msgid ""
+"On Windows 7, download and install `.NET Framework 4.7 <https://www."
+"microsoft.com/net/download/dotnet-framework-runtime>`_. Windows 10 ships "
+"with .NET by default, so no action is required there."
+msgstr ""
+
+#: ../../../plus/debug-tools/renode_extra.rst:0
+msgid "Mac"
+msgstr ""
+
+#: ../../../plus/debug-tools/renode_extra.rst:44
+msgid ""
+"Install `Homebrew <https://brew.sh/>`_ and the ``mono`` package using ``brew "
+"install mono``."
+msgstr ""
+
+#: ../../../plus/debug-tools/renode_extra.rst:0
+msgid "Linux"
+msgstr ""
+
+#: ../../../plus/debug-tools/renode_extra.rst:47
+msgid ""
+"Install the ``mono-complete`` package as per the installation instructions "
+"for various Linux distributions which can be found on `the Mono project "
+"website <https://www.mono-project.com/download/stable/#download-lin>`_."
+msgstr ""
+
+#: ../../../plus/debug-tools/renode_extra.rst:51
+msgid ""
+"Check the `official Renode installation guide <https://github.com/renode/"
+"renode/blob/master/README.rst>`_ for more details."
+msgstr ""
+
+#: ../../../plus/debug-tools/renode_extra.rst:56
+msgid "Custom Settings"
+msgstr ""
+
+#: ../../../plus/debug-tools/renode_extra.rst:58
+msgid ""
+"If the default Renode configuration is not suitable for your project, it's "
+"possible to override the default Renode flags in :ref:`projectconf`. The "
+"following sections describe typical use cases where custom settings might be "
+"useful."
+msgstr ""
+
+#: ../../../plus/debug-tools/renode_extra.rst:63
+msgid "Additional Analyzers"
+msgstr ""
+
+#: ../../../plus/debug-tools/renode_extra.rst:65
+msgid ""
+"Additional analyzers might be handy in cases when an application prints "
+"output to a peripheral which is not visible by default. For example, to open "
+"an additional UART window while using Renode as the upload tool, a special "
+"command ``showAnalyzer`` should be added to ``upload_flags`` option, e.g.:"
+msgstr ""
+
+#: ../../../plus/debug-tools/renode_extra.rst:85
+msgid "Redirecting peripherals output"
+msgstr ""
+
+#: ../../../plus/debug-tools/renode_extra.rst:87
+msgid ""
+"It might be useful to redirect output from device peripherals to a more "
+"convenient communication channel. A typical example is redirecting UART "
+"output to a socket which can be opened by :ref:`cmd_device_monitor` while "
+"using Renode as the debug tool. The default debug flags can be overridden "
+"using the ``debug_server`` option. For example, the following configuration "
+"can be used to redirect output from the ``UART0`` port on the ``hifive1-"
+"revb`` board:"
+msgstr ""
+
+#: ../../../plus/debug-tools/renode.rst:31
+msgid "Examples"
+msgstr ""
+
+#: ../../../plus/debug-tools/renode.rst:33
+msgid ""
+"`Pre-configured projects for Zephyr RTOS, FreeRTOS, and Arduino <https://"
+"github.com/carlosedp/PlatformIO-Renode-Demos/>`__ by Carlos Eduardo"
+msgstr ""
+
+#: ../../../plus/debug-tools/renode.rst:38
+msgid "Platforms"
+msgstr ""
+
+#: ../../../plus/debug-tools/renode.rst:42
+#: ../../../plus/debug-tools/renode.rst:56
+#: ../../../plus/debug-tools/renode.rst:84
+msgid "Name"
+msgstr ""
+
+#: ../../../plus/debug-tools/renode.rst:43
+#: ../../../plus/debug-tools/renode.rst:57
+msgid "Description"
+msgstr ""
+
+#: ../../../plus/debug-tools/renode.rst:45
+#: ../../../plus/debug-tools/renode.rst:99
+msgid ":ref:`platform_openhw`"
+msgstr ""
+
+#: ../../../plus/debug-tools/renode.rst:46
+msgid ""
+"OpenHW Group is a not-for-profit, global organization that provides an "
+"infrastructure for hosting high quality open-source HW developments in line "
+"with industry best practices. The OpenHW CV32E40P RISC-V core is the first "
+"open-source core for high-volume chips verified with the state-of-the-art "
+"process required for high-integrity, commercial SoCs."
+msgstr ""
+
+#: ../../../plus/debug-tools/renode.rst:48
+#: ../../../plus/debug-tools/renode.rst:92
+#: ../../../plus/debug-tools/renode.rst:106
+#: ../../../plus/debug-tools/renode.rst:113
+#: ../../../plus/debug-tools/renode.rst:120
+#: ../../../plus/debug-tools/renode.rst:127
+#: ../../../plus/debug-tools/renode.rst:134
+msgid ":ref:`platform_sifive`"
+msgstr ""
+
+#: ../../../plus/debug-tools/renode.rst:49
+msgid ""
+"SiFive brings the power of open source and software automation to the "
+"semiconductor industry, making it possible to develop new hardware faster "
+"and more affordably than ever before."
+msgstr ""
+
+#: ../../../plus/debug-tools/renode.rst:52
+msgid "Frameworks"
+msgstr ""
+
+#: ../../../plus/debug-tools/renode.rst:59
+msgid ":ref:`framework_freedom-e-sdk`"
+msgstr ""
+
+#: ../../../plus/debug-tools/renode.rst:60
+msgid "Open Source Software for Developing on the SiFive Freedom E Platform"
+msgstr ""
+
+#: ../../../plus/debug-tools/renode.rst:62
+msgid ":ref:`framework_freertos`"
+msgstr ""
+
+#: ../../../plus/debug-tools/renode.rst:63
+msgid ""
+"FreeRTOS is a real-time operating system kernel for embedded devices that "
+"has been ported to 40 microcontroller platforms."
+msgstr ""
+
+#: ../../../plus/debug-tools/renode.rst:65
+msgid ":ref:`framework_pulp-runtime`"
+msgstr ""
+
+#: ../../../plus/debug-tools/renode.rst:66
+msgid "Runtime Environment for Parallel Ultra Low Power platform"
+msgstr ""
+
+#: ../../../plus/debug-tools/renode.rst:68
+msgid ":ref:`framework_pulp-sdk`"
+msgstr ""
+
+#: ../../../plus/debug-tools/renode.rst:69
+msgid "Software Development Kit for Parallel Ultra Low Power platform"
+msgstr ""
+
+#: ../../../plus/debug-tools/renode.rst:71
+msgid ":ref:`framework_zephyr`"
+msgstr ""
+
+#: ../../../plus/debug-tools/renode.rst:72
+msgid ""
+"Zephyr is a new generation, scalable, optimized, secure RTOS for multiple "
+"hardware architectures"
+msgstr ""
+
+#: ../../../plus/debug-tools/renode.rst:75
+msgid "Boards"
+msgstr ""
+
+#: ../../../plus/debug-tools/renode.rst:78
+msgid ""
+"For more detailed ``board`` information please scroll tables below by "
+"horizontal."
+msgstr ""
+
+#: ../../../plus/debug-tools/renode.rst:85
+msgid "Platform"
+msgstr ""
+
+#: ../../../plus/debug-tools/renode.rst:86
+msgid "Debug"
+msgstr ""
+
+#: ../../../plus/debug-tools/renode.rst:87
+msgid "MCU"
+msgstr ""
+
+#: ../../../plus/debug-tools/renode.rst:88
+msgid "Frequency"
+msgstr ""
+
+#: ../../../plus/debug-tools/renode.rst:89
+msgid "Flash"
+msgstr ""
+
+#: ../../../plus/debug-tools/renode.rst:90
+msgid "RAM"
+msgstr ""
+
+#: ../../../plus/debug-tools/renode.rst:91
+msgid ":ref:`board_sifive_e310-arty`"
+msgstr ""
+
+#: ../../../plus/debug-tools/renode.rst:93
+#: ../../../plus/debug-tools/renode.rst:100
+#: ../../../plus/debug-tools/renode.rst:107
+#: ../../../plus/debug-tools/renode.rst:114
+#: ../../../plus/debug-tools/renode.rst:121
+#: ../../../plus/debug-tools/renode.rst:128
+#: ../../../plus/debug-tools/renode.rst:135
+msgid "On-board"
+msgstr ""
+
+#: ../../../plus/debug-tools/renode.rst:94
+#: ../../../plus/debug-tools/renode.rst:115
+#: ../../../plus/debug-tools/renode.rst:122
+#: ../../../plus/debug-tools/renode.rst:129
+#: ../../../plus/debug-tools/renode.rst:136
+msgid "FE310"
+msgstr ""
+
+#: ../../../plus/debug-tools/renode.rst:95
+msgid "450MHz"
+msgstr ""
+
+#: ../../../plus/debug-tools/renode.rst:96
+#: ../../../plus/debug-tools/renode.rst:103
+#: ../../../plus/debug-tools/renode.rst:117
+#: ../../../plus/debug-tools/renode.rst:124
+#: ../../../plus/debug-tools/renode.rst:131
+#: ../../../plus/debug-tools/renode.rst:138
+msgid "16MB"
+msgstr ""
+
+#: ../../../plus/debug-tools/renode.rst:97
+msgid "256MB"
+msgstr ""
+
+#: ../../../plus/debug-tools/renode.rst:98
+msgid ":ref:`board_openhw_nexys_a7`"
+msgstr ""
+
+#: ../../../plus/debug-tools/renode.rst:102
+#: ../../../plus/debug-tools/renode.rst:116
+#: ../../../plus/debug-tools/renode.rst:123
+#: ../../../plus/debug-tools/renode.rst:130
+#: ../../../plus/debug-tools/renode.rst:137
+msgid "320MHz"
+msgstr ""
+
+#: ../../../plus/debug-tools/renode.rst:104
+msgid "1.16MB"
+msgstr ""
+
+#: ../../../plus/debug-tools/renode.rst:105
+msgid ":ref:`board_sifive_hifive-unleashed`"
+msgstr ""
+
+#: ../../../plus/debug-tools/renode.rst:108
+msgid "FU540"
+msgstr ""
+
+#: ../../../plus/debug-tools/renode.rst:109
+msgid "1500MHz"
+msgstr ""
+
+#: ../../../plus/debug-tools/renode.rst:110
+msgid "32MB"
+msgstr ""
+
+#: ../../../plus/debug-tools/renode.rst:111
+msgid "8GB"
+msgstr ""
+
+#: ../../../plus/debug-tools/renode.rst:112
+msgid ":ref:`board_sifive_hifive1`"
+msgstr ""
+
+#: ../../../plus/debug-tools/renode.rst:118
+#: ../../../plus/debug-tools/renode.rst:125
+#: ../../../plus/debug-tools/renode.rst:132
+#: ../../../plus/debug-tools/renode.rst:139
+msgid "16KB"
+msgstr ""
+
+#: ../../../plus/debug-tools/renode.rst:119
+msgid ":ref:`board_sifive_hifive1-revb`"
+msgstr ""
+
+#: ../../../plus/debug-tools/renode.rst:126
+msgid ":ref:`board_sifive_sparkfun_redboard_v`"
+msgstr ""
+
+#: ../../../plus/debug-tools/renode.rst:133
+msgid ":ref:`board_sifive_sparkfun_thing_plus_v`"
+msgstr ""

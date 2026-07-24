@@ -1,0 +1,61 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present, PlatformIO
+# This file is distributed under the same license as the PlatformIO package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PlatformIO latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-24 14:02+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../projectconf/sections/env/options/debug/debug_init_break.rst:15
+msgid "``debug_init_break``"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/debug/debug_init_break.rst:17
+msgid "Type: ``String`` | Multiple: ``No`` | Default: ``tbreak main``"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/debug/debug_init_break.rst:19
+msgid ""
+"An initial breakpoint that makes your program stop whenever a certain point "
+"in the program is reached. **Default** value is set to ``tbreak main`` and "
+"means creating a temporary breakpoint at ``int main(...)`` function and "
+"automatically delete it after the first time a program stops there."
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/debug/debug_init_break.rst:24
+msgid ""
+"`GDB Setting Breakpoints <https://sourceware.org/gdb/onlinedocs/gdb/Set-"
+"Breaks.html#Set-Breaks>`_"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/debug/debug_init_break.rst:25
+msgid ""
+"`GDB Breakpoint Locations <https://sourceware.org/gdb/onlinedocs/gdb/Specify-"
+"Location.html#Specify-Location>`_"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/debug/debug_init_break.rst:28
+msgid ""
+"Please note that each debugging tool (adapter, probe) has limited number of "
+"hardware breakpoints."
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/debug/debug_init_break.rst:31
+msgid ""
+"If you need more **Project Initial Breakpoints**, please place them in :ref:"
+"`projectconf_debug_extra_cmds`."
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/debug/debug_init_break.rst:33
+msgid "**Examples**"
+msgstr ""

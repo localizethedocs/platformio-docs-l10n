@@ -1,0 +1,31 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present, PlatformIO
+# This file is distributed under the same license as the PlatformIO package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PlatformIO latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-24 14:02+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../projectconf/sections/env/options/test/test_speed.rst:15
+msgid "``test_speed``"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/test/test_speed.rst:17
+msgid "Type: ``Number`` | Multiple: ``No`` | Default: ``115200``"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/test/test_speed.rst:19
+msgid ""
+"A connection speed (`baud rate <http://en.wikipedia.org/wiki/Baud>`_) to "
+"communicate with a target device."
+msgstr ""

@@ -1,0 +1,42 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present, PlatformIO
+# This file is distributed under the same license as the PlatformIO package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PlatformIO latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-24 14:02+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../projectconf/sections/env/options/check/check_flags.rst:15
+msgid "``check_flags``"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/check/check_flags.rst:17
+msgid "Type: ``String`` | Multiple: ``Yes``"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/check/check_flags.rst:19
+msgid ""
+"Additional flags to be passed to the tool command line. This option is "
+"useful when you want to adjust the check process to fit your project "
+"requirements. By default, the flags are passed to all tools specified in :"
+"ref:`projectconf_check_tool` section. To set individual flags, define tool "
+"name at the beginning of the line."
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/check/check_flags.rst:24
+msgid "Another option for adding flags is :option:`pio check --flags` command."
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/check/check_flags.rst:26
+msgid "**Example**"
+msgstr ""
