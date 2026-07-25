@@ -84,7 +84,7 @@ msgstr ""
 
 #: ../../../boards/ststm32/silica_sensor_node.rst:39
 msgid "Configuration"
-msgstr ""
+msgstr "組態"
 
 #: ../../../boards/ststm32/silica_sensor_node.rst:41
 msgid ""
@@ -203,7 +203,7 @@ msgstr ""
 
 #: ../../../boards/ststm32/silica_sensor_node.rst:124
 msgid "Frameworks"
-msgstr ""
+msgstr "框架"
 
 #: ../../../boards/ststm32/silica_sensor_node.rst:128
 msgid "Name"

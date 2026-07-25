@@ -82,7 +82,7 @@ msgstr ""
 
 #: ../../../boards/nordicnrf52/laird_bl654_dvk.rst:39
 msgid "Configuration"
-msgstr ""
+msgstr "組態"
 
 #: ../../../boards/nordicnrf52/laird_bl654_dvk.rst:41
 msgid ""
@@ -206,7 +206,7 @@ msgstr ""
 
 #: ../../../boards/nordicnrf52/laird_bl654_dvk.rst:125
 msgid "Frameworks"
-msgstr ""
+msgstr "框架"
 
 #: ../../../boards/nordicnrf52/laird_bl654_dvk.rst:129
 msgid "Name"

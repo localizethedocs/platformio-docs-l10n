@@ -283,4 +283,4 @@ msgstr ""
 
 #: ../../../plus/pio-remote.rst:171
 msgid "CLI Guide"
-msgstr ""
+msgstr "CLI 指南"

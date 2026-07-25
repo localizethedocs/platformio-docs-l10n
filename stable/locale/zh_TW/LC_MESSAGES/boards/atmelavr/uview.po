@@ -82,7 +82,7 @@ msgstr ""
 
 #: ../../../boards/atmelavr/uview.rst:39
 msgid "Configuration"
-msgstr ""
+msgstr "組態"
 
 #: ../../../boards/atmelavr/uview.rst:41
 msgid ""
@@ -154,7 +154,7 @@ msgstr ""
 
 #: ../../../boards/atmelavr/uview.rst:95
 msgid "Frameworks"
-msgstr ""
+msgstr "框架"
 
 #: ../../../boards/atmelavr/uview.rst:99
 msgid "Name"

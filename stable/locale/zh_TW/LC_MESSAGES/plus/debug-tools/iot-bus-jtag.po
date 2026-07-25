@@ -38,7 +38,7 @@ msgstr ""
 
 #: ../../../plus/debug-tools/iot-bus-jtag.rst:31
 msgid "Configuration"
-msgstr ""
+msgstr "組態"
 
 #: ../../../plus/debug-tools/iot-bus-jtag.rst:33
 msgid ""
@@ -421,7 +421,7 @@ msgstr ""
 
 #: ../../../plus/debug-tools/iot-bus-jtag.rst:106
 msgid "Frameworks"
-msgstr ""
+msgstr "框架"
 
 #: ../../../plus/debug-tools/iot-bus-jtag.rst:113
 msgid ":ref:`framework_arduino`"
@@ -447,7 +447,7 @@ msgstr ""
 
 #: ../../../plus/debug-tools/iot-bus-jtag.rst:120
 msgid "Boards"
-msgstr ""
+msgstr "開發板"
 
 #: ../../../plus/debug-tools/iot-bus-jtag.rst:123
 msgid ""

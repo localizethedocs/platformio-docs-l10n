@@ -126,7 +126,7 @@ msgstr ""
 
 #: ../../../scripting/custom_targets.rst:75
 msgid "Examples"
-msgstr ""
+msgstr "範例"
 
 #: ../../../scripting/custom_targets.rst:78
 msgid "Command shortcut"

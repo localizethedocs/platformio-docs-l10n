@@ -39,7 +39,7 @@ msgstr ""
 
 #: ../../../plus/debug-tools/minimodule.rst:32
 msgid "Configuration"
-msgstr ""
+msgstr "組態"
 
 #: ../../../plus/debug-tools/minimodule.rst:34
 msgid ""
@@ -430,7 +430,7 @@ msgstr ""
 
 #: ../../../plus/debug-tools/minimodule.rst:110
 msgid "Frameworks"
-msgstr ""
+msgstr "框架"
 
 #: ../../../plus/debug-tools/minimodule.rst:117
 msgid ":ref:`framework_arduino`"
@@ -484,7 +484,7 @@ msgstr ""
 
 #: ../../../plus/debug-tools/minimodule.rst:133
 msgid "Boards"
-msgstr ""
+msgstr "開發板"
 
 #: ../../../plus/debug-tools/minimodule.rst:136
 msgid ""

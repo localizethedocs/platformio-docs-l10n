@@ -81,7 +81,7 @@ msgstr ""
 
 #: ../../../boards/freescalekinetis/segger_ip_switch.rst:39
 msgid "Configuration"
-msgstr ""
+msgstr "組態"
 
 #: ../../../boards/freescalekinetis/segger_ip_switch.rst:41
 msgid ""
@@ -176,7 +176,7 @@ msgstr ""
 
 #: ../../../boards/freescalekinetis/segger_ip_switch.rst:112
 msgid "Frameworks"
-msgstr ""
+msgstr "框架"
 
 #: ../../../boards/freescalekinetis/segger_ip_switch.rst:116
 msgid "Name"

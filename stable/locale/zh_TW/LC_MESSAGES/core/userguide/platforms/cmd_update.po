@@ -69,4 +69,4 @@ msgstr ""
 
 #: ../../../core/userguide/platforms/cmd_update.rst:70
 msgid "Examples"
-msgstr ""
+msgstr "範例"

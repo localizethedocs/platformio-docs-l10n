@@ -80,7 +80,7 @@ msgstr ""
 
 #: ../../../boards/aceinna_imu/OpenIMU335.rst:39
 msgid "Configuration"
-msgstr ""
+msgstr "組態"
 
 #: ../../../boards/aceinna_imu/OpenIMU335.rst:41
 msgid ""

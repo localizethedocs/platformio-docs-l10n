@@ -391,7 +391,7 @@ msgstr ""
 
 #: ../../../core/userguide/pkg/cmd_search.rst:220
 msgid "Examples"
-msgstr ""
+msgstr "範例"
 
 #: ../../../core/userguide/pkg/cmd_search.rst:222
 #: ../../../core/userguide/pkg/cmd_search.rst:239

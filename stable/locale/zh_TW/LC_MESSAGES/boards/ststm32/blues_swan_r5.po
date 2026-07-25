@@ -83,7 +83,7 @@ msgstr ""
 
 #: ../../../boards/ststm32/blues_swan_r5.rst:39
 msgid "Configuration"
-msgstr ""
+msgstr "組態"
 
 #: ../../../boards/ststm32/blues_swan_r5.rst:41
 msgid ""
@@ -209,7 +209,7 @@ msgstr ""
 
 #: ../../../boards/ststm32/blues_swan_r5.rst:126
 msgid "Frameworks"
-msgstr ""
+msgstr "框架"
 
 #: ../../../boards/ststm32/blues_swan_r5.rst:130
 msgid "Name"

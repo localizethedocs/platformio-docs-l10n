@@ -33,7 +33,7 @@ msgstr ""
 
 #: ../../../platforms/nordicnrf51.rst:0
 msgid "Configuration"
-msgstr ""
+msgstr "組態"
 
 #: ../../../platforms/nordicnrf51.rst:20
 msgid ":ref:`projectconf_env_platform` = ``platformio/nordicnrf51``"
@@ -61,7 +61,7 @@ msgstr ""
 
 #: ../../../platforms/nordicnrf51.rst:32
 msgid "Examples"
-msgstr ""
+msgstr "範例"
 
 #: ../../../platforms/nordicnrf51.rst:34
 msgid ""
@@ -570,7 +570,7 @@ msgstr ""
 
 #: ../../../platforms/nordicnrf51.rst:246
 msgid "**Linux Users**:"
-msgstr ""
+msgstr "**Linux 使用者**："
 
 #: ../../../platforms/nordicnrf51.rst:248
 msgid "Install \"udev\" rules :ref:`platformio_udev_rules`"
@@ -584,7 +584,7 @@ msgstr ""
 
 #: ../../../platforms/nordicnrf51.rst:253
 msgid "**Windows Users:**"
-msgstr ""
+msgstr "**Windows 使用者：**"
 
 #: ../../../platforms/nordicnrf51.rst:255
 msgid ""
@@ -594,7 +594,7 @@ msgstr ""
 
 #: ../../../platforms/nordicnrf51.rst:260
 msgid "Frameworks"
-msgstr ""
+msgstr "框架"
 
 #: ../../../platforms/nordicnrf51.rst:267
 msgid ":ref:`framework_arduino`"
@@ -614,7 +614,7 @@ msgstr ""
 
 #: ../../../platforms/nordicnrf51.rst:274
 msgid "Boards"
-msgstr ""
+msgstr "開發板"
 
 #: ../../../platforms/nordicnrf51.rst:277
 msgid "You can list pre-configured boards by :ref:`cmd_boards` command"

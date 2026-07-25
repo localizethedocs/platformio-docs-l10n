@@ -55,7 +55,7 @@ msgstr ""
 
 #: ../../../core/userguide/platforms/cmd_frameworks.rst:50
 msgid "Examples"
-msgstr ""
+msgstr "範例"
 
 #: ../../../core/userguide/platforms/cmd_frameworks.rst:52
 msgid "Print all supported frameworks, SDKs, etc."

@@ -33,7 +33,7 @@ msgstr ""
 
 #: ../../../platforms/sifive.rst:0
 msgid "Configuration"
-msgstr ""
+msgstr "組態"
 
 #: ../../../platforms/sifive.rst:20
 msgid ":ref:`projectconf_env_platform` = ``platformio/sifive``"
@@ -58,7 +58,7 @@ msgstr ""
 
 #: ../../../platforms/sifive.rst:32
 msgid "Examples"
-msgstr ""
+msgstr "範例"
 
 #: ../../../platforms/sifive.rst:34
 msgid ""
@@ -453,7 +453,7 @@ msgstr ""
 
 #: ../../../platforms/sifive.rst:197
 msgid "**Linux Users**:"
-msgstr ""
+msgstr "**Linux 使用者**："
 
 #: ../../../platforms/sifive.rst:199
 msgid "Install \"udev\" rules :ref:`platformio_udev_rules`"
@@ -467,7 +467,7 @@ msgstr ""
 
 #: ../../../platforms/sifive.rst:204
 msgid "**Windows Users:**"
-msgstr ""
+msgstr "**Windows 使用者：**"
 
 #: ../../../platforms/sifive.rst:206
 msgid ""
@@ -477,7 +477,7 @@ msgstr ""
 
 #: ../../../platforms/sifive.rst:211
 msgid "Frameworks"
-msgstr ""
+msgstr "框架"
 
 #: ../../../platforms/sifive.rst:218
 msgid ":ref:`framework_freedom-e-sdk`"
@@ -499,7 +499,7 @@ msgstr ""
 
 #: ../../../platforms/sifive.rst:228
 msgid "Boards"
-msgstr ""
+msgstr "開發板"
 
 #: ../../../platforms/sifive.rst:231
 msgid "You can list pre-configured boards by :ref:`cmd_boards` command"

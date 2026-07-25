@@ -81,7 +81,7 @@ msgstr ""
 
 #: ../../../boards/atmelavr/ardhat.rst:39
 msgid "Configuration"
-msgstr ""
+msgstr "組態"
 
 #: ../../../boards/atmelavr/ardhat.rst:41
 msgid ""
@@ -153,7 +153,7 @@ msgstr ""
 
 #: ../../../boards/atmelavr/ardhat.rst:95
 msgid "Frameworks"
-msgstr ""
+msgstr "框架"
 
 #: ../../../boards/atmelavr/ardhat.rst:99
 msgid "Name"

@@ -85,7 +85,7 @@ msgstr ""
 
 #: ../../../integration/ci/appveyor.rst:92
 msgid "Examples"
-msgstr ""
+msgstr "範例"
 
 #: ../../../integration/ci/appveyor.rst:94
 msgid ""

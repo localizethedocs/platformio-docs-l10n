@@ -82,7 +82,7 @@ msgstr ""
 
 #: ../../../boards/espressif32/cytron_maker_feather_aiot_s3.rst:39
 msgid "Configuration"
-msgstr ""
+msgstr "組態"
 
 #: ../../../boards/espressif32/cytron_maker_feather_aiot_s3.rst:41
 msgid ""
@@ -265,7 +265,7 @@ msgstr ""
 
 #: ../../../boards/espressif32/cytron_maker_feather_aiot_s3.rst:157
 msgid "Frameworks"
-msgstr ""
+msgstr "框架"
 
 #: ../../../boards/espressif32/cytron_maker_feather_aiot_s3.rst:161
 msgid "Name"

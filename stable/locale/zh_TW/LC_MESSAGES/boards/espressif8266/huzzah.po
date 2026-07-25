@@ -81,7 +81,7 @@ msgstr ""
 
 #: ../../../boards/espressif8266/huzzah.rst:39
 msgid "Configuration"
-msgstr ""
+msgstr "組態"
 
 #: ../../../boards/espressif8266/huzzah.rst:41
 msgid ""
@@ -135,7 +135,7 @@ msgstr ""
 
 #: ../../../boards/espressif8266/huzzah.rst:91
 msgid "Frameworks"
-msgstr ""
+msgstr "框架"
 
 #: ../../../boards/espressif8266/huzzah.rst:95
 msgid "Name"

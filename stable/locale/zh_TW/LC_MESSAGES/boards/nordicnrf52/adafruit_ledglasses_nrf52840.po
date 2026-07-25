@@ -81,7 +81,7 @@ msgstr ""
 
 #: ../../../boards/nordicnrf52/adafruit_ledglasses_nrf52840.rst:39
 msgid "Configuration"
-msgstr ""
+msgstr "組態"
 
 #: ../../../boards/nordicnrf52/adafruit_ledglasses_nrf52840.rst:41
 msgid ""
@@ -207,7 +207,7 @@ msgstr ""
 
 #: ../../../boards/nordicnrf52/adafruit_ledglasses_nrf52840.rst:125
 msgid "Frameworks"
-msgstr ""
+msgstr "框架"
 
 #: ../../../boards/nordicnrf52/adafruit_ledglasses_nrf52840.rst:129
 msgid "Name"

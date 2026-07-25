@@ -33,7 +33,7 @@ msgstr ""
 
 #: ../../../platforms/openhw.rst:0
 msgid "Configuration"
-msgstr ""
+msgstr "組態"
 
 #: ../../../platforms/openhw.rst:20
 msgid ":ref:`projectconf_env_platform` = ``platformio/openhw``"
@@ -60,7 +60,7 @@ msgstr ""
 
 #: ../../../platforms/openhw.rst:32
 msgid "Examples"
-msgstr ""
+msgstr "範例"
 
 #: ../../../platforms/openhw.rst:34
 msgid ""
@@ -271,7 +271,7 @@ msgstr ""
 
 #: ../../../platforms/openhw.rst:147
 msgid "**Linux Users**:"
-msgstr ""
+msgstr "**Linux 使用者**："
 
 #: ../../../platforms/openhw.rst:149
 msgid "Install \"udev\" rules :ref:`platformio_udev_rules`"
@@ -285,7 +285,7 @@ msgstr ""
 
 #: ../../../platforms/openhw.rst:154
 msgid "**Windows Users:**"
-msgstr ""
+msgstr "**Windows 使用者：**"
 
 #: ../../../platforms/openhw.rst:156
 msgid ""
@@ -295,7 +295,7 @@ msgstr ""
 
 #: ../../../platforms/openhw.rst:161
 msgid "Frameworks"
-msgstr ""
+msgstr "框架"
 
 #: ../../../platforms/openhw.rst:168
 msgid ":ref:`framework_pulp-runtime`"
@@ -307,7 +307,7 @@ msgstr ""
 
 #: ../../../platforms/openhw.rst:175
 msgid "Boards"
-msgstr ""
+msgstr "開發板"
 
 #: ../../../platforms/openhw.rst:178
 msgid "You can list pre-configured boards by :ref:`cmd_boards` command"

@@ -77,7 +77,7 @@ msgstr ""
 
 #: ../../../boards/heltec-cubecell/cubecell_board_pro.rst:39
 msgid "Configuration"
-msgstr ""
+msgstr "組態"
 
 #: ../../../boards/heltec-cubecell/cubecell_board_pro.rst:41
 msgid ""
@@ -107,7 +107,7 @@ msgstr ""
 
 #: ../../../boards/heltec-cubecell/cubecell_board_pro.rst:71
 msgid "Frameworks"
-msgstr ""
+msgstr "框架"
 
 #: ../../../boards/heltec-cubecell/cubecell_board_pro.rst:75
 msgid "Name"

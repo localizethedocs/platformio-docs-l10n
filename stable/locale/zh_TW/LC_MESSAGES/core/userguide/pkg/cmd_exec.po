@@ -67,7 +67,7 @@ msgstr ""
 
 #: ../../../core/userguide/pkg/cmd_exec.rst:57
 msgid "Examples"
-msgstr ""
+msgstr "範例"
 
 #: ../../../core/userguide/pkg/cmd_exec.rst:59
 msgid "Run an arbitrary command from the first matched installed package"

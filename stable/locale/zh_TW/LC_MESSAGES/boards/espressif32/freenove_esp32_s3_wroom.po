@@ -81,7 +81,7 @@ msgstr ""
 
 #: ../../../boards/espressif32/freenove_esp32_s3_wroom.rst:39
 msgid "Configuration"
-msgstr ""
+msgstr "組態"
 
 #: ../../../boards/espressif32/freenove_esp32_s3_wroom.rst:41
 msgid ""
@@ -266,7 +266,7 @@ msgstr ""
 
 #: ../../../boards/espressif32/freenove_esp32_s3_wroom.rst:157
 msgid "Frameworks"
-msgstr ""
+msgstr "框架"
 
 #: ../../../boards/espressif32/freenove_esp32_s3_wroom.rst:161
 msgid "Name"

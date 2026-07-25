@@ -164,7 +164,7 @@ msgstr ""
 
 #: ../../../core/userguide/cmd_ci.rst:141
 msgid "Examples"
-msgstr ""
+msgstr "範例"
 
 #: ../../../core/userguide/cmd_ci.rst:143
 msgid "For the others examples please follow to :ref:`ci` page."

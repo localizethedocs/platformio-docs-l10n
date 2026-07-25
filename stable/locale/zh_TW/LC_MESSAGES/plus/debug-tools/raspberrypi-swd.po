@@ -33,7 +33,7 @@ msgstr ""
 
 #: ../../../plus/debug-tools/raspberrypi-swd.rst:26
 msgid "Configuration"
-msgstr ""
+msgstr "組態"
 
 #: ../../../plus/debug-tools/raspberrypi-swd.rst:28
 msgid ""
@@ -88,7 +88,7 @@ msgstr ""
 
 #: ../../../plus/debug-tools/raspberrypi-swd.rst:68
 msgid "Frameworks"
-msgstr ""
+msgstr "框架"
 
 #: ../../../plus/debug-tools/raspberrypi-swd.rst:75
 msgid ":ref:`framework_arduino`"
@@ -104,7 +104,7 @@ msgstr ""
 
 #: ../../../plus/debug-tools/raspberrypi-swd.rst:79
 msgid "Boards"
-msgstr ""
+msgstr "開發板"
 
 #: ../../../plus/debug-tools/raspberrypi-swd.rst:82
 msgid ""

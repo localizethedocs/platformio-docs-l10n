@@ -80,7 +80,7 @@ msgstr ""
 
 #: ../../../boards/raspberrypi/nanorp2040connect.rst:39
 msgid "Configuration"
-msgstr ""
+msgstr "組態"
 
 #: ../../../boards/raspberrypi/nanorp2040connect.rst:41
 msgid ""
@@ -191,7 +191,7 @@ msgstr ""
 
 #: ../../../boards/raspberrypi/nanorp2040connect.rst:120
 msgid "Frameworks"
-msgstr ""
+msgstr "框架"
 
 #: ../../../boards/raspberrypi/nanorp2040connect.rst:124
 msgid "Name"

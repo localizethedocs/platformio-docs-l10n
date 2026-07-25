@@ -81,7 +81,7 @@ msgstr ""
 
 #: ../../../boards/shakti/vajra.rst:39
 msgid "Configuration"
-msgstr ""
+msgstr "組態"
 
 #: ../../../boards/shakti/vajra.rst:41
 msgid ""
@@ -182,7 +182,7 @@ msgstr ""
 
 #: ../../../boards/shakti/vajra.rst:117
 msgid "Frameworks"
-msgstr ""
+msgstr "框架"
 
 #: ../../../boards/shakti/vajra.rst:121
 msgid "Name"

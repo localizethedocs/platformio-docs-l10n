@@ -19,4 +19,4 @@ msgstr ""
 
 #: ../../../advanced/unit-testing/frameworks/custom/examples/index.rst:15
 msgid "Examples"
-msgstr ""
+msgstr "範例"

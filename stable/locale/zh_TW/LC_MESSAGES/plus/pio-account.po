@@ -62,4 +62,4 @@ msgstr ""
 
 #: ../../../plus/pio-account.rst:34
 msgid "CLI Guide"
-msgstr ""
+msgstr "CLI 指南"

@@ -37,7 +37,7 @@ msgstr ""
 
 #: ../../../plus/debug-tools/esp-usb-bridge.rst:30
 msgid "Configuration"
-msgstr ""
+msgstr "組態"
 
 #: ../../../plus/debug-tools/esp-usb-bridge.rst:32
 msgid ""
@@ -101,7 +101,7 @@ msgstr ""
 
 #: ../../../plus/debug-tools/esp-usb-bridge.rst:78
 msgid "Frameworks"
-msgstr ""
+msgstr "框架"
 
 #: ../../../plus/debug-tools/esp-usb-bridge.rst:85
 msgid ":ref:`framework_arduino`"

@@ -34,7 +34,7 @@ msgstr ""
 #: ../../../advanced/unit-testing/frameworks/unity.rst:0
 #: ../../../advanced/unit-testing/frameworks/unity.rst:130
 msgid "Configuration"
-msgstr ""
+msgstr "組態"
 
 #: ../../../advanced/unit-testing/frameworks/unity.rst:20
 msgid ":ref:`projectconf_test_framework` = ``unity``"

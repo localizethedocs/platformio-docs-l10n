@@ -91,7 +91,7 @@ msgstr ""
 
 #: ../../../core/userguide/cmd_debug.rst:83
 msgid "Examples"
-msgstr ""
+msgstr "範例"
 
 #: ../../../core/userguide/cmd_debug.rst:85
 msgid "Prepare a project for debugging"

@@ -80,10 +80,12 @@ msgid ""
 "`96Boards <https://developer.mbed.org/platforms/ST-B96B-F446VE/?"
 "utm_source=platformio.org&utm_medium=docs>`__"
 msgstr ""
+"`96Boards <https://developer.mbed.org/platforms/ST-B96B-F446VE/?"
+"utm_source=platformio.org&utm_medium=docs>`__"
 
 #: ../../../boards/ststm32/b96b_f446ve.rst:39
 msgid "Configuration"
-msgstr ""
+msgstr "組態"
 
 #: ../../../boards/ststm32/b96b_f446ve.rst:41
 msgid ""
@@ -202,7 +204,7 @@ msgstr ""
 
 #: ../../../boards/ststm32/b96b_f446ve.rst:124
 msgid "Frameworks"
-msgstr ""
+msgstr "框架"
 
 #: ../../../boards/ststm32/b96b_f446ve.rst:128
 msgid "Name"

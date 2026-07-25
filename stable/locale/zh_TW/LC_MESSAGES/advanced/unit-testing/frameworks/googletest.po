@@ -34,7 +34,7 @@ msgstr ""
 #: ../../../advanced/unit-testing/frameworks/googletest.rst:0
 #: ../../../advanced/unit-testing/frameworks/googletest.rst:130
 msgid "Configuration"
-msgstr ""
+msgstr "組態"
 
 #: ../../../advanced/unit-testing/frameworks/googletest.rst:20
 msgid ":ref:`projectconf_test_framework` = ``googletest``"

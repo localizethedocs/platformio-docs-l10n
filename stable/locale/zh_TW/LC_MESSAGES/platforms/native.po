@@ -33,7 +33,7 @@ msgstr ""
 
 #: ../../../platforms/native.rst:0
 msgid "Configuration"
-msgstr ""
+msgstr "組態"
 
 #: ../../../platforms/native.rst:20
 msgid ":ref:`projectconf_env_platform` = ``platformio/native``"
@@ -108,7 +108,7 @@ msgstr ""
 
 #: ../../../platforms/native.rst:33
 msgid "Examples"
-msgstr ""
+msgstr "範例"
 
 #: ../../../platforms/native.rst:35
 msgid ""

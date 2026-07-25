@@ -81,7 +81,7 @@ msgstr ""
 
 #: ../../../boards/nordicnrf51/bbcmicrobit.rst:39
 msgid "Configuration"
-msgstr ""
+msgstr "組態"
 
 #: ../../../boards/nordicnrf51/bbcmicrobit.rst:41
 msgid ""
@@ -180,7 +180,7 @@ msgstr ""
 
 #: ../../../boards/nordicnrf51/bbcmicrobit.rst:115
 msgid "Frameworks"
-msgstr ""
+msgstr "框架"
 
 #: ../../../boards/nordicnrf51/bbcmicrobit.rst:119
 msgid "Name"

@@ -82,7 +82,7 @@ msgstr ""
 
 #: ../../../boards/maxim32/sdt32620b.rst:39
 msgid "Configuration"
-msgstr ""
+msgstr "組態"
 
 #: ../../../boards/maxim32/sdt32620b.rst:41
 msgid ""
@@ -109,7 +109,7 @@ msgstr ""
 
 #: ../../../boards/maxim32/sdt32620b.rst:71
 msgid "Frameworks"
-msgstr ""
+msgstr "框架"
 
 #: ../../../boards/maxim32/sdt32620b.rst:75
 msgid "Name"

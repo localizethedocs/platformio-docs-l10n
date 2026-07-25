@@ -83,7 +83,7 @@ msgstr ""
 
 #: ../../../boards/nxplpc/seeedArchPro.rst:39
 msgid "Configuration"
-msgstr ""
+msgstr "組態"
 
 #: ../../../boards/nxplpc/seeedArchPro.rst:41
 msgid ""
@@ -178,7 +178,7 @@ msgstr ""
 
 #: ../../../boards/nxplpc/seeedArchPro.rst:112
 msgid "Frameworks"
-msgstr ""
+msgstr "框架"
 
 #: ../../../boards/nxplpc/seeedArchPro.rst:116
 msgid "Name"

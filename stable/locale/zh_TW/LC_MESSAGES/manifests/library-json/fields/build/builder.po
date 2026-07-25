@@ -45,7 +45,7 @@ msgstr ""
 
 #: ../../../manifests/library-json/fields/build/builder.rst:25
 msgid "Examples"
-msgstr ""
+msgstr "範例"
 
 #: ../../../manifests/library-json/fields/build/builder.rst:27
 msgid "Custom macros/defines"

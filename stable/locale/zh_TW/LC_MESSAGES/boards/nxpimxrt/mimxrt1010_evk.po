@@ -81,7 +81,7 @@ msgstr ""
 
 #: ../../../boards/nxpimxrt/mimxrt1010_evk.rst:39
 msgid "Configuration"
-msgstr ""
+msgstr "組態"
 
 #: ../../../boards/nxpimxrt/mimxrt1010_evk.rst:41
 msgid ""
@@ -185,7 +185,7 @@ msgstr ""
 
 #: ../../../boards/nxpimxrt/mimxrt1010_evk.rst:116
 msgid "Frameworks"
-msgstr ""
+msgstr "框架"
 
 #: ../../../boards/nxpimxrt/mimxrt1010_evk.rst:120
 msgid "Name"

@@ -106,4 +106,4 @@ msgstr ""
 
 #: ../../../core/userguide/lib/cmd_uninstall.rst:103
 msgid "Examples"
-msgstr ""
+msgstr "範例"

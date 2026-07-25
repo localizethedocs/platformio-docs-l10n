@@ -79,7 +79,7 @@ msgstr ""
 
 #: ../../../boards/espressif32/widora-air.rst:39
 msgid "Configuration"
-msgstr ""
+msgstr "組態"
 
 #: ../../../boards/espressif32/widora-air.rst:41
 msgid ""
@@ -132,7 +132,7 @@ msgstr ""
 
 #: ../../../boards/espressif32/widora-air.rst:91
 msgid "Frameworks"
-msgstr ""
+msgstr "框架"
 
 #: ../../../boards/espressif32/widora-air.rst:95
 msgid "Name"

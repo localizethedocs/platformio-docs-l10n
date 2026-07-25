@@ -79,7 +79,7 @@ msgstr ""
 
 #: ../../../boards/maxim32/max32620fthr.rst:39
 msgid "Configuration"
-msgstr ""
+msgstr "組態"
 
 #: ../../../boards/maxim32/max32620fthr.rst:41
 msgid ""
@@ -173,7 +173,7 @@ msgstr ""
 
 #: ../../../boards/maxim32/max32620fthr.rst:112
 msgid "Frameworks"
-msgstr ""
+msgstr "框架"
 
 #: ../../../boards/maxim32/max32620fthr.rst:116
 msgid "Name"

@@ -83,7 +83,7 @@ msgstr ""
 
 #: ../../../boards/ststm32/nucleo_wl55jc.rst:39
 msgid "Configuration"
-msgstr ""
+msgstr "組態"
 
 #: ../../../boards/ststm32/nucleo_wl55jc.rst:41
 msgid ""
@@ -194,7 +194,7 @@ msgstr ""
 
 #: ../../../boards/ststm32/nucleo_wl55jc.rst:120
 msgid "Frameworks"
-msgstr ""
+msgstr "框架"
 
 #: ../../../boards/ststm32/nucleo_wl55jc.rst:124
 msgid "Name"

@@ -49,7 +49,7 @@ msgstr ""
 
 #: ../../../advanced/unit-testing/semihosting.rst:31
 msgid "Configuration"
-msgstr ""
+msgstr "組態"
 
 #: ../../../advanced/unit-testing/semihosting.rst:33
 msgid ""

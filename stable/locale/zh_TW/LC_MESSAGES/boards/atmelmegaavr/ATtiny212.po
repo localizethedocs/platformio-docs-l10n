@@ -82,7 +82,7 @@ msgstr ""
 
 #: ../../../boards/atmelmegaavr/ATtiny212.rst:39
 msgid "Configuration"
-msgstr ""
+msgstr "組態"
 
 #: ../../../boards/atmelmegaavr/ATtiny212.rst:41
 msgid ""
@@ -109,7 +109,7 @@ msgstr ""
 
 #: ../../../boards/atmelmegaavr/ATtiny212.rst:71
 msgid "Frameworks"
-msgstr ""
+msgstr "框架"
 
 #: ../../../boards/atmelmegaavr/ATtiny212.rst:75
 msgid "Name"

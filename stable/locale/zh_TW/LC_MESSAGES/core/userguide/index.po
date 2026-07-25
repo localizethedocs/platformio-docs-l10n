@@ -43,7 +43,7 @@ msgstr ""
 
 #: ../../../core/userguide/index.rst:15
 msgid "CLI Guide"
-msgstr ""
+msgstr "CLI 指南"
 
 #: ../../../core/userguide/index.rst:17
 msgid "Contents"

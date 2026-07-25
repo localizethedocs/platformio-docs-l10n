@@ -19,7 +19,7 @@ msgstr ""
 
 #: ../../../projectconf/build_configurations.rst:15
 msgid "Build Configurations"
-msgstr ""
+msgstr "建置組態"
 
 #: ../../../projectconf/build_configurations.rst:17
 msgid ""

@@ -79,7 +79,7 @@ msgstr ""
 
 #: ../../../boards/linux_arm/raspberrypi_1b.rst:39
 msgid "Configuration"
-msgstr ""
+msgstr "組態"
 
 #: ../../../boards/linux_arm/raspberrypi_1b.rst:41
 msgid ""
@@ -107,7 +107,7 @@ msgstr ""
 
 #: ../../../boards/linux_arm/raspberrypi_1b.rst:71
 msgid "Frameworks"
-msgstr ""
+msgstr "框架"
 
 #: ../../../boards/linux_arm/raspberrypi_1b.rst:75
 msgid "Name"

@@ -150,7 +150,7 @@ msgstr ""
 
 #: ../../../core/userguide/project/cmd_init.rst:112
 msgid "Examples"
-msgstr ""
+msgstr "範例"
 
 #: ../../../core/userguide/project/cmd_init.rst:114
 msgid "Initialize new project in a current working directory"

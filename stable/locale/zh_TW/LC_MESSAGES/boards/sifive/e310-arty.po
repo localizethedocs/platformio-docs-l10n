@@ -80,7 +80,7 @@ msgstr ""
 
 #: ../../../boards/sifive/e310-arty.rst:39
 msgid "Configuration"
-msgstr ""
+msgstr "組態"
 
 #: ../../../boards/sifive/e310-arty.rst:41
 msgid ""
@@ -237,7 +237,7 @@ msgstr ""
 
 #: ../../../boards/sifive/e310-arty.rst:145
 msgid "Frameworks"
-msgstr ""
+msgstr "框架"
 
 #: ../../../boards/sifive/e310-arty.rst:149
 msgid "Name"

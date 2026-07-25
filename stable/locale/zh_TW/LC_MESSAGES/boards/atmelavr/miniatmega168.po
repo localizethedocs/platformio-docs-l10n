@@ -82,7 +82,7 @@ msgstr ""
 
 #: ../../../boards/atmelavr/miniatmega168.rst:39
 msgid "Configuration"
-msgstr ""
+msgstr "組態"
 
 #: ../../../boards/atmelavr/miniatmega168.rst:41
 msgid ""
@@ -151,7 +151,7 @@ msgstr ""
 
 #: ../../../boards/atmelavr/miniatmega168.rst:92
 msgid "Frameworks"
-msgstr ""
+msgstr "框架"
 
 #: ../../../boards/atmelavr/miniatmega168.rst:96
 msgid "Name"

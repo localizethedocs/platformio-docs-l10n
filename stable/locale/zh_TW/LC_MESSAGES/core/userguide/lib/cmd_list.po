@@ -63,4 +63,4 @@ msgstr ""
 
 #: ../../../core/userguide/lib/cmd_list.rst:66
 msgid "Examples"
-msgstr ""
+msgstr "範例"

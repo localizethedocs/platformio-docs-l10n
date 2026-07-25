@@ -23,7 +23,7 @@ msgstr ""
 
 #: ../../../frameworks/shakti-sdk.rst:0
 msgid "Configuration"
-msgstr ""
+msgstr "組態"
 
 #: ../../../frameworks/shakti-sdk.rst:18
 msgid ":ref:`projectconf_env_framework` = ``shakti-sdk``"
@@ -73,7 +73,7 @@ msgstr ""
 
 #: ../../../frameworks/shakti-sdk.rst:38
 msgid "Examples"
-msgstr ""
+msgstr "範例"
 
 #: ../../../frameworks/shakti-sdk.rst:40
 msgid ""
@@ -212,7 +212,7 @@ msgstr ""
 
 #: ../../../frameworks/shakti-sdk.rst:113
 msgid "Boards"
-msgstr ""
+msgstr "開發板"
 
 #: ../../../frameworks/shakti-sdk.rst:116
 msgid "You can list pre-configured boards by :ref:`cmd_boards` command"

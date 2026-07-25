@@ -81,7 +81,7 @@ msgstr ""
 
 #: ../../../boards/nordicnrf52/bluey.rst:39
 msgid "Configuration"
-msgstr ""
+msgstr "組態"
 
 #: ../../../boards/nordicnrf52/bluey.rst:41
 msgid ""
@@ -199,7 +199,7 @@ msgstr ""
 
 #: ../../../boards/nordicnrf52/bluey.rst:124
 msgid "Frameworks"
-msgstr ""
+msgstr "框架"
 
 #: ../../../boards/nordicnrf52/bluey.rst:128
 msgid "Name"

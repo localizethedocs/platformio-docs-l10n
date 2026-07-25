@@ -80,7 +80,7 @@ msgstr ""
 
 #: ../../../boards/lattice_ice40/icestick.rst:39
 msgid "Configuration"
-msgstr ""
+msgstr "組態"
 
 #: ../../../boards/lattice_ice40/icestick.rst:41
 msgid ""

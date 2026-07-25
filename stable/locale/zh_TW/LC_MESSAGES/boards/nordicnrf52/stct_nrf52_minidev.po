@@ -81,7 +81,7 @@ msgstr ""
 
 #: ../../../boards/nordicnrf52/stct_nrf52_minidev.rst:39
 msgid "Configuration"
-msgstr ""
+msgstr "組態"
 
 #: ../../../boards/nordicnrf52/stct_nrf52_minidev.rst:41
 msgid ""
@@ -201,7 +201,7 @@ msgstr ""
 
 #: ../../../boards/nordicnrf52/stct_nrf52_minidev.rst:124
 msgid "Frameworks"
-msgstr ""
+msgstr "框架"
 
 #: ../../../boards/nordicnrf52/stct_nrf52_minidev.rst:128
 msgid "Name"

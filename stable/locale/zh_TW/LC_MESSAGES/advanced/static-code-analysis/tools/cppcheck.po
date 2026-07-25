@@ -135,7 +135,7 @@ msgstr ""
 
 #: ../../../advanced/static-code-analysis/tools/cppcheck.rst:65
 msgid "Configuration"
-msgstr ""
+msgstr "組態"
 
 #: ../../../advanced/static-code-analysis/tools/cppcheck.rst:67
 msgid ""

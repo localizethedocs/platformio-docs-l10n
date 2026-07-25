@@ -45,7 +45,7 @@ msgstr ""
 
 #: ../../../core/userguide/team/cmd_remove.rst:34
 msgid "Examples"
-msgstr ""
+msgstr "範例"
 
 #: ../../../core/userguide/team/cmd_remove.rst:36
 msgid "Remove Bob from the \"dev\" team of \"platformio\" organization:"

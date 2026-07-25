@@ -19,7 +19,7 @@ msgstr ""
 
 #: ../../../projectconf/sections/env/options/debug/index.rst:15
 msgid "Debugging options"
-msgstr ""
+msgstr "除錯選項"
 
 #: ../../../projectconf/sections/env/options/debug/index.rst:18
 msgid "Please make sure to read :ref:`piodebug` guide first."

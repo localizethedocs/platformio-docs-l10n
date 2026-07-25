@@ -82,7 +82,7 @@ msgstr ""
 
 #: ../../../boards/atmelavr/arduboy_devkit.rst:39
 msgid "Configuration"
-msgstr ""
+msgstr "組態"
 
 #: ../../../boards/atmelavr/arduboy_devkit.rst:41
 msgid ""
@@ -150,7 +150,7 @@ msgstr ""
 
 #: ../../../boards/atmelavr/arduboy_devkit.rst:92
 msgid "Frameworks"
-msgstr ""
+msgstr "框架"
 
 #: ../../../boards/atmelavr/arduboy_devkit.rst:96
 msgid "Name"

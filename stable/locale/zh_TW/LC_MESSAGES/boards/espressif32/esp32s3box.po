@@ -81,7 +81,7 @@ msgstr ""
 
 #: ../../../boards/espressif32/esp32s3box.rst:39
 msgid "Configuration"
-msgstr ""
+msgstr "組態"
 
 #: ../../../boards/espressif32/esp32s3box.rst:41
 msgid ""
@@ -262,7 +262,7 @@ msgstr ""
 
 #: ../../../boards/espressif32/esp32s3box.rst:157
 msgid "Frameworks"
-msgstr ""
+msgstr "框架"
 
 #: ../../../boards/espressif32/esp32s3box.rst:161
 msgid "Name"

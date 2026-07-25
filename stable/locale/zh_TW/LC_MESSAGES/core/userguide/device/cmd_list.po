@@ -64,7 +64,7 @@ msgstr ""
 
 #: ../../../core/userguide/device/cmd_list.rst:61
 msgid "Examples"
-msgstr ""
+msgstr "範例"
 
 #: ../../../core/userguide/device/cmd_list.rst:63
 msgid "Unix OS"

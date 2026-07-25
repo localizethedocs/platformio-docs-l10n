@@ -35,7 +35,7 @@ msgstr ""
 
 #: ../../../plus/debug-tools/digilent-hs2.rst:27
 msgid "Configuration"
-msgstr ""
+msgstr "組態"
 
 #: ../../../plus/debug-tools/digilent-hs2.rst:29
 msgid ""
@@ -92,7 +92,7 @@ msgstr ""
 
 #: ../../../plus/debug-tools/digilent-hs2.rst:69
 msgid "Frameworks"
-msgstr ""
+msgstr "框架"
 
 #: ../../../plus/debug-tools/digilent-hs2.rst:76
 msgid ":ref:`framework_pulp-runtime`"
@@ -112,7 +112,7 @@ msgstr ""
 
 #: ../../../plus/debug-tools/digilent-hs2.rst:83
 msgid "Boards"
-msgstr ""
+msgstr "開發板"
 
 #: ../../../plus/debug-tools/digilent-hs2.rst:86
 msgid ""

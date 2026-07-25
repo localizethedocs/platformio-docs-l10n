@@ -82,7 +82,7 @@ msgstr ""
 
 #: ../../../boards/teensy/teensylc.rst:39
 msgid "Configuration"
-msgstr ""
+msgstr "組態"
 
 #: ../../../boards/teensy/teensylc.rst:41
 msgid ""
@@ -180,7 +180,7 @@ msgstr ""
 
 #: ../../../boards/teensy/teensylc.rst:113
 msgid "Frameworks"
-msgstr ""
+msgstr "框架"
 
 #: ../../../boards/teensy/teensylc.rst:117
 msgid "Name"

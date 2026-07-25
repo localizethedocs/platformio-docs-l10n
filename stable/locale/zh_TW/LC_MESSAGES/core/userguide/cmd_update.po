@@ -74,4 +74,4 @@ msgstr ""
 
 #: ../../../core/userguide/cmd_update.rst:66
 msgid "Examples"
-msgstr ""
+msgstr "範例"

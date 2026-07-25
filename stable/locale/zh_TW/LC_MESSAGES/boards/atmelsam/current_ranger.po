@@ -80,7 +80,7 @@ msgstr ""
 
 #: ../../../boards/atmelsam/current_ranger.rst:39
 msgid "Configuration"
-msgstr ""
+msgstr "組態"
 
 #: ../../../boards/atmelsam/current_ranger.rst:41
 msgid ""
@@ -108,7 +108,7 @@ msgstr ""
 
 #: ../../../boards/atmelsam/current_ranger.rst:71
 msgid "Frameworks"
-msgstr ""
+msgstr "框架"
 
 #: ../../../boards/atmelsam/current_ranger.rst:75
 msgid "Name"

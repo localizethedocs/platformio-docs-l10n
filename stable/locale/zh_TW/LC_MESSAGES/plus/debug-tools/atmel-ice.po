@@ -36,7 +36,7 @@ msgstr ""
 
 #: ../../../plus/debug-tools/atmel-ice.rst:28
 msgid "Configuration"
-msgstr ""
+msgstr "組態"
 
 #: ../../../plus/debug-tools/atmel-ice.rst:30
 msgid ""
@@ -203,7 +203,7 @@ msgstr ""
 
 #: ../../../plus/debug-tools/atmel-ice.rst:84
 msgid "Frameworks"
-msgstr ""
+msgstr "框架"
 
 #: ../../../plus/debug-tools/atmel-ice.rst:91
 msgid ":ref:`framework_arduino`"
@@ -229,7 +229,7 @@ msgstr ""
 
 #: ../../../plus/debug-tools/atmel-ice.rst:98
 msgid "Boards"
-msgstr ""
+msgstr "開發板"
 
 #: ../../../plus/debug-tools/atmel-ice.rst:101
 msgid ""

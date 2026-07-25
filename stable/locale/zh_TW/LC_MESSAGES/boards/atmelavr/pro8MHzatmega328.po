@@ -82,7 +82,7 @@ msgstr ""
 
 #: ../../../boards/atmelavr/pro8MHzatmega328.rst:39
 msgid "Configuration"
-msgstr ""
+msgstr "組態"
 
 #: ../../../boards/atmelavr/pro8MHzatmega328.rst:41
 msgid ""
@@ -155,7 +155,7 @@ msgstr ""
 
 #: ../../../boards/atmelavr/pro8MHzatmega328.rst:95
 msgid "Frameworks"
-msgstr ""
+msgstr "框架"
 
 #: ../../../boards/atmelavr/pro8MHzatmega328.rst:99
 msgid "Name"

@@ -53,4 +53,4 @@ msgstr ""
 
 #: ../../../core/userguide/remote/cmd_update.rst:53
 msgid "Examples"
-msgstr ""
+msgstr "範例"

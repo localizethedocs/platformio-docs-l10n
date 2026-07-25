@@ -48,4 +48,4 @@ msgstr ""
 
 #: ../../../core/userguide/team/cmd_list.rst:42
 msgid "Examples"
-msgstr ""
+msgstr "範例"

@@ -71,7 +71,7 @@ msgstr ""
 
 #: ../../../core/installation/requirements.rst:41
 msgid "**Linux Users**:"
-msgstr ""
+msgstr "**Linux 使用者**："
 
 #: ../../../core/installation/requirements.rst:43
 msgid "Please install :ref:`platformio_udev_rules`"

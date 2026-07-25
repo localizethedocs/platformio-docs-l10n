@@ -81,7 +81,7 @@ msgstr ""
 
 #: ../../../boards/espressif32/4d_systems_esp32s3_gen4_r8n16.rst:39
 msgid "Configuration"
-msgstr ""
+msgstr "組態"
 
 #: ../../../boards/espressif32/4d_systems_esp32s3_gen4_r8n16.rst:41
 msgid ""
@@ -265,7 +265,7 @@ msgstr ""
 
 #: ../../../boards/espressif32/4d_systems_esp32s3_gen4_r8n16.rst:157
 msgid "Frameworks"
-msgstr ""
+msgstr "框架"
 
 #: ../../../boards/espressif32/4d_systems_esp32s3_gen4_r8n16.rst:161
 msgid "Name"

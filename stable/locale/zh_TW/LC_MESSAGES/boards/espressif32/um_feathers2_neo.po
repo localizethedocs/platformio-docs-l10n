@@ -81,7 +81,7 @@ msgstr ""
 
 #: ../../../boards/espressif32/um_feathers2_neo.rst:39
 msgid "Configuration"
-msgstr ""
+msgstr "組態"
 
 #: ../../../boards/espressif32/um_feathers2_neo.rst:41
 msgid ""
@@ -258,7 +258,7 @@ msgstr ""
 
 #: ../../../boards/espressif32/um_feathers2_neo.rst:153
 msgid "Frameworks"
-msgstr ""
+msgstr "框架"
 
 #: ../../../boards/espressif32/um_feathers2_neo.rst:157
 msgid "Name"

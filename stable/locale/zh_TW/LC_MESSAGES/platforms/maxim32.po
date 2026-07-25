@@ -33,7 +33,7 @@ msgstr ""
 
 #: ../../../platforms/maxim32.rst:0
 msgid "Configuration"
-msgstr ""
+msgstr "組態"
 
 #: ../../../platforms/maxim32.rst:20
 msgid ":ref:`projectconf_env_platform` = ``platformio/maxim32``"
@@ -61,7 +61,7 @@ msgstr ""
 
 #: ../../../platforms/maxim32.rst:32
 msgid "Examples"
-msgstr ""
+msgstr "範例"
 
 #: ../../../platforms/maxim32.rst:34
 msgid ""
@@ -301,7 +301,7 @@ msgstr ""
 
 #: ../../../platforms/maxim32.rst:172
 msgid "**Linux Users**:"
-msgstr ""
+msgstr "**Linux 使用者**："
 
 #: ../../../platforms/maxim32.rst:174
 msgid "Install \"udev\" rules :ref:`platformio_udev_rules`"
@@ -315,7 +315,7 @@ msgstr ""
 
 #: ../../../platforms/maxim32.rst:179
 msgid "**Windows Users:**"
-msgstr ""
+msgstr "**Windows 使用者：**"
 
 #: ../../../platforms/maxim32.rst:181
 msgid ""
@@ -325,7 +325,7 @@ msgstr ""
 
 #: ../../../platforms/maxim32.rst:186
 msgid "Frameworks"
-msgstr ""
+msgstr "框架"
 
 #: ../../../platforms/maxim32.rst:193
 msgid ":ref:`framework_mbed`"
@@ -333,7 +333,7 @@ msgstr ""
 
 #: ../../../platforms/maxim32.rst:197
 msgid "Boards"
-msgstr ""
+msgstr "開發板"
 
 #: ../../../platforms/maxim32.rst:200
 msgid "You can list pre-configured boards by :ref:`cmd_boards` command"

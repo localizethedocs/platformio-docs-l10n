@@ -67,7 +67,7 @@ msgstr ""
 
 #: ../../../platforms/creating_platform.rst:39
 msgid "Examples"
-msgstr ""
+msgstr "範例"
 
 #: ../../../platforms/creating_platform.rst:41
 msgid ""

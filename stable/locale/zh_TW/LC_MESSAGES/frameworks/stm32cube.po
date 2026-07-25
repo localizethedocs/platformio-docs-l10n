@@ -23,7 +23,7 @@ msgstr ""
 
 #: ../../../frameworks/stm32cube.rst:0
 msgid "Configuration"
-msgstr ""
+msgstr "組態"
 
 #: ../../../frameworks/stm32cube.rst:18
 msgid ":ref:`projectconf_env_framework` = ``stm32cube``"
@@ -751,7 +751,7 @@ msgstr ""
 
 #: ../../../frameworks/stm32cube.rst:39
 msgid "Examples"
-msgstr ""
+msgstr "範例"
 
 #: ../../../frameworks/stm32cube.rst:41
 msgid ""
@@ -4811,7 +4811,7 @@ msgstr ""
 
 #: ../../../frameworks/stm32cube.rst:1729
 msgid "Boards"
-msgstr ""
+msgstr "開發板"
 
 #: ../../../frameworks/stm32cube.rst:1732
 msgid "You can list pre-configured boards by :ref:`cmd_boards` command"

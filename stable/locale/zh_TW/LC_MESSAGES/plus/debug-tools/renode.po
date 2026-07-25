@@ -36,7 +36,7 @@ msgstr ""
 
 #: ../../../plus/debug-tools/renode_extra.rst:14
 msgid "Configuration"
-msgstr ""
+msgstr "組態"
 
 #: ../../../plus/debug-tools/renode_extra.rst:19
 msgid ""
@@ -142,7 +142,7 @@ msgstr ""
 
 #: ../../../plus/debug-tools/renode.rst:31
 msgid "Examples"
-msgstr ""
+msgstr "範例"
 
 #: ../../../plus/debug-tools/renode.rst:33
 msgid ""
@@ -198,7 +198,7 @@ msgstr ""
 
 #: ../../../plus/debug-tools/renode.rst:52
 msgid "Frameworks"
-msgstr ""
+msgstr "框架"
 
 #: ../../../plus/debug-tools/renode.rst:59
 msgid ":ref:`framework_freedom-e-sdk`"
@@ -246,7 +246,7 @@ msgstr ""
 
 #: ../../../plus/debug-tools/renode.rst:75
 msgid "Boards"
-msgstr ""
+msgstr "開發板"
 
 #: ../../../plus/debug-tools/renode.rst:78
 msgid ""

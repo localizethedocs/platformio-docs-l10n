@@ -34,7 +34,7 @@ msgstr ""
 #: ../../../platforms/atmelmegaavr.rst:0
 #: ../../../platforms/atmelmegaavr_extra.rst:13
 msgid "Configuration"
-msgstr ""
+msgstr "組態"
 
 #: ../../../platforms/atmelmegaavr.rst:20
 msgid ":ref:`projectconf_env_platform` = ``platformio/atmelmegaavr``"
@@ -213,7 +213,7 @@ msgstr ""
 
 #: ../../../platforms/atmelmegaavr.rst:33
 msgid "Examples"
-msgstr ""
+msgstr "範例"
 
 #: ../../../platforms/atmelmegaavr.rst:35
 msgid ""
@@ -366,7 +366,7 @@ msgstr ""
 
 #: ../../../platforms/atmelmegaavr.rst:106
 msgid "**Linux Users**:"
-msgstr ""
+msgstr "**Linux 使用者**："
 
 #: ../../../platforms/atmelmegaavr.rst:108
 msgid "Install \"udev\" rules :ref:`platformio_udev_rules`"
@@ -380,7 +380,7 @@ msgstr ""
 
 #: ../../../platforms/atmelmegaavr.rst:113
 msgid "**Windows Users:**"
-msgstr ""
+msgstr "**Windows 使用者：**"
 
 #: ../../../platforms/atmelmegaavr.rst:115
 msgid ""
@@ -390,7 +390,7 @@ msgstr ""
 
 #: ../../../platforms/atmelmegaavr.rst:120
 msgid "Frameworks"
-msgstr ""
+msgstr "框架"
 
 #: ../../../platforms/atmelmegaavr.rst:127
 msgid ":ref:`framework_arduino`"
@@ -406,7 +406,7 @@ msgstr ""
 
 #: ../../../platforms/atmelmegaavr.rst:131
 msgid "Boards"
-msgstr ""
+msgstr "開發板"
 
 #: ../../../platforms/atmelmegaavr.rst:134
 msgid "You can list pre-configured boards by :ref:`cmd_boards` command"

@@ -81,7 +81,7 @@ msgstr ""
 
 #: ../../../boards/riscv_gap/gapuino.rst:39
 msgid "Configuration"
-msgstr ""
+msgstr "組態"
 
 #: ../../../boards/riscv_gap/gapuino.rst:41
 msgid ""
@@ -150,7 +150,7 @@ msgstr ""
 
 #: ../../../boards/riscv_gap/gapuino.rst:92
 msgid "Frameworks"
-msgstr ""
+msgstr "框架"
 
 #: ../../../boards/riscv_gap/gapuino.rst:96
 msgid "Name"

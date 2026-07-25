@@ -50,7 +50,7 @@ msgstr ""
 
 #: ../../../core/userguide/access/cmd_public.rst:44
 msgid "Examples"
-msgstr ""
+msgstr "範例"
 
 #: ../../../core/userguide/access/cmd_public.rst:52
 msgid "See Also"

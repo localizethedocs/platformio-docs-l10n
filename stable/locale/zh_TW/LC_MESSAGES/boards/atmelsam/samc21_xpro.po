@@ -80,7 +80,7 @@ msgstr ""
 
 #: ../../../boards/atmelsam/samc21_xpro.rst:39
 msgid "Configuration"
-msgstr ""
+msgstr "組態"
 
 #: ../../../boards/atmelsam/samc21_xpro.rst:41
 msgid ""

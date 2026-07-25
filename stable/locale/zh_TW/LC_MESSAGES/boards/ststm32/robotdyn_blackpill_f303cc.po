@@ -83,7 +83,7 @@ msgstr ""
 
 #: ../../../boards/ststm32/robotdyn_blackpill_f303cc.rst:39
 msgid "Configuration"
-msgstr ""
+msgstr "組態"
 
 #: ../../../boards/ststm32/robotdyn_blackpill_f303cc.rst:41
 msgid ""
@@ -197,7 +197,7 @@ msgstr ""
 
 #: ../../../boards/ststm32/robotdyn_blackpill_f303cc.rst:123
 msgid "Frameworks"
-msgstr ""
+msgstr "框架"
 
 #: ../../../boards/ststm32/robotdyn_blackpill_f303cc.rst:127
 msgid "Name"

@@ -23,7 +23,7 @@ msgstr ""
 
 #: ../../../advanced/unit-testing/frameworks/custom/index.rst:0
 msgid "Configuration"
-msgstr ""
+msgstr "組態"
 
 #: ../../../advanced/unit-testing/frameworks/custom/index.rst:18
 msgid ":ref:`projectconf_test_framework` = ``custom``"

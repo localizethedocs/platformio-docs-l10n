@@ -82,7 +82,7 @@ msgstr ""
 
 #: ../../../boards/atmelavr/attiny88.rst:39
 msgid "Configuration"
-msgstr ""
+msgstr "組態"
 
 #: ../../../boards/atmelavr/attiny88.rst:41
 msgid ""
@@ -109,7 +109,7 @@ msgstr ""
 
 #: ../../../boards/atmelavr/attiny88.rst:71
 msgid "Frameworks"
-msgstr ""
+msgstr "框架"
 
 #: ../../../boards/atmelavr/attiny88.rst:75
 msgid "Name"

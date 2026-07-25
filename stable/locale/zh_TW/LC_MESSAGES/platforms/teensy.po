@@ -33,7 +33,7 @@ msgstr ""
 
 #: ../../../platforms/teensy.rst:0 ../../../platforms/teensy_extra.rst:13
 msgid "Configuration"
-msgstr ""
+msgstr "組態"
 
 #: ../../../platforms/teensy.rst:20
 msgid ":ref:`projectconf_env_platform` = ``platformio/teensy``"
@@ -264,7 +264,7 @@ msgstr ""
 
 #: ../../../platforms/teensy.rst:33
 msgid "Examples"
-msgstr ""
+msgstr "範例"
 
 #: ../../../platforms/teensy.rst:35
 msgid ""
@@ -625,7 +625,7 @@ msgstr ""
 
 #: ../../../platforms/teensy.rst:194
 msgid "**Linux Users**:"
-msgstr ""
+msgstr "**Linux 使用者**："
 
 #: ../../../platforms/teensy.rst:196
 msgid "Install \"udev\" rules :ref:`platformio_udev_rules`"
@@ -639,7 +639,7 @@ msgstr ""
 
 #: ../../../platforms/teensy.rst:201
 msgid "**Windows Users:**"
-msgstr ""
+msgstr "**Windows 使用者：**"
 
 #: ../../../platforms/teensy.rst:203
 msgid ""
@@ -652,7 +652,7 @@ msgstr ""
 
 #: ../../../platforms/teensy.rst:212
 msgid "Frameworks"
-msgstr ""
+msgstr "框架"
 
 #: ../../../platforms/teensy.rst:219
 msgid ":ref:`framework_arduino`"
@@ -672,7 +672,7 @@ msgstr ""
 
 #: ../../../platforms/teensy.rst:226
 msgid "Boards"
-msgstr ""
+msgstr "開發板"
 
 #: ../../../platforms/teensy.rst:229
 msgid "You can list pre-configured boards by :ref:`cmd_boards` command"

@@ -80,7 +80,7 @@ msgstr ""
 
 #: ../../../boards/sifive/hifive-unleashed.rst:39
 msgid "Configuration"
-msgstr ""
+msgstr "組態"
 
 #: ../../../boards/sifive/hifive-unleashed.rst:41
 msgid ""
@@ -159,7 +159,7 @@ msgstr ""
 
 #: ../../../boards/sifive/hifive-unleashed.rst:98
 msgid "Frameworks"
-msgstr ""
+msgstr "框架"
 
 #: ../../../boards/sifive/hifive-unleashed.rst:102
 msgid "Name"

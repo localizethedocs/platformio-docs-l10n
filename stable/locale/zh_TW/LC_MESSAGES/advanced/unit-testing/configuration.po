@@ -19,7 +19,7 @@ msgstr ""
 
 #: ../../../advanced/unit-testing/configuration.rst:13
 msgid "Configuration"
-msgstr ""
+msgstr "組態"
 
 #: ../../../advanced/unit-testing/configuration.rst:15
 msgid ""

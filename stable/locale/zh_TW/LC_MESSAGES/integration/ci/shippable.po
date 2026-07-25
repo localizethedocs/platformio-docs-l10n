@@ -87,7 +87,7 @@ msgstr ""
 
 #: ../../../integration/ci/shippable.rst:91
 msgid "Examples"
-msgstr ""
+msgstr "範例"
 
 #: ../../../integration/ci/shippable.rst:93
 msgid ""

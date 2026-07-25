@@ -81,7 +81,7 @@ msgstr ""
 
 #: ../../../boards/espressif32/sparkfun_lora_gateway_1-channel.rst:39
 msgid "Configuration"
-msgstr ""
+msgstr "組態"
 
 #: ../../../boards/espressif32/sparkfun_lora_gateway_1-channel.rst:41
 msgid ""
@@ -259,7 +259,7 @@ msgstr ""
 
 #: ../../../boards/espressif32/sparkfun_lora_gateway_1-channel.rst:153
 msgid "Frameworks"
-msgstr ""
+msgstr "框架"
 
 #: ../../../boards/espressif32/sparkfun_lora_gateway_1-channel.rst:157
 msgid "Name"

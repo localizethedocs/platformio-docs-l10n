@@ -39,7 +39,7 @@ msgstr ""
 
 #: ../../../plus/debug-tools/tumpa.rst:32
 msgid "Configuration"
-msgstr ""
+msgstr "組態"
 
 #: ../../../plus/debug-tools/tumpa.rst:34
 msgid ""
@@ -484,7 +484,7 @@ msgstr ""
 
 #: ../../../plus/debug-tools/tumpa.rst:140
 msgid "Frameworks"
-msgstr ""
+msgstr "框架"
 
 #: ../../../plus/debug-tools/tumpa.rst:147
 msgid ":ref:`framework_arduino`"
@@ -538,7 +538,7 @@ msgstr ""
 
 #: ../../../plus/debug-tools/tumpa.rst:163
 msgid "Boards"
-msgstr ""
+msgstr "開發板"
 
 #: ../../../plus/debug-tools/tumpa.rst:166
 msgid ""

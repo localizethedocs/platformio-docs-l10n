@@ -23,7 +23,7 @@ msgstr ""
 
 #: ../../../frameworks/arduino.rst:0 ../../../frameworks/arduino_extra.rst:19
 msgid "Configuration"
-msgstr ""
+msgstr "組態"
 
 #: ../../../frameworks/arduino.rst:18
 msgid ":ref:`projectconf_env_framework` = ``arduino``"
@@ -1285,7 +1285,7 @@ msgstr ""
 
 #: ../../../frameworks/arduino.rst:87
 msgid "Examples"
-msgstr ""
+msgstr "範例"
 
 #: ../../../frameworks/arduino.rst:89
 msgid ""
@@ -9316,7 +9316,7 @@ msgstr ""
 
 #: ../../../frameworks/arduino.rst:4523
 msgid "Boards"
-msgstr ""
+msgstr "開發板"
 
 #: ../../../frameworks/arduino.rst:4526
 msgid "You can list pre-configured boards by :ref:`cmd_boards` command"

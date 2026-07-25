@@ -83,7 +83,7 @@ msgstr ""
 
 #: ../../../boards/ststm32/nucleo_g031k8.rst:39
 msgid "Configuration"
-msgstr ""
+msgstr "組態"
 
 #: ../../../boards/ststm32/nucleo_g031k8.rst:41
 msgid ""
@@ -210,7 +210,7 @@ msgstr ""
 
 #: ../../../boards/ststm32/nucleo_g031k8.rst:126
 msgid "Frameworks"
-msgstr ""
+msgstr "框架"
 
 #: ../../../boards/ststm32/nucleo_g031k8.rst:130
 msgid "Name"

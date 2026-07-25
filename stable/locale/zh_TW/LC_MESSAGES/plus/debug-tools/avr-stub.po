@@ -35,7 +35,7 @@ msgstr ""
 
 #: ../../../plus/debug-tools/avr-stub_extra.rst:14
 msgid "Configuration"
-msgstr ""
+msgstr "組態"
 
 #: ../../../plus/debug-tools/avr-stub_extra.rst:19
 msgid ""
@@ -230,7 +230,7 @@ msgstr ""
 
 #: ../../../plus/debug-tools/avr-stub.rst:40
 msgid "Frameworks"
-msgstr ""
+msgstr "框架"
 
 #: ../../../plus/debug-tools/avr-stub.rst:47
 msgid ":ref:`framework_arduino`"
@@ -246,7 +246,7 @@ msgstr ""
 
 #: ../../../plus/debug-tools/avr-stub.rst:51
 msgid "Boards"
-msgstr ""
+msgstr "開發板"
 
 #: ../../../plus/debug-tools/avr-stub.rst:54
 msgid ""

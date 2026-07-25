@@ -82,7 +82,7 @@ msgstr ""
 
 #: ../../../boards/microchippic32/cui32stem.rst:39
 msgid "Configuration"
-msgstr ""
+msgstr "組態"
 
 #: ../../../boards/microchippic32/cui32stem.rst:41
 msgid ""
@@ -109,7 +109,7 @@ msgstr ""
 
 #: ../../../boards/microchippic32/cui32stem.rst:71
 msgid "Frameworks"
-msgstr ""
+msgstr "框架"
 
 #: ../../../boards/microchippic32/cui32stem.rst:75
 msgid "Name"

@@ -184,7 +184,7 @@ msgstr ""
 
 #: ../../../core/userguide/cmd_check.rst:142
 msgid "Examples"
-msgstr ""
+msgstr "範例"
 
 #: ../../../core/userguide/cmd_check.rst:144
 msgid "For the examples please follow to :ref:`check` page."

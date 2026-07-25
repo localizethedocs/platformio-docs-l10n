@@ -80,7 +80,7 @@ msgstr ""
 
 #: ../../../boards/espressif8266/espino.rst:39
 msgid "Configuration"
-msgstr ""
+msgstr "組態"
 
 #: ../../../boards/espressif8266/espino.rst:41
 msgid ""
@@ -133,7 +133,7 @@ msgstr ""
 
 #: ../../../boards/espressif8266/espino.rst:91
 msgid "Frameworks"
-msgstr ""
+msgstr "框架"
 
 #: ../../../boards/espressif8266/espino.rst:95
 msgid "Name"

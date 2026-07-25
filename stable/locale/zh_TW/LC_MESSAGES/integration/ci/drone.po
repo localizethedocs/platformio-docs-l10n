@@ -91,7 +91,7 @@ msgstr ""
 
 #: ../../../integration/ci/drone.rst:80
 msgid "Examples"
-msgstr ""
+msgstr "範例"
 
 #: ../../../integration/ci/drone.rst:82
 msgid ""

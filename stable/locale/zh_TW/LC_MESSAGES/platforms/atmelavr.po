@@ -33,7 +33,7 @@ msgstr ""
 
 #: ../../../platforms/atmelavr.rst:0 ../../../platforms/atmelavr_extra.rst:13
 msgid "Configuration"
-msgstr ""
+msgstr "組態"
 
 #: ../../../platforms/atmelavr.rst:20
 msgid ":ref:`projectconf_env_platform` = ``platformio/atmelavr``"
@@ -382,7 +382,7 @@ msgstr ""
 #: ../../../platforms/atmelavr.rst:33 ../../../platforms/atmelavr_extra.rst:396
 #: ../../../platforms/atmelavr_extra.rst:571
 msgid "Examples"
-msgstr ""
+msgstr "範例"
 
 #: ../../../platforms/atmelavr_extra.rst:398
 msgid "``FUSESUPLOADER``"
@@ -2714,7 +2714,7 @@ msgstr ""
 
 #: ../../../platforms/atmelavr.rst:1013
 msgid "**Linux Users**:"
-msgstr ""
+msgstr "**Linux 使用者**："
 
 #: ../../../platforms/atmelavr.rst:1015
 msgid "Install \"udev\" rules :ref:`platformio_udev_rules`"
@@ -2728,7 +2728,7 @@ msgstr ""
 
 #: ../../../platforms/atmelavr.rst:1020
 msgid "**Windows Users:**"
-msgstr ""
+msgstr "**Windows 使用者：**"
 
 #: ../../../platforms/atmelavr.rst:1022
 msgid ""
@@ -2738,7 +2738,7 @@ msgstr ""
 
 #: ../../../platforms/atmelavr.rst:1027
 msgid "Frameworks"
-msgstr ""
+msgstr "框架"
 
 #: ../../../platforms/atmelavr.rst:1034
 msgid ":ref:`framework_arduino`"
@@ -2754,7 +2754,7 @@ msgstr ""
 
 #: ../../../platforms/atmelavr.rst:1038
 msgid "Boards"
-msgstr ""
+msgstr "開發板"
 
 #: ../../../platforms/atmelavr.rst:1041
 msgid "You can list pre-configured boards by :ref:`cmd_boards` command"

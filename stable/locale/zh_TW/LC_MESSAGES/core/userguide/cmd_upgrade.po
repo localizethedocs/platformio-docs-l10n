@@ -47,4 +47,4 @@ msgstr ""
 
 #: ../../../core/userguide/cmd_upgrade.rst:42
 msgid "Examples"
-msgstr ""
+msgstr "範例"

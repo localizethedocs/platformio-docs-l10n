@@ -37,7 +37,7 @@ msgstr ""
 
 #: ../../../plus/debug-tools/stlink.rst:30
 msgid "Configuration"
-msgstr ""
+msgstr "組態"
 
 #: ../../../plus/debug-tools/stlink.rst:32
 msgid ""
@@ -565,7 +565,7 @@ msgstr ""
 
 #: ../../../plus/debug-tools/stlink.rst:110
 msgid "Frameworks"
-msgstr ""
+msgstr "框架"
 
 #: ../../../plus/debug-tools/stlink.rst:117
 msgid ":ref:`framework_arduino`"
@@ -642,7 +642,7 @@ msgstr ""
 
 #: ../../../plus/debug-tools/stlink.rst:139
 msgid "Boards"
-msgstr ""
+msgstr "開發板"
 
 #: ../../../plus/debug-tools/stlink.rst:142
 msgid ""

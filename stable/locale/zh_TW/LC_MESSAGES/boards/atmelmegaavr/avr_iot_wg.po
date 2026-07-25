@@ -82,7 +82,7 @@ msgstr ""
 
 #: ../../../boards/atmelmegaavr/avr_iot_wg.rst:39
 msgid "Configuration"
-msgstr ""
+msgstr "組態"
 
 #: ../../../boards/atmelmegaavr/avr_iot_wg.rst:41
 msgid ""
@@ -111,7 +111,7 @@ msgstr ""
 
 #: ../../../boards/atmelmegaavr/avr_iot_wg.rst:71
 msgid "Frameworks"
-msgstr ""
+msgstr "框架"
 
 #: ../../../boards/atmelmegaavr/avr_iot_wg.rst:75
 msgid "Name"

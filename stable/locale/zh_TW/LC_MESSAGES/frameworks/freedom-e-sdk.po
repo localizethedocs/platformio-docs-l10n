@@ -24,7 +24,7 @@ msgstr ""
 #: ../../../frameworks/freedom-e-sdk.rst:0
 #: ../../../frameworks/freedom-e-sdk_extra.rst:14
 msgid "Configuration"
-msgstr ""
+msgstr "組態"
 
 #: ../../../frameworks/freedom-e-sdk.rst:18
 msgid ":ref:`projectconf_env_framework` = ``freedom-e-sdk``"
@@ -275,7 +275,7 @@ msgstr ""
 
 #: ../../../frameworks/freedom-e-sdk.rst:39
 msgid "Examples"
-msgstr ""
+msgstr "範例"
 
 #: ../../../frameworks/freedom-e-sdk.rst:41
 msgid ""
@@ -466,7 +466,7 @@ msgstr ""
 
 #: ../../../frameworks/freedom-e-sdk.rst:120
 msgid "Boards"
-msgstr ""
+msgstr "開發板"
 
 #: ../../../frameworks/freedom-e-sdk.rst:123
 msgid "You can list pre-configured boards by :ref:`cmd_boards` command"
