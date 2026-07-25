@@ -36,7 +36,7 @@ msgstr ""
 
 #: ../../../plus/debug-tools/ftdi.rst:29
 msgid "Configuration"
-msgstr ""
+msgstr "組態"
 
 #: ../../../plus/debug-tools/ftdi.rst:31
 msgid ""
@@ -177,7 +177,7 @@ msgstr ""
 
 #: ../../../plus/debug-tools/ftdi.rst:82
 msgid "Frameworks"
-msgstr ""
+msgstr "框架"
 
 #: ../../../plus/debug-tools/ftdi.rst:89
 msgid ":ref:`framework_arduino`"
@@ -259,7 +259,7 @@ msgstr ""
 
 #: ../../../plus/debug-tools/ftdi.rst:114
 msgid "Boards"
-msgstr ""
+msgstr "開發板"
 
 #: ../../../plus/debug-tools/ftdi.rst:117
 msgid ""

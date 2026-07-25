@@ -47,4 +47,4 @@ msgstr ""
 
 #: ../../../core/userguide/platforms/cmd_uninstall.rst:44
 msgid "Examples"
-msgstr ""
+msgstr "範例"

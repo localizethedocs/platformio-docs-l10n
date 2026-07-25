@@ -80,7 +80,7 @@ msgstr ""
 
 #: ../../../boards/intel_arc32/genuino101.rst:39
 msgid "Configuration"
-msgstr ""
+msgstr "組態"
 
 #: ../../../boards/intel_arc32/genuino101.rst:41
 msgid ""
@@ -107,7 +107,7 @@ msgstr ""
 
 #: ../../../boards/intel_arc32/genuino101.rst:71
 msgid "Frameworks"
-msgstr ""
+msgstr "框架"
 
 #: ../../../boards/intel_arc32/genuino101.rst:75
 msgid "Name"

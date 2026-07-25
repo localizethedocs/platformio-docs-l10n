@@ -83,7 +83,7 @@ msgstr ""
 
 #: ../../../boards/ststm32/microduino32_flash.rst:39
 msgid "Configuration"
-msgstr ""
+msgstr "組態"
 
 #: ../../../boards/ststm32/microduino32_flash.rst:41
 msgid ""
@@ -203,7 +203,7 @@ msgstr ""
 
 #: ../../../boards/ststm32/microduino32_flash.rst:124
 msgid "Frameworks"
-msgstr ""
+msgstr "框架"
 
 #: ../../../boards/ststm32/microduino32_flash.rst:128
 msgid "Name"

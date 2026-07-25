@@ -33,7 +33,7 @@ msgstr ""
 
 #: ../../../platforms/atmelsam.rst:0
 msgid "Configuration"
-msgstr ""
+msgstr "組態"
 
 #: ../../../platforms/atmelsam.rst:20
 msgid ":ref:`projectconf_env_platform` = ``platformio/atmelsam``"
@@ -59,7 +59,7 @@ msgstr ""
 
 #: ../../../platforms/atmelsam.rst:32
 msgid "Examples"
-msgstr ""
+msgstr "範例"
 
 #: ../../../platforms/atmelsam.rst:34
 msgid ""
@@ -1189,7 +1189,7 @@ msgstr ""
 
 #: ../../../platforms/atmelsam.rst:607
 msgid "**Linux Users**:"
-msgstr ""
+msgstr "**Linux 使用者**："
 
 #: ../../../platforms/atmelsam.rst:609
 msgid "Install \"udev\" rules :ref:`platformio_udev_rules`"
@@ -1203,7 +1203,7 @@ msgstr ""
 
 #: ../../../platforms/atmelsam.rst:614
 msgid "**Windows Users:**"
-msgstr ""
+msgstr "**Windows 使用者：**"
 
 #: ../../../platforms/atmelsam.rst:616
 msgid ""
@@ -1213,7 +1213,7 @@ msgstr ""
 
 #: ../../../platforms/atmelsam.rst:621
 msgid "Frameworks"
-msgstr ""
+msgstr "框架"
 
 #: ../../../platforms/atmelsam.rst:628
 msgid ":ref:`framework_arduino`"
@@ -1233,7 +1233,7 @@ msgstr ""
 
 #: ../../../platforms/atmelsam.rst:635
 msgid "Boards"
-msgstr ""
+msgstr "開發板"
 
 #: ../../../platforms/atmelsam.rst:638
 msgid "You can list pre-configured boards by :ref:`cmd_boards` command"

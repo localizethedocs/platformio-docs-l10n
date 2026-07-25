@@ -86,7 +86,7 @@ msgstr ""
 
 #: ../../../advanced/static-code-analysis/tools/pvs-studio.rst:45
 msgid "Configuration"
-msgstr ""
+msgstr "組態"
 
 #: ../../../advanced/static-code-analysis/tools/pvs-studio.rst:47
 msgid ""

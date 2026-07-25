@@ -82,7 +82,7 @@ msgstr ""
 
 #: ../../../boards/atmelavr/ATmega3250P.rst:39
 msgid "Configuration"
-msgstr ""
+msgstr "組態"
 
 #: ../../../boards/atmelavr/ATmega3250P.rst:41
 msgid ""
@@ -109,7 +109,7 @@ msgstr ""
 
 #: ../../../boards/atmelavr/ATmega3250P.rst:71
 msgid "Frameworks"
-msgstr ""
+msgstr "框架"
 
 #: ../../../boards/atmelavr/ATmega3250P.rst:75
 msgid "Name"

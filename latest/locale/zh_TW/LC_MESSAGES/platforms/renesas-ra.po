@@ -33,7 +33,7 @@ msgstr ""
 
 #: ../../../platforms/renesas-ra.rst:0
 msgid "Configuration"
-msgstr ""
+msgstr "組態"
 
 #: ../../../platforms/renesas-ra.rst:20
 msgid ":ref:`projectconf_env_platform` = ``platformio/renesas-ra``"
@@ -60,7 +60,7 @@ msgstr ""
 
 #: ../../../platforms/renesas-ra.rst:32
 msgid "Examples"
-msgstr ""
+msgstr "範例"
 
 #: ../../../platforms/renesas-ra.rst:34
 msgid ""
@@ -375,7 +375,7 @@ msgstr ""
 
 #: ../../../platforms/renesas-ra.rst:192
 msgid "**Linux Users**:"
-msgstr ""
+msgstr "**Linux 使用者**："
 
 #: ../../../platforms/renesas-ra.rst:194
 msgid "Install \"udev\" rules :ref:`platformio_udev_rules`"
@@ -389,7 +389,7 @@ msgstr ""
 
 #: ../../../platforms/renesas-ra.rst:199
 msgid "**Windows Users:**"
-msgstr ""
+msgstr "**Windows 使用者：**"
 
 #: ../../../platforms/renesas-ra.rst:201
 msgid ""
@@ -399,7 +399,7 @@ msgstr ""
 
 #: ../../../platforms/renesas-ra.rst:206
 msgid "Frameworks"
-msgstr ""
+msgstr "框架"
 
 #: ../../../platforms/renesas-ra.rst:213
 msgid ":ref:`framework_arduino`"
@@ -429,7 +429,7 @@ msgstr ""
 
 #: ../../../platforms/renesas-ra.rst:223
 msgid "Boards"
-msgstr ""
+msgstr "開發板"
 
 #: ../../../platforms/renesas-ra.rst:226
 msgid "You can list pre-configured boards by :ref:`cmd_boards` command"

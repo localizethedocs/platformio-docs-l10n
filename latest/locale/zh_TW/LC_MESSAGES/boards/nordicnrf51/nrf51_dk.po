@@ -82,7 +82,7 @@ msgstr ""
 
 #: ../../../boards/nordicnrf51/nrf51_dk.rst:39
 msgid "Configuration"
-msgstr ""
+msgstr "組態"
 
 #: ../../../boards/nordicnrf51/nrf51_dk.rst:41
 msgid ""
@@ -204,7 +204,7 @@ msgstr ""
 
 #: ../../../boards/nordicnrf51/nrf51_dk.rst:124
 msgid "Frameworks"
-msgstr ""
+msgstr "框架"
 
 #: ../../../boards/nordicnrf51/nrf51_dk.rst:128
 msgid "Name"

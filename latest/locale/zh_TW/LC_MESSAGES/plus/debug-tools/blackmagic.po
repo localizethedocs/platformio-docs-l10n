@@ -44,7 +44,7 @@ msgstr ""
 
 #: ../../../plus/debug-tools/blackmagic.rst:34
 msgid "Configuration"
-msgstr ""
+msgstr "組態"
 
 #: ../../../plus/debug-tools/blackmagic.rst:36
 msgid ""
@@ -762,7 +762,7 @@ msgstr ""
 
 #: ../../../plus/debug-tools/blackmagic.rst:197
 msgid "Frameworks"
-msgstr ""
+msgstr "框架"
 
 #: ../../../plus/debug-tools/blackmagic.rst:204
 msgid ":ref:`framework_arduino`"
@@ -839,7 +839,7 @@ msgstr ""
 
 #: ../../../plus/debug-tools/blackmagic.rst:226
 msgid "Boards"
-msgstr ""
+msgstr "開發板"
 
 #: ../../../plus/debug-tools/blackmagic.rst:229
 msgid ""

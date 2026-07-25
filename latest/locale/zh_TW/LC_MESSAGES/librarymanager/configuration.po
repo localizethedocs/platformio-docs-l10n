@@ -19,7 +19,7 @@ msgstr ""
 
 #: ../../../librarymanager/configuration.rst:13
 msgid "Configuration"
-msgstr ""
+msgstr "組態"
 
 #: ../../../librarymanager/configuration.rst:15
 msgid ""

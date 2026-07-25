@@ -80,7 +80,7 @@ msgstr ""
 
 #: ../../../boards/atmelsam/sodaq_one.rst:39
 msgid "Configuration"
-msgstr ""
+msgstr "組態"
 
 #: ../../../boards/atmelsam/sodaq_one.rst:41
 msgid ""
@@ -190,7 +190,7 @@ msgstr ""
 
 #: ../../../boards/atmelsam/sodaq_one.rst:120
 msgid "Frameworks"
-msgstr ""
+msgstr "框架"
 
 #: ../../../boards/atmelsam/sodaq_one.rst:124
 msgid "Name"

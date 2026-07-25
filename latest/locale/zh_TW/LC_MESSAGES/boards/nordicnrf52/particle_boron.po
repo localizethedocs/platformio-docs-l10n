@@ -81,7 +81,7 @@ msgstr ""
 
 #: ../../../boards/nordicnrf52/particle_boron.rst:39
 msgid "Configuration"
-msgstr ""
+msgstr "組態"
 
 #: ../../../boards/nordicnrf52/particle_boron.rst:41
 msgid ""
@@ -195,7 +195,7 @@ msgstr ""
 
 #: ../../../boards/nordicnrf52/particle_boron.rst:121
 msgid "Frameworks"
-msgstr ""
+msgstr "框架"
 
 #: ../../../boards/nordicnrf52/particle_boron.rst:125
 msgid "Name"

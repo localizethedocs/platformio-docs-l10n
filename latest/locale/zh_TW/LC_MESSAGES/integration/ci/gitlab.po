@@ -79,7 +79,7 @@ msgstr ""
 
 #: ../../../integration/ci/gitlab.rst:106
 msgid "Examples"
-msgstr ""
+msgstr "範例"
 
 #: ../../../integration/ci/gitlab.rst:108
 msgid ""

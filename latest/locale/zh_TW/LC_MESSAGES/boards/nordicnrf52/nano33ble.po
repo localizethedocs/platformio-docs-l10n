@@ -81,7 +81,7 @@ msgstr ""
 
 #: ../../../boards/nordicnrf52/nano33ble.rst:39
 msgid "Configuration"
-msgstr ""
+msgstr "組態"
 
 #: ../../../boards/nordicnrf52/nano33ble.rst:41
 msgid ""
@@ -199,7 +199,7 @@ msgstr ""
 
 #: ../../../boards/nordicnrf52/nano33ble.rst:122
 msgid "Frameworks"
-msgstr ""
+msgstr "框架"
 
 #: ../../../boards/nordicnrf52/nano33ble.rst:126
 msgid "Name"

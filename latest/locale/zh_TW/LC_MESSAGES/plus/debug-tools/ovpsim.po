@@ -66,7 +66,7 @@ msgstr ""
 
 #: ../../../plus/debug-tools/ovpsim.rst:42
 msgid "Frameworks"
-msgstr ""
+msgstr "框架"
 
 #: ../../../plus/debug-tools/ovpsim.rst:49
 msgid ":ref:`framework_pulp-runtime`"
@@ -86,7 +86,7 @@ msgstr ""
 
 #: ../../../plus/debug-tools/ovpsim.rst:56
 msgid "Boards"
-msgstr ""
+msgstr "開發板"
 
 #: ../../../plus/debug-tools/ovpsim.rst:59
 msgid ""

@@ -23,7 +23,7 @@ msgstr ""
 
 #: ../../../frameworks/cmsis.rst:0
 msgid "Configuration"
-msgstr ""
+msgstr "組態"
 
 #: ../../../frameworks/cmsis.rst:18
 msgid ":ref:`projectconf_env_framework` = ``cmsis``"
@@ -358,7 +358,7 @@ msgstr ""
 
 #: ../../../frameworks/cmsis.rst:41
 msgid "Examples"
-msgstr ""
+msgstr "範例"
 
 #: ../../../frameworks/cmsis.rst:43
 msgid ""
@@ -3272,7 +3272,7 @@ msgstr ""
 
 #: ../../../frameworks/cmsis.rst:1630
 msgid "Boards"
-msgstr ""
+msgstr "開發板"
 
 #: ../../../frameworks/cmsis.rst:1633
 msgid "You can list pre-configured boards by :ref:`cmd_boards` command"

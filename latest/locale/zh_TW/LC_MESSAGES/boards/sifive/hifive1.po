@@ -80,7 +80,7 @@ msgstr ""
 
 #: ../../../boards/sifive/hifive1.rst:39
 msgid "Configuration"
-msgstr ""
+msgstr "組態"
 
 #: ../../../boards/sifive/hifive1.rst:41
 msgid ""
@@ -157,7 +157,7 @@ msgstr ""
 
 #: ../../../boards/sifive/hifive1.rst:98
 msgid "Frameworks"
-msgstr ""
+msgstr "框架"
 
 #: ../../../boards/sifive/hifive1.rst:102
 msgid "Name"

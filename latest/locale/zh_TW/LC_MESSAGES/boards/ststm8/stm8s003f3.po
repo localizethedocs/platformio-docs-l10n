@@ -81,7 +81,7 @@ msgstr ""
 
 #: ../../../boards/ststm8/stm8s003f3.rst:39
 msgid "Configuration"
-msgstr ""
+msgstr "組態"
 
 #: ../../../boards/ststm8/stm8s003f3.rst:41
 msgid ""
@@ -175,7 +175,7 @@ msgstr ""
 
 #: ../../../boards/ststm8/stm8s003f3.rst:112
 msgid "Frameworks"
-msgstr ""
+msgstr "框架"
 
 #: ../../../boards/ststm8/stm8s003f3.rst:116
 msgid "Name"

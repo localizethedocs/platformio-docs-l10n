@@ -82,7 +82,7 @@ msgstr ""
 
 #: ../../../boards/titiva/lplm4f120h5qr.rst:39
 msgid "Configuration"
-msgstr ""
+msgstr "組態"
 
 #: ../../../boards/titiva/lplm4f120h5qr.rst:41
 msgid ""
@@ -151,7 +151,7 @@ msgstr ""
 
 #: ../../../boards/titiva/lplm4f120h5qr.rst:92
 msgid "Frameworks"
-msgstr ""
+msgstr "框架"
 
 #: ../../../boards/titiva/lplm4f120h5qr.rst:96
 msgid "Name"

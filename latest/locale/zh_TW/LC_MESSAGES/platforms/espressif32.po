@@ -34,7 +34,7 @@ msgstr ""
 #: ../../../platforms/espressif32.rst:0
 #: ../../../platforms/espressif32_extra.rst:20
 msgid "Configuration"
-msgstr ""
+msgstr "組態"
 
 #: ../../../platforms/espressif32.rst:20
 msgid ":ref:`projectconf_env_platform` = ``platformio/espressif32``"
@@ -243,7 +243,7 @@ msgstr ""
 #: ../../../platforms/espressif32_extra.rst:186
 #: ../../../platforms/espressif32_extra.rst:322
 msgid "Examples:"
-msgstr ""
+msgstr "範例："
 
 #: ../../../platforms/espressif32_extra.rst:201
 msgid "sdkconfig Configuration (ESP-IDF)"
@@ -587,7 +587,7 @@ msgstr ""
 
 #: ../../../platforms/espressif32.rst:33
 msgid "Examples"
-msgstr ""
+msgstr "範例"
 
 #: ../../../platforms/espressif32.rst:35
 msgid ""
@@ -4277,7 +4277,7 @@ msgstr ""
 
 #: ../../../platforms/espressif32.rst:1150
 msgid "**Linux Users**:"
-msgstr ""
+msgstr "**Linux 使用者**："
 
 #: ../../../platforms/espressif32.rst:1152
 msgid "Install \"udev\" rules :ref:`platformio_udev_rules`"
@@ -4291,7 +4291,7 @@ msgstr ""
 
 #: ../../../platforms/espressif32.rst:1157
 msgid "**Windows Users:**"
-msgstr ""
+msgstr "**Windows 使用者：**"
 
 #: ../../../platforms/espressif32.rst:1159
 msgid ""
@@ -4301,7 +4301,7 @@ msgstr ""
 
 #: ../../../platforms/espressif32.rst:1164
 msgid "Frameworks"
-msgstr ""
+msgstr "框架"
 
 #: ../../../platforms/espressif32.rst:1171
 msgid ":ref:`framework_arduino`"
@@ -4321,7 +4321,7 @@ msgstr ""
 
 #: ../../../platforms/espressif32.rst:1178
 msgid "Boards"
-msgstr ""
+msgstr "開發板"
 
 #: ../../../platforms/espressif32.rst:1181
 msgid "You can list pre-configured boards by :ref:`cmd_boards` command"

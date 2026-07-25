@@ -93,7 +93,7 @@ msgstr ""
 
 #: ../../../core/userguide/access/cmd_grant.rst:60
 msgid "Examples"
-msgstr ""
+msgstr "範例"
 
 #: ../../../core/userguide/access/cmd_grant.rst:62
 msgid "Grant \"maintainer\" access to a resource for the \"bob\" user:"

@@ -81,7 +81,7 @@ msgstr ""
 
 #: ../../../boards/espressif32/heltec_wireless_stick_lite.rst:39
 msgid "Configuration"
-msgstr ""
+msgstr "組態"
 
 #: ../../../boards/espressif32/heltec_wireless_stick_lite.rst:41
 msgid ""
@@ -136,7 +136,7 @@ msgstr ""
 
 #: ../../../boards/espressif32/heltec_wireless_stick_lite.rst:91
 msgid "Frameworks"
-msgstr ""
+msgstr "框架"
 
 #: ../../../boards/espressif32/heltec_wireless_stick_lite.rst:95
 msgid "Name"

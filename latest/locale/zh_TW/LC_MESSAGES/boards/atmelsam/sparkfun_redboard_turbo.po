@@ -80,7 +80,7 @@ msgstr ""
 
 #: ../../../boards/atmelsam/sparkfun_redboard_turbo.rst:39
 msgid "Configuration"
-msgstr ""
+msgstr "組態"
 
 #: ../../../boards/atmelsam/sparkfun_redboard_turbo.rst:41
 msgid ""
@@ -191,7 +191,7 @@ msgstr ""
 
 #: ../../../boards/atmelsam/sparkfun_redboard_turbo.rst:120
 msgid "Frameworks"
-msgstr ""
+msgstr "框架"
 
 #: ../../../boards/atmelsam/sparkfun_redboard_turbo.rst:124
 msgid "Name"

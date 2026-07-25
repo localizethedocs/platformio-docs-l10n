@@ -81,7 +81,7 @@ msgstr ""
 
 #: ../../../boards/nordicnrf52/dwm1001_dev.rst:39
 msgid "Configuration"
-msgstr ""
+msgstr "組態"
 
 #: ../../../boards/nordicnrf52/dwm1001_dev.rst:41
 msgid ""
@@ -206,7 +206,7 @@ msgstr ""
 
 #: ../../../boards/nordicnrf52/dwm1001_dev.rst:125
 msgid "Frameworks"
-msgstr ""
+msgstr "框架"
 
 #: ../../../boards/nordicnrf52/dwm1001_dev.rst:129
 msgid "Name"

@@ -83,7 +83,7 @@ msgstr ""
 
 #: ../../../boards/ststm32/ublox_c030_n211.rst:39
 msgid "Configuration"
-msgstr ""
+msgstr "組態"
 
 #: ../../../boards/ststm32/ublox_c030_n211.rst:41
 msgid ""
@@ -203,7 +203,7 @@ msgstr ""
 
 #: ../../../boards/ststm32/ublox_c030_n211.rst:124
 msgid "Frameworks"
-msgstr ""
+msgstr "框架"
 
 #: ../../../boards/ststm32/ublox_c030_n211.rst:128
 msgid "Name"

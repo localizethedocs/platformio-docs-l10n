@@ -51,7 +51,7 @@ msgstr ""
 
 #: ../../../core/userguide/pkg/cmd_show.rst:43
 msgid "Examples"
-msgstr ""
+msgstr "範例"
 
 #: ../../../core/userguide/pkg/cmd_show.rst:45
 msgid ""

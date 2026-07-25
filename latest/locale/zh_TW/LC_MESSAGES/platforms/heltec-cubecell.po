@@ -35,7 +35,7 @@ msgstr ""
 #: ../../../platforms/heltec-cubecell.rst:0
 #: ../../../platforms/heltec-cubecell_extra.rst:13
 msgid "Configuration"
-msgstr ""
+msgstr "組態"
 
 #: ../../../platforms/heltec-cubecell.rst:20
 msgid ":ref:`projectconf_env_platform` = ``heltecautomation/heltec-cubecell``"
@@ -65,7 +65,7 @@ msgstr ""
 
 #: ../../../platforms/heltec-cubecell.rst:33
 msgid "Examples"
-msgstr ""
+msgstr "範例"
 
 #: ../../../platforms/heltec-cubecell.rst:35
 msgid ""
@@ -193,7 +193,7 @@ msgstr ""
 
 #: ../../../platforms/heltec-cubecell.rst:101
 msgid "**Linux Users**:"
-msgstr ""
+msgstr "**Linux 使用者**："
 
 #: ../../../platforms/heltec-cubecell.rst:103
 msgid "Install \"udev\" rules :ref:`platformio_udev_rules`"
@@ -207,7 +207,7 @@ msgstr ""
 
 #: ../../../platforms/heltec-cubecell.rst:108
 msgid "**Windows Users:**"
-msgstr ""
+msgstr "**Windows 使用者：**"
 
 #: ../../../platforms/heltec-cubecell.rst:110
 msgid ""
@@ -217,7 +217,7 @@ msgstr ""
 
 #: ../../../platforms/heltec-cubecell.rst:115
 msgid "Frameworks"
-msgstr ""
+msgstr "框架"
 
 #: ../../../platforms/heltec-cubecell.rst:122
 msgid ":ref:`framework_arduino`"
@@ -233,7 +233,7 @@ msgstr ""
 
 #: ../../../platforms/heltec-cubecell.rst:126
 msgid "Boards"
-msgstr ""
+msgstr "開發板"
 
 #: ../../../platforms/heltec-cubecell.rst:129
 msgid "You can list pre-configured boards by :ref:`cmd_boards` command"

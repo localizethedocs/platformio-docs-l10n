@@ -50,7 +50,7 @@ msgstr ""
 
 #: ../../../plus/debug-tools/jlink.rst:36
 msgid "Configuration"
-msgstr ""
+msgstr "組態"
 
 #: ../../../plus/debug-tools/jlink.rst:38
 msgid ""
@@ -1160,7 +1160,7 @@ msgstr ""
 
 #: ../../../plus/debug-tools/jlink.rst:247
 msgid "Frameworks"
-msgstr ""
+msgstr "框架"
 
 #: ../../../plus/debug-tools/jlink.rst:254
 msgid ":ref:`framework_arduino`"
@@ -1286,7 +1286,7 @@ msgstr ""
 
 #: ../../../plus/debug-tools/jlink.rst:291
 msgid "Boards"
-msgstr ""
+msgstr "開發板"
 
 #: ../../../plus/debug-tools/jlink.rst:294
 msgid ""

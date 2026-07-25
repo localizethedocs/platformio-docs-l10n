@@ -81,7 +81,7 @@ msgstr ""
 
 #: ../../../boards/nordicnrf52/96b_nitrogen.rst:39
 msgid "Configuration"
-msgstr ""
+msgstr "組態"
 
 #: ../../../boards/nordicnrf52/96b_nitrogen.rst:41
 msgid ""
@@ -191,7 +191,7 @@ msgstr ""
 
 #: ../../../boards/nordicnrf52/96b_nitrogen.rst:120
 msgid "Frameworks"
-msgstr ""
+msgstr "框架"
 
 #: ../../../boards/nordicnrf52/96b_nitrogen.rst:124
 msgid "Name"

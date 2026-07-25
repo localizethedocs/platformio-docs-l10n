@@ -33,7 +33,7 @@ msgstr ""
 
 #: ../../../platforms/siliconlabsefm32.rst:0
 msgid "Configuration"
-msgstr ""
+msgstr "組態"
 
 #: ../../../platforms/siliconlabsefm32.rst:20
 msgid ":ref:`projectconf_env_platform` = ``platformio/siliconlabsefm32``"
@@ -63,7 +63,7 @@ msgstr ""
 
 #: ../../../platforms/siliconlabsefm32.rst:32
 msgid "Examples"
-msgstr ""
+msgstr "範例"
 
 #: ../../../platforms/siliconlabsefm32.rst:34
 msgid ""
@@ -405,7 +405,7 @@ msgstr ""
 
 #: ../../../platforms/siliconlabsefm32.rst:174
 msgid "**Linux Users**:"
-msgstr ""
+msgstr "**Linux 使用者**："
 
 #: ../../../platforms/siliconlabsefm32.rst:176
 msgid "Install \"udev\" rules :ref:`platformio_udev_rules`"
@@ -419,7 +419,7 @@ msgstr ""
 
 #: ../../../platforms/siliconlabsefm32.rst:181
 msgid "**Windows Users:**"
-msgstr ""
+msgstr "**Windows 使用者：**"
 
 #: ../../../platforms/siliconlabsefm32.rst:183
 msgid ""
@@ -429,7 +429,7 @@ msgstr ""
 
 #: ../../../platforms/siliconlabsefm32.rst:188
 msgid "Frameworks"
-msgstr ""
+msgstr "框架"
 
 #: ../../../platforms/siliconlabsefm32.rst:195
 msgid ":ref:`framework_mbed`"
@@ -441,7 +441,7 @@ msgstr ""
 
 #: ../../../platforms/siliconlabsefm32.rst:202
 msgid "Boards"
-msgstr ""
+msgstr "開發板"
 
 #: ../../../platforms/siliconlabsefm32.rst:205
 msgid "You can list pre-configured boards by :ref:`cmd_boards` command"

@@ -27,7 +27,7 @@ msgstr ""
 
 #: ../../../advanced/unit-testing/cli.rst:13
 msgid "CLI Guide"
-msgstr ""
+msgstr "CLI 指南"
 
 #: ../../../advanced/unit-testing/cli.rst:15
 msgid ""

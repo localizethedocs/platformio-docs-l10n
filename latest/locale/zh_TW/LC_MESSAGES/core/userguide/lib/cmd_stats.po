@@ -91,4 +91,4 @@ msgstr ""
 
 #: ../../../core/userguide/lib/cmd_stats.rst:62
 msgid "Examples"
-msgstr ""
+msgstr "範例"

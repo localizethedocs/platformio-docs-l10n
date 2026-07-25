@@ -47,4 +47,4 @@ msgstr ""
 
 #: ../../../core/userguide/system/cmd_info.rst:43
 msgid "Examples"
-msgstr ""
+msgstr "範例"

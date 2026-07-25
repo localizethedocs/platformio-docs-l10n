@@ -81,7 +81,7 @@ msgstr ""
 
 #: ../../../boards/nordicnrf52/raytac_mdbt50q_rx.rst:39
 msgid "Configuration"
-msgstr ""
+msgstr "組態"
 
 #: ../../../boards/nordicnrf52/raytac_mdbt50q_rx.rst:41
 msgid ""
@@ -204,7 +204,7 @@ msgstr ""
 
 #: ../../../boards/nordicnrf52/raytac_mdbt50q_rx.rst:125
 msgid "Frameworks"
-msgstr ""
+msgstr "框架"
 
 #: ../../../boards/nordicnrf52/raytac_mdbt50q_rx.rst:129
 msgid "Name"

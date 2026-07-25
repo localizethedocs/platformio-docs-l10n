@@ -52,7 +52,7 @@ msgstr ""
 
 #: ../../../core/userguide/access/cmd_private.rst:45
 msgid "Examples"
-msgstr ""
+msgstr "範例"
 
 #: ../../../core/userguide/access/cmd_private.rst:53
 msgid "See Also"

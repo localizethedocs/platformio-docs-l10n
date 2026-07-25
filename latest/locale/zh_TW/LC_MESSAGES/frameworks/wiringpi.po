@@ -23,7 +23,7 @@ msgstr ""
 
 #: ../../../frameworks/wiringpi.rst:0
 msgid "Configuration"
-msgstr ""
+msgstr "組態"
 
 #: ../../../frameworks/wiringpi.rst:18
 msgid ":ref:`projectconf_env_framework` = ``wiringpi``"
@@ -67,7 +67,7 @@ msgstr ""
 
 #: ../../../frameworks/wiringpi.rst:38
 msgid "Examples"
-msgstr ""
+msgstr "範例"
 
 #: ../../../frameworks/wiringpi.rst:40
 msgid ""
@@ -77,7 +77,7 @@ msgstr ""
 
 #: ../../../frameworks/wiringpi.rst:43
 msgid "Boards"
-msgstr ""
+msgstr "開發板"
 
 #: ../../../frameworks/wiringpi.rst:46
 msgid "You can list pre-configured boards by :ref:`cmd_boards` command"

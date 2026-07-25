@@ -32,7 +32,7 @@ msgstr ""
 
 #: ../../../advanced/unit-testing/simulators/renode.rst:26
 msgid "Configuration"
-msgstr ""
+msgstr "組態"
 
 #: ../../../advanced/unit-testing/simulators/renode.rst:28
 msgid ""

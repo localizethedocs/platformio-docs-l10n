@@ -39,4 +39,4 @@ msgstr ""
 
 #: ../../../projectconf/sections/env/options/debug/debug_speed.rst:24
 msgid "Examples:"
-msgstr ""
+msgstr "範例："

@@ -81,7 +81,7 @@ msgstr ""
 
 #: ../../../boards/shakti/pinaka.rst:39
 msgid "Configuration"
-msgstr ""
+msgstr "組態"
 
 #: ../../../boards/shakti/pinaka.rst:41
 msgid ""
@@ -181,7 +181,7 @@ msgstr ""
 
 #: ../../../boards/shakti/pinaka.rst:117
 msgid "Frameworks"
-msgstr ""
+msgstr "框架"
 
 #: ../../../boards/shakti/pinaka.rst:121
 msgid "Name"

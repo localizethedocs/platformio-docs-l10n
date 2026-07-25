@@ -80,7 +80,7 @@ msgstr ""
 
 #: ../../../boards/atmelsam/adafruit_metro_m4_airliftlite.rst:39
 msgid "Configuration"
-msgstr ""
+msgstr "組態"
 
 #: ../../../boards/atmelsam/adafruit_metro_m4_airliftlite.rst:41
 msgid ""
@@ -185,7 +185,7 @@ msgstr ""
 
 #: ../../../boards/atmelsam/adafruit_metro_m4_airliftlite.rst:116
 msgid "Frameworks"
-msgstr ""
+msgstr "框架"
 
 #: ../../../boards/atmelsam/adafruit_metro_m4_airliftlite.rst:120
 msgid "Name"

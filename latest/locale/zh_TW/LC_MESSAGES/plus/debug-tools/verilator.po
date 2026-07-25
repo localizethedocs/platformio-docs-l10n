@@ -35,7 +35,7 @@ msgstr ""
 
 #: ../../../plus/debug-tools/verilator.rst:27
 msgid "Configuration"
-msgstr ""
+msgstr "組態"
 
 #: ../../../plus/debug-tools/verilator.rst:29
 msgid ""
@@ -79,7 +79,7 @@ msgstr ""
 
 #: ../../../plus/debug-tools/verilator.rst:57
 msgid "Frameworks"
-msgstr ""
+msgstr "框架"
 
 #: ../../../plus/debug-tools/verilator.rst:64
 msgid ":ref:`framework_freertos`"
@@ -103,7 +103,7 @@ msgstr ""
 
 #: ../../../plus/debug-tools/verilator.rst:71
 msgid "Boards"
-msgstr ""
+msgstr "開發板"
 
 #: ../../../plus/debug-tools/verilator.rst:74
 msgid ""

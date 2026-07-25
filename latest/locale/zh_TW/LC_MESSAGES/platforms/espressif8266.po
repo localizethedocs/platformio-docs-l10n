@@ -34,7 +34,7 @@ msgstr ""
 #: ../../../platforms/espressif8266.rst:0
 #: ../../../platforms/espressif8266_extra.rst:13
 msgid "Configuration"
-msgstr ""
+msgstr "組態"
 
 #: ../../../platforms/espressif8266.rst:20
 msgid ":ref:`projectconf_env_platform` = ``platformio/espressif8266``"
@@ -485,7 +485,7 @@ msgstr ""
 
 #: ../../../platforms/espressif8266_extra.rst:398
 msgid "Examples:"
-msgstr ""
+msgstr "範例："
 
 #: ../../../platforms/espressif8266_extra.rst:426
 msgid ""
@@ -742,7 +742,7 @@ msgstr ""
 
 #: ../../../platforms/espressif8266.rst:33
 msgid "Examples"
-msgstr ""
+msgstr "範例"
 
 #: ../../../platforms/espressif8266.rst:35
 msgid ""
@@ -900,7 +900,7 @@ msgstr ""
 
 #: ../../../platforms/espressif8266.rst:111
 msgid "**Linux Users**:"
-msgstr ""
+msgstr "**Linux 使用者**："
 
 #: ../../../platforms/espressif8266.rst:113
 msgid "Install \"udev\" rules :ref:`platformio_udev_rules`"
@@ -914,7 +914,7 @@ msgstr ""
 
 #: ../../../platforms/espressif8266.rst:118
 msgid "**Windows Users:**"
-msgstr ""
+msgstr "**Windows 使用者：**"
 
 #: ../../../platforms/espressif8266.rst:120
 msgid ""
@@ -924,7 +924,7 @@ msgstr ""
 
 #: ../../../platforms/espressif8266.rst:125
 msgid "Frameworks"
-msgstr ""
+msgstr "框架"
 
 #: ../../../platforms/espressif8266.rst:132
 msgid ":ref:`framework_arduino`"
@@ -948,7 +948,7 @@ msgstr ""
 
 #: ../../../platforms/espressif8266.rst:142
 msgid "Boards"
-msgstr ""
+msgstr "開發板"
 
 #: ../../../platforms/espressif8266.rst:145
 msgid "You can list pre-configured boards by :ref:`cmd_boards` command"

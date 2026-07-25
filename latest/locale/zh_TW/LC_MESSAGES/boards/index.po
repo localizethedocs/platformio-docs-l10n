@@ -19,7 +19,7 @@ msgstr ""
 
 #: ../../../boards/index.rst:15
 msgid "Boards"
-msgstr ""
+msgstr "開發板"
 
 #: ../../../boards/index.rst:17
 msgid ""

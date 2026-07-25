@@ -198,7 +198,7 @@ msgstr ""
 
 #: ../../../core/userguide/remote/cmd_test.rst:160
 msgid "Examples"
-msgstr ""
+msgstr "範例"
 
 #: ../../../core/userguide/remote/cmd_test.rst:162
 msgid "For the examples please follow to :ref:`unit_testing` page."

@@ -294,7 +294,7 @@ msgstr ""
 
 #: ../../../core/userguide/lib/cmd_install.rst:195
 msgid "Examples"
-msgstr ""
+msgstr "範例"
 
 #: ../../../core/userguide/lib/cmd_install.rst:197
 msgid ""

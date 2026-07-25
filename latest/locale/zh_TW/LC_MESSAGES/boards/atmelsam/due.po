@@ -80,7 +80,7 @@ msgstr ""
 
 #: ../../../boards/atmelsam/due.rst:39
 msgid "Configuration"
-msgstr ""
+msgstr "組態"
 
 #: ../../../boards/atmelsam/due.rst:41
 msgid ""
@@ -200,7 +200,7 @@ msgstr ""
 
 #: ../../../boards/atmelsam/due.rst:124
 msgid "Frameworks"
-msgstr ""
+msgstr "框架"
 
 #: ../../../boards/atmelsam/due.rst:128
 msgid "Name"

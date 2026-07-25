@@ -80,7 +80,7 @@ msgstr ""
 
 #: ../../../boards/sifive/sparkfun_thing_plus_v.rst:39
 msgid "Configuration"
-msgstr ""
+msgstr "組態"
 
 #: ../../../boards/sifive/sparkfun_thing_plus_v.rst:41
 msgid ""
@@ -154,7 +154,7 @@ msgstr ""
 
 #: ../../../boards/sifive/sparkfun_thing_plus_v.rst:95
 msgid "Frameworks"
-msgstr ""
+msgstr "框架"
 
 #: ../../../boards/sifive/sparkfun_thing_plus_v.rst:99
 msgid "Name"

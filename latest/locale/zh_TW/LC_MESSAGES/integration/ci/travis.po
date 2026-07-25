@@ -162,7 +162,7 @@ msgstr ""
 
 #: ../../../integration/ci/travis.rst:191
 msgid "Examples"
-msgstr ""
+msgstr "範例"
 
 #: ../../../integration/ci/travis.rst:193
 msgid "Custom build flags"

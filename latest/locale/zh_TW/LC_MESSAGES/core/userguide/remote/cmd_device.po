@@ -238,7 +238,7 @@ msgstr ""
 
 #: ../../../core/userguide/remote/cmd_device.rst:243
 msgid "Examples"
-msgstr ""
+msgstr "範例"
 
 #: ../../../core/userguide/remote/cmd_device.rst:245
 msgid "Show available options for *monitor*"

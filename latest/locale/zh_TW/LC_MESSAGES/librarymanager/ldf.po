@@ -43,7 +43,7 @@ msgstr ""
 
 #: ../../../librarymanager/ldf.rst:30
 msgid "Configuration"
-msgstr ""
+msgstr "組態"
 
 #: ../../../librarymanager/ldf.rst:32
 msgid "Library Dependency Finder can be configured from :ref:`projectconf`:"

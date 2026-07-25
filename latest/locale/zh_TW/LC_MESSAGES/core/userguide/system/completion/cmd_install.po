@@ -61,4 +61,4 @@ msgstr ""
 
 #: ../../../core/userguide/system/completion/cmd_install.rst:48
 msgid "Examples"
-msgstr ""
+msgstr "範例"

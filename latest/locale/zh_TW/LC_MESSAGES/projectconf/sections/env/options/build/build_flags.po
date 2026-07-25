@@ -226,7 +226,7 @@ msgstr ""
 
 #: ../../../projectconf/sections/env/options/build/build_flags.rst:92
 msgid "Examples"
-msgstr ""
+msgstr "範例"
 
 #: ../../../projectconf/sections/env/options/build/build_flags.rst:118
 msgid ""

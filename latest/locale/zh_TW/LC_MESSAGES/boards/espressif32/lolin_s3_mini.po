@@ -81,7 +81,7 @@ msgstr ""
 
 #: ../../../boards/espressif32/lolin_s3_mini.rst:39
 msgid "Configuration"
-msgstr ""
+msgstr "組態"
 
 #: ../../../boards/espressif32/lolin_s3_mini.rst:41
 msgid ""
@@ -261,7 +261,7 @@ msgstr ""
 
 #: ../../../boards/espressif32/lolin_s3_mini.rst:157
 msgid "Frameworks"
-msgstr ""
+msgstr "框架"
 
 #: ../../../boards/espressif32/lolin_s3_mini.rst:161
 msgid "Name"

@@ -191,7 +191,7 @@ msgstr ""
 
 #: ../../../core/installation/integration.rst:132
 msgid "Examples"
-msgstr ""
+msgstr "範例"
 
 #: ../../../core/installation/integration.rst:134
 msgid "Examples that use this installer are:"

@@ -258,7 +258,7 @@ msgstr ""
 
 #: ../../../envvars.rst:186
 msgid "Examples:"
-msgstr ""
+msgstr "範例："
 
 #: ../../../envvars.rst:200
 msgid ""

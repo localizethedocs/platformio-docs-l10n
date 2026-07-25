@@ -264,7 +264,7 @@ msgstr ""
 #: ../../../core/userguide/cmd_settings.rst:208
 #: ../../../core/userguide/cmd_settings.rst:240
 msgid "Examples"
-msgstr ""
+msgstr "範例"
 
 #: ../../../core/userguide/cmd_settings.rst:164
 msgid "List all settings and theirs current values"

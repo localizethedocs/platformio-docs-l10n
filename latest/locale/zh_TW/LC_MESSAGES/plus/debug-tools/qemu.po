@@ -34,7 +34,7 @@ msgstr ""
 
 #: ../../../plus/debug-tools/qemu.rst:27
 msgid "Configuration"
-msgstr ""
+msgstr "組態"
 
 #: ../../../plus/debug-tools/qemu.rst:29
 msgid ""
@@ -77,7 +77,7 @@ msgstr ""
 
 #: ../../../plus/debug-tools/qemu.rst:57
 msgid "Frameworks"
-msgstr ""
+msgstr "框架"
 
 #: ../../../plus/debug-tools/qemu.rst:64
 msgid ":ref:`framework_freedom-e-sdk`"
@@ -109,7 +109,7 @@ msgstr ""
 
 #: ../../../plus/debug-tools/qemu.rst:74
 msgid "Boards"
-msgstr ""
+msgstr "開發板"
 
 #: ../../../plus/debug-tools/qemu.rst:77
 msgid ""

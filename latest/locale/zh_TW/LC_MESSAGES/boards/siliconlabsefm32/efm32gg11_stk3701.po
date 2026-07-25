@@ -84,7 +84,7 @@ msgstr ""
 
 #: ../../../boards/siliconlabsefm32/efm32gg11_stk3701.rst:39
 msgid "Configuration"
-msgstr ""
+msgstr "組態"
 
 #: ../../../boards/siliconlabsefm32/efm32gg11_stk3701.rst:41
 msgid ""
@@ -187,7 +187,7 @@ msgstr ""
 
 #: ../../../boards/siliconlabsefm32/efm32gg11_stk3701.rst:116
 msgid "Frameworks"
-msgstr ""
+msgstr "框架"
 
 #: ../../../boards/siliconlabsefm32/efm32gg11_stk3701.rst:120
 msgid "Name"

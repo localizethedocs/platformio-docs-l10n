@@ -164,7 +164,7 @@ msgstr ""
 
 #: ../../../plus/debugging.rst:79
 msgid "Configuration"
-msgstr ""
+msgstr "組態"
 
 #: ../../../plus/debugging.rst:81
 msgid "|PIODebug| can be configured using :ref:`projectconf`:"
@@ -188,7 +188,7 @@ msgstr ""
 
 #: ../../../plus/debugging.rst:134
 msgid "Debug Unit Tests"
-msgstr ""
+msgstr "除錯單元測試"
 
 #: ../../../plus/debugging.rst:136
 msgid ""
@@ -200,11 +200,11 @@ msgstr ""
 msgid ""
 "Please use :ref:`projectconf_debug_test` option to set a name of a test to "
 "be debugged."
-msgstr ""
+msgstr "請使用 :ref:`projectconf_debug_test` 選項來設定要被除錯的測試名稱。"
 
 #: ../../../plus/debugging.rst:142
 msgid "CLI Guide"
-msgstr ""
+msgstr "CLI 指南"
 
 #: ../../../plus/debugging.rst:153
 msgid "Platforms"
@@ -1027,7 +1027,7 @@ msgstr ""
 
 #: ../../../plus/debugging.rst:230
 msgid "Frameworks"
-msgstr ""
+msgstr "框架"
 
 #: ../../../plus/debugging.rst:237
 msgid ":ref:`framework_arduino`"
@@ -1187,7 +1187,7 @@ msgstr ""
 
 #: ../../../plus/debugging.rst:286
 msgid "Boards"
-msgstr ""
+msgstr "開發板"
 
 #: ../../../plus/debugging.rst:289
 msgid ""

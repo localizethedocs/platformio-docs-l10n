@@ -80,7 +80,7 @@ msgstr ""
 
 #: ../../../boards/raspberrypi/pico.rst:39
 msgid "Configuration"
-msgstr ""
+msgstr "組態"
 
 #: ../../../boards/raspberrypi/pico.rst:41
 msgid ""
@@ -190,7 +190,7 @@ msgstr ""
 
 #: ../../../boards/raspberrypi/pico.rst:120
 msgid "Frameworks"
-msgstr ""
+msgstr "框架"
 
 #: ../../../boards/raspberrypi/pico.rst:124
 msgid "Name"

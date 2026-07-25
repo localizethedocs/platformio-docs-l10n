@@ -34,7 +34,7 @@ msgstr ""
 
 #: ../../../plus/debug-tools/olimex-arm-usb-tiny-h.rst:27
 msgid "Configuration"
-msgstr ""
+msgstr "組態"
 
 #: ../../../plus/debug-tools/olimex-arm-usb-tiny-h.rst:29
 msgid ""
@@ -457,7 +457,7 @@ msgstr ""
 
 #: ../../../plus/debug-tools/olimex-arm-usb-tiny-h.rst:113
 msgid "Frameworks"
-msgstr ""
+msgstr "框架"
 
 #: ../../../plus/debug-tools/olimex-arm-usb-tiny-h.rst:120
 msgid ":ref:`framework_arduino`"
@@ -537,7 +537,7 @@ msgstr ""
 
 #: ../../../plus/debug-tools/olimex-arm-usb-tiny-h.rst:145
 msgid "Boards"
-msgstr ""
+msgstr "開發板"
 
 #: ../../../plus/debug-tools/olimex-arm-usb-tiny-h.rst:148
 msgid ""

@@ -60,7 +60,7 @@ msgstr ""
 
 #: ../../../core/userguide/access/cmd_revoke.rst:48
 msgid "Examples"
-msgstr ""
+msgstr "範例"
 
 #: ../../../core/userguide/access/cmd_revoke.rst:50
 msgid "Revoke access from a resource for the \"bob\" user:"

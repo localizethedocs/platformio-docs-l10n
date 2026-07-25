@@ -19,4 +19,4 @@ msgstr ""
 
 #: ../../../frameworks/index.rst:15
 msgid "Frameworks"
-msgstr ""
+msgstr "框架"

@@ -51,7 +51,7 @@ msgstr ""
 
 #: ../../../core/userguide/org/cmd_create.rst:47
 msgid "Examples"
-msgstr ""
+msgstr "範例"
 
 #: ../../../core/userguide/org/cmd_create.rst:55
 msgid "See Also"

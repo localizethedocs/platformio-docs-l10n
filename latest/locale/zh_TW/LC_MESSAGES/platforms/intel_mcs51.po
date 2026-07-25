@@ -33,7 +33,7 @@ msgstr ""
 
 #: ../../../platforms/intel_mcs51.rst:0
 msgid "Configuration"
-msgstr ""
+msgstr "組態"
 
 #: ../../../platforms/intel_mcs51.rst:20
 msgid ":ref:`projectconf_env_platform` = ``platformio/intel_mcs51``"
@@ -59,7 +59,7 @@ msgstr ""
 
 #: ../../../platforms/intel_mcs51.rst:32
 msgid "Examples"
-msgstr ""
+msgstr "範例"
 
 #: ../../../platforms/intel_mcs51.rst:34
 msgid ""
@@ -173,7 +173,7 @@ msgstr ""
 
 #: ../../../platforms/intel_mcs51.rst:95
 msgid "**Linux Users**:"
-msgstr ""
+msgstr "**Linux 使用者**："
 
 #: ../../../platforms/intel_mcs51.rst:97
 msgid "Install \"udev\" rules :ref:`platformio_udev_rules`"
@@ -187,7 +187,7 @@ msgstr ""
 
 #: ../../../platforms/intel_mcs51.rst:102
 msgid "**Windows Users:**"
-msgstr ""
+msgstr "**Windows 使用者：**"
 
 #: ../../../platforms/intel_mcs51.rst:104
 msgid ""
@@ -197,7 +197,7 @@ msgstr ""
 
 #: ../../../platforms/intel_mcs51.rst:109
 msgid "Boards"
-msgstr ""
+msgstr "開發板"
 
 #: ../../../platforms/intel_mcs51.rst:112
 msgid "You can list pre-configured boards by :ref:`cmd_boards` command"

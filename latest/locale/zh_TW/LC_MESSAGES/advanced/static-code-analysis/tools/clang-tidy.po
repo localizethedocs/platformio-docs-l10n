@@ -71,7 +71,7 @@ msgstr ""
 
 #: ../../../advanced/static-code-analysis/tools/clang-tidy.rst:42
 msgid "Configuration"
-msgstr ""
+msgstr "組態"
 
 #: ../../../advanced/static-code-analysis/tools/clang-tidy.rst:44
 msgid ""

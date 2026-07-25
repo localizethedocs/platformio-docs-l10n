@@ -30,7 +30,7 @@ msgstr ""
 
 #: ../../../advanced/unit-testing/simulators/qemu.rst:24
 msgid "Configuration"
-msgstr ""
+msgstr "組態"
 
 #: ../../../advanced/unit-testing/simulators/qemu.rst:26
 msgid ""

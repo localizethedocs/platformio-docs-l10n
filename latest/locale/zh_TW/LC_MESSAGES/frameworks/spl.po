@@ -23,7 +23,7 @@ msgstr ""
 
 #: ../../../frameworks/spl.rst:0
 msgid "Configuration"
-msgstr ""
+msgstr "組態"
 
 #: ../../../frameworks/spl.rst:18
 msgid ":ref:`projectconf_env_framework` = ``spl``"
@@ -39,7 +39,7 @@ msgstr ""
 
 #: ../../../frameworks/spl.rst:42 ../../../frameworks/spl_extra.rst:13
 msgid "Examples"
-msgstr ""
+msgstr "範例"
 
 #: ../../../frameworks/spl_extra.rst:15
 msgid ""
@@ -494,7 +494,7 @@ msgstr ""
 
 #: ../../../frameworks/spl.rst:227
 msgid "Boards"
-msgstr ""
+msgstr "開發板"
 
 #: ../../../frameworks/spl.rst:230
 msgid "You can list pre-configured boards by :ref:`cmd_boards` command"

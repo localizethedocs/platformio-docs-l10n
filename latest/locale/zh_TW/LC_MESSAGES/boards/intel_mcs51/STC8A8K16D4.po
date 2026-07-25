@@ -81,7 +81,7 @@ msgstr ""
 
 #: ../../../boards/intel_mcs51/STC8A8K16D4.rst:39
 msgid "Configuration"
-msgstr ""
+msgstr "組態"
 
 #: ../../../boards/intel_mcs51/STC8A8K16D4.rst:41
 msgid ""

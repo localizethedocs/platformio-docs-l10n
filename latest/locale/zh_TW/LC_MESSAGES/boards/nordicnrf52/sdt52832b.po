@@ -81,7 +81,7 @@ msgstr ""
 
 #: ../../../boards/nordicnrf52/sdt52832b.rst:39
 msgid "Configuration"
-msgstr ""
+msgstr "組態"
 
 #: ../../../boards/nordicnrf52/sdt52832b.rst:41
 msgid ""
@@ -203,7 +203,7 @@ msgstr ""
 
 #: ../../../boards/nordicnrf52/sdt52832b.rst:125
 msgid "Frameworks"
-msgstr ""
+msgstr "框架"
 
 #: ../../../boards/nordicnrf52/sdt52832b.rst:129
 msgid "Name"

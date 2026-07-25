@@ -83,7 +83,7 @@ msgstr ""
 
 #: ../../../boards/ststm32/disco_f051r8.rst:39
 msgid "Configuration"
-msgstr ""
+msgstr "組態"
 
 #: ../../../boards/ststm32/disco_f051r8.rst:41
 msgid ""
@@ -198,7 +198,7 @@ msgstr ""
 
 #: ../../../boards/ststm32/disco_f051r8.rst:123
 msgid "Frameworks"
-msgstr ""
+msgstr "框架"
 
 #: ../../../boards/ststm32/disco_f051r8.rst:127
 msgid "Name"

@@ -19,7 +19,7 @@ msgstr ""
 
 #: ../../../advanced/static-code-analysis/configuration.rst:13
 msgid "Configuration"
-msgstr ""
+msgstr "組態"
 
 #: ../../../advanced/static-code-analysis/configuration.rst:15
 msgid ""

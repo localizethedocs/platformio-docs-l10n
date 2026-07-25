@@ -82,7 +82,7 @@ msgstr ""
 
 #: ../../../boards/atmelmegaavr/ATmega809.rst:39
 msgid "Configuration"
-msgstr ""
+msgstr "組態"
 
 #: ../../../boards/atmelmegaavr/ATmega809.rst:41
 msgid ""
@@ -109,7 +109,7 @@ msgstr ""
 
 #: ../../../boards/atmelmegaavr/ATmega809.rst:71
 msgid "Frameworks"
-msgstr ""
+msgstr "框架"
 
 #: ../../../boards/atmelmegaavr/ATmega809.rst:75
 msgid "Name"

@@ -75,7 +75,7 @@ msgstr ""
 
 #: ../../../boards/chipsalliance/swervolf_nexys.rst:39
 msgid "Configuration"
-msgstr ""
+msgstr "組態"
 
 #: ../../../boards/chipsalliance/swervolf_nexys.rst:41
 msgid ""
@@ -168,7 +168,7 @@ msgstr ""
 
 #: ../../../boards/chipsalliance/swervolf_nexys.rst:110
 msgid "Frameworks"
-msgstr ""
+msgstr "框架"
 
 #: ../../../boards/chipsalliance/swervolf_nexys.rst:114
 msgid "Name"

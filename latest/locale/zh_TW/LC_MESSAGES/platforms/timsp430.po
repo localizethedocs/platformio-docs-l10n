@@ -33,7 +33,7 @@ msgstr ""
 
 #: ../../../platforms/timsp430.rst:0
 msgid "Configuration"
-msgstr ""
+msgstr "組態"
 
 #: ../../../platforms/timsp430.rst:20
 msgid ":ref:`projectconf_env_platform` = ``platformio/timsp430``"
@@ -60,7 +60,7 @@ msgstr ""
 
 #: ../../../platforms/timsp430.rst:32
 msgid "Examples"
-msgstr ""
+msgstr "範例"
 
 #: ../../../platforms/timsp430.rst:34
 msgid ""
@@ -419,7 +419,7 @@ msgstr ""
 
 #: ../../../platforms/timsp430.rst:199
 msgid "**Linux Users**:"
-msgstr ""
+msgstr "**Linux 使用者**："
 
 #: ../../../platforms/timsp430.rst:201
 msgid "Install \"udev\" rules :ref:`platformio_udev_rules`"
@@ -433,7 +433,7 @@ msgstr ""
 
 #: ../../../platforms/timsp430.rst:206
 msgid "**Windows Users:**"
-msgstr ""
+msgstr "**Windows 使用者：**"
 
 #: ../../../platforms/timsp430.rst:208
 msgid ""
@@ -443,7 +443,7 @@ msgstr ""
 
 #: ../../../platforms/timsp430.rst:213
 msgid "Frameworks"
-msgstr ""
+msgstr "框架"
 
 #: ../../../platforms/timsp430.rst:220
 msgid ":ref:`framework_arduino`"
@@ -463,7 +463,7 @@ msgstr ""
 
 #: ../../../platforms/timsp430.rst:227
 msgid "Boards"
-msgstr ""
+msgstr "開發板"
 
 #: ../../../platforms/timsp430.rst:230
 msgid "You can list pre-configured boards by :ref:`cmd_boards` command"

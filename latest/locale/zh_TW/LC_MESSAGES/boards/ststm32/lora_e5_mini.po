@@ -83,7 +83,7 @@ msgstr ""
 
 #: ../../../boards/ststm32/lora_e5_mini.rst:39
 msgid "Configuration"
-msgstr ""
+msgstr "組態"
 
 #: ../../../boards/ststm32/lora_e5_mini.rst:41
 msgid ""
@@ -152,7 +152,7 @@ msgstr ""
 
 #: ../../../boards/ststm32/lora_e5_mini.rst:92
 msgid "Frameworks"
-msgstr ""
+msgstr "框架"
 
 #: ../../../boards/ststm32/lora_e5_mini.rst:96
 msgid "Name"

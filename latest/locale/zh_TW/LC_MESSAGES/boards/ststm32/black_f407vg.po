@@ -83,7 +83,7 @@ msgstr ""
 
 #: ../../../boards/ststm32/black_f407vg.rst:39
 msgid "Configuration"
-msgstr ""
+msgstr "組態"
 
 #: ../../../boards/ststm32/black_f407vg.rst:41
 msgid ""
@@ -201,7 +201,7 @@ msgstr ""
 
 #: ../../../boards/ststm32/black_f407vg.rst:124
 msgid "Frameworks"
-msgstr ""
+msgstr "框架"
 
 #: ../../../boards/ststm32/black_f407vg.rst:128
 msgid "Name"

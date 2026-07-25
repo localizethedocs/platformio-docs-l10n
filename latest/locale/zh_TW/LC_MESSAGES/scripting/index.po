@@ -19,7 +19,7 @@ msgstr ""
 
 #: ../../../scripting/index.rst:33
 msgid "Examples"
-msgstr ""
+msgstr "範例"
 
 #: ../../../scripting/index.rst:15
 msgid "Advanced Scripting"

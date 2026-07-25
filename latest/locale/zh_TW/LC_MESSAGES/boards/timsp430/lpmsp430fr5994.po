@@ -81,7 +81,7 @@ msgstr ""
 
 #: ../../../boards/timsp430/lpmsp430fr5994.rst:39
 msgid "Configuration"
-msgstr ""
+msgstr "組態"
 
 #: ../../../boards/timsp430/lpmsp430fr5994.rst:41
 msgid ""
@@ -150,7 +150,7 @@ msgstr ""
 
 #: ../../../boards/timsp430/lpmsp430fr5994.rst:92
 msgid "Frameworks"
-msgstr ""
+msgstr "框架"
 
 #: ../../../boards/timsp430/lpmsp430fr5994.rst:96
 msgid "Name"

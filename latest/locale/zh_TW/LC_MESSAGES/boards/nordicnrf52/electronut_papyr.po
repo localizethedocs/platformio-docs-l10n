@@ -81,7 +81,7 @@ msgstr ""
 
 #: ../../../boards/nordicnrf52/electronut_papyr.rst:39
 msgid "Configuration"
-msgstr ""
+msgstr "組態"
 
 #: ../../../boards/nordicnrf52/electronut_papyr.rst:41
 msgid ""
@@ -200,7 +200,7 @@ msgstr ""
 
 #: ../../../boards/nordicnrf52/electronut_papyr.rst:124
 msgid "Frameworks"
-msgstr ""
+msgstr "框架"
 
 #: ../../../boards/nordicnrf52/electronut_papyr.rst:128
 msgid "Name"

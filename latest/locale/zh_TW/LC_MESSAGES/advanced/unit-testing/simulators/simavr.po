@@ -35,7 +35,7 @@ msgstr ""
 
 #: ../../../advanced/unit-testing/simulators/simavr.rst:25
 msgid "Configuration"
-msgstr ""
+msgstr "組態"
 
 #: ../../../advanced/unit-testing/simulators/simavr.rst:27
 msgid ""

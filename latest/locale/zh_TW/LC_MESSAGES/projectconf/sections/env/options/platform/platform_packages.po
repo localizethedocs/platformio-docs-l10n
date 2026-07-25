@@ -40,4 +40,4 @@ msgstr ""
 
 #: ../../../projectconf/sections/env/options/platform/platform_packages.rst:26
 msgid "Examples:"
-msgstr ""
+msgstr "範例："

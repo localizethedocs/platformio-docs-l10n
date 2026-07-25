@@ -84,7 +84,7 @@ msgstr ""
 
 #: ../../../boards/ststm32/bluepill_f103c8_128k.rst:39
 msgid "Configuration"
-msgstr ""
+msgstr "組態"
 
 #: ../../../boards/ststm32/bluepill_f103c8_128k.rst:41
 msgid ""
@@ -203,7 +203,7 @@ msgstr ""
 
 #: ../../../boards/ststm32/bluepill_f103c8_128k.rst:124
 msgid "Frameworks"
-msgstr ""
+msgstr "框架"
 
 #: ../../../boards/ststm32/bluepill_f103c8_128k.rst:128
 msgid "Name"

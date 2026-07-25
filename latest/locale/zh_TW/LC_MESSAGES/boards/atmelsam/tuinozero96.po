@@ -80,7 +80,7 @@ msgstr ""
 
 #: ../../../boards/atmelsam/tuinozero96.rst:39
 msgid "Configuration"
-msgstr ""
+msgstr "組態"
 
 #: ../../../boards/atmelsam/tuinozero96.rst:41
 msgid ""
@@ -190,7 +190,7 @@ msgstr ""
 
 #: ../../../boards/atmelsam/tuinozero96.rst:120
 msgid "Frameworks"
-msgstr ""
+msgstr "框架"
 
 #: ../../../boards/atmelsam/tuinozero96.rst:124
 msgid "Name"

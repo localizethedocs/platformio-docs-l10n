@@ -33,7 +33,7 @@ msgstr ""
 
 #: ../../../platforms/nxpimxrt.rst:0
 msgid "Configuration"
-msgstr ""
+msgstr "組態"
 
 #: ../../../platforms/nxpimxrt.rst:20
 msgid ":ref:`projectconf_env_platform` = ``platformio/nxpimxrt``"
@@ -58,7 +58,7 @@ msgstr ""
 
 #: ../../../platforms/nxpimxrt.rst:32
 msgid "Examples"
-msgstr ""
+msgstr "範例"
 
 #: ../../../platforms/nxpimxrt.rst:34
 msgid ""
@@ -381,7 +381,7 @@ msgstr ""
 
 #: ../../../platforms/nxpimxrt.rst:184
 msgid "**Linux Users**:"
-msgstr ""
+msgstr "**Linux 使用者**："
 
 #: ../../../platforms/nxpimxrt.rst:186
 msgid "Install \"udev\" rules :ref:`platformio_udev_rules`"
@@ -395,7 +395,7 @@ msgstr ""
 
 #: ../../../platforms/nxpimxrt.rst:191
 msgid "**Windows Users:**"
-msgstr ""
+msgstr "**Windows 使用者：**"
 
 #: ../../../platforms/nxpimxrt.rst:193
 msgid ""
@@ -405,7 +405,7 @@ msgstr ""
 
 #: ../../../platforms/nxpimxrt.rst:198
 msgid "Frameworks"
-msgstr ""
+msgstr "框架"
 
 #: ../../../platforms/nxpimxrt.rst:205
 msgid ":ref:`framework_mbed`"
@@ -417,7 +417,7 @@ msgstr ""
 
 #: ../../../platforms/nxpimxrt.rst:212
 msgid "Boards"
-msgstr ""
+msgstr "開發板"
 
 #: ../../../platforms/nxpimxrt.rst:215
 msgid "You can list pre-configured boards by :ref:`cmd_boards` command"

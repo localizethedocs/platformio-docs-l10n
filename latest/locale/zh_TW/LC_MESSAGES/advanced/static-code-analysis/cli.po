@@ -23,7 +23,7 @@ msgstr ""
 
 #: ../../../advanced/static-code-analysis/cli.rst:13
 msgid "CLI Guide"
-msgstr ""
+msgstr "CLI 指南"
 
 #: ../../../advanced/static-code-analysis/cli.rst:15
 msgid ""

@@ -83,7 +83,7 @@ msgstr ""
 
 #: ../../../boards/nxplpc/lpc1768.rst:39
 msgid "Configuration"
-msgstr ""
+msgstr "組態"
 
 #: ../../../boards/nxplpc/lpc1768.rst:41
 msgid ""
@@ -194,7 +194,7 @@ msgstr ""
 
 #: ../../../boards/nxplpc/lpc1768.rst:120
 msgid "Frameworks"
-msgstr ""
+msgstr "框架"
 
 #: ../../../boards/nxplpc/lpc1768.rst:124
 msgid "Name"

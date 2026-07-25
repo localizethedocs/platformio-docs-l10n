@@ -39,7 +39,7 @@ msgstr ""
 
 #: ../../../plus/debug-tools/mspdebug.rst:30
 msgid "Configuration"
-msgstr ""
+msgstr "組態"
 
 #: ../../../plus/debug-tools/mspdebug.rst:32
 msgid ""
@@ -138,7 +138,7 @@ msgstr ""
 
 #: ../../../plus/debug-tools/mspdebug.rst:85
 msgid "Frameworks"
-msgstr ""
+msgstr "框架"
 
 #: ../../../plus/debug-tools/mspdebug.rst:92
 msgid ":ref:`framework_arduino`"
@@ -154,7 +154,7 @@ msgstr ""
 
 #: ../../../plus/debug-tools/mspdebug.rst:96
 msgid "Boards"
-msgstr ""
+msgstr "開發板"
 
 #: ../../../plus/debug-tools/mspdebug.rst:99
 msgid ""

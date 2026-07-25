@@ -81,7 +81,7 @@ msgstr ""
 
 #: ../../../boards/nordicnrf52/adafruit_feather_nrf52840_sense.rst:39
 msgid "Configuration"
-msgstr ""
+msgstr "組態"
 
 #: ../../../boards/nordicnrf52/adafruit_feather_nrf52840_sense.rst:41
 msgid ""
@@ -206,7 +206,7 @@ msgstr ""
 
 #: ../../../boards/nordicnrf52/adafruit_feather_nrf52840_sense.rst:125
 msgid "Frameworks"
-msgstr ""
+msgstr "框架"
 
 #: ../../../boards/nordicnrf52/adafruit_feather_nrf52840_sense.rst:129
 msgid "Name"

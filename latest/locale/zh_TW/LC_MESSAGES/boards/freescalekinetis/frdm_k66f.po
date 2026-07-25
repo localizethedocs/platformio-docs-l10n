@@ -81,7 +81,7 @@ msgstr ""
 
 #: ../../../boards/freescalekinetis/frdm_k66f.rst:39
 msgid "Configuration"
-msgstr ""
+msgstr "組態"
 
 #: ../../../boards/freescalekinetis/frdm_k66f.rst:41
 msgid ""
@@ -184,7 +184,7 @@ msgstr ""
 
 #: ../../../boards/freescalekinetis/frdm_k66f.rst:116
 msgid "Frameworks"
-msgstr ""
+msgstr "框架"
 
 #: ../../../boards/freescalekinetis/frdm_k66f.rst:120
 msgid "Name"

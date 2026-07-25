@@ -79,7 +79,7 @@ msgstr ""
 
 #: ../../../boards/openhw/nexys_a7.rst:39
 msgid "Configuration"
-msgstr ""
+msgstr "組態"
 
 #: ../../../boards/openhw/nexys_a7.rst:41
 msgid ""
@@ -178,7 +178,7 @@ msgstr ""
 
 #: ../../../boards/openhw/nexys_a7.rst:113
 msgid "Frameworks"
-msgstr ""
+msgstr "框架"
 
 #: ../../../boards/openhw/nexys_a7.rst:117
 msgid "Name"

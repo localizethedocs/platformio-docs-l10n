@@ -33,7 +33,7 @@ msgstr ""
 
 #: ../../../platforms/titiva.rst:0
 msgid "Configuration"
-msgstr ""
+msgstr "組態"
 
 #: ../../../platforms/titiva.rst:20
 msgid ":ref:`projectconf_env_platform` = ``platformio/titiva``"
@@ -60,7 +60,7 @@ msgstr ""
 
 #: ../../../platforms/titiva.rst:32
 msgid "Examples"
-msgstr ""
+msgstr "範例"
 
 #: ../../../platforms/titiva.rst:34
 msgid ""
@@ -282,7 +282,7 @@ msgstr ""
 
 #: ../../../platforms/titiva.rst:151
 msgid "**Linux Users**:"
-msgstr ""
+msgstr "**Linux 使用者**："
 
 #: ../../../platforms/titiva.rst:153
 msgid "Install \"udev\" rules :ref:`platformio_udev_rules`"
@@ -296,7 +296,7 @@ msgstr ""
 
 #: ../../../platforms/titiva.rst:158
 msgid "**Windows Users:**"
-msgstr ""
+msgstr "**Windows 使用者：**"
 
 #: ../../../platforms/titiva.rst:160
 msgid ""
@@ -306,7 +306,7 @@ msgstr ""
 
 #: ../../../platforms/titiva.rst:165
 msgid "Frameworks"
-msgstr ""
+msgstr "框架"
 
 #: ../../../platforms/titiva.rst:172
 msgid ":ref:`framework_arduino`"
@@ -335,7 +335,7 @@ msgstr ""
 
 #: ../../../platforms/titiva.rst:182
 msgid "Boards"
-msgstr ""
+msgstr "開發板"
 
 #: ../../../platforms/titiva.rst:185
 msgid "You can list pre-configured boards by :ref:`cmd_boards` command"

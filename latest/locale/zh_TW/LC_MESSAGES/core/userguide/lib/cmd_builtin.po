@@ -63,4 +63,4 @@ msgstr ""
 
 #: ../../../core/userguide/lib/cmd_builtin.rst:56
 msgid "Examples"
-msgstr ""
+msgstr "範例"

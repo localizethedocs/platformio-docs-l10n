@@ -36,7 +36,7 @@ msgstr ""
 
 #: ../../../plus/debug-tools/ti-icdi.rst:26
 msgid "Configuration"
-msgstr ""
+msgstr "組態"
 
 #: ../../../plus/debug-tools/ti-icdi.rst:28
 msgid ""
@@ -125,7 +125,7 @@ msgstr ""
 
 #: ../../../plus/debug-tools/ti-icdi.rst:81
 msgid "Frameworks"
-msgstr ""
+msgstr "框架"
 
 #: ../../../plus/debug-tools/ti-icdi.rst:88
 msgid ":ref:`framework_arduino`"
@@ -151,7 +151,7 @@ msgstr ""
 
 #: ../../../plus/debug-tools/ti-icdi.rst:95
 msgid "Boards"
-msgstr ""
+msgstr "開發板"
 
 #: ../../../plus/debug-tools/ti-icdi.rst:98
 msgid ""

@@ -81,7 +81,7 @@ msgstr ""
 
 #: ../../../boards/atmelsam/minitronics20.rst:39
 msgid "Configuration"
-msgstr ""
+msgstr "組態"
 
 #: ../../../boards/atmelsam/minitronics20.rst:41
 msgid ""
@@ -191,7 +191,7 @@ msgstr ""
 
 #: ../../../boards/atmelsam/minitronics20.rst:120
 msgid "Frameworks"
-msgstr ""
+msgstr "框架"
 
 #: ../../../boards/atmelsam/minitronics20.rst:124
 msgid "Name"

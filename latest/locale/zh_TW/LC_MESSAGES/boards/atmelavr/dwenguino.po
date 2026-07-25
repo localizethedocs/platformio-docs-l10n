@@ -81,7 +81,7 @@ msgstr ""
 
 #: ../../../boards/atmelavr/dwenguino.rst:39
 msgid "Configuration"
-msgstr ""
+msgstr "組態"
 
 #: ../../../boards/atmelavr/dwenguino.rst:41
 msgid ""
@@ -108,7 +108,7 @@ msgstr ""
 
 #: ../../../boards/atmelavr/dwenguino.rst:71
 msgid "Frameworks"
-msgstr ""
+msgstr "框架"
 
 #: ../../../boards/atmelavr/dwenguino.rst:75
 msgid "Name"

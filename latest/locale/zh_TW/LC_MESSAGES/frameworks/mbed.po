@@ -23,7 +23,7 @@ msgstr ""
 
 #: ../../../frameworks/mbed.rst:0 ../../../frameworks/mbed_extra.rst:13
 msgid "Configuration"
-msgstr ""
+msgstr "組態"
 
 #: ../../../frameworks/mbed.rst:18
 msgid ":ref:`projectconf_env_framework` = ``mbed``"
@@ -453,7 +453,7 @@ msgstr ""
 
 #: ../../../frameworks/mbed.rst:60
 msgid "Examples"
-msgstr ""
+msgstr "範例"
 
 #: ../../../frameworks/mbed.rst:62
 msgid ""
@@ -1574,7 +1574,7 @@ msgstr ""
 
 #: ../../../frameworks/mbed.rst:599
 msgid "Boards"
-msgstr ""
+msgstr "開發板"
 
 #: ../../../frameworks/mbed.rst:602
 msgid "You can list pre-configured boards by :ref:`cmd_boards` command"

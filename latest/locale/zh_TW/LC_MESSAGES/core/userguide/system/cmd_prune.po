@@ -90,4 +90,4 @@ msgstr ""
 
 #: ../../../core/userguide/system/cmd_prune.rst:73
 msgid "Examples"
-msgstr ""
+msgstr "範例"

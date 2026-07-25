@@ -186,7 +186,7 @@ msgstr ""
 
 #: ../../../core/userguide/lib/cmd_search.rst:129
 msgid "Examples"
-msgstr ""
+msgstr "範例"
 
 #: ../../../core/userguide/lib/cmd_search.rst:131
 msgid "List all libraries"

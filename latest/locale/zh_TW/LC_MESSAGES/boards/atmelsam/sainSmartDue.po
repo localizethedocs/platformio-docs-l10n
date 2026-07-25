@@ -81,7 +81,7 @@ msgstr ""
 
 #: ../../../boards/atmelsam/sainSmartDue.rst:39
 msgid "Configuration"
-msgstr ""
+msgstr "組態"
 
 #: ../../../boards/atmelsam/sainSmartDue.rst:41
 msgid ""
@@ -201,7 +201,7 @@ msgstr ""
 
 #: ../../../boards/atmelsam/sainSmartDue.rst:124
 msgid "Frameworks"
-msgstr ""
+msgstr "框架"
 
 #: ../../../boards/atmelsam/sainSmartDue.rst:128
 msgid "Name"

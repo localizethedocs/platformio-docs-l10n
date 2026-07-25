@@ -80,7 +80,7 @@ msgstr ""
 
 #: ../../../boards/atmelsam/mzeropro.rst:39
 msgid "Configuration"
-msgstr ""
+msgstr "組態"
 
 #: ../../../boards/atmelsam/mzeropro.rst:41
 msgid ""
@@ -197,7 +197,7 @@ msgstr ""
 
 #: ../../../boards/atmelsam/mzeropro.rst:123
 msgid "Frameworks"
-msgstr ""
+msgstr "框架"
 
 #: ../../../boards/atmelsam/mzeropro.rst:127
 msgid "Name"

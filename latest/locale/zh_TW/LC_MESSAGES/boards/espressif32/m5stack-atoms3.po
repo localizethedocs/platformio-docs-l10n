@@ -81,7 +81,7 @@ msgstr ""
 
 #: ../../../boards/espressif32/m5stack-atoms3.rst:39
 msgid "Configuration"
-msgstr ""
+msgstr "組態"
 
 #: ../../../boards/espressif32/m5stack-atoms3.rst:41
 msgid ""
@@ -261,7 +261,7 @@ msgstr ""
 
 #: ../../../boards/espressif32/m5stack-atoms3.rst:157
 msgid "Frameworks"
-msgstr ""
+msgstr "框架"
 
 #: ../../../boards/espressif32/m5stack-atoms3.rst:161
 msgid "Name"

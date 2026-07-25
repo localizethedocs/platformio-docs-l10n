@@ -33,7 +33,7 @@ msgstr ""
 
 #: ../../../platforms/aceinna_imu.rst:0
 msgid "Configuration"
-msgstr ""
+msgstr "組態"
 
 #: ../../../platforms/aceinna_imu.rst:20
 msgid ":ref:`projectconf_env_platform` = ``aceinna/aceinna_imu``"
@@ -57,7 +57,7 @@ msgstr ""
 
 #: ../../../platforms/aceinna_imu.rst:32
 msgid "Examples"
-msgstr ""
+msgstr "範例"
 
 #: ../../../platforms/aceinna_imu.rst:34
 msgid ""
@@ -345,7 +345,7 @@ msgstr ""
 
 #: ../../../platforms/aceinna_imu.rst:185
 msgid "**Linux Users**:"
-msgstr ""
+msgstr "**Linux 使用者**："
 
 #: ../../../platforms/aceinna_imu.rst:187
 msgid "Install \"udev\" rules :ref:`platformio_udev_rules`"
@@ -359,7 +359,7 @@ msgstr ""
 
 #: ../../../platforms/aceinna_imu.rst:192
 msgid "**Windows Users:**"
-msgstr ""
+msgstr "**Windows 使用者：**"
 
 #: ../../../platforms/aceinna_imu.rst:194
 msgid ""
@@ -369,7 +369,7 @@ msgstr ""
 
 #: ../../../platforms/aceinna_imu.rst:199
 msgid "Boards"
-msgstr ""
+msgstr "開發板"
 
 #: ../../../platforms/aceinna_imu.rst:202
 msgid "You can list pre-configured boards by :ref:`cmd_boards` command"

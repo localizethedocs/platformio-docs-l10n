@@ -97,7 +97,7 @@ msgstr ""
 
 #: ../../../librarymanager/creating.rst:107
 msgid "Examples"
-msgstr ""
+msgstr "範例"
 
 #: ../../../librarymanager/creating.rst:109
 msgid ""

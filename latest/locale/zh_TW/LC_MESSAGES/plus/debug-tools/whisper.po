@@ -40,7 +40,7 @@ msgstr ""
 
 #: ../../../plus/debug-tools/whisper.rst:24
 msgid "Configuration"
-msgstr ""
+msgstr "組態"
 
 #: ../../../plus/debug-tools/whisper.rst:26
 msgid ""
@@ -84,7 +84,7 @@ msgstr ""
 
 #: ../../../plus/debug-tools/whisper.rst:54
 msgid "Frameworks"
-msgstr ""
+msgstr "框架"
 
 #: ../../../plus/debug-tools/whisper.rst:61
 msgid ":ref:`framework_freertos`"
@@ -108,7 +108,7 @@ msgstr ""
 
 #: ../../../plus/debug-tools/whisper.rst:68
 msgid "Boards"
-msgstr ""
+msgstr "開發板"
 
 #: ../../../plus/debug-tools/whisper.rst:71
 msgid ""
