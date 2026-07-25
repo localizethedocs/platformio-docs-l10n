@@ -19,19 +19,19 @@ msgstr ""
 
 #: ../../../index.rst:37
 msgid "Getting Started"
-msgstr ""
+msgstr "開始使用"
 
 #: ../../../index.rst:47
 msgid "platformio.ini"
-msgstr ""
+msgstr "platformio.ini"
 
 #: ../../../index.rst:47
 msgid "Configuration"
-msgstr ""
+msgstr "組態"
 
 #: ../../../index.rst:55
 msgid "Platforms"
-msgstr ""
+msgstr "平臺"
 
 #: ../../../index.rst:55
 msgid "Instruments"
@@ -47,11 +47,11 @@ msgstr ""
 
 #: ../../../index.rst:75
 msgid "Integration"
-msgstr ""
+msgstr "整合"
 
 #: ../../../index.rst:83
 msgid "FAQ"
-msgstr ""
+msgstr "常見問題"
 
 #: ../../../index.rst:83
 msgid "Miscellaneous"
