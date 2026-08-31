@@ -1,0 +1,197 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present, PlatformIO
+# This file is distributed under the same license as the PlatformIO package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PlatformIO latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-24 14:02+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../boards/freescalekinetis/segger_ip_switch.rst:15
+msgid "SEGGER IP Switch Board"
+msgstr ""
+
+#: ../../../boards/freescalekinetis/segger_ip_switch.rst:17
+msgid "Contents"
+msgstr ""
+
+#: ../../../boards/freescalekinetis/segger_ip_switch.rst:20
+msgid "Hardware"
+msgstr ""
+
+#: ../../../boards/freescalekinetis/segger_ip_switch.rst:22
+msgid ""
+"Platform :ref:`platform_freescalekinetis`: Freescale Kinetis "
+"Microcontrollers is family of multiple hardware- and software-compatible ARM "
+"Cortex-M0+, Cortex-M4 and Cortex-M7-based MCU series. Kinetis MCUs offer "
+"exceptional low-power performance, scalability and feature integration."
+msgstr ""
+
+#: ../../../boards/freescalekinetis/segger_ip_switch.rst:26
+msgid "**Microcontroller**"
+msgstr ""
+
+#: ../../../boards/freescalekinetis/segger_ip_switch.rst:27
+msgid "MK66FN2M0VMD18"
+msgstr ""
+
+#: ../../../boards/freescalekinetis/segger_ip_switch.rst:28
+msgid "**Frequency**"
+msgstr ""
+
+#: ../../../boards/freescalekinetis/segger_ip_switch.rst:29
+msgid "180MHz"
+msgstr ""
+
+#: ../../../boards/freescalekinetis/segger_ip_switch.rst:30
+msgid "**Flash**"
+msgstr ""
+
+#: ../../../boards/freescalekinetis/segger_ip_switch.rst:31
+msgid "2MB"
+msgstr ""
+
+#: ../../../boards/freescalekinetis/segger_ip_switch.rst:32
+msgid "**RAM**"
+msgstr ""
+
+#: ../../../boards/freescalekinetis/segger_ip_switch.rst:33
+msgid "256KB"
+msgstr ""
+
+#: ../../../boards/freescalekinetis/segger_ip_switch.rst:34
+msgid "**Vendor**"
+msgstr ""
+
+#: ../../../boards/freescalekinetis/segger_ip_switch.rst:35
+msgid ""
+"`SEGGER <https://www.segger.com/evaluate-our-software/segger/embosip-switch-"
+"board/?utm_source=platformio.org&utm_medium=docs>`__"
+msgstr ""
+
+#: ../../../boards/freescalekinetis/segger_ip_switch.rst:39
+msgid "Configuration"
+msgstr ""
+
+#: ../../../boards/freescalekinetis/segger_ip_switch.rst:41
+msgid ""
+"Please use ``segger_ip_switch`` ID for :ref:`projectconf_env_board` option "
+"in :ref:`projectconf`:"
+msgstr ""
+
+#: ../../../boards/freescalekinetis/segger_ip_switch.rst:49
+msgid ""
+"You can override default SEGGER IP Switch Board settings per build "
+"environment using ``board_***`` option, where ``***`` is a JSON object path "
+"from board manifest `segger_ip_switch.json <https://github.com/platformio/"
+"platform-freescalekinetis/blob/master/boards/segger_ip_switch.json>`_. For "
+"example, ``board_build.mcu``, ``board_build.f_cpu``, etc."
+msgstr ""
+
+#: ../../../boards/freescalekinetis/segger_ip_switch.rst:68
+msgid "Uploading"
+msgstr ""
+
+#: ../../../boards/freescalekinetis/segger_ip_switch.rst:69
+msgid "SEGGER IP Switch Board supports the following uploading protocols:"
+msgstr ""
+
+#: ../../../boards/freescalekinetis/segger_ip_switch.rst:71
+msgid "``jlink``"
+msgstr ""
+
+#: ../../../boards/freescalekinetis/segger_ip_switch.rst:72
+msgid "``mbed``"
+msgstr ""
+
+#: ../../../boards/freescalekinetis/segger_ip_switch.rst:74
+msgid "Default protocol is ``jlink``"
+msgstr ""
+
+#: ../../../boards/freescalekinetis/segger_ip_switch.rst:76
+msgid ""
+"You can change upload protocol using :ref:`projectconf_upload_protocol` "
+"option:"
+msgstr ""
+
+#: ../../../boards/freescalekinetis/segger_ip_switch.rst:87
+msgid "Debugging"
+msgstr ""
+
+#: ../../../boards/freescalekinetis/segger_ip_switch.rst:89
+msgid ""
+":ref:`piodebug` - \"1-click\" solution for debugging with a zero "
+"configuration."
+msgstr ""
+
+#: ../../../boards/freescalekinetis/segger_ip_switch.rst:92
+msgid ""
+"You will need to install debug tool drivers depending on your system. Please "
+"click on compatible debug tool below for the further instructions and "
+"configuration information."
+msgstr ""
+
+#: ../../../boards/freescalekinetis/segger_ip_switch.rst:96
+msgid ""
+"You can switch between debugging :ref:`debugging_tools` using :ref:"
+"`projectconf_debug_tool` option in :ref:`projectconf`."
+msgstr ""
+
+#: ../../../boards/freescalekinetis/segger_ip_switch.rst:99
+msgid ""
+"SEGGER IP Switch Board does not have on-board debug probe and **IS NOT "
+"READY** for debugging. You will need to use/buy one of external probe listed "
+"below."
+msgstr ""
+
+#: ../../../boards/freescalekinetis/segger_ip_switch.rst:104
+msgid "Compatible Tools"
+msgstr ""
+
+#: ../../../boards/freescalekinetis/segger_ip_switch.rst:105
+msgid "On-board"
+msgstr ""
+
+#: ../../../boards/freescalekinetis/segger_ip_switch.rst:106
+msgid "Default"
+msgstr ""
+
+#: ../../../boards/freescalekinetis/segger_ip_switch.rst:107
+msgid ":ref:`debugging_tool_jlink`"
+msgstr ""
+
+#: ../../../boards/freescalekinetis/segger_ip_switch.rst:109
+msgid "Yes"
+msgstr ""
+
+#: ../../../boards/freescalekinetis/segger_ip_switch.rst:112
+msgid "Frameworks"
+msgstr ""
+
+#: ../../../boards/freescalekinetis/segger_ip_switch.rst:116
+msgid "Name"
+msgstr ""
+
+#: ../../../boards/freescalekinetis/segger_ip_switch.rst:117
+msgid "Description"
+msgstr ""
+
+#: ../../../boards/freescalekinetis/segger_ip_switch.rst:119
+msgid ":ref:`framework_zephyr`"
+msgstr ""
+
+#: ../../../boards/freescalekinetis/segger_ip_switch.rst:120
+msgid ""
+"Zephyr is a new generation, scalable, optimized, secure RTOS for multiple "
+"hardware architectures"
+msgstr ""

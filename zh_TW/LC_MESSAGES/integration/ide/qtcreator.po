@@ -1,0 +1,111 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present, PlatformIO
+# This file is distributed under the same license as the PlatformIO package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PlatformIO latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-24 14:02+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../integration/ide/qtcreator.rst:15
+msgid "Qt Creator"
+msgstr ""
+
+#: ../../../integration/ide/qtcreator.rst:17
+msgid ""
+"The `Qt Creator <https://github.com/qtproject/qt-creator>`_ is an open "
+"source cross-platform integrated development environment. The editor "
+"includes such features as syntax highlighting for various languages, project "
+"manager, integrated version control systems, rapid code navigation tools and "
+"code autocompletion."
+msgstr ""
+
+#: ../../../integration/ide/qtcreator.rst:19
+msgid ""
+"Refer to the `Qt-creator Manual <http://doc.qt.io/qtcreator/>`_ page for "
+"more detailed information."
+msgstr ""
+
+#: ../../../integration/ide/qtcreator.rst:25
+msgid "Contents"
+msgstr ""
+
+#: ../../../integration/ide/qtcreator.rst:28
+msgid "Integration"
+msgstr ""
+
+#: ../../../integration/ide/qtcreator.rst:30
+msgid "Integration process consists of these steps:"
+msgstr ""
+
+#: ../../../integration/ide/qtcreator.rst:32
+msgid "Open system Terminal and install :ref:`piocore`"
+msgstr ""
+
+#: ../../../integration/ide/qtcreator.rst:33
+msgid "Create new folder for your project and change directory (``cd``) to it"
+msgstr ""
+
+#: ../../../integration/ide/qtcreator.rst:34
+msgid ""
+"Generate a project using PlatformIO Core Project Generator (:option:`pio "
+"project init --ide`)"
+msgstr ""
+
+#: ../../../integration/ide/qtcreator.rst:35
+msgid "Import project in IDE."
+msgstr ""
+
+#: ../../../integration/ide/qtcreator.rst:39
+msgid "Project Generator"
+msgstr ""
+
+#: ../../../integration/ide/qtcreator.rst:41
+msgid ""
+"The generator will create a [Qt Creator generic project](https://doc.qt.io/"
+"qtcreator/creator-project-generic.html)."
+msgstr ""
+
+#: ../../../integration/ide/qtcreator.rst:43
+msgid ""
+"Choose board ``ID`` using :ref:`cmd_boards` or `Embedded Boards Explorer "
+"<https://platformio.org/boards>`_ command and generate project via :option:"
+"`pio project init --ide` command:"
+msgstr ""
+
+#: ../../../integration/ide/qtcreator.rst:53
+msgid "Then:"
+msgstr ""
+
+#: ../../../integration/ide/qtcreator.rst:55
+msgid ""
+"Import project via ``File > Open File or Project`` and select ``platformio."
+"creator`` from the folder where is located :ref:`projectconf`"
+msgstr ""
+
+#: ../../../integration/ide/qtcreator.rst:57
+msgid ""
+"Switch to ``Edit`` mode (left panel) and open source file from ``src`` "
+"directory (``*.c, *.cpp, *.ino, etc.``)"
+msgstr ""
+
+#: ../../../integration/ide/qtcreator.rst:59
+msgid "Build project: ``Menu: Build > Build All``."
+msgstr ""
+
+#: ../../../integration/ide/qtcreator.rst:62
+msgid ""
+"The libraries which are added, installed or used in the project after "
+"generating process won't be reflected in IDE. To fix it you need to "
+"reinitialize project using :ref:`cmd_project_init` (repeat it)."
+msgstr ""

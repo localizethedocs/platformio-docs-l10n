@@ -1,0 +1,207 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present, PlatformIO
+# This file is distributed under the same license as the PlatformIO package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PlatformIO latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-24 14:02+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../projectconf/interpolation.rst:15
+msgid "Interpolation of Values"
+msgstr ""
+
+#: ../../../projectconf/interpolation.rst:17
+msgid ""
+"In addition to its core functionality, PlatformIO introduces support for "
+"interpolation, allowing values to incorporate format strings that reference "
+"other values from different sections."
+msgstr ""
+
+#: ../../../projectconf/interpolation.rst:21
+msgid "The interpolation feature adheres to the following syntax:"
+msgstr ""
+
+#: ../../../projectconf/interpolation.rst:23
+msgid ""
+"``${<variable>}``, where ``<variable>`` represents the name of a supported "
+"built-in variable (refer to the table below for details)."
+msgstr ""
+
+#: ../../../projectconf/interpolation.rst:25
+msgid ""
+"``${<section>.<option>}``, with ``<section>`` denoting a value from the "
+"``[<section>]`` group, and ``<option>`` representing the first item in the "
+"pair ``<option> = value``."
+msgstr ""
+
+#: ../../../projectconf/interpolation.rst:32
+msgid "Syntax"
+msgstr ""
+
+#: ../../../projectconf/interpolation.rst:33
+msgid "Meaning"
+msgstr ""
+
+#: ../../../projectconf/interpolation.rst:34
+msgid "Example"
+msgstr ""
+
+#: ../../../projectconf/interpolation.rst:36
+msgid "``${<variable>}``"
+msgstr ""
+
+#: ../../../projectconf/interpolation.rst:37
+msgid ""
+"Incorporate built-in variables using their designated names. The following "
+"variables are supported:"
+msgstr ""
+
+#: ../../../projectconf/interpolation.rst:40
+msgid "``PROJECT_DIR`` - represents the current project directory"
+msgstr ""
+
+#: ../../../projectconf/interpolation.rst:41
+msgid "``PROJECT_HASH`` - corresponds to the hash of the project path"
+msgstr ""
+
+#: ../../../projectconf/interpolation.rst:42
+msgid ""
+"``UNIX_TIME`` - indicates the current  `Unix time <https://en.wikipedia.org/"
+"wiki/Unix_time>`__, represented by 10 digits"
+msgstr ""
+
+#: ../../../projectconf/interpolation.rst:45
+msgid ""
+"``/tmp/pio-workspaces/${PROJECT_HASH}`` refers to the new directory ``/tmp/"
+"pio-workspaces/project_name-8f66e9463d/``"
+msgstr ""
+
+#: ../../../projectconf/interpolation.rst:47
+msgid "``${sysenv.<name>}``"
+msgstr ""
+
+#: ../../../projectconf/interpolation.rst:48
+msgid "Embed operating system environment variable by a name"
+msgstr ""
+
+#: ../../../projectconf/interpolation.rst:49
+msgid "``${sysenv.HOME}`` refers to the user home directory on Unix machine"
+msgstr ""
+
+#: ../../../projectconf/interpolation.rst:51
+msgid "``${platformio.<option>}``"
+msgstr ""
+
+#: ../../../projectconf/interpolation.rst:52
+msgid "Embed value from :ref:`projectconf_section_platformio`"
+msgstr ""
+
+#: ../../../projectconf/interpolation.rst:53
+msgid ""
+"``${platformio.packages_dir}`` refers to the path of :ref:"
+"`projectconf_pio_packages_dir`"
+msgstr ""
+
+#: ../../../projectconf/interpolation.rst:55
+msgid "``${env.<option>}``"
+msgstr ""
+
+#: ../../../projectconf/interpolation.rst:56
+msgid "Embed default value from :ref:`projectconf_section_env`"
+msgstr ""
+
+#: ../../../projectconf/interpolation.rst:57
+msgid "``${env.debug_build_flags}`` refers to the default debugging flags"
+msgstr ""
+
+#: ../../../projectconf/interpolation.rst:59
+msgid "``${<section>.<option>}``"
+msgstr ""
+
+#: ../../../projectconf/interpolation.rst:60
+msgid "Embed value from another section."
+msgstr ""
+
+#: ../../../projectconf/interpolation.rst:61
+msgid ""
+"``${extra.lib_deps}`` embeds library dependencies declared in the section "
+"named ``extra``"
+msgstr ""
+
+#: ../../../projectconf/interpolation.rst:63
+msgid "``${this.<option>}``"
+msgstr ""
+
+#: ../../../projectconf/interpolation.rst:64
+msgid "Embed value from the current section without declaring a section name"
+msgstr ""
+
+#: ../../../projectconf/interpolation.rst:65
+msgid "``${this.board}`` refers to the \"board\" value of the current section"
+msgstr ""
+
+#: ../../../projectconf/interpolation.rst:67
+msgid "``${this.__env__}``"
+msgstr ""
+
+#: ../../../projectconf/interpolation.rst:68
+msgid ""
+"Embed environment name of the current section. The section must start with "
+"``env:`` prefix"
+msgstr ""
+
+#: ../../../projectconf/interpolation.rst:69
+msgid ""
+"``${this.__env__}`` will embed \"foo\" value being declared in the \"env:"
+"foo\" section"
+msgstr ""
+
+#: ../../../projectconf/interpolation.rst:71
+msgid "Interpolation can span multiple levels"
+msgstr ""
+
+#: ../../../projectconf/interpolation.rst:72
+msgid "Interpolation can be applied only for the option's value"
+msgstr ""
+
+#: ../../../projectconf/interpolation.rst:73
+msgid "Multiple interpolations are allowed"
+msgstr ""
+
+#: ../../../projectconf/interpolation.rst:74
+msgid ""
+"The :ref:`projectconf_section_platformio` and :ref:`projectconf_section_env` "
+"sections are reserved and could not be used as a custom section. Some good "
+"section names might be ``extra`` or ``custom``."
+msgstr ""
+
+#: ../../../projectconf/interpolation.rst:79
+msgid ""
+"If you need to **share common configuration options** between build "
+"environments, please take a look at **\"Global scope\"** in :ref:"
+"`projectconf_section_env` or :ref:`projectconf_env_extends` option which "
+"allows extending of other sections."
+msgstr ""
+
+#: ../../../projectconf/interpolation.rst:84
+msgid "**Example:**"
+msgstr ""
+
+#: ../../../projectconf/interpolation.rst:144
+msgid ""
+"Be careful with special characters in system environment variables on Unix "
+"systems, especially when they are used as the value for preprocessor "
+"directives. Symbols like ``$``, ``&``, ``~``, etc must be explicitly "
+"escaped, for example:"
+msgstr ""

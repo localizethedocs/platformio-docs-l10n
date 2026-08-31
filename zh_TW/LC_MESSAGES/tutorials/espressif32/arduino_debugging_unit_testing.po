@@ -1,0 +1,465 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present, PlatformIO
+# This file is distributed under the same license as the PlatformIO package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PlatformIO latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-24 14:02+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../tutorials/espressif32/arduino_debugging_unit_testing.rst:15
+msgid "Get started with Arduino and ESP32-DevKitC: debugging and unit testing"
+msgstr ""
+
+#: ../../../tutorials/espressif32/arduino_debugging_unit_testing.rst:17
+msgid ""
+"The goal of this tutorial is to demonstrate how simple it is to use :ref:"
+"`ide_vscode` to develop, run and debug a simple project with the :ref:"
+"`framework_arduino` framework for the ``ESP32-DevKitC`` board."
+msgstr ""
+
+#: ../../../tutorials/espressif32/arduino_debugging_unit_testing.rst:19
+msgid "**Level:** Beginner"
+msgstr ""
+
+#: ../../../tutorials/espressif32/arduino_debugging_unit_testing.rst:20
+msgid "**Platforms:** Windows, Mac OS X, Linux"
+msgstr ""
+
+#: ../../../tutorials/espressif32/arduino_debugging_unit_testing.rst:22
+msgid "**Requirements:**"
+msgstr ""
+
+#: ../../../tutorials/espressif32/arduino_debugging_unit_testing.rst:23
+msgid "Downloaded and installed :ref:`ide_vscode`"
+msgstr ""
+
+#: ../../../tutorials/espressif32/arduino_debugging_unit_testing.rst:24
+msgid ":ref:`board_espressif32_esp32dev`"
+msgstr ""
+
+#: ../../../tutorials/espressif32/arduino_debugging_unit_testing.rst:25
+msgid ""
+":ref:`debugging_tool_olimex-arm-usb-ocd` or :ref:`debugging_tool_olimex-jtag-"
+"tiny` adapter for debugging"
+msgstr ""
+
+#: ../../../tutorials/espressif32/arduino_debugging_unit_testing.rst:29
+msgid "Contents"
+msgstr ""
+
+#: ../../../tutorials/espressif32/arduino_debugging_unit_testing.rst:32
+msgid "Setting Up the Project"
+msgstr ""
+
+#: ../../../tutorials/espressif32/arduino_debugging_unit_testing.rst:34
+msgid ""
+"First, we need to create a new project using the PlatformIO Home Page (to "
+"open this page, just press the Home icon on the toolbar):"
+msgstr ""
+
+#: ../../../tutorials/espressif32/arduino_debugging_unit_testing.rst:38
+msgid ""
+"Next, we need to select ``Espressif ESP32 Dev Module`` as a development "
+"board, :ref:`framework_arduino` as a framework and a path to the project "
+"location (or use the default one):"
+msgstr ""
+
+#: ../../../tutorials/espressif32/arduino_debugging_unit_testing.rst:42
+msgid ""
+"Processing the selected project may take some time (PlatformIO will download "
+"and install all required packages). After that, we have a fully configured "
+"project that is ready for developing code with the :ref:`framework_arduino` "
+"framework."
+msgstr ""
+
+#: ../../../tutorials/espressif32/arduino_debugging_unit_testing.rst:46
+msgid "Adding Code to the Generated Project"
+msgstr ""
+
+#: ../../../tutorials/espressif32/arduino_debugging_unit_testing.rst:48
+msgid ""
+"Let's add some actual code to the project. Firstly, we open a default main "
+"file named ``main.cpp`` in the :ref:`projectconf_pio_src_dir` folder and "
+"replace its content with following:"
+msgstr ""
+
+#: ../../../tutorials/espressif32/arduino_debugging_unit_testing.rst:67
+msgid "We have now created a basic project ready for compiling and uploading."
+msgstr ""
+
+#: ../../../tutorials/espressif32/arduino_debugging_unit_testing.rst:70
+msgid "Compiling and Uploading the Firmware"
+msgstr ""
+
+#: ../../../tutorials/espressif32/arduino_debugging_unit_testing.rst:72
+msgid ""
+"Now we can build the project. There are several ways to compile firmware:"
+msgstr ""
+
+#: ../../../tutorials/espressif32/arduino_debugging_unit_testing.rst:74
+msgid "Build option in the ``Project Tasks`` menu,"
+msgstr ""
+
+#: ../../../tutorials/espressif32/arduino_debugging_unit_testing.rst:75
+msgid "Build button in :ref:`ide_vscode_toolbar`,"
+msgstr ""
+
+#: ../../../tutorials/espressif32/arduino_debugging_unit_testing.rst:76
+msgid ""
+"Task Menu: ``Tasks: Run Task... > PlatformIO: Build``, or in the :ref:"
+"`ide_vscode_toolbar`,"
+msgstr ""
+
+#: ../../../tutorials/espressif32/arduino_debugging_unit_testing.rst:77
+msgid "Command Palette: ``View: Command Palette > PlatformIO: Build``, or"
+msgstr ""
+
+#: ../../../tutorials/espressif32/arduino_debugging_unit_testing.rst:78
+msgid "via hotkeys ``cmd-alt-b / ctrl-alt-b``"
+msgstr ""
+
+#: ../../../tutorials/espressif32/arduino_debugging_unit_testing.rst:80
+msgid "Marked in red:"
+msgstr ""
+
+#: ../../../tutorials/espressif32/arduino_debugging_unit_testing.rst:84
+msgid ""
+"If everything went well, we should see a Success message in the terminal "
+"window:"
+msgstr ""
+
+#: ../../../tutorials/espressif32/arduino_debugging_unit_testing.rst:88
+msgid "There are also several ways to upload the firmware to the board:"
+msgstr ""
+
+#: ../../../tutorials/espressif32/arduino_debugging_unit_testing.rst:90
+msgid "Upload option in the ``Project Tasks`` menu,"
+msgstr ""
+
+#: ../../../tutorials/espressif32/arduino_debugging_unit_testing.rst:91
+msgid "Upload button in :ref:`ide_vscode_toolbar`,"
+msgstr ""
+
+#: ../../../tutorials/espressif32/arduino_debugging_unit_testing.rst:92
+msgid "Command Palette: ``View: Command Palette > PlatformIO: Upload``,"
+msgstr ""
+
+#: ../../../tutorials/espressif32/arduino_debugging_unit_testing.rst:93
+msgid "using the Task Menu: ``Tasks: Run Task... > PlatformIO: Upload``, or"
+msgstr ""
+
+#: ../../../tutorials/espressif32/arduino_debugging_unit_testing.rst:94
+msgid "via hotkeys: ``cmd-alt-u / ctrl-alt-u``:"
+msgstr ""
+
+#: ../../../tutorials/espressif32/arduino_debugging_unit_testing.rst:98
+msgid ""
+"After uploading, we need to check if the firmware is uploaded correctly. To "
+"do this, open the serial monitor and check that the message from the board "
+"is received. To open the serial monitor, we can use the following options:"
+msgstr ""
+
+#: ../../../tutorials/espressif32/arduino_debugging_unit_testing.rst:100
+msgid "Monitor option in the ``Project Tasks`` menu,"
+msgstr ""
+
+#: ../../../tutorials/espressif32/arduino_debugging_unit_testing.rst:101
+msgid "Serial Monitor button in the :ref:`ide_vscode_toolbar`,"
+msgstr ""
+
+#: ../../../tutorials/espressif32/arduino_debugging_unit_testing.rst:102
+msgid "Command Palette: ``View: Command Palette > PlatformIO: Monitor``, or"
+msgstr ""
+
+#: ../../../tutorials/espressif32/arduino_debugging_unit_testing.rst:103
+msgid "Task Menu: ``Tasks: Run Task... > PlatformIO: Monitor``:"
+msgstr ""
+
+#: ../../../tutorials/espressif32/arduino_debugging_unit_testing.rst:107
+msgid ""
+"If the firmware works as expected, the message from the board can be "
+"observed in the terminal window:"
+msgstr ""
+
+#: ../../../tutorials/espressif32/arduino_debugging_unit_testing.rst:112
+msgid "Debugging the Firmware"
+msgstr ""
+
+#: ../../../tutorials/espressif32/arduino_debugging_unit_testing.rst:115
+msgid "Setting Up the Hardware"
+msgstr ""
+
+#: ../../../tutorials/espressif32/arduino_debugging_unit_testing.rst:117
+msgid ""
+"In order to use a JTAG probe with an ESP32, we need to connect the following "
+"pins:"
+msgstr ""
+
+#: ../../../tutorials/espressif32/arduino_debugging_unit_testing.rst:122
+msgid "ESP32 pin"
+msgstr ""
+
+#: ../../../tutorials/espressif32/arduino_debugging_unit_testing.rst:123
+msgid "JTAG probe pin"
+msgstr ""
+
+#: ../../../tutorials/espressif32/arduino_debugging_unit_testing.rst:125
+msgid "``3.3V``"
+msgstr ""
+
+#: ../../../tutorials/espressif32/arduino_debugging_unit_testing.rst:126
+msgid "``Pin 1(VTref)``"
+msgstr ""
+
+#: ../../../tutorials/espressif32/arduino_debugging_unit_testing.rst:128
+msgid "``GPIO 9 (EN)``"
+msgstr ""
+
+#: ../../../tutorials/espressif32/arduino_debugging_unit_testing.rst:129
+msgid "``Pin 3 (nTRST)``"
+msgstr ""
+
+#: ../../../tutorials/espressif32/arduino_debugging_unit_testing.rst:131
+msgid "``GND``"
+msgstr ""
+
+#: ../../../tutorials/espressif32/arduino_debugging_unit_testing.rst:132
+msgid "``Pin 4 (GND)``"
+msgstr ""
+
+#: ../../../tutorials/espressif32/arduino_debugging_unit_testing.rst:134
+msgid "``GPIO 12 (TDI)``"
+msgstr ""
+
+#: ../../../tutorials/espressif32/arduino_debugging_unit_testing.rst:135
+msgid "``Pin 5 (TDI)``"
+msgstr ""
+
+#: ../../../tutorials/espressif32/arduino_debugging_unit_testing.rst:137
+msgid "``GPIO 14 (TMS)``"
+msgstr ""
+
+#: ../../../tutorials/espressif32/arduino_debugging_unit_testing.rst:138
+msgid "``Pin 7 (TMS)``"
+msgstr ""
+
+#: ../../../tutorials/espressif32/arduino_debugging_unit_testing.rst:140
+msgid "``GPIO 13 (TCK)``"
+msgstr ""
+
+#: ../../../tutorials/espressif32/arduino_debugging_unit_testing.rst:141
+msgid "``Pin 9 (TCK)``"
+msgstr ""
+
+#: ../../../tutorials/espressif32/arduino_debugging_unit_testing.rst:143
+msgid "``GPIO 15 (TDO)``"
+msgstr ""
+
+#: ../../../tutorials/espressif32/arduino_debugging_unit_testing.rst:144
+msgid "``Pin 13 (TDO)``"
+msgstr ""
+
+#: ../../../tutorials/espressif32/arduino_debugging_unit_testing.rst:146
+msgid ""
+":ref:`piodebug` offers the easiest way to debug the board. Firstly, we need "
+"to specify :ref:`projectconf_debug_tool` in :ref:`projectconf`. In this "
+"tutorial, an :ref:`debugging_tool_olimex-arm-usb-ocd-h` debug probe is used:"
+msgstr ""
+
+#: ../../../tutorials/espressif32/arduino_debugging_unit_testing.rst:156
+msgid "To start the debug session we can use the following methods:"
+msgstr ""
+
+#: ../../../tutorials/espressif32/arduino_debugging_unit_testing.rst:158
+msgid "``Debug: Start debugging`` in the top menu,"
+msgstr ""
+
+#: ../../../tutorials/espressif32/arduino_debugging_unit_testing.rst:159
+msgid "``Start Debugging`` option in the Quick Access menu, or"
+msgstr ""
+
+#: ../../../tutorials/espressif32/arduino_debugging_unit_testing.rst:160
+msgid "hotkey button ``F5``:"
+msgstr ""
+
+#: ../../../tutorials/espressif32/arduino_debugging_unit_testing.rst:164
+msgid ""
+"We need to wait some time while PlatformIO initializes the debug session, "
+"and are ready to debug when the first line after the main function is "
+"highlighted."
+msgstr ""
+
+#: ../../../tutorials/espressif32/arduino_debugging_unit_testing.rst:167
+msgid ""
+"Please wait when debugging session is stopped at the first line of "
+"``app_main()`` function"
+msgstr ""
+
+#: ../../../tutorials/espressif32/arduino_debugging_unit_testing.rst:168
+msgid ""
+"**WARNING!** Please set a breakpoint at ``void loopTask(void "
+"*pvParameters)`` (line 13 in the screenshot below - this line can change "
+"between releases)"
+msgstr ""
+
+#: ../../../tutorials/espressif32/arduino_debugging_unit_testing.rst:169
+msgid ""
+"Now, please press CONTINUE/RUN button on debugging toolbar (right arrow icon)"
+msgstr ""
+
+#: ../../../tutorials/espressif32/arduino_debugging_unit_testing.rst:170
+msgid ""
+"The debugging session should stop at the first line of the ``void "
+"loopTask(void *pvParameters)`` function"
+msgstr ""
+
+#: ../../../tutorials/espressif32/arduino_debugging_unit_testing.rst:171
+msgid "Now, navigate to your Arduino setup/loop code and do classic debugging."
+msgstr ""
+
+#: ../../../tutorials/espressif32/arduino_debugging_unit_testing.rst:175
+msgid ""
+"We can walk through the code using control buttons, set breakpoints, and add "
+"variables to the ``Watch window``:"
+msgstr ""
+
+#: ../../../tutorials/espressif32/arduino_debugging_unit_testing.rst:180
+msgid "Writing Unit Tests"
+msgstr ""
+
+#: ../../../tutorials/espressif32/arduino_debugging_unit_testing.rst:182
+msgid ""
+":ref:`unit_testing` test cases can be added to a single file that may "
+"include multiple tests. First of all, in this file, we need to add four "
+"default functions: ``setUp``, ``tearDown``, ``setup`` and ``loop``. "
+"Functions ``setUp`` and ``tearDown`` are used to initialize and finalize "
+"test conditions. Implementations of these functions are not required for "
+"running tests, but if you need to initialize some variables before you run a "
+"test, use the ``setUp`` function. Likewise, if you need to clean up "
+"variables, use ``tearDown`` function. In our example we will use these "
+"functions to respectively initialize and deinitialize LED states. The "
+"``setup`` and ``loop`` functions act as a simple Arduino program where we "
+"describe our test plan."
+msgstr ""
+
+#: ../../../tutorials/espressif32/arduino_debugging_unit_testing.rst:193
+msgid ""
+"Let's create a ``test`` folder in the root of the project and add a new "
+"file, ``test_main.cpp``, to this folder. Next, basic tests for ``String`` "
+"class will be implemented in this file:"
+msgstr ""
+
+#: ../../../tutorials/espressif32/arduino_debugging_unit_testing.rst:195
+msgid "``test_string_concat`` tests the concatenation of two strings"
+msgstr ""
+
+#: ../../../tutorials/espressif32/arduino_debugging_unit_testing.rst:196
+msgid ""
+"``test_string_substring`` tests the correctness of the substring extraction"
+msgstr ""
+
+#: ../../../tutorials/espressif32/arduino_debugging_unit_testing.rst:197
+msgid ""
+"``test_string_index_of`` ensures that the string returns the correct index "
+"of the specified symbol"
+msgstr ""
+
+#: ../../../tutorials/espressif32/arduino_debugging_unit_testing.rst:198
+msgid ""
+"``test_string_equal_ignore_case`` tests case-insensitive comparison of two "
+"strings"
+msgstr ""
+
+#: ../../../tutorials/espressif32/arduino_debugging_unit_testing.rst:199
+msgid ""
+"``test_string_to_upper_case`` tests conversion of the string to upper-case"
+msgstr ""
+
+#: ../../../tutorials/espressif32/arduino_debugging_unit_testing.rst:200
+msgid ""
+"``test_string_replace`` tests the correctness of the replacing operation"
+msgstr ""
+
+#: ../../../tutorials/espressif32/arduino_debugging_unit_testing.rst:267
+msgid ""
+"Now we are ready to upload tests to the board. To do this we can use the "
+"following:"
+msgstr ""
+
+#: ../../../tutorials/espressif32/arduino_debugging_unit_testing.rst:269
+msgid "Test button on :ref:`ide_vscode_toolbar`,"
+msgstr ""
+
+#: ../../../tutorials/espressif32/arduino_debugging_unit_testing.rst:270
+msgid "Test option in the ``Project Tasks`` menu, or"
+msgstr ""
+
+#: ../../../tutorials/espressif32/arduino_debugging_unit_testing.rst:271
+msgid "``Tasks: Run Task... > PlatformIO Test`` in the top menu:"
+msgstr ""
+
+#: ../../../tutorials/espressif32/arduino_debugging_unit_testing.rst:275
+msgid ""
+"After processing, we should see a detailed report about the testing results:"
+msgstr ""
+
+#: ../../../tutorials/espressif32/arduino_debugging_unit_testing.rst:279
+msgid "As we can see from the report, all our tests were successful!"
+msgstr ""
+
+#: ../../../tutorials/espressif32/arduino_debugging_unit_testing.rst:282
+msgid "Adding Bluetooth LE features"
+msgstr ""
+
+#: ../../../tutorials/espressif32/arduino_debugging_unit_testing.rst:284
+msgid ""
+"Now let's create a basic application that can interact with other BLE "
+"devices (e.g phones). For example, the following code declares a BLE "
+"characteristic whose value can be printed to the serial port:"
+msgstr ""
+
+#: ../../../tutorials/espressif32/arduino_debugging_unit_testing.rst:334
+msgid ""
+"Now we can compile and upload this program to the board as described in the "
+"previous sections. To verify that our application works as expected, we can "
+"use any Android smartphone with the BLE feature and `Nordic nRF Connect tool "
+"<https://play.google.com/store/apps/details?id=no.nordicsemi.android."
+"mcp&hl=en>`_."
+msgstr ""
+
+#: ../../../tutorials/espressif32/arduino_debugging_unit_testing.rst:338
+msgid ""
+"At first, we need to scan all advertising BLE devices and connect to the "
+"device called ``ESP32 BLE example``. After successful connection to the "
+"board, we should see one \"Unknown Service\" with one \"Unknown "
+"Characteristic\" field:"
+msgstr ""
+
+#: ../../../tutorials/espressif32/arduino_debugging_unit_testing.rst:343
+msgid "To set the value, we need to send new text to the BLE characteristic:"
+msgstr ""
+
+#: ../../../tutorials/espressif32/arduino_debugging_unit_testing.rst:347
+msgid "The change of the value is printed to the serial monitor:"
+msgstr ""
+
+#: ../../../tutorials/espressif32/arduino_debugging_unit_testing.rst:352
+msgid "Conclusion"
+msgstr ""
+
+#: ../../../tutorials/espressif32/arduino_debugging_unit_testing.rst:354
+msgid ""
+"Now we have a project template for the ``ESP32-DevKitC`` board that we can "
+"use as boilerplate for later projects."
+msgstr ""
