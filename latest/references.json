@@ -37,9 +37,9 @@
     "branch" : "develop",
     "commit" : 
     {
-      "date" : "2026-07-08 14:50:43 +0300",
-      "hash" : "a0efc7f48566c967333d505086973354b60a35a0",
-      "title" : "Bump version to 6.2.0a3"
+      "date" : "2026-08-28 18:19:05 +0300",
+      "hash" : "57e36b6060586f74c07d6fde3a0cebc63b15f38e",
+      "title" : "Handle user typo when `owner` is declared in the `name` field"
     }
   },
   "type" : "branch",
