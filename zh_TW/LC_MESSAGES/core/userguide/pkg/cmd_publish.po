@@ -1,0 +1,135 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present, PlatformIO
+# This file is distributed under the same license as the PlatformIO package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PlatformIO stable\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-24 14:03+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../core/userguide/pkg/cmd_publish.rst:15
+msgid "pio pkg publish"
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_publish.rst:17
+msgid "Contents"
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_publish.rst:20
+msgid "Usage"
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_publish.rst:28
+msgid "Description"
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_publish.rst:30
+msgid ""
+"Publish a package to the `PlatformIO Registry <https://registry.platformio."
+"org/>`__ so that it can be installed by name. All files in the package "
+"directory are included if ``export`` field is not declared in a package "
+"manifest (for example, see :ref:`manifest_library_json_export`). The `next "
+"items <https://github.com/platformio/platformio-core/blob/develop/platformio/"
+"package/pack.py>`__ are automatically excluded."
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_publish.rst:36
+msgid ""
+"Please check which files will be included in the final package using the :"
+"ref:`cmd_pkg_pack` command."
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_publish.rst:39
+msgid ""
+"Once a package is published with a given name and version, that specific "
+"name and version combination can never be used again, even if it is removed "
+"with the :ref:`cmd_pkg_unpublish` command."
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_publish.rst:43
+msgid ""
+"If no arguments are supplied, then PlatformIO packs the current package "
+"folder."
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_publish.rst:45
+msgid ""
+"To list published packages, please use the :ref:`cmd_access_list` command."
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_publish.rst:48
+msgid "Options"
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_publish.rst:55
+msgid ""
+":ref:`pioaccount` username (can be organization username). The default is "
+"set to a username of the authorized :ref:`pioaccount`."
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_publish.rst:61
+msgid "Set a custom package type. See supported :ref:`cmd_pkg_install_types`."
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_publish.rst:66
+msgid ""
+"Custom release date and time in the next format (UTC): 2014-06-13 17:08:52"
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_publish.rst:68
+msgid ""
+"The permission to set custom release dates and times is only available in "
+"the `Enterprises <https://registry.platformio.org/pricing>`__ plan."
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_publish.rst:73
+msgid ""
+"Restrict access to a package (will not be available publicly). The default "
+"is to publish a package publicly."
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_publish.rst:76
+msgid ""
+"Please check `PlatformIO Registry Plans <https://registry.platformio.org/"
+"pricing>`__ where private packages are allowed."
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_publish.rst:81
+msgid ""
+"Do not notify by email when a package is processed. The default behavior is "
+"to notify."
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_publish.rst:86
+msgid "Do not show an interactive prompt."
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_publish.rst:89
+msgid "See Also"
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_publish.rst:91
+msgid ":ref:`library_json`"
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_publish.rst:92
+msgid ":ref:`cmd_pkg_pack`"
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_publish.rst:93
+msgid ":ref:`cmd_access_list`"
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_publish.rst:94
+msgid ":ref:`cmd_pkg_unpublish`"
+msgstr ""

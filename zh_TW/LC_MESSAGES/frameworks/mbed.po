@@ -1,0 +1,1754 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present, PlatformIO
+# This file is distributed under the same license as the PlatformIO package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PlatformIO stable\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-24 14:03+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../frameworks/mbed.rst:15
+msgid "Mbed"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:0 ../../../frameworks/mbed_extra.rst:13
+msgid "Configuration"
+msgstr "組態"
+
+#: ../../../frameworks/mbed.rst:18
+msgid ":ref:`projectconf_env_framework` = ``mbed``"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:20
+msgid ""
+"Arm Mbed OS is a platform operating system designed for the internet of "
+"things"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:23
+msgid "Contents"
+msgstr ""
+
+#: ../../../frameworks/mbed_extra.rst:20
+msgid "Configuration system"
+msgstr ""
+
+#: ../../../frameworks/mbed_extra.rst:24
+msgid ""
+"In Mbed OS 6 the list of supported boards was heavily reduced, only "
+"officially supported and well maintained targets left. More information in "
+"`the official explanation <https://os.mbed.com/blog/entry/Increase-the-"
+"quality-of-platform-support/>`_."
+msgstr ""
+
+#: ../../../frameworks/mbed_extra.rst:28
+msgid ""
+"PlatformIO allows you to customize Mbed OS compile time configuration "
+"parameters using ``mbed_app.json`` manifest. It should be placed into the "
+"root of your project and located on the same level as :ref:`projectconf`."
+msgstr ""
+
+#: ../../../frameworks/mbed_extra.rst:32
+msgid ""
+"Configuration is defined using `JSON <https://en.wikipedia.org/wiki/JSON>`_. "
+"Some examples of configuration parameters:"
+msgstr ""
+
+#: ../../../frameworks/mbed_extra.rst:35
+msgid "The sampling period for a data acquisition application."
+msgstr ""
+
+#: ../../../frameworks/mbed_extra.rst:36
+msgid "The default stack size for a newly created OS thread."
+msgstr ""
+
+#: ../../../frameworks/mbed_extra.rst:37
+msgid "The receive buffer size of a serial communication library."
+msgstr ""
+
+#: ../../../frameworks/mbed_extra.rst:38
+msgid "The flash and RAM memory size of a target board."
+msgstr ""
+
+#: ../../../frameworks/mbed_extra.rst:40
+msgid ""
+"See more details in the official `ARM Mbed OS Configuration System <https://"
+"os.mbed.com/docs/mbed-os/v6.16/program-setup/advanced-configuration.html>`_."
+msgstr ""
+
+#: ../../../frameworks/mbed_extra.rst:42
+msgid ""
+"A few PlatformIO-ready projects based on ARM Mbed OS which use ``mbed_app."
+"json``:"
+msgstr ""
+
+#: ../../../frameworks/mbed_extra.rst:44
+msgid ""
+"`Freescale Kinetis: mbed-rtos-kvstore <https://github.com/platformio/"
+"platform-freescalekinetis/tree/develop/examples/mbed-rtos-kvstore>`_"
+msgstr ""
+
+#: ../../../frameworks/mbed_extra.rst:45
+msgid ""
+"`ST STM32: mbed-rtos-mesh-minimal <https://github.com/platformio/platform-"
+"ststm32/tree/develop/examples/mbed-rtos-mesh-minimal>`_"
+msgstr ""
+
+#: ../../../frameworks/mbed_extra.rst:49
+msgid ""
+"On Windows the maximum length for a path (file name and directory route, "
+"also known as ``MAX_PATH``) — has been defined by 260 characters which can "
+"lead to compilation error for some targets. It's possible to shorten these "
+"paths is to install packages in root of any logical disk by specifying :ref:"
+"`projectconf_pio_core_dir`."
+msgstr ""
+
+#: ../../../frameworks/mbed_extra.rst:55
+msgid "Using Bare Metal profile"
+msgstr ""
+
+#: ../../../frameworks/mbed_extra.rst:57
+msgid ""
+"The bare metal profile implements a subset of Mbed OS's RTOS APIs that are "
+"useful in non-threaded applications, such as semaphores (calling the release "
+"API from interrupts) and tickers (to set up a recurring interrupt). It does "
+"not include an RTX, and is therefore suitable for applications that do not "
+"require complex thread management. Instead of the RTOS's scheduler, all "
+"activities are polled or interrupt-driven."
+msgstr ""
+
+#: ../../../frameworks/mbed_extra.rst:63
+msgid "Useful links:"
+msgstr ""
+
+#: ../../../frameworks/mbed_extra.rst:65
+msgid ""
+"`Detailed description of bare metal profile <https://os.mbed.com/docs/mbed-"
+"os/v6.2/bare-metal/index.html>`_"
+msgstr ""
+
+#: ../../../frameworks/mbed_extra.rst:66
+msgid ""
+"`Porting a target from Mbed OS 2 to Mbed OS 6 bare metal <https://os.mbed."
+"com/docs/mbed-os/v6.2/bare-metal/porting-a-target-from-mbed-os-2-to-mbed-"
+"os-6-bare-metal.html>`_"
+msgstr ""
+
+#: ../../../frameworks/mbed_extra.rst:69
+msgid "Build profiles"
+msgstr ""
+
+#: ../../../frameworks/mbed_extra.rst:71
+msgid ""
+"By default, PlatformIO builds your project using ``develop profile`` which "
+"provides optimized firmware size with full error information and allows MCU "
+"to go to sleep mode. In the case when default build profile is not suitable "
+"for your project there two other profiles ``release`` and ``debug`` that can "
+"be enabled using special macro definitions. You can change build profile :"
+"ref:`projectconf_build_flags` of :ref:`projectconf`:"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:32 ../../../frameworks/mbed.rst:103
+#: ../../../frameworks/mbed.rst:530 ../../../frameworks/mbed.rst:611
+#: ../../../frameworks/mbed.rst:688 ../../../frameworks/mbed.rst:709
+#: ../../../frameworks/mbed.rst:730 ../../../frameworks/mbed.rst:793
+#: ../../../frameworks/mbed.rst:814 ../../../frameworks/mbed.rst:842
+#: ../../../frameworks/mbed.rst:884 ../../../frameworks/mbed.rst:912
+#: ../../../frameworks/mbed.rst:933 ../../../frameworks/mbed.rst:961
+#: ../../../frameworks/mbed.rst:1269 ../../../frameworks/mbed.rst:1304
+#: ../../../frameworks/mbed.rst:1325 ../../../frameworks/mbed.rst:1360
+#: ../../../frameworks/mbed.rst:1395 ../../../frameworks/mbed_extra.rst:80
+msgid "Name"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:33 ../../../frameworks/mbed_extra.rst:81
+msgid "Description"
+msgstr ""
+
+#: ../../../frameworks/mbed_extra.rst:83
+msgid "``MBED_BUILD_PROFILE_RELEASE``"
+msgstr ""
+
+#: ../../../frameworks/mbed_extra.rst:84
+msgid "Release profile (smallest firmware, minimal error info)"
+msgstr ""
+
+#: ../../../frameworks/mbed_extra.rst:86
+msgid "``MBED_BUILD_PROFILE_DEBUG``"
+msgstr ""
+
+#: ../../../frameworks/mbed_extra.rst:87
+msgid "Debug profile (largest firmware, disabled sleep mode)"
+msgstr ""
+
+#: ../../../frameworks/mbed_extra.rst:89
+msgid ""
+"More information about differences between build profiles can be found on "
+"the official page `ARM Mbed OS Build Profiles <https://os.mbed.com/docs/mbed-"
+"os/v6.16/program-setup/build-profiles-and-rules.html>`_."
+msgstr ""
+
+#: ../../../frameworks/mbed_extra.rst:93
+msgid "Ignoring particular components"
+msgstr ""
+
+#: ../../../frameworks/mbed_extra.rst:95
+msgid ""
+"In case you don't need all parts of the framework or you want to reduce the "
+"compilation time, you can explicitly exclude folders with redundant sources. "
+"For example, to remove ``cellular``, ``kvstore`` and ``nanostack`` features "
+"from the build process, navigate to the root of your project and create a "
+"new file ``.mbedignore`` with the following contents:"
+msgstr ""
+
+#: ../../../frameworks/mbed_extra.rst:108
+msgid "Custom Targets"
+msgstr ""
+
+#: ../../../frameworks/mbed_extra.rst:110
+msgid ""
+"In case when your board is not officially supported by :ref:`framework_mbed` "
+"you can manually add custom board definitions to your project. First of all, "
+"you need to create a special file ``custom_targets.json`` in the root folder "
+"of your project where you describe your board, for example here is the "
+"configuration for ``NUCLEO-F401RE`` board:"
+msgstr ""
+
+#: ../../../frameworks/mbed_extra.rst:153
+msgid ""
+"Secondly, you need to add code specific to your target to the ``src`` folder "
+"of your project. Usually, it's a good idea to isolate this code in a "
+"separate folder and add the path to this folder to :ref:"
+"`projectconf_build_flags` of :ref:`projectconf`:"
+msgstr ""
+
+#: ../../../frameworks/mbed_extra.rst:165
+msgid ""
+"Next, you need to inform PlatformIO that there is a new custom board. To do "
+"this, you can create ``boards`` directory in the root folder of your project "
+"and add a board manifest file with your board name, e.g. ``my_custom_board."
+"json`` as described here :ref:`board_creating`"
+msgstr ""
+
+#: ../../../frameworks/mbed_extra.rst:169
+msgid "After these steps, your project structure should look like this:"
+msgstr ""
+
+#: ../../../frameworks/mbed_extra.rst:185
+msgid ""
+"More information about adding custom targets can be found on the official "
+"page"
+msgstr ""
+
+#: ../../../frameworks/mbed_extra.rst:186
+msgid ""
+"`Adding and configuring targets <https://os.mbed.com/docs/mbed-os/v6.2/"
+"porting/porting-custom-boards.html>`_."
+msgstr ""
+
+#: ../../../frameworks/mbed_extra.rst:188
+msgid "See full examples with a custom board:"
+msgstr ""
+
+#: ../../../frameworks/mbed_extra.rst:190
+msgid ""
+"https://github.com/platformio/platform-ststm32/tree/develop/examples/mbed-"
+"rtos-custom-target"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:28
+msgid "Platforms"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:35 ../../../frameworks/mbed.rst:116
+#: ../../../frameworks/mbed.rst:122 ../../../frameworks/mbed.rst:128
+#: ../../../frameworks/mbed.rst:134 ../../../frameworks/mbed.rst:140
+#: ../../../frameworks/mbed.rst:146 ../../../frameworks/mbed.rst:152
+#: ../../../frameworks/mbed.rst:158 ../../../frameworks/mbed.rst:164
+#: ../../../frameworks/mbed.rst:537 ../../../frameworks/mbed.rst:619
+#: ../../../frameworks/mbed.rst:626 ../../../frameworks/mbed.rst:633
+#: ../../../frameworks/mbed.rst:640 ../../../frameworks/mbed.rst:647
+#: ../../../frameworks/mbed.rst:654 ../../../frameworks/mbed.rst:661
+#: ../../../frameworks/mbed.rst:668 ../../../frameworks/mbed.rst:675
+#: ../../../frameworks/mbed.rst:801
+msgid ":ref:`platform_freescalekinetis`"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:36
+msgid ""
+"Freescale Kinetis Microcontrollers is family of multiple hardware- and "
+"software-compatible ARM Cortex-M0+, Cortex-M4 and Cortex-M7-based MCU "
+"series. Kinetis MCUs offer exceptional low-power performance, scalability "
+"and feature integration."
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:38 ../../../frameworks/mbed.rst:182
+#: ../../../frameworks/mbed.rst:543 ../../../frameworks/mbed.rst:555
+#: ../../../frameworks/mbed.rst:561 ../../../frameworks/mbed.rst:738
+#: ../../../frameworks/mbed.rst:745 ../../../frameworks/mbed.rst:752
+#: ../../../frameworks/mbed.rst:759 ../../../frameworks/mbed.rst:766
+#: ../../../frameworks/mbed.rst:773 ../../../frameworks/mbed.rst:780
+#: ../../../frameworks/mbed.rst:1333 ../../../frameworks/mbed.rst:1340
+msgid ":ref:`platform_maxim32`"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:39
+msgid ""
+"Maxim's microcontrollers provide low-power, efficient, and secure solutions "
+"for challenging embedded applications. Maxim's processors embed cutting-edge "
+"technologies to secure data and intellectual property, proven analog "
+"circuitry for real-world applications, and battery-conserving low power "
+"operation."
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:41 ../../../frameworks/mbed.rst:212
+#: ../../../frameworks/mbed.rst:218 ../../../frameworks/mbed.rst:585
+#: ../../../frameworks/mbed.rst:892 ../../../frameworks/mbed.rst:899
+#: ../../../frameworks/mbed.rst:1347
+msgid ":ref:`platform_nordicnrf52`"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:42
+msgid ""
+"The nRF52 Series are built for speed to carry out increasingly complex tasks "
+"in the shortest possible time and return to sleep, conserving precious "
+"battery power. They have a Cortex-M4F processor which makes them quite "
+"capable Bluetooth Smart SoCs."
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:44 ../../../frameworks/mbed.rst:200
+#: ../../../frameworks/mbed.rst:864
+msgid ":ref:`platform_nxpimxrt`"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:45
+msgid ""
+"The i.MX RT series of crossover processors features the Arm Cortex-M core, "
+"real-time functionality and MCU usability at a cost-effective price."
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:47 ../../../frameworks/mbed.rst:188
+#: ../../../frameworks/mbed.rst:194 ../../../frameworks/mbed.rst:206
+#: ../../../frameworks/mbed.rst:500 ../../../frameworks/mbed.rst:850
+#: ../../../frameworks/mbed.rst:857 ../../../frameworks/mbed.rst:871
+#: ../../../frameworks/mbed.rst:1284
+msgid ":ref:`platform_nxplpc`"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:48
+msgid ""
+"The NXP LPC is a family of 32-bit microcontroller integrated circuits by NXP "
+"Semiconductors. The LPC chips are grouped into related series that are based "
+"around the same 32-bit ARM processor core, such as the Cortex-M4F, Cortex-"
+"M3, Cortex-M0+, or Cortex-M0. Internally, each microcontroller consists of "
+"the processor core, static RAM memory, flash memory, debugging interface, "
+"and various peripherals."
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:50 ../../../frameworks/mbed.rst:170
+#: ../../../frameworks/mbed.rst:717
+msgid ":ref:`platform_riscv_gap`"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:51
+msgid ""
+"GreenWaves GAP8 IoT application processor enables the cost-effective "
+"development, deployment and autonomous operation of intelligent sensing "
+"devices that capture, analyze, classify and act on the fusion of rich data "
+"sources such as images, sounds or vibrations."
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:53 ../../../frameworks/mbed.rst:110
+#: ../../../frameworks/mbed.rst:242 ../../../frameworks/mbed.rst:512
+#: ../../../frameworks/mbed.rst:1368 ../../../frameworks/mbed.rst:1375
+#: ../../../frameworks/mbed.rst:1382
+msgid ":ref:`platform_siliconlabsefm32`"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:54
+msgid ""
+"Silicon Labs EFM32 Gecko 32-bit microcontroller (MCU) family includes "
+"devices that offer flash memory configurations up to 256 kB, 32 kB of RAM "
+"and CPU speeds up to 48 MHz. Based on the powerful ARM Cortex-M core, the "
+"Gecko family features innovative low energy techniques, short wake-up time "
+"from energy saving modes and a wide selection of peripherals, making it "
+"ideal for battery operated applications and other systems requiring high "
+"performance and low-energy consumption."
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:56 ../../../frameworks/mbed.rst:176
+#: ../../../frameworks/mbed.rst:224 ../../../frameworks/mbed.rst:230
+#: ../../../frameworks/mbed.rst:236 ../../../frameworks/mbed.rst:248
+#: ../../../frameworks/mbed.rst:254 ../../../frameworks/mbed.rst:260
+#: ../../../frameworks/mbed.rst:266 ../../../frameworks/mbed.rst:272
+#: ../../../frameworks/mbed.rst:278 ../../../frameworks/mbed.rst:284
+#: ../../../frameworks/mbed.rst:290 ../../../frameworks/mbed.rst:296
+#: ../../../frameworks/mbed.rst:302 ../../../frameworks/mbed.rst:308
+#: ../../../frameworks/mbed.rst:314 ../../../frameworks/mbed.rst:320
+#: ../../../frameworks/mbed.rst:326 ../../../frameworks/mbed.rst:332
+#: ../../../frameworks/mbed.rst:338 ../../../frameworks/mbed.rst:344
+#: ../../../frameworks/mbed.rst:350 ../../../frameworks/mbed.rst:356
+#: ../../../frameworks/mbed.rst:362 ../../../frameworks/mbed.rst:368
+#: ../../../frameworks/mbed.rst:374 ../../../frameworks/mbed.rst:380
+#: ../../../frameworks/mbed.rst:386 ../../../frameworks/mbed.rst:392
+#: ../../../frameworks/mbed.rst:398 ../../../frameworks/mbed.rst:404
+#: ../../../frameworks/mbed.rst:410 ../../../frameworks/mbed.rst:416
+#: ../../../frameworks/mbed.rst:422 ../../../frameworks/mbed.rst:428
+#: ../../../frameworks/mbed.rst:434 ../../../frameworks/mbed.rst:440
+#: ../../../frameworks/mbed.rst:446 ../../../frameworks/mbed.rst:452
+#: ../../../frameworks/mbed.rst:458 ../../../frameworks/mbed.rst:464
+#: ../../../frameworks/mbed.rst:470 ../../../frameworks/mbed.rst:476
+#: ../../../frameworks/mbed.rst:482 ../../../frameworks/mbed.rst:488
+#: ../../../frameworks/mbed.rst:494 ../../../frameworks/mbed.rst:506
+#: ../../../frameworks/mbed.rst:549 ../../../frameworks/mbed.rst:567
+#: ../../../frameworks/mbed.rst:573 ../../../frameworks/mbed.rst:579
+#: ../../../frameworks/mbed.rst:591 ../../../frameworks/mbed.rst:696
+#: ../../../frameworks/mbed.rst:822 ../../../frameworks/mbed.rst:829
+#: ../../../frameworks/mbed.rst:920 ../../../frameworks/mbed.rst:941
+#: ../../../frameworks/mbed.rst:948 ../../../frameworks/mbed.rst:969
+#: ../../../frameworks/mbed.rst:976 ../../../frameworks/mbed.rst:983
+#: ../../../frameworks/mbed.rst:990 ../../../frameworks/mbed.rst:997
+#: ../../../frameworks/mbed.rst:1004 ../../../frameworks/mbed.rst:1011
+#: ../../../frameworks/mbed.rst:1018 ../../../frameworks/mbed.rst:1025
+#: ../../../frameworks/mbed.rst:1032 ../../../frameworks/mbed.rst:1039
+#: ../../../frameworks/mbed.rst:1046 ../../../frameworks/mbed.rst:1053
+#: ../../../frameworks/mbed.rst:1060 ../../../frameworks/mbed.rst:1067
+#: ../../../frameworks/mbed.rst:1074 ../../../frameworks/mbed.rst:1081
+#: ../../../frameworks/mbed.rst:1088 ../../../frameworks/mbed.rst:1095
+#: ../../../frameworks/mbed.rst:1102 ../../../frameworks/mbed.rst:1109
+#: ../../../frameworks/mbed.rst:1116 ../../../frameworks/mbed.rst:1123
+#: ../../../frameworks/mbed.rst:1130 ../../../frameworks/mbed.rst:1137
+#: ../../../frameworks/mbed.rst:1144 ../../../frameworks/mbed.rst:1151
+#: ../../../frameworks/mbed.rst:1158 ../../../frameworks/mbed.rst:1165
+#: ../../../frameworks/mbed.rst:1172 ../../../frameworks/mbed.rst:1179
+#: ../../../frameworks/mbed.rst:1186 ../../../frameworks/mbed.rst:1193
+#: ../../../frameworks/mbed.rst:1200 ../../../frameworks/mbed.rst:1207
+#: ../../../frameworks/mbed.rst:1214 ../../../frameworks/mbed.rst:1221
+#: ../../../frameworks/mbed.rst:1228 ../../../frameworks/mbed.rst:1235
+#: ../../../frameworks/mbed.rst:1242 ../../../frameworks/mbed.rst:1249
+#: ../../../frameworks/mbed.rst:1256 ../../../frameworks/mbed.rst:1277
+#: ../../../frameworks/mbed.rst:1291 ../../../frameworks/mbed.rst:1312
+#: ../../../frameworks/mbed.rst:1403
+msgid ":ref:`platform_ststm32`"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:57
+msgid ""
+"The STM32 family of 32-bit Flash MCUs based on the ARM Cortex-M processor is "
+"designed to offer new degrees of freedom to MCU users. It offers a 32-bit "
+"product range that combines very high performance, real-time capabilities, "
+"digital signal processing, and low-power, low-voltage operation, while "
+"maintaining full integration and ease of development."
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:60
+msgid "Examples"
+msgstr "範例"
+
+#: ../../../frameworks/mbed.rst:62
+msgid ""
+"`Mbed for Freescale Kinetis <https://github.com/platformio/platform-"
+"freescalekinetis/tree/master/examples?utm_source=platformio."
+"org&utm_medium=docs>`_"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:63
+msgid ""
+"`Mbed for Maxim 32 <https://github.com/platformio/platform-maxim32/tree/"
+"master/examples?utm_source=platformio.org&utm_medium=docs>`_"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:64
+msgid ""
+"`Mbed for Nordic nRF52 <https://github.com/platformio/platform-nordicnrf52/"
+"tree/master/examples?utm_source=platformio.org&utm_medium=docs>`_"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:65
+msgid ""
+"`Mbed for NXP i.MX RT <https://github.com/platformio/platform-nxpimxrt/tree/"
+"master/examples?utm_source=platformio.org&utm_medium=docs>`_"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:66
+msgid ""
+"`Mbed for NXP LPC <https://github.com/platformio/platform-nxplpc/tree/master/"
+"examples?utm_source=platformio.org&utm_medium=docs>`_"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:67
+msgid ""
+"`Mbed for RISC-V GAP <https://github.com/platformio/platform-riscv_gap/tree/"
+"master/examples?utm_source=platformio.org&utm_medium=docs>`_"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:68
+msgid ""
+"`Mbed for Silicon Labs EFM32 <https://github.com/platformio/platform-"
+"siliconlabsefm32/tree/master/examples?utm_source=platformio."
+"org&utm_medium=docs>`_"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:69
+msgid ""
+"`Mbed for ST STM32 <https://github.com/platformio/platform-ststm32/tree/"
+"master/examples?utm_source=platformio.org&utm_medium=docs>`_"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:72
+msgid "Debugging"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:74
+msgid ""
+":ref:`piodebug` - \"1-click\" solution for debugging with a zero "
+"configuration."
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:81
+msgid "Tools & Debug Probes"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:83
+msgid ""
+"Supported debugging tools are listed in \"Debug\" column. For more detailed "
+"information, please scroll table by horizontal. You can switch between "
+"debugging :ref:`debugging_tools` using :ref:`projectconf_debug_tool` option "
+"in :ref:`projectconf`."
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:89
+msgid ""
+"You will need to install debug tool drivers depending on your system. Please "
+"click on compatible debug tool below for the further instructions."
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:94
+msgid "On-Board Debug Tools"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:96
+msgid ""
+"Boards listed below have on-board debug probe and **ARE READY** for "
+"debugging! You do not need to use/buy external debug probe."
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:104 ../../../frameworks/mbed.rst:531
+#: ../../../frameworks/mbed.rst:612 ../../../frameworks/mbed.rst:689
+#: ../../../frameworks/mbed.rst:710 ../../../frameworks/mbed.rst:731
+#: ../../../frameworks/mbed.rst:794 ../../../frameworks/mbed.rst:815
+#: ../../../frameworks/mbed.rst:843 ../../../frameworks/mbed.rst:885
+#: ../../../frameworks/mbed.rst:913 ../../../frameworks/mbed.rst:934
+#: ../../../frameworks/mbed.rst:962 ../../../frameworks/mbed.rst:1270
+#: ../../../frameworks/mbed.rst:1305 ../../../frameworks/mbed.rst:1326
+#: ../../../frameworks/mbed.rst:1361 ../../../frameworks/mbed.rst:1396
+msgid "Platform"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:105 ../../../frameworks/mbed.rst:532
+#: ../../../frameworks/mbed.rst:614 ../../../frameworks/mbed.rst:691
+#: ../../../frameworks/mbed.rst:712 ../../../frameworks/mbed.rst:733
+#: ../../../frameworks/mbed.rst:796 ../../../frameworks/mbed.rst:817
+#: ../../../frameworks/mbed.rst:845 ../../../frameworks/mbed.rst:887
+#: ../../../frameworks/mbed.rst:915 ../../../frameworks/mbed.rst:936
+#: ../../../frameworks/mbed.rst:964 ../../../frameworks/mbed.rst:1272
+#: ../../../frameworks/mbed.rst:1307 ../../../frameworks/mbed.rst:1328
+#: ../../../frameworks/mbed.rst:1363 ../../../frameworks/mbed.rst:1398
+msgid "MCU"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:106 ../../../frameworks/mbed.rst:533
+#: ../../../frameworks/mbed.rst:615 ../../../frameworks/mbed.rst:692
+#: ../../../frameworks/mbed.rst:713 ../../../frameworks/mbed.rst:734
+#: ../../../frameworks/mbed.rst:797 ../../../frameworks/mbed.rst:818
+#: ../../../frameworks/mbed.rst:846 ../../../frameworks/mbed.rst:888
+#: ../../../frameworks/mbed.rst:916 ../../../frameworks/mbed.rst:937
+#: ../../../frameworks/mbed.rst:965 ../../../frameworks/mbed.rst:1273
+#: ../../../frameworks/mbed.rst:1308 ../../../frameworks/mbed.rst:1329
+#: ../../../frameworks/mbed.rst:1364 ../../../frameworks/mbed.rst:1399
+msgid "Frequency"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:107 ../../../frameworks/mbed.rst:534
+#: ../../../frameworks/mbed.rst:616 ../../../frameworks/mbed.rst:693
+#: ../../../frameworks/mbed.rst:714 ../../../frameworks/mbed.rst:735
+#: ../../../frameworks/mbed.rst:798 ../../../frameworks/mbed.rst:819
+#: ../../../frameworks/mbed.rst:847 ../../../frameworks/mbed.rst:889
+#: ../../../frameworks/mbed.rst:917 ../../../frameworks/mbed.rst:938
+#: ../../../frameworks/mbed.rst:966 ../../../frameworks/mbed.rst:1274
+#: ../../../frameworks/mbed.rst:1309 ../../../frameworks/mbed.rst:1330
+#: ../../../frameworks/mbed.rst:1365 ../../../frameworks/mbed.rst:1400
+msgid "Flash"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:108 ../../../frameworks/mbed.rst:535
+#: ../../../frameworks/mbed.rst:617 ../../../frameworks/mbed.rst:694
+#: ../../../frameworks/mbed.rst:715 ../../../frameworks/mbed.rst:736
+#: ../../../frameworks/mbed.rst:799 ../../../frameworks/mbed.rst:820
+#: ../../../frameworks/mbed.rst:848 ../../../frameworks/mbed.rst:890
+#: ../../../frameworks/mbed.rst:918 ../../../frameworks/mbed.rst:939
+#: ../../../frameworks/mbed.rst:967 ../../../frameworks/mbed.rst:1275
+#: ../../../frameworks/mbed.rst:1310 ../../../frameworks/mbed.rst:1331
+#: ../../../frameworks/mbed.rst:1366 ../../../frameworks/mbed.rst:1401
+msgid "RAM"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:109 ../../../frameworks/mbed.rst:1367
+msgid ":ref:`board_siliconlabsefm32_efm32gg_stk3700`"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:111 ../../../frameworks/mbed.rst:1370
+msgid "EFM32GG990F1024"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:112 ../../../frameworks/mbed.rst:148
+#: ../../../frameworks/mbed.rst:154 ../../../frameworks/mbed.rst:160
+#: ../../../frameworks/mbed.rst:166 ../../../frameworks/mbed.rst:244
+#: ../../../frameworks/mbed.rst:304 ../../../frameworks/mbed.rst:310
+#: ../../../frameworks/mbed.rst:316 ../../../frameworks/mbed.rst:657
+#: ../../../frameworks/mbed.rst:664 ../../../frameworks/mbed.rst:671
+#: ../../../frameworks/mbed.rst:678 ../../../frameworks/mbed.rst:1042
+#: ../../../frameworks/mbed.rst:1049 ../../../frameworks/mbed.rst:1056
+#: ../../../frameworks/mbed.rst:1371 ../../../frameworks/mbed.rst:1378
+msgid "48MHz"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:113 ../../../frameworks/mbed.rst:119
+#: ../../../frameworks/mbed.rst:131 ../../../frameworks/mbed.rst:179
+#: ../../../frameworks/mbed.rst:221 ../../../frameworks/mbed.rst:239
+#: ../../../frameworks/mbed.rst:269 ../../../frameworks/mbed.rst:281
+#: ../../../frameworks/mbed.rst:287 ../../../frameworks/mbed.rst:293
+#: ../../../frameworks/mbed.rst:329 ../../../frameworks/mbed.rst:365
+#: ../../../frameworks/mbed.rst:401 ../../../frameworks/mbed.rst:407
+#: ../../../frameworks/mbed.rst:419 ../../../frameworks/mbed.rst:455
+#: ../../../frameworks/mbed.rst:461 ../../../frameworks/mbed.rst:467
+#: ../../../frameworks/mbed.rst:473 ../../../frameworks/mbed.rst:515
+#: ../../../frameworks/mbed.rst:540 ../../../frameworks/mbed.rst:623
+#: ../../../frameworks/mbed.rst:637 ../../../frameworks/mbed.rst:805
+#: ../../../frameworks/mbed.rst:903 ../../../frameworks/mbed.rst:952
+#: ../../../frameworks/mbed.rst:1001 ../../../frameworks/mbed.rst:1015
+#: ../../../frameworks/mbed.rst:1022 ../../../frameworks/mbed.rst:1029
+#: ../../../frameworks/mbed.rst:1071 ../../../frameworks/mbed.rst:1113
+#: ../../../frameworks/mbed.rst:1155 ../../../frameworks/mbed.rst:1162
+#: ../../../frameworks/mbed.rst:1176 ../../../frameworks/mbed.rst:1218
+#: ../../../frameworks/mbed.rst:1225 ../../../frameworks/mbed.rst:1232
+#: ../../../frameworks/mbed.rst:1239 ../../../frameworks/mbed.rst:1372
+#: ../../../frameworks/mbed.rst:1386 ../../../frameworks/mbed.rst:1407
+msgid "1MB"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:114 ../../../frameworks/mbed.rst:126
+#: ../../../frameworks/mbed.rst:149 ../../../frameworks/mbed.rst:168
+#: ../../../frameworks/mbed.rst:180 ../../../frameworks/mbed.rst:228
+#: ../../../frameworks/mbed.rst:240 ../../../frameworks/mbed.rst:282
+#: ../../../frameworks/mbed.rst:305 ../../../frameworks/mbed.rst:311
+#: ../../../frameworks/mbed.rst:323 ../../../frameworks/mbed.rst:330
+#: ../../../frameworks/mbed.rst:360 ../../../frameworks/mbed.rst:390
+#: ../../../frameworks/mbed.rst:396 ../../../frameworks/mbed.rst:462
+#: ../../../frameworks/mbed.rst:553 ../../../frameworks/mbed.rst:582
+#: ../../../frameworks/mbed.rst:594 ../../../frameworks/mbed.rst:631
+#: ../../../frameworks/mbed.rst:658 ../../../frameworks/mbed.rst:680
+#: ../../../frameworks/mbed.rst:700 ../../../frameworks/mbed.rst:827
+#: ../../../frameworks/mbed.rst:924 ../../../frameworks/mbed.rst:953
+#: ../../../frameworks/mbed.rst:974 ../../../frameworks/mbed.rst:1016
+#: ../../../frameworks/mbed.rst:1043 ../../../frameworks/mbed.rst:1050
+#: ../../../frameworks/mbed.rst:1064 ../../../frameworks/mbed.rst:1072
+#: ../../../frameworks/mbed.rst:1107 ../../../frameworks/mbed.rst:1142
+#: ../../../frameworks/mbed.rst:1149 ../../../frameworks/mbed.rst:1226
+#: ../../../frameworks/mbed.rst:1373 ../../../frameworks/mbed.rst:1408
+msgid "128KB"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:115 ../../../frameworks/mbed.rst:618
+msgid ":ref:`board_freescalekinetis_IBMEthernetKit`"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:117 ../../../frameworks/mbed.rst:129
+#: ../../../frameworks/mbed.rst:621 ../../../frameworks/mbed.rst:635
+msgid "MK64FN1M0VLL12"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:118 ../../../frameworks/mbed.rst:124
+#: ../../../frameworks/mbed.rst:130 ../../../frameworks/mbed.rst:328
+#: ../../../frameworks/mbed.rst:478 ../../../frameworks/mbed.rst:539
+#: ../../../frameworks/mbed.rst:622 ../../../frameworks/mbed.rst:629
+#: ../../../frameworks/mbed.rst:636 ../../../frameworks/mbed.rst:804
+#: ../../../frameworks/mbed.rst:1070 ../../../frameworks/mbed.rst:1245
+msgid "120MHz"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:120 ../../../frameworks/mbed.rst:132
+#: ../../../frameworks/mbed.rst:138 ../../../frameworks/mbed.rst:143
+#: ../../../frameworks/mbed.rst:144 ../../../frameworks/mbed.rst:155
+#: ../../../frameworks/mbed.rst:161 ../../../frameworks/mbed.rst:185
+#: ../../../frameworks/mbed.rst:191 ../../../frameworks/mbed.rst:222
+#: ../../../frameworks/mbed.rst:258 ../../../frameworks/mbed.rst:317
+#: ../../../frameworks/mbed.rst:366 ../../../frameworks/mbed.rst:443
+#: ../../../frameworks/mbed.rst:449 ../../../frameworks/mbed.rst:486
+#: ../../../frameworks/mbed.rst:510 ../../../frameworks/mbed.rst:516
+#: ../../../frameworks/mbed.rst:541 ../../../frameworks/mbed.rst:547
+#: ../../../frameworks/mbed.rst:559 ../../../frameworks/mbed.rst:564
+#: ../../../frameworks/mbed.rst:570 ../../../frameworks/mbed.rst:576
+#: ../../../frameworks/mbed.rst:624 ../../../frameworks/mbed.rst:638
+#: ../../../frameworks/mbed.rst:645 ../../../frameworks/mbed.rst:651
+#: ../../../frameworks/mbed.rst:652 ../../../frameworks/mbed.rst:665
+#: ../../../frameworks/mbed.rst:672 ../../../frameworks/mbed.rst:743
+#: ../../../frameworks/mbed.rst:763 ../../../frameworks/mbed.rst:771
+#: ../../../frameworks/mbed.rst:784 ../../../frameworks/mbed.rst:806
+#: ../../../frameworks/mbed.rst:833 ../../../frameworks/mbed.rst:854
+#: ../../../frameworks/mbed.rst:904 ../../../frameworks/mbed.rst:988
+#: ../../../frameworks/mbed.rst:1057 ../../../frameworks/mbed.rst:1114
+#: ../../../frameworks/mbed.rst:1204 ../../../frameworks/mbed.rst:1211
+#: ../../../frameworks/mbed.rst:1254 ../../../frameworks/mbed.rst:1296
+#: ../../../frameworks/mbed.rst:1316 ../../../frameworks/mbed.rst:1338
+#: ../../../frameworks/mbed.rst:1387
+msgid "256KB"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:121 ../../../frameworks/mbed.rst:625
+msgid ":ref:`board_freescalekinetis_frdm_k22f`"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:123 ../../../frameworks/mbed.rst:628
+msgid "MK22FN512VLH12"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:125 ../../../frameworks/mbed.rst:167
+#: ../../../frameworks/mbed.rst:197 ../../../frameworks/mbed.rst:209
+#: ../../../frameworks/mbed.rst:215 ../../../frameworks/mbed.rst:227
+#: ../../../frameworks/mbed.rst:233 ../../../frameworks/mbed.rst:246
+#: ../../../frameworks/mbed.rst:276 ../../../frameworks/mbed.rst:341
+#: ../../../frameworks/mbed.rst:347 ../../../frameworks/mbed.rst:353
+#: ../../../frameworks/mbed.rst:359 ../../../frameworks/mbed.rst:389
+#: ../../../frameworks/mbed.rst:395 ../../../frameworks/mbed.rst:414
+#: ../../../frameworks/mbed.rst:426 ../../../frameworks/mbed.rst:437
+#: ../../../frameworks/mbed.rst:492 ../../../frameworks/mbed.rst:497
+#: ../../../frameworks/mbed.rst:503 ../../../frameworks/mbed.rst:552
+#: ../../../frameworks/mbed.rst:588 ../../../frameworks/mbed.rst:630
+#: ../../../frameworks/mbed.rst:679 ../../../frameworks/mbed.rst:749
+#: ../../../frameworks/mbed.rst:756 ../../../frameworks/mbed.rst:778
+#: ../../../frameworks/mbed.rst:826 ../../../frameworks/mbed.rst:861
+#: ../../../frameworks/mbed.rst:875 ../../../frameworks/mbed.rst:896
+#: ../../../frameworks/mbed.rst:945 ../../../frameworks/mbed.rst:973
+#: ../../../frameworks/mbed.rst:1009 ../../../frameworks/mbed.rst:1085
+#: ../../../frameworks/mbed.rst:1092 ../../../frameworks/mbed.rst:1099
+#: ../../../frameworks/mbed.rst:1106 ../../../frameworks/mbed.rst:1141
+#: ../../../frameworks/mbed.rst:1148 ../../../frameworks/mbed.rst:1170
+#: ../../../frameworks/mbed.rst:1184 ../../../frameworks/mbed.rst:1197
+#: ../../../frameworks/mbed.rst:1261 ../../../frameworks/mbed.rst:1281
+#: ../../../frameworks/mbed.rst:1288 ../../../frameworks/mbed.rst:1344
+#: ../../../frameworks/mbed.rst:1351 ../../../frameworks/mbed.rst:1380
+msgid "512KB"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:127 ../../../frameworks/mbed.rst:632
+msgid ":ref:`board_freescalekinetis_frdm_k64f`"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:133 ../../../frameworks/mbed.rst:639
+msgid ":ref:`board_freescalekinetis_frdm_k66f`"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:135 ../../../frameworks/mbed.rst:642
+msgid "MK66FN2M0VMD18"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:136 ../../../frameworks/mbed.rst:196
+#: ../../../frameworks/mbed.rst:256 ../../../frameworks/mbed.rst:262
+#: ../../../frameworks/mbed.rst:376 ../../../frameworks/mbed.rst:382
+#: ../../../frameworks/mbed.rst:388 ../../../frameworks/mbed.rst:394
+#: ../../../frameworks/mbed.rst:508 ../../../frameworks/mbed.rst:643
+#: ../../../frameworks/mbed.rst:860 ../../../frameworks/mbed.rst:986
+#: ../../../frameworks/mbed.rst:993 ../../../frameworks/mbed.rst:1126
+#: ../../../frameworks/mbed.rst:1133 ../../../frameworks/mbed.rst:1140
+#: ../../../frameworks/mbed.rst:1147 ../../../frameworks/mbed.rst:1294
+msgid "180MHz"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:137 ../../../frameworks/mbed.rst:245
+#: ../../../frameworks/mbed.rst:257 ../../../frameworks/mbed.rst:263
+#: ../../../frameworks/mbed.rst:275 ../../../frameworks/mbed.rst:377
+#: ../../../frameworks/mbed.rst:383 ../../../frameworks/mbed.rst:413
+#: ../../../frameworks/mbed.rst:425 ../../../frameworks/mbed.rst:479
+#: ../../../frameworks/mbed.rst:485 ../../../frameworks/mbed.rst:491
+#: ../../../frameworks/mbed.rst:509 ../../../frameworks/mbed.rst:546
+#: ../../../frameworks/mbed.rst:558 ../../../frameworks/mbed.rst:644
+#: ../../../frameworks/mbed.rst:742 ../../../frameworks/mbed.rst:770
+#: ../../../frameworks/mbed.rst:777 ../../../frameworks/mbed.rst:987
+#: ../../../frameworks/mbed.rst:994 ../../../frameworks/mbed.rst:1008
+#: ../../../frameworks/mbed.rst:1127 ../../../frameworks/mbed.rst:1134
+#: ../../../frameworks/mbed.rst:1169 ../../../frameworks/mbed.rst:1183
+#: ../../../frameworks/mbed.rst:1246 ../../../frameworks/mbed.rst:1253
+#: ../../../frameworks/mbed.rst:1260 ../../../frameworks/mbed.rst:1295
+#: ../../../frameworks/mbed.rst:1337 ../../../frameworks/mbed.rst:1379
+msgid "2MB"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:139 ../../../frameworks/mbed.rst:646
+msgid ":ref:`board_freescalekinetis_frdm_k82f`"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:141 ../../../frameworks/mbed.rst:649
+msgid "MK82FN256VLL15"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:142 ../../../frameworks/mbed.rst:650
+msgid "150MHz"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:145 ../../../frameworks/mbed.rst:653
+msgid ":ref:`board_freescalekinetis_frdm_kl25z`"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:147 ../../../frameworks/mbed.rst:656
+msgid "MKL25Z128VLK4"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:150 ../../../frameworks/mbed.rst:306
+#: ../../../frameworks/mbed.rst:312 ../../../frameworks/mbed.rst:659
+#: ../../../frameworks/mbed.rst:1044 ../../../frameworks/mbed.rst:1051
+msgid "16KB"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:151 ../../../frameworks/mbed.rst:660
+msgid ":ref:`board_freescalekinetis_frdm_kl43z`"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:153 ../../../frameworks/mbed.rst:663
+msgid "MKL43Z256VLH4"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:156 ../../../frameworks/mbed.rst:162
+#: ../../../frameworks/mbed.rst:186 ../../../frameworks/mbed.rst:318
+#: ../../../frameworks/mbed.rst:565 ../../../frameworks/mbed.rst:571
+#: ../../../frameworks/mbed.rst:577 ../../../frameworks/mbed.rst:666
+#: ../../../frameworks/mbed.rst:673 ../../../frameworks/mbed.rst:764
+#: ../../../frameworks/mbed.rst:785 ../../../frameworks/mbed.rst:834
+#: ../../../frameworks/mbed.rst:1058 ../../../frameworks/mbed.rst:1317
+msgid "32KB"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:157 ../../../frameworks/mbed.rst:667
+msgid ":ref:`board_freescalekinetis_frdm_kl46z`"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:159 ../../../frameworks/mbed.rst:670
+msgid "MKL46Z256VLL4"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:163 ../../../frameworks/mbed.rst:674
+msgid ":ref:`board_freescalekinetis_frdm_kw41z`"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:165 ../../../frameworks/mbed.rst:677
+msgid "MKW41Z512VHT4"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:169 ../../../frameworks/mbed.rst:716
+msgid ":ref:`board_riscv_gap_gapuino`"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:171 ../../../frameworks/mbed.rst:719
+msgid "GAP8"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:172 ../../../frameworks/mbed.rst:720
+msgid "250MHz"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:173 ../../../frameworks/mbed.rst:721
+msgid "64MB"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:174 ../../../frameworks/mbed.rst:203
+#: ../../../frameworks/mbed.rst:722 ../../../frameworks/mbed.rst:868
+msgid "8MB"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:175 ../../../frameworks/mbed.rst:1402
+msgid ":ref:`board_ststm32_rhombio_l476dmw1k`"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:177 ../../../frameworks/mbed.rst:279
+#: ../../../frameworks/mbed.rst:1013 ../../../frameworks/mbed.rst:1405
+msgid "STM32L476VGT6"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:178 ../../../frameworks/mbed.rst:238
+#: ../../../frameworks/mbed.rst:280 ../../../frameworks/mbed.rst:286
+#: ../../../frameworks/mbed.rst:292 ../../../frameworks/mbed.rst:442
+#: ../../../frameworks/mbed.rst:448 ../../../frameworks/mbed.rst:454
+#: ../../../frameworks/mbed.rst:460 ../../../frameworks/mbed.rst:466
+#: ../../../frameworks/mbed.rst:472 ../../../frameworks/mbed.rst:951
+#: ../../../frameworks/mbed.rst:1014 ../../../frameworks/mbed.rst:1021
+#: ../../../frameworks/mbed.rst:1028 ../../../frameworks/mbed.rst:1203
+#: ../../../frameworks/mbed.rst:1210 ../../../frameworks/mbed.rst:1217
+#: ../../../frameworks/mbed.rst:1224 ../../../frameworks/mbed.rst:1231
+#: ../../../frameworks/mbed.rst:1238 ../../../frameworks/mbed.rst:1406
+msgid "80MHz"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:181 ../../../frameworks/mbed.rst:758
+msgid ":ref:`board_maxim32_max32600mbed`"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:183 ../../../frameworks/mbed.rst:761
+msgid "MAX32600"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:184 ../../../frameworks/mbed.rst:563
+#: ../../../frameworks/mbed.rst:762 ../../../frameworks/mbed.rst:783
+msgid "24MHz"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:187 ../../../frameworks/mbed.rst:849
+msgid ":ref:`board_nxplpc_lpc54114`"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:189 ../../../frameworks/mbed.rst:852
+msgid "LPC54114J256BD64"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:190 ../../../frameworks/mbed.rst:250
+#: ../../../frameworks/mbed.rst:358 ../../../frameworks/mbed.rst:364
+#: ../../../frameworks/mbed.rst:370 ../../../frameworks/mbed.rst:551
+#: ../../../frameworks/mbed.rst:825 ../../../frameworks/mbed.rst:853
+#: ../../../frameworks/mbed.rst:979 ../../../frameworks/mbed.rst:1105
+#: ../../../frameworks/mbed.rst:1112 ../../../frameworks/mbed.rst:1119
+msgid "100MHz"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:192 ../../../frameworks/mbed.rst:299
+#: ../../../frameworks/mbed.rst:378 ../../../frameworks/mbed.rst:384
+#: ../../../frameworks/mbed.rst:431 ../../../frameworks/mbed.rst:498
+#: ../../../frameworks/mbed.rst:855 ../../../frameworks/mbed.rst:1036
+#: ../../../frameworks/mbed.rst:1128 ../../../frameworks/mbed.rst:1135
+#: ../../../frameworks/mbed.rst:1190 ../../../frameworks/mbed.rst:1282
+msgid "192KB"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:193 ../../../frameworks/mbed.rst:856
+msgid ":ref:`board_nxplpc_lpc546xx`"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:195 ../../../frameworks/mbed.rst:859
+msgid "LPC54608ET512"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:198 ../../../frameworks/mbed.rst:862
+msgid "200KB"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:199 ../../../frameworks/mbed.rst:863
+msgid ":ref:`board_nxpimxrt_mimxrt1050_evk`"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:201 ../../../frameworks/mbed.rst:866
+msgid "MIMXRT1052DVL6B"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:202 ../../../frameworks/mbed.rst:867
+msgid "600MHz"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:204 ../../../frameworks/mbed.rst:869
+msgid "32MB"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:205 ../../../frameworks/mbed.rst:870
+msgid ":ref:`board_nxplpc_lpc1768`"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:207 ../../../frameworks/mbed.rst:501
+#: ../../../frameworks/mbed.rst:873 ../../../frameworks/mbed.rst:1286
+msgid "LPC1768"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:208 ../../../frameworks/mbed.rst:502
+#: ../../../frameworks/mbed.rst:545 ../../../frameworks/mbed.rst:557
+#: ../../../frameworks/mbed.rst:741 ../../../frameworks/mbed.rst:748
+#: ../../../frameworks/mbed.rst:755 ../../../frameworks/mbed.rst:769
+#: ../../../frameworks/mbed.rst:776 ../../../frameworks/mbed.rst:874
+#: ../../../frameworks/mbed.rst:1287 ../../../frameworks/mbed.rst:1336
+#: ../../../frameworks/mbed.rst:1343
+msgid "96MHz"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:210 ../../../frameworks/mbed.rst:216
+#: ../../../frameworks/mbed.rst:335 ../../../frameworks/mbed.rst:342
+#: ../../../frameworks/mbed.rst:348 ../../../frameworks/mbed.rst:444
+#: ../../../frameworks/mbed.rst:450 ../../../frameworks/mbed.rst:504
+#: ../../../frameworks/mbed.rst:589 ../../../frameworks/mbed.rst:876
+#: ../../../frameworks/mbed.rst:897 ../../../frameworks/mbed.rst:1078
+#: ../../../frameworks/mbed.rst:1086 ../../../frameworks/mbed.rst:1093
+#: ../../../frameworks/mbed.rst:1205 ../../../frameworks/mbed.rst:1212
+#: ../../../frameworks/mbed.rst:1289 ../../../frameworks/mbed.rst:1352
+msgid "64KB"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:211 ../../../frameworks/mbed.rst:891
+msgid ":ref:`board_nordicnrf52_nrf52_dk`"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:213 ../../../frameworks/mbed.rst:586
+#: ../../../frameworks/mbed.rst:894 ../../../frameworks/mbed.rst:1349
+msgid "NRF52832"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:214 ../../../frameworks/mbed.rst:220
+#: ../../../frameworks/mbed.rst:587 ../../../frameworks/mbed.rst:895
+#: ../../../frameworks/mbed.rst:902 ../../../frameworks/mbed.rst:1350
+msgid "64MHz"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:217 ../../../frameworks/mbed.rst:898
+msgid ":ref:`board_nordicnrf52_nrf52840_dk`"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:219 ../../../frameworks/mbed.rst:901
+msgid "NRF52840"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:223 ../../../frameworks/mbed.rst:968
+msgid ":ref:`board_ststm32_nucleo_g474re`"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:225 ../../../frameworks/mbed.rst:971
+msgid "STM32G474RET6"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:226 ../../../frameworks/mbed.rst:972
+msgid "170MHz"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:229 ../../../frameworks/mbed.rst:940
+msgid ":ref:`board_ststm32_cloud_jam`"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:231 ../../../frameworks/mbed.rst:351
+#: ../../../frameworks/mbed.rst:943 ../../../frameworks/mbed.rst:1097
+msgid "STM32F401RET6"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:232 ../../../frameworks/mbed.rst:352
+#: ../../../frameworks/mbed.rst:944 ../../../frameworks/mbed.rst:1098
+msgid "84MHz"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:234 ../../../frameworks/mbed.rst:294
+#: ../../../frameworks/mbed.rst:354 ../../../frameworks/mbed.rst:456
+#: ../../../frameworks/mbed.rst:946 ../../../frameworks/mbed.rst:1030
+#: ../../../frameworks/mbed.rst:1100 ../../../frameworks/mbed.rst:1219
+msgid "96KB"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:235 ../../../frameworks/mbed.rst:947
+msgid ":ref:`board_ststm32_cloud_jam_l4`"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:237 ../../../frameworks/mbed.rst:453
+#: ../../../frameworks/mbed.rst:950 ../../../frameworks/mbed.rst:1216
+msgid "STM32L476RGT6"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:241 ../../../frameworks/mbed.rst:1374
+msgid ":ref:`board_siliconlabsefm32_efm32gg11_stk3701`"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:243 ../../../frameworks/mbed.rst:1377
+msgid "EFM32GG11B820F2048GL192"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:247 ../../../frameworks/mbed.rst:975
+msgid ":ref:`board_ststm32_disco_f413zh`"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:249 ../../../frameworks/mbed.rst:369
+#: ../../../frameworks/mbed.rst:978 ../../../frameworks/mbed.rst:1118
+msgid "STM32F413ZHT6"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:251 ../../../frameworks/mbed.rst:371
+#: ../../../frameworks/mbed.rst:980 ../../../frameworks/mbed.rst:1120
+msgid "1.50MB"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:252 ../../../frameworks/mbed.rst:270
+#: ../../../frameworks/mbed.rst:288 ../../../frameworks/mbed.rst:372
+#: ../../../frameworks/mbed.rst:402 ../../../frameworks/mbed.rst:408
+#: ../../../frameworks/mbed.rst:420 ../../../frameworks/mbed.rst:468
+#: ../../../frameworks/mbed.rst:474 ../../../frameworks/mbed.rst:981
+#: ../../../frameworks/mbed.rst:1002 ../../../frameworks/mbed.rst:1023
+#: ../../../frameworks/mbed.rst:1121 ../../../frameworks/mbed.rst:1156
+#: ../../../frameworks/mbed.rst:1163 ../../../frameworks/mbed.rst:1177
+#: ../../../frameworks/mbed.rst:1233 ../../../frameworks/mbed.rst:1240
+msgid "320KB"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:253 ../../../frameworks/mbed.rst:982
+msgid ":ref:`board_ststm32_disco_f429zi`"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:255 ../../../frameworks/mbed.rst:375
+#: ../../../frameworks/mbed.rst:985 ../../../frameworks/mbed.rst:1125
+msgid "STM32F429ZIT6"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:259 ../../../frameworks/mbed.rst:989
+msgid ":ref:`board_ststm32_disco_f469ni`"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:261 ../../../frameworks/mbed.rst:992
+msgid "STM32F469NIH6"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:264 ../../../frameworks/mbed.rst:995
+msgid "384KB"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:265 ../../../frameworks/mbed.rst:996
+msgid ":ref:`board_ststm32_disco_f746ng`"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:267 ../../../frameworks/mbed.rst:999
+msgid "STM32F746NGH6"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:268 ../../../frameworks/mbed.rst:274
+#: ../../../frameworks/mbed.rst:400 ../../../frameworks/mbed.rst:406
+#: ../../../frameworks/mbed.rst:412 ../../../frameworks/mbed.rst:1000
+#: ../../../frameworks/mbed.rst:1007 ../../../frameworks/mbed.rst:1154
+#: ../../../frameworks/mbed.rst:1161 ../../../frameworks/mbed.rst:1168
+msgid "216MHz"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:271 ../../../frameworks/mbed.rst:1003
+msgid ":ref:`board_ststm32_disco_f769ni`"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:273 ../../../frameworks/mbed.rst:1006
+msgid "STM32F769NIH6"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:277 ../../../frameworks/mbed.rst:1010
+msgid ":ref:`board_ststm32_disco_l476vg`"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:283 ../../../frameworks/mbed.rst:1017
+msgid ":ref:`board_ststm32_disco_l496ag`"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:285 ../../../frameworks/mbed.rst:1020
+msgid "STM32L496AGI6"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:289 ../../../frameworks/mbed.rst:1024
+msgid ":ref:`board_ststm32_disco_l475vg_iot01a`"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:291 ../../../frameworks/mbed.rst:1027
+msgid "STM32L475VGT6"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:295 ../../../frameworks/mbed.rst:1031
+msgid ":ref:`board_ststm32_disco_l072cz_lrwan1`"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:297 ../../../frameworks/mbed.rst:1034
+msgid "STM32L072CZ"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:298 ../../../frameworks/mbed.rst:430
+#: ../../../frameworks/mbed.rst:436 ../../../frameworks/mbed.rst:569
+#: ../../../frameworks/mbed.rst:575 ../../../frameworks/mbed.rst:832
+#: ../../../frameworks/mbed.rst:1035 ../../../frameworks/mbed.rst:1189
+#: ../../../frameworks/mbed.rst:1196 ../../../frameworks/mbed.rst:1315
+msgid "32MHz"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:300 ../../../frameworks/mbed.rst:324
+#: ../../../frameworks/mbed.rst:432 ../../../frameworks/mbed.rst:583
+#: ../../../frameworks/mbed.rst:595 ../../../frameworks/mbed.rst:701
+#: ../../../frameworks/mbed.rst:925 ../../../frameworks/mbed.rst:1037
+#: ../../../frameworks/mbed.rst:1065 ../../../frameworks/mbed.rst:1191
+msgid "20KB"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:301 ../../../frameworks/mbed.rst:1038
+msgid ":ref:`board_ststm32_nucleo_f070rb`"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:303 ../../../frameworks/mbed.rst:1041
+msgid "STM32F070RBT6"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:307 ../../../frameworks/mbed.rst:1045
+msgid ":ref:`board_ststm32_nucleo_f072rb`"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:309 ../../../frameworks/mbed.rst:1048
+msgid "STM32F072RBT6"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:313 ../../../frameworks/mbed.rst:1052
+msgid ":ref:`board_ststm32_nucleo_f091rc`"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:315 ../../../frameworks/mbed.rst:1055
+msgid "STM32F091RCT6"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:319 ../../../frameworks/mbed.rst:1059
+msgid ":ref:`board_ststm32_nucleo_f103rb`"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:321 ../../../frameworks/mbed.rst:580
+#: ../../../frameworks/mbed.rst:592 ../../../frameworks/mbed.rst:698
+#: ../../../frameworks/mbed.rst:922 ../../../frameworks/mbed.rst:1062
+msgid "STM32F103RBT6"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:322 ../../../frameworks/mbed.rst:334
+#: ../../../frameworks/mbed.rst:340 ../../../frameworks/mbed.rst:346
+#: ../../../frameworks/mbed.rst:581 ../../../frameworks/mbed.rst:593
+#: ../../../frameworks/mbed.rst:699 ../../../frameworks/mbed.rst:923
+#: ../../../frameworks/mbed.rst:1063 ../../../frameworks/mbed.rst:1077
+#: ../../../frameworks/mbed.rst:1084 ../../../frameworks/mbed.rst:1091
+msgid "72MHz"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:325 ../../../frameworks/mbed.rst:1066
+msgid ":ref:`board_ststm32_nucleo_f207zg`"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:327 ../../../frameworks/mbed.rst:1069
+msgid "STM32F207ZGT6"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:331 ../../../frameworks/mbed.rst:1073
+msgid ":ref:`board_ststm32_nucleo_f303k8`"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:333 ../../../frameworks/mbed.rst:1076
+msgid "STM32F303K8T6"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:336 ../../../frameworks/mbed.rst:1079
+msgid "12KB"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:337 ../../../frameworks/mbed.rst:1080
+msgid ":ref:`board_ststm32_nucleo_f303re`"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:339 ../../../frameworks/mbed.rst:1083
+msgid "STM32F303RET6"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:343 ../../../frameworks/mbed.rst:1087
+msgid ":ref:`board_ststm32_nucleo_f303ze`"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:345 ../../../frameworks/mbed.rst:1090
+msgid "STM32F303ZET6"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:349 ../../../frameworks/mbed.rst:1094
+msgid ":ref:`board_ststm32_nucleo_f401re`"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:355 ../../../frameworks/mbed.rst:1101
+msgid ":ref:`board_ststm32_nucleo_f411re`"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:357 ../../../frameworks/mbed.rst:550
+#: ../../../frameworks/mbed.rst:824 ../../../frameworks/mbed.rst:1104
+msgid "STM32F411RET6"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:361 ../../../frameworks/mbed.rst:1108
+msgid ":ref:`board_ststm32_nucleo_f412zg`"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:363 ../../../frameworks/mbed.rst:1111
+msgid "STM32F412ZGT6"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:367 ../../../frameworks/mbed.rst:1115
+msgid ":ref:`board_ststm32_nucleo_f413zh`"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:373 ../../../frameworks/mbed.rst:1122
+msgid ":ref:`board_ststm32_nucleo_f429zi`"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:379 ../../../frameworks/mbed.rst:1129
+msgid ":ref:`board_ststm32_nucleo_f439zi`"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:381 ../../../frameworks/mbed.rst:1132
+msgid "STM32F439ZIT6"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:385 ../../../frameworks/mbed.rst:1136
+msgid ":ref:`board_ststm32_nucleo_f446re`"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:387 ../../../frameworks/mbed.rst:1139
+msgid "STM32F446RET6"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:391 ../../../frameworks/mbed.rst:1143
+msgid ":ref:`board_ststm32_nucleo_f446ze`"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:393 ../../../frameworks/mbed.rst:1146
+msgid "STM32F446ZET6"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:397 ../../../frameworks/mbed.rst:1150
+msgid ":ref:`board_ststm32_nucleo_f746zg`"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:399 ../../../frameworks/mbed.rst:1153
+msgid "STM32F746ZGT6"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:403 ../../../frameworks/mbed.rst:1157
+msgid ":ref:`board_ststm32_nucleo_f756zg`"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:405 ../../../frameworks/mbed.rst:1160
+msgid "STM32F756ZG"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:409 ../../../frameworks/mbed.rst:1164
+msgid ":ref:`board_ststm32_nucleo_f767zi`"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:411 ../../../frameworks/mbed.rst:1167
+msgid "STM32F767ZIT6"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:415 ../../../frameworks/mbed.rst:1171
+msgid ":ref:`board_ststm32_nucleo_h723zg`"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:417 ../../../frameworks/mbed.rst:1174
+msgid "STM32H723ZGT6"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:418 ../../../frameworks/mbed.rst:1175
+msgid "550MHz"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:421 ../../../frameworks/mbed.rst:1178
+msgid ":ref:`board_ststm32_nucleo_h743zi`"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:423 ../../../frameworks/mbed.rst:1181
+msgid "STM32H743ZIT6"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:424 ../../../frameworks/mbed.rst:490
+#: ../../../frameworks/mbed.rst:1182 ../../../frameworks/mbed.rst:1259
+msgid "400MHz"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:427 ../../../frameworks/mbed.rst:1185
+msgid ":ref:`board_ststm32_nucleo_l073rz`"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:429 ../../../frameworks/mbed.rst:1188
+msgid "STM32L073RZ"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:433 ../../../frameworks/mbed.rst:1192
+msgid ":ref:`board_ststm32_nucleo_l152re`"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:435 ../../../frameworks/mbed.rst:1195
+msgid "STM32L152RET6"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:438 ../../../frameworks/mbed.rst:1198
+msgid "80KB"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:439 ../../../frameworks/mbed.rst:1199
+msgid ":ref:`board_ststm32_nucleo_l432kc`"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:441 ../../../frameworks/mbed.rst:1202
+msgid "STM32L432KCU6"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:445 ../../../frameworks/mbed.rst:1206
+msgid ":ref:`board_ststm32_nucleo_l433rc_p`"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:447 ../../../frameworks/mbed.rst:1209
+msgid "STM32L433RC"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:451 ../../../frameworks/mbed.rst:1213
+msgid ":ref:`board_ststm32_nucleo_l476rg`"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:457 ../../../frameworks/mbed.rst:1220
+msgid ":ref:`board_ststm32_nucleo_l486rg`"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:459 ../../../frameworks/mbed.rst:1223
+msgid "STM32L486RGT6"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:463 ../../../frameworks/mbed.rst:1227
+msgid ":ref:`board_ststm32_nucleo_l496zg`"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:465 ../../../frameworks/mbed.rst:1230
+msgid "STM32L496ZGT6"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:469 ../../../frameworks/mbed.rst:1234
+msgid ":ref:`board_ststm32_nucleo_l496zg_p`"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:471 ../../../frameworks/mbed.rst:1237
+msgid "STM32L496ZGT6P"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:475 ../../../frameworks/mbed.rst:1241
+msgid ":ref:`board_ststm32_nucleo_l4r5zi`"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:477 ../../../frameworks/mbed.rst:1244
+msgid "STM32L4R5ZIT6"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:480 ../../../frameworks/mbed.rst:1247
+msgid "640KB"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:481 ../../../frameworks/mbed.rst:1248
+msgid ":ref:`board_ststm32_nucleo_u575zi_q`"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:483 ../../../frameworks/mbed.rst:1251
+msgid "STM32U575ZIT6Q"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:484 ../../../frameworks/mbed.rst:1252
+msgid "160MHz"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:487 ../../../frameworks/mbed.rst:1255
+msgid ":ref:`board_ststm32_disco_h747xi`"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:489 ../../../frameworks/mbed.rst:1258
+msgid "STM32H747XIH6"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:493 ../../../frameworks/mbed.rst:1276
+msgid ":ref:`board_ststm32_seeedArchMax`"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:495 ../../../frameworks/mbed.rst:1279
+msgid "STM32F407VET6"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:496 ../../../frameworks/mbed.rst:1280
+msgid "168MHz"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:499 ../../../frameworks/mbed.rst:1283
+msgid ":ref:`board_nxplpc_seeedArchPro`"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:505 ../../../frameworks/mbed.rst:1290
+msgid ":ref:`board_ststm32_wio_3g`"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:507 ../../../frameworks/mbed.rst:1293
+msgid "STM32F439VI"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:511 ../../../frameworks/mbed.rst:1381
+msgid ":ref:`board_siliconlabsefm32_tb_sense_12`"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:513 ../../../frameworks/mbed.rst:1384
+msgid "EFR32MG12P432F1024"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:514 ../../../frameworks/mbed.rst:1385
+msgid "40MHz"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:520
+msgid "External Debug Tools"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:522
+msgid ""
+"Boards listed below are compatible with :ref:`piodebug` but **DEPEND ON** "
+"external debug probe. They **ARE NOT READY** for debugging. Please click on "
+"board name for the further details."
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:536 ../../../frameworks/mbed.rst:800
+msgid ":ref:`board_freescalekinetis_hexiwear`"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:538 ../../../frameworks/mbed.rst:803
+msgid "MK64FN1M0VDC12"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:542 ../../../frameworks/mbed.rst:737
+msgid ":ref:`board_maxim32_max32620fthr`"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:544 ../../../frameworks/mbed.rst:740
+msgid "MAX32620FTHR"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:548 ../../../frameworks/mbed.rst:821
+msgid ":ref:`board_ststm32_mts_dragonfly_f411re`"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:554 ../../../frameworks/mbed.rst:765
+msgid ":ref:`board_maxim32_max32620hsp`"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:556 ../../../frameworks/mbed.rst:768
+msgid "MAX32620"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:560 ../../../frameworks/mbed.rst:779
+msgid ":ref:`board_maxim32_maxwsnenv`"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:562 ../../../frameworks/mbed.rst:782
+msgid "MAX32610"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:566 ../../../frameworks/mbed.rst:828
+msgid ":ref:`board_ststm32_xdot_l151cc`"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:568 ../../../frameworks/mbed.rst:831
+msgid "STM32L151CCU6"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:572 ../../../frameworks/mbed.rst:1311
+msgid ":ref:`board_ststm32_mote_l152rc`"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:574 ../../../frameworks/mbed.rst:1314
+msgid "STM32L152RC"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:578 ../../../frameworks/mbed.rst:919
+msgid ":ref:`board_ststm32_olimex_f103`"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:584 ../../../frameworks/mbed.rst:1346
+msgid ":ref:`board_nordicnrf52_sdt52832b`"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:590 ../../../frameworks/mbed.rst:695
+msgid ":ref:`board_ststm32_genericSTM32F103RB`"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:599
+msgid "Boards"
+msgstr "開發板"
+
+#: ../../../frameworks/mbed.rst:602
+msgid "You can list pre-configured boards by :ref:`cmd_boards` command"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:603
+msgid ""
+"For more detailed ``board`` information please scroll the tables below by "
+"horizontally."
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:606
+msgid "Freescale"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:613 ../../../frameworks/mbed.rst:690
+#: ../../../frameworks/mbed.rst:711 ../../../frameworks/mbed.rst:732
+#: ../../../frameworks/mbed.rst:795 ../../../frameworks/mbed.rst:816
+#: ../../../frameworks/mbed.rst:844 ../../../frameworks/mbed.rst:886
+#: ../../../frameworks/mbed.rst:914 ../../../frameworks/mbed.rst:935
+#: ../../../frameworks/mbed.rst:963 ../../../frameworks/mbed.rst:1271
+#: ../../../frameworks/mbed.rst:1306 ../../../frameworks/mbed.rst:1327
+#: ../../../frameworks/mbed.rst:1362 ../../../frameworks/mbed.rst:1397
+msgid "Debug"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:620 ../../../frameworks/mbed.rst:627
+#: ../../../frameworks/mbed.rst:634 ../../../frameworks/mbed.rst:641
+#: ../../../frameworks/mbed.rst:648 ../../../frameworks/mbed.rst:655
+#: ../../../frameworks/mbed.rst:662 ../../../frameworks/mbed.rst:669
+#: ../../../frameworks/mbed.rst:676 ../../../frameworks/mbed.rst:718
+#: ../../../frameworks/mbed.rst:760 ../../../frameworks/mbed.rst:851
+#: ../../../frameworks/mbed.rst:858 ../../../frameworks/mbed.rst:865
+#: ../../../frameworks/mbed.rst:872 ../../../frameworks/mbed.rst:893
+#: ../../../frameworks/mbed.rst:900 ../../../frameworks/mbed.rst:942
+#: ../../../frameworks/mbed.rst:949 ../../../frameworks/mbed.rst:970
+#: ../../../frameworks/mbed.rst:977 ../../../frameworks/mbed.rst:984
+#: ../../../frameworks/mbed.rst:991 ../../../frameworks/mbed.rst:998
+#: ../../../frameworks/mbed.rst:1005 ../../../frameworks/mbed.rst:1012
+#: ../../../frameworks/mbed.rst:1019 ../../../frameworks/mbed.rst:1026
+#: ../../../frameworks/mbed.rst:1033 ../../../frameworks/mbed.rst:1040
+#: ../../../frameworks/mbed.rst:1047 ../../../frameworks/mbed.rst:1054
+#: ../../../frameworks/mbed.rst:1061 ../../../frameworks/mbed.rst:1068
+#: ../../../frameworks/mbed.rst:1075 ../../../frameworks/mbed.rst:1082
+#: ../../../frameworks/mbed.rst:1089 ../../../frameworks/mbed.rst:1096
+#: ../../../frameworks/mbed.rst:1103 ../../../frameworks/mbed.rst:1110
+#: ../../../frameworks/mbed.rst:1117 ../../../frameworks/mbed.rst:1124
+#: ../../../frameworks/mbed.rst:1131 ../../../frameworks/mbed.rst:1138
+#: ../../../frameworks/mbed.rst:1145 ../../../frameworks/mbed.rst:1152
+#: ../../../frameworks/mbed.rst:1159 ../../../frameworks/mbed.rst:1166
+#: ../../../frameworks/mbed.rst:1173 ../../../frameworks/mbed.rst:1180
+#: ../../../frameworks/mbed.rst:1187 ../../../frameworks/mbed.rst:1194
+#: ../../../frameworks/mbed.rst:1201 ../../../frameworks/mbed.rst:1208
+#: ../../../frameworks/mbed.rst:1215 ../../../frameworks/mbed.rst:1222
+#: ../../../frameworks/mbed.rst:1229 ../../../frameworks/mbed.rst:1236
+#: ../../../frameworks/mbed.rst:1243 ../../../frameworks/mbed.rst:1250
+#: ../../../frameworks/mbed.rst:1257 ../../../frameworks/mbed.rst:1278
+#: ../../../frameworks/mbed.rst:1285 ../../../frameworks/mbed.rst:1292
+#: ../../../frameworks/mbed.rst:1369 ../../../frameworks/mbed.rst:1376
+#: ../../../frameworks/mbed.rst:1383 ../../../frameworks/mbed.rst:1404
+msgid "On-board"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:683
+msgid "Generic"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:697 ../../../frameworks/mbed.rst:739
+#: ../../../frameworks/mbed.rst:767 ../../../frameworks/mbed.rst:781
+#: ../../../frameworks/mbed.rst:802 ../../../frameworks/mbed.rst:823
+#: ../../../frameworks/mbed.rst:830 ../../../frameworks/mbed.rst:921
+#: ../../../frameworks/mbed.rst:1313 ../../../frameworks/mbed.rst:1348
+msgid "External"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:704
+msgid "GreenWaves Technologies"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:725
+msgid "Maxim"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:744
+msgid ":ref:`board_maxim32_max32625mbed`"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:746 ../../../frameworks/mbed.rst:753
+#: ../../../frameworks/mbed.rst:774 ../../../frameworks/mbed.rst:1334
+#: ../../../frameworks/mbed.rst:1341
+msgid "No"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:747 ../../../frameworks/mbed.rst:754
+msgid "MAX32625"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:750 ../../../frameworks/mbed.rst:757
+#: ../../../frameworks/mbed.rst:1345
+msgid "160KB"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:751
+msgid ":ref:`board_maxim32_max32625pico`"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:772
+msgid ":ref:`board_maxim32_max32630fthr`"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:775
+msgid "MAX32630"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:788
+msgid "MikroElektronika"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:809
+msgid "MultiTech"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:837
+msgid "NXP"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:879
+msgid "Nordic"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:907
+msgid "Olimex"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:928
+msgid "RushUp"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:956
+msgid "ST"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:1264
+msgid "SeeedStudio"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:1299
+msgid "Semtech"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:1320
+msgid "Sigma Delta Technologies"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:1332
+msgid ":ref:`board_maxim32_sdt32620b`"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:1335
+msgid "MAX32620IWG"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:1339
+msgid ":ref:`board_maxim32_sdt32625b`"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:1342
+msgid "MAX32625ITK"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:1355
+msgid "Silicon Labs"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:1390
+msgid "rhomb.io"
+msgstr ""

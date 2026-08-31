@@ -1,0 +1,42 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present, PlatformIO
+# This file is distributed under the same license as the PlatformIO package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PlatformIO stable\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-24 14:03+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../manifests/library-json/fields/frameworks.rst:13
+msgid "``frameworks``"
+msgstr ""
+
+#: ../../../manifests/library-json/fields/frameworks.rst:15
+msgid "*Optional* | Type: ``String`` or ``Array``"
+msgstr ""
+
+#: ../../../manifests/library-json/fields/frameworks.rst:17
+msgid ""
+"A list with compatible frameworks. The available framework names are defined "
+"in the :ref:`frameworks` section."
+msgstr ""
+
+#: ../../../manifests/library-json/fields/frameworks.rst:20
+msgid "**Example**"
+msgstr ""
+
+#: ../../../manifests/library-json/fields/frameworks.rst:26
+msgid ""
+"If the library is compatible with the all frameworks, then do not declare "
+"this field or you use ``*`` symbol:"
+msgstr ""

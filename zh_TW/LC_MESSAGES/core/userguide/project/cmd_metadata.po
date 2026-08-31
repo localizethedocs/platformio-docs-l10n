@@ -1,0 +1,99 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present, PlatformIO
+# This file is distributed under the same license as the PlatformIO package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PlatformIO stable\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-24 14:03+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../core/userguide/project/cmd_metadata.rst:15
+msgid "pio project metadata"
+msgstr ""
+
+#: ../../../core/userguide/project/cmd_metadata.rst:17
+msgid "Contents"
+msgstr ""
+
+#: ../../../core/userguide/project/cmd_metadata.rst:20
+msgid "Usage"
+msgstr ""
+
+#: ../../../core/userguide/project/cmd_metadata.rst:28
+msgid "Description"
+msgstr ""
+
+#: ../../../core/userguide/project/cmd_metadata.rst:30
+msgid "Dump a build metadata intended for IDE extensions/plugins:"
+msgstr ""
+
+#: ../../../core/userguide/project/cmd_metadata.rst:32
+msgid "Toolchain type and location"
+msgstr ""
+
+#: ../../../core/userguide/project/cmd_metadata.rst:33
+msgid "Compiler flags"
+msgstr ""
+
+#: ../../../core/userguide/project/cmd_metadata.rst:34
+msgid "Defines/Macros"
+msgstr ""
+
+#: ../../../core/userguide/project/cmd_metadata.rst:35
+msgid "CPP Preprocessor includes/paths"
+msgstr ""
+
+#: ../../../core/userguide/project/cmd_metadata.rst:36
+msgid "Program path"
+msgstr ""
+
+#: ../../../core/userguide/project/cmd_metadata.rst:37
+msgid "SVD path if available for :ref:`platforms`"
+msgstr ""
+
+#: ../../../core/userguide/project/cmd_metadata.rst:38
+msgid ""
+"Targets by :ref:`platforms` (see :option:`pio run --list-targets` for "
+"details)"
+msgstr ""
+
+#: ../../../core/userguide/project/cmd_metadata.rst:39
+msgid "Extra information."
+msgstr ""
+
+#: ../../../core/userguide/project/cmd_metadata.rst:42
+msgid "Options"
+msgstr ""
+
+#: ../../../core/userguide/project/cmd_metadata.rst:49
+msgid ""
+"Specify the path to project directory. By default, ``--project-dir`` is "
+"equal to current working directory (``CWD``)."
+msgstr ""
+
+#: ../../../core/userguide/project/cmd_metadata.rst:55
+msgid "Dump specified environments. Multiple environments are allowed."
+msgstr ""
+
+#: ../../../core/userguide/project/cmd_metadata.rst:60
+msgid ""
+"Return the output in `JSON <http://en.wikipedia.org/wiki/JSON>`__ format."
+msgstr ""
+
+#: ../../../core/userguide/project/cmd_metadata.rst:65
+msgid ""
+"Dump metadata in `JSON <https://en.wikipedia.org/wiki/JSON>`__ format and "
+"save it to the specified path. If the only folder path is provided, the file "
+"name will be generated automatically. Please note that the parent folder "
+"must exist before."
+msgstr ""

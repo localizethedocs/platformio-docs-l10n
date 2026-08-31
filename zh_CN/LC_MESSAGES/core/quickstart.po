@@ -1,0 +1,244 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present, PlatformIO
+# This file is distributed under the same license as the PlatformIO package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PlatformIO stable\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-24 14:03+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../core/quickstart.rst:15
+msgid "Quick Start"
+msgstr ""
+
+#: ../../../core/quickstart.rst:17
+msgid ""
+"This tutorial introduces you to the basics of :ref:`piocore` Command Line "
+"Interface (CLI) workflow and shows you a creation process of a simple cross-"
+"platform “Blink” Project. After finishing you will have a general "
+"understanding of how to work with the multiple development platforms and "
+"embedded boards."
+msgstr ""
+
+#: ../../../core/quickstart.rst:23
+msgid "Setting Up the Project"
+msgstr ""
+
+#: ../../../core/quickstart.rst:25
+msgid ""
+":ref:`piocore` provides special :ref:`cmd_project_init` command for "
+"configuring your projects. It allows one to initialize new empty project or "
+"update existing with the new data."
+msgstr ""
+
+#: ../../../core/quickstart.rst:28
+msgid ""
+"What is more, :ref:`cmd_project_init` can be used for :ref:`ide`. It means "
+"that you will be able to import pre-generated PlatformIO project using "
+"favorite IDE and extend it with the professional instruments for IoT "
+"development."
+msgstr ""
+
+#: ../../../core/quickstart.rst:32
+msgid ""
+"This tutorial is based on the next popular embedded boards and development "
+"platforms using :ref:`framework_arduino`:"
+msgstr ""
+
+#: ../../../core/quickstart.rst:39
+msgid "Platform"
+msgstr ""
+
+#: ../../../core/quickstart.rst:40
+msgid "Board"
+msgstr ""
+
+#: ../../../core/quickstart.rst:41
+msgid "Framework"
+msgstr ""
+
+#: ../../../core/quickstart.rst:43
+msgid ":ref:`platform_atmelavr`"
+msgstr ""
+
+#: ../../../core/quickstart.rst:44
+msgid ":ref:`board_atmelavr_uno`"
+msgstr ""
+
+#: ../../../core/quickstart.rst:45 ../../../core/quickstart.rst:49
+#: ../../../core/quickstart.rst:53
+msgid ":ref:`framework_arduino`"
+msgstr ""
+
+#: ../../../core/quickstart.rst:47
+msgid ":ref:`platform_espressif8266`"
+msgstr ""
+
+#: ../../../core/quickstart.rst:48
+msgid ":ref:`board_espressif8266_nodemcuv2`"
+msgstr ""
+
+#: ../../../core/quickstart.rst:51
+msgid ":ref:`platform_teensy`"
+msgstr ""
+
+#: ../../../core/quickstart.rst:52
+msgid ":ref:`board_teensy_teensy31`"
+msgstr ""
+
+#: ../../../core/quickstart.rst:56
+msgid "Board Identifier"
+msgstr ""
+
+#: ../../../core/quickstart.rst:58
+msgid ""
+":ref:`cmd_project_init` command requires to specify board identifier ID. It "
+"can be found using :ref:`boards` catalog, `Boards Explorer <https://"
+"platformio.org/boards>`_ or :ref:`cmd_boards` command. For example, using :"
+"ref:`cmd_boards` let's try to find Teensy boards:"
+msgstr ""
+
+#: ../../../core/quickstart.rst:77
+msgid ""
+"According to the table above the ID for :ref:`board_teensy_teensy31` is "
+"``teensy31``. Also, the ID for :ref:`board_atmelavr_uno` is ``uno`` and for :"
+"ref:`board_espressif8266_nodemcuv2` is ``nodemcuv2``."
+msgstr ""
+
+#: ../../../core/quickstart.rst:82
+msgid "Initialize Project"
+msgstr ""
+
+#: ../../../core/quickstart.rst:84
+msgid ""
+"PlatformIO ecosystem contains big database with pre-configured settings for "
+"the most popular embedded boards. It helps you to forget about installing "
+"toolchains, writing build scripts or configuring uploading process. Just "
+"tell PlatformIO the Board ID and you will receive full working project with "
+"pre-installed instruments for the professional development."
+msgstr ""
+
+#: ../../../core/quickstart.rst:90
+msgid ""
+"Create empty folder where you are going to initialize new PlatformIO "
+"project. Then open system Terminal and change directory to it:"
+msgstr ""
+
+#: ../../../core/quickstart.rst:101
+msgid ""
+"Initialize project for the boards mentioned above (you can specify more than "
+"one board at time):"
+msgstr ""
+
+#: ../../../core/quickstart.rst:124
+msgid ""
+"Congrats! You have just created the first PlatformIO based Project with the "
+"next structure:"
+msgstr ""
+
+#: ../../../core/quickstart.rst:127
+msgid ":ref:`projectconf`"
+msgstr ""
+
+#: ../../../core/quickstart.rst:128
+msgid ""
+"``src`` directory where you should place source code (``*.h, *.c, *.cpp, *."
+"S, *.ino, etc.``)"
+msgstr ""
+
+#: ../../../core/quickstart.rst:130
+msgid ""
+"``lib`` directory can be used for the project specific (private) libraries. "
+"More details are located in ``lib/README`` file."
+msgstr ""
+
+#: ../../../core/quickstart.rst:132
+msgid "Miscellaneous files for VCS and :ref:`ci` support."
+msgstr ""
+
+#: ../../../core/quickstart.rst:136
+msgid ""
+"If you need to add new board to the existing project please use :ref:"
+"`cmd_project_init` again."
+msgstr ""
+
+#: ../../../core/quickstart.rst:140
+msgid "The result of just generated ``platformio.ini``:"
+msgstr ""
+
+#: ../../../core/quickstart.rst:169
+msgid ""
+"Now, we need to create ``main.cpp`` file and place it to ``src`` folder of "
+"our newly created project. The contents of ``src/main.cpp``:"
+msgstr ""
+
+#: ../../../core/quickstart.rst:208
+msgid "The final Project structure:"
+msgstr ""
+
+#: ../../../core/quickstart.rst:221
+msgid "Process Project"
+msgstr ""
+
+#: ../../../core/quickstart.rst:223
+msgid ""
+":ref:`piocore` provides special :ref:`cmd_run` command to process project. "
+"If you call it without any arguments, PlatformIO Build System will process "
+"all project environments (which were created per each board specified "
+"above). Here are a few useful commands:"
+msgstr ""
+
+#: ../../../core/quickstart.rst:228
+msgid ""
+"``pio run``. Process (build) all environments specified in :ref:`projectconf`"
+msgstr ""
+
+#: ../../../core/quickstart.rst:230
+msgid ""
+"``pio run --target upload``. Build project and upload firmware to the all "
+"devices specified in :ref:`projectconf`"
+msgstr ""
+
+#: ../../../core/quickstart.rst:232
+msgid "``pio run --target clean``. Clean project (delete compiled objects)"
+msgstr ""
+
+#: ../../../core/quickstart.rst:233
+msgid "``pio run -e uno``. Process only ``uno`` environment"
+msgstr ""
+
+#: ../../../core/quickstart.rst:234
+msgid ""
+"``pio run -e uno -t upload``. Build project only for ``uno`` and upload "
+"firmware."
+msgstr ""
+
+#: ../../../core/quickstart.rst:237
+msgid ""
+"Please follow to :option:`pio run --list-targets` documentation for the "
+"other targets."
+msgstr ""
+
+#: ../../../core/quickstart.rst:241
+msgid "Further Reading"
+msgstr ""
+
+#: ../../../core/quickstart.rst:243
+msgid ""
+"`Project examples <https://github.com/platformio/platformio-examples/tree/"
+"develop>`_"
+msgstr ""
+
+#: ../../../core/quickstart.rst:244
+msgid ":ref:`piocore_userguide` for :ref:`piocore` commands"
+msgstr ""

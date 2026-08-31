@@ -1,0 +1,157 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present, PlatformIO
+# This file is distributed under the same license as the PlatformIO package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PlatformIO stable\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-24 14:03+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../core/userguide/pkg/cmd_update.rst:17
+msgid "pio pkg update"
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_update.rst:19
+msgid "Contents"
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_update.rst:22
+msgid "Usage"
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_update.rst:29
+msgid "Description"
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_update.rst:31
+msgid ""
+"Update the project dependencies, custom packages from the |PIOREGISTRY|, or "
+"external sources."
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_update.rst:34
+msgid ""
+"If no custom packages (``--library``, ``--platform``, or ``--tool``) are "
+"specified, the command will update the following project dependencies based "
+"on :ref:`projectconf`:"
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_update.rst:38
+msgid ""
+"Library dependencies declared using the :ref:`projectconf_lib_deps` option"
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_update.rst:39
+msgid ""
+"Development platform declared using the :ref:`projectconf_env_platform` "
+"option and its dependencies (toolchain, framework, SDKs, debugging server, "
+"etc)"
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_update.rst:41
+msgid ""
+"Custom tools declared using the :ref:`projectconf_env_platform_packages` "
+"option."
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_update.rst:43
+msgid "See :ref:`cmd_pkg_install` command for package specification."
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_update.rst:46
+msgid "Options"
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_update.rst:53
+msgid ""
+"Specify the path to project directory. By default, ``--project-dir`` is "
+"equal to current working directory (``CWD``)."
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_update.rst:59
+msgid ""
+"Update project dependencies only for the specified environments. Multiple "
+"environments are allowed."
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_update.rst:65
+msgid "Update specified development platform. Multiple items are allowed."
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_update.rst:67
+#: ../../../core/userguide/pkg/cmd_update.rst:79
+#: ../../../core/userguide/pkg/cmd_update.rst:91
+msgid "**Examples**"
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_update.rst:77
+msgid "Update specified tool. Multiple items are allowed."
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_update.rst:89
+msgid "Update specified library. Multiple items are allowed."
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_update.rst:101
+msgid "Prevent saving specified packages to :ref:`projectconf`."
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_update.rst:106
+msgid ""
+"Update a package but skip its dependencies declared in the manifest :ref:"
+"`manifest_library_json_dependencies` field."
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_update.rst:112
+msgid "Update packages from the global storage:"
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_update.rst:114
+msgid ":ref:`projectconf_pio_platforms_dir` - development platforms"
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_update.rst:115
+msgid ":ref:`projectconf_pio_packages_dir` - tools"
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_update.rst:116
+msgid ":ref:`projectconf_pio_globallib_dir` - libraries."
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_update.rst:121
+msgid "Specify a custom Package Manager storage for global packages."
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_update.rst:126
+msgid "Suppress progress reporting."
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_update.rst:129
+msgid "See Also"
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_update.rst:131
+msgid ":ref:`cmd_pkg_outdated`"
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_update.rst:132
+msgid ":ref:`cmd_pkg_install`"
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_update.rst:133
+msgid ":ref:`cmd_pkg_uninstall`"
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_update.rst:134
+msgid ":ref:`library_json`"
+msgstr ""

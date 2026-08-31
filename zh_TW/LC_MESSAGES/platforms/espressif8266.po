@@ -1,0 +1,1624 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present, PlatformIO
+# This file is distributed under the same license as the PlatformIO package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PlatformIO stable\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-24 14:03+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../platforms/espressif8266.rst:15
+msgid "Espressif 8266"
+msgstr ""
+
+#: ../../../platforms/espressif8266.rst:0
+msgid "Registry"
+msgstr ""
+
+#: ../../../platforms/espressif8266.rst:18
+msgid ""
+"`https://registry.platformio.org/platforms/platformio/espressif8266 <https://"
+"registry.platformio.org/platforms/platformio/espressif8266>`__"
+msgstr ""
+
+#: ../../../platforms/espressif8266.rst:0
+#: ../../../platforms/espressif8266_extra.rst:13
+msgid "Configuration"
+msgstr "組態"
+
+#: ../../../platforms/espressif8266.rst:20
+msgid ":ref:`projectconf_env_platform` = ``platformio/espressif8266``"
+msgstr ""
+
+#: ../../../platforms/espressif8266.rst:22
+msgid ""
+"ESP8266 is a cost-effective and highly integrated Wi-Fi MCU with built-in "
+"TCP/IP networking software for IoT applications. ESP8266 integrates an "
+"enhanced version of Tensilica’s L106 Diamond series 32-bit processor and on-"
+"chip SRAM."
+msgstr ""
+
+#: ../../../platforms/espressif8266.rst:24
+msgid ""
+"For more detailed information please visit `vendor site <https://espressif."
+"com/?utm_source=platformio.org&utm_medium=docs>`_."
+msgstr ""
+
+#: ../../../platforms/espressif8266.rst:28
+msgid "Contents"
+msgstr ""
+
+#: ../../../platforms/espressif8266_extra.rst:19
+msgid "CPU Frequency"
+msgstr ""
+
+#: ../../../platforms/espressif8266_extra.rst:21
+msgid "See :ref:`projectconf_board_build.f_cpu` option from :ref:`projectconf`"
+msgstr ""
+
+#: ../../../platforms/espressif8266_extra.rst:30
+msgid "FLASH Frequency"
+msgstr ""
+
+#: ../../../platforms/espressif8266_extra.rst:32
+msgid ""
+"Please use ``board_build.f_flash`` option from :ref:`projectconf` to change "
+"a value. Possible values:"
+msgstr ""
+
+#: ../../../platforms/espressif8266_extra.rst:35
+msgid "``20000000L``"
+msgstr ""
+
+#: ../../../platforms/espressif8266_extra.rst:36
+msgid "``26000000L``"
+msgstr ""
+
+#: ../../../platforms/espressif8266_extra.rst:37
+msgid "``40000000L`` (default)"
+msgstr ""
+
+#: ../../../platforms/espressif8266_extra.rst:38
+msgid "``80000000L``"
+msgstr ""
+
+#: ../../../platforms/espressif8266_extra.rst:47
+msgid "FLASH Mode"
+msgstr ""
+
+#: ../../../platforms/espressif8266_extra.rst:49
+msgid ""
+"Flash chip interface mode. This parameter is stored in the binary image "
+"header, along with the flash size and flash frequency. The ROM bootloader in "
+"the ESP chip uses the value of these parameters in order to know how to talk "
+"to the flash chip."
+msgstr ""
+
+#: ../../../platforms/espressif8266_extra.rst:54
+msgid ""
+"Please use ``board_build.flash_mode`` option from :ref:`projectconf` to "
+"change a value. Possible values:"
+msgstr ""
+
+#: ../../../platforms/espressif8266_extra.rst:57
+msgid "``qio``"
+msgstr ""
+
+#: ../../../platforms/espressif8266_extra.rst:58
+msgid "``qout``"
+msgstr ""
+
+#: ../../../platforms/espressif8266_extra.rst:59
+msgid "``dio``"
+msgstr ""
+
+#: ../../../platforms/espressif8266_extra.rst:60
+msgid "``dout``"
+msgstr ""
+
+#: ../../../platforms/espressif8266_extra.rst:68
+msgid "Reset Method"
+msgstr ""
+
+#: ../../../platforms/espressif8266_extra.rst:70
+msgid ""
+"You can set custom reset method using :ref:`projectconf_upload_resetmethod` "
+"option from :ref:`projectconf`."
+msgstr ""
+
+#: ../../../platforms/espressif8266_extra.rst:73
+msgid ""
+"The `possible values <https://github.com/igrr/esptool-ck#supported-boards>`_ "
+"are:"
+msgstr ""
+
+#: ../../../platforms/espressif8266_extra.rst:75
+msgid "``ck`` - RTS controls RESET or CH_PD, DTR controls GPIO0"
+msgstr ""
+
+#: ../../../platforms/espressif8266_extra.rst:76
+msgid ""
+"``wifio`` - TXD controls GPIO0 via PNP transistor and DTR controls RESET via "
+"a capacitor"
+msgstr ""
+
+#: ../../../platforms/espressif8266_extra.rst:77
+msgid ""
+"``nodemcu`` - GPIO0 and RESET controlled using two NPN transistors as in "
+"NodeMCU devkit."
+msgstr ""
+
+#: ../../../platforms/espressif8266_extra.rst:79
+msgid ""
+"See `default reset methods per board <https://github.com/platformio/platform-"
+"espressif8266/search?p=1&q=resetmethod>`_."
+msgstr ""
+
+#: ../../../platforms/espressif8266_extra.rst:89
+msgid "Flash Size"
+msgstr ""
+
+#: ../../../platforms/espressif8266_extra.rst:92
+#: ../../../platforms/espressif8266_extra.rst:479
+msgid ""
+"Please make sure to read `ESP8266 Flash layout <https://arduino-esp8266."
+"readthedocs.io/en/latest/filesystem.html#flash-layout>`_ information first."
+msgstr ""
+
+#: ../../../platforms/espressif8266_extra.rst:95
+msgid ""
+"Available LD-scripts: https://github.com/esp8266/Arduino/tree/master/tools/"
+"sdk/ld"
+msgstr ""
+
+#: ../../../platforms/espressif8266_extra.rst:98
+msgid "Please open ``eagle.flash.***.ld`` file to check how flash is split."
+msgstr ""
+
+#: ../../../platforms/espressif8266_extra.rst:100
+msgid ""
+"To override default LD script please use :ref:`projectconf_board_build."
+"ldscript` option from :ref:`projectconf`."
+msgstr ""
+
+#: ../../../platforms/espressif8266_extra.rst:109
+msgid "Upload Speed"
+msgstr ""
+
+#: ../../../platforms/espressif8266_extra.rst:111
+msgid ""
+"You can set custom upload speed using :ref:`projectconf_upload_speed` option "
+"from :ref:`projectconf`"
+msgstr ""
+
+#: ../../../platforms/espressif8266_extra.rst:120
+msgid "lwIP Variant"
+msgstr ""
+
+#: ../../../platforms/espressif8266_extra.rst:122
+msgid "Available variants (macros):"
+msgstr ""
+
+#: ../../../platforms/espressif8266_extra.rst:124
+msgid ""
+"``-D PIO_FRAMEWORK_ARDUINO_LWIP2_LOW_MEMORY`` v2 Lower Memory **(default)**"
+msgstr ""
+
+#: ../../../platforms/espressif8266_extra.rst:125
+msgid "``-D PIO_FRAMEWORK_ARDUINO_LWIP2_HIGHER_BANDWIDTH`` v2 Higher Bandwidth"
+msgstr ""
+
+#: ../../../platforms/espressif8266_extra.rst:126
+msgid ""
+"``-D PIO_FRAMEWORK_ARDUINO_LWIP2_LOW_MEMORY_LOW_FLASH`` v2 Lower Memory (no "
+"features)"
+msgstr ""
+
+#: ../../../platforms/espressif8266_extra.rst:127
+msgid ""
+"``-D PIO_FRAMEWORK_ARDUINO_LWIP2_HIGHER_BANDWIDTH_LOW_FLASH`` v2 Higher "
+"Bandwidth (no features)"
+msgstr ""
+
+#: ../../../platforms/espressif8266_extra.rst:128
+msgid "``-D PIO_FRAMEWORK_ARDUINO_LWIP2_IPV6_LOW_MEMORY`` v2 IPv6 Lower Memory"
+msgstr ""
+
+#: ../../../platforms/espressif8266_extra.rst:129
+msgid ""
+"``-D PIO_FRAMEWORK_ARDUINO_LWIP2_IPV6_HIGHER_BANDWIDTH`` v2 IPv6 Higher "
+"Bandwidth"
+msgstr ""
+
+#: ../../../platforms/espressif8266_extra.rst:130
+msgid ""
+"``-D PIO_FRAMEWORK_ARDUINO_LWIP_HIGHER_BANDWIDTH`` v1.4 Higher Bandwidth"
+msgstr ""
+
+#: ../../../platforms/espressif8266_extra.rst:132
+msgid ""
+"You can change lwIP Variant by passing a custom macro using project :ref:"
+"`projectconf_build_flags`."
+msgstr ""
+
+#: ../../../platforms/espressif8266_extra.rst:135
+msgid "For example, to switch to lwIP v1.4"
+msgstr ""
+
+#: ../../../platforms/espressif8266_extra.rst:144
+msgid "SDK Version"
+msgstr ""
+
+#: ../../../platforms/espressif8266_extra.rst:146
+msgid "Available versions (macros):"
+msgstr ""
+
+#: ../../../platforms/espressif8266_extra.rst:148
+msgid ""
+"``-D PIO_FRAMEWORK_ARDUINO_ESPRESSIF_SDK305`` NonOS SDK-3.0.5 (available "
+"since `Arduino core for ESP8266 3.1.0 <https://github.com/esp8266/Arduino/"
+"releases/tag/3.1.0>`_)"
+msgstr ""
+
+#: ../../../platforms/espressif8266_extra.rst:149
+msgid ""
+"``-D PIO_FRAMEWORK_ARDUINO_ESPRESSIF_SDK3`` NonOS SDK-pre-3.0 as of Jun 26, "
+"2018 (removed in Arduino core for ESP8266 3.1.0)"
+msgstr ""
+
+#: ../../../platforms/espressif8266_extra.rst:150
+msgid ""
+"``-D PIO_FRAMEWORK_ARDUINO_ESPRESSIF_SDK221`` NonOS SDK v2.2.1 (legacy) as "
+"of Jun 8, 2018"
+msgstr ""
+
+#: ../../../platforms/espressif8266_extra.rst:151
+msgid ""
+"``-D PIO_FRAMEWORK_ARDUINO_ESPRESSIF_SDK22x_190313`` NonOS SDK v2.2.x branch "
+"as of Mar 13, 2019"
+msgstr ""
+
+#: ../../../platforms/espressif8266_extra.rst:152
+msgid ""
+"``-D PIO_FRAMEWORK_ARDUINO_ESPRESSIF_SDK22x_190703`` NonOS SDK v2.2.x branch "
+"as of Jul 03, 2019 **(default)**"
+msgstr ""
+
+#: ../../../platforms/espressif8266_extra.rst:153
+msgid ""
+"``-D PIO_FRAMEWORK_ARDUINO_ESPRESSIF_SDK22x_191024`` NonOS SDK v2.2.x branch "
+"as of Oct 24, 2019"
+msgstr ""
+
+#: ../../../platforms/espressif8266_extra.rst:154
+msgid ""
+"``-D PIO_FRAMEWORK_ARDUINO_ESPRESSIF_SDK22x_191105`` NonOS SDK v2.2.x branch "
+"as of to Nov 05, 2019"
+msgstr ""
+
+#: ../../../platforms/espressif8266_extra.rst:155
+msgid ""
+"``-D PIO_FRAMEWORK_ARDUINO_ESPRESSIF_SDK22x_191122`` NonOS SDK v2.2.x branch "
+"as of to Nov 22, 2019"
+msgstr ""
+
+#: ../../../platforms/espressif8266_extra.rst:157
+msgid ""
+"You can change SDK version by passing a custom macro using project :ref:"
+"`projectconf_build_flags`."
+msgstr ""
+
+#: ../../../platforms/espressif8266_extra.rst:160
+msgid "For example, to switch to SDK-pre-3.0:"
+msgstr ""
+
+#: ../../../platforms/espressif8266_extra.rst:169
+msgid "SSL Support"
+msgstr ""
+
+#: ../../../platforms/espressif8266_extra.rst:171
+msgid "By default, all SSL ciphers (most compatible) are supported."
+msgstr ""
+
+#: ../../../platforms/espressif8266_extra.rst:173
+msgid ""
+"You can control SSL support passing a custom macro using project :ref:"
+"`projectconf_build_flags`."
+msgstr ""
+
+#: ../../../platforms/espressif8266_extra.rst:176
+msgid "For example, use basic SSL ciphers (lower ROM use):"
+msgstr ""
+
+#: ../../../platforms/espressif8266_extra.rst:188
+msgid "Serial Debug"
+msgstr ""
+
+#: ../../../platforms/espressif8266_extra.rst:190
+msgid ""
+"Please use the next :ref:`projectconf_build_flags` to enable Serial debug:"
+msgstr ""
+
+#: ../../../platforms/espressif8266_extra.rst:203
+msgid "Debug Level"
+msgstr ""
+
+#: ../../../platforms/espressif8266_extra.rst:205
+msgid ""
+"Please use one of the next :ref:`projectconf_build_flags` to change debug "
+"level. A :ref:`projectconf_build_flags` option could be used only the one "
+"time per build environment. If you need to specify more flags, please "
+"separate them with a new line or space."
+msgstr ""
+
+#: ../../../platforms/espressif8266_extra.rst:210
+msgid ""
+"Also, please note that you will need to extend :ref:"
+"`projectconf_build_flags` with :ref:`platform_espressif8266_serial_debug` "
+"macro. For example, ``build_flags = -DDEBUG_ESP_PORT=Serial -"
+"DDEBUG_ESP_SSL ...``."
+msgstr ""
+
+#: ../../../platforms/espressif8266_extra.rst:214
+msgid ""
+"Actual information is available in `Arduino for ESP8266 Board Manifest "
+"<https://github.com/esp8266/Arduino/blob/master/boards.txt#L286>`_. Please "
+"scroll to ``generic.menu.lvl`` section."
+msgstr ""
+
+#: ../../../platforms/espressif8266_extra.rst:347
+msgid "VTables"
+msgstr ""
+
+#: ../../../platforms/espressif8266_extra.rst:349
+msgid "Please use one of the next :ref:`projectconf_build_flags`:"
+msgstr ""
+
+#: ../../../platforms/espressif8266_extra.rst:367
+msgid "MMU - Adjusting ICACHE to IRAM ratio"
+msgstr ""
+
+#: ../../../platforms/espressif8266_extra.rst:369
+msgid ""
+"By default the balanced ratio (32KB cache + 32KB IRAM) configuration is "
+"used. Alternative configurations can be enabled using the :ref:"
+"`projectconf_build_flags` option in :ref:`projectconf`:"
+msgstr ""
+
+#: ../../../platforms/espressif8266_extra.rst:374
+msgid "MMU Configuration Options"
+msgstr ""
+
+#: ../../../platforms/espressif8266.rst:83
+#: ../../../platforms/espressif8266.rst:129
+#: ../../../platforms/espressif8266.rst:155
+#: ../../../platforms/espressif8266.rst:174
+#: ../../../platforms/espressif8266.rst:193
+#: ../../../platforms/espressif8266.rst:212
+#: ../../../platforms/espressif8266.rst:231
+#: ../../../platforms/espressif8266.rst:256
+#: ../../../platforms/espressif8266.rst:275
+#: ../../../platforms/espressif8266.rst:300
+#: ../../../platforms/espressif8266.rst:319
+#: ../../../platforms/espressif8266.rst:392
+#: ../../../platforms/espressif8266.rst:411
+#: ../../../platforms/espressif8266.rst:448
+#: ../../../platforms/espressif8266.rst:467
+#: ../../../platforms/espressif8266.rst:486
+#: ../../../platforms/espressif8266.rst:511
+#: ../../../platforms/espressif8266.rst:530
+#: ../../../platforms/espressif8266.rst:549
+#: ../../../platforms/espressif8266.rst:574
+#: ../../../platforms/espressif8266.rst:605
+#: ../../../platforms/espressif8266.rst:624
+#: ../../../platforms/espressif8266.rst:643
+#: ../../../platforms/espressif8266.rst:680
+#: ../../../platforms/espressif8266.rst:699
+#: ../../../platforms/espressif8266.rst:718
+#: ../../../platforms/espressif8266_extra.rst:377
+msgid "Name"
+msgstr ""
+
+#: ../../../platforms/espressif8266.rst:84
+#: ../../../platforms/espressif8266.rst:130
+#: ../../../platforms/espressif8266_extra.rst:378
+msgid "Description"
+msgstr ""
+
+#: ../../../platforms/espressif8266_extra.rst:380
+msgid "``PIO_FRAMEWORK_ARDUINO_MMU_CACHE16_IRAM48``"
+msgstr ""
+
+#: ../../../platforms/espressif8266_extra.rst:381
+msgid "16KB cache + 48KB IRAM (IRAM)"
+msgstr ""
+
+#: ../../../platforms/espressif8266_extra.rst:383
+msgid "``PIO_FRAMEWORK_ARDUINO_MMU_CACHE16_IRAM48_SECHEAP_SHARED``"
+msgstr ""
+
+#: ../../../platforms/espressif8266_extra.rst:384
+msgid "16KB cache + 48KB IRAM and 2nd Heap (shared)"
+msgstr ""
+
+#: ../../../platforms/espressif8266_extra.rst:386
+msgid "``PIO_FRAMEWORK_ARDUINO_MMU_CACHE16_IRAM32_SECHEAP_NOTSHARED``"
+msgstr ""
+
+#: ../../../platforms/espressif8266_extra.rst:387
+msgid "16KB cache + 32KB IRAM + 16KB 2nd Heap (not shared)"
+msgstr ""
+
+#: ../../../platforms/espressif8266_extra.rst:389
+msgid "``PIO_FRAMEWORK_ARDUINO_MMU_EXTERNAL_128K``"
+msgstr ""
+
+#: ../../../platforms/espressif8266_extra.rst:390
+msgid "128K External 23LC1024"
+msgstr ""
+
+#: ../../../platforms/espressif8266_extra.rst:392
+msgid "``PIO_FRAMEWORK_ARDUINO_MMU_EXTERNAL_1024K``"
+msgstr ""
+
+#: ../../../platforms/espressif8266_extra.rst:393
+msgid "1M External 64 MBit PSRAM"
+msgstr ""
+
+#: ../../../platforms/espressif8266_extra.rst:395
+msgid "``PIO_FRAMEWORK_ARDUINO_MMU_CUSTOM``"
+msgstr ""
+
+#: ../../../platforms/espressif8266_extra.rst:396
+msgid "Disables default configuration and expects user-specified flags"
+msgstr ""
+
+#: ../../../platforms/espressif8266_extra.rst:398
+msgid "Examples:"
+msgstr "範例："
+
+#: ../../../platforms/espressif8266_extra.rst:426
+msgid ""
+"More detailed information on this matter can be found in the `official "
+"documentation <https://arduino-esp8266.readthedocs.io/en/latest/mmu.html>`_."
+msgstr ""
+
+#: ../../../platforms/espressif8266_extra.rst:429
+msgid "Exceptions"
+msgstr ""
+
+#: ../../../platforms/espressif8266_extra.rst:431
+msgid ""
+"Exceptions are disabled by default. To enable exceptions, use the "
+"``PIO_FRAMEWORK_ARDUINO_ENABLE_EXCEPTIONS`` macro in :ref:"
+"`projectconf_build_flags`. That macro will add the ``-fexceptions`` flag and "
+"will link the final firmware against the ``stdc++-exc`` library with enabled "
+"exceptions. For example:"
+msgstr ""
+
+#: ../../../platforms/espressif8266_extra.rst:446
+msgid "Using Filesystem"
+msgstr ""
+
+#: ../../../platforms/espressif8266_extra.rst:449
+msgid "Selecting appropriate Filesystem"
+msgstr ""
+
+#: ../../../platforms/espressif8266_extra.rst:451
+msgid ""
+"There are two file systems for utilizing the on-board flash on the ESP8266: "
+"``SPIFFS`` and ``LittleFS``. They provide a compatible API but have "
+"incompatible on-flash implementations, so it is important to choose one or "
+"the other per project as attempting to mount a SPIFFS volume under LittleFS "
+"may result in a format operation and definitely will not preserve any files, "
+"and vice-versa."
+msgstr ""
+
+#: ../../../platforms/espressif8266_extra.rst:458
+msgid ""
+"SPIFFS is currently deprecated and may be removed in future releases of the "
+"core. Please consider moving your code to LittleFS."
+msgstr ""
+
+#: ../../../platforms/espressif8266_extra.rst:461
+msgid ""
+"The ``SPIFFS`` file system is used by default in order to keep legacy "
+"project compatible. To choose ``LittleFS`` as the file system, it should be "
+"explicitly specified using ``board_build.filesystem`` option in :ref:"
+"`projectconf`, for example:"
+msgstr ""
+
+#: ../../../platforms/espressif8266_extra.rst:473
+msgid ""
+"More information about pros and cons of each file system can be found in "
+"`the official documentation <https://arduino-esp8266.readthedocs.io/en/"
+"latest/filesystem.html#filesystem>`_."
+msgstr ""
+
+#: ../../../platforms/espressif8266_extra.rst:476
+msgid "Uploading files to Filesystem"
+msgstr ""
+
+#: ../../../platforms/espressif8266_extra.rst:482
+msgid ""
+"Create a new project using :ref:`pioide` or initialize project using :ref:"
+"`piocore` and :ref:`cmd_project_init` (if you have not initialized it yet)"
+msgstr ""
+
+#: ../../../platforms/espressif8266_extra.rst:484
+msgid ""
+"Create the ``data`` folder (it should be on the same level as the ``src`` "
+"folder) and put files there. Also, you can specify your own location for :"
+"ref:`projectconf_pio_data_dir`"
+msgstr ""
+
+#: ../../../platforms/espressif8266_extra.rst:487
+msgid ""
+"Run the \"Upload File System image\" task in :ref:`pioide` or use :ref:"
+"`piocore` and the :option:`pio run --target` command with the ``uploadfs`` "
+"target."
+msgstr ""
+
+#: ../../../platforms/espressif8266_extra.rst:490
+msgid ""
+"To upload file system image using OTA update please specify "
+"``upload_port`` / ``--upload-port`` as IP address or mDNS host name (ending "
+"with the ``*.local``). For the details please follow to :ref:"
+"`platform_espressif_ota`."
+msgstr ""
+
+#: ../../../platforms/espressif8266_extra.rst:494
+msgid ""
+"By default, will be used default LD Script for the board where is specified "
+"file system offsets (start, end, page, block). You can override it using :"
+"ref:`platform_espressif_customflash`."
+msgstr ""
+
+#: ../../../platforms/espressif8266_extra.rst:498
+msgid ""
+"Active discussion is located in `issue #382 <https://github.com/platformio/"
+"platformio-core/issues/382>`_."
+msgstr ""
+
+#: ../../../platforms/espressif8266_extra.rst:501
+msgid "Overriding Filesystem image name"
+msgstr ""
+
+#: ../../../platforms/espressif8266_extra.rst:503
+msgid ""
+"By default, the image file name is set according to the used file system: "
+"``spiffs.bin`` or ``littlefs.bin``. You can change the file name using `a "
+"PRE extra script <https://docs.platformio.org/en/latest/projectconf/"
+"advanced_scripting.html#before-pre-and-after-post-actions>`_, for example:"
+msgstr ""
+
+#: ../../../platforms/espressif8266_extra.rst:516
+msgid "Where a special variable ``ESP8266_FS_IMAGE_NAME`` can be overridden:"
+msgstr ""
+
+#: ../../../platforms/espressif8266_extra.rst:526
+msgid "Over-the-Air (OTA) update"
+msgstr ""
+
+#: ../../../platforms/espressif8266_extra.rst:529
+msgid ""
+"Please make sure to read the theory behind the OTA updates in the `What is "
+"OTA? How to use it? <https://arduino-esp8266.readthedocs.io/en/latest/"
+"ota_updates/readme.html>`_ article first."
+msgstr ""
+
+#: ../../../platforms/espressif8266_extra.rst:533
+msgid ""
+"Create a new project using :ref:`piohome` or initialize a project via :ref:"
+"`piocore` and :ref:`cmd_project_init` (if you have not initialized it yet)"
+msgstr ""
+
+#: ../../../platforms/espressif8266_extra.rst:535
+msgid ""
+"Copy the `basicOTA <https://github.com/esp8266/Arduino/blob/master/libraries/"
+"ArduinoOTA/examples/BasicOTA/BasicOTA.ino>`_ example to :ref:"
+"`projectconf_pio_src_dir` and configure your WiFi credentials (SSID and "
+"password)."
+msgstr ""
+
+#: ../../../platforms/espressif8266_extra.rst:538
+msgid "Compile the project to ensure there are no syntax errors in the code."
+msgstr ""
+
+#: ../../../platforms/espressif8266_extra.rst:540
+msgid ""
+"To upload the binary you can either specify the upload address directly in "
+"the CLI command using the :option:`pio run --upload-port` option:"
+msgstr ""
+
+#: ../../../platforms/espressif8266_extra.rst:547
+#: ../../../platforms/espressif8266_extra.rst:563
+msgid "For example:"
+msgstr ""
+
+#: ../../../platforms/espressif8266_extra.rst:554
+msgid ""
+"Or use the ``upload_port`` option in :ref:`projectconf`. Please note that "
+"you also need to set :ref:`projectconf_upload_protocol` to ``espota``:"
+msgstr ""
+
+#: ../../../platforms/espressif8266_extra.rst:576
+msgid "Authentication and upload options"
+msgstr ""
+
+#: ../../../platforms/espressif8266_extra.rst:578
+msgid ""
+"You can pass additional options/flags to OTA uploader using ``upload_flags`` "
+"option in :ref:`projectconf`"
+msgstr ""
+
+#: ../../../platforms/espressif8266_extra.rst:589
+msgid "Available flags"
+msgstr ""
+
+#: ../../../platforms/espressif8266_extra.rst:591
+msgid "``--port=ESP_PORT`` ESP8266 OTA Port. Default 8266"
+msgstr ""
+
+#: ../../../platforms/espressif8266_extra.rst:592
+msgid "``--auth=AUTH`` Set authentication password"
+msgstr ""
+
+#: ../../../platforms/espressif8266_extra.rst:593
+msgid ""
+"``--spiffs`` Use this option to transmit a SPIFFS image and do not flash the "
+"module"
+msgstr ""
+
+#: ../../../platforms/espressif8266_extra.rst:596
+msgid "For the full list with available options please run"
+msgstr ""
+
+#: ../../../platforms/espressif8266_extra.rst:635
+msgid "Using Arduino Framework with Staging version"
+msgstr ""
+
+#: ../../../platforms/espressif8266_extra.rst:637
+msgid ""
+"PlatformIO will install the latest Arduino Core for ESP8266 from https://"
+"github.com/esp8266/Arduino. The `Git <https://git-scm.com>`_ should be "
+"installed in a system. To update Arduino Core to the latest revision, please "
+"open :ref:`pioide` and navigate to ``PlatformIO Home > Platforms > Updates``."
+msgstr ""
+
+#: ../../../platforms/espressif8266_extra.rst:642
+msgid "Please install :ref:`pioide`"
+msgstr ""
+
+#: ../../../platforms/espressif8266_extra.rst:643
+msgid ""
+"Initialize a new project, open :ref:`projectconf` and specify the link to "
+"the framework repository in :ref:`projectconf_env_platform_packages` "
+"section. For example,"
+msgstr ""
+
+#: ../../../platforms/espressif8266_extra.rst:656
+msgid "Try to build the project"
+msgstr ""
+
+#: ../../../platforms/espressif8266_extra.rst:657
+msgid ""
+"If you see build errors, then try to build this project using the same "
+"``stage`` with Arduino IDE"
+msgstr ""
+
+#: ../../../platforms/espressif8266_extra.rst:659
+msgid ""
+"If it works with Arduino IDE but doesn't work with PlatformIO, then please "
+"`file a new issue <https://github.com/platformio/platform-espressif8266/"
+"issuess>`_ with attached information:"
+msgstr ""
+
+#: ../../../platforms/espressif8266_extra.rst:663
+msgid "test project/files"
+msgstr ""
+
+#: ../../../platforms/espressif8266_extra.rst:664
+msgid ""
+"detailed log of build process from Arduino IDE (please copy it from console "
+"to https://hastebin.com)"
+msgstr ""
+
+#: ../../../platforms/espressif8266_extra.rst:666
+msgid ""
+"detailed log of build process from PlatformIO Build System (please copy it "
+"from console to https://hastebin.com)"
+msgstr ""
+
+#: ../../../platforms/espressif8266.rst:33
+msgid "Examples"
+msgstr "範例"
+
+#: ../../../platforms/espressif8266.rst:35
+msgid ""
+"Examples are listed from `Espressif 8266 development platform repository "
+"<https://github.com/platformio/platform-espressif8266/tree/master/examples?"
+"utm_source=platformio.org&utm_medium=docs>`_:"
+msgstr ""
+
+#: ../../../platforms/espressif8266.rst:37
+msgid ""
+"`arduino-webserver <https://github.com/platformio/platform-espressif8266/"
+"tree/master/examples/arduino-webserver?utm_source=platformio."
+"org&utm_medium=docs>`_"
+msgstr ""
+
+#: ../../../platforms/espressif8266.rst:38
+msgid ""
+"`arduino-asyncudp <https://github.com/platformio/platform-espressif8266/tree/"
+"master/examples/arduino-asyncudp?utm_source=platformio.org&utm_medium=docs>`_"
+msgstr ""
+
+#: ../../../platforms/espressif8266.rst:39
+msgid ""
+"`arduino-blink <https://github.com/platformio/platform-espressif8266/tree/"
+"master/examples/arduino-blink?utm_source=platformio.org&utm_medium=docs>`_"
+msgstr ""
+
+#: ../../../platforms/espressif8266.rst:40
+msgid ""
+"`esp8266-rtos-sdk-blink <https://github.com/platformio/platform-"
+"espressif8266/tree/master/examples/esp8266-rtos-sdk-blink?"
+"utm_source=platformio.org&utm_medium=docs>`_"
+msgstr ""
+
+#: ../../../platforms/espressif8266.rst:41
+msgid ""
+"`esp8266-nonos-sdk-blink <https://github.com/platformio/platform-"
+"espressif8266/tree/master/examples/esp8266-nonos-sdk-blink?"
+"utm_source=platformio.org&utm_medium=docs>`_"
+msgstr ""
+
+#: ../../../platforms/espressif8266.rst:42
+msgid ""
+"`arduino-wifiscan <https://github.com/platformio/platform-espressif8266/tree/"
+"master/examples/arduino-wifiscan?utm_source=platformio.org&utm_medium=docs>`_"
+msgstr ""
+
+#: ../../../platforms/espressif8266.rst:45
+msgid "Stable and upstream versions"
+msgstr ""
+
+#: ../../../platforms/espressif8266.rst:47
+msgid ""
+"You can switch between `stable releases <https://github.com/platformio/"
+"platform-espressif8266/releases>`__ of Espressif 8266 development platform "
+"and the latest upstream version using :ref:`projectconf_env_platform` option "
+"in :ref:`projectconf` as described below."
+msgstr ""
+
+#: ../../../platforms/espressif8266.rst:52
+msgid "Stable"
+msgstr ""
+
+#: ../../../platforms/espressif8266.rst:68
+msgid "Upstream"
+msgstr ""
+
+#: ../../../platforms/espressif8266.rst:78
+msgid "Packages"
+msgstr ""
+
+#: ../../../platforms/espressif8266.rst:86
+msgid ""
+"`framework-arduinoespressif8266 <https://registry.platformio.org/tools/"
+"platformio/framework-arduinoespressif8266>`__"
+msgstr ""
+
+#: ../../../platforms/espressif8266.rst:87
+msgid "Arduino Wiring-based Framework for Espressif ESP8266 microcontrollers"
+msgstr ""
+
+#: ../../../platforms/espressif8266.rst:89
+msgid ""
+"`framework-esp8266-nonos-sdk <https://registry.platformio.org/tools/"
+"platformio/framework-esp8266-nonos-sdk>`__"
+msgstr ""
+
+#: ../../../platforms/espressif8266.rst:90
+#: ../../../platforms/espressif8266.rst:136
+msgid "Espressif ESP8266 Non-OS SDK"
+msgstr ""
+
+#: ../../../platforms/espressif8266.rst:92
+msgid ""
+"`framework-esp8266-rtos-sdk <https://registry.platformio.org/tools/"
+"platformio/framework-esp8266-rtos-sdk>`__"
+msgstr ""
+
+#: ../../../platforms/espressif8266.rst:93
+#: ../../../platforms/espressif8266.rst:139
+msgid "Espressif ESP8266 SDK based on FreeRTOS"
+msgstr ""
+
+#: ../../../platforms/espressif8266.rst:95
+msgid ""
+"`tool-esptool <https://registry.platformio.org/tools/platformio/tool-"
+"esptool>`__"
+msgstr ""
+
+#: ../../../platforms/espressif8266.rst:96
+msgid "Espressif ESP8266 build/flash helper tool"
+msgstr ""
+
+#: ../../../platforms/espressif8266.rst:98
+msgid ""
+"`tool-esptoolpy <https://registry.platformio.org/tools/platformio/tool-"
+"esptoolpy>`__"
+msgstr ""
+
+#: ../../../platforms/espressif8266.rst:99
+msgid ""
+"A Python-based, open-source, platform-independent utility to communicate "
+"with the ROM bootloader in Espressif chips"
+msgstr ""
+
+#: ../../../platforms/espressif8266.rst:101
+msgid ""
+"`tool-mklittlefs <https://registry.platformio.org/tools/platformio/tool-"
+"mklittlefs>`__"
+msgstr ""
+
+#: ../../../platforms/espressif8266.rst:102
+msgid "Utility for creating littlefs images for upload on the ESP8266"
+msgstr ""
+
+#: ../../../platforms/espressif8266.rst:104
+msgid ""
+"`tool-mkspiffs <https://registry.platformio.org/tools/platformio/tool-"
+"mkspiffs>`__"
+msgstr ""
+
+#: ../../../platforms/espressif8266.rst:105
+msgid "Tool to build and unpack SPIFFS images"
+msgstr ""
+
+#: ../../../platforms/espressif8266.rst:107
+msgid ""
+"`toolchain-xtensa <https://registry.platformio.org/tools/platformio/"
+"toolchain-xtensa>`__"
+msgstr ""
+
+#: ../../../platforms/espressif8266.rst:108
+msgid "GCC Toolchain for Xtensa processor"
+msgstr ""
+
+#: ../../../platforms/espressif8266.rst:111
+msgid "**Linux Users**:"
+msgstr "**Linux 使用者**："
+
+#: ../../../platforms/espressif8266.rst:113
+msgid "Install \"udev\" rules :ref:`platformio_udev_rules`"
+msgstr ""
+
+#: ../../../platforms/espressif8266.rst:114
+msgid ""
+"Raspberry Pi users, please read this article `Enable serial port on "
+"Raspberry Pi <https://hallard.me/enable-serial-port-on-raspberry-pi/>`__."
+msgstr ""
+
+#: ../../../platforms/espressif8266.rst:118
+msgid "**Windows Users:**"
+msgstr "**Windows 使用者：**"
+
+#: ../../../platforms/espressif8266.rst:120
+msgid ""
+"Please check that you have a correctly installed USB driver from board "
+"manufacturer"
+msgstr ""
+
+#: ../../../platforms/espressif8266.rst:125
+msgid "Frameworks"
+msgstr "框架"
+
+#: ../../../platforms/espressif8266.rst:132
+msgid ":ref:`framework_arduino`"
+msgstr ""
+
+#: ../../../platforms/espressif8266.rst:133
+msgid ""
+"Arduino Wiring-based Framework allows writing cross-platform software to "
+"control devices attached to a wide range of Arduino boards to create all "
+"kinds of creative coding, interactive objects, spaces or physical "
+"experiences."
+msgstr ""
+
+#: ../../../platforms/espressif8266.rst:135
+msgid ":ref:`framework_esp8266-nonos-sdk`"
+msgstr ""
+
+#: ../../../platforms/espressif8266.rst:138
+msgid ":ref:`framework_esp8266-rtos-sdk`"
+msgstr ""
+
+#: ../../../platforms/espressif8266.rst:142
+msgid "Boards"
+msgstr "開發板"
+
+#: ../../../platforms/espressif8266.rst:145
+msgid "You can list pre-configured boards by :ref:`cmd_boards` command"
+msgstr ""
+
+#: ../../../platforms/espressif8266.rst:146
+msgid ""
+"For more detailed ``board`` information please scroll the tables below by "
+"horizontally."
+msgstr ""
+
+#: ../../../platforms/espressif8266.rst:150
+msgid "4D Systems"
+msgstr ""
+
+#: ../../../platforms/espressif8266.rst:156
+#: ../../../platforms/espressif8266.rst:175
+#: ../../../platforms/espressif8266.rst:194
+#: ../../../platforms/espressif8266.rst:213
+#: ../../../platforms/espressif8266.rst:232
+#: ../../../platforms/espressif8266.rst:257
+#: ../../../platforms/espressif8266.rst:276
+#: ../../../platforms/espressif8266.rst:301
+#: ../../../platforms/espressif8266.rst:320
+#: ../../../platforms/espressif8266.rst:393
+#: ../../../platforms/espressif8266.rst:412
+#: ../../../platforms/espressif8266.rst:449
+#: ../../../platforms/espressif8266.rst:468
+#: ../../../platforms/espressif8266.rst:487
+#: ../../../platforms/espressif8266.rst:512
+#: ../../../platforms/espressif8266.rst:531
+#: ../../../platforms/espressif8266.rst:550
+#: ../../../platforms/espressif8266.rst:575
+#: ../../../platforms/espressif8266.rst:606
+#: ../../../platforms/espressif8266.rst:625
+#: ../../../platforms/espressif8266.rst:644
+#: ../../../platforms/espressif8266.rst:681
+#: ../../../platforms/espressif8266.rst:700
+#: ../../../platforms/espressif8266.rst:719
+msgid "Debug"
+msgstr ""
+
+#: ../../../platforms/espressif8266.rst:157
+#: ../../../platforms/espressif8266.rst:176
+#: ../../../platforms/espressif8266.rst:195
+#: ../../../platforms/espressif8266.rst:214
+#: ../../../platforms/espressif8266.rst:233
+#: ../../../platforms/espressif8266.rst:258
+#: ../../../platforms/espressif8266.rst:277
+#: ../../../platforms/espressif8266.rst:302
+#: ../../../platforms/espressif8266.rst:321
+#: ../../../platforms/espressif8266.rst:394
+#: ../../../platforms/espressif8266.rst:413
+#: ../../../platforms/espressif8266.rst:450
+#: ../../../platforms/espressif8266.rst:469
+#: ../../../platforms/espressif8266.rst:488
+#: ../../../platforms/espressif8266.rst:513
+#: ../../../platforms/espressif8266.rst:532
+#: ../../../platforms/espressif8266.rst:551
+#: ../../../platforms/espressif8266.rst:576
+#: ../../../platforms/espressif8266.rst:607
+#: ../../../platforms/espressif8266.rst:626
+#: ../../../platforms/espressif8266.rst:645
+#: ../../../platforms/espressif8266.rst:682
+#: ../../../platforms/espressif8266.rst:701
+#: ../../../platforms/espressif8266.rst:720
+msgid "MCU"
+msgstr ""
+
+#: ../../../platforms/espressif8266.rst:158
+#: ../../../platforms/espressif8266.rst:177
+#: ../../../platforms/espressif8266.rst:196
+#: ../../../platforms/espressif8266.rst:215
+#: ../../../platforms/espressif8266.rst:234
+#: ../../../platforms/espressif8266.rst:259
+#: ../../../platforms/espressif8266.rst:278
+#: ../../../platforms/espressif8266.rst:303
+#: ../../../platforms/espressif8266.rst:322
+#: ../../../platforms/espressif8266.rst:395
+#: ../../../platforms/espressif8266.rst:414
+#: ../../../platforms/espressif8266.rst:451
+#: ../../../platforms/espressif8266.rst:470
+#: ../../../platforms/espressif8266.rst:489
+#: ../../../platforms/espressif8266.rst:514
+#: ../../../platforms/espressif8266.rst:533
+#: ../../../platforms/espressif8266.rst:552
+#: ../../../platforms/espressif8266.rst:577
+#: ../../../platforms/espressif8266.rst:608
+#: ../../../platforms/espressif8266.rst:627
+#: ../../../platforms/espressif8266.rst:646
+#: ../../../platforms/espressif8266.rst:683
+#: ../../../platforms/espressif8266.rst:702
+#: ../../../platforms/espressif8266.rst:721
+msgid "Frequency"
+msgstr ""
+
+#: ../../../platforms/espressif8266.rst:159
+#: ../../../platforms/espressif8266.rst:178
+#: ../../../platforms/espressif8266.rst:197
+#: ../../../platforms/espressif8266.rst:216
+#: ../../../platforms/espressif8266.rst:235
+#: ../../../platforms/espressif8266.rst:260
+#: ../../../platforms/espressif8266.rst:279
+#: ../../../platforms/espressif8266.rst:304
+#: ../../../platforms/espressif8266.rst:323
+#: ../../../platforms/espressif8266.rst:396
+#: ../../../platforms/espressif8266.rst:415
+#: ../../../platforms/espressif8266.rst:452
+#: ../../../platforms/espressif8266.rst:471
+#: ../../../platforms/espressif8266.rst:490
+#: ../../../platforms/espressif8266.rst:515
+#: ../../../platforms/espressif8266.rst:534
+#: ../../../platforms/espressif8266.rst:553
+#: ../../../platforms/espressif8266.rst:578
+#: ../../../platforms/espressif8266.rst:609
+#: ../../../platforms/espressif8266.rst:628
+#: ../../../platforms/espressif8266.rst:647
+#: ../../../platforms/espressif8266.rst:684
+#: ../../../platforms/espressif8266.rst:703
+#: ../../../platforms/espressif8266.rst:722
+msgid "Flash"
+msgstr ""
+
+#: ../../../platforms/espressif8266.rst:160
+#: ../../../platforms/espressif8266.rst:179
+#: ../../../platforms/espressif8266.rst:198
+#: ../../../platforms/espressif8266.rst:217
+#: ../../../platforms/espressif8266.rst:236
+#: ../../../platforms/espressif8266.rst:261
+#: ../../../platforms/espressif8266.rst:280
+#: ../../../platforms/espressif8266.rst:305
+#: ../../../platforms/espressif8266.rst:324
+#: ../../../platforms/espressif8266.rst:397
+#: ../../../platforms/espressif8266.rst:416
+#: ../../../platforms/espressif8266.rst:453
+#: ../../../platforms/espressif8266.rst:472
+#: ../../../platforms/espressif8266.rst:491
+#: ../../../platforms/espressif8266.rst:516
+#: ../../../platforms/espressif8266.rst:535
+#: ../../../platforms/espressif8266.rst:554
+#: ../../../platforms/espressif8266.rst:579
+#: ../../../platforms/espressif8266.rst:610
+#: ../../../platforms/espressif8266.rst:629
+#: ../../../platforms/espressif8266.rst:648
+#: ../../../platforms/espressif8266.rst:685
+#: ../../../platforms/espressif8266.rst:704
+#: ../../../platforms/espressif8266.rst:723
+msgid "RAM"
+msgstr ""
+
+#: ../../../platforms/espressif8266.rst:161
+msgid ":ref:`board_espressif8266_gen4iod`"
+msgstr ""
+
+#: ../../../platforms/espressif8266.rst:162
+#: ../../../platforms/espressif8266.rst:181
+#: ../../../platforms/espressif8266.rst:200
+#: ../../../platforms/espressif8266.rst:219
+#: ../../../platforms/espressif8266.rst:238
+#: ../../../platforms/espressif8266.rst:244
+#: ../../../platforms/espressif8266.rst:263
+#: ../../../platforms/espressif8266.rst:282
+#: ../../../platforms/espressif8266.rst:288
+#: ../../../platforms/espressif8266.rst:307
+#: ../../../platforms/espressif8266.rst:326
+#: ../../../platforms/espressif8266.rst:332
+#: ../../../platforms/espressif8266.rst:338
+#: ../../../platforms/espressif8266.rst:344
+#: ../../../platforms/espressif8266.rst:350
+#: ../../../platforms/espressif8266.rst:356
+#: ../../../platforms/espressif8266.rst:362
+#: ../../../platforms/espressif8266.rst:368
+#: ../../../platforms/espressif8266.rst:374
+#: ../../../platforms/espressif8266.rst:380
+#: ../../../platforms/espressif8266.rst:399
+#: ../../../platforms/espressif8266.rst:418
+#: ../../../platforms/espressif8266.rst:424
+#: ../../../platforms/espressif8266.rst:430
+#: ../../../platforms/espressif8266.rst:436
+#: ../../../platforms/espressif8266.rst:455
+#: ../../../platforms/espressif8266.rst:474
+#: ../../../platforms/espressif8266.rst:493
+#: ../../../platforms/espressif8266.rst:499
+#: ../../../platforms/espressif8266.rst:518
+#: ../../../platforms/espressif8266.rst:537
+#: ../../../platforms/espressif8266.rst:556
+#: ../../../platforms/espressif8266.rst:562
+#: ../../../platforms/espressif8266.rst:581
+#: ../../../platforms/espressif8266.rst:587
+#: ../../../platforms/espressif8266.rst:593
+#: ../../../platforms/espressif8266.rst:612
+#: ../../../platforms/espressif8266.rst:631
+#: ../../../platforms/espressif8266.rst:650
+#: ../../../platforms/espressif8266.rst:656
+#: ../../../platforms/espressif8266.rst:662
+#: ../../../platforms/espressif8266.rst:668
+#: ../../../platforms/espressif8266.rst:687
+#: ../../../platforms/espressif8266.rst:706
+#: ../../../platforms/espressif8266.rst:725
+msgid "No"
+msgstr ""
+
+#: ../../../platforms/espressif8266.rst:163
+#: ../../../platforms/espressif8266.rst:182
+#: ../../../platforms/espressif8266.rst:201
+#: ../../../platforms/espressif8266.rst:220
+#: ../../../platforms/espressif8266.rst:239
+#: ../../../platforms/espressif8266.rst:245
+#: ../../../platforms/espressif8266.rst:264
+#: ../../../platforms/espressif8266.rst:283
+#: ../../../platforms/espressif8266.rst:289
+#: ../../../platforms/espressif8266.rst:308
+#: ../../../platforms/espressif8266.rst:327
+#: ../../../platforms/espressif8266.rst:333
+#: ../../../platforms/espressif8266.rst:339
+#: ../../../platforms/espressif8266.rst:345
+#: ../../../platforms/espressif8266.rst:351
+#: ../../../platforms/espressif8266.rst:357
+#: ../../../platforms/espressif8266.rst:363
+#: ../../../platforms/espressif8266.rst:369
+#: ../../../platforms/espressif8266.rst:375
+#: ../../../platforms/espressif8266.rst:381
+#: ../../../platforms/espressif8266.rst:400
+#: ../../../platforms/espressif8266.rst:419
+#: ../../../platforms/espressif8266.rst:425
+#: ../../../platforms/espressif8266.rst:431
+#: ../../../platforms/espressif8266.rst:437
+#: ../../../platforms/espressif8266.rst:456
+#: ../../../platforms/espressif8266.rst:475
+#: ../../../platforms/espressif8266.rst:494
+#: ../../../platforms/espressif8266.rst:500
+#: ../../../platforms/espressif8266.rst:519
+#: ../../../platforms/espressif8266.rst:538
+#: ../../../platforms/espressif8266.rst:557
+#: ../../../platforms/espressif8266.rst:563
+#: ../../../platforms/espressif8266.rst:582
+#: ../../../platforms/espressif8266.rst:588
+#: ../../../platforms/espressif8266.rst:594
+#: ../../../platforms/espressif8266.rst:613
+#: ../../../platforms/espressif8266.rst:632
+#: ../../../platforms/espressif8266.rst:651
+#: ../../../platforms/espressif8266.rst:657
+#: ../../../platforms/espressif8266.rst:663
+#: ../../../platforms/espressif8266.rst:669
+#: ../../../platforms/espressif8266.rst:688
+#: ../../../platforms/espressif8266.rst:707
+#: ../../../platforms/espressif8266.rst:726
+msgid "ESP8266"
+msgstr ""
+
+#: ../../../platforms/espressif8266.rst:164
+#: ../../../platforms/espressif8266.rst:183
+#: ../../../platforms/espressif8266.rst:202
+#: ../../../platforms/espressif8266.rst:221
+#: ../../../platforms/espressif8266.rst:240
+#: ../../../platforms/espressif8266.rst:246
+#: ../../../platforms/espressif8266.rst:265
+#: ../../../platforms/espressif8266.rst:284
+#: ../../../platforms/espressif8266.rst:290
+#: ../../../platforms/espressif8266.rst:309
+#: ../../../platforms/espressif8266.rst:328
+#: ../../../platforms/espressif8266.rst:334
+#: ../../../platforms/espressif8266.rst:340
+#: ../../../platforms/espressif8266.rst:346
+#: ../../../platforms/espressif8266.rst:352
+#: ../../../platforms/espressif8266.rst:358
+#: ../../../platforms/espressif8266.rst:364
+#: ../../../platforms/espressif8266.rst:370
+#: ../../../platforms/espressif8266.rst:376
+#: ../../../platforms/espressif8266.rst:382
+#: ../../../platforms/espressif8266.rst:401
+#: ../../../platforms/espressif8266.rst:420
+#: ../../../platforms/espressif8266.rst:426
+#: ../../../platforms/espressif8266.rst:432
+#: ../../../platforms/espressif8266.rst:438
+#: ../../../platforms/espressif8266.rst:457
+#: ../../../platforms/espressif8266.rst:476
+#: ../../../platforms/espressif8266.rst:495
+#: ../../../platforms/espressif8266.rst:501
+#: ../../../platforms/espressif8266.rst:520
+#: ../../../platforms/espressif8266.rst:539
+#: ../../../platforms/espressif8266.rst:558
+#: ../../../platforms/espressif8266.rst:564
+#: ../../../platforms/espressif8266.rst:583
+#: ../../../platforms/espressif8266.rst:589
+#: ../../../platforms/espressif8266.rst:595
+#: ../../../platforms/espressif8266.rst:614
+#: ../../../platforms/espressif8266.rst:633
+#: ../../../platforms/espressif8266.rst:652
+#: ../../../platforms/espressif8266.rst:658
+#: ../../../platforms/espressif8266.rst:664
+#: ../../../platforms/espressif8266.rst:670
+#: ../../../platforms/espressif8266.rst:689
+#: ../../../platforms/espressif8266.rst:708
+#: ../../../platforms/espressif8266.rst:727
+msgid "80MHz"
+msgstr ""
+
+#: ../../../platforms/espressif8266.rst:165
+#: ../../../platforms/espressif8266.rst:347
+#: ../../../platforms/espressif8266.rst:590
+#: ../../../platforms/espressif8266.rst:596
+msgid "512KB"
+msgstr ""
+
+#: ../../../platforms/espressif8266.rst:166
+#: ../../../platforms/espressif8266.rst:185
+#: ../../../platforms/espressif8266.rst:204
+#: ../../../platforms/espressif8266.rst:223
+#: ../../../platforms/espressif8266.rst:242
+#: ../../../platforms/espressif8266.rst:248
+#: ../../../platforms/espressif8266.rst:267
+#: ../../../platforms/espressif8266.rst:286
+#: ../../../platforms/espressif8266.rst:292
+#: ../../../platforms/espressif8266.rst:311
+#: ../../../platforms/espressif8266.rst:330
+#: ../../../platforms/espressif8266.rst:336
+#: ../../../platforms/espressif8266.rst:342
+#: ../../../platforms/espressif8266.rst:348
+#: ../../../platforms/espressif8266.rst:354
+#: ../../../platforms/espressif8266.rst:360
+#: ../../../platforms/espressif8266.rst:366
+#: ../../../platforms/espressif8266.rst:372
+#: ../../../platforms/espressif8266.rst:378
+#: ../../../platforms/espressif8266.rst:384
+#: ../../../platforms/espressif8266.rst:403
+#: ../../../platforms/espressif8266.rst:422
+#: ../../../platforms/espressif8266.rst:428
+#: ../../../platforms/espressif8266.rst:434
+#: ../../../platforms/espressif8266.rst:440
+#: ../../../platforms/espressif8266.rst:459
+#: ../../../platforms/espressif8266.rst:478
+#: ../../../platforms/espressif8266.rst:497
+#: ../../../platforms/espressif8266.rst:503
+#: ../../../platforms/espressif8266.rst:522
+#: ../../../platforms/espressif8266.rst:541
+#: ../../../platforms/espressif8266.rst:560
+#: ../../../platforms/espressif8266.rst:566
+#: ../../../platforms/espressif8266.rst:585
+#: ../../../platforms/espressif8266.rst:591
+#: ../../../platforms/espressif8266.rst:597
+#: ../../../platforms/espressif8266.rst:616
+#: ../../../platforms/espressif8266.rst:635
+#: ../../../platforms/espressif8266.rst:654
+#: ../../../platforms/espressif8266.rst:660
+#: ../../../platforms/espressif8266.rst:666
+#: ../../../platforms/espressif8266.rst:672
+#: ../../../platforms/espressif8266.rst:691
+#: ../../../platforms/espressif8266.rst:710
+#: ../../../platforms/espressif8266.rst:729
+msgid "80KB"
+msgstr ""
+
+#: ../../../platforms/espressif8266.rst:169
+msgid "Adafruit"
+msgstr ""
+
+#: ../../../platforms/espressif8266.rst:180
+msgid ":ref:`board_espressif8266_huzzah`"
+msgstr ""
+
+#: ../../../platforms/espressif8266.rst:184
+#: ../../../platforms/espressif8266.rst:203
+#: ../../../platforms/espressif8266.rst:222
+#: ../../../platforms/espressif8266.rst:247
+#: ../../../platforms/espressif8266.rst:266
+#: ../../../platforms/espressif8266.rst:285
+#: ../../../platforms/espressif8266.rst:291
+#: ../../../platforms/espressif8266.rst:310
+#: ../../../platforms/espressif8266.rst:335
+#: ../../../platforms/espressif8266.rst:359
+#: ../../../platforms/espressif8266.rst:371
+#: ../../../platforms/espressif8266.rst:377
+#: ../../../platforms/espressif8266.rst:402
+#: ../../../platforms/espressif8266.rst:458
+#: ../../../platforms/espressif8266.rst:496
+#: ../../../platforms/espressif8266.rst:502
+#: ../../../platforms/espressif8266.rst:540
+#: ../../../platforms/espressif8266.rst:559
+#: ../../../platforms/espressif8266.rst:565
+#: ../../../platforms/espressif8266.rst:584
+#: ../../../platforms/espressif8266.rst:615
+#: ../../../platforms/espressif8266.rst:634
+#: ../../../platforms/espressif8266.rst:653
+#: ../../../platforms/espressif8266.rst:659
+#: ../../../platforms/espressif8266.rst:709
+#: ../../../platforms/espressif8266.rst:728
+msgid "4MB"
+msgstr ""
+
+#: ../../../platforms/espressif8266.rst:188
+msgid "Amperka"
+msgstr ""
+
+#: ../../../platforms/espressif8266.rst:199
+msgid ":ref:`board_espressif8266_wifi_slot`"
+msgstr ""
+
+#: ../../../platforms/espressif8266.rst:207
+msgid "DigiStump"
+msgstr ""
+
+#: ../../../platforms/espressif8266.rst:218
+msgid ":ref:`board_espressif8266_oak`"
+msgstr ""
+
+#: ../../../platforms/espressif8266.rst:226
+msgid "Doit"
+msgstr ""
+
+#: ../../../platforms/espressif8266.rst:237
+msgid ":ref:`board_espressif8266_espmxdevkit`"
+msgstr ""
+
+#: ../../../platforms/espressif8266.rst:241
+#: ../../../platforms/espressif8266.rst:341
+#: ../../../platforms/espressif8266.rst:353
+#: ../../../platforms/espressif8266.rst:365
+#: ../../../platforms/espressif8266.rst:383
+#: ../../../platforms/espressif8266.rst:421
+#: ../../../platforms/espressif8266.rst:427
+#: ../../../platforms/espressif8266.rst:433
+#: ../../../platforms/espressif8266.rst:439
+#: ../../../platforms/espressif8266.rst:665
+msgid "1MB"
+msgstr ""
+
+#: ../../../platforms/espressif8266.rst:243
+msgid ":ref:`board_espressif8266_espduino`"
+msgstr ""
+
+#: ../../../platforms/espressif8266.rst:251
+msgid "DycodeX"
+msgstr ""
+
+#: ../../../platforms/espressif8266.rst:262
+msgid ":ref:`board_espressif8266_espectro`"
+msgstr ""
+
+#: ../../../platforms/espressif8266.rst:270
+msgid "ESPert"
+msgstr ""
+
+#: ../../../platforms/espressif8266.rst:281
+msgid ":ref:`board_espressif8266_espresso_lite_v1`"
+msgstr ""
+
+#: ../../../platforms/espressif8266.rst:287
+msgid ":ref:`board_espressif8266_espresso_lite_v2`"
+msgstr ""
+
+#: ../../../platforms/espressif8266.rst:295
+msgid "ESPino"
+msgstr ""
+
+#: ../../../platforms/espressif8266.rst:306
+msgid ":ref:`board_espressif8266_espino`"
+msgstr ""
+
+#: ../../../platforms/espressif8266.rst:314
+msgid "Espressif"
+msgstr ""
+
+#: ../../../platforms/espressif8266.rst:325
+msgid ":ref:`board_espressif8266_esp_wroom_02`"
+msgstr ""
+
+#: ../../../platforms/espressif8266.rst:329
+#: ../../../platforms/espressif8266.rst:477
+#: ../../../platforms/espressif8266.rst:521
+#: ../../../platforms/espressif8266.rst:690
+msgid "2MB"
+msgstr ""
+
+#: ../../../platforms/espressif8266.rst:331
+msgid ":ref:`board_espressif8266_esp12e`"
+msgstr ""
+
+#: ../../../platforms/espressif8266.rst:337
+msgid ":ref:`board_espressif8266_esp01_1m`"
+msgstr ""
+
+#: ../../../platforms/espressif8266.rst:343
+msgid ":ref:`board_espressif8266_esp01`"
+msgstr ""
+
+#: ../../../platforms/espressif8266.rst:349
+msgid ":ref:`board_espressif8266_esp07`"
+msgstr ""
+
+#: ../../../platforms/espressif8266.rst:355
+msgid ":ref:`board_espressif8266_esp07s`"
+msgstr ""
+
+#: ../../../platforms/espressif8266.rst:361
+msgid ":ref:`board_espressif8266_esp8285`"
+msgstr ""
+
+#: ../../../platforms/espressif8266.rst:367
+msgid ":ref:`board_espressif8266_phoenix_v1`"
+msgstr ""
+
+#: ../../../platforms/espressif8266.rst:373
+msgid ":ref:`board_espressif8266_phoenix_v2`"
+msgstr ""
+
+#: ../../../platforms/espressif8266.rst:379
+msgid ":ref:`board_espressif8266_wifinfo`"
+msgstr ""
+
+#: ../../../platforms/espressif8266.rst:387
+msgid "Heltec"
+msgstr ""
+
+#: ../../../platforms/espressif8266.rst:398
+msgid ":ref:`board_espressif8266_heltec_wifi_kit_8`"
+msgstr ""
+
+#: ../../../platforms/espressif8266.rst:406
+msgid "ITEAD"
+msgstr ""
+
+#: ../../../platforms/espressif8266.rst:417
+msgid ":ref:`board_espressif8266_sonoff_basic`"
+msgstr ""
+
+#: ../../../platforms/espressif8266.rst:423
+msgid ":ref:`board_espressif8266_sonoff_s20`"
+msgstr ""
+
+#: ../../../platforms/espressif8266.rst:429
+msgid ":ref:`board_espressif8266_sonoff_sv`"
+msgstr ""
+
+#: ../../../platforms/espressif8266.rst:435
+msgid ":ref:`board_espressif8266_sonoff_th`"
+msgstr ""
+
+#: ../../../platforms/espressif8266.rst:443
+msgid "Invent One"
+msgstr ""
+
+#: ../../../platforms/espressif8266.rst:454
+msgid ":ref:`board_espressif8266_inventone`"
+msgstr ""
+
+#: ../../../platforms/espressif8266.rst:462
+msgid "Lifely.cc"
+msgstr ""
+
+#: ../../../platforms/espressif8266.rst:473
+msgid ":ref:`board_espressif8266_agruminolemon`"
+msgstr ""
+
+#: ../../../platforms/espressif8266.rst:481
+msgid "NodeMCU"
+msgstr ""
+
+#: ../../../platforms/espressif8266.rst:492
+msgid ":ref:`board_espressif8266_nodemcu`"
+msgstr ""
+
+#: ../../../platforms/espressif8266.rst:498
+msgid ":ref:`board_espressif8266_nodemcuv2`"
+msgstr ""
+
+#: ../../../platforms/espressif8266.rst:506
+msgid "Olimex"
+msgstr ""
+
+#: ../../../platforms/espressif8266.rst:517
+msgid ":ref:`board_espressif8266_modwifi`"
+msgstr ""
+
+#: ../../../platforms/espressif8266.rst:525
+msgid "Schirmilabs"
+msgstr ""
+
+#: ../../../platforms/espressif8266.rst:536
+msgid ":ref:`board_espressif8266_eduinowifi`"
+msgstr ""
+
+#: ../../../platforms/espressif8266.rst:544
+msgid "SeeedStudio"
+msgstr ""
+
+#: ../../../platforms/espressif8266.rst:555
+msgid ":ref:`board_espressif8266_wio_link`"
+msgstr ""
+
+#: ../../../platforms/espressif8266.rst:561
+msgid ":ref:`board_espressif8266_wio_node`"
+msgstr ""
+
+#: ../../../platforms/espressif8266.rst:569
+msgid "SparkFun"
+msgstr ""
+
+#: ../../../platforms/espressif8266.rst:580
+msgid ":ref:`board_espressif8266_sparkfunBlynk`"
+msgstr ""
+
+#: ../../../platforms/espressif8266.rst:586
+msgid ":ref:`board_espressif8266_thing`"
+msgstr ""
+
+#: ../../../platforms/espressif8266.rst:592
+msgid ":ref:`board_espressif8266_thingdev`"
+msgstr ""
+
+#: ../../../platforms/espressif8266.rst:600
+msgid "SweetPea"
+msgstr ""
+
+#: ../../../platforms/espressif8266.rst:611
+msgid ":ref:`board_espressif8266_esp210`"
+msgstr ""
+
+#: ../../../platforms/espressif8266.rst:619
+msgid "ThaiEasyElec"
+msgstr ""
+
+#: ../../../platforms/espressif8266.rst:630
+msgid ":ref:`board_espressif8266_espinotee`"
+msgstr ""
+
+#: ../../../platforms/espressif8266.rst:638
+msgid "WEMOS"
+msgstr ""
+
+#: ../../../platforms/espressif8266.rst:649
+msgid ":ref:`board_espressif8266_d1`"
+msgstr ""
+
+#: ../../../platforms/espressif8266.rst:655
+msgid ":ref:`board_espressif8266_d1_mini`"
+msgstr ""
+
+#: ../../../platforms/espressif8266.rst:661
+msgid ":ref:`board_espressif8266_d1_mini_lite`"
+msgstr ""
+
+#: ../../../platforms/espressif8266.rst:667
+msgid ":ref:`board_espressif8266_d1_mini_pro`"
+msgstr ""
+
+#: ../../../platforms/espressif8266.rst:671
+msgid "16MB"
+msgstr ""
+
+#: ../../../platforms/espressif8266.rst:675
+msgid "WeMos"
+msgstr ""
+
+#: ../../../platforms/espressif8266.rst:686
+msgid ":ref:`board_espressif8266_d1_wroom_02`"
+msgstr ""
+
+#: ../../../platforms/espressif8266.rst:694
+msgid "WifiDuino"
+msgstr ""
+
+#: ../../../platforms/espressif8266.rst:705
+msgid ":ref:`board_espressif8266_wifiduino`"
+msgstr ""
+
+#: ../../../platforms/espressif8266.rst:713
+msgid "XinaBox"
+msgstr ""
+
+#: ../../../platforms/espressif8266.rst:724
+msgid ":ref:`board_espressif8266_xinabox_cw01`"
+msgstr ""

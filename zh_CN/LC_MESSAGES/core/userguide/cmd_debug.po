@@ -1,0 +1,104 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present, PlatformIO
+# This file is distributed under the same license as the PlatformIO package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PlatformIO stable\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-24 14:03+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../core/userguide/cmd_debug.rst:15
+msgid "pio debug"
+msgstr ""
+
+#: ../../../core/userguide/cmd_debug.rst:17
+msgid "Helper command for :ref:`piodebug`."
+msgstr ""
+
+#: ../../../core/userguide/cmd_debug.rst:19
+msgid "Contents"
+msgstr ""
+
+#: ../../../core/userguide/cmd_debug.rst:22
+msgid "Usage"
+msgstr ""
+
+#: ../../../core/userguide/cmd_debug.rst:33
+msgid "Description"
+msgstr ""
+
+#: ../../../core/userguide/cmd_debug.rst:35
+msgid "Prepare PlatformIO project for debugging or launch debug server."
+msgstr ""
+
+#: ../../../core/userguide/cmd_debug.rst:39
+msgid "Options"
+msgstr ""
+
+#: ../../../core/userguide/cmd_debug.rst:46
+msgid "Debug specified environments."
+msgstr ""
+
+#: ../../../core/userguide/cmd_debug.rst:48
+msgid ""
+"You can also specify which environments should be used for debugging by "
+"default using :ref:`projectconf_pio_default_envs` option from :ref:"
+"`projectconf`."
+msgstr ""
+
+#: ../../../core/userguide/cmd_debug.rst:54
+msgid ""
+"Specify the path to a project directory. By default, ``--project-dir`` is "
+"equal to a current working directory (``CWD``)."
+msgstr ""
+
+#: ../../../core/userguide/cmd_debug.rst:60
+msgid "Process project with a custom :ref:`projectconf`."
+msgstr ""
+
+#: ../../../core/userguide/cmd_debug.rst:65
+msgid "Override :ref:`projectconf_debug_load_mode` option."
+msgstr ""
+
+#: ../../../core/userguide/cmd_debug.rst:70
+msgid "PlatformIO Debugging Interface. Valid values:"
+msgstr ""
+
+#: ../../../core/userguide/cmd_debug.rst:72
+msgid "``gdb`` - GDB: The GNU Project Debugger"
+msgstr ""
+
+#: ../../../core/userguide/cmd_debug.rst:77
+msgid "Shows detailed information when processing environments."
+msgstr ""
+
+#: ../../../core/userguide/cmd_debug.rst:79
+msgid ""
+"This option can also be set globally using :ref:`setting_force_verbose` "
+"setting or by environment variable :envvar:"
+"`PLATFORMIO_SETTING_FORCE_VERBOSE`."
+msgstr ""
+
+#: ../../../core/userguide/cmd_debug.rst:83
+msgid "Examples"
+msgstr ""
+
+#: ../../../core/userguide/cmd_debug.rst:85
+msgid "Prepare a project for debugging"
+msgstr ""
+
+#: ../../../core/userguide/cmd_debug.rst:117
+msgid ""
+"Launch GDB instance and load initial configuration per project. A double "
+"hyphen is used to skip the parsing of extra GDB options."
+msgstr ""

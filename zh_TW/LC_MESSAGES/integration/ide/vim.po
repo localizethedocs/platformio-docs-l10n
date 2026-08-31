@@ -1,0 +1,161 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present, PlatformIO
+# This file is distributed under the same license as the PlatformIO package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PlatformIO stable\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-24 14:03+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../integration/ide/vim.rst:15
+msgid "Vim"
+msgstr ""
+
+#: ../../../integration/ide/vim.rst:17
+msgid ""
+"`Vim <http://www.vim.org/>`_ is an open-source, powerful and configurable "
+"text editor. Vim is designed for use both from a command-line interface and "
+"as a standalone application in a graphical user interface."
+msgstr ""
+
+#: ../../../integration/ide/vim.rst:23
+msgid "Contents"
+msgstr ""
+
+#: ../../../integration/ide/vim.rst:26
+msgid "Integration"
+msgstr ""
+
+#: ../../../integration/ide/vim.rst:28
+msgid "Integration process consists of these steps:"
+msgstr ""
+
+#: ../../../integration/ide/vim.rst:30
+msgid "Open system Terminal and install :ref:`piocore`"
+msgstr ""
+
+#: ../../../integration/ide/vim.rst:31
+msgid "Create new folder for your project and change directory (``cd``) to it"
+msgstr ""
+
+#: ../../../integration/ide/vim.rst:32
+msgid ""
+"Generate a project using PlatformIO Core Project Generator (:option:`pio "
+"project init --ide`)"
+msgstr ""
+
+#: ../../../integration/ide/vim.rst:33
+msgid "Import project in IDE."
+msgstr ""
+
+#: ../../../integration/ide/vim.rst:36
+msgid "Project Generator"
+msgstr ""
+
+#: ../../../integration/ide/vim.rst:38
+msgid ""
+"Choose board ``ID`` using :ref:`cmd_boards` or `Embedded Boards Explorer "
+"<https://platformio.org/boards>`_ command and generate project via :option:"
+"`pio project init --ide` command:"
+msgstr ""
+
+#: ../../../integration/ide/vim.rst:46
+msgid ""
+"The libraries which are added, installed or used in the project after "
+"generating process won't be reflected in IDE. To fix it you need to "
+"reinitialize project using :ref:`cmd_project_init` (repeat it)."
+msgstr ""
+
+#: ../../../integration/ide/vim.rst:50
+msgid "Recommended bundles:"
+msgstr ""
+
+#: ../../../integration/ide/vim.rst:52
+msgid ""
+"`C/C++/ObjC language server supporting cross references, hierarchies, "
+"completion and semantic highlighting <https://github.com/MaskRay/ccls>`_"
+msgstr ""
+
+#: ../../../integration/ide/vim.rst:53
+msgid ""
+"`Async language server protocol plugin for vim and neovim <https://github."
+"com/prabirshrestha/vim-lsp>`_"
+msgstr ""
+
+#: ../../../integration/ide/vim.rst:54
+msgid "`\"vim-pio\" Plugin <https://github.com/normen/vim-pio>`_"
+msgstr ""
+
+#: ../../../integration/ide/vim.rst:55
+msgid ""
+"`\"Neomake-PlatformIO\" Plugin <https://github.com/coddingtonbear/neomake-"
+"platformio>`_"
+msgstr ""
+
+#: ../../../integration/ide/vim.rst:57
+msgid "Put to the project directory ``Makefile`` wrapper with contents:"
+msgstr ""
+
+#: ../../../integration/ide/vim.rst:84
+msgid "Pre-defined targets:"
+msgstr ""
+
+#: ../../../integration/ide/vim.rst:86
+msgid "``Build`` - Build project without auto-uploading"
+msgstr ""
+
+#: ../../../integration/ide/vim.rst:87
+msgid "``Clean`` - Clean compiled objects."
+msgstr ""
+
+#: ../../../integration/ide/vim.rst:88
+msgid "``Upload`` - Build and upload (if no errors)"
+msgstr ""
+
+#: ../../../integration/ide/vim.rst:89
+msgid "``Upload using Programmer`` see :ref:`atmelavr_upload_via_programmer`"
+msgstr ""
+
+#: ../../../integration/ide/vim.rst:90
+msgid "``Upload SPIFFS image`` see :ref:`platform_espressif_uploadfs`"
+msgstr ""
+
+#: ../../../integration/ide/vim.rst:91
+msgid ""
+"``Update platforms and libraries`` - Update installed platforms and "
+"libraries via :ref:`cmd_update`."
+msgstr ""
+
+#: ../../../integration/ide/vim.rst:94
+msgid ""
+"Now, in VIM ``cd /path/to/this/project`` and press ``Ctrl+B`` or ``Cmd+B`` "
+"(Mac). *PlatformIO* should compile your source code from the ``src`` "
+"directory, make firmware and upload it."
+msgstr ""
+
+#: ../../../integration/ide/vim.rst:99
+msgid ""
+"If hotkey doesn't work for you, try to add this line ``nnoremap <C-b> :"
+"make<CR>`` to ``~/.vimrc``"
+msgstr ""
+
+#: ../../../integration/ide/vim.rst:103
+msgid "Articles / Manuals"
+msgstr ""
+
+#: ../../../integration/ide/vim.rst:105
+msgid ""
+"`コマンドラインでArduino開発 : vim + platformio (Arduino development at the "
+"command line: VIM + PlatformIO, Japanese) <http://qiita.com/caad1229/"
+"items/7b5fb47f034ae6e0baf2>`_"
+msgstr ""
