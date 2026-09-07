@@ -1,0 +1,2297 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present, PlatformIO
+# This file is distributed under the same license as the PlatformIO package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PlatformIO latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-24 14:02+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../plus/debug-tools/esp-prog.rst:15
+msgid "ESP-Prog"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:20
+msgid ""
+"ESP-Prog is one of Espressif’s development and debugging tools, with "
+"functions including automatic firmware downloading, serial communication, "
+"and JTAG online debugging. ESP-Prog's automatic firmware downloading and "
+"serial communication functions are supported on both the ESP8266 and ESP32 "
+"platforms, while the JTAG online debugging is supported only on the ESP32 "
+"platform. Official reference can be found `here <https://github.com/"
+"espressif/esp-iot-solution/blob/master/documents/evaluation_boards/ESP-"
+"Prog_guide_en.md?utm_source=platformio&utm_medium=docs>`__."
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:29
+msgid "Contents"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:32
+msgid "Configuration"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:34
+msgid ""
+"You can configure debugging tool using :ref:`projectconf_debug_tool` option "
+"in :ref:`projectconf`:"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:44
+msgid ""
+"If you would like to use this tool for firmware uploading, please change "
+"upload protocol:"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:55
+msgid "More options:"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:57
+msgid ":ref:`projectconf_section_env_debug`"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:58
+msgid ":ref:`projectconf_section_env_upload`"
+msgstr ""
+
+#: ../../../plus/debug-tools/_common_jtag_drivers.rst:13
+msgid "Drivers"
+msgstr ""
+
+#: ../../../plus/debug-tools/_common_jtag_drivers.rst:0
+msgid "Windows"
+msgstr ""
+
+#: ../../../plus/debug-tools/_common_jtag_drivers.rst:16
+msgid ""
+"`Step-by-step guide: Drivers, Zadig, Wiring <https://community.platformio."
+"org/t/esp32-pio-unified-debugger/4541/20>`_"
+msgstr ""
+
+#: ../../../plus/debug-tools/_common_jtag_drivers.rst:17
+msgid ""
+"`Video tutorial <https://www.hackster.io/brian-lough/use-the-platformio-"
+"debugger-on-the-esp32-using-an-esp-prog-f633b6>`_"
+msgstr ""
+
+#: ../../../plus/debug-tools/_common_jtag_drivers.rst:0
+msgid "Mac"
+msgstr ""
+
+#: ../../../plus/debug-tools/_common_jtag_drivers.rst:20
+msgid ""
+"macOS contains default FTDIUSBSerialDriver driver which conflicts with debug "
+"tools which are based on this chip. FTDI Chip company recommends removing "
+"this default driver from a system. Everything should work after system "
+"rebooting. See detailed instruction in official application note (Page 16, "
+"Section 4: Uninstalling FTDI Drivers on OS X) `AN134: FTDI Drivers "
+"Installation guide for MAC OS X <http://www.ftdichip.com/Support/Documents/"
+"AppNotes/AN_134_FTDI_Drivers_Installation_Guide_for_MAC_OSX.pdf>`__"
+msgstr ""
+
+#: ../../../plus/debug-tools/_common_jtag_drivers.rst:0
+msgid "Linux"
+msgstr ""
+
+#: ../../../plus/debug-tools/_common_jtag_drivers.rst:28
+msgid ""
+"Please install \"udev\" rules :ref:`platformio_udev_rules`. If you already "
+"installed them before, please check that your rules are up-to-date or repeat "
+"steps."
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:63
+msgid "Wiring Connections"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:70
+msgid "ESP-Prog JTAG 10-Pin Connector"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:71
+msgid "JTAG Signal"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:72
+msgid "ESP32 Pin"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:73
+msgid "ESP32-S2 and ESP32-S3 Pin"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:74
+msgid "ESP32-C2, ESP32-C3, ESP32-C6, and ESP32-P4 Pin"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:75
+msgid "ESP32-H2 Pin"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:76
+#: ../../../plus/debug-tools/esp-prog.rst:133
+#: ../../../plus/debug-tools/esp-prog.rst:144
+msgid "Description"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:77
+msgid "1"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:78
+#: ../../../plus/debug-tools/esp-prog.rst:79
+#: ../../../plus/debug-tools/esp-prog.rst:80
+#: ../../../plus/debug-tools/esp-prog.rst:81
+#: ../../../plus/debug-tools/esp-prog.rst:82
+msgid "VDD"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:83
+msgid "Positive Supply Voltage — Power supply for JTAG interface drivers"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:84
+msgid "3"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:85
+#: ../../../plus/debug-tools/esp-prog.rst:86
+#: ../../../plus/debug-tools/esp-prog.rst:87
+#: ../../../plus/debug-tools/esp-prog.rst:88
+#: ../../../plus/debug-tools/esp-prog.rst:89
+msgid "GND"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:90
+msgid "Digital ground"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:91
+msgid "2"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:92
+msgid "TMS"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:93
+msgid "GPIO14"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:94
+msgid "GPIO42"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:95
+#: ../../../plus/debug-tools/esp-prog.rst:103
+msgid "GPIO4"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:96
+msgid "GPIO2"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:97
+msgid "Test Mode State"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:98
+msgid "4"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:99
+msgid "TCK"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:100
+msgid "GPIO13"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:101
+msgid "GPIO39"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:102
+msgid "GPIO6"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:104
+msgid "JTAG Return Test Clock"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:105
+msgid "6"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:106
+msgid "TDO"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:107
+msgid "GPIO15"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:108
+msgid "GPIO40"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:109
+msgid "GPIO7"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:110
+msgid "GPIO3"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:111
+msgid "Test Data Out"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:112
+msgid "8"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:113
+msgid "TDI"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:114
+msgid "GPIO12"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:115
+msgid "GPIO41"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:116
+#: ../../../plus/debug-tools/esp-prog.rst:117
+msgid "GPIO5"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:118
+msgid "Test Data In"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:121
+msgid "Tutorials"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:123
+msgid ""
+"`Use the PlatformIO Debugger on the ESP32 Using an ESP-prog <https://www."
+"hackster.io/brian-lough/use-the-platformio-debugger-on-the-esp32-using-an-"
+"esp-prog-f633b6>`_"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:128
+msgid "Platforms"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:132
+#: ../../../plus/debug-tools/esp-prog.rst:143
+#: ../../../plus/debug-tools/esp-prog.rst:162
+msgid "Name"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:135
+#: ../../../plus/debug-tools/esp-prog.rst:170
+#: ../../../plus/debug-tools/esp-prog.rst:177
+#: ../../../plus/debug-tools/esp-prog.rst:184
+#: ../../../plus/debug-tools/esp-prog.rst:191
+#: ../../../plus/debug-tools/esp-prog.rst:198
+#: ../../../plus/debug-tools/esp-prog.rst:205
+#: ../../../plus/debug-tools/esp-prog.rst:212
+#: ../../../plus/debug-tools/esp-prog.rst:219
+#: ../../../plus/debug-tools/esp-prog.rst:226
+#: ../../../plus/debug-tools/esp-prog.rst:233
+#: ../../../plus/debug-tools/esp-prog.rst:240
+#: ../../../plus/debug-tools/esp-prog.rst:247
+#: ../../../plus/debug-tools/esp-prog.rst:254
+#: ../../../plus/debug-tools/esp-prog.rst:261
+#: ../../../plus/debug-tools/esp-prog.rst:268
+#: ../../../plus/debug-tools/esp-prog.rst:275
+#: ../../../plus/debug-tools/esp-prog.rst:282
+#: ../../../plus/debug-tools/esp-prog.rst:289
+#: ../../../plus/debug-tools/esp-prog.rst:296
+#: ../../../plus/debug-tools/esp-prog.rst:303
+#: ../../../plus/debug-tools/esp-prog.rst:310
+#: ../../../plus/debug-tools/esp-prog.rst:317
+#: ../../../plus/debug-tools/esp-prog.rst:324
+#: ../../../plus/debug-tools/esp-prog.rst:331
+#: ../../../plus/debug-tools/esp-prog.rst:338
+#: ../../../plus/debug-tools/esp-prog.rst:345
+#: ../../../plus/debug-tools/esp-prog.rst:352
+#: ../../../plus/debug-tools/esp-prog.rst:359
+#: ../../../plus/debug-tools/esp-prog.rst:366
+#: ../../../plus/debug-tools/esp-prog.rst:373
+#: ../../../plus/debug-tools/esp-prog.rst:380
+#: ../../../plus/debug-tools/esp-prog.rst:387
+#: ../../../plus/debug-tools/esp-prog.rst:394
+#: ../../../plus/debug-tools/esp-prog.rst:401
+#: ../../../plus/debug-tools/esp-prog.rst:408
+#: ../../../plus/debug-tools/esp-prog.rst:415
+#: ../../../plus/debug-tools/esp-prog.rst:422
+#: ../../../plus/debug-tools/esp-prog.rst:429
+#: ../../../plus/debug-tools/esp-prog.rst:436
+#: ../../../plus/debug-tools/esp-prog.rst:443
+#: ../../../plus/debug-tools/esp-prog.rst:450
+#: ../../../plus/debug-tools/esp-prog.rst:457
+#: ../../../plus/debug-tools/esp-prog.rst:464
+#: ../../../plus/debug-tools/esp-prog.rst:471
+#: ../../../plus/debug-tools/esp-prog.rst:478
+#: ../../../plus/debug-tools/esp-prog.rst:485
+#: ../../../plus/debug-tools/esp-prog.rst:492
+#: ../../../plus/debug-tools/esp-prog.rst:499
+#: ../../../plus/debug-tools/esp-prog.rst:506
+#: ../../../plus/debug-tools/esp-prog.rst:513
+#: ../../../plus/debug-tools/esp-prog.rst:520
+#: ../../../plus/debug-tools/esp-prog.rst:527
+#: ../../../plus/debug-tools/esp-prog.rst:534
+#: ../../../plus/debug-tools/esp-prog.rst:541
+#: ../../../plus/debug-tools/esp-prog.rst:548
+#: ../../../plus/debug-tools/esp-prog.rst:555
+#: ../../../plus/debug-tools/esp-prog.rst:562
+#: ../../../plus/debug-tools/esp-prog.rst:569
+#: ../../../plus/debug-tools/esp-prog.rst:576
+#: ../../../plus/debug-tools/esp-prog.rst:583
+#: ../../../plus/debug-tools/esp-prog.rst:590
+#: ../../../plus/debug-tools/esp-prog.rst:597
+#: ../../../plus/debug-tools/esp-prog.rst:604
+#: ../../../plus/debug-tools/esp-prog.rst:611
+#: ../../../plus/debug-tools/esp-prog.rst:618
+#: ../../../plus/debug-tools/esp-prog.rst:625
+#: ../../../plus/debug-tools/esp-prog.rst:632
+#: ../../../plus/debug-tools/esp-prog.rst:639
+#: ../../../plus/debug-tools/esp-prog.rst:646
+#: ../../../plus/debug-tools/esp-prog.rst:653
+#: ../../../plus/debug-tools/esp-prog.rst:660
+#: ../../../plus/debug-tools/esp-prog.rst:667
+#: ../../../plus/debug-tools/esp-prog.rst:674
+#: ../../../plus/debug-tools/esp-prog.rst:681
+#: ../../../plus/debug-tools/esp-prog.rst:688
+#: ../../../plus/debug-tools/esp-prog.rst:695
+#: ../../../plus/debug-tools/esp-prog.rst:702
+#: ../../../plus/debug-tools/esp-prog.rst:709
+#: ../../../plus/debug-tools/esp-prog.rst:716
+#: ../../../plus/debug-tools/esp-prog.rst:723
+#: ../../../plus/debug-tools/esp-prog.rst:730
+#: ../../../plus/debug-tools/esp-prog.rst:737
+#: ../../../plus/debug-tools/esp-prog.rst:744
+#: ../../../plus/debug-tools/esp-prog.rst:751
+#: ../../../plus/debug-tools/esp-prog.rst:758
+#: ../../../plus/debug-tools/esp-prog.rst:765
+#: ../../../plus/debug-tools/esp-prog.rst:772
+#: ../../../plus/debug-tools/esp-prog.rst:779
+#: ../../../plus/debug-tools/esp-prog.rst:786
+#: ../../../plus/debug-tools/esp-prog.rst:793
+#: ../../../plus/debug-tools/esp-prog.rst:800
+#: ../../../plus/debug-tools/esp-prog.rst:807
+#: ../../../plus/debug-tools/esp-prog.rst:814
+#: ../../../plus/debug-tools/esp-prog.rst:821
+#: ../../../plus/debug-tools/esp-prog.rst:828
+#: ../../../plus/debug-tools/esp-prog.rst:835
+#: ../../../plus/debug-tools/esp-prog.rst:842
+#: ../../../plus/debug-tools/esp-prog.rst:849
+#: ../../../plus/debug-tools/esp-prog.rst:856
+#: ../../../plus/debug-tools/esp-prog.rst:863
+#: ../../../plus/debug-tools/esp-prog.rst:870
+#: ../../../plus/debug-tools/esp-prog.rst:877
+#: ../../../plus/debug-tools/esp-prog.rst:884
+#: ../../../plus/debug-tools/esp-prog.rst:891
+#: ../../../plus/debug-tools/esp-prog.rst:898
+#: ../../../plus/debug-tools/esp-prog.rst:905
+#: ../../../plus/debug-tools/esp-prog.rst:912
+#: ../../../plus/debug-tools/esp-prog.rst:919
+#: ../../../plus/debug-tools/esp-prog.rst:926
+#: ../../../plus/debug-tools/esp-prog.rst:933
+#: ../../../plus/debug-tools/esp-prog.rst:940
+#: ../../../plus/debug-tools/esp-prog.rst:947
+#: ../../../plus/debug-tools/esp-prog.rst:954
+#: ../../../plus/debug-tools/esp-prog.rst:961
+#: ../../../plus/debug-tools/esp-prog.rst:968
+#: ../../../plus/debug-tools/esp-prog.rst:975
+#: ../../../plus/debug-tools/esp-prog.rst:982
+#: ../../../plus/debug-tools/esp-prog.rst:989
+#: ../../../plus/debug-tools/esp-prog.rst:996
+#: ../../../plus/debug-tools/esp-prog.rst:1003
+#: ../../../plus/debug-tools/esp-prog.rst:1010
+#: ../../../plus/debug-tools/esp-prog.rst:1017
+#: ../../../plus/debug-tools/esp-prog.rst:1024
+#: ../../../plus/debug-tools/esp-prog.rst:1031
+#: ../../../plus/debug-tools/esp-prog.rst:1038
+#: ../../../plus/debug-tools/esp-prog.rst:1045
+#: ../../../plus/debug-tools/esp-prog.rst:1052
+#: ../../../plus/debug-tools/esp-prog.rst:1059
+#: ../../../plus/debug-tools/esp-prog.rst:1066
+#: ../../../plus/debug-tools/esp-prog.rst:1073
+#: ../../../plus/debug-tools/esp-prog.rst:1080
+#: ../../../plus/debug-tools/esp-prog.rst:1087
+#: ../../../plus/debug-tools/esp-prog.rst:1094
+#: ../../../plus/debug-tools/esp-prog.rst:1101
+#: ../../../plus/debug-tools/esp-prog.rst:1108
+#: ../../../plus/debug-tools/esp-prog.rst:1115
+#: ../../../plus/debug-tools/esp-prog.rst:1122
+#: ../../../plus/debug-tools/esp-prog.rst:1129
+#: ../../../plus/debug-tools/esp-prog.rst:1136
+#: ../../../plus/debug-tools/esp-prog.rst:1143
+#: ../../../plus/debug-tools/esp-prog.rst:1150
+#: ../../../plus/debug-tools/esp-prog.rst:1157
+#: ../../../plus/debug-tools/esp-prog.rst:1164
+#: ../../../plus/debug-tools/esp-prog.rst:1171
+#: ../../../plus/debug-tools/esp-prog.rst:1178
+#: ../../../plus/debug-tools/esp-prog.rst:1185
+#: ../../../plus/debug-tools/esp-prog.rst:1192
+#: ../../../plus/debug-tools/esp-prog.rst:1199
+#: ../../../plus/debug-tools/esp-prog.rst:1206
+#: ../../../plus/debug-tools/esp-prog.rst:1213
+#: ../../../plus/debug-tools/esp-prog.rst:1220
+#: ../../../plus/debug-tools/esp-prog.rst:1227
+#: ../../../plus/debug-tools/esp-prog.rst:1234
+#: ../../../plus/debug-tools/esp-prog.rst:1241
+#: ../../../plus/debug-tools/esp-prog.rst:1248
+#: ../../../plus/debug-tools/esp-prog.rst:1255
+#: ../../../plus/debug-tools/esp-prog.rst:1262
+#: ../../../plus/debug-tools/esp-prog.rst:1269
+#: ../../../plus/debug-tools/esp-prog.rst:1276
+#: ../../../plus/debug-tools/esp-prog.rst:1283
+#: ../../../plus/debug-tools/esp-prog.rst:1290
+#: ../../../plus/debug-tools/esp-prog.rst:1297
+#: ../../../plus/debug-tools/esp-prog.rst:1304
+#: ../../../plus/debug-tools/esp-prog.rst:1311
+#: ../../../plus/debug-tools/esp-prog.rst:1318
+#: ../../../plus/debug-tools/esp-prog.rst:1325
+#: ../../../plus/debug-tools/esp-prog.rst:1332
+#: ../../../plus/debug-tools/esp-prog.rst:1339
+#: ../../../plus/debug-tools/esp-prog.rst:1346
+#: ../../../plus/debug-tools/esp-prog.rst:1353
+#: ../../../plus/debug-tools/esp-prog.rst:1360
+#: ../../../plus/debug-tools/esp-prog.rst:1367
+#: ../../../plus/debug-tools/esp-prog.rst:1374
+#: ../../../plus/debug-tools/esp-prog.rst:1381
+#: ../../../plus/debug-tools/esp-prog.rst:1388
+#: ../../../plus/debug-tools/esp-prog.rst:1395
+#: ../../../plus/debug-tools/esp-prog.rst:1402
+#: ../../../plus/debug-tools/esp-prog.rst:1409
+#: ../../../plus/debug-tools/esp-prog.rst:1416
+#: ../../../plus/debug-tools/esp-prog.rst:1423
+#: ../../../plus/debug-tools/esp-prog.rst:1430
+#: ../../../plus/debug-tools/esp-prog.rst:1437
+#: ../../../plus/debug-tools/esp-prog.rst:1444
+#: ../../../plus/debug-tools/esp-prog.rst:1451
+#: ../../../plus/debug-tools/esp-prog.rst:1458
+#: ../../../plus/debug-tools/esp-prog.rst:1465
+msgid ":ref:`platform_espressif32`"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:136
+msgid ""
+"ESP32 is a series of low-cost, low-power system on a chip microcontrollers "
+"with integrated Wi-Fi and Bluetooth. ESP32 integrates an antenna switch, RF "
+"balun, power amplifier, low-noise receive amplifier, filters, and power "
+"management modules."
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:139
+msgid "Frameworks"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:146
+msgid ":ref:`framework_arduino`"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:147
+msgid ""
+"Arduino Wiring-based Framework allows writing cross-platform software to "
+"control devices attached to a wide range of Arduino boards to create all "
+"kinds of creative coding, interactive objects, spaces or physical "
+"experiences."
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:149
+msgid ":ref:`framework_espidf`"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:150
+msgid ""
+"Espressif IoT Development Framework. Official development framework for "
+"ESP32 chip"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:153
+msgid "Boards"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:156
+msgid ""
+"For more detailed ``board`` information please scroll tables below by "
+"horizontal."
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:163
+msgid "Platform"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:164
+msgid "Debug"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:165
+msgid "MCU"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:166
+msgid "Frequency"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:167
+msgid "Flash"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:168
+msgid "RAM"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:169
+msgid ":ref:`board_espressif32_4d_systems_esp32s3_gen4_r8n16`"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:171
+#: ../../../plus/debug-tools/esp-prog.rst:178
+#: ../../../plus/debug-tools/esp-prog.rst:185
+#: ../../../plus/debug-tools/esp-prog.rst:192
+#: ../../../plus/debug-tools/esp-prog.rst:199
+#: ../../../plus/debug-tools/esp-prog.rst:206
+#: ../../../plus/debug-tools/esp-prog.rst:213
+#: ../../../plus/debug-tools/esp-prog.rst:220
+#: ../../../plus/debug-tools/esp-prog.rst:227
+#: ../../../plus/debug-tools/esp-prog.rst:234
+#: ../../../plus/debug-tools/esp-prog.rst:241
+#: ../../../plus/debug-tools/esp-prog.rst:248
+#: ../../../plus/debug-tools/esp-prog.rst:255
+#: ../../../plus/debug-tools/esp-prog.rst:262
+#: ../../../plus/debug-tools/esp-prog.rst:269
+#: ../../../plus/debug-tools/esp-prog.rst:276
+#: ../../../plus/debug-tools/esp-prog.rst:283
+#: ../../../plus/debug-tools/esp-prog.rst:290
+#: ../../../plus/debug-tools/esp-prog.rst:297
+#: ../../../plus/debug-tools/esp-prog.rst:304
+#: ../../../plus/debug-tools/esp-prog.rst:311
+#: ../../../plus/debug-tools/esp-prog.rst:318
+#: ../../../plus/debug-tools/esp-prog.rst:325
+#: ../../../plus/debug-tools/esp-prog.rst:332
+#: ../../../plus/debug-tools/esp-prog.rst:339
+#: ../../../plus/debug-tools/esp-prog.rst:346
+#: ../../../plus/debug-tools/esp-prog.rst:353
+#: ../../../plus/debug-tools/esp-prog.rst:360
+#: ../../../plus/debug-tools/esp-prog.rst:367
+#: ../../../plus/debug-tools/esp-prog.rst:374
+#: ../../../plus/debug-tools/esp-prog.rst:381
+#: ../../../plus/debug-tools/esp-prog.rst:388
+#: ../../../plus/debug-tools/esp-prog.rst:395
+#: ../../../plus/debug-tools/esp-prog.rst:402
+#: ../../../plus/debug-tools/esp-prog.rst:409
+#: ../../../plus/debug-tools/esp-prog.rst:416
+#: ../../../plus/debug-tools/esp-prog.rst:423
+#: ../../../plus/debug-tools/esp-prog.rst:430
+#: ../../../plus/debug-tools/esp-prog.rst:437
+#: ../../../plus/debug-tools/esp-prog.rst:444
+#: ../../../plus/debug-tools/esp-prog.rst:451
+#: ../../../plus/debug-tools/esp-prog.rst:458
+#: ../../../plus/debug-tools/esp-prog.rst:465
+#: ../../../plus/debug-tools/esp-prog.rst:472
+#: ../../../plus/debug-tools/esp-prog.rst:479
+#: ../../../plus/debug-tools/esp-prog.rst:486
+#: ../../../plus/debug-tools/esp-prog.rst:493
+#: ../../../plus/debug-tools/esp-prog.rst:500
+#: ../../../plus/debug-tools/esp-prog.rst:507
+#: ../../../plus/debug-tools/esp-prog.rst:514
+#: ../../../plus/debug-tools/esp-prog.rst:521
+#: ../../../plus/debug-tools/esp-prog.rst:528
+#: ../../../plus/debug-tools/esp-prog.rst:535
+#: ../../../plus/debug-tools/esp-prog.rst:542
+#: ../../../plus/debug-tools/esp-prog.rst:549
+#: ../../../plus/debug-tools/esp-prog.rst:556
+#: ../../../plus/debug-tools/esp-prog.rst:563
+#: ../../../plus/debug-tools/esp-prog.rst:570
+#: ../../../plus/debug-tools/esp-prog.rst:577
+#: ../../../plus/debug-tools/esp-prog.rst:584
+#: ../../../plus/debug-tools/esp-prog.rst:591
+#: ../../../plus/debug-tools/esp-prog.rst:598
+#: ../../../plus/debug-tools/esp-prog.rst:605
+#: ../../../plus/debug-tools/esp-prog.rst:619
+#: ../../../plus/debug-tools/esp-prog.rst:626
+#: ../../../plus/debug-tools/esp-prog.rst:633
+#: ../../../plus/debug-tools/esp-prog.rst:640
+#: ../../../plus/debug-tools/esp-prog.rst:654
+#: ../../../plus/debug-tools/esp-prog.rst:661
+#: ../../../plus/debug-tools/esp-prog.rst:689
+#: ../../../plus/debug-tools/esp-prog.rst:696
+#: ../../../plus/debug-tools/esp-prog.rst:703
+#: ../../../plus/debug-tools/esp-prog.rst:710
+#: ../../../plus/debug-tools/esp-prog.rst:724
+#: ../../../plus/debug-tools/esp-prog.rst:731
+#: ../../../plus/debug-tools/esp-prog.rst:738
+#: ../../../plus/debug-tools/esp-prog.rst:745
+#: ../../../plus/debug-tools/esp-prog.rst:752
+#: ../../../plus/debug-tools/esp-prog.rst:759
+#: ../../../plus/debug-tools/esp-prog.rst:766
+#: ../../../plus/debug-tools/esp-prog.rst:773
+#: ../../../plus/debug-tools/esp-prog.rst:780
+#: ../../../plus/debug-tools/esp-prog.rst:787
+#: ../../../plus/debug-tools/esp-prog.rst:794
+#: ../../../plus/debug-tools/esp-prog.rst:801
+#: ../../../plus/debug-tools/esp-prog.rst:808
+#: ../../../plus/debug-tools/esp-prog.rst:815
+#: ../../../plus/debug-tools/esp-prog.rst:822
+#: ../../../plus/debug-tools/esp-prog.rst:829
+#: ../../../plus/debug-tools/esp-prog.rst:836
+#: ../../../plus/debug-tools/esp-prog.rst:850
+#: ../../../plus/debug-tools/esp-prog.rst:857
+#: ../../../plus/debug-tools/esp-prog.rst:864
+#: ../../../plus/debug-tools/esp-prog.rst:871
+#: ../../../plus/debug-tools/esp-prog.rst:878
+#: ../../../plus/debug-tools/esp-prog.rst:885
+#: ../../../plus/debug-tools/esp-prog.rst:892
+#: ../../../plus/debug-tools/esp-prog.rst:899
+#: ../../../plus/debug-tools/esp-prog.rst:906
+#: ../../../plus/debug-tools/esp-prog.rst:913
+#: ../../../plus/debug-tools/esp-prog.rst:920
+#: ../../../plus/debug-tools/esp-prog.rst:927
+#: ../../../plus/debug-tools/esp-prog.rst:934
+#: ../../../plus/debug-tools/esp-prog.rst:941
+#: ../../../plus/debug-tools/esp-prog.rst:948
+#: ../../../plus/debug-tools/esp-prog.rst:955
+#: ../../../plus/debug-tools/esp-prog.rst:962
+#: ../../../plus/debug-tools/esp-prog.rst:969
+#: ../../../plus/debug-tools/esp-prog.rst:976
+#: ../../../plus/debug-tools/esp-prog.rst:983
+#: ../../../plus/debug-tools/esp-prog.rst:997
+#: ../../../plus/debug-tools/esp-prog.rst:1004
+#: ../../../plus/debug-tools/esp-prog.rst:1011
+#: ../../../plus/debug-tools/esp-prog.rst:1018
+#: ../../../plus/debug-tools/esp-prog.rst:1025
+#: ../../../plus/debug-tools/esp-prog.rst:1032
+#: ../../../plus/debug-tools/esp-prog.rst:1039
+#: ../../../plus/debug-tools/esp-prog.rst:1046
+#: ../../../plus/debug-tools/esp-prog.rst:1053
+#: ../../../plus/debug-tools/esp-prog.rst:1060
+#: ../../../plus/debug-tools/esp-prog.rst:1067
+#: ../../../plus/debug-tools/esp-prog.rst:1074
+#: ../../../plus/debug-tools/esp-prog.rst:1081
+#: ../../../plus/debug-tools/esp-prog.rst:1088
+#: ../../../plus/debug-tools/esp-prog.rst:1095
+#: ../../../plus/debug-tools/esp-prog.rst:1102
+#: ../../../plus/debug-tools/esp-prog.rst:1109
+#: ../../../plus/debug-tools/esp-prog.rst:1116
+#: ../../../plus/debug-tools/esp-prog.rst:1123
+#: ../../../plus/debug-tools/esp-prog.rst:1130
+#: ../../../plus/debug-tools/esp-prog.rst:1137
+#: ../../../plus/debug-tools/esp-prog.rst:1144
+#: ../../../plus/debug-tools/esp-prog.rst:1151
+#: ../../../plus/debug-tools/esp-prog.rst:1158
+#: ../../../plus/debug-tools/esp-prog.rst:1165
+#: ../../../plus/debug-tools/esp-prog.rst:1172
+#: ../../../plus/debug-tools/esp-prog.rst:1179
+#: ../../../plus/debug-tools/esp-prog.rst:1186
+#: ../../../plus/debug-tools/esp-prog.rst:1193
+#: ../../../plus/debug-tools/esp-prog.rst:1200
+#: ../../../plus/debug-tools/esp-prog.rst:1207
+#: ../../../plus/debug-tools/esp-prog.rst:1214
+#: ../../../plus/debug-tools/esp-prog.rst:1221
+#: ../../../plus/debug-tools/esp-prog.rst:1228
+#: ../../../plus/debug-tools/esp-prog.rst:1235
+#: ../../../plus/debug-tools/esp-prog.rst:1242
+#: ../../../plus/debug-tools/esp-prog.rst:1249
+#: ../../../plus/debug-tools/esp-prog.rst:1256
+#: ../../../plus/debug-tools/esp-prog.rst:1263
+#: ../../../plus/debug-tools/esp-prog.rst:1270
+#: ../../../plus/debug-tools/esp-prog.rst:1277
+#: ../../../plus/debug-tools/esp-prog.rst:1284
+#: ../../../plus/debug-tools/esp-prog.rst:1291
+#: ../../../plus/debug-tools/esp-prog.rst:1298
+#: ../../../plus/debug-tools/esp-prog.rst:1305
+#: ../../../plus/debug-tools/esp-prog.rst:1312
+#: ../../../plus/debug-tools/esp-prog.rst:1319
+#: ../../../plus/debug-tools/esp-prog.rst:1326
+#: ../../../plus/debug-tools/esp-prog.rst:1333
+#: ../../../plus/debug-tools/esp-prog.rst:1340
+#: ../../../plus/debug-tools/esp-prog.rst:1347
+#: ../../../plus/debug-tools/esp-prog.rst:1354
+#: ../../../plus/debug-tools/esp-prog.rst:1361
+#: ../../../plus/debug-tools/esp-prog.rst:1368
+#: ../../../plus/debug-tools/esp-prog.rst:1375
+#: ../../../plus/debug-tools/esp-prog.rst:1382
+#: ../../../plus/debug-tools/esp-prog.rst:1389
+#: ../../../plus/debug-tools/esp-prog.rst:1396
+#: ../../../plus/debug-tools/esp-prog.rst:1403
+#: ../../../plus/debug-tools/esp-prog.rst:1410
+#: ../../../plus/debug-tools/esp-prog.rst:1417
+#: ../../../plus/debug-tools/esp-prog.rst:1424
+#: ../../../plus/debug-tools/esp-prog.rst:1431
+#: ../../../plus/debug-tools/esp-prog.rst:1438
+#: ../../../plus/debug-tools/esp-prog.rst:1445
+#: ../../../plus/debug-tools/esp-prog.rst:1452
+#: ../../../plus/debug-tools/esp-prog.rst:1459
+#: ../../../plus/debug-tools/esp-prog.rst:1466
+msgid "External"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:172
+#: ../../../plus/debug-tools/esp-prog.rst:242
+#: ../../../plus/debug-tools/esp-prog.rst:249
+#: ../../../plus/debug-tools/esp-prog.rst:256
+#: ../../../plus/debug-tools/esp-prog.rst:263
+#: ../../../plus/debug-tools/esp-prog.rst:291
+#: ../../../plus/debug-tools/esp-prog.rst:305
+#: ../../../plus/debug-tools/esp-prog.rst:333
+#: ../../../plus/debug-tools/esp-prog.rst:340
+#: ../../../plus/debug-tools/esp-prog.rst:347
+#: ../../../plus/debug-tools/esp-prog.rst:354
+#: ../../../plus/debug-tools/esp-prog.rst:382
+#: ../../../plus/debug-tools/esp-prog.rst:389
+#: ../../../plus/debug-tools/esp-prog.rst:410
+#: ../../../plus/debug-tools/esp-prog.rst:417
+#: ../../../plus/debug-tools/esp-prog.rst:424
+#: ../../../plus/debug-tools/esp-prog.rst:445
+#: ../../../plus/debug-tools/esp-prog.rst:473
+#: ../../../plus/debug-tools/esp-prog.rst:480
+#: ../../../plus/debug-tools/esp-prog.rst:515
+#: ../../../plus/debug-tools/esp-prog.rst:571
+#: ../../../plus/debug-tools/esp-prog.rst:578
+#: ../../../plus/debug-tools/esp-prog.rst:662
+#: ../../../plus/debug-tools/esp-prog.rst:669
+#: ../../../plus/debug-tools/esp-prog.rst:676
+#: ../../../plus/debug-tools/esp-prog.rst:683
+#: ../../../plus/debug-tools/esp-prog.rst:718
+#: ../../../plus/debug-tools/esp-prog.rst:746
+#: ../../../plus/debug-tools/esp-prog.rst:767
+#: ../../../plus/debug-tools/esp-prog.rst:802
+#: ../../../plus/debug-tools/esp-prog.rst:816
+#: ../../../plus/debug-tools/esp-prog.rst:823
+#: ../../../plus/debug-tools/esp-prog.rst:830
+#: ../../../plus/debug-tools/esp-prog.rst:844
+#: ../../../plus/debug-tools/esp-prog.rst:851
+#: ../../../plus/debug-tools/esp-prog.rst:858
+#: ../../../plus/debug-tools/esp-prog.rst:865
+#: ../../../plus/debug-tools/esp-prog.rst:893
+#: ../../../plus/debug-tools/esp-prog.rst:900
+#: ../../../plus/debug-tools/esp-prog.rst:907
+#: ../../../plus/debug-tools/esp-prog.rst:914
+#: ../../../plus/debug-tools/esp-prog.rst:991
+#: ../../../plus/debug-tools/esp-prog.rst:1012
+#: ../../../plus/debug-tools/esp-prog.rst:1033
+#: ../../../plus/debug-tools/esp-prog.rst:1047
+#: ../../../plus/debug-tools/esp-prog.rst:1068
+#: ../../../plus/debug-tools/esp-prog.rst:1075
+#: ../../../plus/debug-tools/esp-prog.rst:1131
+#: ../../../plus/debug-tools/esp-prog.rst:1222
+#: ../../../plus/debug-tools/esp-prog.rst:1229
+#: ../../../plus/debug-tools/esp-prog.rst:1236
+#: ../../../plus/debug-tools/esp-prog.rst:1257
+#: ../../../plus/debug-tools/esp-prog.rst:1334
+#: ../../../plus/debug-tools/esp-prog.rst:1341
+#: ../../../plus/debug-tools/esp-prog.rst:1348
+#: ../../../plus/debug-tools/esp-prog.rst:1460
+#: ../../../plus/debug-tools/esp-prog.rst:1467
+msgid "ESP32S3"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:173
+#: ../../../plus/debug-tools/esp-prog.rst:180
+#: ../../../plus/debug-tools/esp-prog.rst:187
+#: ../../../plus/debug-tools/esp-prog.rst:194
+#: ../../../plus/debug-tools/esp-prog.rst:201
+#: ../../../plus/debug-tools/esp-prog.rst:208
+#: ../../../plus/debug-tools/esp-prog.rst:215
+#: ../../../plus/debug-tools/esp-prog.rst:222
+#: ../../../plus/debug-tools/esp-prog.rst:229
+#: ../../../plus/debug-tools/esp-prog.rst:236
+#: ../../../plus/debug-tools/esp-prog.rst:243
+#: ../../../plus/debug-tools/esp-prog.rst:250
+#: ../../../plus/debug-tools/esp-prog.rst:257
+#: ../../../plus/debug-tools/esp-prog.rst:264
+#: ../../../plus/debug-tools/esp-prog.rst:271
+#: ../../../plus/debug-tools/esp-prog.rst:278
+#: ../../../plus/debug-tools/esp-prog.rst:285
+#: ../../../plus/debug-tools/esp-prog.rst:292
+#: ../../../plus/debug-tools/esp-prog.rst:299
+#: ../../../plus/debug-tools/esp-prog.rst:306
+#: ../../../plus/debug-tools/esp-prog.rst:313
+#: ../../../plus/debug-tools/esp-prog.rst:327
+#: ../../../plus/debug-tools/esp-prog.rst:334
+#: ../../../plus/debug-tools/esp-prog.rst:341
+#: ../../../plus/debug-tools/esp-prog.rst:348
+#: ../../../plus/debug-tools/esp-prog.rst:355
+#: ../../../plus/debug-tools/esp-prog.rst:369
+#: ../../../plus/debug-tools/esp-prog.rst:383
+#: ../../../plus/debug-tools/esp-prog.rst:390
+#: ../../../plus/debug-tools/esp-prog.rst:397
+#: ../../../plus/debug-tools/esp-prog.rst:404
+#: ../../../plus/debug-tools/esp-prog.rst:411
+#: ../../../plus/debug-tools/esp-prog.rst:418
+#: ../../../plus/debug-tools/esp-prog.rst:425
+#: ../../../plus/debug-tools/esp-prog.rst:439
+#: ../../../plus/debug-tools/esp-prog.rst:446
+#: ../../../plus/debug-tools/esp-prog.rst:453
+#: ../../../plus/debug-tools/esp-prog.rst:467
+#: ../../../plus/debug-tools/esp-prog.rst:474
+#: ../../../plus/debug-tools/esp-prog.rst:481
+#: ../../../plus/debug-tools/esp-prog.rst:488
+#: ../../../plus/debug-tools/esp-prog.rst:495
+#: ../../../plus/debug-tools/esp-prog.rst:502
+#: ../../../plus/debug-tools/esp-prog.rst:509
+#: ../../../plus/debug-tools/esp-prog.rst:516
+#: ../../../plus/debug-tools/esp-prog.rst:530
+#: ../../../plus/debug-tools/esp-prog.rst:537
+#: ../../../plus/debug-tools/esp-prog.rst:544
+#: ../../../plus/debug-tools/esp-prog.rst:551
+#: ../../../plus/debug-tools/esp-prog.rst:558
+#: ../../../plus/debug-tools/esp-prog.rst:565
+#: ../../../plus/debug-tools/esp-prog.rst:572
+#: ../../../plus/debug-tools/esp-prog.rst:579
+#: ../../../plus/debug-tools/esp-prog.rst:586
+#: ../../../plus/debug-tools/esp-prog.rst:593
+#: ../../../plus/debug-tools/esp-prog.rst:600
+#: ../../../plus/debug-tools/esp-prog.rst:607
+#: ../../../plus/debug-tools/esp-prog.rst:614
+#: ../../../plus/debug-tools/esp-prog.rst:621
+#: ../../../plus/debug-tools/esp-prog.rst:649
+#: ../../../plus/debug-tools/esp-prog.rst:656
+#: ../../../plus/debug-tools/esp-prog.rst:663
+#: ../../../plus/debug-tools/esp-prog.rst:670
+#: ../../../plus/debug-tools/esp-prog.rst:677
+#: ../../../plus/debug-tools/esp-prog.rst:684
+#: ../../../plus/debug-tools/esp-prog.rst:691
+#: ../../../plus/debug-tools/esp-prog.rst:698
+#: ../../../plus/debug-tools/esp-prog.rst:705
+#: ../../../plus/debug-tools/esp-prog.rst:712
+#: ../../../plus/debug-tools/esp-prog.rst:719
+#: ../../../plus/debug-tools/esp-prog.rst:726
+#: ../../../plus/debug-tools/esp-prog.rst:733
+#: ../../../plus/debug-tools/esp-prog.rst:740
+#: ../../../plus/debug-tools/esp-prog.rst:747
+#: ../../../plus/debug-tools/esp-prog.rst:754
+#: ../../../plus/debug-tools/esp-prog.rst:761
+#: ../../../plus/debug-tools/esp-prog.rst:768
+#: ../../../plus/debug-tools/esp-prog.rst:775
+#: ../../../plus/debug-tools/esp-prog.rst:782
+#: ../../../plus/debug-tools/esp-prog.rst:789
+#: ../../../plus/debug-tools/esp-prog.rst:796
+#: ../../../plus/debug-tools/esp-prog.rst:803
+#: ../../../plus/debug-tools/esp-prog.rst:810
+#: ../../../plus/debug-tools/esp-prog.rst:817
+#: ../../../plus/debug-tools/esp-prog.rst:824
+#: ../../../plus/debug-tools/esp-prog.rst:831
+#: ../../../plus/debug-tools/esp-prog.rst:838
+#: ../../../plus/debug-tools/esp-prog.rst:845
+#: ../../../plus/debug-tools/esp-prog.rst:852
+#: ../../../plus/debug-tools/esp-prog.rst:859
+#: ../../../plus/debug-tools/esp-prog.rst:866
+#: ../../../plus/debug-tools/esp-prog.rst:873
+#: ../../../plus/debug-tools/esp-prog.rst:880
+#: ../../../plus/debug-tools/esp-prog.rst:887
+#: ../../../plus/debug-tools/esp-prog.rst:894
+#: ../../../plus/debug-tools/esp-prog.rst:901
+#: ../../../plus/debug-tools/esp-prog.rst:908
+#: ../../../plus/debug-tools/esp-prog.rst:915
+#: ../../../plus/debug-tools/esp-prog.rst:922
+#: ../../../plus/debug-tools/esp-prog.rst:929
+#: ../../../plus/debug-tools/esp-prog.rst:936
+#: ../../../plus/debug-tools/esp-prog.rst:943
+#: ../../../plus/debug-tools/esp-prog.rst:950
+#: ../../../plus/debug-tools/esp-prog.rst:957
+#: ../../../plus/debug-tools/esp-prog.rst:964
+#: ../../../plus/debug-tools/esp-prog.rst:971
+#: ../../../plus/debug-tools/esp-prog.rst:985
+#: ../../../plus/debug-tools/esp-prog.rst:992
+#: ../../../plus/debug-tools/esp-prog.rst:999
+#: ../../../plus/debug-tools/esp-prog.rst:1006
+#: ../../../plus/debug-tools/esp-prog.rst:1013
+#: ../../../plus/debug-tools/esp-prog.rst:1034
+#: ../../../plus/debug-tools/esp-prog.rst:1041
+#: ../../../plus/debug-tools/esp-prog.rst:1048
+#: ../../../plus/debug-tools/esp-prog.rst:1055
+#: ../../../plus/debug-tools/esp-prog.rst:1069
+#: ../../../plus/debug-tools/esp-prog.rst:1076
+#: ../../../plus/debug-tools/esp-prog.rst:1083
+#: ../../../plus/debug-tools/esp-prog.rst:1090
+#: ../../../plus/debug-tools/esp-prog.rst:1097
+#: ../../../plus/debug-tools/esp-prog.rst:1104
+#: ../../../plus/debug-tools/esp-prog.rst:1111
+#: ../../../plus/debug-tools/esp-prog.rst:1118
+#: ../../../plus/debug-tools/esp-prog.rst:1125
+#: ../../../plus/debug-tools/esp-prog.rst:1132
+#: ../../../plus/debug-tools/esp-prog.rst:1139
+#: ../../../plus/debug-tools/esp-prog.rst:1146
+#: ../../../plus/debug-tools/esp-prog.rst:1153
+#: ../../../plus/debug-tools/esp-prog.rst:1160
+#: ../../../plus/debug-tools/esp-prog.rst:1174
+#: ../../../plus/debug-tools/esp-prog.rst:1181
+#: ../../../plus/debug-tools/esp-prog.rst:1188
+#: ../../../plus/debug-tools/esp-prog.rst:1195
+#: ../../../plus/debug-tools/esp-prog.rst:1202
+#: ../../../plus/debug-tools/esp-prog.rst:1209
+#: ../../../plus/debug-tools/esp-prog.rst:1216
+#: ../../../plus/debug-tools/esp-prog.rst:1223
+#: ../../../plus/debug-tools/esp-prog.rst:1230
+#: ../../../plus/debug-tools/esp-prog.rst:1237
+#: ../../../plus/debug-tools/esp-prog.rst:1244
+#: ../../../plus/debug-tools/esp-prog.rst:1251
+#: ../../../plus/debug-tools/esp-prog.rst:1258
+#: ../../../plus/debug-tools/esp-prog.rst:1279
+#: ../../../plus/debug-tools/esp-prog.rst:1286
+#: ../../../plus/debug-tools/esp-prog.rst:1293
+#: ../../../plus/debug-tools/esp-prog.rst:1307
+#: ../../../plus/debug-tools/esp-prog.rst:1314
+#: ../../../plus/debug-tools/esp-prog.rst:1321
+#: ../../../plus/debug-tools/esp-prog.rst:1328
+#: ../../../plus/debug-tools/esp-prog.rst:1335
+#: ../../../plus/debug-tools/esp-prog.rst:1342
+#: ../../../plus/debug-tools/esp-prog.rst:1349
+#: ../../../plus/debug-tools/esp-prog.rst:1356
+#: ../../../plus/debug-tools/esp-prog.rst:1363
+#: ../../../plus/debug-tools/esp-prog.rst:1377
+#: ../../../plus/debug-tools/esp-prog.rst:1384
+#: ../../../plus/debug-tools/esp-prog.rst:1391
+#: ../../../plus/debug-tools/esp-prog.rst:1412
+#: ../../../plus/debug-tools/esp-prog.rst:1419
+#: ../../../plus/debug-tools/esp-prog.rst:1426
+#: ../../../plus/debug-tools/esp-prog.rst:1433
+#: ../../../plus/debug-tools/esp-prog.rst:1440
+#: ../../../plus/debug-tools/esp-prog.rst:1447
+#: ../../../plus/debug-tools/esp-prog.rst:1454
+#: ../../../plus/debug-tools/esp-prog.rst:1461
+#: ../../../plus/debug-tools/esp-prog.rst:1468
+msgid "240MHz"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:174
+#: ../../../plus/debug-tools/esp-prog.rst:307
+#: ../../../plus/debug-tools/esp-prog.rst:349
+#: ../../../plus/debug-tools/esp-prog.rst:384
+#: ../../../plus/debug-tools/esp-prog.rst:412
+#: ../../../plus/debug-tools/esp-prog.rst:482
+#: ../../../plus/debug-tools/esp-prog.rst:608
+#: ../../../plus/debug-tools/esp-prog.rst:664
+#: ../../../plus/debug-tools/esp-prog.rst:692
+#: ../../../plus/debug-tools/esp-prog.rst:818
+#: ../../../plus/debug-tools/esp-prog.rst:825
+#: ../../../plus/debug-tools/esp-prog.rst:860
+#: ../../../plus/debug-tools/esp-prog.rst:1098
+#: ../../../plus/debug-tools/esp-prog.rst:1105
+#: ../../../plus/debug-tools/esp-prog.rst:1210
+#: ../../../plus/debug-tools/esp-prog.rst:1224
+#: ../../../plus/debug-tools/esp-prog.rst:1238
+#: ../../../plus/debug-tools/esp-prog.rst:1336
+#: ../../../plus/debug-tools/esp-prog.rst:1350
+#: ../../../plus/debug-tools/esp-prog.rst:1413
+msgid "16MB"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:175
+#: ../../../plus/debug-tools/esp-prog.rst:182
+#: ../../../plus/debug-tools/esp-prog.rst:189
+#: ../../../plus/debug-tools/esp-prog.rst:203
+#: ../../../plus/debug-tools/esp-prog.rst:210
+#: ../../../plus/debug-tools/esp-prog.rst:217
+#: ../../../plus/debug-tools/esp-prog.rst:224
+#: ../../../plus/debug-tools/esp-prog.rst:231
+#: ../../../plus/debug-tools/esp-prog.rst:238
+#: ../../../plus/debug-tools/esp-prog.rst:245
+#: ../../../plus/debug-tools/esp-prog.rst:252
+#: ../../../plus/debug-tools/esp-prog.rst:259
+#: ../../../plus/debug-tools/esp-prog.rst:266
+#: ../../../plus/debug-tools/esp-prog.rst:273
+#: ../../../plus/debug-tools/esp-prog.rst:280
+#: ../../../plus/debug-tools/esp-prog.rst:287
+#: ../../../plus/debug-tools/esp-prog.rst:294
+#: ../../../plus/debug-tools/esp-prog.rst:301
+#: ../../../plus/debug-tools/esp-prog.rst:308
+#: ../../../plus/debug-tools/esp-prog.rst:315
+#: ../../../plus/debug-tools/esp-prog.rst:322
+#: ../../../plus/debug-tools/esp-prog.rst:329
+#: ../../../plus/debug-tools/esp-prog.rst:336
+#: ../../../plus/debug-tools/esp-prog.rst:343
+#: ../../../plus/debug-tools/esp-prog.rst:350
+#: ../../../plus/debug-tools/esp-prog.rst:357
+#: ../../../plus/debug-tools/esp-prog.rst:364
+#: ../../../plus/debug-tools/esp-prog.rst:371
+#: ../../../plus/debug-tools/esp-prog.rst:378
+#: ../../../plus/debug-tools/esp-prog.rst:385
+#: ../../../plus/debug-tools/esp-prog.rst:392
+#: ../../../plus/debug-tools/esp-prog.rst:399
+#: ../../../plus/debug-tools/esp-prog.rst:406
+#: ../../../plus/debug-tools/esp-prog.rst:413
+#: ../../../plus/debug-tools/esp-prog.rst:420
+#: ../../../plus/debug-tools/esp-prog.rst:427
+#: ../../../plus/debug-tools/esp-prog.rst:434
+#: ../../../plus/debug-tools/esp-prog.rst:441
+#: ../../../plus/debug-tools/esp-prog.rst:448
+#: ../../../plus/debug-tools/esp-prog.rst:455
+#: ../../../plus/debug-tools/esp-prog.rst:462
+#: ../../../plus/debug-tools/esp-prog.rst:469
+#: ../../../plus/debug-tools/esp-prog.rst:476
+#: ../../../plus/debug-tools/esp-prog.rst:483
+#: ../../../plus/debug-tools/esp-prog.rst:490
+#: ../../../plus/debug-tools/esp-prog.rst:497
+#: ../../../plus/debug-tools/esp-prog.rst:504
+#: ../../../plus/debug-tools/esp-prog.rst:511
+#: ../../../plus/debug-tools/esp-prog.rst:518
+#: ../../../plus/debug-tools/esp-prog.rst:525
+#: ../../../plus/debug-tools/esp-prog.rst:532
+#: ../../../plus/debug-tools/esp-prog.rst:539
+#: ../../../plus/debug-tools/esp-prog.rst:546
+#: ../../../plus/debug-tools/esp-prog.rst:553
+#: ../../../plus/debug-tools/esp-prog.rst:560
+#: ../../../plus/debug-tools/esp-prog.rst:567
+#: ../../../plus/debug-tools/esp-prog.rst:574
+#: ../../../plus/debug-tools/esp-prog.rst:581
+#: ../../../plus/debug-tools/esp-prog.rst:588
+#: ../../../plus/debug-tools/esp-prog.rst:595
+#: ../../../plus/debug-tools/esp-prog.rst:602
+#: ../../../plus/debug-tools/esp-prog.rst:609
+#: ../../../plus/debug-tools/esp-prog.rst:616
+#: ../../../plus/debug-tools/esp-prog.rst:623
+#: ../../../plus/debug-tools/esp-prog.rst:630
+#: ../../../plus/debug-tools/esp-prog.rst:637
+#: ../../../plus/debug-tools/esp-prog.rst:644
+#: ../../../plus/debug-tools/esp-prog.rst:651
+#: ../../../plus/debug-tools/esp-prog.rst:658
+#: ../../../plus/debug-tools/esp-prog.rst:665
+#: ../../../plus/debug-tools/esp-prog.rst:672
+#: ../../../plus/debug-tools/esp-prog.rst:679
+#: ../../../plus/debug-tools/esp-prog.rst:686
+#: ../../../plus/debug-tools/esp-prog.rst:700
+#: ../../../plus/debug-tools/esp-prog.rst:707
+#: ../../../plus/debug-tools/esp-prog.rst:714
+#: ../../../plus/debug-tools/esp-prog.rst:721
+#: ../../../plus/debug-tools/esp-prog.rst:728
+#: ../../../plus/debug-tools/esp-prog.rst:735
+#: ../../../plus/debug-tools/esp-prog.rst:742
+#: ../../../plus/debug-tools/esp-prog.rst:749
+#: ../../../plus/debug-tools/esp-prog.rst:756
+#: ../../../plus/debug-tools/esp-prog.rst:763
+#: ../../../plus/debug-tools/esp-prog.rst:770
+#: ../../../plus/debug-tools/esp-prog.rst:777
+#: ../../../plus/debug-tools/esp-prog.rst:784
+#: ../../../plus/debug-tools/esp-prog.rst:791
+#: ../../../plus/debug-tools/esp-prog.rst:798
+#: ../../../plus/debug-tools/esp-prog.rst:805
+#: ../../../plus/debug-tools/esp-prog.rst:812
+#: ../../../plus/debug-tools/esp-prog.rst:819
+#: ../../../plus/debug-tools/esp-prog.rst:826
+#: ../../../plus/debug-tools/esp-prog.rst:833
+#: ../../../plus/debug-tools/esp-prog.rst:840
+#: ../../../plus/debug-tools/esp-prog.rst:847
+#: ../../../plus/debug-tools/esp-prog.rst:854
+#: ../../../plus/debug-tools/esp-prog.rst:861
+#: ../../../plus/debug-tools/esp-prog.rst:868
+#: ../../../plus/debug-tools/esp-prog.rst:875
+#: ../../../plus/debug-tools/esp-prog.rst:882
+#: ../../../plus/debug-tools/esp-prog.rst:889
+#: ../../../plus/debug-tools/esp-prog.rst:896
+#: ../../../plus/debug-tools/esp-prog.rst:903
+#: ../../../plus/debug-tools/esp-prog.rst:910
+#: ../../../plus/debug-tools/esp-prog.rst:917
+#: ../../../plus/debug-tools/esp-prog.rst:924
+#: ../../../plus/debug-tools/esp-prog.rst:931
+#: ../../../plus/debug-tools/esp-prog.rst:938
+#: ../../../plus/debug-tools/esp-prog.rst:945
+#: ../../../plus/debug-tools/esp-prog.rst:952
+#: ../../../plus/debug-tools/esp-prog.rst:959
+#: ../../../plus/debug-tools/esp-prog.rst:980
+#: ../../../plus/debug-tools/esp-prog.rst:987
+#: ../../../plus/debug-tools/esp-prog.rst:994
+#: ../../../plus/debug-tools/esp-prog.rst:1001
+#: ../../../plus/debug-tools/esp-prog.rst:1008
+#: ../../../plus/debug-tools/esp-prog.rst:1015
+#: ../../../plus/debug-tools/esp-prog.rst:1022
+#: ../../../plus/debug-tools/esp-prog.rst:1029
+#: ../../../plus/debug-tools/esp-prog.rst:1036
+#: ../../../plus/debug-tools/esp-prog.rst:1043
+#: ../../../plus/debug-tools/esp-prog.rst:1050
+#: ../../../plus/debug-tools/esp-prog.rst:1057
+#: ../../../plus/debug-tools/esp-prog.rst:1064
+#: ../../../plus/debug-tools/esp-prog.rst:1071
+#: ../../../plus/debug-tools/esp-prog.rst:1078
+#: ../../../plus/debug-tools/esp-prog.rst:1085
+#: ../../../plus/debug-tools/esp-prog.rst:1092
+#: ../../../plus/debug-tools/esp-prog.rst:1099
+#: ../../../plus/debug-tools/esp-prog.rst:1106
+#: ../../../plus/debug-tools/esp-prog.rst:1113
+#: ../../../plus/debug-tools/esp-prog.rst:1120
+#: ../../../plus/debug-tools/esp-prog.rst:1127
+#: ../../../plus/debug-tools/esp-prog.rst:1134
+#: ../../../plus/debug-tools/esp-prog.rst:1141
+#: ../../../plus/debug-tools/esp-prog.rst:1148
+#: ../../../plus/debug-tools/esp-prog.rst:1155
+#: ../../../plus/debug-tools/esp-prog.rst:1169
+#: ../../../plus/debug-tools/esp-prog.rst:1176
+#: ../../../plus/debug-tools/esp-prog.rst:1190
+#: ../../../plus/debug-tools/esp-prog.rst:1197
+#: ../../../plus/debug-tools/esp-prog.rst:1204
+#: ../../../plus/debug-tools/esp-prog.rst:1211
+#: ../../../plus/debug-tools/esp-prog.rst:1218
+#: ../../../plus/debug-tools/esp-prog.rst:1225
+#: ../../../plus/debug-tools/esp-prog.rst:1232
+#: ../../../plus/debug-tools/esp-prog.rst:1239
+#: ../../../plus/debug-tools/esp-prog.rst:1246
+#: ../../../plus/debug-tools/esp-prog.rst:1253
+#: ../../../plus/debug-tools/esp-prog.rst:1260
+#: ../../../plus/debug-tools/esp-prog.rst:1267
+#: ../../../plus/debug-tools/esp-prog.rst:1274
+#: ../../../plus/debug-tools/esp-prog.rst:1281
+#: ../../../plus/debug-tools/esp-prog.rst:1288
+#: ../../../plus/debug-tools/esp-prog.rst:1295
+#: ../../../plus/debug-tools/esp-prog.rst:1302
+#: ../../../plus/debug-tools/esp-prog.rst:1309
+#: ../../../plus/debug-tools/esp-prog.rst:1316
+#: ../../../plus/debug-tools/esp-prog.rst:1323
+#: ../../../plus/debug-tools/esp-prog.rst:1330
+#: ../../../plus/debug-tools/esp-prog.rst:1337
+#: ../../../plus/debug-tools/esp-prog.rst:1344
+#: ../../../plus/debug-tools/esp-prog.rst:1351
+#: ../../../plus/debug-tools/esp-prog.rst:1358
+#: ../../../plus/debug-tools/esp-prog.rst:1365
+#: ../../../plus/debug-tools/esp-prog.rst:1379
+#: ../../../plus/debug-tools/esp-prog.rst:1386
+#: ../../../plus/debug-tools/esp-prog.rst:1393
+#: ../../../plus/debug-tools/esp-prog.rst:1400
+#: ../../../plus/debug-tools/esp-prog.rst:1407
+#: ../../../plus/debug-tools/esp-prog.rst:1414
+#: ../../../plus/debug-tools/esp-prog.rst:1421
+#: ../../../plus/debug-tools/esp-prog.rst:1428
+#: ../../../plus/debug-tools/esp-prog.rst:1435
+#: ../../../plus/debug-tools/esp-prog.rst:1442
+#: ../../../plus/debug-tools/esp-prog.rst:1449
+#: ../../../plus/debug-tools/esp-prog.rst:1456
+msgid "320KB"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:176
+msgid ":ref:`board_espressif32_esp32cam`"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:179
+#: ../../../plus/debug-tools/esp-prog.rst:186
+#: ../../../plus/debug-tools/esp-prog.rst:193
+#: ../../../plus/debug-tools/esp-prog.rst:200
+#: ../../../plus/debug-tools/esp-prog.rst:214
+#: ../../../plus/debug-tools/esp-prog.rst:277
+#: ../../../plus/debug-tools/esp-prog.rst:312
+#: ../../../plus/debug-tools/esp-prog.rst:396
+#: ../../../plus/debug-tools/esp-prog.rst:403
+#: ../../../plus/debug-tools/esp-prog.rst:438
+#: ../../../plus/debug-tools/esp-prog.rst:452
+#: ../../../plus/debug-tools/esp-prog.rst:466
+#: ../../../plus/debug-tools/esp-prog.rst:487
+#: ../../../plus/debug-tools/esp-prog.rst:494
+#: ../../../plus/debug-tools/esp-prog.rst:501
+#: ../../../plus/debug-tools/esp-prog.rst:508
+#: ../../../plus/debug-tools/esp-prog.rst:550
+#: ../../../plus/debug-tools/esp-prog.rst:557
+#: ../../../plus/debug-tools/esp-prog.rst:564
+#: ../../../plus/debug-tools/esp-prog.rst:585
+#: ../../../plus/debug-tools/esp-prog.rst:592
+#: ../../../plus/debug-tools/esp-prog.rst:599
+#: ../../../plus/debug-tools/esp-prog.rst:613
+#: ../../../plus/debug-tools/esp-prog.rst:620
+#: ../../../plus/debug-tools/esp-prog.rst:690
+#: ../../../plus/debug-tools/esp-prog.rst:725
+#: ../../../plus/debug-tools/esp-prog.rst:732
+#: ../../../plus/debug-tools/esp-prog.rst:739
+#: ../../../plus/debug-tools/esp-prog.rst:753
+#: ../../../plus/debug-tools/esp-prog.rst:760
+#: ../../../plus/debug-tools/esp-prog.rst:774
+#: ../../../plus/debug-tools/esp-prog.rst:781
+#: ../../../plus/debug-tools/esp-prog.rst:788
+#: ../../../plus/debug-tools/esp-prog.rst:795
+#: ../../../plus/debug-tools/esp-prog.rst:809
+#: ../../../plus/debug-tools/esp-prog.rst:837
+#: ../../../plus/debug-tools/esp-prog.rst:872
+#: ../../../plus/debug-tools/esp-prog.rst:879
+#: ../../../plus/debug-tools/esp-prog.rst:886
+#: ../../../plus/debug-tools/esp-prog.rst:921
+#: ../../../plus/debug-tools/esp-prog.rst:928
+#: ../../../plus/debug-tools/esp-prog.rst:935
+#: ../../../plus/debug-tools/esp-prog.rst:942
+#: ../../../plus/debug-tools/esp-prog.rst:949
+#: ../../../plus/debug-tools/esp-prog.rst:956
+#: ../../../plus/debug-tools/esp-prog.rst:963
+#: ../../../plus/debug-tools/esp-prog.rst:970
+#: ../../../plus/debug-tools/esp-prog.rst:984
+#: ../../../plus/debug-tools/esp-prog.rst:998
+#: ../../../plus/debug-tools/esp-prog.rst:1005
+#: ../../../plus/debug-tools/esp-prog.rst:1040
+#: ../../../plus/debug-tools/esp-prog.rst:1082
+#: ../../../plus/debug-tools/esp-prog.rst:1089
+#: ../../../plus/debug-tools/esp-prog.rst:1096
+#: ../../../plus/debug-tools/esp-prog.rst:1103
+#: ../../../plus/debug-tools/esp-prog.rst:1117
+#: ../../../plus/debug-tools/esp-prog.rst:1124
+#: ../../../plus/debug-tools/esp-prog.rst:1138
+#: ../../../plus/debug-tools/esp-prog.rst:1145
+#: ../../../plus/debug-tools/esp-prog.rst:1152
+#: ../../../plus/debug-tools/esp-prog.rst:1159
+#: ../../../plus/debug-tools/esp-prog.rst:1173
+#: ../../../plus/debug-tools/esp-prog.rst:1180
+#: ../../../plus/debug-tools/esp-prog.rst:1187
+#: ../../../plus/debug-tools/esp-prog.rst:1194
+#: ../../../plus/debug-tools/esp-prog.rst:1201
+#: ../../../plus/debug-tools/esp-prog.rst:1278
+#: ../../../plus/debug-tools/esp-prog.rst:1285
+#: ../../../plus/debug-tools/esp-prog.rst:1292
+#: ../../../plus/debug-tools/esp-prog.rst:1306
+#: ../../../plus/debug-tools/esp-prog.rst:1313
+#: ../../../plus/debug-tools/esp-prog.rst:1355
+#: ../../../plus/debug-tools/esp-prog.rst:1362
+#: ../../../plus/debug-tools/esp-prog.rst:1376
+#: ../../../plus/debug-tools/esp-prog.rst:1383
+#: ../../../plus/debug-tools/esp-prog.rst:1390
+#: ../../../plus/debug-tools/esp-prog.rst:1418
+#: ../../../plus/debug-tools/esp-prog.rst:1425
+#: ../../../plus/debug-tools/esp-prog.rst:1439
+#: ../../../plus/debug-tools/esp-prog.rst:1446
+#: ../../../plus/debug-tools/esp-prog.rst:1453
+msgid "ESP32"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:181
+#: ../../../plus/debug-tools/esp-prog.rst:188
+#: ../../../plus/debug-tools/esp-prog.rst:195
+#: ../../../plus/debug-tools/esp-prog.rst:202
+#: ../../../plus/debug-tools/esp-prog.rst:209
+#: ../../../plus/debug-tools/esp-prog.rst:223
+#: ../../../plus/debug-tools/esp-prog.rst:230
+#: ../../../plus/debug-tools/esp-prog.rst:237
+#: ../../../plus/debug-tools/esp-prog.rst:244
+#: ../../../plus/debug-tools/esp-prog.rst:258
+#: ../../../plus/debug-tools/esp-prog.rst:265
+#: ../../../plus/debug-tools/esp-prog.rst:272
+#: ../../../plus/debug-tools/esp-prog.rst:286
+#: ../../../plus/debug-tools/esp-prog.rst:300
+#: ../../../plus/debug-tools/esp-prog.rst:321
+#: ../../../plus/debug-tools/esp-prog.rst:328
+#: ../../../plus/debug-tools/esp-prog.rst:335
+#: ../../../plus/debug-tools/esp-prog.rst:356
+#: ../../../plus/debug-tools/esp-prog.rst:363
+#: ../../../plus/debug-tools/esp-prog.rst:370
+#: ../../../plus/debug-tools/esp-prog.rst:377
+#: ../../../plus/debug-tools/esp-prog.rst:398
+#: ../../../plus/debug-tools/esp-prog.rst:405
+#: ../../../plus/debug-tools/esp-prog.rst:433
+#: ../../../plus/debug-tools/esp-prog.rst:440
+#: ../../../plus/debug-tools/esp-prog.rst:454
+#: ../../../plus/debug-tools/esp-prog.rst:461
+#: ../../../plus/debug-tools/esp-prog.rst:468
+#: ../../../plus/debug-tools/esp-prog.rst:475
+#: ../../../plus/debug-tools/esp-prog.rst:489
+#: ../../../plus/debug-tools/esp-prog.rst:496
+#: ../../../plus/debug-tools/esp-prog.rst:503
+#: ../../../plus/debug-tools/esp-prog.rst:510
+#: ../../../plus/debug-tools/esp-prog.rst:517
+#: ../../../plus/debug-tools/esp-prog.rst:524
+#: ../../../plus/debug-tools/esp-prog.rst:531
+#: ../../../plus/debug-tools/esp-prog.rst:538
+#: ../../../plus/debug-tools/esp-prog.rst:545
+#: ../../../plus/debug-tools/esp-prog.rst:552
+#: ../../../plus/debug-tools/esp-prog.rst:559
+#: ../../../plus/debug-tools/esp-prog.rst:566
+#: ../../../plus/debug-tools/esp-prog.rst:587
+#: ../../../plus/debug-tools/esp-prog.rst:594
+#: ../../../plus/debug-tools/esp-prog.rst:601
+#: ../../../plus/debug-tools/esp-prog.rst:615
+#: ../../../plus/debug-tools/esp-prog.rst:622
+#: ../../../plus/debug-tools/esp-prog.rst:629
+#: ../../../plus/debug-tools/esp-prog.rst:636
+#: ../../../plus/debug-tools/esp-prog.rst:643
+#: ../../../plus/debug-tools/esp-prog.rst:650
+#: ../../../plus/debug-tools/esp-prog.rst:657
+#: ../../../plus/debug-tools/esp-prog.rst:699
+#: ../../../plus/debug-tools/esp-prog.rst:706
+#: ../../../plus/debug-tools/esp-prog.rst:713
+#: ../../../plus/debug-tools/esp-prog.rst:727
+#: ../../../plus/debug-tools/esp-prog.rst:734
+#: ../../../plus/debug-tools/esp-prog.rst:741
+#: ../../../plus/debug-tools/esp-prog.rst:755
+#: ../../../plus/debug-tools/esp-prog.rst:783
+#: ../../../plus/debug-tools/esp-prog.rst:790
+#: ../../../plus/debug-tools/esp-prog.rst:797
+#: ../../../plus/debug-tools/esp-prog.rst:804
+#: ../../../plus/debug-tools/esp-prog.rst:811
+#: ../../../plus/debug-tools/esp-prog.rst:832
+#: ../../../plus/debug-tools/esp-prog.rst:839
+#: ../../../plus/debug-tools/esp-prog.rst:846
+#: ../../../plus/debug-tools/esp-prog.rst:874
+#: ../../../plus/debug-tools/esp-prog.rst:881
+#: ../../../plus/debug-tools/esp-prog.rst:888
+#: ../../../plus/debug-tools/esp-prog.rst:895
+#: ../../../plus/debug-tools/esp-prog.rst:909
+#: ../../../plus/debug-tools/esp-prog.rst:916
+#: ../../../plus/debug-tools/esp-prog.rst:923
+#: ../../../plus/debug-tools/esp-prog.rst:930
+#: ../../../plus/debug-tools/esp-prog.rst:937
+#: ../../../plus/debug-tools/esp-prog.rst:944
+#: ../../../plus/debug-tools/esp-prog.rst:951
+#: ../../../plus/debug-tools/esp-prog.rst:958
+#: ../../../plus/debug-tools/esp-prog.rst:965
+#: ../../../plus/debug-tools/esp-prog.rst:972
+#: ../../../plus/debug-tools/esp-prog.rst:979
+#: ../../../plus/debug-tools/esp-prog.rst:986
+#: ../../../plus/debug-tools/esp-prog.rst:1000
+#: ../../../plus/debug-tools/esp-prog.rst:1007
+#: ../../../plus/debug-tools/esp-prog.rst:1014
+#: ../../../plus/debug-tools/esp-prog.rst:1021
+#: ../../../plus/debug-tools/esp-prog.rst:1028
+#: ../../../plus/debug-tools/esp-prog.rst:1042
+#: ../../../plus/debug-tools/esp-prog.rst:1056
+#: ../../../plus/debug-tools/esp-prog.rst:1063
+#: ../../../plus/debug-tools/esp-prog.rst:1084
+#: ../../../plus/debug-tools/esp-prog.rst:1091
+#: ../../../plus/debug-tools/esp-prog.rst:1112
+#: ../../../plus/debug-tools/esp-prog.rst:1119
+#: ../../../plus/debug-tools/esp-prog.rst:1140
+#: ../../../plus/debug-tools/esp-prog.rst:1147
+#: ../../../plus/debug-tools/esp-prog.rst:1154
+#: ../../../plus/debug-tools/esp-prog.rst:1161
+#: ../../../plus/debug-tools/esp-prog.rst:1168
+#: ../../../plus/debug-tools/esp-prog.rst:1175
+#: ../../../plus/debug-tools/esp-prog.rst:1182
+#: ../../../plus/debug-tools/esp-prog.rst:1189
+#: ../../../plus/debug-tools/esp-prog.rst:1196
+#: ../../../plus/debug-tools/esp-prog.rst:1203
+#: ../../../plus/debug-tools/esp-prog.rst:1217
+#: ../../../plus/debug-tools/esp-prog.rst:1245
+#: ../../../plus/debug-tools/esp-prog.rst:1252
+#: ../../../plus/debug-tools/esp-prog.rst:1266
+#: ../../../plus/debug-tools/esp-prog.rst:1273
+#: ../../../plus/debug-tools/esp-prog.rst:1280
+#: ../../../plus/debug-tools/esp-prog.rst:1287
+#: ../../../plus/debug-tools/esp-prog.rst:1294
+#: ../../../plus/debug-tools/esp-prog.rst:1301
+#: ../../../plus/debug-tools/esp-prog.rst:1308
+#: ../../../plus/debug-tools/esp-prog.rst:1315
+#: ../../../plus/debug-tools/esp-prog.rst:1322
+#: ../../../plus/debug-tools/esp-prog.rst:1329
+#: ../../../plus/debug-tools/esp-prog.rst:1343
+#: ../../../plus/debug-tools/esp-prog.rst:1357
+#: ../../../plus/debug-tools/esp-prog.rst:1364
+#: ../../../plus/debug-tools/esp-prog.rst:1378
+#: ../../../plus/debug-tools/esp-prog.rst:1385
+#: ../../../plus/debug-tools/esp-prog.rst:1392
+#: ../../../plus/debug-tools/esp-prog.rst:1399
+#: ../../../plus/debug-tools/esp-prog.rst:1406
+#: ../../../plus/debug-tools/esp-prog.rst:1420
+#: ../../../plus/debug-tools/esp-prog.rst:1427
+#: ../../../plus/debug-tools/esp-prog.rst:1434
+#: ../../../plus/debug-tools/esp-prog.rst:1441
+#: ../../../plus/debug-tools/esp-prog.rst:1448
+#: ../../../plus/debug-tools/esp-prog.rst:1455
+msgid "4MB"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:183
+msgid ":ref:`board_espressif32_alksesp32`"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:190
+msgid ":ref:`board_espressif32_az-delivery-devkit-v4`"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:196
+#: ../../../plus/debug-tools/esp-prog.rst:693
+msgid "520KB"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:197
+msgid ":ref:`board_espressif32_featheresp32`"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:204
+msgid ":ref:`board_espressif32_featheresp32-s2`"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:207
+#: ../../../plus/debug-tools/esp-prog.rst:221
+#: ../../../plus/debug-tools/esp-prog.rst:228
+#: ../../../plus/debug-tools/esp-prog.rst:235
+#: ../../../plus/debug-tools/esp-prog.rst:270
+#: ../../../plus/debug-tools/esp-prog.rst:284
+#: ../../../plus/debug-tools/esp-prog.rst:298
+#: ../../../plus/debug-tools/esp-prog.rst:326
+#: ../../../plus/debug-tools/esp-prog.rst:368
+#: ../../../plus/debug-tools/esp-prog.rst:529
+#: ../../../plus/debug-tools/esp-prog.rst:536
+#: ../../../plus/debug-tools/esp-prog.rst:543
+#: ../../../plus/debug-tools/esp-prog.rst:606
+#: ../../../plus/debug-tools/esp-prog.rst:648
+#: ../../../plus/debug-tools/esp-prog.rst:655
+#: ../../../plus/debug-tools/esp-prog.rst:697
+#: ../../../plus/debug-tools/esp-prog.rst:704
+#: ../../../plus/debug-tools/esp-prog.rst:711
+#: ../../../plus/debug-tools/esp-prog.rst:1054
+#: ../../../plus/debug-tools/esp-prog.rst:1110
+#: ../../../plus/debug-tools/esp-prog.rst:1208
+#: ../../../plus/debug-tools/esp-prog.rst:1215
+#: ../../../plus/debug-tools/esp-prog.rst:1243
+#: ../../../plus/debug-tools/esp-prog.rst:1250
+#: ../../../plus/debug-tools/esp-prog.rst:1320
+#: ../../../plus/debug-tools/esp-prog.rst:1327
+#: ../../../plus/debug-tools/esp-prog.rst:1411
+#: ../../../plus/debug-tools/esp-prog.rst:1432
+msgid "ESP32S2"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:211
+msgid ":ref:`board_espressif32_adafruit_feather_esp32_v2`"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:216
+#: ../../../plus/debug-tools/esp-prog.rst:251
+#: ../../../plus/debug-tools/esp-prog.rst:279
+#: ../../../plus/debug-tools/esp-prog.rst:293
+#: ../../../plus/debug-tools/esp-prog.rst:314
+#: ../../../plus/debug-tools/esp-prog.rst:342
+#: ../../../plus/debug-tools/esp-prog.rst:391
+#: ../../../plus/debug-tools/esp-prog.rst:419
+#: ../../../plus/debug-tools/esp-prog.rst:426
+#: ../../../plus/debug-tools/esp-prog.rst:447
+#: ../../../plus/debug-tools/esp-prog.rst:573
+#: ../../../plus/debug-tools/esp-prog.rst:580
+#: ../../../plus/debug-tools/esp-prog.rst:671
+#: ../../../plus/debug-tools/esp-prog.rst:678
+#: ../../../plus/debug-tools/esp-prog.rst:685
+#: ../../../plus/debug-tools/esp-prog.rst:720
+#: ../../../plus/debug-tools/esp-prog.rst:748
+#: ../../../plus/debug-tools/esp-prog.rst:762
+#: ../../../plus/debug-tools/esp-prog.rst:769
+#: ../../../plus/debug-tools/esp-prog.rst:776
+#: ../../../plus/debug-tools/esp-prog.rst:853
+#: ../../../plus/debug-tools/esp-prog.rst:867
+#: ../../../plus/debug-tools/esp-prog.rst:902
+#: ../../../plus/debug-tools/esp-prog.rst:993
+#: ../../../plus/debug-tools/esp-prog.rst:1035
+#: ../../../plus/debug-tools/esp-prog.rst:1049
+#: ../../../plus/debug-tools/esp-prog.rst:1070
+#: ../../../plus/debug-tools/esp-prog.rst:1077
+#: ../../../plus/debug-tools/esp-prog.rst:1126
+#: ../../../plus/debug-tools/esp-prog.rst:1133
+#: ../../../plus/debug-tools/esp-prog.rst:1231
+#: ../../../plus/debug-tools/esp-prog.rst:1259
+msgid "8MB"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:218
+msgid ":ref:`board_espressif32_adafruit_feather_esp32s2`"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:225
+msgid ":ref:`board_espressif32_adafruit_feather_esp32s2_reversetft`"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:232
+msgid ":ref:`board_espressif32_adafruit_feather_esp32s2_tft`"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:239
+msgid ":ref:`board_espressif32_adafruit_feather_esp32s3`"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:246
+msgid ":ref:`board_espressif32_adafruit_feather_esp32s3_nopsram`"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:253
+msgid ":ref:`board_espressif32_adafruit_feather_esp32s3_reversetft`"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:260
+msgid ":ref:`board_espressif32_adafruit_feather_esp32s3_tft`"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:267
+msgid ":ref:`board_espressif32_adafruit_funhouse_esp32s2`"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:274
+msgid ":ref:`board_espressif32_adafruit_itsybitsy_esp32`"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:281
+msgid ":ref:`board_espressif32_adafruit_magtag29_esp32s2`"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:288
+msgid ":ref:`board_espressif32_adafruit_matrixportal_esp32s3`"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:295
+msgid ":ref:`board_espressif32_adafruit_metro_esp32s2`"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:302
+msgid ":ref:`board_espressif32_adafruit_metro_esp32s3`"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:309
+msgid ":ref:`board_espressif32_adafruit_qtpy_esp32`"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:316
+msgid ":ref:`board_espressif32_adafruit_qtpy_esp32c3`"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:319
+#: ../../../plus/debug-tools/esp-prog.rst:361
+#: ../../../plus/debug-tools/esp-prog.rst:375
+#: ../../../plus/debug-tools/esp-prog.rst:431
+#: ../../../plus/debug-tools/esp-prog.rst:459
+#: ../../../plus/debug-tools/esp-prog.rst:522
+#: ../../../plus/debug-tools/esp-prog.rst:627
+#: ../../../plus/debug-tools/esp-prog.rst:634
+#: ../../../plus/debug-tools/esp-prog.rst:977
+#: ../../../plus/debug-tools/esp-prog.rst:1019
+#: ../../../plus/debug-tools/esp-prog.rst:1061
+#: ../../../plus/debug-tools/esp-prog.rst:1166
+#: ../../../plus/debug-tools/esp-prog.rst:1264
+#: ../../../plus/debug-tools/esp-prog.rst:1271
+#: ../../../plus/debug-tools/esp-prog.rst:1299
+#: ../../../plus/debug-tools/esp-prog.rst:1369
+msgid "ESP32C3"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:320
+#: ../../../plus/debug-tools/esp-prog.rst:362
+#: ../../../plus/debug-tools/esp-prog.rst:376
+#: ../../../plus/debug-tools/esp-prog.rst:432
+#: ../../../plus/debug-tools/esp-prog.rst:460
+#: ../../../plus/debug-tools/esp-prog.rst:523
+#: ../../../plus/debug-tools/esp-prog.rst:628
+#: ../../../plus/debug-tools/esp-prog.rst:635
+#: ../../../plus/debug-tools/esp-prog.rst:642
+#: ../../../plus/debug-tools/esp-prog.rst:978
+#: ../../../plus/debug-tools/esp-prog.rst:1020
+#: ../../../plus/debug-tools/esp-prog.rst:1027
+#: ../../../plus/debug-tools/esp-prog.rst:1062
+#: ../../../plus/debug-tools/esp-prog.rst:1167
+#: ../../../plus/debug-tools/esp-prog.rst:1265
+#: ../../../plus/debug-tools/esp-prog.rst:1272
+#: ../../../plus/debug-tools/esp-prog.rst:1300
+#: ../../../plus/debug-tools/esp-prog.rst:1370
+#: ../../../plus/debug-tools/esp-prog.rst:1398
+#: ../../../plus/debug-tools/esp-prog.rst:1405
+msgid "160MHz"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:323
+msgid ":ref:`board_espressif32_adafruit_qtpy_esp32s2`"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:330
+msgid ":ref:`board_espressif32_adafruit_qtpy_esp32s3_n4r2`"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:337
+msgid ":ref:`board_espressif32_adafruit_qtpy_esp32s3_nopsram`"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:344
+msgid ":ref:`board_espressif32_adafruit_qualia_s3_rgb666`"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:351
+msgid ":ref:`board_espressif32_adafruit_camera_esp32s3`"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:358
+msgid ":ref:`board_espressif32_esp32-c3-m1i-kit`"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:365
+msgid ":ref:`board_espressif32_nodemcu-32s2`"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:372
+msgid ":ref:`board_espressif32_airm2m_core_esp32c3`"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:379
+msgid ":ref:`board_espressif32_arduino_nano_esp32`"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:386
+msgid ":ref:`board_espressif32_atd147_s3`"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:393
+msgid ":ref:`board_espressif32_ioxesp32`"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:400
+msgid ":ref:`board_espressif32_ioxesp32ps`"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:407
+msgid ":ref:`board_espressif32_aventen_s3_sync`"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:414
+msgid ":ref:`board_espressif32_bpi_leaf_s3`"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:421
+msgid ":ref:`board_espressif32_wifiduino32s3`"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:428
+msgid ":ref:`board_espressif32_wifiduino32c3`"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:435
+msgid ":ref:`board_espressif32_connaxio_espoir`"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:442
+msgid ":ref:`board_espressif32_cytron_maker_feather_aiot_s3`"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:449
+msgid ":ref:`board_espressif32_d-duino-32`"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:456
+msgid ":ref:`board_espressif32_dfrobot_beetle_esp32c3`"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:463
+msgid ":ref:`board_espressif32_dfrobot_firebeetle2_esp32e`"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:470
+msgid ":ref:`board_espressif32_dfrobot_firebeetle2_esp32s3`"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:477
+msgid ":ref:`board_espressif32_dfrobot_romeo_esp32s3`"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:484
+msgid ":ref:`board_espressif32_esp32doit-devkit-v1`"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:491
+msgid ":ref:`board_espressif32_esp32doit-espduino`"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:498
+msgid ":ref:`board_espressif32_deneyapkart`"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:505
+msgid ":ref:`board_espressif32_deneyapkart1A`"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:512
+msgid ":ref:`board_espressif32_deneyapkart1Av2`"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:519
+msgid ":ref:`board_espressif32_deneyapkartg`"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:526
+msgid ":ref:`board_espressif32_deneyapmini`"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:533
+msgid ":ref:`board_espressif32_deneyapminiv2`"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:540
+msgid ":ref:`board_espressif32_minimain_esp32s2`"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:547
+msgid ":ref:`board_espressif32_pocket_32`"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:554
+msgid ":ref:`board_espressif32_fm-devkit`"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:561
+msgid ":ref:`board_espressif32_pico32`"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:568
+msgid ":ref:`board_espressif32_esp32s3_powerfeather`"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:575
+msgid ":ref:`board_espressif32_esp32s3camlcd`"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:582
+msgid ":ref:`board_espressif32_esp32vn-iot-uno`"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:589
+msgid ":ref:`board_espressif32_espectro32`"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:596
+msgid ":ref:`board_espressif32_espino32`"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:603
+msgid ":ref:`board_espressif32_atmegazero_esp32s2`"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:610
+msgid ":ref:`board_espressif32_esp-wrover-kit`"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:612
+#: ../../../plus/debug-tools/esp-prog.rst:647
+#: ../../../plus/debug-tools/esp-prog.rst:668
+#: ../../../plus/debug-tools/esp-prog.rst:675
+#: ../../../plus/debug-tools/esp-prog.rst:682
+#: ../../../plus/debug-tools/esp-prog.rst:717
+#: ../../../plus/debug-tools/esp-prog.rst:843
+#: ../../../plus/debug-tools/esp-prog.rst:990
+msgid "On-board"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:617
+msgid ":ref:`board_espressif32_esp32dev`"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:624
+msgid ":ref:`board_espressif32_esp32-c3-devkitc-02`"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:631
+msgid ":ref:`board_espressif32_esp32-c3-devkitm-1`"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:638
+msgid ":ref:`board_espressif32_esp32-c6-devkitm-1`"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:641
+#: ../../../plus/debug-tools/esp-prog.rst:1026
+#: ../../../plus/debug-tools/esp-prog.rst:1397
+#: ../../../plus/debug-tools/esp-prog.rst:1404
+msgid "ESP32C6"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:645
+msgid ":ref:`board_espressif32_esp32-s2-kaluga-1`"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:652
+msgid ":ref:`board_espressif32_esp32-s2-saola-1`"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:659
+msgid ":ref:`board_espressif32_esp32s3box`"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:666
+msgid ":ref:`board_espressif32_esp32-s3-devkitc-1`"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:673
+msgid ":ref:`board_espressif32_esp32-s3-devkitm-1`"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:680
+msgid ":ref:`board_espressif32_esp32s3usbotg`"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:687
+msgid ":ref:`board_espressif32_firebeetle32`"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:694
+msgid ":ref:`board_espressif32_franzininho_wifi_esp32s2`"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:701
+msgid ":ref:`board_espressif32_esp32-s2-franzininho`"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:708
+msgid ":ref:`board_espressif32_franzininho_wifi_msc_esp32s2`"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:715
+msgid ":ref:`board_espressif32_freenove_esp32_s3_wroom`"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:722
+msgid ":ref:`board_espressif32_freenove_esp32_wrover`"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:729
+msgid ":ref:`board_espressif32_frogboard`"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:736
+msgid ":ref:`board_espressif32_honeylemon`"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:743
+msgid ":ref:`board_espressif32_heltec_wifi_kit_32_V3`"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:750
+msgid ":ref:`board_espressif32_heltec_wifi_lora_32`"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:757
+msgid ":ref:`board_espressif32_heltec_wifi_lora_32_V2`"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:764
+msgid ":ref:`board_espressif32_heltec_wifi_lora_32_V3`"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:771
+msgid ":ref:`board_espressif32_heltec_wireless_stick`"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:778
+msgid ":ref:`board_espressif32_hornbill32dev`"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:785
+msgid ":ref:`board_espressif32_hornbill32minima`"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:792
+msgid ":ref:`board_espressif32_iotaap_magnolia`"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:799
+msgid ":ref:`board_espressif32_nebulas3`"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:806
+msgid ":ref:`board_espressif32_sensesiot_weizen`"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:813
+msgid ":ref:`board_espressif32_lilka_v2`"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:820
+msgid ":ref:`board_espressif32_lilygo-t-display-s3`"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:827
+msgid ":ref:`board_espressif32_lilygo-t3-s3`"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:834
+msgid ":ref:`board_espressif32_lionbit`"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:841
+msgid ":ref:`board_espressif32_lionbits3`"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:848
+msgid ":ref:`board_espressif32_m5stack-atoms3`"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:855
+msgid ":ref:`board_espressif32_m5stack-cores3`"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:862
+msgid ":ref:`board_espressif32_m5stack-stamps3`"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:869
+msgid ":ref:`board_espressif32_mhetesp32devkit`"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:876
+msgid ":ref:`board_espressif32_mhetesp32minikit`"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:883
+msgid ":ref:`board_espressif32_kb32-ft`"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:890
+msgid ":ref:`board_espressif32_motorgo_mini_1`"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:897
+msgid ":ref:`board_espressif32_redpill_esp32s3`"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:904
+msgid ":ref:`board_espressif32_namino_arancio`"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:911
+msgid ":ref:`board_espressif32_namino_rosso`"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:918
+msgid ":ref:`board_espressif32_node32s`"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:925
+msgid ":ref:`board_espressif32_nodemcu-32s`"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:932
+msgid ":ref:`board_espressif32_esp32-devkitlipo`"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:939
+msgid ":ref:`board_espressif32_esp32-evb`"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:946
+msgid ":ref:`board_espressif32_esp32-gateway`"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:953
+msgid ":ref:`board_espressif32_lopy`"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:960
+msgid ":ref:`board_espressif32_lopy4`"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:966
+#: ../../../plus/debug-tools/esp-prog.rst:973
+#: ../../../plus/debug-tools/esp-prog.rst:1162
+#: ../../../plus/debug-tools/esp-prog.rst:1183
+msgid "1.25MB"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:967
+msgid ":ref:`board_espressif32_wipy3`"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:974
+msgid ":ref:`board_espressif32_rymcu-esp32-c3-devkitm-1`"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:981
+msgid ":ref:`board_espressif32_rymcu-esp32-devkitc`"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:988
+msgid ":ref:`board_espressif32_rymcu-esp32-s3-devkitc-1`"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:995
+msgid ":ref:`board_espressif32_sg-o_airMon`"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:1002
+msgid ":ref:`board_espressif32_watchy`"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:1009
+msgid ":ref:`board_espressif32_edgebox-esp-100`"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:1016
+msgid ":ref:`board_espressif32_seeed_xiao_esp32c3`"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:1023
+msgid ":ref:`board_espressif32_seeed_xiao_esp32c6`"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:1030
+msgid ":ref:`board_espressif32_seeed_xiao_esp32s3`"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:1037
+msgid ":ref:`board_espressif32_wesp32`"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:1044
+msgid ":ref:`board_espressif32_bee_data_logger`"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:1051
+msgid ":ref:`board_espressif32_bee_motion`"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:1058
+msgid ":ref:`board_espressif32_bee_motion_mini`"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:1065
+msgid ":ref:`board_espressif32_bee_motion_s3`"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:1072
+msgid ":ref:`board_espressif32_bee_s3`"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:1079
+msgid ":ref:`board_espressif32_sparkfun_esp32_iot_redboard`"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:1086
+msgid ":ref:`board_espressif32_esp32thing`"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:1093
+msgid ":ref:`board_espressif32_esp32thing_plus`"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:1100
+msgid ":ref:`board_espressif32_sparkfun_esp32s2_thing_plus_c`"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:1107
+msgid ":ref:`board_espressif32_sparkfun_esp32s2_thing_plus`"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:1114
+msgid ":ref:`board_espressif32_sparkfun_lora_gateway_1-channel`"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:1121
+msgid ":ref:`board_espressif32_dpu_esp32`"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:1128
+msgid ":ref:`board_espressif32_tamc_termod_s3`"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:1135
+msgid ":ref:`board_espressif32_ttgo-lora32-v1`"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:1142
+msgid ":ref:`board_espressif32_ttgo-lora32-v2`"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:1149
+msgid ":ref:`board_espressif32_ttgo-lora32-v21`"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:1156
+msgid ":ref:`board_espressif32_ttgo-t-beam`"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:1163
+msgid ":ref:`board_espressif32_ttgo-t-oi-plus`"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:1170
+msgid ":ref:`board_espressif32_ttgo-t1`"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:1177
+msgid ":ref:`board_espressif32_ttgo-t7-v14-mini32`"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:1184
+msgid ":ref:`board_espressif32_trueverit-iot-driver`"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:1191
+msgid ":ref:`board_espressif32_trueverit-iot-driver-mk2`"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:1198
+msgid ":ref:`board_espressif32_trueverit-iot-driver-mk3`"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:1205
+msgid ":ref:`board_espressif32_um_feathers2`"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:1212
+msgid ":ref:`board_espressif32_um_feathers2_neo`"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:1219
+msgid ":ref:`board_espressif32_um_feathers3`"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:1226
+msgid ":ref:`board_espressif32_um_nanos3`"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:1233
+msgid ":ref:`board_espressif32_um_pros3`"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:1240
+msgid ":ref:`board_espressif32_um_rmp`"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:1247
+msgid ":ref:`board_espressif32_um_tinys2`"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:1254
+msgid ":ref:`board_espressif32_um_tinys3`"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:1261
+msgid ":ref:`board_espressif32_valtrack_v4_mfw_esp32_c3`"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:1268
+msgid ":ref:`board_espressif32_valtrack_v4_vts_esp32_c3`"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:1275
+msgid ":ref:`board_espressif32_vintlabs-devkit-v1`"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:1282
+msgid ":ref:`board_espressif32_wemos_d1_mini32`"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:1289
+msgid ":ref:`board_espressif32_wemos_d1_uno32`"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:1296
+msgid ":ref:`board_espressif32_lolin_c3_mini`"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:1303
+msgid ":ref:`board_espressif32_lolin_d32`"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:1310
+msgid ":ref:`board_espressif32_lolin_d32_pro`"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:1317
+msgid ":ref:`board_espressif32_lolin_s2_mini`"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:1324
+msgid ":ref:`board_espressif32_lolin_s2_pico`"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:1331
+msgid ":ref:`board_espressif32_lolin_s3`"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:1338
+msgid ":ref:`board_espressif32_lolin_s3_mini`"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:1345
+msgid ":ref:`board_espressif32_lolin_s3_pro`"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:1352
+msgid ":ref:`board_espressif32_lolin32`"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:1359
+msgid ":ref:`board_espressif32_lolin32_lite`"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:1366
+msgid ":ref:`board_espressif32_weactstudio_esp32c3coreboard`"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:1371
+msgid "384KB"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:1372
+msgid "400KB"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:1373
+msgid ":ref:`board_espressif32_wemosbat`"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:1380
+msgid ":ref:`board_espressif32_wt32-eth01`"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:1387
+msgid ":ref:`board_espressif32_xinabox_cw02`"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:1394
+msgid ":ref:`board_espressif32_cezerio_dev_esp32c6`"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:1401
+msgid ":ref:`board_espressif32_cezerio_mini_dev_esp32c6`"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:1408
+msgid ":ref:`board_espressif32_micros2`"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:1415
+msgid ":ref:`board_espressif32_iotbusio`"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:1422
+msgid ":ref:`board_espressif32_iotbusproteus`"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:1429
+msgid ":ref:`board_espressif32_sensebox_mcu_esp32s2`"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:1436
+msgid ":ref:`board_espressif32_upesy_wroom`"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:1443
+msgid ":ref:`board_espressif32_upesy_wrover`"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:1450
+msgid ":ref:`board_espressif32_unphone7`"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:1457
+msgid ":ref:`board_espressif32_unphone8`"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:1462
+#: ../../../plus/debug-tools/esp-prog.rst:1469
+msgid "7.94MB"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:1463
+msgid "2.31MB"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:1464
+msgid ":ref:`board_espressif32_unphone9`"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-prog.rst:1470
+msgid "8.31MB"
+msgstr ""

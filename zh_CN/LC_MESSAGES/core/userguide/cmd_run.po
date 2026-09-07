@@ -1,0 +1,201 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present, PlatformIO
+# This file is distributed under the same license as the PlatformIO package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PlatformIO latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-24 14:02+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../core/userguide/cmd_run.rst:15
+msgid "pio run"
+msgstr ""
+
+#: ../../../core/userguide/cmd_run.rst:17
+msgid "Contents"
+msgstr ""
+
+#: ../../../core/userguide/cmd_run.rst:20
+msgid "Usage"
+msgstr ""
+
+#: ../../../core/userguide/cmd_run.rst:28
+msgid "Description"
+msgstr ""
+
+#: ../../../core/userguide/cmd_run.rst:30
+msgid "Run project targets over environments declared in :ref:`projectconf`."
+msgstr ""
+
+#: ../../../core/userguide/cmd_run.rst:33
+msgid "Options"
+msgstr ""
+
+#: ../../../core/userguide/cmd_run.rst:40
+msgid "Process specified environments. Multiple environments are allowed."
+msgstr ""
+
+#: ../../../core/userguide/cmd_run.rst:42
+msgid ""
+"You can also specify which environments should be processed by default "
+"using :ref:`projectconf_pio_default_envs` option from :ref:`projectconf`."
+msgstr ""
+
+#: ../../../core/userguide/cmd_run.rst:48
+msgid "Process specified targets. Multiple targets are allowed."
+msgstr ""
+
+#: ../../../core/userguide/cmd_run.rst:50
+msgid ""
+"You can configure default targets per project environment using :ref:"
+"`projectconf_targets` option in :ref:`projectconf`."
+msgstr ""
+
+#: ../../../core/userguide/cmd_run.rst:56
+msgid ""
+"List available project targets. It's also possible to list targets per "
+"project environment using :option:`pio run --environment` option."
+msgstr ""
+
+#: ../../../core/userguide/cmd_run.rst:59
+msgid "There are also built-in system targets:"
+msgstr ""
+
+#: ../../../core/userguide/cmd_run.rst:61
+msgid "Device"
+msgstr ""
+
+#: ../../../core/userguide/cmd_run.rst:63
+msgid ""
+"``monitor`` automatically start :ref:`cmd_device_monitor` after successful "
+"build operation. You can configure monitor using :ref:"
+"`projectconf_section_env_monitor`."
+msgstr ""
+
+#: ../../../core/userguide/cmd_run.rst:67
+msgid "System"
+msgstr ""
+
+#: ../../../core/userguide/cmd_run.rst:69
+msgid "``envdump`` dump current build environment"
+msgstr ""
+
+#: ../../../core/userguide/cmd_run.rst:75
+msgid ""
+"Set both :option:`pio run --upload-port` and :option:`pio run --monitor-"
+"port` options simultaneously. This option is a convenient way to specify the "
+"same port for both uploading firmware and monitoring device output, "
+"streamlining the workflow for users who want to use the same port for both "
+"operations."
+msgstr ""
+
+#: ../../../core/userguide/cmd_run.rst:83
+msgid ""
+"Custom upload port of embedded board. To print all available ports use :ref:"
+"`cmd_device_list` command."
+msgstr ""
+
+#: ../../../core/userguide/cmd_run.rst:86
+msgid ""
+"If upload port is not specified, PlatformIO will try to detect it "
+"automatically."
+msgstr ""
+
+#: ../../../core/userguide/cmd_run.rst:91
+msgid ""
+"Specify a custom port to be passed to the :option:`pio device monitor --"
+"port` command. To list all available ports, use the :ref:`cmd_device_list` "
+"command."
+msgstr ""
+
+#: ../../../core/userguide/cmd_run.rst:94
+msgid ""
+"If the monitor port is not specified, PlatformIO will attempt to detect it "
+"automatically."
+msgstr ""
+
+#: ../../../core/userguide/cmd_run.rst:99
+msgid ""
+"Specify the path to project directory. By default, ``--project-dir`` is "
+"equal to current working directory (``CWD``)."
+msgstr ""
+
+#: ../../../core/userguide/cmd_run.rst:105
+msgid "Process project with a custom :ref:`projectconf`."
+msgstr ""
+
+#: ../../../core/userguide/cmd_run.rst:110
+msgid ""
+"Control the number of parallel build jobs. The default is the number of CPUs "
+"in the system."
+msgstr ""
+
+#: ../../../core/userguide/cmd_run.rst:112
+msgid ""
+"This option can also be set globally using the environment variable :envvar:"
+"`PLATFORMIO_RUN_JOBS`."
+msgstr ""
+
+#: ../../../core/userguide/cmd_run.rst:117
+msgid ""
+"Disable auto-clean of :ref:`projectconf_pio_build_dir` when :ref:"
+"`projectconf` or :ref:`projectconf_pio_src_dir` (project structure) have "
+"been modified."
+msgstr ""
+
+#: ../../../core/userguide/cmd_run.rst:123
+msgid ""
+"Pass an extra argument to the :ref:`platform_native` program. Multiple "
+"arguments are allowed."
+msgstr ""
+
+#: ../../../core/userguide/cmd_run.rst:126
+msgid "**Example**"
+msgstr ""
+
+#: ../../../core/userguide/cmd_run.rst:137
+msgid "Suppress progress reporting"
+msgstr ""
+
+#: ../../../core/userguide/cmd_run.rst:142
+msgid "Shows detailed information when processing environments."
+msgstr ""
+
+#: ../../../core/userguide/cmd_run.rst:144
+msgid ""
+"This option can also be set globally using :ref:`setting_force_verbose` "
+"setting or by environment variable :envvar:"
+"`PLATFORMIO_SETTING_FORCE_VERBOSE`."
+msgstr ""
+
+#: ../../../core/userguide/cmd_run.rst:148
+msgid "Examples"
+msgstr ""
+
+#: ../../../core/userguide/cmd_run.rst:150
+msgid ""
+"Process `Wiring Blink Example <https://github.com/platformio/platformio-"
+"examples/tree/develop/wiring-blink>`_"
+msgstr ""
+
+#: ../../../core/userguide/cmd_run.rst:250
+msgid "Process specific environment"
+msgstr ""
+
+#: ../../../core/userguide/cmd_run.rst:299
+msgid "Process specific target (clean project)"
+msgstr ""
+
+#: ../../../core/userguide/cmd_run.rst:379
+msgid "Mix environments and targets"
+msgstr ""

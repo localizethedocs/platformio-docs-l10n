@@ -1,0 +1,61 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present, PlatformIO
+# This file is distributed under the same license as the PlatformIO package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PlatformIO latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-24 14:02+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../faq/custom-scons-cli-options.rst:13
+msgid "Custom SCons command-line options"
+msgstr ""
+
+#: ../../../faq/custom-scons-cli-options.rst:15
+msgid ""
+"PlatformIO is built on top of the open-source software construction tool "
+"called SCons. SCons has many useful command-line options that control its "
+"behavior and may come in handy to know the exact internal processes "
+"happening in SCons when it builds a target. For example:"
+msgstr ""
+
+#: ../../../faq/custom-scons-cli-options.rst:20
+msgid ""
+"``--dry-run`` configures SCons to print the commands that would be executed "
+"to build any target, but do not execute the commands."
+msgstr ""
+
+#: ../../../faq/custom-scons-cli-options.rst:22
+msgid ""
+"``--tree=all`` forces SCons to print file dependency tree including implicit "
+"and ignored dependencies"
+msgstr ""
+
+#: ../../../faq/custom-scons-cli-options.rst:24
+msgid ""
+"``--debug=explain`` will print an explanation of why SCons decides to "
+"(re-)build the targets it selects for building."
+msgstr ""
+
+#: ../../../faq/custom-scons-cli-options.rst:27
+msgid ""
+"The list of available command-line options can be found in the official "
+"`SCons documentation <https://scons.org/doc/production/HTML/scons-user/ch10."
+"html#sect-command-line-options>`_."
+msgstr ""
+
+#: ../../../faq/custom-scons-cli-options.rst:30
+msgid ""
+"The easiest way to pass extra command-line options to the SCons build system "
+"used in PlatformIO is via the external ``SCONSFLAGS`` environment variable:"
+msgstr ""

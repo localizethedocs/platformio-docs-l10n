@@ -1,0 +1,86 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present, PlatformIO
+# This file is distributed under the same license as the PlatformIO package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PlatformIO latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-24 14:02+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../projectconf/sections/env/options/monitor/monitor_port.rst:15
+msgid "``monitor_port``"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/monitor/monitor_port.rst:17
+msgid "Type: ``String`` | Multiple: ``No``"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/monitor/monitor_port.rst:19
+msgid ""
+"Port, a number or a device name, or valid `URL Handlers <https://pyserial."
+"readthedocs.io/en/latest/url_handlers.html>`__."
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/monitor/monitor_port.rst:21
+msgid ""
+"To print all available serial ports please use :ref:`cmd_device_list` "
+"command."
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/monitor/monitor_port.rst:23
+msgid "Please note that you can use patterns for serial ports:"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/monitor/monitor_port.rst:28
+msgid "Pattern"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/monitor/monitor_port.rst:29
+msgid "Meaning"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/monitor/monitor_port.rst:31
+msgid "``*``"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/monitor/monitor_port.rst:32
+msgid "matches everything"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/monitor/monitor_port.rst:34
+msgid "``?``"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/monitor/monitor_port.rst:35
+msgid "matches any single character"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/monitor/monitor_port.rst:37
+msgid "``[seq]``"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/monitor/monitor_port.rst:38
+msgid "matches any character in seq"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/monitor/monitor_port.rst:40
+msgid "``[!seq]``"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/monitor/monitor_port.rst:41
+msgid "matches any character not in seq"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/monitor/monitor_port.rst:43
+msgid "Example:"
+msgstr ""

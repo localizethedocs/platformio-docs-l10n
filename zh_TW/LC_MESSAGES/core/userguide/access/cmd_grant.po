@@ -1,0 +1,114 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present, PlatformIO
+# This file is distributed under the same license as the PlatformIO package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PlatformIO latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-24 14:02+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../core/userguide/access/cmd_grant.rst:15
+msgid "pio access grant"
+msgstr ""
+
+#: ../../../core/userguide/access/cmd_grant.rst:17
+msgid "Contents"
+msgstr ""
+
+#: ../../../core/userguide/access/cmd_grant.rst:20
+msgid "Usage"
+msgstr ""
+
+#: ../../../core/userguide/access/cmd_grant.rst:27
+msgid "Description"
+msgstr ""
+
+#: ../../../core/userguide/access/cmd_grant.rst:29
+msgid ""
+"Add the ability of users and teams to have \"LEVEL\" access to a resource."
+msgstr ""
+
+#: ../../../core/userguide/access/cmd_grant.rst:31
+msgid "The next levels are supported:"
+msgstr ""
+
+#: ../../../core/userguide/access/cmd_grant.rst:0
+msgid "``admin``"
+msgstr ""
+
+#: ../../../core/userguide/access/cmd_grant.rst:34
+msgid ""
+"Administrative privileges. Can perform all available operations on the "
+"particular resource."
+msgstr ""
+
+#: ../../../core/userguide/access/cmd_grant.rst:0
+msgid "``maintainer``"
+msgstr ""
+
+#: ../../../core/userguide/access/cmd_grant.rst:37
+msgid ""
+"Read-write access. Can update a resource, publish a new version, unpublish "
+"existing version."
+msgstr ""
+
+#: ../../../core/userguide/access/cmd_grant.rst:39
+msgid "Cannot manage resource permissions and grant access to other members."
+msgstr ""
+
+#: ../../../core/userguide/access/cmd_grant.rst:0
+msgid "``guest``"
+msgstr ""
+
+#: ../../../core/userguide/access/cmd_grant.rst:42
+msgid "Read-only access. It's automatically granted for the public resources."
+msgstr ""
+
+#: ../../../core/userguide/access/cmd_grant.rst:44
+msgid ""
+"You can grant access to the team members using the next format ``orgname:"
+"teamname``. See the examples below."
+msgstr ""
+
+#: ../../../core/userguide/access/cmd_grant.rst:48
+msgid "Options"
+msgstr ""
+
+#: ../../../core/userguide/access/cmd_grant.rst:55
+msgid ""
+"Resource type in `URN <https://en.wikipedia.org/wiki/"
+"Uniform_Resource_Name>`_ form. Default is set to ``prn:reg:pkg`` which means "
+"to grant an access to the package in the PlatormIO Registry."
+msgstr ""
+
+#: ../../../core/userguide/access/cmd_grant.rst:60
+msgid "Examples"
+msgstr "範例"
+
+#: ../../../core/userguide/access/cmd_grant.rst:62
+msgid "Grant \"maintainer\" access to a resource for the \"bob\" user:"
+msgstr ""
+
+#: ../../../core/userguide/access/cmd_grant.rst:69
+msgid ""
+"Add the ability of PlatformIO's \"developer\" team to have \"admin\" access "
+"to a resource."
+msgstr ""
+
+#: ../../../core/userguide/access/cmd_grant.rst:77
+msgid "See Also"
+msgstr ""
+
+#: ../../../core/userguide/access/cmd_grant.rst:79
+msgid ":ref:`cmd_access_revoke`"
+msgstr ""

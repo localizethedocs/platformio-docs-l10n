@@ -1,0 +1,190 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present, PlatformIO
+# This file is distributed under the same license as the PlatformIO package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PlatformIO latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-24 14:02+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../what-is-platformio.rst:15
+msgid "What is PlatformIO?"
+msgstr ""
+
+#: ../../../what-is-platformio.rst:17
+msgid ""
+"**A place where Developers and Teams have true Freedom! No more vendor lock-"
+"in!**"
+msgstr ""
+
+#: ../../../what-is-platformio.rst:20
+msgid "Contents"
+msgstr ""
+
+#: ../../../what-is-platformio.rst:22
+msgid ""
+"PlatformIO is a cross-platform, cross-architecture, multiple framework, "
+"professional tool for embedded systems engineers and for software developers "
+"who write applications for embedded products."
+msgstr ""
+
+#: ../../../what-is-platformio.rst:27
+msgid "Awards"
+msgstr ""
+
+#: ../../../what-is-platformio.rst:29
+msgid ""
+"PlatformIO was nominated for the year's `best Software and Tools in the "
+"2015/16 IoT Awards <http://www.postscapes.com/2015-16/best-iot-software-and-"
+"tools/>`_."
+msgstr ""
+
+#: ../../../what-is-platformio.rst:31
+msgid ""
+"A native `PlatformIO IDE extension <https://marketplace.visualstudio.com/"
+"items?itemName=platformio.platformio-ide>`__ for Microsoft :ref:`ide_vscode` "
+"editor is the most rated/reviewed extension with over 2,500 five-star "
+"reviews in the whole Microsoft Marketplace. It also was installed by over "
+"3,000,000 unique developers around the world."
+msgstr ""
+
+#: ../../../what-is-platformio.rst:37
+msgid "Philosophy"
+msgstr ""
+
+#: ../../../what-is-platformio.rst:39
+msgid ""
+"PlatformIO's unique philosophy in the embedded market provides developers "
+"with a modern integrated development environment (:ref:`ide`) that works "
+"cross-platform, supports many different software development kits (SDKs) or :"
+"ref:`frameworks`, and includes sophisticated debugging (:ref:`piodebug`), "
+"unit testing (:ref:`unit_testing`), automated code analysis (:ref:`check`), "
+"and remote management (:ref:`pioremote`). It is architected to maximize "
+"flexibility and choice by developers, who can use either graphical or "
+"command line editors (:ref:`piocore`), or both."
+msgstr ""
+
+#: ../../../what-is-platformio.rst:47
+msgid ""
+"PlatformIO is a must-have tool for professional embedded systems engineers "
+"who develop solutions on more than one specific platform. In addition, by "
+"having a decentralized architecture, PlatformIO offers both new and existing "
+"developers a quick integration path for developing commercial-ready "
+"products, and reduces the overall time-to-market."
+msgstr ""
+
+#: ../../../what-is-platformio.rst:52
+msgid ""
+"And it runs on any one of your favorite modern operating systems (macOS, MS "
+"Windows, Linux, FreeBSD)."
+msgstr ""
+
+#: ../../../what-is-platformio.rst:56
+msgid "Technologies"
+msgstr ""
+
+#: ../../../what-is-platformio.rst:58
+msgid ""
+"PlatformIO applies the latest scalable and flexible software technology to "
+"the embedded market – an area traditionally served by complex software tools "
+"that experienced hardware engineers have learned over time (often painfully "
+"so). Instead, with PlatformIO, users can be hobbyists or professionals. They "
+"can import the classic Arduino \"Blink\" sketch or develop  a sophisticated "
+"low-level embedded C program for a commercial product. Example code for any "
+"supported framework can be compiled and uploaded to a target platform in "
+"minutes."
+msgstr ""
+
+#: ../../../what-is-platformio.rst:66
+msgid ""
+"The build system structure automatically tags software dependencies and "
+"applies them using a modular hierarchy that takes away the usual complexity "
+"and pain. Developers no longer have to manually find and assemble an "
+"environment of toolchains, compilers, and library dependencies to develop "
+"applications for a specific target. With PlatformIO, clicking the compile "
+"button will bring in all necessary dependencies automatically. It's "
+"analogous to if you were a furniture designer, and your CAD program had a "
+"\"build\" button that caused a robot to fetch all the necessary pieces and "
+"fasteners and correctly assemble them."
+msgstr ""
+
+#: ../../../what-is-platformio.rst:75
+msgid ""
+":ref:`piocore` is a unique, developed-from-scratch build system that removes "
+"the usual pain of software integration, packaging, and library dependencies "
+"that developers encounter when they move beyond the bounds of a specific SDK "
+"or example embedded application. It can be used with a variety of code "
+"development environments and allows easy integration with numerous cloud "
+"platforms and web services feeds. The user experiences no barriers to "
+"getting started quickly: **no license fees, no legal contracts**. The user "
+"maintains full flexibility of the build environment because the tools are "
+"open source and permissively licensed (no permission needed to modify them, "
+"and no requirement to share changes.)"
+msgstr ""
+
+#: ../../../what-is-platformio.rst:86
+msgid "Problematic"
+msgstr ""
+
+#: ../../../what-is-platformio.rst:88
+msgid ""
+"The main problem which repulses people from the embedded world is a "
+"complicated process to setup development software for a specific MCU/board: "
+"toolchains, proprietary vendor's IDE (which sometimes isn't free) and what "
+"is more, to get a computer with OS where that software is supported."
+msgstr ""
+
+#: ../../../what-is-platformio.rst:92
+msgid ""
+"Multiple hardware platforms (MCUs, boards) require different toolchains, "
+"IDEs, etc, and, respectively, spending time on learning new development "
+"environments."
+msgstr ""
+
+#: ../../../what-is-platformio.rst:94
+msgid ""
+"Finding proper libraries and code samples showing how to use popular "
+"sensors, actuators, etc."
+msgstr ""
+
+#: ../../../what-is-platformio.rst:96
+msgid ""
+"Sharing embedded projects between team members, regardless of an operating "
+"system they prefer to work with."
+msgstr ""
+
+#: ../../../what-is-platformio.rst:100
+msgid "How does it work?"
+msgstr ""
+
+#: ../../../what-is-platformio.rst:102
+msgid ""
+"Without going too deep into PlatformIO implementation details, work cycle of "
+"the project developed using PlatformIO is as follows:"
+msgstr ""
+
+#: ../../../what-is-platformio.rst:105
+msgid "Users choose board(s) interested in :ref:`projectconf`"
+msgstr ""
+
+#: ../../../what-is-platformio.rst:106
+msgid ""
+"Based on this list of boards, PlatformIO downloads required toolchains and "
+"installs them automatically."
+msgstr ""
+
+#: ../../../what-is-platformio.rst:108
+msgid ""
+"Users develop code and PlatformIO makes sure that it is compiled, prepared "
+"and uploaded to all the boards of interest."
+msgstr ""

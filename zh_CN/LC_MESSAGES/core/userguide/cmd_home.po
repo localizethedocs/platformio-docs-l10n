@@ -1,0 +1,83 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present, PlatformIO
+# This file is distributed under the same license as the PlatformIO package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PlatformIO latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-24 14:02+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../core/userguide/cmd_home.rst:15
+msgid "pio home"
+msgstr ""
+
+#: ../../../core/userguide/cmd_home.rst:17
+msgid "Helper command for :ref:`piohome`."
+msgstr ""
+
+#: ../../../core/userguide/cmd_home.rst:19
+msgid "Contents"
+msgstr ""
+
+#: ../../../core/userguide/cmd_home.rst:22
+msgid "Usage"
+msgstr ""
+
+#: ../../../core/userguide/cmd_home.rst:29
+msgid "Description"
+msgstr ""
+
+#: ../../../core/userguide/cmd_home.rst:31
+msgid "Launch :ref:`piohome` Web-server."
+msgstr ""
+
+#: ../../../core/userguide/cmd_home.rst:34
+msgid "Options"
+msgstr ""
+
+#: ../../../core/userguide/cmd_home.rst:41
+msgid "Web-server HTTP port, default is ``8008``."
+msgstr ""
+
+#: ../../../core/userguide/cmd_home.rst:46
+msgid ""
+"Web-server HTTP host, default is ``127.0.0.1``. You can open PlatformIO Home "
+"for inbound connections using host ``0.0.0.0``."
+msgstr ""
+
+#: ../../../core/userguide/cmd_home.rst:52
+msgid "Do not automatically open PlatformIO Home in a system Web-browser."
+msgstr ""
+
+#: ../../../core/userguide/cmd_home.rst:57
+msgid ""
+"Automatically shutdown server on timeout (in seconds) when no clients are "
+"connected. Default is ``0`` which means never auto shutdown."
+msgstr ""
+
+#: ../../../core/userguide/cmd_home.rst:63
+msgid ""
+"A unique session identifier to keep PlatformIO Home isolated from other "
+"instances and protect from 3rd party access."
+msgstr ""
+
+#: ../../../core/userguide/cmd_home.rst:67
+msgid ""
+"If a unique session ID is not specified (default mode), PlatformIO Home will "
+"be accessible by any user from your machine using if he knows ``--host`` and "
+"``--port``."
+msgstr ""
+
+#: ../../../core/userguide/cmd_home.rst:71
+msgid "Examples"
+msgstr ""

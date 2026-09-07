@@ -1,0 +1,205 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present, PlatformIO
+# This file is distributed under the same license as the PlatformIO package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PlatformIO latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-24 14:02+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../core/installation/integration.rst:13
+msgid "Integration with custom applications (extensions, plugins)"
+msgstr ""
+
+#: ../../../core/installation/integration.rst:15
+msgid ""
+"We recommend using PlatformIO Core **Installer Script** when you integrate "
+"PlatformIO Core into an application, such as an extension or plugin for IDE."
+msgstr ""
+
+#: ../../../core/installation/integration.rst:22
+msgid "Prerequisite"
+msgstr ""
+
+#: ../../../core/installation/integration.rst:25
+msgid "Python Interpreter"
+msgstr ""
+
+#: ../../../core/installation/integration.rst:27
+msgid ""
+"PlatformIO Core Installer Script is written in Python and is compatible with "
+"Python 2.7+ and Python 3.5+. **We highly recommend using the latest Python "
+"3**."
+msgstr ""
+
+#: ../../../core/installation/integration.rst:30
+msgid ""
+"Python is installed by default on the most popular Unix OS (macOS, Linux, "
+"FreeBSD). If there is no Python on a user machine (you can check running "
+"``python --version``), we have 2 options:"
+msgstr ""
+
+#: ../../../core/installation/integration.rst:34
+msgid ""
+"Ask the user to install Python 3 using our guide :ref:`faq_install_python`"
+msgstr ""
+
+#: ../../../core/installation/integration.rst:35
+msgid ""
+"You can automatically `Download Portable Python 3 (API) <https://api."
+"registry.platformio.org/v3/packages/platformio/tool/python-portable>`_ and "
+"unpack it in a cache folder of your application. Later, you can use "
+"``unpacked_protable_python_dir/python.exe`` for the installer script."
+msgstr ""
+
+#: ../../../core/installation/integration.rst:40
+msgid "Installer Script"
+msgstr ""
+
+#: ../../../core/installation/integration.rst:42
+msgid ""
+"There are 2 options on how to work with PlatformIO Core Installer Script:"
+msgstr ""
+
+#: ../../../core/installation/integration.rst:44
+msgid ""
+"Bundle `get-platformio.py <https://raw.githubusercontent.com/platformio/"
+"platformio-core-installer/master/get-platformio.py>`_ file into your "
+"application"
+msgstr ""
+
+#: ../../../core/installation/integration.rst:45
+msgid ""
+"Download `get-platformio.py <https://raw.githubusercontent.com/platformio/"
+"platformio-core-installer/master/get-platformio.py>`_ file on demand."
+msgstr ""
+
+#: ../../../core/installation/integration.rst:47
+msgid ""
+"In both cases, you will need to have ``get-platformio.py`` script on the end-"
+"user machine. You can copy or download it to a cache/temporary folder."
+msgstr ""
+
+#: ../../../core/installation/integration.rst:50
+msgid ""
+"A list of arguments and options for the installer script is available via"
+msgstr ""
+
+#: ../../../core/installation/integration.rst:57
+msgid "Workflow"
+msgstr ""
+
+#: ../../../core/installation/integration.rst:59
+msgid ""
+"We will describe a simple workflow on how to automatically install :ref:"
+"`piocore` for end-user of your application/extension. We assume that ``get-"
+"platformio.py`` script is already copied/downloaded and exists on the end-"
+"user machine. See above for how to get it."
+msgstr ""
+
+#: ../../../core/installation/integration.rst:65
+msgid "Step 1. Where is PlatformIO Core installed?"
+msgstr ""
+
+#: ../../../core/installation/integration.rst:67
+msgid ""
+"You should check the PlatformIO Core installation state **each time** when "
+"the user starts your application. You need to call the Installer Script with "
+"``check core`` arguments:"
+msgstr ""
+
+#: ../../../core/installation/integration.rst:74
+msgid ""
+"This command returns ``0`` \"exit code\" when PlatformIO Core is already "
+"installed and is ready for use, otherwise, the non-zero code of the "
+"subprocess will be returned and you need to install PlatformIO Core (see "
+"**Step #2** below)."
+msgstr ""
+
+#: ../../../core/installation/integration.rst:78
+msgid ""
+"If you need to have full information about the PlatformIO Core installation "
+"state, please run with ``--dump-state`` option and specify a folder or a "
+"full path where to save data in JSON format:"
+msgstr ""
+
+#: ../../../core/installation/integration.rst:86
+msgid ""
+"Now, read JSON file and use ``platformio_exe`` binary to call PlatforIO Core "
+"using CLI (see :ref:`piocore_userguide`). You can also export "
+"``penv_bin_dir`` into the system environment ``PATH`` variable and the "
+"``platformio`` command will be available without a full path."
+msgstr ""
+
+#: ../../../core/installation/integration.rst:91
+msgid "Example of ``pioinstaller-state.json`` run on macOS:"
+msgstr ""
+
+#: ../../../core/installation/integration.rst:109
+msgid "Step 2. Install PlatformIO Core"
+msgstr ""
+
+#: ../../../core/installation/integration.rst:111
+msgid ""
+"To install PlatformIO Core into the virtual environment in an automatic "
+"mode, please call the installer script without any arguments:"
+msgstr ""
+
+#: ../../../core/installation/integration.rst:118
+msgid "Available options:"
+msgstr ""
+
+#: ../../../core/installation/integration.rst:120
+msgid "``--verbose``, verbose output"
+msgstr ""
+
+#: ../../../core/installation/integration.rst:121
+msgid "``--dev``, install the latest development version of PlatformIO Core"
+msgstr ""
+
+#: ../../../core/installation/integration.rst:122
+msgid ""
+"``--ignore-python``, a path to Python to be ignored (multiple options and "
+"Unix wildcards are allowed)"
+msgstr ""
+
+#: ../../../core/installation/integration.rst:124
+msgid "More options are available at ``python get-platformio.py --help``."
+msgstr ""
+
+#: ../../../core/installation/integration.rst:126
+msgid ""
+"Installer Script will return exit code ``0`` on success, otherwise non-zero "
+"code and error explanation."
+msgstr ""
+
+#: ../../../core/installation/integration.rst:129
+msgid ""
+"Next time just use again ``python get-platformio.py check core`` as "
+"described in Step #1 (see above)."
+msgstr ""
+
+#: ../../../core/installation/integration.rst:132
+msgid "Examples"
+msgstr ""
+
+#: ../../../core/installation/integration.rst:134
+msgid "Examples that use this installer are:"
+msgstr ""
+
+#: ../../../core/installation/integration.rst:136
+msgid ""
+"`platformio-node-helpers <https://github.com/platformio/platformio-node-"
+"helpers>`_, is used by `PlatformIO IDE for VSCode <https://marketplace."
+"visualstudio.com/items?itemName=platformio.platformio-ide>`_"
+msgstr ""

@@ -1,0 +1,64 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present, PlatformIO
+# This file is distributed under the same license as the PlatformIO package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PlatformIO latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-24 14:02+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../plus/debug-tools/_common_jtag_drivers.rst:13
+msgid "Drivers"
+msgstr ""
+
+#: ../../../plus/debug-tools/_common_jtag_drivers.rst:0
+msgid "Windows"
+msgstr ""
+
+#: ../../../plus/debug-tools/_common_jtag_drivers.rst:16
+msgid ""
+"`Step-by-step guide: Drivers, Zadig, Wiring <https://community.platformio."
+"org/t/esp32-pio-unified-debugger/4541/20>`_"
+msgstr ""
+
+#: ../../../plus/debug-tools/_common_jtag_drivers.rst:17
+msgid ""
+"`Video tutorial <https://www.hackster.io/brian-lough/use-the-platformio-"
+"debugger-on-the-esp32-using-an-esp-prog-f633b6>`_"
+msgstr ""
+
+#: ../../../plus/debug-tools/_common_jtag_drivers.rst:0
+msgid "Mac"
+msgstr ""
+
+#: ../../../plus/debug-tools/_common_jtag_drivers.rst:20
+msgid ""
+"macOS contains default FTDIUSBSerialDriver driver which conflicts with debug "
+"tools which are based on this chip. FTDI Chip company recommends removing "
+"this default driver from a system. Everything should work after system "
+"rebooting. See detailed instruction in official application note (Page 16, "
+"Section 4: Uninstalling FTDI Drivers on OS X) `AN134: FTDI Drivers "
+"Installation guide for MAC OS X <http://www.ftdichip.com/Support/Documents/"
+"AppNotes/AN_134_FTDI_Drivers_Installation_Guide_for_MAC_OSX.pdf>`__"
+msgstr ""
+
+#: ../../../plus/debug-tools/_common_jtag_drivers.rst:0
+msgid "Linux"
+msgstr ""
+
+#: ../../../plus/debug-tools/_common_jtag_drivers.rst:28
+msgid ""
+"Please install \"udev\" rules :ref:`platformio_udev_rules`. If you already "
+"installed them before, please check that your rules are up-to-date or repeat "
+"steps."
+msgstr ""

@@ -1,0 +1,176 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present, PlatformIO
+# This file is distributed under the same license as the PlatformIO package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PlatformIO latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-24 14:02+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../advanced/unit-testing/runner.rst:15
+msgid "Test Runner"
+msgstr ""
+
+#: ../../../advanced/unit-testing/runner.rst:17
+msgid ""
+"**PlatformIO Test Runner** is a powerful unit testing tool. It runs your "
+"unit tests located in the :ref:`projectconf_pio_test_dir`, navigates through "
+"tests, and facilitates the processing of test results. Test Runner supports "
+"the most popular :ref:`unit_testing_frameworks`."
+msgstr ""
+
+#: ../../../advanced/unit-testing/runner.rst:22
+msgid ""
+"Test Runner allows you to run specific project environments or filter tests "
+"using the \"Glob patterns\". Once tests are finished, Test Runner provides a "
+"rich report with the status of all test suites and test cases (passed, "
+"failed, ignored/skipped)."
+msgstr ""
+
+#: ../../../advanced/unit-testing/runner.rst:31
+msgid "Local Test Runner"
+msgstr ""
+
+#: ../../../advanced/unit-testing/runner.rst:33
+msgid ""
+"**Local Test Runner** allows you to run a test on a local host machine or on "
+"a local target device (board). In this case, you need to use the :ref:"
+"`cmd_test` command."
+msgstr ""
+
+#: ../../../advanced/unit-testing/runner.rst:40
+msgid "Remote Test Runner"
+msgstr ""
+
+#: ../../../advanced/unit-testing/runner.rst:42
+msgid ""
+"**Remote Test Runner** allows you to run test on the remote machine or on "
+"the remote target device (board) without having to depend on OS software, "
+"extra software, SSH, VPN or opening network ports. Remote Unit Testing works "
+"in pair with :ref:`pioremote`. In this case, you need to use the special "
+"command :ref:`cmd_remote_test`."
+msgstr ""
+
+#: ../../../advanced/unit-testing/runner.rst:48
+msgid ""
+"PlatformIO supports multiple :ref:`ci` systems where you can run unit tests "
+"at each integration stage."
+msgstr ""
+
+#: ../../../advanced/unit-testing/runner.rst:54
+msgid "Test Types"
+msgstr ""
+
+#: ../../../advanced/unit-testing/runner.rst:56
+msgid ""
+"Before writing a test, you need to decide where it will be executed later: "
+"on the host machine or on the target device connected to the host machine. "
+"Tests that are written for the target device typically will not work on your "
+"host machine due to the missing peripheral and other connectivity."
+msgstr ""
+
+#: ../../../advanced/unit-testing/runner.rst:61
+msgid ""
+"Using the :ref:`unit_testing_test_hierarchy` allows you to organize tests by "
+"types and later skip an incompatible group of tests using :ref:"
+"`projectconf_test_filter` or :ref:`projectconf_test_ignore` options in :ref:"
+"`projectconf`."
+msgstr ""
+
+#: ../../../advanced/unit-testing/runner.rst:67
+msgid "Native"
+msgstr ""
+
+#: ../../../advanced/unit-testing/runner.rst:69
+msgid ""
+"Native tests are intended for the project components that are independent of "
+"physical hardware. You can also use them in pair with Mocking frameworks."
+msgstr ""
+
+#: ../../../advanced/unit-testing/runner.rst:72
+msgid ""
+"PlatformIO provides you a :ref:`platform_native` development platform to "
+"build and run tests on the local host machine or using :ref:`ci` VM instance."
+msgstr ""
+
+#: ../../../advanced/unit-testing/runner.rst:77
+msgid ""
+"PlatformIO does not install automatically any toolchains for the :ref:"
+"`platform_native` development platform. It depends on the system ``GCC`` "
+"toolchain that must be added to the ``PATH`` system environment variable."
+msgstr ""
+
+#: ../../../advanced/unit-testing/runner.rst:82
+msgid ""
+"Please check the \"Installation\" guide for the :ref:`platform_native` "
+"development platform."
+msgstr ""
+
+#: ../../../advanced/unit-testing/runner.rst:86
+msgid "Embedded"
+msgstr ""
+
+#: ../../../advanced/unit-testing/runner.rst:88
+msgid ""
+"Embedded tests are intended for the target devices (boards, hardware). They "
+"allow you to deeply test all project components that are part of your "
+"firmware."
+msgstr ""
+
+#: ../../../advanced/unit-testing/runner.rst:91
+msgid "How does PlatformIO Unit Testing Runner process embedded tests?"
+msgstr ""
+
+#: ../../../advanced/unit-testing/runner.rst:93
+msgid ""
+"It builds a special firmware intended for your target using a compatible "
+"embedded development platform"
+msgstr ""
+
+#: ../../../advanced/unit-testing/runner.rst:95
+msgid "Uploads a firmware to the end target (flashes device)"
+msgstr ""
+
+#: ../../../advanced/unit-testing/runner.rst:96
+msgid ""
+"Connects to the target using a Serial interface and :ref:"
+"`projectconf_test_port`"
+msgstr ""
+
+#: ../../../advanced/unit-testing/runner.rst:97
+msgid ""
+"Gathers Serial output from the target and parses test result on the host "
+"machine"
+msgstr ""
+
+#: ../../../advanced/unit-testing/runner.rst:99
+msgid "Provides test results."
+msgstr ""
+
+#: ../../../advanced/unit-testing/runner.rst:101
+msgid ""
+"Please check :ref:`unit_testing_frameworks` documentation and learn how to "
+"provide a custom configuration or to get full control of PlatformIO Unit "
+"Testing Runner using :ref:`unit_testing_frameworks_custom` implementation."
+msgstr ""
+
+#: ../../../advanced/unit-testing/runner.rst:107
+msgid "Hybrid"
+msgstr ""
+
+#: ../../../advanced/unit-testing/runner.rst:109
+msgid ""
+"The tests that work on a host machine and on the embedded target are hybrid "
+"tests. You can run them using :ref:`platform_native` development platform or "
+"embedded development :ref:`platforms`."
+msgstr ""

@@ -1,0 +1,177 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present, PlatformIO
+# This file is distributed under the same license as the PlatformIO package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PlatformIO latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-24 14:02+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../frameworks/wiringpi.rst:15
+msgid "WiringPi"
+msgstr ""
+
+#: ../../../frameworks/wiringpi.rst:0
+msgid "Configuration"
+msgstr "組態"
+
+#: ../../../frameworks/wiringpi.rst:18
+msgid ":ref:`projectconf_env_framework` = ``wiringpi``"
+msgstr ""
+
+#: ../../../frameworks/wiringpi.rst:20
+msgid ""
+"WiringPi is a PIN based GPIO access library written in C for the BCM2835, "
+"BCM2836 and BCM2837 SoC devices used in all Raspberry Pi"
+msgstr ""
+
+#: ../../../frameworks/wiringpi.rst:24
+msgid "Contents"
+msgstr ""
+
+#: ../../../frameworks/wiringpi.rst:27
+msgid "Platforms"
+msgstr ""
+
+#: ../../../frameworks/wiringpi.rst:31 ../../../frameworks/wiringpi.rst:55
+msgid "Name"
+msgstr ""
+
+#: ../../../frameworks/wiringpi.rst:32
+msgid "Description"
+msgstr ""
+
+#: ../../../frameworks/wiringpi.rst:34 ../../../frameworks/wiringpi.rst:63
+#: ../../../frameworks/wiringpi.rst:70 ../../../frameworks/wiringpi.rst:77
+#: ../../../frameworks/wiringpi.rst:84
+msgid ":ref:`platform_linux_arm`"
+msgstr ""
+
+#: ../../../frameworks/wiringpi.rst:35
+msgid ""
+"Linux ARM is a Unix-like and mostly POSIX-compliant computer operating "
+"system (OS) assembled under the model of free and open-source software "
+"development and distribution. Using host OS (Mac OS X, Linux ARM) you can "
+"build native application for Linux ARM platform."
+msgstr ""
+
+#: ../../../frameworks/wiringpi.rst:38
+msgid "Examples"
+msgstr "範例"
+
+#: ../../../frameworks/wiringpi.rst:40
+msgid ""
+"`WiringPi for Linux ARM <https://github.com/platformio/platform-linux_arm/"
+"tree/master/examples?utm_source=platformio.org&utm_medium=docs>`_"
+msgstr ""
+
+#: ../../../frameworks/wiringpi.rst:43
+msgid "Boards"
+msgstr "開發板"
+
+#: ../../../frameworks/wiringpi.rst:46
+msgid "You can list pre-configured boards by :ref:`cmd_boards` command"
+msgstr ""
+
+#: ../../../frameworks/wiringpi.rst:47
+msgid ""
+"For more detailed ``board`` information please scroll the tables below by "
+"horizontally."
+msgstr ""
+
+#: ../../../frameworks/wiringpi.rst:50
+msgid "Raspberry Pi"
+msgstr ""
+
+#: ../../../frameworks/wiringpi.rst:56
+msgid "Platform"
+msgstr ""
+
+#: ../../../frameworks/wiringpi.rst:57
+msgid "Debug"
+msgstr ""
+
+#: ../../../frameworks/wiringpi.rst:58
+msgid "MCU"
+msgstr ""
+
+#: ../../../frameworks/wiringpi.rst:59
+msgid "Frequency"
+msgstr ""
+
+#: ../../../frameworks/wiringpi.rst:60
+msgid "Flash"
+msgstr ""
+
+#: ../../../frameworks/wiringpi.rst:61
+msgid "RAM"
+msgstr ""
+
+#: ../../../frameworks/wiringpi.rst:62
+msgid ":ref:`board_linux_arm_raspberrypi_1b`"
+msgstr ""
+
+#: ../../../frameworks/wiringpi.rst:64 ../../../frameworks/wiringpi.rst:71
+#: ../../../frameworks/wiringpi.rst:78 ../../../frameworks/wiringpi.rst:85
+msgid "No"
+msgstr ""
+
+#: ../../../frameworks/wiringpi.rst:65 ../../../frameworks/wiringpi.rst:86
+msgid "BCM2835"
+msgstr ""
+
+#: ../../../frameworks/wiringpi.rst:66
+msgid "700MHz"
+msgstr ""
+
+#: ../../../frameworks/wiringpi.rst:67 ../../../frameworks/wiringpi.rst:68
+#: ../../../frameworks/wiringpi.rst:88 ../../../frameworks/wiringpi.rst:89
+msgid "512MB"
+msgstr ""
+
+#: ../../../frameworks/wiringpi.rst:69
+msgid ":ref:`board_linux_arm_raspberrypi_2b`"
+msgstr ""
+
+#: ../../../frameworks/wiringpi.rst:72
+msgid "BCM2836"
+msgstr ""
+
+#: ../../../frameworks/wiringpi.rst:73
+msgid "900MHz"
+msgstr ""
+
+#: ../../../frameworks/wiringpi.rst:74 ../../../frameworks/wiringpi.rst:75
+#: ../../../frameworks/wiringpi.rst:81 ../../../frameworks/wiringpi.rst:82
+msgid "1GB"
+msgstr ""
+
+#: ../../../frameworks/wiringpi.rst:76
+msgid ":ref:`board_linux_arm_raspberrypi_3b`"
+msgstr ""
+
+#: ../../../frameworks/wiringpi.rst:79
+msgid "BCM2837"
+msgstr ""
+
+#: ../../../frameworks/wiringpi.rst:80
+msgid "1200MHz"
+msgstr ""
+
+#: ../../../frameworks/wiringpi.rst:83
+msgid ":ref:`board_linux_arm_raspberrypi_zero`"
+msgstr ""
+
+#: ../../../frameworks/wiringpi.rst:87
+msgid "1000MHz"
+msgstr ""

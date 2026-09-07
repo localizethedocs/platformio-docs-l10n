@@ -1,0 +1,93 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present, PlatformIO
+# This file is distributed under the same license as the PlatformIO package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PlatformIO latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-24 14:02+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../scripting/examples/platformio_ini_custom_options.rst:15
+msgid "Custom options in ``platformio.ini``"
+msgstr ""
+
+#: ../../../scripting/examples/platformio_ini_custom_options.rst:17
+msgid ""
+"PlatformIO allows you extending project configuration with own data. Custom "
+"options have to start with ``custom_`` or ``board_`` to not generate a "
+"warning that the unknown configuration option will be ignored by PlatformIO. "
+"You can read these values later using `ProjectConfig API <https://github.com/"
+"platformio/platformio-core/blob/develop/platformio/project/config.py>`__:"
+msgstr ""
+
+#: ../../../scripting/examples/platformio_ini_custom_options.rst:0
+msgid "``ProjectConfig::get(section, option, default=None)``"
+msgstr ""
+
+#: ../../../scripting/examples/platformio_ini_custom_options.rst:23
+msgid "Get an option value for the named section"
+msgstr ""
+
+#: ../../../scripting/examples/platformio_ini_custom_options.rst:0
+msgid "``ProjectConfig::options(section)``"
+msgstr ""
+
+#: ../../../scripting/examples/platformio_ini_custom_options.rst:26
+msgid "Returns a list of the sections available"
+msgstr ""
+
+#: ../../../scripting/examples/platformio_ini_custom_options.rst:0
+msgid "``ProjectConfig::items(section, as_dict=False)``"
+msgstr ""
+
+#: ../../../scripting/examples/platformio_ini_custom_options.rst:29
+msgid ""
+"Returns a list of \"name\", \"value\" pairs for the options in the given "
+"section or a dictionary when ``as_dict=True`` is passed"
+msgstr ""
+
+#: ../../../scripting/examples/platformio_ini_custom_options.rst:0
+msgid "``ProjectConfig::has_section(section)``"
+msgstr ""
+
+#: ../../../scripting/examples/platformio_ini_custom_options.rst:32
+msgid "Indicates whether the named section is present in the configuration"
+msgstr ""
+
+#: ../../../scripting/examples/platformio_ini_custom_options.rst:0
+msgid "``ProjectConfig::has_option(section, option)``"
+msgstr ""
+
+#: ../../../scripting/examples/platformio_ini_custom_options.rst:35
+msgid ""
+"If the given section exists, and contains the given option, returns "
+"``True``; otherwise returns ``False``."
+msgstr ""
+
+#: ../../../scripting/examples/platformio_ini_custom_options.rst:37
+msgid ""
+"PlatformIO's \"ProjectConfig\" is compatible with a native Python's "
+"`ConfigParser <https://docs.python.org/3/library/configparser.html>`__ API."
+msgstr ""
+
+#: ../../../scripting/examples/platformio_ini_custom_options.rst:39
+msgid "**Example**"
+msgstr ""
+
+#: ../../../scripting/examples/platformio_ini_custom_options.rst:41
+msgid "``platformio.ini``:"
+msgstr ""
+
+#: ../../../scripting/examples/platformio_ini_custom_options.rst:55
+msgid "``extra_script.py``:"
+msgstr ""
