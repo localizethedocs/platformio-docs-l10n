@@ -1,0 +1,340 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present, PlatformIO
+# This file is distributed under the same license as the PlatformIO package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PlatformIO stable\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-24 14:03+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../envvars.rst:15
+msgid "Environment Variables"
+msgstr "環境變數"
+
+#: ../../../envvars.rst:17
+msgid ""
+"`Environment variables <http://en.wikipedia.org/wiki/Environment_variable>`_ "
+"are a set of dynamic named values that can affect the way running processes "
+"will behave on a computer. PlatformIO handles variables which start with "
+"``PLATFORMIO_`` prefix."
+msgstr ""
+
+#: ../../../envvars.rst:22
+msgid "How to set environment variable?"
+msgstr ""
+
+#: ../../../envvars.rst:38
+msgid "Contents"
+msgstr ""
+
+#: ../../../envvars.rst:41
+msgid "General"
+msgstr ""
+
+#: ../../../envvars.rst:43
+msgid ""
+"PlatformIO uses *General* environment variables for the common operations/"
+"commands."
+msgstr ""
+
+#: ../../../envvars.rst:48
+msgid ""
+"PlatformIO handles ``CI`` variable which is setup by `Continuous Integration "
+"<http://en.wikipedia.org/wiki/Continuous_integration>`_ (Travis, Circle and "
+"etc.) systems. PlatformIO uses it to disable prompts and progress bars. In "
+"other words, ``CI=true`` automatically setup :envvar:"
+"`PLATFORMIO_DISABLE_PROGRESSBAR` to ``true``."
+msgstr ""
+
+#: ../../../envvars.rst:57
+msgid ""
+"Allows one to specify Personal Authentication Token that could be used for "
+"automatic login in to :ref:`pioaccount`. It is very useful for :ref:`ci` "
+"systems and :ref:`pioremote` operations where you are not able manually "
+"authorize."
+msgstr ""
+
+#: ../../../envvars.rst:61
+msgid ""
+"You can get own Personal Authentication Token using :ref:`cmd_account_token` "
+"command."
+msgstr ""
+
+#: ../../../envvars.rst:66
+msgid ""
+"Force to output ANSI control character even if the output is a ``pipe`` (not "
+"a ``tty``). The possible values are ``true`` and ``false``. Default is "
+"``PLATFORMIO_FORCE_ANSI=false``."
+msgstr ""
+
+#: ../../../envvars.rst:71
+msgid ""
+"Do not print ANSI control characters. The possible values are ``true`` and "
+"``false``. Default is ``PLATFORMIO_NO_ANSI=false``."
+msgstr ""
+
+#: ../../../envvars.rst:74
+msgid "You can also use :option:`pio --no-ansi` flag for :ref:`piocore`."
+msgstr ""
+
+#: ../../../envvars.rst:78
+msgid ""
+"Disable progress bar for package/library downloader and uploader. This is "
+"useful when calling PlatformIO from subprocess and output is a ``pipe`` (not "
+"a ``tty``). The possible values are ``true`` and ``false``. Default is "
+"``PLATFORMIO_DISABLE_PROGRESSBAR=false``."
+msgstr ""
+
+#: ../../../envvars.rst:84
+msgid ""
+"This environment variable allows you to manually specify the system type, "
+"overriding the automatic detection. Examples:"
+msgstr ""
+
+#: ../../../envvars.rst:87
+msgid "``windows_amd64``"
+msgstr ""
+
+#: ../../../envvars.rst:88
+msgid "``windows_arm64``"
+msgstr ""
+
+#: ../../../envvars.rst:89
+msgid "``linux_x86_64``"
+msgstr ""
+
+#: ../../../envvars.rst:90
+msgid "``linux_armv7l``"
+msgstr ""
+
+#: ../../../envvars.rst:91
+msgid "``darwin_arm64``"
+msgstr ""
+
+#: ../../../envvars.rst:95
+msgid "Allows one to override :option:`pio run --jobs`."
+msgstr ""
+
+#: ../../../envvars.rst:98
+msgid "Directories"
+msgstr ""
+
+#: ../../../envvars.rst:102
+msgid ""
+"Allows one to override :ref:`projectconf` option :ref:"
+"`projectconf_pio_core_dir`."
+msgstr ""
+
+#: ../../../envvars.rst:104
+msgid ""
+"It may need to re-install :ref:`piocore` (remove default core directory) to "
+"take effect."
+msgstr ""
+
+#: ../../../envvars.rst:108
+msgid ""
+"Allows one to override :ref:`projectconf` option :ref:"
+"`projectconf_pio_globallib_dir`."
+msgstr ""
+
+#: ../../../envvars.rst:112
+msgid ""
+"Allows one to override :ref:`projectconf` option :ref:"
+"`projectconf_pio_platforms_dir`."
+msgstr ""
+
+#: ../../../envvars.rst:116
+msgid ""
+"Allows one to override :ref:`projectconf` option :ref:"
+"`projectconf_pio_packages_dir`."
+msgstr ""
+
+#: ../../../envvars.rst:120
+msgid ""
+"Allows one to override :ref:`projectconf` option :ref:"
+"`projectconf_pio_cache_dir`."
+msgstr ""
+
+#: ../../../envvars.rst:124
+msgid ""
+"Allows one to override :ref:`projectconf` option :ref:"
+"`projectconf_pio_build_cache_dir`."
+msgstr ""
+
+#: ../../../envvars.rst:128
+msgid ""
+"Allows one to override :ref:`projectconf` option :ref:"
+"`projectconf_pio_workspace_dir`."
+msgstr ""
+
+#: ../../../envvars.rst:132
+msgid ""
+"Allows one to override :ref:`projectconf` option :ref:"
+"`projectconf_pio_include_dir`."
+msgstr ""
+
+#: ../../../envvars.rst:136
+msgid ""
+"Allows one to override :ref:`projectconf` option :ref:"
+"`projectconf_pio_src_dir`."
+msgstr ""
+
+#: ../../../envvars.rst:140
+msgid ""
+"Allows one to override :ref:`projectconf` option :ref:"
+"`projectconf_pio_lib_dir`."
+msgstr ""
+
+#: ../../../envvars.rst:144
+msgid ""
+"Allows one to override :ref:`projectconf` option :ref:"
+"`projectconf_pio_libdeps_dir`."
+msgstr ""
+
+#: ../../../envvars.rst:148
+msgid ""
+"Allows one to override :ref:`projectconf` option :ref:"
+"`projectconf_pio_build_dir`."
+msgstr ""
+
+#: ../../../envvars.rst:152
+msgid ""
+"Allows one to override :ref:`projectconf` option :ref:"
+"`projectconf_pio_data_dir`."
+msgstr ""
+
+#: ../../../envvars.rst:156
+msgid ""
+"Allows one to override :ref:`projectconf` option :ref:"
+"`projectconf_pio_test_dir`."
+msgstr ""
+
+#: ../../../envvars.rst:160
+msgid ""
+"Allows one to override :ref:`projectconf` option :ref:"
+"`projectconf_pio_boards_dir`."
+msgstr ""
+
+#: ../../../envvars.rst:164
+msgid ""
+"Allows one to override :ref:`projectconf` option :ref:"
+"`projectconf_pio_monitor_dir`."
+msgstr ""
+
+#: ../../../envvars.rst:168
+msgid ""
+"Allows one to override :ref:`projectconf` option :ref:"
+"`projectconf_pio_shared_dir`."
+msgstr ""
+
+#: ../../../envvars.rst:172
+msgid "Allows one to override :option:`pio remote agent start --working-dir`."
+msgstr ""
+
+#: ../../../envvars.rst:175
+msgid "Building"
+msgstr ""
+
+#: ../../../envvars.rst:179
+msgid ""
+"Allows one to set :ref:`projectconf` option :ref:`projectconf_build_flags`."
+msgstr ""
+
+#: ../../../envvars.rst:181
+msgid "Examples:"
+msgstr "範例："
+
+#: ../../../envvars.rst:195
+msgid ""
+"Consider using :ref:`projectconf_interpolation` instead of "
+"``PLATFORMIO_BUILD_FLAGS`` environment variable if additional build flags "
+"contain preprocessor directive with special characters (``$``, ``&``, ``~``, "
+"etc) in its value."
+msgstr ""
+
+#: ../../../envvars.rst:201
+msgid ""
+"Allows one to set :ref:`projectconf` option :ref:"
+"`projectconf_build_src_flags`."
+msgstr ""
+
+#: ../../../envvars.rst:205
+msgid ""
+"Allows one to set :ref:`projectconf` option :ref:"
+"`projectconf_build_src_filter`."
+msgstr ""
+
+#: ../../../envvars.rst:209
+msgid ""
+"Allows one to set :ref:`projectconf` option :ref:`projectconf_extra_scripts`."
+msgstr ""
+
+#: ../../../envvars.rst:213
+msgid ""
+"Allows one to set :ref:`projectconf` option :ref:"
+"`projectconf_pio_default_envs`."
+msgstr ""
+
+#: ../../../envvars.rst:216
+msgid "Uploading"
+msgstr ""
+
+#: ../../../envvars.rst:220
+msgid ""
+"Allows one to set :ref:`projectconf` option :ref:`projectconf_upload_port`."
+msgstr ""
+
+#: ../../../envvars.rst:224
+msgid ""
+"Allows one to set :ref:`projectconf` option :ref:`projectconf_upload_flags`."
+msgstr ""
+
+#: ../../../envvars.rst:228
+msgid "Settings"
+msgstr ""
+
+#: ../../../envvars.rst:230
+msgid ""
+"Allows one to override PlatformIO settings. You can manage them via :ref:"
+"`cmd_settings` command."
+msgstr ""
+
+#: ../../../envvars.rst:235
+msgid ""
+"Allows one to override setting :ref:`setting_check_platformio_interval`."
+msgstr ""
+
+#: ../../../envvars.rst:239
+msgid ""
+"Allows one to override setting :ref:`setting_check_prune_system_threshold`."
+msgstr ""
+
+#: ../../../envvars.rst:243
+msgid "Allows one to override setting :ref:`setting_enable_cache`."
+msgstr ""
+
+#: ../../../envvars.rst:247
+msgid "Allows one to override setting :ref:`setting_enable_telemetry`."
+msgstr ""
+
+#: ../../../envvars.rst:251
+msgid "Allows one to override setting :ref:`setting_force_verbose`."
+msgstr ""
+
+#: ../../../envvars.rst:255
+msgid "Allows one to override setting :ref:`setting_projects_dir`."
+msgstr ""
+
+#: ../../../envvars.rst:259
+msgid "Allows one to override setting :ref:`setting_enable_proxy_strict_ssl`."
+msgstr ""

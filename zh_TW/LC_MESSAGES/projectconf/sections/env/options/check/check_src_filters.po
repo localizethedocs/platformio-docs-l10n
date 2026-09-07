@@ -1,0 +1,58 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present, PlatformIO
+# This file is distributed under the same license as the PlatformIO package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PlatformIO stable\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-24 14:03+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../projectconf/sections/env/options/check/check_src_filters.rst:17
+msgid "``check_src_filters``"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/check/check_src_filters.rst:19
+msgid "Type: ``String (Templates)`` | Multiple: ``Yes``"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/check/check_src_filters.rst:21
+msgid ""
+"This option allows one to specify which files should be included or excluded "
+"from the check process. The filter supports two templates:"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/check/check_src_filters.rst:24
+msgid "``+<PATH>`` include template"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/check/check_src_filters.rst:25
+msgid "``-<PATH>`` exclude template"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/check/check_src_filters.rst:27
+msgid ""
+"``PATH`` is relative to :ref:`projectconf_pio_src_dir`. All patterns will be "
+"applied in their order of definition. `GLOB Patterns <http://en.wikipedia."
+"org/wiki/Glob_(programming)>`_ are allowed."
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/check/check_src_filters.rst:31
+msgid ""
+"By default, ``check_src_filters`` is predefined to include ALL files from "
+"the :ref:`projectconf_pio_src_dir` and :ref:`projectconf_pio_include_dir` "
+"folders."
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/check/check_src_filters.rst:33
+msgid "**Example**"
+msgstr ""

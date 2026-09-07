@@ -1,0 +1,76 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present, PlatformIO
+# This file is distributed under the same license as the PlatformIO package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PlatformIO stable\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-24 14:03+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../projectconf/sections/platformio/options/directory/shared_dir.rst:15
+msgid "``shared_dir``"
+msgstr ""
+
+#: ../../../projectconf/sections/platformio/options/directory/shared_dir.rst:17
+msgid ""
+"Type: ``DirPath`` | Multiple: ``No`` | Default: \"<Project>/``shared``\""
+msgstr ""
+
+#: ../../../projectconf/sections/platformio/options/directory/shared_dir.rst:19
+msgid ""
+":ref:`pioremote` uses this folder to synchronize extra files between remote "
+"machine. For example, you can share :ref:`projectconf_extra_scripts`."
+msgstr ""
+
+#: ../../../projectconf/sections/platformio/options/directory/shared_dir.rst:22
+msgid ""
+"Please note that these folders are automatically shared between remote "
+"machine with :option:`pio remote run --force-remote` or :option:`pio remote "
+"test --force-remote` commands:"
+msgstr ""
+
+#: ../../../projectconf/sections/platformio/options/directory/shared_dir.rst:26
+msgid ":ref:`projectconf_pio_lib_dir`"
+msgstr ""
+
+#: ../../../projectconf/sections/platformio/options/directory/shared_dir.rst:27
+msgid ":ref:`projectconf_pio_include_dir`"
+msgstr ""
+
+#: ../../../projectconf/sections/platformio/options/directory/shared_dir.rst:28
+msgid ":ref:`projectconf_pio_src_dir`"
+msgstr ""
+
+#: ../../../projectconf/sections/platformio/options/directory/shared_dir.rst:29
+msgid ":ref:`projectconf_pio_boards_dir`"
+msgstr ""
+
+#: ../../../projectconf/sections/platformio/options/directory/shared_dir.rst:30
+msgid ":ref:`projectconf_pio_data_dir`"
+msgstr ""
+
+#: ../../../projectconf/sections/platformio/options/directory/shared_dir.rst:31
+msgid ":ref:`projectconf_pio_test_dir`"
+msgstr ""
+
+#: ../../../projectconf/sections/platformio/options/directory/shared_dir.rst:33
+msgid ""
+"The default value is ``shared``, meaning a directory named \"shared\" "
+"located in the root of the project."
+msgstr ""
+
+#: ../../../projectconf/sections/platformio/options/directory/shared_dir.rst:36
+msgid ""
+"This option can also be configured by the global environment variable :"
+"envvar:`PLATFORMIO_SHARED_DIR`."
+msgstr ""

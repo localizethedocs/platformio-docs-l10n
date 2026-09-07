@@ -1,0 +1,82 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present, PlatformIO
+# This file is distributed under the same license as the PlatformIO package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PlatformIO stable\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-24 14:03+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../core/index.rst:17
+msgid "PlatformIO Core (CLI)"
+msgstr ""
+
+#: ../../../core/index.rst:19
+msgid ""
+"|PIOCORE| (CLI tool) is the heart of the entire PlatformIO ecosystem and "
+"consists of"
+msgstr ""
+
+#: ../../../core/index.rst:21
+msgid "Multi-platform Build System"
+msgstr ""
+
+#: ../../../core/index.rst:22
+msgid "Unified Package Manager"
+msgstr ""
+
+#: ../../../core/index.rst:23
+msgid ":ref:`librarymanager`"
+msgstr ""
+
+#: ../../../core/index.rst:24
+msgid ":ref:`ldf`"
+msgstr ""
+
+#: ../../../core/index.rst:25
+msgid ":ref:`Serial Port Monitor <cmd_device_monitor>`"
+msgstr ""
+
+#: ../../../core/index.rst:26
+msgid "Integration components (:ref:`ide` and :ref:`ci`)."
+msgstr ""
+
+#: ../../../core/index.rst:28
+msgid ""
+"|PIOCORE| is written in `Python <https://www.python.org/downloads/>`_ and "
+"works on Windows, macOS, Linux, FreeBSD and *ARM*-based credit-card sized "
+"computers (`Raspberry Pi <http://www.raspberrypi.org>`_, `BeagleBone <http://"
+"beagleboard.org>`_, `CubieBoard <http://cubieboard.org>`_, `Samsung ARTIK "
+"<https://www.artik.io>`_, etc.)."
+msgstr ""
+
+#: ../../../core/index.rst:36
+msgid ""
+"|PIOCORE| provides a rich and documented Command Line Interface (CLI). The "
+"other PlatformIO-based software and IDEs are based on **PlatformIO Core "
+"CLI**, such as :ref:`pioide`. In other words, they wrap |PIOCORE| with own "
+"GUI."
+msgstr ""
+
+#: ../../../core/index.rst:42
+msgid ""
+"Please note that you do not need to install |PIOCORE| if you are going to "
+"use :ref:`pioide`. |PIOCORE| is built into PlatformIO IDE and you will be "
+"able to use it within PlatformIO IDE Terminal."
+msgstr ""
+
+#: ../../../core/index.rst:46
+msgid ""
+"If you need |PIOCORE| commands outside PlatformIO IDE, please :ref:"
+"`piocore_install_shell_commands`."
+msgstr ""

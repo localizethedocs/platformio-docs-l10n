@@ -1,0 +1,185 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present, PlatformIO
+# This file is distributed under the same license as the PlatformIO package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PlatformIO stable\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-24 14:03+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../tutorials/index.rst:15
+msgid "Tutorials and Examples"
+msgstr ""
+
+#: ../../../tutorials/index.rst:18
+msgid "Official"
+msgstr ""
+
+#: ../../../tutorials/index.rst:21 ../../../tutorials/index.rst:50
+msgid "Tutorials"
+msgstr ""
+
+#: ../../../tutorials/index.rst:35
+msgid "Project Examples"
+msgstr ""
+
+#: ../../../tutorials/index.rst:37
+msgid ""
+"Pre-configured projects with source code are located in `PlatformIO Examples "
+"<https://github.com/platformio/platformio-examples>`_ repository."
+msgstr ""
+
+#: ../../../tutorials/index.rst:42
+msgid "Community"
+msgstr ""
+
+#: ../../../tutorials/index.rst:45
+msgid "Books"
+msgstr ""
+
+#: ../../../tutorials/index.rst:47
+msgid ""
+"`Developing IoT Projects with ESP32: Automate your home or business with "
+"inexpensive Wi-Fi devices <https://www.amazon.com/Developing-IoT-Projects-"
+"ESP32-inexpensive-ebook-dp-B093CCWGDP/dp/B093CCWGDP/>`_ (using the "
+"PlatformIO with :ref:`framework_espidf`)"
+msgstr ""
+
+#: ../../../tutorials/index.rst:52
+msgid ""
+"`PlatformIO DIY Projects & Tutorials at Hackster.io <https://www.hackster.io/"
+"platformio/projects?utm_source=platformio.org&utm_medium=docs>`_"
+msgstr ""
+
+#: ../../../tutorials/index.rst:55
+msgid "Video Tutorials"
+msgstr ""
+
+#: ../../../tutorials/index.rst:57
+msgid ""
+"`Getting Started with PlatformIO <https://www.youtube.com/watch?"
+"v=JmvMvIphMnY>`_ - **HIGHLY RECOMMENDED FOR BEGINNERS**"
+msgstr ""
+
+#: ../../../tutorials/index.rst:58
+msgid ""
+"`PlatformIO Video Collection on YouTube <https://www.youtube.com/playlist?"
+"list=PLLnAiBnVrkALvk_IJhDBAQQuDozkj6C34>`_"
+msgstr ""
+
+#: ../../../tutorials/index.rst:59
+msgid ""
+"`Next-generation IDE for your RISC-V Product in 20 Minutes by CEO of "
+"PlatformIO <https://www.youtube.com/watch?v=0eYDKION0Bs>`_"
+msgstr ""
+
+#: ../../../tutorials/index.rst:60
+msgid ""
+"`Use the PlatformIO Debugger on the ESP32 Using an ESP-prog <https://www."
+"hackster.io/brian-lough/use-the-platformio-debugger-on-the-esp32-using-an-"
+"esp-prog-f633b6>`_"
+msgstr ""
+
+#: ../../../tutorials/index.rst:61
+msgid ""
+"`RISC-V ASM Tutorial <https://www.youtube.com/playlist?"
+"list=PL6noQ0vZDAdh_aGvqKvxd0brXImHXMuLY>`_"
+msgstr ""
+
+#: ../../../tutorials/index.rst:62
+msgid ""
+"`PlatformIO for Arduino, ESP8266, and ESP32 Tutorial <https://www.youtube."
+"com/watch?v=0poh_2rBq7E>`_"
+msgstr ""
+
+#: ../../../tutorials/index.rst:63
+msgid ""
+"`Free Inline Debugging for ESP32 and Arduino Sketches <https://www.youtube."
+"com/watch?v=psMqilqlrRQ>`__"
+msgstr ""
+
+#: ../../../tutorials/index.rst:64
+msgid ""
+"`PlatformIO или прощай, Arduino IDE <https://www.youtube.com/watch?"
+"v=OGCyKncOyNU>`_"
+msgstr ""
+
+#: ../../../tutorials/index.rst:65
+msgid ""
+"`Отладка ESP32 в PlatformIO <https://www.youtube.com/watch?v=rreMOwEJcII>`_"
+msgstr ""
+
+#: ../../../tutorials/index.rst:66
+msgid ""
+"`A Better Arduino IDE - Getting Started with PlatformIO <https://www.youtube."
+"com/watch?v=EIkGTwLOD7o>`_"
+msgstr ""
+
+#: ../../../tutorials/index.rst:67
+msgid ""
+"`PlatformIO - Using External Libraries <https://www.youtube.com/watch?"
+"v=EBlHNBNHESQ>`_"
+msgstr ""
+
+#: ../../../tutorials/index.rst:70
+msgid "Projects"
+msgstr ""
+
+#: ../../../tutorials/index.rst:72
+msgid ""
+"`arendst/tasmota <https://github.com/arendst/tasmota/>`_ - an alternative "
+"firmware for ESP8266 with easy configuration using webUI, OTA updates, "
+"automation using timers or rules, expandability and entirely local control "
+"over MQTT, HTTP, Serial or KNX"
+msgstr ""
+
+#: ../../../tutorials/index.rst:73
+msgid ""
+"`MarlinFirmware/Marlin <https://github.com/MarlinFirmware/Marlin>`_ - an "
+"optimized firmware for RepRap 3D printers based on the Arduino platform"
+msgstr ""
+
+#: ../../../tutorials/index.rst:74
+msgid ""
+"`scottbez1/smartknob <https://github.com/scottbez1/smartknob>`_ - a haptic "
+"input knob with software-defined endstops and virtual detents"
+msgstr ""
+
+#: ../../../tutorials/index.rst:75
+msgid ""
+"`esphome/esphome <https://github.com/esphome/esphome>`_ - a system to "
+"control your ESP8266/ESP32 by simple yet powerful configuration files and "
+"control them remotely through Home Automation systems"
+msgstr ""
+
+#: ../../../tutorials/index.rst:76
+msgid ""
+"`xoseperez/espurna <https://github.com/xoseperez/espurna>`_ - a home "
+"automation firmware for ESP8266-based devices"
+msgstr ""
+
+#: ../../../tutorials/index.rst:77
+msgid ""
+"`1technophile/OpenMQTTGateway <https://github.com/1technophile/"
+"OpenMQTTGateway>`_ - MQTT gateway for ESP8266, ESP32, Sonoff RF Bridge or "
+"Arduino with bidirectional 433mhz/315mhz/868mhz, Infrared communications, "
+"BLE, Bluetooth, beacons detection, mi flora, mi jia, LYWSD02, LYWSD03MMC, Mi "
+"Scale, TPMS, BBQ thermometer compatibility, SMS & LORA"
+msgstr ""
+
+#: ../../../tutorials/index.rst:78
+msgid ""
+"`cyberman54/ESP32-Paxcounter <https://github.com/cyberman54/ESP32-"
+"Paxcounter>`_ - Wifi & BLE driven passenger flow metering with cheap ESP32 "
+"boards."
+msgstr ""

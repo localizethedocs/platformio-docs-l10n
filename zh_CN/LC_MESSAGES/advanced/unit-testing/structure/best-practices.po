@@ -1,0 +1,65 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present, PlatformIO
+# This file is distributed under the same license as the PlatformIO package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PlatformIO stable\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-24 14:03+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../advanced/unit-testing/structure/best-practices.rst:13
+msgid "Best Practices"
+msgstr ""
+
+#: ../../../advanced/unit-testing/structure/best-practices.rst:15
+msgid ""
+"Unit tests are as important to a firmware/program (\"application\") as the "
+"production source code. As with the regular code, you need to give careful "
+"thought to where the tests reside, both physically and logically, in "
+"relation to the code under test. If you put unit tests in the wrong place, "
+"the tests you have written may not be run."
+msgstr ""
+
+#: ../../../advanced/unit-testing/structure/best-practices.rst:20
+msgid ""
+"Similarly, if you do not devise ways to reuse parts of your tests and use "
+"test hierarchy, you will end up with test code that is either unmaintainable "
+"or hard to understand. So, what makes a good test?"
+msgstr ""
+
+#: ../../../advanced/unit-testing/structure/best-practices.rst:24
+msgid ""
+"**Tests should be independent and repeatable.** It is a pain to debug a test "
+"that succeeds or fails as a result of other tests. PlatformIO isolates the "
+"tests by running each of them as a separate application. When a test fails, "
+"PlatformIO allows you to run it in isolation for quick debugging."
+msgstr ""
+
+#: ../../../advanced/unit-testing/structure/best-practices.rst:29
+msgid ""
+"**Tests should not depend on the main application source code.** In "
+"PlatformIO, each test is an independent application and should contain its "
+"own ``main()`` function (``setup() / loop()`` for :ref:`framework_arduino`, "
+"``app_main()`` for :ref:`framework_espidf`). Linking the main application "
+"source code from :ref:`projectconf_pio_src_dir` with a test suite code will "
+"lead to multiple compilation errors. Hence, the :ref:"
+"`unit_testing_shared_code` is disabled by default."
+msgstr ""
+
+#: ../../../advanced/unit-testing/structure/best-practices.rst:37
+msgid ""
+"**Tests should be well organized and reflect the structure of the tested "
+"code.** PlatformIO lets you organize tests using nested folders. The only "
+"folder with a name prefixed by ``test_`` is nominated for unit testing and "
+"is an independent test/application. See :ref:`unit_testing_test_hierarchy`."
+msgstr ""

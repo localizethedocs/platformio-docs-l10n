@@ -1,0 +1,326 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present, PlatformIO
+# This file is distributed under the same license as the PlatformIO package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PlatformIO stable\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-24 14:03+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../librarymanager/ldf.rst:15
+msgid "Library Dependency Finder (LDF)"
+msgstr ""
+
+#: ../../../librarymanager/ldf.rst:17
+msgid ""
+"Library Dependency Finder is a core part of PlatformIO Build System that "
+"operates with the C/C++ source files and looks for ``#include ...`` "
+"directives to know what header directories to include for the compiler."
+msgstr ""
+
+#: ../../../librarymanager/ldf.rst:21
+msgid ""
+"In spite of the fact that Library Dependency Finder is written in pure "
+"Python, it evaluates :ref:`ldf_c_cond_syntax` (``#ifdef``, ``if``, "
+"``defined``, ``else``, and ``elif``) without calling ``gcc -E``. This "
+"approach allows to significantly reduce the total compilation time. See :ref:"
+"`ldf_mode` for more details."
+msgstr ""
+
+#: ../../../librarymanager/ldf.rst:27
+msgid "Contents"
+msgstr ""
+
+#: ../../../librarymanager/ldf.rst:30
+msgid "Configuration"
+msgstr "組態"
+
+#: ../../../librarymanager/ldf.rst:32
+msgid "Library Dependency Finder can be configured from :ref:`projectconf`:"
+msgstr ""
+
+#: ../../../librarymanager/ldf.rst:42
+msgid "Storage"
+msgstr ""
+
+#: ../../../librarymanager/ldf.rst:44
+msgid ""
+"There are different storages where Library Dependency Finder looks for "
+"libraries. These storages (folders) have priority and LDF operates in the "
+"next order:"
+msgstr ""
+
+#: ../../../librarymanager/ldf.rst:48
+msgid ""
+":ref:`projectconf_pio_lib_dir` - own/private library storage per project"
+msgstr ""
+
+#: ../../../librarymanager/ldf.rst:49
+msgid ""
+":ref:`projectconf_pio_libdeps_dir` - project dependency storage used by :ref:"
+"`librarymanager`"
+msgstr ""
+
+#: ../../../librarymanager/ldf.rst:51
+msgid ""
+"\":ref:`projectconf_pio_core_dir`/lib\" - global storage per all projects."
+msgstr ""
+
+#: ../../../librarymanager/ldf.rst:52
+msgid "Library storages built into frameworks, SDKs."
+msgstr ""
+
+#: ../../../librarymanager/ldf.rst:57
+msgid "Dependency Finder Mode"
+msgstr ""
+
+#: ../../../librarymanager/ldf.rst:59
+msgid ""
+"Library Dependency Finder starts work from analyzing source files of the "
+"project (:ref:`projectconf_pio_src_dir`) and can work in the next modes:"
+msgstr ""
+
+#: ../../../librarymanager/ldf.rst:0
+msgid "``off``"
+msgstr ""
+
+#: ../../../librarymanager/ldf.rst:63
+msgid ""
+"\"Manual mode\", does not process source files of a project and "
+"dependencies. Builds only the libraries that are specified in manifests (:"
+"ref:`library_json`, ``module.json``) or using :ref:`projectconf_lib_deps` "
+"option."
+msgstr ""
+
+#: ../../../librarymanager/ldf.rst:0
+msgid "``chain``"
+msgstr ""
+
+#: ../../../librarymanager/ldf.rst:69
+msgid ""
+"[**DEFAULT**] Parses ALL C/C++ source files of the project and follows only "
+"by nested includes (``#include ...``, chain...) from the libraries. It also "
+"parses C, CC, CPP files from libraries which have the same name as included "
+"header file. **Does not evaluate** :ref:`ldf_c_cond_syntax`."
+msgstr ""
+
+#: ../../../librarymanager/ldf.rst:0
+msgid "``deep``"
+msgstr ""
+
+#: ../../../librarymanager/ldf.rst:75
+msgid ""
+"Parses ALL C/C++ source files of the project and parses ALL C/C++ source "
+"files of the each found dependency (recursively). **Does not evaluate** :ref:"
+"`ldf_c_cond_syntax`."
+msgstr ""
+
+#: ../../../librarymanager/ldf.rst:0
+msgid "``chain+``"
+msgstr ""
+
+#: ../../../librarymanager/ldf.rst:80
+msgid ""
+"The same behavior as for the ``chain`` but **evaluates** :ref:"
+"`ldf_c_cond_syntax`."
+msgstr ""
+
+#: ../../../librarymanager/ldf.rst:0
+msgid "``deep+``"
+msgstr ""
+
+#: ../../../librarymanager/ldf.rst:83
+msgid ""
+"The same behavior as for the ``deep`` but **evaluates** :ref:"
+"`ldf_c_cond_syntax`."
+msgstr ""
+
+#: ../../../librarymanager/ldf.rst:85
+msgid ""
+"The mode can be changed using :ref:`projectconf_lib_ldf_mode` option in :ref:"
+"`projectconf`. Default value is set to ``chain``."
+msgstr ""
+
+#: ../../../librarymanager/ldf.rst:90
+msgid ""
+"Once a library is picked by the LDF for the build process, all source files "
+"according to its manifest file will be built."
+msgstr ""
+
+#: ../../../librarymanager/ldf.rst:94
+msgid ""
+"Usually, when the LDF appears to fail to identify a dependency of a library, "
+"it is because the dependency is only referenced from a library source file, "
+"and not a library header file (see example below). In this case, it is "
+"necessary to either explicitly reference the dependency from the project "
+"source or :ref:`projectconf` (:ref:`projectconf_lib_deps` option), or change "
+"the LDF mode to \"deep\" (not generally recommended)."
+msgstr ""
+
+#: ../../../librarymanager/ldf.rst:101
+msgid ""
+"A difference between ``chain/chain+`` and ``deep/deep+`` modes. For example, "
+"there are 2 libraries:"
+msgstr ""
+
+#: ../../../librarymanager/ldf.rst:104
+msgid "Library ``Foo`` with files:"
+msgstr ""
+
+#: ../../../librarymanager/ldf.rst:106
+msgid "``Foo/foo.h``"
+msgstr ""
+
+#: ../../../librarymanager/ldf.rst:107
+msgid "``Foo/foo.cpp``"
+msgstr ""
+
+#: ../../../librarymanager/ldf.rst:108
+msgid "``Foo/extra.cpp``"
+msgstr ""
+
+#: ../../../librarymanager/ldf.rst:110
+msgid "Library ``Bar`` with files:"
+msgstr ""
+
+#: ../../../librarymanager/ldf.rst:112
+msgid "``Bar/bar.h``"
+msgstr ""
+
+#: ../../../librarymanager/ldf.rst:113
+msgid "``Bar/bar.cpp``"
+msgstr ""
+
+#: ../../../librarymanager/ldf.rst:0
+msgid "Case 1"
+msgstr ""
+
+#: ../../../librarymanager/ldf.rst:117 ../../../librarymanager/ldf.rst:126
+msgid "``lib_ldf_mode = chain``"
+msgstr ""
+
+#: ../../../librarymanager/ldf.rst:118
+msgid ""
+"``Foo/foo.h`` depends on the ``Bar`` library (contains ``#include <bar.h>``)"
+msgstr ""
+
+#: ../../../librarymanager/ldf.rst:119 ../../../librarymanager/ldf.rst:128
+#: ../../../librarymanager/ldf.rst:137
+msgid "``#include <foo.h>`` is located in one of the project source files"
+msgstr ""
+
+#: ../../../librarymanager/ldf.rst:121
+msgid ""
+"Here the nested includes (``project file > foo.h > bar.h``) and LDF will "
+"find both libraries ``Foo`` and ``Bar``."
+msgstr ""
+
+#: ../../../librarymanager/ldf.rst:0
+msgid "Case 2"
+msgstr ""
+
+#: ../../../librarymanager/ldf.rst:127
+msgid ""
+"``Foo/extra.cpp`` depends on the ``Bar`` library (contains ``#include <bar."
+"h>``)"
+msgstr ""
+
+#: ../../../librarymanager/ldf.rst:130
+msgid ""
+"In this case, LDF will not find the ``Bar`` library because it doesn't know "
+"about the CPP file (``Foo/extra.cpp``)."
+msgstr ""
+
+#: ../../../librarymanager/ldf.rst:0
+msgid "Case 3"
+msgstr ""
+
+#: ../../../librarymanager/ldf.rst:135
+msgid "``lib_ldf_mode = deep``"
+msgstr ""
+
+#: ../../../librarymanager/ldf.rst:136
+msgid ""
+"``Foo/extra.cpp`` depends on ``Bar`` library (contains ``#include <bar.h>``)"
+msgstr ""
+
+#: ../../../librarymanager/ldf.rst:139
+msgid ""
+"Firstly, LDF finds the ``Foo`` library, then it parses all sources from the "
+"``Foo`` library and finds ``Foo/extra.cpp`` that depends on ``#include <bar."
+"h>``.  Secondly, it will parse all sources from the ``Bar`` library. This "
+"operation continues until all dependencies will not be parsed."
+msgstr ""
+
+#: ../../../librarymanager/ldf.rst:148
+msgid "Compatibility Mode"
+msgstr ""
+
+#: ../../../librarymanager/ldf.rst:150
+msgid ""
+"Compatibility mode allows one to control strictness of Library Dependency "
+"Finder. If library contains one of manifest file (:ref:`library_json`, "
+"``library.properties``, ``module.json``), then LDF check compatibility of "
+"this library with real build environment. Available compatibility modes:"
+msgstr ""
+
+#: ../../../librarymanager/ldf.rst:156
+msgid "Does not check for compatibility (is not recommended)"
+msgstr ""
+
+#: ../../../librarymanager/ldf.rst:0
+msgid "``soft``"
+msgstr ""
+
+#: ../../../librarymanager/ldf.rst:159
+msgid ""
+"[**DEFAULT**] Checks for the compatibility with :ref:"
+"`projectconf_env_framework` from build environment"
+msgstr ""
+
+#: ../../../librarymanager/ldf.rst:0
+msgid "``strict``"
+msgstr ""
+
+#: ../../../librarymanager/ldf.rst:163
+msgid ""
+"Checks for the compatibility with :ref:`projectconf_env_framework` and :ref:"
+"`projectconf_env_platform` from build environment."
+msgstr ""
+
+#: ../../../librarymanager/ldf.rst:166
+msgid ""
+"This mode can be changed using :ref:`projectconf_lib_compat_mode` option in :"
+"ref:`projectconf`. Default value is set to ``soft``."
+msgstr ""
+
+#: ../../../librarymanager/ldf.rst:172
+msgid "C/C++ Preprocessor conditional syntax"
+msgstr ""
+
+#: ../../../librarymanager/ldf.rst:174
+msgid ""
+"In spite of the fact that Library Dependency Finder is written in pure "
+"Python, it evaluates `C/C++ Preprocessor conditional syntax <https://gcc.gnu."
+"org/onlinedocs/cpp/Conditional-Syntax.html#Conditional-Syntax>`_ "
+"(``#ifdef``, ``if``, ``defined``, ``else``, and ``elif``) without calling "
+"``gcc -E``. For example,"
+msgstr ""
+
+#: ../../../librarymanager/ldf.rst:179
+msgid "``platformio.ini``"
+msgstr ""
+
+#: ../../../librarymanager/ldf.rst:187
+msgid "``mylib.h``"
+msgstr ""

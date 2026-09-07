@@ -1,0 +1,192 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present, PlatformIO
+# This file is distributed under the same license as the PlatformIO package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PlatformIO stable\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-24 14:03+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../platforms/creating_platform.rst:15
+msgid "Custom Development Platforms"
+msgstr ""
+
+#: ../../../platforms/creating_platform.rst:17
+msgid ""
+"*PlatformIO* can build the same binary code under different host systems via "
+"the single command :ref:`cmd_run` without any dependent software or "
+"requirements."
+msgstr ""
+
+#: ../../../platforms/creating_platform.rst:21
+msgid ""
+"A *manifest* describes how to produce binaries for a particular platform "
+"under one or multiple host systems by a set of build scripts, toolchains, "
+"the settings for the most popular embedded boards, etc."
+msgstr ""
+
+#: ../../../platforms/creating_platform.rst:25
+msgid ""
+"This guide explains how to write manifests, to support building for new "
+"development platforms."
+msgstr ""
+
+#: ../../../platforms/creating_platform.rst:29
+msgid "**Step-by-Step Manual**"
+msgstr ""
+
+#: ../../../platforms/creating_platform.rst:31
+msgid "Choose :ref:`platform_creating_packages` for platform"
+msgstr ""
+
+#: ../../../platforms/creating_platform.rst:32
+msgid "Create :ref:`platform_creating_manifest_file`"
+msgstr ""
+
+#: ../../../platforms/creating_platform.rst:33
+msgid "Create :ref:`platform_creating_build_script`"
+msgstr ""
+
+#: ../../../platforms/creating_platform.rst:34
+msgid "Finish with the :ref:`platform_creating_installation`."
+msgstr ""
+
+#: ../../../platforms/creating_platform.rst:36
+msgid "Contents"
+msgstr ""
+
+#: ../../../platforms/creating_platform.rst:39
+msgid "Examples"
+msgstr ""
+
+#: ../../../platforms/creating_platform.rst:41
+msgid ""
+"Please take a look at the source code of existing `PlatformIO Development "
+"Platforms <https://github.com/topics/platformio-platform>`_."
+msgstr ""
+
+#: ../../../platforms/creating_platform.rst:47
+msgid "Packages"
+msgstr ""
+
+#: ../../../platforms/creating_platform.rst:49
+msgid ""
+"Some tools are the same when compiling for several platforms, for example a "
+"common compiler. A *package* is some tool or framework that can be used when "
+"compiling for one or multiple platforms. Even if multiple platforms use the "
+"same package, the package only needs to be downloaded once. Since each "
+"package is pre-built for the different host systems (Windows, Mac, Linux), "
+"developers can get started without first compiling the tools."
+msgstr ""
+
+#: ../../../platforms/creating_platform.rst:57
+msgid ""
+"PlatformIO has a registry with pre-built packages for the most popular "
+"operating systems and you can use them in your platform manifest. Custom "
+"packages can be uploaded to the PlatformIO Registry using :ref:"
+"`cmd_pkg_publish` command."
+msgstr ""
+
+#: ../../../platforms/creating_platform.rst:64
+msgid "Manifest File ``platform.json``"
+msgstr ""
+
+#: ../../../platforms/creating_platform.rst:66
+msgid ""
+"Each platform definition includes a *manifest file* with a particular format "
+"that is parsed by PlatformIO when handling projects using that platform."
+msgstr ""
+
+#: ../../../platforms/creating_platform.rst:70
+msgid ""
+"Here is an example ``platform.json`` for the fictitious platform "
+"\"myplatform\":"
+msgstr ""
+
+#: ../../../platforms/creating_platform.rst:123
+msgid "Build Script ``main.py``"
+msgstr ""
+
+#: ../../../platforms/creating_platform.rst:125
+msgid "Each platform definition must include a ``main.py``."
+msgstr ""
+
+#: ../../../platforms/creating_platform.rst:127
+msgid ""
+"PlatformIO's build script is based on a next-generation build tool named "
+"`SCons <http://www.scons.org>`_. PlatformIO has its own built-in firmware "
+"builder ``env.BuildProgram`` with deep library search. Please see the "
+"following template as start for developing your own ``main.py``."
+msgstr ""
+
+#: ../../../platforms/creating_platform.rst:211
+msgid "Installation"
+msgstr ""
+
+#: ../../../platforms/creating_platform.rst:213
+msgid "Using the \"myplatform\" platform example above:"
+msgstr ""
+
+#: ../../../platforms/creating_platform.rst:215
+msgid ""
+"Create a ``platforms`` directory in :ref:`projectconf_pio_core_dir` if it "
+"doesn't exist."
+msgstr ""
+
+#: ../../../platforms/creating_platform.rst:217
+msgid "Create a ``myplatform`` directory in ``platforms``"
+msgstr ""
+
+#: ../../../platforms/creating_platform.rst:218
+msgid ""
+"Copy the ``platform.json`` and ``builder/main.py`` files to the "
+"``myplatform`` directory."
+msgstr ""
+
+#: ../../../platforms/creating_platform.rst:219
+msgid ""
+"Search the available platforms via the :ref:`cmd_platform_search` command. "
+"You should see the new ``myplatform`` platform."
+msgstr ""
+
+#: ../../../platforms/creating_platform.rst:221
+msgid ""
+"Install the ``myplatform`` platform via the :ref:`cmd_platform_install` "
+"command."
+msgstr ""
+
+#: ../../../platforms/creating_platform.rst:223
+msgid ""
+"Now, you can use ``myplatform`` as value for the :ref:"
+"`projectconf_env_platform` option in :ref:`projectconf`."
+msgstr ""
+
+#: ../../../platforms/creating_platform.rst:227
+msgid "Publishing"
+msgstr ""
+
+#: ../../../platforms/creating_platform.rst:229
+msgid ""
+"You can publish a development platform to the **PlatformIO Trusted "
+"Registry** using :ref:`cmd_pkg_publish` command. Other developers will be "
+"able to install it. Every time when you modify a source code of a "
+"development platform you will need to increment the \"version\" field in "
+"\"platform.json\" manifest and re-publish again."
+msgstr ""
+
+#: ../../../platforms/creating_platform.rst:234
+msgid ""
+"If the published development platform has an issue and you would like to "
+"remove it from the PlatformIO Trusted Registry, please use :ref:"
+"`cmd_pkg_unpublish` command."
+msgstr ""

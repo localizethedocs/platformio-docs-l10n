@@ -1,0 +1,52 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present, PlatformIO
+# This file is distributed under the same license as the PlatformIO package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PlatformIO stable\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-24 14:03+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../projectconf/sections/env/options/platform/board.rst:15
+msgid "``board``"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/platform/board.rst:17
+msgid "Type: ``String (ID)`` | Multiple: ``No``"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/platform/board.rst:19
+msgid "*PlatformIO* has pre-configured settings for the most popular boards:"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/platform/board.rst:21
+msgid "build configuration"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/platform/board.rst:22
+msgid "upload configuration"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/platform/board.rst:23
+msgid "debugging configuration"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/platform/board.rst:24
+msgid "connectivity information, etc."
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/platform/board.rst:26
+msgid ""
+"You can find a valid  ``board`` ID in :ref:`boards` catalog, `Boards "
+"Explorer <https://platformio.org/boards>`_ or :ref:`cmd_boards` command."
+msgstr ""

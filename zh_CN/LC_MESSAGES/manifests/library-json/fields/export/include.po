@@ -1,0 +1,80 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present, PlatformIO
+# This file is distributed under the same license as the PlatformIO package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PlatformIO stable\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-24 14:03+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../manifests/library-json/fields/export/include.rst:13
+msgid "``include``"
+msgstr ""
+
+#: ../../../manifests/library-json/fields/export/include.rst:15
+msgid ""
+"*Optional* | Type: ``Array`` | `Glob Pattern <http://en.wikipedia.org/wiki/"
+"Glob_(programming)>`_"
+msgstr ""
+
+#: ../../../manifests/library-json/fields/export/include.rst:17
+msgid "Export only files that matched declared patterns."
+msgstr ""
+
+#: ../../../manifests/library-json/fields/export/include.rst:19
+msgid "**Pattern Meaning**"
+msgstr ""
+
+#: ../../../manifests/library-json/fields/export/include.rst:24
+msgid "Pattern"
+msgstr ""
+
+#: ../../../manifests/library-json/fields/export/include.rst:25
+msgid "Meaning"
+msgstr ""
+
+#: ../../../manifests/library-json/fields/export/include.rst:26
+msgid "``*``"
+msgstr ""
+
+#: ../../../manifests/library-json/fields/export/include.rst:27
+msgid "matches everything"
+msgstr ""
+
+#: ../../../manifests/library-json/fields/export/include.rst:28
+msgid "``?``"
+msgstr ""
+
+#: ../../../manifests/library-json/fields/export/include.rst:29
+msgid "matches any single character"
+msgstr ""
+
+#: ../../../manifests/library-json/fields/export/include.rst:30
+msgid "``[seq]``"
+msgstr ""
+
+#: ../../../manifests/library-json/fields/export/include.rst:31
+msgid "matches any character in seq"
+msgstr ""
+
+#: ../../../manifests/library-json/fields/export/include.rst:32
+msgid "``[!seq]``"
+msgstr ""
+
+#: ../../../manifests/library-json/fields/export/include.rst:33
+msgid "matches any character not in seq"
+msgstr ""
+
+#: ../../../manifests/library-json/fields/export/include.rst:35
+msgid "**Example**"
+msgstr ""

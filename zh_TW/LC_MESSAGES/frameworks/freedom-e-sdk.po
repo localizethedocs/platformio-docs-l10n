@@ -1,0 +1,506 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present, PlatformIO
+# This file is distributed under the same license as the PlatformIO package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PlatformIO stable\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-24 14:03+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../frameworks/freedom-e-sdk.rst:15
+msgid "Freedom E SDK"
+msgstr ""
+
+#: ../../../frameworks/freedom-e-sdk.rst:0
+#: ../../../frameworks/freedom-e-sdk_extra.rst:14
+msgid "Configuration"
+msgstr "組態"
+
+#: ../../../frameworks/freedom-e-sdk.rst:18
+msgid ":ref:`projectconf_env_framework` = ``freedom-e-sdk``"
+msgstr ""
+
+#: ../../../frameworks/freedom-e-sdk.rst:20
+msgid "Open Source Software for Developing on the SiFive Freedom E Platform"
+msgstr ""
+
+#: ../../../frameworks/freedom-e-sdk.rst:23
+msgid "Contents"
+msgstr ""
+
+#: ../../../frameworks/freedom-e-sdk_extra.rst:17
+msgid "Using with FreeRTOS"
+msgstr ""
+
+#: ../../../frameworks/freedom-e-sdk_extra.rst:19
+msgid ""
+"In order to add FreeRTOS to your project, it must be explicitly specified as "
+"an additional framework in the ``framework`` field of :ref:`projectconf`, "
+"for example:"
+msgstr ""
+
+#: ../../../frameworks/freedom-e-sdk_extra.rst:31
+msgid ""
+"FreeRTOS RISC-V port for the :ref:`platform_sifive` development platform is "
+"distributed as part of ``Freedom E SDK`` and cannot be used as a standalone "
+"framework"
+msgstr ""
+
+#: ../../../frameworks/freedom-e-sdk_extra.rst:35
+msgid ""
+"Most of the application specific configuration is done in a special file "
+"called ``FreeRTOSConfig.h`` which must be present in each FreeRTOS-based "
+"project. Additional settings for build configuration are set in :ref:"
+"`projectconf` using the following syntax ``board_build.freertos.*`` where "
+"``*`` is an option from the following list:"
+msgstr ""
+
+#: ../../../frameworks/freedom-e-sdk_extra.rst:41
+msgid "FreeRTOS settings"
+msgstr ""
+
+#: ../../../frameworks/freedom-e-sdk_extra.rst:0
+msgid "heap_model"
+msgstr ""
+
+#: ../../../frameworks/freedom-e-sdk_extra.rst:45
+msgid ""
+"Available values: ``heap_1, heap_2, heap_3, heap_4, heap_5`` | Default: "
+"``heap_4``"
+msgstr ""
+
+#: ../../../frameworks/freedom-e-sdk_extra.rst:47
+msgid ""
+"FreeRTOS offers several heap management schemes that range in complexity and "
+"features:"
+msgstr ""
+
+#: ../../../frameworks/freedom-e-sdk_extra.rst:49
+msgid "``heap_1`` – the very simplest, does not permit memory to be freed."
+msgstr ""
+
+#: ../../../frameworks/freedom-e-sdk_extra.rst:50
+msgid ""
+"``heap_2`` – permits memory to be freed, but does not coalescence adjacent "
+"free blocks."
+msgstr ""
+
+#: ../../../frameworks/freedom-e-sdk_extra.rst:51
+msgid ""
+"``heap_3`` – simply wraps the standard ``malloc()`` and ``free()`` for "
+"thread safety."
+msgstr ""
+
+#: ../../../frameworks/freedom-e-sdk_extra.rst:52
+msgid ""
+"``heap_4`` – coalescences adjacent free blocks to avoid fragmentation. "
+"Includes absolute address placement option."
+msgstr ""
+
+#: ../../../frameworks/freedom-e-sdk_extra.rst:54
+msgid ""
+"``heap_5`` – as per ``heap_4``, with the ability to span the heap across "
+"multiple non-adjacent memory areas."
+msgstr ""
+
+#: ../../../frameworks/freedom-e-sdk_extra.rst:57
+msgid ""
+"More information about FreeRTOS Memory Management can be found in `the "
+"official documentation <https://www.freertos.org/a00111.html>`__."
+msgstr ""
+
+#: ../../../frameworks/freedom-e-sdk_extra.rst:0
+msgid "interrupt_handler"
+msgstr ""
+
+#: ../../../frameworks/freedom-e-sdk_extra.rst:62
+msgid "Default: ``FreedomMetal_InterruptHandler``"
+msgstr ""
+
+#: ../../../frameworks/freedom-e-sdk_extra.rst:64
+msgid "The name of a function to be called to handle interrupts"
+msgstr ""
+
+#: ../../../frameworks/freedom-e-sdk_extra.rst:0
+msgid "exception_handler"
+msgstr ""
+
+#: ../../../frameworks/freedom-e-sdk_extra.rst:68
+msgid "Default: ``FreedomMetal_ExceptionHandler``"
+msgstr ""
+
+#: ../../../frameworks/freedom-e-sdk_extra.rst:70
+msgid "The name of a function to be called to handle exceptions"
+msgstr ""
+
+#: ../../../frameworks/freedom-e-sdk_extra.rst:0
+msgid "mtime_ctrl_addr"
+msgstr ""
+
+#: ../../../frameworks/freedom-e-sdk_extra.rst:74
+msgid "Default: ``0x2000000``"
+msgstr ""
+
+#: ../../../frameworks/freedom-e-sdk_extra.rst:76
+msgid "The address of Machine Timer Register ``mtime``"
+msgstr ""
+
+#: ../../../frameworks/freedom-e-sdk_extra.rst:0
+msgid "mpu_wrappers"
+msgstr ""
+
+#: ../../../frameworks/freedom-e-sdk_extra.rst:80
+#: ../../../frameworks/freedom-e-sdk_extra.rst:92
+msgid "Available values: ``enable | disable`` | Default: ``disable``"
+msgstr ""
+
+#: ../../../frameworks/freedom-e-sdk_extra.rst:82
+msgid "Use Memory Protection Unit wrappers"
+msgstr ""
+
+#: ../../../frameworks/freedom-e-sdk_extra.rst:85
+msgid "Segger SystemView settings"
+msgstr ""
+
+#: ../../../frameworks/freedom-e-sdk_extra.rst:87
+msgid ""
+"SystemView is a real-time recording and visualization tool for embedded "
+"systems that reveals the true runtime behavior of an application."
+msgstr ""
+
+#: ../../../frameworks/freedom-e-sdk_extra.rst:0
+msgid "systemview"
+msgstr ""
+
+#: ../../../frameworks/freedom-e-sdk_extra.rst:94
+msgid "Compile and link Segger SystemView library"
+msgstr ""
+
+#: ../../../frameworks/freedom-e-sdk_extra.rst:0
+msgid "sysview_record_enter_isr"
+msgstr ""
+
+#: ../../../frameworks/freedom-e-sdk_extra.rst:98
+msgid "Default: ``SEGGER_SYSVIEW_RecordEnterISR``"
+msgstr ""
+
+#: ../../../frameworks/freedom-e-sdk_extra.rst:100
+msgid "The name of a function to be called to record interrupt execution."
+msgstr ""
+
+#: ../../../frameworks/freedom-e-sdk_extra.rst:104
+msgid "Default: ``SEGGER_SYSVIEW_RecordExitISR``"
+msgstr ""
+
+#: ../../../frameworks/freedom-e-sdk_extra.rst:106
+msgid ""
+"The name of a function to be called to record finish of interrupt execution."
+msgstr ""
+
+#: ../../../frameworks/freedom-e-sdk_extra.rst:0
+msgid "sysview_record_exit_isr_to_scheduler"
+msgstr ""
+
+#: ../../../frameworks/freedom-e-sdk_extra.rst:110
+msgid "Default: ``SEGGER_SYSVIEW_RecordExitISRToScheduler``"
+msgstr ""
+
+#: ../../../frameworks/freedom-e-sdk_extra.rst:112
+msgid ""
+"The name of a function to be called to record finish of interrupt when it's "
+"caused by a context switch."
+msgstr ""
+
+#: ../../../frameworks/freedom-e-sdk_extra.rst:115
+msgid ""
+"An example of :ref:`projectconf` with modified heap settings and enabled "
+"SystemView feature:"
+msgstr ""
+
+#: ../../../frameworks/freedom-e-sdk_extra.rst:131
+msgid ""
+"More information about FreeRTOS package for :ref:`platform_sifive` "
+"development platform can be found in `the official repository <https://"
+"github.com/sifive/FreeRTOS-metal>`__."
+msgstr ""
+
+#: ../../../frameworks/freedom-e-sdk.rst:28
+msgid "Platforms"
+msgstr ""
+
+#: ../../../frameworks/freedom-e-sdk.rst:32
+#: ../../../frameworks/freedom-e-sdk.rst:75
+#: ../../../frameworks/freedom-e-sdk.rst:132
+#: ../../../frameworks/freedom-e-sdk.rst:167
+#: ../../../frameworks/freedom-e-sdk.rst:195
+msgid "Name"
+msgstr ""
+
+#: ../../../frameworks/freedom-e-sdk.rst:33
+msgid "Description"
+msgstr ""
+
+#: ../../../frameworks/freedom-e-sdk.rst:35
+#: ../../../frameworks/freedom-e-sdk.rst:82
+#: ../../../frameworks/freedom-e-sdk.rst:88
+#: ../../../frameworks/freedom-e-sdk.rst:94
+#: ../../../frameworks/freedom-e-sdk.rst:100
+#: ../../../frameworks/freedom-e-sdk.rst:106
+#: ../../../frameworks/freedom-e-sdk.rst:112
+#: ../../../frameworks/freedom-e-sdk.rst:140
+#: ../../../frameworks/freedom-e-sdk.rst:147
+#: ../../../frameworks/freedom-e-sdk.rst:154
+#: ../../../frameworks/freedom-e-sdk.rst:175
+#: ../../../frameworks/freedom-e-sdk.rst:182
+#: ../../../frameworks/freedom-e-sdk.rst:203
+msgid ":ref:`platform_sifive`"
+msgstr ""
+
+#: ../../../frameworks/freedom-e-sdk.rst:36
+msgid ""
+"SiFive brings the power of open source and software automation to the "
+"semiconductor industry, making it possible to develop new hardware faster "
+"and more affordably than ever before."
+msgstr ""
+
+#: ../../../frameworks/freedom-e-sdk.rst:39
+msgid "Examples"
+msgstr "範例"
+
+#: ../../../frameworks/freedom-e-sdk.rst:41
+msgid ""
+"`Freedom E SDK for SiFive <https://github.com/platformio/platform-sifive/"
+"tree/master/examples?utm_source=platformio.org&utm_medium=docs>`_"
+msgstr ""
+
+#: ../../../frameworks/freedom-e-sdk.rst:44
+msgid "Debugging"
+msgstr ""
+
+#: ../../../frameworks/freedom-e-sdk.rst:46
+msgid ""
+":ref:`piodebug` - \"1-click\" solution for debugging with a zero "
+"configuration."
+msgstr ""
+
+#: ../../../frameworks/freedom-e-sdk.rst:53
+msgid "Tools & Debug Probes"
+msgstr ""
+
+#: ../../../frameworks/freedom-e-sdk.rst:55
+msgid ""
+"Supported debugging tools are listed in \"Debug\" column. For more detailed "
+"information, please scroll table by horizontal. You can switch between "
+"debugging :ref:`debugging_tools` using :ref:`projectconf_debug_tool` option "
+"in :ref:`projectconf`."
+msgstr ""
+
+#: ../../../frameworks/freedom-e-sdk.rst:61
+msgid ""
+"You will need to install debug tool drivers depending on your system. Please "
+"click on compatible debug tool below for the further instructions."
+msgstr ""
+
+#: ../../../frameworks/freedom-e-sdk.rst:66
+msgid "On-Board Debug Tools"
+msgstr ""
+
+#: ../../../frameworks/freedom-e-sdk.rst:68
+msgid ""
+"Boards listed below have on-board debug probe and **ARE READY** for "
+"debugging! You do not need to use/buy external debug probe."
+msgstr ""
+
+#: ../../../frameworks/freedom-e-sdk.rst:76
+#: ../../../frameworks/freedom-e-sdk.rst:133
+#: ../../../frameworks/freedom-e-sdk.rst:168
+#: ../../../frameworks/freedom-e-sdk.rst:196
+msgid "Platform"
+msgstr ""
+
+#: ../../../frameworks/freedom-e-sdk.rst:77
+#: ../../../frameworks/freedom-e-sdk.rst:135
+#: ../../../frameworks/freedom-e-sdk.rst:170
+#: ../../../frameworks/freedom-e-sdk.rst:198
+msgid "MCU"
+msgstr ""
+
+#: ../../../frameworks/freedom-e-sdk.rst:78
+#: ../../../frameworks/freedom-e-sdk.rst:136
+#: ../../../frameworks/freedom-e-sdk.rst:171
+#: ../../../frameworks/freedom-e-sdk.rst:199
+msgid "Frequency"
+msgstr ""
+
+#: ../../../frameworks/freedom-e-sdk.rst:79
+#: ../../../frameworks/freedom-e-sdk.rst:137
+#: ../../../frameworks/freedom-e-sdk.rst:172
+#: ../../../frameworks/freedom-e-sdk.rst:200
+msgid "Flash"
+msgstr ""
+
+#: ../../../frameworks/freedom-e-sdk.rst:80
+#: ../../../frameworks/freedom-e-sdk.rst:138
+#: ../../../frameworks/freedom-e-sdk.rst:173
+#: ../../../frameworks/freedom-e-sdk.rst:201
+msgid "RAM"
+msgstr ""
+
+#: ../../../frameworks/freedom-e-sdk.rst:81
+#: ../../../frameworks/freedom-e-sdk.rst:202
+msgid ":ref:`board_sifive_e310-arty`"
+msgstr ""
+
+#: ../../../frameworks/freedom-e-sdk.rst:83
+#: ../../../frameworks/freedom-e-sdk.rst:95
+#: ../../../frameworks/freedom-e-sdk.rst:101
+#: ../../../frameworks/freedom-e-sdk.rst:107
+#: ../../../frameworks/freedom-e-sdk.rst:113
+#: ../../../frameworks/freedom-e-sdk.rst:149
+#: ../../../frameworks/freedom-e-sdk.rst:156
+#: ../../../frameworks/freedom-e-sdk.rst:177
+#: ../../../frameworks/freedom-e-sdk.rst:184
+#: ../../../frameworks/freedom-e-sdk.rst:205
+msgid "FE310"
+msgstr ""
+
+#: ../../../frameworks/freedom-e-sdk.rst:84
+#: ../../../frameworks/freedom-e-sdk.rst:206
+msgid "450MHz"
+msgstr ""
+
+#: ../../../frameworks/freedom-e-sdk.rst:85
+#: ../../../frameworks/freedom-e-sdk.rst:97
+#: ../../../frameworks/freedom-e-sdk.rst:103
+#: ../../../frameworks/freedom-e-sdk.rst:109
+#: ../../../frameworks/freedom-e-sdk.rst:115
+#: ../../../frameworks/freedom-e-sdk.rst:151
+#: ../../../frameworks/freedom-e-sdk.rst:158
+#: ../../../frameworks/freedom-e-sdk.rst:179
+#: ../../../frameworks/freedom-e-sdk.rst:186
+#: ../../../frameworks/freedom-e-sdk.rst:207
+msgid "16MB"
+msgstr ""
+
+#: ../../../frameworks/freedom-e-sdk.rst:86
+#: ../../../frameworks/freedom-e-sdk.rst:208
+msgid "256MB"
+msgstr ""
+
+#: ../../../frameworks/freedom-e-sdk.rst:87
+#: ../../../frameworks/freedom-e-sdk.rst:139
+msgid ":ref:`board_sifive_hifive-unleashed`"
+msgstr ""
+
+#: ../../../frameworks/freedom-e-sdk.rst:89
+#: ../../../frameworks/freedom-e-sdk.rst:142
+msgid "FU540"
+msgstr ""
+
+#: ../../../frameworks/freedom-e-sdk.rst:90
+#: ../../../frameworks/freedom-e-sdk.rst:143
+msgid "1500MHz"
+msgstr ""
+
+#: ../../../frameworks/freedom-e-sdk.rst:91
+#: ../../../frameworks/freedom-e-sdk.rst:144
+msgid "32MB"
+msgstr ""
+
+#: ../../../frameworks/freedom-e-sdk.rst:92
+#: ../../../frameworks/freedom-e-sdk.rst:145
+msgid "8GB"
+msgstr ""
+
+#: ../../../frameworks/freedom-e-sdk.rst:93
+#: ../../../frameworks/freedom-e-sdk.rst:146
+msgid ":ref:`board_sifive_hifive1`"
+msgstr ""
+
+#: ../../../frameworks/freedom-e-sdk.rst:96
+#: ../../../frameworks/freedom-e-sdk.rst:102
+#: ../../../frameworks/freedom-e-sdk.rst:108
+#: ../../../frameworks/freedom-e-sdk.rst:114
+#: ../../../frameworks/freedom-e-sdk.rst:150
+#: ../../../frameworks/freedom-e-sdk.rst:157
+#: ../../../frameworks/freedom-e-sdk.rst:178
+#: ../../../frameworks/freedom-e-sdk.rst:185
+msgid "320MHz"
+msgstr ""
+
+#: ../../../frameworks/freedom-e-sdk.rst:98
+#: ../../../frameworks/freedom-e-sdk.rst:104
+#: ../../../frameworks/freedom-e-sdk.rst:110
+#: ../../../frameworks/freedom-e-sdk.rst:116
+#: ../../../frameworks/freedom-e-sdk.rst:152
+#: ../../../frameworks/freedom-e-sdk.rst:159
+#: ../../../frameworks/freedom-e-sdk.rst:180
+#: ../../../frameworks/freedom-e-sdk.rst:187
+msgid "16KB"
+msgstr ""
+
+#: ../../../frameworks/freedom-e-sdk.rst:99
+#: ../../../frameworks/freedom-e-sdk.rst:153
+msgid ":ref:`board_sifive_hifive1-revb`"
+msgstr ""
+
+#: ../../../frameworks/freedom-e-sdk.rst:105
+#: ../../../frameworks/freedom-e-sdk.rst:174
+msgid ":ref:`board_sifive_sparkfun_redboard_v`"
+msgstr ""
+
+#: ../../../frameworks/freedom-e-sdk.rst:111
+#: ../../../frameworks/freedom-e-sdk.rst:181
+msgid ":ref:`board_sifive_sparkfun_thing_plus_v`"
+msgstr ""
+
+#: ../../../frameworks/freedom-e-sdk.rst:120
+msgid "Boards"
+msgstr "開發板"
+
+#: ../../../frameworks/freedom-e-sdk.rst:123
+msgid "You can list pre-configured boards by :ref:`cmd_boards` command"
+msgstr ""
+
+#: ../../../frameworks/freedom-e-sdk.rst:124
+msgid ""
+"For more detailed ``board`` information please scroll the tables below by "
+"horizontally."
+msgstr ""
+
+#: ../../../frameworks/freedom-e-sdk.rst:127
+msgid "SiFive"
+msgstr ""
+
+#: ../../../frameworks/freedom-e-sdk.rst:134
+#: ../../../frameworks/freedom-e-sdk.rst:169
+#: ../../../frameworks/freedom-e-sdk.rst:197
+msgid "Debug"
+msgstr ""
+
+#: ../../../frameworks/freedom-e-sdk.rst:141
+#: ../../../frameworks/freedom-e-sdk.rst:148
+#: ../../../frameworks/freedom-e-sdk.rst:155
+#: ../../../frameworks/freedom-e-sdk.rst:176
+#: ../../../frameworks/freedom-e-sdk.rst:183
+#: ../../../frameworks/freedom-e-sdk.rst:204
+msgid "On-board"
+msgstr ""
+
+#: ../../../frameworks/freedom-e-sdk.rst:162
+msgid "SparkFun"
+msgstr ""
+
+#: ../../../frameworks/freedom-e-sdk.rst:190
+msgid "Xilinx"
+msgstr ""

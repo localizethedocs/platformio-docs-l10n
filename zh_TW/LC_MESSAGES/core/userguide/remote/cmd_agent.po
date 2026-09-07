@@ -1,0 +1,106 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present, PlatformIO
+# This file is distributed under the same license as the PlatformIO package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PlatformIO stable\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-24 14:03+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../core/userguide/remote/cmd_agent.rst:15
+msgid "PlatformIO Remote Agent"
+msgstr ""
+
+#: ../../../core/userguide/remote/cmd_agent.rst:17
+msgid ""
+"Start :ref:`cmd_remote_agent` on a host machine and work remotely with your "
+"devices **WITHOUT** extra software, services, SSH, VPN, tunneling or opening "
+"incoming network ports."
+msgstr ""
+
+#: ../../../core/userguide/remote/cmd_agent.rst:21
+msgid ""
+":ref:`pioremote` supports wired and wireless devices. Wired devices should "
+"be connected physically to host machine where :ref:`cmd_remote_agent` is "
+"started, where wireless devices should be visible for :ref:"
+"`cmd_remote_agent` to provide network operations Over-The-Air (OTA)."
+msgstr ""
+
+#: ../../../core/userguide/remote/cmd_agent.rst:26
+msgid "Contents"
+msgstr ""
+
+#: ../../../core/userguide/remote/cmd_agent.rst:31
+msgid "pio remote agent list"
+msgstr ""
+
+#: ../../../core/userguide/remote/cmd_agent.rst:34
+#: ../../../core/userguide/remote/cmd_agent.rst:67
+msgid "Usage"
+msgstr ""
+
+#: ../../../core/userguide/remote/cmd_agent.rst:42
+#: ../../../core/userguide/remote/cmd_agent.rst:75
+msgid "Description"
+msgstr ""
+
+#: ../../../core/userguide/remote/cmd_agent.rst:44
+msgid ""
+"List active :ref:`cmd_remote_agent` s started using own :ref:`pioaccount` or "
+"shared with you by other PlatformIO developers."
+msgstr ""
+
+#: ../../../core/userguide/remote/cmd_agent.rst:48
+msgid "Example"
+msgstr ""
+
+#: ../../../core/userguide/remote/cmd_agent.rst:64
+msgid "pio remote agent start"
+msgstr ""
+
+#: ../../../core/userguide/remote/cmd_agent.rst:77
+msgid ""
+"Start :ref:`cmd_remote_agent` and work remotely with your devices from "
+"anywhere in the world. This command can be run as daemon or added to "
+"autostart list of your OS."
+msgstr ""
+
+#: ../../../core/userguide/remote/cmd_agent.rst:82
+msgid "Options"
+msgstr ""
+
+#: ../../../core/userguide/remote/cmd_agent.rst:89
+msgid ""
+"Agent name/alias. By default, machine's ``hostname`` will be used. You can "
+"use this name later for :ref:`cmd_remote_device` and :ref:`cmd_remote_run` "
+"commands. Good names are home, office, lab or etc."
+msgstr ""
+
+#: ../../../core/userguide/remote/cmd_agent.rst:96
+msgid ""
+"Share your agent/devices with other PlatformIO developers who have :ref:"
+"`pioaccount`: friends, co-workers, team, etc."
+msgstr ""
+
+#: ../../../core/userguide/remote/cmd_agent.rst:99
+msgid ""
+"The valid value for ``--share`` option is email address that was used for :"
+"ref:`cmd_account_register` command."
+msgstr ""
+
+#: ../../../core/userguide/remote/cmd_agent.rst:105
+msgid ""
+"A working directory where :ref:`cmd_remote_agent` stores projects data for "
+"incremental synchronization and embedded programs for PlatformIO Process "
+"Supervisor."
+msgstr ""

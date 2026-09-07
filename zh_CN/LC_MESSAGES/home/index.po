@@ -1,0 +1,154 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present, PlatformIO
+# This file is distributed under the same license as the PlatformIO package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PlatformIO stable\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-24 14:03+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../home/index.rst:17
+msgid "PlatformIO Home"
+msgstr ""
+
+#: ../../../home/index.rst:19
+msgid ""
+"|PIOHOME| is a powerful, modern, and interactive user interface (UI) for "
+"PlatformIO collaborative platform. It's powered by `PlatformIO Labs's Modern "
+"UI Toolkit <https://piolabs.com/technology/modern-ui-toolkit.html>`_ and "
+"contains the following key instruments:"
+msgstr ""
+
+#: ../../../home/index.rst:23
+msgid ":ref:`pioaccount`"
+msgstr ""
+
+#: ../../../home/index.rst:24
+msgid "Project Management"
+msgstr ""
+
+#: ../../../home/index.rst:25
+msgid ":ref:`librarymanager`"
+msgstr ""
+
+#: ../../../home/index.rst:26
+msgid ":ref:`platforms`, :ref:`frameworks`, and :ref:`boards` Management"
+msgstr ""
+
+#: ../../../home/index.rst:27
+msgid ""
+":ref:`Device Management <cmd_device>` (serial, logical, and multicast DNS "
+"services)"
+msgstr ""
+
+#: ../../../home/index.rst:28 ../../../home/index.rst:100
+msgid "Static Code Analysis"
+msgstr ""
+
+#: ../../../home/index.rst:29 ../../../home/index.rst:81
+msgid "Firmware File Explorer"
+msgstr ""
+
+#: ../../../home/index.rst:30
+msgid "Firmware Memory Inspection"
+msgstr ""
+
+#: ../../../home/index.rst:31
+msgid "Firmware Sections & Symbols Viewer."
+msgstr ""
+
+#: ../../../home/index.rst:34
+msgid "Contents"
+msgstr ""
+
+#: ../../../home/index.rst:37
+msgid "Installation"
+msgstr ""
+
+#: ../../../home/index.rst:39
+msgid ""
+"You do not need to install |PIOHOME| separately, it's already built-in in :"
+"ref:`pioide` and :ref:`piocore`."
+msgstr ""
+
+#: ../../../home/index.rst:43
+msgid "Quick Start"
+msgstr ""
+
+#: ../../../home/index.rst:46
+msgid "PlatformIO IDE"
+msgstr ""
+
+#: ../../../home/index.rst:48
+msgid "Please open |PIOHOME| using (HOME) button on PlatformIO Toolbar:"
+msgstr ""
+
+#: ../../../home/index.rst:50
+msgid "**VSCode**: :ref:`ide_vscode_toolbar`"
+msgstr ""
+
+#: ../../../home/index.rst:53
+msgid "PlatformIO Core"
+msgstr ""
+
+#: ../../../home/index.rst:55
+msgid ""
+"Please launch |PIOHOME| Web-server using :ref:`cmd_home` command and open in "
+"your browser http://127.0.0.1:8008."
+msgstr ""
+
+#: ../../../home/index.rst:58
+msgid ""
+"You can change host and port. Please check :ref:`cmd_home` command for "
+"details."
+msgstr ""
+
+#: ../../../home/index.rst:61
+msgid "Demo"
+msgstr ""
+
+#: ../../../home/index.rst:64
+msgid "Welcome & Project Manager"
+msgstr ""
+
+#: ../../../home/index.rst:69
+msgid "Project Inspect"
+msgstr ""
+
+#: ../../../home/index.rst:72
+msgid "Statistics"
+msgstr ""
+
+#: ../../../home/index.rst:76
+msgid "Only code analysis (:ref:`check`)"
+msgstr ""
+
+#: ../../../home/index.rst:85
+msgid "File Symbols"
+msgstr ""
+
+#: ../../../home/index.rst:90
+msgid "Firmware Symbols"
+msgstr ""
+
+#: ../../../home/index.rst:95
+msgid "Firmware Sections"
+msgstr ""
+
+#: ../../../home/index.rst:105
+msgid "Library Manager"
+msgstr ""
+
+#: ../../../home/index.rst:110
+msgid "Board Explorer"
+msgstr ""

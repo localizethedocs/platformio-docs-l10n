@@ -1,0 +1,94 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present, PlatformIO
+# This file is distributed under the same license as the PlatformIO package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PlatformIO stable\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-24 14:03+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../core/userguide/lib/cmd_stats.rst:15
+msgid "pio lib stats"
+msgstr ""
+
+#: ../../../core/userguide/lib/cmd_stats.rst:20
+msgid "This command is deprecated and will be removed in the next releases."
+msgstr ""
+
+#: ../../../core/userguide/lib/cmd_stats.rst:22
+msgid "Please use the unified :ref:`cmd_pkg` instead."
+msgstr ""
+
+#: ../../../core/userguide/lib/cmd_stats.rst:24
+msgid "Contents"
+msgstr ""
+
+#: ../../../core/userguide/lib/cmd_stats.rst:27
+msgid "Usage"
+msgstr ""
+
+#: ../../../core/userguide/lib/cmd_stats.rst:35
+msgid "Description"
+msgstr ""
+
+#: ../../../core/userguide/lib/cmd_stats.rst:37
+msgid "Show PlatformIO Library Registry statistics:"
+msgstr ""
+
+#: ../../../core/userguide/lib/cmd_stats.rst:39
+msgid "Recently updated"
+msgstr ""
+
+#: ../../../core/userguide/lib/cmd_stats.rst:40
+msgid "Recently added"
+msgstr ""
+
+#: ../../../core/userguide/lib/cmd_stats.rst:41
+msgid "Recent keywords"
+msgstr ""
+
+#: ../../../core/userguide/lib/cmd_stats.rst:42
+msgid "Popular keywords"
+msgstr ""
+
+#: ../../../core/userguide/lib/cmd_stats.rst:43
+msgid "Featured: Today"
+msgstr ""
+
+#: ../../../core/userguide/lib/cmd_stats.rst:44
+msgid "Featured: Week"
+msgstr ""
+
+#: ../../../core/userguide/lib/cmd_stats.rst:45
+msgid "Featured: Month"
+msgstr ""
+
+#: ../../../core/userguide/lib/cmd_stats.rst:47
+msgid "This information is the same that is shown on this page:"
+msgstr ""
+
+#: ../../../core/userguide/lib/cmd_stats.rst:49
+msgid "https://platformio.org/lib"
+msgstr ""
+
+#: ../../../core/userguide/lib/cmd_stats.rst:52
+msgid "Options"
+msgstr ""
+
+#: ../../../core/userguide/lib/cmd_stats.rst:59
+msgid "Return the output in `JSON <http://en.wikipedia.org/wiki/JSON>`_ format"
+msgstr ""
+
+#: ../../../core/userguide/lib/cmd_stats.rst:62
+msgid "Examples"
+msgstr "範例"

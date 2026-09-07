@@ -1,0 +1,400 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present, PlatformIO
+# This file is distributed under the same license as the PlatformIO package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PlatformIO stable\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-24 14:03+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../plus/debug-tools/mspdebug.rst:15
+msgid "MSP Debug"
+msgstr ""
+
+#: ../../../plus/debug-tools/mspdebug.rst:17
+msgid ""
+"The MSP debug stack (MSPDS) for all MSP430™ microcontrollers (MCUs) and "
+"SimpleLink™ MSP432™ devices consists of a static library on the host system "
+"side as well as an embedded firmware that runs on debug tools including the "
+"MSP-FET, MSP-FET430UIF or on-board eZ debuggers. It is the bridging element "
+"between all PC software and all MSP430 and SimpleLink MSP432 microcontroller "
+"derivatives and handles tasks such as code download, stepping through code "
+"or break points. Official reference can be found `here <http://www.ti.com/"
+"tool/mspds?utm_source=platformio&utm_medium=docs>`__."
+msgstr ""
+
+#: ../../../plus/debug-tools/mspdebug.rst:27
+msgid "Contents"
+msgstr ""
+
+#: ../../../plus/debug-tools/mspdebug.rst:30
+msgid "Configuration"
+msgstr "組態"
+
+#: ../../../plus/debug-tools/mspdebug.rst:32
+msgid ""
+"You can configure debugging tool using :ref:`projectconf_debug_tool` option "
+"in :ref:`projectconf`:"
+msgstr ""
+
+#: ../../../plus/debug-tools/mspdebug.rst:42
+msgid ""
+"If you would like to use this tool for firmware uploading, please change "
+"upload protocol:"
+msgstr ""
+
+#: ../../../plus/debug-tools/mspdebug.rst:53
+msgid "More options:"
+msgstr ""
+
+#: ../../../plus/debug-tools/mspdebug.rst:55
+msgid ":ref:`projectconf_section_env_debug`"
+msgstr ""
+
+#: ../../../plus/debug-tools/mspdebug.rst:56
+msgid ":ref:`projectconf_section_env_upload`"
+msgstr ""
+
+#: ../../../plus/debug-tools/mspdebug.rst:59
+msgid "Drivers"
+msgstr ""
+
+#: ../../../plus/debug-tools/mspdebug.rst:0
+msgid "Windows"
+msgstr ""
+
+#: ../../../plus/debug-tools/mspdebug.rst:62
+msgid "Please \"USB Driver Installation\" guide for your board."
+msgstr ""
+
+#: ../../../plus/debug-tools/mspdebug.rst:0
+msgid "Mac"
+msgstr ""
+
+#: ../../../plus/debug-tools/mspdebug.rst:65
+msgid "Not required."
+msgstr ""
+
+#: ../../../plus/debug-tools/mspdebug.rst:0
+msgid "Linux"
+msgstr ""
+
+#: ../../../plus/debug-tools/mspdebug.rst:68
+msgid ""
+"Please install \"udev\" rules :ref:`platformio_udev_rules`. If you already "
+"installed them before, please check that your rules are up-to-date or repeat "
+"steps."
+msgstr ""
+
+#: ../../../plus/debug-tools/mspdebug.rst:74
+msgid "Platforms"
+msgstr ""
+
+#: ../../../plus/debug-tools/mspdebug.rst:78
+#: ../../../plus/debug-tools/mspdebug.rst:89
+#: ../../../plus/debug-tools/mspdebug.rst:105
+msgid "Name"
+msgstr ""
+
+#: ../../../plus/debug-tools/mspdebug.rst:79
+#: ../../../plus/debug-tools/mspdebug.rst:90
+msgid "Description"
+msgstr ""
+
+#: ../../../plus/debug-tools/mspdebug.rst:81
+#: ../../../plus/debug-tools/mspdebug.rst:113
+#: ../../../plus/debug-tools/mspdebug.rst:120
+#: ../../../plus/debug-tools/mspdebug.rst:127
+#: ../../../plus/debug-tools/mspdebug.rst:134
+#: ../../../plus/debug-tools/mspdebug.rst:141
+#: ../../../plus/debug-tools/mspdebug.rst:148
+#: ../../../plus/debug-tools/mspdebug.rst:155
+#: ../../../plus/debug-tools/mspdebug.rst:162
+#: ../../../plus/debug-tools/mspdebug.rst:169
+#: ../../../plus/debug-tools/mspdebug.rst:176
+#: ../../../plus/debug-tools/mspdebug.rst:183
+#: ../../../plus/debug-tools/mspdebug.rst:190
+#: ../../../plus/debug-tools/mspdebug.rst:197
+msgid ":ref:`platform_timsp430`"
+msgstr ""
+
+#: ../../../plus/debug-tools/mspdebug.rst:82
+msgid ""
+"MSP430 microcontrollers (MCUs) from Texas Instruments (TI) are 16-bit, RISC-"
+"based, mixed-signal processors designed for ultra-low power. These MCUs "
+"offer the lowest power consumption and the perfect mix of integrated "
+"peripherals for thousands of applications."
+msgstr ""
+
+#: ../../../plus/debug-tools/mspdebug.rst:85
+msgid "Frameworks"
+msgstr "框架"
+
+#: ../../../plus/debug-tools/mspdebug.rst:92
+msgid ":ref:`framework_arduino`"
+msgstr ""
+
+#: ../../../plus/debug-tools/mspdebug.rst:93
+msgid ""
+"Arduino Wiring-based Framework allows writing cross-platform software to "
+"control devices attached to a wide range of Arduino boards to create all "
+"kinds of creative coding, interactive objects, spaces or physical "
+"experiences."
+msgstr ""
+
+#: ../../../plus/debug-tools/mspdebug.rst:96
+msgid "Boards"
+msgstr "開發板"
+
+#: ../../../plus/debug-tools/mspdebug.rst:99
+msgid ""
+"For more detailed ``board`` information please scroll tables below by "
+"horizontal."
+msgstr ""
+
+#: ../../../plus/debug-tools/mspdebug.rst:106
+msgid "Platform"
+msgstr ""
+
+#: ../../../plus/debug-tools/mspdebug.rst:107
+msgid "Debug"
+msgstr ""
+
+#: ../../../plus/debug-tools/mspdebug.rst:108
+msgid "MCU"
+msgstr ""
+
+#: ../../../plus/debug-tools/mspdebug.rst:109
+msgid "Frequency"
+msgstr ""
+
+#: ../../../plus/debug-tools/mspdebug.rst:110
+msgid "Flash"
+msgstr ""
+
+#: ../../../plus/debug-tools/mspdebug.rst:111
+msgid "RAM"
+msgstr ""
+
+#: ../../../plus/debug-tools/mspdebug.rst:112
+msgid ":ref:`board_timsp430_lpmsp430fr5739`"
+msgstr ""
+
+#: ../../../plus/debug-tools/mspdebug.rst:114
+#: ../../../plus/debug-tools/mspdebug.rst:121
+#: ../../../plus/debug-tools/mspdebug.rst:128
+#: ../../../plus/debug-tools/mspdebug.rst:135
+#: ../../../plus/debug-tools/mspdebug.rst:142
+#: ../../../plus/debug-tools/mspdebug.rst:149
+#: ../../../plus/debug-tools/mspdebug.rst:156
+#: ../../../plus/debug-tools/mspdebug.rst:163
+#: ../../../plus/debug-tools/mspdebug.rst:170
+#: ../../../plus/debug-tools/mspdebug.rst:177
+#: ../../../plus/debug-tools/mspdebug.rst:184
+#: ../../../plus/debug-tools/mspdebug.rst:191
+#: ../../../plus/debug-tools/mspdebug.rst:198
+msgid "On-board"
+msgstr ""
+
+#: ../../../plus/debug-tools/mspdebug.rst:115
+msgid "MSP430FR5739"
+msgstr ""
+
+#: ../../../plus/debug-tools/mspdebug.rst:116
+#: ../../../plus/debug-tools/mspdebug.rst:130
+#: ../../../plus/debug-tools/mspdebug.rst:137
+#: ../../../plus/debug-tools/mspdebug.rst:151
+#: ../../../plus/debug-tools/mspdebug.rst:172
+#: ../../../plus/debug-tools/mspdebug.rst:193
+#: ../../../plus/debug-tools/mspdebug.rst:200
+msgid "16MHz"
+msgstr ""
+
+#: ../../../plus/debug-tools/mspdebug.rst:117
+msgid "15.37KB"
+msgstr ""
+
+#: ../../../plus/debug-tools/mspdebug.rst:118
+#: ../../../plus/debug-tools/mspdebug.rst:132
+msgid "1KB"
+msgstr ""
+
+#: ../../../plus/debug-tools/mspdebug.rst:119
+msgid ":ref:`board_timsp430_lpmsp430f5529`"
+msgstr ""
+
+#: ../../../plus/debug-tools/mspdebug.rst:122
+msgid "MSP430F5529"
+msgstr ""
+
+#: ../../../plus/debug-tools/mspdebug.rst:123
+msgid "25MHz"
+msgstr ""
+
+#: ../../../plus/debug-tools/mspdebug.rst:124
+#: ../../../plus/debug-tools/mspdebug.rst:166
+#: ../../../plus/debug-tools/mspdebug.rst:180
+msgid "47KB"
+msgstr ""
+
+#: ../../../plus/debug-tools/mspdebug.rst:125
+#: ../../../plus/debug-tools/mspdebug.rst:153
+#: ../../../plus/debug-tools/mspdebug.rst:194
+msgid "8KB"
+msgstr ""
+
+#: ../../../plus/debug-tools/mspdebug.rst:126
+msgid ":ref:`board_timsp430_lpmsp430fr2311`"
+msgstr ""
+
+#: ../../../plus/debug-tools/mspdebug.rst:129
+msgid "MSP430FR2311"
+msgstr ""
+
+#: ../../../plus/debug-tools/mspdebug.rst:131
+msgid "3.75KB"
+msgstr ""
+
+#: ../../../plus/debug-tools/mspdebug.rst:133
+msgid ":ref:`board_timsp430_lpmsp430fr2355`"
+msgstr ""
+
+#: ../../../plus/debug-tools/mspdebug.rst:136
+msgid "MSP430FR2355"
+msgstr ""
+
+#: ../../../plus/debug-tools/mspdebug.rst:138
+msgid "32KB"
+msgstr ""
+
+#: ../../../plus/debug-tools/mspdebug.rst:139
+#: ../../../plus/debug-tools/mspdebug.rst:146
+#: ../../../plus/debug-tools/mspdebug.rst:174
+msgid "4KB"
+msgstr ""
+
+#: ../../../plus/debug-tools/mspdebug.rst:140
+msgid ":ref:`board_timsp430_lpmsp430fr2433`"
+msgstr ""
+
+#: ../../../plus/debug-tools/mspdebug.rst:143
+msgid "MSP430FR2433"
+msgstr ""
+
+#: ../../../plus/debug-tools/mspdebug.rst:144
+#: ../../../plus/debug-tools/mspdebug.rst:158
+#: ../../../plus/debug-tools/mspdebug.rst:165
+#: ../../../plus/debug-tools/mspdebug.rst:179
+msgid "8MHz"
+msgstr ""
+
+#: ../../../plus/debug-tools/mspdebug.rst:145
+#: ../../../plus/debug-tools/mspdebug.rst:159
+msgid "15KB"
+msgstr ""
+
+#: ../../../plus/debug-tools/mspdebug.rst:147
+msgid ":ref:`board_timsp430_lpmsp430fr2476`"
+msgstr ""
+
+#: ../../../plus/debug-tools/mspdebug.rst:150
+msgid "MSP430FR2476"
+msgstr ""
+
+#: ../../../plus/debug-tools/mspdebug.rst:152
+msgid "64KB"
+msgstr ""
+
+#: ../../../plus/debug-tools/mspdebug.rst:154
+msgid ":ref:`board_timsp430_lpmsp430fr4133`"
+msgstr ""
+
+#: ../../../plus/debug-tools/mspdebug.rst:157
+msgid "MSP430FR4133"
+msgstr ""
+
+#: ../../../plus/debug-tools/mspdebug.rst:160
+#: ../../../plus/debug-tools/mspdebug.rst:167
+#: ../../../plus/debug-tools/mspdebug.rst:181
+#: ../../../plus/debug-tools/mspdebug.rst:187
+msgid "2KB"
+msgstr ""
+
+#: ../../../plus/debug-tools/mspdebug.rst:161
+msgid ":ref:`board_timsp430_lpmsp430fr5969`"
+msgstr ""
+
+#: ../../../plus/debug-tools/mspdebug.rst:164
+msgid "MSP430FR5969"
+msgstr ""
+
+#: ../../../plus/debug-tools/mspdebug.rst:168
+msgid ":ref:`board_timsp430_lpmsp430fr5994`"
+msgstr ""
+
+#: ../../../plus/debug-tools/mspdebug.rst:171
+msgid "MSP430FR5994"
+msgstr ""
+
+#: ../../../plus/debug-tools/mspdebug.rst:173
+msgid "256KB"
+msgstr ""
+
+#: ../../../plus/debug-tools/mspdebug.rst:175
+msgid ":ref:`board_timsp430_lpmsp430fr6989`"
+msgstr ""
+
+#: ../../../plus/debug-tools/mspdebug.rst:178
+msgid "MSP430FR6989"
+msgstr ""
+
+#: ../../../plus/debug-tools/mspdebug.rst:182
+msgid ":ref:`board_timsp430_lpmsp430g2231`"
+msgstr ""
+
+#: ../../../plus/debug-tools/mspdebug.rst:185
+msgid "MSP430G2231"
+msgstr ""
+
+#: ../../../plus/debug-tools/mspdebug.rst:186
+msgid "1MHz"
+msgstr ""
+
+#: ../../../plus/debug-tools/mspdebug.rst:188
+#: ../../../plus/debug-tools/mspdebug.rst:195
+msgid "256B"
+msgstr ""
+
+#: ../../../plus/debug-tools/mspdebug.rst:189
+msgid ":ref:`board_timsp430_lpmsp430g2452`"
+msgstr ""
+
+#: ../../../plus/debug-tools/mspdebug.rst:192
+msgid "MSP430G2452"
+msgstr ""
+
+#: ../../../plus/debug-tools/mspdebug.rst:196
+msgid ":ref:`board_timsp430_lpmsp430g2553`"
+msgstr ""
+
+#: ../../../plus/debug-tools/mspdebug.rst:199
+msgid "MSP430G2553"
+msgstr ""
+
+#: ../../../plus/debug-tools/mspdebug.rst:201
+msgid "16KB"
+msgstr ""
+
+#: ../../../plus/debug-tools/mspdebug.rst:202
+msgid "512B"
+msgstr ""

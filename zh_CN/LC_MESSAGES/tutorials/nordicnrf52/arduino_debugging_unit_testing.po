@@ -1,0 +1,293 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present, PlatformIO
+# This file is distributed under the same license as the PlatformIO package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PlatformIO stable\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-24 14:03+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../tutorials/nordicnrf52/arduino_debugging_unit_testing.rst:15
+msgid "Arduino and Nordic nRF52-DK: debugging and unit testing"
+msgstr ""
+
+#: ../../../tutorials/nordicnrf52/arduino_debugging_unit_testing.rst:17
+msgid ""
+"The goal of this tutorial is to demonstrate how simple it is to use :ref:"
+"`ide_vscode` to develop, run and debug a simple project with :ref:"
+"`framework_arduino` framework for ``Nordic nRF52-DK`` board."
+msgstr ""
+
+#: ../../../tutorials/nordicnrf52/arduino_debugging_unit_testing.rst:19
+msgid "**Level:** Beginner"
+msgstr ""
+
+#: ../../../tutorials/nordicnrf52/arduino_debugging_unit_testing.rst:20
+msgid "**Platforms:** Windows, Mac OS X, Linux"
+msgstr ""
+
+#: ../../../tutorials/nordicnrf52/arduino_debugging_unit_testing.rst:22
+msgid "**Requirements:**"
+msgstr ""
+
+#: ../../../tutorials/nordicnrf52/arduino_debugging_unit_testing.rst:24
+msgid "Downloaded and installed :ref:`ide_vscode`"
+msgstr ""
+
+#: ../../../tutorials/nordicnrf52/arduino_debugging_unit_testing.rst:25
+msgid "Install drivers for :ref:`debugging_tool_jlink` debug tool"
+msgstr ""
+
+#: ../../../tutorials/nordicnrf52/arduino_debugging_unit_testing.rst:26
+msgid ":ref:`board_nordicnrf52_nrf52_dk` development board"
+msgstr ""
+
+#: ../../../tutorials/nordicnrf52/arduino_debugging_unit_testing.rst:30
+msgid "Contents"
+msgstr ""
+
+#: ../../../tutorials/nordicnrf52/arduino_debugging_unit_testing.rst:33
+msgid "Setting Up the Project"
+msgstr ""
+
+#: ../../../tutorials/nordicnrf52/arduino_debugging_unit_testing.rst:35
+msgid ""
+"At first step, we need to create a new project using PlatformIO Home Page "
+"(to open this page just press Home icon on the toolbar):"
+msgstr ""
+
+#: ../../../tutorials/nordicnrf52/arduino_debugging_unit_testing.rst:39
+msgid ""
+"On the next step we need to select ``Nordic nRF52-DK`` as a development "
+"board, :ref:`framework_arduino` as a framework and a path to the project "
+"location (or use the default one):"
+msgstr ""
+
+#: ../../../tutorials/nordicnrf52/arduino_debugging_unit_testing.rst:43
+msgid ""
+"Processing the selected project may take some amount of time (PlatformIO "
+"will download and install all required packages) and after these steps, we "
+"have a fully configured project that is ready for developing code with :ref:"
+"`framework_arduino` framework."
+msgstr ""
+
+#: ../../../tutorials/nordicnrf52/arduino_debugging_unit_testing.rst:47
+msgid "Adding Code to the Generated Project"
+msgstr ""
+
+#: ../../../tutorials/nordicnrf52/arduino_debugging_unit_testing.rst:49
+msgid ""
+"Let's add some actual code to the project. Firstly, we open a default main "
+"file ``main.cpp`` in the :ref:`projectconf_pio_src_dir` folder and replace "
+"its contents with the following:"
+msgstr ""
+
+#: ../../../tutorials/nordicnrf52/arduino_debugging_unit_testing.rst:70
+msgid ""
+"After this step, we created a basic blink project ready for compiling and "
+"uploading."
+msgstr ""
+
+#: ../../../tutorials/nordicnrf52/arduino_debugging_unit_testing.rst:73
+msgid "Compiling and Uploading the Firmware"
+msgstr ""
+
+#: ../../../tutorials/nordicnrf52/arduino_debugging_unit_testing.rst:75
+msgid ""
+"Now we can build the project. To compile firmware we can use next options: "
+"Build option from the ``Project Tasks`` menu, Build button in :ref:"
+"`ide_vscode_toolbar`, Task Menu ``Tasks: Run Task... > PlatformIO: Build`` "
+"or in :ref:`ide_vscode_toolbar`, Command Palette ``View: Command Palette > "
+"PlatformIO: Build`` or via hotkeys ``cmd-alt-b / ctrl-alt-b``:"
+msgstr ""
+
+#: ../../../tutorials/nordicnrf52/arduino_debugging_unit_testing.rst:80
+msgid ""
+"If everything went well, we should see a successful result message in the "
+"terminal window:"
+msgstr ""
+
+#: ../../../tutorials/nordicnrf52/arduino_debugging_unit_testing.rst:84
+msgid ""
+"To upload the firmware to the board we can use next options: Upload option "
+"from the ``Project Tasks`` menu, Upload button in :ref:`ide_vscode_toolbar`, "
+"Command Palette ``View: Command Palette > PlatformIO: Upload``, using Task "
+"Menu ``Tasks: Run Task... > PlatformIO: Upload`` or via hotkeys ``cmd-alt-"
+"u / ctrl-alt-u``:"
+msgstr ""
+
+#: ../../../tutorials/nordicnrf52/arduino_debugging_unit_testing.rst:89
+msgid "After successful uploading, the green LED1 should start blinking."
+msgstr ""
+
+#: ../../../tutorials/nordicnrf52/arduino_debugging_unit_testing.rst:92
+msgid "Debugging the Firmware"
+msgstr ""
+
+#: ../../../tutorials/nordicnrf52/arduino_debugging_unit_testing.rst:94
+msgid ""
+":ref:`piodebug` offers the easiest way to debug the board. Firstly, we need "
+"to specify :ref:`projectconf_debug_tool` in :ref:`projectconf`. Since the "
+"board has an on-board ``JLink`` debug probe we can directly declare it in :"
+"ref:`projectconf`:"
+msgstr ""
+
+#: ../../../tutorials/nordicnrf52/arduino_debugging_unit_testing.rst:104
+msgid ""
+"To start the debug session we can use next options: ``Debug: Start "
+"debugging`` from the top menu, ``Start Debugging`` option from Quick Access "
+"menu or hotkey button ``F5``:"
+msgstr ""
+
+#: ../../../tutorials/nordicnrf52/arduino_debugging_unit_testing.rst:109
+msgid ""
+"We need to wait some time while PlatformIO is initializing the debug session "
+"and when the first line after the main function is highlighted we are ready "
+"to debug:"
+msgstr ""
+
+#: ../../../tutorials/nordicnrf52/arduino_debugging_unit_testing.rst:113
+msgid ""
+"We can walk through the code using control buttons, set breakpoints, add "
+"variables to ``Watch window``:"
+msgstr ""
+
+#: ../../../tutorials/nordicnrf52/arduino_debugging_unit_testing.rst:118
+msgid "Writing Unit Tests"
+msgstr ""
+
+#: ../../../tutorials/nordicnrf52/arduino_debugging_unit_testing.rst:120
+msgid ""
+":ref:`unit_testing` test cases can be added to a single file that may "
+"include multiple tests. First of all, in this file, we need to add four "
+"default functions: ``setUp``, ``tearDown``, ``setup`` and ``loop``. "
+"Functions ``setUp`` and ``tearDown`` are used to initialize and finalize "
+"test conditions. Implementations of these functions are not required for "
+"running tests but if you need to initialize some variables before you run a "
+"test, you use the ``setUp`` function and if you need to clean up variables "
+"you use ``tearDown`` function. In our example we will use these functions to "
+"accordingly initialize and deinitialize LED.  ``setup`` and ``loop`` "
+"functions act as a simple Arduino program where we describe our test plan."
+msgstr ""
+
+#: ../../../tutorials/nordicnrf52/arduino_debugging_unit_testing.rst:122
+msgid ""
+"Let's create ``test`` folder in the root of the project and add a new file "
+"``test_main.cpp`` to this folder. Next basic tests for ``String`` class will "
+"be implemented in this file:"
+msgstr ""
+
+#: ../../../tutorials/nordicnrf52/arduino_debugging_unit_testing.rst:124
+msgid "``test_string_concat`` tests the concatenation of two strings"
+msgstr ""
+
+#: ../../../tutorials/nordicnrf52/arduino_debugging_unit_testing.rst:125
+msgid ""
+"``test_string_substring`` tests the correctness of the substring extraction"
+msgstr ""
+
+#: ../../../tutorials/nordicnrf52/arduino_debugging_unit_testing.rst:126
+msgid ""
+"``test_string_index_of`` ensures that the string returns the correct index "
+"of the specified symbol"
+msgstr ""
+
+#: ../../../tutorials/nordicnrf52/arduino_debugging_unit_testing.rst:127
+msgid ""
+"``test_string_equal_ignore_case`` tests case-insensitive comparison of two "
+"strings"
+msgstr ""
+
+#: ../../../tutorials/nordicnrf52/arduino_debugging_unit_testing.rst:128
+msgid "``test_string_to_upper_case`` tests upper-case conversion of the string"
+msgstr ""
+
+#: ../../../tutorials/nordicnrf52/arduino_debugging_unit_testing.rst:129
+msgid ""
+"``test_string_replace`` tests the correctness of the replacing operation"
+msgstr ""
+
+#: ../../../tutorials/nordicnrf52/arduino_debugging_unit_testing.rst:132
+msgid ""
+"2 sec delay is required since the board doesn't support software resetting "
+"via ``Serial.DTR/RTS``"
+msgstr ""
+
+#: ../../../tutorials/nordicnrf52/arduino_debugging_unit_testing.rst:207
+msgid ""
+"Now we are ready to upload tests to the board. To do this we can use next "
+"options: Test button on :ref:`ide_vscode_toolbar`, Test option from the "
+"``Project Tasks`` menu or ``Tasks: Run Task... > PlatformIO Test`` from the "
+"top menu:"
+msgstr ""
+
+#: ../../../tutorials/nordicnrf52/arduino_debugging_unit_testing.rst:212
+msgid ""
+"After processing we should see a detailed report about the testing results:"
+msgstr ""
+
+#: ../../../tutorials/nordicnrf52/arduino_debugging_unit_testing.rst:216
+msgid "As we can see from the report, all our tests were successful!"
+msgstr ""
+
+#: ../../../tutorials/nordicnrf52/arduino_debugging_unit_testing.rst:219
+msgid "Adding Bluetooth LE features"
+msgstr ""
+
+#: ../../../tutorials/nordicnrf52/arduino_debugging_unit_testing.rst:221
+msgid ""
+"To add the basic BLE functionality to our project we need to define the "
+"SoftDevice version and install a library called `BLEPeripheral <https://"
+"platformio.org/lib/show/259/BLEPeripheral>`_. Both these modifications can "
+"be specified in :ref:`projectconf`:"
+msgstr ""
+
+#: ../../../tutorials/nordicnrf52/arduino_debugging_unit_testing.rst:237
+msgid ""
+"Now let's create a basic application that can interact with other BLE "
+"devices (e.g phone) For example, next code declares a BLE characteristic "
+"that controls the state of the LED1."
+msgstr ""
+
+#: ../../../tutorials/nordicnrf52/arduino_debugging_unit_testing.rst:285
+msgid ""
+"Now we can compile and upload this program to the board as described in "
+"previous sections. To verify that our application works as expected, we can "
+"use any Android smartphone with BLE feature and `Nordic nRF Connect tool "
+"<https://play.google.com/store/apps/details?id=no.nordicsemi.android."
+"mcp&hl=en>`_."
+msgstr ""
+
+#: ../../../tutorials/nordicnrf52/arduino_debugging_unit_testing.rst:289
+msgid ""
+"At first, we need to scan all advertising BLE devices and connect to the "
+"device called ``Nordic NRF52 DK``. After a successful connection to the "
+"board, we should see one \"Unknown Service\" with one \"Unknown "
+"Characteristic\" fields:"
+msgstr ""
+
+#: ../../../tutorials/nordicnrf52/arduino_debugging_unit_testing.rst:294
+msgid ""
+"To switch the LED on or off we just need write ``0`` or ``1`` as ``UINT8`` "
+"to the BLE characteristic:"
+msgstr ""
+
+#: ../../../tutorials/nordicnrf52/arduino_debugging_unit_testing.rst:299
+msgid "Conclusion"
+msgstr ""
+
+#: ../../../tutorials/nordicnrf52/arduino_debugging_unit_testing.rst:301
+msgid ""
+"Now we have a project template for Nordic ``nRF52-DK`` board that we can use "
+"as a boilerplate for the next projects."
+msgstr ""

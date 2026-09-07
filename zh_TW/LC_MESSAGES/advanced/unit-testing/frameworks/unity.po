@@ -1,0 +1,261 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present, PlatformIO
+# This file is distributed under the same license as the PlatformIO package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PlatformIO stable\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-24 14:03+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../advanced/unit-testing/frameworks/unity.rst:15
+msgid "Unity"
+msgstr ""
+
+#: ../../../advanced/unit-testing/frameworks/unity.rst:0
+msgid "Registry"
+msgstr ""
+
+#: ../../../advanced/unit-testing/frameworks/unity.rst:18
+msgid ""
+"`https://registry.platformio.org/libraries/throwtheswitch/Unity <https://"
+"registry.platformio.org/libraries/throwtheswitch/Unity>`_"
+msgstr ""
+
+#: ../../../advanced/unit-testing/frameworks/unity.rst:0
+#: ../../../advanced/unit-testing/frameworks/unity.rst:130
+msgid "Configuration"
+msgstr "組態"
+
+#: ../../../advanced/unit-testing/frameworks/unity.rst:20
+msgid ":ref:`projectconf_test_framework` = ``unity``"
+msgstr ""
+
+#: ../../../advanced/unit-testing/frameworks/unity.rst:0
+msgid "Native Tests"
+msgstr ""
+
+#: ../../../advanced/unit-testing/frameworks/unity.rst:22
+#: ../../../advanced/unit-testing/frameworks/unity.rst:24
+msgid "Yes"
+msgstr ""
+
+#: ../../../advanced/unit-testing/frameworks/unity.rst:0
+msgid "Embedded Tests"
+msgstr ""
+
+#: ../../../advanced/unit-testing/frameworks/unity.rst:0
+msgid "Mocking Support"
+msgstr ""
+
+#: ../../../advanced/unit-testing/frameworks/unity.rst:26
+msgid "No"
+msgstr ""
+
+#: ../../../advanced/unit-testing/frameworks/unity.rst:28
+msgid ""
+"**Unity** is a unit test framework. The goal has been to keep it small and "
+"functional. Unity was designed to be cross-platform. It works hard to stick "
+"with C standards while still providing support for the many embedded C "
+"compilers that bend the rules. Unity has been used with many compilers, "
+"including GCC, IAR, Clang, Green Hills, Microchip, and MS Visual Studio. "
+"It's not much work to get it to work with a new target."
+msgstr ""
+
+#: ../../../advanced/unit-testing/frameworks/unity.rst:36
+msgid "Contents"
+msgstr ""
+
+#: ../../../advanced/unit-testing/frameworks/unity.rst:39
+msgid "Getting Started"
+msgstr ""
+
+#: ../../../advanced/unit-testing/frameworks/unity.rst:41
+msgid ""
+"Test files are C/C++ files. Most often you will create a single test file "
+"for each C/C++ component that you want to test. The test file should include "
+"``unity.h`` and the header for your C/C++ component to be tested."
+msgstr ""
+
+#: ../../../advanced/unit-testing/frameworks/unity.rst:45
+msgid ""
+"Next, a test file will include a ``setUp()`` and ``tearDown()`` function. "
+"The **setUp** function can contain anything you would like to run before "
+"each test. The **tearDown** function can contain anything you would like to "
+"run after each test. Both functions accept no arguments and return nothing. "
+"You may leave either or both of these blank if you have no need for them."
+msgstr ""
+
+#: ../../../advanced/unit-testing/frameworks/unity.rst:51
+msgid ""
+"The majority of the file will be a series of test functions. Test functions "
+"follow the convention of starting with the word ``test_`` or ``spec_``. You "
+"don't HAVE to name them this way, but it makes it clear what functions are "
+"tests for other developers. Test functions take no arguments and return "
+"nothing. All test accounting is handled internally in Unity."
+msgstr ""
+
+#: ../../../advanced/unit-testing/frameworks/unity.rst:57
+msgid ""
+"Finally, at the bottom of your test file, you will write a ``main()`` "
+"function (``setup() / loop()`` for :ref:`framework_arduino`, ``app_main()`` "
+"for :ref:`framework_espidf`). This function will call ``UNITY_BEGIN()``, "
+"then ``RUN_TEST`` for each test, and finally ``UNITY_END()``. This is what "
+"will actually trigger each of those test functions to run, so it is "
+"important that each function gets its own ``RUN_TEST`` call. Please remember "
+"to add each test to the main function."
+msgstr ""
+
+#: ../../../advanced/unit-testing/frameworks/unity.rst:65
+msgid "When you're done, your test file will look something like this:"
+msgstr ""
+
+#: ../../../advanced/unit-testing/frameworks/unity.rst:123
+#: ../../../advanced/unit-testing/frameworks/unity.rst:176
+msgid "**Useful links**"
+msgstr ""
+
+#: ../../../advanced/unit-testing/frameworks/unity.rst:125
+msgid ""
+"`Unity - Getting Started <https://github.com/ThrowTheSwitch/Unity/blob/"
+"master/docs/UnityGettingStartedGuide.md>`_"
+msgstr ""
+
+#: ../../../advanced/unit-testing/frameworks/unity.rst:126
+msgid ""
+"`Unity - Assertions Reference <https://github.com/ThrowTheSwitch/Unity/blob/"
+"master/docs/UnityAssertionsReference.md>`_"
+msgstr ""
+
+#: ../../../advanced/unit-testing/frameworks/unity.rst:127
+msgid ""
+"`Unity - Assertions CheatSheet <https://github.com/ThrowTheSwitch/Unity/blob/"
+"master/docs/UnityAssertionsCheatSheetSuitableforPrintingandPossiblyFraming."
+"pdf>`_"
+msgstr ""
+
+#: ../../../advanced/unit-testing/frameworks/unity.rst:132
+msgid ""
+"All of Unity's configuration options are ``#defines``. Most of these are "
+"simple definitions. A couple is macros with arguments. Because these options "
+"are specified via C defines, you can pass most of these options to the :ref:"
+"`projectconf_build_flags`."
+msgstr ""
+
+#: ../../../advanced/unit-testing/frameworks/unity.rst:136
+msgid ""
+"See `Unity Configuration Guide <https://github.com/ThrowTheSwitch/Unity/blob/"
+"master/docs/UnityConfigurationGuide.md>`_ for the available options."
+msgstr ""
+
+#: ../../../advanced/unit-testing/frameworks/unity.rst:139
+msgid "**Example**"
+msgstr ""
+
+#: ../../../advanced/unit-testing/frameworks/unity.rst:152
+msgid "Custom ``unity_config.h``"
+msgstr ""
+
+#: ../../../advanced/unit-testing/frameworks/unity.rst:154
+msgid ""
+"PlatformIO's Unity test runner comes with an already defined "
+"``UNITY_INCLUDE_CONFIG_H`` macro. It looks for a custom ``unity_config.h`` "
+"in a current test folder. In case the ``unity_config.h`` is missed, "
+"PlatformIO will walk through the test hierarchy until to the root (:ref:"
+"`projectconf_pio_test_dir`)."
+msgstr ""
+
+#: ../../../advanced/unit-testing/frameworks/unity.rst:159
+msgid ""
+"Let's take a look at the Pizza Project from the :ref:"
+"`unit_testing_test_hierarchy` example. If you run an \"embedded/components/"
+"sauce/test_tomatos\" test, PlatformIO will check folders for the "
+"``unity_config.h`` in the following order:"
+msgstr ""
+
+#: ../../../advanced/unit-testing/frameworks/unity.rst:163
+msgid "\"embedded/components/sauce/test_tomatos\""
+msgstr ""
+
+#: ../../../advanced/unit-testing/frameworks/unity.rst:164
+msgid "\"embedded/components/sauce\""
+msgstr ""
+
+#: ../../../advanced/unit-testing/frameworks/unity.rst:165
+msgid "\"embedded/components\""
+msgstr ""
+
+#: ../../../advanced/unit-testing/frameworks/unity.rst:166
+msgid "\"embedded\""
+msgstr ""
+
+#: ../../../advanced/unit-testing/frameworks/unity.rst:167
+msgid ":ref:`projectconf_pio_test_dir` (finish)."
+msgstr ""
+
+#: ../../../advanced/unit-testing/frameworks/unity.rst:169
+msgid ""
+"If the ``unity_config.h`` is not found, PlatformIO will generate a default "
+"``unity_config.h`` that routes test result output to a framework specified "
+"in the :ref:`projectconf_env_framework`. On the :ref:`platform_native` "
+"development platform, it will be the standard input/output, whereas, on the "
+"embedded development platforms, the first available Serial interface will be "
+"used (see `UNITY_FRAMEWORK_CONFIG <https://github.com/platformio/platformio-"
+"core/blob/develop/platformio/test/runners/unity.py>`_ for the default "
+"framework configurations)."
+msgstr ""
+
+#: ../../../advanced/unit-testing/frameworks/unity.rst:178
+msgid ""
+"`\"unity_config.h\" template <https://github.com/ThrowTheSwitch/Unity/blob/"
+"master/examples/unity_config.h>`_"
+msgstr ""
+
+#: ../../../advanced/unit-testing/frameworks/unity.rst:179
+msgid ":ref:`tutorial_stm32cube_debugging_unit_testing`"
+msgstr ""
+
+#: ../../../advanced/unit-testing/frameworks/unity.rst:180
+msgid ""
+"`STM32Cube Unit Testing <https://github.com/platformio/platformio-examples/"
+"tree/develop/unit-testing/stm32cube>`_ example with the custom "
+"``unity_config.h``."
+msgstr ""
+
+#: ../../../advanced/unit-testing/frameworks/unity.rst:184
+msgid "Custom Unity Library"
+msgstr ""
+
+#: ../../../advanced/unit-testing/frameworks/unity.rst:186
+msgid ""
+"See :ref:`unit_testing_frameworks_custom_examples_unity_library` example."
+msgstr ""
+
+#: ../../../advanced/unit-testing/frameworks/unity.rst:189
+msgid "Test Runner"
+msgstr ""
+
+#: ../../../advanced/unit-testing/frameworks/unity.rst:191
+msgid ""
+"Thanks to the minimum system requirements of the Unity testing framework, "
+"you can use Unity for all :ref:`unit_testing_runner_test_types`, including "
+"for constrained embedded devices."
+msgstr ""
+
+#: ../../../advanced/unit-testing/frameworks/unity.rst:195
+msgid ""
+"If you would like to change the default PlatformIO's Test Runner for the "
+"Unity, please implement your :ref:`unit_testing_frameworks_custom` runner "
+"extending `UnityTestRunner <https://github.com/platformio/platformio-core/"
+"blob/develop/platformio/test/runners/unity.py>`_ class. See :ref:"
+"`unit_testing_frameworks_custom` for the examples."
+msgstr ""

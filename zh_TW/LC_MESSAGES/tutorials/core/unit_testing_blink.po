@@ -1,0 +1,87 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present, PlatformIO
+# This file is distributed under the same license as the PlatformIO package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PlatformIO stable\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-24 14:03+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../tutorials/core/unit_testing_blink.rst:15
+msgid "Unit Testing of a \"Blink\" Project"
+msgstr ""
+
+#: ../../../tutorials/core/unit_testing_blink.rst:17
+msgid ""
+"The goal of this tutorial is to demonstrate how simple it is to use :ref:"
+"`unit_testing`."
+msgstr ""
+
+#: ../../../tutorials/core/unit_testing_blink.rst:19
+msgid "**Level:** Beginner"
+msgstr ""
+
+#: ../../../tutorials/core/unit_testing_blink.rst:20
+msgid "**Platforms:** Windows, macOS, Linux"
+msgstr ""
+
+#: ../../../tutorials/core/unit_testing_blink.rst:23
+msgid "Contents"
+msgstr ""
+
+#: ../../../tutorials/core/unit_testing_blink.rst:26
+msgid "Setting Up the Project"
+msgstr ""
+
+#: ../../../tutorials/core/unit_testing_blink.rst:28
+msgid ""
+"Please navigate to the :ref:`core_quickstart` section and create the \"Blink "
+"Project\"."
+msgstr ""
+
+#: ../../../tutorials/core/unit_testing_blink.rst:29
+msgid ""
+"Create the root ``test`` directory in the project (on the same level as "
+"``src``)"
+msgstr ""
+
+#: ../../../tutorials/core/unit_testing_blink.rst:30
+msgid ""
+"Create a test ``test_blink`` directory (name must be prefixed with "
+"``test_``) and place a ``test_main.cpp`` file in it (the source code is "
+"located below)."
+msgstr ""
+
+#: ../../../tutorials/core/unit_testing_blink.rst:32
+msgid "Run tests using the :ref:`cmd_test` command."
+msgstr ""
+
+#: ../../../tutorials/core/unit_testing_blink.rst:35
+msgid "Project structure"
+msgstr ""
+
+#: ../../../tutorials/core/unit_testing_blink.rst:46
+msgid "Source files"
+msgstr ""
+
+#: ../../../tutorials/core/unit_testing_blink.rst:48
+msgid ":ref:`projectconf`"
+msgstr ""
+
+#: ../../../tutorials/core/unit_testing_blink.rst:57
+msgid "``test/test_blink/test_main.cpp``"
+msgstr ""
+
+#: ../../../tutorials/core/unit_testing_blink.rst:123
+msgid "Test results"
+msgstr ""
