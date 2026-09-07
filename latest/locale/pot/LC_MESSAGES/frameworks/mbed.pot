@@ -8,10 +8,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PlatformIO latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-24 14:02+0000\n"
+"POT-Creation-Date: 2026-09-07 15:05+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -693,22 +694,21 @@ msgstr ""
 #: ../../../frameworks/mbed.rst:191 ../../../frameworks/mbed.rst:222
 #: ../../../frameworks/mbed.rst:258 ../../../frameworks/mbed.rst:317
 #: ../../../frameworks/mbed.rst:366 ../../../frameworks/mbed.rst:443
-#: ../../../frameworks/mbed.rst:449 ../../../frameworks/mbed.rst:486
-#: ../../../frameworks/mbed.rst:510 ../../../frameworks/mbed.rst:516
-#: ../../../frameworks/mbed.rst:541 ../../../frameworks/mbed.rst:547
-#: ../../../frameworks/mbed.rst:559 ../../../frameworks/mbed.rst:564
-#: ../../../frameworks/mbed.rst:570 ../../../frameworks/mbed.rst:576
-#: ../../../frameworks/mbed.rst:624 ../../../frameworks/mbed.rst:638
-#: ../../../frameworks/mbed.rst:645 ../../../frameworks/mbed.rst:651
-#: ../../../frameworks/mbed.rst:652 ../../../frameworks/mbed.rst:665
-#: ../../../frameworks/mbed.rst:672 ../../../frameworks/mbed.rst:743
-#: ../../../frameworks/mbed.rst:763 ../../../frameworks/mbed.rst:771
-#: ../../../frameworks/mbed.rst:784 ../../../frameworks/mbed.rst:806
-#: ../../../frameworks/mbed.rst:833 ../../../frameworks/mbed.rst:854
-#: ../../../frameworks/mbed.rst:904 ../../../frameworks/mbed.rst:988
-#: ../../../frameworks/mbed.rst:1057 ../../../frameworks/mbed.rst:1114
-#: ../../../frameworks/mbed.rst:1204 ../../../frameworks/mbed.rst:1211
-#: ../../../frameworks/mbed.rst:1254 ../../../frameworks/mbed.rst:1296
+#: ../../../frameworks/mbed.rst:449 ../../../frameworks/mbed.rst:510
+#: ../../../frameworks/mbed.rst:516 ../../../frameworks/mbed.rst:541
+#: ../../../frameworks/mbed.rst:547 ../../../frameworks/mbed.rst:559
+#: ../../../frameworks/mbed.rst:564 ../../../frameworks/mbed.rst:570
+#: ../../../frameworks/mbed.rst:576 ../../../frameworks/mbed.rst:624
+#: ../../../frameworks/mbed.rst:638 ../../../frameworks/mbed.rst:645
+#: ../../../frameworks/mbed.rst:651 ../../../frameworks/mbed.rst:652
+#: ../../../frameworks/mbed.rst:665 ../../../frameworks/mbed.rst:672
+#: ../../../frameworks/mbed.rst:743 ../../../frameworks/mbed.rst:763
+#: ../../../frameworks/mbed.rst:771 ../../../frameworks/mbed.rst:784
+#: ../../../frameworks/mbed.rst:806 ../../../frameworks/mbed.rst:833
+#: ../../../frameworks/mbed.rst:854 ../../../frameworks/mbed.rst:904
+#: ../../../frameworks/mbed.rst:988 ../../../frameworks/mbed.rst:1057
+#: ../../../frameworks/mbed.rst:1114 ../../../frameworks/mbed.rst:1204
+#: ../../../frameworks/mbed.rst:1211 ../../../frameworks/mbed.rst:1296
 #: ../../../frameworks/mbed.rst:1316 ../../../frameworks/mbed.rst:1338
 #: ../../../frameworks/mbed.rst:1387
 msgid "256KB"
@@ -1450,6 +1450,10 @@ msgstr ""
 
 #: ../../../frameworks/mbed.rst:484 ../../../frameworks/mbed.rst:1252
 msgid "160MHz"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:486 ../../../frameworks/mbed.rst:1254
+msgid "768KB"
 msgstr ""
 
 #: ../../../frameworks/mbed.rst:487 ../../../frameworks/mbed.rst:1255
