@@ -8,10 +8,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PlatformIO stable\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-24 14:03+0000\n"
+"POT-Creation-Date: 2026-09-07 14:56+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -49,114 +50,114 @@ msgstr ""
 msgid "Atmel megaAVR"
 msgstr ""
 
-#: ../../../boards/index.rst:356
+#: ../../../boards/index.rst:357
 msgid "Atmel SAM"
 msgstr ""
 
-#: ../../../boards/index.rst:444
+#: ../../../boards/index.rst:445
 msgid "CHIPS Alliance"
 msgstr ""
 
-#: ../../../boards/index.rst:452
+#: ../../../boards/index.rst:453
 msgid "Espressif 32"
 msgstr ""
 
-#: ../../../boards/index.rst:701
+#: ../../../boards/index.rst:702
 msgid "Espressif 8266"
 msgstr ""
 
-#: ../../../boards/index.rst:753
+#: ../../../boards/index.rst:754
 msgid "Freescale Kinetis"
 msgstr ""
 
-#: ../../../boards/index.rst:772
+#: ../../../boards/index.rst:773
 msgid "Heltec CubeCell"
 msgstr ""
 
-#: ../../../boards/index.rst:790
+#: ../../../boards/index.rst:791
 msgid "Intel ARC32"
 msgstr ""
 
-#: ../../../boards/index.rst:798
+#: ../../../boards/index.rst:799
 msgid "Intel MCS-51 (8051)"
 msgstr ""
 
-#: ../../../boards/index.rst:1069
+#: ../../../boards/index.rst:1070
 msgid "Lattice iCE40"
 msgstr ""
 
-#: ../../../boards/index.rst:1078
+#: ../../../boards/index.rst:1079
 msgid "Linux ARM"
 msgstr ""
 
-#: ../../../boards/index.rst:1089
+#: ../../../boards/index.rst:1090
 msgid "Maxim 32"
 msgstr ""
 
-#: ../../../boards/index.rst:1105
+#: ../../../boards/index.rst:1106
 msgid "Microchip PIC32"
 msgstr ""
 
-#: ../../../boards/index.rst:1151
+#: ../../../boards/index.rst:1152
 msgid "Nordic nRF51"
 msgstr ""
 
-#: ../../../boards/index.rst:1172
+#: ../../../boards/index.rst:1173
 msgid "Nordic nRF52"
 msgstr ""
 
-#: ../../../boards/index.rst:1224
+#: ../../../boards/index.rst:1225
 msgid "NXP i.MX RT"
 msgstr ""
 
-#: ../../../boards/index.rst:1237
+#: ../../../boards/index.rst:1238
 msgid "NXP LPC"
 msgstr ""
 
-#: ../../../boards/index.rst:1250
+#: ../../../boards/index.rst:1251
 msgid "OpenHW Group"
 msgstr ""
 
-#: ../../../boards/index.rst:1258
+#: ../../../boards/index.rst:1259
 msgid "Raspberry Pi RP2040"
 msgstr ""
 
-#: ../../../boards/index.rst:1267
+#: ../../../boards/index.rst:1268
 msgid "Renesas RA"
 msgstr ""
 
-#: ../../../boards/index.rst:1278
+#: ../../../boards/index.rst:1279
 msgid "RISC-V GAP"
 msgstr ""
 
-#: ../../../boards/index.rst:1286
+#: ../../../boards/index.rst:1287
 msgid "Shakti"
 msgstr ""
 
-#: ../../../boards/index.rst:1298
+#: ../../../boards/index.rst:1299
 msgid "SiFive"
 msgstr ""
 
-#: ../../../boards/index.rst:1311
+#: ../../../boards/index.rst:1312
 msgid "Silicon Labs EFM32"
 msgstr ""
 
-#: ../../../boards/index.rst:1323
+#: ../../../boards/index.rst:1324
 msgid "ST STM32"
 msgstr ""
 
-#: ../../../boards/index.rst:1620
+#: ../../../boards/index.rst:1628
 msgid "ST STM8"
 msgstr ""
 
-#: ../../../boards/index.rst:1635
+#: ../../../boards/index.rst:1643
 msgid "Teensy"
 msgstr ""
 
-#: ../../../boards/index.rst:1652
+#: ../../../boards/index.rst:1660
 msgid "TI MSP430"
 msgstr ""
 
-#: ../../../boards/index.rst:1672
+#: ../../../boards/index.rst:1680
 msgid "TI TIVA"
 msgstr ""

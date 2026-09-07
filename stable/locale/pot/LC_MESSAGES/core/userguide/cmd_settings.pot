@@ -8,10 +8,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PlatformIO stable\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-24 14:03+0000\n"
+"POT-Creation-Date: 2026-09-07 14:56+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -33,14 +34,14 @@ msgid "pio settings get"
 msgstr ""
 
 #: ../../../core/userguide/cmd_settings.rst:27
-#: ../../../core/userguide/cmd_settings.rst:183
-#: ../../../core/userguide/cmd_settings.rst:215
+#: ../../../core/userguide/cmd_settings.rst:195
+#: ../../../core/userguide/cmd_settings.rst:227
 msgid "Usage"
 msgstr ""
 
 #: ../../../core/userguide/cmd_settings.rst:35
-#: ../../../core/userguide/cmd_settings.rst:191
-#: ../../../core/userguide/cmd_settings.rst:223
+#: ../../../core/userguide/cmd_settings.rst:203
+#: ../../../core/userguide/cmd_settings.rst:235
 msgid "Description"
 msgstr ""
 
@@ -117,7 +118,7 @@ msgstr ""
 
 #: ../../../core/userguide/cmd_settings.rst:76
 #: ../../../core/userguide/cmd_settings.rst:110
-#: ../../../core/userguide/cmd_settings.rst:121
+#: ../../../core/userguide/cmd_settings.rst:133
 msgid "Yes"
 msgstr ""
 
@@ -125,6 +126,7 @@ msgstr ""
 #: ../../../core/userguide/cmd_settings.rst:87
 #: ../../../core/userguide/cmd_settings.rst:111
 #: ../../../core/userguide/cmd_settings.rst:122
+#: ../../../core/userguide/cmd_settings.rst:134
 msgid "Yes/No"
 msgstr ""
 
@@ -137,6 +139,7 @@ msgid "``force_verbose``"
 msgstr ""
 
 #: ../../../core/userguide/cmd_settings.rst:86
+#: ../../../core/userguide/cmd_settings.rst:121
 msgid "No"
 msgstr ""
 
@@ -184,16 +187,26 @@ msgid ""
 msgstr ""
 
 #: ../../../core/userguide/cmd_settings.rst:119
-msgid "``enable_telemetry``"
+msgid "``disable_udev_rules_check``"
 msgstr ""
 
 #: ../../../core/userguide/cmd_settings.rst:124
+msgid ""
+"Disable check for udev rules on Linux. See :ref:`platformio_udev_rules` for "
+"more details about udev rules and how to install them."
+msgstr ""
+
+#: ../../../core/userguide/cmd_settings.rst:131
+msgid "``enable_telemetry``"
+msgstr ""
+
+#: ../../../core/userguide/cmd_settings.rst:136
 msgid ""
 "Share minimal diagnostics and usage information to help us make PlatformIO "
 "better."
 msgstr ""
 
-#: ../../../core/userguide/cmd_settings.rst:126
+#: ../../../core/userguide/cmd_settings.rst:138
 msgid ""
 "The source code of telemetry service is `open source <https://github.com/"
 "platformio/platformio-core/blob/develop/platformio/telemetry.py>`_. You can "
@@ -201,11 +214,11 @@ msgid ""
 "your project. All information shares **ANONYMOUSLY**."
 msgstr ""
 
-#: ../../../core/userguide/cmd_settings.rst:130
+#: ../../../core/userguide/cmd_settings.rst:142
 msgid "Which data do we collect and why?"
 msgstr ""
 
-#: ../../../core/userguide/cmd_settings.rst:132
+#: ../../../core/userguide/cmd_settings.rst:144
 msgid ""
 "**A version of Python Interpreter**. :ref:`piocore` is written in `Python "
 "language <https://www.python.org/>`__, including development :ref:"
@@ -214,14 +227,14 @@ msgid ""
 "and focus on a new one"
 msgstr ""
 
-#: ../../../core/userguide/cmd_settings.rst:136
+#: ../../../core/userguide/cmd_settings.rst:148
 msgid ""
 ":ref:`piocore` **errors/exceptions**. We report automatically fatal "
 "exceptions raised by `PlatformIO Core source code <https://github.com/"
 "platformio/platformio-core>`__ but NOT by your project"
 msgstr ""
 
-#: ../../../core/userguide/cmd_settings.rst:138
+#: ../../../core/userguide/cmd_settings.rst:150
 msgid ""
 "**The name of the used platform, board, framework**. We collect this type of "
 "information to have a clear picture which software products are the most "
@@ -230,53 +243,53 @@ msgid ""
 "\"uno\", etc.)"
 msgstr ""
 
-#: ../../../core/userguide/cmd_settings.rst:142
+#: ../../../core/userguide/cmd_settings.rst:154
 msgid ""
 "**The name of CLI command**. It helps us to improve our CLI. For example, "
 "\"run\", \"lib list\")"
 msgstr ""
 
-#: ../../../core/userguide/cmd_settings.rst:144
+#: ../../../core/userguide/cmd_settings.rst:156
 msgid ""
 "The name of :ref:`ide`. This is very important information for us. We create "
 "native extensions based on the popularity of IDEs (for example, :ref:"
 "`ide_vscode`, :ref:`ide_clion`)"
 msgstr ""
 
-#: ../../../core/userguide/cmd_settings.rst:147
+#: ../../../core/userguide/cmd_settings.rst:159
 msgid "**Thanks a lot that you keep this setting enabled!**"
 msgstr ""
 
-#: ../../../core/userguide/cmd_settings.rst:150
-#: ../../../core/userguide/cmd_settings.rst:196
-#: ../../../core/userguide/cmd_settings.rst:228
+#: ../../../core/userguide/cmd_settings.rst:162
+#: ../../../core/userguide/cmd_settings.rst:208
+#: ../../../core/userguide/cmd_settings.rst:240
 msgid "Examples"
 msgstr ""
 
-#: ../../../core/userguide/cmd_settings.rst:152
+#: ../../../core/userguide/cmd_settings.rst:164
 msgid "List all settings and theirs current values"
 msgstr ""
 
-#: ../../../core/userguide/cmd_settings.rst:168
+#: ../../../core/userguide/cmd_settings.rst:180
 msgid "Show specified setting"
 msgstr ""
 
-#: ../../../core/userguide/cmd_settings.rst:180
+#: ../../../core/userguide/cmd_settings.rst:192
 msgid "pio settings set"
 msgstr ""
 
-#: ../../../core/userguide/cmd_settings.rst:193
+#: ../../../core/userguide/cmd_settings.rst:205
 msgid "Set new value for the setting"
 msgstr ""
 
-#: ../../../core/userguide/cmd_settings.rst:198
+#: ../../../core/userguide/cmd_settings.rst:210
 msgid "Change to check for the new PlatformIO Core each day"
 msgstr ""
 
-#: ../../../core/userguide/cmd_settings.rst:212
+#: ../../../core/userguide/cmd_settings.rst:224
 msgid "pio settings reset"
 msgstr ""
 
-#: ../../../core/userguide/cmd_settings.rst:225
+#: ../../../core/userguide/cmd_settings.rst:237
 msgid "Reset settings to default"
 msgstr ""
