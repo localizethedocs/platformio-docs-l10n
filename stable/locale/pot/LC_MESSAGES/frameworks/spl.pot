@@ -8,10 +8,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PlatformIO stable\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-24 14:03+0000\n"
+"POT-Creation-Date: 2026-09-07 14:56+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -228,8 +229,7 @@ msgstr ""
 msgid "1MB"
 msgstr ""
 
-#: ../../../frameworks/spl.rst:90 ../../../frameworks/spl.rst:102
-#: ../../../frameworks/spl.rst:273 ../../../frameworks/spl.rst:287
+#: ../../../frameworks/spl.rst:90 ../../../frameworks/spl.rst:273
 msgid "192KB"
 msgstr ""
 
@@ -264,6 +264,16 @@ msgstr ""
 #: ../../../frameworks/spl.rst:286 ../../../frameworks/spl.rst:321
 #: ../../../frameworks/spl.rst:342 ../../../frameworks/spl.rst:363
 msgid "512KB"
+msgstr ""
+
+#: ../../../frameworks/spl.rst:102 ../../../frameworks/spl.rst:113
+#: ../../../frameworks/spl.rst:138 ../../../frameworks/spl.rst:143
+#: ../../../frameworks/spl.rst:175 ../../../frameworks/spl.rst:198
+#: ../../../frameworks/spl.rst:216 ../../../frameworks/spl.rst:252
+#: ../../../frameworks/spl.rst:287 ../../../frameworks/spl.rst:307
+#: ../../../frameworks/spl.rst:378 ../../../frameworks/spl.rst:384
+#: ../../../frameworks/spl.rst:440 ../../../frameworks/spl.rst:461
+msgid "128KB"
 msgstr ""
 
 #: ../../../frameworks/spl.rst:103 ../../../frameworks/spl.rst:428
@@ -303,15 +313,6 @@ msgstr ""
 
 #: ../../../frameworks/spl.rst:111 ../../../frameworks/spl.rst:438
 msgid "STM8S208RBT6"
-msgstr ""
-
-#: ../../../frameworks/spl.rst:113 ../../../frameworks/spl.rst:138
-#: ../../../frameworks/spl.rst:143 ../../../frameworks/spl.rst:175
-#: ../../../frameworks/spl.rst:198 ../../../frameworks/spl.rst:216
-#: ../../../frameworks/spl.rst:252 ../../../frameworks/spl.rst:307
-#: ../../../frameworks/spl.rst:378 ../../../frameworks/spl.rst:384
-#: ../../../frameworks/spl.rst:440 ../../../frameworks/spl.rst:461
-msgid "128KB"
 msgstr ""
 
 #: ../../../frameworks/spl.rst:115 ../../../frameworks/spl.rst:337

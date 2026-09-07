@@ -8,10 +8,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PlatformIO stable\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-24 14:03+0000\n"
+"POT-Creation-Date: 2026-09-07 14:56+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -89,103 +90,112 @@ msgstr ""
 msgid "``envdump`` dump current build environment"
 msgstr ""
 
-#: ../../../core/userguide/cmd_run.rst:74
+#: ../../../core/userguide/cmd_run.rst:75
+msgid ""
+"Set both :option:`pio run --upload-port` and :option:`pio run --monitor-"
+"port` options simultaneously. This option is a convenient way to specify the "
+"same port for both uploading firmware and monitoring device output, "
+"streamlining the workflow for users who want to use the same port for both "
+"operations."
+msgstr ""
+
+#: ../../../core/userguide/cmd_run.rst:83
 msgid ""
 "Custom upload port of embedded board. To print all available ports use :ref:"
 "`cmd_device_list` command."
 msgstr ""
 
-#: ../../../core/userguide/cmd_run.rst:77
+#: ../../../core/userguide/cmd_run.rst:86
 msgid ""
 "If upload port is not specified, PlatformIO will try to detect it "
 "automatically."
 msgstr ""
 
-#: ../../../core/userguide/cmd_run.rst:82
+#: ../../../core/userguide/cmd_run.rst:91
 msgid ""
 "Specify a custom port to be passed to the :option:`pio device monitor --"
 "port` command. To list all available ports, use the :ref:`cmd_device_list` "
 "command."
 msgstr ""
 
-#: ../../../core/userguide/cmd_run.rst:85
+#: ../../../core/userguide/cmd_run.rst:94
 msgid ""
 "If the monitor port is not specified, PlatformIO will attempt to detect it "
 "automatically."
 msgstr ""
 
-#: ../../../core/userguide/cmd_run.rst:90
+#: ../../../core/userguide/cmd_run.rst:99
 msgid ""
 "Specify the path to project directory. By default, ``--project-dir`` is "
 "equal to current working directory (``CWD``)."
 msgstr ""
 
-#: ../../../core/userguide/cmd_run.rst:96
+#: ../../../core/userguide/cmd_run.rst:105
 msgid "Process project with a custom :ref:`projectconf`."
 msgstr ""
 
-#: ../../../core/userguide/cmd_run.rst:101
+#: ../../../core/userguide/cmd_run.rst:110
 msgid ""
 "Control the number of parallel build jobs. The default is the number of CPUs "
 "in the system."
 msgstr ""
 
-#: ../../../core/userguide/cmd_run.rst:103
+#: ../../../core/userguide/cmd_run.rst:112
 msgid ""
 "This option can also be set globally using the environment variable :envvar:"
 "`PLATFORMIO_RUN_JOBS`."
 msgstr ""
 
-#: ../../../core/userguide/cmd_run.rst:108
+#: ../../../core/userguide/cmd_run.rst:117
 msgid ""
 "Disable auto-clean of :ref:`projectconf_pio_build_dir` when :ref:"
 "`projectconf` or :ref:`projectconf_pio_src_dir` (project structure) have "
 "been modified."
 msgstr ""
 
-#: ../../../core/userguide/cmd_run.rst:114
+#: ../../../core/userguide/cmd_run.rst:123
 msgid ""
 "Pass an extra argument to the :ref:`platform_native` program. Multiple "
 "arguments are allowed."
 msgstr ""
 
-#: ../../../core/userguide/cmd_run.rst:117
+#: ../../../core/userguide/cmd_run.rst:126
 msgid "**Example**"
 msgstr ""
 
-#: ../../../core/userguide/cmd_run.rst:128
+#: ../../../core/userguide/cmd_run.rst:137
 msgid "Suppress progress reporting"
 msgstr ""
 
-#: ../../../core/userguide/cmd_run.rst:133
+#: ../../../core/userguide/cmd_run.rst:142
 msgid "Shows detailed information when processing environments."
 msgstr ""
 
-#: ../../../core/userguide/cmd_run.rst:135
+#: ../../../core/userguide/cmd_run.rst:144
 msgid ""
 "This option can also be set globally using :ref:`setting_force_verbose` "
 "setting or by environment variable :envvar:"
 "`PLATFORMIO_SETTING_FORCE_VERBOSE`."
 msgstr ""
 
-#: ../../../core/userguide/cmd_run.rst:139
+#: ../../../core/userguide/cmd_run.rst:148
 msgid "Examples"
 msgstr ""
 
-#: ../../../core/userguide/cmd_run.rst:141
+#: ../../../core/userguide/cmd_run.rst:150
 msgid ""
 "Process `Wiring Blink Example <https://github.com/platformio/platformio-"
 "examples/tree/develop/wiring-blink>`_"
 msgstr ""
 
-#: ../../../core/userguide/cmd_run.rst:241
+#: ../../../core/userguide/cmd_run.rst:250
 msgid "Process specific environment"
 msgstr ""
 
-#: ../../../core/userguide/cmd_run.rst:290
+#: ../../../core/userguide/cmd_run.rst:299
 msgid "Process specific target (clean project)"
 msgstr ""
 
-#: ../../../core/userguide/cmd_run.rst:370
+#: ../../../core/userguide/cmd_run.rst:379
 msgid "Mix environments and targets"
 msgstr ""
