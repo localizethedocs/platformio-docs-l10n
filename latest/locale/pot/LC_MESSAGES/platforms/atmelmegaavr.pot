@@ -8,10 +8,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PlatformIO latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-24 14:02+0000\n"
+"POT-Creation-Date: 2026-09-07 15:05+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -528,14 +529,15 @@ msgstr ""
 #: ../../../platforms/atmelmegaavr.rst:614
 #: ../../../platforms/atmelmegaavr.rst:620
 #: ../../../platforms/atmelmegaavr.rst:626
+#: ../../../platforms/atmelmegaavr.rst:632
 msgid "No"
 msgstr ""
 
 #: ../../../platforms/atmelmegaavr.rst:152
 #: ../../../platforms/atmelmegaavr.rst:158
 #: ../../../platforms/atmelmegaavr.rst:207
-#: ../../../platforms/atmelmegaavr.rst:609
-#: ../../../platforms/atmelmegaavr.rst:627
+#: ../../../platforms/atmelmegaavr.rst:615
+#: ../../../platforms/atmelmegaavr.rst:633
 msgid "ATMEGA4809"
 msgstr ""
 
@@ -573,7 +575,6 @@ msgstr ""
 #: ../../../platforms/atmelmegaavr.rst:352
 #: ../../../platforms/atmelmegaavr.rst:358
 #: ../../../platforms/atmelmegaavr.rst:364
-#: ../../../platforms/atmelmegaavr.rst:370
 #: ../../../platforms/atmelmegaavr.rst:376
 #: ../../../platforms/atmelmegaavr.rst:382
 #: ../../../platforms/atmelmegaavr.rst:388
@@ -587,8 +588,9 @@ msgstr ""
 #: ../../../platforms/atmelmegaavr.rst:436
 #: ../../../platforms/atmelmegaavr.rst:442
 #: ../../../platforms/atmelmegaavr.rst:448
-#: ../../../platforms/atmelmegaavr.rst:610
-#: ../../../platforms/atmelmegaavr.rst:628
+#: ../../../platforms/atmelmegaavr.rst:454
+#: ../../../platforms/atmelmegaavr.rst:616
+#: ../../../platforms/atmelmegaavr.rst:634
 msgid "16MHz"
 msgstr ""
 
@@ -601,9 +603,9 @@ msgstr ""
 #: ../../../platforms/atmelmegaavr.rst:161
 #: ../../../platforms/atmelmegaavr.rst:204
 #: ../../../platforms/atmelmegaavr.rst:210
-#: ../../../platforms/atmelmegaavr.rst:450
-#: ../../../platforms/atmelmegaavr.rst:612
-#: ../../../platforms/atmelmegaavr.rst:630
+#: ../../../platforms/atmelmegaavr.rst:456
+#: ../../../platforms/atmelmegaavr.rst:618
+#: ../../../platforms/atmelmegaavr.rst:636
 msgid "6KB"
 msgstr ""
 
@@ -634,7 +636,6 @@ msgstr ""
 #: ../../../platforms/atmelmegaavr.rst:263
 #: ../../../platforms/atmelmegaavr.rst:269
 #: ../../../platforms/atmelmegaavr.rst:275
-#: ../../../platforms/atmelmegaavr.rst:456
 #: ../../../platforms/atmelmegaavr.rst:462
 #: ../../../platforms/atmelmegaavr.rst:468
 #: ../../../platforms/atmelmegaavr.rst:474
@@ -642,8 +643,9 @@ msgstr ""
 #: ../../../platforms/atmelmegaavr.rst:486
 #: ../../../platforms/atmelmegaavr.rst:492
 #: ../../../platforms/atmelmegaavr.rst:498
-#: ../../../platforms/atmelmegaavr.rst:618
+#: ../../../platforms/atmelmegaavr.rst:504
 #: ../../../platforms/atmelmegaavr.rst:624
+#: ../../../platforms/atmelmegaavr.rst:630
 msgid "16KB"
 msgstr ""
 
@@ -687,12 +689,12 @@ msgstr ""
 #: ../../../platforms/atmelmegaavr.rst:317
 #: ../../../platforms/atmelmegaavr.rst:323
 #: ../../../platforms/atmelmegaavr.rst:329
-#: ../../../platforms/atmelmegaavr.rst:503
 #: ../../../platforms/atmelmegaavr.rst:509
 #: ../../../platforms/atmelmegaavr.rst:515
 #: ../../../platforms/atmelmegaavr.rst:521
 #: ../../../platforms/atmelmegaavr.rst:527
 #: ../../../platforms/atmelmegaavr.rst:533
+#: ../../../platforms/atmelmegaavr.rst:539
 msgid "32KB"
 msgstr ""
 
@@ -708,12 +710,13 @@ msgstr ""
 #: ../../../platforms/atmelmegaavr.rst:377
 #: ../../../platforms/atmelmegaavr.rst:383
 #: ../../../platforms/atmelmegaavr.rst:389
-#: ../../../platforms/atmelmegaavr.rst:504
+#: ../../../platforms/atmelmegaavr.rst:395
 #: ../../../platforms/atmelmegaavr.rst:510
 #: ../../../platforms/atmelmegaavr.rst:516
 #: ../../../platforms/atmelmegaavr.rst:522
 #: ../../../platforms/atmelmegaavr.rst:528
 #: ../../../platforms/atmelmegaavr.rst:534
+#: ../../../platforms/atmelmegaavr.rst:540
 msgid "4KB"
 msgstr ""
 
@@ -730,15 +733,15 @@ msgid ":ref:`board_atmelmegaavr_ATmega4808`"
 msgstr ""
 
 #: ../../../platforms/atmelmegaavr.rst:201
-#: ../../../platforms/atmelmegaavr.rst:447
+#: ../../../platforms/atmelmegaavr.rst:453
 msgid "ATMEGA4808"
 msgstr ""
 
 #: ../../../platforms/atmelmegaavr.rst:203
 #: ../../../platforms/atmelmegaavr.rst:209
-#: ../../../platforms/atmelmegaavr.rst:449
-#: ../../../platforms/atmelmegaavr.rst:611
-#: ../../../platforms/atmelmegaavr.rst:629
+#: ../../../platforms/atmelmegaavr.rst:455
+#: ../../../platforms/atmelmegaavr.rst:617
+#: ../../../platforms/atmelmegaavr.rst:635
 msgid "48KB"
 msgstr ""
 
@@ -756,7 +759,6 @@ msgstr ""
 
 #: ../../../platforms/atmelmegaavr.rst:215
 #: ../../../platforms/atmelmegaavr.rst:221
-#: ../../../platforms/atmelmegaavr.rst:395
 #: ../../../platforms/atmelmegaavr.rst:401
 #: ../../../platforms/atmelmegaavr.rst:407
 #: ../../../platforms/atmelmegaavr.rst:413
@@ -765,7 +767,7 @@ msgstr ""
 #: ../../../platforms/atmelmegaavr.rst:431
 #: ../../../platforms/atmelmegaavr.rst:437
 #: ../../../platforms/atmelmegaavr.rst:443
-#: ../../../platforms/atmelmegaavr.rst:540
+#: ../../../platforms/atmelmegaavr.rst:449
 #: ../../../platforms/atmelmegaavr.rst:546
 #: ../../../platforms/atmelmegaavr.rst:552
 #: ../../../platforms/atmelmegaavr.rst:558
@@ -777,6 +779,7 @@ msgstr ""
 #: ../../../platforms/atmelmegaavr.rst:594
 #: ../../../platforms/atmelmegaavr.rst:600
 #: ../../../platforms/atmelmegaavr.rst:606
+#: ../../../platforms/atmelmegaavr.rst:612
 msgid "8KB"
 msgstr ""
 
@@ -785,9 +788,9 @@ msgstr ""
 #: ../../../platforms/atmelmegaavr.rst:228
 #: ../../../platforms/atmelmegaavr.rst:234
 #: ../../../platforms/atmelmegaavr.rst:240
-#: ../../../platforms/atmelmegaavr.rst:432
 #: ../../../platforms/atmelmegaavr.rst:438
 #: ../../../platforms/atmelmegaavr.rst:444
+#: ../../../platforms/atmelmegaavr.rst:450
 msgid "1KB"
 msgstr ""
 
@@ -971,6 +974,7 @@ msgstr ""
 #: ../../../platforms/atmelmegaavr.rst:360
 #: ../../../platforms/atmelmegaavr.rst:366
 #: ../../../platforms/atmelmegaavr.rst:372
+#: ../../../platforms/atmelmegaavr.rst:378
 msgid "256B"
 msgstr ""
 
@@ -1011,26 +1015,34 @@ msgid ":ref:`board_atmelmegaavr_ATtiny416`"
 msgstr ""
 
 #: ../../../platforms/atmelmegaavr.rst:363
+#: ../../../platforms/atmelmegaavr.rst:369
 msgid "ATTINY416"
 msgstr ""
 
 #: ../../../platforms/atmelmegaavr.rst:367
-msgid ":ref:`board_atmelmegaavr_ATtiny417`"
+msgid ":ref:`board_atmelmegaavr_xplained_nano_416`"
 msgstr ""
 
-#: ../../../platforms/atmelmegaavr.rst:369
-msgid "ATTINY417"
+#: ../../../platforms/atmelmegaavr.rst:370
+msgid "20MHz"
 msgstr ""
 
 #: ../../../platforms/atmelmegaavr.rst:373
-msgid ":ref:`board_atmelmegaavr_ATtiny424`"
+msgid ":ref:`board_atmelmegaavr_ATtiny417`"
 msgstr ""
 
 #: ../../../platforms/atmelmegaavr.rst:375
+msgid "ATTINY417"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:379
+msgid ":ref:`board_atmelmegaavr_ATtiny424`"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:381
 msgid "ATTINY424"
 msgstr ""
 
-#: ../../../platforms/atmelmegaavr.rst:378
 #: ../../../platforms/atmelmegaavr.rst:384
 #: ../../../platforms/atmelmegaavr.rst:390
 #: ../../../platforms/atmelmegaavr.rst:396
@@ -1039,110 +1051,110 @@ msgstr ""
 #: ../../../platforms/atmelmegaavr.rst:414
 #: ../../../platforms/atmelmegaavr.rst:420
 #: ../../../platforms/atmelmegaavr.rst:426
+#: ../../../platforms/atmelmegaavr.rst:432
 msgid "512B"
 msgstr ""
 
-#: ../../../platforms/atmelmegaavr.rst:379
+#: ../../../platforms/atmelmegaavr.rst:385
 msgid ":ref:`board_atmelmegaavr_ATtiny426`"
 msgstr ""
 
-#: ../../../platforms/atmelmegaavr.rst:381
+#: ../../../platforms/atmelmegaavr.rst:387
 msgid "ATTINY426"
 msgstr ""
 
-#: ../../../platforms/atmelmegaavr.rst:385
+#: ../../../platforms/atmelmegaavr.rst:391
 msgid ":ref:`board_atmelmegaavr_ATtiny427`"
 msgstr ""
 
-#: ../../../platforms/atmelmegaavr.rst:387
+#: ../../../platforms/atmelmegaavr.rst:393
 msgid "ATTINY427"
 msgstr ""
 
-#: ../../../platforms/atmelmegaavr.rst:391
+#: ../../../platforms/atmelmegaavr.rst:397
 msgid ":ref:`board_atmelmegaavr_ATtiny804`"
 msgstr ""
 
-#: ../../../platforms/atmelmegaavr.rst:393
+#: ../../../platforms/atmelmegaavr.rst:399
 msgid "ATTINY804"
 msgstr ""
 
-#: ../../../platforms/atmelmegaavr.rst:397
+#: ../../../platforms/atmelmegaavr.rst:403
 msgid ":ref:`board_atmelmegaavr_ATtiny806`"
 msgstr ""
 
-#: ../../../platforms/atmelmegaavr.rst:399
+#: ../../../platforms/atmelmegaavr.rst:405
 msgid "ATTINY806"
 msgstr ""
 
-#: ../../../platforms/atmelmegaavr.rst:403
+#: ../../../platforms/atmelmegaavr.rst:409
 msgid ":ref:`board_atmelmegaavr_ATtiny807`"
 msgstr ""
 
-#: ../../../platforms/atmelmegaavr.rst:405
+#: ../../../platforms/atmelmegaavr.rst:411
 msgid "ATTINY807"
 msgstr ""
 
-#: ../../../platforms/atmelmegaavr.rst:409
+#: ../../../platforms/atmelmegaavr.rst:415
 msgid ":ref:`board_atmelmegaavr_ATtiny814`"
 msgstr ""
 
-#: ../../../platforms/atmelmegaavr.rst:411
+#: ../../../platforms/atmelmegaavr.rst:417
 msgid "ATTINY814"
 msgstr ""
 
-#: ../../../platforms/atmelmegaavr.rst:415
+#: ../../../platforms/atmelmegaavr.rst:421
 msgid ":ref:`board_atmelmegaavr_ATtiny816`"
 msgstr ""
 
-#: ../../../platforms/atmelmegaavr.rst:417
+#: ../../../platforms/atmelmegaavr.rst:423
 msgid "ATTINY816"
 msgstr ""
 
-#: ../../../platforms/atmelmegaavr.rst:421
+#: ../../../platforms/atmelmegaavr.rst:427
 msgid ":ref:`board_atmelmegaavr_ATtiny817`"
 msgstr ""
 
-#: ../../../platforms/atmelmegaavr.rst:423
+#: ../../../platforms/atmelmegaavr.rst:429
 msgid "ATTINY817"
 msgstr ""
 
-#: ../../../platforms/atmelmegaavr.rst:427
+#: ../../../platforms/atmelmegaavr.rst:433
 msgid ":ref:`board_atmelmegaavr_ATtiny824`"
 msgstr ""
 
-#: ../../../platforms/atmelmegaavr.rst:429
+#: ../../../platforms/atmelmegaavr.rst:435
 msgid "ATTINY824"
 msgstr ""
 
-#: ../../../platforms/atmelmegaavr.rst:433
+#: ../../../platforms/atmelmegaavr.rst:439
 msgid ":ref:`board_atmelmegaavr_ATtiny826`"
 msgstr ""
 
-#: ../../../platforms/atmelmegaavr.rst:435
+#: ../../../platforms/atmelmegaavr.rst:441
 msgid "ATTINY826"
 msgstr ""
 
-#: ../../../platforms/atmelmegaavr.rst:439
+#: ../../../platforms/atmelmegaavr.rst:445
 msgid ":ref:`board_atmelmegaavr_ATtiny827`"
 msgstr ""
 
-#: ../../../platforms/atmelmegaavr.rst:441
+#: ../../../platforms/atmelmegaavr.rst:447
 msgid "ATTINY827"
 msgstr ""
 
-#: ../../../platforms/atmelmegaavr.rst:445
+#: ../../../platforms/atmelmegaavr.rst:451
 msgid ":ref:`board_atmelmegaavr_avr_iot_wg`"
 msgstr ""
 
-#: ../../../platforms/atmelmegaavr.rst:451
+#: ../../../platforms/atmelmegaavr.rst:457
 msgid ":ref:`board_atmelmegaavr_AVR128DA28`"
 msgstr ""
 
-#: ../../../platforms/atmelmegaavr.rst:453
+#: ../../../platforms/atmelmegaavr.rst:459
 msgid "AVR128DA28"
 msgstr ""
 
-#: ../../../platforms/atmelmegaavr.rst:454
 #: ../../../platforms/atmelmegaavr.rst:460
 #: ../../../platforms/atmelmegaavr.rst:466
 #: ../../../platforms/atmelmegaavr.rst:472
@@ -1168,12 +1180,12 @@ msgstr ""
 #: ../../../platforms/atmelmegaavr.rst:592
 #: ../../../platforms/atmelmegaavr.rst:598
 #: ../../../platforms/atmelmegaavr.rst:604
-#: ../../../platforms/atmelmegaavr.rst:616
+#: ../../../platforms/atmelmegaavr.rst:610
 #: ../../../platforms/atmelmegaavr.rst:622
+#: ../../../platforms/atmelmegaavr.rst:628
 msgid "24MHz"
 msgstr ""
 
-#: ../../../platforms/atmelmegaavr.rst:455
 #: ../../../platforms/atmelmegaavr.rst:461
 #: ../../../platforms/atmelmegaavr.rst:467
 #: ../../../platforms/atmelmegaavr.rst:473
@@ -1181,126 +1193,126 @@ msgstr ""
 #: ../../../platforms/atmelmegaavr.rst:485
 #: ../../../platforms/atmelmegaavr.rst:491
 #: ../../../platforms/atmelmegaavr.rst:497
-#: ../../../platforms/atmelmegaavr.rst:617
+#: ../../../platforms/atmelmegaavr.rst:503
 #: ../../../platforms/atmelmegaavr.rst:623
+#: ../../../platforms/atmelmegaavr.rst:629
 msgid "128KB"
 msgstr ""
 
-#: ../../../platforms/atmelmegaavr.rst:457
+#: ../../../platforms/atmelmegaavr.rst:463
 msgid ":ref:`board_atmelmegaavr_AVR128DA32`"
 msgstr ""
 
-#: ../../../platforms/atmelmegaavr.rst:459
+#: ../../../platforms/atmelmegaavr.rst:465
 msgid "AVR128DA32"
 msgstr ""
 
-#: ../../../platforms/atmelmegaavr.rst:463
+#: ../../../platforms/atmelmegaavr.rst:469
 msgid ":ref:`board_atmelmegaavr_AVR128DA48`"
 msgstr ""
 
-#: ../../../platforms/atmelmegaavr.rst:465
-#: ../../../platforms/atmelmegaavr.rst:615
+#: ../../../platforms/atmelmegaavr.rst:471
+#: ../../../platforms/atmelmegaavr.rst:621
 msgid "AVR128DA48"
 msgstr ""
 
-#: ../../../platforms/atmelmegaavr.rst:469
+#: ../../../platforms/atmelmegaavr.rst:475
 msgid ":ref:`board_atmelmegaavr_AVR128DA64`"
 msgstr ""
 
-#: ../../../platforms/atmelmegaavr.rst:471
+#: ../../../platforms/atmelmegaavr.rst:477
 msgid "AVR128DA64"
 msgstr ""
 
-#: ../../../platforms/atmelmegaavr.rst:475
+#: ../../../platforms/atmelmegaavr.rst:481
 msgid ":ref:`board_atmelmegaavr_AVR128DB28`"
 msgstr ""
 
-#: ../../../platforms/atmelmegaavr.rst:477
+#: ../../../platforms/atmelmegaavr.rst:483
 msgid "AVR128DB28"
 msgstr ""
 
-#: ../../../platforms/atmelmegaavr.rst:481
+#: ../../../platforms/atmelmegaavr.rst:487
 msgid ":ref:`board_atmelmegaavr_AVR128DB32`"
 msgstr ""
 
-#: ../../../platforms/atmelmegaavr.rst:483
+#: ../../../platforms/atmelmegaavr.rst:489
 msgid "AVR128DB32"
 msgstr ""
 
-#: ../../../platforms/atmelmegaavr.rst:487
+#: ../../../platforms/atmelmegaavr.rst:493
 msgid ":ref:`board_atmelmegaavr_AVR128DB48`"
 msgstr ""
 
-#: ../../../platforms/atmelmegaavr.rst:489
-#: ../../../platforms/atmelmegaavr.rst:621
+#: ../../../platforms/atmelmegaavr.rst:495
+#: ../../../platforms/atmelmegaavr.rst:627
 msgid "AVR128DB48"
 msgstr ""
 
-#: ../../../platforms/atmelmegaavr.rst:493
+#: ../../../platforms/atmelmegaavr.rst:499
 msgid ":ref:`board_atmelmegaavr_AVR128DB64`"
 msgstr ""
 
-#: ../../../platforms/atmelmegaavr.rst:495
+#: ../../../platforms/atmelmegaavr.rst:501
 msgid "AVR128DB64"
 msgstr ""
 
-#: ../../../platforms/atmelmegaavr.rst:499
+#: ../../../platforms/atmelmegaavr.rst:505
 msgid ":ref:`board_atmelmegaavr_AVR32DA28`"
 msgstr ""
 
-#: ../../../platforms/atmelmegaavr.rst:501
+#: ../../../platforms/atmelmegaavr.rst:507
 msgid "AVR32DA28"
 msgstr ""
 
-#: ../../../platforms/atmelmegaavr.rst:505
+#: ../../../platforms/atmelmegaavr.rst:511
 msgid ":ref:`board_atmelmegaavr_AVR32DA32`"
 msgstr ""
 
-#: ../../../platforms/atmelmegaavr.rst:507
+#: ../../../platforms/atmelmegaavr.rst:513
 msgid "AVR32DA32"
 msgstr ""
 
-#: ../../../platforms/atmelmegaavr.rst:511
+#: ../../../platforms/atmelmegaavr.rst:517
 msgid ":ref:`board_atmelmegaavr_AVR32DA48`"
 msgstr ""
 
-#: ../../../platforms/atmelmegaavr.rst:513
+#: ../../../platforms/atmelmegaavr.rst:519
 msgid "AVR32DA48"
 msgstr ""
 
-#: ../../../platforms/atmelmegaavr.rst:517
+#: ../../../platforms/atmelmegaavr.rst:523
 msgid ":ref:`board_atmelmegaavr_AVR32DB28`"
 msgstr ""
 
-#: ../../../platforms/atmelmegaavr.rst:519
+#: ../../../platforms/atmelmegaavr.rst:525
 msgid "AVR32DB28"
 msgstr ""
 
-#: ../../../platforms/atmelmegaavr.rst:523
+#: ../../../platforms/atmelmegaavr.rst:529
 msgid ":ref:`board_atmelmegaavr_AVR32DB32`"
 msgstr ""
 
-#: ../../../platforms/atmelmegaavr.rst:525
+#: ../../../platforms/atmelmegaavr.rst:531
 msgid "AVR32DB32"
 msgstr ""
 
-#: ../../../platforms/atmelmegaavr.rst:529
+#: ../../../platforms/atmelmegaavr.rst:535
 msgid ":ref:`board_atmelmegaavr_AVR32DB48`"
 msgstr ""
 
-#: ../../../platforms/atmelmegaavr.rst:531
+#: ../../../platforms/atmelmegaavr.rst:537
 msgid "AVR32DB48"
 msgstr ""
 
-#: ../../../platforms/atmelmegaavr.rst:535
+#: ../../../platforms/atmelmegaavr.rst:541
 msgid ":ref:`board_atmelmegaavr_AVR64DA28`"
 msgstr ""
 
-#: ../../../platforms/atmelmegaavr.rst:537
+#: ../../../platforms/atmelmegaavr.rst:543
 msgid "AVR64DA28"
 msgstr ""
 
-#: ../../../platforms/atmelmegaavr.rst:539
 #: ../../../platforms/atmelmegaavr.rst:545
 #: ../../../platforms/atmelmegaavr.rst:551
 #: ../../../platforms/atmelmegaavr.rst:557
@@ -1312,109 +1324,110 @@ msgstr ""
 #: ../../../platforms/atmelmegaavr.rst:593
 #: ../../../platforms/atmelmegaavr.rst:599
 #: ../../../platforms/atmelmegaavr.rst:605
+#: ../../../platforms/atmelmegaavr.rst:611
 msgid "64KB"
 msgstr ""
 
-#: ../../../platforms/atmelmegaavr.rst:541
+#: ../../../platforms/atmelmegaavr.rst:547
 msgid ":ref:`board_atmelmegaavr_AVR64DA32`"
 msgstr ""
 
-#: ../../../platforms/atmelmegaavr.rst:543
+#: ../../../platforms/atmelmegaavr.rst:549
 msgid "AVR64DA32"
 msgstr ""
 
-#: ../../../platforms/atmelmegaavr.rst:547
+#: ../../../platforms/atmelmegaavr.rst:553
 msgid ":ref:`board_atmelmegaavr_AVR64DA48`"
 msgstr ""
 
-#: ../../../platforms/atmelmegaavr.rst:549
+#: ../../../platforms/atmelmegaavr.rst:555
 msgid "AVR64DA48"
 msgstr ""
 
-#: ../../../platforms/atmelmegaavr.rst:553
+#: ../../../platforms/atmelmegaavr.rst:559
 msgid ":ref:`board_atmelmegaavr_AVR64DA64`"
 msgstr ""
 
-#: ../../../platforms/atmelmegaavr.rst:555
+#: ../../../platforms/atmelmegaavr.rst:561
 msgid "AVR64DA64"
 msgstr ""
 
-#: ../../../platforms/atmelmegaavr.rst:559
+#: ../../../platforms/atmelmegaavr.rst:565
 msgid ":ref:`board_atmelmegaavr_AVR64DB28`"
 msgstr ""
 
-#: ../../../platforms/atmelmegaavr.rst:561
+#: ../../../platforms/atmelmegaavr.rst:567
 msgid "AVR64DB28"
 msgstr ""
 
-#: ../../../platforms/atmelmegaavr.rst:565
+#: ../../../platforms/atmelmegaavr.rst:571
 msgid ":ref:`board_atmelmegaavr_AVR64DB32`"
 msgstr ""
 
-#: ../../../platforms/atmelmegaavr.rst:567
+#: ../../../platforms/atmelmegaavr.rst:573
 msgid "AVR64DB32"
 msgstr ""
 
-#: ../../../platforms/atmelmegaavr.rst:571
+#: ../../../platforms/atmelmegaavr.rst:577
 msgid ":ref:`board_atmelmegaavr_AVR64DB48`"
 msgstr ""
 
-#: ../../../platforms/atmelmegaavr.rst:573
+#: ../../../platforms/atmelmegaavr.rst:579
 msgid "AVR64DB48"
 msgstr ""
 
-#: ../../../platforms/atmelmegaavr.rst:577
+#: ../../../platforms/atmelmegaavr.rst:583
 msgid ":ref:`board_atmelmegaavr_AVR64DB64`"
 msgstr ""
 
-#: ../../../platforms/atmelmegaavr.rst:579
+#: ../../../platforms/atmelmegaavr.rst:585
 msgid "AVR64DB64"
 msgstr ""
 
-#: ../../../platforms/atmelmegaavr.rst:583
+#: ../../../platforms/atmelmegaavr.rst:589
 msgid ":ref:`board_atmelmegaavr_AVR64DD14`"
 msgstr ""
 
-#: ../../../platforms/atmelmegaavr.rst:585
+#: ../../../platforms/atmelmegaavr.rst:591
 msgid "AVR64DD14"
 msgstr ""
 
-#: ../../../platforms/atmelmegaavr.rst:589
+#: ../../../platforms/atmelmegaavr.rst:595
 msgid ":ref:`board_atmelmegaavr_AVR64DD20`"
 msgstr ""
 
-#: ../../../platforms/atmelmegaavr.rst:591
+#: ../../../platforms/atmelmegaavr.rst:597
 msgid "AVR64DD20"
 msgstr ""
 
-#: ../../../platforms/atmelmegaavr.rst:595
+#: ../../../platforms/atmelmegaavr.rst:601
 msgid ":ref:`board_atmelmegaavr_AVR64DD28`"
 msgstr ""
 
-#: ../../../platforms/atmelmegaavr.rst:597
+#: ../../../platforms/atmelmegaavr.rst:603
 msgid "AVR64DD28"
 msgstr ""
 
-#: ../../../platforms/atmelmegaavr.rst:601
+#: ../../../platforms/atmelmegaavr.rst:607
 msgid ":ref:`board_atmelmegaavr_AVR64DD32`"
 msgstr ""
 
-#: ../../../platforms/atmelmegaavr.rst:603
+#: ../../../platforms/atmelmegaavr.rst:609
 msgid "AVR64DD32"
 msgstr ""
 
-#: ../../../platforms/atmelmegaavr.rst:607
+#: ../../../platforms/atmelmegaavr.rst:613
 msgid ":ref:`board_atmelmegaavr_curiosity_nano_4809`"
 msgstr ""
 
-#: ../../../platforms/atmelmegaavr.rst:613
+#: ../../../platforms/atmelmegaavr.rst:619
 msgid ":ref:`board_atmelmegaavr_curiosity_nano_da`"
 msgstr ""
 
-#: ../../../platforms/atmelmegaavr.rst:619
+#: ../../../platforms/atmelmegaavr.rst:625
 msgid ":ref:`board_atmelmegaavr_curiosity_nano_db`"
 msgstr ""
 
-#: ../../../platforms/atmelmegaavr.rst:625
+#: ../../../platforms/atmelmegaavr.rst:631
 msgid ":ref:`board_atmelmegaavr_xplained_pro_4809`"
 msgstr ""

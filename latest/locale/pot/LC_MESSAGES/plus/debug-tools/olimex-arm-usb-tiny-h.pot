@@ -8,10 +8,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PlatformIO latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-24 14:02+0000\n"
+"POT-Creation-Date: 2026-09-07 15:05+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -997,6 +998,7 @@ msgstr ""
 #: ../../../plus/debug-tools/olimex-arm-usb-tiny-h.rst:831
 #: ../../../plus/debug-tools/olimex-arm-usb-tiny-h.rst:866
 #: ../../../plus/debug-tools/olimex-arm-usb-tiny-h.rst:985
+#: ../../../plus/debug-tools/olimex-arm-usb-tiny-h.rst:1027
 #: ../../../plus/debug-tools/olimex-arm-usb-tiny-h.rst:1111
 #: ../../../plus/debug-tools/olimex-arm-usb-tiny-h.rst:1118
 #: ../../../plus/debug-tools/olimex-arm-usb-tiny-h.rst:1223
@@ -1360,7 +1362,6 @@ msgstr ""
 #: ../../../plus/debug-tools/olimex-arm-usb-tiny-h.rst:999
 #: ../../../plus/debug-tools/olimex-arm-usb-tiny-h.rst:1013
 #: ../../../plus/debug-tools/olimex-arm-usb-tiny-h.rst:1020
-#: ../../../plus/debug-tools/olimex-arm-usb-tiny-h.rst:1027
 #: ../../../plus/debug-tools/olimex-arm-usb-tiny-h.rst:1034
 #: ../../../plus/debug-tools/olimex-arm-usb-tiny-h.rst:1041
 #: ../../../plus/debug-tools/olimex-arm-usb-tiny-h.rst:1055

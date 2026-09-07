@@ -8,10 +8,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PlatformIO latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-24 14:02+0000\n"
+"POT-Creation-Date: 2026-09-07 15:05+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -353,7 +354,7 @@ msgstr ""
 #: ../../../plus/debug-tools/blackmagic.rst:2770
 #: ../../../plus/debug-tools/blackmagic.rst:2840
 #: ../../../plus/debug-tools/blackmagic.rst:2973
-#: ../../../plus/debug-tools/blackmagic.rst:3043
+#: ../../../plus/debug-tools/blackmagic.rst:3050
 msgid ":ref:`platform_nordicnrf51`"
 msgstr ""
 
@@ -408,10 +409,10 @@ msgstr ""
 #: ../../../plus/debug-tools/blackmagic.rst:1615
 #: ../../../plus/debug-tools/blackmagic.rst:2903
 #: ../../../plus/debug-tools/blackmagic.rst:2966
-#: ../../../plus/debug-tools/blackmagic.rst:3029
 #: ../../../plus/debug-tools/blackmagic.rst:3036
-#: ../../../plus/debug-tools/blackmagic.rst:3057
-#: ../../../plus/debug-tools/blackmagic.rst:3085
+#: ../../../plus/debug-tools/blackmagic.rst:3043
+#: ../../../plus/debug-tools/blackmagic.rst:3064
+#: ../../../plus/debug-tools/blackmagic.rst:3092
 msgid ":ref:`platform_nordicnrf52`"
 msgstr ""
 
@@ -741,12 +742,13 @@ msgstr ""
 #: ../../../plus/debug-tools/blackmagic.rst:3008
 #: ../../../plus/debug-tools/blackmagic.rst:3015
 #: ../../../plus/debug-tools/blackmagic.rst:3022
-#: ../../../plus/debug-tools/blackmagic.rst:3050
-#: ../../../plus/debug-tools/blackmagic.rst:3064
+#: ../../../plus/debug-tools/blackmagic.rst:3029
+#: ../../../plus/debug-tools/blackmagic.rst:3057
 #: ../../../plus/debug-tools/blackmagic.rst:3071
 #: ../../../plus/debug-tools/blackmagic.rst:3078
-#: ../../../plus/debug-tools/blackmagic.rst:3092
+#: ../../../plus/debug-tools/blackmagic.rst:3085
 #: ../../../plus/debug-tools/blackmagic.rst:3099
+#: ../../../plus/debug-tools/blackmagic.rst:3106
 msgid ":ref:`platform_ststm32`"
 msgstr ""
 
@@ -1123,11 +1125,12 @@ msgstr ""
 #: ../../../plus/debug-tools/blackmagic.rst:3009
 #: ../../../plus/debug-tools/blackmagic.rst:3016
 #: ../../../plus/debug-tools/blackmagic.rst:3023
-#: ../../../plus/debug-tools/blackmagic.rst:3037
+#: ../../../plus/debug-tools/blackmagic.rst:3030
 #: ../../../plus/debug-tools/blackmagic.rst:3044
-#: ../../../plus/debug-tools/blackmagic.rst:3065
-#: ../../../plus/debug-tools/blackmagic.rst:3079
-#: ../../../plus/debug-tools/blackmagic.rst:3093
+#: ../../../plus/debug-tools/blackmagic.rst:3051
+#: ../../../plus/debug-tools/blackmagic.rst:3072
+#: ../../../plus/debug-tools/blackmagic.rst:3086
+#: ../../../plus/debug-tools/blackmagic.rst:3100
 msgid "External"
 msgstr ""
 
@@ -1166,8 +1169,8 @@ msgstr ""
 #: ../../../plus/debug-tools/blackmagic.rst:2766
 #: ../../../plus/debug-tools/blackmagic.rst:2857
 #: ../../../plus/debug-tools/blackmagic.rst:2962
-#: ../../../plus/debug-tools/blackmagic.rst:3095
 #: ../../../plus/debug-tools/blackmagic.rst:3102
+#: ../../../plus/debug-tools/blackmagic.rst:3109
 msgid "168MHz"
 msgstr ""
 
@@ -1230,11 +1233,11 @@ msgstr ""
 #: ../../../plus/debug-tools/blackmagic.rst:2858
 #: ../../../plus/debug-tools/blackmagic.rst:2928
 #: ../../../plus/debug-tools/blackmagic.rst:2963
-#: ../../../plus/debug-tools/blackmagic.rst:3054
 #: ../../../plus/debug-tools/blackmagic.rst:3061
 #: ../../../plus/debug-tools/blackmagic.rst:3068
 #: ../../../plus/debug-tools/blackmagic.rst:3075
 #: ../../../plus/debug-tools/blackmagic.rst:3082
+#: ../../../plus/debug-tools/blackmagic.rst:3089
 msgid "1MB"
 msgstr ""
 
@@ -1249,6 +1252,7 @@ msgstr ""
 #: ../../../plus/debug-tools/blackmagic.rst:366
 #: ../../../plus/debug-tools/blackmagic.rst:444
 #: ../../../plus/debug-tools/blackmagic.rst:548
+#: ../../../plus/debug-tools/blackmagic.rst:696
 #: ../../../plus/debug-tools/blackmagic.rst:731
 #: ../../../plus/debug-tools/blackmagic.rst:745
 #: ../../../plus/debug-tools/blackmagic.rst:758
@@ -1348,7 +1352,8 @@ msgstr ""
 #: ../../../plus/debug-tools/blackmagic.rst:2964
 #: ../../../plus/debug-tools/blackmagic.rst:2999
 #: ../../../plus/debug-tools/blackmagic.rst:3020
-#: ../../../plus/debug-tools/blackmagic.rst:3055
+#: ../../../plus/debug-tools/blackmagic.rst:3027
+#: ../../../plus/debug-tools/blackmagic.rst:3062
 msgid "128KB"
 msgstr ""
 
@@ -1505,12 +1510,12 @@ msgstr ""
 #: ../../../plus/debug-tools/blackmagic.rst:2778
 #: ../../../plus/debug-tools/blackmagic.rst:2925
 #: ../../../plus/debug-tools/blackmagic.rst:2967
-#: ../../../plus/debug-tools/blackmagic.rst:3030
-#: ../../../plus/debug-tools/blackmagic.rst:3051
+#: ../../../plus/debug-tools/blackmagic.rst:3037
 #: ../../../plus/debug-tools/blackmagic.rst:3058
-#: ../../../plus/debug-tools/blackmagic.rst:3072
-#: ../../../plus/debug-tools/blackmagic.rst:3086
-#: ../../../plus/debug-tools/blackmagic.rst:3100
+#: ../../../plus/debug-tools/blackmagic.rst:3065
+#: ../../../plus/debug-tools/blackmagic.rst:3079
+#: ../../../plus/debug-tools/blackmagic.rst:3093
+#: ../../../plus/debug-tools/blackmagic.rst:3107
 msgid "On-board"
 msgstr ""
 
@@ -1556,7 +1561,7 @@ msgstr ""
 #: ../../../plus/debug-tools/blackmagic.rst:2689
 #: ../../../plus/debug-tools/blackmagic.rst:2920
 #: ../../../plus/debug-tools/blackmagic.rst:2997
-#: ../../../plus/debug-tools/blackmagic.rst:3053
+#: ../../../plus/debug-tools/blackmagic.rst:3060
 msgid "100MHz"
 msgstr ""
 
@@ -1644,7 +1649,6 @@ msgstr ""
 #: ../../../plus/debug-tools/blackmagic.rst:1956
 #: ../../../plus/debug-tools/blackmagic.rst:2074
 #: ../../../plus/debug-tools/blackmagic.rst:2081
-#: ../../../plus/debug-tools/blackmagic.rst:2138
 #: ../../../plus/debug-tools/blackmagic.rst:2158
 #: ../../../plus/debug-tools/blackmagic.rst:2221
 #: ../../../plus/debug-tools/blackmagic.rst:2242
@@ -1682,13 +1686,13 @@ msgstr ""
 #: ../../../plus/debug-tools/blackmagic.rst:2942
 #: ../../../plus/debug-tools/blackmagic.rst:2977
 #: ../../../plus/debug-tools/blackmagic.rst:2991
-#: ../../../plus/debug-tools/blackmagic.rst:3047
-#: ../../../plus/debug-tools/blackmagic.rst:3062
+#: ../../../plus/debug-tools/blackmagic.rst:3054
 #: ../../../plus/debug-tools/blackmagic.rst:3069
 #: ../../../plus/debug-tools/blackmagic.rst:3076
 #: ../../../plus/debug-tools/blackmagic.rst:3083
-#: ../../../plus/debug-tools/blackmagic.rst:3097
+#: ../../../plus/debug-tools/blackmagic.rst:3090
 #: ../../../plus/debug-tools/blackmagic.rst:3104
+#: ../../../plus/debug-tools/blackmagic.rst:3111
 msgid "256KB"
 msgstr ""
 
@@ -1811,16 +1815,16 @@ msgstr ""
 #: ../../../plus/debug-tools/blackmagic.rst:3005
 #: ../../../plus/debug-tools/blackmagic.rst:3013
 #: ../../../plus/debug-tools/blackmagic.rst:3019
-#: ../../../plus/debug-tools/blackmagic.rst:3033
+#: ../../../plus/debug-tools/blackmagic.rst:3026
 #: ../../../plus/debug-tools/blackmagic.rst:3040
-#: ../../../plus/debug-tools/blackmagic.rst:3089
+#: ../../../plus/debug-tools/blackmagic.rst:3047
+#: ../../../plus/debug-tools/blackmagic.rst:3096
 msgid "512KB"
 msgstr ""
 
 #: ../../../plus/debug-tools/blackmagic.rst:262
 #: ../../../plus/debug-tools/blackmagic.rst:331
 #: ../../../plus/debug-tools/blackmagic.rst:682
-#: ../../../plus/debug-tools/blackmagic.rst:696
 #: ../../../plus/debug-tools/blackmagic.rst:884
 #: ../../../plus/debug-tools/blackmagic.rst:905
 #: ../../../plus/debug-tools/blackmagic.rst:961
@@ -1880,9 +1884,9 @@ msgstr ""
 #: ../../../plus/debug-tools/blackmagic.rst:2703
 #: ../../../plus/debug-tools/blackmagic.rst:2780
 #: ../../../plus/debug-tools/blackmagic.rst:2948
-#: ../../../plus/debug-tools/blackmagic.rst:3067
 #: ../../../plus/debug-tools/blackmagic.rst:3074
 #: ../../../plus/debug-tools/blackmagic.rst:3081
+#: ../../../plus/debug-tools/blackmagic.rst:3088
 msgid "180MHz"
 msgstr ""
 
@@ -1916,8 +1920,8 @@ msgstr ""
 #: ../../../plus/debug-tools/blackmagic.rst:2781
 #: ../../../plus/debug-tools/blackmagic.rst:2830
 #: ../../../plus/debug-tools/blackmagic.rst:3012
-#: ../../../plus/debug-tools/blackmagic.rst:3096
 #: ../../../plus/debug-tools/blackmagic.rst:3103
+#: ../../../plus/debug-tools/blackmagic.rst:3110
 msgid "2MB"
 msgstr ""
 
@@ -2039,9 +2043,9 @@ msgstr ""
 #: ../../../plus/debug-tools/blackmagic.rst:1617
 #: ../../../plus/debug-tools/blackmagic.rst:2905
 #: ../../../plus/debug-tools/blackmagic.rst:2968
-#: ../../../plus/debug-tools/blackmagic.rst:3031
 #: ../../../plus/debug-tools/blackmagic.rst:3038
-#: ../../../plus/debug-tools/blackmagic.rst:3087
+#: ../../../plus/debug-tools/blackmagic.rst:3045
+#: ../../../plus/debug-tools/blackmagic.rst:3094
 msgid "NRF52832"
 msgstr ""
 
@@ -2096,10 +2100,10 @@ msgstr ""
 #: ../../../plus/debug-tools/blackmagic.rst:2836
 #: ../../../plus/debug-tools/blackmagic.rst:2906
 #: ../../../plus/debug-tools/blackmagic.rst:2969
-#: ../../../plus/debug-tools/blackmagic.rst:3032
 #: ../../../plus/debug-tools/blackmagic.rst:3039
-#: ../../../plus/debug-tools/blackmagic.rst:3060
-#: ../../../plus/debug-tools/blackmagic.rst:3088
+#: ../../../plus/debug-tools/blackmagic.rst:3046
+#: ../../../plus/debug-tools/blackmagic.rst:3067
+#: ../../../plus/debug-tools/blackmagic.rst:3095
 msgid "64MHz"
 msgstr ""
 
@@ -2166,9 +2170,9 @@ msgstr ""
 #: ../../../plus/debug-tools/blackmagic.rst:2971
 #: ../../../plus/debug-tools/blackmagic.rst:2985
 #: ../../../plus/debug-tools/blackmagic.rst:2992
-#: ../../../plus/debug-tools/blackmagic.rst:3034
 #: ../../../plus/debug-tools/blackmagic.rst:3041
-#: ../../../plus/debug-tools/blackmagic.rst:3090
+#: ../../../plus/debug-tools/blackmagic.rst:3048
+#: ../../../plus/debug-tools/blackmagic.rst:3097
 msgid "64KB"
 msgstr ""
 
@@ -2439,7 +2443,7 @@ msgstr ""
 #: ../../../plus/debug-tools/blackmagic.rst:2885
 #: ../../../plus/debug-tools/blackmagic.rst:2892
 #: ../../../plus/debug-tools/blackmagic.rst:2941
-#: ../../../plus/debug-tools/blackmagic.rst:3025
+#: ../../../plus/debug-tools/blackmagic.rst:3032
 msgid "48MHz"
 msgstr ""
 
@@ -2531,8 +2535,8 @@ msgstr ""
 #: ../../../plus/debug-tools/blackmagic.rst:2894
 #: ../../../plus/debug-tools/blackmagic.rst:2943
 #: ../../../plus/debug-tools/blackmagic.rst:2978
-#: ../../../plus/debug-tools/blackmagic.rst:3026
-#: ../../../plus/debug-tools/blackmagic.rst:3048
+#: ../../../plus/debug-tools/blackmagic.rst:3033
+#: ../../../plus/debug-tools/blackmagic.rst:3055
 msgid "32KB"
 msgstr ""
 
@@ -2565,7 +2569,7 @@ msgstr ""
 #: ../../../plus/debug-tools/blackmagic.rst:1498
 #: ../../../plus/debug-tools/blackmagic.rst:1505
 #: ../../../plus/debug-tools/blackmagic.rst:1561
-#: ../../../plus/debug-tools/blackmagic.rst:3059
+#: ../../../plus/debug-tools/blackmagic.rst:3066
 msgid "NRF52840"
 msgstr ""
 
@@ -3128,7 +3132,7 @@ msgstr ""
 #: ../../../plus/debug-tools/blackmagic.rst:2772
 #: ../../../plus/debug-tools/blackmagic.rst:2842
 #: ../../../plus/debug-tools/blackmagic.rst:2975
-#: ../../../plus/debug-tools/blackmagic.rst:3045
+#: ../../../plus/debug-tools/blackmagic.rst:3052
 msgid "NRF51822"
 msgstr ""
 
@@ -3315,7 +3319,7 @@ msgstr ""
 #: ../../../plus/debug-tools/blackmagic.rst:1239
 #: ../../../plus/debug-tools/blackmagic.rst:1904
 #: ../../../plus/debug-tools/blackmagic.rst:2597
-#: ../../../plus/debug-tools/blackmagic.rst:3052
+#: ../../../plus/debug-tools/blackmagic.rst:3059
 msgid "STM32F411RET6"
 msgstr ""
 
@@ -3506,8 +3510,8 @@ msgid ":ref:`board_ststm32_mbed_connect_odin`"
 msgstr ""
 
 #: ../../../plus/debug-tools/blackmagic.rst:1190
-#: ../../../plus/debug-tools/blackmagic.rst:3094
 #: ../../../plus/debug-tools/blackmagic.rst:3101
+#: ../../../plus/debug-tools/blackmagic.rst:3108
 msgid "STM32F439ZIY6"
 msgstr ""
 
@@ -3709,6 +3713,7 @@ msgstr ""
 #: ../../../plus/debug-tools/blackmagic.rst:1401
 #: ../../../plus/debug-tools/blackmagic.rst:1758
 #: ../../../plus/debug-tools/blackmagic.rst:2717
+#: ../../../plus/debug-tools/blackmagic.rst:3025
 msgid "170MHz"
 msgstr ""
 
@@ -3904,7 +3909,7 @@ msgstr ""
 #: ../../../plus/debug-tools/blackmagic.rst:1569
 #: ../../../plus/debug-tools/blackmagic.rst:1590
 #: ../../../plus/debug-tools/blackmagic.rst:2773
-#: ../../../plus/debug-tools/blackmagic.rst:3046
+#: ../../../plus/debug-tools/blackmagic.rst:3053
 msgid "16MHz"
 msgstr ""
 
@@ -4530,6 +4535,13 @@ msgstr ""
 msgid "STM32U575ZIT6Q"
 msgstr ""
 
+#: ../../../plus/debug-tools/blackmagic.rst:2138
+#: ../../../plus/debug-tools/blackmagic.rst:2340
+#: ../../../plus/debug-tools/blackmagic.rst:2417
+#: ../../../plus/debug-tools/blackmagic.rst:2452
+msgid "768KB"
+msgstr ""
+
 #: ../../../plus/debug-tools/blackmagic.rst:2139
 msgid ":ref:`board_ststm32_disco_f030r8`"
 msgstr ""
@@ -4727,12 +4739,6 @@ msgstr ""
 
 #: ../../../plus/debug-tools/blackmagic.rst:2338
 msgid "STM32F103RFT6"
-msgstr ""
-
-#: ../../../plus/debug-tools/blackmagic.rst:2340
-#: ../../../plus/debug-tools/blackmagic.rst:2417
-#: ../../../plus/debug-tools/blackmagic.rst:2452
-msgid "768KB"
 msgstr ""
 
 #: ../../../plus/debug-tools/blackmagic.rst:2342
@@ -5339,63 +5345,71 @@ msgid ":ref:`board_ststm32_weact_mini_h750vbtx`"
 msgstr ""
 
 #: ../../../plus/debug-tools/blackmagic.rst:3021
-msgid ":ref:`board_ststm32_wraith32_v1`"
+msgid ":ref:`board_ststm32_weact_g474ceu6`"
 msgstr ""
 
 #: ../../../plus/debug-tools/blackmagic.rst:3024
-msgid "STM32F051K6"
-msgstr ""
-
-#: ../../../plus/debug-tools/blackmagic.rst:3027
-msgid "7.75KB"
+msgid "STM32G474CEU6"
 msgstr ""
 
 #: ../../../plus/debug-tools/blackmagic.rst:3028
-msgid ":ref:`board_nordicnrf52_dwm1001_dev`"
+msgid ":ref:`board_ststm32_wraith32_v1`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:3031
+msgid "STM32F051K6"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:3034
+msgid "7.75KB"
 msgstr ""
 
 #: ../../../plus/debug-tools/blackmagic.rst:3035
-msgid ":ref:`board_nordicnrf52_hackaBLE`"
+msgid ":ref:`board_nordicnrf52_dwm1001_dev`"
 msgstr ""
 
 #: ../../../plus/debug-tools/blackmagic.rst:3042
-msgid ":ref:`board_nordicnrf51_ng_beacon`"
+msgid ":ref:`board_nordicnrf52_hackaBLE`"
 msgstr ""
 
 #: ../../../plus/debug-tools/blackmagic.rst:3049
-msgid ":ref:`board_ststm32_sakuraio_evb_01`"
+msgid ":ref:`board_nordicnrf51_ng_beacon`"
 msgstr ""
 
 #: ../../../plus/debug-tools/blackmagic.rst:3056
-msgid ":ref:`board_nordicnrf52_ublox_bmd345eval_nrf52840`"
+msgid ":ref:`board_ststm32_sakuraio_evb_01`"
 msgstr ""
 
 #: ../../../plus/debug-tools/blackmagic.rst:3063
-msgid ":ref:`board_ststm32_ublox_c030_n211`"
-msgstr ""
-
-#: ../../../plus/debug-tools/blackmagic.rst:3066
-#: ../../../plus/debug-tools/blackmagic.rst:3073
-#: ../../../plus/debug-tools/blackmagic.rst:3080
-msgid "STM32F437VG"
+msgid ":ref:`board_nordicnrf52_ublox_bmd345eval_nrf52840`"
 msgstr ""
 
 #: ../../../plus/debug-tools/blackmagic.rst:3070
-msgid ":ref:`board_ststm32_ublox_c030_r410m`"
+msgid ":ref:`board_ststm32_ublox_c030_n211`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:3073
+#: ../../../plus/debug-tools/blackmagic.rst:3080
+#: ../../../plus/debug-tools/blackmagic.rst:3087
+msgid "STM32F437VG"
 msgstr ""
 
 #: ../../../plus/debug-tools/blackmagic.rst:3077
-msgid ":ref:`board_ststm32_ublox_c030_u201`"
+msgid ":ref:`board_ststm32_ublox_c030_r410m`"
 msgstr ""
 
 #: ../../../plus/debug-tools/blackmagic.rst:3084
-msgid ":ref:`board_nordicnrf52_ublox_evk_nina_b1`"
+msgid ":ref:`board_ststm32_ublox_c030_u201`"
 msgstr ""
 
 #: ../../../plus/debug-tools/blackmagic.rst:3091
-msgid ":ref:`board_ststm32_ublox_evk_odin_w2`"
+msgid ":ref:`board_nordicnrf52_ublox_evk_nina_b1`"
 msgstr ""
 
 #: ../../../plus/debug-tools/blackmagic.rst:3098
+msgid ":ref:`board_ststm32_ublox_evk_odin_w2`"
+msgstr ""
+
+#: ../../../plus/debug-tools/blackmagic.rst:3105
 msgid ":ref:`board_ststm32_mtb_ublox_odin_w2`"
 msgstr ""

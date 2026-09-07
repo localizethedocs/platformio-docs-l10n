@@ -8,10 +8,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PlatformIO latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-24 14:02+0000\n"
+"POT-Creation-Date: 2026-09-07 15:05+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -904,6 +905,7 @@ msgstr ""
 #: ../../../plus/debug-tools/iot-bus-jtag.rst:785
 #: ../../../plus/debug-tools/iot-bus-jtag.rst:792
 #: ../../../plus/debug-tools/iot-bus-jtag.rst:827
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:981
 #: ../../../plus/debug-tools/iot-bus-jtag.rst:1065
 #: ../../../plus/debug-tools/iot-bus-jtag.rst:1072
 #: ../../../plus/debug-tools/iot-bus-jtag.rst:1177
@@ -1267,7 +1269,6 @@ msgstr ""
 #: ../../../plus/debug-tools/iot-bus-jtag.rst:953
 #: ../../../plus/debug-tools/iot-bus-jtag.rst:967
 #: ../../../plus/debug-tools/iot-bus-jtag.rst:974
-#: ../../../plus/debug-tools/iot-bus-jtag.rst:981
 #: ../../../plus/debug-tools/iot-bus-jtag.rst:988
 #: ../../../plus/debug-tools/iot-bus-jtag.rst:995
 #: ../../../plus/debug-tools/iot-bus-jtag.rst:1009
