@@ -1,0 +1,286 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present, PlatformIO
+# This file is distributed under the same license as the PlatformIO package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PlatformIO stable\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-24 14:03+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../plus/pio-remote.rst:18
+msgid "Remote Development"
+msgstr ""
+
+#: ../../../plus/pio-remote.rst:20
+msgid "**Your devices are always with you!**"
+msgstr ""
+
+#: ../../../plus/pio-remote.rst:24
+msgid "Contents"
+msgstr ""
+
+#: ../../../plus/pio-remote.rst:26
+msgid ""
+"|PIORemote| allows you to work remotely with devices from *Anywhere In The "
+"World*. No matter where are you now! Run a small and cross-platform :ref:"
+"`cmd_remote_agent` on a remote machine and you are able to list active "
+"devices (wireless + wired), to upload firmware (program), to process remote "
+"unit tests, or to start remote debugging session via **Remote Serial Port "
+"Monitor**."
+msgstr ""
+
+#: ../../../plus/pio-remote.rst:33
+msgid ""
+"Using |PIORemote| you can share your devices with colleagues across your "
+"organization or friends. In combination with :ref:`ide_cloud`, you can "
+"create awesome things at any time when inspiration comes to you."
+msgstr ""
+
+#: ../../../plus/pio-remote.rst:37
+msgid ""
+"You must have an :ref:`pioaccount` to use |PIORemote|. A registration is "
+"**FREE**."
+msgstr ""
+
+#: ../../../plus/pio-remote.rst:42
+msgid "Features"
+msgstr ""
+
+#: ../../../plus/pio-remote.rst:44
+msgid ":ref:`Remote Device Manager <cmd_remote_device>`"
+msgstr ""
+
+#: ../../../plus/pio-remote.rst:45
+msgid ":ref:`Remote Serial Port Monitor <cmd_remote_device_monitor>`"
+msgstr ""
+
+#: ../../../plus/pio-remote.rst:46
+msgid ":ref:`Remote Firmware Updates <cmd_remote_run>`"
+msgstr ""
+
+#: ../../../plus/pio-remote.rst:47
+msgid "Share devices with your team members"
+msgstr ""
+
+#: ../../../plus/pio-remote.rst:48
+msgid "Continuous Deployment"
+msgstr ""
+
+#: ../../../plus/pio-remote.rst:49
+msgid "Continuous Delivery"
+msgstr ""
+
+#: ../../../plus/pio-remote.rst:0 ../../../plus/pio-remote.rst:50
+msgid "Remote Unit Testing"
+msgstr ""
+
+#: ../../../plus/pio-remote.rst:53
+msgid "Use Cases"
+msgstr ""
+
+#: ../../../plus/pio-remote.rst:0
+msgid "Cloud IDE"
+msgstr ""
+
+#: ../../../plus/pio-remote.rst:56
+msgid ""
+"Program your devices from anywhere in the world using the most popular :ref:"
+"`ide_cloud`. You do not need to install any extra software, no need to have "
+"static IP or open network ports. Everything works out of the box."
+msgstr ""
+
+#: ../../../plus/pio-remote.rst:0
+msgid "Devices behind card sized PC"
+msgstr ""
+
+#: ../../../plus/pio-remote.rst:61
+msgid ""
+"Work with your favorite development environment and program devices "
+"connected to card-sized PC (Raspberry Pi, Cubie Board, etc.). You do not "
+"need to open SSH ports, install any extra Linux packages, toolchains."
+msgstr ""
+
+#: ../../../plus/pio-remote.rst:66
+msgid ""
+"Instruct any of :ref:`ci` services to run remote tests on a physical device. "
+"See the documentation for :ref:`unit_testing_runner_remote`."
+msgstr ""
+
+#: ../../../plus/pio-remote.rst:69
+msgid "How does it work?"
+msgstr ""
+
+#: ../../../plus/pio-remote.rst:71
+msgid "You commit new changes to your source code repository"
+msgstr ""
+
+#: ../../../plus/pio-remote.rst:72
+msgid ":ref:`ci` service deploys unit tests to a remote agent"
+msgstr ""
+
+#: ../../../plus/pio-remote.rst:73
+msgid ""
+":ref:`unit_testing` engine runs tests on a physical device, process them, "
+"and send results"
+msgstr ""
+
+#: ../../../plus/pio-remote.rst:75
+msgid ":ref:`ci` service prints results in human readable format"
+msgstr ""
+
+#: ../../../plus/pio-remote.rst:76
+msgid "If one test fails, current CI build will fail too."
+msgstr ""
+
+#: ../../../plus/pio-remote.rst:0
+msgid "Board Farm"
+msgstr ""
+
+#: ../../../plus/pio-remote.rst:79
+msgid ""
+"A similar concept as described in \"Remote Unit Testing\" above. Let's "
+"imagine that you need to test some logic on the unlimited number of target "
+"devices. Very often it can be the same hardware prototype but with different "
+"factory revisions."
+msgstr ""
+
+#: ../../../plus/pio-remote.rst:84
+msgid ""
+"You connect these devices via USB hub to PC and instruct |PIORemote| to "
+"process your test on ALL targets connected to a specific agent. See "
+"documentation below."
+msgstr ""
+
+#: ../../../plus/pio-remote.rst:0
+msgid "Remote Serial Monitor"
+msgstr ""
+
+#: ../../../plus/pio-remote.rst:89
+msgid ""
+"Sometimes you don't have physical access to a target device but you need to "
+"read data from some serial port. |PIORemote| allows you to connect to a "
+"remote agent and list connected devices with their serial ports. See :ref:"
+"`cmd_remote_device_monitor` command for details."
+msgstr ""
+
+#: ../../../plus/pio-remote.rst:95
+msgid "Technology"
+msgstr ""
+
+#: ../../../plus/pio-remote.rst:99
+msgid ""
+"|PIORemote| is an own PlatformIO technology for remote solutions without "
+"external dependencies to operating system or its software based on `client-"
+"server architecture <https://en.wikipedia.org/wiki/Client–server_model>`_. "
+"The Server component (|PIOCloud|) plays a role of coupling link between :ref:"
+"`cmd_remote_agent` and Client (:ref:`cmd_remote`, :ref:`ide_cloud`, :ref:"
+"`ci`, SDKs, etc.). When you start :ref:`cmd_remote_agent`, it connects over "
+"the Internet with |PIOCloud| and listen for the actions/commands which you "
+"can send in Client role from anywhere in the world."
+msgstr ""
+
+#: ../../../plus/pio-remote.rst:109
+msgid ""
+"|PIORemote| is multi-agents and multi-clients system. A single agent can be "
+"shared with multiple clients, where different clients can use the same "
+"agent. This approach allows one to work with distributed hardware located in "
+"the different places, networks, etc."
+msgstr ""
+
+#: ../../../plus/pio-remote.rst:114
+msgid ""
+"This technology allows one to work with remote devices in generic form as "
+"you do that with local devices using PlatformIO ecosystem. The only one "
+"difference is a prefix \"remote\" before each generic PlatformIO command. "
+"For example, listing of local and remote devices will look like :ref:"
+"`cmd_device_list` and :ref:`cmd_remote_device_list`."
+msgstr ""
+
+#: ../../../plus/pio-remote.rst:121
+msgid "Installation"
+msgstr ""
+
+#: ../../../plus/pio-remote.rst:123
+msgid ""
+"|PIORemote| is built into :ref:`pioide`. Please open PlatformIO IDE Terminal "
+"and run ``pio remote --help`` command for usage (see :ref:`cmd_remote`)."
+msgstr ""
+
+#: ../../../plus/pio-remote.rst:126
+msgid ""
+"If you do not have :ref:`pioide`, or use :ref:`ide_cloud` or a card-sized PC "
+"(Raspberry Pi, BeagleBoard, etc.), please install :ref:`piocore`."
+msgstr ""
+
+#: ../../../plus/pio-remote.rst:132
+msgid "Quick Start"
+msgstr ""
+
+#: ../../../plus/pio-remote.rst:134
+msgid ""
+"Start |PIORemote| Agent using :ref:`cmd_remote_agent_start` command on a "
+"**remote machine** where devices are connected physically or are accessible "
+"via network. |PIORemote| **Agent works on Windows, macOS, Linux and Linux "
+"ARMv6+**. It means that you can use desktop machine, laptop or credit card "
+"sized PC (Raspberry Pi, BeagleBoard, etc)."
+msgstr ""
+
+#: ../../../plus/pio-remote.rst:140
+msgid ""
+"You can share own devices/hardware with friends, team or other developers "
+"using :option:`pio remote agent start --share` option."
+msgstr ""
+
+#: ../../../plus/pio-remote.rst:143
+msgid ""
+"Using **host machine** (:ref:`cmd_remote`, :ref:`ide_cloud` Terminal in a "
+"browser, SDKs, etc.), please authorize via :ref:`cmd_account_login` command "
+"with the same credentials that you used on the previous step. Now, you can "
+"use :ref:`cmd_remote` commands to work with **remote machine** and its "
+"devices."
+msgstr ""
+
+#: ../../../plus/pio-remote.rst:149
+msgid ""
+"You don't need to have networking or other access to **remote machine** "
+"where |PIORemote| Agent is started."
+msgstr ""
+
+#: ../../../plus/pio-remote.rst:152
+msgid ""
+"If you use |PIORemote| in pair with :ref:`ci` or want automatically "
+"authorize, please set :envvar:`PLATFORMIO_AUTH_TOKEN` system environment "
+"variable instead of using :ref:`cmd_account_login` command."
+msgstr ""
+
+#: ../../../plus/pio-remote.rst:157
+msgid ""
+"In case with :ref:`ide_cloud`, your browser with Cloud IDE's VM is a \"host "
+"machine\". The machine where devices are connected physically (your real PC) "
+"is called \"remote machine\" in this case. You should run |PIORemote| Agent "
+"here (not in Cloud IDE's Terminal)."
+msgstr ""
+
+#: ../../../plus/pio-remote.rst:163
+msgid ""
+"Please use local IP as \"upload port\" when device is not connected directly "
+"to a remote machine where |PIORemote| Agent is started but supports natively "
+"Over-the-Air (OTA) updates. For example, :ref:`platform_espressif8266` and :"
+"ref:`platform_espressif_ota`. In this case, the final command for remote OTA "
+"update will look as ``pio remote run -t upload --upload-port 192.168.0.255`` "
+"or ``pio remote run -t upload --upload-port myesp8266.local``."
+msgstr ""
+
+#: ../../../plus/pio-remote.rst:171
+msgid "CLI Guide"
+msgstr ""

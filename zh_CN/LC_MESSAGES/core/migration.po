@@ -1,0 +1,429 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present, PlatformIO
+# This file is distributed under the same license as the PlatformIO package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PlatformIO stable\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-24 14:03+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../core/migration.rst:18
+msgid "Migrating from 5.x to 6.0"
+msgstr ""
+
+#: ../../../core/migration.rst:20
+msgid ""
+"Guidance on how to upgrade from :ref:`piocore` v5.x to v6.x with emphasis on "
+"major changes, what is new, and what has been removed."
+msgstr ""
+
+#: ../../../core/migration.rst:24
+msgid ""
+"PlatformIO Core 6.0 is **FULLY BACKWARD COMPATIBLE*** with PlatformIO 5.0 "
+"projects. It means, there are no breaking changes or required migration "
+"steps. Project compatibility between major PlatformIO Core releases is our "
+"main task and part of PlatformIO's decentralized architecture."
+msgstr ""
+
+#: ../../../core/migration.rst:29
+msgid ""
+"We highly recommend using the latest PlatformIO Core. See :ref:`cmd_upgrade` "
+"command."
+msgstr ""
+
+#: ../../../core/migration.rst:32
+msgid ""
+"``*`` see a note regarding :ref:`unit_testing` and the grouped test suites "
+"in the migration steps below."
+msgstr ""
+
+#: ../../../core/migration.rst:35
+msgid ""
+"Please read :ref:`PlatformIO 6.0 Release Notes <release_notes_6>` before."
+msgstr ""
+
+#: ../../../core/migration.rst:38
+msgid "Contents"
+msgstr ""
+
+#: ../../../core/migration.rst:41
+msgid "Migration Steps"
+msgstr ""
+
+#: ../../../core/migration.rst:43
+msgid ""
+"|CORE_6_0| received a lot of new features and updates to improve the lives "
+"of everyday engineers. To benefit from its improvements, we recommend taking "
+"into account the following steps:"
+msgstr ""
+
+#: ../../../core/migration.rst:47
+msgid ""
+"Replace deprecated :ref:`cmd_lib`, :ref:`cmd_platform`, and :ref:"
+"`cmd_update` commands with the unified :ref:`cmd_pkg`"
+msgstr ""
+
+#: ../../../core/migration.rst:49
+msgid ""
+"Avoid using global libraries previously installed using the :option:`pio lib "
+"--global` command. Ensure that the :ref:`projectconf_pio_globallib_dir` "
+"folder is empty. Please use a declarative approach for the safety-critical "
+"embedded development and declare project dependencies using the :ref:"
+"`projectconf_lib_deps` option"
+msgstr ""
+
+#: ../../../core/migration.rst:53
+msgid ""
+"Ensure that project dependencies are declared using the :ref:"
+"`projectconf_env_platform`, :ref:`projectconf_env_platform_packages`, and :"
+"ref:`projectconf_lib_deps` options in :ref:`projectconf`:"
+msgstr ""
+
+#: ../../../core/migration.rst:57
+msgid "meet the updated :ref:`cmd_pkg_install_specifications`"
+msgstr ""
+
+#: ../../../core/migration.rst:58
+msgid ""
+"use recommended Semantic :ref:`cmd_pkg_install_requirements` (check |"
+"PIOREGISTRY| for the available package versions)"
+msgstr ""
+
+#: ../../../core/migration.rst:61
+msgid "**Bad practice** (not recommended)"
+msgstr ""
+
+#: ../../../core/migration.rst:83
+msgid "**Good practice** (highly recommended)"
+msgstr ""
+
+#: ../../../core/migration.rst:108
+msgid ""
+"If you use a custom testing transport via the \"test_transport\" option in :"
+"ref:`projectconf`, please align your codebase with :ref:"
+"`unit_testing_frameworks_unity_custom_config`. The \"test_transport\" option "
+"has been removed."
+msgstr ""
+
+#: ../../../core/migration.rst:113
+msgid ""
+"There is a known bug in PlatformIO Core 5.0 when Unit Testing didn't handle "
+"correctly grouped test suites. Please ensure that a test suite folder that "
+"contains test source files is prefixed with ``test_``. See :ref:"
+"`unit_testing_test_hierarchy` for details."
+msgstr ""
+
+#: ../../../core/migration.rst:119
+msgid "What is new"
+msgstr ""
+
+#: ../../../core/migration.rst:121
+msgid ""
+"In this section, we are going to highlight the most important changes and "
+"features introduced in |CORE_6_0|. Please visit :ref:`PlatformIO 6.0 Release "
+"Notes <release_notes_6>` for more detailed information."
+msgstr ""
+
+#: ../../../core/migration.rst:126
+msgid "Package Management"
+msgstr ""
+
+#: ../../../core/migration.rst:128
+msgid ""
+"|CORE_6_0| brings a powerful solution to manage different :ref:"
+"`cmd_pkg_install_types` using the unified :ref:`cmd_pkg`:"
+msgstr ""
+
+#: ../../../core/migration.rst:131
+msgid ""
+":ref:`cmd_pkg_install` - install the project dependencies or custom packages"
+msgstr ""
+
+#: ../../../core/migration.rst:132
+msgid ":ref:`cmd_pkg_list` - list installed packages"
+msgstr ""
+
+#: ../../../core/migration.rst:133
+msgid ":ref:`cmd_pkg_outdated` - check for project outdated packages"
+msgstr ""
+
+#: ../../../core/migration.rst:134
+msgid ":ref:`cmd_pkg_search` - search for packages"
+msgstr ""
+
+#: ../../../core/migration.rst:135
+msgid ":ref:`cmd_pkg_show` - show package information"
+msgstr ""
+
+#: ../../../core/migration.rst:136
+msgid ""
+":ref:`cmd_pkg_uninstall` uninstall the project dependencies or custom "
+"packages"
+msgstr ""
+
+#: ../../../core/migration.rst:137
+msgid ""
+":ref:`cmd_pkg_update` - update the project dependencies or custom packages."
+msgstr ""
+
+#: ../../../core/migration.rst:139
+msgid ""
+"There are no more global packages that could lead to potential issues. The "
+"new package management solution allows you to use a modern declarative "
+"approach for safety-critical embedded development. Using the Semantic :ref:"
+"`cmd_pkg_install_requirements` guarantees the full project reproducibility "
+"on any supported host machine for decades."
+msgstr ""
+
+#: ../../../core/migration.rst:144
+msgid ""
+"The new :ref:`cmd_pkg` operates in accordance with the active (working) "
+"project. The :ref:`cmd_pkg_install` command will install all required "
+"project dependencies. The :ref:`cmd_pkg_list` command allows listing not "
+"only dependent libraries but also development platforms and their packages."
+msgstr ""
+
+#: ../../../core/migration.rst:149
+msgid ""
+"The notable addition is the :ref:`cmd_pkg_outdated` command. It allows you "
+"to check for outdated project packages and list version information for all "
+"dependencies. There are three color legends to help you easily identify "
+"which updates are backward-incompatible."
+msgstr ""
+
+#: ../../../core/migration.rst:155
+msgid "Run package command"
+msgstr ""
+
+#: ../../../core/migration.rst:157
+msgid ""
+"|PIOREGISTRY| contains a rich set of popular toolchains and other useful "
+"tools. The :ref:`cmd_pkg_exec` command allows you to run an arbitrary "
+"command from the specified package. If you specify package requirements "
+"using the :option:`pio pkg exec --package` option, PlatformIO will ensure "
+"that the package is installed before running any command."
+msgstr ""
+
+#: ../../../core/migration.rst:162
+msgid ""
+"Practical use cases include running debugging servers, uploaders or special "
+"tools from a toolchain. A few examples of how to leverage the new :ref:"
+"`cmd_pkg_exec` command:"
+msgstr ""
+
+#: ../../../core/migration.rst:178
+msgid "Virtual symbolic links"
+msgstr ""
+
+#: ../../../core/migration.rst:180
+msgid ""
+"The most requested feature from the library maintainers was the ability to "
+"link the existing package with the project without hard copying "
+"(duplicating). As a workaround, developers used a Unix-native symlink "
+"solution and hence it was not possible to declare a symlinked dependency in "
+"the :ref:`projectconf`."
+msgstr ""
+
+#: ../../../core/migration.rst:185
+msgid ""
+"The :ref:`piocore` 6.0 introduces cross-platform virtual symbolic links "
+"without any dependencies on the host OS. PlatformIO ``symlink://`` resources "
+"do not require any specific OS permissions. They are portable between "
+"different host machines."
+msgstr ""
+
+#: ../../../core/migration.rst:190
+msgid "See :ref:`cmd_pkg_install_specifications` for \"Local Folder\"."
+msgstr ""
+
+#: ../../../core/migration.rst:193
+msgid "Unit Testing"
+msgstr ""
+
+#: ../../../core/migration.rst:195
+msgid ""
+"It's been `six years <https://github.com/platformio/platformio-core/commit/"
+"bb22a1297bc2e4c3131530f15a2b4b3914836560>`_ since we added support for unit "
+"testing, and Unity was the only available testing framework. We didn't "
+"expect that the PlatformIO :ref:`unit_testing` solution will gain broad "
+"popularity, especially when it comes to using it on native (host) machines."
+msgstr ""
+
+#: ../../../core/migration.rst:200
+msgid ""
+"So, the time has come to refresh our view on PlatformIO Unit Testing with "
+"taking into account `your feedback and feature requests <https://github.com/"
+"platformio/platformio-core/issues?"
+"q=is%3Aissue+label%3A%22unit+testing%22+is%3Aclosed+milestone%3A6.0>`_."
+msgstr ""
+
+#: ../../../core/migration.rst:204
+msgid "Test-driven development"
+msgstr ""
+
+#: ../../../core/migration.rst:206
+msgid ""
+"The PlatformIO Core 6.0 introduces an absolutely a new workflow for `test-"
+"driven development <https://en.wikipedia.org/wiki/Test-driven_development>`_ "
+"in the embedded systems industry. Thanks to the rich set of supported :ref:"
+"`unit_testing_frameworks` and the ability to organize tests in groups using "
+"the :ref:`unit_testing_test_hierarchy`, you can create hybrid projects and "
+"benefit from multiple testing frameworks depending on the project "
+"requirements simultaneously. See a simple example of the hybrid "
+"configuration:"
+msgstr ""
+
+#: ../../../core/migration.rst:231
+msgid ""
+"Use more advanced C++ testing frameworks with Mocking support such as :ref:"
+"`unit_testing_frameworks_googletest` in pair with the :ref:`platform_native` "
+"development platform to run desktop tests on the host machine and a "
+"lightweight framework, such as :ref:`unit_testing_frameworks_unity`, for "
+"running tests on the target embedded device with constrained resources."
+msgstr ""
+
+#: ../../../core/migration.rst:238
+msgid "Hardware-less development"
+msgstr ""
+
+#: ../../../core/migration.rst:240
+msgid ""
+"It's hard to imagine today a next-gen project development workflow that does "
+"not benefit from :ref:`ci` systems. PlatformIO already provides multiple "
+"solutions to improve code quality including :ref:`check`. In addition to the "
+"testing frameworks that allow you to mock objects and simulate the behavior "
+"of real objects, the PlatformIO Core 6.0 adds support for the :ref:"
+"`unit_testing_simulators`."
+msgstr ""
+
+#: ../../../core/migration.rst:247
+msgid ""
+"The combination of simulation tools and testing frameworks allow you to "
+"simulate hardware systems and run unit tests in virtual environments. "
+"Simulators can significantly accelerate project development, especially when "
+"used in pair with :ref:`ci`."
+msgstr ""
+
+#: ../../../core/migration.rst:252
+msgid ""
+"Integration of any simulator tool to the PlatformIO :ref:`unit_testing` is "
+"very simple and does not require any extra software or code writing. Please "
+"take a look at the example below how easy it is to integrate the :ref:"
+"`unit_testing_simulators_renode` simulation framework:"
+msgstr ""
+
+#: ../../../core/migration.rst:275
+msgid "What is changed or removed"
+msgstr ""
+
+#: ../../../core/migration.rst:278
+msgid "Dropped automatic updates"
+msgstr ""
+
+#: ../../../core/migration.rst:280
+msgid ""
+"Thanks to your feedback, we finally removed automatic updates of global "
+"libraries and development platforms. Please use :ref:`cmd_pkg_outdated` to "
+"check for outdated project packages and list version information for all "
+"dependencies."
+msgstr ""
+
+#: ../../../core/migration.rst:284
+msgid ""
+"The :ref:`cmd_pkg_update` is intended to update the project dependencies, "
+"custom packages from the |PIOREGISTRY|, or external sources."
+msgstr ""
+
+#: ../../../core/migration.rst:288
+msgid "Command Line Interface"
+msgstr ""
+
+#: ../../../core/migration.rst:290
+msgid "The following commands have been changed in v6.0."
+msgstr ""
+
+#: ../../../core/migration.rst:296
+msgid "Command"
+msgstr ""
+
+#: ../../../core/migration.rst:297
+msgid "Description"
+msgstr ""
+
+#: ../../../core/migration.rst:298
+msgid ":ref:`pio pkg <cmd_pkg>`"
+msgstr ""
+
+#: ../../../core/migration.rst:299
+msgid "**NEW** Unified package management solution"
+msgstr ""
+
+#: ../../../core/migration.rst:300
+msgid ":ref:`cmd_project_init`"
+msgstr ""
+
+#: ../../../core/migration.rst:301
+msgid "**NEW** :option:`pio project init --no-install-dependencies` option"
+msgstr ""
+
+#: ../../../core/migration.rst:302
+msgid ":ref:`cmd_project_metadata`"
+msgstr ""
+
+#: ../../../core/migration.rst:303
+msgid "**NEW** :option:`pio project metadata --json-output-path` option"
+msgstr ""
+
+#: ../../../core/migration.rst:304
+msgid ":ref:`cmd_run`"
+msgstr ""
+
+#: ../../../core/migration.rst:305
+msgid "**NEW** :option:`pio run --program-arg` option"
+msgstr ""
+
+#: ../../../core/migration.rst:306
+msgid ":ref:`cmd_test`"
+msgstr ""
+
+#: ../../../core/migration.rst:307
+msgid ""
+"**NEW** :option:`pio test --program-arg`, :option:`pio test --json-output-"
+"path`, :option:`pio test --junit-output-path`, and :option:`pio test --list-"
+"tests` options"
+msgstr ""
+
+#: ../../../core/migration.rst:309
+msgid "``pio project data``"
+msgstr ""
+
+#: ../../../core/migration.rst:310
+msgid "**RENAMED** to the :ref:`cmd_project_metadata`"
+msgstr ""
+
+#: ../../../core/migration.rst:311
+msgid ":ref:`cmd_lib`"
+msgstr ""
+
+#: ../../../core/migration.rst:312 ../../../core/migration.rst:314
+#: ../../../core/migration.rst:316
+msgid "**DEPRECATED** in favor of :ref:`cmd_pkg`"
+msgstr ""
+
+#: ../../../core/migration.rst:313
+msgid ":ref:`cmd_platform`"
+msgstr ""
+
+#: ../../../core/migration.rst:315
+msgid ":ref:`cmd_update`"
+msgstr ""

@@ -1,0 +1,598 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present, PlatformIO
+# This file is distributed under the same license as the PlatformIO package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PlatformIO stable\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-24 14:03+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../platforms/riscv_gap.rst:15
+msgid "RISC-V GAP"
+msgstr ""
+
+#: ../../../platforms/riscv_gap.rst:0
+msgid "Registry"
+msgstr ""
+
+#: ../../../platforms/riscv_gap.rst:18
+msgid ""
+"`https://registry.platformio.org/platforms/platformio/riscv_gap <https://"
+"registry.platformio.org/platforms/platformio/riscv_gap>`__"
+msgstr ""
+
+#: ../../../platforms/riscv_gap.rst:0 ../../../platforms/riscv_gap_extra.rst:13
+msgid "Configuration"
+msgstr "組態"
+
+#: ../../../platforms/riscv_gap.rst:20
+msgid ":ref:`projectconf_env_platform` = ``platformio/riscv_gap``"
+msgstr ":ref:`projectconf_env_platform` = ``platformio/riscv_gap``"
+
+#: ../../../platforms/riscv_gap.rst:22
+msgid ""
+"GreenWaves GAP8 IoT application processor enables the cost-effective "
+"development, deployment and autonomous operation of intelligent sensing "
+"devices that capture, analyze, classify and act on the fusion of rich data "
+"sources such as images, sounds or vibrations."
+msgstr ""
+
+#: ../../../platforms/riscv_gap.rst:24
+msgid ""
+"For more detailed information please visit `vendor site <https://greenwaves-"
+"technologies.com/en/gap8-product/?utm_source=platformio."
+"org&utm_medium=docs>`_."
+msgstr ""
+
+#: ../../../platforms/riscv_gap.rst:28
+msgid "Contents"
+msgstr ""
+
+#: ../../../platforms/riscv_gap_extra.rst:19
+msgid "Drivers"
+msgstr ""
+
+#: ../../../platforms/riscv_gap_extra.rst:21
+msgid "See \"Drivers\" section for :ref:`debugging_tool_ftdi` debug probe."
+msgstr ""
+
+#: ../../../platforms/riscv_gap_extra.rst:24
+msgid "AutoTiler"
+msgstr ""
+
+#: ../../../platforms/riscv_gap_extra.rst:26
+msgid ""
+"You need GAP8 AutoTiler library, please request it via `support@greenwaves-"
+"technologies.com <mailto:support@greenwaves-technologies.com>`_"
+msgstr ""
+
+#: ../../../platforms/riscv_gap_extra.rst:29
+msgid ""
+"Put a library somewhere on a disk and add this folder to library path using :"
+"ref:`projectconf_build_flags` in :ref:`projectconf`. For example,"
+msgstr ""
+
+#: ../../../platforms/riscv_gap_extra.rst:42
+msgid "Running modes"
+msgstr ""
+
+#: ../../../platforms/riscv_gap_extra.rst:44
+msgid "GAPuino supports 2 main modes:"
+msgstr ""
+
+#: ../../../platforms/riscv_gap_extra.rst:46
+msgid "Running from RAM, ``boot_mode=jtag``"
+msgstr ""
+
+#: ../../../platforms/riscv_gap_extra.rst:47
+msgid "Running from HyperFlash, ``boot_mode=jtag_hyper``"
+msgstr ""
+
+#: ../../../platforms/riscv_gap_extra.rst:49
+msgid ""
+"A running process can be controlled through the internal upload commands:"
+msgstr ""
+
+#: ../../../platforms/riscv_gap_extra.rst:51
+msgid "``load``, @TODO"
+msgstr ""
+
+#: ../../../platforms/riscv_gap_extra.rst:52
+msgid "``reqloop``, @TODO"
+msgstr ""
+
+#: ../../../platforms/riscv_gap_extra.rst:53
+msgid "``ioloop``, @TODO"
+msgstr ""
+
+#: ../../../platforms/riscv_gap_extra.rst:54
+msgid "``start``, @TODO"
+msgstr ""
+
+#: ../../../platforms/riscv_gap_extra.rst:55
+msgid "``wait``, @TODO"
+msgstr ""
+
+#: ../../../platforms/riscv_gap_extra.rst:57
+msgid ""
+"You can configure \"boot mode\" and list of upload commands using :ref:"
+"`projectconf`. Default values are:"
+msgstr ""
+
+#: ../../../platforms/riscv_gap_extra.rst:60
+msgid "``board_upload.boot_mode = jtag``"
+msgstr "``board_upload.boot_mode = jtag``"
+
+#: ../../../platforms/riscv_gap_extra.rst:61
+msgid "``board_upload.commands = load reqloop ioloop start wait``"
+msgstr ""
+
+#: ../../../platforms/riscv_gap_extra.rst:64
+msgid "Run from RAM"
+msgstr ""
+
+#: ../../../platforms/riscv_gap_extra.rst:66
+msgid ""
+"This is a default behavior when you run \"Upload\" task in :ref:`pioide` or "
+"use :ref:`piocore` and :option:`pio run --target` command with ``upload`` "
+"target."
+msgstr ""
+
+#: ../../../platforms/riscv_gap_extra.rst:70
+msgid "Run from RAM (without any bridge interaction)"
+msgstr ""
+
+#: ../../../platforms/riscv_gap_extra.rst:72
+#: ../../../platforms/riscv_gap_extra.rst:93
+#: ../../../platforms/riscv_gap_extra.rst:112
+#: ../../../platforms/riscv_gap_extra.rst:132
+msgid "Configure build environment using :ref:`projectconf` as described below"
+msgstr ""
+
+#: ../../../platforms/riscv_gap_extra.rst:82
+#: ../../../platforms/riscv_gap_extra.rst:123
+#: ../../../platforms/riscv_gap_extra.rst:143
+msgid ""
+"Run \"Upload\" task in :ref:`pioide` or use :ref:`piocore` and :option:`pio "
+"run --target` command with ``upload`` target."
+msgstr ""
+
+#: ../../../platforms/riscv_gap_extra.rst:86
+msgid "Flash and run from RAM"
+msgstr ""
+
+#: ../../../platforms/riscv_gap_extra.rst:88
+msgid "The same as :ref:`platform_riscv_gap_uploadfs`."
+msgstr ""
+
+#: ../../../platforms/riscv_gap_extra.rst:91
+msgid "Flash and run from Flash"
+msgstr ""
+
+#: ../../../platforms/riscv_gap_extra.rst:104
+msgid "Perform :ref:`platform_riscv_gap_uploadfs`."
+msgstr ""
+
+#: ../../../platforms/riscv_gap_extra.rst:107
+msgid "Run from Flash"
+msgstr ""
+
+#: ../../../platforms/riscv_gap_extra.rst:110
+#: ../../../platforms/riscv_gap_extra.rst:130
+msgid "You have to perform :ref:`platform_riscv_gap_uploadfs` before."
+msgstr ""
+
+#: ../../../platforms/riscv_gap_extra.rst:127
+msgid "Run from Flash (without any bridge interaction)"
+msgstr ""
+
+#: ../../../platforms/riscv_gap_extra.rst:149
+msgid "Uploading files to HyperFlash"
+msgstr ""
+
+#: ../../../platforms/riscv_gap_extra.rst:151
+msgid ""
+"Create new project using :ref:`pioide` or initialize project using :ref:"
+"`piocore` and :ref:`cmd_project_init` (if you have not initialized it yet)"
+msgstr ""
+
+#: ../../../platforms/riscv_gap_extra.rst:153
+msgid ""
+"Create ``data`` folder (it should be on the same level as ``src`` folder) "
+"and put files here. Also, you can specify own location for :ref:"
+"`projectconf_pio_data_dir`"
+msgstr ""
+
+#: ../../../platforms/riscv_gap_extra.rst:156
+msgid ""
+"Run \"Upload File System image\" task in :ref:`pioide` or use :ref:`piocore` "
+"and :option:`pio run --target` command with ``uploadfs`` target."
+msgstr ""
+
+#: ../../../platforms/riscv_gap_extra.rst:159
+msgid "Examples:"
+msgstr "範例："
+
+#: ../../../platforms/riscv_gap_extra.rst:161
+msgid ""
+"`PULP OS File System <https://github.com/pioplus/platform-riscv_gap/tree/"
+"develop/examples/gapuino-pulp-os-filesystem>`_"
+msgstr ""
+
+#: ../../../platforms/riscv_gap.rst:33
+msgid "Examples"
+msgstr "範例"
+
+#: ../../../platforms/riscv_gap.rst:35
+msgid ""
+"Examples are listed from `RISC-V GAP development platform repository "
+"<https://github.com/platformio/platform-riscv_gap/tree/master/examples?"
+"utm_source=platformio.org&utm_medium=docs>`_:"
+msgstr ""
+
+#: ../../../platforms/riscv_gap.rst:37
+msgid ""
+"`gapuino-mbed-os-irq <https://github.com/platformio/platform-riscv_gap/tree/"
+"master/examples/gapuino-mbed-os-irq?utm_source=platformio."
+"org&utm_medium=docs>`_"
+msgstr ""
+"`gapuino-mbed-os-irq <https://github.com/platformio/platform-riscv_gap/tree/"
+"master/examples/gapuino-mbed-os-irq?utm_source=platformio."
+"org&utm_medium=docs>`_"
+
+#: ../../../platforms/riscv_gap.rst:38
+msgid ""
+"`gapuino-mbed-autotiler-cifar10 <https://github.com/platformio/platform-"
+"riscv_gap/tree/master/examples/gapuino-mbed-autotiler-cifar10?"
+"utm_source=platformio.org&utm_medium=docs>`_"
+msgstr ""
+"`gapuino-mbed-autotiler-cifar10 <https://github.com/platformio/platform-"
+"riscv_gap/tree/master/examples/gapuino-mbed-autotiler-cifar10?"
+"utm_source=platformio.org&utm_medium=docs>`_"
+
+#: ../../../platforms/riscv_gap.rst:39
+msgid ""
+"`gapuino-mbed-driver-hyper-flash <https://github.com/platformio/platform-"
+"riscv_gap/tree/master/examples/gapuino-mbed-driver-hyper-flash?"
+"utm_source=platformio.org&utm_medium=docs>`_"
+msgstr ""
+"`gapuino-mbed-driver-hyper-flash <https://github.com/platformio/platform-"
+"riscv_gap/tree/master/examples/gapuino-mbed-driver-hyper-flash?"
+"utm_source=platformio.org&utm_medium=docs>`_"
+
+#: ../../../platforms/riscv_gap.rst:40
+msgid ""
+"`gapuino-pulp-os-i2c-eeprom <https://github.com/platformio/platform-"
+"riscv_gap/tree/master/examples/gapuino-pulp-os-i2c-eeprom?"
+"utm_source=platformio.org&utm_medium=docs>`_"
+msgstr ""
+"`gapuino-pulp-os-i2c-eeprom <https://github.com/platformio/platform-"
+"riscv_gap/tree/master/examples/gapuino-pulp-os-i2c-eeprom?"
+"utm_source=platformio.org&utm_medium=docs>`_"
+
+#: ../../../platforms/riscv_gap.rst:41
+msgid ""
+"`gapuino-mbed-events-queue <https://github.com/platformio/platform-riscv_gap/"
+"tree/master/examples/gapuino-mbed-events-queue?utm_source=platformio."
+"org&utm_medium=docs>`_"
+msgstr ""
+
+#: ../../../platforms/riscv_gap.rst:42
+msgid ""
+"`gapuino-pulp-os-kernel-dma <https://github.com/platformio/platform-"
+"riscv_gap/tree/master/examples/gapuino-pulp-os-kernel-dma?"
+"utm_source=platformio.org&utm_medium=docs>`_"
+msgstr ""
+
+#: ../../../platforms/riscv_gap.rst:43
+msgid ""
+"`gapuino-mbed-driver-hyper-rtc-alarm <https://github.com/platformio/platform-"
+"riscv_gap/tree/master/examples/gapuino-mbed-driver-hyper-rtc-alarm?"
+"utm_source=platformio.org&utm_medium=docs>`_"
+msgstr ""
+
+#: ../../../platforms/riscv_gap.rst:44
+msgid ""
+"`gapuino-mbed-fft2d <https://github.com/platformio/platform-riscv_gap/tree/"
+"master/examples/gapuino-mbed-fft2d?utm_source=platformio."
+"org&utm_medium=docs>`_"
+msgstr ""
+
+#: ../../../platforms/riscv_gap.rst:45
+msgid ""
+"`gapuino-pulp-os-autotiler-bilinear-resize <https://github.com/platformio/"
+"platform-riscv_gap/tree/master/examples/gapuino-pulp-os-autotiler-bilinear-"
+"resize?utm_source=platformio.org&utm_medium=docs>`_"
+msgstr ""
+
+#: ../../../platforms/riscv_gap.rst:46
+msgid ""
+"`gapuino-mbed-matadd <https://github.com/platformio/platform-riscv_gap/tree/"
+"master/examples/gapuino-mbed-matadd?utm_source=platformio."
+"org&utm_medium=docs>`_"
+msgstr ""
+
+#: ../../../platforms/riscv_gap.rst:47
+msgid ""
+"`gapuino-mbed-features-cluster-dma <https://github.com/platformio/platform-"
+"riscv_gap/tree/master/examples/gapuino-mbed-features-cluster-dma?"
+"utm_source=platformio.org&utm_medium=docs>`_"
+msgstr ""
+"`gapuino-mbed-features-cluster-dma <https://github.com/platformio/platform-"
+"riscv_gap/tree/master/examples/gapuino-mbed-features-cluster-dma?"
+"utm_source=platformio.org&utm_medium=docs>`_"
+
+#: ../../../platforms/riscv_gap.rst:48
+msgid ""
+"`gapuino-mbed-features-filesystem <https://github.com/platformio/platform-"
+"riscv_gap/tree/master/examples/gapuino-mbed-features-filesystem?"
+"utm_source=platformio.org&utm_medium=docs>`_"
+msgstr ""
+"`gapuino-mbed-features-filesystem <https://github.com/platformio/platform-"
+"riscv_gap/tree/master/examples/gapuino-mbed-features-filesystem?"
+"utm_source=platformio.org&utm_medium=docs>`_"
+
+#: ../../../platforms/riscv_gap.rst:49
+msgid ""
+"`gapuino-pulp-os-filesystem <https://github.com/platformio/platform-"
+"riscv_gap/tree/master/examples/gapuino-pulp-os-filesystem?"
+"utm_source=platformio.org&utm_medium=docs>`_"
+msgstr ""
+"`gapuino-pulp-os-filesystem <https://github.com/platformio/platform-"
+"riscv_gap/tree/master/examples/gapuino-pulp-os-filesystem?"
+"utm_source=platformio.org&utm_medium=docs>`_"
+
+#: ../../../platforms/riscv_gap.rst:50
+msgid ""
+"`gapuino-mbed-os-memory-pool <https://github.com/platformio/platform-"
+"riscv_gap/tree/master/examples/gapuino-mbed-os-memory-pool?"
+"utm_source=platformio.org&utm_medium=docs>`_"
+msgstr ""
+"`gapuino-mbed-os-memory-pool <https://github.com/platformio/platform-"
+"riscv_gap/tree/master/examples/gapuino-mbed-os-memory-pool?"
+"utm_source=platformio.org&utm_medium=docs>`_"
+
+#: ../../../platforms/riscv_gap.rst:51
+msgid ""
+"`gapuino-pulp-os-autotiler-cifar10 <https://github.com/platformio/platform-"
+"riscv_gap/tree/master/examples/gapuino-pulp-os-autotiler-cifar10?"
+"utm_source=platformio.org&utm_medium=docs>`_"
+msgstr ""
+"`gapuino-pulp-os-autotiler-cifar10 <https://github.com/platformio/platform-"
+"riscv_gap/tree/master/examples/gapuino-pulp-os-autotiler-cifar10?"
+"utm_source=platformio.org&utm_medium=docs>`_"
+
+#: ../../../platforms/riscv_gap.rst:52
+msgid ""
+"`gapuino-mbed-driver-cpp-raw-serial <https://github.com/platformio/platform-"
+"riscv_gap/tree/master/examples/gapuino-mbed-driver-cpp-raw-serial?"
+"utm_source=platformio.org&utm_medium=docs>`_"
+msgstr ""
+"`gapuino-mbed-driver-cpp-raw-serial <https://github.com/platformio/platform-"
+"riscv_gap/tree/master/examples/gapuino-mbed-driver-cpp-raw-serial?"
+"utm_source=platformio.org&utm_medium=docs>`_"
+
+#: ../../../platforms/riscv_gap.rst:53
+msgid ""
+"`gapuino-pulp-os-hello-world <https://github.com/platformio/platform-"
+"riscv_gap/tree/master/examples/gapuino-pulp-os-hello-world?"
+"utm_source=platformio.org&utm_medium=docs>`_"
+msgstr ""
+"`gapuino-pulp-os-hello-world <https://github.com/platformio/platform-"
+"riscv_gap/tree/master/examples/gapuino-pulp-os-hello-world?"
+"utm_source=platformio.org&utm_medium=docs>`_"
+
+#: ../../../platforms/riscv_gap.rst:56
+msgid "Debugging"
+msgstr ""
+
+#: ../../../platforms/riscv_gap.rst:58
+msgid ""
+":ref:`piodebug` - \"1-click\" solution for debugging with a zero "
+"configuration."
+msgstr ""
+
+#: ../../../platforms/riscv_gap.rst:65
+msgid "Tools & Debug Probes"
+msgstr ""
+
+#: ../../../platforms/riscv_gap.rst:67
+msgid ""
+"Supported debugging tools are listed in \"Debug\" column. For more detailed "
+"information, please scroll table by horizontal. You can switch between "
+"debugging :ref:`debugging_tools` using :ref:`projectconf_debug_tool` option "
+"in :ref:`projectconf`."
+msgstr ""
+
+#: ../../../platforms/riscv_gap.rst:73
+msgid ""
+"You will need to install debug tool drivers depending on your system. Please "
+"click on compatible debug tool below for the further instructions."
+msgstr ""
+
+#: ../../../platforms/riscv_gap.rst:78
+msgid "On-Board Debug Tools"
+msgstr ""
+
+#: ../../../platforms/riscv_gap.rst:80
+msgid ""
+"Boards listed below have on-board debug probe and **ARE READY** for "
+"debugging! You do not need to use/buy external debug probe."
+msgstr ""
+
+#: ../../../platforms/riscv_gap.rst:87 ../../../platforms/riscv_gap.rst:138
+#: ../../../platforms/riscv_gap.rst:169 ../../../platforms/riscv_gap.rst:192
+msgid "Name"
+msgstr ""
+
+#: ../../../platforms/riscv_gap.rst:88 ../../../platforms/riscv_gap.rst:194
+msgid "MCU"
+msgstr ""
+
+#: ../../../platforms/riscv_gap.rst:89 ../../../platforms/riscv_gap.rst:195
+msgid "Frequency"
+msgstr ""
+
+#: ../../../platforms/riscv_gap.rst:90 ../../../platforms/riscv_gap.rst:196
+msgid "Flash"
+msgstr ""
+
+#: ../../../platforms/riscv_gap.rst:91 ../../../platforms/riscv_gap.rst:197
+msgid "RAM"
+msgstr ""
+
+#: ../../../platforms/riscv_gap.rst:92 ../../../platforms/riscv_gap.rst:198
+msgid ":ref:`board_riscv_gap_gapuino`"
+msgstr ""
+
+#: ../../../platforms/riscv_gap.rst:93 ../../../platforms/riscv_gap.rst:200
+msgid "GAP8"
+msgstr ""
+
+#: ../../../platforms/riscv_gap.rst:94 ../../../platforms/riscv_gap.rst:201
+msgid "250MHz"
+msgstr ""
+
+#: ../../../platforms/riscv_gap.rst:95 ../../../platforms/riscv_gap.rst:202
+msgid "64MB"
+msgstr ""
+
+#: ../../../platforms/riscv_gap.rst:96 ../../../platforms/riscv_gap.rst:203
+msgid "8MB"
+msgstr ""
+
+#: ../../../platforms/riscv_gap.rst:100
+msgid "Stable and upstream versions"
+msgstr ""
+
+#: ../../../platforms/riscv_gap.rst:102
+msgid ""
+"You can switch between `stable releases <https://github.com/platformio/"
+"platform-riscv_gap/releases>`__ of RISC-V GAP development platform and the "
+"latest upstream version using :ref:`projectconf_env_platform` option in :ref:"
+"`projectconf` as described below."
+msgstr ""
+
+#: ../../../platforms/riscv_gap.rst:107
+msgid "Stable"
+msgstr ""
+
+#: ../../../platforms/riscv_gap.rst:123
+msgid "Upstream"
+msgstr ""
+
+#: ../../../platforms/riscv_gap.rst:133
+msgid "Packages"
+msgstr ""
+
+#: ../../../platforms/riscv_gap.rst:139 ../../../platforms/riscv_gap.rst:170
+msgid "Description"
+msgstr ""
+
+#: ../../../platforms/riscv_gap.rst:141
+msgid ""
+"`framework-gap_sdk <https://registry.platformio.org/tools/platformio/"
+"framework-gap_sdk>`__"
+msgstr ""
+
+#: ../../../platforms/riscv_gap.rst:142 ../../../platforms/riscv_gap.rst:176
+msgid "SDK for Greenwaves Technologies' GAP8 IoT Application Processor"
+msgstr ""
+
+#: ../../../platforms/riscv_gap.rst:144
+msgid ""
+"`tool-pulp_tools <https://registry.platformio.org/tools/platformio/tool-"
+"pulp_tools>`__"
+msgstr ""
+
+#: ../../../platforms/riscv_gap.rst:145
+msgid "Top project for building PULP development tools"
+msgstr ""
+
+#: ../../../platforms/riscv_gap.rst:147
+msgid ""
+"`toolchain-riscv-pulp <https://registry.platformio.org/tools/platformio/"
+"toolchain-riscv-pulp>`__"
+msgstr ""
+
+#: ../../../platforms/riscv_gap.rst:148
+msgid "GNU toolchain for RISC-V (PULP platform)"
+msgstr ""
+
+#: ../../../platforms/riscv_gap.rst:151
+msgid "**Linux Users**:"
+msgstr "**Linux 使用者**："
+
+#: ../../../platforms/riscv_gap.rst:153
+msgid "Install \"udev\" rules :ref:`platformio_udev_rules`"
+msgstr ""
+
+#: ../../../platforms/riscv_gap.rst:154
+msgid ""
+"Raspberry Pi users, please read this article `Enable serial port on "
+"Raspberry Pi <https://hallard.me/enable-serial-port-on-raspberry-pi/>`__."
+msgstr ""
+
+#: ../../../platforms/riscv_gap.rst:158
+msgid "**Windows Users:**"
+msgstr "**Windows 使用者：**"
+
+#: ../../../platforms/riscv_gap.rst:160
+msgid ""
+"Please check that you have a correctly installed USB driver from board "
+"manufacturer"
+msgstr ""
+
+#: ../../../platforms/riscv_gap.rst:165
+msgid "Frameworks"
+msgstr "框架"
+
+#: ../../../platforms/riscv_gap.rst:172
+msgid ":ref:`framework_mbed`"
+msgstr ""
+
+#: ../../../platforms/riscv_gap.rst:173
+msgid ""
+"Arm Mbed OS is a platform operating system designed for the internet of "
+"things"
+msgstr ""
+
+#: ../../../platforms/riscv_gap.rst:175
+msgid ":ref:`framework_pulp-os`"
+msgstr ""
+
+#: ../../../platforms/riscv_gap.rst:179
+msgid "Boards"
+msgstr "開發板"
+
+#: ../../../platforms/riscv_gap.rst:182
+msgid "You can list pre-configured boards by :ref:`cmd_boards` command"
+msgstr ""
+
+#: ../../../platforms/riscv_gap.rst:183
+msgid ""
+"For more detailed ``board`` information please scroll the tables below by "
+"horizontally."
+msgstr ""
+
+#: ../../../platforms/riscv_gap.rst:187
+msgid "GreenWaves Technologies"
+msgstr ""
+
+#: ../../../platforms/riscv_gap.rst:193
+msgid "Debug"
+msgstr ""
+
+#: ../../../platforms/riscv_gap.rst:199
+msgid "On-board"
+msgstr ""
