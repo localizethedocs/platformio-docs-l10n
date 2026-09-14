@@ -1,0 +1,1004 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="zh-CN" data-content_root="../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-LQZCKGZE94"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-LQZCKGZE94');
+    </script>
+    
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Microchip PIC32 &mdash; PlatformIO latest documentation</title>
+      <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=3ba690ee" />
+      <link rel="stylesheet" type="text/css" href="../_static/css/theme.css?v=e59714d7" />
+      <link rel="stylesheet" type="text/css" href="../_static/copybutton.css?v=76b2166b" />
+
+  
+    <link rel="shortcut icon" href="../_static/favicon.ico"/>
+    <link rel="canonical" href="https://projects.localizethedocs.org/platformio-docs-l10n/platforms/microchippic32.html" />
+      <script src="../_static/jquery.js?v=5d32c60e"></script>
+      <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="../_static/documentation_options.js?v=476ecc73"></script>
+      <script src="../_static/doctools.js?v=9bcbadda"></script>
+      <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+      <script src="../_static/clipboard.min.js?v=a7894cd8"></script>
+      <script src="../_static/copybutton.js?v=f281be69"></script>
+      <script src="../_static/translations.js?v=beaddf03"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="索引" href="../genindex.html" />
+    <link rel="search" title="搜索" href="../search.html" />
+    <link rel="next" title="Nordic nRF51" href="nordicnrf51.html" />
+    <link rel="prev" title="Maxim 32" href="maxim32.html" />
+
+ 
+<link rel="stylesheet" href="../_static/css/extra.css" type="text/css" />
+<script src="../_static/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="../ltd-provenance.js"></script>
+<script type="text/javascript" src="../ltd-current.js"></script>
+<script type="text/javascript" src="../../../ltd-config.js"></script>
+<script type="text/javascript" src="../../../ltd-flyout.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../index.html">
+            
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="搜索文档" aria-label="搜索文档" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="导航菜单">
+
+              <ul>
+<li class="toctree-l1"><a class="reference internal" href="../what-is-platformio.html">What is PlatformIO?</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Getting Started</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../integration/ide/pioide.html">PlatformIO IDE</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../core/index.html">PlatformIO Core (CLI)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../home/index.html">PlatformIO Home</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../plus/pio-account.html">PlatformIO Account</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../tutorials/index.html">Tutorials and Examples</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Configuration</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../projectconf/index.html">platformio.ini</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../projectconf/build_configurations.html">Build Configurations</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../envvars.html">Environment Variables</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Instruments</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../librarymanager/index.html">Library Management</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">Platforms</a><ul class="current">
+<li class="toctree-l2 current"><a class="reference internal" href="index.html#embedded">Embedded</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="aceinna_imu.html">Aceinna IMU</a></li>
+<li class="toctree-l3"><a class="reference internal" href="atmelavr.html">Atmel AVR</a></li>
+<li class="toctree-l3"><a class="reference internal" href="atmelmegaavr.html">Atmel megaAVR</a></li>
+<li class="toctree-l3"><a class="reference internal" href="atmelsam.html">Atmel SAM</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chipsalliance.html">CHIPS Alliance</a></li>
+<li class="toctree-l3"><a class="reference internal" href="espressif32.html">Espressif 32</a></li>
+<li class="toctree-l3"><a class="reference internal" href="espressif8266.html">Espressif 8266</a></li>
+<li class="toctree-l3"><a class="reference internal" href="freescalekinetis.html">Freescale Kinetis</a></li>
+<li class="toctree-l3"><a class="reference internal" href="heltec-cubecell.html">Heltec CubeCell</a></li>
+<li class="toctree-l3"><a class="reference internal" href="intel_arc32.html">Intel ARC32</a></li>
+<li class="toctree-l3"><a class="reference internal" href="intel_mcs51.html">Intel MCS-51 (8051)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="lattice_ice40.html">Lattice iCE40</a></li>
+<li class="toctree-l3"><a class="reference internal" href="maxim32.html">Maxim 32</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">Microchip PIC32</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#examples">Examples</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#stable-and-upstream-versions">Stable and upstream versions</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#packages">Packages</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#frameworks">Frameworks</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#boards">Boards</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="nordicnrf51.html">Nordic nRF51</a></li>
+<li class="toctree-l3"><a class="reference internal" href="nordicnrf52.html">Nordic nRF52</a></li>
+<li class="toctree-l3"><a class="reference internal" href="nxpimxrt.html">NXP i.MX RT</a></li>
+<li class="toctree-l3"><a class="reference internal" href="nxplpc.html">NXP LPC</a></li>
+<li class="toctree-l3"><a class="reference internal" href="openhw.html">OpenHW Group</a></li>
+<li class="toctree-l3"><a class="reference internal" href="raspberrypi.html">Raspberry Pi RP2040</a></li>
+<li class="toctree-l3"><a class="reference internal" href="renesas-ra.html">Renesas RA</a></li>
+<li class="toctree-l3"><a class="reference internal" href="riscv_gap.html">RISC-V GAP</a></li>
+<li class="toctree-l3"><a class="reference internal" href="shakti.html">Shakti</a></li>
+<li class="toctree-l3"><a class="reference internal" href="sifive.html">SiFive</a></li>
+<li class="toctree-l3"><a class="reference internal" href="siliconlabsefm32.html">Silicon Labs EFM32</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ststm32.html">ST STM32</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ststm8.html">ST STM8</a></li>
+<li class="toctree-l3"><a class="reference internal" href="teensy.html">Teensy</a></li>
+<li class="toctree-l3"><a class="reference internal" href="timsp430.html">TI MSP430</a></li>
+<li class="toctree-l3"><a class="reference internal" href="titiva.html">TI TIVA</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="index.html#desktop">Desktop</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../frameworks/index.html">Frameworks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../boards/index.html">Boards</a></li>
+<li class="toctree-l1"><a class="reference internal" href="custom_platform_and_board.html">Custom Platform &amp; Board</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Advanced</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../scripting/index.html">Scripting</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../plus/debugging.html">Debugging</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../advanced/unit-testing/index.html">Unit Testing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../advanced/static-code-analysis/index.html">Static Code Analysis</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../plus/pio-remote.html">Remote Development</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Integration</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../integration/ide/index.html">Cloud &amp; Desktop IDEs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../integration/ci/index.html">Continuous Integration</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../integration/compile_commands.html">Compilation database <code class="docutils literal notranslate"><span class="pre">compile_commands.json</span></code></a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Miscellaneous</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../faq/index.html">FAQ</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../core/history.html">Release Notes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../core/migration.html">Migrating from 5.x to 6.0</a></li>
+</ul>
+
+<ins data-rvad-zoneid="7" data-rvad-id="f837d8c96893e793fdbb230cffb628fc"></ins>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="移动版导航菜单" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">PlatformIO</a>
+      </nav>
+
+      <div class="wy-nav-content">
+<ins data-rvad-zoneid="1" data-rvad-id="f837d8c96893e793fdbb230cffb628fc"></ins>
+
+        <div class="rst-content">
+          <div role="navigation" aria-label="页面导航">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="index.html">Development Platforms</a></li>
+      <li class="breadcrumb-item active">Microchip PIC32</li>
+      <li class="wy-breadcrumbs-aside">
+              <a href="https://github.com/platformio/platformio-docs/blob/develop/platforms/microchippic32.rst" class="fa fa-github"> 在 GitHub 上编辑</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="microchip-pic32">
+<span id="platform-microchippic32"></span><h1>Microchip PIC32<a class="headerlink" href="#microchip-pic32" title="Link to this heading"></a></h1>
+<dl class="field-list simple">
+<dt class="field-odd">Registry<span class="colon">:</span></dt>
+<dd class="field-odd"><p><a class="reference external" href="https://registry.platformio.org/platforms/platformio/microchippic32">https://registry.platformio.org/platforms/platformio/microchippic32</a></p>
+</dd>
+<dt class="field-even">Configuration<span class="colon">:</span></dt>
+<dd class="field-even"><p><a class="reference internal" href="../projectconf/sections/env/options/platform/platform.html#projectconf-env-platform"><span class="std std-ref">platform</span></a> = <code class="docutils literal notranslate"><span class="pre">platformio/microchippic32</span></code></p>
+</dd>
+</dl>
+<p>Microchip's 32-bit portfolio with the MIPS microAptiv or M4K core offer high performance microcontrollers, and all the tools needed to develop your embedded projects. PIC32 MCUs gives your application the processing power, memory and peripherals your design needs!</p>
+<p>For more detailed information please visit <a class="reference external" href="http://www.microchip.com/design-centers/32-bit?utm_source=platformio.org&amp;utm_medium=docs">vendor site</a>.</p>
+<nav class="contents local" id="contents">
+<p class="topic-title">Contents</p>
+<ul class="simple">
+<li><p><a class="reference internal" href="#examples" id="id3">Examples</a></p></li>
+<li><p><a class="reference internal" href="#stable-and-upstream-versions" id="id4">Stable and upstream versions</a></p></li>
+<li><p><a class="reference internal" href="#packages" id="id5">Packages</a></p></li>
+<li><p><a class="reference internal" href="#frameworks" id="id6">Frameworks</a></p></li>
+<li><p><a class="reference internal" href="#boards" id="id7">Boards</a></p></li>
+</ul>
+</nav>
+<section id="examples">
+<h2><a class="toc-backref" href="#id3" role="doc-backlink">Examples</a><a class="headerlink" href="#examples" title="Link to this heading"></a></h2>
+<p>Examples are listed from <a class="reference external" href="https://github.com/platformio/platform-microchippic32/tree/master/examples?utm_source=platformio.org&amp;utm_medium=docs">Microchip PIC32 development platform repository</a>:</p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://github.com/platformio/platform-microchippic32/tree/master/examples/arduino-blink?utm_source=platformio.org&amp;utm_medium=docs">arduino-blink</a></p></li>
+<li><p><a class="reference external" href="https://github.com/platformio/platform-microchippic32/tree/master/examples/arduino-internal-libs?utm_source=platformio.org&amp;utm_medium=docs">arduino-internal-libs</a></p></li>
+</ul>
+</section>
+<section id="stable-and-upstream-versions">
+<h2><a class="toc-backref" href="#id4" role="doc-backlink">Stable and upstream versions</a><a class="headerlink" href="#stable-and-upstream-versions" title="Link to this heading"></a></h2>
+<p>You can switch between <a class="reference external" href="https://github.com/platformio/platform-microchippic32/releases">stable releases</a>
+of Microchip PIC32 development platform and the latest upstream version using
+<a class="reference internal" href="../projectconf/sections/env/options/platform/platform.html#projectconf-env-platform"><span class="std std-ref">platform</span></a> option in <a class="reference internal" href="../projectconf/index.html#projectconf"><span class="std std-ref">&quot;platformio.ini&quot; (Project Configuration File)</span></a> as described below.</p>
+<section id="stable">
+<h3>Stable<a class="headerlink" href="#stable" title="Link to this heading"></a></h3>
+<div class="highlight-ini notranslate"><div class="highlight"><pre><span></span><span class="c1">; Latest stable version, NOT recommended</span>
+<span class="c1">; Pin the version as shown below</span>
+<span class="k">[env:latest_stable]</span>
+<span class="na">platform</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">microchippic32</span>
+<span class="na">board</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">...</span>
+
+<span class="c1">; Specific version</span>
+<span class="k">[env:custom_stable]</span>
+<span class="na">platform</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">microchippic32@x.y.z</span>
+<span class="na">board</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">...</span>
+</pre></div>
+</div>
+</section>
+<section id="upstream">
+<h3>Upstream<a class="headerlink" href="#upstream" title="Link to this heading"></a></h3>
+<div class="highlight-ini notranslate"><div class="highlight"><pre><span></span><span class="k">[env:upstream_develop]</span>
+<span class="na">platform</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">https://github.com/platformio/platform-microchippic32.git</span>
+<span class="na">board</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">...</span>
+</pre></div>
+</div>
+</section>
+</section>
+<section id="packages">
+<h2><a class="toc-backref" href="#id5" role="doc-backlink">Packages</a><a class="headerlink" href="#packages" title="Link to this heading"></a></h2>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Name</p></th>
+<th class="head"><p>Description</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><a class="reference external" href="https://registry.platformio.org/tools/platformio/framework-arduinomicrochippic32">framework-arduinomicrochippic32</a></p></td>
+<td><p>Arduino Wiring-based Framework for Microchip PIC32 microcontrollers</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference external" href="https://registry.platformio.org/tools/platformio/tool-pic32prog">tool-pic32prog</a></p></td>
+<td><p>Flash programming utility for Microchip PIC32 microcontrollers</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference external" href="https://registry.platformio.org/tools/platformio/toolchain-microchippic32">toolchain-microchippic32</a></p></td>
+<td><p>GCC Toolchain for Microchip PIC32</p></td>
+</tr>
+</tbody>
+</table>
+<div class="admonition warning">
+<p class="admonition-title">警告</p>
+<p><strong>Linux Users</strong>:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>Install &quot;udev&quot; rules <a class="reference internal" href="../core/installation/udev-rules.html#platformio-udev-rules"><span class="std std-ref">99-platformio-udev.rules</span></a></p></li>
+<li><p>Raspberry Pi users, please read this article
+<a class="reference external" href="https://hallard.me/enable-serial-port-on-raspberry-pi/">Enable serial port on Raspberry Pi</a>.</p></li>
+</ul>
+</div></blockquote>
+<p><strong>Windows Users:</strong></p>
+<blockquote>
+<div><p>Please check that you have a correctly installed USB driver from board
+manufacturer</p>
+</div></blockquote>
+</div>
+</section>
+<section id="frameworks">
+<h2><a class="toc-backref" href="#id6" role="doc-backlink">Frameworks</a><a class="headerlink" href="#frameworks" title="Link to this heading"></a></h2>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Name</p></th>
+<th class="head"><p>Description</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><a class="reference internal" href="../frameworks/arduino.html#framework-arduino"><span class="std std-ref">Arduino</span></a></p></td>
+<td><p>Arduino Wiring-based Framework allows writing cross-platform software to control devices attached to a wide range of Arduino boards to create all kinds of creative coding, interactive objects, spaces or physical experiences.</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="boards">
+<h2><a class="toc-backref" href="#id7" role="doc-backlink">Boards</a><a class="headerlink" href="#boards" title="Link to this heading"></a></h2>
+<div class="admonition note">
+<p class="admonition-title">备注</p>
+<ul class="simple">
+<li><p>You can list pre-configured boards by <a class="reference internal" href="../core/userguide/cmd_boards.html#cmd-boards"><span class="std std-ref">pio boards</span></a> command</p></li>
+<li><p>For more detailed <code class="docutils literal notranslate"><span class="pre">board</span></code> information please scroll the tables below by
+horizontally.</p></li>
+</ul>
+</div>
+<section id="d-systems">
+<h3>4D Systems<a class="headerlink" href="#d-systems" title="Link to this heading"></a></h3>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Name</p></th>
+<th class="head"><p>Debug</p></th>
+<th class="head"><p>MCU</p></th>
+<th class="head"><p>Frequency</p></th>
+<th class="head"><p>Flash</p></th>
+<th class="head"><p>RAM</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><a class="reference internal" href="../boards/microchippic32/picadillo_35t.html#board-microchippic32-picadillo-35t"><span class="std std-ref">4D Systems PICadillo 35T</span></a></p></td>
+<td><p>No</p></td>
+<td><p>32MX795F512L</p></td>
+<td><p>80MHz</p></td>
+<td><p>508KB</p></td>
+<td><p>128KB</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="boxtec">
+<h3>BOXTEC<a class="headerlink" href="#boxtec" title="Link to this heading"></a></h3>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Name</p></th>
+<th class="head"><p>Debug</p></th>
+<th class="head"><p>MCU</p></th>
+<th class="head"><p>Frequency</p></th>
+<th class="head"><p>Flash</p></th>
+<th class="head"><p>RAM</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><a class="reference internal" href="../boards/microchippic32/helvepic32.html#board-microchippic32-helvepic32"><span class="std std-ref">HelvePic32</span></a></p></td>
+<td><p>No</p></td>
+<td><p>32MX250F128B</p></td>
+<td><p>48MHz</p></td>
+<td><p>120KB</p></td>
+<td><p>32KB</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="../boards/microchippic32/helvepic32_breadboardside.html#board-microchippic32-helvepic32-breadboardside"><span class="std std-ref">HelvePic32</span></a></p></td>
+<td><p>No</p></td>
+<td><p>32MX250F128B</p></td>
+<td><p>48MHz</p></td>
+<td><p>120KB</p></td>
+<td><p>32KB</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="../boards/microchippic32/helvepic32_smd.html#board-microchippic32-helvepic32-smd"><span class="std std-ref">HelvePic32</span></a></p></td>
+<td><p>No</p></td>
+<td><p>32MX250F128D</p></td>
+<td><p>48MHz</p></td>
+<td><p>120KB</p></td>
+<td><p>32KB</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="../boards/microchippic32/helvepic32_mx270.html#board-microchippic32-helvepic32-mx270"><span class="std std-ref">HelvePic32 MX270</span></a></p></td>
+<td><p>No</p></td>
+<td><p>32MX270F256B</p></td>
+<td><p>48MHz</p></td>
+<td><p>244KB</p></td>
+<td><p>62KB</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="../boards/microchippic32/helvepic32_robot.html#board-microchippic32-helvepic32-robot"><span class="std std-ref">HelvePic32 Robot</span></a></p></td>
+<td><p>No</p></td>
+<td><p>32MX270F256D</p></td>
+<td><p>48MHz</p></td>
+<td><p>244KB</p></td>
+<td><p>62KB</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="../boards/microchippic32/helvepic32_smd_mx270.html#board-microchippic32-helvepic32-smd-mx270"><span class="std std-ref">HelvePic32 SMD MX270</span></a></p></td>
+<td><p>No</p></td>
+<td><p>32MX270F256D</p></td>
+<td><p>48MHz</p></td>
+<td><p>244KB</p></td>
+<td><p>62KB</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="chipkit">
+<h3>ChipKIT<a class="headerlink" href="#chipkit" title="Link to this heading"></a></h3>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Name</p></th>
+<th class="head"><p>Debug</p></th>
+<th class="head"><p>MCU</p></th>
+<th class="head"><p>Frequency</p></th>
+<th class="head"><p>Flash</p></th>
+<th class="head"><p>RAM</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><a class="reference internal" href="../boards/microchippic32/rgb_station.html#board-microchippic32-rgb-station"><span class="std std-ref">RGB Station</span></a></p></td>
+<td><p>No</p></td>
+<td><p>32MX270F256D</p></td>
+<td><p>48MHz</p></td>
+<td><p>240KB</p></td>
+<td><p>62KB</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="digilent">
+<h3>Digilent<a class="headerlink" href="#digilent" title="Link to this heading"></a></h3>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Name</p></th>
+<th class="head"><p>Debug</p></th>
+<th class="head"><p>MCU</p></th>
+<th class="head"><p>Frequency</p></th>
+<th class="head"><p>Flash</p></th>
+<th class="head"><p>RAM</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><a class="reference internal" href="../boards/microchippic32/cerebot32mx4.html#board-microchippic32-cerebot32mx4"><span class="std std-ref">Digilent Cerebot 32MX4</span></a></p></td>
+<td><p>No</p></td>
+<td><p>32MX460F512L</p></td>
+<td><p>80MHz</p></td>
+<td><p>508KB</p></td>
+<td><p>32KB</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="../boards/microchippic32/cerebot32mx7.html#board-microchippic32-cerebot32mx7"><span class="std std-ref">Digilent Cerebot 32MX7</span></a></p></td>
+<td><p>No</p></td>
+<td><p>32MX795F512L</p></td>
+<td><p>80MHz</p></td>
+<td><p>508KB</p></td>
+<td><p>128KB</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="../boards/microchippic32/openscope.html#board-microchippic32-openscope"><span class="std std-ref">Digilent OpenScope</span></a></p></td>
+<td><p>No</p></td>
+<td><p>32MZ2048EFG124</p></td>
+<td><p>200MHz</p></td>
+<td><p>1.98MB</p></td>
+<td><p>512KB</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="../boards/microchippic32/chipkit_cmod.html#board-microchippic32-chipkit-cmod"><span class="std std-ref">Digilent chipKIT Cmod</span></a></p></td>
+<td><p>No</p></td>
+<td><p>32MX150F128D</p></td>
+<td><p>40MHz</p></td>
+<td><p>124KB</p></td>
+<td><p>32KB</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="../boards/microchippic32/chipkit_dp32.html#board-microchippic32-chipkit-dp32"><span class="std std-ref">Digilent chipKIT DP32</span></a></p></td>
+<td><p>No</p></td>
+<td><p>32MX250F128B</p></td>
+<td><p>40MHz</p></td>
+<td><p>120KB</p></td>
+<td><p>32KB</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="../boards/microchippic32/mega_pic32.html#board-microchippic32-mega-pic32"><span class="std std-ref">Digilent chipKIT MAX32</span></a></p></td>
+<td><p>No</p></td>
+<td><p>32MX795F512L</p></td>
+<td><p>80MHz</p></td>
+<td><p>508KB</p></td>
+<td><p>128KB</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="../boards/microchippic32/chipkit_mx3.html#board-microchippic32-chipkit-mx3"><span class="std std-ref">Digilent chipKIT MX3</span></a></p></td>
+<td><p>No</p></td>
+<td><p>32MX320F128H</p></td>
+<td><p>80MHz</p></td>
+<td><p>124KB</p></td>
+<td><p>16KB</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="../boards/microchippic32/chipkit_pro_mx4.html#board-microchippic32-chipkit-pro-mx4"><span class="std std-ref">Digilent chipKIT Pro MX4</span></a></p></td>
+<td><p>No</p></td>
+<td><p>32MX460F512L</p></td>
+<td><p>80MHz</p></td>
+<td><p>508KB</p></td>
+<td><p>32KB</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="../boards/microchippic32/chipkit_pro_mx7.html#board-microchippic32-chipkit-pro-mx7"><span class="std std-ref">Digilent chipKIT Pro MX7</span></a></p></td>
+<td><p>No</p></td>
+<td><p>32MX795F512L</p></td>
+<td><p>80MHz</p></td>
+<td><p>508KB</p></td>
+<td><p>128KB</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="../boards/microchippic32/uno_pic32.html#board-microchippic32-uno-pic32"><span class="std std-ref">Digilent chipKIT UNO32</span></a></p></td>
+<td><p>No</p></td>
+<td><p>32MX320F128H</p></td>
+<td><p>80MHz</p></td>
+<td><p>124KB</p></td>
+<td><p>16KB</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="../boards/microchippic32/chipkit_wf32.html#board-microchippic32-chipkit-wf32"><span class="std std-ref">Digilent chipKIT WF32</span></a></p></td>
+<td><p>No</p></td>
+<td><p>32MX695F512L</p></td>
+<td><p>80MHz</p></td>
+<td><p>508KB</p></td>
+<td><p>128KB</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="../boards/microchippic32/chipkit_wifire.html#board-microchippic32-chipkit-wifire"><span class="std std-ref">Digilent chipKIT WiFire</span></a></p></td>
+<td><p>No</p></td>
+<td><p>32MZ2048ECG100</p></td>
+<td><p>200MHz</p></td>
+<td><p>1.98MB</p></td>
+<td><p>512KB</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="../boards/microchippic32/chipkit_uc32.html#board-microchippic32-chipkit-uc32"><span class="std std-ref">Digilent chipKIT uC32</span></a></p></td>
+<td><p>No</p></td>
+<td><p>32MX340F512H</p></td>
+<td><p>80MHz</p></td>
+<td><p>508KB</p></td>
+<td><p>32KB</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="../boards/microchippic32/chipkit_wifire_revc.html#board-microchippic32-chipkit-wifire-revc"><span class="std std-ref">chipKIT WiFire rev. C</span></a></p></td>
+<td><p>No</p></td>
+<td><p>32MZ2048EFG100</p></td>
+<td><p>200MHz</p></td>
+<td><p>1.98MB</p></td>
+<td><p>512KB</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="fubarino">
+<h3>Fubarino<a class="headerlink" href="#fubarino" title="Link to this heading"></a></h3>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Name</p></th>
+<th class="head"><p>Debug</p></th>
+<th class="head"><p>MCU</p></th>
+<th class="head"><p>Frequency</p></th>
+<th class="head"><p>Flash</p></th>
+<th class="head"><p>RAM</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><a class="reference internal" href="../boards/microchippic32/fubarino_mini.html#board-microchippic32-fubarino-mini"><span class="std std-ref">Fubarino Mini</span></a></p></td>
+<td><p>No</p></td>
+<td><p>32MX250F128D</p></td>
+<td><p>48MHz</p></td>
+<td><p>120KB</p></td>
+<td><p>32KB</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="../boards/microchippic32/fubarino_sd.html#board-microchippic32-fubarino-sd"><span class="std std-ref">Fubarino SD (1.5)</span></a></p></td>
+<td><p>No</p></td>
+<td><p>32MX795F512H</p></td>
+<td><p>80MHz</p></td>
+<td><p>508KB</p></td>
+<td><p>128KB</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="../boards/microchippic32/fubarino_mini_20.html#board-microchippic32-fubarino-mini-20"><span class="std std-ref">Mini 2.0</span></a></p></td>
+<td><p>No</p></td>
+<td><p>32MX270F256D</p></td>
+<td><p>48MHz</p></td>
+<td><p>240KB</p></td>
+<td><p>62KB</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="makerology">
+<h3>Makerology<a class="headerlink" href="#makerology" title="Link to this heading"></a></h3>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Name</p></th>
+<th class="head"><p>Debug</p></th>
+<th class="head"><p>MCU</p></th>
+<th class="head"><p>Frequency</p></th>
+<th class="head"><p>Flash</p></th>
+<th class="head"><p>RAM</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><a class="reference internal" href="../boards/microchippic32/dsmini.html#board-microchippic32-dsmini"><span class="std std-ref">DataStation Mini</span></a></p></td>
+<td><p>No</p></td>
+<td><p>32MX150F128C</p></td>
+<td><p>40MHz</p></td>
+<td><p>120KB</p></td>
+<td><p>32KB</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="mikroelektronika">
+<h3>MikroElektronika<a class="headerlink" href="#mikroelektronika" title="Link to this heading"></a></h3>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Name</p></th>
+<th class="head"><p>Debug</p></th>
+<th class="head"><p>MCU</p></th>
+<th class="head"><p>Frequency</p></th>
+<th class="head"><p>Flash</p></th>
+<th class="head"><p>RAM</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><a class="reference internal" href="../boards/microchippic32/clicker2.html#board-microchippic32-clicker2"><span class="std std-ref">MikroElektronika Clicker 2</span></a></p></td>
+<td><p>No</p></td>
+<td><p>32MX460F512L</p></td>
+<td><p>80MHz</p></td>
+<td><p>508KB</p></td>
+<td><p>32KB</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="../boards/microchippic32/flipnclickmz.html#board-microchippic32-flipnclickmz"><span class="std std-ref">MikroElektronika Flip N Click MZ</span></a></p></td>
+<td><p>No</p></td>
+<td><p>32MZ2048EFH100</p></td>
+<td><p>252MHz</p></td>
+<td><p>1.98MB</p></td>
+<td><p>512KB</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="olimex">
+<h3>Olimex<a class="headerlink" href="#olimex" title="Link to this heading"></a></h3>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Name</p></th>
+<th class="head"><p>Debug</p></th>
+<th class="head"><p>MCU</p></th>
+<th class="head"><p>Frequency</p></th>
+<th class="head"><p>Flash</p></th>
+<th class="head"><p>RAM</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><a class="reference internal" href="../boards/microchippic32/pinguino32.html#board-microchippic32-pinguino32"><span class="std std-ref">Olimex PIC32-PINGUINO</span></a></p></td>
+<td><p>No</p></td>
+<td><p>32MX440F256H</p></td>
+<td><p>80MHz</p></td>
+<td><p>252KB</p></td>
+<td><p>32KB</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="openbci">
+<h3>OpenBCI<a class="headerlink" href="#openbci" title="Link to this heading"></a></h3>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Name</p></th>
+<th class="head"><p>Debug</p></th>
+<th class="head"><p>MCU</p></th>
+<th class="head"><p>Frequency</p></th>
+<th class="head"><p>Flash</p></th>
+<th class="head"><p>RAM</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><a class="reference internal" href="../boards/microchippic32/openbci.html#board-microchippic32-openbci"><span class="std std-ref">OpenBCI 32bit</span></a></p></td>
+<td><p>No</p></td>
+<td><p>32MX250F128B</p></td>
+<td><p>40MHz</p></td>
+<td><p>120KB</p></td>
+<td><p>32KB</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="pontech">
+<h3>PONTECH<a class="headerlink" href="#pontech" title="Link to this heading"></a></h3>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Name</p></th>
+<th class="head"><p>Debug</p></th>
+<th class="head"><p>MCU</p></th>
+<th class="head"><p>Frequency</p></th>
+<th class="head"><p>Flash</p></th>
+<th class="head"><p>RAM</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><a class="reference internal" href="../boards/microchippic32/usbono_pic32.html#board-microchippic32-usbono-pic32"><span class="std std-ref">PONTECH UAV100</span></a></p></td>
+<td><p>No</p></td>
+<td><p>32MX440F512H</p></td>
+<td><p>80MHz</p></td>
+<td><p>508KB</p></td>
+<td><p>32KB</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="id1">
+<h3>Pontech<a class="headerlink" href="#id1" title="Link to this heading"></a></h3>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Name</p></th>
+<th class="head"><p>Debug</p></th>
+<th class="head"><p>MCU</p></th>
+<th class="head"><p>Frequency</p></th>
+<th class="head"><p>Flash</p></th>
+<th class="head"><p>RAM</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><a class="reference internal" href="../boards/microchippic32/nofire.html#board-microchippic32-nofire"><span class="std std-ref">Pontech NoFire</span></a></p></td>
+<td><p>No</p></td>
+<td><p>32MZ2048EFG100</p></td>
+<td><p>200MHz</p></td>
+<td><p>1.98MB</p></td>
+<td><p>512KB</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="../boards/microchippic32/quick240_usb.html#board-microchippic32-quick240-usb"><span class="std std-ref">Pontech Quick240</span></a></p></td>
+<td><p>No</p></td>
+<td><p>32MX795F512L</p></td>
+<td><p>80MHz</p></td>
+<td><p>508KB</p></td>
+<td><p>128KB</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="seeedstudio">
+<h3>SeeedStudio<a class="headerlink" href="#seeedstudio" title="Link to this heading"></a></h3>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Name</p></th>
+<th class="head"><p>Debug</p></th>
+<th class="head"><p>MCU</p></th>
+<th class="head"><p>Frequency</p></th>
+<th class="head"><p>Flash</p></th>
+<th class="head"><p>RAM</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><a class="reference internal" href="../boards/microchippic32/cui32stem.html#board-microchippic32-cui32stem"><span class="std std-ref">SeeedStudio CUI32stem</span></a></p></td>
+<td><p>No</p></td>
+<td><p>32MX795F512H</p></td>
+<td><p>80MHz</p></td>
+<td><p>508KB</p></td>
+<td><p>128KB</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="sparkfun">
+<h3>SparkFun<a class="headerlink" href="#sparkfun" title="Link to this heading"></a></h3>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Name</p></th>
+<th class="head"><p>Debug</p></th>
+<th class="head"><p>MCU</p></th>
+<th class="head"><p>Frequency</p></th>
+<th class="head"><p>Flash</p></th>
+<th class="head"><p>RAM</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><a class="reference internal" href="../boards/microchippic32/cui32.html#board-microchippic32-cui32"><span class="std std-ref">Pic32 CUI32-Development Stick</span></a></p></td>
+<td><p>No</p></td>
+<td><p>32MX440F512H</p></td>
+<td><p>80MHz</p></td>
+<td><p>508KB</p></td>
+<td><p>32KB</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="ubw32">
+<h3>UBW32<a class="headerlink" href="#ubw32" title="Link to this heading"></a></h3>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Name</p></th>
+<th class="head"><p>Debug</p></th>
+<th class="head"><p>MCU</p></th>
+<th class="head"><p>Frequency</p></th>
+<th class="head"><p>Flash</p></th>
+<th class="head"><p>RAM</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><a class="reference internal" href="../boards/microchippic32/ubw32_mx460.html#board-microchippic32-ubw32-mx460"><span class="std std-ref">UBW32 MX460</span></a></p></td>
+<td><p>No</p></td>
+<td><p>32MX460F512L</p></td>
+<td><p>80MHz</p></td>
+<td><p>508KB</p></td>
+<td><p>32KB</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="../boards/microchippic32/ubw32_mx795.html#board-microchippic32-ubw32-mx795"><span class="std std-ref">UBW32 MX795</span></a></p></td>
+<td><p>No</p></td>
+<td><p>32MX795F512L</p></td>
+<td><p>80MHz</p></td>
+<td><p>508KB</p></td>
+<td><p>128KB</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="id2">
+<h3>chipKIT<a class="headerlink" href="#id2" title="Link to this heading"></a></h3>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Name</p></th>
+<th class="head"><p>Debug</p></th>
+<th class="head"><p>MCU</p></th>
+<th class="head"><p>Frequency</p></th>
+<th class="head"><p>Flash</p></th>
+<th class="head"><p>RAM</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><a class="reference internal" href="../boards/microchippic32/lenny.html#board-microchippic32-lenny"><span class="std std-ref">chipKIT Lenny</span></a></p></td>
+<td><p>No</p></td>
+<td><p>32MX270F256D</p></td>
+<td><p>40MHz</p></td>
+<td><p>120KB</p></td>
+<td><p>32KB</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="element14">
+<h3>element14<a class="headerlink" href="#element14" title="Link to this heading"></a></h3>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Name</p></th>
+<th class="head"><p>Debug</p></th>
+<th class="head"><p>MCU</p></th>
+<th class="head"><p>Frequency</p></th>
+<th class="head"><p>Flash</p></th>
+<th class="head"><p>RAM</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><a class="reference internal" href="../boards/microchippic32/chipkit_pi.html#board-microchippic32-chipkit-pi"><span class="std std-ref">Element14 chipKIT Pi</span></a></p></td>
+<td><p>No</p></td>
+<td><p>32MX250F128B</p></td>
+<td><p>40MHz</p></td>
+<td><p>120KB</p></td>
+<td><p>32KB</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="页脚">
+        <a href="maxim32.html" class="btn btn-neutral float-left" title="Maxim 32" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> 上一页</a>
+        <a href="nordicnrf51.html" class="btn btn-neutral float-right" title="Nordic nRF51" accesskey="n" rel="next">下一页 <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+
+    <p>&#169; 版权所有 2014-present, PlatformIO。</p>
+<ins data-rvad-zoneid="8" data-rvad-id="f837d8c96893e793fdbb230cffb628fc"></ins>
+
+  </div>
+
+  
+ 
+<script>
+  var navBarHTML = '\
+<div>\
+  <div class="container container-fluid">\
+    <div class="navbar-header">\
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navBarCollapse" aria-expanded="false">\
+        <span class="sr-only">Toggle navigation</span>\
+        <span class="icon-bar"></span>\
+        <span class="icon-bar"></span>\
+        <span class="icon-bar"></span>\
+      </button>\
+      <a class="navbar-brand" href="https://platformio.org" title="PlatformIO"></a>\
+    </div>\
+    <nav role="navigation" class="collapse navbar-collapse" id="navBarCollapse">\
+      <div>\
+        <ul class="nav navbar-nav">\
+          <li class="dropdown">\
+            <a role="button" data-target="#" href="https://platformio.org/platformio-ide" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Get Started<span class="caret"></span>\
+            </a>\
+            <ul class="dropdown-menu" role="menu">\
+              <li role="menuitem"><a href="https://docs.platformio.org/en/latest/what-is-platformio.html"><i class="fa fa-heart"></i>What is PlatformIO?</a></li>\
+              <li role="separator" class="divider"></li>\
+              <li role="menuitem"><a href="https://platformio.org/platformio-ide"><i class="fa fa-cube"></i>PlatformIO IDE</a></li>\
+              <li role="menuitem"><a href="https://platformio.org/install/cli"><i class="fa fa-cogs"></i>PlatformIO Core (CLI)</a></li>\
+              <li role="separator" class="divider"></li>\
+              <li role="menuitem"><a href="https://docs.platformio.org/en/latest/librarymanager/index.html"><i class="fa fa-code"></i>Library Management</a></li>\
+              <li role="separator" class="divider"></li>\
+              <li role="menuitem"><a href="https://docs.platformio.org/en/latest/tutorials/index.html" target="_blank"><i class="fa fa-graduation-cap"></i>Tutorials</a></li>\
+              <li role="menuitem"><a href="https://github.com/platformio/platformio-examples" target="_blank"><i class="fa fa-graduation-cap"></i>Project Examples</a></li>\
+            </ul>\
+          </li>\
+          <li class="dropdown">\
+            <a role="button" data-target="#" href="https://docs.platformio.org/en/latest/plus/pio-remote.html" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Solutions<span class="caret"></span>\
+            </a>\
+            <ul class="dropdown-menu" role="menu">\
+              <li role="menuitem"><a href="https://platformio.org/platformio-ide"><i class="fa fa-cube"></i>PlatformIO IDE</a></li>\
+              <li role="menuitem"><a href="https://platformio.org/install/cli"><i class="fa fa-cogs"></i>PlatformIO Core (CLI)</a></li>\
+              <li role="separator" class="divider"></li>\
+              <li role="menuitem"><a href="https://docs.platformio.org/en/latest/plus/debugging.html"><i class="fa fa-bug"></i>Debugging</a></li>\
+              <li role="menuitem"><a href="https://docs.platformio.org/en/latest/advanced/unit-testing/index.html"><i class="fa fa-puzzle-piece"></i>Unit Testing</a></li>\
+              <li role="menuitem"><a href="https://docs.platformio.org/en/latest/plus/pio-check.html"><i class="fa fa-check-circle-o"></i>Static Code Analysis</a></li>\
+              <li role="menuitem"><a href="https://docs.platformio.org/en/latest/plus/pio-remote.html"><i class="fa fa-globe"></i>Remote Development</a></li>\
+              <li role="separator" class="divider"></li>\
+              <li role="menuitem"><a href="https://docs.platformio.org/en/latest/librarymanager/index.html"><i class="fa fa-code"></i>Library Management</a></li>\
+              <li role="separator" class="divider"></li>\
+              <li role="menuitem"><a href="https://platformio.org/install/integration"><i class="fa fa-cube"></i>Desktop IDEs Integration</a></li>\
+              <li role="menuitem"><a href="https://platformio.org/install/integration"><i class="fa fa-cloud"></i>Cloud IDEs Integration</a></li>\
+              <li role="menuitem"><a href="https://docs.platformio.org/en/latest/ci/index.html"><i class="fa fa-refresh"></i>Continuous Integration</a></li>\
+            </ul>\
+          </li>\
+          <li><a href="https://registry.platformio.org/">Registry</a></li>\
+        </ul>\
+        <ul class="nav navbar-nav navbar-right">\
+          <li class="active"><a href="https://docs.platformio.org">Docs</a></li>\
+          <li><a href="https://community.platformio.org/">Community</a></li>\
+          <li><a href="https://platformio.org/support">Support</a></li>\
+          <li class="nav-pio-tech"><a href="https://piolabs.com/"><i class="fa fa-rocket fa-lg"></i> TECHNOLOGY</a></li>\
+        </ul>\
+      </div>\
+    </nav>\
+  </div>\
+</div>';
+
+  (function() {
+    if (window.location.href.indexOf('http://') === 0) {
+      location.href = 'https:' + window.location.href.substring(5);
+    }
+
+    var topBanner = jQuery('.top-banner');
+    var navBar = document.createElement('header');
+    navBar.className = 'navbar navbar-inverse';
+    navBar.innerHTML = navBarHTML;
+    if (topBanner.length) {
+      jQuery(navBar).insertAfter(topBanner)
+    } else {
+      document.body.insertBefore(navBar, document.body.firstChild);
+    }
+
+    if (jQuery(window).width() <= 768) {
+      return;
+    }
+
+    var topOffset = 50;
+    if (topBanner.length) {
+      topOffset += jQuery('.navbar').offset().top;
+    }
+    jQuery('.wy-nav-side').css('top', topOffset + 'px');
+    jQuery(window).scroll(function() {
+      jQuery('.wy-nav-side').css('top', jQuery(window).scrollTop() > topOffset ? 0 : topOffset + 'px');
+    });
+  })();
+</script>
+<ins data-rvad-zoneid="11" data-rvad-id="f837d8c96893e793fdbb230cffb628fc"></ins>
+<script async src="https://ad.platformio.org/delivery/revasyncjs.dll"></script>
+
+
+</footer>
+        </div>
+
+      </div>
+    </section>
+  </div>
+  
+
+<div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="版本">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    <span class="fa fa-book"> Documentation</span>
+    v6.2.0a3 (latest)
+    <span class="fa fa-caret-down"></span>
+  </span>
+  <div class="rst-other-versions">
+    <dl>
+      <dt>版本</dt>
+      
+        <dd><a href="/en/">latest</a></dd>
+      
+        <dd><a href="/en/stable/">stable</a></dd>
+      
+    </dl>
+    <dl>
+      <dt>On Github</dt>
+        <dd><a href="https://github.com/platformio/platformio-docs/blob/develop/platforms/microchippic32.rst"> View</a></dd>
+        <dd><a href="https://github.com/platformio/platformio-docs/edit/develop/platforms/microchippic32.rst"> Edit</a></dd>
+    </dl>
+    <dl>
+      <dt>搜索</dt>
+        <dd>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="搜索文档" aria-label="搜索文档" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div></dd>
+    </dl>
+  </div>
+</div><script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
