@@ -1,0 +1,70 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present, PlatformIO
+# This file is distributed under the same license as the PlatformIO package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PlatformIO latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-24 14:02+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../manifests/library-json/fields/dependencies.rst:15
+msgid "``dependencies``"
+msgstr ""
+
+#: ../../../manifests/library-json/fields/dependencies.rst:17
+msgid "*Optional* | Type: ``Array`` or ``Object``"
+msgstr ""
+
+#: ../../../manifests/library-json/fields/dependencies.rst:19
+msgid "A list of dependent libraries that will be automatically installed."
+msgstr ""
+
+#: ../../../manifests/library-json/fields/dependencies.rst:21
+msgid "Allowed requirements for dependent library:"
+msgstr ""
+
+#: ../../../manifests/library-json/fields/dependencies.rst:23
+msgid ""
+"``owner`` | Type: ``String`` – an owner name (username) from the `PlatformIO "
+"Registry <https://registry.platformio.org>`__"
+msgstr ""
+
+#: ../../../manifests/library-json/fields/dependencies.rst:24
+msgid "``name`` | Type: ``String`` – library name"
+msgstr ""
+
+#: ../../../manifests/library-json/fields/dependencies.rst:25
+msgid ""
+"``version`` | Type: ``String`` – :ref:`cmd_pkg_install_requirements` or :ref:"
+"`cmd_pkg_install_specifications`"
+msgstr ""
+
+#: ../../../manifests/library-json/fields/dependencies.rst:26
+msgid ""
+"``frameworks`` | Type: ``String`` or ``Array`` – project compatible :ref:"
+"`frameworks`"
+msgstr ""
+
+#: ../../../manifests/library-json/fields/dependencies.rst:27
+msgid ""
+"``platforms`` | Type: ``String`` or ``Array`` – project compatible :ref:"
+"`platforms`"
+msgstr ""
+
+#: ../../../manifests/library-json/fields/dependencies.rst:29
+msgid "**Example**"
+msgstr ""
+
+#: ../../../manifests/library-json/fields/dependencies.rst:41
+msgid "More advanced usage:"
+msgstr ""

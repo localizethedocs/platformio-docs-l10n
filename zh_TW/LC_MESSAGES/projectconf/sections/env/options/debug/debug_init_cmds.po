@@ -1,0 +1,45 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present, PlatformIO
+# This file is distributed under the same license as the PlatformIO package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PlatformIO latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-24 14:02+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../projectconf/sections/env/options/debug/debug_init_cmds.rst:15
+msgid "``debug_init_cmds``"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/debug/debug_init_cmds.rst:17
+msgid ""
+"Type: ``String`` | Multiple: ``Yes`` | Default: `See details... <https://"
+"github.com/platformio/platformio-core/tree/develop/platformio/debug/"
+"config>`__"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/debug/debug_init_cmds.rst:19
+msgid "Initial commands that will be passed to back-end debugger."
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/debug/debug_init_cmds.rst:21
+msgid ""
+"PlatformIO dynamically configures back-end debugger depending on a debug "
+"environment. Here is `a list with default initial commands <https://github."
+"com/platformio/platformio-core/tree/develop/platformio/debug/config>`__ for "
+"the popular :ref:`debugging_tools`."
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/debug/debug_init_cmds.rst:25
+msgid "For example, the custom initial commands for GDB:"
+msgstr ""

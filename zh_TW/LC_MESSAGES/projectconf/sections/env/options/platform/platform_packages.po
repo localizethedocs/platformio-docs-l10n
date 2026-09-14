@@ -1,0 +1,43 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present, PlatformIO
+# This file is distributed under the same license as the PlatformIO package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PlatformIO latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-24 14:02+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../projectconf/sections/env/options/platform/platform_packages.rst:15
+msgid "``platform_packages``"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/platform/platform_packages.rst:17
+msgid "Type: ``Package Specification`` | Multiple: ``Yes``"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/platform/platform_packages.rst:19
+msgid ""
+"Configure custom packages per a build environment. You can also override "
+"default packages by :ref:`platforms` using the same name. See :ref:"
+"`cmd_pkg_install_specifications` for details."
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/platform/platform_packages.rst:23
+msgid ""
+"Check the `PlatformIO Registry <https://registry.platformio.org>`__ for the "
+"available toolchains, frameworks, SDKs, etc."
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/platform/platform_packages.rst:26
+msgid "Examples:"
+msgstr "範例："

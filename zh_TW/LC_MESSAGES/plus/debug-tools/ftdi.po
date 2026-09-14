@@ -1,0 +1,469 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present, PlatformIO
+# This file is distributed under the same license as the PlatformIO package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PlatformIO latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-24 14:02+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../plus/debug-tools/ftdi.rst:15
+msgid "FTDI Chip"
+msgstr ""
+
+#: ../../../plus/debug-tools/ftdi.rst:20
+msgid ""
+"FTDI Chip develops innovative silicon solutions that enhance interaction "
+"with today’s technology. When a designer needs to add a USB port, rest "
+"assured that FTDI Chip has a full range of USB solutions to get the job "
+"done. Official reference can be found `here  <http://www.ftdichip.com/USB."
+"html?utm_source=platformio&utm_medium=docs>`__."
+msgstr ""
+
+#: ../../../plus/debug-tools/ftdi.rst:26
+msgid "Contents"
+msgstr ""
+
+#: ../../../plus/debug-tools/ftdi.rst:29
+msgid "Configuration"
+msgstr "組態"
+
+#: ../../../plus/debug-tools/ftdi.rst:31
+msgid ""
+"You can configure debugging tool using :ref:`projectconf_debug_tool` option "
+"in :ref:`projectconf`:"
+msgstr ""
+
+#: ../../../plus/debug-tools/ftdi.rst:41
+msgid ""
+"If you would like to use this tool for firmware uploading, please change "
+"upload protocol:"
+msgstr ""
+
+#: ../../../plus/debug-tools/ftdi.rst:52
+msgid "More options:"
+msgstr ""
+
+#: ../../../plus/debug-tools/ftdi.rst:54
+msgid ":ref:`projectconf_section_env_debug`"
+msgstr ""
+
+#: ../../../plus/debug-tools/ftdi.rst:55
+msgid ":ref:`projectconf_section_env_upload`"
+msgstr ""
+
+#: ../../../plus/debug-tools/_common_jtag_drivers.rst:13
+msgid "Drivers"
+msgstr ""
+
+#: ../../../plus/debug-tools/_common_jtag_drivers.rst:0
+msgid "Windows"
+msgstr ""
+
+#: ../../../plus/debug-tools/_common_jtag_drivers.rst:16
+msgid ""
+"`Step-by-step guide: Drivers, Zadig, Wiring <https://community.platformio."
+"org/t/esp32-pio-unified-debugger/4541/20>`_"
+msgstr ""
+
+#: ../../../plus/debug-tools/_common_jtag_drivers.rst:17
+msgid ""
+"`Video tutorial <https://www.hackster.io/brian-lough/use-the-platformio-"
+"debugger-on-the-esp32-using-an-esp-prog-f633b6>`_"
+msgstr ""
+
+#: ../../../plus/debug-tools/_common_jtag_drivers.rst:0
+msgid "Mac"
+msgstr ""
+
+#: ../../../plus/debug-tools/_common_jtag_drivers.rst:20
+msgid ""
+"macOS contains default FTDIUSBSerialDriver driver which conflicts with debug "
+"tools which are based on this chip. FTDI Chip company recommends removing "
+"this default driver from a system. Everything should work after system "
+"rebooting. See detailed instruction in official application note (Page 16, "
+"Section 4: Uninstalling FTDI Drivers on OS X) `AN134: FTDI Drivers "
+"Installation guide for MAC OS X <http://www.ftdichip.com/Support/Documents/"
+"AppNotes/AN_134_FTDI_Drivers_Installation_Guide_for_MAC_OSX.pdf>`__"
+msgstr ""
+
+#: ../../../plus/debug-tools/_common_jtag_drivers.rst:0
+msgid "Linux"
+msgstr ""
+
+#: ../../../plus/debug-tools/_common_jtag_drivers.rst:28
+msgid ""
+"Please install \"udev\" rules :ref:`platformio_udev_rules`. If you already "
+"installed them before, please check that your rules are up-to-date or repeat "
+"steps."
+msgstr ""
+
+#: ../../../plus/debug-tools/ftdi.rst:62
+msgid "Platforms"
+msgstr ""
+
+#: ../../../plus/debug-tools/ftdi.rst:66 ../../../plus/debug-tools/ftdi.rst:86
+#: ../../../plus/debug-tools/ftdi.rst:123
+msgid "Name"
+msgstr ""
+
+#: ../../../plus/debug-tools/ftdi.rst:67 ../../../plus/debug-tools/ftdi.rst:87
+msgid "Description"
+msgstr ""
+
+#: ../../../plus/debug-tools/ftdi.rst:69 ../../../plus/debug-tools/ftdi.rst:152
+#: ../../../plus/debug-tools/ftdi.rst:159
+msgid ":ref:`platform_espressif32`"
+msgstr ""
+
+#: ../../../plus/debug-tools/ftdi.rst:70
+msgid ""
+"ESP32 is a series of low-cost, low-power system on a chip microcontrollers "
+"with integrated Wi-Fi and Bluetooth. ESP32 integrates an antenna switch, RF "
+"balun, power amplifier, low-noise receive amplifier, filters, and power "
+"management modules."
+msgstr ""
+
+#: ../../../plus/debug-tools/ftdi.rst:72 ../../../plus/debug-tools/ftdi.rst:166
+msgid ":ref:`platform_riscv_gap`"
+msgstr ""
+
+#: ../../../plus/debug-tools/ftdi.rst:73
+msgid ""
+"GreenWaves GAP8 IoT application processor enables the cost-effective "
+"development, deployment and autonomous operation of intelligent sensing "
+"devices that capture, analyze, classify and act on the fusion of rich data "
+"sources such as images, sounds or vibrations."
+msgstr ""
+
+#: ../../../plus/debug-tools/ftdi.rst:75 ../../../plus/debug-tools/ftdi.rst:131
+#: ../../../plus/debug-tools/ftdi.rst:138
+#: ../../../plus/debug-tools/ftdi.rst:187
+#: ../../../plus/debug-tools/ftdi.rst:194
+#: ../../../plus/debug-tools/ftdi.rst:201
+msgid ":ref:`platform_shakti`"
+msgstr ""
+
+#: ../../../plus/debug-tools/ftdi.rst:76
+msgid ""
+"Shakti is an open-source initiative by the RISE group at IIT-Madras, which "
+"is not only building open source, production grade processors, but also "
+"associated components like interconnect fabrics, verification tools, storage "
+"controllers, peripheral IPs and SOC tools."
+msgstr ""
+
+#: ../../../plus/debug-tools/ftdi.rst:78 ../../../plus/debug-tools/ftdi.rst:145
+#: ../../../plus/debug-tools/ftdi.rst:173
+#: ../../../plus/debug-tools/ftdi.rst:180
+msgid ":ref:`platform_sifive`"
+msgstr ""
+
+#: ../../../plus/debug-tools/ftdi.rst:79
+msgid ""
+"SiFive brings the power of open source and software automation to the "
+"semiconductor industry, making it possible to develop new hardware faster "
+"and more affordably than ever before."
+msgstr ""
+
+#: ../../../plus/debug-tools/ftdi.rst:82
+msgid "Frameworks"
+msgstr "框架"
+
+#: ../../../plus/debug-tools/ftdi.rst:89
+msgid ":ref:`framework_arduino`"
+msgstr ""
+
+#: ../../../plus/debug-tools/ftdi.rst:90
+msgid ""
+"Arduino Wiring-based Framework allows writing cross-platform software to "
+"control devices attached to a wide range of Arduino boards to create all "
+"kinds of creative coding, interactive objects, spaces or physical "
+"experiences."
+msgstr ""
+
+#: ../../../plus/debug-tools/ftdi.rst:92
+msgid ":ref:`framework_espidf`"
+msgstr ""
+
+#: ../../../plus/debug-tools/ftdi.rst:93
+msgid ""
+"Espressif IoT Development Framework. Official development framework for "
+"ESP32 chip"
+msgstr ""
+
+#: ../../../plus/debug-tools/ftdi.rst:95
+msgid ":ref:`framework_freedom-e-sdk`"
+msgstr ""
+
+#: ../../../plus/debug-tools/ftdi.rst:96
+msgid "Open Source Software for Developing on the SiFive Freedom E Platform"
+msgstr ""
+
+#: ../../../plus/debug-tools/ftdi.rst:98
+msgid ":ref:`framework_freertos`"
+msgstr ""
+
+#: ../../../plus/debug-tools/ftdi.rst:99
+msgid ""
+"FreeRTOS is a real-time operating system kernel for embedded devices that "
+"has been ported to 40 microcontroller platforms."
+msgstr ""
+
+#: ../../../plus/debug-tools/ftdi.rst:101
+msgid ":ref:`framework_mbed`"
+msgstr ""
+
+#: ../../../plus/debug-tools/ftdi.rst:102
+msgid ""
+"Arm Mbed OS is a platform operating system designed for the internet of "
+"things"
+msgstr ""
+
+#: ../../../plus/debug-tools/ftdi.rst:104
+msgid ":ref:`framework_pulp-os`"
+msgstr ""
+
+#: ../../../plus/debug-tools/ftdi.rst:105
+msgid "SDK for Greenwaves Technologies' GAP8 IoT Application Processor"
+msgstr ""
+
+#: ../../../plus/debug-tools/ftdi.rst:107
+msgid ":ref:`framework_shakti-sdk`"
+msgstr ""
+
+#: ../../../plus/debug-tools/ftdi.rst:108
+msgid ""
+"A software development kit for developing applications on Shakti class of "
+"processors"
+msgstr ""
+
+#: ../../../plus/debug-tools/ftdi.rst:110
+msgid ":ref:`framework_zephyr`"
+msgstr ""
+
+#: ../../../plus/debug-tools/ftdi.rst:111
+msgid ""
+"Zephyr is a new generation, scalable, optimized, secure RTOS for multiple "
+"hardware architectures"
+msgstr ""
+
+#: ../../../plus/debug-tools/ftdi.rst:114
+msgid "Boards"
+msgstr "開發板"
+
+#: ../../../plus/debug-tools/ftdi.rst:117
+msgid ""
+"For more detailed ``board`` information please scroll tables below by "
+"horizontal."
+msgstr ""
+
+#: ../../../plus/debug-tools/ftdi.rst:124
+msgid "Platform"
+msgstr ""
+
+#: ../../../plus/debug-tools/ftdi.rst:125
+msgid "Debug"
+msgstr ""
+
+#: ../../../plus/debug-tools/ftdi.rst:126
+msgid "MCU"
+msgstr ""
+
+#: ../../../plus/debug-tools/ftdi.rst:127
+msgid "Frequency"
+msgstr ""
+
+#: ../../../plus/debug-tools/ftdi.rst:128
+msgid "Flash"
+msgstr ""
+
+#: ../../../plus/debug-tools/ftdi.rst:129
+msgid "RAM"
+msgstr ""
+
+#: ../../../plus/debug-tools/ftdi.rst:130
+msgid ":ref:`board_shakti_artix7_35t`"
+msgstr ""
+
+#: ../../../plus/debug-tools/ftdi.rst:132
+#: ../../../plus/debug-tools/ftdi.rst:139
+#: ../../../plus/debug-tools/ftdi.rst:146
+#: ../../../plus/debug-tools/ftdi.rst:153
+#: ../../../plus/debug-tools/ftdi.rst:160
+#: ../../../plus/debug-tools/ftdi.rst:167
+#: ../../../plus/debug-tools/ftdi.rst:174
+#: ../../../plus/debug-tools/ftdi.rst:181
+#: ../../../plus/debug-tools/ftdi.rst:188
+#: ../../../plus/debug-tools/ftdi.rst:195
+#: ../../../plus/debug-tools/ftdi.rst:202
+msgid "On-board"
+msgstr ""
+
+#: ../../../plus/debug-tools/ftdi.rst:133
+#: ../../../plus/debug-tools/ftdi.rst:189
+#: ../../../plus/debug-tools/ftdi.rst:196
+msgid "E-CLASS"
+msgstr ""
+
+#: ../../../plus/debug-tools/ftdi.rst:134
+#: ../../../plus/debug-tools/ftdi.rst:141
+#: ../../../plus/debug-tools/ftdi.rst:190
+#: ../../../plus/debug-tools/ftdi.rst:197
+#: ../../../plus/debug-tools/ftdi.rst:204
+msgid "50MHz"
+msgstr ""
+
+#: ../../../plus/debug-tools/ftdi.rst:135
+#: ../../../plus/debug-tools/ftdi.rst:142
+#: ../../../plus/debug-tools/ftdi.rst:191
+#: ../../../plus/debug-tools/ftdi.rst:198
+#: ../../../plus/debug-tools/ftdi.rst:205
+msgid "0B"
+msgstr ""
+
+#: ../../../plus/debug-tools/ftdi.rst:136
+#: ../../../plus/debug-tools/ftdi.rst:192
+#: ../../../plus/debug-tools/ftdi.rst:199
+msgid "128KB"
+msgstr ""
+
+#: ../../../plus/debug-tools/ftdi.rst:137
+msgid ":ref:`board_shakti_artix7_100t`"
+msgstr ""
+
+#: ../../../plus/debug-tools/ftdi.rst:140
+#: ../../../plus/debug-tools/ftdi.rst:203
+msgid "C-CLASS"
+msgstr ""
+
+#: ../../../plus/debug-tools/ftdi.rst:143
+#: ../../../plus/debug-tools/ftdi.rst:206
+msgid "128MB"
+msgstr ""
+
+#: ../../../plus/debug-tools/ftdi.rst:144
+msgid ":ref:`board_sifive_e310-arty`"
+msgstr ""
+
+#: ../../../plus/debug-tools/ftdi.rst:147
+#: ../../../plus/debug-tools/ftdi.rst:182
+msgid "FE310"
+msgstr ""
+
+#: ../../../plus/debug-tools/ftdi.rst:148
+msgid "450MHz"
+msgstr ""
+
+#: ../../../plus/debug-tools/ftdi.rst:149
+#: ../../../plus/debug-tools/ftdi.rst:184
+msgid "16MB"
+msgstr ""
+
+#: ../../../plus/debug-tools/ftdi.rst:150
+msgid "256MB"
+msgstr ""
+
+#: ../../../plus/debug-tools/ftdi.rst:151
+msgid ":ref:`board_espressif32_esp-wrover-kit`"
+msgstr ""
+
+#: ../../../plus/debug-tools/ftdi.rst:154
+msgid "ESP32"
+msgstr ""
+
+#: ../../../plus/debug-tools/ftdi.rst:155
+#: ../../../plus/debug-tools/ftdi.rst:162
+msgid "240MHz"
+msgstr ""
+
+#: ../../../plus/debug-tools/ftdi.rst:156
+#: ../../../plus/debug-tools/ftdi.rst:163
+msgid "4MB"
+msgstr ""
+
+#: ../../../plus/debug-tools/ftdi.rst:157
+#: ../../../plus/debug-tools/ftdi.rst:164
+msgid "320KB"
+msgstr ""
+
+#: ../../../plus/debug-tools/ftdi.rst:158
+msgid ":ref:`board_espressif32_esp32-s2-kaluga-1`"
+msgstr ""
+
+#: ../../../plus/debug-tools/ftdi.rst:161
+msgid "ESP32S2"
+msgstr ""
+
+#: ../../../plus/debug-tools/ftdi.rst:165
+msgid ":ref:`board_riscv_gap_gapuino`"
+msgstr ""
+
+#: ../../../plus/debug-tools/ftdi.rst:168
+msgid "GAP8"
+msgstr ""
+
+#: ../../../plus/debug-tools/ftdi.rst:169
+msgid "250MHz"
+msgstr ""
+
+#: ../../../plus/debug-tools/ftdi.rst:170
+msgid "64MB"
+msgstr ""
+
+#: ../../../plus/debug-tools/ftdi.rst:171
+msgid "8MB"
+msgstr ""
+
+#: ../../../plus/debug-tools/ftdi.rst:172
+msgid ":ref:`board_sifive_hifive-unleashed`"
+msgstr ""
+
+#: ../../../plus/debug-tools/ftdi.rst:175
+msgid "FU540"
+msgstr ""
+
+#: ../../../plus/debug-tools/ftdi.rst:176
+msgid "1500MHz"
+msgstr ""
+
+#: ../../../plus/debug-tools/ftdi.rst:177
+msgid "32MB"
+msgstr ""
+
+#: ../../../plus/debug-tools/ftdi.rst:178
+msgid "8GB"
+msgstr ""
+
+#: ../../../plus/debug-tools/ftdi.rst:179
+msgid ":ref:`board_sifive_hifive1`"
+msgstr ""
+
+#: ../../../plus/debug-tools/ftdi.rst:183
+msgid "320MHz"
+msgstr ""
+
+#: ../../../plus/debug-tools/ftdi.rst:185
+msgid "16KB"
+msgstr ""
+
+#: ../../../plus/debug-tools/ftdi.rst:186
+msgid ":ref:`board_shakti_parashu`"
+msgstr ""
+
+#: ../../../plus/debug-tools/ftdi.rst:193
+msgid ":ref:`board_shakti_pinaka`"
+msgstr ""
+
+#: ../../../plus/debug-tools/ftdi.rst:200
+msgid ":ref:`board_shakti_vajra`"
+msgstr ""

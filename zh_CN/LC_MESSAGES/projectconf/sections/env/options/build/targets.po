@@ -1,0 +1,66 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present, PlatformIO
+# This file is distributed under the same license as the PlatformIO package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PlatformIO latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-24 14:02+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../projectconf/sections/env/options/build/targets.rst:15
+msgid "``targets``"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/build/targets.rst:17
+msgid "Type: ``String`` | Multiple: ``Yes``"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/build/targets.rst:19
+msgid ""
+"A list of targets which will be processed by the :ref:`cmd_run` command by "
+"default. You can enter more than one target, if separated by comma+space "
+"**\", \"**."
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/build/targets.rst:22
+msgid ""
+"Please follow to :option:`pio run --list-targets` documentation for the "
+"other targets."
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/build/targets.rst:25
+msgid "**Examples**"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/build/targets.rst:27
+msgid ""
+"Build a project using :ref:`Release Configuration <build_configurations>`, "
+"upload the firmware, and start :ref:`Serial Monitor <cmd_device_monitor>` "
+"automatically:"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/build/targets.rst:36
+msgid ""
+"Build a project using :ref:`Debug Configuration <build_configurations>`."
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/build/targets.rst:39
+msgid ""
+"**Tip!** You can use these targets like an option to :option:`pio run --"
+"target` command. For example:"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/build/targets.rst:50
+msgid ""
+"When no targets are defined, *PlatformIO* will build only sources by default."
+msgstr ""

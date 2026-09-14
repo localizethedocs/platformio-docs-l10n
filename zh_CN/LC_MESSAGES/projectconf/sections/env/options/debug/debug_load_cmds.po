@@ -1,0 +1,67 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present, PlatformIO
+# This file is distributed under the same license as the PlatformIO package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PlatformIO latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-24 14:02+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../projectconf/sections/env/options/debug/debug_load_cmds.rst:15
+msgid "``debug_load_cmds``"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/debug/debug_load_cmds.rst:17
+msgid "Type: ``String`` | Multiple: ``Yes`` | Default: ``load``"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/debug/debug_load_cmds.rst:19
+msgid ""
+"Specify a command which will be used to load program/firmware to a target "
+"device. Possible options:"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/debug/debug_load_cmds.rst:22
+msgid "``load`` - **default** option"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/debug/debug_load_cmds.rst:23
+msgid ""
+"``load [address]`` - load program at specified address, where \"[address]\" "
+"should be a valid number"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/debug/debug_load_cmds.rst:25
+msgid ""
+"``preload`` - some embedded devices have locked Flash Memory (a few "
+"Freescale Kinetis and NXP LPC boards). In this case, firmware loading using "
+"debugging client is disabled. ``preload`` command instructs :ref:`piocore` "
+"to load program/firmware using development platform \"upload\" method (via "
+"bootloader, media disk, etc)"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/debug/debug_load_cmds.rst:30
+msgid "(empty value, ``debug_load_cmds =``), disables program loading at all."
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/debug/debug_load_cmds.rst:31
+msgid "``custom commands`` - pass any debugging client command (GDB, etc.)"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/debug/debug_load_cmds.rst:33
+msgid ""
+"Sometimes you need to run extra monitor commands (on debug server side) "
+"before program/firmware loading, such as flash unlocking or erasing. In this "
+"case we can combine service commands with loading and run them before. See "
+"example:"
+msgstr ""

@@ -1,0 +1,163 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present, PlatformIO
+# This file is distributed under the same license as the PlatformIO package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PlatformIO latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-24 14:02+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../integration/ide/emacs.rst:15
+msgid "Emacs"
+msgstr ""
+
+#: ../../../integration/ide/emacs.rst:17
+msgid ""
+"GNU Emacs is an extensible, customizable text editor - and more. At its core "
+"is an interpreter for Emacs Lisp, a dialect of the `Lisp programming "
+"language <http://en.wikipedia.org/wiki/Lisp_programming_language>`_ with "
+"extensions to support text editing."
+msgstr ""
+
+#: ../../../integration/ide/emacs.rst:22
+msgid ""
+"Refer to the `Emacs Documentation <https://www.gnu.org/software/emacs/"
+"#Manuals>`_ page for more detailed information."
+msgstr ""
+
+#: ../../../integration/ide/emacs.rst:28
+msgid "Contents"
+msgstr ""
+
+#: ../../../integration/ide/emacs.rst:31
+msgid "Integration"
+msgstr ""
+
+#: ../../../integration/ide/emacs.rst:33
+msgid "Integration process consists of these steps:"
+msgstr ""
+
+#: ../../../integration/ide/emacs.rst:35
+msgid "Open system Terminal and install :ref:`piocore`"
+msgstr ""
+
+#: ../../../integration/ide/emacs.rst:36
+msgid "Create new folder for your project and change directory (``cd``) to it"
+msgstr ""
+
+#: ../../../integration/ide/emacs.rst:37
+msgid ""
+"Generate a project using PlatformIO Core Project Generator (:option:`pio "
+"project init --ide`)"
+msgstr ""
+
+#: ../../../integration/ide/emacs.rst:38
+msgid "Open project in Emacs."
+msgstr ""
+
+#: ../../../integration/ide/emacs.rst:42
+msgid "Project Generator"
+msgstr ""
+
+#: ../../../integration/ide/emacs.rst:44
+msgid ""
+"Choose board ``ID`` using :ref:`cmd_boards` or `Embedded Boards Explorer "
+"<https://platformio.org/boards>`_ command and generate project via :option:"
+"`pio project init --ide` command:"
+msgstr ""
+
+#: ../../../integration/ide/emacs.rst:52
+msgid ""
+"The libraries which are added, installed or used in the project after "
+"generating process won't be reflected in IDE. To fix it you need to "
+"reinitialize project using :ref:`cmd_project_init` (repeat it)."
+msgstr ""
+
+#: ../../../integration/ide/emacs.rst:58
+msgid "PlatformIO-Mode"
+msgstr ""
+
+#: ../../../integration/ide/emacs.rst:60
+msgid ""
+"An Emacs minor mode has been written to facilitate building and uploading "
+"from within Emacs. It can be installed from the MELPA repository using ``M-x "
+"package-install``. See the MELPA `Getting Started <https://melpa.org/#/"
+"getting-started>`_ page for more information."
+msgstr ""
+
+#: ../../../integration/ide/emacs.rst:64
+msgid ""
+"Setup instructions and an example config can be found at the `Github page "
+"<https://github.com/ZachMassia/platformio-mode>`_."
+msgstr ""
+
+#: ../../../integration/ide/emacs.rst:66
+msgid "There are 6 predefined targets for building."
+msgstr ""
+
+#: ../../../integration/ide/emacs.rst:68
+msgid ""
+"``platformio_build``  - Build project without auto-uploading.        (``C-c "
+"i b``)"
+msgstr ""
+
+#: ../../../integration/ide/emacs.rst:69
+msgid ""
+"``platformio_clean``  - Clean compiled objects.                      (``C-c "
+"i c``)"
+msgstr ""
+
+#: ../../../integration/ide/emacs.rst:70
+msgid ""
+"``platformio_upload`` - Build and upload (if no errors).             (``C-c "
+"i u``)"
+msgstr ""
+
+#: ../../../integration/ide/emacs.rst:71
+msgid ""
+"``platformio_programmer_upload`` - Build and upload using external "
+"programmer (if no errors, see :ref:`atmelavr_upload_via_programmer`). (``C-c "
+"i p``)"
+msgstr ""
+
+#: ../../../integration/ide/emacs.rst:72
+msgid ""
+"``platformio_spiffs_upload``  - Upload files to file system SPIFFS (see :ref:"
+"`platform_espressif_uploadfs`). (``C-c i s``)"
+msgstr ""
+
+#: ../../../integration/ide/emacs.rst:73
+msgid ""
+"``platformio_update`` - Update installed platforms and libraries.    (``C-c "
+"i d``)"
+msgstr ""
+
+#: ../../../integration/ide/emacs.rst:77
+msgid "Code Completion and Navigation"
+msgstr ""
+
+#: ../../../integration/ide/emacs.rst:79
+msgid "Please install the next:"
+msgstr ""
+
+#: ../../../integration/ide/emacs.rst:81
+msgid ""
+"`C/C++/ObjC language server supporting cross references, hierarchies, "
+"completion and semantic highlighting <https://github.com/MaskRay/ccls>`_"
+msgstr ""
+
+#: ../../../integration/ide/emacs.rst:82
+msgid ""
+"`Emacs client for ccls, a C/C++ language server <https://github.com/MaskRay/"
+"emacs-ccls>`_."
+msgstr ""

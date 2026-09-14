@@ -1,0 +1,114 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present, PlatformIO
+# This file is distributed under the same license as the PlatformIO package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PlatformIO latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-24 14:02+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../advanced/static-code-analysis/index.rst:15
+msgid "Static Code Analysis"
+msgstr ""
+
+#: ../../../advanced/static-code-analysis/index.rst:17
+msgid "**Automated code analysis without hassle!**"
+msgstr ""
+
+#: ../../../advanced/static-code-analysis/index.rst:19
+msgid ""
+"Static analysis became an important part of software development cycle. It "
+"can identify potential bugs, vulnerabilities and security threats by doing "
+"an analysis on the source code level without having to test it on hardware "
+"or execute any code."
+msgstr ""
+
+#: ../../../advanced/static-code-analysis/index.rst:24
+msgid ""
+"**Static Code Analysis** helps reduce development cost by enabling engineers "
+"to detect the precise location of defects and eliminate issues more "
+"efficiently and earlier in the development cycle. It can also ensure "
+"compliance with internal or industry coding standards such as MISRA, CERT, "
+"etc."
+msgstr ""
+
+#: ../../../advanced/static-code-analysis/index.rst:29
+msgid "**Key features**"
+msgstr ""
+
+#: ../../../advanced/static-code-analysis/index.rst:31
+msgid ""
+"Fully integrated within the PlatformIO ecosystem and easy to execute on the "
+"entire project."
+msgstr ""
+
+#: ../../../advanced/static-code-analysis/index.rst:32
+msgid "Straightforward integration with :ref:`ci` services."
+msgstr ""
+
+#: ../../../advanced/static-code-analysis/index.rst:33
+msgid "Possibility to reuse the same setup on other projects."
+msgstr ""
+
+#: ../../../advanced/static-code-analysis/index.rst:34
+msgid "Easy and flexible rule configuration."
+msgstr ""
+
+#: ../../../advanced/static-code-analysis/index.rst:35
+msgid "Comprehensive and detailed error information"
+msgstr ""
+
+#: ../../../advanced/static-code-analysis/index.rst:36
+msgid "Multiple architectures and development platforms."
+msgstr ""
+
+#: ../../../advanced/static-code-analysis/index.rst:37
+msgid "Cross-platform: Windows, MacOS, Linux."
+msgstr ""
+
+#: ../../../advanced/static-code-analysis/index.rst:39
+msgid ""
+"**Static Code Analysis** can detect a wide range of known defects in C/C++ "
+"code, including:"
+msgstr ""
+
+#: ../../../advanced/static-code-analysis/index.rst:41
+msgid "Potential NULL pointer dereferences"
+msgstr ""
+
+#: ../../../advanced/static-code-analysis/index.rst:42
+msgid "Possible indexing beyond array bounds"
+msgstr ""
+
+#: ../../../advanced/static-code-analysis/index.rst:43
+msgid "Suspicious assignments"
+msgstr ""
+
+#: ../../../advanced/static-code-analysis/index.rst:44
+msgid "Reads of potentially uninitialized objects"
+msgstr ""
+
+#: ../../../advanced/static-code-analysis/index.rst:45
+msgid "Unused variables or functions"
+msgstr ""
+
+#: ../../../advanced/static-code-analysis/index.rst:46
+msgid "Out of scope memory usage"
+msgstr ""
+
+#: ../../../advanced/static-code-analysis/index.rst:49
+msgid ""
+"Before performing a static analysis check, make sure your project builds "
+"without errors. For information about how to build a project, see the :ref:"
+"`cmd_run` command or :ref:`ide_vscode` guide."
+msgstr ""
