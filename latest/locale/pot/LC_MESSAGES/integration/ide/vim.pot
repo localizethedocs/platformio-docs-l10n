@@ -8,10 +8,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PlatformIO latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-24 14:02+0000\n"
+"POT-Creation-Date: 2026-09-21 16:03+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -129,30 +130,24 @@ msgstr ""
 msgid "``Upload SPIFFS image`` see :ref:`platform_espressif_uploadfs`"
 msgstr ""
 
-#: ../../../integration/ide/vim.rst:91
-msgid ""
-"``Update platforms and libraries`` - Update installed platforms and "
-"libraries via :ref:`cmd_update`."
-msgstr ""
-
-#: ../../../integration/ide/vim.rst:94
+#: ../../../integration/ide/vim.rst:93
 msgid ""
 "Now, in VIM ``cd /path/to/this/project`` and press ``Ctrl+B`` or ``Cmd+B`` "
 "(Mac). *PlatformIO* should compile your source code from the ``src`` "
 "directory, make firmware and upload it."
 msgstr ""
 
-#: ../../../integration/ide/vim.rst:99
+#: ../../../integration/ide/vim.rst:98
 msgid ""
 "If hotkey doesn't work for you, try to add this line ``nnoremap <C-b> :"
 "make<CR>`` to ``~/.vimrc``"
 msgstr ""
 
-#: ../../../integration/ide/vim.rst:103
+#: ../../../integration/ide/vim.rst:102
 msgid "Articles / Manuals"
 msgstr ""
 
-#: ../../../integration/ide/vim.rst:105
+#: ../../../integration/ide/vim.rst:104
 msgid ""
 "`コマンドラインでArduino開発 : vim + platformio (Arduino development at the "
 "command line: VIM + PlatformIO, Japanese) <http://qiita.com/caad1229/"
