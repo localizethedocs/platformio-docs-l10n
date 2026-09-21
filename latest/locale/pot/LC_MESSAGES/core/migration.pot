@@ -8,10 +8,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PlatformIO latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-24 14:02+0000\n"
+"POT-Creation-Date: 2026-09-21 16:03+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -68,14 +69,14 @@ msgstr ""
 
 #: ../../../core/migration.rst:47
 msgid ""
-"Replace deprecated :ref:`cmd_lib`, :ref:`cmd_platform`, and :ref:"
-"`cmd_update` commands with the unified :ref:`cmd_pkg`"
+"Replace deprecated ``$ pio lib``, ``$ pio platform``, and ``$ pio update`` "
+"commands with the unified :ref:`cmd_pkg`"
 msgstr ""
 
 #: ../../../core/migration.rst:49
 msgid ""
-"Avoid using global libraries previously installed using the :option:`pio lib "
-"--global` command. Ensure that the :ref:`projectconf_pio_globallib_dir` "
+"Avoid using global libraries previously installed using the ``$ pio lib --"
+"global`` command. Ensure that the :ref:`projectconf_pio_globallib_dir` "
 "folder is empty. Please use a declarative approach for the safety-critical "
 "embedded development and declare project dependencies using the :ref:"
 "`projectconf_lib_deps` option"
@@ -411,7 +412,7 @@ msgid "**RENAMED** to the :ref:`cmd_project_metadata`"
 msgstr ""
 
 #: ../../../core/migration.rst:311
-msgid ":ref:`cmd_lib`"
+msgid "``pio lib``"
 msgstr ""
 
 #: ../../../core/migration.rst:312 ../../../core/migration.rst:314
@@ -420,9 +421,9 @@ msgid "**DEPRECATED** in favor of :ref:`cmd_pkg`"
 msgstr ""
 
 #: ../../../core/migration.rst:313
-msgid ":ref:`cmd_platform`"
+msgid "``pio platform``"
 msgstr ""
 
 #: ../../../core/migration.rst:315
-msgid ":ref:`cmd_update`"
+msgid "``pio update``"
 msgstr ""
