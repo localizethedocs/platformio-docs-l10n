@@ -1,0 +1,50 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present, PlatformIO
+# This file is distributed under the same license as the PlatformIO package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PlatformIO latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-24 14:02+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../projectconf/sections/env/options/test/test_testing_command.rst:15
+msgid "``test_testing_command``"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/test/test_testing_command.rst:17
+msgid "Type: ``String`` | Multiline Arguments: ``Yes``"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/test/test_testing_command.rst:19
+msgid ""
+"A custom testing command that executes test cases and returns results to the "
+"standard output."
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/test/test_testing_command.rst:22
+msgid "Typically, a default value for the :ref:`platform_native` is equal to:"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/test/test_testing_command.rst:32
+msgid "You can override the default command and pass extra program arguments:"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/test/test_testing_command.rst:44
+msgid ""
+"Please note that you can pass extra arguments to the program using CLI and :"
+"option:`pio test --program-arg` option."
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/test/test_testing_command.rst:47
+msgid "See :ref:`unit_testing_simulators` examples."
+msgstr ""

@@ -1,0 +1,205 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present, PlatformIO
+# This file is distributed under the same license as the PlatformIO package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PlatformIO latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-24 14:02+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../core/userguide/remote/cmd_test.rst:15
+msgid "pio remote test"
+msgstr ""
+
+#: ../../../core/userguide/remote/cmd_test.rst:17
+msgid "Helper command for remote :ref:`unit_testing`."
+msgstr ""
+
+#: ../../../core/userguide/remote/cmd_test.rst:19
+msgid "Contents"
+msgstr ""
+
+#: ../../../core/userguide/remote/cmd_test.rst:22
+msgid "Usage"
+msgstr ""
+
+#: ../../../core/userguide/remote/cmd_test.rst:32
+msgid "Description"
+msgstr ""
+
+#: ../../../core/userguide/remote/cmd_test.rst:34
+msgid ""
+"Run remotely tests from PlatformIO based project. More details about "
+"PlatformIO :ref:`unit_testing`."
+msgstr ""
+
+#: ../../../core/userguide/remote/cmd_test.rst:37
+msgid ""
+"This command allows you to apply the tests for the environments specified "
+"in :ref:`projectconf`."
+msgstr ""
+
+#: ../../../core/userguide/remote/cmd_test.rst:41
+msgid "Options"
+msgstr ""
+
+#: ../../../core/userguide/remote/cmd_test.rst:48
+msgid ""
+"Process specified environments. More details :option:`pio run --environment`"
+msgstr ""
+
+#: ../../../core/userguide/remote/cmd_test.rst:53
+msgid ""
+"Process only the tests where the name matches specified patterns. More than "
+"one pattern is allowed. If you need to filter some tests for a specific "
+"environment, please take a look at :ref:`projectconf_test_filter` option "
+"from :ref:`projectconf`."
+msgstr ""
+
+#: ../../../core/userguide/remote/cmd_test.rst:61
+#: ../../../core/userguide/remote/cmd_test.rst:89
+msgid "Pattern"
+msgstr ""
+
+#: ../../../core/userguide/remote/cmd_test.rst:62
+#: ../../../core/userguide/remote/cmd_test.rst:90
+msgid "Meaning"
+msgstr ""
+
+#: ../../../core/userguide/remote/cmd_test.rst:64
+#: ../../../core/userguide/remote/cmd_test.rst:92
+msgid "``*``"
+msgstr ""
+
+#: ../../../core/userguide/remote/cmd_test.rst:65
+#: ../../../core/userguide/remote/cmd_test.rst:93
+msgid "matches everything"
+msgstr ""
+
+#: ../../../core/userguide/remote/cmd_test.rst:67
+#: ../../../core/userguide/remote/cmd_test.rst:95
+msgid "``?``"
+msgstr ""
+
+#: ../../../core/userguide/remote/cmd_test.rst:68
+#: ../../../core/userguide/remote/cmd_test.rst:96
+msgid "matches any single character"
+msgstr ""
+
+#: ../../../core/userguide/remote/cmd_test.rst:70
+#: ../../../core/userguide/remote/cmd_test.rst:98
+msgid "``[seq]``"
+msgstr ""
+
+#: ../../../core/userguide/remote/cmd_test.rst:71
+#: ../../../core/userguide/remote/cmd_test.rst:99
+msgid "matches any character in seq"
+msgstr ""
+
+#: ../../../core/userguide/remote/cmd_test.rst:73
+#: ../../../core/userguide/remote/cmd_test.rst:101
+msgid "``[!seq]``"
+msgstr ""
+
+#: ../../../core/userguide/remote/cmd_test.rst:74
+#: ../../../core/userguide/remote/cmd_test.rst:102
+msgid "matches any character not in seq"
+msgstr ""
+
+#: ../../../core/userguide/remote/cmd_test.rst:76
+msgid "For example, ``pio test --filter \"mytest*\" -i \"test[13]\"``"
+msgstr ""
+
+#: ../../../core/userguide/remote/cmd_test.rst:81
+msgid ""
+"Ignore tests where the name matches specified patterns. More than one "
+"pattern is allowed. If you need to ignore some tests for the specific "
+"environment, please take a look at :ref:`projectconf_test_ignore` option "
+"from :ref:`projectconf`."
+msgstr ""
+
+#: ../../../core/userguide/remote/cmd_test.rst:104
+msgid "For example, ``pio remote test --ignore \"mytest*\" -i \"test[13]\"``"
+msgstr ""
+
+#: ../../../core/userguide/remote/cmd_test.rst:109
+msgid ""
+"A port that is intended for firmware uploading. To list available ports "
+"please use :ref:`cmd_device_list` command."
+msgstr ""
+
+#: ../../../core/userguide/remote/cmd_test.rst:112
+msgid ""
+"If upload port is not specified, PlatformIO will try to detect it "
+"automatically."
+msgstr ""
+
+#: ../../../core/userguide/remote/cmd_test.rst:117
+msgid ""
+"A Serial/UART port that PlatformIO uses as communication interface between "
+"PlatformIO Unit Test Engine and target device. To list available ports "
+"please use :ref:`cmd_device_list` command."
+msgstr ""
+
+#: ../../../core/userguide/remote/cmd_test.rst:121
+msgid ""
+"If test port is not specified, PlatformIO will try to detect it "
+"automatically."
+msgstr ""
+
+#: ../../../core/userguide/remote/cmd_test.rst:126
+msgid ""
+"Specify the path to project directory. By default, ``--project-dir`` is "
+"equal to current working directory (``CWD``)."
+msgstr ""
+
+#: ../../../core/userguide/remote/cmd_test.rst:132
+msgid ""
+"By default, :ref:`pioremote` processes project on a host machine and deploy "
+"final testing firmware (program) to remote device (embedded board)."
+msgstr ""
+
+#: ../../../core/userguide/remote/cmd_test.rst:135
+msgid ""
+"If you need to process project on remote machine, please use :option:`pio "
+"remote test --force-remote` option. In this case, :ref:`pioremote` will "
+"automatically synchronize your project with remote machine, install required "
+"toolchains, frameworks, SDKs, etc., and process project."
+msgstr ""
+
+#: ../../../core/userguide/remote/cmd_test.rst:144
+msgid "Skip building stage."
+msgstr ""
+
+#: ../../../core/userguide/remote/cmd_test.rst:149
+msgid "Skip uploading stage"
+msgstr ""
+
+#: ../../../core/userguide/remote/cmd_test.rst:154
+msgid "Shows detailed information when processing environments."
+msgstr ""
+
+#: ../../../core/userguide/remote/cmd_test.rst:156
+msgid ""
+"This option can also be set globally using :ref:`setting_force_verbose` "
+"setting or by environment variable :envvar:"
+"`PLATFORMIO_SETTING_FORCE_VERBOSE`."
+msgstr ""
+
+#: ../../../core/userguide/remote/cmd_test.rst:160
+msgid "Examples"
+msgstr "範例"
+
+#: ../../../core/userguide/remote/cmd_test.rst:162
+msgid "For the examples please follow to :ref:`unit_testing` page."
+msgstr ""

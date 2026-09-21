@@ -1,0 +1,179 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present, PlatformIO
+# This file is distributed under the same license as the PlatformIO package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PlatformIO latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-24 14:02+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../boards/riscv_gap/gapuino.rst:15
+msgid "GAPuino GAP8"
+msgstr ""
+
+#: ../../../boards/riscv_gap/gapuino.rst:17
+msgid "Contents"
+msgstr ""
+
+#: ../../../boards/riscv_gap/gapuino.rst:20
+msgid "Hardware"
+msgstr ""
+
+#: ../../../boards/riscv_gap/gapuino.rst:22
+msgid ""
+"Platform :ref:`platform_riscv_gap`: GreenWaves GAP8 IoT application "
+"processor enables the cost-effective development, deployment and autonomous "
+"operation of intelligent sensing devices that capture, analyze, classify and "
+"act on the fusion of rich data sources such as images, sounds or vibrations."
+msgstr ""
+
+#: ../../../boards/riscv_gap/gapuino.rst:26
+msgid "**Microcontroller**"
+msgstr ""
+
+#: ../../../boards/riscv_gap/gapuino.rst:27
+msgid "GAP8"
+msgstr ""
+
+#: ../../../boards/riscv_gap/gapuino.rst:28
+msgid "**Frequency**"
+msgstr ""
+
+#: ../../../boards/riscv_gap/gapuino.rst:29
+msgid "250MHz"
+msgstr ""
+
+#: ../../../boards/riscv_gap/gapuino.rst:30
+msgid "**Flash**"
+msgstr ""
+
+#: ../../../boards/riscv_gap/gapuino.rst:31
+msgid "64MB"
+msgstr ""
+
+#: ../../../boards/riscv_gap/gapuino.rst:32
+msgid "**RAM**"
+msgstr ""
+
+#: ../../../boards/riscv_gap/gapuino.rst:33
+msgid "8MB"
+msgstr ""
+
+#: ../../../boards/riscv_gap/gapuino.rst:34
+msgid "**Vendor**"
+msgstr ""
+
+#: ../../../boards/riscv_gap/gapuino.rst:35
+msgid ""
+"`GreenWaves Technologies <https://greenwaves-technologies.com/product/"
+"gapduino/?utm_source=platformio.org&utm_medium=docs>`__"
+msgstr ""
+
+#: ../../../boards/riscv_gap/gapuino.rst:39
+msgid "Configuration"
+msgstr ""
+
+#: ../../../boards/riscv_gap/gapuino.rst:41
+msgid ""
+"Please use ``gapuino`` ID for :ref:`projectconf_env_board` option in :ref:"
+"`projectconf`:"
+msgstr ""
+
+#: ../../../boards/riscv_gap/gapuino.rst:49
+msgid ""
+"You can override default GAPuino GAP8 settings per build environment using "
+"``board_***`` option, where ``***`` is a JSON object path from board "
+"manifest `gapuino.json <https://github.com/platformio/platform-riscv_gap/"
+"blob/master/boards/gapuino.json>`_. For example, ``board_build.mcu``, "
+"``board_build.f_cpu``, etc."
+msgstr ""
+
+#: ../../../boards/riscv_gap/gapuino.rst:67
+msgid "Debugging"
+msgstr ""
+
+#: ../../../boards/riscv_gap/gapuino.rst:69
+msgid ""
+":ref:`piodebug` - \"1-click\" solution for debugging with a zero "
+"configuration."
+msgstr ""
+
+#: ../../../boards/riscv_gap/gapuino.rst:72
+msgid ""
+"You will need to install debug tool drivers depending on your system. Please "
+"click on compatible debug tool below for the further instructions and "
+"configuration information."
+msgstr ""
+
+#: ../../../boards/riscv_gap/gapuino.rst:76
+msgid ""
+"You can switch between debugging :ref:`debugging_tools` using :ref:"
+"`projectconf_debug_tool` option in :ref:`projectconf`."
+msgstr ""
+
+#: ../../../boards/riscv_gap/gapuino.rst:79
+msgid ""
+"GAPuino GAP8 has on-board debug probe and **IS READY** for debugging. You "
+"don't need to use/buy external debug probe."
+msgstr ""
+
+#: ../../../boards/riscv_gap/gapuino.rst:84
+msgid "Compatible Tools"
+msgstr ""
+
+#: ../../../boards/riscv_gap/gapuino.rst:85
+msgid "On-board"
+msgstr ""
+
+#: ../../../boards/riscv_gap/gapuino.rst:86
+msgid "Default"
+msgstr ""
+
+#: ../../../boards/riscv_gap/gapuino.rst:87
+msgid ":ref:`debugging_tool_ftdi`"
+msgstr ""
+
+#: ../../../boards/riscv_gap/gapuino.rst:88
+#: ../../../boards/riscv_gap/gapuino.rst:89
+msgid "Yes"
+msgstr ""
+
+#: ../../../boards/riscv_gap/gapuino.rst:92
+msgid "Frameworks"
+msgstr ""
+
+#: ../../../boards/riscv_gap/gapuino.rst:96
+msgid "Name"
+msgstr ""
+
+#: ../../../boards/riscv_gap/gapuino.rst:97
+msgid "Description"
+msgstr ""
+
+#: ../../../boards/riscv_gap/gapuino.rst:99
+msgid ":ref:`framework_mbed`"
+msgstr ""
+
+#: ../../../boards/riscv_gap/gapuino.rst:100
+msgid ""
+"Arm Mbed OS is a platform operating system designed for the internet of "
+"things"
+msgstr ""
+
+#: ../../../boards/riscv_gap/gapuino.rst:102
+msgid ":ref:`framework_pulp-os`"
+msgstr ""
+
+#: ../../../boards/riscv_gap/gapuino.rst:103
+msgid "SDK for Greenwaves Technologies' GAP8 IoT Application Processor"
+msgstr ""

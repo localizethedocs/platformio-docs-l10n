@@ -1,0 +1,96 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present, PlatformIO
+# This file is distributed under the same license as the PlatformIO package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PlatformIO latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-24 14:02+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../scripting/examples/override_package_files.rst:13
+msgid "Override package files"
+msgstr ""
+
+#: ../../../scripting/examples/override_package_files.rst:15
+msgid ""
+"PlatformIO Package Manager automatically installs pre-built packages (:ref:"
+"`frameworks`, toolchains, libraries) required by development :ref:"
+"`platforms` and build process. Sometimes you need to override original files "
+"with own versions: configure custom GPIO, do changes to built-in LD scripts, "
+"or some patching to installed library dependency."
+msgstr ""
+
+#: ../../../scripting/examples/override_package_files.rst:21
+msgid ""
+"The simplest way is using `Diff and Patch technique <https://linuxacademy."
+"com/blog/linux/introduction-using-diff-and-patch/>`_. How does it work?"
+msgstr ""
+
+#: ../../../scripting/examples/override_package_files.rst:23
+msgid "Modify original source files"
+msgstr ""
+
+#: ../../../scripting/examples/override_package_files.rst:24
+msgid "Generate patches"
+msgstr ""
+
+#: ../../../scripting/examples/override_package_files.rst:25
+msgid "Apply patches via PlatformIO extra script before build process."
+msgstr ""
+
+#: ../../../scripting/examples/override_package_files.rst:27
+msgid "**Example**"
+msgstr ""
+
+#: ../../../scripting/examples/override_package_files.rst:29
+msgid ""
+"We need to patch the original ``standard/pins_arduino.h`` variant from :ref:"
+"`framework_arduino` framework and add extra macro ``#define PIN_A8   (99)``. "
+"Let's duplicate ``standard/pins_arduino.h`` and apply changes. Generate a "
+"patch file and place it into ``patches`` folder located in the root of a "
+"project:"
+msgstr ""
+
+#: ../../../scripting/examples/override_package_files.rst:38
+msgid "The result of ``1-framework-arduinoavr-add-pin-a8.patch``:"
+msgstr ""
+
+#: ../../../scripting/examples/override_package_files.rst:49
+msgid ""
+"Using extra scripting we can apply patching before a build process. The "
+"final result of :ref:`projectconf` and \"PRE\" extra script named "
+"``apply_patches.py``:"
+msgstr ""
+
+#: ../../../scripting/examples/override_package_files.rst:53
+msgid "``platformio.ini``:"
+msgstr ""
+
+#: ../../../scripting/examples/override_package_files.rst:63
+msgid "``apply_patches.py``:"
+msgstr ""
+
+#: ../../../scripting/examples/override_package_files.rst:92
+msgid ""
+"Please note that this example will work on a system where a ``patch`` tool "
+"is available. For Windows OS, you can use ``patch`` and ``diff`` tools "
+"provided by `Git client utility <https://git-scm.com/>`__ (located inside "
+"installation directory)."
+msgstr ""
+
+#: ../../../scripting/examples/override_package_files.rst:97
+msgid ""
+"If you need to make it more independent to the operating system, please "
+"replace the ``patch`` with a multi-platform `python-patch <https://github."
+"com/techtonik/python-patch>`_ script."
+msgstr ""

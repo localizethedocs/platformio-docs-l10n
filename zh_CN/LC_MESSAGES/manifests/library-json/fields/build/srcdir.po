@@ -1,0 +1,55 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present, PlatformIO
+# This file is distributed under the same license as the PlatformIO package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PlatformIO latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-24 14:02+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../manifests/library-json/fields/build/srcdir.rst:13
+msgid "``srcDir``"
+msgstr ""
+
+#: ../../../manifests/library-json/fields/build/srcdir.rst:15
+msgid "*Optional* | Type: ``String``"
+msgstr ""
+
+#: ../../../manifests/library-json/fields/build/srcdir.rst:17
+msgid ""
+"The base path where PlatformIO should look for library source code. The "
+"default value is ``src`` and indicates that folder is located in the root of "
+"the library."
+msgstr ""
+
+#: ../../../manifests/library-json/fields/build/srcdir.rst:21
+msgid ""
+"Setting ``srcDir`` to ``.`` will instruct PlatformIO to recursively build "
+"all source files located in the root of the library and its subfolders."
+msgstr ""
+
+#: ../../../manifests/library-json/fields/build/srcdir.rst:25
+msgid ""
+"If you need to exclude some files from the build process, refer to the :ref:"
+"`library_json_buid_src_filter`."
+msgstr ""
+
+#: ../../../manifests/library-json/fields/build/srcdir.rst:28
+msgid "**Example**"
+msgstr ""
+
+#: ../../../manifests/library-json/fields/build/srcdir.rst:30
+msgid ""
+"Build ALL files starting from the root of a library and exclude ``examples`` "
+"and ``test`` subfolders:"
+msgstr ""

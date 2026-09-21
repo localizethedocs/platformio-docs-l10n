@@ -1,0 +1,242 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present, PlatformIO
+# This file is distributed under the same license as the PlatformIO package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PlatformIO latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-24 14:02+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../platforms/linux_arm.rst:15
+msgid "Linux ARM"
+msgstr ""
+
+#: ../../../platforms/linux_arm.rst:0
+msgid "Registry"
+msgstr ""
+
+#: ../../../platforms/linux_arm.rst:18
+msgid ""
+"`https://registry.platformio.org/platforms/platformio/linux_arm <https://"
+"registry.platformio.org/platforms/platformio/linux_arm>`__"
+msgstr ""
+
+#: ../../../platforms/linux_arm.rst:0
+msgid "Configuration"
+msgstr "組態"
+
+#: ../../../platforms/linux_arm.rst:20
+msgid ":ref:`projectconf_env_platform` = ``platformio/linux_arm``"
+msgstr ""
+
+#: ../../../platforms/linux_arm.rst:22
+msgid ""
+"Linux ARM is a Unix-like and mostly POSIX-compliant computer operating "
+"system (OS) assembled under the model of free and open-source software "
+"development and distribution. Using host OS (Mac OS X, Linux ARM) you can "
+"build native application for Linux ARM platform."
+msgstr ""
+
+#: ../../../platforms/linux_arm.rst:24
+msgid ""
+"For more detailed information please visit `vendor site <https://registry."
+"platformio.org/platforms/platformio/linux_arm?utm_source=platformio."
+"org&utm_medium=docs>`_."
+msgstr ""
+
+#: ../../../platforms/linux_arm.rst:29
+msgid "Contents"
+msgstr ""
+
+#: ../../../platforms/linux_arm.rst:32
+msgid "Examples"
+msgstr "範例"
+
+#: ../../../platforms/linux_arm.rst:34
+msgid ""
+"Examples are listed from `Linux ARM development platform repository <https://"
+"github.com/platformio/platform-linux_arm/tree/master/examples?"
+"utm_source=platformio.org&utm_medium=docs>`_:"
+msgstr ""
+
+#: ../../../platforms/linux_arm.rst:36
+msgid ""
+"`wiringpi-serial <https://github.com/platformio/platform-linux_arm/tree/"
+"master/examples/wiringpi-serial?utm_source=platformio.org&utm_medium=docs>`_"
+msgstr ""
+
+#: ../../../platforms/linux_arm.rst:37
+msgid ""
+"`wiringpi-blink <https://github.com/platformio/platform-linux_arm/tree/"
+"master/examples/wiringpi-blink?utm_source=platformio.org&utm_medium=docs>`_"
+msgstr ""
+
+#: ../../../platforms/linux_arm.rst:40
+msgid "Stable and upstream versions"
+msgstr ""
+
+#: ../../../platforms/linux_arm.rst:42
+msgid ""
+"You can switch between `stable releases <https://github.com/platformio/"
+"platform-linux_arm/releases>`__ of Linux ARM development platform and the "
+"latest upstream version using :ref:`projectconf_env_platform` option in :ref:"
+"`projectconf` as described below."
+msgstr ""
+
+#: ../../../platforms/linux_arm.rst:47
+msgid "Stable"
+msgstr ""
+
+#: ../../../platforms/linux_arm.rst:61
+msgid "Upstream"
+msgstr ""
+
+#: ../../../platforms/linux_arm.rst:70
+msgid "Packages"
+msgstr ""
+
+#: ../../../platforms/linux_arm.rst:75 ../../../platforms/linux_arm.rst:89
+#: ../../../platforms/linux_arm.rst:109
+msgid "Name"
+msgstr ""
+
+#: ../../../platforms/linux_arm.rst:76 ../../../platforms/linux_arm.rst:90
+msgid "Description"
+msgstr ""
+
+#: ../../../platforms/linux_arm.rst:78
+msgid ""
+"`framework-wiringpi <https://registry.platformio.org/tools/platformio/"
+"framework-wiringpi>`__"
+msgstr ""
+
+#: ../../../platforms/linux_arm.rst:79 ../../../platforms/linux_arm.rst:93
+msgid ""
+"WiringPi is a PIN based GPIO access library written in C for the BCM2835, "
+"BCM2836 and BCM2837 SoC devices used in all Raspberry Pi"
+msgstr ""
+
+#: ../../../platforms/linux_arm.rst:81
+msgid ""
+"`toolchain-gccarmlinuxgnueabi <https://registry.platformio.org/tools/"
+"platformio/toolchain-gccarmlinuxgnueabi>`__"
+msgstr ""
+
+#: ../../../platforms/linux_arm.rst:82
+msgid "GCC Toolchain for Linux ARM GNU EABI"
+msgstr ""
+
+#: ../../../platforms/linux_arm.rst:85
+msgid "Frameworks"
+msgstr "框架"
+
+#: ../../../platforms/linux_arm.rst:92
+msgid ":ref:`framework_wiringpi`"
+msgstr ""
+
+#: ../../../platforms/linux_arm.rst:96
+msgid "Boards"
+msgstr "開發板"
+
+#: ../../../platforms/linux_arm.rst:99
+msgid "You can list pre-configured boards by :ref:`cmd_boards` command"
+msgstr ""
+
+#: ../../../platforms/linux_arm.rst:100
+msgid ""
+"For more detailed ``board`` information please scroll the tables below by "
+"horizontally."
+msgstr ""
+
+#: ../../../platforms/linux_arm.rst:104
+msgid "Raspberry Pi"
+msgstr ""
+
+#: ../../../platforms/linux_arm.rst:110
+msgid "Debug"
+msgstr ""
+
+#: ../../../platforms/linux_arm.rst:111
+msgid "MCU"
+msgstr ""
+
+#: ../../../platforms/linux_arm.rst:112
+msgid "Frequency"
+msgstr ""
+
+#: ../../../platforms/linux_arm.rst:113
+msgid "Flash"
+msgstr ""
+
+#: ../../../platforms/linux_arm.rst:114
+msgid "RAM"
+msgstr ""
+
+#: ../../../platforms/linux_arm.rst:115
+msgid ":ref:`board_linux_arm_raspberrypi_1b`"
+msgstr ""
+
+#: ../../../platforms/linux_arm.rst:116 ../../../platforms/linux_arm.rst:122
+#: ../../../platforms/linux_arm.rst:128 ../../../platforms/linux_arm.rst:134
+msgid "No"
+msgstr ""
+
+#: ../../../platforms/linux_arm.rst:117 ../../../platforms/linux_arm.rst:135
+msgid "BCM2835"
+msgstr ""
+
+#: ../../../platforms/linux_arm.rst:118
+msgid "700MHz"
+msgstr ""
+
+#: ../../../platforms/linux_arm.rst:119 ../../../platforms/linux_arm.rst:120
+#: ../../../platforms/linux_arm.rst:137 ../../../platforms/linux_arm.rst:138
+msgid "512MB"
+msgstr ""
+
+#: ../../../platforms/linux_arm.rst:121
+msgid ":ref:`board_linux_arm_raspberrypi_2b`"
+msgstr ""
+
+#: ../../../platforms/linux_arm.rst:123
+msgid "BCM2836"
+msgstr ""
+
+#: ../../../platforms/linux_arm.rst:124
+msgid "900MHz"
+msgstr ""
+
+#: ../../../platforms/linux_arm.rst:125 ../../../platforms/linux_arm.rst:126
+#: ../../../platforms/linux_arm.rst:131 ../../../platforms/linux_arm.rst:132
+msgid "1GB"
+msgstr ""
+
+#: ../../../platforms/linux_arm.rst:127
+msgid ":ref:`board_linux_arm_raspberrypi_3b`"
+msgstr ""
+
+#: ../../../platforms/linux_arm.rst:129
+msgid "BCM2837"
+msgstr ""
+
+#: ../../../platforms/linux_arm.rst:130
+msgid "1200MHz"
+msgstr ""
+
+#: ../../../platforms/linux_arm.rst:133
+msgid ":ref:`board_linux_arm_raspberrypi_zero`"
+msgstr ""
+
+#: ../../../platforms/linux_arm.rst:136
+msgid "1000MHz"
+msgstr ""
