@@ -1,0 +1,226 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present, PlatformIO
+# This file is distributed under the same license as the PlatformIO package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PlatformIO stable\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-24 14:03+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../advanced/unit-testing/frameworks/custom/api.rst:15
+msgid "Test Runner API"
+msgstr ""
+
+#: ../../../advanced/unit-testing/frameworks/custom/api.rst:21
+msgid "TestStatus"
+msgstr ""
+
+#: ../../../advanced/unit-testing/frameworks/custom/api.rst:0
+msgid "Source Code"
+msgstr ""
+
+#: ../../../advanced/unit-testing/frameworks/custom/api.rst:25
+msgid ""
+"`TestStatus <https://github.com/platformio/platformio-core/blob/develop/"
+"platformio/test/result.py>`_"
+msgstr ""
+
+#: ../../../advanced/unit-testing/frameworks/custom/api.rst:29
+msgid "Attribute to mark test or test suite as passed."
+msgstr ""
+
+#: ../../../advanced/unit-testing/frameworks/custom/api.rst:33
+msgid "Attribute to mark test or test suite as failed."
+msgstr ""
+
+#: ../../../advanced/unit-testing/frameworks/custom/api.rst:37
+msgid "Attribute to mark test or test suite as skipped."
+msgstr ""
+
+#: ../../../advanced/unit-testing/frameworks/custom/api.rst:41
+msgid ""
+"Attribute to mark test or test suite as errored. It indicates that an "
+"unexpected error has happened while testing the test suite."
+msgstr ""
+
+#: ../../../advanced/unit-testing/frameworks/custom/api.rst:46
+msgid "TestCase"
+msgstr ""
+
+#: ../../../advanced/unit-testing/frameworks/custom/api.rst:50
+msgid ""
+"`TestCase <https://github.com/platformio/platformio-core/blob/develop/"
+"platformio/test/result.py>`_"
+msgstr ""
+
+#: ../../../advanced/unit-testing/frameworks/custom/api.rst:54
+msgid "Name of a test case."
+msgstr ""
+
+#: ../../../advanced/unit-testing/frameworks/custom/api.rst:0
+msgid "Example"
+msgstr ""
+
+#: ../../../advanced/unit-testing/frameworks/custom/api.rst:56
+msgid "``test_configuration``, ``embedded/test_mqtt_connection``, etc."
+msgstr ""
+
+#: ../../../advanced/unit-testing/frameworks/custom/api.rst:60
+msgid "Instance of ``TestStatus`` class."
+msgstr ""
+
+#: ../../../advanced/unit-testing/frameworks/custom/api.rst:62
+msgid "``TestStatus.PASSED``"
+msgstr ""
+
+#: ../../../advanced/unit-testing/frameworks/custom/api.rst:66
+msgid ""
+"Message that explains the reason why a test failed. Available only when "
+"``TestCase.status == TestStatus.FAILED``."
+msgstr ""
+
+#: ../../../advanced/unit-testing/frameworks/custom/api.rst:71
+msgid "Extra output when running a test case."
+msgstr ""
+
+#: ../../../advanced/unit-testing/frameworks/custom/api.rst:75
+msgid "Test case duration in seconds."
+msgstr ""
+
+#: ../../../advanced/unit-testing/frameworks/custom/api.rst:79
+msgid ""
+"Unexpected happened when running a test case. Should be an instance of the "
+"Python ``Exception`` class."
+msgstr ""
+
+#: ../../../advanced/unit-testing/frameworks/custom/api.rst:84
+msgid ""
+"Instance of ``TestCaseSource`` (see below) that contains details of the "
+"source file and a test case line."
+msgstr ""
+
+#: ../../../advanced/unit-testing/frameworks/custom/api.rst:88
+msgid "TestCaseSource"
+msgstr ""
+
+#: ../../../advanced/unit-testing/frameworks/custom/api.rst:92
+msgid ""
+"`TestCaseSource <https://github.com/platformio/platformio-core/blob/develop/"
+"platformio/test/result.py>`_"
+msgstr ""
+
+#: ../../../advanced/unit-testing/frameworks/custom/api.rst:96
+msgid ""
+"Path of the source file where a test case is implemented. The relative path "
+"to a project folder is allowed."
+msgstr ""
+
+#: ../../../advanced/unit-testing/frameworks/custom/api.rst:101
+msgid "Number of the line for a test case."
+msgstr ""
+
+#: ../../../advanced/unit-testing/frameworks/custom/api.rst:106
+msgid "CustomTestRunner"
+msgstr ""
+
+#: ../../../advanced/unit-testing/frameworks/custom/api.rst:108
+msgid ""
+"**CustomTestRunner** class must inherit ``TestRunnerBase`` or the already "
+"implemented runners for supported :ref:`unit_testing_frameworks`. See the "
+"source code of `already implemented runners <https://github.com/platformio/"
+"platformio-core/tree/develop/platformio/test/runners>`__."
+msgstr ""
+
+#: ../../../advanced/unit-testing/frameworks/custom/api.rst:116
+msgid ""
+"`TestRunnerBase <https://github.com/platformio/platformio-core/blob/develop/"
+"platformio/test/runners/base.py>`_,"
+msgstr ""
+
+#: ../../../advanced/unit-testing/frameworks/custom/api.rst:120
+msgid ""
+"Method called to prepare the test runner. This is called immediately before "
+"calling ``self.stage_building()``. The default implementation does nothing."
+msgstr ""
+
+#: ../../../advanced/unit-testing/frameworks/custom/api.rst:126
+msgid ""
+"Method called immediately after the ``self.stage_testing()`` method has been "
+"called and the result recorded. This is called even if the test method "
+"raised an exception, so the implementation in subclasses may need to be "
+"particularly careful about checking the internal state. The default "
+"implementation does nothing."
+msgstr ""
+
+#: ../../../advanced/unit-testing/frameworks/custom/api.rst:134
+msgid "Method called to build source code of a particular test."
+msgstr ""
+
+#: ../../../advanced/unit-testing/frameworks/custom/api.rst:138
+msgid ""
+"Method called to upload a testing firmware to the target embedded device. "
+"This method is ignored on the :ref:`platform_native` development platform."
+msgstr ""
+
+#: ../../../advanced/unit-testing/frameworks/custom/api.rst:144
+msgid ""
+"Method called to run test cases and record test results via calling ``self."
+"test_suite.add_case(TestCase(...))``."
+msgstr ""
+
+#: ../../../advanced/unit-testing/frameworks/custom/api.rst:147
+msgid ""
+"You can implement your own testing method depending on the target where "
+"tests are running. For example, connecting to the \"BoardFarm/Remote CI "
+"Runner\" via HTTT/TCP, gathering results, parsing them, and recoding via "
+"``self.test_suite.add_case(TestCase(...))``."
+msgstr ""
+
+#: ../../../advanced/unit-testing/frameworks/custom/api.rst:154
+msgid ""
+"Method called to configure a SCons build environment in the testing mode. It "
+"is uesfult to provide extra runtime configuration for a testing framework "
+"(macros, includes, dynamic configs)."
+msgstr ""
+
+#: ../../../advanced/unit-testing/frameworks/custom/api.rst:158
+msgid ""
+"See `Unity Test Runner <https://github.com/platformio/platformio-core/blob/"
+"develop/platformio/test/runners/unity.py>`__."
+msgstr ""
+
+#: ../../../advanced/unit-testing/frameworks/custom/api.rst:162
+msgid ""
+"Method called on receiving data when running tests at the ``stage_testing``. "
+"``data`` can be the complete test result output, line, or part of a line. "
+"When data are chunked, ``on_testing_data_output`` will be called multiple "
+"times until testing is completed."
+msgstr ""
+
+#: ../../../advanced/unit-testing/frameworks/custom/api.rst:0
+msgid "Parameters"
+msgstr ""
+
+#: ../../../advanced/unit-testing/frameworks/custom/api.rst:168
+msgid "testing output data"
+msgstr ""
+
+#: ../../../advanced/unit-testing/frameworks/custom/api.rst:172
+msgid ""
+"Method called on each line split from data received by "
+"``on_testing_data_output`` method."
+msgstr ""
+
+#: ../../../advanced/unit-testing/frameworks/custom/api.rst:175
+msgid "testing output line"
+msgstr ""

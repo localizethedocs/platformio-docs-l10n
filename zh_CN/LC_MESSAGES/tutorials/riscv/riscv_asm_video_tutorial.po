@@ -1,0 +1,133 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present, PlatformIO
+# This file is distributed under the same license as the PlatformIO package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PlatformIO stable\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-24 14:03+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../tutorials/riscv/riscv_asm_video_tutorial.rst:15
+msgid "RISC-V ASM Video Tutorial"
+msgstr ""
+
+#: ../../../tutorials/riscv/riscv_asm_video_tutorial.rst:17
+msgid ""
+"An introduction to using :ref:`platform_sifive` and Assembly language on the "
+"SiFive :ref:`board_sifive_hifive1` by Martin Fink, Chief Technology Officer "
+"at Western Digital."
+msgstr ""
+
+#: ../../../tutorials/riscv/riscv_asm_video_tutorial.rst:22
+msgid "Source Files"
+msgstr ""
+
+#: ../../../tutorials/riscv/riscv_asm_video_tutorial.rst:24
+msgid ""
+"A demo source code is published on Github: https://github.com/martin-robert-"
+"fink/superBlink.git"
+msgstr ""
+
+#: ../../../tutorials/riscv/riscv_asm_video_tutorial.rst:26
+msgid "It is already pre-configured PlatformIO project:"
+msgstr ""
+
+#: ../../../tutorials/riscv/riscv_asm_video_tutorial.rst:28
+msgid ""
+"Clone it or `download <https://github.com/martin-robert-fink/superBlink/"
+"archive/master.zip>`_"
+msgstr ""
+
+#: ../../../tutorials/riscv/riscv_asm_video_tutorial.rst:29
+msgid "Open in :ref:`ide_vscode`"
+msgstr ""
+
+#: ../../../tutorials/riscv/riscv_asm_video_tutorial.rst:30
+msgid "Happy coding and debugging!"
+msgstr ""
+
+#: ../../../tutorials/riscv/riscv_asm_video_tutorial.rst:33
+msgid "Video Collection"
+msgstr ""
+
+#: ../../../tutorials/riscv/riscv_asm_video_tutorial.rst:38
+msgid ""
+"`Part 1 of 12 | Introduction <https://www.youtube.com/watch?"
+"v=KLybwrpfQ3I&index=1&list=PL6noQ0vZDAdh_aGvqKvxd0brXImHXMuLY>`_"
+msgstr ""
+
+#: ../../../tutorials/riscv/riscv_asm_video_tutorial.rst:39
+msgid ""
+"`Part 2 of 12 | Setting Up <https://www.youtube.com/watch?"
+"v=daGHhrkF41U&list=PL6noQ0vZDAdh_aGvqKvxd0brXImHXMuLY&index=2>`_"
+msgstr ""
+
+#: ../../../tutorials/riscv/riscv_asm_video_tutorial.rst:40
+msgid ""
+"`Part 3 of 12 | Tour PlatformIO <https://www.youtube.com/watch?"
+"v=k3tpNwXEWhU&list=PL6noQ0vZDAdh_aGvqKvxd0brXImHXMuLY&index=3>`_"
+msgstr ""
+
+#: ../../../tutorials/riscv/riscv_asm_video_tutorial.rst:41
+msgid ""
+"`Part 4 of 12 | C Code Wrapper <https://www.youtube.com/watch?"
+"v=MnWI9qplfvA&list=PL6noQ0vZDAdh_aGvqKvxd0brXImHXMuLY&index=4>`_"
+msgstr ""
+
+#: ../../../tutorials/riscv/riscv_asm_video_tutorial.rst:42
+msgid ""
+"`Part 5 of 12 | HiFive Docs <https://www.youtube.com/watch?"
+"v=nqXRzUFnM9w&list=PL6noQ0vZDAdh_aGvqKvxd0brXImHXMuLY&index=5>`_"
+msgstr ""
+
+#: ../../../tutorials/riscv/riscv_asm_video_tutorial.rst:43
+msgid ""
+"`Part 6 of 12 | Understanding GPIO <https://www.youtube.com/watch?"
+"v=tthKXGxAUjY&list=PL6noQ0vZDAdh_aGvqKvxd0brXImHXMuLY&index=6>`_"
+msgstr ""
+
+#: ../../../tutorials/riscv/riscv_asm_video_tutorial.rst:44
+msgid ""
+"`Part 7 of 12 | setupGPIO <https://www.youtube.com/watch?"
+"v=90udyEHBiwg&list=PL6noQ0vZDAdh_aGvqKvxd0brXImHXMuLY&index=7>`_"
+msgstr ""
+
+#: ../../../tutorials/riscv/riscv_asm_video_tutorial.rst:45
+msgid ""
+"`Part 8 of 12 | Debug setupGPIO <https://www.youtube.com/watch?"
+"v=Xmes__VpfiA&list=PL6noQ0vZDAdh_aGvqKvxd0brXImHXMuLY&index=8>`_"
+msgstr ""
+
+#: ../../../tutorials/riscv/riscv_asm_video_tutorial.rst:46
+msgid ""
+"`Part 9 of 12 | setLED <https://www.youtube.com/watch?"
+"v=PMLqqRHpbsQ&list=PL6noQ0vZDAdh_aGvqKvxd0brXImHXMuLY&index=9>`_"
+msgstr ""
+
+#: ../../../tutorials/riscv/riscv_asm_video_tutorial.rst:47
+msgid ""
+"`Part 10 of 12 | Debug setLED <https://www.youtube.com/watch?"
+"v=6K1FZK1Kc5w&list=PL6noQ0vZDAdh_aGvqKvxd0brXImHXMuLY&index=10>`_"
+msgstr ""
+
+#: ../../../tutorials/riscv/riscv_asm_video_tutorial.rst:48
+msgid ""
+"`Part 11 of 12 | Delay <https://www.youtube.com/watch?"
+"v=edzX3c2r0YQ&list=PL6noQ0vZDAdh_aGvqKvxd0brXImHXMuLY&index=11>`_"
+msgstr ""
+
+#: ../../../tutorials/riscv/riscv_asm_video_tutorial.rst:49
+msgid ""
+"`Part 12 of 12 | Final and Conclusion <https://www.youtube.com/watch?"
+"v=C16UE8oTZY0&list=PL6noQ0vZDAdh_aGvqKvxd0brXImHXMuLY&index=12>`_"
+msgstr ""

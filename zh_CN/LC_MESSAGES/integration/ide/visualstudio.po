@@ -1,0 +1,214 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present, PlatformIO
+# This file is distributed under the same license as the PlatformIO package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PlatformIO stable\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-24 14:03+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../integration/ide/visualstudio.rst:15
+msgid "Visual Studio"
+msgstr ""
+
+#: ../../../integration/ide/visualstudio.rst:17
+msgid ""
+"The `Microsoft Visual Studio (Free) <http://visualstudio.com/free>`_ is an "
+"integrated development environment (IDE) from Microsoft. Visual Studio "
+"includes a code editor supporting IntelliSense (the code completion "
+"component) as well as code refactoring."
+msgstr ""
+
+#: ../../../integration/ide/visualstudio.rst:19
+msgid ""
+"Refer to the `Visual Studio Documentation <https://msdn.microsoft.com/"
+"library/vstudio>`_ page for more detailed information."
+msgstr ""
+
+#: ../../../integration/ide/visualstudio.rst:25
+msgid "Contents"
+msgstr ""
+
+#: ../../../integration/ide/visualstudio.rst:28
+msgid "Integration"
+msgstr ""
+
+#: ../../../integration/ide/visualstudio.rst:30
+msgid "Integration process consists of these steps:"
+msgstr ""
+
+#: ../../../integration/ide/visualstudio.rst:32
+msgid "Open system Terminal and install :ref:`piocore`"
+msgstr ""
+
+#: ../../../integration/ide/visualstudio.rst:33
+msgid "Create new folder for your project and change directory (``cd``) to it"
+msgstr ""
+
+#: ../../../integration/ide/visualstudio.rst:34
+msgid ""
+"Generate a project using PlatformIO Core Project Generator (:option:`pio "
+"project init --ide`)"
+msgstr ""
+
+#: ../../../integration/ide/visualstudio.rst:35
+msgid "Import project in IDE."
+msgstr ""
+
+#: ../../../integration/ide/visualstudio.rst:40
+msgid "Project Generator"
+msgstr ""
+
+#: ../../../integration/ide/visualstudio.rst:42
+msgid ""
+"Choose board ``ID`` using :ref:`cmd_boards` or `Embedded Boards Explorer "
+"<https://platformio.org/boards>`_ command and generate project via :option:"
+"`pio project init --ide` command:"
+msgstr ""
+
+#: ../../../integration/ide/visualstudio.rst:52
+msgid "Then:"
+msgstr ""
+
+#: ../../../integration/ide/visualstudio.rst:54
+msgid ""
+"Import this project via ``Menu: File > Open > Project/Solution`` and specify "
+"root directory where is located :ref:`projectconf`"
+msgstr ""
+
+#: ../../../integration/ide/visualstudio.rst:56
+msgid "Open source file from ``src`` directory (``*.c, *.cpp, *.ino, etc.``)"
+msgstr ""
+
+#: ../../../integration/ide/visualstudio.rst:57
+msgid "Build project: ``Menu: Build > Build Solution``."
+msgstr ""
+
+#: ../../../integration/ide/visualstudio.rst:60
+msgid ""
+"The libraries which are added, installed or used in the project after "
+"generating process won't be reflected in IDE. To fix it you need to "
+"reinitialize project using :ref:`cmd_project_init` (repeat it)."
+msgstr ""
+
+#: ../../../integration/ide/visualstudio.rst:65
+msgid "Manual Integration"
+msgstr ""
+
+#: ../../../integration/ide/visualstudio.rst:68
+msgid "Setup New Project"
+msgstr ""
+
+#: ../../../integration/ide/visualstudio.rst:70
+msgid ""
+"First of all, let's create new project from Visual Studio Start Page: "
+"``Start > New Project`` or using ``Menu: File > New > Project``, then select "
+"project with ``Makefile`` type (``Visual C++ > General > Makefile "
+"Project``), fill ``Project name``, ``Solution name``, ``Location`` fields "
+"and press OK button."
+msgstr ""
+
+#: ../../../integration/ide/visualstudio.rst:74
+msgid "Secondly, we need to configure project with PlatformIO Build System:"
+msgstr ""
+
+#: ../../../integration/ide/visualstudio.rst:78
+msgid ""
+"If we want to use native AVR programming, we have to specify additional "
+"preprocessor symbol (\"Preprocessor definitions\" field) about your MCU. For "
+"example, an Arduino Uno is based on the ATmega328 MCU. In this case We will "
+"add new definition  ``__AVR_ATmega328__``."
+msgstr ""
+
+#: ../../../integration/ide/visualstudio.rst:82
+msgid ""
+"Release Configuration is the same as Debug, so on the next step we check "
+"\"Same as Debug Configuration\" and click \"Finish\" button."
+msgstr ""
+
+#: ../../../integration/ide/visualstudio.rst:86
+msgid ""
+"Thirdly, we need to add directories with header files using project "
+"properties (right click on the project name or ``Alt-Enter`` shortcut) and "
+"add two directories to ``Configuration Properties > NMake > Include Search "
+"Path``:"
+msgstr ""
+
+#: ../../../integration/ide/visualstudio.rst:96
+msgid "First program in Visual Studio"
+msgstr ""
+
+#: ../../../integration/ide/visualstudio.rst:98
+msgid "Simple \"Blink\" project will consist from two files:"
+msgstr ""
+
+#: ../../../integration/ide/visualstudio.rst:100
+msgid ""
+"1. Main \"C++\" source file named ``main.cpp`` must be located in the "
+"``src`` directory. Let's create new file named ``main.cpp`` using ``Menu: "
+"File > New File`` or shortcut ``Ctrl+N``:"
+msgstr ""
+
+#: ../../../integration/ide/visualstudio.rst:105
+msgid "Copy the source code which is described below to file ``main.cpp``."
+msgstr ""
+
+#: ../../../integration/ide/visualstudio.rst:124
+msgid ""
+"Project Configuration File named ``platformio.ini`` must be located in the "
+"project root directory."
+msgstr ""
+
+#: ../../../integration/ide/visualstudio.rst:128
+msgid "Copy the source code which is described below to it."
+msgstr ""
+
+#: ../../../integration/ide/visualstudio.rst:148
+msgid "Conclusion"
+msgstr ""
+
+#: ../../../integration/ide/visualstudio.rst:150
+msgid ""
+"Taking everything into account, we can build project with shortcut "
+"``Ctrl+Shift+B`` or using ``Menu: Build > Build Solution``."
+msgstr ""
+
+#: ../../../integration/ide/visualstudio.rst:153
+msgid "Known issues"
+msgstr ""
+
+#: ../../../integration/ide/visualstudio.rst:156
+msgid "IntelliSense Errors"
+msgstr ""
+
+#: ../../../integration/ide/visualstudio.rst:158
+msgid ""
+"VS Studio does not allow one to specify for project other toolchain which "
+"will be used by IntelliSense. In this case, IntelliSense does not understand "
+"GCC-specific definitions."
+msgstr ""
+
+#: ../../../integration/ide/visualstudio.rst:162
+msgid ""
+"However, these errors does not have any influence on PlatformIO Build "
+"System. It means that you can ignore them and rely on PlatformIO Build "
+"System messages which will be shown in output console after build."
+msgstr ""
+
+#: ../../../integration/ide/visualstudio.rst:166
+msgid ""
+"Nevertheless, you can provide an IntelliSense-friendly definition of "
+"problematic GCC constructs and make sure that the GCC will ignore such "
+"definitions or disable IntelliSense error reporting at all. See details in "
+"`issue #543 <https://github.com/platformio/platformio-core/issues/543>`_"
+msgstr ""

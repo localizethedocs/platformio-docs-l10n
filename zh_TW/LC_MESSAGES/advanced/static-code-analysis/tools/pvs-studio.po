@@ -1,0 +1,204 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present, PlatformIO
+# This file is distributed under the same license as the PlatformIO package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PlatformIO stable\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-24 14:03+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../advanced/static-code-analysis/tools/pvs-studio.rst:15
+msgid "PVS-Studio"
+msgstr ""
+
+#: ../../../advanced/static-code-analysis/tools/pvs-studio.rst:17
+msgid ""
+"**PVS-Studio** is a static code analysis tool for detecting bugs and "
+"security weaknesses in the source code of programs, written in C, C++, C# "
+"and Java. It analyzes source code intended for 32-bit, 64-bit and embedded "
+"ARM platforms. The official page can be found `here  <https://www.viva64.com/"
+"en/pvs-studio/>`__."
+msgstr ""
+
+#: ../../../advanced/static-code-analysis/tools/pvs-studio.rst:23
+msgid "Contents"
+msgstr ""
+
+#: ../../../advanced/static-code-analysis/tools/pvs-studio.rst:26
+msgid "Features"
+msgstr ""
+
+#: ../../../advanced/static-code-analysis/tools/pvs-studio.rst:28
+msgid ""
+"**PVS-Studio** performs a wide range of code checks, and it is also useful "
+"in finding misprints and Copy-Paste errors. These checks are static analysis "
+"checks that can be performed at a source code level. Some of the defects "
+"that might be detected include:"
+msgstr ""
+
+#: ../../../advanced/static-code-analysis/tools/pvs-studio.rst:32
+msgid "Arithmetic over/underflow"
+msgstr ""
+
+#: ../../../advanced/static-code-analysis/tools/pvs-studio.rst:33
+msgid "Array index out of bounds"
+msgstr ""
+
+#: ../../../advanced/static-code-analysis/tools/pvs-studio.rst:34
+msgid "Undefined/unspecified behavior"
+msgstr ""
+
+#: ../../../advanced/static-code-analysis/tools/pvs-studio.rst:35
+msgid "Incorrect usage of exceptions"
+msgstr ""
+
+#: ../../../advanced/static-code-analysis/tools/pvs-studio.rst:36
+msgid "Buffer overrun"
+msgstr ""
+
+#: ../../../advanced/static-code-analysis/tools/pvs-studio.rst:37
+msgid "Null pointer/null reference dereference"
+msgstr ""
+
+#: ../../../advanced/static-code-analysis/tools/pvs-studio.rst:38
+msgid "Improper understanding of function/class operation logic"
+msgstr ""
+
+#: ../../../advanced/static-code-analysis/tools/pvs-studio.rst:39
+msgid "Illegal bitwise/shift operations"
+msgstr ""
+
+#: ../../../advanced/static-code-analysis/tools/pvs-studio.rst:41
+msgid ""
+"The full list of supported checks can be found on `the official webpage  "
+"<https://www.viva64.com/en/w/>`__."
+msgstr ""
+
+#: ../../../advanced/static-code-analysis/tools/pvs-studio.rst:45
+msgid "Configuration"
+msgstr "組態"
+
+#: ../../../advanced/static-code-analysis/tools/pvs-studio.rst:47
+msgid ""
+"To enable **PVS-Studio** tool simply add it to the :ref:"
+"`projectconf_check_tool` option in :ref:`projectconf`:"
+msgstr ""
+
+#: ../../../advanced/static-code-analysis/tools/pvs-studio.rst:57
+msgid "Useful options that can be used used for adjusting check process:"
+msgstr ""
+
+#: ../../../advanced/static-code-analysis/tools/pvs-studio.rst:65
+msgid "Extra flags"
+msgstr ""
+
+#: ../../../advanced/static-code-analysis/tools/pvs-studio.rst:67
+msgid ""
+"Useful flags that can help more precisely configure **PVS-Studio** to "
+"satisfy your project requirements:"
+msgstr ""
+
+#: ../../../advanced/static-code-analysis/tools/pvs-studio.rst:73
+msgid "Flag"
+msgstr ""
+
+#: ../../../advanced/static-code-analysis/tools/pvs-studio.rst:74
+msgid "Meaning"
+msgstr ""
+
+#: ../../../advanced/static-code-analysis/tools/pvs-studio.rst:76
+msgid "``--analysis-mode <arg>``"
+msgstr ""
+
+#: ../../../advanced/static-code-analysis/tools/pvs-studio.rst:77
+msgid ""
+"Analysis mode (``0`` - full analysis (default), ``1`` - 64-bit. analysis, "
+"``2`` - reserved, ``4`` - general analysis, ``8`` - optimization, ``16`` - "
+"customer's specific requests, ``32`` - MISRA)"
+msgstr ""
+
+#: ../../../advanced/static-code-analysis/tools/pvs-studio.rst:79
+msgid "``--analyzer-errors <arg>``"
+msgstr ""
+
+#: ../../../advanced/static-code-analysis/tools/pvs-studio.rst:80
+msgid "Errors activation (Default: all errors is on)"
+msgstr ""
+
+#: ../../../advanced/static-code-analysis/tools/pvs-studio.rst:82
+msgid "``--errors-off <arg>``"
+msgstr ""
+
+#: ../../../advanced/static-code-analysis/tools/pvs-studio.rst:83
+msgid "Errors OFF (Default: all errors is on)"
+msgstr ""
+
+#: ../../../advanced/static-code-analysis/tools/pvs-studio.rst:85
+msgid "``--exclude-path <arg>``"
+msgstr ""
+
+#: ../../../advanced/static-code-analysis/tools/pvs-studio.rst:86
+msgid "All code that is located under the path will be excluded from analysis"
+msgstr ""
+
+#: ../../../advanced/static-code-analysis/tools/pvs-studio.rst:88
+msgid "``--lic-file <arg>``"
+msgstr ""
+
+#: ../../../advanced/static-code-analysis/tools/pvs-studio.rst:89
+msgid ""
+"Path to custom license file. Default locations ``~/.config/PVS-Studio/PVS-"
+"Studio.lic`` on Unix and ``%APPDATA%\\PVS-Studio\\PVS-Studio.lic`` on Windows"
+msgstr ""
+
+#: ../../../advanced/static-code-analysis/tools/pvs-studio.rst:91
+msgid "``--rules-config <arg>``"
+msgstr ""
+
+#: ../../../advanced/static-code-analysis/tools/pvs-studio.rst:92
+msgid "Specifies the path to rules configuration file."
+msgstr ""
+
+#: ../../../advanced/static-code-analysis/tools/pvs-studio.rst:94
+msgid "``--platform <arg>``"
+msgstr ""
+
+#: ../../../advanced/static-code-analysis/tools/pvs-studio.rst:95
+msgid "Platform name (Win32, x64, etc) (Default: ``ARM``)"
+msgstr ""
+
+#: ../../../advanced/static-code-analysis/tools/pvs-studio.rst:98
+msgid ""
+"An example with a special analysis mode, disabled errors and license file:"
+msgstr ""
+
+#: ../../../advanced/static-code-analysis/tools/pvs-studio.rst:111
+msgid "Obtaining license"
+msgstr ""
+
+#: ../../../advanced/static-code-analysis/tools/pvs-studio.rst:113
+msgid ""
+"Since **PVS-Studio** is a paid B2B solution, `a license <https://www.viva64."
+"com/en/order>`__ should be purchased. But PVS-Studio can be used for free of "
+"charge, for example for checking open source projects. More information "
+"about the cases when you can get a free **PVS-Studio** license can be found "
+"on `the official webpage <https://www.viva64.com/en/open-source-license/>`__."
+msgstr ""
+
+#: ../../../advanced/static-code-analysis/tools/pvs-studio.rst:119
+msgid ""
+"If you're experiencing problems with the license file or see the following "
+"error message: ``License information is incorrect. Please check your "
+"registration data or contact Customer Support``, try saving the license file "
+"in ``UTF-8 + BOM`` format with the following contents:"
+msgstr ""

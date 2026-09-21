@@ -1,0 +1,2733 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present, PlatformIO
+# This file is distributed under the same license as the PlatformIO package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PlatformIO stable\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-24 14:03+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../frameworks/zephyr.rst:15
+msgid "Zephyr"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:0 ../../../frameworks/zephyr_extra.rst:19
+msgid "Configuration"
+msgstr "組態"
+
+#: ../../../frameworks/zephyr.rst:18
+msgid ":ref:`projectconf_env_framework` = ``zephyr``"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:20
+msgid ""
+"Zephyr is a new generation, scalable, optimized, secure RTOS for multiple "
+"hardware architectures"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:23
+msgid "Contents"
+msgstr ""
+
+#: ../../../frameworks/zephyr_extra.rst:13
+msgid "Tutorials"
+msgstr ""
+
+#: ../../../frameworks/zephyr_extra.rst:15
+msgid ":ref:`tutorial_nordicnrf52_zephyr_debugging_unit_testing_analysis`"
+msgstr ""
+
+#: ../../../frameworks/zephyr_extra.rst:16
+msgid ""
+"`Enabling PlatformIO and Zephyr on custom hardware <https://piolabs.com/blog/"
+"engineering/platformio-zephyr-custom-hardware.html>`__"
+msgstr ""
+
+#: ../../../frameworks/zephyr_extra.rst:25
+msgid "Project Structure"
+msgstr ""
+
+#: ../../../frameworks/zephyr_extra.rst:27
+msgid ""
+"`Zephyr <https://www.zephyrproject.org>`_ framework requires an unusual "
+"project structure because most of the framework configuration is performed "
+"by the native for Zephyr build system called ``CMake``."
+msgstr ""
+
+#: ../../../frameworks/zephyr_extra.rst:31
+msgid ""
+"Since PlatformIO is able to generate CMake-based projects for certain IDEs, "
+"Zephyr-related files are moved to a separate folder in order to avoid "
+"conflicts between project files. That requires users to specify relative "
+"paths to source files in ``CMakeLists.txt``."
+msgstr ""
+
+#: ../../../frameworks/zephyr_extra.rst:35
+msgid ""
+"A typical PlatformIO project for Zephyr framework must have the following "
+"structure:"
+msgstr ""
+
+#: ../../../frameworks/zephyr_extra.rst:48
+msgid ""
+"Besides files related to PlatformIO project, there is an additional folder "
+"``zephyr`` that contains Zephyr-specific files ``CMakeLists.txt`` and ``prj."
+"conf``:"
+msgstr ""
+
+#: ../../../frameworks/zephyr_extra.rst:51
+msgid ""
+"``CMakeLists.txt`` file enables features supported by Zephyr's build system, "
+"e.g. board-specific kernel configuration files. A typical ``CMakeLists.txt`` "
+"file has the following content:"
+msgstr ""
+
+#: ../../../frameworks/zephyr_extra.rst:66
+msgid ""
+"The files specified in ``target_sources`` are used **ONLY** for generating "
+"build configurations, but it's highly recommended to specify all application "
+"source files in order to keep the project compatible with the usual Zephyr "
+"workflow."
+msgstr ""
+
+#: ../../../frameworks/zephyr_extra.rst:70
+msgid ""
+"Due to the current limitations of CMake file-based API, there is no way to "
+"generate build configuration for source files written in various programming "
+"languages if they are not specified in  ``target_sources`` command. If your "
+"project contains libraries written in languages that differ from the "
+"language used for the main application you need to create an empty file with "
+"desired extension (e.g. ``*.cpp`` for ``C++``) in order to force CMake "
+"generate build configuration for this language."
+msgstr ""
+
+#: ../../../frameworks/zephyr_extra.rst:78
+msgid ""
+"Build configuration generated for source files specified in "
+"``target_sources`` is also used as the base build environment for project "
+"sources (including libraries)."
+msgstr ""
+
+#: ../../../frameworks/zephyr_extra.rst:82
+msgid ""
+"``prj.conf`` file sets application-specific values for one or more kernel "
+"configuration options. These application settings are merged with board-"
+"specific settings to produce a kernel configuration."
+msgstr ""
+
+#: ../../../frameworks/zephyr_extra.rst:87
+msgid "Devicetree overlays"
+msgstr ""
+
+#: ../../../frameworks/zephyr_extra.rst:89
+msgid ""
+"Zephyr applications can use overlay files to enable a peripheral that is "
+"disabled by default, select a sensor on the board for an application "
+"specific purpose, etc. This makes it possible to reconfigure the kernel and "
+"device drivers without modifying source code. There are several ways to set "
+"``.overlay`` files:"
+msgstr ""
+
+#: ../../../frameworks/zephyr_extra.rst:94
+msgid ""
+"Using ``DTC_OVERLAY_FILE`` variable in the ``CMakeLists.txt`` file, before "
+"including Zephyr's ``boilerplate.cmake`` file. (Recommended)"
+msgstr ""
+
+#: ../../../frameworks/zephyr_extra.rst:97
+msgid ""
+"Using a ``boards/<BOARD>.overlay`` file in the ``zephyr`` folder, for the "
+"current board"
+msgstr ""
+
+#: ../../../frameworks/zephyr_extra.rst:100
+msgid "Using a ``<BOARD>.overlay`` file in the  ``zephyr`` folder."
+msgstr ""
+
+#: ../../../frameworks/zephyr_extra.rst:103
+msgid ""
+"PlatformIO board names may differ from Zephyr targets, which means that to "
+"help the build system automatically pick up ``.overlay`` file, the "
+"``<BOARD>`` name in ``<BOARD>.overlay`` file must have the same name as "
+"specified in `the official Zephyr board list <https://docs.zephyrproject.org/"
+"latest/boards/index.html>`_."
+msgstr ""
+
+#: ../../../frameworks/zephyr_extra.rst:109
+msgid "Embedding files at compile time"
+msgstr ""
+
+#: ../../../frameworks/zephyr_extra.rst:111
+msgid ""
+"In case your ``CMakeLists.txt`` relies on using ``generate_inc_*`` functions "
+"that are used for generating and compressing individual files (for example "
+"certificates for secure connections) you need to configure your PlatformIO "
+"project accordingly using the following structure:"
+msgstr ""
+
+#: ../../../frameworks/zephyr_extra.rst:127
+msgid ""
+"Where ``apps-cert.der`` and ``apps-key.der`` are the files you want to embed "
+"to your project at the compile time."
+msgstr ""
+
+#: ../../../frameworks/zephyr_extra.rst:131
+msgid "Zephyr modules"
+msgstr ""
+
+#: ../../../frameworks/zephyr_extra.rst:134
+msgid ""
+"PlatformIO automatically installs several default modules used with Zephyr "
+"framework including modules that implement silicon vendor Hardware "
+"Abstraction Layers (HALs)."
+msgstr ""
+
+#: ../../../frameworks/zephyr_extra.rst:137
+msgid ""
+"Zephyr modules are externally maintained packages that allow using well-"
+"established and mature code created by third party developers."
+msgstr ""
+
+#: ../../../frameworks/zephyr_extra.rst:140
+msgid ""
+"These modules contain either a single ``module.yml`` file or ``CMakeLists."
+"txt`` and ``Kconfig`` files that describe how to build and configure them. "
+"You can specify paths to additional directories with source code, Kconfig, "
+"etc. using ``ZEPHYR_EXTRA_MODULES`` at the top of your project's  "
+"``CMakeLists.txt`` file, for example:"
+msgstr ""
+
+#: ../../../frameworks/zephyr_extra.rst:159
+msgid ""
+"Since the build may not work correctly if the full path to sources is "
+"greater than 250 characters (see ``CMAKE_OBJECT_PATH_MAX``) it might be a "
+"good idea to keep modules close to the project configuration files (e.g. in "
+"``zephyr`` folder) in form of a git submodule."
+msgstr ""
+
+#: ../../../frameworks/zephyr_extra.rst:164
+msgid ""
+"Make sure the ``ZEPHYR_EXTRA_MODULES`` variable is set before including the "
+"boilerplate file, as shown above."
+msgstr ""
+
+#: ../../../frameworks/zephyr_extra.rst:169
+msgid "Limitations"
+msgstr ""
+
+#: ../../../frameworks/zephyr_extra.rst:171
+msgid "At the moment several limitations are present:"
+msgstr ""
+
+#: ../../../frameworks/zephyr_extra.rst:173
+msgid "The minimum supported version of Python is ``3.4``"
+msgstr ""
+
+#: ../../../frameworks/zephyr_extra.rst:174
+msgid "No whitespace characters allowed in project paths."
+msgstr ""
+
+#: ../../../frameworks/zephyr_extra.rst:175
+msgid "The ``Trusted Firmware M`` module is not supported"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:28
+msgid "Platforms"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:32 ../../../frameworks/zephyr.rst:111
+#: ../../../frameworks/zephyr.rst:760 ../../../frameworks/zephyr.rst:1075
+#: ../../../frameworks/zephyr.rst:1124 ../../../frameworks/zephyr.rst:1187
+#: ../../../frameworks/zephyr.rst:1222 ../../../frameworks/zephyr.rst:1250
+#: ../../../frameworks/zephyr.rst:1278 ../../../frameworks/zephyr.rst:1299
+#: ../../../frameworks/zephyr.rst:1327 ../../../frameworks/zephyr.rst:1383
+#: ../../../frameworks/zephyr.rst:1425 ../../../frameworks/zephyr.rst:1446
+#: ../../../frameworks/zephyr.rst:1488 ../../../frameworks/zephyr.rst:1516
+#: ../../../frameworks/zephyr.rst:1537 ../../../frameworks/zephyr.rst:1614
+#: ../../../frameworks/zephyr.rst:1670 ../../../frameworks/zephyr.rst:1712
+#: ../../../frameworks/zephyr.rst:1740 ../../../frameworks/zephyr.rst:1775
+#: ../../../frameworks/zephyr.rst:1803 ../../../frameworks/zephyr.rst:1824
+#: ../../../frameworks/zephyr.rst:1845 ../../../frameworks/zephyr.rst:2321
+#: ../../../frameworks/zephyr.rst:2342 ../../../frameworks/zephyr.rst:2363
+#: ../../../frameworks/zephyr.rst:2391 ../../../frameworks/zephyr.rst:2426
+#: ../../../frameworks/zephyr.rst:2461 ../../../frameworks/zephyr.rst:2489
+#: ../../../frameworks/zephyr.rst:2517 ../../../frameworks/zephyr.rst:2545
+#: ../../../frameworks/zephyr.rst:2566 ../../../frameworks/zephyr.rst:2594
+msgid "Name"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:33
+msgid "Description"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:35 ../../../frameworks/zephyr.rst:136
+#: ../../../frameworks/zephyr.rst:142 ../../../frameworks/zephyr.rst:148
+#: ../../../frameworks/zephyr.rst:797 ../../../frameworks/zephyr.rst:815
+#: ../../../frameworks/zephyr.rst:827 ../../../frameworks/zephyr.rst:833
+#: ../../../frameworks/zephyr.rst:905 ../../../frameworks/zephyr.rst:1007
+#: ../../../frameworks/zephyr.rst:1139 ../../../frameworks/zephyr.rst:1160
+#: ../../../frameworks/zephyr.rst:1174 ../../../frameworks/zephyr.rst:1195
+#: ../../../frameworks/zephyr.rst:1202 ../../../frameworks/zephyr.rst:1209
+#: ../../../frameworks/zephyr.rst:1230 ../../../frameworks/zephyr.rst:1237
+#: ../../../frameworks/zephyr.rst:2329
+msgid ":ref:`platform_atmelsam`"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:36
+msgid ""
+"Atmel | SMART offers Flash- based ARM products based on the ARM Cortex-M0+, "
+"Cortex-M3 and Cortex-M4 architectures, ranging from 8KB to 2MB of Flash "
+"including a rich peripheral and feature mix."
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:38 ../../../frameworks/zephyr.rst:202
+#: ../../../frameworks/zephyr.rst:208 ../../../frameworks/zephyr.rst:214
+#: ../../../frameworks/zephyr.rst:220 ../../../frameworks/zephyr.rst:226
+#: ../../../frameworks/zephyr.rst:881 ../../../frameworks/zephyr.rst:887
+#: ../../../frameworks/zephyr.rst:953 ../../../frameworks/zephyr.rst:1335
+#: ../../../frameworks/zephyr.rst:1342 ../../../frameworks/zephyr.rst:1349
+#: ../../../frameworks/zephyr.rst:1356 ../../../frameworks/zephyr.rst:1363
+#: ../../../frameworks/zephyr.rst:1370 ../../../frameworks/zephyr.rst:1524
+#: ../../../frameworks/zephyr.rst:1832
+msgid ":ref:`platform_freescalekinetis`"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:39
+msgid ""
+"Freescale Kinetis Microcontrollers is family of multiple hardware- and "
+"software-compatible ARM Cortex-M0+, Cortex-M4 and Cortex-M7-based MCU "
+"series. Kinetis MCUs offer exceptional low-power performance, scalability "
+"and feature integration."
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:41 ../../../frameworks/zephyr.rst:154
+#: ../../../frameworks/zephyr.rst:310 ../../../frameworks/zephyr.rst:316
+#: ../../../frameworks/zephyr.rst:376 ../../../frameworks/zephyr.rst:730
+#: ../../../frameworks/zephyr.rst:1043 ../../../frameworks/zephyr.rst:1258
+#: ../../../frameworks/zephyr.rst:1629 ../../../frameworks/zephyr.rst:1636
+#: ../../../frameworks/zephyr.rst:1783 ../../../frameworks/zephyr.rst:2497
+#: ../../../frameworks/zephyr.rst:2553
+msgid ":ref:`platform_nordicnrf51`"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:42
+msgid ""
+"The Nordic nRF51 Series is a family of highly flexible, multi-protocol, "
+"system-on-chip (SoC) devices for ultra-low power wireless applications. "
+"nRF51 Series devices support a range of protocol stacks including Bluetooth "
+"Smart (previously called Bluetooth low energy), ANT and proprietary 2.4GHz "
+"protocols such as Gazell."
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:44 ../../../frameworks/zephyr.rst:160
+#: ../../../frameworks/zephyr.rst:166 ../../../frameworks/zephyr.rst:172
+#: ../../../frameworks/zephyr.rst:178 ../../../frameworks/zephyr.rst:190
+#: ../../../frameworks/zephyr.rst:196 ../../../frameworks/zephyr.rst:250
+#: ../../../frameworks/zephyr.rst:256 ../../../frameworks/zephyr.rst:322
+#: ../../../frameworks/zephyr.rst:328 ../../../frameworks/zephyr.rst:334
+#: ../../../frameworks/zephyr.rst:364 ../../../frameworks/zephyr.rst:370
+#: ../../../frameworks/zephyr.rst:382 ../../../frameworks/zephyr.rst:736
+#: ../../../frameworks/zephyr.rst:742 ../../../frameworks/zephyr.rst:785
+#: ../../../frameworks/zephyr.rst:791 ../../../frameworks/zephyr.rst:809
+#: ../../../frameworks/zephyr.rst:821 ../../../frameworks/zephyr.rst:893
+#: ../../../frameworks/zephyr.rst:899 ../../../frameworks/zephyr.rst:911
+#: ../../../frameworks/zephyr.rst:929 ../../../frameworks/zephyr.rst:935
+#: ../../../frameworks/zephyr.rst:941 ../../../frameworks/zephyr.rst:947
+#: ../../../frameworks/zephyr.rst:1111 ../../../frameworks/zephyr.rst:1132
+#: ../../../frameworks/zephyr.rst:1153 ../../../frameworks/zephyr.rst:1167
+#: ../../../frameworks/zephyr.rst:1265 ../../../frameworks/zephyr.rst:1307
+#: ../../../frameworks/zephyr.rst:1314 ../../../frameworks/zephyr.rst:1433
+#: ../../../frameworks/zephyr.rst:1454 ../../../frameworks/zephyr.rst:1461
+#: ../../../frameworks/zephyr.rst:1468 ../../../frameworks/zephyr.rst:1475
+#: ../../../frameworks/zephyr.rst:1496 ../../../frameworks/zephyr.rst:1503
+#: ../../../frameworks/zephyr.rst:1622 ../../../frameworks/zephyr.rst:1643
+#: ../../../frameworks/zephyr.rst:1650 ../../../frameworks/zephyr.rst:1657
+#: ../../../frameworks/zephyr.rst:1720 ../../../frameworks/zephyr.rst:1727
+#: ../../../frameworks/zephyr.rst:1748 ../../../frameworks/zephyr.rst:1755
+#: ../../../frameworks/zephyr.rst:1762 ../../../frameworks/zephyr.rst:1790
+#: ../../../frameworks/zephyr.rst:1811 ../../../frameworks/zephyr.rst:2504
+#: ../../../frameworks/zephyr.rst:2602
+msgid ":ref:`platform_nordicnrf52`"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:45
+msgid ""
+"The nRF52 Series are built for speed to carry out increasingly complex tasks "
+"in the shortest possible time and return to sleep, conserving precious "
+"battery power. They have a Cortex-M4F processor which makes them quite "
+"capable Bluetooth Smart SoCs."
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:47 ../../../frameworks/zephyr.rst:274
+#: ../../../frameworks/zephyr.rst:280 ../../../frameworks/zephyr.rst:286
+#: ../../../frameworks/zephyr.rst:292 ../../../frameworks/zephyr.rst:298
+#: ../../../frameworks/zephyr.rst:304 ../../../frameworks/zephyr.rst:1566
+#: ../../../frameworks/zephyr.rst:1573 ../../../frameworks/zephyr.rst:1580
+#: ../../../frameworks/zephyr.rst:1587 ../../../frameworks/zephyr.rst:1594
+#: ../../../frameworks/zephyr.rst:1601
+msgid ":ref:`platform_nxpimxrt`"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:48
+msgid ""
+"The i.MX RT series of crossover processors features the Arm Cortex-M core, "
+"real-time functionality and MCU usability at a cost-effective price."
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:50 ../../../frameworks/zephyr.rst:244
+#: ../../../frameworks/zephyr.rst:262 ../../../frameworks/zephyr.rst:268
+#: ../../../frameworks/zephyr.rst:1545 ../../../frameworks/zephyr.rst:1552
+#: ../../../frameworks/zephyr.rst:1559
+msgid ":ref:`platform_nxplpc`"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:51
+msgid ""
+"The NXP LPC is a family of 32-bit microcontroller integrated circuits by NXP "
+"Semiconductors. The LPC chips are grouped into related series that are based "
+"around the same 32-bit ARM processor core, such as the Cortex-M4F, Cortex-"
+"M3, Cortex-M0+, or Cortex-M0. Internally, each microcontroller consists of "
+"the processor core, static RAM memory, flash memory, debugging interface, "
+"and various peripherals."
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:53 ../../../frameworks/zephyr.rst:232
+#: ../../../frameworks/zephyr.rst:238 ../../../frameworks/zephyr.rst:712
+#: ../../../frameworks/zephyr.rst:718 ../../../frameworks/zephyr.rst:2371
+#: ../../../frameworks/zephyr.rst:2378 ../../../frameworks/zephyr.rst:2441
+#: ../../../frameworks/zephyr.rst:2448
+msgid ":ref:`platform_sifive`"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:54
+msgid ""
+"SiFive brings the power of open source and software automation to the "
+"semiconductor industry, making it possible to develop new hardware faster "
+"and more affordably than ever before."
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:56 ../../../frameworks/zephyr.rst:184
+#: ../../../frameworks/zephyr.rst:388 ../../../frameworks/zephyr.rst:724
+#: ../../../frameworks/zephyr.rst:2399 ../../../frameworks/zephyr.rst:2406
+#: ../../../frameworks/zephyr.rst:2413
+msgid ":ref:`platform_siliconlabsefm32`"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:57
+msgid ""
+"Silicon Labs EFM32 Gecko 32-bit microcontroller (MCU) family includes "
+"devices that offer flash memory configurations up to 256 kB, 32 kB of RAM "
+"and CPU speeds up to 48 MHz. Based on the powerful ARM Cortex-M core, the "
+"Gecko family features innovative low energy techniques, short wake-up time "
+"from energy saving modes and a wide selection of peripherals, making it "
+"ideal for battery operated applications and other systems requiring high "
+"performance and low-energy consumption."
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:59 ../../../frameworks/zephyr.rst:118
+#: ../../../frameworks/zephyr.rst:124 ../../../frameworks/zephyr.rst:130
+#: ../../../frameworks/zephyr.rst:340 ../../../frameworks/zephyr.rst:346
+#: ../../../frameworks/zephyr.rst:352 ../../../frameworks/zephyr.rst:358
+#: ../../../frameworks/zephyr.rst:394 ../../../frameworks/zephyr.rst:400
+#: ../../../frameworks/zephyr.rst:406 ../../../frameworks/zephyr.rst:412
+#: ../../../frameworks/zephyr.rst:418 ../../../frameworks/zephyr.rst:424
+#: ../../../frameworks/zephyr.rst:430 ../../../frameworks/zephyr.rst:436
+#: ../../../frameworks/zephyr.rst:442 ../../../frameworks/zephyr.rst:448
+#: ../../../frameworks/zephyr.rst:454 ../../../frameworks/zephyr.rst:460
+#: ../../../frameworks/zephyr.rst:466 ../../../frameworks/zephyr.rst:472
+#: ../../../frameworks/zephyr.rst:478 ../../../frameworks/zephyr.rst:484
+#: ../../../frameworks/zephyr.rst:490 ../../../frameworks/zephyr.rst:496
+#: ../../../frameworks/zephyr.rst:502 ../../../frameworks/zephyr.rst:508
+#: ../../../frameworks/zephyr.rst:514 ../../../frameworks/zephyr.rst:520
+#: ../../../frameworks/zephyr.rst:526 ../../../frameworks/zephyr.rst:532
+#: ../../../frameworks/zephyr.rst:538 ../../../frameworks/zephyr.rst:544
+#: ../../../frameworks/zephyr.rst:550 ../../../frameworks/zephyr.rst:556
+#: ../../../frameworks/zephyr.rst:562 ../../../frameworks/zephyr.rst:568
+#: ../../../frameworks/zephyr.rst:574 ../../../frameworks/zephyr.rst:580
+#: ../../../frameworks/zephyr.rst:586 ../../../frameworks/zephyr.rst:592
+#: ../../../frameworks/zephyr.rst:598 ../../../frameworks/zephyr.rst:604
+#: ../../../frameworks/zephyr.rst:610 ../../../frameworks/zephyr.rst:616
+#: ../../../frameworks/zephyr.rst:622 ../../../frameworks/zephyr.rst:628
+#: ../../../frameworks/zephyr.rst:634 ../../../frameworks/zephyr.rst:640
+#: ../../../frameworks/zephyr.rst:646 ../../../frameworks/zephyr.rst:652
+#: ../../../frameworks/zephyr.rst:658 ../../../frameworks/zephyr.rst:664
+#: ../../../frameworks/zephyr.rst:670 ../../../frameworks/zephyr.rst:676
+#: ../../../frameworks/zephyr.rst:682 ../../../frameworks/zephyr.rst:688
+#: ../../../frameworks/zephyr.rst:694 ../../../frameworks/zephyr.rst:700
+#: ../../../frameworks/zephyr.rst:706 ../../../frameworks/zephyr.rst:767
+#: ../../../frameworks/zephyr.rst:773 ../../../frameworks/zephyr.rst:779
+#: ../../../frameworks/zephyr.rst:803 ../../../frameworks/zephyr.rst:839
+#: ../../../frameworks/zephyr.rst:845 ../../../frameworks/zephyr.rst:851
+#: ../../../frameworks/zephyr.rst:857 ../../../frameworks/zephyr.rst:863
+#: ../../../frameworks/zephyr.rst:869 ../../../frameworks/zephyr.rst:875
+#: ../../../frameworks/zephyr.rst:917 ../../../frameworks/zephyr.rst:923
+#: ../../../frameworks/zephyr.rst:959 ../../../frameworks/zephyr.rst:965
+#: ../../../frameworks/zephyr.rst:971 ../../../frameworks/zephyr.rst:977
+#: ../../../frameworks/zephyr.rst:983 ../../../frameworks/zephyr.rst:989
+#: ../../../frameworks/zephyr.rst:995 ../../../frameworks/zephyr.rst:1001
+#: ../../../frameworks/zephyr.rst:1013 ../../../frameworks/zephyr.rst:1031
+#: ../../../frameworks/zephyr.rst:1037 ../../../frameworks/zephyr.rst:1049
+#: ../../../frameworks/zephyr.rst:1055 ../../../frameworks/zephyr.rst:1083
+#: ../../../frameworks/zephyr.rst:1090 ../../../frameworks/zephyr.rst:1097
+#: ../../../frameworks/zephyr.rst:1104 ../../../frameworks/zephyr.rst:1146
+#: ../../../frameworks/zephyr.rst:1286 ../../../frameworks/zephyr.rst:1391
+#: ../../../frameworks/zephyr.rst:1398 ../../../frameworks/zephyr.rst:1405
+#: ../../../frameworks/zephyr.rst:1412 ../../../frameworks/zephyr.rst:1678
+#: ../../../frameworks/zephyr.rst:1685 ../../../frameworks/zephyr.rst:1692
+#: ../../../frameworks/zephyr.rst:1699 ../../../frameworks/zephyr.rst:1853
+#: ../../../frameworks/zephyr.rst:1860 ../../../frameworks/zephyr.rst:1867
+#: ../../../frameworks/zephyr.rst:1874 ../../../frameworks/zephyr.rst:1881
+#: ../../../frameworks/zephyr.rst:1888 ../../../frameworks/zephyr.rst:1895
+#: ../../../frameworks/zephyr.rst:1902 ../../../frameworks/zephyr.rst:1909
+#: ../../../frameworks/zephyr.rst:1916 ../../../frameworks/zephyr.rst:1923
+#: ../../../frameworks/zephyr.rst:1930 ../../../frameworks/zephyr.rst:1937
+#: ../../../frameworks/zephyr.rst:1944 ../../../frameworks/zephyr.rst:1951
+#: ../../../frameworks/zephyr.rst:1958 ../../../frameworks/zephyr.rst:1965
+#: ../../../frameworks/zephyr.rst:1972 ../../../frameworks/zephyr.rst:1979
+#: ../../../frameworks/zephyr.rst:1986 ../../../frameworks/zephyr.rst:1993
+#: ../../../frameworks/zephyr.rst:2000 ../../../frameworks/zephyr.rst:2007
+#: ../../../frameworks/zephyr.rst:2014 ../../../frameworks/zephyr.rst:2021
+#: ../../../frameworks/zephyr.rst:2028 ../../../frameworks/zephyr.rst:2035
+#: ../../../frameworks/zephyr.rst:2042 ../../../frameworks/zephyr.rst:2049
+#: ../../../frameworks/zephyr.rst:2056 ../../../frameworks/zephyr.rst:2063
+#: ../../../frameworks/zephyr.rst:2070 ../../../frameworks/zephyr.rst:2077
+#: ../../../frameworks/zephyr.rst:2084 ../../../frameworks/zephyr.rst:2091
+#: ../../../frameworks/zephyr.rst:2098 ../../../frameworks/zephyr.rst:2105
+#: ../../../frameworks/zephyr.rst:2112 ../../../frameworks/zephyr.rst:2119
+#: ../../../frameworks/zephyr.rst:2126 ../../../frameworks/zephyr.rst:2133
+#: ../../../frameworks/zephyr.rst:2140 ../../../frameworks/zephyr.rst:2147
+#: ../../../frameworks/zephyr.rst:2154 ../../../frameworks/zephyr.rst:2161
+#: ../../../frameworks/zephyr.rst:2168 ../../../frameworks/zephyr.rst:2175
+#: ../../../frameworks/zephyr.rst:2182 ../../../frameworks/zephyr.rst:2189
+#: ../../../frameworks/zephyr.rst:2196 ../../../frameworks/zephyr.rst:2203
+#: ../../../frameworks/zephyr.rst:2210 ../../../frameworks/zephyr.rst:2217
+#: ../../../frameworks/zephyr.rst:2224 ../../../frameworks/zephyr.rst:2231
+#: ../../../frameworks/zephyr.rst:2238 ../../../frameworks/zephyr.rst:2245
+#: ../../../frameworks/zephyr.rst:2252 ../../../frameworks/zephyr.rst:2259
+#: ../../../frameworks/zephyr.rst:2266 ../../../frameworks/zephyr.rst:2273
+#: ../../../frameworks/zephyr.rst:2280 ../../../frameworks/zephyr.rst:2287
+#: ../../../frameworks/zephyr.rst:2294 ../../../frameworks/zephyr.rst:2301
+#: ../../../frameworks/zephyr.rst:2308 ../../../frameworks/zephyr.rst:2350
+#: ../../../frameworks/zephyr.rst:2434 ../../../frameworks/zephyr.rst:2525
+#: ../../../frameworks/zephyr.rst:2532 ../../../frameworks/zephyr.rst:2574
+#: ../../../frameworks/zephyr.rst:2581
+msgid ":ref:`platform_ststm32`"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:60
+msgid ""
+"The STM32 family of 32-bit Flash MCUs based on the ARM Cortex-M processor is "
+"designed to offer new degrees of freedom to MCU users. It offers a 32-bit "
+"product range that combines very high performance, real-time capabilities, "
+"digital signal processing, and low-power, low-voltage operation, while "
+"maintaining full integration and ease of development."
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:62 ../../../frameworks/zephyr.rst:1019
+#: ../../../frameworks/zephyr.rst:1025 ../../../frameworks/zephyr.rst:2469
+#: ../../../frameworks/zephyr.rst:2476
+msgid ":ref:`platform_teensy`"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:63
+msgid ""
+"Teensy is a complete USB-based microcontroller development system, in a very "
+"small footprint, capable of implementing many types of projects. All "
+"programming is done via the USB port. No special programmer is needed, only "
+"a standard USB cable and a PC or Macintosh with a USB port."
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:66
+msgid "Examples"
+msgstr "範例"
+
+#: ../../../frameworks/zephyr.rst:68
+msgid ""
+"`Zephyr for Atmel SAM <https://github.com/platformio/platform-atmelsam/tree/"
+"master/examples?utm_source=platformio.org&utm_medium=docs>`_"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:69
+msgid ""
+"`Zephyr for Freescale Kinetis <https://github.com/platformio/platform-"
+"freescalekinetis/tree/master/examples?utm_source=platformio."
+"org&utm_medium=docs>`_"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:70
+msgid ""
+"`Zephyr for Nordic nRF51 <https://github.com/platformio/platform-nordicnrf51/"
+"tree/master/examples?utm_source=platformio.org&utm_medium=docs>`_"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:71
+msgid ""
+"`Zephyr for Nordic nRF52 <https://github.com/platformio/platform-nordicnrf52/"
+"tree/master/examples?utm_source=platformio.org&utm_medium=docs>`_"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:72
+msgid ""
+"`Zephyr for NXP i.MX RT <https://github.com/platformio/platform-nxpimxrt/"
+"tree/master/examples?utm_source=platformio.org&utm_medium=docs>`_"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:73
+msgid ""
+"`Zephyr for NXP LPC <https://github.com/platformio/platform-nxplpc/tree/"
+"master/examples?utm_source=platformio.org&utm_medium=docs>`_"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:74
+msgid ""
+"`Zephyr for SiFive <https://github.com/platformio/platform-sifive/tree/"
+"master/examples?utm_source=platformio.org&utm_medium=docs>`_"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:75
+msgid ""
+"`Zephyr for Silicon Labs EFM32 <https://github.com/platformio/platform-"
+"siliconlabsefm32/tree/master/examples?utm_source=platformio."
+"org&utm_medium=docs>`_"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:76
+msgid ""
+"`Zephyr for ST STM32 <https://github.com/platformio/platform-ststm32/tree/"
+"master/examples?utm_source=platformio.org&utm_medium=docs>`_"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:77
+msgid ""
+"`Zephyr for Teensy <https://github.com/platformio/platform-teensy/tree/"
+"master/examples?utm_source=platformio.org&utm_medium=docs>`_"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:80
+msgid "Debugging"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:82
+msgid ""
+":ref:`piodebug` - \"1-click\" solution for debugging with a zero "
+"configuration."
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:89
+msgid "Tools & Debug Probes"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:91
+msgid ""
+"Supported debugging tools are listed in \"Debug\" column. For more detailed "
+"information, please scroll table by horizontal. You can switch between "
+"debugging :ref:`debugging_tools` using :ref:`projectconf_debug_tool` option "
+"in :ref:`projectconf`."
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:97
+msgid ""
+"You will need to install debug tool drivers depending on your system. Please "
+"click on compatible debug tool below for the further instructions."
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:102
+msgid "On-Board Debug Tools"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:104
+msgid ""
+"Boards listed below have on-board debug probe and **ARE READY** for "
+"debugging! You do not need to use/buy external debug probe."
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:112 ../../../frameworks/zephyr.rst:761
+#: ../../../frameworks/zephyr.rst:1076 ../../../frameworks/zephyr.rst:1125
+#: ../../../frameworks/zephyr.rst:1188 ../../../frameworks/zephyr.rst:1223
+#: ../../../frameworks/zephyr.rst:1251 ../../../frameworks/zephyr.rst:1279
+#: ../../../frameworks/zephyr.rst:1300 ../../../frameworks/zephyr.rst:1328
+#: ../../../frameworks/zephyr.rst:1384 ../../../frameworks/zephyr.rst:1426
+#: ../../../frameworks/zephyr.rst:1447 ../../../frameworks/zephyr.rst:1489
+#: ../../../frameworks/zephyr.rst:1517 ../../../frameworks/zephyr.rst:1538
+#: ../../../frameworks/zephyr.rst:1615 ../../../frameworks/zephyr.rst:1671
+#: ../../../frameworks/zephyr.rst:1713 ../../../frameworks/zephyr.rst:1741
+#: ../../../frameworks/zephyr.rst:1776 ../../../frameworks/zephyr.rst:1804
+#: ../../../frameworks/zephyr.rst:1825 ../../../frameworks/zephyr.rst:1846
+#: ../../../frameworks/zephyr.rst:2322 ../../../frameworks/zephyr.rst:2343
+#: ../../../frameworks/zephyr.rst:2364 ../../../frameworks/zephyr.rst:2392
+#: ../../../frameworks/zephyr.rst:2427 ../../../frameworks/zephyr.rst:2462
+#: ../../../frameworks/zephyr.rst:2490 ../../../frameworks/zephyr.rst:2518
+#: ../../../frameworks/zephyr.rst:2546 ../../../frameworks/zephyr.rst:2567
+#: ../../../frameworks/zephyr.rst:2595
+msgid "Platform"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:113 ../../../frameworks/zephyr.rst:762
+#: ../../../frameworks/zephyr.rst:1078 ../../../frameworks/zephyr.rst:1127
+#: ../../../frameworks/zephyr.rst:1190 ../../../frameworks/zephyr.rst:1225
+#: ../../../frameworks/zephyr.rst:1253 ../../../frameworks/zephyr.rst:1281
+#: ../../../frameworks/zephyr.rst:1302 ../../../frameworks/zephyr.rst:1330
+#: ../../../frameworks/zephyr.rst:1386 ../../../frameworks/zephyr.rst:1428
+#: ../../../frameworks/zephyr.rst:1449 ../../../frameworks/zephyr.rst:1491
+#: ../../../frameworks/zephyr.rst:1519 ../../../frameworks/zephyr.rst:1540
+#: ../../../frameworks/zephyr.rst:1617 ../../../frameworks/zephyr.rst:1673
+#: ../../../frameworks/zephyr.rst:1715 ../../../frameworks/zephyr.rst:1743
+#: ../../../frameworks/zephyr.rst:1778 ../../../frameworks/zephyr.rst:1806
+#: ../../../frameworks/zephyr.rst:1827 ../../../frameworks/zephyr.rst:1848
+#: ../../../frameworks/zephyr.rst:2324 ../../../frameworks/zephyr.rst:2345
+#: ../../../frameworks/zephyr.rst:2366 ../../../frameworks/zephyr.rst:2394
+#: ../../../frameworks/zephyr.rst:2429 ../../../frameworks/zephyr.rst:2464
+#: ../../../frameworks/zephyr.rst:2492 ../../../frameworks/zephyr.rst:2520
+#: ../../../frameworks/zephyr.rst:2548 ../../../frameworks/zephyr.rst:2569
+#: ../../../frameworks/zephyr.rst:2597
+msgid "MCU"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:114 ../../../frameworks/zephyr.rst:763
+#: ../../../frameworks/zephyr.rst:1079 ../../../frameworks/zephyr.rst:1128
+#: ../../../frameworks/zephyr.rst:1191 ../../../frameworks/zephyr.rst:1226
+#: ../../../frameworks/zephyr.rst:1254 ../../../frameworks/zephyr.rst:1282
+#: ../../../frameworks/zephyr.rst:1303 ../../../frameworks/zephyr.rst:1331
+#: ../../../frameworks/zephyr.rst:1387 ../../../frameworks/zephyr.rst:1429
+#: ../../../frameworks/zephyr.rst:1450 ../../../frameworks/zephyr.rst:1492
+#: ../../../frameworks/zephyr.rst:1520 ../../../frameworks/zephyr.rst:1541
+#: ../../../frameworks/zephyr.rst:1618 ../../../frameworks/zephyr.rst:1674
+#: ../../../frameworks/zephyr.rst:1716 ../../../frameworks/zephyr.rst:1744
+#: ../../../frameworks/zephyr.rst:1779 ../../../frameworks/zephyr.rst:1807
+#: ../../../frameworks/zephyr.rst:1828 ../../../frameworks/zephyr.rst:1849
+#: ../../../frameworks/zephyr.rst:2325 ../../../frameworks/zephyr.rst:2346
+#: ../../../frameworks/zephyr.rst:2367 ../../../frameworks/zephyr.rst:2395
+#: ../../../frameworks/zephyr.rst:2430 ../../../frameworks/zephyr.rst:2465
+#: ../../../frameworks/zephyr.rst:2493 ../../../frameworks/zephyr.rst:2521
+#: ../../../frameworks/zephyr.rst:2549 ../../../frameworks/zephyr.rst:2570
+#: ../../../frameworks/zephyr.rst:2598
+msgid "Frequency"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:115 ../../../frameworks/zephyr.rst:764
+#: ../../../frameworks/zephyr.rst:1080 ../../../frameworks/zephyr.rst:1129
+#: ../../../frameworks/zephyr.rst:1192 ../../../frameworks/zephyr.rst:1227
+#: ../../../frameworks/zephyr.rst:1255 ../../../frameworks/zephyr.rst:1283
+#: ../../../frameworks/zephyr.rst:1304 ../../../frameworks/zephyr.rst:1332
+#: ../../../frameworks/zephyr.rst:1388 ../../../frameworks/zephyr.rst:1430
+#: ../../../frameworks/zephyr.rst:1451 ../../../frameworks/zephyr.rst:1493
+#: ../../../frameworks/zephyr.rst:1521 ../../../frameworks/zephyr.rst:1542
+#: ../../../frameworks/zephyr.rst:1619 ../../../frameworks/zephyr.rst:1675
+#: ../../../frameworks/zephyr.rst:1717 ../../../frameworks/zephyr.rst:1745
+#: ../../../frameworks/zephyr.rst:1780 ../../../frameworks/zephyr.rst:1808
+#: ../../../frameworks/zephyr.rst:1829 ../../../frameworks/zephyr.rst:1850
+#: ../../../frameworks/zephyr.rst:2326 ../../../frameworks/zephyr.rst:2347
+#: ../../../frameworks/zephyr.rst:2368 ../../../frameworks/zephyr.rst:2396
+#: ../../../frameworks/zephyr.rst:2431 ../../../frameworks/zephyr.rst:2466
+#: ../../../frameworks/zephyr.rst:2494 ../../../frameworks/zephyr.rst:2522
+#: ../../../frameworks/zephyr.rst:2550 ../../../frameworks/zephyr.rst:2571
+#: ../../../frameworks/zephyr.rst:2599
+msgid "Flash"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:116 ../../../frameworks/zephyr.rst:765
+#: ../../../frameworks/zephyr.rst:1081 ../../../frameworks/zephyr.rst:1130
+#: ../../../frameworks/zephyr.rst:1193 ../../../frameworks/zephyr.rst:1228
+#: ../../../frameworks/zephyr.rst:1256 ../../../frameworks/zephyr.rst:1284
+#: ../../../frameworks/zephyr.rst:1305 ../../../frameworks/zephyr.rst:1333
+#: ../../../frameworks/zephyr.rst:1389 ../../../frameworks/zephyr.rst:1431
+#: ../../../frameworks/zephyr.rst:1452 ../../../frameworks/zephyr.rst:1494
+#: ../../../frameworks/zephyr.rst:1522 ../../../frameworks/zephyr.rst:1543
+#: ../../../frameworks/zephyr.rst:1620 ../../../frameworks/zephyr.rst:1676
+#: ../../../frameworks/zephyr.rst:1718 ../../../frameworks/zephyr.rst:1746
+#: ../../../frameworks/zephyr.rst:1781 ../../../frameworks/zephyr.rst:1809
+#: ../../../frameworks/zephyr.rst:1830 ../../../frameworks/zephyr.rst:1851
+#: ../../../frameworks/zephyr.rst:2327 ../../../frameworks/zephyr.rst:2348
+#: ../../../frameworks/zephyr.rst:2369 ../../../frameworks/zephyr.rst:2397
+#: ../../../frameworks/zephyr.rst:2432 ../../../frameworks/zephyr.rst:2467
+#: ../../../frameworks/zephyr.rst:2495 ../../../frameworks/zephyr.rst:2523
+#: ../../../frameworks/zephyr.rst:2551 ../../../frameworks/zephyr.rst:2572
+#: ../../../frameworks/zephyr.rst:2600
+msgid "RAM"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:117 ../../../frameworks/zephyr.rst:1852
+msgid ":ref:`board_ststm32_disco_f412zg`"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:119 ../../../frameworks/zephyr.rst:533
+#: ../../../frameworks/zephyr.rst:1855 ../../../frameworks/zephyr.rst:2072
+msgid "STM32F412ZGT6"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:120 ../../../frameworks/zephyr.rst:264
+#: ../../../frameworks/zephyr.rst:396 ../../../frameworks/zephyr.rst:522
+#: ../../../frameworks/zephyr.rst:528 ../../../frameworks/zephyr.rst:534
+#: ../../../frameworks/zephyr.rst:540 ../../../frameworks/zephyr.rst:769
+#: ../../../frameworks/zephyr.rst:781 ../../../frameworks/zephyr.rst:1051
+#: ../../../frameworks/zephyr.rst:1086 ../../../frameworks/zephyr.rst:1107
+#: ../../../frameworks/zephyr.rst:1555 ../../../frameworks/zephyr.rst:1856
+#: ../../../frameworks/zephyr.rst:1912 ../../../frameworks/zephyr.rst:2059
+#: ../../../frameworks/zephyr.rst:2066 ../../../frameworks/zephyr.rst:2073
+#: ../../../frameworks/zephyr.rst:2080 ../../../frameworks/zephyr.rst:2577
+msgid "100MHz"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:121 ../../../frameworks/zephyr.rst:181
+#: ../../../frameworks/zephyr.rst:193 ../../../frameworks/zephyr.rst:199
+#: ../../../frameworks/zephyr.rst:211 ../../../frameworks/zephyr.rst:259
+#: ../../../frameworks/zephyr.rst:337 ../../../frameworks/zephyr.rst:367
+#: ../../../frameworks/zephyr.rst:373 ../../../frameworks/zephyr.rst:415
+#: ../../../frameworks/zephyr.rst:427 ../../../frameworks/zephyr.rst:433
+#: ../../../frameworks/zephyr.rst:439 ../../../frameworks/zephyr.rst:487
+#: ../../../frameworks/zephyr.rst:535 ../../../frameworks/zephyr.rst:565
+#: ../../../frameworks/zephyr.rst:571 ../../../frameworks/zephyr.rst:583
+#: ../../../frameworks/zephyr.rst:595 ../../../frameworks/zephyr.rst:649
+#: ../../../frameworks/zephyr.rst:655 ../../../frameworks/zephyr.rst:691
+#: ../../../frameworks/zephyr.rst:703 ../../../frameworks/zephyr.rst:727
+#: ../../../frameworks/zephyr.rst:745 ../../../frameworks/zephyr.rst:770
+#: ../../../frameworks/zephyr.rst:806 ../../../frameworks/zephyr.rst:848
+#: ../../../frameworks/zephyr.rst:890 ../../../frameworks/zephyr.rst:902
+#: ../../../frameworks/zephyr.rst:926 ../../../frameworks/zephyr.rst:974
+#: ../../../frameworks/zephyr.rst:980 ../../../frameworks/zephyr.rst:1016
+#: ../../../frameworks/zephyr.rst:1087 ../../../frameworks/zephyr.rst:1150
+#: ../../../frameworks/zephyr.rst:1311 ../../../frameworks/zephyr.rst:1318
+#: ../../../frameworks/zephyr.rst:1346 ../../../frameworks/zephyr.rst:1472
+#: ../../../frameworks/zephyr.rst:1479 ../../../frameworks/zephyr.rst:1507
+#: ../../../frameworks/zephyr.rst:1528 ../../../frameworks/zephyr.rst:1661
+#: ../../../frameworks/zephyr.rst:1689 ../../../frameworks/zephyr.rst:1696
+#: ../../../frameworks/zephyr.rst:1703 ../../../frameworks/zephyr.rst:1724
+#: ../../../frameworks/zephyr.rst:1731 ../../../frameworks/zephyr.rst:1857
+#: ../../../frameworks/zephyr.rst:1878 ../../../frameworks/zephyr.rst:1934
+#: ../../../frameworks/zephyr.rst:1948 ../../../frameworks/zephyr.rst:1955
+#: ../../../frameworks/zephyr.rst:1962 ../../../frameworks/zephyr.rst:2018
+#: ../../../frameworks/zephyr.rst:2074 ../../../frameworks/zephyr.rst:2109
+#: ../../../frameworks/zephyr.rst:2116 ../../../frameworks/zephyr.rst:2137
+#: ../../../frameworks/zephyr.rst:2151 ../../../frameworks/zephyr.rst:2214
+#: ../../../frameworks/zephyr.rst:2221 ../../../frameworks/zephyr.rst:2263
+#: ../../../frameworks/zephyr.rst:2305 ../../../frameworks/zephyr.rst:2417
+#: ../../../frameworks/zephyr.rst:2438 ../../../frameworks/zephyr.rst:2606
+msgid "1MB"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:122 ../../../frameworks/zephyr.rst:139
+#: ../../../frameworks/zephyr.rst:145 ../../../frameworks/zephyr.rst:151
+#: ../../../frameworks/zephyr.rst:157 ../../../frameworks/zephyr.rst:182
+#: ../../../frameworks/zephyr.rst:187 ../../../frameworks/zephyr.rst:194
+#: ../../../frameworks/zephyr.rst:200 ../../../frameworks/zephyr.rst:212
+#: ../../../frameworks/zephyr.rst:217 ../../../frameworks/zephyr.rst:218
+#: ../../../frameworks/zephyr.rst:247 ../../../frameworks/zephyr.rst:260
+#: ../../../frameworks/zephyr.rst:265 ../../../frameworks/zephyr.rst:271
+#: ../../../frameworks/zephyr.rst:313 ../../../frameworks/zephyr.rst:319
+#: ../../../frameworks/zephyr.rst:338 ../../../frameworks/zephyr.rst:368
+#: ../../../frameworks/zephyr.rst:374 ../../../frameworks/zephyr.rst:379
+#: ../../../frameworks/zephyr.rst:404 ../../../frameworks/zephyr.rst:475
+#: ../../../frameworks/zephyr.rst:536 ../../../frameworks/zephyr.rst:637
+#: ../../../frameworks/zephyr.rst:643 ../../../frameworks/zephyr.rst:673
+#: ../../../frameworks/zephyr.rst:685 ../../../frameworks/zephyr.rst:728
+#: ../../../frameworks/zephyr.rst:746 ../../../frameworks/zephyr.rst:771
+#: ../../../frameworks/zephyr.rst:777 ../../../frameworks/zephyr.rst:800
+#: ../../../frameworks/zephyr.rst:830 ../../../frameworks/zephyr.rst:878
+#: ../../../frameworks/zephyr.rst:891 ../../../frameworks/zephyr.rst:903
+#: ../../../frameworks/zephyr.rst:908 ../../../frameworks/zephyr.rst:957
+#: ../../../frameworks/zephyr.rst:968 ../../../frameworks/zephyr.rst:986
+#: ../../../frameworks/zephyr.rst:992 ../../../frameworks/zephyr.rst:1004
+#: ../../../frameworks/zephyr.rst:1010 ../../../frameworks/zephyr.rst:1034
+#: ../../../frameworks/zephyr.rst:1040 ../../../frameworks/zephyr.rst:1046
+#: ../../../frameworks/zephyr.rst:1088 ../../../frameworks/zephyr.rst:1102
+#: ../../../frameworks/zephyr.rst:1143 ../../../frameworks/zephyr.rst:1178
+#: ../../../frameworks/zephyr.rst:1206 ../../../frameworks/zephyr.rst:1213
+#: ../../../frameworks/zephyr.rst:1234 ../../../frameworks/zephyr.rst:1241
+#: ../../../frameworks/zephyr.rst:1262 ../../../frameworks/zephyr.rst:1290
+#: ../../../frameworks/zephyr.rst:1312 ../../../frameworks/zephyr.rst:1319
+#: ../../../frameworks/zephyr.rst:1347 ../../../frameworks/zephyr.rst:1353
+#: ../../../frameworks/zephyr.rst:1354 ../../../frameworks/zephyr.rst:1473
+#: ../../../frameworks/zephyr.rst:1480 ../../../frameworks/zephyr.rst:1508
+#: ../../../frameworks/zephyr.rst:1529 ../../../frameworks/zephyr.rst:1549
+#: ../../../frameworks/zephyr.rst:1556 ../../../frameworks/zephyr.rst:1563
+#: ../../../frameworks/zephyr.rst:1633 ../../../frameworks/zephyr.rst:1640
+#: ../../../frameworks/zephyr.rst:1662 ../../../frameworks/zephyr.rst:1725
+#: ../../../frameworks/zephyr.rst:1732 ../../../frameworks/zephyr.rst:1787
+#: ../../../frameworks/zephyr.rst:1837 ../../../frameworks/zephyr.rst:1858
+#: ../../../frameworks/zephyr.rst:1921 ../../../frameworks/zephyr.rst:2004
+#: ../../../frameworks/zephyr.rst:2075 ../../../frameworks/zephyr.rst:2200
+#: ../../../frameworks/zephyr.rst:2207 ../../../frameworks/zephyr.rst:2242
+#: ../../../frameworks/zephyr.rst:2256 ../../../frameworks/zephyr.rst:2277
+#: ../../../frameworks/zephyr.rst:2284 ../../../frameworks/zephyr.rst:2291
+#: ../../../frameworks/zephyr.rst:2333 ../../../frameworks/zephyr.rst:2354
+#: ../../../frameworks/zephyr.rst:2403 ../../../frameworks/zephyr.rst:2418
+#: ../../../frameworks/zephyr.rst:2529 ../../../frameworks/zephyr.rst:2536
+#: ../../../frameworks/zephyr.rst:2557 ../../../frameworks/zephyr.rst:2607
+msgid "256KB"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:123 ../../../frameworks/zephyr.rst:1859
+msgid ":ref:`board_ststm32_disco_f723ie`"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:125 ../../../frameworks/zephyr.rst:1862
+msgid "STM32F723IEK6"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:126 ../../../frameworks/zephyr.rst:414
+#: ../../../frameworks/zephyr.rst:420 ../../../frameworks/zephyr.rst:564
+#: ../../../frameworks/zephyr.rst:570 ../../../frameworks/zephyr.rst:576
+#: ../../../frameworks/zephyr.rst:1863 ../../../frameworks/zephyr.rst:1933
+#: ../../../frameworks/zephyr.rst:1940 ../../../frameworks/zephyr.rst:2108
+#: ../../../frameworks/zephyr.rst:2115 ../../../frameworks/zephyr.rst:2122
+msgid "216MHz"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:127 ../../../frameworks/zephyr.rst:133
+#: ../../../frameworks/zephyr.rst:163 ../../../frameworks/zephyr.rst:169
+#: ../../../frameworks/zephyr.rst:175 ../../../frameworks/zephyr.rst:205
+#: ../../../frameworks/zephyr.rst:229 ../../../frameworks/zephyr.rst:253
+#: ../../../frameworks/zephyr.rst:325 ../../../frameworks/zephyr.rst:331
+#: ../../../frameworks/zephyr.rst:361 ../../../frameworks/zephyr.rst:385
+#: ../../../frameworks/zephyr.rst:397 ../../../frameworks/zephyr.rst:422
+#: ../../../frameworks/zephyr.rst:505 ../../../frameworks/zephyr.rst:517
+#: ../../../frameworks/zephyr.rst:529 ../../../frameworks/zephyr.rst:553
+#: ../../../frameworks/zephyr.rst:559 ../../../frameworks/zephyr.rst:578
+#: ../../../frameworks/zephyr.rst:590 ../../../frameworks/zephyr.rst:596
+#: ../../../frameworks/zephyr.rst:602 ../../../frameworks/zephyr.rst:667
+#: ../../../frameworks/zephyr.rst:710 ../../../frameworks/zephyr.rst:739
+#: ../../../frameworks/zephyr.rst:782 ../../../frameworks/zephyr.rst:788
+#: ../../../frameworks/zephyr.rst:794 ../../../frameworks/zephyr.rst:818
+#: ../../../frameworks/zephyr.rst:836 ../../../frameworks/zephyr.rst:842
+#: ../../../frameworks/zephyr.rst:884 ../../../frameworks/zephyr.rst:896
+#: ../../../frameworks/zephyr.rst:914 ../../../frameworks/zephyr.rst:950
+#: ../../../frameworks/zephyr.rst:1023 ../../../frameworks/zephyr.rst:1029
+#: ../../../frameworks/zephyr.rst:1052 ../../../frameworks/zephyr.rst:1058
+#: ../../../frameworks/zephyr.rst:1094 ../../../frameworks/zephyr.rst:1108
+#: ../../../frameworks/zephyr.rst:1115 ../../../frameworks/zephyr.rst:1136
+#: ../../../frameworks/zephyr.rst:1164 ../../../frameworks/zephyr.rst:1199
+#: ../../../frameworks/zephyr.rst:1269 ../../../frameworks/zephyr.rst:1339
+#: ../../../frameworks/zephyr.rst:1367 ../../../frameworks/zephyr.rst:1374
+#: ../../../frameworks/zephyr.rst:1437 ../../../frameworks/zephyr.rst:1458
+#: ../../../frameworks/zephyr.rst:1465 ../../../frameworks/zephyr.rst:1500
+#: ../../../frameworks/zephyr.rst:1626 ../../../frameworks/zephyr.rst:1647
+#: ../../../frameworks/zephyr.rst:1654 ../../../frameworks/zephyr.rst:1794
+#: ../../../frameworks/zephyr.rst:1815 ../../../frameworks/zephyr.rst:1864
+#: ../../../frameworks/zephyr.rst:1871 ../../../frameworks/zephyr.rst:1906
+#: ../../../frameworks/zephyr.rst:1913 ../../../frameworks/zephyr.rst:1942
+#: ../../../frameworks/zephyr.rst:2039 ../../../frameworks/zephyr.rst:2053
+#: ../../../frameworks/zephyr.rst:2067 ../../../frameworks/zephyr.rst:2095
+#: ../../../frameworks/zephyr.rst:2102 ../../../frameworks/zephyr.rst:2124
+#: ../../../frameworks/zephyr.rst:2145 ../../../frameworks/zephyr.rst:2152
+#: ../../../frameworks/zephyr.rst:2159 ../../../frameworks/zephyr.rst:2235
+#: ../../../frameworks/zephyr.rst:2313 ../../../frameworks/zephyr.rst:2474
+#: ../../../frameworks/zephyr.rst:2481 ../../../frameworks/zephyr.rst:2508
+#: ../../../frameworks/zephyr.rst:2578 ../../../frameworks/zephyr.rst:2585
+msgid "512KB"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:128 ../../../frameworks/zephyr.rst:266
+#: ../../../frameworks/zephyr.rst:445 ../../../frameworks/zephyr.rst:548
+#: ../../../frameworks/zephyr.rst:625 ../../../frameworks/zephyr.rst:668
+#: ../../../frameworks/zephyr.rst:819 ../../../frameworks/zephyr.rst:1165
+#: ../../../frameworks/zephyr.rst:1557 ../../../frameworks/zephyr.rst:1865
+#: ../../../frameworks/zephyr.rst:1969 ../../../frameworks/zephyr.rst:2089
+#: ../../../frameworks/zephyr.rst:2186 ../../../frameworks/zephyr.rst:2236
+msgid "192KB"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:129 ../../../frameworks/zephyr.rst:1089
+msgid ":ref:`board_ststm32_b96b_f446ve`"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:131 ../../../frameworks/zephyr.rst:1092
+msgid "STM32F446VET6"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:132 ../../../frameworks/zephyr.rst:690
+#: ../../../frameworks/zephyr.rst:775 ../../../frameworks/zephyr.rst:805
+#: ../../../frameworks/zephyr.rst:841 ../../../frameworks/zephyr.rst:847
+#: ../../../frameworks/zephyr.rst:925 ../../../frameworks/zephyr.rst:973
+#: ../../../frameworks/zephyr.rst:979 ../../../frameworks/zephyr.rst:1015
+#: ../../../frameworks/zephyr.rst:1093 ../../../frameworks/zephyr.rst:1100
+#: ../../../frameworks/zephyr.rst:1149 ../../../frameworks/zephyr.rst:1688
+#: ../../../frameworks/zephyr.rst:1695 ../../../frameworks/zephyr.rst:1702
+#: ../../../frameworks/zephyr.rst:1870 ../../../frameworks/zephyr.rst:1877
+#: ../../../frameworks/zephyr.rst:2262 ../../../frameworks/zephyr.rst:2437
+msgid "168MHz"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:134 ../../../frameworks/zephyr.rst:164
+#: ../../../frameworks/zephyr.rst:176 ../../../frameworks/zephyr.rst:206
+#: ../../../frameworks/zephyr.rst:223 ../../../frameworks/zephyr.rst:230
+#: ../../../frameworks/zephyr.rst:278 ../../../frameworks/zephyr.rst:284
+#: ../../../frameworks/zephyr.rst:332 ../../../frameworks/zephyr.rst:343
+#: ../../../frameworks/zephyr.rst:349 ../../../frameworks/zephyr.rst:355
+#: ../../../frameworks/zephyr.rst:362 ../../../frameworks/zephyr.rst:398
+#: ../../../frameworks/zephyr.rst:428 ../../../frameworks/zephyr.rst:451
+#: ../../../frameworks/zephyr.rst:469 ../../../frameworks/zephyr.rst:481
+#: ../../../frameworks/zephyr.rst:488 ../../../frameworks/zephyr.rst:523
+#: ../../../frameworks/zephyr.rst:530 ../../../frameworks/zephyr.rst:554
+#: ../../../frameworks/zephyr.rst:560 ../../../frameworks/zephyr.rst:631
+#: ../../../frameworks/zephyr.rst:692 ../../../frameworks/zephyr.rst:697
+#: ../../../frameworks/zephyr.rst:733 ../../../frameworks/zephyr.rst:783
+#: ../../../frameworks/zephyr.rst:807 ../../../frameworks/zephyr.rst:843
+#: ../../../frameworks/zephyr.rst:849 ../../../frameworks/zephyr.rst:860
+#: ../../../frameworks/zephyr.rst:872 ../../../frameworks/zephyr.rst:920
+#: ../../../frameworks/zephyr.rst:927 ../../../frameworks/zephyr.rst:975
+#: ../../../frameworks/zephyr.rst:981 ../../../frameworks/zephyr.rst:998
+#: ../../../frameworks/zephyr.rst:1017 ../../../frameworks/zephyr.rst:1053
+#: ../../../frameworks/zephyr.rst:1095 ../../../frameworks/zephyr.rst:1109
+#: ../../../frameworks/zephyr.rst:1151 ../../../frameworks/zephyr.rst:1270
+#: ../../../frameworks/zephyr.rst:1340 ../../../frameworks/zephyr.rst:1360
+#: ../../../frameworks/zephyr.rst:1375 ../../../frameworks/zephyr.rst:1402
+#: ../../../frameworks/zephyr.rst:1416 ../../../frameworks/zephyr.rst:1466
+#: ../../../frameworks/zephyr.rst:1571 ../../../frameworks/zephyr.rst:1578
+#: ../../../frameworks/zephyr.rst:1655 ../../../frameworks/zephyr.rst:1682
+#: ../../../frameworks/zephyr.rst:1690 ../../../frameworks/zephyr.rst:1697
+#: ../../../frameworks/zephyr.rst:1704 ../../../frameworks/zephyr.rst:1872
+#: ../../../frameworks/zephyr.rst:1879 ../../../frameworks/zephyr.rst:1885
+#: ../../../frameworks/zephyr.rst:1892 ../../../frameworks/zephyr.rst:1899
+#: ../../../frameworks/zephyr.rst:1907 ../../../frameworks/zephyr.rst:1914
+#: ../../../frameworks/zephyr.rst:1949 ../../../frameworks/zephyr.rst:1976
+#: ../../../frameworks/zephyr.rst:1997 ../../../frameworks/zephyr.rst:2011
+#: ../../../frameworks/zephyr.rst:2019 ../../../frameworks/zephyr.rst:2060
+#: ../../../frameworks/zephyr.rst:2068 ../../../frameworks/zephyr.rst:2096
+#: ../../../frameworks/zephyr.rst:2103 ../../../frameworks/zephyr.rst:2193
+#: ../../../frameworks/zephyr.rst:2264 ../../../frameworks/zephyr.rst:2270
+#: ../../../frameworks/zephyr.rst:2298 ../../../frameworks/zephyr.rst:2439
+#: ../../../frameworks/zephyr.rst:2501 ../../../frameworks/zephyr.rst:2579
+msgid "128KB"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:135 ../../../frameworks/zephyr.rst:1201
+msgid ":ref:`board_atmelsam_zero`"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:137 ../../../frameworks/zephyr.rst:798
+#: ../../../frameworks/zephyr.rst:906 ../../../frameworks/zephyr.rst:1008
+#: ../../../frameworks/zephyr.rst:1141 ../../../frameworks/zephyr.rst:1204
+#: ../../../frameworks/zephyr.rst:1211 ../../../frameworks/zephyr.rst:2331
+msgid "SAMD21G18A"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:138 ../../../frameworks/zephyr.rst:144
+#: ../../../frameworks/zephyr.rst:150 ../../../frameworks/zephyr.rst:186
+#: ../../../frameworks/zephyr.rst:222 ../../../frameworks/zephyr.rst:228
+#: ../../../frameworks/zephyr.rst:450 ../../../frameworks/zephyr.rst:456
+#: ../../../frameworks/zephyr.rst:462 ../../../frameworks/zephyr.rst:468
+#: ../../../frameworks/zephyr.rst:474 ../../../frameworks/zephyr.rst:672
+#: ../../../frameworks/zephyr.rst:678 ../../../frameworks/zephyr.rst:799
+#: ../../../frameworks/zephyr.rst:829 ../../../frameworks/zephyr.rst:877
+#: ../../../frameworks/zephyr.rst:907 ../../../frameworks/zephyr.rst:997
+#: ../../../frameworks/zephyr.rst:1003 ../../../frameworks/zephyr.rst:1009
+#: ../../../frameworks/zephyr.rst:1033 ../../../frameworks/zephyr.rst:1039
+#: ../../../frameworks/zephyr.rst:1142 ../../../frameworks/zephyr.rst:1177
+#: ../../../frameworks/zephyr.rst:1205 ../../../frameworks/zephyr.rst:1212
+#: ../../../frameworks/zephyr.rst:1233 ../../../frameworks/zephyr.rst:1240
+#: ../../../frameworks/zephyr.rst:1289 ../../../frameworks/zephyr.rst:1359
+#: ../../../frameworks/zephyr.rst:1373 ../../../frameworks/zephyr.rst:1975
+#: ../../../frameworks/zephyr.rst:1982 ../../../frameworks/zephyr.rst:1989
+#: ../../../frameworks/zephyr.rst:1996 ../../../frameworks/zephyr.rst:2003
+#: ../../../frameworks/zephyr.rst:2241 ../../../frameworks/zephyr.rst:2248
+#: ../../../frameworks/zephyr.rst:2297 ../../../frameworks/zephyr.rst:2332
+#: ../../../frameworks/zephyr.rst:2353 ../../../frameworks/zephyr.rst:2402
+#: ../../../frameworks/zephyr.rst:2528 ../../../frameworks/zephyr.rst:2535
+msgid "48MHz"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:140 ../../../frameworks/zephyr.rst:146
+#: ../../../frameworks/zephyr.rst:152 ../../../frameworks/zephyr.rst:188
+#: ../../../frameworks/zephyr.rst:314 ../../../frameworks/zephyr.rst:320
+#: ../../../frameworks/zephyr.rst:356 ../../../frameworks/zephyr.rst:380
+#: ../../../frameworks/zephyr.rst:463 ../../../frameworks/zephyr.rst:476
+#: ../../../frameworks/zephyr.rst:524 ../../../frameworks/zephyr.rst:613
+#: ../../../frameworks/zephyr.rst:734 ../../../frameworks/zephyr.rst:801
+#: ../../../frameworks/zephyr.rst:831 ../../../frameworks/zephyr.rst:909
+#: ../../../frameworks/zephyr.rst:993 ../../../frameworks/zephyr.rst:1011
+#: ../../../frameworks/zephyr.rst:1047 ../../../frameworks/zephyr.rst:1144
+#: ../../../frameworks/zephyr.rst:1179 ../../../frameworks/zephyr.rst:1207
+#: ../../../frameworks/zephyr.rst:1214 ../../../frameworks/zephyr.rst:1235
+#: ../../../frameworks/zephyr.rst:1242 ../../../frameworks/zephyr.rst:1634
+#: ../../../frameworks/zephyr.rst:1641 ../../../frameworks/zephyr.rst:1788
+#: ../../../frameworks/zephyr.rst:1900 ../../../frameworks/zephyr.rst:1990
+#: ../../../frameworks/zephyr.rst:2005 ../../../frameworks/zephyr.rst:2061
+#: ../../../frameworks/zephyr.rst:2172 ../../../frameworks/zephyr.rst:2292
+#: ../../../frameworks/zephyr.rst:2334 ../../../frameworks/zephyr.rst:2404
+#: ../../../frameworks/zephyr.rst:2502 ../../../frameworks/zephyr.rst:2558
+msgid "32KB"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:141 ../../../frameworks/zephyr.rst:1229
+msgid ":ref:`board_atmelsam_samr21_xpro`"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:143 ../../../frameworks/zephyr.rst:1232
+msgid "SAMR21G18A"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:147 ../../../frameworks/zephyr.rst:1236
+msgid ":ref:`board_atmelsam_samd21_xpro`"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:149 ../../../frameworks/zephyr.rst:1239
+msgid "SAMD21J18A"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:153 ../../../frameworks/zephyr.rst:1257
+msgid ":ref:`board_nordicnrf51_bbcmicrobit`"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:155 ../../../frameworks/zephyr.rst:311
+#: ../../../frameworks/zephyr.rst:317 ../../../frameworks/zephyr.rst:377
+#: ../../../frameworks/zephyr.rst:731 ../../../frameworks/zephyr.rst:1044
+#: ../../../frameworks/zephyr.rst:1260 ../../../frameworks/zephyr.rst:1631
+#: ../../../frameworks/zephyr.rst:1638 ../../../frameworks/zephyr.rst:1785
+#: ../../../frameworks/zephyr.rst:2499 ../../../frameworks/zephyr.rst:2555
+msgid "NRF51822"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:156 ../../../frameworks/zephyr.rst:378
+#: ../../../frameworks/zephyr.rst:732 ../../../frameworks/zephyr.rst:1261
+#: ../../../frameworks/zephyr.rst:1786 ../../../frameworks/zephyr.rst:2500
+msgid "16MHz"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:158 ../../../frameworks/zephyr.rst:224
+#: ../../../frameworks/zephyr.rst:236 ../../../frameworks/zephyr.rst:242
+#: ../../../frameworks/zephyr.rst:452 ../../../frameworks/zephyr.rst:470
+#: ../../../frameworks/zephyr.rst:494 ../../../frameworks/zephyr.rst:512
+#: ../../../frameworks/zephyr.rst:607 ../../../frameworks/zephyr.rst:716
+#: ../../../frameworks/zephyr.rst:722 ../../../frameworks/zephyr.rst:999
+#: ../../../frameworks/zephyr.rst:1263 ../../../frameworks/zephyr.rst:1361
+#: ../../../frameworks/zephyr.rst:1977 ../../../frameworks/zephyr.rst:1998
+#: ../../../frameworks/zephyr.rst:2026 ../../../frameworks/zephyr.rst:2047
+#: ../../../frameworks/zephyr.rst:2165 ../../../frameworks/zephyr.rst:2299
+#: ../../../frameworks/zephyr.rst:2376 ../../../frameworks/zephyr.rst:2383
+#: ../../../frameworks/zephyr.rst:2446 ../../../frameworks/zephyr.rst:2453
+msgid "16KB"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:159 ../../../frameworks/zephyr.rst:1264
+msgid ":ref:`board_nordicnrf52_bbcmicrobit_v2`"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:161 ../../../frameworks/zephyr.rst:173
+#: ../../../frameworks/zephyr.rst:329 ../../../frameworks/zephyr.rst:1267
+#: ../../../frameworks/zephyr.rst:1463 ../../../frameworks/zephyr.rst:1652
+msgid "NRF52833"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:162 ../../../frameworks/zephyr.rst:168
+#: ../../../frameworks/zephyr.rst:174 ../../../frameworks/zephyr.rst:180
+#: ../../../frameworks/zephyr.rst:192 ../../../frameworks/zephyr.rst:198
+#: ../../../frameworks/zephyr.rst:252 ../../../frameworks/zephyr.rst:258
+#: ../../../frameworks/zephyr.rst:324 ../../../frameworks/zephyr.rst:330
+#: ../../../frameworks/zephyr.rst:336 ../../../frameworks/zephyr.rst:342
+#: ../../../frameworks/zephyr.rst:348 ../../../frameworks/zephyr.rst:366
+#: ../../../frameworks/zephyr.rst:372 ../../../frameworks/zephyr.rst:384
+#: ../../../frameworks/zephyr.rst:696 ../../../frameworks/zephyr.rst:738
+#: ../../../frameworks/zephyr.rst:744 ../../../frameworks/zephyr.rst:787
+#: ../../../frameworks/zephyr.rst:793 ../../../frameworks/zephyr.rst:811
+#: ../../../frameworks/zephyr.rst:823 ../../../frameworks/zephyr.rst:895
+#: ../../../frameworks/zephyr.rst:901 ../../../frameworks/zephyr.rst:913
+#: ../../../frameworks/zephyr.rst:931 ../../../frameworks/zephyr.rst:937
+#: ../../../frameworks/zephyr.rst:943 ../../../frameworks/zephyr.rst:949
+#: ../../../frameworks/zephyr.rst:1114 ../../../frameworks/zephyr.rst:1135
+#: ../../../frameworks/zephyr.rst:1156 ../../../frameworks/zephyr.rst:1170
+#: ../../../frameworks/zephyr.rst:1268 ../../../frameworks/zephyr.rst:1310
+#: ../../../frameworks/zephyr.rst:1317 ../../../frameworks/zephyr.rst:1436
+#: ../../../frameworks/zephyr.rst:1457 ../../../frameworks/zephyr.rst:1464
+#: ../../../frameworks/zephyr.rst:1471 ../../../frameworks/zephyr.rst:1478
+#: ../../../frameworks/zephyr.rst:1499 ../../../frameworks/zephyr.rst:1506
+#: ../../../frameworks/zephyr.rst:1625 ../../../frameworks/zephyr.rst:1646
+#: ../../../frameworks/zephyr.rst:1653 ../../../frameworks/zephyr.rst:1660
+#: ../../../frameworks/zephyr.rst:1723 ../../../frameworks/zephyr.rst:1730
+#: ../../../frameworks/zephyr.rst:1751 ../../../frameworks/zephyr.rst:1758
+#: ../../../frameworks/zephyr.rst:1765 ../../../frameworks/zephyr.rst:1793
+#: ../../../frameworks/zephyr.rst:1814 ../../../frameworks/zephyr.rst:1884
+#: ../../../frameworks/zephyr.rst:1891 ../../../frameworks/zephyr.rst:2269
+#: ../../../frameworks/zephyr.rst:2507 ../../../frameworks/zephyr.rst:2605
+msgid "64MHz"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:165 ../../../frameworks/zephyr.rst:1453
+msgid ":ref:`board_nordicnrf52_laird_bl652_dvk`"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:167 ../../../frameworks/zephyr.rst:251
+#: ../../../frameworks/zephyr.rst:323 ../../../frameworks/zephyr.rst:383
+#: ../../../frameworks/zephyr.rst:737 ../../../frameworks/zephyr.rst:786
+#: ../../../frameworks/zephyr.rst:792 ../../../frameworks/zephyr.rst:894
+#: ../../../frameworks/zephyr.rst:912 ../../../frameworks/zephyr.rst:948
+#: ../../../frameworks/zephyr.rst:1113 ../../../frameworks/zephyr.rst:1134
+#: ../../../frameworks/zephyr.rst:1435 ../../../frameworks/zephyr.rst:1456
+#: ../../../frameworks/zephyr.rst:1498 ../../../frameworks/zephyr.rst:1624
+#: ../../../frameworks/zephyr.rst:1645 ../../../frameworks/zephyr.rst:1792
+#: ../../../frameworks/zephyr.rst:1813 ../../../frameworks/zephyr.rst:2506
+msgid "NRF52832"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:170 ../../../frameworks/zephyr.rst:254
+#: ../../../frameworks/zephyr.rst:277 ../../../frameworks/zephyr.rst:326
+#: ../../../frameworks/zephyr.rst:386 ../../../frameworks/zephyr.rst:391
+#: ../../../frameworks/zephyr.rst:457 ../../../frameworks/zephyr.rst:493
+#: ../../../frameworks/zephyr.rst:499 ../../../frameworks/zephyr.rst:506
+#: ../../../frameworks/zephyr.rst:511 ../../../frameworks/zephyr.rst:619
+#: ../../../frameworks/zephyr.rst:638 ../../../frameworks/zephyr.rst:644
+#: ../../../frameworks/zephyr.rst:674 ../../../frameworks/zephyr.rst:679
+#: ../../../frameworks/zephyr.rst:740 ../../../frameworks/zephyr.rst:789
+#: ../../../frameworks/zephyr.rst:795 ../../../frameworks/zephyr.rst:854
+#: ../../../frameworks/zephyr.rst:866 ../../../frameworks/zephyr.rst:879
+#: ../../../frameworks/zephyr.rst:885 ../../../frameworks/zephyr.rst:897
+#: ../../../frameworks/zephyr.rst:915 ../../../frameworks/zephyr.rst:951
+#: ../../../frameworks/zephyr.rst:969 ../../../frameworks/zephyr.rst:987
+#: ../../../frameworks/zephyr.rst:1005 ../../../frameworks/zephyr.rst:1035
+#: ../../../frameworks/zephyr.rst:1041 ../../../frameworks/zephyr.rst:1116
+#: ../../../frameworks/zephyr.rst:1137 ../../../frameworks/zephyr.rst:1291
+#: ../../../frameworks/zephyr.rst:1368 ../../../frameworks/zephyr.rst:1395
+#: ../../../frameworks/zephyr.rst:1409 ../../../frameworks/zephyr.rst:1438
+#: ../../../frameworks/zephyr.rst:1459 ../../../frameworks/zephyr.rst:1501
+#: ../../../frameworks/zephyr.rst:1570 ../../../frameworks/zephyr.rst:1627
+#: ../../../frameworks/zephyr.rst:1648 ../../../frameworks/zephyr.rst:1795
+#: ../../../frameworks/zephyr.rst:1816 ../../../frameworks/zephyr.rst:1983
+#: ../../../frameworks/zephyr.rst:2025 ../../../frameworks/zephyr.rst:2032
+#: ../../../frameworks/zephyr.rst:2040 ../../../frameworks/zephyr.rst:2046
+#: ../../../frameworks/zephyr.rst:2179 ../../../frameworks/zephyr.rst:2201
+#: ../../../frameworks/zephyr.rst:2208 ../../../frameworks/zephyr.rst:2243
+#: ../../../frameworks/zephyr.rst:2249 ../../../frameworks/zephyr.rst:2278
+#: ../../../frameworks/zephyr.rst:2285 ../../../frameworks/zephyr.rst:2355
+#: ../../../frameworks/zephyr.rst:2410 ../../../frameworks/zephyr.rst:2509
+#: ../../../frameworks/zephyr.rst:2530 ../../../frameworks/zephyr.rst:2537
+msgid "64KB"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:171 ../../../frameworks/zephyr.rst:1460
+msgid ":ref:`board_nordicnrf52_laird_bl653_dvk`"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:177 ../../../frameworks/zephyr.rst:1467
+msgid ":ref:`board_nordicnrf52_laird_bl654_dvk`"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:179 ../../../frameworks/zephyr.rst:191
+#: ../../../frameworks/zephyr.rst:197 ../../../frameworks/zephyr.rst:257
+#: ../../../frameworks/zephyr.rst:335 ../../../frameworks/zephyr.rst:365
+#: ../../../frameworks/zephyr.rst:371 ../../../frameworks/zephyr.rst:743
+#: ../../../frameworks/zephyr.rst:810 ../../../frameworks/zephyr.rst:822
+#: ../../../frameworks/zephyr.rst:900 ../../../frameworks/zephyr.rst:930
+#: ../../../frameworks/zephyr.rst:936 ../../../frameworks/zephyr.rst:942
+#: ../../../frameworks/zephyr.rst:1155 ../../../frameworks/zephyr.rst:1169
+#: ../../../frameworks/zephyr.rst:1309 ../../../frameworks/zephyr.rst:1316
+#: ../../../frameworks/zephyr.rst:1470 ../../../frameworks/zephyr.rst:1477
+#: ../../../frameworks/zephyr.rst:1505 ../../../frameworks/zephyr.rst:1659
+#: ../../../frameworks/zephyr.rst:1722 ../../../frameworks/zephyr.rst:1729
+#: ../../../frameworks/zephyr.rst:1750 ../../../frameworks/zephyr.rst:1757
+#: ../../../frameworks/zephyr.rst:1764 ../../../frameworks/zephyr.rst:2604
+msgid "NRF52840"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:183 ../../../frameworks/zephyr.rst:2398
+msgid ":ref:`board_siliconlabsefm32_efm32wg_stk3800`"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:185 ../../../frameworks/zephyr.rst:2401
+msgid "EFM32WG990F256"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:189 ../../../frameworks/zephyr.rst:1306
+msgid ":ref:`board_nordicnrf52_electronut_blip`"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:195 ../../../frameworks/zephyr.rst:1313
+msgid ":ref:`board_nordicnrf52_electronut_papyr`"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:201 ../../../frameworks/zephyr.rst:1334
+msgid ":ref:`board_freescalekinetis_frdm_k22f`"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:203 ../../../frameworks/zephyr.rst:1337
+msgid "MK22FN512VLH12"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:204 ../../../frameworks/zephyr.rst:210
+#: ../../../frameworks/zephyr.rst:486 ../../../frameworks/zephyr.rst:660
+#: ../../../frameworks/zephyr.rst:817 ../../../frameworks/zephyr.rst:889
+#: ../../../frameworks/zephyr.rst:1163 ../../../frameworks/zephyr.rst:1338
+#: ../../../frameworks/zephyr.rst:1345 ../../../frameworks/zephyr.rst:1527
+#: ../../../frameworks/zephyr.rst:2017 ../../../frameworks/zephyr.rst:2227
+msgid "120MHz"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:207 ../../../frameworks/zephyr.rst:1341
+msgid ":ref:`board_freescalekinetis_frdm_k64f`"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:209 ../../../frameworks/zephyr.rst:1344
+msgid "MK64FN1M0VLL12"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:213 ../../../frameworks/zephyr.rst:1348
+msgid ":ref:`board_freescalekinetis_frdm_k82f`"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:215 ../../../frameworks/zephyr.rst:1351
+msgid "MK82FN256VLL15"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:216 ../../../frameworks/zephyr.rst:270
+#: ../../../frameworks/zephyr.rst:1352 ../../../frameworks/zephyr.rst:1562
+msgid "150MHz"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:219 ../../../frameworks/zephyr.rst:1355
+msgid ":ref:`board_freescalekinetis_frdm_kl25z`"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:221 ../../../frameworks/zephyr.rst:1358
+msgid "MKL25Z128VLK4"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:225 ../../../frameworks/zephyr.rst:1369
+msgid ":ref:`board_freescalekinetis_frdm_kw41z`"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:227 ../../../frameworks/zephyr.rst:1372
+msgid "MKW41Z512VHT4"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:231 ../../../frameworks/zephyr.rst:2370
+msgid ":ref:`board_sifive_hifive1`"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:233 ../../../frameworks/zephyr.rst:239
+#: ../../../frameworks/zephyr.rst:713 ../../../frameworks/zephyr.rst:719
+#: ../../../frameworks/zephyr.rst:2373 ../../../frameworks/zephyr.rst:2380
+#: ../../../frameworks/zephyr.rst:2443 ../../../frameworks/zephyr.rst:2450
+msgid "FE310"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:234 ../../../frameworks/zephyr.rst:240
+#: ../../../frameworks/zephyr.rst:714 ../../../frameworks/zephyr.rst:720
+#: ../../../frameworks/zephyr.rst:2374 ../../../frameworks/zephyr.rst:2381
+#: ../../../frameworks/zephyr.rst:2444 ../../../frameworks/zephyr.rst:2451
+msgid "320MHz"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:235 ../../../frameworks/zephyr.rst:241
+#: ../../../frameworks/zephyr.rst:715 ../../../frameworks/zephyr.rst:721
+#: ../../../frameworks/zephyr.rst:2375 ../../../frameworks/zephyr.rst:2382
+#: ../../../frameworks/zephyr.rst:2445 ../../../frameworks/zephyr.rst:2452
+msgid "16MB"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:237 ../../../frameworks/zephyr.rst:2377
+msgid ":ref:`board_sifive_hifive1-revb`"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:243 ../../../frameworks/zephyr.rst:1544
+msgid ":ref:`board_nxplpc_lpc11u68`"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:245 ../../../frameworks/zephyr.rst:1547
+msgid "LPC11U68"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:246 ../../../frameworks/zephyr.rst:883
+#: ../../../frameworks/zephyr.rst:1366 ../../../frameworks/zephyr.rst:1548
+msgid "50MHz"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:248 ../../../frameworks/zephyr.rst:344
+#: ../../../frameworks/zephyr.rst:350 ../../../frameworks/zephyr.rst:698
+#: ../../../frameworks/zephyr.rst:1550 ../../../frameworks/zephyr.rst:1886
+#: ../../../frameworks/zephyr.rst:1893 ../../../frameworks/zephyr.rst:2271
+msgid "36KB"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:249 ../../../frameworks/zephyr.rst:1495
+msgid ":ref:`board_nordicnrf52_nrf52832_mdk`"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:255 ../../../frameworks/zephyr.rst:1502
+msgid ":ref:`board_nordicnrf52_nrf52840_mdk`"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:261 ../../../frameworks/zephyr.rst:1551
+msgid ":ref:`board_nxplpc_lpc54114`"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:263 ../../../frameworks/zephyr.rst:1554
+msgid "LPC54114J256BD64"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:267 ../../../frameworks/zephyr.rst:1558
+msgid ":ref:`board_nxplpc_lpcxpresso55s16`"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:269 ../../../frameworks/zephyr.rst:1561
+msgid "LPC55S16"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:272 ../../../frameworks/zephyr.rst:283
+#: ../../../frameworks/zephyr.rst:440 ../../../frameworks/zephyr.rst:518
+#: ../../../frameworks/zephyr.rst:650 ../../../frameworks/zephyr.rst:837
+#: ../../../frameworks/zephyr.rst:1059 ../../../frameworks/zephyr.rst:1200
+#: ../../../frameworks/zephyr.rst:1564 ../../../frameworks/zephyr.rst:1577
+#: ../../../frameworks/zephyr.rst:1963 ../../../frameworks/zephyr.rst:2054
+#: ../../../frameworks/zephyr.rst:2215 ../../../frameworks/zephyr.rst:2586
+msgid "96KB"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:273 ../../../frameworks/zephyr.rst:1565
+msgid ":ref:`board_nxpimxrt_mimxrt1010_evk`"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:275 ../../../frameworks/zephyr.rst:1568
+msgid "MIMXRT1011DAE5A"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:276 ../../../frameworks/zephyr.rst:282
+#: ../../../frameworks/zephyr.rst:288 ../../../frameworks/zephyr.rst:1569
+#: ../../../frameworks/zephyr.rst:1576 ../../../frameworks/zephyr.rst:1583
+msgid "500MHz"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:279 ../../../frameworks/zephyr.rst:1572
+msgid ":ref:`board_nxpimxrt_mimxrt1015_evk`"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:281 ../../../frameworks/zephyr.rst:1575
+msgid "MIMXRT1015DAF5A"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:285 ../../../frameworks/zephyr.rst:1579
+msgid ":ref:`board_nxpimxrt_mimxrt1020_evk`"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:287 ../../../frameworks/zephyr.rst:1582
+msgid "MIMXRT1021DAG5A"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:289 ../../../frameworks/zephyr.rst:295
+#: ../../../frameworks/zephyr.rst:301 ../../../frameworks/zephyr.rst:307
+#: ../../../frameworks/zephyr.rst:1584 ../../../frameworks/zephyr.rst:1591
+#: ../../../frameworks/zephyr.rst:1598 ../../../frameworks/zephyr.rst:1605
+msgid "8MB"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:290 ../../../frameworks/zephyr.rst:296
+#: ../../../frameworks/zephyr.rst:302 ../../../frameworks/zephyr.rst:308
+#: ../../../frameworks/zephyr.rst:1585 ../../../frameworks/zephyr.rst:1592
+#: ../../../frameworks/zephyr.rst:1599 ../../../frameworks/zephyr.rst:1606
+msgid "32MB"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:291 ../../../frameworks/zephyr.rst:1586
+msgid ":ref:`board_nxpimxrt_mimxrt1050_evk`"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:293 ../../../frameworks/zephyr.rst:1589
+msgid "MIMXRT1052DVL6B"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:294 ../../../frameworks/zephyr.rst:300
+#: ../../../frameworks/zephyr.rst:306 ../../../frameworks/zephyr.rst:1021
+#: ../../../frameworks/zephyr.rst:1027 ../../../frameworks/zephyr.rst:1590
+#: ../../../frameworks/zephyr.rst:1597 ../../../frameworks/zephyr.rst:1604
+#: ../../../frameworks/zephyr.rst:2472 ../../../frameworks/zephyr.rst:2479
+msgid "600MHz"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:297 ../../../frameworks/zephyr.rst:1593
+msgid ":ref:`board_nxpimxrt_mimxrt1060_evk`"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:299 ../../../frameworks/zephyr.rst:1596
+msgid "MIMXRT1062DVL6A"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:303 ../../../frameworks/zephyr.rst:1600
+msgid ":ref:`board_nxpimxrt_mimxrt1064_evk`"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:305 ../../../frameworks/zephyr.rst:1603
+msgid "MIMXRT1064DVL6A"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:309 ../../../frameworks/zephyr.rst:1628
+msgid ":ref:`board_nordicnrf51_nrf51_dongle`"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:312 ../../../frameworks/zephyr.rst:318
+#: ../../../frameworks/zephyr.rst:444 ../../../frameworks/zephyr.rst:606
+#: ../../../frameworks/zephyr.rst:612 ../../../frameworks/zephyr.rst:618
+#: ../../../frameworks/zephyr.rst:624 ../../../frameworks/zephyr.rst:1045
+#: ../../../frameworks/zephyr.rst:1632 ../../../frameworks/zephyr.rst:1639
+#: ../../../frameworks/zephyr.rst:1968 ../../../frameworks/zephyr.rst:2164
+#: ../../../frameworks/zephyr.rst:2171 ../../../frameworks/zephyr.rst:2178
+#: ../../../frameworks/zephyr.rst:2185 ../../../frameworks/zephyr.rst:2556
+msgid "32MHz"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:315 ../../../frameworks/zephyr.rst:1635
+msgid ":ref:`board_nordicnrf51_nrf51_dk`"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:321 ../../../frameworks/zephyr.rst:1642
+msgid ":ref:`board_nordicnrf52_nrf52_dk`"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:327 ../../../frameworks/zephyr.rst:1649
+msgid ":ref:`board_nordicnrf52_nrf52833_dk`"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:333 ../../../frameworks/zephyr.rst:1656
+msgid ":ref:`board_nordicnrf52_nrf52840_dk`"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:339 ../../../frameworks/zephyr.rst:1880
+msgid ":ref:`board_ststm32_nucleo_g070rb`"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:341 ../../../frameworks/zephyr.rst:1883
+msgid "STM32G070RBT6"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:345 ../../../frameworks/zephyr.rst:1887
+msgid ":ref:`board_ststm32_nucleo_g071rb`"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:347 ../../../frameworks/zephyr.rst:695
+#: ../../../frameworks/zephyr.rst:1890 ../../../frameworks/zephyr.rst:2268
+msgid "STM32G071RBT6"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:351 ../../../frameworks/zephyr.rst:1894
+msgid ":ref:`board_ststm32_nucleo_g431rb`"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:353 ../../../frameworks/zephyr.rst:1897
+msgid "STM32G431RBT6"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:354 ../../../frameworks/zephyr.rst:360
+#: ../../../frameworks/zephyr.rst:1898 ../../../frameworks/zephyr.rst:1905
+msgid "170MHz"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:357 ../../../frameworks/zephyr.rst:1901
+msgid ":ref:`board_ststm32_nucleo_g474re`"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:359 ../../../frameworks/zephyr.rst:1904
+msgid "STM32G474RET6"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:363 ../../../frameworks/zephyr.rst:1719
+msgid ":ref:`board_nordicnrf52_reel_board`"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:369 ../../../frameworks/zephyr.rst:1726
+msgid ":ref:`board_nordicnrf52_reel_board_v2`"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:375 ../../../frameworks/zephyr.rst:1782
+msgid ":ref:`board_nordicnrf51_redBearLabBLENano`"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:381 ../../../frameworks/zephyr.rst:1789
+msgid ":ref:`board_nordicnrf52_redbear_blenano2`"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:387 ../../../frameworks/zephyr.rst:2405
+msgid ":ref:`board_siliconlabsefm32_efm32hg_stk3400`"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:389 ../../../frameworks/zephyr.rst:2408
+msgid "EFM32HG322F64"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:390 ../../../frameworks/zephyr.rst:2409
+msgid "25MHz"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:392 ../../../frameworks/zephyr.rst:458
+#: ../../../frameworks/zephyr.rst:614 ../../../frameworks/zephyr.rst:620
+#: ../../../frameworks/zephyr.rst:680 ../../../frameworks/zephyr.rst:1984
+#: ../../../frameworks/zephyr.rst:2173 ../../../frameworks/zephyr.rst:2180
+#: ../../../frameworks/zephyr.rst:2250 ../../../frameworks/zephyr.rst:2411
+msgid "8KB"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:393 ../../../frameworks/zephyr.rst:1908
+msgid ":ref:`board_ststm32_disco_f411ve`"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:395 ../../../frameworks/zephyr.rst:1911
+msgid "STM32F411VET6"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:399 ../../../frameworks/zephyr.rst:1915
+msgid ":ref:`board_ststm32_disco_f429zi`"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:401 ../../../frameworks/zephyr.rst:545
+#: ../../../frameworks/zephyr.rst:1918 ../../../frameworks/zephyr.rst:2086
+msgid "STM32F429ZIT6"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:402 ../../../frameworks/zephyr.rst:408
+#: ../../../frameworks/zephyr.rst:546 ../../../frameworks/zephyr.rst:552
+#: ../../../frameworks/zephyr.rst:558 ../../../frameworks/zephyr.rst:955
+#: ../../../frameworks/zephyr.rst:1835 ../../../frameworks/zephyr.rst:1919
+#: ../../../frameworks/zephyr.rst:1926 ../../../frameworks/zephyr.rst:2087
+#: ../../../frameworks/zephyr.rst:2094 ../../../frameworks/zephyr.rst:2101
+msgid "180MHz"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:403 ../../../frameworks/zephyr.rst:409
+#: ../../../frameworks/zephyr.rst:421 ../../../frameworks/zephyr.rst:547
+#: ../../../frameworks/zephyr.rst:577 ../../../frameworks/zephyr.rst:589
+#: ../../../frameworks/zephyr.rst:601 ../../../frameworks/zephyr.rst:661
+#: ../../../frameworks/zephyr.rst:709 ../../../frameworks/zephyr.rst:956
+#: ../../../frameworks/zephyr.rst:962 ../../../frameworks/zephyr.rst:1836
+#: ../../../frameworks/zephyr.rst:1920 ../../../frameworks/zephyr.rst:1927
+#: ../../../frameworks/zephyr.rst:1941 ../../../frameworks/zephyr.rst:2088
+#: ../../../frameworks/zephyr.rst:2123 ../../../frameworks/zephyr.rst:2130
+#: ../../../frameworks/zephyr.rst:2144 ../../../frameworks/zephyr.rst:2158
+#: ../../../frameworks/zephyr.rst:2228 ../../../frameworks/zephyr.rst:2312
+msgid "2MB"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:405 ../../../frameworks/zephyr.rst:1922
+msgid ":ref:`board_ststm32_disco_f469ni`"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:407 ../../../frameworks/zephyr.rst:1925
+msgid "STM32F469NIH6"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:410 ../../../frameworks/zephyr.rst:1928
+msgid "384KB"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:411 ../../../frameworks/zephyr.rst:1929
+msgid ":ref:`board_ststm32_disco_f746ng`"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:413 ../../../frameworks/zephyr.rst:1932
+msgid "STM32F746NGH6"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:416 ../../../frameworks/zephyr.rst:434
+#: ../../../frameworks/zephyr.rst:542 ../../../frameworks/zephyr.rst:566
+#: ../../../frameworks/zephyr.rst:572 ../../../frameworks/zephyr.rst:584
+#: ../../../frameworks/zephyr.rst:656 ../../../frameworks/zephyr.rst:1935
+#: ../../../frameworks/zephyr.rst:1956 ../../../frameworks/zephyr.rst:2082
+#: ../../../frameworks/zephyr.rst:2110 ../../../frameworks/zephyr.rst:2117
+#: ../../../frameworks/zephyr.rst:2138 ../../../frameworks/zephyr.rst:2222
+msgid "320KB"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:417 ../../../frameworks/zephyr.rst:1936
+msgid ":ref:`board_ststm32_disco_f769ni`"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:419 ../../../frameworks/zephyr.rst:1939
+msgid "STM32F769NIH6"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:423 ../../../frameworks/zephyr.rst:1943
+msgid ":ref:`board_ststm32_disco_l476vg`"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:425 ../../../frameworks/zephyr.rst:1946
+msgid "STM32L476VGT6"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:426 ../../../frameworks/zephyr.rst:432
+#: ../../../frameworks/zephyr.rst:438 ../../../frameworks/zephyr.rst:630
+#: ../../../frameworks/zephyr.rst:636 ../../../frameworks/zephyr.rst:642
+#: ../../../frameworks/zephyr.rst:648 ../../../frameworks/zephyr.rst:654
+#: ../../../frameworks/zephyr.rst:666 ../../../frameworks/zephyr.rst:1947
+#: ../../../frameworks/zephyr.rst:1954 ../../../frameworks/zephyr.rst:1961
+#: ../../../frameworks/zephyr.rst:2192 ../../../frameworks/zephyr.rst:2199
+#: ../../../frameworks/zephyr.rst:2206 ../../../frameworks/zephyr.rst:2213
+#: ../../../frameworks/zephyr.rst:2220 ../../../frameworks/zephyr.rst:2234
+msgid "80MHz"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:429 ../../../frameworks/zephyr.rst:1950
+msgid ":ref:`board_ststm32_disco_l496ag`"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:431 ../../../frameworks/zephyr.rst:1953
+msgid "STM32L496AGI6"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:435 ../../../frameworks/zephyr.rst:1957
+msgid ":ref:`board_ststm32_disco_l475vg_iot01a`"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:437 ../../../frameworks/zephyr.rst:1960
+msgid "STM32L475VGT6"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:441 ../../../frameworks/zephyr.rst:1964
+msgid ":ref:`board_ststm32_disco_l072cz_lrwan1`"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:443 ../../../frameworks/zephyr.rst:1967
+msgid "STM32L072CZ"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:446 ../../../frameworks/zephyr.rst:482
+#: ../../../frameworks/zephyr.rst:626 ../../../frameworks/zephyr.rst:855
+#: ../../../frameworks/zephyr.rst:861 ../../../frameworks/zephyr.rst:867
+#: ../../../frameworks/zephyr.rst:873 ../../../frameworks/zephyr.rst:921
+#: ../../../frameworks/zephyr.rst:1396 ../../../frameworks/zephyr.rst:1403
+#: ../../../frameworks/zephyr.rst:1410 ../../../frameworks/zephyr.rst:1417
+#: ../../../frameworks/zephyr.rst:1683 ../../../frameworks/zephyr.rst:1970
+#: ../../../frameworks/zephyr.rst:2012 ../../../frameworks/zephyr.rst:2187
+msgid "20KB"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:447 ../../../frameworks/zephyr.rst:1971
+msgid ":ref:`board_ststm32_disco_f072rb`"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:449 ../../../frameworks/zephyr.rst:1974
+msgid "STM32F072RBT6"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:453 ../../../frameworks/zephyr.rst:1978
+msgid ":ref:`board_ststm32_nucleo_f030r8`"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:455 ../../../frameworks/zephyr.rst:1981
+msgid "STM32F030R8T6"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:459 ../../../frameworks/zephyr.rst:1985
+msgid ":ref:`board_ststm32_nucleo_f031k6`"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:461 ../../../frameworks/zephyr.rst:1988
+msgid "STM32F031K6T6"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:464 ../../../frameworks/zephyr.rst:1991
+msgid "4KB"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:465 ../../../frameworks/zephyr.rst:1992
+msgid ":ref:`board_ststm32_nucleo_f070rb`"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:467 ../../../frameworks/zephyr.rst:1995
+msgid "STM32F070RBT6"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:471 ../../../frameworks/zephyr.rst:1999
+msgid ":ref:`board_ststm32_nucleo_f091rc`"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:473 ../../../frameworks/zephyr.rst:2002
+msgid "STM32F091RCT6"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:477 ../../../frameworks/zephyr.rst:2006
+msgid ":ref:`board_ststm32_nucleo_f103rb`"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:479 ../../../frameworks/zephyr.rst:918
+#: ../../../frameworks/zephyr.rst:1680 ../../../frameworks/zephyr.rst:2009
+msgid "STM32F103RBT6"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:480 ../../../frameworks/zephyr.rst:492
+#: ../../../frameworks/zephyr.rst:498 ../../../frameworks/zephyr.rst:504
+#: ../../../frameworks/zephyr.rst:510 ../../../frameworks/zephyr.rst:684
+#: ../../../frameworks/zephyr.rst:853 ../../../frameworks/zephyr.rst:859
+#: ../../../frameworks/zephyr.rst:865 ../../../frameworks/zephyr.rst:871
+#: ../../../frameworks/zephyr.rst:919 ../../../frameworks/zephyr.rst:985
+#: ../../../frameworks/zephyr.rst:991 ../../../frameworks/zephyr.rst:1394
+#: ../../../frameworks/zephyr.rst:1401 ../../../frameworks/zephyr.rst:1408
+#: ../../../frameworks/zephyr.rst:1415 ../../../frameworks/zephyr.rst:1681
+#: ../../../frameworks/zephyr.rst:2010 ../../../frameworks/zephyr.rst:2024
+#: ../../../frameworks/zephyr.rst:2031 ../../../frameworks/zephyr.rst:2038
+#: ../../../frameworks/zephyr.rst:2045 ../../../frameworks/zephyr.rst:2255
+#: ../../../frameworks/zephyr.rst:2283 ../../../frameworks/zephyr.rst:2290
+msgid "72MHz"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:483 ../../../frameworks/zephyr.rst:2013
+msgid ":ref:`board_ststm32_nucleo_f207zg`"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:485 ../../../frameworks/zephyr.rst:2016
+msgid "STM32F207ZGT6"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:489 ../../../frameworks/zephyr.rst:2020
+msgid ":ref:`board_ststm32_nucleo_f302r8`"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:491 ../../../frameworks/zephyr.rst:2023
+msgid "STM32F302R8T6"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:495 ../../../frameworks/zephyr.rst:2027
+msgid ":ref:`board_ststm32_nucleo_f303k8`"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:497 ../../../frameworks/zephyr.rst:2030
+msgid "STM32F303K8T6"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:500 ../../../frameworks/zephyr.rst:2033
+msgid "12KB"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:501 ../../../frameworks/zephyr.rst:2034
+msgid ":ref:`board_ststm32_nucleo_f303re`"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:503 ../../../frameworks/zephyr.rst:2037
+msgid "STM32F303RET6"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:507 ../../../frameworks/zephyr.rst:2041
+msgid ":ref:`board_ststm32_nucleo_f334r8`"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:509 ../../../frameworks/zephyr.rst:2044
+msgid "STM32F334R8T6"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:513 ../../../frameworks/zephyr.rst:2048
+msgid ":ref:`board_ststm32_nucleo_f401re`"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:515 ../../../frameworks/zephyr.rst:2051
+msgid "STM32F401RET6"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:516 ../../../frameworks/zephyr.rst:835
+#: ../../../frameworks/zephyr.rst:967 ../../../frameworks/zephyr.rst:1057
+#: ../../../frameworks/zephyr.rst:1198 ../../../frameworks/zephyr.rst:2052
+#: ../../../frameworks/zephyr.rst:2276 ../../../frameworks/zephyr.rst:2584
+msgid "84MHz"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:519 ../../../frameworks/zephyr.rst:2055
+msgid ":ref:`board_ststm32_nucleo_f410rb`"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:521 ../../../frameworks/zephyr.rst:2058
+msgid "STM32F410RBT6"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:525 ../../../frameworks/zephyr.rst:2062
+msgid ":ref:`board_ststm32_nucleo_f411re`"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:527 ../../../frameworks/zephyr.rst:2065
+msgid "STM32F411RET6"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:531 ../../../frameworks/zephyr.rst:2069
+msgid ":ref:`board_ststm32_nucleo_f412zg`"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:537 ../../../frameworks/zephyr.rst:2076
+msgid ":ref:`board_ststm32_nucleo_f413zh`"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:539 ../../../frameworks/zephyr.rst:2079
+msgid "STM32F413ZHT6"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:541 ../../../frameworks/zephyr.rst:2081
+msgid "1.50MB"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:543 ../../../frameworks/zephyr.rst:2083
+msgid ":ref:`board_ststm32_nucleo_f429zi`"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:549 ../../../frameworks/zephyr.rst:2090
+msgid ":ref:`board_ststm32_nucleo_f446re`"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:551 ../../../frameworks/zephyr.rst:2093
+msgid "STM32F446RET6"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:555 ../../../frameworks/zephyr.rst:2097
+msgid ":ref:`board_ststm32_nucleo_f446ze`"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:557 ../../../frameworks/zephyr.rst:2100
+msgid "STM32F446ZET6"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:561 ../../../frameworks/zephyr.rst:2104
+msgid ":ref:`board_ststm32_nucleo_f746zg`"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:563 ../../../frameworks/zephyr.rst:2107
+msgid "STM32F746ZGT6"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:567 ../../../frameworks/zephyr.rst:2111
+msgid ":ref:`board_ststm32_nucleo_f756zg`"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:569 ../../../frameworks/zephyr.rst:2114
+msgid "STM32F756ZG"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:573 ../../../frameworks/zephyr.rst:2118
+msgid ":ref:`board_ststm32_nucleo_f767zi`"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:575 ../../../frameworks/zephyr.rst:2121
+msgid "STM32F767ZIT6"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:579 ../../../frameworks/zephyr.rst:2132
+msgid ":ref:`board_ststm32_nucleo_h723zg`"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:581 ../../../frameworks/zephyr.rst:2135
+msgid "STM32H723ZGT6"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:582 ../../../frameworks/zephyr.rst:702
+#: ../../../frameworks/zephyr.rst:2136 ../../../frameworks/zephyr.rst:2304
+msgid "550MHz"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:585 ../../../frameworks/zephyr.rst:2139
+msgid ":ref:`board_ststm32_nucleo_h743zi`"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:587 ../../../frameworks/zephyr.rst:2142
+msgid "STM32H743ZIT6"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:588 ../../../frameworks/zephyr.rst:600
+#: ../../../frameworks/zephyr.rst:708 ../../../frameworks/zephyr.rst:2143
+#: ../../../frameworks/zephyr.rst:2157 ../../../frameworks/zephyr.rst:2311
+msgid "400MHz"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:591 ../../../frameworks/zephyr.rst:2146
+msgid ":ref:`board_ststm32_nucleo_h745zi_q`"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:593 ../../../frameworks/zephyr.rst:2149
+msgid "STM32H745ZIT6"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:594 ../../../frameworks/zephyr.rst:2150
+msgid "480MHz"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:597 ../../../frameworks/zephyr.rst:2153
+msgid ":ref:`board_ststm32_nucleo_h753zi`"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:599 ../../../frameworks/zephyr.rst:2156
+msgid "STM32H753ZIT6"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:603 ../../../frameworks/zephyr.rst:2160
+msgid ":ref:`board_ststm32_nucleo_l011k4`"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:605 ../../../frameworks/zephyr.rst:2163
+msgid "STM32L011K4T6"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:608 ../../../frameworks/zephyr.rst:2166
+msgid "2KB"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:609 ../../../frameworks/zephyr.rst:2167
+msgid ":ref:`board_ststm32_nucleo_l031k6`"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:611 ../../../frameworks/zephyr.rst:2170
+msgid "STM32L031K6T6"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:615 ../../../frameworks/zephyr.rst:2174
+msgid ":ref:`board_ststm32_nucleo_l053r8`"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:617 ../../../frameworks/zephyr.rst:2177
+msgid "STM32L053R8T6"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:621 ../../../frameworks/zephyr.rst:2181
+msgid ":ref:`board_ststm32_nucleo_l073rz`"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:623 ../../../frameworks/zephyr.rst:2184
+msgid "STM32L073RZ"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:627 ../../../frameworks/zephyr.rst:2188
+msgid ":ref:`board_ststm32_nucleo_l412rb_p`"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:629 ../../../frameworks/zephyr.rst:2191
+msgid "STM32L412RBT6P"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:632 ../../../frameworks/zephyr.rst:686
+#: ../../../frameworks/zephyr.rst:2194 ../../../frameworks/zephyr.rst:2257
+msgid "40KB"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:633 ../../../frameworks/zephyr.rst:2195
+msgid ":ref:`board_ststm32_nucleo_l432kc`"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:635 ../../../frameworks/zephyr.rst:2198
+msgid "STM32L432KCU6"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:639 ../../../frameworks/zephyr.rst:2202
+msgid ":ref:`board_ststm32_nucleo_l433rc_p`"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:641 ../../../frameworks/zephyr.rst:2205
+msgid "STM32L433RC"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:645 ../../../frameworks/zephyr.rst:2209
+msgid ":ref:`board_ststm32_nucleo_l476rg`"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:647 ../../../frameworks/zephyr.rst:2212
+msgid "STM32L476RGT6"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:651 ../../../frameworks/zephyr.rst:2216
+msgid ":ref:`board_ststm32_nucleo_l496zg`"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:653 ../../../frameworks/zephyr.rst:2219
+msgid "STM32L496ZGT6"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:657 ../../../frameworks/zephyr.rst:2223
+msgid ":ref:`board_ststm32_nucleo_l4r5zi`"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:659 ../../../frameworks/zephyr.rst:2226
+msgid "STM32L4R5ZIT6"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:662 ../../../frameworks/zephyr.rst:963
+#: ../../../frameworks/zephyr.rst:2131 ../../../frameworks/zephyr.rst:2229
+msgid "640KB"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:663 ../../../frameworks/zephyr.rst:2230
+msgid ":ref:`board_ststm32_nucleo_l552ze_q`"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:665 ../../../frameworks/zephyr.rst:2233
+msgid "STM32L552ZET6"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:669 ../../../frameworks/zephyr.rst:2237
+msgid ":ref:`board_ststm32_nucleo_wl55jc`"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:671 ../../../frameworks/zephyr.rst:2240
+msgid "STM32WL55JC"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:675 ../../../frameworks/zephyr.rst:2244
+msgid ":ref:`board_ststm32_disco_f051r8`"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:677 ../../../frameworks/zephyr.rst:2247
+msgid "STM32F051R8T6"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:681 ../../../frameworks/zephyr.rst:2251
+msgid ":ref:`board_ststm32_disco_f303vc`"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:683 ../../../frameworks/zephyr.rst:2254
+msgid "STM32F303VCT6"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:687 ../../../frameworks/zephyr.rst:2258
+msgid ":ref:`board_ststm32_disco_f407vg`"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:689 ../../../frameworks/zephyr.rst:2261
+msgid "STM32F407VGT6"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:693 ../../../frameworks/zephyr.rst:2265
+msgid ":ref:`board_ststm32_disco_g071rb`"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:699 ../../../frameworks/zephyr.rst:2300
+msgid ":ref:`board_ststm32_disco_h735ig`"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:701 ../../../frameworks/zephyr.rst:2303
+msgid "STM32H735IGK6"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:704 ../../../frameworks/zephyr.rst:2306
+msgid "432KB"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:705 ../../../frameworks/zephyr.rst:2307
+msgid ":ref:`board_ststm32_disco_h747xi`"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:707 ../../../frameworks/zephyr.rst:2310
+msgid "STM32H747XIH6"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:711 ../../../frameworks/zephyr.rst:2440
+msgid ":ref:`board_sifive_sparkfun_redboard_v`"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:717 ../../../frameworks/zephyr.rst:2447
+msgid ":ref:`board_sifive_sparkfun_thing_plus_v`"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:723 ../../../frameworks/zephyr.rst:2412
+msgid ":ref:`board_siliconlabsefm32_tb_sense_12`"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:725 ../../../frameworks/zephyr.rst:2415
+msgid "EFR32MG12P432F1024"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:726 ../../../frameworks/zephyr.rst:2416
+msgid "40MHz"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:729 ../../../frameworks/zephyr.rst:2496
+msgid ":ref:`board_nordicnrf51_vbluno51`"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:735 ../../../frameworks/zephyr.rst:2503
+msgid ":ref:`board_nordicnrf52_vbluno52`"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:741 ../../../frameworks/zephyr.rst:2601
+msgid ":ref:`board_nordicnrf52_ublox_bmd345eval_nrf52840`"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:750
+msgid "External Debug Tools"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:752
+msgid ""
+"Boards listed below are compatible with :ref:`piodebug` but **DEPEND ON** "
+"external debug probe. They **ARE NOT READY** for debugging. Please click on "
+"board name for the further details."
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:766 ../../../frameworks/zephyr.rst:1082
+msgid ":ref:`board_ststm32_b96b_argonkey`"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:768 ../../../frameworks/zephyr.rst:1085
+msgid "STM32F412CG"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:772 ../../../frameworks/zephyr.rst:1096
+msgid ":ref:`board_ststm32_b96b_aerocore2`"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:774 ../../../frameworks/zephyr.rst:1099
+msgid "STM32F427VIT6"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:776 ../../../frameworks/zephyr.rst:1101
+msgid "1.99MB"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:778 ../../../frameworks/zephyr.rst:1103
+msgid ":ref:`board_ststm32_b96b_neonkey`"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:780 ../../../frameworks/zephyr.rst:1106
+msgid "STM32F411CE"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:784 ../../../frameworks/zephyr.rst:1110
+msgid ":ref:`board_nordicnrf52_96b_nitrogen`"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:790 ../../../frameworks/zephyr.rst:1131
+msgid ":ref:`board_nordicnrf52_adafruit_feather_nrf52832`"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:796 ../../../frameworks/zephyr.rst:1138
+msgid ":ref:`board_atmelsam_adafruit_feather_m0`"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:802 ../../../frameworks/zephyr.rst:1145
+msgid ":ref:`board_ststm32_adafruit_feather_f405`"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:804 ../../../frameworks/zephyr.rst:924
+#: ../../../frameworks/zephyr.rst:1014 ../../../frameworks/zephyr.rst:1148
+#: ../../../frameworks/zephyr.rst:1687 ../../../frameworks/zephyr.rst:2436
+msgid "STM32F405RGT6"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:808 ../../../frameworks/zephyr.rst:1152
+msgid ":ref:`board_nordicnrf52_adafruit_feather_nrf52840`"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:812 ../../../frameworks/zephyr.rst:824
+#: ../../../frameworks/zephyr.rst:932 ../../../frameworks/zephyr.rst:938
+#: ../../../frameworks/zephyr.rst:944 ../../../frameworks/zephyr.rst:1157
+#: ../../../frameworks/zephyr.rst:1171 ../../../frameworks/zephyr.rst:1752
+#: ../../../frameworks/zephyr.rst:1759 ../../../frameworks/zephyr.rst:1766
+msgid "796KB"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:813 ../../../frameworks/zephyr.rst:933
+#: ../../../frameworks/zephyr.rst:939 ../../../frameworks/zephyr.rst:945
+#: ../../../frameworks/zephyr.rst:1158 ../../../frameworks/zephyr.rst:1753
+#: ../../../frameworks/zephyr.rst:1760 ../../../frameworks/zephyr.rst:1767
+msgid "243KB"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:814 ../../../frameworks/zephyr.rst:1159
+msgid ":ref:`board_atmelsam_adafruit_itsybitsy_m4`"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:816 ../../../frameworks/zephyr.rst:1162
+msgid "SAMD51G19A"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:820 ../../../frameworks/zephyr.rst:1166
+msgid ":ref:`board_nordicnrf52_adafruit_ledglasses_nrf52840`"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:825 ../../../frameworks/zephyr.rst:1172
+msgid "232KB"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:826 ../../../frameworks/zephyr.rst:1173
+msgid ":ref:`board_atmelsam_adafruit_trinket_m0`"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:828 ../../../frameworks/zephyr.rst:1176
+msgid "SAMD21E18A"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:832 ../../../frameworks/zephyr.rst:1194
+msgid ":ref:`board_atmelsam_due`"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:834 ../../../frameworks/zephyr.rst:1197
+msgid "AT91SAM3X8E"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:838 ../../../frameworks/zephyr.rst:1866
+msgid ":ref:`board_ststm32_black_f407ve`"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:840 ../../../frameworks/zephyr.rst:1869
+msgid "STM32F407VET6"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:844 ../../../frameworks/zephyr.rst:1873
+msgid ":ref:`board_ststm32_black_f407zg`"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:846 ../../../frameworks/zephyr.rst:972
+#: ../../../frameworks/zephyr.rst:978 ../../../frameworks/zephyr.rst:1694
+#: ../../../frameworks/zephyr.rst:1701 ../../../frameworks/zephyr.rst:1876
+msgid "STM32F407ZGT6"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:850 ../../../frameworks/zephyr.rst:1390
+msgid ":ref:`board_ststm32_blackpill_f103c8`"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:852 ../../../frameworks/zephyr.rst:858
+#: ../../../frameworks/zephyr.rst:864 ../../../frameworks/zephyr.rst:870
+#: ../../../frameworks/zephyr.rst:1393 ../../../frameworks/zephyr.rst:1400
+#: ../../../frameworks/zephyr.rst:1407 ../../../frameworks/zephyr.rst:1414
+msgid "STM32F103C8T6"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:856 ../../../frameworks/zephyr.rst:1397
+msgid ":ref:`board_ststm32_blackpill_f103c8_128`"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:862 ../../../frameworks/zephyr.rst:1404
+msgid ":ref:`board_ststm32_bluepill_f103c8`"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:868 ../../../frameworks/zephyr.rst:1411
+msgid ":ref:`board_ststm32_bluepill_f103c8_128k`"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:874 ../../../frameworks/zephyr.rst:1285
+msgid ":ref:`board_ststm32_ebyte_e77_dev`"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:876 ../../../frameworks/zephyr.rst:1288
+msgid "STM32WLE5CC"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:880 ../../../frameworks/zephyr.rst:1362
+msgid ":ref:`board_freescalekinetis_frdm_kw24d`"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:882 ../../../frameworks/zephyr.rst:1365
+msgid "MKW24D512"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:886 ../../../frameworks/zephyr.rst:1523
+msgid ":ref:`board_freescalekinetis_hexiwear`"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:888 ../../../frameworks/zephyr.rst:1526
+msgid "MK64FN1M0VDC12"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:892 ../../../frameworks/zephyr.rst:1432
+msgid ":ref:`board_nordicnrf52_holyiot_yj16019`"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:898 ../../../frameworks/zephyr.rst:1474
+msgid ":ref:`board_nordicnrf52_laird_pinnacle_100_dvk`"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:904 ../../../frameworks/zephyr.rst:1208
+msgid ":ref:`board_atmelsam_nano_33_iot`"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:910 ../../../frameworks/zephyr.rst:1621
+msgid ":ref:`board_nordicnrf52_thingy_52`"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:916 ../../../frameworks/zephyr.rst:1677
+msgid ":ref:`board_ststm32_olimexino`"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:922 ../../../frameworks/zephyr.rst:1684
+msgid ":ref:`board_ststm32_olimex_p405`"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:928 ../../../frameworks/zephyr.rst:1747
+msgid ":ref:`board_nordicnrf52_particle_argon`"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:934 ../../../frameworks/zephyr.rst:1754
+msgid ":ref:`board_nordicnrf52_particle_boron`"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:940 ../../../frameworks/zephyr.rst:1761
+msgid ":ref:`board_nordicnrf52_particle_xenon`"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:946 ../../../frameworks/zephyr.rst:1810
+msgid ":ref:`board_nordicnrf52_ruuvitag`"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:952 ../../../frameworks/zephyr.rst:1831
+msgid ":ref:`board_freescalekinetis_segger_ip_switch`"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:954 ../../../frameworks/zephyr.rst:1834
+msgid "MK66FN2M0VMD18"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:958 ../../../frameworks/zephyr.rst:2125
+msgid ":ref:`board_ststm32_nucleo_h563zi`"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:960 ../../../frameworks/zephyr.rst:2128
+msgid "STM32H563ZIT6U"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:961 ../../../frameworks/zephyr.rst:2129
+msgid "250MHz"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:964 ../../../frameworks/zephyr.rst:2272
+msgid ":ref:`board_ststm32_steval_fcu001v1`"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:966 ../../../frameworks/zephyr.rst:2275
+msgid "STM32F401CCU6"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:970 ../../../frameworks/zephyr.rst:1691
+msgid ":ref:`board_ststm32_olimex_e407`"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:976 ../../../frameworks/zephyr.rst:1698
+msgid ":ref:`board_ststm32_olimex_h407`"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:982 ../../../frameworks/zephyr.rst:2279
+msgid ":ref:`board_ststm32_eval_f107vc`"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:984 ../../../frameworks/zephyr.rst:2282
+msgid "STM32F107VCT6"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:988 ../../../frameworks/zephyr.rst:2286
+msgid ":ref:`board_ststm32_eval_f373vc`"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:990 ../../../frameworks/zephyr.rst:2289
+msgid "STM32F373VCT6"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:994 ../../../frameworks/zephyr.rst:2293
+msgid ":ref:`board_ststm32_eval_f072vb`"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:996 ../../../frameworks/zephyr.rst:2296
+msgid "STM32F072VBT6"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:1000 ../../../frameworks/zephyr.rst:2349
+msgid ":ref:`board_ststm32_lora_e5_dev_board`"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:1002 ../../../frameworks/zephyr.rst:2352
+msgid "STM32WLE5JC"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:1006 ../../../frameworks/zephyr.rst:2328
+msgid ":ref:`board_atmelsam_seeed_xiao`"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:1012 ../../../frameworks/zephyr.rst:2433
+msgid ":ref:`board_ststm32_sparkfun_micromod_f405`"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:1018 ../../../frameworks/zephyr.rst:2468
+msgid ":ref:`board_teensy_teensy40`"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:1020 ../../../frameworks/zephyr.rst:1026
+#: ../../../frameworks/zephyr.rst:2471 ../../../frameworks/zephyr.rst:2478
+msgid "IMXRT1062"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:1022 ../../../frameworks/zephyr.rst:2473
+msgid "1.94MB"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:1024 ../../../frameworks/zephyr.rst:2475
+msgid ":ref:`board_teensy_teensy41`"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:1028 ../../../frameworks/zephyr.rst:2480
+msgid "7.75MB"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:1030 ../../../frameworks/zephyr.rst:2524
+msgid ":ref:`board_ststm32_we_oceanus1_ev`"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:1032 ../../../frameworks/zephyr.rst:1038
+#: ../../../frameworks/zephyr.rst:2527 ../../../frameworks/zephyr.rst:2534
+msgid "STM32WLE5CCU6"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:1036 ../../../frameworks/zephyr.rst:2531
+msgid ":ref:`board_ststm32_we_oceanus1`"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:1042 ../../../frameworks/zephyr.rst:2552
+msgid ":ref:`board_nordicnrf51_waveshare_ble400`"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:1048 ../../../frameworks/zephyr.rst:2573
+msgid ":ref:`board_ststm32_blackpill_f411ce`"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:1050 ../../../frameworks/zephyr.rst:2576
+msgid "STM32F411CEU6"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:1054 ../../../frameworks/zephyr.rst:2580
+msgid ":ref:`board_ststm32_blackpill_f401ce`"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:1056 ../../../frameworks/zephyr.rst:2583
+msgid "STM32F401CEU6"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:1063
+msgid "Boards"
+msgstr "開發板"
+
+#: ../../../frameworks/zephyr.rst:1066
+msgid "You can list pre-configured boards by :ref:`cmd_boards` command"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:1067
+msgid ""
+"For more detailed ``board`` information please scroll the tables below by "
+"horizontally."
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:1070
+msgid "96Boards"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:1077 ../../../frameworks/zephyr.rst:1126
+#: ../../../frameworks/zephyr.rst:1189 ../../../frameworks/zephyr.rst:1224
+#: ../../../frameworks/zephyr.rst:1252 ../../../frameworks/zephyr.rst:1280
+#: ../../../frameworks/zephyr.rst:1301 ../../../frameworks/zephyr.rst:1329
+#: ../../../frameworks/zephyr.rst:1385 ../../../frameworks/zephyr.rst:1427
+#: ../../../frameworks/zephyr.rst:1448 ../../../frameworks/zephyr.rst:1490
+#: ../../../frameworks/zephyr.rst:1518 ../../../frameworks/zephyr.rst:1539
+#: ../../../frameworks/zephyr.rst:1616 ../../../frameworks/zephyr.rst:1672
+#: ../../../frameworks/zephyr.rst:1714 ../../../frameworks/zephyr.rst:1742
+#: ../../../frameworks/zephyr.rst:1777 ../../../frameworks/zephyr.rst:1805
+#: ../../../frameworks/zephyr.rst:1826 ../../../frameworks/zephyr.rst:1847
+#: ../../../frameworks/zephyr.rst:2323 ../../../frameworks/zephyr.rst:2344
+#: ../../../frameworks/zephyr.rst:2365 ../../../frameworks/zephyr.rst:2393
+#: ../../../frameworks/zephyr.rst:2428 ../../../frameworks/zephyr.rst:2463
+#: ../../../frameworks/zephyr.rst:2491 ../../../frameworks/zephyr.rst:2519
+#: ../../../frameworks/zephyr.rst:2547 ../../../frameworks/zephyr.rst:2568
+#: ../../../frameworks/zephyr.rst:2596
+msgid "Debug"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:1084 ../../../frameworks/zephyr.rst:1098
+#: ../../../frameworks/zephyr.rst:1105 ../../../frameworks/zephyr.rst:1112
+#: ../../../frameworks/zephyr.rst:1133 ../../../frameworks/zephyr.rst:1140
+#: ../../../frameworks/zephyr.rst:1147 ../../../frameworks/zephyr.rst:1154
+#: ../../../frameworks/zephyr.rst:1161 ../../../frameworks/zephyr.rst:1168
+#: ../../../frameworks/zephyr.rst:1175 ../../../frameworks/zephyr.rst:1196
+#: ../../../frameworks/zephyr.rst:1210 ../../../frameworks/zephyr.rst:1287
+#: ../../../frameworks/zephyr.rst:1364 ../../../frameworks/zephyr.rst:1392
+#: ../../../frameworks/zephyr.rst:1399 ../../../frameworks/zephyr.rst:1406
+#: ../../../frameworks/zephyr.rst:1413 ../../../frameworks/zephyr.rst:1434
+#: ../../../frameworks/zephyr.rst:1476 ../../../frameworks/zephyr.rst:1525
+#: ../../../frameworks/zephyr.rst:1623 ../../../frameworks/zephyr.rst:1679
+#: ../../../frameworks/zephyr.rst:1686 ../../../frameworks/zephyr.rst:1693
+#: ../../../frameworks/zephyr.rst:1700 ../../../frameworks/zephyr.rst:1749
+#: ../../../frameworks/zephyr.rst:1756 ../../../frameworks/zephyr.rst:1763
+#: ../../../frameworks/zephyr.rst:1812 ../../../frameworks/zephyr.rst:1833
+#: ../../../frameworks/zephyr.rst:1868 ../../../frameworks/zephyr.rst:1875
+#: ../../../frameworks/zephyr.rst:2127 ../../../frameworks/zephyr.rst:2274
+#: ../../../frameworks/zephyr.rst:2281 ../../../frameworks/zephyr.rst:2288
+#: ../../../frameworks/zephyr.rst:2295 ../../../frameworks/zephyr.rst:2330
+#: ../../../frameworks/zephyr.rst:2351 ../../../frameworks/zephyr.rst:2435
+#: ../../../frameworks/zephyr.rst:2470 ../../../frameworks/zephyr.rst:2477
+#: ../../../frameworks/zephyr.rst:2526 ../../../frameworks/zephyr.rst:2533
+#: ../../../frameworks/zephyr.rst:2554 ../../../frameworks/zephyr.rst:2575
+#: ../../../frameworks/zephyr.rst:2582
+msgid "External"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:1091 ../../../frameworks/zephyr.rst:1203
+#: ../../../frameworks/zephyr.rst:1231 ../../../frameworks/zephyr.rst:1238
+#: ../../../frameworks/zephyr.rst:1259 ../../../frameworks/zephyr.rst:1266
+#: ../../../frameworks/zephyr.rst:1308 ../../../frameworks/zephyr.rst:1315
+#: ../../../frameworks/zephyr.rst:1336 ../../../frameworks/zephyr.rst:1343
+#: ../../../frameworks/zephyr.rst:1350 ../../../frameworks/zephyr.rst:1357
+#: ../../../frameworks/zephyr.rst:1371 ../../../frameworks/zephyr.rst:1455
+#: ../../../frameworks/zephyr.rst:1462 ../../../frameworks/zephyr.rst:1469
+#: ../../../frameworks/zephyr.rst:1497 ../../../frameworks/zephyr.rst:1504
+#: ../../../frameworks/zephyr.rst:1546 ../../../frameworks/zephyr.rst:1553
+#: ../../../frameworks/zephyr.rst:1560 ../../../frameworks/zephyr.rst:1567
+#: ../../../frameworks/zephyr.rst:1574 ../../../frameworks/zephyr.rst:1581
+#: ../../../frameworks/zephyr.rst:1588 ../../../frameworks/zephyr.rst:1595
+#: ../../../frameworks/zephyr.rst:1602 ../../../frameworks/zephyr.rst:1630
+#: ../../../frameworks/zephyr.rst:1637 ../../../frameworks/zephyr.rst:1644
+#: ../../../frameworks/zephyr.rst:1651 ../../../frameworks/zephyr.rst:1658
+#: ../../../frameworks/zephyr.rst:1721 ../../../frameworks/zephyr.rst:1728
+#: ../../../frameworks/zephyr.rst:1784 ../../../frameworks/zephyr.rst:1791
+#: ../../../frameworks/zephyr.rst:1854 ../../../frameworks/zephyr.rst:1861
+#: ../../../frameworks/zephyr.rst:1882 ../../../frameworks/zephyr.rst:1889
+#: ../../../frameworks/zephyr.rst:1896 ../../../frameworks/zephyr.rst:1903
+#: ../../../frameworks/zephyr.rst:1910 ../../../frameworks/zephyr.rst:1917
+#: ../../../frameworks/zephyr.rst:1924 ../../../frameworks/zephyr.rst:1931
+#: ../../../frameworks/zephyr.rst:1938 ../../../frameworks/zephyr.rst:1945
+#: ../../../frameworks/zephyr.rst:1952 ../../../frameworks/zephyr.rst:1959
+#: ../../../frameworks/zephyr.rst:1966 ../../../frameworks/zephyr.rst:1973
+#: ../../../frameworks/zephyr.rst:1980 ../../../frameworks/zephyr.rst:1987
+#: ../../../frameworks/zephyr.rst:1994 ../../../frameworks/zephyr.rst:2001
+#: ../../../frameworks/zephyr.rst:2008 ../../../frameworks/zephyr.rst:2015
+#: ../../../frameworks/zephyr.rst:2022 ../../../frameworks/zephyr.rst:2029
+#: ../../../frameworks/zephyr.rst:2036 ../../../frameworks/zephyr.rst:2043
+#: ../../../frameworks/zephyr.rst:2050 ../../../frameworks/zephyr.rst:2057
+#: ../../../frameworks/zephyr.rst:2064 ../../../frameworks/zephyr.rst:2071
+#: ../../../frameworks/zephyr.rst:2078 ../../../frameworks/zephyr.rst:2085
+#: ../../../frameworks/zephyr.rst:2092 ../../../frameworks/zephyr.rst:2099
+#: ../../../frameworks/zephyr.rst:2106 ../../../frameworks/zephyr.rst:2113
+#: ../../../frameworks/zephyr.rst:2120 ../../../frameworks/zephyr.rst:2134
+#: ../../../frameworks/zephyr.rst:2141 ../../../frameworks/zephyr.rst:2148
+#: ../../../frameworks/zephyr.rst:2155 ../../../frameworks/zephyr.rst:2162
+#: ../../../frameworks/zephyr.rst:2169 ../../../frameworks/zephyr.rst:2176
+#: ../../../frameworks/zephyr.rst:2183 ../../../frameworks/zephyr.rst:2190
+#: ../../../frameworks/zephyr.rst:2197 ../../../frameworks/zephyr.rst:2204
+#: ../../../frameworks/zephyr.rst:2211 ../../../frameworks/zephyr.rst:2218
+#: ../../../frameworks/zephyr.rst:2225 ../../../frameworks/zephyr.rst:2232
+#: ../../../frameworks/zephyr.rst:2239 ../../../frameworks/zephyr.rst:2246
+#: ../../../frameworks/zephyr.rst:2253 ../../../frameworks/zephyr.rst:2260
+#: ../../../frameworks/zephyr.rst:2267 ../../../frameworks/zephyr.rst:2302
+#: ../../../frameworks/zephyr.rst:2309 ../../../frameworks/zephyr.rst:2372
+#: ../../../frameworks/zephyr.rst:2379 ../../../frameworks/zephyr.rst:2400
+#: ../../../frameworks/zephyr.rst:2407 ../../../frameworks/zephyr.rst:2414
+#: ../../../frameworks/zephyr.rst:2442 ../../../frameworks/zephyr.rst:2449
+#: ../../../frameworks/zephyr.rst:2498 ../../../frameworks/zephyr.rst:2505
+#: ../../../frameworks/zephyr.rst:2603
+msgid "On-board"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:1119
+msgid "Adafruit"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:1182
+msgid "Arduino"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:1217
+msgid "Atmel"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:1245
+msgid "BBC"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:1273
+msgid "Ebyte"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:1294
+msgid "ElectronutLabs"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:1322
+msgid "Freescale"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:1378
+msgid "Generic"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:1420
+msgid "Holyiot"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:1441
+msgid "Laird Connectivity"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:1483
+msgid "Makerdiary"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:1511
+msgid "MikroElektronika"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:1532
+msgid "NXP"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:1609
+msgid "Nordic"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:1665
+msgid "Olimex"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:1707
+msgid "PHYTEC"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:1735
+msgid "Particle"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:1770
+msgid "RedBearLab"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:1798
+msgid "Ruuvi"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:1819
+msgid "SEGGER"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:1840
+msgid "ST"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:2316
+msgid "Seeed"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:2337
+msgid "SeeedStudio"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:2358
+msgid "SiFive"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:2386
+msgid "Silicon Labs"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:2421
+msgid "SparkFun"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:2456
+msgid "Teensy"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:2484
+msgid "VNG"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:2512
+msgid "WE"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:2540
+msgid "Waveshare"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:2561
+msgid "WeAct Studio"
+msgstr ""
+
+#: ../../../frameworks/zephyr.rst:2589
+msgid "u-blox"
+msgstr ""
