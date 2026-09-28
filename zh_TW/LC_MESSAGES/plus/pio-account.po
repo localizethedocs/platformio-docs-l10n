@@ -1,0 +1,65 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present, PlatformIO
+# This file is distributed under the same license as the PlatformIO package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PlatformIO latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-24 14:02+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../plus/pio-account.rst:15
+msgid "PlatformIO Account"
+msgstr ""
+
+#: ../../../plus/pio-account.rst:17
+msgid "**PlatformIO Account** is required for:"
+msgstr ""
+
+#: ../../../plus/pio-account.rst:19
+msgid "`Community Forum <https://community.platformio.org/>`_"
+msgstr ""
+
+#: ../../../plus/pio-account.rst:20
+msgid ":ref:`pioremote`"
+msgstr ""
+
+#: ../../../plus/pio-account.rst:21
+msgid ":ref:`Managing organizations and owners of an organization <cmd_org>`"
+msgstr ""
+
+#: ../../../plus/pio-account.rst:22
+msgid ":ref:`Managing teams and team memberships <cmd_team>`"
+msgstr ""
+
+#: ../../../plus/pio-account.rst:23
+msgid ":ref:`Managing packages in the registry <cmd_pkg>`"
+msgstr ""
+
+#: ../../../plus/pio-account.rst:24
+msgid ":ref:`Managing resource (package) access <cmd_access>`."
+msgstr ""
+
+#: ../../../plus/pio-account.rst:27
+msgid "PlatformIO IDE"
+msgstr ""
+
+#: ../../../plus/pio-account.rst:29
+msgid ""
+":ref:`pioide` has built-in UI in PlatformIO Home to manage PlatformIO "
+"Account. You can create a new account, reset your password, update profile, "
+"or fetch an authentication token. This UI must be used to login with OAuth."
+msgstr ""
+
+#: ../../../plus/pio-account.rst:34
+msgid "CLI Guide"
+msgstr "CLI 指南"

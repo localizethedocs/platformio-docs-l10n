@@ -1,0 +1,396 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present, PlatformIO
+# This file is distributed under the same license as the PlatformIO package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PlatformIO latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-24 14:02+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../platforms/heltec-cubecell.rst:15
+msgid "Heltec CubeCell"
+msgstr ""
+
+#: ../../../platforms/heltec-cubecell.rst:0
+msgid "Registry"
+msgstr ""
+
+#: ../../../platforms/heltec-cubecell.rst:18
+msgid ""
+"`https://registry.platformio.org/platforms/heltecautomation/heltec-cubecell "
+"<https://registry.platformio.org/platforms/heltecautomation/heltec-"
+"cubecell>`__"
+msgstr ""
+
+#: ../../../platforms/heltec-cubecell.rst:0
+#: ../../../platforms/heltec-cubecell_extra.rst:13
+msgid "Configuration"
+msgstr ""
+
+#: ../../../platforms/heltec-cubecell.rst:20
+msgid ":ref:`projectconf_env_platform` = ``heltecautomation/heltec-cubecell``"
+msgstr ""
+
+#: ../../../platforms/heltec-cubecell.rst:22
+msgid ""
+"Heltec CubeCell is an easy-to-use LoRa Node series brand based on a highly "
+"integrated and ultra low power SoC and the LoRa SX1262 transceiver."
+msgstr ""
+
+#: ../../../platforms/heltec-cubecell.rst:24
+msgid ""
+"For more detailed information please visit `vendor site <https://heltec.org/?"
+"utm_source=platformio.org&utm_medium=docs>`_."
+msgstr ""
+
+#: ../../../platforms/heltec-cubecell.rst:28
+msgid "Contents"
+msgstr ""
+
+#: ../../../platforms/heltec-cubecell_extra.rst:15
+msgid ""
+"See https://github.com/HelTecAutomation/platform-heltec-"
+"cubecell#configuration"
+msgstr ""
+
+#: ../../../platforms/heltec-cubecell.rst:33
+msgid "Examples"
+msgstr ""
+
+#: ../../../platforms/heltec-cubecell.rst:35
+msgid ""
+"Examples are listed from `Heltec CubeCell development platform repository "
+"<https://github.com/HelTecAutomation/platform-heltec-cubecell/tree/master/"
+"examples?utm_source=platformio.org&utm_medium=docs>`_:"
+msgstr ""
+
+#: ../../../platforms/heltec-cubecell.rst:37
+msgid ""
+"`arduino-blink <https://github.com/HelTecAutomation/platform-heltec-cubecell/"
+"tree/master/examples/arduino-blink?utm_source=platformio."
+"org&utm_medium=docs>`_"
+msgstr ""
+
+#: ../../../platforms/heltec-cubecell.rst:38
+msgid ""
+"`arduino-rgb <https://github.com/HelTecAutomation/platform-heltec-cubecell/"
+"tree/master/examples/arduino-rgb?utm_source=platformio.org&utm_medium=docs>`_"
+msgstr ""
+
+#: ../../../platforms/heltec-cubecell.rst:39
+msgid ""
+"`arduino-adc <https://github.com/HelTecAutomation/platform-heltec-cubecell/"
+"tree/master/examples/arduino-adc?utm_source=platformio.org&utm_medium=docs>`_"
+msgstr ""
+
+#: ../../../platforms/heltec-cubecell.rst:40
+msgid ""
+"`LoRa <https://github.com/HelTecAutomation/platform-heltec-cubecell/tree/"
+"master/examples/LoRa?utm_source=platformio.org&utm_medium=docs>`_"
+msgstr ""
+
+#: ../../../platforms/heltec-cubecell.rst:41
+msgid ""
+"`arduino-lowpower <https://github.com/HelTecAutomation/platform-heltec-"
+"cubecell/tree/master/examples/arduino-lowpower?utm_source=platformio."
+"org&utm_medium=docs>`_"
+msgstr ""
+
+#: ../../../platforms/heltec-cubecell.rst:44
+msgid "Stable and upstream versions"
+msgstr ""
+
+#: ../../../platforms/heltec-cubecell.rst:46
+msgid ""
+"You can switch between `stable releases <https://github.com/HelTecAutomation/"
+"platform-heltec-cubecell/releases>`__ of Heltec CubeCell development "
+"platform and the latest upstream version using :ref:"
+"`projectconf_env_platform` option in :ref:`projectconf` as described below."
+msgstr ""
+
+#: ../../../platforms/heltec-cubecell.rst:51
+msgid "Stable"
+msgstr ""
+
+#: ../../../platforms/heltec-cubecell.rst:67
+msgid "Upstream"
+msgstr ""
+
+#: ../../../platforms/heltec-cubecell.rst:77
+msgid "Packages"
+msgstr ""
+
+#: ../../../platforms/heltec-cubecell.rst:82
+#: ../../../platforms/heltec-cubecell.rst:119
+#: ../../../platforms/heltec-cubecell.rst:139
+msgid "Name"
+msgstr ""
+
+#: ../../../platforms/heltec-cubecell.rst:83
+#: ../../../platforms/heltec-cubecell.rst:120
+msgid "Description"
+msgstr ""
+
+#: ../../../platforms/heltec-cubecell.rst:85
+msgid ""
+"`framework-arduinocubecell <https://registry.platformio.org/tools/"
+"heltecautomation/framework-arduinocubecell>`__"
+msgstr ""
+
+#: ../../../platforms/heltec-cubecell.rst:86
+msgid "Arduino Wiring-based Framework for Heltec CubeCell"
+msgstr ""
+
+#: ../../../platforms/heltec-cubecell.rst:88
+msgid ""
+"`tool-cubecellelftool <https://registry.platformio.org/tools/"
+"heltecautomation/tool-cubecellelftool>`__"
+msgstr ""
+
+#: ../../../platforms/heltec-cubecell.rst:89
+msgid "CubeCell ELF tool"
+msgstr ""
+
+#: ../../../platforms/heltec-cubecell.rst:91
+msgid ""
+"`tool-cubecellflash <https://registry.platformio.org/tools/heltecautomation/"
+"tool-cubecellflash>`__"
+msgstr ""
+
+#: ../../../platforms/heltec-cubecell.rst:92
+msgid "CubeCell Flash tool"
+msgstr ""
+
+#: ../../../platforms/heltec-cubecell.rst:94
+msgid ""
+"`tool-cubecellflash6601 <https://registry.platformio.org/tools/"
+"heltecautomation/tool-cubecellflash6601>`__"
+msgstr ""
+
+#: ../../../platforms/heltec-cubecell.rst:95
+msgid "CubeCell Flash tool for ASR6601"
+msgstr ""
+
+#: ../../../platforms/heltec-cubecell.rst:97
+msgid ""
+"`toolchain-gccarmnoneeabi <https://registry.platformio.org/tools/platformio/"
+"toolchain-gccarmnoneeabi>`__"
+msgstr ""
+
+#: ../../../platforms/heltec-cubecell.rst:98
+msgid "GNU toolchain for Arm Cortex-M and Cortex-R processors"
+msgstr ""
+
+#: ../../../platforms/heltec-cubecell.rst:101
+msgid "**Linux Users**:"
+msgstr ""
+
+#: ../../../platforms/heltec-cubecell.rst:103
+msgid "Install \"udev\" rules :ref:`platformio_udev_rules`"
+msgstr ""
+
+#: ../../../platforms/heltec-cubecell.rst:104
+msgid ""
+"Raspberry Pi users, please read this article `Enable serial port on "
+"Raspberry Pi <https://hallard.me/enable-serial-port-on-raspberry-pi/>`__."
+msgstr ""
+
+#: ../../../platforms/heltec-cubecell.rst:108
+msgid "**Windows Users:**"
+msgstr ""
+
+#: ../../../platforms/heltec-cubecell.rst:110
+msgid ""
+"Please check that you have a correctly installed USB driver from board "
+"manufacturer"
+msgstr ""
+
+#: ../../../platforms/heltec-cubecell.rst:115
+msgid "Frameworks"
+msgstr ""
+
+#: ../../../platforms/heltec-cubecell.rst:122
+msgid ":ref:`framework_arduino`"
+msgstr ""
+
+#: ../../../platforms/heltec-cubecell.rst:123
+msgid ""
+"Arduino Wiring-based Framework allows writing cross-platform software to "
+"control devices attached to a wide range of Arduino boards to create all "
+"kinds of creative coding, interactive objects, spaces or physical "
+"experiences."
+msgstr ""
+
+#: ../../../platforms/heltec-cubecell.rst:126
+msgid "Boards"
+msgstr ""
+
+#: ../../../platforms/heltec-cubecell.rst:129
+msgid "You can list pre-configured boards by :ref:`cmd_boards` command"
+msgstr ""
+
+#: ../../../platforms/heltec-cubecell.rst:130
+msgid ""
+"For more detailed ``board`` information please scroll the tables below by "
+"horizontally."
+msgstr ""
+
+#: ../../../platforms/heltec-cubecell.rst:134
+msgid "Heltec"
+msgstr ""
+
+#: ../../../platforms/heltec-cubecell.rst:140
+msgid "Debug"
+msgstr ""
+
+#: ../../../platforms/heltec-cubecell.rst:141
+msgid "MCU"
+msgstr ""
+
+#: ../../../platforms/heltec-cubecell.rst:142
+msgid "Frequency"
+msgstr ""
+
+#: ../../../platforms/heltec-cubecell.rst:143
+msgid "Flash"
+msgstr ""
+
+#: ../../../platforms/heltec-cubecell.rst:144
+msgid "RAM"
+msgstr ""
+
+#: ../../../platforms/heltec-cubecell.rst:145
+msgid ":ref:`board_heltec-cubecell_cubecell_capsule_solar_sensor`"
+msgstr ""
+
+#: ../../../platforms/heltec-cubecell.rst:146
+#: ../../../platforms/heltec-cubecell.rst:152
+#: ../../../platforms/heltec-cubecell.rst:158
+#: ../../../platforms/heltec-cubecell.rst:164
+#: ../../../platforms/heltec-cubecell.rst:170
+#: ../../../platforms/heltec-cubecell.rst:176
+#: ../../../platforms/heltec-cubecell.rst:182
+#: ../../../platforms/heltec-cubecell.rst:188
+#: ../../../platforms/heltec-cubecell.rst:194
+#: ../../../platforms/heltec-cubecell.rst:200
+#: ../../../platforms/heltec-cubecell.rst:206
+msgid "No"
+msgstr ""
+
+#: ../../../platforms/heltec-cubecell.rst:147
+msgid "ASR6051"
+msgstr ""
+
+#: ../../../platforms/heltec-cubecell.rst:148
+#: ../../../platforms/heltec-cubecell.rst:154
+#: ../../../platforms/heltec-cubecell.rst:160
+#: ../../../platforms/heltec-cubecell.rst:166
+#: ../../../platforms/heltec-cubecell.rst:172
+#: ../../../platforms/heltec-cubecell.rst:178
+#: ../../../platforms/heltec-cubecell.rst:184
+#: ../../../platforms/heltec-cubecell.rst:190
+#: ../../../platforms/heltec-cubecell.rst:196
+#: ../../../platforms/heltec-cubecell.rst:202
+#: ../../../platforms/heltec-cubecell.rst:208
+msgid "48MHz"
+msgstr ""
+
+#: ../../../platforms/heltec-cubecell.rst:149
+#: ../../../platforms/heltec-cubecell.rst:155
+#: ../../../platforms/heltec-cubecell.rst:161
+#: ../../../platforms/heltec-cubecell.rst:173
+#: ../../../platforms/heltec-cubecell.rst:179
+#: ../../../platforms/heltec-cubecell.rst:185
+#: ../../../platforms/heltec-cubecell.rst:191
+#: ../../../platforms/heltec-cubecell.rst:197
+#: ../../../platforms/heltec-cubecell.rst:203
+#: ../../../platforms/heltec-cubecell.rst:209
+msgid "128KB"
+msgstr ""
+
+#: ../../../platforms/heltec-cubecell.rst:150
+#: ../../../platforms/heltec-cubecell.rst:156
+#: ../../../platforms/heltec-cubecell.rst:162
+#: ../../../platforms/heltec-cubecell.rst:174
+#: ../../../platforms/heltec-cubecell.rst:180
+#: ../../../platforms/heltec-cubecell.rst:186
+#: ../../../platforms/heltec-cubecell.rst:192
+#: ../../../platforms/heltec-cubecell.rst:198
+#: ../../../platforms/heltec-cubecell.rst:204
+#: ../../../platforms/heltec-cubecell.rst:210
+msgid "16KB"
+msgstr ""
+
+#: ../../../platforms/heltec-cubecell.rst:151
+msgid ":ref:`board_heltec-cubecell_cubecell_node`"
+msgstr ""
+
+#: ../../../platforms/heltec-cubecell.rst:153
+#: ../../../platforms/heltec-cubecell.rst:171
+#: ../../../platforms/heltec-cubecell.rst:189
+#: ../../../platforms/heltec-cubecell.rst:201
+msgid "ASR6502"
+msgstr ""
+
+#: ../../../platforms/heltec-cubecell.rst:157
+msgid ":ref:`board_heltec-cubecell_cubecell_board`"
+msgstr ""
+
+#: ../../../platforms/heltec-cubecell.rst:159
+#: ../../../platforms/heltec-cubecell.rst:177
+#: ../../../platforms/heltec-cubecell.rst:183
+#: ../../../platforms/heltec-cubecell.rst:195
+#: ../../../platforms/heltec-cubecell.rst:207
+msgid "ASR6501"
+msgstr ""
+
+#: ../../../platforms/heltec-cubecell.rst:163
+msgid ":ref:`board_heltec-cubecell_cubecell_board_pro`"
+msgstr ""
+
+#: ../../../platforms/heltec-cubecell.rst:165
+msgid "ASR6601"
+msgstr ""
+
+#: ../../../platforms/heltec-cubecell.rst:167
+#: ../../../platforms/heltec-cubecell.rst:168
+msgid "224KB"
+msgstr ""
+
+#: ../../../platforms/heltec-cubecell.rst:169
+msgid ":ref:`board_heltec-cubecell_cubecell_board_plus`"
+msgstr ""
+
+#: ../../../platforms/heltec-cubecell.rst:175
+msgid ":ref:`board_heltec-cubecell_cubecell_board_v2`"
+msgstr ""
+
+#: ../../../platforms/heltec-cubecell.rst:181
+msgid ":ref:`board_heltec-cubecell_cubecell_capsule`"
+msgstr ""
+
+#: ../../../platforms/heltec-cubecell.rst:187
+msgid ":ref:`board_heltec-cubecell_cubecell_gps`"
+msgstr ""
+
+#: ../../../platforms/heltec-cubecell.rst:193
+msgid ":ref:`board_heltec-cubecell_cubecell_module`"
+msgstr ""
+
+#: ../../../platforms/heltec-cubecell.rst:199
+msgid ":ref:`board_heltec-cubecell_cubecell_module_plus`"
+msgstr ""
+
+#: ../../../platforms/heltec-cubecell.rst:205
+msgid ":ref:`board_heltec-cubecell_cubecell_module_v2`"
+msgstr ""

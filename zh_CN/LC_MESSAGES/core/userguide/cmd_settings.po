@@ -1,0 +1,295 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present, PlatformIO
+# This file is distributed under the same license as the PlatformIO package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PlatformIO latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-24 14:02+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../core/userguide/cmd_settings.rst:15
+msgid "pio settings"
+msgstr ""
+
+#: ../../../core/userguide/cmd_settings.rst:17
+msgid "Manage PlatformIO settings"
+msgstr ""
+
+#: ../../../core/userguide/cmd_settings.rst:19
+msgid "Contents"
+msgstr ""
+
+#: ../../../core/userguide/cmd_settings.rst:24
+msgid "pio settings get"
+msgstr ""
+
+#: ../../../core/userguide/cmd_settings.rst:27
+#: ../../../core/userguide/cmd_settings.rst:195
+#: ../../../core/userguide/cmd_settings.rst:227
+msgid "Usage"
+msgstr ""
+
+#: ../../../core/userguide/cmd_settings.rst:35
+#: ../../../core/userguide/cmd_settings.rst:203
+#: ../../../core/userguide/cmd_settings.rst:235
+msgid "Description"
+msgstr ""
+
+#: ../../../core/userguide/cmd_settings.rst:38
+msgid ""
+"The ``Yes`` value is equal to: ``True``, ``Y``, ``1`` and is not case "
+"sensitive."
+msgstr ""
+
+#: ../../../core/userguide/cmd_settings.rst:39
+msgid "You can override these settings using :ref:`envvars`."
+msgstr ""
+
+#: ../../../core/userguide/cmd_settings.rst:41
+msgid "Get/List existing settings"
+msgstr ""
+
+#: ../../../core/userguide/cmd_settings.rst:44
+msgid "Settings"
+msgstr ""
+
+#: ../../../core/userguide/cmd_settings.rst:49
+msgid "``check_platformio_interval``"
+msgstr ""
+
+#: ../../../core/userguide/cmd_settings.rst:0
+msgid "Default"
+msgstr ""
+
+#: ../../../core/userguide/cmd_settings.rst:51
+msgid "7"
+msgstr ""
+
+#: ../../../core/userguide/cmd_settings.rst:0
+msgid "Values"
+msgstr ""
+
+#: ../../../core/userguide/cmd_settings.rst:52
+msgid "Days (Number)"
+msgstr ""
+
+#: ../../../core/userguide/cmd_settings.rst:54
+msgid "An interval for checking for the new version of PlatformIO Core."
+msgstr ""
+
+#: ../../../core/userguide/cmd_settings.rst:59
+msgid "``check_prune_system_threshold``"
+msgstr ""
+
+#: ../../../core/userguide/cmd_settings.rst:61
+msgid "1024"
+msgstr ""
+
+#: ../../../core/userguide/cmd_settings.rst:62
+msgid "Megabytes (Number)"
+msgstr ""
+
+#: ../../../core/userguide/cmd_settings.rst:64
+msgid ""
+"Check for pruning unnecessary data threshold (megabytes). You can list "
+"unnecessary PlatformIO system data using :option:`pio system prune --dry-"
+"run` command. See :ref:`cmd_system_prune` for the other options."
+msgstr ""
+
+#: ../../../core/userguide/cmd_settings.rst:68
+msgid ""
+"Do disable checking for unnecessary data, please set threshold to ``0`` "
+"using :ref:`cmd_settings_set` command."
+msgstr ""
+
+#: ../../../core/userguide/cmd_settings.rst:74
+msgid "``enable_cache``"
+msgstr ""
+
+#: ../../../core/userguide/cmd_settings.rst:76
+#: ../../../core/userguide/cmd_settings.rst:110
+#: ../../../core/userguide/cmd_settings.rst:133
+msgid "Yes"
+msgstr ""
+
+#: ../../../core/userguide/cmd_settings.rst:77
+#: ../../../core/userguide/cmd_settings.rst:87
+#: ../../../core/userguide/cmd_settings.rst:111
+#: ../../../core/userguide/cmd_settings.rst:122
+#: ../../../core/userguide/cmd_settings.rst:134
+msgid "Yes/No"
+msgstr ""
+
+#: ../../../core/userguide/cmd_settings.rst:79
+msgid "Enable caching for Package Manager and for API requests."
+msgstr ""
+
+#: ../../../core/userguide/cmd_settings.rst:84
+msgid "``force_verbose``"
+msgstr ""
+
+#: ../../../core/userguide/cmd_settings.rst:86
+#: ../../../core/userguide/cmd_settings.rst:121
+msgid "No"
+msgstr ""
+
+#: ../../../core/userguide/cmd_settings.rst:89
+msgid ""
+"Force verbose output when processing environments. This setting overrides"
+msgstr ""
+
+#: ../../../core/userguide/cmd_settings.rst:91
+msgid ":option:`pio run --verbose`"
+msgstr ""
+
+#: ../../../core/userguide/cmd_settings.rst:92
+msgid ":option:`pio ci --verbose`"
+msgstr ""
+
+#: ../../../core/userguide/cmd_settings.rst:93
+msgid ":option:`pio test --verbose`"
+msgstr ""
+
+#: ../../../core/userguide/cmd_settings.rst:98
+msgid "``projects_dir``"
+msgstr ""
+
+#: ../../../core/userguide/cmd_settings.rst:100
+msgid "~/Documents/PlatformIO/Projects"
+msgstr ""
+
+#: ../../../core/userguide/cmd_settings.rst:101
+msgid "Path to folder"
+msgstr ""
+
+#: ../../../core/userguide/cmd_settings.rst:103
+msgid "Default location for PlatformIO projects (PlatformIO Home)."
+msgstr ""
+
+#: ../../../core/userguide/cmd_settings.rst:108
+msgid "``enable_proxy_strict_ssl``"
+msgstr ""
+
+#: ../../../core/userguide/cmd_settings.rst:113
+msgid ""
+"Verify the proxy server certificate against the list of supplied CAs. See "
+"also PlatformIO Core :ref:`piocore_install_proxy_configuration`."
+msgstr ""
+
+#: ../../../core/userguide/cmd_settings.rst:119
+msgid "``disable_udev_rules_check``"
+msgstr ""
+
+#: ../../../core/userguide/cmd_settings.rst:124
+msgid ""
+"Disable check for udev rules on Linux. See :ref:`platformio_udev_rules` for "
+"more details about udev rules and how to install them."
+msgstr ""
+
+#: ../../../core/userguide/cmd_settings.rst:131
+msgid "``enable_telemetry``"
+msgstr ""
+
+#: ../../../core/userguide/cmd_settings.rst:136
+msgid ""
+"Share minimal diagnostics and usage information to help us make PlatformIO "
+"better."
+msgstr ""
+
+#: ../../../core/userguide/cmd_settings.rst:138
+msgid ""
+"The source code of telemetry service is `open source <https://github.com/"
+"platformio/platformio-core/blob/develop/platformio/telemetry.py>`_. You can "
+"make sure that we **DO NOT SHARE PRIVATE** information or source code of "
+"your project. All information shares **ANONYMOUSLY**."
+msgstr ""
+
+#: ../../../core/userguide/cmd_settings.rst:142
+msgid "Which data do we collect and why?"
+msgstr ""
+
+#: ../../../core/userguide/cmd_settings.rst:144
+msgid ""
+"**A version of Python Interpreter**. :ref:`piocore` is written in `Python "
+"language <https://www.python.org/>`__, including development :ref:"
+"`platforms`. We need to know which Python version produces such type of "
+"exceptions (see below), which is more popular, which version we should drop "
+"and focus on a new one"
+msgstr ""
+
+#: ../../../core/userguide/cmd_settings.rst:148
+msgid ""
+":ref:`piocore` **errors/exceptions**. We report automatically fatal "
+"exceptions raised by `PlatformIO Core source code <https://github.com/"
+"platformio/platformio-core>`__ but NOT by your project"
+msgstr ""
+
+#: ../../../core/userguide/cmd_settings.rst:150
+msgid ""
+"**The name of the used platform, board, framework**. We collect this type of "
+"information to have a clear picture which software products are the most "
+"widely used by our Community and for the which we should provide frequent "
+"updates and add new features ( for example, \"atmelavr\", \"arduino\", "
+"\"uno\", etc.)"
+msgstr ""
+
+#: ../../../core/userguide/cmd_settings.rst:154
+msgid ""
+"**The name of CLI command**. It helps us to improve our CLI. For example, "
+"\"run\", \"lib list\")"
+msgstr ""
+
+#: ../../../core/userguide/cmd_settings.rst:156
+msgid ""
+"The name of :ref:`ide`. This is very important information for us. We create "
+"native extensions based on the popularity of IDEs (for example, :ref:"
+"`ide_vscode`, :ref:`ide_clion`)"
+msgstr ""
+
+#: ../../../core/userguide/cmd_settings.rst:159
+msgid "**Thanks a lot that you keep this setting enabled!**"
+msgstr ""
+
+#: ../../../core/userguide/cmd_settings.rst:162
+#: ../../../core/userguide/cmd_settings.rst:208
+#: ../../../core/userguide/cmd_settings.rst:240
+msgid "Examples"
+msgstr ""
+
+#: ../../../core/userguide/cmd_settings.rst:164
+msgid "List all settings and theirs current values"
+msgstr ""
+
+#: ../../../core/userguide/cmd_settings.rst:180
+msgid "Show specified setting"
+msgstr ""
+
+#: ../../../core/userguide/cmd_settings.rst:192
+msgid "pio settings set"
+msgstr ""
+
+#: ../../../core/userguide/cmd_settings.rst:205
+msgid "Set new value for the setting"
+msgstr ""
+
+#: ../../../core/userguide/cmd_settings.rst:210
+msgid "Change to check for the new PlatformIO Core each day"
+msgstr ""
+
+#: ../../../core/userguide/cmd_settings.rst:224
+msgid "pio settings reset"
+msgstr ""
+
+#: ../../../core/userguide/cmd_settings.rst:237
+msgid "Reset settings to default"
+msgstr ""
