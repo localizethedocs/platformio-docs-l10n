@@ -37,9 +37,9 @@
     "branch" : "develop",
     "commit" : 
     {
-      "date" : "2026-07-08 14:50:43 +0300",
-      "hash" : "a0efc7f48566c967333d505086973354b60a35a0",
-      "title" : "Bump version to 6.2.0a3"
+      "date" : "2026-09-19 14:01:33 +0300",
+      "hash" : "ff26956ecf0cdd44f6599894f11a83a93189e07f",
+      "title" : "Update SPDX to 3.29"
     }
   },
   "type" : "branch",
