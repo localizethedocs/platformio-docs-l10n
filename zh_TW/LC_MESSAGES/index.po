@@ -1,0 +1,100 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present, PlatformIO
+# This file is distributed under the same license as the PlatformIO package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PlatformIO stable\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-24 14:03+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../index.rst:37
+msgid "Getting Started"
+msgstr "開始使用"
+
+#: ../../../index.rst:47
+msgid "platformio.ini"
+msgstr "platformio.ini"
+
+#: ../../../index.rst:47
+msgid "Configuration"
+msgstr "組態"
+
+#: ../../../index.rst:55
+msgid "Platforms"
+msgstr "平臺"
+
+#: ../../../index.rst:55
+msgid "Instruments"
+msgstr ""
+
+#: ../../../index.rst:65
+msgid "Scripting"
+msgstr ""
+
+#: ../../../index.rst:65
+msgid "Advanced"
+msgstr ""
+
+#: ../../../index.rst:75
+msgid "Integration"
+msgstr "整合"
+
+#: ../../../index.rst:83
+msgid "FAQ"
+msgstr "常見問題"
+
+#: ../../../index.rst:83
+msgid "Miscellaneous"
+msgstr ""
+
+#: ../../../index.rst:13
+msgid "Your Gateway to Embedded Software Development Excellence"
+msgstr ""
+
+#: ../../../index.rst:15
+msgid ""
+"Unlock the true potential of embedded software development with PlatformIO's "
+"collaborative ecosystem, embracing declarative principles, test-driven "
+"methodologies, and modern toolchains for unrivaled success."
+msgstr ""
+
+#: ../../../index.rst:19
+msgid "Open source, maximum permissive Apache 2.0 license"
+msgstr ""
+
+#: ../../../index.rst:20
+msgid "Cross-platform IDE and Unified Debugger"
+msgstr ""
+
+#: ../../../index.rst:21
+msgid "Static Code Analyzer and Remote Unit Testing"
+msgstr ""
+
+#: ../../../index.rst:22
+msgid "Multi-platform and Multi-architecture Build System"
+msgstr ""
+
+#: ../../../index.rst:23
+msgid "Firmware File Explorer and Memory Inspection."
+msgstr ""
+
+#: ../../../index.rst:25
+msgid ""
+"**Social:** `LinkedIn <https://www.linkedin.com/company/platformio/>`_ | "
+"`Twitter <https://twitter.com/PlatformIO_Org>`_ | `Community Forums <https://"
+"community.platformio.org>`_"
+msgstr ""
+
+#: ../../../index.rst:30
+msgid "Contents"
+msgstr ""

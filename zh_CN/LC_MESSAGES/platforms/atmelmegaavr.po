@@ -1,0 +1,1421 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present, PlatformIO
+# This file is distributed under the same license as the PlatformIO package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PlatformIO stable\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-24 14:03+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../platforms/atmelmegaavr.rst:15
+msgid "Atmel megaAVR"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:0
+msgid "Registry"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:18
+msgid ""
+"`https://registry.platformio.org/platforms/platformio/atmelmegaavr <https://"
+"registry.platformio.org/platforms/platformio/atmelmegaavr>`__"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:0
+#: ../../../platforms/atmelmegaavr_extra.rst:13
+msgid "Configuration"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:20
+msgid ":ref:`projectconf_env_platform` = ``platformio/atmelmegaavr``"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:22
+msgid ""
+"8-bit MCUs Built for Real-time Control with Core Independent Peripherals "
+"combining intelligent hardware peripherals along with the low-power "
+"capability of an AVR core, megaAVR microcontrollers (MCUs) broaden the "
+"effectiveness of your real-time control systems."
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:24
+msgid ""
+"For more detailed information please visit `vendor site <https://www."
+"microchip.com/design-centers/8-bit/avr-mcus/device-selection/atmega4809?"
+"utm_source=platformio.org&utm_medium=docs>`_."
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:28
+msgid "Contents"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr_extra.rst:21
+msgid "Upload using Programmer"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr_extra.rst:23
+msgid ""
+"In the case of external programmers, it's easy to brick a board simply by "
+"specifying incorrect upload flags. It's highly recommended to use the :ref:"
+"`projectconf_upload_command` option that gives the full control over flags "
+"used for uploading. Please read :ref:`atmelavr_upload_via_programmer` for "
+"more information."
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr_extra.rst:29
+msgid "Upload using pymcuprog serialUPDI"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr_extra.rst:31
+msgid ""
+"``pymcuprog`` is a Python-based CLI tool for programming AVR devices with "
+"UPDI interface using either a Microchip debugger (Atmel-ICE, Power Debugger, "
+"PICkit4, Snap, PKOB nano / nEDBG / Curiosity Nano debugger) or via a "
+"standard serial port. It can be installed directly in the PlatformIO virtual "
+"environment using the following command:"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr_extra.rst:41
+msgid ""
+"Once ``pymcuprog`` is installed it can be used as the uploader via a custom :"
+"ref:`projectconf_upload_command` option, for example:"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr_extra.rst:64
+msgid ""
+"When using a Microchip debugger it must be specified in the --tool argument, "
+"and the --uart argument omitted."
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr_extra.rst:66
+msgid ""
+"More information and a typical circuit diagram can be found in the official "
+"`pymcuprog repository <https://github.com/microchip-pic-avr-tools/"
+"pymcuprog#serial-port-updi-pyupdi>`_."
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr_extra.rst:69
+msgid ""
+"``pymcuprog`` is maintained by Microchip, and published on `GitHub <https://"
+"github.com/microchip-pic-avr-tools/pymcuprog>`_ and `pypi.org <https://pypi."
+"org/project/pymcuprog/>`_."
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr_extra.rst:72
+msgid "Upload using pyupdi"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr_extra.rst:74
+msgid ""
+"``pyupdi`` is a Python-based tool for programming tinyAVR and megaAVR "
+"devices with UPDI interface via a standard serial port. It can be installed "
+"directly in the PlatformIO virtual environment using the following command:"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr_extra.rst:83
+msgid ""
+"Once ``pyupdi`` is installed it can be used as the uploader via a custom :"
+"ref:`projectconf_upload_command` option, for example:"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr_extra.rst:104
+msgid ""
+"Device names used in in ``pyupdi`` differ from MCU names used in the "
+"``atmelmegaavr`` platform. Run ``pyupdi --help`` to see the list of "
+"supported devices."
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr_extra.rst:107
+msgid ""
+"More information and a typical circuit diagram can be found in the official "
+"`pyupdi repository <https://github.com/mraardvark/pyupdi>`_ repository."
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr_extra.rst:111
+msgid "Fuses programming"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr_extra.rst:113
+msgid ""
+"PlatformIO has a built-in target called ``fuses`` for setting fuse bits. The "
+"default fuse bits are predefined in the board manifest file in the ``fuses`` "
+"section. For example, `fuses section for Arduino Nano Every board <https://"
+"github.com/platformio/platform-atmelmegaavr/blob/develop/boards/nano_every."
+"json>`_. To set fuse bits you need to use target ``fuses`` with :option:`pio "
+"run --target` command."
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr_extra.rst:119
+msgid "Custom fuses"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr_extra.rst:121
+msgid ""
+"Custom fuse values and upload flags (based on upload protocol) should be "
+"specified in :ref:`projectconf`. An example of setting custom fuses for "
+"``ATmega3209`` board:"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr_extra.rst:136
+msgid "Overriding default fuses command"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr_extra.rst:138
+msgid ""
+"For more detailed information read :ref:`atmelavr_overriding_fuses_command`."
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr_extra.rst:141
+msgid "Bootloader programming"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr_extra.rst:143
+msgid ""
+"PlatformIO has a built-in target called ``bootloader`` for flashing "
+"bootloaders. The default bootloader image and corresponding fuse bits are "
+"predefined in the board manifest file in the ``bootloader`` section, for "
+"example, `Arduino Uno WiFi Rev2 <https://github.com/platformio/platform-"
+"atmelmegaavr/blob/develop/boards/uno_wifi_rev2.json>`_. To upload a "
+"bootloader image you need to use target ``bootloader`` with :option:`pio run "
+"--target` command."
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr_extra.rst:150
+msgid "Custom bootloader"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr_extra.rst:152
+msgid ""
+"Custom bootloader and accompanying fuses should be specified in :ref:"
+"`projectconf`. An example of setting custom bootloader for ``ATmega4808`` "
+"board:"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr_extra.rst:169
+msgid "Overriding default bootloader command"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr_extra.rst:171
+msgid ""
+"For more detailed information read :ref:"
+"`atmelavr_overriding_bootloader_command`."
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:33
+msgid "Examples"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:35
+msgid ""
+"Examples are listed from `Atmel megaAVR development platform repository "
+"<https://github.com/platformio/platform-atmelmegaavr/tree/master/examples?"
+"utm_source=platformio.org&utm_medium=docs>`_:"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:37
+msgid ""
+"`arduino-blink <https://github.com/platformio/platform-atmelmegaavr/tree/"
+"master/examples/arduino-blink?utm_source=platformio.org&utm_medium=docs>`_"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:38
+msgid ""
+"`native-blink <https://github.com/platformio/platform-atmelmegaavr/tree/"
+"master/examples/native-blink?utm_source=platformio.org&utm_medium=docs>`_"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:39
+msgid ""
+"`arduino-internal-libs <https://github.com/platformio/platform-atmelmegaavr/"
+"tree/master/examples/arduino-internal-libs?utm_source=platformio."
+"org&utm_medium=docs>`_"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:40
+msgid ""
+"`arduino-external-libs <https://github.com/platformio/platform-atmelmegaavr/"
+"tree/master/examples/arduino-external-libs?utm_source=platformio."
+"org&utm_medium=docs>`_"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:43
+msgid "Stable and upstream versions"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:45
+msgid ""
+"You can switch between `stable releases <https://github.com/platformio/"
+"platform-atmelmegaavr/releases>`__ of Atmel megaAVR development platform and "
+"the latest upstream version using :ref:`projectconf_env_platform` option in :"
+"ref:`projectconf` as described below."
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:50
+msgid "Stable"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:66
+msgid "Upstream"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:76
+msgid "Packages"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:81
+#: ../../../platforms/atmelmegaavr.rst:124
+#: ../../../platforms/atmelmegaavr.rst:144
+#: ../../../platforms/atmelmegaavr.rst:169
+msgid "Name"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:82
+#: ../../../platforms/atmelmegaavr.rst:125
+msgid "Description"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:84
+msgid ""
+"`framework-arduino-megaavr <https://registry.platformio.org/tools/platformio/"
+"framework-arduino-megaavr>`__"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:85
+msgid "Arduino Wiring-based Framework for Microchip megaAVR microcontrollers"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:87
+msgid ""
+"`framework-arduino-megaavr-dxcore <https://registry.platformio.org/tools/"
+"platformio/framework-arduino-megaavr-dxcore>`__"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:88
+msgid ""
+"Arduino Wiring-based Framework for Microchip megaAVR microcontrollers "
+"(DxCore)"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:90
+msgid ""
+"`framework-arduino-megaavr-megacorex <https://registry.platformio.org/tools/"
+"platformio/framework-arduino-megaavr-megacorex>`__"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:91
+msgid ""
+"Arduino Wiring-based Framework for Microchip megaAVR microcontrollers "
+"(MegaCoreX)"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:93
+msgid ""
+"`framework-arduino-megaavr-megatinycore <https://registry.platformio.org/"
+"tools/platformio/framework-arduino-megaavr-megatinycore>`__"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:94
+msgid ""
+"Arduino Wiring-based Framework for Microchip tinyAVR 0-series and 1-series "
+"chips (megaTinyCore)"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:96
+msgid ""
+"`tool-avrdude <https://registry.platformio.org/tools/platformio/tool-"
+"avrdude>`__"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:97
+msgid ""
+"AVRDUDE is a utility to download/upload/manipulate the ROM and EEPROM "
+"contents of AVR microcontrollers"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:99
+msgid ""
+"`tool-avrdude-megaavr <https://registry.platformio.org/tools/platformio/tool-"
+"avrdude-megaavr>`__"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:100
+msgid ""
+"AVRDUDE is a utility to download/upload/manipulate the ROM and EEPROM "
+"contents of megaAVR microcontrollers"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:102
+msgid ""
+"`toolchain-atmelavr <https://registry.platformio.org/tools/platformio/"
+"toolchain-atmelavr>`__"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:103
+msgid "GCC Toolchain for Microchip AVR microcontrollers"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:106
+msgid "**Linux Users**:"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:108
+msgid "Install \"udev\" rules :ref:`platformio_udev_rules`"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:109
+msgid ""
+"Raspberry Pi users, please read this article `Enable serial port on "
+"Raspberry Pi <https://hallard.me/enable-serial-port-on-raspberry-pi/>`__."
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:113
+msgid "**Windows Users:**"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:115
+msgid ""
+"Please check that you have a correctly installed USB driver from board "
+"manufacturer"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:120
+msgid "Frameworks"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:127
+msgid ":ref:`framework_arduino`"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:128
+msgid ""
+"Arduino Wiring-based Framework allows writing cross-platform software to "
+"control devices attached to a wide range of Arduino boards to create all "
+"kinds of creative coding, interactive objects, spaces or physical "
+"experiences."
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:131
+msgid "Boards"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:134
+msgid "You can list pre-configured boards by :ref:`cmd_boards` command"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:135
+msgid ""
+"For more detailed ``board`` information please scroll the tables below by "
+"horizontally."
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:139
+msgid "Arduino"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:145
+#: ../../../platforms/atmelmegaavr.rst:170
+msgid "Debug"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:146
+#: ../../../platforms/atmelmegaavr.rst:171
+msgid "MCU"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:147
+#: ../../../platforms/atmelmegaavr.rst:172
+msgid "Frequency"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:148
+#: ../../../platforms/atmelmegaavr.rst:173
+msgid "Flash"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:149
+#: ../../../platforms/atmelmegaavr.rst:174
+msgid "RAM"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:150
+msgid ":ref:`board_atmelmegaavr_nano_every`"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:151
+#: ../../../platforms/atmelmegaavr.rst:157
+#: ../../../platforms/atmelmegaavr.rst:176
+#: ../../../platforms/atmelmegaavr.rst:182
+#: ../../../platforms/atmelmegaavr.rst:188
+#: ../../../platforms/atmelmegaavr.rst:194
+#: ../../../platforms/atmelmegaavr.rst:200
+#: ../../../platforms/atmelmegaavr.rst:206
+#: ../../../platforms/atmelmegaavr.rst:212
+#: ../../../platforms/atmelmegaavr.rst:218
+#: ../../../platforms/atmelmegaavr.rst:224
+#: ../../../platforms/atmelmegaavr.rst:230
+#: ../../../platforms/atmelmegaavr.rst:236
+#: ../../../platforms/atmelmegaavr.rst:242
+#: ../../../platforms/atmelmegaavr.rst:248
+#: ../../../platforms/atmelmegaavr.rst:254
+#: ../../../platforms/atmelmegaavr.rst:260
+#: ../../../platforms/atmelmegaavr.rst:266
+#: ../../../platforms/atmelmegaavr.rst:272
+#: ../../../platforms/atmelmegaavr.rst:278
+#: ../../../platforms/atmelmegaavr.rst:284
+#: ../../../platforms/atmelmegaavr.rst:290
+#: ../../../platforms/atmelmegaavr.rst:296
+#: ../../../platforms/atmelmegaavr.rst:302
+#: ../../../platforms/atmelmegaavr.rst:308
+#: ../../../platforms/atmelmegaavr.rst:314
+#: ../../../platforms/atmelmegaavr.rst:320
+#: ../../../platforms/atmelmegaavr.rst:326
+#: ../../../platforms/atmelmegaavr.rst:332
+#: ../../../platforms/atmelmegaavr.rst:338
+#: ../../../platforms/atmelmegaavr.rst:344
+#: ../../../platforms/atmelmegaavr.rst:350
+#: ../../../platforms/atmelmegaavr.rst:356
+#: ../../../platforms/atmelmegaavr.rst:362
+#: ../../../platforms/atmelmegaavr.rst:368
+#: ../../../platforms/atmelmegaavr.rst:374
+#: ../../../platforms/atmelmegaavr.rst:380
+#: ../../../platforms/atmelmegaavr.rst:386
+#: ../../../platforms/atmelmegaavr.rst:392
+#: ../../../platforms/atmelmegaavr.rst:398
+#: ../../../platforms/atmelmegaavr.rst:404
+#: ../../../platforms/atmelmegaavr.rst:410
+#: ../../../platforms/atmelmegaavr.rst:416
+#: ../../../platforms/atmelmegaavr.rst:422
+#: ../../../platforms/atmelmegaavr.rst:428
+#: ../../../platforms/atmelmegaavr.rst:434
+#: ../../../platforms/atmelmegaavr.rst:440
+#: ../../../platforms/atmelmegaavr.rst:446
+#: ../../../platforms/atmelmegaavr.rst:452
+#: ../../../platforms/atmelmegaavr.rst:458
+#: ../../../platforms/atmelmegaavr.rst:464
+#: ../../../platforms/atmelmegaavr.rst:470
+#: ../../../platforms/atmelmegaavr.rst:476
+#: ../../../platforms/atmelmegaavr.rst:482
+#: ../../../platforms/atmelmegaavr.rst:488
+#: ../../../platforms/atmelmegaavr.rst:494
+#: ../../../platforms/atmelmegaavr.rst:500
+#: ../../../platforms/atmelmegaavr.rst:506
+#: ../../../platforms/atmelmegaavr.rst:512
+#: ../../../platforms/atmelmegaavr.rst:518
+#: ../../../platforms/atmelmegaavr.rst:524
+#: ../../../platforms/atmelmegaavr.rst:530
+#: ../../../platforms/atmelmegaavr.rst:536
+#: ../../../platforms/atmelmegaavr.rst:542
+#: ../../../platforms/atmelmegaavr.rst:548
+#: ../../../platforms/atmelmegaavr.rst:554
+#: ../../../platforms/atmelmegaavr.rst:560
+#: ../../../platforms/atmelmegaavr.rst:566
+#: ../../../platforms/atmelmegaavr.rst:572
+#: ../../../platforms/atmelmegaavr.rst:578
+#: ../../../platforms/atmelmegaavr.rst:584
+#: ../../../platforms/atmelmegaavr.rst:590
+#: ../../../platforms/atmelmegaavr.rst:596
+#: ../../../platforms/atmelmegaavr.rst:602
+#: ../../../platforms/atmelmegaavr.rst:608
+#: ../../../platforms/atmelmegaavr.rst:614
+#: ../../../platforms/atmelmegaavr.rst:620
+#: ../../../platforms/atmelmegaavr.rst:626
+msgid "No"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:152
+#: ../../../platforms/atmelmegaavr.rst:158
+#: ../../../platforms/atmelmegaavr.rst:207
+#: ../../../platforms/atmelmegaavr.rst:609
+#: ../../../platforms/atmelmegaavr.rst:627
+msgid "ATMEGA4809"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:153
+#: ../../../platforms/atmelmegaavr.rst:159
+#: ../../../platforms/atmelmegaavr.rst:178
+#: ../../../platforms/atmelmegaavr.rst:184
+#: ../../../platforms/atmelmegaavr.rst:190
+#: ../../../platforms/atmelmegaavr.rst:196
+#: ../../../platforms/atmelmegaavr.rst:202
+#: ../../../platforms/atmelmegaavr.rst:208
+#: ../../../platforms/atmelmegaavr.rst:214
+#: ../../../platforms/atmelmegaavr.rst:220
+#: ../../../platforms/atmelmegaavr.rst:226
+#: ../../../platforms/atmelmegaavr.rst:232
+#: ../../../platforms/atmelmegaavr.rst:238
+#: ../../../platforms/atmelmegaavr.rst:244
+#: ../../../platforms/atmelmegaavr.rst:250
+#: ../../../platforms/atmelmegaavr.rst:256
+#: ../../../platforms/atmelmegaavr.rst:262
+#: ../../../platforms/atmelmegaavr.rst:268
+#: ../../../platforms/atmelmegaavr.rst:274
+#: ../../../platforms/atmelmegaavr.rst:280
+#: ../../../platforms/atmelmegaavr.rst:286
+#: ../../../platforms/atmelmegaavr.rst:292
+#: ../../../platforms/atmelmegaavr.rst:298
+#: ../../../platforms/atmelmegaavr.rst:304
+#: ../../../platforms/atmelmegaavr.rst:310
+#: ../../../platforms/atmelmegaavr.rst:316
+#: ../../../platforms/atmelmegaavr.rst:322
+#: ../../../platforms/atmelmegaavr.rst:328
+#: ../../../platforms/atmelmegaavr.rst:334
+#: ../../../platforms/atmelmegaavr.rst:340
+#: ../../../platforms/atmelmegaavr.rst:346
+#: ../../../platforms/atmelmegaavr.rst:352
+#: ../../../platforms/atmelmegaavr.rst:358
+#: ../../../platforms/atmelmegaavr.rst:364
+#: ../../../platforms/atmelmegaavr.rst:370
+#: ../../../platforms/atmelmegaavr.rst:376
+#: ../../../platforms/atmelmegaavr.rst:382
+#: ../../../platforms/atmelmegaavr.rst:388
+#: ../../../platforms/atmelmegaavr.rst:394
+#: ../../../platforms/atmelmegaavr.rst:400
+#: ../../../platforms/atmelmegaavr.rst:406
+#: ../../../platforms/atmelmegaavr.rst:412
+#: ../../../platforms/atmelmegaavr.rst:418
+#: ../../../platforms/atmelmegaavr.rst:424
+#: ../../../platforms/atmelmegaavr.rst:430
+#: ../../../platforms/atmelmegaavr.rst:436
+#: ../../../platforms/atmelmegaavr.rst:442
+#: ../../../platforms/atmelmegaavr.rst:448
+#: ../../../platforms/atmelmegaavr.rst:610
+#: ../../../platforms/atmelmegaavr.rst:628
+msgid "16MHz"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:154
+#: ../../../platforms/atmelmegaavr.rst:160
+msgid "47.50KB"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:155
+#: ../../../platforms/atmelmegaavr.rst:161
+#: ../../../platforms/atmelmegaavr.rst:204
+#: ../../../platforms/atmelmegaavr.rst:210
+#: ../../../platforms/atmelmegaavr.rst:450
+#: ../../../platforms/atmelmegaavr.rst:612
+#: ../../../platforms/atmelmegaavr.rst:630
+msgid "6KB"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:156
+msgid ":ref:`board_atmelmegaavr_uno_wifi_rev2`"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:164
+msgid "Microchip"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:175
+msgid ":ref:`board_atmelmegaavr_ATmega1608`"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:177
+msgid "ATMEGA1608"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:179
+#: ../../../platforms/atmelmegaavr.rst:185
+#: ../../../platforms/atmelmegaavr.rst:227
+#: ../../../platforms/atmelmegaavr.rst:233
+#: ../../../platforms/atmelmegaavr.rst:239
+#: ../../../platforms/atmelmegaavr.rst:245
+#: ../../../platforms/atmelmegaavr.rst:251
+#: ../../../platforms/atmelmegaavr.rst:257
+#: ../../../platforms/atmelmegaavr.rst:263
+#: ../../../platforms/atmelmegaavr.rst:269
+#: ../../../platforms/atmelmegaavr.rst:275
+#: ../../../platforms/atmelmegaavr.rst:456
+#: ../../../platforms/atmelmegaavr.rst:462
+#: ../../../platforms/atmelmegaavr.rst:468
+#: ../../../platforms/atmelmegaavr.rst:474
+#: ../../../platforms/atmelmegaavr.rst:480
+#: ../../../platforms/atmelmegaavr.rst:486
+#: ../../../platforms/atmelmegaavr.rst:492
+#: ../../../platforms/atmelmegaavr.rst:498
+#: ../../../platforms/atmelmegaavr.rst:618
+#: ../../../platforms/atmelmegaavr.rst:624
+msgid "16KB"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:180
+#: ../../../platforms/atmelmegaavr.rst:186
+#: ../../../platforms/atmelmegaavr.rst:246
+#: ../../../platforms/atmelmegaavr.rst:252
+#: ../../../platforms/atmelmegaavr.rst:258
+#: ../../../platforms/atmelmegaavr.rst:264
+#: ../../../platforms/atmelmegaavr.rst:270
+#: ../../../platforms/atmelmegaavr.rst:276
+#: ../../../platforms/atmelmegaavr.rst:281
+#: ../../../platforms/atmelmegaavr.rst:287
+#: ../../../platforms/atmelmegaavr.rst:293
+#: ../../../platforms/atmelmegaavr.rst:299
+#: ../../../platforms/atmelmegaavr.rst:306
+#: ../../../platforms/atmelmegaavr.rst:312
+msgid "2KB"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:181
+msgid ":ref:`board_atmelmegaavr_ATmega1609`"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:183
+msgid "ATMEGA1609"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:187
+msgid ":ref:`board_atmelmegaavr_ATmega3208`"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:189
+msgid "ATMEGA3208"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:191
+#: ../../../platforms/atmelmegaavr.rst:197
+#: ../../../platforms/atmelmegaavr.rst:305
+#: ../../../platforms/atmelmegaavr.rst:311
+#: ../../../platforms/atmelmegaavr.rst:317
+#: ../../../platforms/atmelmegaavr.rst:323
+#: ../../../platforms/atmelmegaavr.rst:329
+#: ../../../platforms/atmelmegaavr.rst:503
+#: ../../../platforms/atmelmegaavr.rst:509
+#: ../../../platforms/atmelmegaavr.rst:515
+#: ../../../platforms/atmelmegaavr.rst:521
+#: ../../../platforms/atmelmegaavr.rst:527
+#: ../../../platforms/atmelmegaavr.rst:533
+msgid "32KB"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:192
+#: ../../../platforms/atmelmegaavr.rst:198
+#: ../../../platforms/atmelmegaavr.rst:335
+#: ../../../platforms/atmelmegaavr.rst:341
+#: ../../../platforms/atmelmegaavr.rst:347
+#: ../../../platforms/atmelmegaavr.rst:353
+#: ../../../platforms/atmelmegaavr.rst:359
+#: ../../../platforms/atmelmegaavr.rst:365
+#: ../../../platforms/atmelmegaavr.rst:371
+#: ../../../platforms/atmelmegaavr.rst:377
+#: ../../../platforms/atmelmegaavr.rst:383
+#: ../../../platforms/atmelmegaavr.rst:389
+#: ../../../platforms/atmelmegaavr.rst:504
+#: ../../../platforms/atmelmegaavr.rst:510
+#: ../../../platforms/atmelmegaavr.rst:516
+#: ../../../platforms/atmelmegaavr.rst:522
+#: ../../../platforms/atmelmegaavr.rst:528
+#: ../../../platforms/atmelmegaavr.rst:534
+msgid "4KB"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:193
+msgid ":ref:`board_atmelmegaavr_ATmega3209`"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:195
+msgid "ATMEGA3209"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:199
+msgid ":ref:`board_atmelmegaavr_ATmega4808`"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:201
+#: ../../../platforms/atmelmegaavr.rst:447
+msgid "ATMEGA4808"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:203
+#: ../../../platforms/atmelmegaavr.rst:209
+#: ../../../platforms/atmelmegaavr.rst:449
+#: ../../../platforms/atmelmegaavr.rst:611
+#: ../../../platforms/atmelmegaavr.rst:629
+msgid "48KB"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:205
+msgid ":ref:`board_atmelmegaavr_ATmega4809`"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:211
+msgid ":ref:`board_atmelmegaavr_ATmega808`"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:213
+msgid "ATMEGA808"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:215
+#: ../../../platforms/atmelmegaavr.rst:221
+#: ../../../platforms/atmelmegaavr.rst:395
+#: ../../../platforms/atmelmegaavr.rst:401
+#: ../../../platforms/atmelmegaavr.rst:407
+#: ../../../platforms/atmelmegaavr.rst:413
+#: ../../../platforms/atmelmegaavr.rst:419
+#: ../../../platforms/atmelmegaavr.rst:425
+#: ../../../platforms/atmelmegaavr.rst:431
+#: ../../../platforms/atmelmegaavr.rst:437
+#: ../../../platforms/atmelmegaavr.rst:443
+#: ../../../platforms/atmelmegaavr.rst:540
+#: ../../../platforms/atmelmegaavr.rst:546
+#: ../../../platforms/atmelmegaavr.rst:552
+#: ../../../platforms/atmelmegaavr.rst:558
+#: ../../../platforms/atmelmegaavr.rst:564
+#: ../../../platforms/atmelmegaavr.rst:570
+#: ../../../platforms/atmelmegaavr.rst:576
+#: ../../../platforms/atmelmegaavr.rst:582
+#: ../../../platforms/atmelmegaavr.rst:588
+#: ../../../platforms/atmelmegaavr.rst:594
+#: ../../../platforms/atmelmegaavr.rst:600
+#: ../../../platforms/atmelmegaavr.rst:606
+msgid "8KB"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:216
+#: ../../../platforms/atmelmegaavr.rst:222
+#: ../../../platforms/atmelmegaavr.rst:228
+#: ../../../platforms/atmelmegaavr.rst:234
+#: ../../../platforms/atmelmegaavr.rst:240
+#: ../../../platforms/atmelmegaavr.rst:432
+#: ../../../platforms/atmelmegaavr.rst:438
+#: ../../../platforms/atmelmegaavr.rst:444
+msgid "1KB"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:217
+msgid ":ref:`board_atmelmegaavr_ATmega809`"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:219
+msgid "ATMEGA809"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:223
+msgid ":ref:`board_atmelmegaavr_ATtiny1604`"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:225
+msgid "ATTINY1604"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:229
+msgid ":ref:`board_atmelmegaavr_ATtiny1606`"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:231
+msgid "ATTINY1606"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:235
+msgid ":ref:`board_atmelmegaavr_ATtiny1607`"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:237
+msgid "ATTINY1607"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:241
+msgid ":ref:`board_atmelmegaavr_ATtiny1614`"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:243
+msgid "ATTINY1614"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:247
+msgid ":ref:`board_atmelmegaavr_ATtiny1616`"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:249
+msgid "ATTINY1616"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:253
+msgid ":ref:`board_atmelmegaavr_ATtiny1617`"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:255
+msgid "ATTINY1617"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:259
+msgid ":ref:`board_atmelmegaavr_ATtiny1624`"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:261
+msgid "ATTINY1624"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:265
+msgid ":ref:`board_atmelmegaavr_ATtiny1626`"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:267
+msgid "ATTINY1626"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:271
+msgid ":ref:`board_atmelmegaavr_ATtiny1627`"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:273
+msgid "ATTINY1627"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:277
+msgid ":ref:`board_atmelmegaavr_ATtiny202`"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:279
+msgid "ATTINY202"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:282
+#: ../../../platforms/atmelmegaavr.rst:288
+#: ../../../platforms/atmelmegaavr.rst:294
+#: ../../../platforms/atmelmegaavr.rst:300
+msgid "128B"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:283
+msgid ":ref:`board_atmelmegaavr_ATtiny204`"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:285
+msgid "ATTINY204"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:289
+msgid ":ref:`board_atmelmegaavr_ATtiny212`"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:291
+msgid "ATTINY212"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:295
+msgid ":ref:`board_atmelmegaavr_ATtiny214`"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:297
+msgid "ATTINY214"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:301
+msgid ":ref:`board_atmelmegaavr_ATtiny3216`"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:303
+msgid "ATTINY3216"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:307
+msgid ":ref:`board_atmelmegaavr_ATtiny3217`"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:309
+msgid "ATTINY3217"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:313
+msgid ":ref:`board_atmelmegaavr_ATtiny3224`"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:315
+msgid "ATTINY3224"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:318
+#: ../../../platforms/atmelmegaavr.rst:324
+#: ../../../platforms/atmelmegaavr.rst:330
+msgid "3KB"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:319
+msgid ":ref:`board_atmelmegaavr_ATtiny3226`"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:321
+msgid "ATTINY3226"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:325
+msgid ":ref:`board_atmelmegaavr_ATtiny3227`"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:327
+msgid "ATTINY3227"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:331
+msgid ":ref:`board_atmelmegaavr_ATtiny402`"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:333
+msgid "ATTINY402"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:336
+#: ../../../platforms/atmelmegaavr.rst:342
+#: ../../../platforms/atmelmegaavr.rst:348
+#: ../../../platforms/atmelmegaavr.rst:354
+#: ../../../platforms/atmelmegaavr.rst:360
+#: ../../../platforms/atmelmegaavr.rst:366
+#: ../../../platforms/atmelmegaavr.rst:372
+msgid "256B"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:337
+msgid ":ref:`board_atmelmegaavr_ATtiny404`"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:339
+msgid "ATTINY404"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:343
+msgid ":ref:`board_atmelmegaavr_ATtiny406`"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:345
+msgid "ATTINY406"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:349
+msgid ":ref:`board_atmelmegaavr_ATtiny412`"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:351
+msgid "ATTINY412"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:355
+msgid ":ref:`board_atmelmegaavr_ATtiny414`"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:357
+msgid "ATTINY414"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:361
+msgid ":ref:`board_atmelmegaavr_ATtiny416`"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:363
+msgid "ATTINY416"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:367
+msgid ":ref:`board_atmelmegaavr_ATtiny417`"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:369
+msgid "ATTINY417"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:373
+msgid ":ref:`board_atmelmegaavr_ATtiny424`"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:375
+msgid "ATTINY424"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:378
+#: ../../../platforms/atmelmegaavr.rst:384
+#: ../../../platforms/atmelmegaavr.rst:390
+#: ../../../platforms/atmelmegaavr.rst:396
+#: ../../../platforms/atmelmegaavr.rst:402
+#: ../../../platforms/atmelmegaavr.rst:408
+#: ../../../platforms/atmelmegaavr.rst:414
+#: ../../../platforms/atmelmegaavr.rst:420
+#: ../../../platforms/atmelmegaavr.rst:426
+msgid "512B"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:379
+msgid ":ref:`board_atmelmegaavr_ATtiny426`"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:381
+msgid "ATTINY426"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:385
+msgid ":ref:`board_atmelmegaavr_ATtiny427`"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:387
+msgid "ATTINY427"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:391
+msgid ":ref:`board_atmelmegaavr_ATtiny804`"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:393
+msgid "ATTINY804"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:397
+msgid ":ref:`board_atmelmegaavr_ATtiny806`"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:399
+msgid "ATTINY806"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:403
+msgid ":ref:`board_atmelmegaavr_ATtiny807`"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:405
+msgid "ATTINY807"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:409
+msgid ":ref:`board_atmelmegaavr_ATtiny814`"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:411
+msgid "ATTINY814"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:415
+msgid ":ref:`board_atmelmegaavr_ATtiny816`"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:417
+msgid "ATTINY816"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:421
+msgid ":ref:`board_atmelmegaavr_ATtiny817`"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:423
+msgid "ATTINY817"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:427
+msgid ":ref:`board_atmelmegaavr_ATtiny824`"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:429
+msgid "ATTINY824"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:433
+msgid ":ref:`board_atmelmegaavr_ATtiny826`"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:435
+msgid "ATTINY826"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:439
+msgid ":ref:`board_atmelmegaavr_ATtiny827`"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:441
+msgid "ATTINY827"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:445
+msgid ":ref:`board_atmelmegaavr_avr_iot_wg`"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:451
+msgid ":ref:`board_atmelmegaavr_AVR128DA28`"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:453
+msgid "AVR128DA28"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:454
+#: ../../../platforms/atmelmegaavr.rst:460
+#: ../../../platforms/atmelmegaavr.rst:466
+#: ../../../platforms/atmelmegaavr.rst:472
+#: ../../../platforms/atmelmegaavr.rst:478
+#: ../../../platforms/atmelmegaavr.rst:484
+#: ../../../platforms/atmelmegaavr.rst:490
+#: ../../../platforms/atmelmegaavr.rst:496
+#: ../../../platforms/atmelmegaavr.rst:502
+#: ../../../platforms/atmelmegaavr.rst:508
+#: ../../../platforms/atmelmegaavr.rst:514
+#: ../../../platforms/atmelmegaavr.rst:520
+#: ../../../platforms/atmelmegaavr.rst:526
+#: ../../../platforms/atmelmegaavr.rst:532
+#: ../../../platforms/atmelmegaavr.rst:538
+#: ../../../platforms/atmelmegaavr.rst:544
+#: ../../../platforms/atmelmegaavr.rst:550
+#: ../../../platforms/atmelmegaavr.rst:556
+#: ../../../platforms/atmelmegaavr.rst:562
+#: ../../../platforms/atmelmegaavr.rst:568
+#: ../../../platforms/atmelmegaavr.rst:574
+#: ../../../platforms/atmelmegaavr.rst:580
+#: ../../../platforms/atmelmegaavr.rst:586
+#: ../../../platforms/atmelmegaavr.rst:592
+#: ../../../platforms/atmelmegaavr.rst:598
+#: ../../../platforms/atmelmegaavr.rst:604
+#: ../../../platforms/atmelmegaavr.rst:616
+#: ../../../platforms/atmelmegaavr.rst:622
+msgid "24MHz"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:455
+#: ../../../platforms/atmelmegaavr.rst:461
+#: ../../../platforms/atmelmegaavr.rst:467
+#: ../../../platforms/atmelmegaavr.rst:473
+#: ../../../platforms/atmelmegaavr.rst:479
+#: ../../../platforms/atmelmegaavr.rst:485
+#: ../../../platforms/atmelmegaavr.rst:491
+#: ../../../platforms/atmelmegaavr.rst:497
+#: ../../../platforms/atmelmegaavr.rst:617
+#: ../../../platforms/atmelmegaavr.rst:623
+msgid "128KB"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:457
+msgid ":ref:`board_atmelmegaavr_AVR128DA32`"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:459
+msgid "AVR128DA32"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:463
+msgid ":ref:`board_atmelmegaavr_AVR128DA48`"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:465
+#: ../../../platforms/atmelmegaavr.rst:615
+msgid "AVR128DA48"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:469
+msgid ":ref:`board_atmelmegaavr_AVR128DA64`"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:471
+msgid "AVR128DA64"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:475
+msgid ":ref:`board_atmelmegaavr_AVR128DB28`"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:477
+msgid "AVR128DB28"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:481
+msgid ":ref:`board_atmelmegaavr_AVR128DB32`"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:483
+msgid "AVR128DB32"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:487
+msgid ":ref:`board_atmelmegaavr_AVR128DB48`"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:489
+#: ../../../platforms/atmelmegaavr.rst:621
+msgid "AVR128DB48"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:493
+msgid ":ref:`board_atmelmegaavr_AVR128DB64`"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:495
+msgid "AVR128DB64"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:499
+msgid ":ref:`board_atmelmegaavr_AVR32DA28`"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:501
+msgid "AVR32DA28"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:505
+msgid ":ref:`board_atmelmegaavr_AVR32DA32`"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:507
+msgid "AVR32DA32"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:511
+msgid ":ref:`board_atmelmegaavr_AVR32DA48`"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:513
+msgid "AVR32DA48"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:517
+msgid ":ref:`board_atmelmegaavr_AVR32DB28`"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:519
+msgid "AVR32DB28"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:523
+msgid ":ref:`board_atmelmegaavr_AVR32DB32`"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:525
+msgid "AVR32DB32"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:529
+msgid ":ref:`board_atmelmegaavr_AVR32DB48`"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:531
+msgid "AVR32DB48"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:535
+msgid ":ref:`board_atmelmegaavr_AVR64DA28`"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:537
+msgid "AVR64DA28"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:539
+#: ../../../platforms/atmelmegaavr.rst:545
+#: ../../../platforms/atmelmegaavr.rst:551
+#: ../../../platforms/atmelmegaavr.rst:557
+#: ../../../platforms/atmelmegaavr.rst:563
+#: ../../../platforms/atmelmegaavr.rst:569
+#: ../../../platforms/atmelmegaavr.rst:575
+#: ../../../platforms/atmelmegaavr.rst:581
+#: ../../../platforms/atmelmegaavr.rst:587
+#: ../../../platforms/atmelmegaavr.rst:593
+#: ../../../platforms/atmelmegaavr.rst:599
+#: ../../../platforms/atmelmegaavr.rst:605
+msgid "64KB"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:541
+msgid ":ref:`board_atmelmegaavr_AVR64DA32`"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:543
+msgid "AVR64DA32"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:547
+msgid ":ref:`board_atmelmegaavr_AVR64DA48`"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:549
+msgid "AVR64DA48"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:553
+msgid ":ref:`board_atmelmegaavr_AVR64DA64`"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:555
+msgid "AVR64DA64"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:559
+msgid ":ref:`board_atmelmegaavr_AVR64DB28`"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:561
+msgid "AVR64DB28"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:565
+msgid ":ref:`board_atmelmegaavr_AVR64DB32`"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:567
+msgid "AVR64DB32"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:571
+msgid ":ref:`board_atmelmegaavr_AVR64DB48`"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:573
+msgid "AVR64DB48"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:577
+msgid ":ref:`board_atmelmegaavr_AVR64DB64`"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:579
+msgid "AVR64DB64"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:583
+msgid ":ref:`board_atmelmegaavr_AVR64DD14`"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:585
+msgid "AVR64DD14"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:589
+msgid ":ref:`board_atmelmegaavr_AVR64DD20`"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:591
+msgid "AVR64DD20"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:595
+msgid ":ref:`board_atmelmegaavr_AVR64DD28`"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:597
+msgid "AVR64DD28"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:601
+msgid ":ref:`board_atmelmegaavr_AVR64DD32`"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:603
+msgid "AVR64DD32"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:607
+msgid ":ref:`board_atmelmegaavr_curiosity_nano_4809`"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:613
+msgid ":ref:`board_atmelmegaavr_curiosity_nano_da`"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:619
+msgid ":ref:`board_atmelmegaavr_curiosity_nano_db`"
+msgstr ""
+
+#: ../../../platforms/atmelmegaavr.rst:625
+msgid ":ref:`board_atmelmegaavr_xplained_pro_4809`"
+msgstr ""

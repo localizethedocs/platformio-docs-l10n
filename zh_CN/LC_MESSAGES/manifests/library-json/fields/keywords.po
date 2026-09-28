@@ -1,0 +1,41 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present, PlatformIO
+# This file is distributed under the same license as the PlatformIO package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PlatformIO stable\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-24 14:03+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../manifests/library-json/fields/keywords.rst:13
+msgid "``keywords``"
+msgstr ""
+
+#: ../../../manifests/library-json/fields/keywords.rst:15
+msgid "**Required** | Type: ``String`` or ``Array`` | Max. Length: 255"
+msgstr ""
+
+#: ../../../manifests/library-json/fields/keywords.rst:17
+msgid ""
+"Used for search by keyword. Helps to make your library easier to discover "
+"without people needing to know its name."
+msgstr ""
+
+#: ../../../manifests/library-json/fields/keywords.rst:20
+msgid ""
+"The keyword should be in lowercase and can consist of lowercase letters (a-"
+"z), digits, periods, underscores, plus symbols, and dashes. However, it "
+"should not start or end with a dot, underscore, plus symbol, or dash. You "
+"can provide a list of keywords by separating them with commas (``,``) or by "
+"declaring them as an array."
+msgstr ""
