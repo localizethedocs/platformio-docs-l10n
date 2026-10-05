@@ -1,0 +1,171 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present, PlatformIO
+# This file is distributed under the same license as the PlatformIO package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PlatformIO stable\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-24 14:03+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../core/userguide/cmd_ci.rst:15
+msgid "pio ci"
+msgstr ""
+
+#: ../../../core/userguide/cmd_ci.rst:17
+msgid "Contents"
+msgstr ""
+
+#: ../../../core/userguide/cmd_ci.rst:20
+msgid "Usage"
+msgstr ""
+
+#: ../../../core/userguide/cmd_ci.rst:28
+msgid "Description"
+msgstr ""
+
+#: ../../../core/userguide/cmd_ci.rst:30
+msgid ""
+":ref:`cmd_ci` command is conceived of as \"hot key\" for building project "
+"with arbitrary source code structure. In a nutshell, using ``SRC`` and :"
+"option:`pio ci --lib` contents PlatformIO initializes via :ref:"
+"`cmd_project_init` new project in :option:`pio ci --build-dir` with the "
+"build environments (using :option:`pio ci --board` or :option:`pio ci --"
+"project-conf`) and processes them via :ref:`cmd_run` command."
+msgstr ""
+
+#: ../../../core/userguide/cmd_ci.rst:38
+msgid ""
+":ref:`cmd_ci` command accepts **multiple** ``SRC`` arguments, :option:`pio "
+"ci --lib` and :option:`pio ci --exclude` options which can be a path to "
+"directory, file or `Glob Pattern <http://en.wikipedia.org/wiki/"
+"Glob_(programming)>`_. Also, you can omit ``SRC`` argument and set path "
+"(multiple paths are allowed denoting with ``:``) to ``PLATFORMIO_CI_SRC`` "
+"`Environment variable <http://en.wikipedia.org/wiki/Environment_variable>`_"
+msgstr ""
+
+#: ../../../core/userguide/cmd_ci.rst:46
+msgid ""
+"For more details as for integration with the popular Continuous Integration "
+"Systems please follow to :ref:`ci` page."
+msgstr ""
+
+#: ../../../core/userguide/cmd_ci.rst:50
+msgid ""
+":ref:`cmd_ci` command is useful for library developers. It allows one to "
+"build different examples without creating own project per them."
+msgstr ""
+
+#: ../../../core/userguide/cmd_ci.rst:54
+msgid "Options"
+msgstr ""
+
+#: ../../../core/userguide/cmd_ci.rst:61
+msgid "Source code which will be copied to ``<BUILD_DIR>/lib`` directly."
+msgstr ""
+
+#: ../../../core/userguide/cmd_ci.rst:63
+msgid ""
+"If :option:`pio ci --lib` is a path to file (not to directory), then "
+"PlatformIO will create temporary directory within ``<BUILD_DIR>/lib`` and "
+"copy the rest files into it."
+msgstr ""
+
+#: ../../../core/userguide/cmd_ci.rst:71
+msgid ""
+"Exclude directories and/-or files from :option:`pio ci --build-dir`. The "
+"path must be relative to PlatformIO project within :option:`pio ci --build-"
+"dir`."
+msgstr ""
+
+#: ../../../core/userguide/cmd_ci.rst:75
+msgid "For example, exclude from project ``src`` directory:"
+msgstr ""
+
+#: ../../../core/userguide/cmd_ci.rst:77
+msgid "``examples`` folder"
+msgstr ""
+
+#: ../../../core/userguide/cmd_ci.rst:78
+msgid "``*.h`` files from ``foo`` folder"
+msgstr ""
+
+#: ../../../core/userguide/cmd_ci.rst:87
+msgid ""
+"Build project with automatically pre-generated environments based on board "
+"settings."
+msgstr ""
+
+#: ../../../core/userguide/cmd_ci.rst:90
+msgid "For more details please look into :option:`pio project init --board`."
+msgstr ""
+
+#: ../../../core/userguide/cmd_ci.rst:95
+msgid ""
+"Path to directory where PlatformIO will initialise new project. By default "
+"it's temporary directory within your operating system."
+msgstr ""
+
+#: ../../../core/userguide/cmd_ci.rst:100
+msgid ""
+"This directory will be removed at the end of build process. If you want to "
+"keep it, please use :option:`pio ci --keep-build-dir`."
+msgstr ""
+
+#: ../../../core/userguide/cmd_ci.rst:106
+msgid "Don't remove :option:`pio ci --build-dir` after build process."
+msgstr ""
+
+#: ../../../core/userguide/cmd_ci.rst:111
+msgid "Build project using pre-configured :ref:`projectconf`."
+msgstr ""
+
+#: ../../../core/userguide/cmd_ci.rst:116
+msgid ""
+"Pass additional options from :ref:`projectconf` to :ref:`cmd_project_init` "
+"command. For example, automatically install dependent libraries ``pio ci --"
+"project-option=\"lib_deps=ArduinoJSON\"`` or ignore specific library ``pio "
+"ci --project-option=\"lib_ignore=SomeLib\"``."
+msgstr ""
+
+#: ../../../core/userguide/cmd_ci.rst:122
+msgid ""
+"Use multiple ``--project-option`` to pass multiple options to :ref:"
+"`projectconf`. One option per one argument. For example, ``pio ci --project-"
+"option=\"build_unflags = -std=gnu++11\" --project-option=\"build_flags = -"
+"std=c++14\"``"
+msgstr ""
+
+#: ../../../core/userguide/cmd_ci.rst:129
+msgid ""
+"Process specified environments declared in :option:`pio ci --project-conf`. "
+"Multiple environments are allowed."
+msgstr ""
+
+#: ../../../core/userguide/cmd_ci.rst:135
+msgid "Shows detailed information when processing environments."
+msgstr ""
+
+#: ../../../core/userguide/cmd_ci.rst:137
+msgid ""
+"This option can also be set globally using :ref:`setting_force_verbose` "
+"setting or by environment variable :envvar:"
+"`PLATFORMIO_SETTING_FORCE_VERBOSE`."
+msgstr ""
+
+#: ../../../core/userguide/cmd_ci.rst:141
+msgid "Examples"
+msgstr ""
+
+#: ../../../core/userguide/cmd_ci.rst:143
+msgid "For the others examples please follow to :ref:`ci` page."
+msgstr ""

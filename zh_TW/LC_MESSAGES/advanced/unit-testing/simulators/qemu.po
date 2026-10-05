@@ -1,0 +1,56 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present, PlatformIO
+# This file is distributed under the same license as the PlatformIO package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PlatformIO stable\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-24 14:03+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../advanced/unit-testing/simulators/qemu.rst:15
+msgid "QEMU"
+msgstr ""
+
+#: ../../../advanced/unit-testing/simulators/qemu.rst:20
+msgid ""
+"QEMU is a free and open-source emulator that performs hardware "
+"virtualization. Official reference can be found `here  <https://www.qemu."
+"org/?utm_source=platformio&utm_medium=docs>`__."
+msgstr ""
+
+#: ../../../advanced/unit-testing/simulators/qemu.rst:24
+msgid "Configuration"
+msgstr "組態"
+
+#: ../../../advanced/unit-testing/simulators/qemu.rst:26
+msgid ""
+"Integration of the QEMU requires adding the platform compatible package to "
+"the :ref:`projectconf_env_platform_packages` option in your :ref:"
+"`projectconf`, and overriding the :ref:`projectconf_test_testing_command`."
+msgstr ""
+
+#: ../../../advanced/unit-testing/simulators/qemu.rst:30
+msgid ""
+"See the example of ``platformio.ini`` for the :ref:`board_sifive_hifive1` "
+"board from :ref:`platform_sifive`:"
+msgstr ""
+
+#: ../../../advanced/unit-testing/simulators/qemu.rst:51
+msgid "Testing"
+msgstr ""
+
+#: ../../../advanced/unit-testing/simulators/qemu.rst:53
+msgid ""
+"QEMU does not require a firmware uploading stage. Please use the :option:"
+"`pio test --without-uploading` command option."
+msgstr ""

@@ -1,0 +1,221 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present, PlatformIO
+# This file is distributed under the same license as the PlatformIO package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PlatformIO stable\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-24 14:03+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../boards/nordicnrf52/electronut_blip.rst:15
+msgid "ElectronutLabs Blip"
+msgstr ""
+
+#: ../../../boards/nordicnrf52/electronut_blip.rst:17
+msgid "Contents"
+msgstr ""
+
+#: ../../../boards/nordicnrf52/electronut_blip.rst:20
+msgid "Hardware"
+msgstr ""
+
+#: ../../../boards/nordicnrf52/electronut_blip.rst:22
+msgid ""
+"Platform :ref:`platform_nordicnrf52`: The nRF52 Series are built for speed "
+"to carry out increasingly complex tasks in the shortest possible time and "
+"return to sleep, conserving precious battery power. They have a Cortex-M4F "
+"processor which makes them quite capable Bluetooth Smart SoCs."
+msgstr ""
+
+#: ../../../boards/nordicnrf52/electronut_blip.rst:26
+msgid "**Microcontroller**"
+msgstr ""
+
+#: ../../../boards/nordicnrf52/electronut_blip.rst:27
+msgid "NRF52840"
+msgstr ""
+
+#: ../../../boards/nordicnrf52/electronut_blip.rst:28
+msgid "**Frequency**"
+msgstr ""
+
+#: ../../../boards/nordicnrf52/electronut_blip.rst:29
+msgid "64MHz"
+msgstr ""
+
+#: ../../../boards/nordicnrf52/electronut_blip.rst:30
+msgid "**Flash**"
+msgstr ""
+
+#: ../../../boards/nordicnrf52/electronut_blip.rst:31
+msgid "1MB"
+msgstr ""
+
+#: ../../../boards/nordicnrf52/electronut_blip.rst:32
+msgid "**RAM**"
+msgstr ""
+
+#: ../../../boards/nordicnrf52/electronut_blip.rst:33
+msgid "256KB"
+msgstr ""
+
+#: ../../../boards/nordicnrf52/electronut_blip.rst:34
+msgid "**Vendor**"
+msgstr ""
+
+#: ../../../boards/nordicnrf52/electronut_blip.rst:35
+msgid ""
+"`ElectronutLabs <https://github.com/electronut/ElectronutLabs-blip?"
+"utm_source=platformio.org&utm_medium=docs>`__"
+msgstr ""
+
+#: ../../../boards/nordicnrf52/electronut_blip.rst:39
+msgid "Configuration"
+msgstr "組態"
+
+#: ../../../boards/nordicnrf52/electronut_blip.rst:41
+msgid ""
+"Please use ``electronut_blip`` ID for :ref:`projectconf_env_board` option "
+"in :ref:`projectconf`:"
+msgstr ""
+
+#: ../../../boards/nordicnrf52/electronut_blip.rst:49
+msgid ""
+"You can override default ElectronutLabs Blip settings per build environment "
+"using ``board_***`` option, where ``***`` is a JSON object path from board "
+"manifest `electronut_blip.json <https://github.com/platformio/platform-"
+"nordicnrf52/blob/master/boards/electronut_blip.json>`_. For example, "
+"``board_build.mcu``, ``board_build.f_cpu``, etc."
+msgstr ""
+
+#: ../../../boards/nordicnrf52/electronut_blip.rst:68
+msgid "Uploading"
+msgstr ""
+
+#: ../../../boards/nordicnrf52/electronut_blip.rst:69
+msgid "ElectronutLabs Blip supports the following uploading protocols:"
+msgstr ""
+
+#: ../../../boards/nordicnrf52/electronut_blip.rst:71
+msgid "``blackmagic``"
+msgstr ""
+
+#: ../../../boards/nordicnrf52/electronut_blip.rst:72
+msgid "``cmsis-dap``"
+msgstr ""
+
+#: ../../../boards/nordicnrf52/electronut_blip.rst:73
+msgid "``jlink``"
+msgstr ""
+
+#: ../../../boards/nordicnrf52/electronut_blip.rst:74
+msgid "``nrfjprog``"
+msgstr ""
+
+#: ../../../boards/nordicnrf52/electronut_blip.rst:75
+msgid "``stlink``"
+msgstr ""
+
+#: ../../../boards/nordicnrf52/electronut_blip.rst:77
+msgid "Default protocol is ``blackmagic``"
+msgstr ""
+
+#: ../../../boards/nordicnrf52/electronut_blip.rst:79
+msgid ""
+"You can change upload protocol using :ref:`projectconf_upload_protocol` "
+"option:"
+msgstr ""
+
+#: ../../../boards/nordicnrf52/electronut_blip.rst:90
+msgid "Debugging"
+msgstr ""
+
+#: ../../../boards/nordicnrf52/electronut_blip.rst:92
+msgid ""
+":ref:`piodebug` - \"1-click\" solution for debugging with a zero "
+"configuration."
+msgstr ""
+
+#: ../../../boards/nordicnrf52/electronut_blip.rst:95
+msgid ""
+"You will need to install debug tool drivers depending on your system. Please "
+"click on compatible debug tool below for the further instructions and "
+"configuration information."
+msgstr ""
+
+#: ../../../boards/nordicnrf52/electronut_blip.rst:99
+msgid ""
+"You can switch between debugging :ref:`debugging_tools` using :ref:"
+"`projectconf_debug_tool` option in :ref:`projectconf`."
+msgstr ""
+
+#: ../../../boards/nordicnrf52/electronut_blip.rst:102
+msgid ""
+"ElectronutLabs Blip has on-board debug probe and **IS READY** for debugging. "
+"You don't need to use/buy external debug probe."
+msgstr ""
+
+#: ../../../boards/nordicnrf52/electronut_blip.rst:107
+msgid "Compatible Tools"
+msgstr ""
+
+#: ../../../boards/nordicnrf52/electronut_blip.rst:108
+msgid "On-board"
+msgstr ""
+
+#: ../../../boards/nordicnrf52/electronut_blip.rst:109
+msgid "Default"
+msgstr ""
+
+#: ../../../boards/nordicnrf52/electronut_blip.rst:110
+msgid ":ref:`debugging_tool_blackmagic`"
+msgstr ""
+
+#: ../../../boards/nordicnrf52/electronut_blip.rst:111
+#: ../../../boards/nordicnrf52/electronut_blip.rst:112
+msgid "Yes"
+msgstr ""
+
+#: ../../../boards/nordicnrf52/electronut_blip.rst:113
+msgid ":ref:`debugging_tool_cmsis-dap`"
+msgstr ""
+
+#: ../../../boards/nordicnrf52/electronut_blip.rst:116
+msgid ":ref:`debugging_tool_jlink`"
+msgstr ""
+
+#: ../../../boards/nordicnrf52/electronut_blip.rst:119
+msgid ":ref:`debugging_tool_stlink`"
+msgstr ""
+
+#: ../../../boards/nordicnrf52/electronut_blip.rst:124
+msgid "Frameworks"
+msgstr "框架"
+
+#: ../../../boards/nordicnrf52/electronut_blip.rst:128
+msgid "Name"
+msgstr ""
+
+#: ../../../boards/nordicnrf52/electronut_blip.rst:129
+msgid "Description"
+msgstr ""
+
+#: ../../../boards/nordicnrf52/electronut_blip.rst:131
+msgid ":ref:`framework_zephyr`"
+msgstr ""
+
+#: ../../../boards/nordicnrf52/electronut_blip.rst:132
+msgid ""
+"Zephyr is a new generation, scalable, optimized, secure RTOS for multiple "
+"hardware architectures"
+msgstr ""

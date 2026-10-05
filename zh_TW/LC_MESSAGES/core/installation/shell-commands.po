@@ -1,0 +1,129 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present, PlatformIO
+# This file is distributed under the same license as the PlatformIO package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PlatformIO stable\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-24 14:03+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../core/installation/shell-commands.rst:15
+msgid "Install Shell Commands"
+msgstr ""
+
+#: ../../../core/installation/shell-commands.rst:17
+msgid ":ref:`piocore` consists of 2 standalone tools in a system:"
+msgstr ""
+
+#: ../../../core/installation/shell-commands.rst:19
+msgid "``platformio`` or ``pio`` (short alias) - :ref:`piocore_userguide`"
+msgstr ""
+
+#: ../../../core/installation/shell-commands.rst:20
+msgid "``piodebuggdb`` - alias of :ref:`cmd_debug`"
+msgstr ""
+
+#: ../../../core/installation/shell-commands.rst:22
+msgid ""
+"If you have :ref:`pioide` already installed, you do not need to install :ref:"
+"`piocore` separately. Just link these tools with your shell:"
+msgstr ""
+
+#: ../../../core/installation/shell-commands.rst:29
+msgid "Unix and Unix-like"
+msgstr ""
+
+#: ../../../core/installation/shell-commands.rst:32
+msgid "Method 1"
+msgstr ""
+
+#: ../../../core/installation/shell-commands.rst:34
+msgid ""
+"In Unix and Unix-like systems, you can create symbolic links (symlinks) in "
+"your ``$HOME/.local/bin/`` directory to the necessary PlatformIO "
+"executables. This will allow you to execute ``platformio`` commands from any "
+"terminal emulator as long as you're logged in as the user PlatformIO is "
+"installed and configured for."
+msgstr ""
+
+#: ../../../core/installation/shell-commands.rst:39
+msgid ""
+"First, if it's not already the case, you should export your ``$HOME/.local/"
+"bin/`` directory to the PATH environmental variable. If you use Bash as your "
+"default shell, you can do it by editing either ``~/.profile`` or ``~/."
+"bash_profile`` and adding the following line:"
+msgstr ""
+
+#: ../../../core/installation/shell-commands.rst:48
+msgid ""
+"If you use Zsh, you can either edit ``~/.zprofile`` and add the code above, "
+"or for supporting both, Bash and Zsh, you can first edit ``~/.profile`` and "
+"add the code above, then edit ``~/.zprofile`` and add the following line:"
+msgstr ""
+
+#: ../../../core/installation/shell-commands.rst:56
+msgid ""
+"If you don't know the difference between the two, check out `this page "
+"<https://serverfault.com/questions/261802/what-are-the-functional-"
+"differences-between-profile-bash-profile-and-bashrc>`_."
+msgstr ""
+
+#: ../../../core/installation/shell-commands.rst:58
+msgid ""
+"Now that is done, or if ``$HOME/.local/bin/`` was already exported to your "
+"PATH environmental variable, you can create the symlinks by opening your "
+"system terminal app and paste these commands."
+msgstr ""
+
+#: ../../../core/installation/shell-commands.rst:68
+msgid ""
+"After everything's done, just restart your session (log out and log back in) "
+"and you're good to go."
+msgstr ""
+
+#: ../../../core/installation/shell-commands.rst:71
+msgid "Method 2"
+msgstr ""
+
+#: ../../../core/installation/shell-commands.rst:73
+msgid ""
+"You can create system-wide symlinks. This method is not recommended if you "
+"have multiple users on your computer because the symlinks will be broken for "
+"other users and they will get errors while executing PlatformIO commands. If "
+"that's not a problem, open your system terminal app and paste these "
+"commands. (**PROBABLY requires** administrator access ``sudo``):"
+msgstr ""
+
+#: ../../../core/installation/shell-commands.rst:86
+msgid ""
+"After that, you should be able to run PlatformIO from terminal. No restart "
+"is required."
+msgstr ""
+
+#: ../../../core/installation/shell-commands.rst:89
+msgid "Windows"
+msgstr ""
+
+#: ../../../core/installation/shell-commands.rst:91
+msgid ""
+"Please read one of these instructions `How do I set or change the PATH "
+"system variable? <https://www.google.com.ua/search?"
+"q=how+do+i+set+or+change+the+path+system+variable>`_"
+msgstr ""
+
+#: ../../../core/installation/shell-commands.rst:93
+msgid ""
+"You need to edit the system environment variable called ``Path`` and append "
+"``%USERPROFILE%\\.platformio\\penv\\Scripts\\`` path in the beginning of the "
+"list."
+msgstr ""
