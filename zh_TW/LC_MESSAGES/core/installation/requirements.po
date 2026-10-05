@@ -1,0 +1,84 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present, PlatformIO
+# This file is distributed under the same license as the PlatformIO package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PlatformIO latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-24 14:02+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../core/installation/requirements.rst:13
+msgid "System Requirements"
+msgstr ""
+
+#: ../../../core/installation/requirements.rst:15
+msgid ""
+"PlatformIO Core is written in `Python <https://www.python.org/downloads/>`_ "
+"and works on the most popular operating systems including ARM-based credit-"
+"card-sized computers (`Raspberry Pi <http://www.raspberrypi.org>`_, "
+"`BeagleBone <http://beagleboard.org>`_, etc.)."
+msgstr ""
+
+#: ../../../core/installation/requirements.rst:0
+msgid "Operating System"
+msgstr ""
+
+#: ../../../core/installation/requirements.rst:22
+msgid "Windows, macOS, Linux, FreeBSD, Linux ARMv6+"
+msgstr ""
+
+#: ../../../core/installation/requirements.rst:0
+msgid "Python Interpreter"
+msgstr ""
+
+#: ../../../core/installation/requirements.rst:26
+msgid ""
+"**Python 3.7+ or above**. See detailed instructions on how to :ref:"
+"`faq_install_python`."
+msgstr ""
+
+#: ../../../core/installation/requirements.rst:0
+msgid "Terminal Application"
+msgstr ""
+
+#: ../../../core/installation/requirements.rst:31
+msgid ""
+"All CLI commands below should be executed in the `Command-line <http://en."
+"wikipedia.org/wiki/Command-line_interface>`_ application (Terminal). For "
+"macOS and Linux OS - *Terminal* application, for Windows OS – ``cmd.exe`` "
+"application."
+msgstr ""
+
+#: ../../../core/installation/requirements.rst:0
+msgid "Access to Serial Ports (USB/UART)"
+msgstr ""
+
+#: ../../../core/installation/requirements.rst:38
+msgid ""
+"**Windows Users:** Please check that you have correctly installed the USB "
+"driver from the board manufacturer."
+msgstr ""
+
+#: ../../../core/installation/requirements.rst:41
+msgid "**Linux Users**:"
+msgstr "**Linux 使用者**："
+
+#: ../../../core/installation/requirements.rst:43
+msgid "Please install :ref:`platformio_udev_rules`"
+msgstr ""
+
+#: ../../../core/installation/requirements.rst:44
+msgid ""
+"Raspberry Pi users, please read this article `Enable serial port on "
+"Raspberry Pi <https://hallard.me/enable-serial-port-on-raspberry-pi/>`__."
+msgstr ""

@@ -1,0 +1,49 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present, PlatformIO
+# This file is distributed under the same license as the PlatformIO package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PlatformIO latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-24 14:02+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../projectconf/sections/env/options/platform/board_build.f_cpu.rst:15
+msgid "``board_build.f_cpu``"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/platform/board_build.f_cpu.rst:17
+msgid "Type: ``Number`` | Multiple: ``No``"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/platform/board_build.f_cpu.rst:19
+msgid ""
+"The option ``board_build.f_cpu`` is used to define MCU frequency (Hertz, "
+"Clock). A format of this option is ``C-like long integer`` value with ``L`` "
+"suffix. The 1 Hertz is equal to ``1L``, then 16 MHz (Mega Hertz) is equal to "
+"``16000000L``."
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/platform/board_build.f_cpu.rst:23
+msgid ""
+"The full list of ``board_build.f_cpu`` for the popular embedded platforms "
+"you can find in *Boards* section of :ref:`platforms`. See \"Frequency\" "
+"column."
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/platform/board_build.f_cpu.rst:27
+msgid ""
+"This option doesn't make any changes to real clock settings on hardware. You "
+"should specify a ``board_build.f_cpu`` value  if you have changed a target's "
+"clock frequency so that the underlying software will be configured "
+"accordingly to match the change."
+msgstr ""

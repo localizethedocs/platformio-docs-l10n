@@ -1,0 +1,81 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present, PlatformIO
+# This file is distributed under the same license as the PlatformIO package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PlatformIO latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-24 14:02+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../core/userguide/access/cmd_revoke.rst:15
+msgid "pio access revoke"
+msgstr ""
+
+#: ../../../core/userguide/access/cmd_revoke.rst:17
+msgid "Contents"
+msgstr ""
+
+#: ../../../core/userguide/access/cmd_revoke.rst:20
+msgid "Usage"
+msgstr ""
+
+#: ../../../core/userguide/access/cmd_revoke.rst:27
+msgid "Description"
+msgstr ""
+
+#: ../../../core/userguide/access/cmd_revoke.rst:29
+msgid "Remove the ability of users and teams to have access to a resource."
+msgstr ""
+
+#: ../../../core/userguide/access/cmd_revoke.rst:31
+msgid ""
+"You can revoke access for the team members using the next format ``orgname:"
+"teamname``."
+msgstr ""
+
+#: ../../../core/userguide/access/cmd_revoke.rst:33
+msgid "See the examples below."
+msgstr ""
+
+#: ../../../core/userguide/access/cmd_revoke.rst:36
+msgid "Options"
+msgstr ""
+
+#: ../../../core/userguide/access/cmd_revoke.rst:43
+msgid ""
+"Resource type in `URN <https://en.wikipedia.org/wiki/"
+"Uniform_Resource_Name>`_ form. Default is set to ``prn:reg:pkg`` which means "
+"to grant an access to the package in the registry."
+msgstr ""
+
+#: ../../../core/userguide/access/cmd_revoke.rst:48
+msgid "Examples"
+msgstr ""
+
+#: ../../../core/userguide/access/cmd_revoke.rst:50
+msgid "Revoke access from a resource for the \"bob\" user:"
+msgstr ""
+
+#: ../../../core/userguide/access/cmd_revoke.rst:57
+msgid ""
+"Add the ability of PlatformIO's \"developer\" team to have \"admin\" access "
+"to a resource."
+msgstr ""
+
+#: ../../../core/userguide/access/cmd_revoke.rst:65
+msgid "See Also"
+msgstr ""
+
+#: ../../../core/userguide/access/cmd_revoke.rst:67
+msgid ":ref:`cmd_access_grant`"
+msgstr ""

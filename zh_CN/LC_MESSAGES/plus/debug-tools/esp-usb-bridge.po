@@ -1,0 +1,125 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present, PlatformIO
+# This file is distributed under the same license as the PlatformIO package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PlatformIO latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-24 14:02+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../plus/debug-tools/esp-usb-bridge.rst:15
+msgid "ESP USB Bridge"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-usb-bridge.rst:20
+msgid ""
+"The ESP USB Bridge is an ESP-IDF project utilizing an ESP32-S2 (or "
+"optionally, an ESP32-S3) chip to create a bridge between a computer (PC) and "
+"a target microcontroller (MCU). It can serve as a replacement for USB-to-"
+"UART chips (e.g. CP210x). Official reference can be found `here <https://"
+"github.com/espressif/esp-usb-bridge?"
+"utm_source=platformio&utm_medium=docs>`__."
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-usb-bridge.rst:27
+msgid "Contents"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-usb-bridge.rst:30
+msgid "Configuration"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-usb-bridge.rst:32
+msgid ""
+"You can configure debugging tool using :ref:`projectconf_debug_tool` option "
+"in :ref:`projectconf`:"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-usb-bridge.rst:42
+msgid ""
+"If you would like to use this tool for firmware uploading, please change "
+"upload protocol:"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-usb-bridge.rst:53
+msgid "More options:"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-usb-bridge.rst:55
+msgid ":ref:`projectconf_section_env_debug`"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-usb-bridge.rst:56
+msgid ":ref:`projectconf_section_env_upload`"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-usb-bridge.rst:60
+msgid "Tutorials"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-usb-bridge.rst:62
+msgid ""
+"`Use the PlatformIO Debugger on the ESP32 Using an ESP-prog <https://www."
+"hackster.io/brian-lough/use-the-platformio-debugger-on-the-esp32-using-an-"
+"esp-prog-f633b6>`_"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-usb-bridge.rst:67
+msgid "Platforms"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-usb-bridge.rst:71
+#: ../../../plus/debug-tools/esp-usb-bridge.rst:82
+msgid "Name"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-usb-bridge.rst:72
+#: ../../../plus/debug-tools/esp-usb-bridge.rst:83
+msgid "Description"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-usb-bridge.rst:74
+msgid ":ref:`platform_espressif32`"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-usb-bridge.rst:75
+msgid ""
+"Espressif Systems is a privately held fabless semiconductor company. They "
+"provide wireless communications and Wi-Fi chips which are widely used in "
+"mobile devices and the Internet of Things applications."
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-usb-bridge.rst:78
+msgid "Frameworks"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-usb-bridge.rst:85
+msgid ":ref:`framework_arduino`"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-usb-bridge.rst:86
+msgid ""
+"Arduino Wiring-based Framework allows writing cross-platform software to "
+"control devices attached to a wide range of Arduino boards to create all "
+"kinds of creative coding, interactive objects, spaces or physical experiences"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-usb-bridge.rst:88
+msgid ":ref:`framework_espidf`"
+msgstr ""
+
+#: ../../../plus/debug-tools/esp-usb-bridge.rst:89
+msgid ""
+"ESP-IDF is the official development framework for the ESP32 and ESP32-S "
+"Series SoCs."
+msgstr ""

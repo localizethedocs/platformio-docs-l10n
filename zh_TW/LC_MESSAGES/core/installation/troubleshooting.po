@@ -1,0 +1,120 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present, PlatformIO
+# This file is distributed under the same license as the PlatformIO package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PlatformIO latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-24 14:02+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../core/installation/troubleshooting.rst:13
+msgid "Troubleshooting"
+msgstr ""
+
+#: ../../../core/installation/troubleshooting.rst:16
+msgid "**Linux OS**: Don't forget to install :ref:`platformio_udev_rules`"
+msgstr ""
+
+#: ../../../core/installation/troubleshooting.rst:18
+msgid ""
+"**Windows OS**: Please check that you have correctly installed the USB "
+"driver from the board manufacturer."
+msgstr ""
+
+#: ../../../core/installation/troubleshooting.rst:21
+msgid ""
+"If you find any issues with PlatformIO Core Installer Script, please report "
+"to https://github.com/platformio/platformio-core-installer/issues"
+msgstr ""
+
+#: ../../../core/installation/troubleshooting.rst:28
+msgid "Multiple PlatformIO Cores in a system"
+msgstr ""
+
+#: ../../../core/installation/troubleshooting.rst:30
+msgid ""
+"Multiple standalone :ref:`piocore` in a system could lead to the different "
+"issues. We highly recommend to keep one instance of PlatformIO Core or use "
+"built-in PlatformIO Core in :ref:`pioide`:"
+msgstr ""
+
+#: ../../../core/installation/troubleshooting.rst:34
+msgid ""
+":ref:`ide_vscode` - :ref:`ide_vscode_settings` > Set ``platformio-ide."
+"useBuiltinPIOCore`` to ``true``."
+msgstr ""
+
+#: ../../../core/installation/troubleshooting.rst:36
+msgid ""
+"Finally, if you have a standalone :ref:`piocore` in a system, please open "
+"system Terminal (not PlatformIO IDE Terminal) and uninstall obsolete "
+"PlatformIO Core:"
+msgstr ""
+
+#: ../../../core/installation/troubleshooting.rst:47
+msgid ""
+"If you need to have :ref:`piocore` globally in a system, please :ref:"
+"`piocore_install_shell_commands`."
+msgstr ""
+
+#: ../../../core/installation/troubleshooting.rst:51
+msgid "'platformio' is not recognized as an internal or external command"
+msgstr ""
+
+#: ../../../core/installation/troubleshooting.rst:53
+msgid ""
+"If you use :ref:`pioide`, please check in PlatformIO IDE Settings that \"Use "
+"built-in PlatformIO Core\" is enabled."
+msgstr ""
+
+#: ../../../core/installation/troubleshooting.rst:56
+msgid ""
+"If you modify the system environment variable ``PATH`` in your Bash/Fish/ZSH "
+"profile, please do not override global ``PATH``. This line ``export PATH=\"/"
+"my/custom/path\"`` is incorrect. Use ``export PATH=\"/my/custom/path\":"
+"$PATH`` instead."
+msgstr ""
+
+#: ../../../core/installation/troubleshooting.rst:62
+msgid "ImportError: cannot import name _remove_dead_weakref"
+msgstr ""
+
+#: ../../../core/installation/troubleshooting.rst:64
+msgid ""
+"Windows users can experience this issue when multiple Python interpreters "
+"are installed in a system and conflict with each other. The easy way to fix "
+"this problem is uninstalling all Python interpreters using Windows Programs "
+"Manager and installing them manually again."
+msgstr ""
+
+#: ../../../core/installation/troubleshooting.rst:69
+msgid ""
+"\"Windows > Start Menu > Settings > System > Apps & Features\", select "
+"Python interpreters and uninstall them."
+msgstr ""
+
+#: ../../../core/installation/troubleshooting.rst:71
+msgid ""
+"Install the latest Python interpreter, see :ref:`faq_install_python` guide"
+msgstr ""
+
+#: ../../../core/installation/troubleshooting.rst:72
+msgid ""
+"Remove ``C:\\Users\\YourUserName\\.platformio`` and ``C:\\.platformio`` "
+"folders if exist (do not forget to replace \"YourUserName\" with the real "
+"user name)"
+msgstr ""
+
+#: ../../../core/installation/troubleshooting.rst:74
+msgid "Restart :ref:`pioide`."
+msgstr ""

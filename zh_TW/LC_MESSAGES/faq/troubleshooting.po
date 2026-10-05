@@ -1,0 +1,202 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present, PlatformIO
+# This file is distributed under the same license as the PlatformIO package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PlatformIO latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-24 14:02+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../faq/troubleshooting.rst:13
+msgid "Troubleshooting"
+msgstr ""
+
+#: ../../../faq/troubleshooting.rst:16
+msgid "Package Manager"
+msgstr ""
+
+#: ../../../faq/troubleshooting.rst:21
+msgid "[Error 5] Access is denied"
+msgstr ""
+
+#: ../../../faq/troubleshooting.rst:23
+msgid ""
+"PlatformIO installs all packages to \":ref:`projectconf_pio_core_dir`/"
+"packages\" directory. You **MUST HAVE** write access to this folder. Please "
+"note that **PlatformIO does not require** \"sudo\"/administrative privileges."
+msgstr ""
+
+#: ../../../faq/troubleshooting.rst:31
+msgid "Solution 1: Remove folder"
+msgstr ""
+
+#: ../../../faq/troubleshooting.rst:33
+msgid ""
+"A quick solution is to remove \":ref:`projectconf_pio_core_dir`/packages\" "
+"folder and repeat installation/building/uploading again."
+msgstr ""
+
+#: ../../../faq/troubleshooting.rst:37
+msgid "Solution 2: Antivirus"
+msgstr ""
+
+#: ../../../faq/troubleshooting.rst:39
+msgid ""
+"Some antivirus tools forbid programs to create files in the background. "
+"PlatformIO Package Manager does all work in the background: downloads "
+"package, unpacks archive in temporary folder and moves final files to \":ref:"
+"`projectconf_pio_core_dir`/packages\" folder."
+msgstr ""
+
+#: ../../../faq/troubleshooting.rst:44
+msgid ""
+"Antivirus tool can block PlatformIO, that is why you see \"[Error 5] Access "
+"is denied\". Try to **disable it for a while** or add :ref:"
+"`projectconf_pio_core_dir` directory to exclusion/whitelist."
+msgstr ""
+
+#: ../../../faq/troubleshooting.rst:49
+msgid "Solution 3: Run from Terminal"
+msgstr ""
+
+#: ../../../faq/troubleshooting.rst:51
+msgid ""
+"As we mentioned in \"Solution 2\", antivirus tools can block background file "
+"system operations. Another solution is to run :ref:`piocore` from a system "
+"terminal."
+msgstr ""
+
+#: ../../../faq/troubleshooting.rst:54
+msgid ""
+"Open **System Terminal**, on Windows ``cmd.exe`` (not :ref:`pioide` Terminal)"
+msgstr ""
+
+#: ../../../faq/troubleshooting.rst:55
+msgid ""
+"Build a project and upload firmware using :ref:`piocore` which will download "
+"and install all dependent packages:"
+msgstr ""
+
+#: ../../../faq/troubleshooting.rst:69
+msgid ""
+"If \"pio\" command is not globally available in your environment and you "
+"use :ref:`pioide`, please use built-in :ref:`piocore` which is located in:"
+msgstr ""
+
+#: ../../../faq/troubleshooting.rst:72
+msgid ""
+"Windows: ``C:\\Users\\{username}\\.platformio\\penv\\Scripts\\platformio`` "
+"Please replace ``{username}`` with a real user name"
+msgstr ""
+
+#: ../../../faq/troubleshooting.rst:74
+msgid "Unix: ``~/.platformio/penv/bin/platformio``"
+msgstr ""
+
+#: ../../../faq/troubleshooting.rst:78
+msgid ""
+"You can add ``platformio`` and ``pio`` commands to your system environment. "
+"See :ref:`piocore_install_shell_commands`."
+msgstr ""
+
+#: ../../../faq/troubleshooting.rst:82
+msgid "Building"
+msgstr ""
+
+#: ../../../faq/troubleshooting.rst:85
+msgid "UnicodeWarning: Unicode equal comparison failed"
+msgstr ""
+
+#: ../../../faq/troubleshooting.rst:87
+msgid ""
+"Full warning message is \"UnicodeWarning: Unicode equal comparison failed to "
+"convert both arguments to Unicode - interpreting them as being unequal\"."
+msgstr ""
+
+#: ../../../faq/troubleshooting.rst:90
+msgid ""
+"**KNOWN ISSUE**. Please move your project to a folder which full path does "
+"not contain non-ASCII chars."
+msgstr ""
+
+#: ../../../faq/troubleshooting.rst:94
+msgid "UnicodeDecodeError: Non-ASCII characters found in build environment"
+msgstr ""
+
+#: ../../../faq/troubleshooting.rst:96
+msgid ""
+"**KNOWN ISSUE**. :ref:`piocore` currently does not support projects which "
+"contain non-ASCII characters (codes) in a full path or depend on the "
+"libraries which use non-ASCII characters in their names."
+msgstr ""
+
+#: ../../../faq/troubleshooting.rst:100
+msgid "**TEMPORARY SOLUTION**"
+msgstr ""
+
+#: ../../../faq/troubleshooting.rst:102
+msgid ""
+"Use :ref:`pioide`, it will automatically install :ref:`piocore` in a root of "
+"system disk (``%DISK%/.platformio``) and avoid an issue when system User "
+"contains non-ASCII characters"
+msgstr ""
+
+#: ../../../faq/troubleshooting.rst:105
+msgid ""
+"Do not use non-ASCII characters in project folder name or its parent folders."
+msgstr ""
+
+#: ../../../faq/troubleshooting.rst:107
+msgid "Also, if you want to place :ref:`piocore` in own location, see:"
+msgstr ""
+
+#: ../../../faq/troubleshooting.rst:109
+msgid "Set :envvar:`PLATFORMIO_CORE_DIR` environment variable with own path"
+msgstr ""
+
+#: ../../../faq/troubleshooting.rst:110
+msgid ""
+"Configure custom location per project using :ref:`projectconf_pio_core_dir` "
+"option in :ref:`projectconf`."
+msgstr ""
+
+#: ../../../faq/troubleshooting.rst:114
+msgid "ARM toolchain: cc1plus: error while loading shared libraries"
+msgstr ""
+
+#: ../../../faq/troubleshooting.rst:116
+msgid ""
+"See related answers for `error while loading shared libraries <https://"
+"github.com/platformio/platformio-core/issues?"
+"utf8=✓&q=error+while+loading+shared+libraries>`_."
+msgstr ""
+
+#: ../../../faq/troubleshooting.rst:120
+msgid "Archlinux: libncurses.so.5: cannot open shared object file"
+msgstr ""
+
+#: ../../../faq/troubleshooting.rst:122
+msgid ""
+"Answered in `issue #291 <https://github.com/platformio/platformio-core/"
+"issues/291>`_."
+msgstr ""
+
+#: ../../../faq/troubleshooting.rst:125
+msgid "Monitoring a serial port breaks upload"
+msgstr ""
+
+#: ../../../faq/troubleshooting.rst:127
+msgid ""
+"Answered in `issue #384 <https://github.com/platformio/platformio-core/"
+"issues/384>`_."
+msgstr ""

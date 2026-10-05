@@ -1,0 +1,57 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present, PlatformIO
+# This file is distributed under the same license as the PlatformIO package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PlatformIO latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-24 14:02+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../projectconf/sections/platformio/options/directory/core_dir.rst:15
+msgid "``core_dir``"
+msgstr ""
+
+#: ../../../projectconf/sections/platformio/options/directory/core_dir.rst:17
+msgid "Type: ``DirPath`` | Multiple: ``No``"
+msgstr ""
+
+#: ../../../projectconf/sections/platformio/options/directory/core_dir.rst:19
+msgid ""
+"The core_dir variable points out the directory used for all development "
+"platform packages (toolchains, frameworks, SDKs, upload and debug tools), "
+"global libraries for :ref:`ldf`, and other PlatformIO Core service data. The "
+"size of this folder will depend on the number of installed development "
+"platforms."
+msgstr ""
+
+#: ../../../projectconf/sections/platformio/options/directory/core_dir.rst:25
+msgid "The default value is the user's home directory:"
+msgstr ""
+
+#: ../../../projectconf/sections/platformio/options/directory/core_dir.rst:27
+msgid "Unix ``~/.platformio``"
+msgstr ""
+
+#: ../../../projectconf/sections/platformio/options/directory/core_dir.rst:28
+msgid "Windows ``%HOMEPATH%\\.platformio``"
+msgstr ""
+
+#: ../../../projectconf/sections/platformio/options/directory/core_dir.rst:30
+msgid ""
+"This option can also be configured by the global environment variable :"
+"envvar:`PLATFORMIO_CORE_DIR`."
+msgstr ""
+
+#: ../../../projectconf/sections/platformio/options/directory/core_dir.rst:33
+msgid "Example:"
+msgstr ""
