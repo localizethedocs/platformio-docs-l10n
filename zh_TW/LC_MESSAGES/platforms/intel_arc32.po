@@ -1,0 +1,254 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present, PlatformIO
+# This file is distributed under the same license as the PlatformIO package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PlatformIO stable\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-24 14:03+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../platforms/intel_arc32.rst:15
+msgid "Intel ARC32"
+msgstr ""
+
+#: ../../../platforms/intel_arc32.rst:0
+msgid "Registry"
+msgstr ""
+
+#: ../../../platforms/intel_arc32.rst:18
+msgid ""
+"`https://registry.platformio.org/platforms/platformio/intel_arc32 <https://"
+"registry.platformio.org/platforms/platformio/intel_arc32>`__"
+msgstr ""
+
+#: ../../../platforms/intel_arc32.rst:0
+msgid "Configuration"
+msgstr "組態"
+
+#: ../../../platforms/intel_arc32.rst:20
+msgid ":ref:`projectconf_env_platform` = ``platformio/intel_arc32``"
+msgstr ""
+
+#: ../../../platforms/intel_arc32.rst:22
+msgid ""
+"ARC embedded processors are a family of 32-bit CPUs that are widely used in "
+"SoC devices for storage, home, mobile, automotive, and Internet of Things "
+"applications."
+msgstr ""
+
+#: ../../../platforms/intel_arc32.rst:24
+msgid ""
+"For more detailed information please visit `vendor site <http://www.intel."
+"com/content/www/us/en/wearables/wearable-soc.html?utm_source=platformio."
+"org&utm_medium=docs>`_."
+msgstr ""
+
+#: ../../../platforms/intel_arc32.rst:29
+msgid "Contents"
+msgstr ""
+
+#: ../../../platforms/intel_arc32.rst:32
+msgid "Examples"
+msgstr "範例"
+
+#: ../../../platforms/intel_arc32.rst:34
+msgid ""
+"Examples are listed from `Intel ARC32 development platform repository "
+"<https://github.com/platformio/platform-intel_arc32/tree/master/examples?"
+"utm_source=platformio.org&utm_medium=docs>`_:"
+msgstr ""
+
+#: ../../../platforms/intel_arc32.rst:36
+msgid ""
+"`arduino-curie-imu <https://github.com/platformio/platform-intel_arc32/tree/"
+"master/examples/arduino-curie-imu?utm_source=platformio."
+"org&utm_medium=docs>`_"
+msgstr ""
+
+#: ../../../platforms/intel_arc32.rst:37
+msgid ""
+"`arduino-blink <https://github.com/platformio/platform-intel_arc32/tree/"
+"master/examples/arduino-blink?utm_source=platformio.org&utm_medium=docs>`_"
+msgstr ""
+
+#: ../../../platforms/intel_arc32.rst:38
+msgid ""
+"`arduino-internal-libs <https://github.com/platformio/platform-intel_arc32/"
+"tree/master/examples/arduino-internal-libs?utm_source=platformio."
+"org&utm_medium=docs>`_"
+msgstr ""
+
+#: ../../../platforms/intel_arc32.rst:41
+msgid "Stable and upstream versions"
+msgstr ""
+
+#: ../../../platforms/intel_arc32.rst:43
+msgid ""
+"You can switch between `stable releases <https://github.com/platformio/"
+"platform-intel_arc32/releases>`__ of Intel ARC32 development platform and "
+"the latest upstream version using :ref:`projectconf_env_platform` option in :"
+"ref:`projectconf` as described below."
+msgstr ""
+
+#: ../../../platforms/intel_arc32.rst:48
+msgid "Stable"
+msgstr ""
+
+#: ../../../platforms/intel_arc32.rst:64
+msgid "Upstream"
+msgstr ""
+
+#: ../../../platforms/intel_arc32.rst:74
+msgid "Packages"
+msgstr ""
+
+#: ../../../platforms/intel_arc32.rst:79 ../../../platforms/intel_arc32.rst:110
+#: ../../../platforms/intel_arc32.rst:130
+msgid "Name"
+msgstr ""
+
+#: ../../../platforms/intel_arc32.rst:80 ../../../platforms/intel_arc32.rst:111
+msgid "Description"
+msgstr ""
+
+#: ../../../platforms/intel_arc32.rst:82
+msgid ""
+"`framework-arduinointel <https://registry.platformio.org/tools/platformio/"
+"framework-arduinointel>`__"
+msgstr ""
+
+#: ../../../platforms/intel_arc32.rst:83
+msgid "Arduino Wiring-based Framework Intel ARC32 processor"
+msgstr ""
+
+#: ../../../platforms/intel_arc32.rst:85
+msgid ""
+"`tool-arduino101load <https://registry.platformio.org/tools/platformio/tool-"
+"arduino101load>`__"
+msgstr ""
+
+#: ../../../platforms/intel_arc32.rst:86
+msgid "Genuino101 uploader tool"
+msgstr ""
+
+#: ../../../platforms/intel_arc32.rst:88
+msgid ""
+"`toolchain-intelarc32 <https://registry.platformio.org/tools/platformio/"
+"toolchain-intelarc32>`__"
+msgstr ""
+
+#: ../../../platforms/intel_arc32.rst:89
+msgid "GCC for Intel ARC processor"
+msgstr ""
+
+#: ../../../platforms/intel_arc32.rst:92
+msgid "**Linux Users**:"
+msgstr "**Linux 使用者**："
+
+#: ../../../platforms/intel_arc32.rst:94
+msgid "Install \"udev\" rules :ref:`platformio_udev_rules`"
+msgstr ""
+
+#: ../../../platforms/intel_arc32.rst:95
+msgid ""
+"Raspberry Pi users, please read this article `Enable serial port on "
+"Raspberry Pi <https://hallard.me/enable-serial-port-on-raspberry-pi/>`__."
+msgstr ""
+
+#: ../../../platforms/intel_arc32.rst:99
+msgid "**Windows Users:**"
+msgstr "**Windows 使用者：**"
+
+#: ../../../platforms/intel_arc32.rst:101
+msgid ""
+"Please check that you have a correctly installed USB driver from board "
+"manufacturer"
+msgstr ""
+
+#: ../../../platforms/intel_arc32.rst:106
+msgid "Frameworks"
+msgstr "框架"
+
+#: ../../../platforms/intel_arc32.rst:113
+msgid ":ref:`framework_arduino`"
+msgstr ""
+
+#: ../../../platforms/intel_arc32.rst:114
+msgid ""
+"Arduino Wiring-based Framework allows writing cross-platform software to "
+"control devices attached to a wide range of Arduino boards to create all "
+"kinds of creative coding, interactive objects, spaces or physical "
+"experiences."
+msgstr ""
+
+#: ../../../platforms/intel_arc32.rst:117
+msgid "Boards"
+msgstr "開發板"
+
+#: ../../../platforms/intel_arc32.rst:120
+msgid "You can list pre-configured boards by :ref:`cmd_boards` command"
+msgstr ""
+
+#: ../../../platforms/intel_arc32.rst:121
+msgid ""
+"For more detailed ``board`` information please scroll the tables below by "
+"horizontally."
+msgstr ""
+
+#: ../../../platforms/intel_arc32.rst:125
+msgid "Intel"
+msgstr ""
+
+#: ../../../platforms/intel_arc32.rst:131
+msgid "Debug"
+msgstr ""
+
+#: ../../../platforms/intel_arc32.rst:132
+msgid "MCU"
+msgstr ""
+
+#: ../../../platforms/intel_arc32.rst:133
+msgid "Frequency"
+msgstr ""
+
+#: ../../../platforms/intel_arc32.rst:134
+msgid "Flash"
+msgstr ""
+
+#: ../../../platforms/intel_arc32.rst:135
+msgid "RAM"
+msgstr ""
+
+#: ../../../platforms/intel_arc32.rst:136
+msgid ":ref:`board_intel_arc32_genuino101`"
+msgstr ""
+
+#: ../../../platforms/intel_arc32.rst:137
+msgid "No"
+msgstr ""
+
+#: ../../../platforms/intel_arc32.rst:138
+msgid "ARCV2EM"
+msgstr ""
+
+#: ../../../platforms/intel_arc32.rst:139
+msgid "32MHz"
+msgstr ""
+
+#: ../../../platforms/intel_arc32.rst:140
+msgid "152KB"
+msgstr ""
+
+#: ../../../platforms/intel_arc32.rst:141
+msgid "80KB"
+msgstr ""

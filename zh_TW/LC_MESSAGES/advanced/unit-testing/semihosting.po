@@ -1,0 +1,98 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present, PlatformIO
+# This file is distributed under the same license as the PlatformIO package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PlatformIO stable\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-24 14:03+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../advanced/unit-testing/semihosting.rst:15
+msgid "Semihosting"
+msgstr ""
+
+#: ../../../advanced/unit-testing/semihosting.rst:17
+msgid ""
+"Semihosting is a mechanism that enables code running on the target device to "
+"communicate and use the Input/Output of the host computer."
+msgstr ""
+
+#: ../../../advanced/unit-testing/semihosting.rst:24
+msgid "Introduction"
+msgstr ""
+
+#: ../../../advanced/unit-testing/semihosting.rst:26
+msgid ""
+"`Introduction to ARM Semihosting <https://interrupt.memfault.com/blog/arm-"
+"semihosting>`_"
+msgstr ""
+
+#: ../../../advanced/unit-testing/semihosting.rst:27
+msgid ""
+"`Official ARM documentation <https://www.keil.com/support/man/docs/armcc/"
+"armcc_pge1358787046598.htm>`_"
+msgstr ""
+
+#: ../../../advanced/unit-testing/semihosting.rst:28
+msgid "`Segger: Semihosting <https://wiki.segger.com/Semihosting>`_"
+msgstr ""
+
+#: ../../../advanced/unit-testing/semihosting.rst:31
+msgid "Configuration"
+msgstr "組態"
+
+#: ../../../advanced/unit-testing/semihosting.rst:33
+msgid ""
+"Firstly, to enable semihosting, you need to remove stubs (``-lnosys`` and ``-"
+"specs=nosys.specs`` flags) from a development platform, and use the "
+"semihosted version of the syscalls (adding ``--specs=rdimon.specs`` and ``-"
+"lrdimon`` to the compiler)."
+msgstr ""
+
+#: ../../../advanced/unit-testing/semihosting.rst:38
+msgid ""
+"Secondly, you need to override the :ref:`projectconf_test_testing_command` "
+"and configure a tool that will redirect test results to the I/O."
+msgstr ""
+
+#: ../../../advanced/unit-testing/semihosting.rst:42
+msgid "Example"
+msgstr ""
+
+#: ../../../advanced/unit-testing/semihosting.rst:44
+msgid ""
+"In this example, we run a simple ``test_dummy`` test on the :ref:"
+"`board_ststm32_nucleo_l152re` board from the :ref:`platform_ststm32` "
+"development platform."
+msgstr ""
+
+#: ../../../advanced/unit-testing/semihosting.rst:48
+msgid ""
+"The configuration is done in ``enable_semihosting.py`` extra script using :"
+"ref:`scripting`. The example uses :ref:`unit_testing_frameworks_unity` "
+"testing framework and the :ref:`unit_testing_frameworks_unity_custom_config`."
+msgstr ""
+
+#: ../../../advanced/unit-testing/semihosting.rst:52
+msgid ""
+"See the `source code and complete PlatformIO project <https://github.com/"
+"platformio/platformio-examples/tree/develop/unit-testing/semihosting>`_."
+msgstr ""
+
+#: ../../../advanced/unit-testing/semihosting.rst:55
+msgid "Testing"
+msgstr ""
+
+#: ../../../advanced/unit-testing/semihosting.rst:57
+msgid "We use the :ref:`cmd_test` command to run the tests."
+msgstr ""

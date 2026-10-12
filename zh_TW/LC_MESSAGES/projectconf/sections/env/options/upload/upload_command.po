@@ -1,0 +1,78 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present, PlatformIO
+# This file is distributed under the same license as the PlatformIO package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PlatformIO stable\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-24 14:03+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../projectconf/sections/env/options/upload/upload_command.rst:15
+msgid "``upload_command``"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/upload/upload_command.rst:17
+msgid "Type: ``String`` | Singleline: ``Yes``"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/upload/upload_command.rst:19
+msgid ""
+"Override default :ref:`platforms` upload command with a custom command. You "
+"can pass a full upload command with arguments and options or mix with :ref:"
+"`projectconf_upload_flags`."
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/upload/upload_command.rst:22
+msgid ""
+"In order to use ``upload_command``, ``upload_protocol = custom`` must be "
+"specified."
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/upload/upload_command.rst:24
+msgid ""
+"Default upload commands are declared in ``builder/main.py`` script file of :"
+"ref:`platforms`. See a list with open source :ref:`platforms` => https://"
+"github.com/topics/platformio-platform"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/upload/upload_command.rst:29
+msgid ""
+"Please note that you can use build variables in ``upload_command``, such as "
+"PlatformIO project folders and other runtime configuration. A list with "
+"build variables are available by running ``pio run --target envdump`` "
+"command."
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/upload/upload_command.rst:34
+msgid "**Examples**"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/upload/upload_command.rst:36
+msgid ""
+"Override default upload command but handle pre-uploading actions (looking "
+"for serial port, extra image preparation, etc.). Normally, the pre-"
+"configured upload options will be stored in ``$UPLOADERFLAGS`` build "
+"variable. A classic default upload command for :ref:`platforms` may look as "
+"``some-flash-bin-tool $UPLOADERFLAGS $SOURCE``, where ``$SOURCE`` will be "
+"replaced by a real program/firmware binary."
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/upload/upload_command.rst:43
+msgid ""
+"``${platformio.packages_dir}`` template points to :ref:"
+"`projectconf_pio_packages_dir`."
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/upload/upload_command.rst:65
+msgid "Override default upload command and skip pre-uploading actions."
+msgstr ""

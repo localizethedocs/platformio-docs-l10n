@@ -1,0 +1,106 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present, PlatformIO
+# This file is distributed under the same license as the PlatformIO package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PlatformIO stable\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-24 14:03+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../projectconf/sections/platformio/options/generic/extra_configs.rst:15
+msgid "``extra_configs``"
+msgstr ""
+
+#: ../../../projectconf/sections/platformio/options/generic/extra_configs.rst:17
+msgid "Type: ``String (Pattern)`` | Multiple: ``Yes``"
+msgstr ""
+
+#: ../../../projectconf/sections/platformio/options/generic/extra_configs.rst:19
+msgid ""
+"This option allows extending a base :ref:`projectconf` with extra "
+"configuration files. The format and rules are the same as for the :ref:"
+"`projectconf`. A name of the configuration file can be any."
+msgstr ""
+
+#: ../../../projectconf/sections/platformio/options/generic/extra_configs.rst:23
+msgid ""
+"``extra_configs`` can be a single path to an extra configuration file or a "
+"list of them. Please note that you can use Unix shell-style wildcards:"
+msgstr ""
+
+#: ../../../projectconf/sections/platformio/options/generic/extra_configs.rst:29
+msgid "Pattern"
+msgstr ""
+
+#: ../../../projectconf/sections/platformio/options/generic/extra_configs.rst:30
+msgid "Meaning"
+msgstr ""
+
+#: ../../../projectconf/sections/platformio/options/generic/extra_configs.rst:32
+msgid "``*``"
+msgstr ""
+
+#: ../../../projectconf/sections/platformio/options/generic/extra_configs.rst:33
+msgid "matches everything"
+msgstr ""
+
+#: ../../../projectconf/sections/platformio/options/generic/extra_configs.rst:35
+msgid "``?``"
+msgstr ""
+
+#: ../../../projectconf/sections/platformio/options/generic/extra_configs.rst:36
+msgid "matches any single character"
+msgstr ""
+
+#: ../../../projectconf/sections/platformio/options/generic/extra_configs.rst:38
+msgid "``[seq]``"
+msgstr ""
+
+#: ../../../projectconf/sections/platformio/options/generic/extra_configs.rst:39
+msgid "matches any character in seq"
+msgstr ""
+
+#: ../../../projectconf/sections/platformio/options/generic/extra_configs.rst:41
+msgid "``[!seq]``"
+msgstr ""
+
+#: ../../../projectconf/sections/platformio/options/generic/extra_configs.rst:42
+msgid "matches any character not in seq"
+msgstr ""
+
+#: ../../../projectconf/sections/platformio/options/generic/extra_configs.rst:45
+msgid ""
+"If you declare the same pair of \"group\" + \"option\" in an extra "
+"configuration file which was previously declared in a base :ref:"
+"`projectconf`, it will be overwritten with a value from extra configuration."
+msgstr ""
+
+#: ../../../projectconf/sections/platformio/options/generic/extra_configs.rst:49
+msgid "**Example**"
+msgstr ""
+
+#: ../../../projectconf/sections/platformio/options/generic/extra_configs.rst:51
+msgid "*Base \"platformio.ini\"*"
+msgstr ""
+
+#: ../../../projectconf/sections/platformio/options/generic/extra_configs.rst:76
+msgid "*\"extra_envs.ini\"*"
+msgstr ""
+
+#: ../../../projectconf/sections/platformio/options/generic/extra_configs.rst:91
+msgid "*\"extra_debug.ini\"*"
+msgstr ""
+
+#: ../../../projectconf/sections/platformio/options/generic/extra_configs.rst:102
+msgid "After a parsing process, configuration state will be the next:"
+msgstr ""

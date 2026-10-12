@@ -1,0 +1,57 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present, PlatformIO
+# This file is distributed under the same license as the PlatformIO package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PlatformIO stable\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-24 14:03+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../scripting/actions.rst:15
+msgid "Pre & Post Actions"
+msgstr ""
+
+#: ../../../scripting/actions.rst:17
+msgid ""
+"The PlatformIO Build System has a rich API that allows one to attach "
+"different pre-/post actions (hooks) using ``env.AddPreAction(target, "
+"callback)`` or ``env.AddPreAction(target, [callback1, callback2, ...])`` "
+"function. The first argument ``target`` can be the name of a target that is "
+"passed using the :option:`pio run --target` command, the name of a built-in "
+"target (buildprog, size, upload, program, buildfs, uploadfs, uploadfsota) or "
+"the path to a file which PlatformIO processes (ELF, HEX, BIN, OBJ, etc.)."
+msgstr ""
+
+#: ../../../scripting/actions.rst:26
+msgid ""
+"The actions can only be applied to the global construction environment (see :"
+"ref:`scripting_envs`)."
+msgstr ""
+
+#: ../../../scripting/actions.rst:29
+msgid "**Examples**"
+msgstr ""
+
+#: ../../../scripting/actions.rst:31
+msgid ""
+"The ``extra_script.py`` file is located in the same directory as :ref:"
+"`projectconf`."
+msgstr ""
+
+#: ../../../scripting/actions.rst:34
+msgid "``platformio.ini``:"
+msgstr ""
+
+#: ../../../scripting/actions.rst:41
+msgid "``extra_script.py``:"
+msgstr ""
