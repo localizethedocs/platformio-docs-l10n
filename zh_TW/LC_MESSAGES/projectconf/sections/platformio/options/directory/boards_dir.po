@@ -1,0 +1,57 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present, PlatformIO
+# This file is distributed under the same license as the PlatformIO package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PlatformIO latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-24 14:02+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../projectconf/sections/platformio/options/directory/boards_dir.rst:15
+msgid "``boards_dir``"
+msgstr ""
+
+#: ../../../projectconf/sections/platformio/options/directory/boards_dir.rst:17
+msgid ""
+"Type: ``DirPath`` | Multiple: ``No`` | Default: \"<Project>/``boards``\""
+msgstr ""
+
+#: ../../../projectconf/sections/platformio/options/directory/boards_dir.rst:19
+msgid ""
+"The location of project-specific board definitions. Each project may choose "
+"a suitable directory name.  The default value is ``boards``, meaning a "
+"\"boards\" directory located in the root of the project."
+msgstr ""
+
+#: ../../../projectconf/sections/platformio/options/directory/boards_dir.rst:23
+msgid "By default, PlatformIO looks for boards in this order:"
+msgstr ""
+
+#: ../../../projectconf/sections/platformio/options/directory/boards_dir.rst:25
+msgid "Project :ref:`projectconf_pio_boards_dir` (as defined by this setting)"
+msgstr ""
+
+#: ../../../projectconf/sections/platformio/options/directory/boards_dir.rst:26
+msgid "Global :ref:`projectconf_pio_core_dir`/boards"
+msgstr ""
+
+#: ../../../projectconf/sections/platformio/options/directory/boards_dir.rst:27
+msgid ""
+"Development platform :ref:`projectconf_pio_core_dir`/platforms/\\*/boards."
+msgstr ""
+
+#: ../../../projectconf/sections/platformio/options/directory/boards_dir.rst:29
+msgid ""
+"This option can also be configured by the global environment variable :"
+"envvar:`PLATFORMIO_BOARDS_DIR`."
+msgstr ""

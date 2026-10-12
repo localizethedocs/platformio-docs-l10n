@@ -1,0 +1,47 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present, PlatformIO
+# This file is distributed under the same license as the PlatformIO package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PlatformIO latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-24 14:02+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../advanced/unit-testing/index.rst:15
+msgid "Unit Testing"
+msgstr ""
+
+#: ../../../advanced/unit-testing/index.rst:17
+msgid ""
+"Unit Testing is a software testing technique that reduces defects in the "
+"newly developed features or reduces bugs when changing the existing "
+"functionality."
+msgstr ""
+
+#: ../../../advanced/unit-testing/index.rst:20
+msgid ""
+"**PlatformIO Unit Testing** allows you to segregate each part of the "
+"firmware/program and test that the individual parts are working correctly. "
+"Using PlatformIO you can execute the same tests on the local host machine "
+"(native), on the multiple local embedded devices/boards (connected to local "
+"host machine), or on both. When testing both, PlatformIO builds firmware on "
+"the host machine, uploads it into a target device, starts tests and collects "
+"the test results into test reports. The final information will be shown on "
+"the host side with informative output and statistics."
+msgstr ""
+
+#: ../../../advanced/unit-testing/index.rst:29
+msgid ""
+"Using :ref:`pioremote` you can start unit tests on the **Remote Device** "
+"from anywhere in the world or integrate with :ref:`ci` systems."
+msgstr ""

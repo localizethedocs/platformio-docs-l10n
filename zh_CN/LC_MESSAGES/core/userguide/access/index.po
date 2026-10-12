@@ -1,0 +1,54 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present, PlatformIO
+# This file is distributed under the same license as the PlatformIO package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PlatformIO latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-24 14:02+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../core/userguide/access/index.rst:15
+msgid "pio access"
+msgstr ""
+
+#: ../../../core/userguide/access/index.rst:17
+msgid "Set access level on published resources (packages) in the registry."
+msgstr ""
+
+#: ../../../core/userguide/access/index.rst:19
+msgid "You must have privileges to set the access of a resource:"
+msgstr ""
+
+#: ../../../core/userguide/access/index.rst:21
+msgid "You are an owner of published resources"
+msgstr ""
+
+#: ../../../core/userguide/access/index.rst:22
+msgid "You are a member of the team that owns a resource"
+msgstr ""
+
+#: ../../../core/userguide/access/index.rst:23
+msgid ""
+"You have been given \"maintainer\" privileges for a package, either as a "
+"member of a team or directly as an owner."
+msgstr ""
+
+#: ../../../core/userguide/access/index.rst:25
+msgid ""
+"Management of teams and team memberships is done with the :ref:`cmd_team` "
+"command."
+msgstr ""
+
+#: ../../../core/userguide/access/index.rst:27
+msgid "To print all available commands and options use:"
+msgstr ""

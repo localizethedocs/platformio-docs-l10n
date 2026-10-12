@@ -1,0 +1,159 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present, PlatformIO
+# This file is distributed under the same license as the PlatformIO package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PlatformIO latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-24 14:02+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../core/userguide/pkg/cmd_uninstall.rst:17
+msgid "pio pkg uninstall"
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_uninstall.rst:19
+msgid "Contents"
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_uninstall.rst:22
+msgid "Usage"
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_uninstall.rst:29
+msgid "Description"
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_uninstall.rst:31
+msgid ""
+"Uninstall the project dependencies or custom packages from the |PIOREGISTRY| "
+"or external sources."
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_uninstall.rst:34
+msgid ""
+"If no custom packages (``--library``, ``--platform``, or ``--tool``) are "
+"specified, the command will uninstall the following project dependencies "
+"based on :ref:`projectconf`:"
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_uninstall.rst:38
+msgid ""
+"Library dependencies declared using the :ref:`projectconf_lib_deps` option"
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_uninstall.rst:39
+msgid ""
+"Development platform declared using the :ref:`projectconf_env_platform` "
+"option and its dependencies (toolchain, framework, SDKs, debugging server, "
+"etc)"
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_uninstall.rst:41
+msgid ""
+"Custom tools declared using the :ref:`projectconf_env_platform_packages` "
+"option."
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_uninstall.rst:43
+msgid "See :ref:`cmd_pkg_install` command for package specification."
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_uninstall.rst:46
+msgid "Options"
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_uninstall.rst:53
+msgid ""
+"Specify the path to project directory. By default, ``--project-dir`` is "
+"equal to current working directory (``CWD``)."
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_uninstall.rst:59
+msgid ""
+"Uninstall project dependencies only for the specified environments. Multiple "
+"environments are allowed."
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_uninstall.rst:65
+msgid ""
+"Uninstall specified development platform using :ref:"
+"`cmd_pkg_install_specifications`. Multiple items are allowed."
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_uninstall.rst:68
+#: ../../../core/userguide/pkg/cmd_uninstall.rst:81
+#: ../../../core/userguide/pkg/cmd_uninstall.rst:94
+msgid "**Examples**"
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_uninstall.rst:78
+msgid ""
+"Uninstall specified tool using :ref:`cmd_pkg_install_specifications`. "
+"Multiple items are allowed."
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_uninstall.rst:91
+msgid ""
+"Uninstall specified library using :ref:`cmd_pkg_install_specifications`. "
+"Multiple items are allowed."
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_uninstall.rst:104
+msgid "Prevent removing specified packages from :ref:`projectconf`."
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_uninstall.rst:109
+msgid ""
+"Uninstall a package and keep its dependencies declared in the manifest :ref:"
+"`manifest_library_json_dependencies` field."
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_uninstall.rst:115
+msgid "Uninstall packages from the global storage:"
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_uninstall.rst:117
+msgid ":ref:`projectconf_pio_platforms_dir` - development platforms"
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_uninstall.rst:118
+msgid ":ref:`projectconf_pio_packages_dir` - tools"
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_uninstall.rst:119
+msgid ":ref:`projectconf_pio_globallib_dir` - libraries."
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_uninstall.rst:124
+msgid "Specify a custom Package Manager storage for global packages."
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_uninstall.rst:129
+msgid "Suppress progress reporting."
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_uninstall.rst:132
+msgid "See Also"
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_uninstall.rst:134
+msgid ":ref:`cmd_pkg_install`"
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_uninstall.rst:135
+msgid ":ref:`cmd_pkg_outdated`"
+msgstr ""
+
+#: ../../../core/userguide/pkg/cmd_uninstall.rst:136
+msgid ":ref:`library_json`"
+msgstr ""
