@@ -1,0 +1,57 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present, PlatformIO
+# This file is distributed under the same license as the PlatformIO package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PlatformIO latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-24 14:02+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../manifests/library-json/fields/authors.rst:15
+msgid "``authors``"
+msgstr ""
+
+#: ../../../manifests/library-json/fields/authors.rst:17
+msgid "*Optional* | Type: ``Object`` or ``Array``"
+msgstr ""
+
+#: ../../../manifests/library-json/fields/authors.rst:19
+msgid "An author contact information"
+msgstr ""
+
+#: ../../../manifests/library-json/fields/authors.rst:21
+msgid "``name`` Full name (**Required**)"
+msgstr ""
+
+#: ../../../manifests/library-json/fields/authors.rst:22
+msgid "``email``"
+msgstr ""
+
+#: ../../../manifests/library-json/fields/authors.rst:23
+msgid "``url`` An author's contact page"
+msgstr ""
+
+#: ../../../manifests/library-json/fields/authors.rst:24
+msgid "``maintainer`` Specify \"maintainer\" status"
+msgstr ""
+
+#: ../../../manifests/library-json/fields/authors.rst:26
+msgid "**Examples**"
+msgstr ""
+
+#: ../../../manifests/library-json/fields/authors.rst:56
+msgid ""
+"If :ref:`manifest_library_json_authors` field is not defined, PlatformIO "
+"will try to fetch data from VCS provider (Github, Gitlab, etc) if :ref:"
+"`manifest_library_json_repository` is declared."
+msgstr ""

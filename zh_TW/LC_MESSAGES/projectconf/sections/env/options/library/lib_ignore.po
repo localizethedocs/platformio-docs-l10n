@@ -1,0 +1,53 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present, PlatformIO
+# This file is distributed under the same license as the PlatformIO package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PlatformIO latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-24 14:02+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../projectconf/sections/env/options/library/lib_ignore.rst:15
+msgid "``lib_ignore``"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/library/lib_ignore.rst:18
+msgid "Please make sure to read :ref:`ldf` guide first."
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/library/lib_ignore.rst:20
+msgid "Type: ``String`` | Multiple: ``Yes``"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/library/lib_ignore.rst:22
+msgid "Specify libraries which should be ignored by Library Dependency Finder."
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/library/lib_ignore.rst:24
+msgid ""
+"The correct value for this option is a library name (not folder name). You "
+"will see these names in \"Library Dependency Graph\" when building a project "
+"between ``<`` and ``>`` symbols."
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/library/lib_ignore.rst:28
+msgid "**Example:**"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/library/lib_ignore.rst:30
+msgid "``Build output``"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/library/lib_ignore.rst:55
+msgid "``platformio.ini``"
+msgstr ""

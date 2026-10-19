@@ -1,0 +1,83 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present, PlatformIO
+# This file is distributed under the same license as the PlatformIO package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PlatformIO latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-24 14:02+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../platforms/index.rst:15
+msgid "Development Platforms"
+msgstr ""
+
+#: ../../../platforms/index.rst:17
+msgid ""
+"The PlatformIO ecosystem has a decentralized architecture, allowing "
+"development for a range of *development platforms*. A development platform "
+"(or just \"platform\" for short) is usually a particular microcontroller or "
+"processor architecture that PlatformIO projects can be compiled to run on. "
+"(A few platforms, for example Teensy, use different target architectures for "
+"different boards.)"
+msgstr ""
+
+#: ../../../platforms/index.rst:24
+msgid ""
+"Each of the three supported host systems Mac OS X, Linux and Windows support "
+"compiling for all platforms listed below. Some platforms are also supported "
+"under ARM Linux hosts such as Raspberry Pi. For each development platform, "
+"PlatformIO defines:"
+msgstr ""
+
+#: ../../../platforms/index.rst:29
+msgid ""
+"The **PlatformIO Build System** build scripts for the supported frameworks "
+"and SDKs"
+msgstr ""
+
+#: ../../../platforms/index.rst:31
+msgid "Pre-configured presets for embedded circuit boards"
+msgstr ""
+
+#: ../../../platforms/index.rst:32
+msgid "Pre-compiled toolchains and related tools for the architecture(s)"
+msgstr ""
+
+#: ../../../platforms/index.rst:34
+msgid ""
+"Each project must specify the platform name using the :ref:"
+"`projectconf_env_platform` option in :ref:`projectconf`. A specific platform "
+"version can optionally be specified as well. As embedded boards are equipped "
+"with a particular microcontroller, each embedded board specifies what "
+"development platform it uses and this can not be changed."
+msgstr ""
+
+#: ../../../platforms/index.rst:41
+msgid ""
+"If a new board uses an architecture not in this list, a custom development "
+"platform can be created; see :ref:`platform_creating`."
+msgstr ""
+
+#: ../../../platforms/index.rst:44
+msgid ""
+"The full list of supported development platforms is accessible on the "
+"`PlatformIO Registry <https://registry.platformio.org/search?t=platform>`__."
+msgstr ""
+
+#: ../../../platforms/index.rst:48
+msgid "Embedded"
+msgstr ""
+
+#: ../../../platforms/index.rst:85
+msgid "Desktop"
+msgstr ""
