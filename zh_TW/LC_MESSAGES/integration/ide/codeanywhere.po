@@ -1,0 +1,286 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present, PlatformIO
+# This file is distributed under the same license as the PlatformIO package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PlatformIO stable\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-24 14:03+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../integration/ide/codeanywhere.rst:15
+msgid "Codeanywhere"
+msgstr ""
+
+#: ../../../integration/ide/codeanywhere.rst:17
+msgid ""
+"`Codeanywhere <https://codeanywhere.com>`_ is a Cross Platform Cloud IDE and "
+"it has all the features of Desktop IDE but with additional features only a "
+"cloud application can give you! Codeanywhere is very flexible and you can "
+"set up your workflow any way you want it. The elegant development "
+"environment will let you focus on building great applications quicker. All "
+"the features you will need for any coding task are built into Codeanywhere, "
+"making development more productive and fun."
+msgstr ""
+
+#: ../../../integration/ide/codeanywhere.rst:25
+msgid "Contents"
+msgstr ""
+
+#: ../../../integration/ide/codeanywhere.rst:29
+msgid "Please make sure to read :ref:`pioremote` guide first."
+msgstr ""
+
+#: ../../../integration/ide/codeanywhere.rst:30
+msgid "You need :ref:`pioaccount` if you don't have it. Registration is FREE."
+msgstr ""
+
+#: ../../../integration/ide/codeanywhere.rst:31
+msgid ""
+"You should have a running :ref:`cmd_remote_agent` on a remote machine where "
+"hardware devices are connected physically or accessible for the remote "
+"operations. See **Remote Development** :ref:`pio_remote_quickstart` for "
+"details."
+msgstr ""
+
+#: ../../../integration/ide/codeanywhere.rst:36
+msgid "Demo"
+msgstr ""
+
+#: ../../../integration/ide/codeanywhere.rst:42
+msgid "Integration"
+msgstr ""
+
+#: ../../../integration/ide/codeanywhere.rst:44
+msgid ""
+"`Sign in to Codeanywhere <https://codeanywhere.com>`_. A registration is "
+"FREE and gives you unlimited private projects within the one Container."
+msgstr ""
+
+#: ../../../integration/ide/codeanywhere.rst:47
+msgid "Open `Dashboard Projects <https://codeanywhere.com/dashboard#project>`_"
+msgstr ""
+
+#: ../../../integration/ide/codeanywhere.rst:49
+msgid ""
+"Create a new Project and open it. In Connection Wizard create new Container:"
+msgstr ""
+
+#: ../../../integration/ide/codeanywhere.rst:51
+msgid "**Name** set to \"PlatformIO\""
+msgstr ""
+
+#: ../../../integration/ide/codeanywhere.rst:52
+msgid ""
+"**Stack** search for ``Python`` stack (not Python3) that is based on Ubuntu "
+"OS."
+msgstr ""
+
+#: ../../../integration/ide/codeanywhere.rst:54
+msgid "Click on \"Create\" button."
+msgstr ""
+
+#: ../../../integration/ide/codeanywhere.rst:58
+msgid ""
+"Open **SSH-Terminal** tab (right click on ``Container (PlatformIO) > SSH "
+"Terminal``) and install :ref:`piocore` using a next command"
+msgstr ""
+
+#: ../../../integration/ide/codeanywhere.rst:68
+msgid "Log in to :ref:`pioaccount` using :ref:`cmd_account_login` command."
+msgstr ""
+
+#: ../../../integration/ide/codeanywhere.rst:72
+msgid "Quick Start"
+msgstr ""
+
+#: ../../../integration/ide/codeanywhere.rst:74
+msgid "Let's create our first PlatformIO-based Codeanywhere Project"
+msgstr ""
+
+#: ../../../integration/ide/codeanywhere.rst:76
+msgid ""
+"Initialize new PlatformIO-based Project. Run a next command in a Cloud IDE "
+"SSH Terminal:"
+msgstr ""
+
+#: ../../../integration/ide/codeanywhere.rst:86
+msgid ""
+"To get board ``ID`` please use :ref:`cmd_boards` command or `Embedded Boards "
+"Explorer <https://platformio.org/boards>`_."
+msgstr ""
+
+#: ../../../integration/ide/codeanywhere.rst:89
+msgid ""
+"If you do not see created project, please refresh Project Tree using right-"
+"click on ``Container Name (PlatformIO) > Refresh``."
+msgstr ""
+
+#: ../../../integration/ide/codeanywhere.rst:92
+msgid ""
+"Create new source file named ``main.cpp`` in ``src`` folder using Project "
+"Tree (left side). Please make right click on ``src`` folder, then \"Create "
+"File\" and insert a next content:"
+msgstr ""
+
+#: ../../../integration/ide/codeanywhere.rst:120
+msgid ""
+"If you prefer to work with :ref:`piocore` CLI, then you can process project "
+"using Cloud IDE SSH Terminal and the next commands:"
+msgstr ""
+
+#: ../../../integration/ide/codeanywhere.rst:123
+msgid ""
+":ref:`cmd_run` - build project locally (using Cloud IDE's virtual machine)"
+msgstr ""
+
+#: ../../../integration/ide/codeanywhere.rst:124
+msgid ":ref:`pio run -t clean <cmd_run>` - clean project"
+msgstr ""
+
+#: ../../../integration/ide/codeanywhere.rst:125
+msgid ""
+":ref:`pio remote run -t upload <cmd_remote_run>` - upload firmware (program) "
+"to a remote device"
+msgstr ""
+
+#: ../../../integration/ide/codeanywhere.rst:126
+msgid ":ref:`cmd_remote_device_list` - list available remote devices"
+msgstr ""
+
+#: ../../../integration/ide/codeanywhere.rst:127
+msgid ":ref:`cmd_remote_device_monitor` - Remote Serial Port Monitor"
+msgstr ""
+
+#: ../../../integration/ide/codeanywhere.rst:129
+msgid ""
+"We recommend to hide \"Hidden Files\". You can do that via ``Cloud IDE Menu: "
+"View > Show Hidden Files``."
+msgstr ""
+
+#: ../../../integration/ide/codeanywhere.rst:133
+msgid "Run Button"
+msgstr ""
+
+#: ../../../integration/ide/codeanywhere.rst:135
+msgid ""
+"Codeanywhere provides a quick \"Run Project\" button where you can specify "
+"own command. Let's add \"PlatformIO Build Project\" command:"
+msgstr ""
+
+#: ../../../integration/ide/codeanywhere.rst:138
+msgid ""
+"Open \"Project Config\" via right click on ``Container Name (PlatformIO) > "
+"Config``"
+msgstr ""
+
+#: ../../../integration/ide/codeanywhere.rst:139
+msgid "Set ``commands`` field to"
+msgstr ""
+
+#: ../../../integration/ide/codeanywhere.rst:147
+msgid "Save configuration file."
+msgstr ""
+
+#: ../../../integration/ide/codeanywhere.rst:149
+msgid ""
+"Now, try to click on \"Run Project\" button. You can assign any PlatformIO "
+"command to this button."
+msgstr ""
+
+#: ../../../integration/ide/codeanywhere.rst:155
+msgid "Remote Device Manager"
+msgstr ""
+
+#: ../../../integration/ide/codeanywhere.rst:157
+msgid ""
+"Remote Device Manager works in pair with :ref:`pioremote`. You can list "
+"remote devices that are connected to host machine where :ref:"
+"`cmd_remote_agent` is started or are visible for it."
+msgstr ""
+
+#: ../../../integration/ide/codeanywhere.rst:161
+#: ../../../integration/ide/codeanywhere.rst:176
+#: ../../../integration/ide/codeanywhere.rst:193
+msgid "Open Cloud IDE SSH Terminal"
+msgstr ""
+
+#: ../../../integration/ide/codeanywhere.rst:162
+#: ../../../integration/ide/codeanywhere.rst:177
+#: ../../../integration/ide/codeanywhere.rst:194
+msgid "Paste this command"
+msgstr ""
+
+#: ../../../integration/ide/codeanywhere.rst:171
+msgid "Remote Firmware Uploading"
+msgstr ""
+
+#: ../../../integration/ide/codeanywhere.rst:173
+msgid ""
+"Remote Firmware Uploading works in pair with :ref:`pioremote`. You can "
+"deploy firmware to any devices which are visible for :ref:`cmd_remote_agent`."
+msgstr ""
+
+#: ../../../integration/ide/codeanywhere.rst:186
+msgid "Remote Serial Port Monitor"
+msgstr ""
+
+#: ../../../integration/ide/codeanywhere.rst:188
+msgid ""
+"Remote Serial Port Monitor works in pair with :ref:`pioremote`. You can read "
+"or send data to any device that is connected to host machine where :ref:"
+"`cmd_remote_agent` is started. To list active agents please use this "
+"command :ref:`cmd_remote_agent_list`."
+msgstr ""
+
+#: ../../../integration/ide/codeanywhere.rst:203
+msgid "Multi-Project workspace"
+msgstr ""
+
+#: ../../../integration/ide/codeanywhere.rst:205
+msgid ""
+"You can have multiple PlatformIO-based Projects in the same workspace. We "
+"recommend a next folders structure:"
+msgstr ""
+
+#: ../../../integration/ide/codeanywhere.rst:224
+msgid ""
+"In this case, you need to use ``-d, --project-dir`` option for :ref:"
+"`cmd_run` or :ref:`cmd_remote_run` commands:"
+msgstr ""
+
+#: ../../../integration/ide/codeanywhere.rst:227
+msgid "``pio remote run --project-dir project-A -t upload`` build Project-A"
+msgstr ""
+
+#: ../../../integration/ide/codeanywhere.rst:228
+msgid ""
+"``pio remote run --project-dir project-A -t upload`` remote firmware "
+"uploading"
+msgstr ""
+
+#: ../../../integration/ide/codeanywhere.rst:229
+msgid "using Project-A"
+msgstr ""
+
+#: ../../../integration/ide/codeanywhere.rst:230
+msgid ""
+"``pio remote run -d project-B -t upload`` remote firmware (program) uploading"
+msgstr ""
+
+#: ../../../integration/ide/codeanywhere.rst:231
+msgid "using Project-B"
+msgstr ""
+
+#: ../../../integration/ide/codeanywhere.rst:233
+msgid "See documentation for :option:`pio remote run --project-dir` option."
+msgstr ""

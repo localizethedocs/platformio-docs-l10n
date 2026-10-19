@@ -1,0 +1,38 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present, PlatformIO
+# This file is distributed under the same license as the PlatformIO package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PlatformIO stable\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-24 14:03+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../projectconf/sections/env/options/upload/upload_protocol.rst:15
+msgid "``upload_protocol``"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/upload/upload_protocol.rst:17
+msgid "Type: ``String`` | Multiple: ``No``"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/upload/upload_protocol.rst:19
+msgid ""
+"A protocol that \"uploader\" tool uses to talk to a board. Please check :ref:"
+"`boards` for supported uploading protocols by your board."
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/upload/upload_protocol.rst:23
+msgid ""
+"``upload_protocol = custom`` allows one to use a custom ``upload_command`` - "
+"see below."
+msgstr ""

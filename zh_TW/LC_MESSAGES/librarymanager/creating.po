@@ -1,0 +1,106 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present, PlatformIO
+# This file is distributed under the same license as the PlatformIO package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PlatformIO stable\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-24 14:03+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../librarymanager/creating.rst:15
+msgid "Creating Library"
+msgstr ""
+
+#: ../../../librarymanager/creating.rst:17
+msgid ""
+"Managing components between the projects is a historical issue. A common "
+"code is duplicated between different projects that lead to project "
+"complexity. A good practice is to organize interdependent components as the "
+"separate libraries where other projects can depend on them."
+msgstr ""
+
+#: ../../../librarymanager/creating.rst:22
+msgid ""
+"PlatformIO has a built-in :ref:`librarymanager` where developers can declare "
+"project dependencies and PlatformIO will automatically manage them (install, "
+"build, update). It doesn't have any requirements for a library source code "
+"structure. The only requirement is a library manifest file - :ref:"
+"`library_json`, `library.properties <https://github.com/arduino/Arduino/wiki/"
+"Arduino-IDE-1.5:-Library-specification#library-metadata>`_, or `module.json "
+"<http://docs.yottabuild.org/reference/module.html>`_. It must be located in "
+"the root of a library."
+msgstr ""
+
+#: ../../../librarymanager/creating.rst:29
+msgid ""
+"We highly recommend using :ref:`library_json` for better compatibility and "
+"avoiding any issues."
+msgstr ""
+
+#: ../../../librarymanager/creating.rst:32
+msgid "Contents"
+msgstr ""
+
+#: ../../../librarymanager/creating.rst:35
+msgid "Structure"
+msgstr ""
+
+#: ../../../librarymanager/creating.rst:37
+msgid ""
+"We recommend to use ``src`` folder for your C/C++ source files and "
+"``include`` folder for your headers. You can also have nested sub-folders in "
+"``src`` or ``include``."
+msgstr ""
+
+#: ../../../librarymanager/creating.rst:40
+#: ../../../librarymanager/creating.rst:57
+msgid "**Example**"
+msgstr ""
+
+#: ../../../librarymanager/creating.rst:53
+msgid "Manifest"
+msgstr ""
+
+#: ../../../librarymanager/creating.rst:55
+msgid ""
+"A library package must contain a manifest. We recommend using :ref:"
+"`library_json`."
+msgstr ""
+
+#: ../../../librarymanager/creating.rst:96
+msgid "Publishing"
+msgstr ""
+
+#: ../../../librarymanager/creating.rst:98
+msgid ""
+"You can publish a library to the `PlatformIO Registry <https://platformio."
+"org/lib>`__ using :ref:`cmd_pkg_publish` command. Every time when you modify "
+"a source code of a library you will need to increment the \"version\" field "
+"in :ref:`library_json` manifest and re-publish again."
+msgstr ""
+
+#: ../../../librarymanager/creating.rst:103
+msgid ""
+"If the published library has an issue and you would like to remove it from "
+"the PlatformIO Registry, please use :ref:`cmd_pkg_unpublish` command."
+msgstr ""
+
+#: ../../../librarymanager/creating.rst:107
+msgid "Examples"
+msgstr "範例"
+
+#: ../../../librarymanager/creating.rst:109
+msgid ""
+"See the published libraries in `PlatformIO Registry <https://platformio.org/"
+"lib>`__."
+msgstr ""
