@@ -8,10 +8,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PlatformIO latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-24 14:02+0000\n"
+"POT-Creation-Date: 2026-10-26 16:19+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -63,9 +64,9 @@ msgstr ""
 
 #: ../../../integration/ci/travis.rst:47
 msgid ""
-"Please make sure to read Travis CI `Getting Started <http://docs.travis-ci."
-"com/user/getting-started/>`_ and `general build configuration <http://docs."
-"travis-ci.com/user/customizing-the-build/>`_ guides first."
+"Please make sure to read Travis CI `Getting Started <http://docs.travis-"
+"ci.com/user/getting-started/>`_ and `general build configuration <http://"
+"docs.travis-ci.com/user/customizing-the-build/>`_ guides first."
 msgstr ""
 
 #: ../../../integration/ci/travis.rst:52
@@ -134,8 +135,8 @@ msgstr ""
 
 #: ../../../integration/ci/travis.rst:159
 msgid ""
-"PlatformIO allows one to specify own build flags using :envvar:"
-"`PLATFORMIO_BUILD_FLAGS` environment"
+"PlatformIO allows one to specify own build flags "
+"using :envvar:`PLATFORMIO_BUILD_FLAGS` environment"
 msgstr ""
 
 #: ../../../integration/ci/travis.rst:173
@@ -196,8 +197,8 @@ msgstr ""
 
 #: ../../../integration/ci/travis.rst:307
 msgid ""
-"Configuration file: https://github.com/ivankravets/Time/blob/master/.travis."
-"yml"
+"Configuration file: https://github.com/ivankravets/Time/blob/"
+"master/.travis.yml"
 msgstr ""
 
 #: ../../../integration/ci/travis.rst:308
@@ -210,8 +211,8 @@ msgstr ""
 
 #: ../../../integration/ci/travis.rst:359
 msgid ""
-"Configuration file: https://github.com/blynkkk/blynk-library/blob/master/."
-"travis.yml"
+"Configuration file: https://github.com/blynkkk/blynk-library/blob/"
+"master/.travis.yml"
 msgstr ""
 
 #: ../../../integration/ci/travis.rst:360

@@ -37,9 +37,9 @@
     "branch" : "develop",
     "commit" : 
     {
-      "date" : "2026-07-08 14:50:43 +0300",
-      "hash" : "a0efc7f48566c967333d505086973354b60a35a0",
-      "title" : "Bump version to 6.2.0a3"
+      "date" : "2026-10-16 12:30:40 +0300",
+      "hash" : "d8c21353ee2eccae6ecb5a3a95f8e75612e8887a",
+      "title" : "Remove redundant chardet depends for MacOS (#5530)"
     }
   },
   "type" : "branch",

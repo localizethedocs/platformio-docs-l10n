@@ -8,10 +8,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PlatformIO latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-24 14:02+0000\n"
+"POT-Creation-Date: 2026-10-26 16:19+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -48,9 +49,9 @@ msgstr ""
 
 #: ../../../platforms/atmelavr.rst:24
 msgid ""
-"For more detailed information please visit `vendor site <http://www.atmel."
-"com/products/microcontrollers/avr/default.aspx?utm_source=platformio."
-"org&utm_medium=docs>`_."
+"For more detailed information please visit `vendor site <http://"
+"www.atmel.com/products/microcontrollers/avr/default.aspx?"
+"utm_source=platformio.org&utm_medium=docs>`_."
 msgstr ""
 
 #: ../../../platforms/atmelavr.rst:28
@@ -64,9 +65,9 @@ msgstr ""
 #: ../../../platforms/atmelavr_extra.rst:23
 msgid ""
 "In the case of external programmers, it's easy to brick a board simply by "
-"specifying incorrect upload flags. It's highly recommended to use the :ref:"
-"`projectconf_upload_command` option that gives the full control over flags "
-"used for uploading."
+"specifying incorrect upload flags. It's highly recommended to use "
+"the :ref:`projectconf_upload_command` option that gives the full control "
+"over flags used for uploading."
 msgstr ""
 
 #: ../../../platforms/atmelavr_extra.rst:29
@@ -132,8 +133,8 @@ msgid ""
 "bootloader or setting fuses. AVRDUDE provides a special flag ``-e`` that "
 "causes a chip erase to be executed. This will reset the contents of the "
 "flash ROM and EEPROM to the value ``0xff``, and clear all lock bits. The "
-"easiest way to use it is to add this flag via the :ref:"
-"`projectconf_upload_flags` option:"
+"easiest way to use it is to add this flag via "
+"the :ref:`projectconf_upload_flags` option:"
 msgstr ""
 
 #: ../../../platforms/atmelavr_extra.rst:240
@@ -144,10 +145,10 @@ msgstr ""
 msgid ""
 "PlatformIO has a built-in target called ``fuses`` for setting fuse bits. The "
 "default fuse bits are predefined in the board manifest file in the ``fuses`` "
-"section. For example, `fuses section for Arduino Uno board <https://github."
-"com/platformio/platform-atmelavr/blob/develop/boards/uno.json>`_. To set "
-"fuse bits you need to use target ``fuses`` with :option:`pio run --target` "
-"command."
+"section. For example, `fuses section for Arduino Uno board <https://"
+"github.com/platformio/platform-atmelavr/blob/develop/boards/uno.json>`_. To "
+"set fuse bits you need to use target ``fuses`` with :option:`pio run --"
+"target` command."
 msgstr ""
 
 #: ../../../platforms/atmelavr_extra.rst:248
@@ -475,9 +476,9 @@ msgstr ""
 
 #: ../../../platforms/atmelavr_extra.rst:474
 msgid ""
-"Custom bootloader and accompanying fuses should be specified in :ref:"
-"`projectconf`. If ``lock_bits`` and ``unlock_bits`` are not set then the "
-"default values ``0x0F`` and ``0x3F`` are used accordingly. An example of "
+"Custom bootloader and accompanying fuses should be specified "
+"in :ref:`projectconf`. If ``lock_bits`` and ``unlock_bits`` are not set then "
+"the default values ``0x0F`` and ``0x3F`` are used accordingly. An example of "
 "setting custom bootloader for ``uno`` board:"
 msgstr ""
 
@@ -689,15 +690,15 @@ msgstr ""
 #: ../../../platforms/atmelavr.rst:40
 msgid ""
 "`arduino-own-src_dir <https://github.com/platformio/platform-atmelavr/tree/"
-"master/examples/arduino-own-src_dir?utm_source=platformio."
-"org&utm_medium=docs>`_"
+"master/examples/arduino-own-src_dir?"
+"utm_source=platformio.org&utm_medium=docs>`_"
 msgstr ""
 
 #: ../../../platforms/atmelavr.rst:41
 msgid ""
 "`engduino-magnetometer <https://github.com/platformio/platform-atmelavr/tree/"
-"master/examples/engduino-magnetometer?utm_source=platformio."
-"org&utm_medium=docs>`_"
+"master/examples/engduino-magnetometer?"
+"utm_source=platformio.org&utm_medium=docs>`_"
 msgstr ""
 
 #: ../../../platforms/atmelavr.rst:42
@@ -709,15 +710,15 @@ msgstr ""
 #: ../../../platforms/atmelavr.rst:43
 msgid ""
 "`arduino-internal-libs <https://github.com/platformio/platform-atmelavr/tree/"
-"master/examples/arduino-internal-libs?utm_source=platformio."
-"org&utm_medium=docs>`_"
+"master/examples/arduino-internal-libs?"
+"utm_source=platformio.org&utm_medium=docs>`_"
 msgstr ""
 
 #: ../../../platforms/atmelavr.rst:44
 msgid ""
 "`arduino-external-libs <https://github.com/platformio/platform-atmelavr/tree/"
-"master/examples/arduino-external-libs?utm_source=platformio."
-"org&utm_medium=docs>`_"
+"master/examples/arduino-external-libs?"
+"utm_source=platformio.org&utm_medium=docs>`_"
 msgstr ""
 
 #: ../../../platforms/atmelavr.rst:47
@@ -2493,8 +2494,8 @@ msgstr ""
 msgid ""
 "You can switch between `stable releases <https://github.com/platformio/"
 "platform-atmelavr/releases>`__ of Atmel AVR development platform and the "
-"latest upstream version using :ref:`projectconf_env_platform` option in :ref:"
-"`projectconf` as described below."
+"latest upstream version using :ref:`projectconf_env_platform` option "
+"in :ref:`projectconf` as described below."
 msgstr ""
 
 #: ../../../platforms/atmelavr.rst:924

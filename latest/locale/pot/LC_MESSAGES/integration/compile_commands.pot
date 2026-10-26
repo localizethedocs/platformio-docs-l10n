@@ -8,10 +8,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PlatformIO latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-24 14:02+0000\n"
+"POT-Creation-Date: 2026-10-26 16:19+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -22,10 +23,10 @@ msgstr ""
 
 #: ../../../integration/compile_commands.rst:18
 msgid ""
-"A `compilation database <https://clang.llvm.org/docs/JSONCompilationDatabase."
-"html>`_ is a `JSON-formatted <https://www.json.org/>`_ file named "
-"``compile_commands.json`` that contains structured data about every "
-"compilation unit in your project."
+"A `compilation database <https://clang.llvm.org/docs/"
+"JSONCompilationDatabase.html>`_ is a `JSON-formatted <https://www.json.org/"
+">`_ file named ``compile_commands.json`` that contains structured data about "
+"every compilation unit in your project."
 msgstr ""
 
 #: ../../../integration/compile_commands.rst:22
@@ -37,8 +38,8 @@ msgstr ""
 
 #: ../../../integration/compile_commands.rst:26
 msgid ""
-"The following build variables can be used for customization using :ref:"
-"`scripting`:"
+"The following build variables can be used for customization "
+"using :ref:`scripting`:"
 msgstr ""
 
 #: ../../../integration/compile_commands.rst:32

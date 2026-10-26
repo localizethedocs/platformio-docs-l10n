@@ -8,10 +8,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PlatformIO latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-24 14:02+0000\n"
+"POT-Creation-Date: 2026-10-26 16:19+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -86,8 +87,8 @@ msgstr ""
 
 #: ../../../integration/ide/eclipseche.rst:55
 msgid ""
-"Using opened Terminal, please log in to :ref:`pioaccount` using :ref:"
-"`cmd_account_login` command."
+"Using opened Terminal, please log in to :ref:`pioaccount` "
+"using :ref:`cmd_account_login` command."
 msgstr ""
 
 #: ../../../integration/ide/eclipseche.rst:60
@@ -152,8 +153,8 @@ msgstr ""
 
 #: ../../../integration/ide/eclipseche.rst:108
 msgid ""
-"In this case, you need to use ``-d, --project-dir`` option for :ref:"
-"`cmd_run` or :ref:`cmd_remote_run` commands:"
+"In this case, you need to use ``-d, --project-dir`` option "
+"for :ref:`cmd_run` or :ref:`cmd_remote_run` commands:"
 msgstr ""
 
 #: ../../../integration/ide/eclipseche.rst:111
