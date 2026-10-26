@@ -8,10 +8,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PlatformIO stable\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-24 14:03+0000\n"
+"POT-Creation-Date: 2026-10-26 16:19+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -64,8 +65,8 @@ msgstr ""
 #: ../../../integration/ide/vim.rst:38
 msgid ""
 "Choose board ``ID`` using :ref:`cmd_boards` or `Embedded Boards Explorer "
-"<https://platformio.org/boards>`_ command and generate project via :option:"
-"`pio project init --ide` command:"
+"<https://platformio.org/boards>`_ command and generate project "
+"via :option:`pio project init --ide` command:"
 msgstr ""
 
 #: ../../../integration/ide/vim.rst:46
@@ -87,8 +88,8 @@ msgstr ""
 
 #: ../../../integration/ide/vim.rst:53
 msgid ""
-"`Async language server protocol plugin for vim and neovim <https://github."
-"com/prabirshrestha/vim-lsp>`_"
+"`Async language server protocol plugin for vim and neovim <https://"
+"github.com/prabirshrestha/vim-lsp>`_"
 msgstr ""
 
 #: ../../../integration/ide/vim.rst:54
@@ -144,8 +145,8 @@ msgstr ""
 
 #: ../../../integration/ide/vim.rst:99
 msgid ""
-"If hotkey doesn't work for you, try to add this line ``nnoremap <C-b> :"
-"make<CR>`` to ``~/.vimrc``"
+"If hotkey doesn't work for you, try to add this line ``nnoremap <C-"
+"b> :make<CR>`` to ``~/.vimrc``"
 msgstr ""
 
 #: ../../../integration/ide/vim.rst:103
@@ -155,6 +156,6 @@ msgstr ""
 #: ../../../integration/ide/vim.rst:105
 msgid ""
 "`コマンドラインでArduino開発 : vim + platformio (Arduino development at the "
-"command line: VIM + PlatformIO, Japanese) <http://qiita.com/caad1229/"
-"items/7b5fb47f034ae6e0baf2>`_"
+"command line: VIM + PlatformIO, Japanese) <http://qiita.com/caad1229/items/"
+"7b5fb47f034ae6e0baf2>`_"
 msgstr ""

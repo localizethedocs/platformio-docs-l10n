@@ -8,10 +8,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PlatformIO stable\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-24 14:03+0000\n"
+"POT-Creation-Date: 2026-10-26 16:19+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -79,9 +80,9 @@ msgstr ""
 
 #: ../../../advanced/unit-testing/frameworks/googletest.rst:39
 msgid ""
-"To get started with the GoogleTest all you need is to set the :ref:"
-"`projectconf_test_framework` option in your :ref:`projectconf` to the "
-"``googletest`` and implement your own ``main()`` function:"
+"To get started with the GoogleTest all you need is to set "
+"the :ref:`projectconf_test_framework` option in your :ref:`projectconf` to "
+"the ``googletest`` and implement your own ``main()`` function:"
 msgstr ""
 
 #: ../../../advanced/unit-testing/frameworks/googletest.rst:43
@@ -142,20 +143,23 @@ msgstr ""
 
 #: ../../../advanced/unit-testing/frameworks/googletest.rst:124
 msgid ""
-"`Mocking for Dummies <https://google.github.io/googletest/gmock_for_dummies."
-"html>`_ - Teaches you how to create mock objects and use them in tests"
+"`Mocking for Dummies <https://google.github.io/googletest/"
+"gmock_for_dummies.html>`_ - Teaches you how to create mock objects and use "
+"them in tests"
 msgstr ""
 
 #: ../../../advanced/unit-testing/frameworks/googletest.rst:125
 msgid ""
-"`Mocking Cookbook <https://google.github.io/googletest/gmock_cook_book."
-"html>`_ - Includes tips and approaches to common mocking use cases"
+"`Mocking Cookbook <https://google.github.io/googletest/"
+"gmock_cook_book.html>`_ - Includes tips and approaches to common mocking use "
+"cases"
 msgstr ""
 
 #: ../../../advanced/unit-testing/frameworks/googletest.rst:126
 msgid ""
-"`Mocking Cheat Sheet <https://google.github.io/googletest/gmock_cheat_sheet."
-"html>`_ - A handy reference for matchers, actions, invariants, and more"
+"`Mocking Cheat Sheet <https://google.github.io/googletest/"
+"gmock_cheat_sheet.html>`_ - A handy reference for matchers, actions, "
+"invariants, and more"
 msgstr ""
 
 #: ../../../advanced/unit-testing/frameworks/googletest.rst:127

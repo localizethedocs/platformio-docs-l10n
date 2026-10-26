@@ -8,10 +8,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PlatformIO stable\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-24 14:03+0000\n"
+"POT-Creation-Date: 2026-10-26 16:19+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -27,9 +28,10 @@ msgid ""
 "FDTI's flagship communication chip FT2232H, a USB 2.0 Hi-Speed (480Mb/s) to "
 "UART/FIFO IC. It has two multi-protocol synchronous serial engines (MPSSEs) "
 "which allow for communication using JTAG, I2C and SPI on two channels "
-"simultaneously. Official reference can be found `here <https://www.diygadget."
-"com/jtag-cables-and-microcontroller-programmers/114-tiao-usb-multi-protocol-"
-"adapter-jtag-spi-i2c-serial.html?utm_source=platformio&utm_medium=docs>`__."
+"simultaneously. Official reference can be found `here <https://"
+"www.diygadget.com/jtag-cables-and-microcontroller-programmers/114-tiao-usb-"
+"multi-protocol-adapter-jtag-spi-i2c-serial.html?"
+"utm_source=platformio&utm_medium=docs>`__."
 msgstr ""
 
 #: ../../../plus/debug-tools/tumpa.rst:29
@@ -74,8 +76,8 @@ msgstr ""
 
 #: ../../../plus/debug-tools/_common_jtag_drivers.rst:16
 msgid ""
-"`Step-by-step guide: Drivers, Zadig, Wiring <https://community.platformio."
-"org/t/esp32-pio-unified-debugger/4541/20>`_"
+"`Step-by-step guide: Drivers, Zadig, Wiring <https://"
+"community.platformio.org/t/esp32-pio-unified-debugger/4541/20>`_"
 msgstr ""
 
 #: ../../../plus/debug-tools/_common_jtag_drivers.rst:17
@@ -996,6 +998,7 @@ msgstr ""
 #: ../../../plus/debug-tools/tumpa.rst:835
 #: ../../../plus/debug-tools/tumpa.rst:842
 #: ../../../plus/debug-tools/tumpa.rst:877
+#: ../../../plus/debug-tools/tumpa.rst:1031
 #: ../../../plus/debug-tools/tumpa.rst:1115
 #: ../../../plus/debug-tools/tumpa.rst:1122
 #: ../../../plus/debug-tools/tumpa.rst:1227
@@ -1359,7 +1362,6 @@ msgstr ""
 #: ../../../plus/debug-tools/tumpa.rst:1003
 #: ../../../plus/debug-tools/tumpa.rst:1017
 #: ../../../plus/debug-tools/tumpa.rst:1024
-#: ../../../plus/debug-tools/tumpa.rst:1031
 #: ../../../plus/debug-tools/tumpa.rst:1038
 #: ../../../plus/debug-tools/tumpa.rst:1045
 #: ../../../plus/debug-tools/tumpa.rst:1059

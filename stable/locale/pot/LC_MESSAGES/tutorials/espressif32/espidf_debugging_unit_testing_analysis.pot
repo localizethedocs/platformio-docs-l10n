@@ -8,10 +8,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PlatformIO stable\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-24 14:03+0000\n"
+"POT-Creation-Date: 2026-10-26 16:19+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -24,9 +25,9 @@ msgstr ""
 
 #: ../../../tutorials/espressif32/espidf_debugging_unit_testing_analysis.rst:17
 msgid ""
-"The goal of this tutorial is to demonstrate how simple it is to use :ref:"
-"`ide_vscode` to develop, run and debug a simple Wi-Fi project with the :ref:"
-"`framework_espidf` framework for the ``ESP32-DevKitC`` board."
+"The goal of this tutorial is to demonstrate how simple it is to "
+"use :ref:`ide_vscode` to develop, run and debug a simple Wi-Fi project with "
+"the :ref:`framework_espidf` framework for the ``ESP32-DevKitC`` board."
 msgstr ""
 
 #: ../../../tutorials/espressif32/espidf_debugging_unit_testing_analysis.rst:21
@@ -103,8 +104,8 @@ msgstr ""
 
 #: ../../../tutorials/espressif32/espidf_debugging_unit_testing_analysis.rst:166
 msgid ""
-"Task Menu ``Tasks: Run Task... > PlatformIO: Build`` or in :ref:"
-"`ide_vscode_toolbar`"
+"Task Menu ``Tasks: Run Task... > PlatformIO: Build`` or "
+"in :ref:`ide_vscode_toolbar`"
 msgstr ""
 
 #: ../../../tutorials/espressif32/espidf_debugging_unit_testing_analysis.rst:167
@@ -304,9 +305,9 @@ msgstr ""
 
 #: ../../../tutorials/espressif32/espidf_debugging_unit_testing_analysis.rst:333
 msgid ""
-"Create a new file ``test_calc.c`` to the folder :ref:"
-"`projectconf_pio_test_dir` and add basic tests for the ``calculator`` "
-"library:"
+"Create a new file ``test_calc.c`` to the "
+"folder :ref:`projectconf_pio_test_dir` and add basic tests for the "
+"``calculator`` library:"
 msgstr ""
 
 #: ../../../tutorials/espressif32/espidf_debugging_unit_testing_analysis.rst:383
@@ -328,8 +329,8 @@ msgstr ""
 #: ../../../tutorials/espressif32/espidf_debugging_unit_testing_analysis.rst:396
 msgid ""
 "For illustrative purposes, let's imagine we need to find a function with the "
-"biggest memory footprint. Also, let's introduce a bug to our project so :ref:"
-"`check` can report it."
+"biggest memory footprint. Also, let's introduce a bug to our project "
+"so :ref:`check` can report it."
 msgstr ""
 
 #: ../../../tutorials/espressif32/espidf_debugging_unit_testing_analysis.rst:400

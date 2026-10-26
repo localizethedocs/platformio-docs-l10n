@@ -8,10 +8,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PlatformIO stable\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-24 14:03+0000\n"
+"POT-Creation-Date: 2026-10-26 16:19+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -32,9 +33,9 @@ msgstr ""
 
 #: ../../../scripting/construction_environments.rst:22
 msgid ""
-"It is used for the :ref:`platforms` and :ref:`frameworks` build scripts, :"
-"ref:`scripting_actions`, upload tools, :ref:`ldf`, and for other internal "
-"operations."
+"It is used for the :ref:`platforms` and :ref:`frameworks` build "
+"scripts, :ref:`scripting_actions`, upload tools, :ref:`ldf`, and for other "
+"internal operations."
 msgstr ""
 
 #: ../../../scripting/construction_environments.rst:26
@@ -45,16 +46,16 @@ msgstr ""
 
 #: ../../../scripting/construction_environments.rst:29
 msgid ""
-"Please note that any :ref:`projectconf_build_src_flags` specified in :ref:"
-"`projectconf` will be passed to the ``projenv`` and not to the "
+"Please note that any :ref:`projectconf_build_src_flags` specified "
+"in :ref:`projectconf` will be passed to the ``projenv`` and not to the "
 "``DefaultEnvironment()``."
 msgstr ""
 
 #: ../../../scripting/construction_environments.rst:33
 msgid ""
-"The ``projenv`` is available only for the POST-type scripts (see :ref:"
-"`scripting_launch_types`) and :ref:`library_json_buid_extra_script` (see :"
-"ref:`library_json`)."
+"The ``projenv`` is available only for the POST-type scripts "
+"(see :ref:`scripting_launch_types`) "
+"and :ref:`library_json_buid_extra_script` (see :ref:`library_json`)."
 msgstr ""
 
 #: ../../../scripting/construction_environments.rst:35
@@ -70,8 +71,8 @@ msgstr ""
 #: ../../../scripting/construction_environments.rst:39
 msgid ""
 "Imported ``env`` refers to the ``DefaultEnvironment()`` for scripts "
-"configured using the :ref:`projectconf_extra_scripts` option in :ref:"
-"`projectconf`."
+"configured using the :ref:`projectconf_extra_scripts` option "
+"in :ref:`projectconf`."
 msgstr ""
 
 #: ../../../scripting/construction_environments.rst:43

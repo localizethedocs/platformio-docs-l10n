@@ -8,10 +8,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PlatformIO stable\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-24 14:03+0000\n"
+"POT-Creation-Date: 2026-10-26 16:19+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -74,8 +75,8 @@ msgstr ""
 
 #: ../../../plus/debug-tools/_common_jtag_drivers.rst:16
 msgid ""
-"`Step-by-step guide: Drivers, Zadig, Wiring <https://community.platformio."
-"org/t/esp32-pio-unified-debugger/4541/20>`_"
+"`Step-by-step guide: Drivers, Zadig, Wiring <https://"
+"community.platformio.org/t/esp32-pio-unified-debugger/4541/20>`_"
 msgstr ""
 
 #: ../../../plus/debug-tools/_common_jtag_drivers.rst:17
@@ -288,9 +289,9 @@ msgstr ""
 
 #: ../../../plus/debug-tools/esp-prog.rst:123
 msgid ""
-"`Use the PlatformIO Debugger on the ESP32 Using an ESP-prog <https://www."
-"hackster.io/brian-lough/use-the-platformio-debugger-on-the-esp32-using-an-"
-"esp-prog-f633b6>`_"
+"`Use the PlatformIO Debugger on the ESP32 Using an ESP-prog <https://"
+"www.hackster.io/brian-lough/use-the-platformio-debugger-on-the-esp32-using-"
+"an-esp-prog-f633b6>`_"
 msgstr ""
 
 #: ../../../plus/debug-tools/esp-prog.rst:128
@@ -987,6 +988,7 @@ msgstr ""
 #: ../../../plus/debug-tools/esp-prog.rst:818
 #: ../../../plus/debug-tools/esp-prog.rst:825
 #: ../../../plus/debug-tools/esp-prog.rst:860
+#: ../../../plus/debug-tools/esp-prog.rst:1014
 #: ../../../plus/debug-tools/esp-prog.rst:1098
 #: ../../../plus/debug-tools/esp-prog.rst:1105
 #: ../../../plus/debug-tools/esp-prog.rst:1210
@@ -1350,7 +1352,6 @@ msgstr ""
 #: ../../../plus/debug-tools/esp-prog.rst:986
 #: ../../../plus/debug-tools/esp-prog.rst:1000
 #: ../../../plus/debug-tools/esp-prog.rst:1007
-#: ../../../plus/debug-tools/esp-prog.rst:1014
 #: ../../../plus/debug-tools/esp-prog.rst:1021
 #: ../../../plus/debug-tools/esp-prog.rst:1028
 #: ../../../plus/debug-tools/esp-prog.rst:1042

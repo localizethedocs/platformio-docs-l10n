@@ -8,10 +8,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PlatformIO stable\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-24 14:03+0000\n"
+"POT-Creation-Date: 2026-10-26 16:19+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -32,8 +33,8 @@ msgid ""
 "In spite of the fact that Library Dependency Finder is written in pure "
 "Python, it evaluates :ref:`ldf_c_cond_syntax` (``#ifdef``, ``if``, "
 "``defined``, ``else``, and ``elif``) without calling ``gcc -E``. This "
-"approach allows to significantly reduce the total compilation time. See :ref:"
-"`ldf_mode` for more details."
+"approach allows to significantly reduce the total compilation time. "
+"See :ref:`ldf_mode` for more details."
 msgstr ""
 
 #: ../../../librarymanager/ldf.rst:27
@@ -66,8 +67,8 @@ msgstr ""
 
 #: ../../../librarymanager/ldf.rst:49
 msgid ""
-":ref:`projectconf_pio_libdeps_dir` - project dependency storage used by :ref:"
-"`librarymanager`"
+":ref:`projectconf_pio_libdeps_dir` - project dependency storage used "
+"by :ref:`librarymanager`"
 msgstr ""
 
 #: ../../../librarymanager/ldf.rst:51
@@ -96,8 +97,8 @@ msgstr ""
 #: ../../../librarymanager/ldf.rst:63
 msgid ""
 "\"Manual mode\", does not process source files of a project and "
-"dependencies. Builds only the libraries that are specified in manifests (:"
-"ref:`library_json`, ``module.json``) or using :ref:`projectconf_lib_deps` "
+"dependencies. Builds only the libraries that are specified in manifests "
+"(:ref:`library_json`, ``module.json``) or using :ref:`projectconf_lib_deps` "
 "option."
 msgstr ""
 
@@ -120,8 +121,8 @@ msgstr ""
 #: ../../../librarymanager/ldf.rst:75
 msgid ""
 "Parses ALL C/C++ source files of the project and parses ALL C/C++ source "
-"files of the each found dependency (recursively). **Does not evaluate** :ref:"
-"`ldf_c_cond_syntax`."
+"files of the each found dependency (recursively). **Does not "
+"evaluate** :ref:`ldf_c_cond_syntax`."
 msgstr ""
 
 #: ../../../librarymanager/ldf.rst:0
@@ -130,8 +131,8 @@ msgstr ""
 
 #: ../../../librarymanager/ldf.rst:80
 msgid ""
-"The same behavior as for the ``chain`` but **evaluates** :ref:"
-"`ldf_c_cond_syntax`."
+"The same behavior as for the ``chain`` but "
+"**evaluates** :ref:`ldf_c_cond_syntax`."
 msgstr ""
 
 #: ../../../librarymanager/ldf.rst:0
@@ -140,14 +141,14 @@ msgstr ""
 
 #: ../../../librarymanager/ldf.rst:83
 msgid ""
-"The same behavior as for the ``deep`` but **evaluates** :ref:"
-"`ldf_c_cond_syntax`."
+"The same behavior as for the ``deep`` but "
+"**evaluates** :ref:`ldf_c_cond_syntax`."
 msgstr ""
 
 #: ../../../librarymanager/ldf.rst:85
 msgid ""
-"The mode can be changed using :ref:`projectconf_lib_ldf_mode` option in :ref:"
-"`projectconf`. Default value is set to ``chain``."
+"The mode can be changed using :ref:`projectconf_lib_ldf_mode` option "
+"in :ref:`projectconf`. Default value is set to ``chain``."
 msgstr ""
 
 #: ../../../librarymanager/ldf.rst:90
@@ -230,8 +231,8 @@ msgstr ""
 
 #: ../../../librarymanager/ldf.rst:127
 msgid ""
-"``Foo/extra.cpp`` depends on the ``Bar`` library (contains ``#include <bar."
-"h>``)"
+"``Foo/extra.cpp`` depends on the ``Bar`` library (contains ``#include "
+"<bar.h>``)"
 msgstr ""
 
 #: ../../../librarymanager/ldf.rst:130
@@ -256,9 +257,9 @@ msgstr ""
 #: ../../../librarymanager/ldf.rst:139
 msgid ""
 "Firstly, LDF finds the ``Foo`` library, then it parses all sources from the "
-"``Foo`` library and finds ``Foo/extra.cpp`` that depends on ``#include <bar."
-"h>``.  Secondly, it will parse all sources from the ``Bar`` library. This "
-"operation continues until all dependencies will not be parsed."
+"``Foo`` library and finds ``Foo/extra.cpp`` that depends on ``#include "
+"<bar.h>``.  Secondly, it will parse all sources from the ``Bar`` library. "
+"This operation continues until all dependencies will not be parsed."
 msgstr ""
 
 #: ../../../librarymanager/ldf.rst:148
@@ -283,8 +284,8 @@ msgstr ""
 
 #: ../../../librarymanager/ldf.rst:159
 msgid ""
-"[**DEFAULT**] Checks for the compatibility with :ref:"
-"`projectconf_env_framework` from build environment"
+"[**DEFAULT**] Checks for the compatibility "
+"with :ref:`projectconf_env_framework` from build environment"
 msgstr ""
 
 #: ../../../librarymanager/ldf.rst:0
@@ -293,14 +294,14 @@ msgstr ""
 
 #: ../../../librarymanager/ldf.rst:163
 msgid ""
-"Checks for the compatibility with :ref:`projectconf_env_framework` and :ref:"
-"`projectconf_env_platform` from build environment."
+"Checks for the compatibility with :ref:`projectconf_env_framework` "
+"and :ref:`projectconf_env_platform` from build environment."
 msgstr ""
 
 #: ../../../librarymanager/ldf.rst:166
 msgid ""
-"This mode can be changed using :ref:`projectconf_lib_compat_mode` option in :"
-"ref:`projectconf`. Default value is set to ``soft``."
+"This mode can be changed using :ref:`projectconf_lib_compat_mode` option "
+"in :ref:`projectconf`. Default value is set to ``soft``."
 msgstr ""
 
 #: ../../../librarymanager/ldf.rst:172
@@ -310,8 +311,8 @@ msgstr ""
 #: ../../../librarymanager/ldf.rst:174
 msgid ""
 "In spite of the fact that Library Dependency Finder is written in pure "
-"Python, it evaluates `C/C++ Preprocessor conditional syntax <https://gcc.gnu."
-"org/onlinedocs/cpp/Conditional-Syntax.html#Conditional-Syntax>`_ "
+"Python, it evaluates `C/C++ Preprocessor conditional syntax <https://"
+"gcc.gnu.org/onlinedocs/cpp/Conditional-Syntax.html#Conditional-Syntax>`_ "
 "(``#ifdef``, ``if``, ``defined``, ``else``, and ``elif``) without calling "
 "``gcc -E``. For example,"
 msgstr ""
