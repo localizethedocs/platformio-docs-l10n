@@ -8,10 +8,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PlatformIO latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-24 14:02+0000\n"
+"POT-Creation-Date: 2026-10-26 16:19+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -22,12 +23,13 @@ msgstr ""
 
 #: ../../../plus/debug-tools/iot-bus-jtag.rst:20
 msgid ""
-"This IoT-Bus module provides JTAG debugging for the :ref:"
-"`board_espressif32_iotbusio` and :ref:`board_espressif32_iotbusproteus` "
-"boards (can be used with other boards too, see wiring connections below). "
-"The board uses the FT232H to provide a USB controller with JTAG support. "
-"Both debugging and flashing is possible using this port. Official reference "
-"can be found `here <http://www.oddwires.com/iot-bus-esp32-jtag/?"
+"This IoT-Bus module provides JTAG debugging for "
+"the :ref:`board_espressif32_iotbusio` "
+"and :ref:`board_espressif32_iotbusproteus` boards (can be used with other "
+"boards too, see wiring connections below). The board uses the FT232H to "
+"provide a USB controller with JTAG support. Both debugging and flashing is "
+"possible using this port. Official reference can be found `here <http://"
+"www.oddwires.com/iot-bus-esp32-jtag/?"
 "utm_source=platformio&utm_medium=docs>`__."
 msgstr ""
 
@@ -73,8 +75,8 @@ msgstr ""
 
 #: ../../../plus/debug-tools/_common_jtag_drivers.rst:16
 msgid ""
-"`Step-by-step guide: Drivers, Zadig, Wiring <https://community.platformio."
-"org/t/esp32-pio-unified-debugger/4541/20>`_"
+"`Step-by-step guide: Drivers, Zadig, Wiring <https://"
+"community.platformio.org/t/esp32-pio-unified-debugger/4541/20>`_"
 msgstr ""
 
 #: ../../../plus/debug-tools/_common_jtag_drivers.rst:17
@@ -904,6 +906,7 @@ msgstr ""
 #: ../../../plus/debug-tools/iot-bus-jtag.rst:785
 #: ../../../plus/debug-tools/iot-bus-jtag.rst:792
 #: ../../../plus/debug-tools/iot-bus-jtag.rst:827
+#: ../../../plus/debug-tools/iot-bus-jtag.rst:981
 #: ../../../plus/debug-tools/iot-bus-jtag.rst:1065
 #: ../../../plus/debug-tools/iot-bus-jtag.rst:1072
 #: ../../../plus/debug-tools/iot-bus-jtag.rst:1177
@@ -1267,7 +1270,6 @@ msgstr ""
 #: ../../../plus/debug-tools/iot-bus-jtag.rst:953
 #: ../../../plus/debug-tools/iot-bus-jtag.rst:967
 #: ../../../plus/debug-tools/iot-bus-jtag.rst:974
-#: ../../../plus/debug-tools/iot-bus-jtag.rst:981
 #: ../../../plus/debug-tools/iot-bus-jtag.rst:988
 #: ../../../plus/debug-tools/iot-bus-jtag.rst:995
 #: ../../../plus/debug-tools/iot-bus-jtag.rst:1009

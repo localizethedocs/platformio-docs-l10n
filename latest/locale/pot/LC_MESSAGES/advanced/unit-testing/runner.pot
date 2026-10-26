@@ -8,10 +8,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PlatformIO latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-24 14:02+0000\n"
+"POT-Creation-Date: 2026-10-26 16:19+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -43,8 +44,8 @@ msgstr ""
 #: ../../../advanced/unit-testing/runner.rst:33
 msgid ""
 "**Local Test Runner** allows you to run a test on a local host machine or on "
-"a local target device (board). In this case, you need to use the :ref:"
-"`cmd_test` command."
+"a local target device (board). In this case, you need to use "
+"the :ref:`cmd_test` command."
 msgstr ""
 
 #: ../../../advanced/unit-testing/runner.rst:40
@@ -81,9 +82,9 @@ msgstr ""
 #: ../../../advanced/unit-testing/runner.rst:61
 msgid ""
 "Using the :ref:`unit_testing_test_hierarchy` allows you to organize tests by "
-"types and later skip an incompatible group of tests using :ref:"
-"`projectconf_test_filter` or :ref:`projectconf_test_ignore` options in :ref:"
-"`projectconf`."
+"types and later skip an incompatible group of tests "
+"using :ref:`projectconf_test_filter` or :ref:`projectconf_test_ignore` "
+"options in :ref:`projectconf`."
 msgstr ""
 
 #: ../../../advanced/unit-testing/runner.rst:67
@@ -104,9 +105,10 @@ msgstr ""
 
 #: ../../../advanced/unit-testing/runner.rst:77
 msgid ""
-"PlatformIO does not install automatically any toolchains for the :ref:"
-"`platform_native` development platform. It depends on the system ``GCC`` "
-"toolchain that must be added to the ``PATH`` system environment variable."
+"PlatformIO does not install automatically any toolchains for "
+"the :ref:`platform_native` development platform. It depends on the system "
+"``GCC`` toolchain that must be added to the ``PATH`` system environment "
+"variable."
 msgstr ""
 
 #: ../../../advanced/unit-testing/runner.rst:82
@@ -142,8 +144,8 @@ msgstr ""
 
 #: ../../../advanced/unit-testing/runner.rst:96
 msgid ""
-"Connects to the target using a Serial interface and :ref:"
-"`projectconf_test_port`"
+"Connects to the target using a Serial interface "
+"and :ref:`projectconf_test_port`"
 msgstr ""
 
 #: ../../../advanced/unit-testing/runner.rst:97

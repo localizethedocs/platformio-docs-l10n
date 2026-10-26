@@ -8,10 +8,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PlatformIO latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-24 14:02+0000\n"
+"POT-Creation-Date: 2026-10-26 16:19+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -39,8 +40,8 @@ msgstr ""
 
 #: ../../../core/userguide/cmd_test.rst:31
 msgid ""
-"Run project tests on host (local) machine using PlatformIO :ref:"
-"`unit_testing`."
+"Run project tests on host (local) machine using "
+"PlatformIO :ref:`unit_testing`."
 msgstr ""
 
 #: ../../../core/userguide/cmd_test.rst:34
@@ -54,10 +55,10 @@ msgstr ""
 
 #: ../../../core/userguide/cmd_test.rst:46
 msgid ""
-"Process only test suites whose path relative to the :ref:"
-"`projectconf_pio_test_dir` matches the specified pattern. See documentation "
-"for the :ref:`projectconf_test_filter` project configuration option for more "
-"details."
+"Process only test suites whose path relative to "
+"the :ref:`projectconf_pio_test_dir` matches the specified pattern. See "
+"documentation for the :ref:`projectconf_test_filter` project configuration "
+"option for more details."
 msgstr ""
 
 #: ../../../core/userguide/cmd_test.rst:51
@@ -66,10 +67,10 @@ msgstr ""
 
 #: ../../../core/userguide/cmd_test.rst:56
 msgid ""
-"Ignore test suites whose path relative to the :ref:"
-"`projectconf_pio_test_dir` matches the specified pattern. See documentation "
-"for the :ref:`projectconf_test_ignore` project configuration option for more "
-"details."
+"Ignore test suites whose path relative to "
+"the :ref:`projectconf_pio_test_dir` matches the specified pattern. See "
+"documentation for the :ref:`projectconf_test_ignore` project configuration "
+"option for more details."
 msgstr ""
 
 #: ../../../core/userguide/cmd_test.rst:61

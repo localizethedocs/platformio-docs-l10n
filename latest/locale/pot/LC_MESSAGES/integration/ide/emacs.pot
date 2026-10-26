@@ -8,10 +8,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PlatformIO latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-24 14:02+0000\n"
+"POT-Creation-Date: 2026-10-26 16:19+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -71,8 +72,8 @@ msgstr ""
 #: ../../../integration/ide/emacs.rst:44
 msgid ""
 "Choose board ``ID`` using :ref:`cmd_boards` or `Embedded Boards Explorer "
-"<https://platformio.org/boards>`_ command and generate project via :option:"
-"`pio project init --ide` command:"
+"<https://platformio.org/boards>`_ command and generate project "
+"via :option:`pio project init --ide` command:"
 msgstr ""
 
 #: ../../../integration/ide/emacs.rst:52
@@ -131,8 +132,8 @@ msgstr ""
 
 #: ../../../integration/ide/emacs.rst:72
 msgid ""
-"``platformio_spiffs_upload``  - Upload files to file system SPIFFS (see :ref:"
-"`platform_espressif_uploadfs`). (``C-c i s``)"
+"``platformio_spiffs_upload``  - Upload files to file system SPIFFS "
+"(see :ref:`platform_espressif_uploadfs`). (``C-c i s``)"
 msgstr ""
 
 #: ../../../integration/ide/emacs.rst:73

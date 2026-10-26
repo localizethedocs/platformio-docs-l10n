@@ -8,10 +8,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PlatformIO latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-24 14:02+0000\n"
+"POT-Creation-Date: 2026-10-26 16:19+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -74,8 +75,8 @@ msgstr ""
 
 #: ../../../plus/debug-tools/_common_jtag_drivers.rst:16
 msgid ""
-"`Step-by-step guide: Drivers, Zadig, Wiring <https://community.platformio."
-"org/t/esp32-pio-unified-debugger/4541/20>`_"
+"`Step-by-step guide: Drivers, Zadig, Wiring <https://"
+"community.platformio.org/t/esp32-pio-unified-debugger/4541/20>`_"
 msgstr ""
 
 #: ../../../plus/debug-tools/_common_jtag_drivers.rst:17
@@ -203,8 +204,8 @@ msgstr ""
 msgid ""
 "You will also need to connect Vbus [CN3-1] to Vcc [CN3-3] of FT2232H Mini-"
 "Module to power the FTDI chip. See `FT2232H Mini-Module Datasheet <http://"
-"www.ftdichip.com/Support/Documents/DataSheets/Modules/DS_FT2232H_Mini_Module."
-"pdf>`_"
+"www.ftdichip.com/Support/Documents/DataSheets/Modules/"
+"DS_FT2232H_Mini_Module.pdf>`_"
 msgstr ""
 
 #: ../../../plus/debug-tools/minimodule.rst:96
@@ -942,6 +943,7 @@ msgstr ""
 #: ../../../plus/debug-tools/minimodule.rst:805
 #: ../../../plus/debug-tools/minimodule.rst:812
 #: ../../../plus/debug-tools/minimodule.rst:847
+#: ../../../plus/debug-tools/minimodule.rst:1001
 #: ../../../plus/debug-tools/minimodule.rst:1085
 #: ../../../plus/debug-tools/minimodule.rst:1092
 #: ../../../plus/debug-tools/minimodule.rst:1197
@@ -1305,7 +1307,6 @@ msgstr ""
 #: ../../../plus/debug-tools/minimodule.rst:973
 #: ../../../plus/debug-tools/minimodule.rst:987
 #: ../../../plus/debug-tools/minimodule.rst:994
-#: ../../../plus/debug-tools/minimodule.rst:1001
 #: ../../../plus/debug-tools/minimodule.rst:1008
 #: ../../../plus/debug-tools/minimodule.rst:1015
 #: ../../../plus/debug-tools/minimodule.rst:1029

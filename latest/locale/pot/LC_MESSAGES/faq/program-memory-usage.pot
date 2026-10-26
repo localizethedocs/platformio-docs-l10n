@@ -8,10 +8,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PlatformIO latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-24 14:02+0000\n"
+"POT-Creation-Date: 2026-10-26 16:19+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -78,8 +79,8 @@ msgstr ""
 
 #: ../../../faq/program-memory-usage.rst:50
 msgid ""
-"If you need to print **all memory sections and addresses**, please use :"
-"option:`pio run --verbose` command."
+"If you need to print **all memory sections and addresses**, please "
+"use :option:`pio run --verbose` command."
 msgstr ""
 
 #: ../../../faq/program-memory-usage.rst:53
@@ -92,7 +93,7 @@ msgstr ""
 
 #: ../../../faq/program-memory-usage.rst:56
 msgid ""
-"`text, data and bss: Code and Data Size Explained <https://mcuoneclipse."
-"com/2013/04/14/text-data-and-bss-code-and-data-size-explained/?"
+"`text, data and bss: Code and Data Size Explained <https://mcuoneclipse.com/"
+"2013/04/14/text-data-and-bss-code-and-data-size-explained/?"
 "utm_source=platformio&utm_medium=docs>`_"
 msgstr ""

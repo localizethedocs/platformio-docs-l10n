@@ -8,10 +8,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PlatformIO latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-24 14:02+0000\n"
+"POT-Creation-Date: 2026-10-26 16:19+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -48,8 +49,8 @@ msgstr ""
 
 #: ../../../platforms/freescalekinetis.rst:24
 msgid ""
-"For more detailed information please visit `vendor site <http://www."
-"freescale.com/webapp/sps/site/homepage.jsp?"
+"For more detailed information please visit `vendor site <http://"
+"www.freescale.com/webapp/sps/site/homepage.jsp?"
 "code=KINETIS&utm_source=platformio.org&utm_medium=docs>`_."
 msgstr ""
 
@@ -77,15 +78,15 @@ msgstr ""
 #: ../../../platforms/freescalekinetis.rst:37
 msgid ""
 "`zephyr-net-telnet <https://github.com/platformio/platform-freescalekinetis/"
-"tree/master/examples/zephyr-net-telnet?utm_source=platformio."
-"org&utm_medium=docs>`_"
+"tree/master/examples/zephyr-net-telnet?"
+"utm_source=platformio.org&utm_medium=docs>`_"
 msgstr ""
 
 #: ../../../platforms/freescalekinetis.rst:38
 msgid ""
 "`mbed-rtos-usb-msd <https://github.com/platformio/platform-freescalekinetis/"
-"tree/master/examples/mbed-rtos-usb-msd?utm_source=platformio."
-"org&utm_medium=docs>`_"
+"tree/master/examples/mbed-rtos-usb-msd?"
+"utm_source=platformio.org&utm_medium=docs>`_"
 msgstr ""
 
 #: ../../../platforms/freescalekinetis.rst:39
@@ -111,8 +112,8 @@ msgstr ""
 #: ../../../platforms/freescalekinetis.rst:42
 msgid ""
 "`mbed-rtos-kvstore <https://github.com/platformio/platform-freescalekinetis/"
-"tree/master/examples/mbed-rtos-kvstore?utm_source=platformio."
-"org&utm_medium=docs>`_"
+"tree/master/examples/mbed-rtos-kvstore?"
+"utm_source=platformio.org&utm_medium=docs>`_"
 msgstr ""
 
 #: ../../../platforms/freescalekinetis.rst:45
@@ -439,8 +440,9 @@ msgstr ""
 msgid ""
 "You can switch between `stable releases <https://github.com/platformio/"
 "platform-freescalekinetis/releases>`__ of Freescale Kinetis development "
-"platform and the latest upstream version using :ref:"
-"`projectconf_env_platform` option in :ref:`projectconf` as described below."
+"platform and the latest upstream version "
+"using :ref:`projectconf_env_platform` option in :ref:`projectconf` as "
+"described below."
 msgstr ""
 
 #: ../../../platforms/freescalekinetis.rst:169

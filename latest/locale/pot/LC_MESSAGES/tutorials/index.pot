@@ -8,10 +8,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PlatformIO latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-24 14:02+0000\n"
+"POT-Creation-Date: 2026-10-26 16:19+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -84,9 +85,9 @@ msgstr ""
 
 #: ../../../tutorials/index.rst:60
 msgid ""
-"`Use the PlatformIO Debugger on the ESP32 Using an ESP-prog <https://www."
-"hackster.io/brian-lough/use-the-platformio-debugger-on-the-esp32-using-an-"
-"esp-prog-f633b6>`_"
+"`Use the PlatformIO Debugger on the ESP32 Using an ESP-prog <https://"
+"www.hackster.io/brian-lough/use-the-platformio-debugger-on-the-esp32-using-"
+"an-esp-prog-f633b6>`_"
 msgstr ""
 
 #: ../../../tutorials/index.rst:61
@@ -97,14 +98,14 @@ msgstr ""
 
 #: ../../../tutorials/index.rst:62
 msgid ""
-"`PlatformIO for Arduino, ESP8266, and ESP32 Tutorial <https://www.youtube."
-"com/watch?v=0poh_2rBq7E>`_"
+"`PlatformIO for Arduino, ESP8266, and ESP32 Tutorial <https://"
+"www.youtube.com/watch?v=0poh_2rBq7E>`_"
 msgstr ""
 
 #: ../../../tutorials/index.rst:63
 msgid ""
-"`Free Inline Debugging for ESP32 and Arduino Sketches <https://www.youtube."
-"com/watch?v=psMqilqlrRQ>`__"
+"`Free Inline Debugging for ESP32 and Arduino Sketches <https://"
+"www.youtube.com/watch?v=psMqilqlrRQ>`__"
 msgstr ""
 
 #: ../../../tutorials/index.rst:64
@@ -120,8 +121,8 @@ msgstr ""
 
 #: ../../../tutorials/index.rst:66
 msgid ""
-"`A Better Arduino IDE - Getting Started with PlatformIO <https://www.youtube."
-"com/watch?v=EIkGTwLOD7o>`_"
+"`A Better Arduino IDE - Getting Started with PlatformIO <https://"
+"www.youtube.com/watch?v=EIkGTwLOD7o>`_"
 msgstr ""
 
 #: ../../../tutorials/index.rst:67

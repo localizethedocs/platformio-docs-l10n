@@ -8,10 +8,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PlatformIO latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-24 14:02+0000\n"
+"POT-Creation-Date: 2026-10-26 16:19+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -122,8 +123,8 @@ msgstr ""
 #: ../../../integration/ide/vscode.rst:115
 msgid ""
 "Build your project with ``ctrl+alt+b`` hotkey (see all Key Bindings in "
-"\"User Guide\" section below) or using \"Build\" button on the :ref:"
-"`ide_vscode_toolbar`"
+"\"User Guide\" section below) or using \"Build\" button on "
+"the :ref:`ide_vscode_toolbar`"
 msgstr ""
 
 #: ../../../integration/ide/vscode.rst:123
@@ -147,9 +148,9 @@ msgstr ""
 
 #: ../../../integration/ide/vscode.rst:129
 msgid ""
-":ref:`projectconf` (change :ref:`projectconf_upload_port`, configure :ref:"
-"`projectconf_build_flags`, add library dependencies :ref:"
-"`projectconf_lib_deps`, etc.)"
+":ref:`projectconf` (change :ref:`projectconf_upload_port`, "
+"configure :ref:`projectconf_build_flags`, add library "
+"dependencies :ref:`projectconf_lib_deps`, etc.)"
 msgstr ""
 
 #: ../../../integration/ide/vscode.rst:132
@@ -251,9 +252,10 @@ msgstr ""
 #: ../../../integration/ide/vscode.rst:193
 msgid ""
 "PlatformIO IDE provides built-in tasks through the menu ``Terminal > Run "
-"Task...`` (Build, Upload, Clean, Monitor, etc) and custom tasks per :ref:"
-"`projectconf` environment (``[env:***]``). The default behavior is to use "
-"Terminal Panels for presentation, one panel dedicated to each unique task."
+"Task...`` (Build, Upload, Clean, Monitor, etc) and custom tasks "
+"per :ref:`projectconf` environment (``[env:***]``). The default behavior is "
+"to use Terminal Panels for presentation, one panel dedicated to each unique "
+"task."
 msgstr ""
 
 #: ../../../integration/ide/vscode.rst:198
@@ -273,8 +275,8 @@ msgstr ""
 msgid ""
 "The menu item ``Terminal > Run Task...`` opens up a list of VSCode tasks for "
 "PlatformIO. In the line ``PlatformIO: Build``, press the gear icon on the "
-"far right side of the list. This creates or opens the file ``.vscode/tasks."
-"json`` with some template code."
+"far right side of the list. This creates or opens the file ``.vscode/"
+"tasks.json`` with some template code."
 msgstr ""
 
 #: ../../../integration/ide/vscode.rst:210
@@ -283,8 +285,8 @@ msgstr ""
 
 #: ../../../integration/ide/vscode.rst:230
 msgid ""
-"See more options in the `official VSCode documentation <https://code."
-"visualstudio.com/docs/editor/tasks#_output-behavior>`__."
+"See more options in the `official VSCode documentation <https://"
+"code.visualstudio.com/docs/editor/tasks#_output-behavior>`__."
 msgstr ""
 
 #: ../../../integration/ide/vscode.rst:235
@@ -315,8 +317,9 @@ msgstr ""
 
 #: ../../../integration/ide/vscode.rst:253
 msgid ""
-"See `Teleplot - Ridiculously-simple telemetry viewer <https://marketplace."
-"visualstudio.com/items?itemName=alexnesnes.teleplot>`_ community extension."
+"See `Teleplot - Ridiculously-simple telemetry viewer <https://"
+"marketplace.visualstudio.com/items?itemName=alexnesnes.teleplot>`_ community "
+"extension."
 msgstr ""
 
 #: ../../../integration/ide/vscode.rst:259
@@ -325,8 +328,8 @@ msgstr ""
 
 #: ../../../integration/ide/vscode.rst:261
 msgid ""
-"You can customize Serial Port Monitor using :ref:"
-"`projectconf_section_env_monitor` in :ref:`projectconf`:"
+"You can customize Serial Port Monitor "
+"using :ref:`projectconf_section_env_monitor` in :ref:`projectconf`:"
 msgstr ""
 
 #: ../../../integration/ide/vscode.rst:264
@@ -568,8 +571,8 @@ msgstr ""
 #: ../../../integration/ide/vscode.rst:388
 msgid ""
 "You can override existing key bindings  or add a new in VSCode. See official "
-"documentation `Key Bindings for Visual Studio Code <https://code."
-"visualstudio.com/docs/getstarted/keybindings>`_."
+"documentation `Key Bindings for Visual Studio Code <https://"
+"code.visualstudio.com/docs/getstarted/keybindings>`_."
 msgstr ""
 
 #: ../../../integration/ide/vscode.rst:394
@@ -618,9 +621,9 @@ msgstr ""
 
 #: ../../../integration/ide/vscode.rst:415
 msgid ""
-"If true, automatically rebuild the C/C++ Project Index when :ref:"
-"`projectconf` is changed or when new libraries are installed. The default "
-"value is ``true``."
+"If true, automatically rebuild the C/C++ Project Index "
+"when :ref:`projectconf` is changed or when new libraries are installed. The "
+"default value is ``true``."
 msgstr ""
 
 #: ../../../integration/ide/vscode.rst:419

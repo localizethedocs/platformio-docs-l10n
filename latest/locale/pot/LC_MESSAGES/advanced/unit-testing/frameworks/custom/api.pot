@@ -8,10 +8,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PlatformIO latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-24 14:02+0000\n"
+"POT-Creation-Date: 2026-10-26 16:19+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -173,8 +174,8 @@ msgstr ""
 
 #: ../../../advanced/unit-testing/frameworks/custom/api.rst:144
 msgid ""
-"Method called to run test cases and record test results via calling ``self."
-"test_suite.add_case(TestCase(...))``."
+"Method called to run test cases and record test results via calling "
+"``self.test_suite.add_case(TestCase(...))``."
 msgstr ""
 
 #: ../../../advanced/unit-testing/frameworks/custom/api.rst:147
