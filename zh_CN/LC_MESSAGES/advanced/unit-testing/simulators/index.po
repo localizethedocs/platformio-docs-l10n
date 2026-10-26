@@ -1,0 +1,52 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present, PlatformIO
+# This file is distributed under the same license as the PlatformIO package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PlatformIO stable\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-24 14:03+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../advanced/unit-testing/simulators/index.rst:15
+msgid "Simulators"
+msgstr ""
+
+#: ../../../advanced/unit-testing/simulators/index.rst:17
+msgid ""
+"Simulation tools and frameworks allow you to simulate hardware systems and "
+"run unit tests in virtual environments. Simulators can significantly "
+"accelerate your project development, especially when used in pair with :ref:"
+"`ci`."
+msgstr ""
+
+#: ../../../advanced/unit-testing/simulators/index.rst:22
+msgid ""
+"Integration of any simulator tool to the PlatformIO :ref:`unit_testing` is "
+"very simple and does not require any extra software or code writing. Please "
+"use :ref:`projectconf_test_testing_command` project configuration option and "
+"specify a custom command to the simulation program that will be responsible "
+"for the test running. This program must output test results to the standard "
+"output or error stream."
+msgstr ""
+
+#: ../../../advanced/unit-testing/simulators/index.rst:30
+msgid ""
+"Please note that simulator tools do not require a firmware uploading stage. "
+"Please use the :option:`pio test --without-uploading` command option."
+msgstr ""
+
+#: ../../../advanced/unit-testing/simulators/index.rst:34
+msgid ""
+"See a few integration examples for the popular simulation tools and "
+"frameworks:"
+msgstr ""

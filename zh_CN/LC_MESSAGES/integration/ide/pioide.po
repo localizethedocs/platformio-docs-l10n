@@ -1,0 +1,135 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present, PlatformIO
+# This file is distributed under the same license as the PlatformIO package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PlatformIO stable\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-24 14:03+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../integration/ide/pioide.rst:15
+msgid "PlatformIO IDE"
+msgstr ""
+
+#: ../../../integration/ide/pioide_features.rst:12
+msgid ""
+"**PlatformIO IDE is the next-generation integrated development environment "
+"for IoT.**"
+msgstr ""
+
+#: ../../../integration/ide/pioide_features.rst:14
+msgid ""
+"Cross-platform build system without external dependencies to the OS software:"
+msgstr ""
+
+#: ../../../integration/ide/pioide_features.rst:16
+msgid "1,000+ :ref:`boards`"
+msgstr ""
+
+#: ../../../integration/ide/pioide_features.rst:17
+msgid "40+ :ref:`platforms`"
+msgstr ""
+
+#: ../../../integration/ide/pioide_features.rst:18
+msgid "20+ :ref:`frameworks`"
+msgstr ""
+
+#: ../../../integration/ide/pioide_features.rst:20
+msgid ":ref:`piodebug`"
+msgstr ""
+
+#: ../../../integration/ide/pioide_features.rst:21
+msgid ":ref:`pioremote`"
+msgstr ""
+
+#: ../../../integration/ide/pioide_features.rst:22
+msgid ":ref:`unit_testing`"
+msgstr ""
+
+#: ../../../integration/ide/pioide_features.rst:23
+msgid "C/C++ Intelligent Code Completion"
+msgstr ""
+
+#: ../../../integration/ide/pioide_features.rst:24
+msgid "C/C++ Smart Code Linter for rapid professional development"
+msgstr ""
+
+#: ../../../integration/ide/pioide_features.rst:25
+msgid "Library Manager for the hundreds popular libraries"
+msgstr ""
+
+#: ../../../integration/ide/pioide_features.rst:26
+msgid "Multi-projects workflow with multiple panes"
+msgstr ""
+
+#: ../../../integration/ide/pioide_features.rst:27
+msgid "Themes support with dark and light colors"
+msgstr ""
+
+#: ../../../integration/ide/pioide_features.rst:28
+msgid "Serial Port Monitor"
+msgstr ""
+
+#: ../../../integration/ide/pioide_features.rst:29
+msgid ""
+"Built-in Terminal with :ref:`piocore` and CLI tool (``pio``, ``platformio``)"
+msgstr ""
+
+#: ../../../integration/ide/pioide_features.rst:30
+msgid "Built-in :ref:`piohome`."
+msgstr ""
+
+#: ../../../integration/ide/pioide.rst:21
+msgid ""
+"We provide official packages (plugins, extensions) for the most popular IDEs "
+"and text editors."
+msgstr ""
+
+#: ../../../integration/ide/pioide.rst:25
+msgid ""
+"In our experience, :ref:`ide_vscode` offers better system performance, and "
+"users have found it easier to get started"
+msgstr ""
+
+#: ../../../integration/ide/pioide.rst:29
+msgid "PlatformIO for VSCode"
+msgstr ""
+
+#: ../../../integration/ide/pioide.rst:31
+msgid ""
+"**Visual Studio Code** is a lightweight but powerful source code editor "
+"which runs on your desktop and is available for Windows, macOS and Linux. It "
+"comes with built-in support for JavaScript, TypeScript and Node.js and has a "
+"rich ecosystem of extensions for other languages (such as C++, C#, Python, "
+"PHP, Go) and runtimes (such as .NET and Unity)."
+msgstr ""
+
+#: ../../../integration/ide/pioide.rst:37
+msgid ":ref:`Install PlatformIO for VSCode / Get started <ide_vscode>`"
+msgstr ""
+
+#: ../../../integration/ide/pioide.rst:43
+msgid "PlatformIO for CLion (experimental)"
+msgstr ""
+
+#: ../../../integration/ide/pioide.rst:45
+msgid ""
+"The **CLion** is a cross-platform C/C++ IDE for Linux, OS X, and Windows. "
+"CLion includes such features as a smart editor, code generation, code "
+"quality assurance, automated refactorings, on-the-fly code analysis, project "
+"manager, integrated version control systems and debugger."
+msgstr ""
+
+#: ../../../integration/ide/pioide.rst:50
+msgid ":ref:`Install PlatformIO for CLion / Get started <ide_clion>`"
+msgstr ""

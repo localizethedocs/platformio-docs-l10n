@@ -1,0 +1,80 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present, PlatformIO
+# This file is distributed under the same license as the PlatformIO package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PlatformIO stable\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-24 14:03+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../advanced/unit-testing/frameworks/custom/examples/custom_unity_library.rst:15
+msgid "Custom Unity Library"
+msgstr ""
+
+#: ../../../advanced/unit-testing/frameworks/custom/examples/custom_unity_library.rst:17
+msgid ""
+"There are frameworks such as :ref:`framework_arduino` with Mbed core and :"
+"ref:`framework_espidf` that contain a prebuilt library of :ref:"
+"`unit_testing_frameworks_unity` testing framework. Using PlatformIO's "
+"version of :ref:`unit_testing_frameworks_unity` will lead to compilation "
+"issues (\"multiple definitions\"). See `issue #3980 <https://github.com/"
+"platformio/platformio-core/issues/3980>`_."
+msgstr ""
+
+#: ../../../advanced/unit-testing/frameworks/custom/examples/custom_unity_library.rst:24
+msgid ""
+"The example below allows you to use PlatformIO's :ref:"
+"`unit_testing_frameworks_unity` Test Runner and your custom Unity library. "
+"It can be a part of :ref:`frameworks` or as a project dependency declared "
+"in :ref:`projectconf_lib_deps`."
+msgstr ""
+
+#: ../../../advanced/unit-testing/frameworks/custom/examples/custom_unity_library.rst:32
+msgid "Project Example"
+msgstr ""
+
+#: ../../../advanced/unit-testing/frameworks/custom/examples/custom_unity_library.rst:34
+msgid ""
+"We have a project based on Arduino Mbed-core that ships with a custom "
+"prebuilt \"libunity.a\". Let's leverage from the existing :ref:"
+"`unit_testing_frameworks_unity` Test Runner and disable the default "
+"`throwtheswitch/Unity <https://registry.platformio.org/libraries/"
+"throwtheswitch/Unity>`_ package."
+msgstr ""
+
+#: ../../../advanced/unit-testing/frameworks/custom/examples/custom_unity_library.rst:41
+msgid "Structure"
+msgstr ""
+
+#: ../../../advanced/unit-testing/frameworks/custom/examples/custom_unity_library.rst:55
+msgid "File contents"
+msgstr ""
+
+#: ../../../advanced/unit-testing/frameworks/custom/examples/custom_unity_library.rst:57
+msgid "``platformio.ini``"
+msgstr ""
+
+#: ../../../advanced/unit-testing/frameworks/custom/examples/custom_unity_library.rst:67
+msgid "``test/test_custom_runner.py``"
+msgstr ""
+
+#: ../../../advanced/unit-testing/frameworks/custom/examples/custom_unity_library.rst:69
+msgid ""
+":ref:`unit_testing_frameworks_custom_runner` based on `UnityTestRunner "
+"<https://github.com/platformio/platformio-core/blob/develop/platformio/test/"
+"runners/unity.py>`_."
+msgstr ""
+
+#: ../../../advanced/unit-testing/frameworks/custom/examples/custom_unity_library.rst:86
+msgid "``test/test_blink/test_main.cpp``"
+msgstr ""

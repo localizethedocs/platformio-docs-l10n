@@ -1,0 +1,175 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present, PlatformIO
+# This file is distributed under the same license as the PlatformIO package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PlatformIO stable\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-24 14:03+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../core/userguide/project/cmd_init.rst:15
+msgid "pio project init"
+msgstr ""
+
+#: ../../../core/userguide/project/cmd_init.rst:17
+msgid "Contents"
+msgstr ""
+
+#: ../../../core/userguide/project/cmd_init.rst:20
+msgid "Usage"
+msgstr ""
+
+#: ../../../core/userguide/project/cmd_init.rst:27
+msgid "Description"
+msgstr ""
+
+#: ../../../core/userguide/project/cmd_init.rst:29
+msgid ""
+"Initialize a new PlatformIO based project or update existing with new data."
+msgstr ""
+
+#: ../../../core/userguide/project/cmd_init.rst:31
+msgid "This command will create:"
+msgstr ""
+
+#: ../../../core/userguide/project/cmd_init.rst:33
+msgid ":ref:`projectconf`"
+msgstr ""
+
+#: ../../../core/userguide/project/cmd_init.rst:34
+msgid ":ref:`projectconf_pio_include_dir`, put project header files here"
+msgstr ""
+
+#: ../../../core/userguide/project/cmd_init.rst:35
+msgid ""
+":ref:`projectconf_pio_src_dir`, put project source files here (``*.h, *.c, *."
+"cpp, *.S, *.ino, etc.``)"
+msgstr ""
+
+#: ../../../core/userguide/project/cmd_init.rst:37
+msgid ""
+":ref:`projectconf_pio_lib_dir`, put project specific (private) libraries "
+"here. See also :ref:`ldf`"
+msgstr ""
+
+#: ../../../core/userguide/project/cmd_init.rst:39
+msgid ""
+":ref:`projectconf_pio_test_dir`, put project tests here. More details :ref:"
+"`unit_testing`"
+msgstr ""
+
+#: ../../../core/userguide/project/cmd_init.rst:40
+msgid "Miscellaneous files for VCS and :ref:`ci` support."
+msgstr ""
+
+#: ../../../core/userguide/project/cmd_init.rst:43
+msgid "Options"
+msgstr ""
+
+#: ../../../core/userguide/project/cmd_init.rst:50
+msgid "A path to a directory where *PlatformIO* will initialize new project."
+msgstr ""
+
+#: ../../../core/userguide/project/cmd_init.rst:55
+msgid ""
+"If you specify board ``ID`` (you can pass multiple ``--board`` options), "
+"then *PlatformIO* will automatically generate environment for :ref:"
+"`projectconf` and pre-fill these data:"
+msgstr ""
+
+#: ../../../core/userguide/project/cmd_init.rst:59
+msgid ":ref:`projectconf_env_platform`"
+msgstr ""
+
+#: ../../../core/userguide/project/cmd_init.rst:60
+msgid ":ref:`projectconf_env_framework`"
+msgstr ""
+
+#: ../../../core/userguide/project/cmd_init.rst:61
+msgid ":ref:`projectconf_env_board`"
+msgstr ""
+
+#: ../../../core/userguide/project/cmd_init.rst:63
+msgid ""
+"The full list with pre-configured boards is available here :ref:`platforms`."
+msgstr ""
+
+#: ../../../core/userguide/project/cmd_init.rst:68
+msgid ""
+"Initialize PlatformIO project for the specified IDE which can be imported "
+"later via \"Import Project\" functionality."
+msgstr ""
+
+#: ../../../core/userguide/project/cmd_init.rst:71
+msgid ""
+"A list with supported IDE is available within ``pio project init --help`` "
+"command. Also, please take a look at :ref:`ide` page."
+msgstr ""
+
+#: ../../../core/userguide/project/cmd_init.rst:77
+msgid "Update project using existing environment."
+msgstr ""
+
+#: ../../../core/userguide/project/cmd_init.rst:82
+msgid ""
+"Initialize project with additional options from :ref:`projectconf`. For "
+"example, ``pio project init --project-option=\"lib_deps=ArduinoJSON\"``. "
+"Multiple options are allowed."
+msgstr ""
+
+#: ../../../core/userguide/project/cmd_init.rst:89
+msgid ""
+"An environment prefix which will be used with pair in :ref:"
+"`projectconf_env_board` ID. For example, the default environment name for :"
+"ref:`board_teensy_teensy31` board will be ``[env:teensy31]``."
+msgstr ""
+
+#: ../../../core/userguide/project/cmd_init.rst:96
+msgid "Do not resolve project dependencies and do not install missed packages."
+msgstr ""
+
+#: ../../../core/userguide/project/cmd_init.rst:103
+msgid ""
+"Include sample code in the newly created project. The availability of sample "
+"code depends on the :ref:`platforms` being used."
+msgstr ""
+
+#: ../../../core/userguide/project/cmd_init.rst:109
+msgid "Suppress progress reporting."
+msgstr ""
+
+#: ../../../core/userguide/project/cmd_init.rst:112
+msgid "Examples"
+msgstr "範例"
+
+#: ../../../core/userguide/project/cmd_init.rst:114
+msgid "Initialize new project in a current working directory"
+msgstr ""
+
+#: ../../../core/userguide/project/cmd_init.rst:135
+msgid "Initialize new project in a specified directory"
+msgstr ""
+
+#: ../../../core/userguide/project/cmd_init.rst:145
+msgid "Initialize project for Arduino Uno"
+msgstr ""
+
+#: ../../../core/userguide/project/cmd_init.rst:156
+msgid ""
+"Initialize project for Teensy 3.1 board with custom :ref:`framework_mbed`"
+msgstr ""
+
+#: ../../../core/userguide/project/cmd_init.rst:168
+msgid ""
+"Initialize a new project passing working environment name and its options"
+msgstr ""

@@ -1,0 +1,93 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present, PlatformIO
+# This file is distributed under the same license as the PlatformIO package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PlatformIO stable\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-24 14:03+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../core/userguide/system/cmd_prune.rst:15
+msgid "pio system prune"
+msgstr ""
+
+#: ../../../core/userguide/system/cmd_prune.rst:17
+msgid "Contents"
+msgstr ""
+
+#: ../../../core/userguide/system/cmd_prune.rst:20
+msgid "Usage"
+msgstr ""
+
+#: ../../../core/userguide/system/cmd_prune.rst:27
+msgid "Description"
+msgstr ""
+
+#: ../../../core/userguide/system/cmd_prune.rst:29
+msgid "Remove unused data:"
+msgstr ""
+
+#: ../../../core/userguide/system/cmd_prune.rst:31
+msgid "cached API requests"
+msgstr ""
+
+#: ../../../core/userguide/system/cmd_prune.rst:32
+msgid "cached package downloads"
+msgstr ""
+
+#: ../../../core/userguide/system/cmd_prune.rst:33
+msgid "temporary data"
+msgstr ""
+
+#: ../../../core/userguide/system/cmd_prune.rst:34
+msgid "unnecessary core packages"
+msgstr ""
+
+#: ../../../core/userguide/system/cmd_prune.rst:35
+msgid "unnecessary development platform packages."
+msgstr ""
+
+#: ../../../core/userguide/system/cmd_prune.rst:38
+msgid ""
+"If you have a custom package in :ref:`projectconf_pio_packages_dir` folder "
+"and would like to skip it from \"prune process\", please add empty ``."
+"piokeep`` file to the root of a package folder."
+msgstr ""
+
+#: ../../../core/userguide/system/cmd_prune.rst:43
+msgid "Options"
+msgstr ""
+
+#: ../../../core/userguide/system/cmd_prune.rst:50
+msgid "Do not prompt for confirmation."
+msgstr ""
+
+#: ../../../core/userguide/system/cmd_prune.rst:55
+msgid "Do not prune, only show data that will be removed."
+msgstr ""
+
+#: ../../../core/userguide/system/cmd_prune.rst:60
+msgid "Prune only cached data."
+msgstr ""
+
+#: ../../../core/userguide/system/cmd_prune.rst:65
+msgid "Prune only unnecessary core packages."
+msgstr ""
+
+#: ../../../core/userguide/system/cmd_prune.rst:70
+msgid "Prune only unnecessary development platform packages."
+msgstr ""
+
+#: ../../../core/userguide/system/cmd_prune.rst:73
+msgid "Examples"
+msgstr ""
