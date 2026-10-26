@@ -8,10 +8,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PlatformIO stable\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-24 14:03+0000\n"
+"POT-Creation-Date: 2026-10-26 16:19+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -35,8 +36,8 @@ msgstr ""
 
 #: ../../../integration/ide/eclipse.rst:27
 msgid ""
-"Refer to the `CDT Documentation <https://eclipse.org/cdt/documentation."
-"php>`_ page for more detailed information."
+"Refer to the `CDT Documentation <https://eclipse.org/cdt/"
+"documentation.php>`_ page for more detailed information."
 msgstr ""
 
 #: ../../../integration/ide/eclipse.rst:34
@@ -72,8 +73,8 @@ msgstr ""
 #: ../../../integration/ide/eclipse.rst:48
 msgid ""
 "Choose board ``ID`` using :ref:`cmd_boards` or `Embedded Boards Explorer "
-"<https://platformio.org/boards>`_ command and generate project via :option:"
-"`pio project init --ide` command:"
+"<https://platformio.org/boards>`_ command and generate project "
+"via :option:`pio project init --ide` command:"
 msgstr ""
 
 #: ../../../integration/ide/eclipse.rst:58
@@ -115,8 +116,8 @@ msgstr ""
 
 #: ../../../integration/ide/eclipse.rst:71
 msgid ""
-"``PlatformIO: Upload using Programmer`` see :ref:"
-"`atmelavr_upload_via_programmer`"
+"``PlatformIO: Upload using Programmer`` "
+"see :ref:`atmelavr_upload_via_programmer`"
 msgstr ""
 
 #: ../../../integration/ide/eclipse.rst:72
@@ -224,8 +225,8 @@ msgstr ""
 #: ../../../integration/ide/eclipse.rst:125
 msgid ""
 "May 05, 2016 - **Ivan Kravets, Ph.D. / Eclipse Virtual IoT Meetup** - "
-"`PlatformIO: a cross-platform IoT solution to build them all! <http://www."
-"meetup.com/Virtual-IoT/events/229964142/>`_"
+"`PlatformIO: a cross-platform IoT solution to build them all! <http://"
+"www.meetup.com/Virtual-IoT/events/229964142/>`_"
 msgstr ""
 
 #: ../../../integration/ide/eclipse.rst:126
@@ -237,14 +238,14 @@ msgstr ""
 
 #: ../../../integration/ide/eclipse.rst:127
 msgid ""
-"Jul 11, 2015 - **TrojanC** - `Learning Arduino GitHub Repository <http://www."
-"trojanc.co.za/2015/07/11/learning-arduino-github-repository/>`_"
+"Jul 11, 2015 - **TrojanC** - `Learning Arduino GitHub Repository <http://"
+"www.trojanc.co.za/2015/07/11/learning-arduino-github-repository/>`_"
 msgstr ""
 
 #: ../../../integration/ide/eclipse.rst:128
 msgid ""
 "June 20, 2014 - **Ivan Kravets, Ph.D.** - `Building and debugging Atmel AVR "
-"(Arduino-based) project using Eclipse IDE+PlatformIO <http://www.ikravets."
-"com/computer-life/programming/2014/06/20/building-and-debugging-atmel-avr-"
-"arduino-based-project-using-eclipse-ideplatformio>`_"
+"(Arduino-based) project using Eclipse IDE+PlatformIO <http://"
+"www.ikravets.com/computer-life/programming/2014/06/20/building-and-debugging-"
+"atmel-avr-arduino-based-project-using-eclipse-ideplatformio>`_"
 msgstr ""

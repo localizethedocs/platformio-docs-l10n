@@ -8,10 +8,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PlatformIO stable\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-24 14:03+0000\n"
+"POT-Creation-Date: 2026-10-26 16:19+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -48,9 +49,9 @@ msgstr ""
 
 #: ../../../platforms/renesas-ra.rst:24
 msgid ""
-"For more detailed information please visit `vendor site <https://www.renesas."
-"com/us/en/products/microcontrollers-microprocessors/ra-cortex-m-mcus?"
-"utm_source=platformio.org&utm_medium=docs>`_."
+"For more detailed information please visit `vendor site <https://"
+"www.renesas.com/us/en/products/microcontrollers-microprocessors/ra-cortex-m-"
+"mcus?utm_source=platformio.org&utm_medium=docs>`_."
 msgstr ""
 
 #: ../../../platforms/renesas-ra.rst:29
@@ -96,8 +97,8 @@ msgstr ""
 #: ../../../platforms/renesas-ra.rst:40
 msgid ""
 "`arduino-internal-libs <https://github.com/platformio/platform-renesas-ra/"
-"tree/master/examples/arduino-internal-libs?utm_source=platformio."
-"org&utm_medium=docs>`_"
+"tree/master/examples/arduino-internal-libs?"
+"utm_source=platformio.org&utm_medium=docs>`_"
 msgstr ""
 
 #: ../../../platforms/renesas-ra.rst:41
@@ -109,8 +110,8 @@ msgstr ""
 #: ../../../platforms/renesas-ra.rst:42
 msgid ""
 "`arduino-iot-cloud-basic <https://github.com/platformio/platform-renesas-ra/"
-"tree/master/examples/arduino-iot-cloud-basic?utm_source=platformio."
-"org&utm_medium=docs>`_"
+"tree/master/examples/arduino-iot-cloud-basic?"
+"utm_source=platformio.org&utm_medium=docs>`_"
 msgstr ""
 
 #: ../../../platforms/renesas-ra.rst:43
@@ -258,8 +259,8 @@ msgstr ""
 msgid ""
 "You can switch between `stable releases <https://github.com/platformio/"
 "platform-renesas-ra/releases>`__ of Renesas RA development platform and the "
-"latest upstream version using :ref:`projectconf_env_platform` option in :ref:"
-"`projectconf` as described below."
+"latest upstream version using :ref:`projectconf_env_platform` option "
+"in :ref:`projectconf` as described below."
 msgstr ""
 
 #: ../../../platforms/renesas-ra.rst:130

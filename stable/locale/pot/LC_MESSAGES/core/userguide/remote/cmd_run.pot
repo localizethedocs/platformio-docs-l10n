@@ -8,10 +8,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PlatformIO stable\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-24 14:03+0000\n"
+"POT-Creation-Date: 2026-10-26 16:19+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -73,8 +74,8 @@ msgstr ""
 
 #: ../../../core/userguide/remote/cmd_run.rst:67
 msgid ""
-"Custom upload port of embedded board. To print all available ports use :ref:"
-"`cmd_remote_device` command."
+"Custom upload port of embedded board. To print all available ports "
+"use :ref:`cmd_remote_device` command."
 msgstr ""
 
 #: ../../../core/userguide/remote/cmd_run.rst:70
@@ -96,15 +97,15 @@ msgstr ""
 #: ../../../core/userguide/remote/cmd_run.rst:83
 msgid ""
 "This option can also be set globally using :ref:`setting_force_verbose` "
-"setting or by environment variable :envvar:"
-"`PLATFORMIO_SETTING_FORCE_VERBOSE`."
+"setting or by environment "
+"variable :envvar:`PLATFORMIO_SETTING_FORCE_VERBOSE`."
 msgstr ""
 
 #: ../../../core/userguide/remote/cmd_run.rst:89
 msgid ""
-"Disable auto-clean of :ref:`projectconf_pio_build_dir` when :ref:"
-"`projectconf` or :ref:`projectconf_pio_src_dir` (project structure) have "
-"been modified."
+"Disable auto-clean of :ref:`projectconf_pio_build_dir` "
+"when :ref:`projectconf` or :ref:`projectconf_pio_src_dir` (project "
+"structure) have been modified."
 msgstr ""
 
 #: ../../../core/userguide/remote/cmd_run.rst:95

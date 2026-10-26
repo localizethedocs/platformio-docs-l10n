@@ -8,10 +8,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PlatformIO stable\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-24 14:03+0000\n"
+"POT-Creation-Date: 2026-10-26 16:19+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -87,8 +88,8 @@ msgstr ""
 
 #: ../../../frameworks/mbed_extra.rst:42
 msgid ""
-"A few PlatformIO-ready projects based on ARM Mbed OS which use ``mbed_app."
-"json``:"
+"A few PlatformIO-ready projects based on ARM Mbed OS which use "
+"``mbed_app.json``:"
 msgstr ""
 
 #: ../../../frameworks/mbed_extra.rst:44
@@ -108,8 +109,8 @@ msgid ""
 "On Windows the maximum length for a path (file name and directory route, "
 "also known as ``MAX_PATH``) — has been defined by 260 characters which can "
 "lead to compilation error for some targets. It's possible to shorten these "
-"paths is to install packages in root of any logical disk by specifying :ref:"
-"`projectconf_pio_core_dir`."
+"paths is to install packages in root of any logical disk by "
+"specifying :ref:`projectconf_pio_core_dir`."
 msgstr ""
 
 #: ../../../frameworks/mbed_extra.rst:55
@@ -138,9 +139,9 @@ msgstr ""
 
 #: ../../../frameworks/mbed_extra.rst:66
 msgid ""
-"`Porting a target from Mbed OS 2 to Mbed OS 6 bare metal <https://os.mbed."
-"com/docs/mbed-os/v6.2/bare-metal/porting-a-target-from-mbed-os-2-to-mbed-"
-"os-6-bare-metal.html>`_"
+"`Porting a target from Mbed OS 2 to Mbed OS 6 bare metal <https://"
+"os.mbed.com/docs/mbed-os/v6.2/bare-metal/porting-a-target-from-mbed-os-2-to-"
+"mbed-os-6-bare-metal.html>`_"
 msgstr ""
 
 #: ../../../frameworks/mbed_extra.rst:69
@@ -153,8 +154,8 @@ msgid ""
 "provides optimized firmware size with full error information and allows MCU "
 "to go to sleep mode. In the case when default build profile is not suitable "
 "for your project there two other profiles ``release`` and ``debug`` that can "
-"be enabled using special macro definitions. You can change build profile :"
-"ref:`projectconf_build_flags` of :ref:`projectconf`:"
+"be enabled using special macro definitions. You can change build "
+"profile :ref:`projectconf_build_flags` of :ref:`projectconf`:"
 msgstr ""
 
 #: ../../../frameworks/mbed.rst:32 ../../../frameworks/mbed.rst:103
@@ -227,16 +228,16 @@ msgstr ""
 msgid ""
 "Secondly, you need to add code specific to your target to the ``src`` folder "
 "of your project. Usually, it's a good idea to isolate this code in a "
-"separate folder and add the path to this folder to :ref:"
-"`projectconf_build_flags` of :ref:`projectconf`:"
+"separate folder and add the path to this folder "
+"to :ref:`projectconf_build_flags` of :ref:`projectconf`:"
 msgstr ""
 
 #: ../../../frameworks/mbed_extra.rst:165
 msgid ""
 "Next, you need to inform PlatformIO that there is a new custom board. To do "
 "this, you can create ``boards`` directory in the root folder of your project "
-"and add a board manifest file with your board name, e.g. ``my_custom_board."
-"json`` as described here :ref:`board_creating`"
+"and add a board manifest file with your board name, e.g. "
+"``my_custom_board.json`` as described here :ref:`board_creating`"
 msgstr ""
 
 #: ../../../frameworks/mbed_extra.rst:169
@@ -457,8 +458,8 @@ msgstr ""
 #: ../../../frameworks/mbed.rst:62
 msgid ""
 "`Mbed for Freescale Kinetis <https://github.com/platformio/platform-"
-"freescalekinetis/tree/master/examples?utm_source=platformio."
-"org&utm_medium=docs>`_"
+"freescalekinetis/tree/master/examples?"
+"utm_source=platformio.org&utm_medium=docs>`_"
 msgstr ""
 
 #: ../../../frameworks/mbed.rst:63
@@ -494,8 +495,8 @@ msgstr ""
 #: ../../../frameworks/mbed.rst:68
 msgid ""
 "`Mbed for Silicon Labs EFM32 <https://github.com/platformio/platform-"
-"siliconlabsefm32/tree/master/examples?utm_source=platformio."
-"org&utm_medium=docs>`_"
+"siliconlabsefm32/tree/master/examples?"
+"utm_source=platformio.org&utm_medium=docs>`_"
 msgstr ""
 
 #: ../../../frameworks/mbed.rst:69
@@ -693,22 +694,21 @@ msgstr ""
 #: ../../../frameworks/mbed.rst:191 ../../../frameworks/mbed.rst:222
 #: ../../../frameworks/mbed.rst:258 ../../../frameworks/mbed.rst:317
 #: ../../../frameworks/mbed.rst:366 ../../../frameworks/mbed.rst:443
-#: ../../../frameworks/mbed.rst:449 ../../../frameworks/mbed.rst:486
-#: ../../../frameworks/mbed.rst:510 ../../../frameworks/mbed.rst:516
-#: ../../../frameworks/mbed.rst:541 ../../../frameworks/mbed.rst:547
-#: ../../../frameworks/mbed.rst:559 ../../../frameworks/mbed.rst:564
-#: ../../../frameworks/mbed.rst:570 ../../../frameworks/mbed.rst:576
-#: ../../../frameworks/mbed.rst:624 ../../../frameworks/mbed.rst:638
-#: ../../../frameworks/mbed.rst:645 ../../../frameworks/mbed.rst:651
-#: ../../../frameworks/mbed.rst:652 ../../../frameworks/mbed.rst:665
-#: ../../../frameworks/mbed.rst:672 ../../../frameworks/mbed.rst:743
-#: ../../../frameworks/mbed.rst:763 ../../../frameworks/mbed.rst:771
-#: ../../../frameworks/mbed.rst:784 ../../../frameworks/mbed.rst:806
-#: ../../../frameworks/mbed.rst:833 ../../../frameworks/mbed.rst:854
-#: ../../../frameworks/mbed.rst:904 ../../../frameworks/mbed.rst:988
-#: ../../../frameworks/mbed.rst:1057 ../../../frameworks/mbed.rst:1114
-#: ../../../frameworks/mbed.rst:1204 ../../../frameworks/mbed.rst:1211
-#: ../../../frameworks/mbed.rst:1254 ../../../frameworks/mbed.rst:1296
+#: ../../../frameworks/mbed.rst:449 ../../../frameworks/mbed.rst:510
+#: ../../../frameworks/mbed.rst:516 ../../../frameworks/mbed.rst:541
+#: ../../../frameworks/mbed.rst:547 ../../../frameworks/mbed.rst:559
+#: ../../../frameworks/mbed.rst:564 ../../../frameworks/mbed.rst:570
+#: ../../../frameworks/mbed.rst:576 ../../../frameworks/mbed.rst:624
+#: ../../../frameworks/mbed.rst:638 ../../../frameworks/mbed.rst:645
+#: ../../../frameworks/mbed.rst:651 ../../../frameworks/mbed.rst:652
+#: ../../../frameworks/mbed.rst:665 ../../../frameworks/mbed.rst:672
+#: ../../../frameworks/mbed.rst:743 ../../../frameworks/mbed.rst:763
+#: ../../../frameworks/mbed.rst:771 ../../../frameworks/mbed.rst:784
+#: ../../../frameworks/mbed.rst:806 ../../../frameworks/mbed.rst:833
+#: ../../../frameworks/mbed.rst:854 ../../../frameworks/mbed.rst:904
+#: ../../../frameworks/mbed.rst:988 ../../../frameworks/mbed.rst:1057
+#: ../../../frameworks/mbed.rst:1114 ../../../frameworks/mbed.rst:1204
+#: ../../../frameworks/mbed.rst:1211 ../../../frameworks/mbed.rst:1296
 #: ../../../frameworks/mbed.rst:1316 ../../../frameworks/mbed.rst:1338
 #: ../../../frameworks/mbed.rst:1387
 msgid "256KB"
@@ -1450,6 +1450,10 @@ msgstr ""
 
 #: ../../../frameworks/mbed.rst:484 ../../../frameworks/mbed.rst:1252
 msgid "160MHz"
+msgstr ""
+
+#: ../../../frameworks/mbed.rst:486 ../../../frameworks/mbed.rst:1254
+msgid "768KB"
 msgstr ""
 
 #: ../../../frameworks/mbed.rst:487 ../../../frameworks/mbed.rst:1255

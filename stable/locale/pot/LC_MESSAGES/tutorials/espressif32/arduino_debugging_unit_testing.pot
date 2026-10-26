@@ -8,10 +8,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PlatformIO stable\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-24 14:03+0000\n"
+"POT-Creation-Date: 2026-10-26 16:19+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -22,9 +23,9 @@ msgstr ""
 
 #: ../../../tutorials/espressif32/arduino_debugging_unit_testing.rst:17
 msgid ""
-"The goal of this tutorial is to demonstrate how simple it is to use :ref:"
-"`ide_vscode` to develop, run and debug a simple project with the :ref:"
-"`framework_arduino` framework for the ``ESP32-DevKitC`` board."
+"The goal of this tutorial is to demonstrate how simple it is to "
+"use :ref:`ide_vscode` to develop, run and debug a simple project with "
+"the :ref:`framework_arduino` framework for the ``ESP32-DevKitC`` board."
 msgstr ""
 
 #: ../../../tutorials/espressif32/arduino_debugging_unit_testing.rst:19
@@ -116,8 +117,8 @@ msgstr ""
 
 #: ../../../tutorials/espressif32/arduino_debugging_unit_testing.rst:76
 msgid ""
-"Task Menu: ``Tasks: Run Task... > PlatformIO: Build``, or in the :ref:"
-"`ide_vscode_toolbar`,"
+"Task Menu: ``Tasks: Run Task... > PlatformIO: Build``, or in "
+"the :ref:`ide_vscode_toolbar`,"
 msgstr ""
 
 #: ../../../tutorials/espressif32/arduino_debugging_unit_testing.rst:77
@@ -433,8 +434,8 @@ msgid ""
 "Now we can compile and upload this program to the board as described in the "
 "previous sections. To verify that our application works as expected, we can "
 "use any Android smartphone with the BLE feature and `Nordic nRF Connect tool "
-"<https://play.google.com/store/apps/details?id=no.nordicsemi.android."
-"mcp&hl=en>`_."
+"<https://play.google.com/store/apps/details?"
+"id=no.nordicsemi.android.mcp&hl=en>`_."
 msgstr ""
 
 #: ../../../tutorials/espressif32/arduino_debugging_unit_testing.rst:338

@@ -8,10 +8,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PlatformIO stable\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-24 14:03+0000\n"
+"POT-Creation-Date: 2026-10-26 16:19+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -44,20 +45,20 @@ msgstr ""
 
 #: ../../../manifests/library-json/fields/dependencies.rst:25
 msgid ""
-"``version`` | Type: ``String`` – :ref:`cmd_pkg_install_requirements` or :ref:"
-"`cmd_pkg_install_specifications`"
+"``version`` | Type: ``String`` – :ref:`cmd_pkg_install_requirements` "
+"or :ref:`cmd_pkg_install_specifications`"
 msgstr ""
 
 #: ../../../manifests/library-json/fields/dependencies.rst:26
 msgid ""
-"``frameworks`` | Type: ``String`` or ``Array`` – project compatible :ref:"
-"`frameworks`"
+"``frameworks`` | Type: ``String`` or ``Array`` – project "
+"compatible :ref:`frameworks`"
 msgstr ""
 
 #: ../../../manifests/library-json/fields/dependencies.rst:27
 msgid ""
-"``platforms`` | Type: ``String`` or ``Array`` – project compatible :ref:"
-"`platforms`"
+"``platforms`` | Type: ``String`` or ``Array`` – project "
+"compatible :ref:`platforms`"
 msgstr ""
 
 #: ../../../manifests/library-json/fields/dependencies.rst:29

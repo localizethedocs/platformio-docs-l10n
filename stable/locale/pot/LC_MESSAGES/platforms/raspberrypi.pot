@@ -8,10 +8,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PlatformIO stable\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-24 14:03+0000\n"
+"POT-Creation-Date: 2026-10-26 16:19+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -46,9 +47,9 @@ msgstr ""
 
 #: ../../../platforms/raspberrypi.rst:24
 msgid ""
-"For more detailed information please visit `vendor site <https://www."
-"raspberrypi.org/documentation/rp2040/getting-started/?utm_source=platformio."
-"org&utm_medium=docs>`_."
+"For more detailed information please visit `vendor site <https://"
+"www.raspberrypi.org/documentation/rp2040/getting-started/?"
+"utm_source=platformio.org&utm_medium=docs>`_."
 msgstr ""
 
 #: ../../../platforms/raspberrypi.rst:29
@@ -75,8 +76,8 @@ msgstr ""
 #: ../../../platforms/raspberrypi.rst:37
 msgid ""
 "`arduino-external-libs <https://github.com/platformio/platform-raspberrypi/"
-"tree/master/examples/arduino-external-libs?utm_source=platformio."
-"org&utm_medium=docs>`_"
+"tree/master/examples/arduino-external-libs?"
+"utm_source=platformio.org&utm_medium=docs>`_"
 msgstr ""
 
 #: ../../../platforms/raspberrypi.rst:40
@@ -185,8 +186,9 @@ msgstr ""
 msgid ""
 "You can switch between `stable releases <https://github.com/platformio/"
 "platform-raspberrypi/releases>`__ of Raspberry Pi RP2040 development "
-"platform and the latest upstream version using :ref:"
-"`projectconf_env_platform` option in :ref:`projectconf` as described below."
+"platform and the latest upstream version "
+"using :ref:`projectconf_env_platform` option in :ref:`projectconf` as "
+"described below."
 msgstr ""
 
 #: ../../../platforms/raspberrypi.rst:97

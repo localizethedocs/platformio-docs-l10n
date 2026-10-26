@@ -8,10 +8,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PlatformIO stable\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-24 14:03+0000\n"
+"POT-Creation-Date: 2026-10-26 16:19+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -103,15 +104,15 @@ msgstr ""
 msgid ""
 ":ref:`cmd_project_init` command requires to specify board identifier ID. It "
 "can be found using :ref:`boards` catalog, `Boards Explorer <https://"
-"platformio.org/boards>`_ or :ref:`cmd_boards` command. For example, using :"
-"ref:`cmd_boards` let's try to find Teensy boards:"
+"platformio.org/boards>`_ or :ref:`cmd_boards` command. For example, "
+"using :ref:`cmd_boards` let's try to find Teensy boards:"
 msgstr ""
 
 #: ../../../core/quickstart.rst:77
 msgid ""
 "According to the table above the ID for :ref:`board_teensy_teensy31` is "
-"``teensy31``. Also, the ID for :ref:`board_atmelavr_uno` is ``uno`` and for :"
-"ref:`board_espressif8266_nodemcuv2` is ``nodemcuv2``."
+"``teensy31``. Also, the ID for :ref:`board_atmelavr_uno` is ``uno`` and "
+"for :ref:`board_espressif8266_nodemcuv2` is ``nodemcuv2``."
 msgstr ""
 
 #: ../../../core/quickstart.rst:82
@@ -151,8 +152,8 @@ msgstr ""
 
 #: ../../../core/quickstart.rst:128
 msgid ""
-"``src`` directory where you should place source code (``*.h, *.c, *.cpp, *."
-"S, *.ino, etc.``)"
+"``src`` directory where you should place source code (``*.h, *.c, *.cpp, "
+"*.S, *.ino, etc.``)"
 msgstr ""
 
 #: ../../../core/quickstart.rst:130
@@ -167,8 +168,8 @@ msgstr ""
 
 #: ../../../core/quickstart.rst:136
 msgid ""
-"If you need to add new board to the existing project please use :ref:"
-"`cmd_project_init` again."
+"If you need to add new board to the existing project please "
+"use :ref:`cmd_project_init` again."
 msgstr ""
 
 #: ../../../core/quickstart.rst:140

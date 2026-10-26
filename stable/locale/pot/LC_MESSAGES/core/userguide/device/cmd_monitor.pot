@@ -8,10 +8,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PlatformIO stable\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-24 14:03+0000\n"
+"POT-Creation-Date: 2026-10-26 16:19+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -37,22 +38,22 @@ msgstr ""
 #: ../../../core/userguide/device/cmd_monitor.rst:29
 msgid ""
 "This is a console application that provides a small terminal application. It "
-"is based on `Miniterm <https://pythonhosted.org/pyserial/examples."
-"html#miniterm>`_ and itself does not implement any terminal features such as "
-"*VT102* compatibility. However it inherits these features from the terminal "
-"it is run. For example on GNU/Linux running from an *xterm* it will support "
-"the escape sequences of the *xterm*. On *Windows* the typical console window "
-"is dumb and does not support any escapes. When *ANSI.sys* is loaded it "
-"supports some escapes."
+"is based on `Miniterm <https://pythonhosted.org/pyserial/"
+"examples.html#miniterm>`_ and itself does not implement any terminal "
+"features such as *VT102* compatibility. However it inherits these features "
+"from the terminal it is run. For example on GNU/Linux running from an "
+"*xterm* it will support the escape sequences of the *xterm*. On *Windows* "
+"the typical console window is dumb and does not support any escapes. When "
+"*ANSI.sys* is loaded it supports some escapes."
 msgstr ""
 
 #: ../../../core/userguide/device/cmd_monitor.rst:38
 msgid ""
 "Miniterm supports `RFC 2217 <https://tools.ietf.org/html/rfc2217.html>`__ "
-"remote serial ports and raw sockets using `URL Handlers <https://pyserial."
-"readthedocs.io/en/latest/url_handlers.html#urls>`__ such as ``rfc2217://"
-"<host>:<port>`` respectively ``socket://<host>:<port>`` as port argument "
-"when invoking."
+"remote serial ports and raw sockets using `URL Handlers <https://"
+"pyserial.readthedocs.io/en/latest/url_handlers.html#urls>`__ such as "
+"``rfc2217://<host>:<port>`` respectively ``socket://<host>:<port>`` as port "
+"argument when invoking."
 msgstr ""
 
 #: ../../../core/userguide/device/cmd_monitor.rst:43
@@ -77,8 +78,8 @@ msgstr ""
 
 #: ../../../core/userguide/device/cmd_monitor.rst:57
 msgid ""
-"The possible values are the same as documented for :ref:"
-"`projectconf_monitor_port` option."
+"The possible values are the same as documented "
+"for :ref:`projectconf_monitor_port` option."
 msgstr ""
 
 #: ../../../core/userguide/device/cmd_monitor.rst:63
@@ -87,8 +88,8 @@ msgstr ""
 
 #: ../../../core/userguide/device/cmd_monitor.rst:65
 msgid ""
-"Can be customized in :ref:`projectconf` using :ref:"
-"`projectconf_monitor_speed` option."
+"Can be customized in :ref:`projectconf` "
+"using :ref:`projectconf_monitor_speed` option."
 msgstr ""
 
 #: ../../../core/userguide/device/cmd_monitor.rst:71
@@ -99,8 +100,8 @@ msgstr ""
 
 #: ../../../core/userguide/device/cmd_monitor.rst:74
 msgid ""
-"Can be customized in :ref:`projectconf` using :ref:"
-"`projectconf_monitor_parity` option."
+"Can be customized in :ref:`projectconf` "
+"using :ref:`projectconf_monitor_parity` option."
 msgstr ""
 
 #: ../../../core/userguide/device/cmd_monitor.rst:80
@@ -137,8 +138,8 @@ msgstr ""
 
 #: ../../../core/userguide/device/cmd_monitor.rst:108
 msgid ""
-"Can be customized in :ref:`projectconf` using :ref:"
-"`projectconf_monitor_echo` option."
+"Can be customized in :ref:`projectconf` "
+"using :ref:`projectconf_monitor_echo` option."
 msgstr ""
 
 #: ../../../core/userguide/device/cmd_monitor.rst:114
@@ -150,14 +151,14 @@ msgstr ""
 
 #: ../../../core/userguide/device/cmd_monitor.rst:117
 msgid ""
-"Can be customized in :ref:`projectconf` using :ref:"
-"`projectconf_monitor_encoding` option."
+"Can be customized in :ref:`projectconf` "
+"using :ref:`projectconf_monitor_encoding` option."
 msgstr ""
 
 #: ../../../core/userguide/device/cmd_monitor.rst:123
 msgid ""
-"Add text transformation. See available filters at :ref:"
-"`cmd_device_monitor_filters`."
+"Add text transformation. See available filters "
+"at :ref:`cmd_device_monitor_filters`."
 msgstr ""
 
 #: ../../../core/userguide/device/cmd_monitor.rst:128
@@ -228,8 +229,8 @@ msgstr ""
 #: ../../../core/userguide/device/cmd_monitor.rst:185
 msgid ""
 "PlatformIO allows you to apply multiple filters to the device monitor INPUT "
-"& OUTPUT streams using the :option:`pio device monitor --filter` command or :"
-"ref:`projectconf_monitor_filters` option."
+"& OUTPUT streams using the :option:`pio device monitor --filter` command "
+"or :ref:`projectconf_monitor_filters` option."
 msgstr ""
 
 #: ../../../core/userguide/device/cmd_monitor.rst:190

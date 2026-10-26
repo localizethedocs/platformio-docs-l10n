@@ -8,10 +8,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PlatformIO stable\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-24 14:03+0000\n"
+"POT-Creation-Date: 2026-10-26 16:19+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -86,8 +87,8 @@ msgstr ""
 #: ../../../integration/ide/sublimetext.rst:55
 msgid ""
 "Choose board ``ID`` using :ref:`cmd_boards` or `Embedded Boards Explorer "
-"<https://platformio.org/boards>`_ command and generate project via :option:"
-"`pio project init --ide` command:"
+"<https://platformio.org/boards>`_ command and generate project "
+"via :option:`pio project init --ide` command:"
 msgstr ""
 
 #: ../../../integration/ide/sublimetext.rst:65
@@ -97,8 +98,8 @@ msgstr ""
 #: ../../../integration/ide/sublimetext.rst:67
 msgid ""
 "Import project via ``Menu: Project > Open Project...`` and select "
-"``platformio.sublime-project`` from the folder where is located :ref:"
-"`projectconf`"
+"``platformio.sublime-project`` from the folder where is "
+"located :ref:`projectconf`"
 msgstr ""
 
 #: ../../../integration/ide/sublimetext.rst:69
@@ -139,8 +140,8 @@ msgstr ""
 
 #: ../../../integration/ide/sublimetext.rst:80
 msgid ""
-"``PlatformIO - Upload using Programmer`` see :ref:"
-"`atmelavr_upload_via_programmer`"
+"``PlatformIO - Upload using Programmer`` "
+"see :ref:`atmelavr_upload_via_programmer`"
 msgstr ""
 
 #: ../../../integration/ide/sublimetext.rst:81
