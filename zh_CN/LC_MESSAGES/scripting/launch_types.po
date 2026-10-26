@@ -1,0 +1,83 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present, PlatformIO
+# This file is distributed under the same license as the PlatformIO package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PlatformIO latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-24 14:02+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../scripting/launch_types.rst:15
+msgid "Launch Types"
+msgstr ""
+
+#: ../../../scripting/launch_types.rst:17
+msgid "There are two execution types for extra scripts:"
+msgstr ""
+
+#: ../../../scripting/launch_types.rst:19
+msgid "**PRE** - executes before the main script of :ref:`platforms`."
+msgstr ""
+
+#: ../../../scripting/launch_types.rst:21
+msgid ""
+"Useful to pre-generate extra source files or make dynamic changes/patches to "
+"the existing, pass flags to the global building environment, add :ref:"
+"`scripting_middlewares`, etc."
+msgstr ""
+
+#: ../../../scripting/launch_types.rst:26
+msgid ""
+"Please note that the ``projenv`` (see :ref:`scripting_envs`) is not "
+"available at this stage."
+msgstr ""
+
+#: ../../../scripting/launch_types.rst:29
+msgid ""
+"**POST** - executes after the **PRE** and the main script of :ref:"
+"`platforms`."
+msgstr ""
+
+#: ../../../scripting/launch_types.rst:32
+msgid ""
+"The building environment is fully constructed at this stage with all build "
+"flags, development platform targets, dependent libraries, and ``projenv``. "
+"Useful to assign :ref:`scripting_actions`, modify default build flags set by "
+"the development platform, or extend the building workflow."
+msgstr ""
+
+#: ../../../scripting/launch_types.rst:38
+msgid ""
+"The extra scripts can be configured using the :ref:"
+"`projectconf_extra_scripts` option in :ref:`projectconf` or using the :ref:"
+"`library_json_buid_extra_script` in :ref:`library_json` manifest."
+msgstr ""
+
+#: ../../../scripting/launch_types.rst:42
+msgid ""
+"The launch type can be specified as a prefix (``pre:`` or ``post:``) to the "
+"script path. If there is no prefix specified, the ``post:`` will be used "
+"automatically."
+msgstr ""
+
+#: ../../../scripting/launch_types.rst:46
+msgid "**Example**"
+msgstr ""
+
+#: ../../../scripting/launch_types.rst:63
+msgid ""
+"PlatformIO includes a service stage during runtime where it re-executes "
+"extra scripts to gather integration information intended for IDE plugins. If "
+"you want your scripts to run exclusively for the \"build\" target, include "
+"the following hook at the beginning of your script:"
+msgstr ""

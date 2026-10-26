@@ -1,0 +1,3600 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present, PlatformIO
+# This file is distributed under the same license as the PlatformIO package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PlatformIO latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-24 14:02+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../platforms/intel_mcs51.rst:15
+msgid "Intel MCS-51 (8051)"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:0
+msgid "Registry"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:18
+msgid ""
+"`https://registry.platformio.org/platforms/platformio/intel_mcs51 <https://"
+"registry.platformio.org/platforms/platformio/intel_mcs51>`__"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:0
+msgid "Configuration"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:20
+msgid ":ref:`projectconf_env_platform` = ``platformio/intel_mcs51``"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:22
+msgid ""
+"The Intel MCS-51 (commonly termed 8051) is an internally Harvard "
+"architecture, complex instruction set computer (CISC) instruction set, "
+"single chip microcontroller (uC) series developed by Intel in 1980 for use "
+"in embedded systems."
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:24
+msgid ""
+"For more detailed information please visit `vendor site <https://en."
+"wikipedia.org/wiki/Intel_MCS-51?utm_source=platformio.org&utm_medium=docs>`_."
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:29
+msgid "Contents"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:32
+msgid "Examples"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:34
+msgid ""
+"Examples are listed from `Intel MCS-51 (8051) development platform "
+"repository <https://github.com/platformio/platform-intel_mcs51/tree/master/"
+"examples?utm_source=platformio.org&utm_medium=docs>`_:"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:36
+msgid ""
+"`anymcu-blink <https://github.com/platformio/platform-intel_mcs51/tree/"
+"master/examples/anymcu-blink?utm_source=platformio.org&utm_medium=docs>`_"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:37
+msgid ""
+"`stc-header <https://github.com/platformio/platform-intel_mcs51/tree/master/"
+"examples/stc-header?utm_source=platformio.org&utm_medium=docs>`_"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:38
+msgid ""
+"`assembly-blink <https://github.com/platformio/platform-intel_mcs51/tree/"
+"master/examples/assembly-blink?utm_source=platformio.org&utm_medium=docs>`_"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:39
+msgid ""
+"`native-blink <https://github.com/platformio/platform-intel_mcs51/tree/"
+"master/examples/native-blink?utm_source=platformio.org&utm_medium=docs>`_"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:40
+msgid ""
+"`anymcu-header <https://github.com/platformio/platform-intel_mcs51/tree/"
+"master/examples/anymcu-header?utm_source=platformio.org&utm_medium=docs>`_"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:41
+msgid ""
+"`stc-blink <https://github.com/platformio/platform-intel_mcs51/tree/master/"
+"examples/stc-blink?utm_source=platformio.org&utm_medium=docs>`_"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:44
+msgid "Stable and upstream versions"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:46
+msgid ""
+"You can switch between `stable releases <https://github.com/platformio/"
+"platform-intel_mcs51/releases>`__ of Intel MCS-51 (8051) development "
+"platform and the latest upstream version using :ref:"
+"`projectconf_env_platform` option in :ref:`projectconf` as described below."
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:51
+msgid "Stable"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:67
+msgid "Upstream"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:77
+msgid "Packages"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:82 ../../../platforms/intel_mcs51.rst:122
+#: ../../../platforms/intel_mcs51.rst:141
+#: ../../../platforms/intel_mcs51.rst:160
+#: ../../../platforms/intel_mcs51.rst:185
+#: ../../../platforms/intel_mcs51.rst:588
+#: ../../../platforms/intel_mcs51.rst:1765
+msgid "Name"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:83
+msgid "Description"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:85
+msgid ""
+"`tool-stcgal <https://registry.platformio.org/tools/platformio/tool-"
+"stcgal>`__"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:86
+msgid "Open Source STC MCU ISP flash tool"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:88
+msgid ""
+"`tool-vnproch55x <https://registry.platformio.org/tools/platformio/tool-"
+"vnproch55x>`__"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:89
+msgid "CH55X Programming software"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:91
+msgid ""
+"`toolchain-sdcc <https://registry.platformio.org/tools/platformio/toolchain-"
+"sdcc>`__"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:92
+msgid "Small Device C compiler suite"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:95
+msgid "**Linux Users**:"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:97
+msgid "Install \"udev\" rules :ref:`platformio_udev_rules`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:98
+msgid ""
+"Raspberry Pi users, please read this article `Enable serial port on "
+"Raspberry Pi <https://hallard.me/enable-serial-port-on-raspberry-pi/>`__."
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:102
+msgid "**Windows Users:**"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:104
+msgid ""
+"Please check that you have a correctly installed USB driver from board "
+"manufacturer"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:109
+msgid "Boards"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:112
+msgid "You can list pre-configured boards by :ref:`cmd_boards` command"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:113
+msgid ""
+"For more detailed ``board`` information please scroll the tables below by "
+"horizontally."
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:117
+msgid "Intel & Licensees"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:123
+#: ../../../platforms/intel_mcs51.rst:142
+#: ../../../platforms/intel_mcs51.rst:161
+#: ../../../platforms/intel_mcs51.rst:186
+#: ../../../platforms/intel_mcs51.rst:589
+#: ../../../platforms/intel_mcs51.rst:1766
+msgid "Debug"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:124
+#: ../../../platforms/intel_mcs51.rst:143
+#: ../../../platforms/intel_mcs51.rst:162
+#: ../../../platforms/intel_mcs51.rst:187
+#: ../../../platforms/intel_mcs51.rst:590
+#: ../../../platforms/intel_mcs51.rst:1767
+msgid "MCU"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:125
+#: ../../../platforms/intel_mcs51.rst:144
+#: ../../../platforms/intel_mcs51.rst:163
+#: ../../../platforms/intel_mcs51.rst:188
+#: ../../../platforms/intel_mcs51.rst:591
+#: ../../../platforms/intel_mcs51.rst:1768
+msgid "Frequency"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:126
+#: ../../../platforms/intel_mcs51.rst:145
+#: ../../../platforms/intel_mcs51.rst:164
+#: ../../../platforms/intel_mcs51.rst:189
+#: ../../../platforms/intel_mcs51.rst:592
+#: ../../../platforms/intel_mcs51.rst:1769
+msgid "Flash"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:127
+#: ../../../platforms/intel_mcs51.rst:146
+#: ../../../platforms/intel_mcs51.rst:165
+#: ../../../platforms/intel_mcs51.rst:190
+#: ../../../platforms/intel_mcs51.rst:593
+#: ../../../platforms/intel_mcs51.rst:1770
+msgid "RAM"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:128
+msgid ":ref:`board_intel_mcs51_Generic8051`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:129
+#: ../../../platforms/intel_mcs51.rst:148
+#: ../../../platforms/intel_mcs51.rst:167
+#: ../../../platforms/intel_mcs51.rst:173
+#: ../../../platforms/intel_mcs51.rst:192
+#: ../../../platforms/intel_mcs51.rst:198
+#: ../../../platforms/intel_mcs51.rst:204
+#: ../../../platforms/intel_mcs51.rst:210
+#: ../../../platforms/intel_mcs51.rst:216
+#: ../../../platforms/intel_mcs51.rst:222
+#: ../../../platforms/intel_mcs51.rst:228
+#: ../../../platforms/intel_mcs51.rst:234
+#: ../../../platforms/intel_mcs51.rst:240
+#: ../../../platforms/intel_mcs51.rst:246
+#: ../../../platforms/intel_mcs51.rst:252
+#: ../../../platforms/intel_mcs51.rst:258
+#: ../../../platforms/intel_mcs51.rst:264
+#: ../../../platforms/intel_mcs51.rst:270
+#: ../../../platforms/intel_mcs51.rst:276
+#: ../../../platforms/intel_mcs51.rst:282
+#: ../../../platforms/intel_mcs51.rst:288
+#: ../../../platforms/intel_mcs51.rst:294
+#: ../../../platforms/intel_mcs51.rst:300
+#: ../../../platforms/intel_mcs51.rst:306
+#: ../../../platforms/intel_mcs51.rst:312
+#: ../../../platforms/intel_mcs51.rst:318
+#: ../../../platforms/intel_mcs51.rst:324
+#: ../../../platforms/intel_mcs51.rst:330
+#: ../../../platforms/intel_mcs51.rst:336
+#: ../../../platforms/intel_mcs51.rst:342
+#: ../../../platforms/intel_mcs51.rst:348
+#: ../../../platforms/intel_mcs51.rst:354
+#: ../../../platforms/intel_mcs51.rst:360
+#: ../../../platforms/intel_mcs51.rst:366
+#: ../../../platforms/intel_mcs51.rst:372
+#: ../../../platforms/intel_mcs51.rst:378
+#: ../../../platforms/intel_mcs51.rst:384
+#: ../../../platforms/intel_mcs51.rst:390
+#: ../../../platforms/intel_mcs51.rst:396
+#: ../../../platforms/intel_mcs51.rst:402
+#: ../../../platforms/intel_mcs51.rst:408
+#: ../../../platforms/intel_mcs51.rst:414
+#: ../../../platforms/intel_mcs51.rst:420
+#: ../../../platforms/intel_mcs51.rst:426
+#: ../../../platforms/intel_mcs51.rst:432
+#: ../../../platforms/intel_mcs51.rst:438
+#: ../../../platforms/intel_mcs51.rst:444
+#: ../../../platforms/intel_mcs51.rst:450
+#: ../../../platforms/intel_mcs51.rst:456
+#: ../../../platforms/intel_mcs51.rst:462
+#: ../../../platforms/intel_mcs51.rst:468
+#: ../../../platforms/intel_mcs51.rst:474
+#: ../../../platforms/intel_mcs51.rst:480
+#: ../../../platforms/intel_mcs51.rst:486
+#: ../../../platforms/intel_mcs51.rst:492
+#: ../../../platforms/intel_mcs51.rst:498
+#: ../../../platforms/intel_mcs51.rst:504
+#: ../../../platforms/intel_mcs51.rst:510
+#: ../../../platforms/intel_mcs51.rst:516
+#: ../../../platforms/intel_mcs51.rst:522
+#: ../../../platforms/intel_mcs51.rst:528
+#: ../../../platforms/intel_mcs51.rst:534
+#: ../../../platforms/intel_mcs51.rst:540
+#: ../../../platforms/intel_mcs51.rst:546
+#: ../../../platforms/intel_mcs51.rst:552
+#: ../../../platforms/intel_mcs51.rst:558
+#: ../../../platforms/intel_mcs51.rst:564
+#: ../../../platforms/intel_mcs51.rst:570
+#: ../../../platforms/intel_mcs51.rst:576
+#: ../../../platforms/intel_mcs51.rst:595
+#: ../../../platforms/intel_mcs51.rst:601
+#: ../../../platforms/intel_mcs51.rst:607
+#: ../../../platforms/intel_mcs51.rst:613
+#: ../../../platforms/intel_mcs51.rst:619
+#: ../../../platforms/intel_mcs51.rst:625
+#: ../../../platforms/intel_mcs51.rst:631
+#: ../../../platforms/intel_mcs51.rst:637
+#: ../../../platforms/intel_mcs51.rst:643
+#: ../../../platforms/intel_mcs51.rst:649
+#: ../../../platforms/intel_mcs51.rst:655
+#: ../../../platforms/intel_mcs51.rst:661
+#: ../../../platforms/intel_mcs51.rst:667
+#: ../../../platforms/intel_mcs51.rst:673
+#: ../../../platforms/intel_mcs51.rst:679
+#: ../../../platforms/intel_mcs51.rst:685
+#: ../../../platforms/intel_mcs51.rst:691
+#: ../../../platforms/intel_mcs51.rst:697
+#: ../../../platforms/intel_mcs51.rst:703
+#: ../../../platforms/intel_mcs51.rst:709
+#: ../../../platforms/intel_mcs51.rst:715
+#: ../../../platforms/intel_mcs51.rst:721
+#: ../../../platforms/intel_mcs51.rst:727
+#: ../../../platforms/intel_mcs51.rst:733
+#: ../../../platforms/intel_mcs51.rst:739
+#: ../../../platforms/intel_mcs51.rst:745
+#: ../../../platforms/intel_mcs51.rst:751
+#: ../../../platforms/intel_mcs51.rst:757
+#: ../../../platforms/intel_mcs51.rst:763
+#: ../../../platforms/intel_mcs51.rst:769
+#: ../../../platforms/intel_mcs51.rst:775
+#: ../../../platforms/intel_mcs51.rst:781
+#: ../../../platforms/intel_mcs51.rst:787
+#: ../../../platforms/intel_mcs51.rst:793
+#: ../../../platforms/intel_mcs51.rst:799
+#: ../../../platforms/intel_mcs51.rst:805
+#: ../../../platforms/intel_mcs51.rst:811
+#: ../../../platforms/intel_mcs51.rst:817
+#: ../../../platforms/intel_mcs51.rst:823
+#: ../../../platforms/intel_mcs51.rst:829
+#: ../../../platforms/intel_mcs51.rst:835
+#: ../../../platforms/intel_mcs51.rst:841
+#: ../../../platforms/intel_mcs51.rst:847
+#: ../../../platforms/intel_mcs51.rst:853
+#: ../../../platforms/intel_mcs51.rst:859
+#: ../../../platforms/intel_mcs51.rst:865
+#: ../../../platforms/intel_mcs51.rst:871
+#: ../../../platforms/intel_mcs51.rst:877
+#: ../../../platforms/intel_mcs51.rst:883
+#: ../../../platforms/intel_mcs51.rst:889
+#: ../../../platforms/intel_mcs51.rst:895
+#: ../../../platforms/intel_mcs51.rst:901
+#: ../../../platforms/intel_mcs51.rst:907
+#: ../../../platforms/intel_mcs51.rst:913
+#: ../../../platforms/intel_mcs51.rst:919
+#: ../../../platforms/intel_mcs51.rst:925
+#: ../../../platforms/intel_mcs51.rst:931
+#: ../../../platforms/intel_mcs51.rst:937
+#: ../../../platforms/intel_mcs51.rst:943
+#: ../../../platforms/intel_mcs51.rst:949
+#: ../../../platforms/intel_mcs51.rst:955
+#: ../../../platforms/intel_mcs51.rst:961
+#: ../../../platforms/intel_mcs51.rst:967
+#: ../../../platforms/intel_mcs51.rst:973
+#: ../../../platforms/intel_mcs51.rst:979
+#: ../../../platforms/intel_mcs51.rst:985
+#: ../../../platforms/intel_mcs51.rst:991
+#: ../../../platforms/intel_mcs51.rst:997
+#: ../../../platforms/intel_mcs51.rst:1003
+#: ../../../platforms/intel_mcs51.rst:1009
+#: ../../../platforms/intel_mcs51.rst:1015
+#: ../../../platforms/intel_mcs51.rst:1021
+#: ../../../platforms/intel_mcs51.rst:1027
+#: ../../../platforms/intel_mcs51.rst:1033
+#: ../../../platforms/intel_mcs51.rst:1039
+#: ../../../platforms/intel_mcs51.rst:1045
+#: ../../../platforms/intel_mcs51.rst:1051
+#: ../../../platforms/intel_mcs51.rst:1057
+#: ../../../platforms/intel_mcs51.rst:1063
+#: ../../../platforms/intel_mcs51.rst:1069
+#: ../../../platforms/intel_mcs51.rst:1075
+#: ../../../platforms/intel_mcs51.rst:1081
+#: ../../../platforms/intel_mcs51.rst:1087
+#: ../../../platforms/intel_mcs51.rst:1093
+#: ../../../platforms/intel_mcs51.rst:1099
+#: ../../../platforms/intel_mcs51.rst:1105
+#: ../../../platforms/intel_mcs51.rst:1111
+#: ../../../platforms/intel_mcs51.rst:1117
+#: ../../../platforms/intel_mcs51.rst:1123
+#: ../../../platforms/intel_mcs51.rst:1129
+#: ../../../platforms/intel_mcs51.rst:1135
+#: ../../../platforms/intel_mcs51.rst:1141
+#: ../../../platforms/intel_mcs51.rst:1147
+#: ../../../platforms/intel_mcs51.rst:1153
+#: ../../../platforms/intel_mcs51.rst:1159
+#: ../../../platforms/intel_mcs51.rst:1165
+#: ../../../platforms/intel_mcs51.rst:1171
+#: ../../../platforms/intel_mcs51.rst:1177
+#: ../../../platforms/intel_mcs51.rst:1183
+#: ../../../platforms/intel_mcs51.rst:1189
+#: ../../../platforms/intel_mcs51.rst:1195
+#: ../../../platforms/intel_mcs51.rst:1201
+#: ../../../platforms/intel_mcs51.rst:1207
+#: ../../../platforms/intel_mcs51.rst:1213
+#: ../../../platforms/intel_mcs51.rst:1219
+#: ../../../platforms/intel_mcs51.rst:1225
+#: ../../../platforms/intel_mcs51.rst:1231
+#: ../../../platforms/intel_mcs51.rst:1237
+#: ../../../platforms/intel_mcs51.rst:1243
+#: ../../../platforms/intel_mcs51.rst:1249
+#: ../../../platforms/intel_mcs51.rst:1255
+#: ../../../platforms/intel_mcs51.rst:1261
+#: ../../../platforms/intel_mcs51.rst:1267
+#: ../../../platforms/intel_mcs51.rst:1273
+#: ../../../platforms/intel_mcs51.rst:1279
+#: ../../../platforms/intel_mcs51.rst:1285
+#: ../../../platforms/intel_mcs51.rst:1291
+#: ../../../platforms/intel_mcs51.rst:1297
+#: ../../../platforms/intel_mcs51.rst:1303
+#: ../../../platforms/intel_mcs51.rst:1309
+#: ../../../platforms/intel_mcs51.rst:1315
+#: ../../../platforms/intel_mcs51.rst:1321
+#: ../../../platforms/intel_mcs51.rst:1327
+#: ../../../platforms/intel_mcs51.rst:1333
+#: ../../../platforms/intel_mcs51.rst:1339
+#: ../../../platforms/intel_mcs51.rst:1345
+#: ../../../platforms/intel_mcs51.rst:1351
+#: ../../../platforms/intel_mcs51.rst:1357
+#: ../../../platforms/intel_mcs51.rst:1363
+#: ../../../platforms/intel_mcs51.rst:1369
+#: ../../../platforms/intel_mcs51.rst:1375
+#: ../../../platforms/intel_mcs51.rst:1381
+#: ../../../platforms/intel_mcs51.rst:1387
+#: ../../../platforms/intel_mcs51.rst:1393
+#: ../../../platforms/intel_mcs51.rst:1399
+#: ../../../platforms/intel_mcs51.rst:1405
+#: ../../../platforms/intel_mcs51.rst:1411
+#: ../../../platforms/intel_mcs51.rst:1417
+#: ../../../platforms/intel_mcs51.rst:1423
+#: ../../../platforms/intel_mcs51.rst:1429
+#: ../../../platforms/intel_mcs51.rst:1435
+#: ../../../platforms/intel_mcs51.rst:1441
+#: ../../../platforms/intel_mcs51.rst:1447
+#: ../../../platforms/intel_mcs51.rst:1453
+#: ../../../platforms/intel_mcs51.rst:1459
+#: ../../../platforms/intel_mcs51.rst:1465
+#: ../../../platforms/intel_mcs51.rst:1471
+#: ../../../platforms/intel_mcs51.rst:1477
+#: ../../../platforms/intel_mcs51.rst:1483
+#: ../../../platforms/intel_mcs51.rst:1489
+#: ../../../platforms/intel_mcs51.rst:1495
+#: ../../../platforms/intel_mcs51.rst:1501
+#: ../../../platforms/intel_mcs51.rst:1507
+#: ../../../platforms/intel_mcs51.rst:1513
+#: ../../../platforms/intel_mcs51.rst:1519
+#: ../../../platforms/intel_mcs51.rst:1525
+#: ../../../platforms/intel_mcs51.rst:1531
+#: ../../../platforms/intel_mcs51.rst:1537
+#: ../../../platforms/intel_mcs51.rst:1543
+#: ../../../platforms/intel_mcs51.rst:1549
+#: ../../../platforms/intel_mcs51.rst:1555
+#: ../../../platforms/intel_mcs51.rst:1561
+#: ../../../platforms/intel_mcs51.rst:1567
+#: ../../../platforms/intel_mcs51.rst:1573
+#: ../../../platforms/intel_mcs51.rst:1579
+#: ../../../platforms/intel_mcs51.rst:1585
+#: ../../../platforms/intel_mcs51.rst:1591
+#: ../../../platforms/intel_mcs51.rst:1597
+#: ../../../platforms/intel_mcs51.rst:1603
+#: ../../../platforms/intel_mcs51.rst:1609
+#: ../../../platforms/intel_mcs51.rst:1615
+#: ../../../platforms/intel_mcs51.rst:1621
+#: ../../../platforms/intel_mcs51.rst:1627
+#: ../../../platforms/intel_mcs51.rst:1633
+#: ../../../platforms/intel_mcs51.rst:1639
+#: ../../../platforms/intel_mcs51.rst:1645
+#: ../../../platforms/intel_mcs51.rst:1651
+#: ../../../platforms/intel_mcs51.rst:1657
+#: ../../../platforms/intel_mcs51.rst:1663
+#: ../../../platforms/intel_mcs51.rst:1669
+#: ../../../platforms/intel_mcs51.rst:1675
+#: ../../../platforms/intel_mcs51.rst:1681
+#: ../../../platforms/intel_mcs51.rst:1687
+#: ../../../platforms/intel_mcs51.rst:1693
+#: ../../../platforms/intel_mcs51.rst:1699
+#: ../../../platforms/intel_mcs51.rst:1705
+#: ../../../platforms/intel_mcs51.rst:1711
+#: ../../../platforms/intel_mcs51.rst:1717
+#: ../../../platforms/intel_mcs51.rst:1723
+#: ../../../platforms/intel_mcs51.rst:1729
+#: ../../../platforms/intel_mcs51.rst:1735
+#: ../../../platforms/intel_mcs51.rst:1741
+#: ../../../platforms/intel_mcs51.rst:1747
+#: ../../../platforms/intel_mcs51.rst:1753
+#: ../../../platforms/intel_mcs51.rst:1772
+msgid "No"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:130
+msgid "8051"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:131
+#: ../../../platforms/intel_mcs51.rst:150
+#: ../../../platforms/intel_mcs51.rst:169
+#: ../../../platforms/intel_mcs51.rst:175
+#: ../../../platforms/intel_mcs51.rst:404
+#: ../../../platforms/intel_mcs51.rst:554
+#: ../../../platforms/intel_mcs51.rst:597
+#: ../../../platforms/intel_mcs51.rst:603
+#: ../../../platforms/intel_mcs51.rst:609
+#: ../../../platforms/intel_mcs51.rst:615
+#: ../../../platforms/intel_mcs51.rst:621
+#: ../../../platforms/intel_mcs51.rst:627
+#: ../../../platforms/intel_mcs51.rst:633
+#: ../../../platforms/intel_mcs51.rst:639
+#: ../../../platforms/intel_mcs51.rst:645
+#: ../../../platforms/intel_mcs51.rst:651
+#: ../../../platforms/intel_mcs51.rst:657
+#: ../../../platforms/intel_mcs51.rst:663
+#: ../../../platforms/intel_mcs51.rst:669
+#: ../../../platforms/intel_mcs51.rst:675
+#: ../../../platforms/intel_mcs51.rst:681
+#: ../../../platforms/intel_mcs51.rst:687
+#: ../../../platforms/intel_mcs51.rst:693
+#: ../../../platforms/intel_mcs51.rst:699
+#: ../../../platforms/intel_mcs51.rst:705
+#: ../../../platforms/intel_mcs51.rst:711
+#: ../../../platforms/intel_mcs51.rst:717
+#: ../../../platforms/intel_mcs51.rst:723
+#: ../../../platforms/intel_mcs51.rst:729
+#: ../../../platforms/intel_mcs51.rst:735
+#: ../../../platforms/intel_mcs51.rst:741
+#: ../../../platforms/intel_mcs51.rst:747
+#: ../../../platforms/intel_mcs51.rst:753
+#: ../../../platforms/intel_mcs51.rst:759
+#: ../../../platforms/intel_mcs51.rst:765
+#: ../../../platforms/intel_mcs51.rst:771
+#: ../../../platforms/intel_mcs51.rst:777
+#: ../../../platforms/intel_mcs51.rst:783
+#: ../../../platforms/intel_mcs51.rst:789
+#: ../../../platforms/intel_mcs51.rst:795
+#: ../../../platforms/intel_mcs51.rst:801
+#: ../../../platforms/intel_mcs51.rst:807
+#: ../../../platforms/intel_mcs51.rst:813
+#: ../../../platforms/intel_mcs51.rst:819
+#: ../../../platforms/intel_mcs51.rst:825
+#: ../../../platforms/intel_mcs51.rst:831
+#: ../../../platforms/intel_mcs51.rst:837
+#: ../../../platforms/intel_mcs51.rst:843
+#: ../../../platforms/intel_mcs51.rst:849
+#: ../../../platforms/intel_mcs51.rst:855
+#: ../../../platforms/intel_mcs51.rst:861
+#: ../../../platforms/intel_mcs51.rst:867
+#: ../../../platforms/intel_mcs51.rst:873
+#: ../../../platforms/intel_mcs51.rst:879
+#: ../../../platforms/intel_mcs51.rst:885
+#: ../../../platforms/intel_mcs51.rst:891
+#: ../../../platforms/intel_mcs51.rst:897
+#: ../../../platforms/intel_mcs51.rst:903
+#: ../../../platforms/intel_mcs51.rst:909
+#: ../../../platforms/intel_mcs51.rst:915
+#: ../../../platforms/intel_mcs51.rst:921
+#: ../../../platforms/intel_mcs51.rst:927
+#: ../../../platforms/intel_mcs51.rst:933
+#: ../../../platforms/intel_mcs51.rst:939
+#: ../../../platforms/intel_mcs51.rst:945
+#: ../../../platforms/intel_mcs51.rst:951
+#: ../../../platforms/intel_mcs51.rst:957
+#: ../../../platforms/intel_mcs51.rst:963
+#: ../../../platforms/intel_mcs51.rst:969
+#: ../../../platforms/intel_mcs51.rst:981
+#: ../../../platforms/intel_mcs51.rst:987
+#: ../../../platforms/intel_mcs51.rst:993
+#: ../../../platforms/intel_mcs51.rst:999
+#: ../../../platforms/intel_mcs51.rst:1005
+#: ../../../platforms/intel_mcs51.rst:1011
+#: ../../../platforms/intel_mcs51.rst:1017
+#: ../../../platforms/intel_mcs51.rst:1023
+#: ../../../platforms/intel_mcs51.rst:1029
+#: ../../../platforms/intel_mcs51.rst:1035
+#: ../../../platforms/intel_mcs51.rst:1041
+#: ../../../platforms/intel_mcs51.rst:1047
+#: ../../../platforms/intel_mcs51.rst:1053
+#: ../../../platforms/intel_mcs51.rst:1059
+#: ../../../platforms/intel_mcs51.rst:1065
+#: ../../../platforms/intel_mcs51.rst:1071
+#: ../../../platforms/intel_mcs51.rst:1077
+#: ../../../platforms/intel_mcs51.rst:1083
+#: ../../../platforms/intel_mcs51.rst:1089
+#: ../../../platforms/intel_mcs51.rst:1095
+#: ../../../platforms/intel_mcs51.rst:1101
+#: ../../../platforms/intel_mcs51.rst:1107
+#: ../../../platforms/intel_mcs51.rst:1113
+#: ../../../platforms/intel_mcs51.rst:1119
+#: ../../../platforms/intel_mcs51.rst:1125
+#: ../../../platforms/intel_mcs51.rst:1131
+#: ../../../platforms/intel_mcs51.rst:1137
+#: ../../../platforms/intel_mcs51.rst:1143
+#: ../../../platforms/intel_mcs51.rst:1149
+#: ../../../platforms/intel_mcs51.rst:1155
+#: ../../../platforms/intel_mcs51.rst:1161
+#: ../../../platforms/intel_mcs51.rst:1167
+#: ../../../platforms/intel_mcs51.rst:1173
+#: ../../../platforms/intel_mcs51.rst:1179
+#: ../../../platforms/intel_mcs51.rst:1185
+#: ../../../platforms/intel_mcs51.rst:1191
+#: ../../../platforms/intel_mcs51.rst:1197
+#: ../../../platforms/intel_mcs51.rst:1203
+#: ../../../platforms/intel_mcs51.rst:1209
+#: ../../../platforms/intel_mcs51.rst:1215
+#: ../../../platforms/intel_mcs51.rst:1221
+#: ../../../platforms/intel_mcs51.rst:1227
+#: ../../../platforms/intel_mcs51.rst:1233
+#: ../../../platforms/intel_mcs51.rst:1239
+#: ../../../platforms/intel_mcs51.rst:1245
+#: ../../../platforms/intel_mcs51.rst:1251
+#: ../../../platforms/intel_mcs51.rst:1257
+#: ../../../platforms/intel_mcs51.rst:1263
+#: ../../../platforms/intel_mcs51.rst:1269
+#: ../../../platforms/intel_mcs51.rst:1275
+#: ../../../platforms/intel_mcs51.rst:1281
+#: ../../../platforms/intel_mcs51.rst:1287
+#: ../../../platforms/intel_mcs51.rst:1293
+#: ../../../platforms/intel_mcs51.rst:1299
+#: ../../../platforms/intel_mcs51.rst:1305
+#: ../../../platforms/intel_mcs51.rst:1311
+#: ../../../platforms/intel_mcs51.rst:1317
+#: ../../../platforms/intel_mcs51.rst:1323
+#: ../../../platforms/intel_mcs51.rst:1329
+#: ../../../platforms/intel_mcs51.rst:1335
+#: ../../../platforms/intel_mcs51.rst:1341
+#: ../../../platforms/intel_mcs51.rst:1347
+#: ../../../platforms/intel_mcs51.rst:1353
+#: ../../../platforms/intel_mcs51.rst:1359
+#: ../../../platforms/intel_mcs51.rst:1365
+#: ../../../platforms/intel_mcs51.rst:1371
+#: ../../../platforms/intel_mcs51.rst:1377
+#: ../../../platforms/intel_mcs51.rst:1383
+#: ../../../platforms/intel_mcs51.rst:1389
+#: ../../../platforms/intel_mcs51.rst:1395
+#: ../../../platforms/intel_mcs51.rst:1401
+#: ../../../platforms/intel_mcs51.rst:1407
+#: ../../../platforms/intel_mcs51.rst:1413
+#: ../../../platforms/intel_mcs51.rst:1419
+#: ../../../platforms/intel_mcs51.rst:1425
+#: ../../../platforms/intel_mcs51.rst:1431
+#: ../../../platforms/intel_mcs51.rst:1437
+#: ../../../platforms/intel_mcs51.rst:1443
+#: ../../../platforms/intel_mcs51.rst:1449
+#: ../../../platforms/intel_mcs51.rst:1455
+#: ../../../platforms/intel_mcs51.rst:1461
+#: ../../../platforms/intel_mcs51.rst:1467
+#: ../../../platforms/intel_mcs51.rst:1473
+#: ../../../platforms/intel_mcs51.rst:1479
+#: ../../../platforms/intel_mcs51.rst:1485
+#: ../../../platforms/intel_mcs51.rst:1491
+#: ../../../platforms/intel_mcs51.rst:1497
+#: ../../../platforms/intel_mcs51.rst:1503
+#: ../../../platforms/intel_mcs51.rst:1509
+#: ../../../platforms/intel_mcs51.rst:1515
+#: ../../../platforms/intel_mcs51.rst:1521
+#: ../../../platforms/intel_mcs51.rst:1527
+#: ../../../platforms/intel_mcs51.rst:1533
+#: ../../../platforms/intel_mcs51.rst:1539
+#: ../../../platforms/intel_mcs51.rst:1545
+#: ../../../platforms/intel_mcs51.rst:1551
+#: ../../../platforms/intel_mcs51.rst:1557
+#: ../../../platforms/intel_mcs51.rst:1563
+#: ../../../platforms/intel_mcs51.rst:1569
+#: ../../../platforms/intel_mcs51.rst:1575
+#: ../../../platforms/intel_mcs51.rst:1581
+#: ../../../platforms/intel_mcs51.rst:1587
+#: ../../../platforms/intel_mcs51.rst:1593
+#: ../../../platforms/intel_mcs51.rst:1599
+#: ../../../platforms/intel_mcs51.rst:1605
+#: ../../../platforms/intel_mcs51.rst:1611
+#: ../../../platforms/intel_mcs51.rst:1617
+#: ../../../platforms/intel_mcs51.rst:1623
+#: ../../../platforms/intel_mcs51.rst:1629
+#: ../../../platforms/intel_mcs51.rst:1635
+#: ../../../platforms/intel_mcs51.rst:1641
+#: ../../../platforms/intel_mcs51.rst:1647
+#: ../../../platforms/intel_mcs51.rst:1653
+#: ../../../platforms/intel_mcs51.rst:1659
+#: ../../../platforms/intel_mcs51.rst:1665
+#: ../../../platforms/intel_mcs51.rst:1671
+#: ../../../platforms/intel_mcs51.rst:1677
+#: ../../../platforms/intel_mcs51.rst:1683
+#: ../../../platforms/intel_mcs51.rst:1689
+#: ../../../platforms/intel_mcs51.rst:1695
+#: ../../../platforms/intel_mcs51.rst:1701
+#: ../../../platforms/intel_mcs51.rst:1707
+#: ../../../platforms/intel_mcs51.rst:1713
+#: ../../../platforms/intel_mcs51.rst:1719
+#: ../../../platforms/intel_mcs51.rst:1725
+#: ../../../platforms/intel_mcs51.rst:1731
+#: ../../../platforms/intel_mcs51.rst:1737
+#: ../../../platforms/intel_mcs51.rst:1743
+#: ../../../platforms/intel_mcs51.rst:1749
+#: ../../../platforms/intel_mcs51.rst:1755
+msgid "11MHz"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:132
+#: ../../../platforms/intel_mcs51.rst:170
+#: ../../../platforms/intel_mcs51.rst:453
+#: ../../../platforms/intel_mcs51.rst:459
+#: ../../../platforms/intel_mcs51.rst:483
+#: ../../../platforms/intel_mcs51.rst:501
+#: ../../../platforms/intel_mcs51.rst:507
+#: ../../../platforms/intel_mcs51.rst:549
+#: ../../../platforms/intel_mcs51.rst:579
+#: ../../../platforms/intel_mcs51.rst:665
+#: ../../../platforms/intel_mcs51.rst:671
+#: ../../../platforms/intel_mcs51.rst:677
+#: ../../../platforms/intel_mcs51.rst:838
+#: ../../../platforms/intel_mcs51.rst:844
+#: ../../../platforms/intel_mcs51.rst:850
+#: ../../../platforms/intel_mcs51.rst:910
+#: ../../../platforms/intel_mcs51.rst:916
+#: ../../../platforms/intel_mcs51.rst:1024
+#: ../../../platforms/intel_mcs51.rst:1066
+#: ../../../platforms/intel_mcs51.rst:1084
+#: ../../../platforms/intel_mcs51.rst:1090
+#: ../../../platforms/intel_mcs51.rst:1115
+#: ../../../platforms/intel_mcs51.rst:1121
+#: ../../../platforms/intel_mcs51.rst:1127
+#: ../../../platforms/intel_mcs51.rst:1133
+#: ../../../platforms/intel_mcs51.rst:1139
+#: ../../../platforms/intel_mcs51.rst:1150
+#: ../../../platforms/intel_mcs51.rst:1498
+#: ../../../platforms/intel_mcs51.rst:1504
+msgid "4KB"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:133
+#: ../../../platforms/intel_mcs51.rst:171
+#: ../../../platforms/intel_mcs51.rst:580
+#: ../../../platforms/intel_mcs51.rst:605
+#: ../../../platforms/intel_mcs51.rst:635
+#: ../../../platforms/intel_mcs51.rst:683
+#: ../../../platforms/intel_mcs51.rst:695
+#: ../../../platforms/intel_mcs51.rst:773
+#: ../../../platforms/intel_mcs51.rst:779
+#: ../../../platforms/intel_mcs51.rst:785
+#: ../../../platforms/intel_mcs51.rst:791
+#: ../../../platforms/intel_mcs51.rst:797
+#: ../../../platforms/intel_mcs51.rst:803
+#: ../../../platforms/intel_mcs51.rst:809
+#: ../../../platforms/intel_mcs51.rst:815
+#: ../../../platforms/intel_mcs51.rst:821
+#: ../../../platforms/intel_mcs51.rst:827
+#: ../../../platforms/intel_mcs51.rst:833
+#: ../../../platforms/intel_mcs51.rst:839
+#: ../../../platforms/intel_mcs51.rst:845
+#: ../../../platforms/intel_mcs51.rst:851
+#: ../../../platforms/intel_mcs51.rst:857
+#: ../../../platforms/intel_mcs51.rst:863
+#: ../../../platforms/intel_mcs51.rst:869
+#: ../../../platforms/intel_mcs51.rst:1001
+#: ../../../platforms/intel_mcs51.rst:1007
+#: ../../../platforms/intel_mcs51.rst:1013
+#: ../../../platforms/intel_mcs51.rst:1019
+#: ../../../platforms/intel_mcs51.rst:1025
+msgid "128B"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:136
+msgid "Intel & licensees"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:147
+msgid ":ref:`board_intel_mcs51_Generic8052`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:149
+msgid "8052"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:151
+#: ../../../platforms/intel_mcs51.rst:176
+#: ../../../platforms/intel_mcs51.rst:333
+#: ../../../platforms/intel_mcs51.rst:339
+#: ../../../platforms/intel_mcs51.rst:363
+#: ../../../platforms/intel_mcs51.rst:441
+#: ../../../platforms/intel_mcs51.rst:465
+#: ../../../platforms/intel_mcs51.rst:489
+#: ../../../platforms/intel_mcs51.rst:513
+#: ../../../platforms/intel_mcs51.rst:525
+#: ../../../platforms/intel_mcs51.rst:724
+#: ../../../platforms/intel_mcs51.rst:934
+#: ../../../platforms/intel_mcs51.rst:994
+#: ../../../platforms/intel_mcs51.rst:1096
+#: ../../../platforms/intel_mcs51.rst:1102
+#: ../../../platforms/intel_mcs51.rst:1156
+#: ../../../platforms/intel_mcs51.rst:1252
+#: ../../../platforms/intel_mcs51.rst:1312
+#: ../../../platforms/intel_mcs51.rst:1318
+#: ../../../platforms/intel_mcs51.rst:1324
+#: ../../../platforms/intel_mcs51.rst:1330
+#: ../../../platforms/intel_mcs51.rst:1348
+#: ../../../platforms/intel_mcs51.rst:1402
+#: ../../../platforms/intel_mcs51.rst:1408
+#: ../../../platforms/intel_mcs51.rst:1414
+#: ../../../platforms/intel_mcs51.rst:1510
+#: ../../../platforms/intel_mcs51.rst:1516
+#: ../../../platforms/intel_mcs51.rst:1522
+msgid "8KB"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:152
+#: ../../../platforms/intel_mcs51.rst:177
+#: ../../../platforms/intel_mcs51.rst:442
+#: ../../../platforms/intel_mcs51.rst:478
+#: ../../../platforms/intel_mcs51.rst:484
+#: ../../../platforms/intel_mcs51.rst:490
+#: ../../../platforms/intel_mcs51.rst:496
+#: ../../../platforms/intel_mcs51.rst:544
+#: ../../../platforms/intel_mcs51.rst:550
+#: ../../../platforms/intel_mcs51.rst:611
+#: ../../../platforms/intel_mcs51.rst:647
+#: ../../../platforms/intel_mcs51.rst:707
+#: ../../../platforms/intel_mcs51.rst:875
+#: ../../../platforms/intel_mcs51.rst:881
+#: ../../../platforms/intel_mcs51.rst:887
+#: ../../../platforms/intel_mcs51.rst:893
+#: ../../../platforms/intel_mcs51.rst:899
+#: ../../../platforms/intel_mcs51.rst:905
+#: ../../../platforms/intel_mcs51.rst:911
+#: ../../../platforms/intel_mcs51.rst:917
+#: ../../../platforms/intel_mcs51.rst:923
+#: ../../../platforms/intel_mcs51.rst:929
+#: ../../../platforms/intel_mcs51.rst:1049
+#: ../../../platforms/intel_mcs51.rst:1055
+#: ../../../platforms/intel_mcs51.rst:1061
+#: ../../../platforms/intel_mcs51.rst:1067
+#: ../../../platforms/intel_mcs51.rst:1499
+#: ../../../platforms/intel_mcs51.rst:1505
+msgid "256B"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:155
+msgid "Microchip & Atmel"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:166
+msgid ":ref:`board_intel_mcs51_AT89S51`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:168
+msgid "AT89S51"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:172
+msgid ":ref:`board_intel_mcs51_AT89S52`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:174
+msgid "AT89S52"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:180
+msgid "Nuvoton"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:191
+msgid ":ref:`board_intel_mcs51_ML51BB9AE`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:193
+msgid "ML51BB9AE"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:194
+#: ../../../platforms/intel_mcs51.rst:200
+#: ../../../platforms/intel_mcs51.rst:206
+#: ../../../platforms/intel_mcs51.rst:212
+#: ../../../platforms/intel_mcs51.rst:218
+#: ../../../platforms/intel_mcs51.rst:224
+#: ../../../platforms/intel_mcs51.rst:230
+#: ../../../platforms/intel_mcs51.rst:236
+#: ../../../platforms/intel_mcs51.rst:242
+#: ../../../platforms/intel_mcs51.rst:248
+#: ../../../platforms/intel_mcs51.rst:254
+#: ../../../platforms/intel_mcs51.rst:260
+#: ../../../platforms/intel_mcs51.rst:266
+#: ../../../platforms/intel_mcs51.rst:272
+#: ../../../platforms/intel_mcs51.rst:278
+#: ../../../platforms/intel_mcs51.rst:284
+#: ../../../platforms/intel_mcs51.rst:290
+#: ../../../platforms/intel_mcs51.rst:296
+#: ../../../platforms/intel_mcs51.rst:302
+#: ../../../platforms/intel_mcs51.rst:308
+#: ../../../platforms/intel_mcs51.rst:314
+#: ../../../platforms/intel_mcs51.rst:320
+#: ../../../platforms/intel_mcs51.rst:326
+msgid "24MHz"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:195
+#: ../../../platforms/intel_mcs51.rst:201
+#: ../../../platforms/intel_mcs51.rst:207
+#: ../../../platforms/intel_mcs51.rst:219
+#: ../../../platforms/intel_mcs51.rst:231
+#: ../../../platforms/intel_mcs51.rst:237
+#: ../../../platforms/intel_mcs51.rst:255
+#: ../../../platforms/intel_mcs51.rst:279
+#: ../../../platforms/intel_mcs51.rst:291
+#: ../../../platforms/intel_mcs51.rst:351
+#: ../../../platforms/intel_mcs51.rst:381
+#: ../../../platforms/intel_mcs51.rst:387
+#: ../../../platforms/intel_mcs51.rst:417
+#: ../../../platforms/intel_mcs51.rst:447
+#: ../../../platforms/intel_mcs51.rst:471
+#: ../../../platforms/intel_mcs51.rst:495
+#: ../../../platforms/intel_mcs51.rst:519
+#: ../../../platforms/intel_mcs51.rst:531
+#: ../../../platforms/intel_mcs51.rst:537
+#: ../../../platforms/intel_mcs51.rst:730
+#: ../../../platforms/intel_mcs51.rst:940
+#: ../../../platforms/intel_mcs51.rst:1030
+#: ../../../platforms/intel_mcs51.rst:1114
+#: ../../../platforms/intel_mcs51.rst:1168
+#: ../../../platforms/intel_mcs51.rst:1180
+#: ../../../platforms/intel_mcs51.rst:1204
+#: ../../../platforms/intel_mcs51.rst:1210
+#: ../../../platforms/intel_mcs51.rst:1264
+#: ../../../platforms/intel_mcs51.rst:1270
+#: ../../../platforms/intel_mcs51.rst:1354
+#: ../../../platforms/intel_mcs51.rst:1360
+#: ../../../platforms/intel_mcs51.rst:1450
+#: ../../../platforms/intel_mcs51.rst:1456
+#: ../../../platforms/intel_mcs51.rst:1534
+#: ../../../platforms/intel_mcs51.rst:1540
+#: ../../../platforms/intel_mcs51.rst:1546
+msgid "16KB"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:196
+#: ../../../platforms/intel_mcs51.rst:202
+#: ../../../platforms/intel_mcs51.rst:208
+#: ../../../platforms/intel_mcs51.rst:220
+#: ../../../platforms/intel_mcs51.rst:232
+#: ../../../platforms/intel_mcs51.rst:256
+#: ../../../platforms/intel_mcs51.rst:292
+#: ../../../platforms/intel_mcs51.rst:334
+#: ../../../platforms/intel_mcs51.rst:340
+#: ../../../platforms/intel_mcs51.rst:352
+#: ../../../platforms/intel_mcs51.rst:364
+#: ../../../platforms/intel_mcs51.rst:382
+#: ../../../platforms/intel_mcs51.rst:388
+#: ../../../platforms/intel_mcs51.rst:418
+#: ../../../platforms/intel_mcs51.rst:424
+#: ../../../platforms/intel_mcs51.rst:430
+#: ../../../platforms/intel_mcs51.rst:436
+#: ../../../platforms/intel_mcs51.rst:556
+#: ../../../platforms/intel_mcs51.rst:562
+#: ../../../platforms/intel_mcs51.rst:568
+#: ../../../platforms/intel_mcs51.rst:574
+#: ../../../platforms/intel_mcs51.rst:599
+#: ../../../platforms/intel_mcs51.rst:725
+#: ../../../platforms/intel_mcs51.rst:731
+#: ../../../platforms/intel_mcs51.rst:737
+#: ../../../platforms/intel_mcs51.rst:743
+#: ../../../platforms/intel_mcs51.rst:749
+#: ../../../platforms/intel_mcs51.rst:755
+#: ../../../platforms/intel_mcs51.rst:761
+#: ../../../platforms/intel_mcs51.rst:767
+#: ../../../platforms/intel_mcs51.rst:1145
+#: ../../../platforms/intel_mcs51.rst:1169
+#: ../../../platforms/intel_mcs51.rst:1175
+#: ../../../platforms/intel_mcs51.rst:1253
+#: ../../../platforms/intel_mcs51.rst:1259
+#: ../../../platforms/intel_mcs51.rst:1313
+#: ../../../platforms/intel_mcs51.rst:1319
+#: ../../../platforms/intel_mcs51.rst:1325
+#: ../../../platforms/intel_mcs51.rst:1331
+#: ../../../platforms/intel_mcs51.rst:1337
+#: ../../../platforms/intel_mcs51.rst:1343
+#: ../../../platforms/intel_mcs51.rst:1403
+#: ../../../platforms/intel_mcs51.rst:1409
+#: ../../../platforms/intel_mcs51.rst:1415
+#: ../../../platforms/intel_mcs51.rst:1421
+#: ../../../platforms/intel_mcs51.rst:1427
+#: ../../../platforms/intel_mcs51.rst:1433
+#: ../../../platforms/intel_mcs51.rst:1439
+#: ../../../platforms/intel_mcs51.rst:1445
+#: ../../../platforms/intel_mcs51.rst:1511
+#: ../../../platforms/intel_mcs51.rst:1517
+#: ../../../platforms/intel_mcs51.rst:1523
+#: ../../../platforms/intel_mcs51.rst:1529
+#: ../../../platforms/intel_mcs51.rst:1535
+#: ../../../platforms/intel_mcs51.rst:1541
+#: ../../../platforms/intel_mcs51.rst:1547
+#: ../../../platforms/intel_mcs51.rst:1553
+#: ../../../platforms/intel_mcs51.rst:1559
+#: ../../../platforms/intel_mcs51.rst:1565
+#: ../../../platforms/intel_mcs51.rst:1571
+#: ../../../platforms/intel_mcs51.rst:1577
+#: ../../../platforms/intel_mcs51.rst:1583
+#: ../../../platforms/intel_mcs51.rst:1589
+msgid "1.25KB"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:197
+msgid ":ref:`board_intel_mcs51_ML51DB9AE`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:199
+msgid "ML51DB9AE"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:203
+msgid ":ref:`board_intel_mcs51_ML51EB9AE`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:205
+msgid "ML51EB9AE"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:209
+msgid ":ref:`board_intel_mcs51_ML51EC0AE`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:211
+msgid "ML51EC0AE"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:213
+#: ../../../platforms/intel_mcs51.rst:243
+#: ../../../platforms/intel_mcs51.rst:261
+#: ../../../platforms/intel_mcs51.rst:267
+#: ../../../platforms/intel_mcs51.rst:285
+#: ../../../platforms/intel_mcs51.rst:345
+#: ../../../platforms/intel_mcs51.rst:357
+#: ../../../platforms/intel_mcs51.rst:369
+#: ../../../platforms/intel_mcs51.rst:375
+#: ../../../platforms/intel_mcs51.rst:393
+#: ../../../platforms/intel_mcs51.rst:423
+#: ../../../platforms/intel_mcs51.rst:573
+#: ../../../platforms/intel_mcs51.rst:736
+#: ../../../platforms/intel_mcs51.rst:958
+#: ../../../platforms/intel_mcs51.rst:1120
+#: ../../../platforms/intel_mcs51.rst:1174
+#: ../../../platforms/intel_mcs51.rst:1186
+#: ../../../platforms/intel_mcs51.rst:1216
+#: ../../../platforms/intel_mcs51.rst:1222
+#: ../../../platforms/intel_mcs51.rst:1276
+#: ../../../platforms/intel_mcs51.rst:1282
+#: ../../../platforms/intel_mcs51.rst:1366
+#: ../../../platforms/intel_mcs51.rst:1372
+#: ../../../platforms/intel_mcs51.rst:1462
+#: ../../../platforms/intel_mcs51.rst:1468
+#: ../../../platforms/intel_mcs51.rst:1570
+#: ../../../platforms/intel_mcs51.rst:1576
+#: ../../../platforms/intel_mcs51.rst:1588
+#: ../../../platforms/intel_mcs51.rst:1594
+#: ../../../platforms/intel_mcs51.rst:1618
+#: ../../../platforms/intel_mcs51.rst:1624
+#: ../../../platforms/intel_mcs51.rst:1630
+#: ../../../platforms/intel_mcs51.rst:1666
+#: ../../../platforms/intel_mcs51.rst:1672
+#: ../../../platforms/intel_mcs51.rst:1678
+#: ../../../platforms/intel_mcs51.rst:1738
+msgid "32KB"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:214
+#: ../../../platforms/intel_mcs51.rst:238
+#: ../../../platforms/intel_mcs51.rst:244
+#: ../../../platforms/intel_mcs51.rst:262
+#: ../../../platforms/intel_mcs51.rst:268
+#: ../../../platforms/intel_mcs51.rst:280
+#: ../../../platforms/intel_mcs51.rst:286
+#: ../../../platforms/intel_mcs51.rst:346
+#: ../../../platforms/intel_mcs51.rst:358
+#: ../../../platforms/intel_mcs51.rst:370
+#: ../../../platforms/intel_mcs51.rst:376
+#: ../../../platforms/intel_mcs51.rst:394
+#: ../../../platforms/intel_mcs51.rst:1265
+#: ../../../platforms/intel_mcs51.rst:1271
+#: ../../../platforms/intel_mcs51.rst:1277
+#: ../../../platforms/intel_mcs51.rst:1283
+#: ../../../platforms/intel_mcs51.rst:1289
+#: ../../../platforms/intel_mcs51.rst:1295
+#: ../../../platforms/intel_mcs51.rst:1301
+#: ../../../platforms/intel_mcs51.rst:1307
+#: ../../../platforms/intel_mcs51.rst:1349
+#: ../../../platforms/intel_mcs51.rst:1355
+#: ../../../platforms/intel_mcs51.rst:1361
+#: ../../../platforms/intel_mcs51.rst:1367
+#: ../../../platforms/intel_mcs51.rst:1373
+#: ../../../platforms/intel_mcs51.rst:1379
+#: ../../../platforms/intel_mcs51.rst:1385
+#: ../../../platforms/intel_mcs51.rst:1391
+#: ../../../platforms/intel_mcs51.rst:1397
+#: ../../../platforms/intel_mcs51.rst:1451
+#: ../../../platforms/intel_mcs51.rst:1457
+#: ../../../platforms/intel_mcs51.rst:1463
+#: ../../../platforms/intel_mcs51.rst:1469
+#: ../../../platforms/intel_mcs51.rst:1475
+#: ../../../platforms/intel_mcs51.rst:1481
+#: ../../../platforms/intel_mcs51.rst:1487
+#: ../../../platforms/intel_mcs51.rst:1493
+#: ../../../platforms/intel_mcs51.rst:1595
+#: ../../../platforms/intel_mcs51.rst:1601
+#: ../../../platforms/intel_mcs51.rst:1607
+#: ../../../platforms/intel_mcs51.rst:1613
+msgid "2.25KB"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:215
+msgid ":ref:`board_intel_mcs51_ML51FB9AE`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:217
+msgid "ML51FB9AE"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:221
+msgid ":ref:`board_intel_mcs51_ML51LD1AE`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:223
+msgid "ML51LD1AE"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:225
+#: ../../../platforms/intel_mcs51.rst:249
+#: ../../../platforms/intel_mcs51.rst:273
+#: ../../../platforms/intel_mcs51.rst:297
+#: ../../../platforms/intel_mcs51.rst:303
+#: ../../../platforms/intel_mcs51.rst:309
+#: ../../../platforms/intel_mcs51.rst:315
+#: ../../../platforms/intel_mcs51.rst:321
+#: ../../../platforms/intel_mcs51.rst:327
+#: ../../../platforms/intel_mcs51.rst:429
+#: ../../../platforms/intel_mcs51.rst:435
+#: ../../../platforms/intel_mcs51.rst:555
+#: ../../../platforms/intel_mcs51.rst:561
+#: ../../../platforms/intel_mcs51.rst:567
+#: ../../../platforms/intel_mcs51.rst:1144
+#: ../../../platforms/intel_mcs51.rst:1198
+#: ../../../platforms/intel_mcs51.rst:1240
+#: ../../../platforms/intel_mcs51.rst:1246
+#: ../../../platforms/intel_mcs51.rst:1300
+#: ../../../platforms/intel_mcs51.rst:1306
+#: ../../../platforms/intel_mcs51.rst:1390
+#: ../../../platforms/intel_mcs51.rst:1396
+#: ../../../platforms/intel_mcs51.rst:1486
+#: ../../../platforms/intel_mcs51.rst:1492
+#: ../../../platforms/intel_mcs51.rst:1612
+#: ../../../platforms/intel_mcs51.rst:1654
+#: ../../../platforms/intel_mcs51.rst:1660
+#: ../../../platforms/intel_mcs51.rst:1720
+#: ../../../platforms/intel_mcs51.rst:1726
+#: ../../../platforms/intel_mcs51.rst:1732
+#: ../../../platforms/intel_mcs51.rst:1756
+#: ../../../platforms/intel_mcs51.rst:1775
+msgid "64KB"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:226
+#: ../../../platforms/intel_mcs51.rst:250
+#: ../../../platforms/intel_mcs51.rst:274
+#: ../../../platforms/intel_mcs51.rst:298
+#: ../../../platforms/intel_mcs51.rst:304
+#: ../../../platforms/intel_mcs51.rst:310
+#: ../../../platforms/intel_mcs51.rst:316
+#: ../../../platforms/intel_mcs51.rst:322
+#: ../../../platforms/intel_mcs51.rst:328
+#: ../../../platforms/intel_mcs51.rst:1181
+#: ../../../platforms/intel_mcs51.rst:1187
+#: ../../../platforms/intel_mcs51.rst:1193
+#: ../../../platforms/intel_mcs51.rst:1199
+#: ../../../platforms/intel_mcs51.rst:1667
+#: ../../../platforms/intel_mcs51.rst:1673
+#: ../../../platforms/intel_mcs51.rst:1679
+#: ../../../platforms/intel_mcs51.rst:1685
+#: ../../../platforms/intel_mcs51.rst:1691
+#: ../../../platforms/intel_mcs51.rst:1697
+#: ../../../platforms/intel_mcs51.rst:1703
+#: ../../../platforms/intel_mcs51.rst:1709
+#: ../../../platforms/intel_mcs51.rst:1715
+#: ../../../platforms/intel_mcs51.rst:1721
+#: ../../../platforms/intel_mcs51.rst:1727
+#: ../../../platforms/intel_mcs51.rst:1733
+msgid "4.25KB"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:227
+msgid ":ref:`board_intel_mcs51_ML51OB9AE`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:229
+msgid "ML51OB9AE"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:233
+msgid ":ref:`board_intel_mcs51_ML51PB9AE`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:235
+msgid "ML51PB9AE"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:239
+msgid ":ref:`board_intel_mcs51_ML51PC0AE`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:241
+msgid "ML51PC0AE"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:245
+msgid ":ref:`board_intel_mcs51_ML51SD1AE`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:247
+msgid "ML51SD1AE"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:251
+msgid ":ref:`board_intel_mcs51_ML51TB9AE`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:253
+msgid "ML51TB9AE"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:257
+msgid ":ref:`board_intel_mcs51_ML51TC0AE`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:259
+msgid "ML51TC0AE"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:263
+msgid ":ref:`board_intel_mcs51_ML51TC1AE`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:265
+msgid "ML51TC1AE"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:269
+msgid ":ref:`board_intel_mcs51_ML51TD1AE`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:271
+msgid "ML51TD1AE"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:275
+msgid ":ref:`board_intel_mcs51_ML51UB9AE`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:277
+msgid "ML51UB9AE"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:281
+msgid ":ref:`board_intel_mcs51_ML51UC0AE`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:283
+msgid "ML51UC0AE"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:287
+msgid ":ref:`board_intel_mcs51_ML51XB9AE`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:289
+msgid "ML51XB9AE"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:293
+msgid ":ref:`board_intel_mcs51_ML54LD1AE`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:295
+msgid "ML54LD1AE"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:299
+msgid ":ref:`board_intel_mcs51_ML54MD1AE`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:301
+msgid "ML54MD1AE"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:305
+msgid ":ref:`board_intel_mcs51_ML54SD1AE`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:307
+msgid "ML54SD1AE"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:311
+msgid ":ref:`board_intel_mcs51_ML56LD1AE`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:313
+msgid "ML56LD1AE"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:317
+msgid ":ref:`board_intel_mcs51_ML56MD1AE`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:319
+msgid "ML56MD1AE"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:323
+msgid ":ref:`board_intel_mcs51_ML56SD1AE`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:325
+msgid "ML56SD1AE"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:329
+msgid ":ref:`board_intel_mcs51_MS51BA9AE`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:331
+msgid "MS51BA9AE"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:332
+#: ../../../platforms/intel_mcs51.rst:338
+#: ../../../platforms/intel_mcs51.rst:344
+#: ../../../platforms/intel_mcs51.rst:350
+#: ../../../platforms/intel_mcs51.rst:356
+#: ../../../platforms/intel_mcs51.rst:362
+#: ../../../platforms/intel_mcs51.rst:368
+#: ../../../platforms/intel_mcs51.rst:374
+#: ../../../platforms/intel_mcs51.rst:380
+#: ../../../platforms/intel_mcs51.rst:386
+#: ../../../platforms/intel_mcs51.rst:392
+#: ../../../platforms/intel_mcs51.rst:398
+msgid "16MHz"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:335
+msgid ":ref:`board_intel_mcs51_MS51DA9AE`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:337
+msgid "MS51DA9AE"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:341
+msgid ":ref:`board_intel_mcs51_MS51EC0AE`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:343
+msgid "MS51EC0AE"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:347
+msgid ":ref:`board_intel_mcs51_MS51FB9AE`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:349
+msgid "MS51FB9AE"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:353
+msgid ":ref:`board_intel_mcs51_MS51FC0AE`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:355
+msgid "MS51FC0AE"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:359
+msgid ":ref:`board_intel_mcs51_MS51IA9AE`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:361
+msgid "MS51IA9AE"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:365
+msgid ":ref:`board_intel_mcs51_MS51PC0AE`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:367
+msgid "MS51PC0AE"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:371
+msgid ":ref:`board_intel_mcs51_MS51TC0AE`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:373
+msgid "MS51TC0AE"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:377
+msgid ":ref:`board_intel_mcs51_MS51XB9AE`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:379
+msgid "MS51XB9AE"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:383
+msgid ":ref:`board_intel_mcs51_MS51XB9BE`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:385
+msgid "MS51XB9BE"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:389
+msgid ":ref:`board_intel_mcs51_MS51XC0BE`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:391
+msgid "MS51XC0BE"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:395
+msgid ":ref:`board_intel_mcs51_N76E003`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:397
+msgid "N76E003"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:399
+#: ../../../platforms/intel_mcs51.rst:405
+#: ../../../platforms/intel_mcs51.rst:411
+msgid "18KB"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:400
+#: ../../../platforms/intel_mcs51.rst:641
+#: ../../../platforms/intel_mcs51.rst:701
+#: ../../../platforms/intel_mcs51.rst:784
+#: ../../../platforms/intel_mcs51.rst:790
+#: ../../../platforms/intel_mcs51.rst:796
+#: ../../../platforms/intel_mcs51.rst:874
+#: ../../../platforms/intel_mcs51.rst:880
+#: ../../../platforms/intel_mcs51.rst:1006
+#: ../../../platforms/intel_mcs51.rst:1031
+#: ../../../platforms/intel_mcs51.rst:1037
+#: ../../../platforms/intel_mcs51.rst:1043
+#: ../../../platforms/intel_mcs51.rst:1048
+#: ../../../platforms/intel_mcs51.rst:1072
+msgid "1KB"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:401
+msgid ":ref:`board_intel_mcs51_N76E616`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:403
+msgid "N76E616"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:406
+#: ../../../platforms/intel_mcs51.rst:412
+#: ../../../platforms/intel_mcs51.rst:448
+#: ../../../platforms/intel_mcs51.rst:454
+#: ../../../platforms/intel_mcs51.rst:460
+#: ../../../platforms/intel_mcs51.rst:466
+#: ../../../platforms/intel_mcs51.rst:472
+#: ../../../platforms/intel_mcs51.rst:502
+#: ../../../platforms/intel_mcs51.rst:508
+#: ../../../platforms/intel_mcs51.rst:514
+#: ../../../platforms/intel_mcs51.rst:520
+#: ../../../platforms/intel_mcs51.rst:526
+#: ../../../platforms/intel_mcs51.rst:532
+#: ../../../platforms/intel_mcs51.rst:538
+#: ../../../platforms/intel_mcs51.rst:629
+#: ../../../platforms/intel_mcs51.rst:653
+#: ../../../platforms/intel_mcs51.rst:659
+#: ../../../platforms/intel_mcs51.rst:713
+#: ../../../platforms/intel_mcs51.rst:719
+#: ../../../platforms/intel_mcs51.rst:772
+#: ../../../platforms/intel_mcs51.rst:778
+#: ../../../platforms/intel_mcs51.rst:995
+#: ../../../platforms/intel_mcs51.rst:1000
+#: ../../../platforms/intel_mcs51.rst:1073
+#: ../../../platforms/intel_mcs51.rst:1079
+#: ../../../platforms/intel_mcs51.rst:1085
+#: ../../../platforms/intel_mcs51.rst:1091
+#: ../../../platforms/intel_mcs51.rst:1097
+#: ../../../platforms/intel_mcs51.rst:1103
+#: ../../../platforms/intel_mcs51.rst:1109
+#: ../../../platforms/intel_mcs51.rst:1151
+#: ../../../platforms/intel_mcs51.rst:1157
+#: ../../../platforms/intel_mcs51.rst:1163
+msgid "512B"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:407
+msgid ":ref:`board_intel_mcs51_N76E885`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:409
+msgid "N76E885"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:410
+#: ../../../platforms/intel_mcs51.rst:416
+#: ../../../platforms/intel_mcs51.rst:422
+#: ../../../platforms/intel_mcs51.rst:428
+#: ../../../platforms/intel_mcs51.rst:434
+#: ../../../platforms/intel_mcs51.rst:440
+#: ../../../platforms/intel_mcs51.rst:446
+#: ../../../platforms/intel_mcs51.rst:452
+#: ../../../platforms/intel_mcs51.rst:458
+#: ../../../platforms/intel_mcs51.rst:464
+#: ../../../platforms/intel_mcs51.rst:470
+#: ../../../platforms/intel_mcs51.rst:500
+#: ../../../platforms/intel_mcs51.rst:506
+#: ../../../platforms/intel_mcs51.rst:512
+#: ../../../platforms/intel_mcs51.rst:518
+#: ../../../platforms/intel_mcs51.rst:524
+#: ../../../platforms/intel_mcs51.rst:530
+#: ../../../platforms/intel_mcs51.rst:536
+#: ../../../platforms/intel_mcs51.rst:542
+#: ../../../platforms/intel_mcs51.rst:548
+#: ../../../platforms/intel_mcs51.rst:560
+#: ../../../platforms/intel_mcs51.rst:566
+#: ../../../platforms/intel_mcs51.rst:572
+msgid "22MHz"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:413
+msgid ":ref:`board_intel_mcs51_N78E055`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:415
+msgid "N78E055"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:419
+msgid ":ref:`board_intel_mcs51_N78E059`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:421
+msgid "N78E059"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:425
+msgid ":ref:`board_intel_mcs51_N78E366`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:427
+msgid "N78E366"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:431
+msgid ":ref:`board_intel_mcs51_N78E517`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:433
+msgid "N78E517"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:437
+msgid ":ref:`board_intel_mcs51_N79E352`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:439
+msgid "N79E352"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:443
+msgid ":ref:`board_intel_mcs51_N79E715`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:445
+msgid "N79E715"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:449
+msgid ":ref:`board_intel_mcs51_N79E813`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:451
+msgid "N79E813"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:455
+msgid ":ref:`board_intel_mcs51_N79E8132`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:457
+msgid "N79E8132"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:461
+msgid ":ref:`board_intel_mcs51_N79E814`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:463
+msgid "N79E814"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:467
+msgid ":ref:`board_intel_mcs51_N79E815`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:469
+msgid "N79E815"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:473
+msgid ":ref:`board_intel_mcs51_N79E822`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:475
+msgid "N79E822"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:476
+#: ../../../platforms/intel_mcs51.rst:482
+#: ../../../platforms/intel_mcs51.rst:488
+#: ../../../platforms/intel_mcs51.rst:494
+#: ../../../platforms/intel_mcs51.rst:975
+msgid "6MHz"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:477
+#: ../../../platforms/intel_mcs51.rst:543
+#: ../../../platforms/intel_mcs51.rst:617
+#: ../../../platforms/intel_mcs51.rst:623
+#: ../../../platforms/intel_mcs51.rst:689
+#: ../../../platforms/intel_mcs51.rst:802
+#: ../../../platforms/intel_mcs51.rst:808
+#: ../../../platforms/intel_mcs51.rst:814
+#: ../../../platforms/intel_mcs51.rst:886
+#: ../../../platforms/intel_mcs51.rst:892
+#: ../../../platforms/intel_mcs51.rst:935
+#: ../../../platforms/intel_mcs51.rst:941
+#: ../../../platforms/intel_mcs51.rst:947
+#: ../../../platforms/intel_mcs51.rst:953
+#: ../../../platforms/intel_mcs51.rst:959
+#: ../../../platforms/intel_mcs51.rst:965
+#: ../../../platforms/intel_mcs51.rst:971
+#: ../../../platforms/intel_mcs51.rst:977
+#: ../../../platforms/intel_mcs51.rst:983
+#: ../../../platforms/intel_mcs51.rst:989
+#: ../../../platforms/intel_mcs51.rst:1012
+#: ../../../platforms/intel_mcs51.rst:1054
+#: ../../../platforms/intel_mcs51.rst:1078
+msgid "2KB"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:479
+msgid ":ref:`board_intel_mcs51_N79E823`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:481
+msgid "N79E823"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:485
+msgid ":ref:`board_intel_mcs51_N79E824`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:487
+msgid "N79E824"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:491
+msgid ":ref:`board_intel_mcs51_N79E825`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:493
+msgid "N79E825"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:497
+msgid ":ref:`board_intel_mcs51_N79E843`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:499
+msgid "N79E843"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:503
+msgid ":ref:`board_intel_mcs51_N79E8432`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:505
+msgid "N79E8432"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:509
+msgid ":ref:`board_intel_mcs51_N79E844`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:511
+msgid "N79E844"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:515
+msgid ":ref:`board_intel_mcs51_N79E845`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:517
+msgid "N79E845"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:521
+msgid ":ref:`board_intel_mcs51_N79E854`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:523
+msgid "N79E854"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:527
+msgid ":ref:`board_intel_mcs51_N79E855`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:529
+msgid "N79E855"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:533
+msgid ":ref:`board_intel_mcs51_N79E875`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:535
+msgid "N79E875"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:539
+msgid ":ref:`board_intel_mcs51_W79E2051`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:541
+msgid "W79E2051"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:545
+msgid ":ref:`board_intel_mcs51_W79E4051`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:547
+msgid "W79E4051"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:551
+msgid ":ref:`board_intel_mcs51_W79E632`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:553
+msgid "W79E632"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:557
+msgid ":ref:`board_intel_mcs51_W79E633`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:559
+msgid "W79E633"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:563
+msgid ":ref:`board_intel_mcs51_W79E658`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:565
+msgid "W79E658"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:569
+msgid ":ref:`board_intel_mcs51_W79E659`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:571
+msgid "W79E659"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:575
+msgid ":ref:`board_intel_mcs51_W79E8213`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:577
+msgid "W79E8213"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:578
+msgid "20MHz"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:583
+msgid "STC"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:594
+msgid ":ref:`board_intel_mcs51_IAP12C5A62S2`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:596
+msgid "IAP12C5A62S2"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:598
+msgid "62KB"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:600
+msgid ":ref:`board_intel_mcs51_IAP15F106`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:602
+msgid "IAP15F106"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:604
+#: ../../../platforms/intel_mcs51.rst:610
+#: ../../../platforms/intel_mcs51.rst:682
+msgid "6KB"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:606
+msgid ":ref:`board_intel_mcs51_IAP15F206A`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:608
+msgid "IAP15F206A"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:612
+msgid ":ref:`board_intel_mcs51_IAP15F2K61S`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:614
+msgid "IAP15F2K61S"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:616
+#: ../../../platforms/intel_mcs51.rst:622
+#: ../../../platforms/intel_mcs51.rst:670
+msgid "61KB"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:618
+msgid ":ref:`board_intel_mcs51_IAP15F2K61S2`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:620
+msgid "IAP15F2K61S2"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:624
+msgid ":ref:`board_intel_mcs51_IAP15F413AD`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:626
+msgid "IAP15F413AD"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:628
+#: ../../../platforms/intel_mcs51.rst:652
+#: ../../../platforms/intel_mcs51.rst:658
+#: ../../../platforms/intel_mcs51.rst:1162
+msgid "13KB"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:630
+msgid ":ref:`board_intel_mcs51_IAP15W105`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:632
+msgid "IAP15W105"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:634
+#: ../../../platforms/intel_mcs51.rst:646
+#: ../../../platforms/intel_mcs51.rst:856
+#: ../../../platforms/intel_mcs51.rst:862
+#: ../../../platforms/intel_mcs51.rst:868
+#: ../../../platforms/intel_mcs51.rst:922
+#: ../../../platforms/intel_mcs51.rst:928
+msgid "5KB"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:636
+msgid ":ref:`board_intel_mcs51_IAP15W1K29S`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:638
+msgid "IAP15W1K29S"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:640
+msgid "29KB"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:642
+msgid ":ref:`board_intel_mcs51_IAP15W205S`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:644
+msgid "IAP15W205S"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:648
+msgid ":ref:`board_intel_mcs51_IAP15W413AS`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:650
+msgid "IAP15W413AS"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:654
+msgid ":ref:`board_intel_mcs51_IAP15W413S`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:656
+msgid "IAP15W413S"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:660
+msgid ":ref:`board_intel_mcs51_IAP15W4K58S4`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:662
+msgid "IAP15W4K58S4"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:664
+msgid "58KB"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:666
+msgid ":ref:`board_intel_mcs51_IAP15W4K61S4`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:668
+msgid "IAP15W4K61S4"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:672
+msgid ":ref:`board_intel_mcs51_IAP15W4K63S4`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:674
+msgid "IAP15W4K63S4"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:676
+#: ../../../platforms/intel_mcs51.rst:688
+msgid "63.50KB"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:678
+msgid ":ref:`board_intel_mcs51_IRC15F107W`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:680
+msgid "IRC15F107W"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:684
+msgid ":ref:`board_intel_mcs51_IRC15F2K63S2`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:686
+msgid "IRC15F2K63S2"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:690
+msgid ":ref:`board_intel_mcs51_IRC15W107`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:692
+msgid "IRC15W107"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:694
+msgid "7KB"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:696
+msgid ":ref:`board_intel_mcs51_IRC15W1K31S`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:698
+msgid "IRC15W1K31S"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:700
+msgid "31.50KB"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:702
+msgid ":ref:`board_intel_mcs51_IRC15W207S`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:704
+msgid "IRC15W207S"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:706
+msgid "7.50KB"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:708
+msgid ":ref:`board_intel_mcs51_IRC15W415AS`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:710
+msgid "IRC15W415AS"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:712
+#: ../../../platforms/intel_mcs51.rst:718
+msgid "15.50KB"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:714
+msgid ":ref:`board_intel_mcs51_IRC15W415S`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:716
+msgid "IRC15W415S"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:720
+msgid ":ref:`board_intel_mcs51_STC12C5A08S2`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:722
+msgid "STC12C5A08S2"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:726
+msgid ":ref:`board_intel_mcs51_STC12C5A16S2`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:728
+msgid "STC12C5A16S2"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:732
+msgid ":ref:`board_intel_mcs51_STC12C5A32S2`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:734
+msgid "STC12C5A32S2"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:738
+msgid ":ref:`board_intel_mcs51_STC12C5A40S2`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:740
+msgid "STC12C5A40S2"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:742
+#: ../../../platforms/intel_mcs51.rst:964
+#: ../../../platforms/intel_mcs51.rst:1126
+msgid "40KB"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:744
+msgid ":ref:`board_intel_mcs51_STC12C5A48S2`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:746
+msgid "STC12C5A48S2"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:748
+#: ../../../platforms/intel_mcs51.rst:970
+#: ../../../platforms/intel_mcs51.rst:1132
+#: ../../../platforms/intel_mcs51.rst:1600
+#: ../../../platforms/intel_mcs51.rst:1636
+#: ../../../platforms/intel_mcs51.rst:1684
+#: ../../../platforms/intel_mcs51.rst:1690
+#: ../../../platforms/intel_mcs51.rst:1696
+#: ../../../platforms/intel_mcs51.rst:1744
+msgid "48KB"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:750
+msgid ":ref:`board_intel_mcs51_STC12C5A52S2`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:752
+msgid "STC12C5A52S2"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:754
+#: ../../../platforms/intel_mcs51.rst:976
+msgid "52KB"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:756
+msgid ":ref:`board_intel_mcs51_STC12C5A56S2`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:758
+msgid "STC12C5A56S2"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:760
+#: ../../../platforms/intel_mcs51.rst:982
+#: ../../../platforms/intel_mcs51.rst:1138
+msgid "56KB"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:762
+msgid ":ref:`board_intel_mcs51_STC12C5A60S2`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:764
+msgid "STC12C5A60S2"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:766
+msgid "59.71KB"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:768
+msgid ":ref:`board_intel_mcs51_STC15F100`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:770
+msgid "STC15F100"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:774
+msgid ":ref:`board_intel_mcs51_STC15F100W`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:776
+msgid "STC15F100W"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:780
+msgid ":ref:`board_intel_mcs51_STC15F101`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:782
+msgid "STC15F101"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:786
+msgid ":ref:`board_intel_mcs51_STC15F101E`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:788
+msgid "STC15F101E"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:792
+msgid ":ref:`board_intel_mcs51_STC15F101W`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:794
+msgid "STC15F101W"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:798
+msgid ":ref:`board_intel_mcs51_STC15F102`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:800
+msgid "STC15F102"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:804
+msgid ":ref:`board_intel_mcs51_STC15F102E`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:806
+msgid "STC15F102E"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:810
+msgid ":ref:`board_intel_mcs51_STC15F102W`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:812
+msgid "STC15F102W"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:816
+msgid ":ref:`board_intel_mcs51_STC15F103`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:818
+msgid "STC15F103"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:820
+#: ../../../platforms/intel_mcs51.rst:826
+#: ../../../platforms/intel_mcs51.rst:832
+#: ../../../platforms/intel_mcs51.rst:898
+#: ../../../platforms/intel_mcs51.rst:904
+#: ../../../platforms/intel_mcs51.rst:1018
+#: ../../../platforms/intel_mcs51.rst:1060
+msgid "3KB"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:822
+msgid ":ref:`board_intel_mcs51_STC15F103E`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:824
+msgid "STC15F103E"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:828
+msgid ":ref:`board_intel_mcs51_STC15F103W`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:830
+msgid "STC15F103W"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:834
+msgid ":ref:`board_intel_mcs51_STC15F104`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:836
+msgid "STC15F104"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:840
+msgid ":ref:`board_intel_mcs51_STC15F104E`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:842
+msgid "STC15F104E"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:846
+msgid ":ref:`board_intel_mcs51_STC15F104W`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:848
+msgid "STC15F104W"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:852
+msgid ":ref:`board_intel_mcs51_STC15F105`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:854
+msgid "STC15F105"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:858
+msgid ":ref:`board_intel_mcs51_STC15F105E`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:860
+msgid "STC15F105E"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:864
+msgid ":ref:`board_intel_mcs51_STC15F105W`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:866
+msgid "STC15F105W"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:870
+msgid ":ref:`board_intel_mcs51_STC15F201A`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:872
+msgid "STC15F201A"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:876
+msgid ":ref:`board_intel_mcs51_STC15F201EA`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:878
+msgid "STC15F201EA"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:882
+msgid ":ref:`board_intel_mcs51_STC15F202A`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:884
+msgid "STC15F202A"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:888
+msgid ":ref:`board_intel_mcs51_STC15F202EA`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:890
+msgid "STC15F202EA"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:894
+msgid ":ref:`board_intel_mcs51_STC15F203A`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:896
+msgid "STC15F203A"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:900
+msgid ":ref:`board_intel_mcs51_STC15F203EA`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:902
+msgid "STC15F203EA"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:906
+msgid ":ref:`board_intel_mcs51_STC15F204A`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:908
+msgid "STC15F204A"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:912
+msgid ":ref:`board_intel_mcs51_STC15F204EA`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:914
+msgid "STC15F204EA"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:918
+msgid ":ref:`board_intel_mcs51_STC15F205A`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:920
+msgid "STC15F205A"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:924
+msgid ":ref:`board_intel_mcs51_STC15F205EA`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:926
+msgid "STC15F205EA"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:930
+msgid ":ref:`board_intel_mcs51_STC15F2K08S2`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:932
+msgid "STC15F2K08S2"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:936
+msgid ":ref:`board_intel_mcs51_STC15F2K16S2`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:938
+msgid "STC15F2K16S2"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:942
+msgid ":ref:`board_intel_mcs51_STC15F2K24AS`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:944
+msgid "STC15F2K24AS"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:946
+#: ../../../platforms/intel_mcs51.rst:952
+#: ../../../platforms/intel_mcs51.rst:1042
+#: ../../../platforms/intel_mcs51.rst:1558
+msgid "24KB"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:948
+msgid ":ref:`board_intel_mcs51_STC15F2K24S2`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:950
+msgid "STC15F2K24S2"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:954
+msgid ":ref:`board_intel_mcs51_STC15F2K32S2`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:956
+msgid "STC15F2K32S2"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:960
+msgid ":ref:`board_intel_mcs51_STC15F2K40S2`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:962
+msgid "STC15F2K40S2"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:966
+msgid ":ref:`board_intel_mcs51_STC15F2K48S2`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:968
+msgid "STC15F2K48S2"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:972
+msgid ":ref:`board_intel_mcs51_STC15F2K52S2`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:974
+msgid "STC15F2K52S2"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:978
+msgid ":ref:`board_intel_mcs51_STC15F2K56S2`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:980
+msgid "STC15F2K56S2"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:984
+msgid ":ref:`board_intel_mcs51_STC15F2K60S2`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:986
+msgid "STC15F2K60S2"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:988
+#: ../../../platforms/intel_mcs51.rst:1192
+#: ../../../platforms/intel_mcs51.rst:1228
+#: ../../../platforms/intel_mcs51.rst:1234
+#: ../../../platforms/intel_mcs51.rst:1288
+#: ../../../platforms/intel_mcs51.rst:1294
+#: ../../../platforms/intel_mcs51.rst:1378
+#: ../../../platforms/intel_mcs51.rst:1384
+#: ../../../platforms/intel_mcs51.rst:1474
+#: ../../../platforms/intel_mcs51.rst:1480
+#: ../../../platforms/intel_mcs51.rst:1606
+#: ../../../platforms/intel_mcs51.rst:1642
+#: ../../../platforms/intel_mcs51.rst:1648
+#: ../../../platforms/intel_mcs51.rst:1702
+#: ../../../platforms/intel_mcs51.rst:1708
+#: ../../../platforms/intel_mcs51.rst:1714
+#: ../../../platforms/intel_mcs51.rst:1750
+msgid "60KB"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:990
+msgid ":ref:`board_intel_mcs51_STC15F408AD`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:992
+msgid "STC15F408AD"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:996
+msgid ":ref:`board_intel_mcs51_STC15W100`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:998
+msgid "STC15W100"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1002
+msgid ":ref:`board_intel_mcs51_STC15W101`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1004
+msgid "STC15W101"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1008
+msgid ":ref:`board_intel_mcs51_STC15W102`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1010
+msgid "STC15W102"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1014
+msgid ":ref:`board_intel_mcs51_STC15W103`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1016
+msgid "STC15W103"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1020
+msgid ":ref:`board_intel_mcs51_STC15W104`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1022
+msgid "STC15W104"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1026
+msgid ":ref:`board_intel_mcs51_STC15W1K16S`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1028
+msgid "STC15W1K16S"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1032
+msgid ":ref:`board_intel_mcs51_STC15W1K20S`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1034
+msgid "STC15W1K20S"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1036
+msgid "20KB"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1038
+msgid ":ref:`board_intel_mcs51_STC15W1K24S`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1040
+msgid "STC15W1K24S"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1044
+msgid ":ref:`board_intel_mcs51_STC15W201S`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1046
+msgid "STC15W201S"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1050
+msgid ":ref:`board_intel_mcs51_STC15W202S`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1052
+msgid "STC15W202S"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1056
+msgid ":ref:`board_intel_mcs51_STC15W203S`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1058
+msgid "STC15W203S"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1062
+msgid ":ref:`board_intel_mcs51_STC15W204S`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1064
+msgid "STC15W204S"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1068
+msgid ":ref:`board_intel_mcs51_STC15W401AS`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1070
+msgid "STC15W401AS"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1074
+msgid ":ref:`board_intel_mcs51_STC15W402AS`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1076
+msgid "STC15W402AS"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1080
+msgid ":ref:`board_intel_mcs51_STC15W404AS`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1082
+msgid "STC15W404AS"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1086
+msgid ":ref:`board_intel_mcs51_STC15W404S`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1088
+msgid "STC15W404S"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1092
+msgid ":ref:`board_intel_mcs51_STC15W408AS`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1094
+msgid "STC15W408AS"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1098
+msgid ":ref:`board_intel_mcs51_STC15W408S`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1100
+msgid "STC15W408S"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1104
+msgid ":ref:`board_intel_mcs51_STC15W410S`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1106
+msgid "STC15W410S"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1108
+msgid "10KB"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1110
+msgid ":ref:`board_intel_mcs51_STC15W4K16S4`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1112
+msgid "STC15W4K16S4"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1116
+msgid ":ref:`board_intel_mcs51_STC15W4K32S4`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1118
+msgid "STC15W4K32S4"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1122
+msgid ":ref:`board_intel_mcs51_STC15W4K40S4`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1124
+msgid "STC15W4K40S4"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1128
+msgid ":ref:`board_intel_mcs51_STC15W4K48S4`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1130
+msgid "STC15W4K48S4"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1134
+msgid ":ref:`board_intel_mcs51_STC15W4K56S4`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1136
+msgid "STC15W4K56S4"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1140
+msgid ":ref:`board_intel_mcs51_STC89C516RD+`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1142
+msgid "STC89C516RD+"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1146
+msgid ":ref:`board_intel_mcs51_STC89C51RC`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1148
+msgid "STC89C51RC"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1152
+msgid ":ref:`board_intel_mcs51_STC89C52RC`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1154
+msgid "STC89C52RC"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1158
+msgid ":ref:`board_intel_mcs51_STC89C53RC`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1160
+msgid "STC89C53RC"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1164
+msgid ":ref:`board_intel_mcs51_STC89C54RD+`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1166
+msgid "STC89C54RD+"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1170
+msgid ":ref:`board_intel_mcs51_STC89C58RD+`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1172
+msgid "STC89C58RD+"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1176
+msgid ":ref:`board_intel_mcs51_STC8A4K16S2A12`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1178
+msgid "STC8A4K16S2A12"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1182
+msgid ":ref:`board_intel_mcs51_STC8A4K32S2A12`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1184
+msgid "STC8A4K32S2A12"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1188
+msgid ":ref:`board_intel_mcs51_STC8A4K60S2A12`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1190
+msgid "STC8A4K60S2A12"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1194
+msgid ":ref:`board_intel_mcs51_STC8A4K64S2A12`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1196
+msgid "STC8A4K64S2A12"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1200
+msgid ":ref:`board_intel_mcs51_STC8A8K16D4`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1202
+msgid "STC8A8K16D4"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1205
+#: ../../../platforms/intel_mcs51.rst:1211
+#: ../../../platforms/intel_mcs51.rst:1217
+#: ../../../platforms/intel_mcs51.rst:1223
+#: ../../../platforms/intel_mcs51.rst:1229
+#: ../../../platforms/intel_mcs51.rst:1235
+#: ../../../platforms/intel_mcs51.rst:1241
+#: ../../../platforms/intel_mcs51.rst:1247
+#: ../../../platforms/intel_mcs51.rst:1739
+#: ../../../platforms/intel_mcs51.rst:1745
+#: ../../../platforms/intel_mcs51.rst:1751
+#: ../../../platforms/intel_mcs51.rst:1757
+msgid "8.25KB"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1206
+msgid ":ref:`board_intel_mcs51_STC8A8K16S4A12`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1208
+msgid "STC8A8K16S4A12"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1212
+msgid ":ref:`board_intel_mcs51_STC8A8K32D4`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1214
+msgid "STC8A8K32D4"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1218
+msgid ":ref:`board_intel_mcs51_STC8A8K32S4A12`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1220
+msgid "STC8A8K32S4A12"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1224
+msgid ":ref:`board_intel_mcs51_STC8A8K60D4`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1226
+msgid "STC8A8K60D4"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1230
+msgid ":ref:`board_intel_mcs51_STC8A8K60S4A12`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1232
+msgid "STC8A8K60S4A12"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1236
+msgid ":ref:`board_intel_mcs51_STC8A8K64D4`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1238
+msgid "STC8A8K64D4"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1242
+msgid ":ref:`board_intel_mcs51_STC8A8K64S4A12`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1244
+msgid "STC8A8K64S4A12"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1248
+msgid ":ref:`board_intel_mcs51_STC8C1K08`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1250
+msgid "STC8C1K08"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1254
+msgid ":ref:`board_intel_mcs51_STC8C1K12`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1256
+msgid "STC8C1K12"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1258
+#: ../../../platforms/intel_mcs51.rst:1420
+#: ../../../platforms/intel_mcs51.rst:1426
+#: ../../../platforms/intel_mcs51.rst:1528
+msgid "12KB"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1260
+msgid ":ref:`board_intel_mcs51_STC8C2K16S2`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1262
+msgid "STC8C2K16S2"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1266
+msgid ":ref:`board_intel_mcs51_STC8C2K16S4`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1268
+msgid "STC8C2K16S4"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1272
+msgid ":ref:`board_intel_mcs51_STC8C2K32S2`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1274
+msgid "STC8C2K32S2"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1278
+msgid ":ref:`board_intel_mcs51_STC8C2K32S4`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1280
+msgid "STC8C2K32S4"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1284
+msgid ":ref:`board_intel_mcs51_STC8C2K60S2`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1286
+msgid "STC8C2K60S2"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1290
+msgid ":ref:`board_intel_mcs51_STC8C2K60S4`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1292
+msgid "STC8C2K60S4"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1296
+msgid ":ref:`board_intel_mcs51_STC8C2K64S2`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1298
+msgid "STC8C2K64S2"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1302
+msgid ":ref:`board_intel_mcs51_STC8C2K64S4`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1304
+msgid "STC8C2K64S4"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1308
+msgid ":ref:`board_intel_mcs51_STC8F1K08`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1310
+msgid "STC8F1K08"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1314
+msgid ":ref:`board_intel_mcs51_STC8F1K08S`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1316
+msgid "STC8F1K08S"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1320
+msgid ":ref:`board_intel_mcs51_STC8F1K08S2`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1322
+msgid "STC8F1K08S2"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1326
+msgid ":ref:`board_intel_mcs51_STC8F1K08S2A10`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1328
+msgid "STC8F1K08S2A10"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1332
+msgid ":ref:`board_intel_mcs51_STC8F1K17`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1334
+msgid "STC8F1K17"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1336
+#: ../../../platforms/intel_mcs51.rst:1342
+#: ../../../platforms/intel_mcs51.rst:1432
+#: ../../../platforms/intel_mcs51.rst:1438
+#: ../../../platforms/intel_mcs51.rst:1444
+#: ../../../platforms/intel_mcs51.rst:1552
+msgid "17KB"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1338
+msgid ":ref:`board_intel_mcs51_STC8F1K17S2`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1340
+msgid "STC8F1K17S2"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1344
+msgid ":ref:`board_intel_mcs51_STC8F2K08S2`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1346
+msgid "STC8F2K08S2"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1350
+msgid ":ref:`board_intel_mcs51_STC8F2K16S2`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1352
+msgid "STC8F2K16S2"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1356
+msgid ":ref:`board_intel_mcs51_STC8F2K16S4`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1358
+msgid "STC8F2K16S4"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1362
+msgid ":ref:`board_intel_mcs51_STC8F2K32S2`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1364
+msgid "STC8F2K32S2"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1368
+msgid ":ref:`board_intel_mcs51_STC8F2K32S4`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1370
+msgid "STC8F2K32S4"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1374
+msgid ":ref:`board_intel_mcs51_STC8F2K60S2`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1376
+msgid "STC8F2K60S2"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1380
+msgid ":ref:`board_intel_mcs51_STC8F2K60S4`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1382
+msgid "STC8F2K60S4"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1386
+msgid ":ref:`board_intel_mcs51_STC8F2K64S2`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1388
+msgid "STC8F2K64S2"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1392
+msgid ":ref:`board_intel_mcs51_STC8F2K64S4`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1394
+msgid "STC8F2K64S4"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1398
+msgid ":ref:`board_intel_mcs51_STC8G1K08`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1400
+msgid "STC8G1K08"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1404
+msgid ":ref:`board_intel_mcs51_STC8G1K08A`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1406
+msgid "STC8G1K08A"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1410
+msgid ":ref:`board_intel_mcs51_STC8G1K08T`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1412
+msgid "STC8G1K08T"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1416
+msgid ":ref:`board_intel_mcs51_STC8G1K12`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1418
+msgid "STC8G1K12"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1422
+msgid ":ref:`board_intel_mcs51_STC8G1K12A`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1424
+msgid "STC8G1K12A"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1428
+msgid ":ref:`board_intel_mcs51_STC8G1K17`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1430
+msgid "STC8G1K17"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1434
+msgid ":ref:`board_intel_mcs51_STC8G1K17A`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1436
+msgid "STC8G1K17A"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1440
+msgid ":ref:`board_intel_mcs51_STC8G1K17T`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1442
+msgid "STC8G1K17T"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1446
+msgid ":ref:`board_intel_mcs51_STC8G2K16S2`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1448
+msgid "STC8G2K16S2"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1452
+msgid ":ref:`board_intel_mcs51_STC8G2K16S4`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1454
+msgid "STC8G2K16S4"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1458
+msgid ":ref:`board_intel_mcs51_STC8G2K32S2`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1460
+msgid "STC8G2K32S2"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1464
+msgid ":ref:`board_intel_mcs51_STC8G2K32S4`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1466
+msgid "STC8G2K32S4"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1470
+msgid ":ref:`board_intel_mcs51_STC8G2K60S2`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1472
+msgid "STC8G2K60S2"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1476
+msgid ":ref:`board_intel_mcs51_STC8G2K60S4`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1478
+msgid "STC8G2K60S4"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1482
+msgid ":ref:`board_intel_mcs51_STC8G2K64S2`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1484
+msgid "STC8G2K64S2"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1488
+msgid ":ref:`board_intel_mcs51_STC8G2K64S4`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1490
+msgid "STC8G2K64S4"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1494
+msgid ":ref:`board_intel_mcs51_STC8H04`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1496
+msgid "STC8H04"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1500
+msgid ":ref:`board_intel_mcs51_STC8H04A10`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1502
+msgid "STC8H04A10"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1506
+msgid ":ref:`board_intel_mcs51_STC8H1K08`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1508
+msgid "STC8H1K08"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1512
+msgid ":ref:`board_intel_mcs51_STC8H1K08S2`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1514
+msgid "STC8H1K08S2"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1518
+msgid ":ref:`board_intel_mcs51_STC8H1K08S2A10`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1520
+msgid "STC8H1K08S2A10"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1524
+msgid ":ref:`board_intel_mcs51_STC8H1K12`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1526
+msgid "STC8H1K12"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1530
+msgid ":ref:`board_intel_mcs51_STC8H1K16`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1532
+msgid "STC8H1K16"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1536
+msgid ":ref:`board_intel_mcs51_STC8H1K16S2`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1538
+msgid "STC8H1K16S2"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1542
+msgid ":ref:`board_intel_mcs51_STC8H1K16S2A10`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1544
+msgid "STC8H1K16S2A10"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1548
+msgid ":ref:`board_intel_mcs51_STC8H1K17`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1550
+msgid "STC8H1K17"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1554
+msgid ":ref:`board_intel_mcs51_STC8H1K24`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1556
+msgid "STC8H1K24"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1560
+msgid ":ref:`board_intel_mcs51_STC8H1K28`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1562
+msgid "STC8H1K28"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1564
+msgid "28KB"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1566
+msgid ":ref:`board_intel_mcs51_STC8H1K32S2`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1568
+msgid "STC8H1K32S2"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1572
+msgid ":ref:`board_intel_mcs51_STC8H1K32S2A10`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1574
+msgid "STC8H1K32S2A10"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1578
+msgid ":ref:`board_intel_mcs51_STC8H1K33`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1580
+msgid "STC8H1K33"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1582
+msgid "33KB"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1584
+msgid ":ref:`board_intel_mcs51_STC8H1K64S2A10`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1586
+msgid "STC8H1K64S2A10"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1590
+msgid ":ref:`board_intel_mcs51_STC8H2K32T`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1592
+msgid "STC8H2K32T"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1596
+msgid ":ref:`board_intel_mcs51_STC8H2K48T`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1598
+msgid "STC8H2K48T"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1602
+msgid ":ref:`board_intel_mcs51_STC8H2K60T`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1604
+msgid "STC8H2K60T"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1608
+msgid ":ref:`board_intel_mcs51_STC8H2K64T`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1610
+msgid "STC8H2K64T"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1614
+msgid ":ref:`board_intel_mcs51_STC8H3K32S2`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1616
+msgid "STC8H3K32S2"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1619
+#: ../../../platforms/intel_mcs51.rst:1625
+#: ../../../platforms/intel_mcs51.rst:1631
+#: ../../../platforms/intel_mcs51.rst:1637
+#: ../../../platforms/intel_mcs51.rst:1643
+#: ../../../platforms/intel_mcs51.rst:1649
+#: ../../../platforms/intel_mcs51.rst:1655
+#: ../../../platforms/intel_mcs51.rst:1661
+msgid "3.25KB"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1620
+msgid ":ref:`board_intel_mcs51_STC8H3K32S4`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1622
+msgid "STC8H3K32S4"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1626
+msgid ":ref:`board_intel_mcs51_STC8H3K48S2`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1628
+msgid "STC8H3K48S2"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1632
+msgid ":ref:`board_intel_mcs51_STC8H3K48S4`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1634
+msgid "STC8H3K48S4"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1638
+msgid ":ref:`board_intel_mcs51_STC8H3K60S2`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1640
+msgid "STC8H3K60S2"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1644
+msgid ":ref:`board_intel_mcs51_STC8H3K60S4`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1646
+msgid "STC8H3K60S4"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1650
+msgid ":ref:`board_intel_mcs51_STC8H3K64S2`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1652
+msgid "STC8H3K64S2"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1656
+msgid ":ref:`board_intel_mcs51_STC8H3K64S4`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1658
+msgid "STC8H3K64S4"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1662
+msgid ":ref:`board_intel_mcs51_STC8H4K32LCD`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1664
+msgid "STC8H4K32LCD"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1668
+msgid ":ref:`board_intel_mcs51_STC8H4K32TLCD`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1670
+msgid "STC8H4K32TLCD"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1674
+msgid ":ref:`board_intel_mcs51_STC8H4K32TLR`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1676
+msgid "STC8H4K32TLR"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1680
+msgid ":ref:`board_intel_mcs51_STC8H4K48LCD`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1682
+msgid "STC8H4K48LCD"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1686
+msgid ":ref:`board_intel_mcs51_STC8H4K48TLCD`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1688
+msgid "STC8H4K48TLCD"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1692
+msgid ":ref:`board_intel_mcs51_STC8H4K48TLR`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1694
+msgid "STC8H4K48TLR"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1698
+msgid ":ref:`board_intel_mcs51_STC8H4K60LCD`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1700
+msgid "STC8H4K60LCD"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1704
+msgid ":ref:`board_intel_mcs51_STC8H4K60TLCD`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1706
+msgid "STC8H4K60TLCD"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1710
+msgid ":ref:`board_intel_mcs51_STC8H4K60TLR`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1712
+msgid "STC8H4K60TLR"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1716
+msgid ":ref:`board_intel_mcs51_STC8H4K64LCD`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1718
+msgid "STC8H4K64LCD"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1722
+msgid ":ref:`board_intel_mcs51_STC8H4K64TLCD`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1724
+msgid "STC8H4K64TLCD"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1728
+msgid ":ref:`board_intel_mcs51_STC8H4K64TLR`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1730
+msgid "STC8H4K64TLR"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1734
+msgid ":ref:`board_intel_mcs51_STC8H8K32U`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1736
+msgid "STC8H8K32U"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1740
+msgid ":ref:`board_intel_mcs51_STC8H8K48U`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1742
+msgid "STC8H8K48U"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1746
+msgid ":ref:`board_intel_mcs51_STC8H8K60U`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1748
+msgid "STC8H8K60U"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1752
+msgid ":ref:`board_intel_mcs51_STC8H8K64U`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1754
+msgid "STC8H8K64U"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1760
+msgid "WCH"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1771
+msgid ":ref:`board_intel_mcs51_CH559`"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1773
+msgid "CH559"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1774
+msgid "12MHz"
+msgstr ""
+
+#: ../../../platforms/intel_mcs51.rst:1776
+msgid "6.25KB"
+msgstr ""

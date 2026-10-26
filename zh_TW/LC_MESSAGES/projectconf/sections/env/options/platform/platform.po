@@ -1,0 +1,57 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present, PlatformIO
+# This file is distributed under the same license as the PlatformIO package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PlatformIO latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-24 14:02+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../projectconf/sections/env/options/platform/platform.rst:15
+msgid "``platform``"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/platform/platform.rst:17
+msgid "Type: ``Package Specification`` | Multiple: ``No``"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/platform/platform.rst:19
+msgid ""
+"Specify a development platform that provides integration of vendor-specific "
+"boards (development kits, MCUs), high-level frameworks, and SDKs. See :ref:"
+"`cmd_pkg_install_specifications` for details."
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/platform/platform.rst:23
+msgid ""
+"`PlatformIO Registry <https://registry.platformio.org>`__ allows you to "
+"explore supported development platforms, boards, frameworks, and toolchains."
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/platform/platform.rst:26
+msgid ""
+"For the advanced platform configuration, please check the :ref:`platforms` "
+"documentation."
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/platform/platform.rst:28
+msgid ""
+"Example of using a `Espressif 32 development platform <https://registry."
+"platformio.org/platforms/platformio/espressif32>`_:"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/platform/platform.rst:59
+msgid ""
+"We highly recommend pinning the platform to a version. See :ref:"
+"`cmd_pkg_install_requirements` for details."
+msgstr ""

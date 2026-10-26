@@ -1,0 +1,331 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present, PlatformIO
+# This file is distributed under the same license as the PlatformIO package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PlatformIO latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-24 14:02+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../platforms/raspberrypi.rst:15
+msgid "Raspberry Pi RP2040"
+msgstr ""
+
+#: ../../../platforms/raspberrypi.rst:0
+msgid "Registry"
+msgstr ""
+
+#: ../../../platforms/raspberrypi.rst:18
+msgid ""
+"`https://registry.platformio.org/platforms/platformio/raspberrypi <https://"
+"registry.platformio.org/platforms/platformio/raspberrypi>`__"
+msgstr ""
+
+#: ../../../platforms/raspberrypi.rst:0
+msgid "Configuration"
+msgstr ""
+
+#: ../../../platforms/raspberrypi.rst:20
+msgid ":ref:`projectconf_env_platform` = ``platformio/raspberrypi``"
+msgstr ""
+
+#: ../../../platforms/raspberrypi.rst:22
+msgid ""
+"RP2040 is a low-cost, high-performance microcontroller device with a large "
+"on-chip memory, symmetric dual-core processor complex, and rich peripheral."
+msgstr ""
+
+#: ../../../platforms/raspberrypi.rst:24
+msgid ""
+"For more detailed information please visit `vendor site <https://www."
+"raspberrypi.org/documentation/rp2040/getting-started/?utm_source=platformio."
+"org&utm_medium=docs>`_."
+msgstr ""
+
+#: ../../../platforms/raspberrypi.rst:29
+msgid "Contents"
+msgstr ""
+
+#: ../../../platforms/raspberrypi.rst:32
+msgid "Examples"
+msgstr ""
+
+#: ../../../platforms/raspberrypi.rst:34
+msgid ""
+"Examples are listed from `Raspberry Pi RP2040 development platform "
+"repository <https://github.com/platformio/platform-raspberrypi/tree/master/"
+"examples?utm_source=platformio.org&utm_medium=docs>`_:"
+msgstr ""
+
+#: ../../../platforms/raspberrypi.rst:36
+msgid ""
+"`arduino-blink <https://github.com/platformio/platform-raspberrypi/tree/"
+"master/examples/arduino-blink?utm_source=platformio.org&utm_medium=docs>`_"
+msgstr ""
+
+#: ../../../platforms/raspberrypi.rst:37
+msgid ""
+"`arduino-external-libs <https://github.com/platformio/platform-raspberrypi/"
+"tree/master/examples/arduino-external-libs?utm_source=platformio."
+"org&utm_medium=docs>`_"
+msgstr ""
+
+#: ../../../platforms/raspberrypi.rst:40
+msgid "Debugging"
+msgstr ""
+
+#: ../../../platforms/raspberrypi.rst:42
+msgid ""
+":ref:`piodebug` - \"1-click\" solution for debugging with a zero "
+"configuration."
+msgstr ""
+
+#: ../../../platforms/raspberrypi.rst:49
+msgid "Tools & Debug Probes"
+msgstr ""
+
+#: ../../../platforms/raspberrypi.rst:51
+msgid ""
+"Supported debugging tools are listed in \"Debug\" column. For more detailed "
+"information, please scroll table by horizontal. You can switch between "
+"debugging :ref:`debugging_tools` using :ref:`projectconf_debug_tool` option "
+"in :ref:`projectconf`."
+msgstr ""
+
+#: ../../../platforms/raspberrypi.rst:57
+msgid ""
+"You will need to install debug tool drivers depending on your system. Please "
+"click on compatible debug tool below for the further instructions."
+msgstr ""
+
+#: ../../../platforms/raspberrypi.rst:62
+msgid "External Debug Tools"
+msgstr ""
+
+#: ../../../platforms/raspberrypi.rst:64
+msgid ""
+"Boards listed below are compatible with :ref:`piodebug` but **DEPEND ON** "
+"external debug probe. They **ARE NOT READY** for debugging. Please click on "
+"board name for the further details."
+msgstr ""
+
+#: ../../../platforms/raspberrypi.rst:72 ../../../platforms/raspberrypi.rst:128
+#: ../../../platforms/raspberrypi.rst:165
+#: ../../../platforms/raspberrypi.rst:185
+#: ../../../platforms/raspberrypi.rst:204
+msgid "Name"
+msgstr ""
+
+#: ../../../platforms/raspberrypi.rst:73 ../../../platforms/raspberrypi.rst:187
+#: ../../../platforms/raspberrypi.rst:206
+msgid "MCU"
+msgstr ""
+
+#: ../../../platforms/raspberrypi.rst:74 ../../../platforms/raspberrypi.rst:188
+#: ../../../platforms/raspberrypi.rst:207
+msgid "Frequency"
+msgstr ""
+
+#: ../../../platforms/raspberrypi.rst:75 ../../../platforms/raspberrypi.rst:189
+#: ../../../platforms/raspberrypi.rst:208
+msgid "Flash"
+msgstr ""
+
+#: ../../../platforms/raspberrypi.rst:76 ../../../platforms/raspberrypi.rst:190
+#: ../../../platforms/raspberrypi.rst:209
+msgid "RAM"
+msgstr ""
+
+#: ../../../platforms/raspberrypi.rst:77 ../../../platforms/raspberrypi.rst:191
+msgid ":ref:`board_raspberrypi_nanorp2040connect`"
+msgstr ""
+
+#: ../../../platforms/raspberrypi.rst:78 ../../../platforms/raspberrypi.rst:83
+#: ../../../platforms/raspberrypi.rst:193
+#: ../../../platforms/raspberrypi.rst:212
+msgid "RP2040"
+msgstr ""
+
+#: ../../../platforms/raspberrypi.rst:79 ../../../platforms/raspberrypi.rst:84
+#: ../../../platforms/raspberrypi.rst:194
+#: ../../../platforms/raspberrypi.rst:213
+msgid "133MHz"
+msgstr ""
+
+#: ../../../platforms/raspberrypi.rst:80 ../../../platforms/raspberrypi.rst:85
+#: ../../../platforms/raspberrypi.rst:195
+#: ../../../platforms/raspberrypi.rst:214
+msgid "2MB"
+msgstr ""
+
+#: ../../../platforms/raspberrypi.rst:81 ../../../platforms/raspberrypi.rst:86
+#: ../../../platforms/raspberrypi.rst:196
+#: ../../../platforms/raspberrypi.rst:215
+msgid "264KB"
+msgstr ""
+
+#: ../../../platforms/raspberrypi.rst:82 ../../../platforms/raspberrypi.rst:210
+msgid ":ref:`board_raspberrypi_pico`"
+msgstr ""
+
+#: ../../../platforms/raspberrypi.rst:90
+msgid "Stable and upstream versions"
+msgstr ""
+
+#: ../../../platforms/raspberrypi.rst:92
+msgid ""
+"You can switch between `stable releases <https://github.com/platformio/"
+"platform-raspberrypi/releases>`__ of Raspberry Pi RP2040 development "
+"platform and the latest upstream version using :ref:"
+"`projectconf_env_platform` option in :ref:`projectconf` as described below."
+msgstr ""
+
+#: ../../../platforms/raspberrypi.rst:97
+msgid "Stable"
+msgstr ""
+
+#: ../../../platforms/raspberrypi.rst:113
+msgid "Upstream"
+msgstr ""
+
+#: ../../../platforms/raspberrypi.rst:123
+msgid "Packages"
+msgstr ""
+
+#: ../../../platforms/raspberrypi.rst:129
+#: ../../../platforms/raspberrypi.rst:166
+msgid "Description"
+msgstr ""
+
+#: ../../../platforms/raspberrypi.rst:131
+msgid ""
+"`framework-arduino-mbed <https://registry.platformio.org/tools/platformio/"
+"framework-arduino-mbed>`__"
+msgstr ""
+
+#: ../../../platforms/raspberrypi.rst:132
+msgid "Arduino framework supporting mbed-enabled boards"
+msgstr ""
+
+#: ../../../platforms/raspberrypi.rst:134
+msgid ""
+"`tool-jlink <https://registry.platformio.org/tools/platformio/tool-jlink>`__"
+msgstr ""
+
+#: ../../../platforms/raspberrypi.rst:135
+msgid "Software and Documentation Pack for SEGGER J-Link debug probes"
+msgstr ""
+
+#: ../../../platforms/raspberrypi.rst:137
+msgid ""
+"`tool-openocd-raspberrypi <https://registry.platformio.org/tools/platformio/"
+"tool-openocd-raspberrypi>`__"
+msgstr ""
+
+#: ../../../platforms/raspberrypi.rst:138
+msgid "Open On-Chip Debugger for Raspberry Pi MCUs"
+msgstr ""
+
+#: ../../../platforms/raspberrypi.rst:140
+msgid ""
+"`tool-rp2040tools <https://registry.platformio.org/tools/platformio/tool-"
+"rp2040tools>`__"
+msgstr ""
+
+#: ../../../platforms/raspberrypi.rst:141
+msgid ""
+"Tools for interacting with a RP2040 device in BOOTSEL mode or with a RP2040 "
+"binary"
+msgstr ""
+
+#: ../../../platforms/raspberrypi.rst:143
+msgid ""
+"`toolchain-gccarmnoneeabi <https://registry.platformio.org/tools/platformio/"
+"toolchain-gccarmnoneeabi>`__"
+msgstr ""
+
+#: ../../../platforms/raspberrypi.rst:144
+msgid "GNU toolchain for Arm Cortex-M and Cortex-R processors"
+msgstr ""
+
+#: ../../../platforms/raspberrypi.rst:147
+msgid "**Linux Users**:"
+msgstr ""
+
+#: ../../../platforms/raspberrypi.rst:149
+msgid "Install \"udev\" rules :ref:`platformio_udev_rules`"
+msgstr ""
+
+#: ../../../platforms/raspberrypi.rst:150
+msgid ""
+"Raspberry Pi users, please read this article `Enable serial port on "
+"Raspberry Pi <https://hallard.me/enable-serial-port-on-raspberry-pi/>`__."
+msgstr ""
+
+#: ../../../platforms/raspberrypi.rst:154
+msgid "**Windows Users:**"
+msgstr ""
+
+#: ../../../platforms/raspberrypi.rst:156
+msgid ""
+"Please check that you have a correctly installed USB driver from board "
+"manufacturer"
+msgstr ""
+
+#: ../../../platforms/raspberrypi.rst:161
+msgid "Frameworks"
+msgstr ""
+
+#: ../../../platforms/raspberrypi.rst:168
+msgid ":ref:`framework_arduino`"
+msgstr ""
+
+#: ../../../platforms/raspberrypi.rst:169
+msgid ""
+"Arduino Wiring-based Framework allows writing cross-platform software to "
+"control devices attached to a wide range of Arduino boards to create all "
+"kinds of creative coding, interactive objects, spaces or physical "
+"experiences."
+msgstr ""
+
+#: ../../../platforms/raspberrypi.rst:172
+msgid "Boards"
+msgstr ""
+
+#: ../../../platforms/raspberrypi.rst:175
+msgid "You can list pre-configured boards by :ref:`cmd_boards` command"
+msgstr ""
+
+#: ../../../platforms/raspberrypi.rst:176
+msgid ""
+"For more detailed ``board`` information please scroll the tables below by "
+"horizontally."
+msgstr ""
+
+#: ../../../platforms/raspberrypi.rst:180
+msgid "Arduino"
+msgstr ""
+
+#: ../../../platforms/raspberrypi.rst:186
+#: ../../../platforms/raspberrypi.rst:205
+msgid "Debug"
+msgstr ""
+
+#: ../../../platforms/raspberrypi.rst:192
+#: ../../../platforms/raspberrypi.rst:211
+msgid "External"
+msgstr ""
+
+#: ../../../platforms/raspberrypi.rst:199
+msgid "Raspberry Pi"
+msgstr ""
