@@ -41,6 +41,6 @@ msgstr ""
 
 #: ../../../manifests/library-json/fields/build/libarchive.rst:27
 msgid ""
-"You can disable library archiving globally using :ref:"
-"`projectconf_lib_archive` option in :ref:`projectconf`."
+"You can disable library archiving globally "
+"using :ref:`projectconf_lib_archive` option in :ref:`projectconf`."
 msgstr ""

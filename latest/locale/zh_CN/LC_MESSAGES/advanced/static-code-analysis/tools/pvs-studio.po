@@ -90,8 +90,8 @@ msgstr ""
 
 #: ../../../advanced/static-code-analysis/tools/pvs-studio.rst:47
 msgid ""
-"To enable **PVS-Studio** tool simply add it to the :ref:"
-"`projectconf_check_tool` option in :ref:`projectconf`:"
+"To enable **PVS-Studio** tool simply add it to "
+"the :ref:`projectconf_check_tool` option in :ref:`projectconf`:"
 msgstr ""
 
 #: ../../../advanced/static-code-analysis/tools/pvs-studio.rst:57
@@ -188,11 +188,12 @@ msgstr ""
 
 #: ../../../advanced/static-code-analysis/tools/pvs-studio.rst:113
 msgid ""
-"Since **PVS-Studio** is a paid B2B solution, `a license <https://www.viva64."
-"com/en/order>`__ should be purchased. But PVS-Studio can be used for free of "
-"charge, for example for checking open source projects. More information "
-"about the cases when you can get a free **PVS-Studio** license can be found "
-"on `the official webpage <https://www.viva64.com/en/open-source-license/>`__."
+"Since **PVS-Studio** is a paid B2B solution, `a license <https://"
+"www.viva64.com/en/order>`__ should be purchased. But PVS-Studio can be used "
+"for free of charge, for example for checking open source projects. More "
+"information about the cases when you can get a free **PVS-Studio** license "
+"can be found on `the official webpage <https://www.viva64.com/en/open-source-"
+"license/>`__."
 msgstr ""
 
 #: ../../../advanced/static-code-analysis/tools/pvs-studio.rst:119

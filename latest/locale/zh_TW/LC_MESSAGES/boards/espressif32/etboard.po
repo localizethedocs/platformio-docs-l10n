@@ -84,8 +84,8 @@ msgstr "組態"
 
 #: ../../../boards/espressif32/etboard.rst:41
 msgid ""
-"Please use ``etboard`` ID for :ref:`projectconf_env_board` option in :ref:"
-"`projectconf`:"
+"Please use ``etboard`` ID for :ref:`projectconf_env_board` option "
+"in :ref:`projectconf`:"
 msgstr ""
 
 #: ../../../boards/espressif32/etboard.rst:49

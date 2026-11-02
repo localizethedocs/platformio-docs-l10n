@@ -93,8 +93,8 @@ msgstr ""
 msgid ""
 "PlatformIO has a registry with pre-built packages for the most popular "
 "operating systems and you can use them in your platform manifest. Custom "
-"packages can be uploaded to the PlatformIO Registry using :ref:"
-"`cmd_pkg_publish` command."
+"packages can be uploaded to the PlatformIO Registry "
+"using :ref:`cmd_pkg_publish` command."
 msgstr ""
 
 #: ../../../platforms/creating_platform.rst:64
@@ -167,8 +167,8 @@ msgstr ""
 
 #: ../../../platforms/creating_platform.rst:223
 msgid ""
-"Now, you can use ``myplatform`` as value for the :ref:"
-"`projectconf_env_platform` option in :ref:`projectconf`."
+"Now, you can use ``myplatform`` as value for "
+"the :ref:`projectconf_env_platform` option in :ref:`projectconf`."
 msgstr ""
 
 #: ../../../platforms/creating_platform.rst:227
@@ -187,6 +187,6 @@ msgstr ""
 #: ../../../platforms/creating_platform.rst:234
 msgid ""
 "If the published development platform has an issue and you would like to "
-"remove it from the PlatformIO Trusted Registry, please use :ref:"
-"`cmd_pkg_unpublish` command."
+"remove it from the PlatformIO Trusted Registry, please "
+"use :ref:`cmd_pkg_unpublish` command."
 msgstr ""

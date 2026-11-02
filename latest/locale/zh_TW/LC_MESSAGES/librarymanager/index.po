@@ -19,7 +19,7 @@ msgstr ""
 
 #: ../../../librarymanager/index.rst:15
 msgid "Library Management"
-msgstr ""
+msgstr "程式庫管理"
 
 #: ../../../librarymanager/index.rst:17
 msgid ""

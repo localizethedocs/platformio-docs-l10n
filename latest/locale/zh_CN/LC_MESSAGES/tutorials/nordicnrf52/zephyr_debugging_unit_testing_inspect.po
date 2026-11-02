@@ -23,9 +23,9 @@ msgstr ""
 
 #: ../../../tutorials/nordicnrf52/zephyr_debugging_unit_testing_inspect.rst:17
 msgid ""
-"The goal of this tutorial is to demonstrate how simple it is to use :ref:"
-"`ide_vscode` to develop, run and debug a simple Bluetooth project using :ref:"
-"`framework_zephyr` framework for the ``Nordic nRF52-DK`` board."
+"The goal of this tutorial is to demonstrate how simple it is to "
+"use :ref:`ide_vscode` to develop, run and debug a simple Bluetooth project "
+"using :ref:`framework_zephyr` framework for the ``Nordic nRF52-DK`` board."
 msgstr ""
 
 #: ../../../tutorials/nordicnrf52/zephyr_debugging_unit_testing_inspect.rst:21
@@ -105,8 +105,8 @@ msgstr ""
 
 #: ../../../tutorials/nordicnrf52/zephyr_debugging_unit_testing_inspect.rst:145
 msgid ""
-"Task Menu ``Tasks: Run Task... > PlatformIO: Build`` or in :ref:"
-"`ide_vscode_toolbar`"
+"Task Menu ``Tasks: Run Task... > PlatformIO: Build`` or "
+"in :ref:`ide_vscode_toolbar`"
 msgstr ""
 
 #: ../../../tutorials/nordicnrf52/zephyr_debugging_unit_testing_inspect.rst:146
@@ -168,8 +168,8 @@ msgstr ""
 #: ../../../tutorials/nordicnrf52/zephyr_debugging_unit_testing_inspect.rst:188
 msgid ""
 "Since `Nordic nRF52-DK <https://docs.platformio.org/en/latest/boards/"
-"nordicnrf52/nrf52_dk.html>`__ includes an onboard debug probe we can use :"
-"ref:`piodebug` without any configuration."
+"nordicnrf52/nrf52_dk.html>`__ includes an onboard debug probe we can "
+"use :ref:`piodebug` without any configuration."
 msgstr ""
 
 #: ../../../tutorials/nordicnrf52/zephyr_debugging_unit_testing_inspect.rst:191
@@ -261,8 +261,8 @@ msgstr ""
 #: ../../../tutorials/nordicnrf52/zephyr_debugging_unit_testing_inspect.rst:336
 msgid ""
 "For illustrative purposes, let's imagine we need to find a function with the "
-"biggest memory footprint. Also, let's introduce a bug to our project so :ref:"
-"`check` can report it."
+"biggest memory footprint. Also, let's introduce a bug to our project "
+"so :ref:`check` can report it."
 msgstr ""
 
 #: ../../../tutorials/nordicnrf52/zephyr_debugging_unit_testing_inspect.rst:340
@@ -289,7 +289,7 @@ msgstr ""
 
 #: ../../../tutorials/nordicnrf52/zephyr_debugging_unit_testing_inspect.rst:360
 msgid ""
-"Now we have a project template for Nordic `Nordic nRF52-DK <https://docs."
-"platformio.org/en/latest/boards/nordicnrf52/nrf52_dk.html>`__ board that we "
-"can use as a boilerplate for the next projects."
+"Now we have a project template for Nordic `Nordic nRF52-DK <https://"
+"docs.platformio.org/en/latest/boards/nordicnrf52/nrf52_dk.html>`__ board "
+"that we can use as a boilerplate for the next projects."
 msgstr ""

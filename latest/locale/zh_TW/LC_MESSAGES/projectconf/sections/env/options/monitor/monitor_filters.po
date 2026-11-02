@@ -33,4 +33,4 @@ msgstr ""
 
 #: ../../../projectconf/sections/env/options/monitor/monitor_filters.rst:22
 msgid "Example:"
-msgstr ""
+msgstr "範例："

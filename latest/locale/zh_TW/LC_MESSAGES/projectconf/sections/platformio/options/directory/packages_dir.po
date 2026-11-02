@@ -23,19 +23,19 @@ msgstr ""
 
 #: ../../../projectconf/sections/platformio/options/directory/packages_dir.rst:17
 msgid ""
-"Type: ``DirPath`` | Multiple: ``No`` | Default: \":ref:"
-"`projectconf_pio_core_dir`/packages\""
+"Type: ``DirPath`` | Multiple: ``No`` | Default: "
+"\":ref:`projectconf_pio_core_dir`/packages\""
 msgstr ""
 
 #: ../../../projectconf/sections/platformio/options/directory/packages_dir.rst:19
 msgid ""
-"Global storage where **PlatformIO Package Manager** installs :ref:"
-"`platforms` dependencies (toolchains, :ref:`frameworks`, SDKs, upload and "
-"debug tools)."
+"Global storage where **PlatformIO Package Manager** "
+"installs :ref:`platforms` dependencies (toolchains, :ref:`frameworks`, SDKs, "
+"upload and debug tools)."
 msgstr ""
 
 #: ../../../projectconf/sections/platformio/options/directory/packages_dir.rst:22
 msgid ""
-"This option can also be configured by the global environment variable :"
-"envvar:`PLATFORMIO_PACKAGES_DIR`."
+"This option can also be configured by the global environment "
+"variable :envvar:`PLATFORMIO_PACKAGES_DIR`."
 msgstr ""

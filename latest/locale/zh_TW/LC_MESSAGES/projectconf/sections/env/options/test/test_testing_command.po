@@ -41,8 +41,8 @@ msgstr ""
 
 #: ../../../projectconf/sections/env/options/test/test_testing_command.rst:44
 msgid ""
-"Please note that you can pass extra arguments to the program using CLI and :"
-"option:`pio test --program-arg` option."
+"Please note that you can pass extra arguments to the program using CLI "
+"and :option:`pio test --program-arg` option."
 msgstr ""
 
 #: ../../../projectconf/sections/env/options/test/test_testing_command.rst:47

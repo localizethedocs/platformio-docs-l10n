@@ -85,8 +85,8 @@ msgstr ""
 
 #: ../../../boards/espressif32/esp32s3camlcd.rst:41
 msgid ""
-"Please use ``esp32s3camlcd`` ID for :ref:`projectconf_env_board` option in :"
-"ref:`projectconf`:"
+"Please use ``esp32s3camlcd`` ID for :ref:`projectconf_env_board` option "
+"in :ref:`projectconf`:"
 msgstr ""
 
 #: ../../../boards/espressif32/esp32s3camlcd.rst:49
@@ -193,8 +193,8 @@ msgstr ""
 
 #: ../../../boards/espressif32/esp32s3camlcd.rst:108
 msgid ""
-"You can switch between debugging :ref:`debugging_tools` using :ref:"
-"`projectconf_debug_tool` option in :ref:`projectconf`."
+"You can switch between debugging :ref:`debugging_tools` "
+"using :ref:`projectconf_debug_tool` option in :ref:`projectconf`."
 msgstr ""
 
 #: ../../../boards/espressif32/esp32s3camlcd.rst:111

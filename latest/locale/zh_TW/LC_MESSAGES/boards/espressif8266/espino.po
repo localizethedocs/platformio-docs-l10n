@@ -84,8 +84,8 @@ msgstr "組態"
 
 #: ../../../boards/espressif8266/espino.rst:41
 msgid ""
-"Please use ``espino`` ID for :ref:`projectconf_env_board` option in :ref:"
-"`projectconf`:"
+"Please use ``espino`` ID for :ref:`projectconf_env_board` option "
+"in :ref:`projectconf`:"
 msgstr ""
 
 #: ../../../boards/espressif8266/espino.rst:49

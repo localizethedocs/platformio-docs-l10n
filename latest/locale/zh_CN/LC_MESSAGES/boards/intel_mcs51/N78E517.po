@@ -85,8 +85,8 @@ msgstr ""
 
 #: ../../../boards/intel_mcs51/N78E517.rst:41
 msgid ""
-"Please use ``N78E517`` ID for :ref:`projectconf_env_board` option in :ref:"
-"`projectconf`:"
+"Please use ``N78E517`` ID for :ref:`projectconf_env_board` option "
+"in :ref:`projectconf`:"
 msgstr ""
 
 #: ../../../boards/intel_mcs51/N78E517.rst:49

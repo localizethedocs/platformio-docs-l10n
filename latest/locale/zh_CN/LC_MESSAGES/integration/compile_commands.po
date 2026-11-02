@@ -23,10 +23,10 @@ msgstr ""
 
 #: ../../../integration/compile_commands.rst:18
 msgid ""
-"A `compilation database <https://clang.llvm.org/docs/JSONCompilationDatabase."
-"html>`_ is a `JSON-formatted <https://www.json.org/>`_ file named "
-"``compile_commands.json`` that contains structured data about every "
-"compilation unit in your project."
+"A `compilation database <https://clang.llvm.org/docs/"
+"JSONCompilationDatabase.html>`_ is a `JSON-formatted <https://www.json.org/"
+">`_ file named ``compile_commands.json`` that contains structured data about "
+"every compilation unit in your project."
 msgstr ""
 
 #: ../../../integration/compile_commands.rst:22
@@ -38,8 +38,8 @@ msgstr ""
 
 #: ../../../integration/compile_commands.rst:26
 msgid ""
-"The following build variables can be used for customization using :ref:"
-"`scripting`:"
+"The following build variables can be used for customization "
+"using :ref:`scripting`:"
 msgstr ""
 
 #: ../../../integration/compile_commands.rst:32

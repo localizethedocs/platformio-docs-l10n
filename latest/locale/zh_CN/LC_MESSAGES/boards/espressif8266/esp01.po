@@ -85,8 +85,8 @@ msgstr ""
 
 #: ../../../boards/espressif8266/esp01.rst:41
 msgid ""
-"Please use ``esp01`` ID for :ref:`projectconf_env_board` option in :ref:"
-"`projectconf`:"
+"Please use ``esp01`` ID for :ref:`projectconf_env_board` option "
+"in :ref:`projectconf`:"
 msgstr ""
 
 #: ../../../boards/espressif8266/esp01.rst:49
@@ -94,8 +94,8 @@ msgid ""
 "You can override default Espressif Generic ESP8266 ESP-01 512k settings per "
 "build environment using ``board_***`` option, where ``***`` is a JSON object "
 "path from board manifest `esp01.json <https://github.com/platformio/platform-"
-"espressif8266/blob/master/boards/esp01.json>`_. For example, ``board_build."
-"mcu``, ``board_build.f_cpu``, etc."
+"espressif8266/blob/master/boards/esp01.json>`_. For example, "
+"``board_build.mcu``, ``board_build.f_cpu``, etc."
 msgstr ""
 
 #: ../../../boards/espressif8266/esp01.rst:68

@@ -28,8 +28,8 @@ msgstr ""
 #: ../../../projectconf/sections/env/options/advanced/extra_scripts.rst:19
 msgid ""
 "A list of PRE and POST extra scripts. Paths are relative to the project "
-"folder. See details and examples in the :ref:`scripting` and :ref:"
-"`scripting_launch_types` sections."
+"folder. See details and examples in the :ref:`scripting` "
+"and :ref:`scripting_launch_types` sections."
 msgstr ""
 
 #: ../../../projectconf/sections/env/options/advanced/extra_scripts.rst:23
@@ -40,6 +40,6 @@ msgstr ""
 
 #: ../../../projectconf/sections/env/options/advanced/extra_scripts.rst:26
 msgid ""
-"This option can also be set by the global environment variable :envvar:"
-"`PLATFORMIO_EXTRA_SCRIPTS`."
+"This option can also be set by the global environment "
+"variable :envvar:`PLATFORMIO_EXTRA_SCRIPTS`."
 msgstr ""

@@ -19,7 +19,7 @@ msgstr ""
 
 #: ../../../librarymanager/dependencies.rst:17
 msgid "Dependency Management"
-msgstr ""
+msgstr "依賴管理"
 
 #: ../../../librarymanager/dependencies.rst:19
 msgid ""
@@ -56,9 +56,9 @@ msgstr ""
 
 #: ../../../librarymanager/dependencies.rst:41
 msgid ""
-"If you prefer using :ref:`piocore` instead of web browsing, the :ref:"
-"`cmd_pkg_search` command allows you to search for libraries matching the "
-"search query."
+"If you prefer using :ref:`piocore` instead of web browsing, "
+"the :ref:`cmd_pkg_search` command allows you to search for libraries "
+"matching the search query."
 msgstr ""
 
 #: ../../../librarymanager/dependencies.rst:46
@@ -125,8 +125,8 @@ msgid ""
 "dependencies are common to the ``release`` and ``debug`` working "
 "environments, whereas the ``dep_3`` is a specific only for the ``debug`` "
 "working environment. The ``[env:debug]`` section overrides common "
-"``lib_deps`` option, and the ``${env.lib_deps}`` (:ref:"
-"`projectconf_interpolation` technique) is used to merge the common and "
+"``lib_deps`` option, and the ``${env.lib_deps}`` "
+"(:ref:`projectconf_interpolation` technique) is used to merge the common and "
 "custom dependencies."
 msgstr ""
 

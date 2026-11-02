@@ -19,7 +19,7 @@ msgstr ""
 
 #: ../../../integration/ci/index.rst:15
 msgid "Continuous Integration"
-msgstr ""
+msgstr "持續整合"
 
 #: ../../../integration/ci/index.rst:17
 msgid ""
@@ -32,8 +32,8 @@ msgstr ""
 #: ../../../integration/ci/index.rst:21
 msgid ""
 ":ref:`cmd_ci` command is intended to be used in combination with the build "
-"servers and the popular `Continuous Integration Software <http://en."
-"wikipedia.org/wiki/Comparison_of_continuous_integration_software>`_."
+"servers and the popular `Continuous Integration Software <http://"
+"en.wikipedia.org/wiki/Comparison_of_continuous_integration_software>`_."
 msgstr ""
 
 #: ../../../integration/ci/index.rst:25

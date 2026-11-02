@@ -28,8 +28,8 @@ msgstr ""
 #: ../../../projectconf/sections/env/options/platform/platform.rst:19
 msgid ""
 "Specify a development platform that provides integration of vendor-specific "
-"boards (development kits, MCUs), high-level frameworks, and SDKs. See :ref:"
-"`cmd_pkg_install_specifications` for details."
+"boards (development kits, MCUs), high-level frameworks, and SDKs. "
+"See :ref:`cmd_pkg_install_specifications` for details."
 msgstr ""
 
 #: ../../../projectconf/sections/env/options/platform/platform.rst:23
@@ -46,12 +46,12 @@ msgstr ""
 
 #: ../../../projectconf/sections/env/options/platform/platform.rst:28
 msgid ""
-"Example of using a `Espressif 32 development platform <https://registry."
-"platformio.org/platforms/platformio/espressif32>`_:"
+"Example of using a `Espressif 32 development platform <https://"
+"registry.platformio.org/platforms/platformio/espressif32>`_:"
 msgstr ""
 
 #: ../../../projectconf/sections/env/options/platform/platform.rst:59
 msgid ""
-"We highly recommend pinning the platform to a version. See :ref:"
-"`cmd_pkg_install_requirements` for details."
+"We highly recommend pinning the platform to a version. "
+"See :ref:`cmd_pkg_install_requirements` for details."
 msgstr ""

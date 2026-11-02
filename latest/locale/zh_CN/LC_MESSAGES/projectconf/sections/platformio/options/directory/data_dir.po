@@ -34,6 +34,6 @@ msgstr ""
 
 #: ../../../projectconf/sections/platformio/options/directory/data_dir.rst:23
 msgid ""
-"This option can also be configured by the global environment variable :"
-"envvar:`PLATFORMIO_DATA_DIR`."
+"This option can also be configured by the global environment "
+"variable :envvar:`PLATFORMIO_DATA_DIR`."
 msgstr ""

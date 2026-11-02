@@ -27,8 +27,8 @@ msgstr ""
 
 #: ../../../projectconf/sections/env/options/upload/upload_protocol.rst:19
 msgid ""
-"A protocol that \"uploader\" tool uses to talk to a board. Please check :ref:"
-"`boards` for supported uploading protocols by your board."
+"A protocol that \"uploader\" tool uses to talk to a board. Please "
+"check :ref:`boards` for supported uploading protocols by your board."
 msgstr ""
 
 #: ../../../projectconf/sections/env/options/upload/upload_protocol.rst:23

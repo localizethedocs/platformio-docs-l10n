@@ -85,8 +85,8 @@ msgstr ""
 
 #: ../../../boards/espressif8266/wifinfo.rst:41
 msgid ""
-"Please use ``wifinfo`` ID for :ref:`projectconf_env_board` option in :ref:"
-"`projectconf`:"
+"Please use ``wifinfo`` ID for :ref:`projectconf_env_board` option "
+"in :ref:`projectconf`:"
 msgstr ""
 
 #: ../../../boards/espressif8266/wifinfo.rst:49

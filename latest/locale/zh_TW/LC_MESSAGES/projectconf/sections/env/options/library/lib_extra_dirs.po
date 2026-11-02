@@ -54,4 +54,4 @@ msgstr ""
 
 #: ../../../projectconf/sections/env/options/library/lib_extra_dirs.rst:44
 msgid "Example:"
-msgstr ""
+msgstr "範例："

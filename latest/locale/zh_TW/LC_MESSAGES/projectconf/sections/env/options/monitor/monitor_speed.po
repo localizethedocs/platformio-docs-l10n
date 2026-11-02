@@ -27,10 +27,10 @@ msgstr ""
 
 #: ../../../projectconf/sections/env/options/monitor/monitor_speed.rst:19
 msgid ""
-"A monitor speed (`baud rate <http://en.wikipedia.org/wiki/Baud>`_). See :"
-"option:`pio device monitor --baud`."
+"A monitor speed (`baud rate <http://en.wikipedia.org/wiki/Baud>`_). "
+"See :option:`pio device monitor --baud`."
 msgstr ""
 
 #: ../../../projectconf/sections/env/options/monitor/monitor_speed.rst:22
 msgid "Example:"
-msgstr ""
+msgstr "範例："

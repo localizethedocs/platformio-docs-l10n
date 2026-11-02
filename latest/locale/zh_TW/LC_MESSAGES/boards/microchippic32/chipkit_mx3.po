@@ -86,8 +86,8 @@ msgstr "組態"
 
 #: ../../../boards/microchippic32/chipkit_mx3.rst:41
 msgid ""
-"Please use ``chipkit_mx3`` ID for :ref:`projectconf_env_board` option in :"
-"ref:`projectconf`:"
+"Please use ``chipkit_mx3`` ID for :ref:`projectconf_env_board` option "
+"in :ref:`projectconf`:"
 msgstr ""
 
 #: ../../../boards/microchippic32/chipkit_mx3.rst:49

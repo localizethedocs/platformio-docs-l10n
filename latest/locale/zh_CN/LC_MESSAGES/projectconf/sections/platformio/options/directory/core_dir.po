@@ -48,8 +48,8 @@ msgstr ""
 
 #: ../../../projectconf/sections/platformio/options/directory/core_dir.rst:30
 msgid ""
-"This option can also be configured by the global environment variable :"
-"envvar:`PLATFORMIO_CORE_DIR`."
+"This option can also be configured by the global environment "
+"variable :envvar:`PLATFORMIO_CORE_DIR`."
 msgstr ""
 
 #: ../../../projectconf/sections/platformio/options/directory/core_dir.rst:33

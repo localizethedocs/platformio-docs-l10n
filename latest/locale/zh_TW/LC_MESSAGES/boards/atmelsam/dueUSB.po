@@ -84,8 +84,8 @@ msgstr "組態"
 
 #: ../../../boards/atmelsam/dueUSB.rst:41
 msgid ""
-"Please use ``dueUSB`` ID for :ref:`projectconf_env_board` option in :ref:"
-"`projectconf`:"
+"Please use ``dueUSB`` ID for :ref:`projectconf_env_board` option "
+"in :ref:`projectconf`:"
 msgstr ""
 
 #: ../../../boards/atmelsam/dueUSB.rst:49
@@ -93,8 +93,8 @@ msgid ""
 "You can override default Arduino Due (USB Native Port) settings per build "
 "environment using ``board_***`` option, where ``***`` is a JSON object path "
 "from board manifest `dueUSB.json <https://github.com/platformio/platform-"
-"atmelsam/blob/master/boards/dueUSB.json>`_. For example, ``board_build."
-"mcu``, ``board_build.f_cpu``, etc."
+"atmelsam/blob/master/boards/dueUSB.json>`_. For example, "
+"``board_build.mcu``, ``board_build.f_cpu``, etc."
 msgstr ""
 
 #: ../../../boards/atmelsam/dueUSB.rst:68
@@ -155,8 +155,8 @@ msgstr ""
 
 #: ../../../boards/atmelsam/dueUSB.rst:99
 msgid ""
-"You can switch between debugging :ref:`debugging_tools` using :ref:"
-"`projectconf_debug_tool` option in :ref:`projectconf`."
+"You can switch between debugging :ref:`debugging_tools` "
+"using :ref:`projectconf_debug_tool` option in :ref:`projectconf`."
 msgstr ""
 
 #: ../../../boards/atmelsam/dueUSB.rst:102

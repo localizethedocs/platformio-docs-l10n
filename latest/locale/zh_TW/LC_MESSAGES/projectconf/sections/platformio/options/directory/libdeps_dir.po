@@ -23,8 +23,8 @@ msgstr ""
 
 #: ../../../projectconf/sections/platformio/options/directory/libdeps_dir.rst:17
 msgid ""
-"Type: ``DirPath`` | Multiple: ``No`` | Default: \":ref:"
-"`projectconf_pio_workspace_dir`/libdeps\""
+"Type: ``DirPath`` | Multiple: ``No`` | Default: "
+"\":ref:`projectconf_pio_workspace_dir`/libdeps\""
 msgstr ""
 
 #: ../../../projectconf/sections/platformio/options/directory/libdeps_dir.rst:19
@@ -35,6 +35,6 @@ msgstr ""
 
 #: ../../../projectconf/sections/platformio/options/directory/libdeps_dir.rst:22
 msgid ""
-"This option can also be configured by the global environment variable :"
-"envvar:`PLATFORMIO_LIBDEPS_DIR`."
+"This option can also be configured by the global environment "
+"variable :envvar:`PLATFORMIO_LIBDEPS_DIR`."
 msgstr ""

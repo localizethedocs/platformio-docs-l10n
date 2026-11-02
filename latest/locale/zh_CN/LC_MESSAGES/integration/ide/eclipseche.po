@@ -87,8 +87,8 @@ msgstr ""
 
 #: ../../../integration/ide/eclipseche.rst:55
 msgid ""
-"Using opened Terminal, please log in to :ref:`pioaccount` using :ref:"
-"`cmd_account_login` command."
+"Using opened Terminal, please log in to :ref:`pioaccount` "
+"using :ref:`cmd_account_login` command."
 msgstr ""
 
 #: ../../../integration/ide/eclipseche.rst:60
@@ -153,8 +153,8 @@ msgstr ""
 
 #: ../../../integration/ide/eclipseche.rst:108
 msgid ""
-"In this case, you need to use ``-d, --project-dir`` option for :ref:"
-"`cmd_run` or :ref:`cmd_remote_run` commands:"
+"In this case, you need to use ``-d, --project-dir`` option "
+"for :ref:`cmd_run` or :ref:`cmd_remote_run` commands:"
 msgstr ""
 
 #: ../../../integration/ide/eclipseche.rst:111

@@ -85,8 +85,8 @@ msgstr "組態"
 
 #: ../../../boards/nordicnrf52/nicla_sense_me.rst:41
 msgid ""
-"Please use ``nicla_sense_me`` ID for :ref:`projectconf_env_board` option in :"
-"ref:`projectconf`:"
+"Please use ``nicla_sense_me`` ID for :ref:`projectconf_env_board` option "
+"in :ref:`projectconf`:"
 msgstr ""
 
 #: ../../../boards/nordicnrf52/nicla_sense_me.rst:49
@@ -159,8 +159,8 @@ msgstr ""
 
 #: ../../../boards/nordicnrf52/nicla_sense_me.rst:100
 msgid ""
-"You can switch between debugging :ref:`debugging_tools` using :ref:"
-"`projectconf_debug_tool` option in :ref:`projectconf`."
+"You can switch between debugging :ref:`debugging_tools` "
+"using :ref:`projectconf_debug_tool` option in :ref:`projectconf`."
 msgstr ""
 
 #: ../../../boards/nordicnrf52/nicla_sense_me.rst:103

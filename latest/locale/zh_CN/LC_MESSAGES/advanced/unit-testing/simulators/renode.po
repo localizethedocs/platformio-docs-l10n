@@ -38,8 +38,9 @@ msgstr ""
 msgid ""
 "Integration of the Renode requires adding the `platformio/tool-renode "
 "<https://registry.platformio.org/tools/platformio/tool-renode>`_ package to "
-"the :ref:`projectconf_env_platform_packages` option in your :ref:"
-"`projectconf`, and overriding the :ref:`projectconf_test_testing_command`."
+"the :ref:`projectconf_env_platform_packages` option in "
+"your :ref:`projectconf`, and overriding "
+"the :ref:`projectconf_test_testing_command`."
 msgstr ""
 
 #: ../../../advanced/unit-testing/simulators/renode.rst:33
@@ -54,6 +55,6 @@ msgstr ""
 
 #: ../../../advanced/unit-testing/simulators/renode.rst:56
 msgid ""
-"Renode does not require a firmware uploading stage. Please use the :option:"
-"`pio test --without-uploading` command option."
+"Renode does not require a firmware uploading stage. Please use "
+"the :option:`pio test --without-uploading` command option."
 msgstr ""

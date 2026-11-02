@@ -40,8 +40,8 @@ msgstr ""
 
 #: ../../../manifests/library-json/fields/build/srcdir.rst:25
 msgid ""
-"If you need to exclude some files from the build process, refer to the :ref:"
-"`library_json_buid_src_filter`."
+"If you need to exclude some files from the build process, refer to "
+"the :ref:`library_json_buid_src_filter`."
 msgstr ""
 
 #: ../../../manifests/library-json/fields/build/srcdir.rst:28

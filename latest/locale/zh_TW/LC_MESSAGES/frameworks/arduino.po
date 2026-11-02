@@ -1296,8 +1296,8 @@ msgstr ""
 #: ../../../frameworks/arduino.rst:90
 msgid ""
 "`Arduino for Atmel megaAVR <https://github.com/platformio/platform-"
-"atmelmegaavr/tree/master/examples?utm_source=platformio."
-"org&utm_medium=docs>`_"
+"atmelmegaavr/tree/master/examples?"
+"utm_source=platformio.org&utm_medium=docs>`_"
 msgstr ""
 
 #: ../../../frameworks/arduino.rst:91
@@ -1315,15 +1315,15 @@ msgstr ""
 #: ../../../frameworks/arduino.rst:93
 msgid ""
 "`Arduino for Espressif 8266 <https://github.com/platformio/platform-"
-"espressif8266/tree/master/examples?utm_source=platformio."
-"org&utm_medium=docs>`_"
+"espressif8266/tree/master/examples?"
+"utm_source=platformio.org&utm_medium=docs>`_"
 msgstr ""
 
 #: ../../../frameworks/arduino.rst:94
 msgid ""
 "`Arduino for Heltec CubeCell <https://github.com/HelTecAutomation/platform-"
-"heltec-cubecell/tree/master/examples?utm_source=platformio."
-"org&utm_medium=docs>`_"
+"heltec-cubecell/tree/master/examples?"
+"utm_source=platformio.org&utm_medium=docs>`_"
 msgstr ""
 
 #: ../../../frameworks/arduino.rst:95
@@ -1335,8 +1335,8 @@ msgstr ""
 #: ../../../frameworks/arduino.rst:96
 msgid ""
 "`Arduino for Microchip PIC32 <https://github.com/platformio/platform-"
-"microchippic32/tree/master/examples?utm_source=platformio."
-"org&utm_medium=docs>`_"
+"microchippic32/tree/master/examples?"
+"utm_source=platformio.org&utm_medium=docs>`_"
 msgstr ""
 
 #: ../../../frameworks/arduino.rst:97

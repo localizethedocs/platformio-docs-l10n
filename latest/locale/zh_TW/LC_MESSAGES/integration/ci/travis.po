@@ -64,9 +64,9 @@ msgstr ""
 
 #: ../../../integration/ci/travis.rst:47
 msgid ""
-"Please make sure to read Travis CI `Getting Started <http://docs.travis-ci."
-"com/user/getting-started/>`_ and `general build configuration <http://docs."
-"travis-ci.com/user/customizing-the-build/>`_ guides first."
+"Please make sure to read Travis CI `Getting Started <http://docs.travis-"
+"ci.com/user/getting-started/>`_ and `general build configuration <http://"
+"docs.travis-ci.com/user/customizing-the-build/>`_ guides first."
 msgstr ""
 
 #: ../../../integration/ci/travis.rst:52
@@ -135,8 +135,8 @@ msgstr ""
 
 #: ../../../integration/ci/travis.rst:159
 msgid ""
-"PlatformIO allows one to specify own build flags using :envvar:"
-"`PLATFORMIO_BUILD_FLAGS` environment"
+"PlatformIO allows one to specify own build flags "
+"using :envvar:`PLATFORMIO_BUILD_FLAGS` environment"
 msgstr ""
 
 #: ../../../integration/ci/travis.rst:173
@@ -197,8 +197,8 @@ msgstr ""
 
 #: ../../../integration/ci/travis.rst:307
 msgid ""
-"Configuration file: https://github.com/ivankravets/Time/blob/master/.travis."
-"yml"
+"Configuration file: https://github.com/ivankravets/Time/blob/"
+"master/.travis.yml"
 msgstr ""
 
 #: ../../../integration/ci/travis.rst:308
@@ -211,8 +211,8 @@ msgstr ""
 
 #: ../../../integration/ci/travis.rst:359
 msgid ""
-"Configuration file: https://github.com/blynkkk/blynk-library/blob/master/."
-"travis.yml"
+"Configuration file: https://github.com/blynkkk/blynk-library/blob/"
+"master/.travis.yml"
 msgstr ""
 
 #: ../../../integration/ci/travis.rst:360

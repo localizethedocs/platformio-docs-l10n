@@ -39,8 +39,8 @@ msgstr ""
 
 #: ../../../core/userguide/org/cmd_remove.rst:31
 msgid ""
-"If you need to destroy an existing organization, please use :ref:"
-"`cmd_org_destroy` command."
+"If you need to destroy an existing organization, please "
+"use :ref:`cmd_org_destroy` command."
 msgstr ""
 
 #: ../../../core/userguide/org/cmd_remove.rst:34

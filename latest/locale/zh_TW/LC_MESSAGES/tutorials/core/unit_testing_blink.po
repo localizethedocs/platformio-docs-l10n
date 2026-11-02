@@ -23,8 +23,8 @@ msgstr ""
 
 #: ../../../tutorials/core/unit_testing_blink.rst:17
 msgid ""
-"The goal of this tutorial is to demonstrate how simple it is to use :ref:"
-"`unit_testing`."
+"The goal of this tutorial is to demonstrate how simple it is to "
+"use :ref:`unit_testing`."
 msgstr ""
 
 #: ../../../tutorials/core/unit_testing_blink.rst:19

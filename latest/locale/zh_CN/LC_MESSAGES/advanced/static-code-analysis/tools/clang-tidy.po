@@ -75,8 +75,8 @@ msgstr ""
 
 #: ../../../advanced/static-code-analysis/tools/clang-tidy.rst:44
 msgid ""
-"To enable **Clang-Tidy** tool simply add it to the :ref:"
-"`projectconf_check_tool` option in :ref:`projectconf`:"
+"To enable **Clang-Tidy** tool simply add it to "
+"the :ref:`projectconf_check_tool` option in :ref:`projectconf`:"
 msgstr ""
 
 #: ../../../advanced/static-code-analysis/tools/clang-tidy.rst:54

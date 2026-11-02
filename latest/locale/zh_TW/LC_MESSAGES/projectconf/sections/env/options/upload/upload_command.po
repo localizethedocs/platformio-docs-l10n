@@ -28,8 +28,8 @@ msgstr ""
 #: ../../../projectconf/sections/env/options/upload/upload_command.rst:19
 msgid ""
 "Override default :ref:`platforms` upload command with a custom command. You "
-"can pass a full upload command with arguments and options or mix with :ref:"
-"`projectconf_upload_flags`."
+"can pass a full upload command with arguments and options or mix "
+"with :ref:`projectconf_upload_flags`."
 msgstr ""
 
 #: ../../../projectconf/sections/env/options/upload/upload_command.rst:22
@@ -40,8 +40,8 @@ msgstr ""
 
 #: ../../../projectconf/sections/env/options/upload/upload_command.rst:24
 msgid ""
-"Default upload commands are declared in ``builder/main.py`` script file of :"
-"ref:`platforms`. See a list with open source :ref:`platforms` => https://"
+"Default upload commands are declared in ``builder/main.py`` script file "
+"of :ref:`platforms`. See a list with open source :ref:`platforms` => https://"
 "github.com/topics/platformio-platform"
 msgstr ""
 
@@ -69,8 +69,8 @@ msgstr ""
 
 #: ../../../projectconf/sections/env/options/upload/upload_command.rst:43
 msgid ""
-"``${platformio.packages_dir}`` template points to :ref:"
-"`projectconf_pio_packages_dir`."
+"``${platformio.packages_dir}`` template points "
+"to :ref:`projectconf_pio_packages_dir`."
 msgstr ""
 
 #: ../../../projectconf/sections/env/options/upload/upload_command.rst:65

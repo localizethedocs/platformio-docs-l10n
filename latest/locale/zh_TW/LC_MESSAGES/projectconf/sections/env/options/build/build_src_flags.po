@@ -28,12 +28,12 @@ msgstr ""
 #: ../../../projectconf/sections/env/options/build/build_src_flags.rst:19
 msgid ""
 "An option ``build_src_flags`` has the same behavior as ``build_flags`` but "
-"will be applied only for the project source files in the :ref:"
-"`projectconf_pio_src_dir` directory."
+"will be applied only for the project source files in "
+"the :ref:`projectconf_pio_src_dir` directory."
 msgstr ""
 
 #: ../../../projectconf/sections/env/options/build/build_src_flags.rst:23
 msgid ""
-"This option can also be set by the global environment variable :envvar:"
-"`PLATFORMIO_BUILD_SRC_FLAGS`."
+"This option can also be set by the global environment "
+"variable :envvar:`PLATFORMIO_BUILD_SRC_FLAGS`."
 msgstr ""

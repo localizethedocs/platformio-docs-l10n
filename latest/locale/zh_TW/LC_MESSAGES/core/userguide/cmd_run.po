@@ -57,8 +57,8 @@ msgstr ""
 
 #: ../../../core/userguide/cmd_run.rst:50
 msgid ""
-"You can configure default targets per project environment using :ref:"
-"`projectconf_targets` option in :ref:`projectconf`."
+"You can configure default targets per project environment "
+"using :ref:`projectconf_targets` option in :ref:`projectconf`."
 msgstr ""
 
 #: ../../../core/userguide/cmd_run.rst:56
@@ -78,8 +78,8 @@ msgstr ""
 #: ../../../core/userguide/cmd_run.rst:63
 msgid ""
 "``monitor`` automatically start :ref:`cmd_device_monitor` after successful "
-"build operation. You can configure monitor using :ref:"
-"`projectconf_section_env_monitor`."
+"build operation. You can configure monitor "
+"using :ref:`projectconf_section_env_monitor`."
 msgstr ""
 
 #: ../../../core/userguide/cmd_run.rst:67
@@ -101,8 +101,8 @@ msgstr ""
 
 #: ../../../core/userguide/cmd_run.rst:83
 msgid ""
-"Custom upload port of embedded board. To print all available ports use :ref:"
-"`cmd_device_list` command."
+"Custom upload port of embedded board. To print all available ports "
+"use :ref:`cmd_device_list` command."
 msgstr ""
 
 #: ../../../core/userguide/cmd_run.rst:86
@@ -142,15 +142,15 @@ msgstr ""
 
 #: ../../../core/userguide/cmd_run.rst:112
 msgid ""
-"This option can also be set globally using the environment variable :envvar:"
-"`PLATFORMIO_RUN_JOBS`."
+"This option can also be set globally using the environment "
+"variable :envvar:`PLATFORMIO_RUN_JOBS`."
 msgstr ""
 
 #: ../../../core/userguide/cmd_run.rst:117
 msgid ""
-"Disable auto-clean of :ref:`projectconf_pio_build_dir` when :ref:"
-"`projectconf` or :ref:`projectconf_pio_src_dir` (project structure) have "
-"been modified."
+"Disable auto-clean of :ref:`projectconf_pio_build_dir` "
+"when :ref:`projectconf` or :ref:`projectconf_pio_src_dir` (project "
+"structure) have been modified."
 msgstr ""
 
 #: ../../../core/userguide/cmd_run.rst:123
@@ -174,8 +174,8 @@ msgstr ""
 #: ../../../core/userguide/cmd_run.rst:144
 msgid ""
 "This option can also be set globally using :ref:`setting_force_verbose` "
-"setting or by environment variable :envvar:"
-"`PLATFORMIO_SETTING_FORCE_VERBOSE`."
+"setting or by environment "
+"variable :envvar:`PLATFORMIO_SETTING_FORCE_VERBOSE`."
 msgstr ""
 
 #: ../../../core/userguide/cmd_run.rst:148

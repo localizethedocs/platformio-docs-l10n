@@ -87,17 +87,18 @@ msgstr "組態"
 
 #: ../../../boards/ststm32/mxchip_az3166.rst:41
 msgid ""
-"Please use ``mxchip_az3166`` ID for :ref:`projectconf_env_board` option in :"
-"ref:`projectconf`:"
+"Please use ``mxchip_az3166`` ID for :ref:`projectconf_env_board` option "
+"in :ref:`projectconf`:"
 msgstr ""
 
 #: ../../../boards/ststm32/mxchip_az3166.rst:49
 msgid ""
 "You can override default Microsoft Azure IoT Development Kit (MXChip AZ3166) "
 "settings per build environment using ``board_***`` option, where ``***`` is "
-"a JSON object path from board manifest `mxchip_az3166.json <https://github."
-"com/platformio/platform-ststm32/blob/master/boards/mxchip_az3166.json>`_. "
-"For example, ``board_build.mcu``, ``board_build.f_cpu``, etc."
+"a JSON object path from board manifest `mxchip_az3166.json <https://"
+"github.com/platformio/platform-ststm32/blob/master/boards/"
+"mxchip_az3166.json>`_. For example, ``board_build.mcu``, "
+"``board_build.f_cpu``, etc."
 msgstr ""
 
 #: ../../../boards/ststm32/mxchip_az3166.rst:68
@@ -155,8 +156,8 @@ msgstr ""
 
 #: ../../../boards/ststm32/mxchip_az3166.rst:98
 msgid ""
-"You can switch between debugging :ref:`debugging_tools` using :ref:"
-"`projectconf_debug_tool` option in :ref:`projectconf`."
+"You can switch between debugging :ref:`debugging_tools` "
+"using :ref:`projectconf_debug_tool` option in :ref:`projectconf`."
 msgstr ""
 
 #: ../../../boards/ststm32/mxchip_az3166.rst:101

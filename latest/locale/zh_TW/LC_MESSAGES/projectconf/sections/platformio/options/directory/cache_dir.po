@@ -23,8 +23,8 @@ msgstr ""
 
 #: ../../../projectconf/sections/platformio/options/directory/cache_dir.rst:17
 msgid ""
-"Type: ``DirPath`` | Multiple: ``No`` | Default: \":ref:"
-"`projectconf_pio_core_dir`/cache\""
+"Type: ``DirPath`` | Multiple: ``No`` | Default: "
+"\":ref:`projectconf_pio_core_dir`/cache\""
 msgstr ""
 
 #: ../../../projectconf/sections/platformio/options/directory/cache_dir.rst:19
@@ -39,6 +39,6 @@ msgstr ""
 
 #: ../../../projectconf/sections/platformio/options/directory/cache_dir.rst:24
 msgid ""
-"This option can also be configured by the global environment variable :"
-"envvar:`PLATFORMIO_CACHE_DIR`."
+"This option can also be configured by the global environment "
+"variable :envvar:`PLATFORMIO_CACHE_DIR`."
 msgstr ""

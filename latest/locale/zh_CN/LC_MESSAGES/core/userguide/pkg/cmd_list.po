@@ -81,8 +81,8 @@ msgstr ""
 
 #: ../../../core/userguide/pkg/cmd_list.rst:59
 msgid ""
-"Filter installed platform package using :ref:"
-"`cmd_pkg_install_specifications`. Multiple items are allowed."
+"Filter installed platform package "
+"using :ref:`cmd_pkg_install_specifications`. Multiple items are allowed."
 msgstr ""
 
 #: ../../../core/userguide/pkg/cmd_list.rst:65
@@ -93,8 +93,8 @@ msgstr ""
 
 #: ../../../core/userguide/pkg/cmd_list.rst:71
 msgid ""
-"Filter installed library package using :ref:"
-"`cmd_pkg_install_specifications`. Multiple items are allowed."
+"Filter installed library package "
+"using :ref:`cmd_pkg_install_specifications`. Multiple items are allowed."
 msgstr ""
 
 #: ../../../core/userguide/pkg/cmd_list.rst:77

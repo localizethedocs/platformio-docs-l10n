@@ -27,8 +27,8 @@ msgstr ""
 
 #: ../../../projectconf/sections/env/options/monitor/monitor_port.rst:19
 msgid ""
-"Port, a number or a device name, or valid `URL Handlers <https://pyserial."
-"readthedocs.io/en/latest/url_handlers.html>`__."
+"Port, a number or a device name, or valid `URL Handlers <https://"
+"pyserial.readthedocs.io/en/latest/url_handlers.html>`__."
 msgstr ""
 
 #: ../../../projectconf/sections/env/options/monitor/monitor_port.rst:21
@@ -83,4 +83,4 @@ msgstr ""
 
 #: ../../../projectconf/sections/env/options/monitor/monitor_port.rst:43
 msgid "Example:"
-msgstr ""
+msgstr "範例："

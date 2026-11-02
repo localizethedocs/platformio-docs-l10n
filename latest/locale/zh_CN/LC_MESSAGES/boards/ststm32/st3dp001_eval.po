@@ -87,8 +87,8 @@ msgstr ""
 
 #: ../../../boards/ststm32/st3dp001_eval.rst:41
 msgid ""
-"Please use ``st3dp001_eval`` ID for :ref:`projectconf_env_board` option in :"
-"ref:`projectconf`:"
+"Please use ``st3dp001_eval`` ID for :ref:`projectconf_env_board` option "
+"in :ref:`projectconf`:"
 msgstr ""
 
 #: ../../../boards/ststm32/st3dp001_eval.rst:49
@@ -155,8 +155,8 @@ msgstr ""
 
 #: ../../../boards/ststm32/st3dp001_eval.rst:98
 msgid ""
-"You can switch between debugging :ref:`debugging_tools` using :ref:"
-"`projectconf_debug_tool` option in :ref:`projectconf`."
+"You can switch between debugging :ref:`debugging_tools` "
+"using :ref:`projectconf_debug_tool` option in :ref:`projectconf`."
 msgstr ""
 
 #: ../../../boards/ststm32/st3dp001_eval.rst:101

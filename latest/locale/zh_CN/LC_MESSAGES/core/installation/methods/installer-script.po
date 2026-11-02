@@ -47,9 +47,9 @@ msgstr ""
 
 #: ../../../core/installation/methods/installer-script.rst:32
 msgid ""
-"A default location of Python virtual environment is \":ref:"
-"`projectconf_pio_core_dir`/penv\". If you have any issues with PlatformIO "
-"Core, just remove this folder and re-run installer script."
+"A default location of Python virtual environment is "
+"\":ref:`projectconf_pio_core_dir`/penv\". If you have any issues with "
+"PlatformIO Core, just remove this folder and re-run installer script."
 msgstr ""
 
 #: ../../../core/installation/methods/installer-script.rst:40
@@ -75,9 +75,9 @@ msgstr ""
 
 #: ../../../core/installation/methods/installer-script.rst:62
 msgid ""
-"To install or upgrade PlatformIO Core, download (save as...) `get-platformio."
-"py <https://raw.githubusercontent.com/platformio/platformio-core-installer/"
-"master/get-platformio.py>`__ script. Then run the following:"
+"To install or upgrade PlatformIO Core, download (save as...) `get-"
+"platformio.py <https://raw.githubusercontent.com/platformio/platformio-core-"
+"installer/master/get-platformio.py>`__ script. Then run the following:"
 msgstr ""
 
 #: ../../../core/installation/methods/installer-script.rst:75
@@ -87,6 +87,6 @@ msgstr ""
 #: ../../../core/installation/methods/installer-script.rst:86
 msgid ""
 "If you need to have access to ``pio`` or ``pio.exe`` commands from other "
-"applications or terminals in your OS, please :ref:"
-"`piocore_install_shell_commands`."
+"applications or terminals in your OS, "
+"please :ref:`piocore_install_shell_commands`."
 msgstr ""

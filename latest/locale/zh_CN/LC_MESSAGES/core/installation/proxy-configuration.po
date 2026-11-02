@@ -26,8 +26,8 @@ msgid ""
 "PlatformIO Core uses Python's underlying ``requests`` library for HTTP "
 "requests. You will need to define a standard environment variable "
 "(``HTTP_PROXY``, ``HTTPS_PROXY``, or ``ALL_PROXY``) depending on your proxy "
-"server, and disable the proxy server certificate verification setting :ref:"
-"`setting_enable_proxy_strict_ssl` to ``false``."
+"server, and disable the proxy server certificate verification "
+"setting :ref:`setting_enable_proxy_strict_ssl` to ``false``."
 msgstr ""
 
 #: ../../../core/installation/proxy-configuration.rst:23

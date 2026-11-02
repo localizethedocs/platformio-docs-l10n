@@ -88,8 +88,8 @@ msgstr ""
 
 #: ../../../boards/nxplpc/lpc11u68.rst:41
 msgid ""
-"Please use ``lpc11u68`` ID for :ref:`projectconf_env_board` option in :ref:"
-"`projectconf`:"
+"Please use ``lpc11u68`` ID for :ref:`projectconf_env_board` option "
+"in :ref:`projectconf`:"
 msgstr ""
 
 #: ../../../boards/nxplpc/lpc11u68.rst:49
@@ -154,8 +154,8 @@ msgstr ""
 
 #: ../../../boards/nxplpc/lpc11u68.rst:98
 msgid ""
-"You can switch between debugging :ref:`debugging_tools` using :ref:"
-"`projectconf_debug_tool` option in :ref:`projectconf`."
+"You can switch between debugging :ref:`debugging_tools` "
+"using :ref:`projectconf_debug_tool` option in :ref:`projectconf`."
 msgstr ""
 
 #: ../../../boards/nxplpc/lpc11u68.rst:101

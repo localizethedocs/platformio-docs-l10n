@@ -118,15 +118,15 @@ msgstr ""
 #: ../../../frameworks/spl.rst:44
 msgid ""
 "`Standard Peripheral Library for ST STM32 <https://github.com/platformio/"
-"platform-ststm32/tree/master/examples?utm_source=platformio."
-"org&utm_medium=docs>`_"
+"platform-ststm32/tree/master/examples?"
+"utm_source=platformio.org&utm_medium=docs>`_"
 msgstr ""
 
 #: ../../../frameworks/spl.rst:45
 msgid ""
 "`Standard Peripheral Library for ST STM8 <https://github.com/platformio/"
-"platform-ststm8/tree/master/examples?utm_source=platformio."
-"org&utm_medium=docs>`_"
+"platform-ststm8/tree/master/examples?"
+"utm_source=platformio.org&utm_medium=docs>`_"
 msgstr ""
 
 #: ../../../frameworks/spl.rst:48

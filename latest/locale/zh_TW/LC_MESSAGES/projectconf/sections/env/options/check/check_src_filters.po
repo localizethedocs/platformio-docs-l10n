@@ -42,8 +42,8 @@ msgstr ""
 #: ../../../projectconf/sections/env/options/check/check_src_filters.rst:27
 msgid ""
 "``PATH`` is relative to :ref:`projectconf_pio_src_dir`. All patterns will be "
-"applied in their order of definition. `GLOB Patterns <http://en.wikipedia."
-"org/wiki/Glob_(programming)>`_ are allowed."
+"applied in their order of definition. `GLOB Patterns <http://"
+"en.wikipedia.org/wiki/Glob_(programming)>`_ are allowed."
 msgstr ""
 
 #: ../../../projectconf/sections/env/options/check/check_src_filters.rst:31

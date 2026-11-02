@@ -36,8 +36,8 @@ msgstr ""
 
 #: ../../../projectconf/sections/platformio/options/directory/build_cache_dir.rst:25
 msgid ""
-"This option can also be configured by the global environment variable :"
-"envvar:`PLATFORMIO_BUILD_CACHE_DIR`."
+"This option can also be configured by the global environment "
+"variable :envvar:`PLATFORMIO_BUILD_CACHE_DIR`."
 msgstr ""
 
 #: ../../../projectconf/sections/platformio/options/directory/build_cache_dir.rst:28

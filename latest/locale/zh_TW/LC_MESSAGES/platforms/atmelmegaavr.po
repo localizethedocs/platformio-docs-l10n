@@ -50,8 +50,8 @@ msgstr ""
 
 #: ../../../platforms/atmelmegaavr.rst:24
 msgid ""
-"For more detailed information please visit `vendor site <https://www."
-"microchip.com/design-centers/8-bit/avr-mcus/device-selection/atmega4809?"
+"For more detailed information please visit `vendor site <https://"
+"www.microchip.com/design-centers/8-bit/avr-mcus/device-selection/atmega4809?"
 "utm_source=platformio.org&utm_medium=docs>`_."
 msgstr ""
 
@@ -66,10 +66,10 @@ msgstr ""
 #: ../../../platforms/atmelmegaavr_extra.rst:23
 msgid ""
 "In the case of external programmers, it's easy to brick a board simply by "
-"specifying incorrect upload flags. It's highly recommended to use the :ref:"
-"`projectconf_upload_command` option that gives the full control over flags "
-"used for uploading. Please read :ref:`atmelavr_upload_via_programmer` for "
-"more information."
+"specifying incorrect upload flags. It's highly recommended to use "
+"the :ref:`projectconf_upload_command` option that gives the full control "
+"over flags used for uploading. Please "
+"read :ref:`atmelavr_upload_via_programmer` for more information."
 msgstr ""
 
 #: ../../../platforms/atmelmegaavr_extra.rst:29
@@ -87,8 +87,8 @@ msgstr ""
 
 #: ../../../platforms/atmelmegaavr_extra.rst:41
 msgid ""
-"Once ``pymcuprog`` is installed it can be used as the uploader via a custom :"
-"ref:`projectconf_upload_command` option, for example:"
+"Once ``pymcuprog`` is installed it can be used as the uploader via a "
+"custom :ref:`projectconf_upload_command` option, for example:"
 msgstr ""
 
 #: ../../../platforms/atmelmegaavr_extra.rst:64
@@ -107,8 +107,8 @@ msgstr ""
 #: ../../../platforms/atmelmegaavr_extra.rst:69
 msgid ""
 "``pymcuprog`` is maintained by Microchip, and published on `GitHub <https://"
-"github.com/microchip-pic-avr-tools/pymcuprog>`_ and `pypi.org <https://pypi."
-"org/project/pymcuprog/>`_."
+"github.com/microchip-pic-avr-tools/pymcuprog>`_ and `pypi.org <https://"
+"pypi.org/project/pymcuprog/>`_."
 msgstr ""
 
 #: ../../../platforms/atmelmegaavr_extra.rst:72
@@ -124,8 +124,8 @@ msgstr ""
 
 #: ../../../platforms/atmelmegaavr_extra.rst:83
 msgid ""
-"Once ``pyupdi`` is installed it can be used as the uploader via a custom :"
-"ref:`projectconf_upload_command` option, for example:"
+"Once ``pyupdi`` is installed it can be used as the uploader via a "
+"custom :ref:`projectconf_upload_command` option, for example:"
 msgstr ""
 
 #: ../../../platforms/atmelmegaavr_extra.rst:104
@@ -150,9 +150,9 @@ msgid ""
 "PlatformIO has a built-in target called ``fuses`` for setting fuse bits. The "
 "default fuse bits are predefined in the board manifest file in the ``fuses`` "
 "section. For example, `fuses section for Arduino Nano Every board <https://"
-"github.com/platformio/platform-atmelmegaavr/blob/develop/boards/nano_every."
-"json>`_. To set fuse bits you need to use target ``fuses`` with :option:`pio "
-"run --target` command."
+"github.com/platformio/platform-atmelmegaavr/blob/develop/boards/"
+"nano_every.json>`_. To set fuse bits you need to use target ``fuses`` "
+"with :option:`pio run --target` command."
 msgstr ""
 
 #: ../../../platforms/atmelmegaavr_extra.rst:119
@@ -196,9 +196,9 @@ msgstr ""
 
 #: ../../../platforms/atmelmegaavr_extra.rst:152
 msgid ""
-"Custom bootloader and accompanying fuses should be specified in :ref:"
-"`projectconf`. An example of setting custom bootloader for ``ATmega4808`` "
-"board:"
+"Custom bootloader and accompanying fuses should be specified "
+"in :ref:`projectconf`. An example of setting custom bootloader for "
+"``ATmega4808`` board:"
 msgstr ""
 
 #: ../../../platforms/atmelmegaavr_extra.rst:169
@@ -207,8 +207,8 @@ msgstr ""
 
 #: ../../../platforms/atmelmegaavr_extra.rst:171
 msgid ""
-"For more detailed information read :ref:"
-"`atmelavr_overriding_bootloader_command`."
+"For more detailed information "
+"read :ref:`atmelavr_overriding_bootloader_command`."
 msgstr ""
 
 #: ../../../platforms/atmelmegaavr.rst:33
@@ -237,15 +237,15 @@ msgstr ""
 #: ../../../platforms/atmelmegaavr.rst:39
 msgid ""
 "`arduino-internal-libs <https://github.com/platformio/platform-atmelmegaavr/"
-"tree/master/examples/arduino-internal-libs?utm_source=platformio."
-"org&utm_medium=docs>`_"
+"tree/master/examples/arduino-internal-libs?"
+"utm_source=platformio.org&utm_medium=docs>`_"
 msgstr ""
 
 #: ../../../platforms/atmelmegaavr.rst:40
 msgid ""
 "`arduino-external-libs <https://github.com/platformio/platform-atmelmegaavr/"
-"tree/master/examples/arduino-external-libs?utm_source=platformio."
-"org&utm_medium=docs>`_"
+"tree/master/examples/arduino-external-libs?"
+"utm_source=platformio.org&utm_medium=docs>`_"
 msgstr ""
 
 #: ../../../platforms/atmelmegaavr.rst:43
@@ -256,8 +256,8 @@ msgstr ""
 msgid ""
 "You can switch between `stable releases <https://github.com/platformio/"
 "platform-atmelmegaavr/releases>`__ of Atmel megaAVR development platform and "
-"the latest upstream version using :ref:`projectconf_env_platform` option in :"
-"ref:`projectconf` as described below."
+"the latest upstream version using :ref:`projectconf_env_platform` option "
+"in :ref:`projectconf` as described below."
 msgstr ""
 
 #: ../../../platforms/atmelmegaavr.rst:50

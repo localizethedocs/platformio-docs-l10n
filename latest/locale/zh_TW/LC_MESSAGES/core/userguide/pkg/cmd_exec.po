@@ -49,10 +49,10 @@ msgstr ""
 
 #: ../../../core/userguide/pkg/cmd_exec.rst:45
 msgid ""
-"Run a command from the specified package using :ref:"
-"`cmd_pkg_install_specifications`. If a package has not been installed yet, "
-"PlatformIO will install it from the `PlatformIO Registry <https://registry."
-"platformio.org>`__."
+"Run a command from the specified package "
+"using :ref:`cmd_pkg_install_specifications`. If a package has not been "
+"installed yet, PlatformIO will install it from the `PlatformIO Registry "
+"<https://registry.platformio.org>`__."
 msgstr ""
 
 #: ../../../core/userguide/pkg/cmd_exec.rst:49

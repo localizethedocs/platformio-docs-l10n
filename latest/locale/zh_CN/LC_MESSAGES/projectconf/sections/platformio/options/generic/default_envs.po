@@ -28,9 +28,9 @@ msgstr ""
 #: ../../../projectconf/sections/platformio/options/generic/default_envs.rst:19
 msgid ""
 "The :ref:`cmd_run` command processes all environments ``[env:***]`` by "
-"default if the :option:`pio run --environment` option is not specified. :ref:"
-"`projectconf_pio_default_envs` allows one to define which environments that "
-"should be processed by default."
+"default if the :option:`pio run --environment` option is not "
+"specified. :ref:`projectconf_pio_default_envs` allows one to define which "
+"environments that should be processed by default."
 msgstr ""
 
 #: ../../../projectconf/sections/platformio/options/generic/default_envs.rst:24
@@ -40,8 +40,8 @@ msgstr ""
 
 #: ../../../projectconf/sections/platformio/options/generic/default_envs.rst:26
 msgid ""
-"This option can also be configured by the global environment variable :"
-"envvar:`PLATFORMIO_DEFAULT_ENVS`."
+"This option can also be configured by the global environment "
+"variable :envvar:`PLATFORMIO_DEFAULT_ENVS`."
 msgstr ""
 
 #: ../../../projectconf/sections/platformio/options/generic/default_envs.rst:29

@@ -27,9 +27,9 @@ msgstr ""
 
 #: ../../../projectconf/sections/env/options/test/test_filter.rst:19
 msgid ""
-"Process only test suites whose path relative to the :ref:"
-"`projectconf_pio_test_dir` matches the specified pattern. See :ref:"
-"`unit_testing_test_hierarchy` for more details."
+"Process only test suites whose path relative to "
+"the :ref:`projectconf_pio_test_dir` matches the specified pattern. "
+"See :ref:`unit_testing_test_hierarchy` for more details."
 msgstr ""
 
 #: ../../../projectconf/sections/env/options/test/test_filter.rst:23

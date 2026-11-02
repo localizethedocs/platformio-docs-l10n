@@ -40,8 +40,8 @@ msgstr ""
 
 #: ../../../projectconf/sections/platformio/options/directory/lib_dir.rst:27
 msgid ""
-"This option can also be configured by the global environment variable :"
-"envvar:`PLATFORMIO_LIB_DIR`."
+"This option can also be configured by the global environment "
+"variable :envvar:`PLATFORMIO_LIB_DIR`."
 msgstr ""
 
 #: ../../../projectconf/sections/platformio/options/directory/lib_dir.rst:30

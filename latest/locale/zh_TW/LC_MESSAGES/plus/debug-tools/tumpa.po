@@ -28,9 +28,10 @@ msgid ""
 "FDTI's flagship communication chip FT2232H, a USB 2.0 Hi-Speed (480Mb/s) to "
 "UART/FIFO IC. It has two multi-protocol synchronous serial engines (MPSSEs) "
 "which allow for communication using JTAG, I2C and SPI on two channels "
-"simultaneously. Official reference can be found `here <https://www.diygadget."
-"com/jtag-cables-and-microcontroller-programmers/114-tiao-usb-multi-protocol-"
-"adapter-jtag-spi-i2c-serial.html?utm_source=platformio&utm_medium=docs>`__."
+"simultaneously. Official reference can be found `here <https://"
+"www.diygadget.com/jtag-cables-and-microcontroller-programmers/114-tiao-usb-"
+"multi-protocol-adapter-jtag-spi-i2c-serial.html?"
+"utm_source=platformio&utm_medium=docs>`__."
 msgstr ""
 
 #: ../../../plus/debug-tools/tumpa.rst:29
@@ -75,8 +76,8 @@ msgstr ""
 
 #: ../../../plus/debug-tools/_common_jtag_drivers.rst:16
 msgid ""
-"`Step-by-step guide: Drivers, Zadig, Wiring <https://community.platformio."
-"org/t/esp32-pio-unified-debugger/4541/20>`_"
+"`Step-by-step guide: Drivers, Zadig, Wiring <https://"
+"community.platformio.org/t/esp32-pio-unified-debugger/4541/20>`_"
 msgstr ""
 
 #: ../../../plus/debug-tools/_common_jtag_drivers.rst:17

@@ -45,8 +45,8 @@ msgstr ""
 
 #: ../../../projectconf/sections/env/options/upload/upload_port.rst:25
 msgid ""
-"``/media/disk`` - physical path to media disk/flash drive (:ref:"
-"`framework_mbed` enabled boards)"
+"``/media/disk`` - physical path to media disk/flash drive "
+"(:ref:`framework_mbed` enabled boards)"
 msgstr ""
 
 #: ../../../projectconf/sections/env/options/upload/upload_port.rst:27
@@ -67,8 +67,8 @@ msgstr ""
 
 #: ../../../projectconf/sections/env/options/upload/upload_port.rst:34
 msgid ""
-"This option can also be set by global environment variable :envvar:"
-"`PLATFORMIO_UPLOAD_PORT`."
+"This option can also be set by global environment "
+"variable :envvar:`PLATFORMIO_UPLOAD_PORT`."
 msgstr ""
 
 #: ../../../projectconf/sections/env/options/upload/upload_port.rst:37

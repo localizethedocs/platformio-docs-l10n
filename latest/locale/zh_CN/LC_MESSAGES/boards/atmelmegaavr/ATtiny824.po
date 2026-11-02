@@ -86,8 +86,8 @@ msgstr ""
 
 #: ../../../boards/atmelmegaavr/ATtiny824.rst:41
 msgid ""
-"Please use ``ATtiny824`` ID for :ref:`projectconf_env_board` option in :ref:"
-"`projectconf`:"
+"Please use ``ATtiny824`` ID for :ref:`projectconf_env_board` option "
+"in :ref:`projectconf`:"
 msgstr ""
 
 #: ../../../boards/atmelmegaavr/ATtiny824.rst:49

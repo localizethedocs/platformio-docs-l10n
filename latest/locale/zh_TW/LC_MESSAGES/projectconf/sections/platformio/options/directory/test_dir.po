@@ -34,6 +34,6 @@ msgstr ""
 
 #: ../../../projectconf/sections/platformio/options/directory/test_dir.rst:23
 msgid ""
-"This option can also be configured by the global environment variable :"
-"envvar:`PLATFORMIO_TEST_DIR`."
+"This option can also be configured by the global environment "
+"variable :envvar:`PLATFORMIO_TEST_DIR`."
 msgstr ""

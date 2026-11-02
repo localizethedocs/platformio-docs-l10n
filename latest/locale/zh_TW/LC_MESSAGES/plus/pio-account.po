@@ -19,7 +19,7 @@ msgstr ""
 
 #: ../../../plus/pio-account.rst:15
 msgid "PlatformIO Account"
-msgstr ""
+msgstr "PlatformIO 帳號"
 
 #: ../../../plus/pio-account.rst:17
 msgid "**PlatformIO Account** is required for:"
@@ -27,7 +27,7 @@ msgstr ""
 
 #: ../../../plus/pio-account.rst:19
 msgid "`Community Forum <https://community.platformio.org/>`_"
-msgstr ""
+msgstr "`社群論壇 <https://community.platformio.org/>`_"
 
 #: ../../../plus/pio-account.rst:20
 msgid ":ref:`pioremote`"
@@ -51,7 +51,7 @@ msgstr ""
 
 #: ../../../plus/pio-account.rst:27
 msgid "PlatformIO IDE"
-msgstr ""
+msgstr "PlatformIO IDE"
 
 #: ../../../plus/pio-account.rst:29
 msgid ""

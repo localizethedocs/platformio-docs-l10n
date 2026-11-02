@@ -84,8 +84,8 @@ msgstr ""
 
 #: ../../../boards/espressif32/qchip.rst:41
 msgid ""
-"Please use ``qchip`` ID for :ref:`projectconf_env_board` option in :ref:"
-"`projectconf`:"
+"Please use ``qchip`` ID for :ref:`projectconf_env_board` option "
+"in :ref:`projectconf`:"
 msgstr ""
 
 #: ../../../boards/espressif32/qchip.rst:49

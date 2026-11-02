@@ -77,8 +77,8 @@ msgstr ""
 
 #: ../../../home/index.rst:39
 msgid ""
-"You do not need to install |PIOHOME| separately, it's already built-in in :"
-"ref:`pioide` and :ref:`piocore`."
+"You do not need to install |PIOHOME| separately, it's already built-in "
+"in :ref:`pioide` and :ref:`piocore`."
 msgstr ""
 
 #: ../../../home/index.rst:43

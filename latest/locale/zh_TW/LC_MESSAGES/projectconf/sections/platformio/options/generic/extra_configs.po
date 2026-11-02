@@ -28,8 +28,8 @@ msgstr ""
 #: ../../../projectconf/sections/platformio/options/generic/extra_configs.rst:19
 msgid ""
 "This option allows extending a base :ref:`projectconf` with extra "
-"configuration files. The format and rules are the same as for the :ref:"
-"`projectconf`. A name of the configuration file can be any."
+"configuration files. The format and rules are the same as for "
+"the :ref:`projectconf`. A name of the configuration file can be any."
 msgstr ""
 
 #: ../../../projectconf/sections/platformio/options/generic/extra_configs.rst:23
@@ -81,8 +81,9 @@ msgstr ""
 #: ../../../projectconf/sections/platformio/options/generic/extra_configs.rst:45
 msgid ""
 "If you declare the same pair of \"group\" + \"option\" in an extra "
-"configuration file which was previously declared in a base :ref:"
-"`projectconf`, it will be overwritten with a value from extra configuration."
+"configuration file which was previously declared in a "
+"base :ref:`projectconf`, it will be overwritten with a value from extra "
+"configuration."
 msgstr ""
 
 #: ../../../projectconf/sections/platformio/options/generic/extra_configs.rst:49

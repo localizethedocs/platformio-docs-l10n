@@ -52,8 +52,8 @@ msgstr ""
 
 #: ../../../core/userguide/project/cmd_init.rst:35
 msgid ""
-":ref:`projectconf_pio_src_dir`, put project source files here (``*.h, *.c, *."
-"cpp, *.S, *.ino, etc.``)"
+":ref:`projectconf_pio_src_dir`, put project source files here (``*.h, *.c, "
+"*.cpp, *.S, *.ino, etc.``)"
 msgstr ""
 
 #: ../../../core/userguide/project/cmd_init.rst:37
@@ -64,8 +64,8 @@ msgstr ""
 
 #: ../../../core/userguide/project/cmd_init.rst:39
 msgid ""
-":ref:`projectconf_pio_test_dir`, put project tests here. More details :ref:"
-"`unit_testing`"
+":ref:`projectconf_pio_test_dir`, put project tests here. More "
+"details :ref:`unit_testing`"
 msgstr ""
 
 #: ../../../core/userguide/project/cmd_init.rst:40
@@ -83,8 +83,8 @@ msgstr ""
 #: ../../../core/userguide/project/cmd_init.rst:55
 msgid ""
 "If you specify board ``ID`` (you can pass multiple ``--board`` options), "
-"then *PlatformIO* will automatically generate environment for :ref:"
-"`projectconf` and pre-fill these data:"
+"then *PlatformIO* will automatically generate environment "
+"for :ref:`projectconf` and pre-fill these data:"
 msgstr ""
 
 #: ../../../core/userguide/project/cmd_init.rst:59
@@ -129,9 +129,9 @@ msgstr ""
 
 #: ../../../core/userguide/project/cmd_init.rst:89
 msgid ""
-"An environment prefix which will be used with pair in :ref:"
-"`projectconf_env_board` ID. For example, the default environment name for :"
-"ref:`board_teensy_teensy31` board will be ``[env:teensy31]``."
+"An environment prefix which will be used with pair "
+"in :ref:`projectconf_env_board` ID. For example, the default environment "
+"name for :ref:`board_teensy_teensy31` board will be ``[env:teensy31]``."
 msgstr ""
 
 #: ../../../core/userguide/project/cmd_init.rst:96

@@ -24,8 +24,8 @@ msgstr ""
 #: ../../../scripting/examples/extra_python_packages.rst:15
 msgid ""
 "If your project or library depends on the extra Python packages, you can use "
-"extra script to install them into the same virtual environment where :ref:"
-"`piocore` is installed."
+"extra script to install them into the same virtual environment "
+"where :ref:`piocore` is installed."
 msgstr ""
 
 #: ../../../scripting/examples/extra_python_packages.rst:18

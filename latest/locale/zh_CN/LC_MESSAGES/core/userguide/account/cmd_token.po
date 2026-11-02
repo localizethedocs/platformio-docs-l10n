@@ -35,15 +35,15 @@ msgstr ""
 
 #: ../../../core/userguide/account/cmd_token.rst:29
 msgid ""
-"Get or regenerate Personal Authentication Token. It is very useful for :ref:"
-"`ci` systems, :ref:`pioremote` operations where you are not able to "
+"Get or regenerate Personal Authentication Token. It is very useful "
+"for :ref:`ci` systems, :ref:`pioremote` operations where you are not able to "
 "authorize manually."
 msgstr ""
 
 #: ../../../core/userguide/account/cmd_token.rst:32
 msgid ""
-"PlatformIO handles Personal Authentication Token from environment variable :"
-"envvar:`PLATFORMIO_AUTH_TOKEN`."
+"PlatformIO handles Personal Authentication Token from environment "
+"variable :envvar:`PLATFORMIO_AUTH_TOKEN`."
 msgstr ""
 
 #: ../../../core/userguide/account/cmd_token.rst:36

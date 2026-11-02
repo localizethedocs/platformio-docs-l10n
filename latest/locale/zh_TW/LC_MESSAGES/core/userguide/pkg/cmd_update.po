@@ -108,8 +108,8 @@ msgstr ""
 
 #: ../../../core/userguide/pkg/cmd_update.rst:106
 msgid ""
-"Update a package but skip its dependencies declared in the manifest :ref:"
-"`manifest_library_json_dependencies` field."
+"Update a package but skip its dependencies declared in the "
+"manifest :ref:`manifest_library_json_dependencies` field."
 msgstr ""
 
 #: ../../../core/userguide/pkg/cmd_update.rst:112

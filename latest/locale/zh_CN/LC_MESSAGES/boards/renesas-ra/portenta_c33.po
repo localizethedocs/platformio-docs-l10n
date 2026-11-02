@@ -86,8 +86,8 @@ msgstr ""
 
 #: ../../../boards/renesas-ra/portenta_c33.rst:41
 msgid ""
-"Please use ``portenta_c33`` ID for :ref:`projectconf_env_board` option in :"
-"ref:`projectconf`:"
+"Please use ``portenta_c33`` ID for :ref:`projectconf_env_board` option "
+"in :ref:`projectconf`:"
 msgstr ""
 
 #: ../../../boards/renesas-ra/portenta_c33.rst:49
@@ -95,8 +95,8 @@ msgid ""
 "You can override default Arduino Portenta C33 settings per build environment "
 "using ``board_***`` option, where ``***`` is a JSON object path from board "
 "manifest `portenta_c33.json <https://github.com/platformio/platform-renesas-"
-"ra/blob/master/boards/portenta_c33.json>`_. For example, ``board_build."
-"mcu``, ``board_build.f_cpu``, etc."
+"ra/blob/master/boards/portenta_c33.json>`_. For example, "
+"``board_build.mcu``, ``board_build.f_cpu``, etc."
 msgstr ""
 
 #: ../../../boards/renesas-ra/portenta_c33.rst:68
@@ -144,8 +144,8 @@ msgstr ""
 
 #: ../../../boards/renesas-ra/portenta_c33.rst:96
 msgid ""
-"You can switch between debugging :ref:`debugging_tools` using :ref:"
-"`projectconf_debug_tool` option in :ref:`projectconf`."
+"You can switch between debugging :ref:`debugging_tools` "
+"using :ref:`projectconf_debug_tool` option in :ref:`projectconf`."
 msgstr ""
 
 #: ../../../boards/renesas-ra/portenta_c33.rst:99

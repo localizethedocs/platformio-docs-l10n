@@ -44,29 +44,30 @@ msgstr ""
 
 #: ../../../../HISTORY.rst:26
 msgid ""
-"Added a new ``-p, --port`` option to the `pio run <https://docs.platformio."
-"org/en/latest/core/userguide/cmd_run.html#cmdoption-pio-run-p>`__ command, "
-"allowing users to set both ``upload_port`` and ``monitor_port`` "
-"simultaneously for a more streamlined workflow (`pull #5429 <https://github."
-"com/platformio/platformio-core/pull/5429>`_)"
+"Added a new ``-p, --port`` option to the `pio run <https://"
+"docs.platformio.org/en/latest/core/userguide/cmd_run.html#cmdoption-pio-run-"
+"p>`__ command, allowing users to set both ``upload_port`` and "
+"``monitor_port`` simultaneously for a more streamlined workflow (`pull #5429 "
+"<https://github.com/platformio/platformio-core/pull/5429>`_)"
 msgstr ""
 
 #: ../../../../HISTORY.rst:27
 msgid ""
-"Added an option to `disable the 99-platformio-udev.rules <https://docs."
-"platformio.org/en/latest/core/userguide/cmd_settings."
-"html#disable_udev_rules_check>`__ check, providing greater flexibility in "
-"environments where system-level udev configuration is not required (`pull "
-"#5204 <https://github.com/platformio/platformio-core/pull/5204>`_)"
+"Added an option to `disable the 99-platformio-udev.rules <https://"
+"docs.platformio.org/en/latest/core/userguide/"
+"cmd_settings.html#disable_udev_rules_check>`__ check, providing greater "
+"flexibility in environments where system-level udev configuration is not "
+"required (`pull #5204 <https://github.com/platformio/platformio-core/pull/"
+"5204>`_)"
 msgstr ""
 
 #: ../../../../HISTORY.rst:28
 msgid ""
-"Introduced the `PLATFORMIO_DISABLE_UPGRADE_CHECK <https://docs.platformio."
-"org/en/latest/envvars.html#envvar-PLATFORMIO_DISABLE_UPGRADE_CHECK>`__ "
-"environment variable, allowing users to disable upgrade availability checks "
-"when needed (`pull #5428 <https://github.com/platformio/platformio-core/"
-"pull/5428>`_)"
+"Introduced the `PLATFORMIO_DISABLE_UPGRADE_CHECK <https://"
+"docs.platformio.org/en/latest/envvars.html#envvar-"
+"PLATFORMIO_DISABLE_UPGRADE_CHECK>`__ environment variable, allowing users to "
+"disable upgrade availability checks when needed (`pull #5428 <https://"
+"github.com/platformio/platformio-core/pull/5428>`_)"
 msgstr ""
 
 #: ../../../../HISTORY.rst:29
@@ -86,8 +87,8 @@ msgstr ""
 #: ../../../../HISTORY.rst:31
 msgid ""
 "Fixed an issue where the library integrity metadata was not invalidated "
-"after correcting invalid version requirements (`issue #5232 <https://github."
-"com/platformio/platformio-core/issues/5232>`_)"
+"after correcting invalid version requirements (`issue #5232 <https://"
+"github.com/platformio/platformio-core/issues/5232>`_)"
 msgstr ""
 
 #: ../../../../HISTORY.rst:32
@@ -107,8 +108,8 @@ msgstr ""
 #: ../../../../HISTORY.rst:34
 msgid ""
 "Fixed an issue where the test suite status was incorrectly hardcoded as "
-"PASSED (`issue #5183 <https://github.com/platformio/platformio-core/"
-"issues/5183>`_)"
+"PASSED (`issue #5183 <https://github.com/platformio/platformio-core/issues/"
+"5183>`_)"
 msgstr ""
 
 #: ../../../../HISTORY.rst:35
@@ -141,10 +142,10 @@ msgid ""
 "Upgraded the `Doctest <https://docs.platformio.org/en/latest/advanced/unit-"
 "testing/frameworks/doctest.html>`__ testing framework to version 2.4.12, the "
 "`GoogleTest <https://docs.platformio.org/en/latest/advanced/unit-testing/"
-"frameworks/doctest.html>`__ to version 1.17.0, and the `Unity <https://docs."
-"platformio.org/en/latest/advanced/unit-testing/frameworks/unity.html>`__ to "
-"version 2.6.1, incorporating the latest features and improvements for "
-"enhanced testing capabilities"
+"frameworks/doctest.html>`__ to version 1.17.0, and the `Unity <https://"
+"docs.platformio.org/en/latest/advanced/unit-testing/frameworks/"
+"unity.html>`__ to version 2.6.1, incorporating the latest features and "
+"improvements for enhanced testing capabilities"
 msgstr ""
 
 #: ../../../../HISTORY.rst:43
@@ -208,8 +209,8 @@ msgstr ""
 #: ../../../../HISTORY.rst:54
 msgid ""
 "Resolved a regression issue that prevented |PIOHOME| from opening external "
-"links (`issue #5084 <https://github.com/platformio/platformio-core/"
-"issues/5084>`_)"
+"links (`issue #5084 <https://github.com/platformio/platformio-core/issues/"
+"5084>`_)"
 msgstr ""
 
 #: ../../../../HISTORY.rst:57
@@ -241,8 +242,8 @@ msgstr ""
 #: ../../../../HISTORY.rst:62
 msgid ""
 "Resolved an issue where the ``compiledb`` target failed to properly escape "
-"compiler executable paths containing spaces (`issue #4998 <https://github."
-"com/platformio/platformio-core/issues/4998>`_)"
+"compiler executable paths containing spaces (`issue #4998 <https://"
+"github.com/platformio/platformio-core/issues/4998>`_)"
 msgstr ""
 
 #: ../../../../HISTORY.rst:63
@@ -296,8 +297,8 @@ msgstr ""
 msgid ""
 "Upgraded the build engine to the latest version of SCons (4.8.1) to improve "
 "build performance, reliability, and compatibility with other tools and "
-"systems (`release notes <https://github.com/SCons/scons/releases/"
-"tag/4.8.1>`__)"
+"systems (`release notes <https://github.com/SCons/scons/releases/tag/"
+"4.8.1>`__)"
 msgstr ""
 
 #: ../../../../HISTORY.rst:74
@@ -305,10 +306,10 @@ msgid ""
 "Upgraded the `Doctest <https://docs.platformio.org/en/latest/advanced/unit-"
 "testing/frameworks/doctest.html>`__ testing framework to version 2.4.11, the "
 "`GoogleTest <https://docs.platformio.org/en/latest/advanced/unit-testing/"
-"frameworks/doctest.html>`__ to version 1.15.2, and the `Unity <https://docs."
-"platformio.org/en/latest/advanced/unit-testing/frameworks/unity.html>`__ to "
-"version 2.6.0, incorporating the latest features and improvements for "
-"enhanced testing capabilities"
+"frameworks/doctest.html>`__ to version 1.15.2, and the `Unity <https://"
+"docs.platformio.org/en/latest/advanced/unit-testing/frameworks/"
+"unity.html>`__ to version 2.6.0, incorporating the latest features and "
+"improvements for enhanced testing capabilities"
 msgstr ""
 
 #: ../../../../HISTORY.rst:75
@@ -325,8 +326,8 @@ msgstr ""
 #: ../../../../HISTORY.rst:80
 msgid ""
 "Resolved an issue where the |LDF| couldn't locate a library dependency "
-"declared via version control system repository (`issue #4885 <https://github."
-"com/platformio/platformio-core/issues/4885>`_)"
+"declared via version control system repository (`issue #4885 <https://"
+"github.com/platformio/platformio-core/issues/4885>`_)"
 msgstr ""
 
 #: ../../../../HISTORY.rst:81
@@ -341,17 +342,17 @@ msgstr ""
 
 #: ../../../../HISTORY.rst:86
 msgid ""
-"Introduced the ``--json-output`` option to the `pio test <https://docs."
-"platformio.org/en/latest/core/userguide/cmd_test.html>`__ command, enabling "
-"users to generate test results in the JSON format"
+"Introduced the ``--json-output`` option to the `pio test <https://"
+"docs.platformio.org/en/latest/core/userguide/cmd_test.html>`__ command, "
+"enabling users to generate test results in the JSON format"
 msgstr ""
 
 #: ../../../../HISTORY.rst:87
 msgid ""
 "Upgraded the build engine to the latest version of SCons (4.7.0) to improve "
 "build performance, reliability, and compatibility with other tools and "
-"systems (`release notes <https://github.com/SCons/scons/releases/"
-"tag/4.7.0>`__)"
+"systems (`release notes <https://github.com/SCons/scons/releases/tag/"
+"4.7.0>`__)"
 msgstr ""
 
 #: ../../../../HISTORY.rst:88
@@ -402,10 +403,10 @@ msgstr ""
 #: ../../../../HISTORY.rst:94
 msgid ""
 "Resolved an issue with the ``hexlify`` filter in the `device monitor "
-"<https://docs.platformio.org/en/latest/core/userguide/device/cmd_monitor."
-"html>`__ command, ensuring proper representation of characters with Unicode "
-"code points higher than 127 (`issue #4732 <https://github.com/platformio/"
-"platformio-core/issues/4732>`_)"
+"<https://docs.platformio.org/en/latest/core/userguide/device/"
+"cmd_monitor.html>`__ command, ensuring proper representation of characters "
+"with Unicode code points higher than 127 (`issue #4732 <https://github.com/"
+"platformio/platformio-core/issues/4732>`_)"
 msgstr ""
 
 #: ../../../../HISTORY.rst:97
@@ -414,8 +415,8 @@ msgstr ""
 
 #: ../../../../HISTORY.rst:99
 msgid ""
-"Expanded support for SCons variables declared in the legacy format "
-"``${SCONS_VARNAME}`` (`issue #4828 <https://github.com/platformio/platformio-"
+"Expanded support for SCons variables declared in the legacy format ``$"
+"{SCONS_VARNAME}`` (`issue #4828 <https://github.com/platformio/platformio-"
 "core/issues/4828>`_)"
 msgstr ""
 
@@ -443,16 +444,16 @@ msgstr ""
 #: ../../../../HISTORY.rst:107
 msgid ""
 "Drastically enhanced the speed of project building when operating in verbose "
-"mode (`issue #4783 <https://github.com/platformio/platformio-core/"
-"issues/4783>`_)"
+"mode (`issue #4783 <https://github.com/platformio/platformio-core/issues/"
+"4783>`_)"
 msgstr ""
 
 #: ../../../../HISTORY.rst:108
 msgid ""
 "Upgraded the build engine to the latest version of SCons (4.6.0) to improve "
 "build performance, reliability, and compatibility with other tools and "
-"systems (`release notes <https://github.com/SCons/scons/releases/"
-"tag/4.6.0>`__)"
+"systems (`release notes <https://github.com/SCons/scons/releases/tag/"
+"4.6.0>`__)"
 msgstr ""
 
 #: ../../../../HISTORY.rst:109
@@ -494,8 +495,8 @@ msgstr ""
 #: ../../../../HISTORY.rst:114
 msgid ""
 "Resolved an issue where the ``COMPILATIONDB_INCLUDE_TOOLCHAIN`` setting was "
-"not correctly applying to private libraries (`issue #4762 <https://github."
-"com/platformio/platformio-core/issues/4762>`_)"
+"not correctly applying to private libraries (`issue #4762 <https://"
+"github.com/platformio/platformio-core/issues/4762>`_)"
 msgstr ""
 
 #: ../../../../HISTORY.rst:115
@@ -515,8 +516,8 @@ msgstr ""
 
 #: ../../../../HISTORY.rst:117
 msgid ""
-"Resolved an issue where running `pio project metadata <https://docs."
-"platformio.org/en/latest/core/userguide/project/cmd_metadata.html>`__ "
+"Resolved an issue where running `pio project metadata <https://"
+"docs.platformio.org/en/latest/core/userguide/project/cmd_metadata.html>`__ "
 "resulted in duplicated \"include\" entries (`issue #4723 <https://github.com/"
 "platformio/platformio-core/issues/4723>`_)"
 msgstr ""
@@ -541,9 +542,9 @@ msgstr ""
 #: ../../../../HISTORY.rst:124
 msgid ""
 "Resolved a possible issue that may cause generated projects for `PlatformIO "
-"IDE for VSCode <https://docs.platformio.org/en/latest/integration/ide/vscode."
-"html>`__ to fail to launch a debug session because of a missing \"objdump\" "
-"binary when GDB is not part of the toolchain package"
+"IDE for VSCode <https://docs.platformio.org/en/latest/integration/ide/"
+"vscode.html>`__ to fail to launch a debug session because of a missing "
+"\"objdump\" binary when GDB is not part of the toolchain package"
 msgstr ""
 
 #: ../../../../HISTORY.rst:125
@@ -559,8 +560,8 @@ msgstr ""
 #: ../../../../HISTORY.rst:130
 msgid ""
 "Resolved an issue that caused generated projects for `PlatformIO IDE for "
-"VSCode <https://docs.platformio.org/en/latest/integration/ide/vscode."
-"html>`__ to break when the ``-iprefix`` compiler flag was used"
+"VSCode <https://docs.platformio.org/en/latest/integration/ide/"
+"vscode.html>`__ to break when the ``-iprefix`` compiler flag was used"
 msgstr ""
 
 #: ../../../../HISTORY.rst:131
@@ -572,16 +573,16 @@ msgstr ""
 
 #: ../../../../HISTORY.rst:132
 msgid ""
-"Implemented a crucial improvement to the `pio run <https://docs.platformio."
-"org/en/latest/core/userguide/cmd_run.html>`__ command, guaranteeing that the "
-"``monitor`` target is not executed if any of the preceding targets, such as "
-"``upload``, encounter failures"
+"Implemented a crucial improvement to the `pio run <https://"
+"docs.platformio.org/en/latest/core/userguide/cmd_run.html>`__ command, "
+"guaranteeing that the ``monitor`` target is not executed if any of the "
+"preceding targets, such as ``upload``, encounter failures"
 msgstr ""
 
 #: ../../../../HISTORY.rst:133
 msgid ""
-"`Cppcheck <https://docs.platformio.org/en/latest/plus/check-tools/cppcheck."
-"html>`__ v2.11 with new checks, CLI commands and various analysis "
+"`Cppcheck <https://docs.platformio.org/en/latest/plus/check-tools/"
+"cppcheck.html>`__ v2.11 with new checks, CLI commands and various analysis "
 "improvements"
 msgstr ""
 
@@ -609,9 +610,9 @@ msgstr ""
 #: ../../../../HISTORY.rst:140
 msgid ""
 "Resolved an issue that resulted in unresolved absolute toolchain paths when "
-"generating the `Compilation database \"compile_commands.json\" <https://docs."
-"platformio.org/en/latest/integration/compile_commands.html>`__ (`issue #4684 "
-"<https://github.com/platformio/platformio-core/issues/4684>`_)"
+"generating the `Compilation database \"compile_commands.json\" <https://"
+"docs.platformio.org/en/latest/integration/compile_commands.html>`__ (`issue "
+"#4684 <https://github.com/platformio/platformio-core/issues/4684>`_)"
 msgstr ""
 
 #: ../../../../HISTORY.rst:143
@@ -620,9 +621,9 @@ msgstr ""
 
 #: ../../../../HISTORY.rst:145
 msgid ""
-"Added a new ``--lint`` option to the `pio project config <https://docs."
-"platformio.org/en/latest/core/userguide/project/cmd_config.html>`__ command, "
-"enabling users to efficiently perform linting on the |PIOCONF|"
+"Added a new ``--lint`` option to the `pio project config <https://"
+"docs.platformio.org/en/latest/core/userguide/project/cmd_config.html>`__ "
+"command, enabling users to efficiently perform linting on the |PIOCONF|"
 msgstr ""
 
 #: ../../../../HISTORY.rst:146
@@ -695,27 +696,28 @@ msgstr ""
 
 #: ../../../../HISTORY.rst:159
 msgid ""
-"Added validation for `project working environment names <https://docs."
-"platformio.org/en/latest/projectconf/sections/env/index.html#working-env-"
-"name>`__ to ensure that they only contain lowercase letters ``a-z``, numbers "
-"``0-9``, and special characters ``_`` (underscore) and ``-`` (hyphen)"
+"Added validation for `project working environment names <https://"
+"docs.platformio.org/en/latest/projectconf/sections/env/index.html#working-"
+"env-name>`__ to ensure that they only contain lowercase letters ``a-z``, "
+"numbers ``0-9``, and special characters ``_`` (underscore) and ``-`` (hyphen)"
 msgstr ""
 
 #: ../../../../HISTORY.rst:160
 msgid ""
 "Added the ability to show a detailed library dependency tree only in "
-"`verbose mode <https://docs.platformio.org/en/latest/core/userguide/cmd_run."
-"html#cmdoption-pio-run-v>`__, which can help you understand the relationship "
-"between libraries and troubleshoot issues more effectively (`issue #4517 "
-"<https://github.com/platformio/platformio-core/issues/4517>`_)"
+"`verbose mode <https://docs.platformio.org/en/latest/core/userguide/"
+"cmd_run.html#cmdoption-pio-run-v>`__, which can help you understand the "
+"relationship between libraries and troubleshoot issues more effectively "
+"(`issue #4517 <https://github.com/platformio/platformio-core/issues/4517>`_)"
 msgstr ""
 
 #: ../../../../HISTORY.rst:161
 msgid ""
-"Added the ability to run only the `device monitor <https://docs.platformio."
-"org/en/latest/core/userguide/device/cmd_monitor.html>`__ when using the `pio "
-"run -t monitor <https://docs.platformio.org/en/latest/core/userguide/cmd_run."
-"html>`__ command, saving you time and resources by skipping the build process"
+"Added the ability to run only the `device monitor <https://"
+"docs.platformio.org/en/latest/core/userguide/device/cmd_monitor.html>`__ "
+"when using the `pio run -t monitor <https://docs.platformio.org/en/latest/"
+"core/userguide/cmd_run.html>`__ command, saving you time and resources by "
+"skipping the build process"
 msgstr ""
 
 #: ../../../../HISTORY.rst:162
@@ -730,23 +732,23 @@ msgstr ""
 msgid ""
 "Improved support for projects located on Windows network drives, including "
 "Network Shared Folder, Dropbox, OneDrive, Google Drive, and other similar "
-"services (`issue #3417 <https://github.com/platformio/platformio-core/"
-"issues/3417>`_)"
+"services (`issue #3417 <https://github.com/platformio/platformio-core/issues/"
+"3417>`_)"
 msgstr ""
 
 #: ../../../../HISTORY.rst:164
 msgid ""
 "Improved source file filtering functionality for the `Static Code Analysis "
-"<https://docs.platformio.org/en/latest/advanced/static-code-analysis/index."
-"html>`__ feature, making it easier to analyze only the code you need to"
+"<https://docs.platformio.org/en/latest/advanced/static-code-analysis/"
+"index.html>`__ feature, making it easier to analyze only the code you need to"
 msgstr ""
 
 #: ../../../../HISTORY.rst:165
 msgid ""
 "Upgraded the build engine to the latest version of SCons (4.5.2) to improve "
 "build performance, reliability, and compatibility with other tools and "
-"systems (`release notes <https://github.com/SCons/scons/releases/"
-"tag/4.5.2>`__)"
+"systems (`release notes <https://github.com/SCons/scons/releases/tag/"
+"4.5.2>`__)"
 msgstr ""
 
 #: ../../../../HISTORY.rst:166
@@ -758,9 +760,9 @@ msgstr ""
 
 #: ../../../../HISTORY.rst:167
 msgid ""
-"Restored the project generator for the `NetBeans IDE <https://docs."
-"platformio.org/en/latest/integration/ide/netbeans.html>`__, providing you "
-"with more flexibility and options for your development workflow"
+"Restored the project generator for the `NetBeans IDE <https://"
+"docs.platformio.org/en/latest/integration/ide/netbeans.html>`__, providing "
+"you with more flexibility and options for your development workflow"
 msgstr ""
 
 #: ../../../../HISTORY.rst:168
@@ -775,10 +777,10 @@ msgstr ""
 #: ../../../../HISTORY.rst:169
 msgid ""
 "Resolved an issue where the `build_cache_dir <https://docs.platformio.org/en/"
-"latest/projectconf/sections/platformio/options/directory/build_cache_dir."
-"html>`__ setting was not being recognized consistently across multiple "
-"environments (`issue #4574 <https://github.com/platformio/platformio-core/"
-"issues/4574>`_)"
+"latest/projectconf/sections/platformio/options/directory/"
+"build_cache_dir.html>`__ setting was not being recognized consistently "
+"across multiple environments (`issue #4574 <https://github.com/platformio/"
+"platformio-core/issues/4574>`_)"
 msgstr ""
 
 #: ../../../../HISTORY.rst:170
@@ -841,8 +843,8 @@ msgstr ""
 #: ../../../../HISTORY.rst:182
 msgid ""
 "Made assets (templates, ``99-platformio-udev.rules``) part of Python's "
-"module (`issue #4458 <https://github.com/platformio/platformio-core/"
-"issues/4458>`_)"
+"module (`issue #4458 <https://github.com/platformio/platformio-core/issues/"
+"4458>`_)"
 msgstr ""
 
 #: ../../../../HISTORY.rst:183
@@ -867,8 +869,8 @@ msgstr ""
 #: ../../../../HISTORY.rst:186
 msgid ""
 "Fixed an issue with an incorrect test summary when a testcase name includes "
-"a colon (`issue #4508 <https://github.com/platformio/platformio-core/"
-"issues/4508>`_)"
+"a colon (`issue #4508 <https://github.com/platformio/platformio-core/issues/"
+"4508>`_)"
 msgstr ""
 
 #: ../../../../HISTORY.rst:187
@@ -882,10 +884,11 @@ msgstr ""
 #: ../../../../HISTORY.rst:188
 msgid ""
 "Fixed an issue when `pio pkg list <https://docs.platformio.org/en/latest/"
-"core/userguide/pkg/cmd_list.html>`__ and `pio pkg uninstall <https://docs."
-"platformio.org/en/latest/core/userguide/pkg/cmd_uninstall.html>`__ commands "
-"fail if there are circular dependencies in the |LIBRARYJSON| manifests "
-"(`issue #4475 <https://github.com/platformio/platformio-core/issues/4475>`_)"
+"core/userguide/pkg/cmd_list.html>`__ and `pio pkg uninstall <https://"
+"docs.platformio.org/en/latest/core/userguide/pkg/cmd_uninstall.html>`__ "
+"commands fail if there are circular dependencies in the |LIBRARYJSON| "
+"manifests (`issue #4475 <https://github.com/platformio/platformio-core/"
+"issues/4475>`_)"
 msgstr ""
 
 #: ../../../../HISTORY.rst:191
@@ -918,10 +921,10 @@ msgstr ""
 
 #: ../../../../HISTORY.rst:197
 msgid ""
-"Fixed an issue when `pio pkg install --storage-dir <https://docs.platformio."
-"org/en/latest/core/userguide/pkg/cmd_install.html>`__ command requires "
-"PlatformIO project (`issue #4410 <https://github.com/platformio/platformio-"
-"core/issues/4410>`_)"
+"Fixed an issue when `pio pkg install --storage-dir <https://"
+"docs.platformio.org/en/latest/core/userguide/pkg/cmd_install.html>`__ "
+"command requires PlatformIO project (`issue #4410 <https://github.com/"
+"platformio/platformio-core/issues/4410>`_)"
 msgstr ""
 
 #: ../../../../HISTORY.rst:200
@@ -931,9 +934,9 @@ msgstr ""
 #: ../../../../HISTORY.rst:202
 msgid ""
 "Added support for accepting the original FileNode environment in a "
-"\"callback\" function when using `Build Middlewares <https://docs.platformio."
-"org/en/latest/scripting/middlewares.html>`__ (`pull #4380 <https://github."
-"com/platformio/platformio-core/pull/4380>`_)"
+"\"callback\" function when using `Build Middlewares <https://"
+"docs.platformio.org/en/latest/scripting/middlewares.html>`__ (`pull #4380 "
+"<https://github.com/platformio/platformio-core/pull/4380>`_)"
 msgstr ""
 
 #: ../../../../HISTORY.rst:203
@@ -945,8 +948,8 @@ msgstr ""
 #: ../../../../HISTORY.rst:204
 msgid ""
 "Improved project dependency resolving when using the `pio project init --ide "
-"<https://docs.platformio.org/en/latest/core/userguide/project/cmd_init."
-"html>`__ command"
+"<https://docs.platformio.org/en/latest/core/userguide/project/"
+"cmd_init.html>`__ command"
 msgstr ""
 
 #: ../../../../HISTORY.rst:205
@@ -1049,9 +1052,9 @@ msgstr ""
 
 #: ../../../../HISTORY.rst:230
 msgid ""
-"Allowed specifying project environments for `pio ci <https://docs.platformio."
-"org/en/latest/core/userguide/cmd_ci.html>`__ command (`issue #4347 <https://"
-"github.com/platformio/platformio-core/issues/4347>`_)"
+"Allowed specifying project environments for `pio ci <https://"
+"docs.platformio.org/en/latest/core/userguide/cmd_ci.html>`__ command (`issue "
+"#4347 <https://github.com/platformio/platformio-core/issues/4347>`_)"
 msgstr ""
 
 #: ../../../../HISTORY.rst:231
@@ -1106,9 +1109,9 @@ msgstr ""
 
 #: ../../../../HISTORY.rst:244
 msgid ""
-"Improved a serial port finder for `Black Magic Probe <https://docs."
-"platformio.org/en/latest/plus/debug-tools/blackmagic.html>`__ (`issue #4023 "
-"<https://github.com/platformio/platformio-core/issues/4023>`_)"
+"Improved a serial port finder for `Black Magic Probe <https://"
+"docs.platformio.org/en/latest/plus/debug-tools/blackmagic.html>`__ (`issue "
+"#4023 <https://github.com/platformio/platformio-core/issues/4023>`_)"
 msgstr ""
 
 #: ../../../../HISTORY.rst:245
@@ -1119,11 +1122,11 @@ msgstr ""
 msgid ""
 "Replaced ``monitor_flags`` with independent project configuration options: "
 "`monitor_parity <https://docs.platformio.org/en/latest/projectconf/"
-"section_env_monitor.html#monitor-parity>`__, `monitor_eol <https://docs."
-"platformio.org/en/latest/projectconf/section_env_monitor.html#monitor-"
+"section_env_monitor.html#monitor-parity>`__, `monitor_eol <https://"
+"docs.platformio.org/en/latest/projectconf/section_env_monitor.html#monitor-"
 "eol>`__, `monitor_raw <https://docs.platformio.org/en/latest/projectconf/"
-"section_env_monitor.html#monitor-raw>`__, `monitor_echo <https://docs."
-"platformio.org/en/latest/projectconf/section_env_monitor.html#monitor-"
+"section_env_monitor.html#monitor-raw>`__, `monitor_echo <https://"
+"docs.platformio.org/en/latest/projectconf/section_env_monitor.html#monitor-"
 "echo>`__"
 msgstr ""
 
@@ -1139,9 +1142,9 @@ msgstr ""
 
 #: ../../../../HISTORY.rst:251
 msgid ""
-"Updated \"Getting Started\" documentation for `GoogleTest <https://docs."
-"platformio.org/en/latest/advanced/unit-testing/frameworks/googletest."
-"html>`__ testing and mocking framework"
+"Updated \"Getting Started\" documentation for `GoogleTest <https://"
+"docs.platformio.org/en/latest/advanced/unit-testing/frameworks/"
+"googletest.html>`__ testing and mocking framework"
 msgstr ""
 
 #: ../../../../HISTORY.rst:252
@@ -1170,10 +1173,10 @@ msgstr ""
 
 #: ../../../../HISTORY.rst:256
 msgid ""
-"Fixed an issue when a custom `pio test --project-config <https://docs."
-"platformio.org/en/latest/core/userguide/cmd_test.html#cmdoption-pio-test-"
-"c>`__ was not handled properly (`issue #4299 <https://github.com/platformio/"
-"platformio-core/issues/4299>`_)"
+"Fixed an issue when a custom `pio test --project-config <https://"
+"docs.platformio.org/en/latest/core/userguide/cmd_test.html#cmdoption-pio-"
+"test-c>`__ was not handled properly (`issue #4299 <https://github.com/"
+"platformio/platformio-core/issues/4299>`_)"
 msgstr ""
 
 #: ../../../../HISTORY.rst:257
@@ -1188,15 +1191,15 @@ msgstr ""
 
 #: ../../../../HISTORY.rst:261
 msgid ""
-"Significantly improved support for `Pre & Post Actions <https://docs."
-"platformio.org/en/latest/scripting/actions.html>`__"
+"Significantly improved support for `Pre & Post Actions <https://"
+"docs.platformio.org/en/latest/scripting/actions.html>`__"
 msgstr ""
 
 #: ../../../../HISTORY.rst:263
 msgid ""
-"Allowed to declare actions in the `PRE-type scripts <https://docs.platformio."
-"org/en/latest/scripting/launch_types.html>`__ even if the target is not "
-"ready yet"
+"Allowed to declare actions in the `PRE-type scripts <https://"
+"docs.platformio.org/en/latest/scripting/launch_types.html>`__ even if the "
+"target is not ready yet"
 msgstr ""
 
 #: ../../../../HISTORY.rst:264
@@ -1286,9 +1289,10 @@ msgstr ""
 
 #: ../../../../HISTORY.rst:282
 msgid ""
-"Warn about incompatible Bash version for the `Shell Completion <https://docs."
-"platformio.org/en/latest/core/userguide/system/completion/index.html>`__ "
-"(`issue #4326 <https://github.com/platformio/platformio-core/issues/4326>`_)"
+"Warn about incompatible Bash version for the `Shell Completion <https://"
+"docs.platformio.org/en/latest/core/userguide/system/completion/"
+"index.html>`__ (`issue #4326 <https://github.com/platformio/platformio-core/"
+"issues/4326>`_)"
 msgstr ""
 
 #: ../../../../HISTORY.rst:285
@@ -1317,8 +1321,8 @@ msgstr ""
 
 #: ../../../../HISTORY.rst:290
 msgid ""
-"Improved support for `Asking for input (prompts) <https://docs.platformio."
-"org/en/latest/scripting/examples/asking_for_input.html>`_"
+"Improved support for `Asking for input (prompts) <https://"
+"docs.platformio.org/en/latest/scripting/examples/asking_for_input.html>`_"
 msgstr ""
 
 #: ../../../../HISTORY.rst:291
@@ -1346,9 +1350,9 @@ msgstr ""
 
 #: ../../../../HISTORY.rst:298
 msgid ""
-"Fixed an issue when calling the built-in `pio device monitor <https://docs."
-"platformio.org/en/latest/core/userguide/device/cmd_monitor.html#filters>`__ "
-"filters"
+"Fixed an issue when calling the built-in `pio device monitor <https://"
+"docs.platformio.org/en/latest/core/userguide/device/"
+"cmd_monitor.html#filters>`__ filters"
 msgstr ""
 
 #: ../../../../HISTORY.rst:299
@@ -1363,8 +1367,8 @@ msgstr ""
 
 #: ../../../../HISTORY.rst:304
 msgid ""
-"Please check the `Migration guide from 5.x to 6.0 <https://docs.platformio."
-"org/en/latest/core/migration.html>`__."
+"Please check the `Migration guide from 5.x to 6.0 <https://"
+"docs.platformio.org/en/latest/core/migration.html>`__."
 msgstr ""
 
 #: ../../../../HISTORY.rst:308
@@ -1507,8 +1511,8 @@ msgstr ""
 #: ../../../../HISTORY.rst:337
 msgid ""
 "New: `Doctest <https://docs.platformio.org/en/latest/advanced/unit-testing/"
-"frameworks/doctest.html>`__ testing framework (`issue #4240 <https://github."
-"com/platformio/platformio-core/issues/4240>`_)"
+"frameworks/doctest.html>`__ testing framework (`issue #4240 <https://"
+"github.com/platformio/platformio-core/issues/4240>`_)"
 msgstr ""
 
 #: ../../../../HISTORY.rst:338
@@ -1553,9 +1557,9 @@ msgstr ""
 #: ../../../../HISTORY.rst:344
 msgid ""
 "Added support for a `custom Unity library <https://docs.platformio.org/en/"
-"latest/advanced/unit-testing/frameworks/custom/examples/custom_unity_library."
-"html>`__ (`issue #3980 <https://github.com/platformio/platformio-core/"
-"issues/3980>`_)"
+"latest/advanced/unit-testing/frameworks/custom/examples/"
+"custom_unity_library.html>`__ (`issue #3980 <https://github.com/platformio/"
+"platformio-core/issues/3980>`_)"
 msgstr ""
 
 #: ../../../../HISTORY.rst:345
@@ -1568,24 +1572,24 @@ msgstr ""
 
 #: ../../../../HISTORY.rst:346
 msgid ""
-"List available project tests with a new `pio test --list-tests <https://docs."
-"platformio.org/en/latest/core/userguide/cmd_test.html#cmdoption-pio-test-"
-"list-tests>`__ option"
+"List available project tests with a new `pio test --list-tests <https://"
+"docs.platformio.org/en/latest/core/userguide/cmd_test.html#cmdoption-pio-"
+"test-list-tests>`__ option"
 msgstr ""
 
 #: ../../../../HISTORY.rst:347
 msgid ""
 "Pass extra arguments to the testing program with a new `pio test --program-"
-"arg <https://docs.platformio.org/en/latest/core/userguide/cmd_test."
-"html#cmdoption-pio-test-a>`__ option (`issue #3132 <https://github.com/"
-"platformio/platformio-core/issues/3132>`_)"
+"arg <https://docs.platformio.org/en/latest/core/userguide/"
+"cmd_test.html#cmdoption-pio-test-a>`__ option (`issue #3132 <https://"
+"github.com/platformio/platformio-core/issues/3132>`_)"
 msgstr ""
 
 #: ../../../../HISTORY.rst:348
 msgid ""
-"Generate reports in JUnit and JSON formats using the `pio test <https://docs."
-"platformio.org/en/latest/core/userguide/cmd_test.html>`__ command (`issue "
-"#2891 <https://github.com/platformio/platformio-core/issues/2891>`_)"
+"Generate reports in JUnit and JSON formats using the `pio test <https://"
+"docs.platformio.org/en/latest/core/userguide/cmd_test.html>`__ command "
+"(`issue #2891 <https://github.com/platformio/platformio-core/issues/2891>`_)"
 msgstr ""
 
 #: ../../../../HISTORY.rst:349
@@ -1604,8 +1608,8 @@ msgstr ""
 #: ../../../../HISTORY.rst:351
 msgid ""
 "Fixed an issue when command line parameters (``--ignore``, ``--filter``) do "
-"not override values defined in the |PIOCONF| (`issue #3845 <https://github."
-"com/platformio/platformio-core/issues/3845>`_)"
+"not override values defined in the |PIOCONF| (`issue #3845 <https://"
+"github.com/platformio/platformio-core/issues/3845>`_)"
 msgstr ""
 
 #: ../../../../HISTORY.rst:352
@@ -1617,9 +1621,9 @@ msgstr ""
 
 #: ../../../../HISTORY.rst:353
 msgid ""
-"Removed the \"test_transport\" option in favor of the `Custom \"unity_config."
-"h\" <https://docs.platformio.org/en/latest/advanced/unit-testing/frameworks/"
-"unity.html>`_"
+"Removed the \"test_transport\" option in favor of the `Custom "
+"\"unity_config.h\" <https://docs.platformio.org/en/latest/advanced/unit-"
+"testing/frameworks/unity.html>`_"
 msgstr ""
 
 #: ../../../../HISTORY.rst:355
@@ -1632,8 +1636,9 @@ msgstr ""
 
 #: ../../../../HISTORY.rst:359
 msgid ""
-"`Cppcheck <https://docs.platformio.org/en/latest/plus/check-tools/cppcheck."
-"html>`__ v2.7 with various checker improvements and fixed false positives"
+"`Cppcheck <https://docs.platformio.org/en/latest/plus/check-tools/"
+"cppcheck.html>`__ v2.7 with various checker improvements and fixed false "
+"positives"
 msgstr ""
 
 #: ../../../../HISTORY.rst:360
@@ -1652,16 +1657,16 @@ msgstr ""
 #: ../../../../HISTORY.rst:363
 msgid ""
 "Added ability to override a tool version using the `platform_packages "
-"<https://docs.platformio.org/en/latest/projectconf/section_env_platform."
-"html#platform-packages>`__ option (`issue #3798 <https://github.com/"
-"platformio/platformio-core/issues/3798>`_)"
+"<https://docs.platformio.org/en/latest/projectconf/"
+"section_env_platform.html#platform-packages>`__ option (`issue #3798 "
+"<https://github.com/platformio/platformio-core/issues/3798>`_)"
 msgstr ""
 
 #: ../../../../HISTORY.rst:364
 msgid ""
 "Fixed an issue with improper handling of defects that don't specify a source "
-"file (`issue #4237 <https://github.com/platformio/platformio-core/"
-"issues/4237>`_)"
+"file (`issue #4237 <https://github.com/platformio/platformio-core/issues/"
+"4237>`_)"
 msgstr ""
 
 #: ../../../../HISTORY.rst:368
@@ -1670,10 +1675,10 @@ msgstr ""
 
 #: ../../../../HISTORY.rst:369
 msgid ""
-"Fixed an issue when |LDF| ignores the project `lib_deps <https://docs."
-"platformio.org/en/latest/projectconf/section_env_library.html#lib-deps>`__ "
-"while resolving library dependencies (`issue #3598 <https://github.com/"
-"platformio/platformio-core/issues/3598>`_)"
+"Fixed an issue when |LDF| ignores the project `lib_deps <https://"
+"docs.platformio.org/en/latest/projectconf/section_env_library.html#lib-"
+"deps>`__ while resolving library dependencies (`issue #3598 <https://"
+"github.com/platformio/platformio-core/issues/3598>`_)"
 msgstr ""
 
 #: ../../../../HISTORY.rst:370
@@ -1685,16 +1690,16 @@ msgstr ""
 #: ../../../../HISTORY.rst:371
 msgid ""
 "Fixed an issue when GCC preprocessor was applied to the \".s\" assembly "
-"files on case-sensitive OS such as Window OS (`issue #3917 <https://github."
-"com/platformio/platformio-core/issues/3917>`_)"
+"files on case-sensitive OS such as Window OS (`issue #3917 <https://"
+"github.com/platformio/platformio-core/issues/3917>`_)"
 msgstr ""
 
 #: ../../../../HISTORY.rst:372
 msgid ""
-"Fixed an issue when |LDF| ignores `build_src_flags <https://docs.platformio."
-"org/en/latest/projectconf/section_env_build.html#build-src-flags>`__ in the "
-"\"deep+\" mode (`issue #4253 <https://github.com/platformio/platformio-core/"
-"issues/4253>`_)"
+"Fixed an issue when |LDF| ignores `build_src_flags <https://"
+"docs.platformio.org/en/latest/projectconf/section_env_build.html#build-src-"
+"flags>`__ in the \"deep+\" mode (`issue #4253 <https://github.com/platformio/"
+"platformio-core/issues/4253>`_)"
 msgstr ""
 
 #: ../../../../HISTORY.rst:374
@@ -1704,8 +1709,8 @@ msgstr ""
 #: ../../../../HISTORY.rst:376
 msgid ""
 "Added a new build variable (``COMPILATIONDB_INCLUDE_TOOLCHAIN``) to include "
-"toolchain paths in the compilation database (`issue #3735 <https://github."
-"com/platformio/platformio-core/issues/3735>`_)"
+"toolchain paths in the compilation database (`issue #3735 <https://"
+"github.com/platformio/platformio-core/issues/3735>`_)"
 msgstr ""
 
 #: ../../../../HISTORY.rst:377
@@ -1733,8 +1738,8 @@ msgstr ""
 
 #: ../../../../HISTORY.rst:383
 msgid ""
-"Embed environment name of the current section in the |PIOCONF| using "
-"``${this.__env__}`` pattern"
+"Embed environment name of the current section in the |PIOCONF| using ``$"
+"{this.__env__}`` pattern"
 msgstr ""
 
 #: ../../../../HISTORY.rst:384

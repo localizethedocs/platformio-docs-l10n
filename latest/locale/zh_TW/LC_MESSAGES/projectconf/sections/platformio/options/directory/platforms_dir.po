@@ -23,18 +23,18 @@ msgstr ""
 
 #: ../../../projectconf/sections/platformio/options/directory/platforms_dir.rst:17
 msgid ""
-"Type: ``DirPath`` | Multiple: ``No`` | Default: \":ref:"
-"`projectconf_pio_core_dir`/platforms\""
+"Type: ``DirPath`` | Multiple: ``No`` | Default: "
+"\":ref:`projectconf_pio_core_dir`/platforms\""
 msgstr ""
 
 #: ../../../projectconf/sections/platformio/options/directory/platforms_dir.rst:19
 msgid ""
-"Global storage where **PlatformIO Package Manager** installs :ref:"
-"`platforms`."
+"Global storage where **PlatformIO Package Manager** "
+"installs :ref:`platforms`."
 msgstr ""
 
 #: ../../../projectconf/sections/platformio/options/directory/platforms_dir.rst:21
 msgid ""
-"This option can also be configured by the global environment variable :"
-"envvar:`PLATFORMIO_PLATFORMS_DIR`."
+"This option can also be configured by the global environment "
+"variable :envvar:`PLATFORMIO_PLATFORMS_DIR`."
 msgstr ""

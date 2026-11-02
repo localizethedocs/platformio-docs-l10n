@@ -42,12 +42,12 @@ msgstr ""
 
 #: ../../../projectconf/sections/env/options/library/lib_ignore.rst:28
 msgid "**Example:**"
-msgstr ""
+msgstr "**範例：**"
 
 #: ../../../projectconf/sections/env/options/library/lib_ignore.rst:30
 msgid "``Build output``"
-msgstr ""
+msgstr "``Build output``"
 
 #: ../../../projectconf/sections/env/options/library/lib_ignore.rst:55
 msgid "``platformio.ini``"
-msgstr ""
+msgstr "``platformio.ini``"

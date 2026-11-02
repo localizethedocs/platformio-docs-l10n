@@ -44,8 +44,8 @@ msgstr ""
 #: ../../../advanced/unit-testing/runner.rst:33
 msgid ""
 "**Local Test Runner** allows you to run a test on a local host machine or on "
-"a local target device (board). In this case, you need to use the :ref:"
-"`cmd_test` command."
+"a local target device (board). In this case, you need to use "
+"the :ref:`cmd_test` command."
 msgstr ""
 
 #: ../../../advanced/unit-testing/runner.rst:40
@@ -82,9 +82,9 @@ msgstr ""
 #: ../../../advanced/unit-testing/runner.rst:61
 msgid ""
 "Using the :ref:`unit_testing_test_hierarchy` allows you to organize tests by "
-"types and later skip an incompatible group of tests using :ref:"
-"`projectconf_test_filter` or :ref:`projectconf_test_ignore` options in :ref:"
-"`projectconf`."
+"types and later skip an incompatible group of tests "
+"using :ref:`projectconf_test_filter` or :ref:`projectconf_test_ignore` "
+"options in :ref:`projectconf`."
 msgstr ""
 
 #: ../../../advanced/unit-testing/runner.rst:67
@@ -105,9 +105,10 @@ msgstr ""
 
 #: ../../../advanced/unit-testing/runner.rst:77
 msgid ""
-"PlatformIO does not install automatically any toolchains for the :ref:"
-"`platform_native` development platform. It depends on the system ``GCC`` "
-"toolchain that must be added to the ``PATH`` system environment variable."
+"PlatformIO does not install automatically any toolchains for "
+"the :ref:`platform_native` development platform. It depends on the system "
+"``GCC`` toolchain that must be added to the ``PATH`` system environment "
+"variable."
 msgstr ""
 
 #: ../../../advanced/unit-testing/runner.rst:82
@@ -143,8 +144,8 @@ msgstr ""
 
 #: ../../../advanced/unit-testing/runner.rst:96
 msgid ""
-"Connects to the target using a Serial interface and :ref:"
-"`projectconf_test_port`"
+"Connects to the target using a Serial interface "
+"and :ref:`projectconf_test_port`"
 msgstr ""
 
 #: ../../../advanced/unit-testing/runner.rst:97

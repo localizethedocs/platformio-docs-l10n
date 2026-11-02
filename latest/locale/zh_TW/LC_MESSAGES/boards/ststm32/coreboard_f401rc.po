@@ -165,8 +165,8 @@ msgstr ""
 
 #: ../../../boards/ststm32/coreboard_f401rc.rst:101
 msgid ""
-"You can switch between debugging :ref:`debugging_tools` using :ref:"
-"`projectconf_debug_tool` option in :ref:`projectconf`."
+"You can switch between debugging :ref:`debugging_tools` "
+"using :ref:`projectconf_debug_tool` option in :ref:`projectconf`."
 msgstr ""
 
 #: ../../../boards/ststm32/coreboard_f401rc.rst:104

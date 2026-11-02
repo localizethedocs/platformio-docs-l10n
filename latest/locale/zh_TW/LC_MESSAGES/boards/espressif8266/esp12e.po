@@ -85,8 +85,8 @@ msgstr "組態"
 
 #: ../../../boards/espressif8266/esp12e.rst:41
 msgid ""
-"Please use ``esp12e`` ID for :ref:`projectconf_env_board` option in :ref:"
-"`projectconf`:"
+"Please use ``esp12e`` ID for :ref:`projectconf_env_board` option "
+"in :ref:`projectconf`:"
 msgstr ""
 
 #: ../../../boards/espressif8266/esp12e.rst:49
@@ -94,8 +94,8 @@ msgid ""
 "You can override default Espressif ESP8266 ESP-12E settings per build "
 "environment using ``board_***`` option, where ``***`` is a JSON object path "
 "from board manifest `esp12e.json <https://github.com/platformio/platform-"
-"espressif8266/blob/master/boards/esp12e.json>`_. For example, ``board_build."
-"mcu``, ``board_build.f_cpu``, etc."
+"espressif8266/blob/master/boards/esp12e.json>`_. For example, "
+"``board_build.mcu``, ``board_build.f_cpu``, etc."
 msgstr ""
 
 #: ../../../boards/espressif8266/esp12e.rst:68

@@ -94,8 +94,9 @@ msgid ""
 "You can override default Heltec WiFi LoRa 32 (V2) settings per build "
 "environment using ``board_***`` option, where ``***`` is a JSON object path "
 "from board manifest `heltec_wifi_lora_32_V2.json <https://github.com/"
-"platformio/platform-espressif32/blob/master/boards/heltec_wifi_lora_32_V2."
-"json>`_. For example, ``board_build.mcu``, ``board_build.f_cpu``, etc."
+"platformio/platform-espressif32/blob/master/boards/"
+"heltec_wifi_lora_32_V2.json>`_. For example, ``board_build.mcu``, "
+"``board_build.f_cpu``, etc."
 msgstr ""
 
 #: ../../../boards/espressif32/heltec_wifi_lora_32_V2.rst:68
@@ -188,8 +189,8 @@ msgstr ""
 
 #: ../../../boards/espressif32/heltec_wifi_lora_32_V2.rst:107
 msgid ""
-"You can switch between debugging :ref:`debugging_tools` using :ref:"
-"`projectconf_debug_tool` option in :ref:`projectconf`."
+"You can switch between debugging :ref:`debugging_tools` "
+"using :ref:`projectconf_debug_tool` option in :ref:`projectconf`."
 msgstr ""
 
 #: ../../../boards/espressif32/heltec_wifi_lora_32_V2.rst:110

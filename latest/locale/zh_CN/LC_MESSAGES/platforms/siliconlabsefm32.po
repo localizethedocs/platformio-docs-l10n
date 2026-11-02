@@ -52,8 +52,8 @@ msgstr ""
 
 #: ../../../platforms/siliconlabsefm32.rst:24
 msgid ""
-"For more detailed information please visit `vendor site <http://www.silabs."
-"com/products/mcu/32-bit/efm32-gecko/Pages/efm32-gecko.aspx?"
+"For more detailed information please visit `vendor site <http://"
+"www.silabs.com/products/mcu/32-bit/efm32-gecko/Pages/efm32-gecko.aspx?"
 "utm_source=platformio.org&utm_medium=docs>`_."
 msgstr ""
 
@@ -95,8 +95,8 @@ msgstr ""
 #: ../../../platforms/siliconlabsefm32.rst:39
 msgid ""
 "`mbed-rtos-usb-cdc <https://github.com/platformio/platform-siliconlabsefm32/"
-"tree/master/examples/mbed-rtos-usb-cdc?utm_source=platformio."
-"org&utm_medium=docs>`_"
+"tree/master/examples/mbed-rtos-usb-cdc?"
+"utm_source=platformio.org&utm_medium=docs>`_"
 msgstr ""
 
 #: ../../../platforms/siliconlabsefm32.rst:40
@@ -299,8 +299,9 @@ msgstr ""
 msgid ""
 "You can switch between `stable releases <https://github.com/platformio/"
 "platform-siliconlabsefm32/releases>`__ of Silicon Labs EFM32 development "
-"platform and the latest upstream version using :ref:"
-"`projectconf_env_platform` option in :ref:`projectconf` as described below."
+"platform and the latest upstream version "
+"using :ref:`projectconf_env_platform` option in :ref:`projectconf` as "
+"described below."
 msgstr ""
 
 #: ../../../platforms/siliconlabsefm32.rst:115

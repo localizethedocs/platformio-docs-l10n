@@ -85,8 +85,8 @@ msgstr ""
 
 #: ../../../boards/espressif32/franzininho_wifi_msc_esp32s2.rst:41
 msgid ""
-"Please use ``franzininho_wifi_msc_esp32s2`` ID for :ref:"
-"`projectconf_env_board` option in :ref:`projectconf`:"
+"Please use ``franzininho_wifi_msc_esp32s2`` ID "
+"for :ref:`projectconf_env_board` option in :ref:`projectconf`:"
 msgstr ""
 
 #: ../../../boards/espressif32/franzininho_wifi_msc_esp32s2.rst:49
@@ -94,8 +94,9 @@ msgid ""
 "You can override default Franzininho WiFi MSC settings per build environment "
 "using ``board_***`` option, where ``***`` is a JSON object path from board "
 "manifest `franzininho_wifi_msc_esp32s2.json <https://github.com/platformio/"
-"platform-espressif32/blob/master/boards/franzininho_wifi_msc_esp32s2."
-"json>`_. For example, ``board_build.mcu``, ``board_build.f_cpu``, etc."
+"platform-espressif32/blob/master/boards/"
+"franzininho_wifi_msc_esp32s2.json>`_. For example, ``board_build.mcu``, "
+"``board_build.f_cpu``, etc."
 msgstr ""
 
 #: ../../../boards/espressif32/franzininho_wifi_msc_esp32s2.rst:68
@@ -188,8 +189,8 @@ msgstr ""
 
 #: ../../../boards/espressif32/franzininho_wifi_msc_esp32s2.rst:107
 msgid ""
-"You can switch between debugging :ref:`debugging_tools` using :ref:"
-"`projectconf_debug_tool` option in :ref:`projectconf`."
+"You can switch between debugging :ref:`debugging_tools` "
+"using :ref:`projectconf_debug_tool` option in :ref:`projectconf`."
 msgstr ""
 
 #: ../../../boards/espressif32/franzininho_wifi_msc_esp32s2.rst:110

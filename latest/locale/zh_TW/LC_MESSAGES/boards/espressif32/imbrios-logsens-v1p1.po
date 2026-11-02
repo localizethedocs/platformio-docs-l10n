@@ -75,8 +75,8 @@ msgstr ""
 
 #: ../../../boards/espressif32/imbrios-logsens-v1p1.rst:35
 msgid ""
-"`Imbrios <https://www.imbrios.com/products/logsens?utm_source=platformio."
-"org&utm_medium=docs>`__"
+"`Imbrios <https://www.imbrios.com/products/logsens?"
+"utm_source=platformio.org&utm_medium=docs>`__"
 msgstr ""
 
 #: ../../../boards/espressif32/imbrios-logsens-v1p1.rst:39

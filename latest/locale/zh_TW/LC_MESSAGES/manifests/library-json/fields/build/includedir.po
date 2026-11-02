@@ -35,8 +35,8 @@ msgstr ""
 
 #: ../../../manifests/library-json/fields/build/includedir.rst:22
 msgid ""
-"If you need to export additional relative paths, refer to :ref:"
-"`library_json_buid_flags`."
+"If you need to export additional relative paths, refer "
+"to :ref:`library_json_buid_flags`."
 msgstr ""
 
 #: ../../../manifests/library-json/fields/build/includedir.rst:26

@@ -50,8 +50,8 @@ msgstr ""
 #: ../../../faq/custom-scons-cli-options.rst:27
 msgid ""
 "The list of available command-line options can be found in the official "
-"`SCons documentation <https://scons.org/doc/production/HTML/scons-user/ch10."
-"html#sect-command-line-options>`_."
+"`SCons documentation <https://scons.org/doc/production/HTML/scons-user/"
+"ch10.html#sect-command-line-options>`_."
 msgstr ""
 
 #: ../../../faq/custom-scons-cli-options.rst:30

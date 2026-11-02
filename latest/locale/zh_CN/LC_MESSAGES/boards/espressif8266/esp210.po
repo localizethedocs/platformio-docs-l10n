@@ -85,8 +85,8 @@ msgstr ""
 
 #: ../../../boards/espressif8266/esp210.rst:41
 msgid ""
-"Please use ``esp210`` ID for :ref:`projectconf_env_board` option in :ref:"
-"`projectconf`:"
+"Please use ``esp210`` ID for :ref:`projectconf_env_board` option "
+"in :ref:`projectconf`:"
 msgstr ""
 
 #: ../../../boards/espressif8266/esp210.rst:49

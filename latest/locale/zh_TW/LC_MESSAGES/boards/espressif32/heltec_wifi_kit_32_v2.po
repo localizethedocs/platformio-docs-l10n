@@ -94,8 +94,9 @@ msgid ""
 "You can override default Heltec WiFi Kit 32 (V2) settings per build "
 "environment using ``board_***`` option, where ``***`` is a JSON object path "
 "from board manifest `heltec_wifi_kit_32_v2.json <https://github.com/"
-"platformio/platform-espressif32/blob/master/boards/heltec_wifi_kit_32_v2."
-"json>`_. For example, ``board_build.mcu``, ``board_build.f_cpu``, etc."
+"platformio/platform-espressif32/blob/master/boards/"
+"heltec_wifi_kit_32_v2.json>`_. For example, ``board_build.mcu``, "
+"``board_build.f_cpu``, etc."
 msgstr ""
 
 #: ../../../boards/espressif32/heltec_wifi_kit_32_v2.rst:68

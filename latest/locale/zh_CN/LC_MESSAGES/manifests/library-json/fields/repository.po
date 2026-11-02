@@ -42,8 +42,8 @@ msgstr ""
 #: ../../../manifests/library-json/fields/repository.rst:24
 msgid ""
 "``branch`` if is not specified, default branch will be used. This field will "
-"be ignored if tag/release exists with the value of :ref:"
-"`manifest_library_json_version`."
+"be ignored if tag/release exists with the value "
+"of :ref:`manifest_library_json_version`."
 msgstr ""
 
 #: ../../../manifests/library-json/fields/repository.rst:27

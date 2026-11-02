@@ -99,8 +99,8 @@ msgstr ""
 
 #: ../../../scripting/custom_targets.rst:61
 msgid ""
-"A title of a target. It will be printed when using :ref:`piocore` or :ref:"
-"`pioide`. We recommend to keep a title very short, 1-2 words."
+"A title of a target. It will be printed when using :ref:`piocore` "
+"or :ref:`pioide`. We recommend to keep a title very short, 1-2 words."
 msgstr ""
 
 #: ../../../scripting/custom_targets.rst:0

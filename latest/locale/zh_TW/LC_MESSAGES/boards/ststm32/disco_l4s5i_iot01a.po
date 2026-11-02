@@ -159,8 +159,8 @@ msgstr ""
 
 #: ../../../boards/ststm32/disco_l4s5i_iot01a.rst:99
 msgid ""
-"You can switch between debugging :ref:`debugging_tools` using :ref:"
-"`projectconf_debug_tool` option in :ref:`projectconf`."
+"You can switch between debugging :ref:`debugging_tools` "
+"using :ref:`projectconf_debug_tool` option in :ref:`projectconf`."
 msgstr ""
 
 #: ../../../boards/ststm32/disco_l4s5i_iot01a.rst:102

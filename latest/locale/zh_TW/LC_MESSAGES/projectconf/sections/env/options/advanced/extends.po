@@ -40,7 +40,7 @@ msgstr ""
 
 #: ../../../projectconf/sections/env/options/advanced/extends.rst:26
 msgid "Example:"
-msgstr ""
+msgstr "範例："
 
 #: ../../../projectconf/sections/env/options/advanced/extends.rst:49
 msgid ""
