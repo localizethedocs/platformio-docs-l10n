@@ -1,0 +1,508 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present, PlatformIO
+# This file is distributed under the same license as the PlatformIO package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PlatformIO latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-24 14:02+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../projectconf/sections/env/options/upload/upload_speed.rst:15
+msgid "``upload_speed``"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/upload/upload_speed.rst:17
+msgid "Type: ``Number`` | Multiple: ``No``"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/upload/upload_speed.rst:19
+msgid ""
+"A connection speed (`baud rate <http://en.wikipedia.org/wiki/Baud>`_) which "
+"\"uploader\" tool uses when sending firmware to board."
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/upload/upload_speed.rst:23
+msgid "Common baud rates"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/upload/upload_speed.rst:25
+msgid "Below are common baud rates for reference:"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/upload/upload_speed.rst:32
+msgid "Bauds"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/upload/upload_speed.rst:33
+msgid "Bits/s"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/upload/upload_speed.rst:34
+msgid "Bit duration"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/upload/upload_speed.rst:35
+msgid "Speed (bytes/s)"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/upload/upload_speed.rst:36
+msgid "Actual speed (bytes/s)"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/upload/upload_speed.rst:37
+msgid "Actual byte duration"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/upload/upload_speed.rst:39
+#: ../../../projectconf/sections/env/options/upload/upload_speed.rst:40
+msgid "50"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/upload/upload_speed.rst:41
+msgid "20.000 ms"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/upload/upload_speed.rst:42
+msgid "6.25"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/upload/upload_speed.rst:43
+msgid "5"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/upload/upload_speed.rst:44
+msgid "200.000 ms"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/upload/upload_speed.rst:46
+#: ../../../projectconf/sections/env/options/upload/upload_speed.rst:47
+#: ../../../projectconf/sections/env/options/upload/upload_speed.rst:91
+msgid "75"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/upload/upload_speed.rst:48
+msgid "13.333 ms"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/upload/upload_speed.rst:49
+msgid "9.375"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/upload/upload_speed.rst:50
+msgid "7.5"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/upload/upload_speed.rst:51
+msgid "133.333 ms"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/upload/upload_speed.rst:53
+#: ../../../projectconf/sections/env/options/upload/upload_speed.rst:54
+msgid "110"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/upload/upload_speed.rst:55
+msgid "9.091 ms"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/upload/upload_speed.rst:56
+msgid "13.75"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/upload/upload_speed.rst:57
+msgid "11"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/upload/upload_speed.rst:58
+msgid "90.909 ms"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/upload/upload_speed.rst:60
+#: ../../../projectconf/sections/env/options/upload/upload_speed.rst:61
+msgid "134"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/upload/upload_speed.rst:62
+msgid "7.463 ms"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/upload/upload_speed.rst:63
+msgid "16.75"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/upload/upload_speed.rst:64
+msgid "13.4"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/upload/upload_speed.rst:65
+msgid "74.627 ms"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/upload/upload_speed.rst:67
+#: ../../../projectconf/sections/env/options/upload/upload_speed.rst:68
+#: ../../../projectconf/sections/env/options/upload/upload_speed.rst:98
+msgid "150"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/upload/upload_speed.rst:69
+msgid "6.667 ms"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/upload/upload_speed.rst:70
+msgid "18.75"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/upload/upload_speed.rst:71
+msgid "15"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/upload/upload_speed.rst:72
+msgid "66.667 ms"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/upload/upload_speed.rst:74
+#: ../../../projectconf/sections/env/options/upload/upload_speed.rst:75
+msgid "200"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/upload/upload_speed.rst:76
+msgid "5.000 ms"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/upload/upload_speed.rst:77
+msgid "25"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/upload/upload_speed.rst:78
+msgid "20"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/upload/upload_speed.rst:79
+msgid "50.000 ms"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/upload/upload_speed.rst:81
+#: ../../../projectconf/sections/env/options/upload/upload_speed.rst:82
+#: ../../../projectconf/sections/env/options/upload/upload_speed.rst:112
+msgid "300"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/upload/upload_speed.rst:83
+msgid "3.333 ms"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/upload/upload_speed.rst:84
+msgid "37.5"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/upload/upload_speed.rst:85
+msgid "30"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/upload/upload_speed.rst:86
+msgid "33.333 ms"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/upload/upload_speed.rst:88
+#: ../../../projectconf/sections/env/options/upload/upload_speed.rst:89
+#: ../../../projectconf/sections/env/options/upload/upload_speed.rst:119
+msgid "600"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/upload/upload_speed.rst:90
+msgid "1.667 ms"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/upload/upload_speed.rst:92
+msgid "60"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/upload/upload_speed.rst:93
+msgid "16.667 ms"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/upload/upload_speed.rst:95
+#: ../../../projectconf/sections/env/options/upload/upload_speed.rst:96
+#: ../../../projectconf/sections/env/options/upload/upload_speed.rst:126
+msgid "1200"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/upload/upload_speed.rst:97
+msgid "833.333 µs"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/upload/upload_speed.rst:99
+msgid "120"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/upload/upload_speed.rst:100
+msgid "8.333 ms"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/upload/upload_speed.rst:102
+#: ../../../projectconf/sections/env/options/upload/upload_speed.rst:103
+msgid "1800"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/upload/upload_speed.rst:104
+msgid "555.556 µs"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/upload/upload_speed.rst:105
+msgid "225"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/upload/upload_speed.rst:106
+msgid "180"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/upload/upload_speed.rst:107
+msgid "5.556 ms"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/upload/upload_speed.rst:109
+#: ../../../projectconf/sections/env/options/upload/upload_speed.rst:110
+#: ../../../projectconf/sections/env/options/upload/upload_speed.rst:133
+msgid "2400"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/upload/upload_speed.rst:111
+msgid "416.667 µs"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/upload/upload_speed.rst:113
+msgid "240"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/upload/upload_speed.rst:114
+msgid "4.167 ms"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/upload/upload_speed.rst:116
+#: ../../../projectconf/sections/env/options/upload/upload_speed.rst:117
+#: ../../../projectconf/sections/env/options/upload/upload_speed.rst:147
+msgid "4800"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/upload/upload_speed.rst:118
+msgid "208.333 µs"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/upload/upload_speed.rst:120
+msgid "480"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/upload/upload_speed.rst:121
+msgid "2.083 ms"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/upload/upload_speed.rst:123
+#: ../../../projectconf/sections/env/options/upload/upload_speed.rst:124
+#: ../../../projectconf/sections/env/options/upload/upload_speed.rst:161
+msgid "9600"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/upload/upload_speed.rst:125
+msgid "104.167 µs"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/upload/upload_speed.rst:127
+msgid "960"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/upload/upload_speed.rst:128
+msgid "1.042 ms"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/upload/upload_speed.rst:130
+#: ../../../projectconf/sections/env/options/upload/upload_speed.rst:131
+msgid "19200"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/upload/upload_speed.rst:132
+msgid "52.083 µs"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/upload/upload_speed.rst:134
+msgid "1920"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/upload/upload_speed.rst:135
+msgid "520.833 µs"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/upload/upload_speed.rst:137
+#: ../../../projectconf/sections/env/options/upload/upload_speed.rst:138
+#: ../../../projectconf/sections/env/options/upload/upload_speed.rst:175
+msgid "28800"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/upload/upload_speed.rst:139
+msgid "34.722 µs"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/upload/upload_speed.rst:140
+msgid "3600"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/upload/upload_speed.rst:141
+msgid "2880"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/upload/upload_speed.rst:142
+msgid "347.222 µs"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/upload/upload_speed.rst:144
+#: ../../../projectconf/sections/env/options/upload/upload_speed.rst:145
+msgid "38400"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/upload/upload_speed.rst:146
+msgid "26.042 µs"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/upload/upload_speed.rst:148
+msgid "3840"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/upload/upload_speed.rst:149
+msgid "260.417 µs"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/upload/upload_speed.rst:151
+#: ../../../projectconf/sections/env/options/upload/upload_speed.rst:152
+#: ../../../projectconf/sections/env/options/upload/upload_speed.rst:182
+#: ../../../projectconf/sections/env/options/upload/upload_speed.rst:190
+msgid "57600"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/upload/upload_speed.rst:153
+#: ../../../projectconf/sections/env/options/upload/upload_speed.rst:191
+msgid "17.361 µs"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/upload/upload_speed.rst:154
+msgid "7200"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/upload/upload_speed.rst:155
+msgid "5760"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/upload/upload_speed.rst:156
+msgid "173.611 µs"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/upload/upload_speed.rst:158
+#: ../../../projectconf/sections/env/options/upload/upload_speed.rst:159
+msgid "76800"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/upload/upload_speed.rst:160
+msgid "13.021 µs"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/upload/upload_speed.rst:162
+msgid "7680"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/upload/upload_speed.rst:163
+msgid "130.208 µs"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/upload/upload_speed.rst:165
+#: ../../../projectconf/sections/env/options/upload/upload_speed.rst:166
+#: ../../../projectconf/sections/env/options/upload/upload_speed.rst:196
+msgid "115200"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/upload/upload_speed.rst:167
+msgid "8.681 µs"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/upload/upload_speed.rst:168
+msgid "14400"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/upload/upload_speed.rst:169
+msgid "11520"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/upload/upload_speed.rst:170
+msgid "86.806 µs"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/upload/upload_speed.rst:172
+#: ../../../projectconf/sections/env/options/upload/upload_speed.rst:173
+msgid "230400"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/upload/upload_speed.rst:174
+msgid "4.340 µs"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/upload/upload_speed.rst:176
+msgid "23040"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/upload/upload_speed.rst:177
+msgid "43.403 µs"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/upload/upload_speed.rst:179
+#: ../../../projectconf/sections/env/options/upload/upload_speed.rst:180
+msgid "460800"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/upload/upload_speed.rst:181
+msgid "2.170 µs"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/upload/upload_speed.rst:183
+msgid "46080"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/upload/upload_speed.rst:184
+msgid "21.701 µs"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/upload/upload_speed.rst:186
+#: ../../../projectconf/sections/env/options/upload/upload_speed.rst:187
+msgid "576000"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/upload/upload_speed.rst:188
+msgid "1.736 µs"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/upload/upload_speed.rst:189
+msgid "72000"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/upload/upload_speed.rst:193
+#: ../../../projectconf/sections/env/options/upload/upload_speed.rst:194
+msgid "921600"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/upload/upload_speed.rst:195
+msgid "1.085 µs"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/upload/upload_speed.rst:197
+msgid "92160"
+msgstr ""
+
+#: ../../../projectconf/sections/env/options/upload/upload_speed.rst:198
+msgid "10.851 µs"
+msgstr ""

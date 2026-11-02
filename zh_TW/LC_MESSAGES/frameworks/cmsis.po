@@ -1,0 +1,3646 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present, PlatformIO
+# This file is distributed under the same license as the PlatformIO package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PlatformIO latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-24 14:02+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../frameworks/cmsis.rst:15
+msgid "CMSIS"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:0
+msgid "Configuration"
+msgstr "組態"
+
+#: ../../../frameworks/cmsis.rst:18
+msgid ":ref:`projectconf_env_framework` = ``cmsis``"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:20
+msgid ""
+"Vendor-independent hardware abstraction layer for the Cortex-M processor "
+"series"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:24
+msgid "Contents"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:27
+msgid "Platforms"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:31 ../../../frameworks/cmsis.rst:78
+#: ../../../frameworks/cmsis.rst:673 ../../../frameworks/cmsis.rst:1642
+#: ../../../frameworks/cmsis.rst:1663 ../../../frameworks/cmsis.rst:1705
+#: ../../../frameworks/cmsis.rst:1726 ../../../frameworks/cmsis.rst:1747
+#: ../../../frameworks/cmsis.rst:1768 ../../../frameworks/cmsis.rst:1789
+#: ../../../frameworks/cmsis.rst:1831 ../../../frameworks/cmsis.rst:1852
+#: ../../../frameworks/cmsis.rst:1887 ../../../frameworks/cmsis.rst:1908
+#: ../../../frameworks/cmsis.rst:1936 ../../../frameworks/cmsis.rst:1964
+#: ../../../frameworks/cmsis.rst:1985 ../../../frameworks/cmsis.rst:2020
+#: ../../../frameworks/cmsis.rst:2048 ../../../frameworks/cmsis.rst:2069
+#: ../../../frameworks/cmsis.rst:2090 ../../../frameworks/cmsis.rst:2629
+#: ../../../frameworks/cmsis.rst:2650 ../../../frameworks/cmsis.rst:2692
+#: ../../../frameworks/cmsis.rst:2713 ../../../frameworks/cmsis.rst:2734
+#: ../../../frameworks/cmsis.rst:2769 ../../../frameworks/cmsis.rst:2790
+#: ../../../frameworks/cmsis.rst:2811 ../../../frameworks/cmsis.rst:2832
+#: ../../../frameworks/cmsis.rst:2888 ../../../frameworks/cmsis.rst:2930
+#: ../../../frameworks/cmsis.rst:2951 ../../../frameworks/cmsis.rst:2972
+#: ../../../frameworks/cmsis.rst:3000 ../../../frameworks/cmsis.rst:3021
+#: ../../../frameworks/cmsis.rst:3049 ../../../frameworks/cmsis.rst:3070
+#: ../../../frameworks/cmsis.rst:3091 ../../../frameworks/cmsis.rst:3119
+#: ../../../frameworks/cmsis.rst:3798 ../../../frameworks/cmsis.rst:3819
+#: ../../../frameworks/cmsis.rst:3847 ../../../frameworks/cmsis.rst:3868
+#: ../../../frameworks/cmsis.rst:3889 ../../../frameworks/cmsis.rst:3910
+#: ../../../frameworks/cmsis.rst:3931 ../../../frameworks/cmsis.rst:3959
+#: ../../../frameworks/cmsis.rst:3980 ../../../frameworks/cmsis.rst:4008
+#: ../../../frameworks/cmsis.rst:4029 ../../../frameworks/cmsis.rst:4078
+#: ../../../frameworks/cmsis.rst:4099
+msgid "Name"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:32
+msgid "Description"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:34 ../../../frameworks/cmsis.rst:115
+#: ../../../frameworks/cmsis.rst:734 ../../../frameworks/cmsis.rst:740
+#: ../../../frameworks/cmsis.rst:746 ../../../frameworks/cmsis.rst:1797
+#: ../../../frameworks/cmsis.rst:1804 ../../../frameworks/cmsis.rst:1811
+#: ../../../frameworks/cmsis.rst:1818
+msgid ":ref:`platform_renesas-ra`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:35
+msgid ""
+"Renesas Advanced (RA) 32-bit microcontrollers with the Arm Cortex-M33, -M23 "
+"and -M4 processor cores deliver key advantages compared to competitive Arm "
+"Cortex-M MCUs by providing stronger embedded security, superior CoreMark "
+"performance and ultra-low power operation."
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:37 ../../../frameworks/cmsis.rst:85
+#: ../../../frameworks/cmsis.rst:91 ../../../frameworks/cmsis.rst:97
+#: ../../../frameworks/cmsis.rst:103 ../../../frameworks/cmsis.rst:109
+#: ../../../frameworks/cmsis.rst:121 ../../../frameworks/cmsis.rst:127
+#: ../../../frameworks/cmsis.rst:133 ../../../frameworks/cmsis.rst:139
+#: ../../../frameworks/cmsis.rst:145 ../../../frameworks/cmsis.rst:151
+#: ../../../frameworks/cmsis.rst:157 ../../../frameworks/cmsis.rst:163
+#: ../../../frameworks/cmsis.rst:169 ../../../frameworks/cmsis.rst:175
+#: ../../../frameworks/cmsis.rst:181 ../../../frameworks/cmsis.rst:187
+#: ../../../frameworks/cmsis.rst:193 ../../../frameworks/cmsis.rst:199
+#: ../../../frameworks/cmsis.rst:205 ../../../frameworks/cmsis.rst:211
+#: ../../../frameworks/cmsis.rst:217 ../../../frameworks/cmsis.rst:223
+#: ../../../frameworks/cmsis.rst:229 ../../../frameworks/cmsis.rst:235
+#: ../../../frameworks/cmsis.rst:241 ../../../frameworks/cmsis.rst:247
+#: ../../../frameworks/cmsis.rst:253 ../../../frameworks/cmsis.rst:259
+#: ../../../frameworks/cmsis.rst:265 ../../../frameworks/cmsis.rst:271
+#: ../../../frameworks/cmsis.rst:277 ../../../frameworks/cmsis.rst:283
+#: ../../../frameworks/cmsis.rst:289 ../../../frameworks/cmsis.rst:295
+#: ../../../frameworks/cmsis.rst:301 ../../../frameworks/cmsis.rst:307
+#: ../../../frameworks/cmsis.rst:313 ../../../frameworks/cmsis.rst:319
+#: ../../../frameworks/cmsis.rst:325 ../../../frameworks/cmsis.rst:331
+#: ../../../frameworks/cmsis.rst:337 ../../../frameworks/cmsis.rst:343
+#: ../../../frameworks/cmsis.rst:349 ../../../frameworks/cmsis.rst:355
+#: ../../../frameworks/cmsis.rst:361 ../../../frameworks/cmsis.rst:367
+#: ../../../frameworks/cmsis.rst:373 ../../../frameworks/cmsis.rst:379
+#: ../../../frameworks/cmsis.rst:385 ../../../frameworks/cmsis.rst:391
+#: ../../../frameworks/cmsis.rst:397 ../../../frameworks/cmsis.rst:403
+#: ../../../frameworks/cmsis.rst:409 ../../../frameworks/cmsis.rst:415
+#: ../../../frameworks/cmsis.rst:421 ../../../frameworks/cmsis.rst:427
+#: ../../../frameworks/cmsis.rst:433 ../../../frameworks/cmsis.rst:439
+#: ../../../frameworks/cmsis.rst:445 ../../../frameworks/cmsis.rst:451
+#: ../../../frameworks/cmsis.rst:457 ../../../frameworks/cmsis.rst:463
+#: ../../../frameworks/cmsis.rst:469 ../../../frameworks/cmsis.rst:475
+#: ../../../frameworks/cmsis.rst:481 ../../../frameworks/cmsis.rst:487
+#: ../../../frameworks/cmsis.rst:493 ../../../frameworks/cmsis.rst:499
+#: ../../../frameworks/cmsis.rst:505 ../../../frameworks/cmsis.rst:511
+#: ../../../frameworks/cmsis.rst:517 ../../../frameworks/cmsis.rst:523
+#: ../../../frameworks/cmsis.rst:529 ../../../frameworks/cmsis.rst:535
+#: ../../../frameworks/cmsis.rst:541 ../../../frameworks/cmsis.rst:547
+#: ../../../frameworks/cmsis.rst:553 ../../../frameworks/cmsis.rst:559
+#: ../../../frameworks/cmsis.rst:565 ../../../frameworks/cmsis.rst:571
+#: ../../../frameworks/cmsis.rst:577 ../../../frameworks/cmsis.rst:583
+#: ../../../frameworks/cmsis.rst:589 ../../../frameworks/cmsis.rst:595
+#: ../../../frameworks/cmsis.rst:601 ../../../frameworks/cmsis.rst:607
+#: ../../../frameworks/cmsis.rst:613 ../../../frameworks/cmsis.rst:619
+#: ../../../frameworks/cmsis.rst:625 ../../../frameworks/cmsis.rst:631
+#: ../../../frameworks/cmsis.rst:637 ../../../frameworks/cmsis.rst:643
+#: ../../../frameworks/cmsis.rst:649 ../../../frameworks/cmsis.rst:655
+#: ../../../frameworks/cmsis.rst:680 ../../../frameworks/cmsis.rst:686
+#: ../../../frameworks/cmsis.rst:692 ../../../frameworks/cmsis.rst:698
+#: ../../../frameworks/cmsis.rst:704 ../../../frameworks/cmsis.rst:710
+#: ../../../frameworks/cmsis.rst:716 ../../../frameworks/cmsis.rst:722
+#: ../../../frameworks/cmsis.rst:728 ../../../frameworks/cmsis.rst:752
+#: ../../../frameworks/cmsis.rst:758 ../../../frameworks/cmsis.rst:764
+#: ../../../frameworks/cmsis.rst:770 ../../../frameworks/cmsis.rst:776
+#: ../../../frameworks/cmsis.rst:782 ../../../frameworks/cmsis.rst:788
+#: ../../../frameworks/cmsis.rst:794 ../../../frameworks/cmsis.rst:800
+#: ../../../frameworks/cmsis.rst:806 ../../../frameworks/cmsis.rst:812
+#: ../../../frameworks/cmsis.rst:818 ../../../frameworks/cmsis.rst:824
+#: ../../../frameworks/cmsis.rst:830 ../../../frameworks/cmsis.rst:836
+#: ../../../frameworks/cmsis.rst:842 ../../../frameworks/cmsis.rst:848
+#: ../../../frameworks/cmsis.rst:854 ../../../frameworks/cmsis.rst:860
+#: ../../../frameworks/cmsis.rst:866 ../../../frameworks/cmsis.rst:872
+#: ../../../frameworks/cmsis.rst:878 ../../../frameworks/cmsis.rst:884
+#: ../../../frameworks/cmsis.rst:890 ../../../frameworks/cmsis.rst:896
+#: ../../../frameworks/cmsis.rst:902 ../../../frameworks/cmsis.rst:908
+#: ../../../frameworks/cmsis.rst:914 ../../../frameworks/cmsis.rst:920
+#: ../../../frameworks/cmsis.rst:926 ../../../frameworks/cmsis.rst:932
+#: ../../../frameworks/cmsis.rst:938 ../../../frameworks/cmsis.rst:944
+#: ../../../frameworks/cmsis.rst:950 ../../../frameworks/cmsis.rst:956
+#: ../../../frameworks/cmsis.rst:962 ../../../frameworks/cmsis.rst:968
+#: ../../../frameworks/cmsis.rst:974 ../../../frameworks/cmsis.rst:980
+#: ../../../frameworks/cmsis.rst:986 ../../../frameworks/cmsis.rst:992
+#: ../../../frameworks/cmsis.rst:998 ../../../frameworks/cmsis.rst:1004
+#: ../../../frameworks/cmsis.rst:1010 ../../../frameworks/cmsis.rst:1016
+#: ../../../frameworks/cmsis.rst:1022 ../../../frameworks/cmsis.rst:1028
+#: ../../../frameworks/cmsis.rst:1034 ../../../frameworks/cmsis.rst:1040
+#: ../../../frameworks/cmsis.rst:1046 ../../../frameworks/cmsis.rst:1052
+#: ../../../frameworks/cmsis.rst:1058 ../../../frameworks/cmsis.rst:1064
+#: ../../../frameworks/cmsis.rst:1070 ../../../frameworks/cmsis.rst:1076
+#: ../../../frameworks/cmsis.rst:1082 ../../../frameworks/cmsis.rst:1088
+#: ../../../frameworks/cmsis.rst:1094 ../../../frameworks/cmsis.rst:1100
+#: ../../../frameworks/cmsis.rst:1106 ../../../frameworks/cmsis.rst:1112
+#: ../../../frameworks/cmsis.rst:1118 ../../../frameworks/cmsis.rst:1124
+#: ../../../frameworks/cmsis.rst:1130 ../../../frameworks/cmsis.rst:1136
+#: ../../../frameworks/cmsis.rst:1142 ../../../frameworks/cmsis.rst:1148
+#: ../../../frameworks/cmsis.rst:1154 ../../../frameworks/cmsis.rst:1160
+#: ../../../frameworks/cmsis.rst:1166 ../../../frameworks/cmsis.rst:1172
+#: ../../../frameworks/cmsis.rst:1178 ../../../frameworks/cmsis.rst:1184
+#: ../../../frameworks/cmsis.rst:1190 ../../../frameworks/cmsis.rst:1196
+#: ../../../frameworks/cmsis.rst:1202 ../../../frameworks/cmsis.rst:1208
+#: ../../../frameworks/cmsis.rst:1214 ../../../frameworks/cmsis.rst:1220
+#: ../../../frameworks/cmsis.rst:1226 ../../../frameworks/cmsis.rst:1232
+#: ../../../frameworks/cmsis.rst:1238 ../../../frameworks/cmsis.rst:1244
+#: ../../../frameworks/cmsis.rst:1250 ../../../frameworks/cmsis.rst:1256
+#: ../../../frameworks/cmsis.rst:1262 ../../../frameworks/cmsis.rst:1268
+#: ../../../frameworks/cmsis.rst:1274 ../../../frameworks/cmsis.rst:1280
+#: ../../../frameworks/cmsis.rst:1286 ../../../frameworks/cmsis.rst:1292
+#: ../../../frameworks/cmsis.rst:1298 ../../../frameworks/cmsis.rst:1304
+#: ../../../frameworks/cmsis.rst:1310 ../../../frameworks/cmsis.rst:1316
+#: ../../../frameworks/cmsis.rst:1322 ../../../frameworks/cmsis.rst:1328
+#: ../../../frameworks/cmsis.rst:1334 ../../../frameworks/cmsis.rst:1340
+#: ../../../frameworks/cmsis.rst:1346 ../../../frameworks/cmsis.rst:1352
+#: ../../../frameworks/cmsis.rst:1358 ../../../frameworks/cmsis.rst:1364
+#: ../../../frameworks/cmsis.rst:1370 ../../../frameworks/cmsis.rst:1376
+#: ../../../frameworks/cmsis.rst:1382 ../../../frameworks/cmsis.rst:1388
+#: ../../../frameworks/cmsis.rst:1394 ../../../frameworks/cmsis.rst:1400
+#: ../../../frameworks/cmsis.rst:1406 ../../../frameworks/cmsis.rst:1412
+#: ../../../frameworks/cmsis.rst:1418 ../../../frameworks/cmsis.rst:1424
+#: ../../../frameworks/cmsis.rst:1430 ../../../frameworks/cmsis.rst:1436
+#: ../../../frameworks/cmsis.rst:1442 ../../../frameworks/cmsis.rst:1448
+#: ../../../frameworks/cmsis.rst:1454 ../../../frameworks/cmsis.rst:1460
+#: ../../../frameworks/cmsis.rst:1466 ../../../frameworks/cmsis.rst:1472
+#: ../../../frameworks/cmsis.rst:1478 ../../../frameworks/cmsis.rst:1484
+#: ../../../frameworks/cmsis.rst:1490 ../../../frameworks/cmsis.rst:1496
+#: ../../../frameworks/cmsis.rst:1502 ../../../frameworks/cmsis.rst:1508
+#: ../../../frameworks/cmsis.rst:1514 ../../../frameworks/cmsis.rst:1520
+#: ../../../frameworks/cmsis.rst:1526 ../../../frameworks/cmsis.rst:1532
+#: ../../../frameworks/cmsis.rst:1538 ../../../frameworks/cmsis.rst:1544
+#: ../../../frameworks/cmsis.rst:1550 ../../../frameworks/cmsis.rst:1556
+#: ../../../frameworks/cmsis.rst:1562 ../../../frameworks/cmsis.rst:1568
+#: ../../../frameworks/cmsis.rst:1574 ../../../frameworks/cmsis.rst:1580
+#: ../../../frameworks/cmsis.rst:1586 ../../../frameworks/cmsis.rst:1592
+#: ../../../frameworks/cmsis.rst:1598 ../../../frameworks/cmsis.rst:1604
+#: ../../../frameworks/cmsis.rst:1610 ../../../frameworks/cmsis.rst:1616
+#: ../../../frameworks/cmsis.rst:1622 ../../../frameworks/cmsis.rst:1650
+#: ../../../frameworks/cmsis.rst:1671 ../../../frameworks/cmsis.rst:1678
+#: ../../../frameworks/cmsis.rst:1685 ../../../frameworks/cmsis.rst:1692
+#: ../../../frameworks/cmsis.rst:1713 ../../../frameworks/cmsis.rst:1734
+#: ../../../frameworks/cmsis.rst:1755 ../../../frameworks/cmsis.rst:1776
+#: ../../../frameworks/cmsis.rst:1839 ../../../frameworks/cmsis.rst:1860
+#: ../../../frameworks/cmsis.rst:1867 ../../../frameworks/cmsis.rst:1874
+#: ../../../frameworks/cmsis.rst:1895 ../../../frameworks/cmsis.rst:1916
+#: ../../../frameworks/cmsis.rst:1923 ../../../frameworks/cmsis.rst:1944
+#: ../../../frameworks/cmsis.rst:1951 ../../../frameworks/cmsis.rst:1972
+#: ../../../frameworks/cmsis.rst:1993 ../../../frameworks/cmsis.rst:2000
+#: ../../../frameworks/cmsis.rst:2007 ../../../frameworks/cmsis.rst:2028
+#: ../../../frameworks/cmsis.rst:2035 ../../../frameworks/cmsis.rst:2056
+#: ../../../frameworks/cmsis.rst:2077 ../../../frameworks/cmsis.rst:2098
+#: ../../../frameworks/cmsis.rst:2105 ../../../frameworks/cmsis.rst:2112
+#: ../../../frameworks/cmsis.rst:2119 ../../../frameworks/cmsis.rst:2126
+#: ../../../frameworks/cmsis.rst:2133 ../../../frameworks/cmsis.rst:2140
+#: ../../../frameworks/cmsis.rst:2147 ../../../frameworks/cmsis.rst:2154
+#: ../../../frameworks/cmsis.rst:2161 ../../../frameworks/cmsis.rst:2168
+#: ../../../frameworks/cmsis.rst:2175 ../../../frameworks/cmsis.rst:2182
+#: ../../../frameworks/cmsis.rst:2189 ../../../frameworks/cmsis.rst:2196
+#: ../../../frameworks/cmsis.rst:2203 ../../../frameworks/cmsis.rst:2210
+#: ../../../frameworks/cmsis.rst:2217 ../../../frameworks/cmsis.rst:2224
+#: ../../../frameworks/cmsis.rst:2231 ../../../frameworks/cmsis.rst:2238
+#: ../../../frameworks/cmsis.rst:2245 ../../../frameworks/cmsis.rst:2252
+#: ../../../frameworks/cmsis.rst:2259 ../../../frameworks/cmsis.rst:2266
+#: ../../../frameworks/cmsis.rst:2273 ../../../frameworks/cmsis.rst:2280
+#: ../../../frameworks/cmsis.rst:2287 ../../../frameworks/cmsis.rst:2294
+#: ../../../frameworks/cmsis.rst:2301 ../../../frameworks/cmsis.rst:2308
+#: ../../../frameworks/cmsis.rst:2315 ../../../frameworks/cmsis.rst:2322
+#: ../../../frameworks/cmsis.rst:2329 ../../../frameworks/cmsis.rst:2336
+#: ../../../frameworks/cmsis.rst:2343 ../../../frameworks/cmsis.rst:2350
+#: ../../../frameworks/cmsis.rst:2357 ../../../frameworks/cmsis.rst:2364
+#: ../../../frameworks/cmsis.rst:2371 ../../../frameworks/cmsis.rst:2378
+#: ../../../frameworks/cmsis.rst:2385 ../../../frameworks/cmsis.rst:2392
+#: ../../../frameworks/cmsis.rst:2399 ../../../frameworks/cmsis.rst:2406
+#: ../../../frameworks/cmsis.rst:2413 ../../../frameworks/cmsis.rst:2420
+#: ../../../frameworks/cmsis.rst:2427 ../../../frameworks/cmsis.rst:2434
+#: ../../../frameworks/cmsis.rst:2441 ../../../frameworks/cmsis.rst:2448
+#: ../../../frameworks/cmsis.rst:2455 ../../../frameworks/cmsis.rst:2462
+#: ../../../frameworks/cmsis.rst:2469 ../../../frameworks/cmsis.rst:2476
+#: ../../../frameworks/cmsis.rst:2483 ../../../frameworks/cmsis.rst:2490
+#: ../../../frameworks/cmsis.rst:2497 ../../../frameworks/cmsis.rst:2504
+#: ../../../frameworks/cmsis.rst:2511 ../../../frameworks/cmsis.rst:2518
+#: ../../../frameworks/cmsis.rst:2525 ../../../frameworks/cmsis.rst:2532
+#: ../../../frameworks/cmsis.rst:2539 ../../../frameworks/cmsis.rst:2546
+#: ../../../frameworks/cmsis.rst:2553 ../../../frameworks/cmsis.rst:2560
+#: ../../../frameworks/cmsis.rst:2567 ../../../frameworks/cmsis.rst:2574
+#: ../../../frameworks/cmsis.rst:2581 ../../../frameworks/cmsis.rst:2588
+#: ../../../frameworks/cmsis.rst:2595 ../../../frameworks/cmsis.rst:2602
+#: ../../../frameworks/cmsis.rst:2609 ../../../frameworks/cmsis.rst:2616
+#: ../../../frameworks/cmsis.rst:2637 ../../../frameworks/cmsis.rst:2658
+#: ../../../frameworks/cmsis.rst:2665 ../../../frameworks/cmsis.rst:2672
+#: ../../../frameworks/cmsis.rst:2679 ../../../frameworks/cmsis.rst:2700
+#: ../../../frameworks/cmsis.rst:2721 ../../../frameworks/cmsis.rst:2742
+#: ../../../frameworks/cmsis.rst:2749 ../../../frameworks/cmsis.rst:2756
+#: ../../../frameworks/cmsis.rst:2777 ../../../frameworks/cmsis.rst:2798
+#: ../../../frameworks/cmsis.rst:2819 ../../../frameworks/cmsis.rst:2840
+#: ../../../frameworks/cmsis.rst:2847 ../../../frameworks/cmsis.rst:2854
+#: ../../../frameworks/cmsis.rst:2861 ../../../frameworks/cmsis.rst:2868
+#: ../../../frameworks/cmsis.rst:2875 ../../../frameworks/cmsis.rst:2896
+#: ../../../frameworks/cmsis.rst:2903 ../../../frameworks/cmsis.rst:2910
+#: ../../../frameworks/cmsis.rst:2917 ../../../frameworks/cmsis.rst:2938
+#: ../../../frameworks/cmsis.rst:2959 ../../../frameworks/cmsis.rst:2980
+#: ../../../frameworks/cmsis.rst:2987 ../../../frameworks/cmsis.rst:3008
+#: ../../../frameworks/cmsis.rst:3029 ../../../frameworks/cmsis.rst:3036
+#: ../../../frameworks/cmsis.rst:3057 ../../../frameworks/cmsis.rst:3078
+#: ../../../frameworks/cmsis.rst:3099 ../../../frameworks/cmsis.rst:3106
+#: ../../../frameworks/cmsis.rst:3127 ../../../frameworks/cmsis.rst:3134
+#: ../../../frameworks/cmsis.rst:3141 ../../../frameworks/cmsis.rst:3148
+#: ../../../frameworks/cmsis.rst:3155 ../../../frameworks/cmsis.rst:3162
+#: ../../../frameworks/cmsis.rst:3169 ../../../frameworks/cmsis.rst:3176
+#: ../../../frameworks/cmsis.rst:3183 ../../../frameworks/cmsis.rst:3190
+#: ../../../frameworks/cmsis.rst:3197 ../../../frameworks/cmsis.rst:3204
+#: ../../../frameworks/cmsis.rst:3211 ../../../frameworks/cmsis.rst:3218
+#: ../../../frameworks/cmsis.rst:3225 ../../../frameworks/cmsis.rst:3232
+#: ../../../frameworks/cmsis.rst:3239 ../../../frameworks/cmsis.rst:3246
+#: ../../../frameworks/cmsis.rst:3253 ../../../frameworks/cmsis.rst:3260
+#: ../../../frameworks/cmsis.rst:3267 ../../../frameworks/cmsis.rst:3274
+#: ../../../frameworks/cmsis.rst:3281 ../../../frameworks/cmsis.rst:3288
+#: ../../../frameworks/cmsis.rst:3295 ../../../frameworks/cmsis.rst:3302
+#: ../../../frameworks/cmsis.rst:3309 ../../../frameworks/cmsis.rst:3316
+#: ../../../frameworks/cmsis.rst:3323 ../../../frameworks/cmsis.rst:3330
+#: ../../../frameworks/cmsis.rst:3337 ../../../frameworks/cmsis.rst:3344
+#: ../../../frameworks/cmsis.rst:3351 ../../../frameworks/cmsis.rst:3358
+#: ../../../frameworks/cmsis.rst:3365 ../../../frameworks/cmsis.rst:3372
+#: ../../../frameworks/cmsis.rst:3379 ../../../frameworks/cmsis.rst:3386
+#: ../../../frameworks/cmsis.rst:3393 ../../../frameworks/cmsis.rst:3400
+#: ../../../frameworks/cmsis.rst:3407 ../../../frameworks/cmsis.rst:3414
+#: ../../../frameworks/cmsis.rst:3421 ../../../frameworks/cmsis.rst:3428
+#: ../../../frameworks/cmsis.rst:3435 ../../../frameworks/cmsis.rst:3442
+#: ../../../frameworks/cmsis.rst:3449 ../../../frameworks/cmsis.rst:3456
+#: ../../../frameworks/cmsis.rst:3463 ../../../frameworks/cmsis.rst:3470
+#: ../../../frameworks/cmsis.rst:3477 ../../../frameworks/cmsis.rst:3484
+#: ../../../frameworks/cmsis.rst:3491 ../../../frameworks/cmsis.rst:3498
+#: ../../../frameworks/cmsis.rst:3505 ../../../frameworks/cmsis.rst:3512
+#: ../../../frameworks/cmsis.rst:3519 ../../../frameworks/cmsis.rst:3526
+#: ../../../frameworks/cmsis.rst:3533 ../../../frameworks/cmsis.rst:3540
+#: ../../../frameworks/cmsis.rst:3547 ../../../frameworks/cmsis.rst:3554
+#: ../../../frameworks/cmsis.rst:3561 ../../../frameworks/cmsis.rst:3568
+#: ../../../frameworks/cmsis.rst:3575 ../../../frameworks/cmsis.rst:3582
+#: ../../../frameworks/cmsis.rst:3589 ../../../frameworks/cmsis.rst:3596
+#: ../../../frameworks/cmsis.rst:3603 ../../../frameworks/cmsis.rst:3610
+#: ../../../frameworks/cmsis.rst:3617 ../../../frameworks/cmsis.rst:3624
+#: ../../../frameworks/cmsis.rst:3631 ../../../frameworks/cmsis.rst:3638
+#: ../../../frameworks/cmsis.rst:3645 ../../../frameworks/cmsis.rst:3652
+#: ../../../frameworks/cmsis.rst:3659 ../../../frameworks/cmsis.rst:3666
+#: ../../../frameworks/cmsis.rst:3673 ../../../frameworks/cmsis.rst:3680
+#: ../../../frameworks/cmsis.rst:3687 ../../../frameworks/cmsis.rst:3694
+#: ../../../frameworks/cmsis.rst:3701 ../../../frameworks/cmsis.rst:3708
+#: ../../../frameworks/cmsis.rst:3715 ../../../frameworks/cmsis.rst:3722
+#: ../../../frameworks/cmsis.rst:3729 ../../../frameworks/cmsis.rst:3736
+#: ../../../frameworks/cmsis.rst:3743 ../../../frameworks/cmsis.rst:3750
+#: ../../../frameworks/cmsis.rst:3757 ../../../frameworks/cmsis.rst:3764
+#: ../../../frameworks/cmsis.rst:3771 ../../../frameworks/cmsis.rst:3778
+#: ../../../frameworks/cmsis.rst:3785 ../../../frameworks/cmsis.rst:3806
+#: ../../../frameworks/cmsis.rst:3827 ../../../frameworks/cmsis.rst:3834
+#: ../../../frameworks/cmsis.rst:3855 ../../../frameworks/cmsis.rst:3876
+#: ../../../frameworks/cmsis.rst:3897 ../../../frameworks/cmsis.rst:3918
+#: ../../../frameworks/cmsis.rst:3939 ../../../frameworks/cmsis.rst:3946
+#: ../../../frameworks/cmsis.rst:3967 ../../../frameworks/cmsis.rst:3988
+#: ../../../frameworks/cmsis.rst:3995 ../../../frameworks/cmsis.rst:4016
+#: ../../../frameworks/cmsis.rst:4037 ../../../frameworks/cmsis.rst:4044
+#: ../../../frameworks/cmsis.rst:4051 ../../../frameworks/cmsis.rst:4058
+#: ../../../frameworks/cmsis.rst:4065 ../../../frameworks/cmsis.rst:4086
+#: ../../../frameworks/cmsis.rst:4107
+msgid ":ref:`platform_ststm32`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:38
+msgid ""
+"The STM32 family of 32-bit Flash MCUs based on the ARM Cortex-M processor is "
+"designed to offer new degrees of freedom to MCU users. It offers a 32-bit "
+"product range that combines very high performance, real-time capabilities, "
+"digital signal processing, and low-power, low-voltage operation, while "
+"maintaining full integration and ease of development."
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:41
+msgid "Examples"
+msgstr "範例"
+
+#: ../../../frameworks/cmsis.rst:43
+msgid ""
+"`CMSIS for Renesas RA <https://github.com/platformio/platform-renesas-ra/"
+"tree/master/examples?utm_source=platformio.org&utm_medium=docs>`_"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:44
+msgid ""
+"`CMSIS for ST STM32 <https://github.com/platformio/platform-ststm32/tree/"
+"master/examples?utm_source=platformio.org&utm_medium=docs>`_"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:47
+msgid "Debugging"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:49
+msgid ""
+":ref:`piodebug` - \"1-click\" solution for debugging with a zero "
+"configuration."
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:56
+msgid "Tools & Debug Probes"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:58
+msgid ""
+"Supported debugging tools are listed in \"Debug\" column. For more detailed "
+"information, please scroll table by horizontal. You can switch between "
+"debugging :ref:`debugging_tools` using :ref:`projectconf_debug_tool` option "
+"in :ref:`projectconf`."
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:64
+msgid ""
+"You will need to install debug tool drivers depending on your system. Please "
+"click on compatible debug tool below for the further instructions."
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:69
+msgid "On-Board Debug Tools"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:71
+msgid ""
+"Boards listed below have on-board debug probe and **ARE READY** for "
+"debugging! You do not need to use/buy external debug probe."
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:79 ../../../frameworks/cmsis.rst:674
+#: ../../../frameworks/cmsis.rst:1643 ../../../frameworks/cmsis.rst:1664
+#: ../../../frameworks/cmsis.rst:1706 ../../../frameworks/cmsis.rst:1727
+#: ../../../frameworks/cmsis.rst:1748 ../../../frameworks/cmsis.rst:1769
+#: ../../../frameworks/cmsis.rst:1790 ../../../frameworks/cmsis.rst:1832
+#: ../../../frameworks/cmsis.rst:1853 ../../../frameworks/cmsis.rst:1888
+#: ../../../frameworks/cmsis.rst:1909 ../../../frameworks/cmsis.rst:1937
+#: ../../../frameworks/cmsis.rst:1965 ../../../frameworks/cmsis.rst:1986
+#: ../../../frameworks/cmsis.rst:2021 ../../../frameworks/cmsis.rst:2049
+#: ../../../frameworks/cmsis.rst:2070 ../../../frameworks/cmsis.rst:2091
+#: ../../../frameworks/cmsis.rst:2630 ../../../frameworks/cmsis.rst:2651
+#: ../../../frameworks/cmsis.rst:2693 ../../../frameworks/cmsis.rst:2714
+#: ../../../frameworks/cmsis.rst:2735 ../../../frameworks/cmsis.rst:2770
+#: ../../../frameworks/cmsis.rst:2791 ../../../frameworks/cmsis.rst:2812
+#: ../../../frameworks/cmsis.rst:2833 ../../../frameworks/cmsis.rst:2889
+#: ../../../frameworks/cmsis.rst:2931 ../../../frameworks/cmsis.rst:2952
+#: ../../../frameworks/cmsis.rst:2973 ../../../frameworks/cmsis.rst:3001
+#: ../../../frameworks/cmsis.rst:3022 ../../../frameworks/cmsis.rst:3050
+#: ../../../frameworks/cmsis.rst:3071 ../../../frameworks/cmsis.rst:3092
+#: ../../../frameworks/cmsis.rst:3120 ../../../frameworks/cmsis.rst:3799
+#: ../../../frameworks/cmsis.rst:3820 ../../../frameworks/cmsis.rst:3848
+#: ../../../frameworks/cmsis.rst:3869 ../../../frameworks/cmsis.rst:3890
+#: ../../../frameworks/cmsis.rst:3911 ../../../frameworks/cmsis.rst:3932
+#: ../../../frameworks/cmsis.rst:3960 ../../../frameworks/cmsis.rst:3981
+#: ../../../frameworks/cmsis.rst:4009 ../../../frameworks/cmsis.rst:4030
+#: ../../../frameworks/cmsis.rst:4079 ../../../frameworks/cmsis.rst:4100
+msgid "Platform"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:80 ../../../frameworks/cmsis.rst:675
+#: ../../../frameworks/cmsis.rst:1645 ../../../frameworks/cmsis.rst:1666
+#: ../../../frameworks/cmsis.rst:1708 ../../../frameworks/cmsis.rst:1729
+#: ../../../frameworks/cmsis.rst:1750 ../../../frameworks/cmsis.rst:1771
+#: ../../../frameworks/cmsis.rst:1792 ../../../frameworks/cmsis.rst:1834
+#: ../../../frameworks/cmsis.rst:1855 ../../../frameworks/cmsis.rst:1890
+#: ../../../frameworks/cmsis.rst:1911 ../../../frameworks/cmsis.rst:1939
+#: ../../../frameworks/cmsis.rst:1967 ../../../frameworks/cmsis.rst:1988
+#: ../../../frameworks/cmsis.rst:2023 ../../../frameworks/cmsis.rst:2051
+#: ../../../frameworks/cmsis.rst:2072 ../../../frameworks/cmsis.rst:2093
+#: ../../../frameworks/cmsis.rst:2632 ../../../frameworks/cmsis.rst:2653
+#: ../../../frameworks/cmsis.rst:2695 ../../../frameworks/cmsis.rst:2716
+#: ../../../frameworks/cmsis.rst:2737 ../../../frameworks/cmsis.rst:2772
+#: ../../../frameworks/cmsis.rst:2793 ../../../frameworks/cmsis.rst:2814
+#: ../../../frameworks/cmsis.rst:2835 ../../../frameworks/cmsis.rst:2891
+#: ../../../frameworks/cmsis.rst:2933 ../../../frameworks/cmsis.rst:2954
+#: ../../../frameworks/cmsis.rst:2975 ../../../frameworks/cmsis.rst:3003
+#: ../../../frameworks/cmsis.rst:3024 ../../../frameworks/cmsis.rst:3052
+#: ../../../frameworks/cmsis.rst:3073 ../../../frameworks/cmsis.rst:3094
+#: ../../../frameworks/cmsis.rst:3122 ../../../frameworks/cmsis.rst:3801
+#: ../../../frameworks/cmsis.rst:3822 ../../../frameworks/cmsis.rst:3850
+#: ../../../frameworks/cmsis.rst:3871 ../../../frameworks/cmsis.rst:3892
+#: ../../../frameworks/cmsis.rst:3913 ../../../frameworks/cmsis.rst:3934
+#: ../../../frameworks/cmsis.rst:3962 ../../../frameworks/cmsis.rst:3983
+#: ../../../frameworks/cmsis.rst:4011 ../../../frameworks/cmsis.rst:4032
+#: ../../../frameworks/cmsis.rst:4081 ../../../frameworks/cmsis.rst:4102
+msgid "MCU"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:81 ../../../frameworks/cmsis.rst:676
+#: ../../../frameworks/cmsis.rst:1646 ../../../frameworks/cmsis.rst:1667
+#: ../../../frameworks/cmsis.rst:1709 ../../../frameworks/cmsis.rst:1730
+#: ../../../frameworks/cmsis.rst:1751 ../../../frameworks/cmsis.rst:1772
+#: ../../../frameworks/cmsis.rst:1793 ../../../frameworks/cmsis.rst:1835
+#: ../../../frameworks/cmsis.rst:1856 ../../../frameworks/cmsis.rst:1891
+#: ../../../frameworks/cmsis.rst:1912 ../../../frameworks/cmsis.rst:1940
+#: ../../../frameworks/cmsis.rst:1968 ../../../frameworks/cmsis.rst:1989
+#: ../../../frameworks/cmsis.rst:2024 ../../../frameworks/cmsis.rst:2052
+#: ../../../frameworks/cmsis.rst:2073 ../../../frameworks/cmsis.rst:2094
+#: ../../../frameworks/cmsis.rst:2633 ../../../frameworks/cmsis.rst:2654
+#: ../../../frameworks/cmsis.rst:2696 ../../../frameworks/cmsis.rst:2717
+#: ../../../frameworks/cmsis.rst:2738 ../../../frameworks/cmsis.rst:2773
+#: ../../../frameworks/cmsis.rst:2794 ../../../frameworks/cmsis.rst:2815
+#: ../../../frameworks/cmsis.rst:2836 ../../../frameworks/cmsis.rst:2892
+#: ../../../frameworks/cmsis.rst:2934 ../../../frameworks/cmsis.rst:2955
+#: ../../../frameworks/cmsis.rst:2976 ../../../frameworks/cmsis.rst:3004
+#: ../../../frameworks/cmsis.rst:3025 ../../../frameworks/cmsis.rst:3053
+#: ../../../frameworks/cmsis.rst:3074 ../../../frameworks/cmsis.rst:3095
+#: ../../../frameworks/cmsis.rst:3123 ../../../frameworks/cmsis.rst:3802
+#: ../../../frameworks/cmsis.rst:3823 ../../../frameworks/cmsis.rst:3851
+#: ../../../frameworks/cmsis.rst:3872 ../../../frameworks/cmsis.rst:3893
+#: ../../../frameworks/cmsis.rst:3914 ../../../frameworks/cmsis.rst:3935
+#: ../../../frameworks/cmsis.rst:3963 ../../../frameworks/cmsis.rst:3984
+#: ../../../frameworks/cmsis.rst:4012 ../../../frameworks/cmsis.rst:4033
+#: ../../../frameworks/cmsis.rst:4082 ../../../frameworks/cmsis.rst:4103
+msgid "Frequency"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:82 ../../../frameworks/cmsis.rst:677
+#: ../../../frameworks/cmsis.rst:1647 ../../../frameworks/cmsis.rst:1668
+#: ../../../frameworks/cmsis.rst:1710 ../../../frameworks/cmsis.rst:1731
+#: ../../../frameworks/cmsis.rst:1752 ../../../frameworks/cmsis.rst:1773
+#: ../../../frameworks/cmsis.rst:1794 ../../../frameworks/cmsis.rst:1836
+#: ../../../frameworks/cmsis.rst:1857 ../../../frameworks/cmsis.rst:1892
+#: ../../../frameworks/cmsis.rst:1913 ../../../frameworks/cmsis.rst:1941
+#: ../../../frameworks/cmsis.rst:1969 ../../../frameworks/cmsis.rst:1990
+#: ../../../frameworks/cmsis.rst:2025 ../../../frameworks/cmsis.rst:2053
+#: ../../../frameworks/cmsis.rst:2074 ../../../frameworks/cmsis.rst:2095
+#: ../../../frameworks/cmsis.rst:2634 ../../../frameworks/cmsis.rst:2655
+#: ../../../frameworks/cmsis.rst:2697 ../../../frameworks/cmsis.rst:2718
+#: ../../../frameworks/cmsis.rst:2739 ../../../frameworks/cmsis.rst:2774
+#: ../../../frameworks/cmsis.rst:2795 ../../../frameworks/cmsis.rst:2816
+#: ../../../frameworks/cmsis.rst:2837 ../../../frameworks/cmsis.rst:2893
+#: ../../../frameworks/cmsis.rst:2935 ../../../frameworks/cmsis.rst:2956
+#: ../../../frameworks/cmsis.rst:2977 ../../../frameworks/cmsis.rst:3005
+#: ../../../frameworks/cmsis.rst:3026 ../../../frameworks/cmsis.rst:3054
+#: ../../../frameworks/cmsis.rst:3075 ../../../frameworks/cmsis.rst:3096
+#: ../../../frameworks/cmsis.rst:3124 ../../../frameworks/cmsis.rst:3803
+#: ../../../frameworks/cmsis.rst:3824 ../../../frameworks/cmsis.rst:3852
+#: ../../../frameworks/cmsis.rst:3873 ../../../frameworks/cmsis.rst:3894
+#: ../../../frameworks/cmsis.rst:3915 ../../../frameworks/cmsis.rst:3936
+#: ../../../frameworks/cmsis.rst:3964 ../../../frameworks/cmsis.rst:3985
+#: ../../../frameworks/cmsis.rst:4013 ../../../frameworks/cmsis.rst:4034
+#: ../../../frameworks/cmsis.rst:4083 ../../../frameworks/cmsis.rst:4104
+msgid "Flash"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:83 ../../../frameworks/cmsis.rst:678
+#: ../../../frameworks/cmsis.rst:1648 ../../../frameworks/cmsis.rst:1669
+#: ../../../frameworks/cmsis.rst:1711 ../../../frameworks/cmsis.rst:1732
+#: ../../../frameworks/cmsis.rst:1753 ../../../frameworks/cmsis.rst:1774
+#: ../../../frameworks/cmsis.rst:1795 ../../../frameworks/cmsis.rst:1837
+#: ../../../frameworks/cmsis.rst:1858 ../../../frameworks/cmsis.rst:1893
+#: ../../../frameworks/cmsis.rst:1914 ../../../frameworks/cmsis.rst:1942
+#: ../../../frameworks/cmsis.rst:1970 ../../../frameworks/cmsis.rst:1991
+#: ../../../frameworks/cmsis.rst:2026 ../../../frameworks/cmsis.rst:2054
+#: ../../../frameworks/cmsis.rst:2075 ../../../frameworks/cmsis.rst:2096
+#: ../../../frameworks/cmsis.rst:2635 ../../../frameworks/cmsis.rst:2656
+#: ../../../frameworks/cmsis.rst:2698 ../../../frameworks/cmsis.rst:2719
+#: ../../../frameworks/cmsis.rst:2740 ../../../frameworks/cmsis.rst:2775
+#: ../../../frameworks/cmsis.rst:2796 ../../../frameworks/cmsis.rst:2817
+#: ../../../frameworks/cmsis.rst:2838 ../../../frameworks/cmsis.rst:2894
+#: ../../../frameworks/cmsis.rst:2936 ../../../frameworks/cmsis.rst:2957
+#: ../../../frameworks/cmsis.rst:2978 ../../../frameworks/cmsis.rst:3006
+#: ../../../frameworks/cmsis.rst:3027 ../../../frameworks/cmsis.rst:3055
+#: ../../../frameworks/cmsis.rst:3076 ../../../frameworks/cmsis.rst:3097
+#: ../../../frameworks/cmsis.rst:3125 ../../../frameworks/cmsis.rst:3804
+#: ../../../frameworks/cmsis.rst:3825 ../../../frameworks/cmsis.rst:3853
+#: ../../../frameworks/cmsis.rst:3874 ../../../frameworks/cmsis.rst:3895
+#: ../../../frameworks/cmsis.rst:3916 ../../../frameworks/cmsis.rst:3937
+#: ../../../frameworks/cmsis.rst:3965 ../../../frameworks/cmsis.rst:3986
+#: ../../../frameworks/cmsis.rst:4014 ../../../frameworks/cmsis.rst:4035
+#: ../../../frameworks/cmsis.rst:4084 ../../../frameworks/cmsis.rst:4105
+msgid "RAM"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:84 ../../../frameworks/cmsis.rst:3126
+msgid ":ref:`board_ststm32_disco_f412zg`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:86 ../../../frameworks/cmsis.rst:152
+#: ../../../frameworks/cmsis.rst:398 ../../../frameworks/cmsis.rst:2723
+#: ../../../frameworks/cmsis.rst:3129 ../../../frameworks/cmsis.rst:3465
+msgid "STM32F412ZGT6"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:87 ../../../frameworks/cmsis.rst:153
+#: ../../../frameworks/cmsis.rst:213 ../../../frameworks/cmsis.rst:219
+#: ../../../frameworks/cmsis.rst:387 ../../../frameworks/cmsis.rst:393
+#: ../../../frameworks/cmsis.rst:399 ../../../frameworks/cmsis.rst:405
+#: ../../../frameworks/cmsis.rst:657 ../../../frameworks/cmsis.rst:700
+#: ../../../frameworks/cmsis.rst:712 ../../../frameworks/cmsis.rst:886
+#: ../../../frameworks/cmsis.rst:1006 ../../../frameworks/cmsis.rst:1018
+#: ../../../frameworks/cmsis.rst:1366 ../../../frameworks/cmsis.rst:1372
+#: ../../../frameworks/cmsis.rst:1378 ../../../frameworks/cmsis.rst:1384
+#: ../../../frameworks/cmsis.rst:1390 ../../../frameworks/cmsis.rst:1396
+#: ../../../frameworks/cmsis.rst:1402 ../../../frameworks/cmsis.rst:1408
+#: ../../../frameworks/cmsis.rst:1414 ../../../frameworks/cmsis.rst:1420
+#: ../../../frameworks/cmsis.rst:1426 ../../../frameworks/cmsis.rst:1432
+#: ../../../frameworks/cmsis.rst:1438 ../../../frameworks/cmsis.rst:1444
+#: ../../../frameworks/cmsis.rst:1450 ../../../frameworks/cmsis.rst:1456
+#: ../../../frameworks/cmsis.rst:1480 ../../../frameworks/cmsis.rst:1486
+#: ../../../frameworks/cmsis.rst:1558 ../../../frameworks/cmsis.rst:1600
+#: ../../../frameworks/cmsis.rst:1674 ../../../frameworks/cmsis.rst:1695
+#: ../../../frameworks/cmsis.rst:2059 ../../../frameworks/cmsis.rst:2451
+#: ../../../frameworks/cmsis.rst:2458 ../../../frameworks/cmsis.rst:2465
+#: ../../../frameworks/cmsis.rst:2472 ../../../frameworks/cmsis.rst:2479
+#: ../../../frameworks/cmsis.rst:2486 ../../../frameworks/cmsis.rst:2493
+#: ../../../frameworks/cmsis.rst:2500 ../../../frameworks/cmsis.rst:2507
+#: ../../../frameworks/cmsis.rst:2514 ../../../frameworks/cmsis.rst:2521
+#: ../../../frameworks/cmsis.rst:2528 ../../../frameworks/cmsis.rst:2535
+#: ../../../frameworks/cmsis.rst:2542 ../../../frameworks/cmsis.rst:2549
+#: ../../../frameworks/cmsis.rst:2556 ../../../frameworks/cmsis.rst:2584
+#: ../../../frameworks/cmsis.rst:2591 ../../../frameworks/cmsis.rst:2724
+#: ../../../frameworks/cmsis.rst:2906 ../../../frameworks/cmsis.rst:2920
+#: ../../../frameworks/cmsis.rst:3130 ../../../frameworks/cmsis.rst:3249
+#: ../../../frameworks/cmsis.rst:3256 ../../../frameworks/cmsis.rst:3452
+#: ../../../frameworks/cmsis.rst:3459 ../../../frameworks/cmsis.rst:3466
+#: ../../../frameworks/cmsis.rst:3473 ../../../frameworks/cmsis.rst:3949
+#: ../../../frameworks/cmsis.rst:4047 ../../../frameworks/cmsis.rst:4110
+msgid "100MHz"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:88 ../../../frameworks/cmsis.rst:124
+#: ../../../frameworks/cmsis.rst:142 ../../../frameworks/cmsis.rst:154
+#: ../../../frameworks/cmsis.rst:196 ../../../frameworks/cmsis.rst:238
+#: ../../../frameworks/cmsis.rst:262 ../../../frameworks/cmsis.rst:268
+#: ../../../frameworks/cmsis.rst:280 ../../../frameworks/cmsis.rst:346
+#: ../../../frameworks/cmsis.rst:400 ../../../frameworks/cmsis.rst:442
+#: ../../../frameworks/cmsis.rst:448 ../../../frameworks/cmsis.rst:466
+#: ../../../frameworks/cmsis.rst:538 ../../../frameworks/cmsis.rst:544
+#: ../../../frameworks/cmsis.rst:550 ../../../frameworks/cmsis.rst:556
+#: ../../../frameworks/cmsis.rst:592 ../../../frameworks/cmsis.rst:628
+#: ../../../frameworks/cmsis.rst:658 ../../../frameworks/cmsis.rst:683
+#: ../../../frameworks/cmsis.rst:701 ../../../frameworks/cmsis.rst:725
+#: ../../../frameworks/cmsis.rst:773 ../../../frameworks/cmsis.rst:893
+#: ../../../frameworks/cmsis.rst:965 ../../../frameworks/cmsis.rst:995
+#: ../../../frameworks/cmsis.rst:1079 ../../../frameworks/cmsis.rst:1085
+#: ../../../frameworks/cmsis.rst:1181 ../../../frameworks/cmsis.rst:1247
+#: ../../../frameworks/cmsis.rst:1277 ../../../frameworks/cmsis.rst:1343
+#: ../../../frameworks/cmsis.rst:1349 ../../../frameworks/cmsis.rst:1361
+#: ../../../frameworks/cmsis.rst:1421 ../../../frameworks/cmsis.rst:1433
+#: ../../../frameworks/cmsis.rst:1439 ../../../frameworks/cmsis.rst:1451
+#: ../../../frameworks/cmsis.rst:1463 ../../../frameworks/cmsis.rst:1475
+#: ../../../frameworks/cmsis.rst:1505 ../../../frameworks/cmsis.rst:1541
+#: ../../../frameworks/cmsis.rst:1583 ../../../frameworks/cmsis.rst:1654
+#: ../../../frameworks/cmsis.rst:1675 ../../../frameworks/cmsis.rst:1738
+#: ../../../frameworks/cmsis.rst:1864 ../../../frameworks/cmsis.rst:1899
+#: ../../../frameworks/cmsis.rst:1976 ../../../frameworks/cmsis.rst:2235
+#: ../../../frameworks/cmsis.rst:2312 ../../../frameworks/cmsis.rst:2347
+#: ../../../frameworks/cmsis.rst:2424 ../../../frameworks/cmsis.rst:2431
+#: ../../../frameworks/cmsis.rst:2445 ../../../frameworks/cmsis.rst:2515
+#: ../../../frameworks/cmsis.rst:2529 ../../../frameworks/cmsis.rst:2536
+#: ../../../frameworks/cmsis.rst:2550 ../../../frameworks/cmsis.rst:2564
+#: ../../../frameworks/cmsis.rst:2578 ../../../frameworks/cmsis.rst:2613
+#: ../../../frameworks/cmsis.rst:2725 ../../../frameworks/cmsis.rst:2823
+#: ../../../frameworks/cmsis.rst:2865 ../../../frameworks/cmsis.rst:2872
+#: ../../../frameworks/cmsis.rst:2879 ../../../frameworks/cmsis.rst:3110
+#: ../../../frameworks/cmsis.rst:3131 ../../../frameworks/cmsis.rst:3173
+#: ../../../frameworks/cmsis.rst:3278 ../../../frameworks/cmsis.rst:3306
+#: ../../../frameworks/cmsis.rst:3313 ../../../frameworks/cmsis.rst:3327
+#: ../../../frameworks/cmsis.rst:3404 ../../../frameworks/cmsis.rst:3467
+#: ../../../frameworks/cmsis.rst:3516 ../../../frameworks/cmsis.rst:3523
+#: ../../../frameworks/cmsis.rst:3544 ../../../frameworks/cmsis.rst:3628
+#: ../../../frameworks/cmsis.rst:3635 ../../../frameworks/cmsis.rst:3642
+#: ../../../frameworks/cmsis.rst:3649 ../../../frameworks/cmsis.rst:3691
+#: ../../../frameworks/cmsis.rst:3901 ../../../frameworks/cmsis.rst:3999
+#: ../../../frameworks/cmsis.rst:4090 ../../../frameworks/cmsis.rst:4111
+msgid "1MB"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:89 ../../../frameworks/cmsis.rst:118
+#: ../../../frameworks/cmsis.rst:131 ../../../frameworks/cmsis.rst:155
+#: ../../../frameworks/cmsis.rst:208 ../../../frameworks/cmsis.rst:227
+#: ../../../frameworks/cmsis.rst:256 ../../../frameworks/cmsis.rst:334
+#: ../../../frameworks/cmsis.rst:401 ../../../frameworks/cmsis.rst:437
+#: ../../../frameworks/cmsis.rst:520 ../../../frameworks/cmsis.rst:526
+#: ../../../frameworks/cmsis.rst:586 ../../../frameworks/cmsis.rst:653
+#: ../../../frameworks/cmsis.rst:702 ../../../frameworks/cmsis.rst:708
+#: ../../../frameworks/cmsis.rst:737 ../../../frameworks/cmsis.rst:749
+#: ../../../frameworks/cmsis.rst:791 ../../../frameworks/cmsis.rst:821
+#: ../../../frameworks/cmsis.rst:833 ../../../frameworks/cmsis.rst:935
+#: ../../../frameworks/cmsis.rst:959 ../../../frameworks/cmsis.rst:971
+#: ../../../frameworks/cmsis.rst:983 ../../../frameworks/cmsis.rst:1008
+#: ../../../frameworks/cmsis.rst:1073 ../../../frameworks/cmsis.rst:1091
+#: ../../../frameworks/cmsis.rst:1097 ../../../frameworks/cmsis.rst:1157
+#: ../../../frameworks/cmsis.rst:1223 ../../../frameworks/cmsis.rst:1253
+#: ../../../frameworks/cmsis.rst:1289 ../../../frameworks/cmsis.rst:1301
+#: ../../../frameworks/cmsis.rst:1325 ../../../frameworks/cmsis.rst:1391
+#: ../../../frameworks/cmsis.rst:1403 ../../../frameworks/cmsis.rst:1416
+#: ../../../frameworks/cmsis.rst:1422 ../../../frameworks/cmsis.rst:1428
+#: ../../../frameworks/cmsis.rst:1434 ../../../frameworks/cmsis.rst:1493
+#: ../../../frameworks/cmsis.rst:1523 ../../../frameworks/cmsis.rst:1547
+#: ../../../frameworks/cmsis.rst:1595 ../../../frameworks/cmsis.rst:1676
+#: ../../../frameworks/cmsis.rst:1690 ../../../frameworks/cmsis.rst:1801
+#: ../../../frameworks/cmsis.rst:1815 ../../../frameworks/cmsis.rst:1822
+#: ../../../frameworks/cmsis.rst:1872 ../../../frameworks/cmsis.rst:1920
+#: ../../../frameworks/cmsis.rst:2207 ../../../frameworks/cmsis.rst:2284
+#: ../../../frameworks/cmsis.rst:2319 ../../../frameworks/cmsis.rst:2361
+#: ../../../frameworks/cmsis.rst:2375 ../../../frameworks/cmsis.rst:2403
+#: ../../../frameworks/cmsis.rst:2480 ../../../frameworks/cmsis.rst:2494
+#: ../../../frameworks/cmsis.rst:2509 ../../../frameworks/cmsis.rst:2516
+#: ../../../frameworks/cmsis.rst:2523 ../../../frameworks/cmsis.rst:2530
+#: ../../../frameworks/cmsis.rst:2599 ../../../frameworks/cmsis.rst:2669
+#: ../../../frameworks/cmsis.rst:2726 ../../../frameworks/cmsis.rst:2802
+#: ../../../frameworks/cmsis.rst:2851 ../../../frameworks/cmsis.rst:2908
+#: ../../../frameworks/cmsis.rst:3082 ../../../frameworks/cmsis.rst:3132
+#: ../../../frameworks/cmsis.rst:3187 ../../../frameworks/cmsis.rst:3243
+#: ../../../frameworks/cmsis.rst:3265 ../../../frameworks/cmsis.rst:3299
+#: ../../../frameworks/cmsis.rst:3390 ../../../frameworks/cmsis.rst:3468
+#: ../../../frameworks/cmsis.rst:3510 ../../../frameworks/cmsis.rst:3607
+#: ../../../frameworks/cmsis.rst:3614 ../../../frameworks/cmsis.rst:3684
+#: ../../../frameworks/cmsis.rst:3740 ../../../frameworks/cmsis.rst:3747
+#: ../../../frameworks/cmsis.rst:3754 ../../../frameworks/cmsis.rst:3810
+#: ../../../frameworks/cmsis.rst:3839 ../../../frameworks/cmsis.rst:3859
+#: ../../../frameworks/cmsis.rst:3922 ../../../frameworks/cmsis.rst:4041
+msgid "256KB"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:90 ../../../frameworks/cmsis.rst:3133
+msgid ":ref:`board_ststm32_disco_f723ie`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:92 ../../../frameworks/cmsis.rst:3136
+msgid "STM32F723IEK6"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:93 ../../../frameworks/cmsis.rst:99
+#: ../../../frameworks/cmsis.rst:237 ../../../frameworks/cmsis.rst:243
+#: ../../../frameworks/cmsis.rst:435 ../../../frameworks/cmsis.rst:441
+#: ../../../frameworks/cmsis.rst:447 ../../../frameworks/cmsis.rst:453
+#: ../../../frameworks/cmsis.rst:633 ../../../frameworks/cmsis.rst:3060
+#: ../../../frameworks/cmsis.rst:3137 ../../../frameworks/cmsis.rst:3277
+#: ../../../frameworks/cmsis.rst:3284 ../../../frameworks/cmsis.rst:3508
+#: ../../../frameworks/cmsis.rst:3515 ../../../frameworks/cmsis.rst:3522
+#: ../../../frameworks/cmsis.rst:3529 ../../../frameworks/cmsis.rst:3767
+msgid "216MHz"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:94 ../../../frameworks/cmsis.rst:101
+#: ../../../frameworks/cmsis.rst:106 ../../../frameworks/cmsis.rst:112
+#: ../../../frameworks/cmsis.rst:136 ../../../frameworks/cmsis.rst:148
+#: ../../../frameworks/cmsis.rst:184 ../../../frameworks/cmsis.rst:190
+#: ../../../frameworks/cmsis.rst:214 ../../../frameworks/cmsis.rst:245
+#: ../../../frameworks/cmsis.rst:364 ../../../frameworks/cmsis.rst:370
+#: ../../../frameworks/cmsis.rst:382 ../../../frameworks/cmsis.rst:394
+#: ../../../frameworks/cmsis.rst:424 ../../../frameworks/cmsis.rst:430
+#: ../../../frameworks/cmsis.rst:436 ../../../frameworks/cmsis.rst:455
+#: ../../../frameworks/cmsis.rst:461 ../../../frameworks/cmsis.rst:467
+#: ../../../frameworks/cmsis.rst:473 ../../../frameworks/cmsis.rst:502
+#: ../../../frameworks/cmsis.rst:532 ../../../frameworks/cmsis.rst:568
+#: ../../../frameworks/cmsis.rst:641 ../../../frameworks/cmsis.rst:646
+#: ../../../frameworks/cmsis.rst:689 ../../../frameworks/cmsis.rst:695
+#: ../../../frameworks/cmsis.rst:713 ../../../frameworks/cmsis.rst:755
+#: ../../../frameworks/cmsis.rst:761 ../../../frameworks/cmsis.rst:767
+#: ../../../frameworks/cmsis.rst:797 ../../../frameworks/cmsis.rst:846
+#: ../../../frameworks/cmsis.rst:851 ../../../frameworks/cmsis.rst:858
+#: ../../../frameworks/cmsis.rst:864 ../../../frameworks/cmsis.rst:870
+#: ../../../frameworks/cmsis.rst:887 ../../../frameworks/cmsis.rst:899
+#: ../../../frameworks/cmsis.rst:905 ../../../frameworks/cmsis.rst:1007
+#: ../../../frameworks/cmsis.rst:1013 ../../../frameworks/cmsis.rst:1019
+#: ../../../frameworks/cmsis.rst:1031 ../../../frameworks/cmsis.rst:1055
+#: ../../../frameworks/cmsis.rst:1169 ../../../frameworks/cmsis.rst:1235
+#: ../../../frameworks/cmsis.rst:1265 ../../../frameworks/cmsis.rst:1313
+#: ../../../frameworks/cmsis.rst:1337 ../../../frameworks/cmsis.rst:1397
+#: ../../../frameworks/cmsis.rst:1409 ../../../frameworks/cmsis.rst:1415
+#: ../../../frameworks/cmsis.rst:1427 ../../../frameworks/cmsis.rst:1469
+#: ../../../frameworks/cmsis.rst:1499 ../../../frameworks/cmsis.rst:1518
+#: ../../../frameworks/cmsis.rst:1559 ../../../frameworks/cmsis.rst:1571
+#: ../../../frameworks/cmsis.rst:1577 ../../../frameworks/cmsis.rst:1589
+#: ../../../frameworks/cmsis.rst:1601 ../../../frameworks/cmsis.rst:1607
+#: ../../../frameworks/cmsis.rst:1614 ../../../frameworks/cmsis.rst:1619
+#: ../../../frameworks/cmsis.rst:1682 ../../../frameworks/cmsis.rst:1696
+#: ../../../frameworks/cmsis.rst:1843 ../../../frameworks/cmsis.rst:1878
+#: ../../../frameworks/cmsis.rst:1949 ../../../frameworks/cmsis.rst:1955
+#: ../../../frameworks/cmsis.rst:1998 ../../../frameworks/cmsis.rst:2005
+#: ../../../frameworks/cmsis.rst:2012 ../../../frameworks/cmsis.rst:2060
+#: ../../../frameworks/cmsis.rst:2081 ../../../frameworks/cmsis.rst:2144
+#: ../../../frameworks/cmsis.rst:2221 ../../../frameworks/cmsis.rst:2298
+#: ../../../frameworks/cmsis.rst:2333 ../../../frameworks/cmsis.rst:2389
+#: ../../../frameworks/cmsis.rst:2417 ../../../frameworks/cmsis.rst:2487
+#: ../../../frameworks/cmsis.rst:2501 ../../../frameworks/cmsis.rst:2508
+#: ../../../frameworks/cmsis.rst:2522 ../../../frameworks/cmsis.rst:2571
+#: ../../../frameworks/cmsis.rst:2606 ../../../frameworks/cmsis.rst:2621
+#: ../../../frameworks/cmsis.rst:2704 ../../../frameworks/cmsis.rst:2907
+#: ../../../frameworks/cmsis.rst:2914 ../../../frameworks/cmsis.rst:2921
+#: ../../../frameworks/cmsis.rst:2963 ../../../frameworks/cmsis.rst:3012
+#: ../../../frameworks/cmsis.rst:3033 ../../../frameworks/cmsis.rst:3062
+#: ../../../frameworks/cmsis.rst:3103 ../../../frameworks/cmsis.rst:3138
+#: ../../../frameworks/cmsis.rst:3145 ../../../frameworks/cmsis.rst:3152
+#: ../../../frameworks/cmsis.rst:3159 ../../../frameworks/cmsis.rst:3166
+#: ../../../frameworks/cmsis.rst:3180 ../../../frameworks/cmsis.rst:3222
+#: ../../../frameworks/cmsis.rst:3250 ../../../frameworks/cmsis.rst:3286
+#: ../../../frameworks/cmsis.rst:3425 ../../../frameworks/cmsis.rst:3432
+#: ../../../frameworks/cmsis.rst:3446 ../../../frameworks/cmsis.rst:3460
+#: ../../../frameworks/cmsis.rst:3495 ../../../frameworks/cmsis.rst:3502
+#: ../../../frameworks/cmsis.rst:3509 ../../../frameworks/cmsis.rst:3531
+#: ../../../frameworks/cmsis.rst:3538 ../../../frameworks/cmsis.rst:3545
+#: ../../../frameworks/cmsis.rst:3552 ../../../frameworks/cmsis.rst:3586
+#: ../../../frameworks/cmsis.rst:3621 ../../../frameworks/cmsis.rst:3663
+#: ../../../frameworks/cmsis.rst:3783 ../../../frameworks/cmsis.rst:3831
+#: ../../../frameworks/cmsis.rst:3950 ../../../frameworks/cmsis.rst:3971
+#: ../../../frameworks/cmsis.rst:3992 ../../../frameworks/cmsis.rst:4020
+#: ../../../frameworks/cmsis.rst:4048 ../../../frameworks/cmsis.rst:4055
+#: ../../../frameworks/cmsis.rst:4063 ../../../frameworks/cmsis.rst:4069
+msgid "512KB"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:95 ../../../frameworks/cmsis.rst:125
+#: ../../../frameworks/cmsis.rst:137 ../../../frameworks/cmsis.rst:286
+#: ../../../frameworks/cmsis.rst:413 ../../../frameworks/cmsis.rst:419
+#: ../../../frameworks/cmsis.rst:496 ../../../frameworks/cmsis.rst:569
+#: ../../../frameworks/cmsis.rst:604 ../../../frameworks/cmsis.rst:647
+#: ../../../frameworks/cmsis.rst:719 ../../../frameworks/cmsis.rst:1553
+#: ../../../frameworks/cmsis.rst:1717 ../../../frameworks/cmsis.rst:1865
+#: ../../../frameworks/cmsis.rst:1879 ../../../frameworks/cmsis.rst:3139
+#: ../../../frameworks/cmsis.rst:3334 ../../../frameworks/cmsis.rst:3482
+#: ../../../frameworks/cmsis.rst:3489 ../../../frameworks/cmsis.rst:3579
+#: ../../../frameworks/cmsis.rst:3664 ../../../frameworks/cmsis.rst:3712
+#: ../../../frameworks/cmsis.rst:3832 ../../../frameworks/cmsis.rst:3943
+msgid "192KB"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:96 ../../../frameworks/cmsis.rst:3056
+msgid ":ref:`board_ststm32_remram_v1`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:98 ../../../frameworks/cmsis.rst:3059
+msgid "STM32F765VIT6"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:100 ../../../frameworks/cmsis.rst:226
+#: ../../../frameworks/cmsis.rst:232 ../../../frameworks/cmsis.rst:244
+#: ../../../frameworks/cmsis.rst:412 ../../../frameworks/cmsis.rst:418
+#: ../../../frameworks/cmsis.rst:454 ../../../frameworks/cmsis.rst:460
+#: ../../../frameworks/cmsis.rst:472 ../../../frameworks/cmsis.rst:562
+#: ../../../frameworks/cmsis.rst:610 ../../../frameworks/cmsis.rst:640
+#: ../../../frameworks/cmsis.rst:652 ../../../frameworks/cmsis.rst:743
+#: ../../../frameworks/cmsis.rst:827 ../../../frameworks/cmsis.rst:845
+#: ../../../frameworks/cmsis.rst:1529 ../../../frameworks/cmsis.rst:1613
+#: ../../../frameworks/cmsis.rst:1808 ../../../frameworks/cmsis.rst:1927
+#: ../../../frameworks/cmsis.rst:1948 ../../../frameworks/cmsis.rst:3061
+#: ../../../frameworks/cmsis.rst:3264 ../../../frameworks/cmsis.rst:3271
+#: ../../../frameworks/cmsis.rst:3285 ../../../frameworks/cmsis.rst:3481
+#: ../../../frameworks/cmsis.rst:3488 ../../../frameworks/cmsis.rst:3530
+#: ../../../frameworks/cmsis.rst:3537 ../../../frameworks/cmsis.rst:3551
+#: ../../../frameworks/cmsis.rst:3656 ../../../frameworks/cmsis.rst:3719
+#: ../../../frameworks/cmsis.rst:3782 ../../../frameworks/cmsis.rst:3789
+#: ../../../frameworks/cmsis.rst:3838 ../../../frameworks/cmsis.rst:4062
+msgid "2MB"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:102 ../../../frameworks/cmsis.rst:3140
+msgid ":ref:`board_ststm32_st3dp001_eval`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:104 ../../../frameworks/cmsis.rst:3143
+msgid "STM32F401VET6"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:105 ../../../frameworks/cmsis.rst:189
+#: ../../../frameworks/cmsis.rst:207 ../../../frameworks/cmsis.rst:381
+#: ../../../frameworks/cmsis.rst:832 ../../../frameworks/cmsis.rst:1012
+#: ../../../frameworks/cmsis.rst:1072 ../../../frameworks/cmsis.rst:1294
+#: ../../../frameworks/cmsis.rst:1300 ../../../frameworks/cmsis.rst:1306
+#: ../../../frameworks/cmsis.rst:1312 ../../../frameworks/cmsis.rst:1318
+#: ../../../frameworks/cmsis.rst:1324 ../../../frameworks/cmsis.rst:1330
+#: ../../../frameworks/cmsis.rst:1336 ../../../frameworks/cmsis.rst:1594
+#: ../../../frameworks/cmsis.rst:1606 ../../../frameworks/cmsis.rst:2367
+#: ../../../frameworks/cmsis.rst:2374 ../../../frameworks/cmsis.rst:2381
+#: ../../../frameworks/cmsis.rst:2388 ../../../frameworks/cmsis.rst:2395
+#: ../../../frameworks/cmsis.rst:2402 ../../../frameworks/cmsis.rst:2409
+#: ../../../frameworks/cmsis.rst:2416 ../../../frameworks/cmsis.rst:2913
+#: ../../../frameworks/cmsis.rst:3102 ../../../frameworks/cmsis.rst:3144
+#: ../../../frameworks/cmsis.rst:3186 ../../../frameworks/cmsis.rst:3242
+#: ../../../frameworks/cmsis.rst:3445 ../../../frameworks/cmsis.rst:3739
+#: ../../../frameworks/cmsis.rst:4040 ../../../frameworks/cmsis.rst:4054
+msgid "84MHz"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:107 ../../../frameworks/cmsis.rst:191
+#: ../../../frameworks/cmsis.rst:281 ../../../frameworks/cmsis.rst:383
+#: ../../../frameworks/cmsis.rst:539 ../../../frameworks/cmsis.rst:1014
+#: ../../../frameworks/cmsis.rst:1176 ../../../frameworks/cmsis.rst:1182
+#: ../../../frameworks/cmsis.rst:1242 ../../../frameworks/cmsis.rst:1248
+#: ../../../frameworks/cmsis.rst:1272 ../../../frameworks/cmsis.rst:1278
+#: ../../../frameworks/cmsis.rst:1308 ../../../frameworks/cmsis.rst:1314
+#: ../../../frameworks/cmsis.rst:1332 ../../../frameworks/cmsis.rst:1338
+#: ../../../frameworks/cmsis.rst:1608 ../../../frameworks/cmsis.rst:2229
+#: ../../../frameworks/cmsis.rst:2236 ../../../frameworks/cmsis.rst:2306
+#: ../../../frameworks/cmsis.rst:2313 ../../../frameworks/cmsis.rst:2341
+#: ../../../frameworks/cmsis.rst:2348 ../../../frameworks/cmsis.rst:2383
+#: ../../../frameworks/cmsis.rst:2390 ../../../frameworks/cmsis.rst:2411
+#: ../../../frameworks/cmsis.rst:2418 ../../../frameworks/cmsis.rst:2915
+#: ../../../frameworks/cmsis.rst:3104 ../../../frameworks/cmsis.rst:3146
+#: ../../../frameworks/cmsis.rst:3328 ../../../frameworks/cmsis.rst:3447
+#: ../../../frameworks/cmsis.rst:3629 ../../../frameworks/cmsis.rst:4056
+msgid "96KB"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:108 ../../../frameworks/cmsis.rst:1677
+msgid ":ref:`board_ststm32_b96b_f446ve`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:110 ../../../frameworks/cmsis.rst:903
+#: ../../../frameworks/cmsis.rst:1680 ../../../frameworks/cmsis.rst:2079
+msgid "STM32F446VET6"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:111 ../../../frameworks/cmsis.rst:123
+#: ../../../frameworks/cmsis.rst:129 ../../../frameworks/cmsis.rst:135
+#: ../../../frameworks/cmsis.rst:591 ../../../frameworks/cmsis.rst:645
+#: ../../../frameworks/cmsis.rst:682 ../../../frameworks/cmsis.rst:688
+#: ../../../frameworks/cmsis.rst:706 ../../../frameworks/cmsis.rst:724
+#: ../../../frameworks/cmsis.rst:754 ../../../frameworks/cmsis.rst:760
+#: ../../../frameworks/cmsis.rst:766 ../../../frameworks/cmsis.rst:772
+#: ../../../frameworks/cmsis.rst:796 ../../../frameworks/cmsis.rst:892
+#: ../../../frameworks/cmsis.rst:898 ../../../frameworks/cmsis.rst:904
+#: ../../../frameworks/cmsis.rst:964 ../../../frameworks/cmsis.rst:994
+#: ../../../frameworks/cmsis.rst:1030 ../../../frameworks/cmsis.rst:1060
+#: ../../../frameworks/cmsis.rst:1078 ../../../frameworks/cmsis.rst:1084
+#: ../../../frameworks/cmsis.rst:1342 ../../../frameworks/cmsis.rst:1348
+#: ../../../frameworks/cmsis.rst:1354 ../../../frameworks/cmsis.rst:1360
+#: ../../../frameworks/cmsis.rst:1462 ../../../frameworks/cmsis.rst:1468
+#: ../../../frameworks/cmsis.rst:1474 ../../../frameworks/cmsis.rst:1504
+#: ../../../frameworks/cmsis.rst:1540 ../../../frameworks/cmsis.rst:1582
+#: ../../../frameworks/cmsis.rst:1653 ../../../frameworks/cmsis.rst:1681
+#: ../../../frameworks/cmsis.rst:1688 ../../../frameworks/cmsis.rst:1737
+#: ../../../frameworks/cmsis.rst:1842 ../../../frameworks/cmsis.rst:1863
+#: ../../../frameworks/cmsis.rst:1870 ../../../frameworks/cmsis.rst:1877
+#: ../../../frameworks/cmsis.rst:1975 ../../../frameworks/cmsis.rst:2080
+#: ../../../frameworks/cmsis.rst:2143 ../../../frameworks/cmsis.rst:2423
+#: ../../../frameworks/cmsis.rst:2430 ../../../frameworks/cmsis.rst:2437
+#: ../../../frameworks/cmsis.rst:2444 ../../../frameworks/cmsis.rst:2563
+#: ../../../frameworks/cmsis.rst:2570 ../../../frameworks/cmsis.rst:2577
+#: ../../../frameworks/cmsis.rst:2612 ../../../frameworks/cmsis.rst:2822
+#: ../../../frameworks/cmsis.rst:2864 ../../../frameworks/cmsis.rst:2871
+#: ../../../frameworks/cmsis.rst:2878 ../../../frameworks/cmsis.rst:2962
+#: ../../../frameworks/cmsis.rst:3039 ../../../frameworks/cmsis.rst:3151
+#: ../../../frameworks/cmsis.rst:3158 ../../../frameworks/cmsis.rst:3165
+#: ../../../frameworks/cmsis.rst:3172 ../../../frameworks/cmsis.rst:3179
+#: ../../../frameworks/cmsis.rst:3690 ../../../frameworks/cmsis.rst:3830
+#: ../../../frameworks/cmsis.rst:3900 ../../../frameworks/cmsis.rst:3998
+msgid "168MHz"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:113 ../../../frameworks/cmsis.rst:143
+#: ../../../frameworks/cmsis.rst:160 ../../../frameworks/cmsis.rst:166
+#: ../../../frameworks/cmsis.rst:172 ../../../frameworks/cmsis.rst:178
+#: ../../../frameworks/cmsis.rst:185 ../../../frameworks/cmsis.rst:197
+#: ../../../frameworks/cmsis.rst:215 ../../../frameworks/cmsis.rst:263
+#: ../../../frameworks/cmsis.rst:274 ../../../frameworks/cmsis.rst:292
+#: ../../../frameworks/cmsis.rst:322 ../../../frameworks/cmsis.rst:328
+#: ../../../frameworks/cmsis.rst:340 ../../../frameworks/cmsis.rst:347
+#: ../../../frameworks/cmsis.rst:388 ../../../frameworks/cmsis.rst:395
+#: ../../../frameworks/cmsis.rst:425 ../../../frameworks/cmsis.rst:431
+#: ../../../frameworks/cmsis.rst:508 ../../../frameworks/cmsis.rst:514
+#: ../../../frameworks/cmsis.rst:545 ../../../frameworks/cmsis.rst:593
+#: ../../../frameworks/cmsis.rst:598 ../../../frameworks/cmsis.rst:616
+#: ../../../frameworks/cmsis.rst:622 ../../../frameworks/cmsis.rst:629
+#: ../../../frameworks/cmsis.rst:659 ../../../frameworks/cmsis.rst:684
+#: ../../../frameworks/cmsis.rst:690 ../../../frameworks/cmsis.rst:696
+#: ../../../frameworks/cmsis.rst:714 ../../../frameworks/cmsis.rst:726
+#: ../../../frameworks/cmsis.rst:731 ../../../frameworks/cmsis.rst:756
+#: ../../../frameworks/cmsis.rst:762 ../../../frameworks/cmsis.rst:768
+#: ../../../frameworks/cmsis.rst:774 ../../../frameworks/cmsis.rst:785
+#: ../../../frameworks/cmsis.rst:798 ../../../frameworks/cmsis.rst:815
+#: ../../../frameworks/cmsis.rst:852 ../../../frameworks/cmsis.rst:857
+#: ../../../frameworks/cmsis.rst:863 ../../../frameworks/cmsis.rst:869
+#: ../../../frameworks/cmsis.rst:875 ../../../frameworks/cmsis.rst:888
+#: ../../../frameworks/cmsis.rst:894 ../../../frameworks/cmsis.rst:900
+#: ../../../frameworks/cmsis.rst:906 ../../../frameworks/cmsis.rst:966
+#: ../../../frameworks/cmsis.rst:977 ../../../frameworks/cmsis.rst:989
+#: ../../../frameworks/cmsis.rst:996 ../../../frameworks/cmsis.rst:1001
+#: ../../../frameworks/cmsis.rst:1020 ../../../frameworks/cmsis.rst:1025
+#: ../../../frameworks/cmsis.rst:1032 ../../../frameworks/cmsis.rst:1037
+#: ../../../frameworks/cmsis.rst:1043 ../../../frameworks/cmsis.rst:1062
+#: ../../../frameworks/cmsis.rst:1080 ../../../frameworks/cmsis.rst:1086
+#: ../../../frameworks/cmsis.rst:1103 ../../../frameworks/cmsis.rst:1127
+#: ../../../frameworks/cmsis.rst:1151 ../../../frameworks/cmsis.rst:1205
+#: ../../../frameworks/cmsis.rst:1217 ../../../frameworks/cmsis.rst:1283
+#: ../../../frameworks/cmsis.rst:1295 ../../../frameworks/cmsis.rst:1319
+#: ../../../frameworks/cmsis.rst:1344 ../../../frameworks/cmsis.rst:1350
+#: ../../../frameworks/cmsis.rst:1356 ../../../frameworks/cmsis.rst:1362
+#: ../../../frameworks/cmsis.rst:1373 ../../../frameworks/cmsis.rst:1385
+#: ../../../frameworks/cmsis.rst:1392 ../../../frameworks/cmsis.rst:1398
+#: ../../../frameworks/cmsis.rst:1404 ../../../frameworks/cmsis.rst:1410
+#: ../../../frameworks/cmsis.rst:1464 ../../../frameworks/cmsis.rst:1470
+#: ../../../frameworks/cmsis.rst:1476 ../../../frameworks/cmsis.rst:1494
+#: ../../../frameworks/cmsis.rst:1500 ../../../frameworks/cmsis.rst:1506
+#: ../../../frameworks/cmsis.rst:1511 ../../../frameworks/cmsis.rst:1517
+#: ../../../frameworks/cmsis.rst:1535 ../../../frameworks/cmsis.rst:1542
+#: ../../../frameworks/cmsis.rst:1560 ../../../frameworks/cmsis.rst:1565
+#: ../../../frameworks/cmsis.rst:1572 ../../../frameworks/cmsis.rst:1584
+#: ../../../frameworks/cmsis.rst:1602 ../../../frameworks/cmsis.rst:1620
+#: ../../../frameworks/cmsis.rst:1655 ../../../frameworks/cmsis.rst:1683
+#: ../../../frameworks/cmsis.rst:1697 ../../../frameworks/cmsis.rst:1739
+#: ../../../frameworks/cmsis.rst:1759 ../../../frameworks/cmsis.rst:1844
+#: ../../../frameworks/cmsis.rst:1900 ../../../frameworks/cmsis.rst:1956
+#: ../../../frameworks/cmsis.rst:1977 ../../../frameworks/cmsis.rst:1997
+#: ../../../frameworks/cmsis.rst:2004 ../../../frameworks/cmsis.rst:2011
+#: ../../../frameworks/cmsis.rst:2032 ../../../frameworks/cmsis.rst:2061
+#: ../../../frameworks/cmsis.rst:2082 ../../../frameworks/cmsis.rst:2109
+#: ../../../frameworks/cmsis.rst:2130 ../../../frameworks/cmsis.rst:2145
+#: ../../../frameworks/cmsis.rst:2172 ../../../frameworks/cmsis.rst:2200
+#: ../../../frameworks/cmsis.rst:2263 ../../../frameworks/cmsis.rst:2277
+#: ../../../frameworks/cmsis.rst:2354 ../../../frameworks/cmsis.rst:2368
+#: ../../../frameworks/cmsis.rst:2396 ../../../frameworks/cmsis.rst:2425
+#: ../../../frameworks/cmsis.rst:2432 ../../../frameworks/cmsis.rst:2439
+#: ../../../frameworks/cmsis.rst:2446 ../../../frameworks/cmsis.rst:2459
+#: ../../../frameworks/cmsis.rst:2473 ../../../frameworks/cmsis.rst:2481
+#: ../../../frameworks/cmsis.rst:2488 ../../../frameworks/cmsis.rst:2495
+#: ../../../frameworks/cmsis.rst:2502 ../../../frameworks/cmsis.rst:2565
+#: ../../../frameworks/cmsis.rst:2572 ../../../frameworks/cmsis.rst:2579
+#: ../../../frameworks/cmsis.rst:2600 ../../../frameworks/cmsis.rst:2607
+#: ../../../frameworks/cmsis.rst:2614 ../../../frameworks/cmsis.rst:2620
+#: ../../../frameworks/cmsis.rst:2641 ../../../frameworks/cmsis.rst:2824
+#: ../../../frameworks/cmsis.rst:2844 ../../../frameworks/cmsis.rst:2858
+#: ../../../frameworks/cmsis.rst:2866 ../../../frameworks/cmsis.rst:2873
+#: ../../../frameworks/cmsis.rst:2880 ../../../frameworks/cmsis.rst:2900
+#: ../../../frameworks/cmsis.rst:2922 ../../../frameworks/cmsis.rst:2942
+#: ../../../frameworks/cmsis.rst:2964 ../../../frameworks/cmsis.rst:2984
+#: ../../../frameworks/cmsis.rst:2991 ../../../frameworks/cmsis.rst:3013
+#: ../../../frameworks/cmsis.rst:3041 ../../../frameworks/cmsis.rst:3111
+#: ../../../frameworks/cmsis.rst:3153 ../../../frameworks/cmsis.rst:3160
+#: ../../../frameworks/cmsis.rst:3167 ../../../frameworks/cmsis.rst:3174
+#: ../../../frameworks/cmsis.rst:3181 ../../../frameworks/cmsis.rst:3194
+#: ../../../frameworks/cmsis.rst:3201 ../../../frameworks/cmsis.rst:3208
+#: ../../../frameworks/cmsis.rst:3215 ../../../frameworks/cmsis.rst:3223
+#: ../../../frameworks/cmsis.rst:3251 ../../../frameworks/cmsis.rst:3307
+#: ../../../frameworks/cmsis.rst:3320 ../../../frameworks/cmsis.rst:3341
+#: ../../../frameworks/cmsis.rst:3376 ../../../frameworks/cmsis.rst:3383
+#: ../../../frameworks/cmsis.rst:3397 ../../../frameworks/cmsis.rst:3405
+#: ../../../frameworks/cmsis.rst:3453 ../../../frameworks/cmsis.rst:3461
+#: ../../../frameworks/cmsis.rst:3496 ../../../frameworks/cmsis.rst:3503
+#: ../../../frameworks/cmsis.rst:3593 ../../../frameworks/cmsis.rst:3600
+#: ../../../frameworks/cmsis.rst:3636 ../../../frameworks/cmsis.rst:3692
+#: ../../../frameworks/cmsis.rst:3705 ../../../frameworks/cmsis.rst:3726
+#: ../../../frameworks/cmsis.rst:3733 ../../../frameworks/cmsis.rst:3761
+#: ../../../frameworks/cmsis.rst:3775 ../../../frameworks/cmsis.rst:3880
+#: ../../../frameworks/cmsis.rst:3902 ../../../frameworks/cmsis.rst:3951
+#: ../../../frameworks/cmsis.rst:3972 ../../../frameworks/cmsis.rst:4000
+#: ../../../frameworks/cmsis.rst:4049 ../../../frameworks/cmsis.rst:4070
+#: ../../../frameworks/cmsis.rst:4091 ../../../frameworks/cmsis.rst:4112
+msgid "128KB"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:114 ../../../frameworks/cmsis.rst:1817
+msgid ":ref:`board_renesas-ra_uno_r4_wifi`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:116 ../../../frameworks/cmsis.rst:735
+#: ../../../frameworks/cmsis.rst:747 ../../../frameworks/cmsis.rst:1799
+#: ../../../frameworks/cmsis.rst:1813 ../../../frameworks/cmsis.rst:1820
+msgid "RA4M1"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:117 ../../../frameworks/cmsis.rst:291
+#: ../../../frameworks/cmsis.rst:303 ../../../frameworks/cmsis.rst:309
+#: ../../../frameworks/cmsis.rst:315 ../../../frameworks/cmsis.rst:321
+#: ../../../frameworks/cmsis.rst:327 ../../../frameworks/cmsis.rst:333
+#: ../../../frameworks/cmsis.rst:573 ../../../frameworks/cmsis.rst:579
+#: ../../../frameworks/cmsis.rst:736 ../../../frameworks/cmsis.rst:748
+#: ../../../frameworks/cmsis.rst:838 ../../../frameworks/cmsis.rst:874
+#: ../../../frameworks/cmsis.rst:880 ../../../frameworks/cmsis.rst:910
+#: ../../../frameworks/cmsis.rst:916 ../../../frameworks/cmsis.rst:1000
+#: ../../../frameworks/cmsis.rst:1102 ../../../frameworks/cmsis.rst:1624
+#: ../../../frameworks/cmsis.rst:1779 ../../../frameworks/cmsis.rst:1800
+#: ../../../frameworks/cmsis.rst:1814 ../../../frameworks/cmsis.rst:1821
+#: ../../../frameworks/cmsis.rst:2031 ../../../frameworks/cmsis.rst:2038
+#: ../../../frameworks/cmsis.rst:2136 ../../../frameworks/cmsis.rst:2745
+#: ../../../frameworks/cmsis.rst:2752 ../../../frameworks/cmsis.rst:2899
+#: ../../../frameworks/cmsis.rst:3340 ../../../frameworks/cmsis.rst:3354
+#: ../../../frameworks/cmsis.rst:3361 ../../../frameworks/cmsis.rst:3368
+#: ../../../frameworks/cmsis.rst:3375 ../../../frameworks/cmsis.rst:3382
+#: ../../../frameworks/cmsis.rst:3389 ../../../frameworks/cmsis.rst:3669
+#: ../../../frameworks/cmsis.rst:3676 ../../../frameworks/cmsis.rst:3760
+msgid "48MHz"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:119 ../../../frameworks/cmsis.rst:173
+#: ../../../frameworks/cmsis.rst:179 ../../../frameworks/cmsis.rst:275
+#: ../../../frameworks/cmsis.rst:310 ../../../frameworks/cmsis.rst:316
+#: ../../../frameworks/cmsis.rst:335 ../../../frameworks/cmsis.rst:389
+#: ../../../frameworks/cmsis.rst:484 ../../../frameworks/cmsis.rst:738
+#: ../../../frameworks/cmsis.rst:750 ../../../frameworks/cmsis.rst:803
+#: ../../../frameworks/cmsis.rst:960 ../../../frameworks/cmsis.rst:972
+#: ../../../frameworks/cmsis.rst:1044 ../../../frameworks/cmsis.rst:1067
+#: ../../../frameworks/cmsis.rst:1098 ../../../frameworks/cmsis.rst:1115
+#: ../../../frameworks/cmsis.rst:1139 ../../../frameworks/cmsis.rst:1193
+#: ../../../frameworks/cmsis.rst:1284 ../../../frameworks/cmsis.rst:1290
+#: ../../../frameworks/cmsis.rst:1368 ../../../frameworks/cmsis.rst:1374
+#: ../../../frameworks/cmsis.rst:1380 ../../../frameworks/cmsis.rst:1386
+#: ../../../frameworks/cmsis.rst:1512 ../../../frameworks/cmsis.rst:1625
+#: ../../../frameworks/cmsis.rst:1780 ../../../frameworks/cmsis.rst:1802
+#: ../../../frameworks/cmsis.rst:1816 ../../../frameworks/cmsis.rst:1823
+#: ../../../frameworks/cmsis.rst:2116 ../../../frameworks/cmsis.rst:2158
+#: ../../../frameworks/cmsis.rst:2186 ../../../frameworks/cmsis.rst:2249
+#: ../../../frameworks/cmsis.rst:2355 ../../../frameworks/cmsis.rst:2362
+#: ../../../frameworks/cmsis.rst:2453 ../../../frameworks/cmsis.rst:2460
+#: ../../../frameworks/cmsis.rst:2467 ../../../frameworks/cmsis.rst:2474
+#: ../../../frameworks/cmsis.rst:2803 ../../../frameworks/cmsis.rst:2992
+#: ../../../frameworks/cmsis.rst:3209 ../../../frameworks/cmsis.rst:3216
+#: ../../../frameworks/cmsis.rst:3321 ../../../frameworks/cmsis.rst:3362
+#: ../../../frameworks/cmsis.rst:3369 ../../../frameworks/cmsis.rst:3391
+#: ../../../frameworks/cmsis.rst:3454 ../../../frameworks/cmsis.rst:3565
+#: ../../../frameworks/cmsis.rst:3698 ../../../frameworks/cmsis.rst:3755
+#: ../../../frameworks/cmsis.rst:3776 ../../../frameworks/cmsis.rst:3860
+msgid "32KB"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:120 ../../../frameworks/cmsis.rst:1859
+msgid ":ref:`board_ststm32_armstrap_eagle1024`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:122 ../../../frameworks/cmsis.rst:1473
+#: ../../../frameworks/cmsis.rst:1862 ../../../frameworks/cmsis.rst:2576
+msgid "STM32F417VGT6"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:126 ../../../frameworks/cmsis.rst:1866
+msgid ":ref:`board_ststm32_armstrap_eagle2048`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:128 ../../../frameworks/cmsis.rst:705
+#: ../../../frameworks/cmsis.rst:1687 ../../../frameworks/cmsis.rst:1869
+msgid "STM32F427VIT6"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:130 ../../../frameworks/cmsis.rst:707
+#: ../../../frameworks/cmsis.rst:1689 ../../../frameworks/cmsis.rst:1871
+msgid "1.99MB"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:132 ../../../frameworks/cmsis.rst:1873
+msgid ":ref:`board_ststm32_armstrap_eagle512`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:134 ../../../frameworks/cmsis.rst:644
+#: ../../../frameworks/cmsis.rst:687 ../../../frameworks/cmsis.rst:753
+#: ../../../frameworks/cmsis.rst:795 ../../../frameworks/cmsis.rst:897
+#: ../../../frameworks/cmsis.rst:1029 ../../../frameworks/cmsis.rst:1059
+#: ../../../frameworks/cmsis.rst:1353 ../../../frameworks/cmsis.rst:1841
+#: ../../../frameworks/cmsis.rst:1876 ../../../frameworks/cmsis.rst:2142
+#: ../../../frameworks/cmsis.rst:2436 ../../../frameworks/cmsis.rst:2961
+#: ../../../frameworks/cmsis.rst:3038 ../../../frameworks/cmsis.rst:3150
+#: ../../../frameworks/cmsis.rst:3178 ../../../frameworks/cmsis.rst:3829
+msgid "STM32F407VET6"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:138 ../../../frameworks/cmsis.rst:4085
+msgid ":ref:`board_ststm32_rhombio_l476dmw1k`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:140 ../../../frameworks/cmsis.rst:260
+#: ../../../frameworks/cmsis.rst:3304 ../../../frameworks/cmsis.rst:4088
+msgid "STM32L476VGT6"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:141 ../../../frameworks/cmsis.rst:147
+#: ../../../frameworks/cmsis.rst:195 ../../../frameworks/cmsis.rst:261
+#: ../../../frameworks/cmsis.rst:267 ../../../frameworks/cmsis.rst:279
+#: ../../../frameworks/cmsis.rst:507 ../../../frameworks/cmsis.rst:513
+#: ../../../frameworks/cmsis.rst:519 ../../../frameworks/cmsis.rst:525
+#: ../../../frameworks/cmsis.rst:531 ../../../frameworks/cmsis.rst:537
+#: ../../../frameworks/cmsis.rst:543 ../../../frameworks/cmsis.rst:549
+#: ../../../frameworks/cmsis.rst:555 ../../../frameworks/cmsis.rst:567
+#: ../../../frameworks/cmsis.rst:609 ../../../frameworks/cmsis.rst:627
+#: ../../../frameworks/cmsis.rst:820 ../../../frameworks/cmsis.rst:1898
+#: ../../../frameworks/cmsis.rst:1919 ../../../frameworks/cmsis.rst:2703
+#: ../../../frameworks/cmsis.rst:3109 ../../../frameworks/cmsis.rst:3305
+#: ../../../frameworks/cmsis.rst:3312 ../../../frameworks/cmsis.rst:3326
+#: ../../../frameworks/cmsis.rst:3592 ../../../frameworks/cmsis.rst:3599
+#: ../../../frameworks/cmsis.rst:3606 ../../../frameworks/cmsis.rst:3613
+#: ../../../frameworks/cmsis.rst:3620 ../../../frameworks/cmsis.rst:3627
+#: ../../../frameworks/cmsis.rst:3634 ../../../frameworks/cmsis.rst:3641
+#: ../../../frameworks/cmsis.rst:3648 ../../../frameworks/cmsis.rst:3662
+#: ../../../frameworks/cmsis.rst:3718 ../../../frameworks/cmsis.rst:4089
+msgid "80MHz"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:144 ../../../frameworks/cmsis.rst:2699
+msgid ":ref:`board_ststm32_leafony_ap03`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:146 ../../../frameworks/cmsis.rst:530
+#: ../../../frameworks/cmsis.rst:2702 ../../../frameworks/cmsis.rst:3619
+msgid "STM32L452RET6"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:149 ../../../frameworks/cmsis.rst:533
+#: ../../../frameworks/cmsis.rst:2705 ../../../frameworks/cmsis.rst:3622
+msgid "160KB"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:150 ../../../frameworks/cmsis.rst:2720
+msgid ":ref:`board_ststm32_mxchip_az3166`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:156 ../../../frameworks/cmsis.rst:3189
+msgid ":ref:`board_ststm32_nucleo_g070rb`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:158 ../../../frameworks/cmsis.rst:3192
+msgid "STM32G070RBT6"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:159 ../../../frameworks/cmsis.rst:165
+#: ../../../frameworks/cmsis.rst:297 ../../../frameworks/cmsis.rst:597
+#: ../../../frameworks/cmsis.rst:1066 ../../../frameworks/cmsis.rst:1534
+#: ../../../frameworks/cmsis.rst:3193 ../../../frameworks/cmsis.rst:3200
+#: ../../../frameworks/cmsis.rst:3347 ../../../frameworks/cmsis.rst:3697
+#: ../../../frameworks/cmsis.rst:3704 ../../../frameworks/cmsis.rst:3879
+msgid "64MHz"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:161 ../../../frameworks/cmsis.rst:167
+#: ../../../frameworks/cmsis.rst:599 ../../../frameworks/cmsis.rst:1536
+#: ../../../frameworks/cmsis.rst:3195 ../../../frameworks/cmsis.rst:3202
+#: ../../../frameworks/cmsis.rst:3706 ../../../frameworks/cmsis.rst:3881
+msgid "36KB"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:162 ../../../frameworks/cmsis.rst:3196
+msgid ":ref:`board_ststm32_nucleo_g071rb`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:164 ../../../frameworks/cmsis.rst:596
+#: ../../../frameworks/cmsis.rst:1533 ../../../frameworks/cmsis.rst:3199
+#: ../../../frameworks/cmsis.rst:3703 ../../../frameworks/cmsis.rst:3878
+msgid "STM32G071RBT6"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:168 ../../../frameworks/cmsis.rst:3203
+msgid ":ref:`board_ststm32_nucleo_g431kb`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:170 ../../../frameworks/cmsis.rst:3206
+msgid "STM32G431KBT6"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:171 ../../../frameworks/cmsis.rst:177
+#: ../../../frameworks/cmsis.rst:183 ../../../frameworks/cmsis.rst:273
+#: ../../../frameworks/cmsis.rst:1510 ../../../frameworks/cmsis.rst:3207
+#: ../../../frameworks/cmsis.rst:3214 ../../../frameworks/cmsis.rst:3221
+#: ../../../frameworks/cmsis.rst:3319 ../../../frameworks/cmsis.rst:3774
+msgid "170MHz"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:174 ../../../frameworks/cmsis.rst:3210
+msgid ":ref:`board_ststm32_nucleo_g431rb`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:176 ../../../frameworks/cmsis.rst:3213
+msgid "STM32G431RBT6"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:180 ../../../frameworks/cmsis.rst:3217
+msgid ":ref:`board_ststm32_nucleo_g474re`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:182 ../../../frameworks/cmsis.rst:3220
+msgid "STM32G474RET6"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:186 ../../../frameworks/cmsis.rst:3098
+msgid ":ref:`board_ststm32_cloud_jam`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:188 ../../../frameworks/cmsis.rst:380
+#: ../../../frameworks/cmsis.rst:1335 ../../../frameworks/cmsis.rst:2415
+#: ../../../frameworks/cmsis.rst:3101 ../../../frameworks/cmsis.rst:3444
+msgid "STM32F401RET6"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:192 ../../../frameworks/cmsis.rst:3105
+msgid ":ref:`board_ststm32_cloud_jam_l4`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:194 ../../../frameworks/cmsis.rst:536
+#: ../../../frameworks/cmsis.rst:3108 ../../../frameworks/cmsis.rst:3626
+msgid "STM32L476RGT6"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:198 ../../../frameworks/cmsis.rst:3231
+msgid ":ref:`board_ststm32_disco_f334c8`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:200 ../../../frameworks/cmsis.rst:3234
+msgid "STM32F334C8T6"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:201 ../../../frameworks/cmsis.rst:339
+#: ../../../frameworks/cmsis.rst:351 ../../../frameworks/cmsis.rst:357
+#: ../../../frameworks/cmsis.rst:363 ../../../frameworks/cmsis.rst:369
+#: ../../../frameworks/cmsis.rst:375 ../../../frameworks/cmsis.rst:585
+#: ../../../frameworks/cmsis.rst:730 ../../../frameworks/cmsis.rst:778
+#: ../../../frameworks/cmsis.rst:784 ../../../frameworks/cmsis.rst:790
+#: ../../../frameworks/cmsis.rst:802 ../../../frameworks/cmsis.rst:808
+#: ../../../frameworks/cmsis.rst:814 ../../../frameworks/cmsis.rst:922
+#: ../../../frameworks/cmsis.rst:928 ../../../frameworks/cmsis.rst:934
+#: ../../../frameworks/cmsis.rst:940 ../../../frameworks/cmsis.rst:946
+#: ../../../frameworks/cmsis.rst:952 ../../../frameworks/cmsis.rst:976
+#: ../../../frameworks/cmsis.rst:982 ../../../frameworks/cmsis.rst:988
+#: ../../../frameworks/cmsis.rst:1054 ../../../frameworks/cmsis.rst:1090
+#: ../../../frameworks/cmsis.rst:1096 ../../../frameworks/cmsis.rst:1108
+#: ../../../frameworks/cmsis.rst:1114 ../../../frameworks/cmsis.rst:1120
+#: ../../../frameworks/cmsis.rst:1126 ../../../frameworks/cmsis.rst:1132
+#: ../../../frameworks/cmsis.rst:1138 ../../../frameworks/cmsis.rst:1144
+#: ../../../frameworks/cmsis.rst:1150 ../../../frameworks/cmsis.rst:1156
+#: ../../../frameworks/cmsis.rst:1162 ../../../frameworks/cmsis.rst:1168
+#: ../../../frameworks/cmsis.rst:1174 ../../../frameworks/cmsis.rst:1180
+#: ../../../frameworks/cmsis.rst:1186 ../../../frameworks/cmsis.rst:1192
+#: ../../../frameworks/cmsis.rst:1198 ../../../frameworks/cmsis.rst:1204
+#: ../../../frameworks/cmsis.rst:1210 ../../../frameworks/cmsis.rst:1216
+#: ../../../frameworks/cmsis.rst:1222 ../../../frameworks/cmsis.rst:1228
+#: ../../../frameworks/cmsis.rst:1234 ../../../frameworks/cmsis.rst:1240
+#: ../../../frameworks/cmsis.rst:1246 ../../../frameworks/cmsis.rst:1252
+#: ../../../frameworks/cmsis.rst:1258 ../../../frameworks/cmsis.rst:1264
+#: ../../../frameworks/cmsis.rst:1270 ../../../frameworks/cmsis.rst:1276
+#: ../../../frameworks/cmsis.rst:1282 ../../../frameworks/cmsis.rst:1288
+#: ../../../frameworks/cmsis.rst:1522 ../../../frameworks/cmsis.rst:1546
+#: ../../../frameworks/cmsis.rst:1564 ../../../frameworks/cmsis.rst:1576
+#: ../../../frameworks/cmsis.rst:1588 ../../../frameworks/cmsis.rst:1758
+#: ../../../frameworks/cmsis.rst:2101 ../../../frameworks/cmsis.rst:2108
+#: ../../../frameworks/cmsis.rst:2115 ../../../frameworks/cmsis.rst:2122
+#: ../../../frameworks/cmsis.rst:2129 ../../../frameworks/cmsis.rst:2150
+#: ../../../frameworks/cmsis.rst:2157 ../../../frameworks/cmsis.rst:2164
+#: ../../../frameworks/cmsis.rst:2171 ../../../frameworks/cmsis.rst:2178
+#: ../../../frameworks/cmsis.rst:2185 ../../../frameworks/cmsis.rst:2192
+#: ../../../frameworks/cmsis.rst:2199 ../../../frameworks/cmsis.rst:2206
+#: ../../../frameworks/cmsis.rst:2213 ../../../frameworks/cmsis.rst:2220
+#: ../../../frameworks/cmsis.rst:2227 ../../../frameworks/cmsis.rst:2234
+#: ../../../frameworks/cmsis.rst:2241 ../../../frameworks/cmsis.rst:2248
+#: ../../../frameworks/cmsis.rst:2255 ../../../frameworks/cmsis.rst:2262
+#: ../../../frameworks/cmsis.rst:2269 ../../../frameworks/cmsis.rst:2276
+#: ../../../frameworks/cmsis.rst:2283 ../../../frameworks/cmsis.rst:2290
+#: ../../../frameworks/cmsis.rst:2297 ../../../frameworks/cmsis.rst:2304
+#: ../../../frameworks/cmsis.rst:2311 ../../../frameworks/cmsis.rst:2318
+#: ../../../frameworks/cmsis.rst:2325 ../../../frameworks/cmsis.rst:2332
+#: ../../../frameworks/cmsis.rst:2339 ../../../frameworks/cmsis.rst:2346
+#: ../../../frameworks/cmsis.rst:2353 ../../../frameworks/cmsis.rst:2360
+#: ../../../frameworks/cmsis.rst:2640 ../../../frameworks/cmsis.rst:2661
+#: ../../../frameworks/cmsis.rst:2668 ../../../frameworks/cmsis.rst:2675
+#: ../../../frameworks/cmsis.rst:2682 ../../../frameworks/cmsis.rst:2759
+#: ../../../frameworks/cmsis.rst:2780 ../../../frameworks/cmsis.rst:2843
+#: ../../../frameworks/cmsis.rst:2850 ../../../frameworks/cmsis.rst:2857
+#: ../../../frameworks/cmsis.rst:3032 ../../../frameworks/cmsis.rst:3081
+#: ../../../frameworks/cmsis.rst:3235 ../../../frameworks/cmsis.rst:3396
+#: ../../../frameworks/cmsis.rst:3410 ../../../frameworks/cmsis.rst:3417
+#: ../../../frameworks/cmsis.rst:3424 ../../../frameworks/cmsis.rst:3431
+#: ../../../frameworks/cmsis.rst:3438 ../../../frameworks/cmsis.rst:3683
+#: ../../../frameworks/cmsis.rst:3746 ../../../frameworks/cmsis.rst:3753
+#: ../../../frameworks/cmsis.rst:3809 ../../../frameworks/cmsis.rst:3921
+#: ../../../frameworks/cmsis.rst:3991 ../../../frameworks/cmsis.rst:4019
+msgid "72MHz"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:202 ../../../frameworks/cmsis.rst:209
+#: ../../../frameworks/cmsis.rst:250 ../../../frameworks/cmsis.rst:298
+#: ../../../frameworks/cmsis.rst:304 ../../../frameworks/cmsis.rst:352
+#: ../../../frameworks/cmsis.rst:358 ../../../frameworks/cmsis.rst:365
+#: ../../../frameworks/cmsis.rst:371 ../../../frameworks/cmsis.rst:376
+#: ../../../frameworks/cmsis.rst:490 ../../../frameworks/cmsis.rst:521
+#: ../../../frameworks/cmsis.rst:527 ../../../frameworks/cmsis.rst:574
+#: ../../../frameworks/cmsis.rst:580 ../../../frameworks/cmsis.rst:634
+#: ../../../frameworks/cmsis.rst:779 ../../../frameworks/cmsis.rst:809
+#: ../../../frameworks/cmsis.rst:822 ../../../frameworks/cmsis.rst:834
+#: ../../../frameworks/cmsis.rst:881 ../../../frameworks/cmsis.rst:1049
+#: ../../../frameworks/cmsis.rst:1056 ../../../frameworks/cmsis.rst:1074
+#: ../../../frameworks/cmsis.rst:1092 ../../../frameworks/cmsis.rst:1121
+#: ../../../frameworks/cmsis.rst:1145 ../../../frameworks/cmsis.rst:1164
+#: ../../../frameworks/cmsis.rst:1170 ../../../frameworks/cmsis.rst:1199
+#: ../../../frameworks/cmsis.rst:1211 ../../../frameworks/cmsis.rst:1230
+#: ../../../frameworks/cmsis.rst:1236 ../../../frameworks/cmsis.rst:1260
+#: ../../../frameworks/cmsis.rst:1266 ../../../frameworks/cmsis.rst:1296
+#: ../../../frameworks/cmsis.rst:1302 ../../../frameworks/cmsis.rst:1320
+#: ../../../frameworks/cmsis.rst:1326 ../../../frameworks/cmsis.rst:1367
+#: ../../../frameworks/cmsis.rst:1379 ../../../frameworks/cmsis.rst:1578
+#: ../../../frameworks/cmsis.rst:1590 ../../../frameworks/cmsis.rst:1596
+#: ../../../frameworks/cmsis.rst:1921 ../../../frameworks/cmsis.rst:2039
+#: ../../../frameworks/cmsis.rst:2102 ../../../frameworks/cmsis.rst:2123
+#: ../../../frameworks/cmsis.rst:2165 ../../../frameworks/cmsis.rst:2193
+#: ../../../frameworks/cmsis.rst:2215 ../../../frameworks/cmsis.rst:2222
+#: ../../../frameworks/cmsis.rst:2256 ../../../frameworks/cmsis.rst:2270
+#: ../../../frameworks/cmsis.rst:2292 ../../../frameworks/cmsis.rst:2299
+#: ../../../frameworks/cmsis.rst:2327 ../../../frameworks/cmsis.rst:2334
+#: ../../../frameworks/cmsis.rst:2369 ../../../frameworks/cmsis.rst:2376
+#: ../../../frameworks/cmsis.rst:2397 ../../../frameworks/cmsis.rst:2404
+#: ../../../frameworks/cmsis.rst:2452 ../../../frameworks/cmsis.rst:2466
+#: ../../../frameworks/cmsis.rst:3034 ../../../frameworks/cmsis.rst:3188
+#: ../../../frameworks/cmsis.rst:3229 ../../../frameworks/cmsis.rst:3236
+#: ../../../frameworks/cmsis.rst:3244 ../../../frameworks/cmsis.rst:3292
+#: ../../../frameworks/cmsis.rst:3348 ../../../frameworks/cmsis.rst:3355
+#: ../../../frameworks/cmsis.rst:3411 ../../../frameworks/cmsis.rst:3418
+#: ../../../frameworks/cmsis.rst:3426 ../../../frameworks/cmsis.rst:3433
+#: ../../../frameworks/cmsis.rst:3439 ../../../frameworks/cmsis.rst:3572
+#: ../../../frameworks/cmsis.rst:3608 ../../../frameworks/cmsis.rst:3615
+#: ../../../frameworks/cmsis.rst:3670 ../../../frameworks/cmsis.rst:3677
+#: ../../../frameworks/cmsis.rst:3741 ../../../frameworks/cmsis.rst:3748
+#: ../../../frameworks/cmsis.rst:3768 ../../../frameworks/cmsis.rst:3993
+#: ../../../frameworks/cmsis.rst:4021 ../../../frameworks/cmsis.rst:4042
+msgid "64KB"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:203 ../../../frameworks/cmsis.rst:359
+#: ../../../frameworks/cmsis.rst:3237 ../../../frameworks/cmsis.rst:3419
+msgid "12KB"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:204 ../../../frameworks/cmsis.rst:3238
+msgid ":ref:`board_ststm32_disco_f401vc`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:206 ../../../frameworks/cmsis.rst:3241
+msgid "STM32F401VCT6"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:210 ../../../frameworks/cmsis.rst:3245
+msgid ":ref:`board_ststm32_disco_f411ve`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:212 ../../../frameworks/cmsis.rst:3248
+msgid "STM32F411VET6"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:216 ../../../frameworks/cmsis.rst:3252
+msgid ":ref:`board_ststm32_disco_f413zh`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:218 ../../../frameworks/cmsis.rst:404
+#: ../../../frameworks/cmsis.rst:3255 ../../../frameworks/cmsis.rst:3472
+msgid "STM32F413ZHT6"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:220 ../../../frameworks/cmsis.rst:406
+#: ../../../frameworks/cmsis.rst:1445 ../../../frameworks/cmsis.rst:1457
+#: ../../../frameworks/cmsis.rst:1481 ../../../frameworks/cmsis.rst:1487
+#: ../../../frameworks/cmsis.rst:2543 ../../../frameworks/cmsis.rst:2557
+#: ../../../frameworks/cmsis.rst:2585 ../../../frameworks/cmsis.rst:2592
+#: ../../../frameworks/cmsis.rst:3257 ../../../frameworks/cmsis.rst:3474
+msgid "1.50MB"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:221 ../../../frameworks/cmsis.rst:239
+#: ../../../frameworks/cmsis.rst:269 ../../../frameworks/cmsis.rst:407
+#: ../../../frameworks/cmsis.rst:443 ../../../frameworks/cmsis.rst:449
+#: ../../../frameworks/cmsis.rst:551 ../../../frameworks/cmsis.rst:557
+#: ../../../frameworks/cmsis.rst:1440 ../../../frameworks/cmsis.rst:1446
+#: ../../../frameworks/cmsis.rst:1452 ../../../frameworks/cmsis.rst:1458
+#: ../../../frameworks/cmsis.rst:1482 ../../../frameworks/cmsis.rst:1488
+#: ../../../frameworks/cmsis.rst:2537 ../../../frameworks/cmsis.rst:2544
+#: ../../../frameworks/cmsis.rst:2551 ../../../frameworks/cmsis.rst:2558
+#: ../../../frameworks/cmsis.rst:2586 ../../../frameworks/cmsis.rst:2593
+#: ../../../frameworks/cmsis.rst:3258 ../../../frameworks/cmsis.rst:3279
+#: ../../../frameworks/cmsis.rst:3314 ../../../frameworks/cmsis.rst:3475
+#: ../../../frameworks/cmsis.rst:3517 ../../../frameworks/cmsis.rst:3524
+#: ../../../frameworks/cmsis.rst:3643 ../../../frameworks/cmsis.rst:3650
+msgid "320KB"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:222 ../../../frameworks/cmsis.rst:3259
+msgid ":ref:`board_ststm32_disco_f429zi`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:224 ../../../frameworks/cmsis.rst:410
+#: ../../../frameworks/cmsis.rst:3262 ../../../frameworks/cmsis.rst:3479
+msgid "STM32F429ZIT6"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:225 ../../../frameworks/cmsis.rst:231
+#: ../../../frameworks/cmsis.rst:411 ../../../frameworks/cmsis.rst:417
+#: ../../../frameworks/cmsis.rst:423 ../../../frameworks/cmsis.rst:429
+#: ../../../frameworks/cmsis.rst:651 ../../../frameworks/cmsis.rst:694
+#: ../../../frameworks/cmsis.rst:1492 ../../../frameworks/cmsis.rst:1498
+#: ../../../frameworks/cmsis.rst:1570 ../../../frameworks/cmsis.rst:2598
+#: ../../../frameworks/cmsis.rst:2605 ../../../frameworks/cmsis.rst:3011
+#: ../../../frameworks/cmsis.rst:3263 ../../../frameworks/cmsis.rst:3270
+#: ../../../frameworks/cmsis.rst:3480 ../../../frameworks/cmsis.rst:3487
+#: ../../../frameworks/cmsis.rst:3494 ../../../frameworks/cmsis.rst:3501
+#: ../../../frameworks/cmsis.rst:3837 ../../../frameworks/cmsis.rst:3970
+msgid "180MHz"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:228 ../../../frameworks/cmsis.rst:3266
+msgid ":ref:`board_ststm32_disco_f469ni`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:230 ../../../frameworks/cmsis.rst:3269
+msgid "STM32F469NIH6"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:233 ../../../frameworks/cmsis.rst:1163
+#: ../../../frameworks/cmsis.rst:1229 ../../../frameworks/cmsis.rst:1259
+#: ../../../frameworks/cmsis.rst:1307 ../../../frameworks/cmsis.rst:1331
+#: ../../../frameworks/cmsis.rst:2214 ../../../frameworks/cmsis.rst:2291
+#: ../../../frameworks/cmsis.rst:2326 ../../../frameworks/cmsis.rst:2382
+#: ../../../frameworks/cmsis.rst:2410 ../../../frameworks/cmsis.rst:3272
+msgid "384KB"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:234 ../../../frameworks/cmsis.rst:3273
+msgid ":ref:`board_ststm32_disco_f746ng`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:236 ../../../frameworks/cmsis.rst:3276
+msgid "STM32F746NGH6"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:240 ../../../frameworks/cmsis.rst:3280
+msgid ":ref:`board_ststm32_disco_f769ni`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:242 ../../../frameworks/cmsis.rst:3283
+msgid "STM32F769NIH6"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:246 ../../../frameworks/cmsis.rst:3287
+msgid ":ref:`board_ststm32_disco_l053c8`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:248 ../../../frameworks/cmsis.rst:3290
+msgid "STM32L053C8T6"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:249 ../../../frameworks/cmsis.rst:255
+#: ../../../frameworks/cmsis.rst:285 ../../../frameworks/cmsis.rst:477
+#: ../../../frameworks/cmsis.rst:483 ../../../frameworks/cmsis.rst:489
+#: ../../../frameworks/cmsis.rst:495 ../../../frameworks/cmsis.rst:501
+#: ../../../frameworks/cmsis.rst:603 ../../../frameworks/cmsis.rst:615
+#: ../../../frameworks/cmsis.rst:718 ../../../frameworks/cmsis.rst:958
+#: ../../../frameworks/cmsis.rst:970 ../../../frameworks/cmsis.rst:1024
+#: ../../../frameworks/cmsis.rst:1036 ../../../frameworks/cmsis.rst:1042
+#: ../../../frameworks/cmsis.rst:1048 ../../../frameworks/cmsis.rst:1552
+#: ../../../frameworks/cmsis.rst:1716 ../../../frameworks/cmsis.rst:2801
+#: ../../../frameworks/cmsis.rst:2941 ../../../frameworks/cmsis.rst:2983
+#: ../../../frameworks/cmsis.rst:2990 ../../../frameworks/cmsis.rst:3228
+#: ../../../frameworks/cmsis.rst:3291 ../../../frameworks/cmsis.rst:3298
+#: ../../../frameworks/cmsis.rst:3333 ../../../frameworks/cmsis.rst:3557
+#: ../../../frameworks/cmsis.rst:3564 ../../../frameworks/cmsis.rst:3571
+#: ../../../frameworks/cmsis.rst:3578 ../../../frameworks/cmsis.rst:3585
+#: ../../../frameworks/cmsis.rst:3711 ../../../frameworks/cmsis.rst:3725
+#: ../../../frameworks/cmsis.rst:3858 ../../../frameworks/cmsis.rst:3942
+msgid "32MHz"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:251 ../../../frameworks/cmsis.rst:299
+#: ../../../frameworks/cmsis.rst:305 ../../../frameworks/cmsis.rst:485
+#: ../../../frameworks/cmsis.rst:491 ../../../frameworks/cmsis.rst:575
+#: ../../../frameworks/cmsis.rst:581 ../../../frameworks/cmsis.rst:623
+#: ../../../frameworks/cmsis.rst:1050 ../../../frameworks/cmsis.rst:1068
+#: ../../../frameworks/cmsis.rst:3230 ../../../frameworks/cmsis.rst:3293
+#: ../../../frameworks/cmsis.rst:3349 ../../../frameworks/cmsis.rst:3356
+#: ../../../frameworks/cmsis.rst:3566 ../../../frameworks/cmsis.rst:3573
+#: ../../../frameworks/cmsis.rst:3671 ../../../frameworks/cmsis.rst:3678
+#: ../../../frameworks/cmsis.rst:3699 ../../../frameworks/cmsis.rst:3734
+msgid "8KB"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:252 ../../../frameworks/cmsis.rst:3294
+msgid ":ref:`board_ststm32_disco_l100rc`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:254 ../../../frameworks/cmsis.rst:3297
+msgid "STM32L100RCT6"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:257 ../../../frameworks/cmsis.rst:293
+#: ../../../frameworks/cmsis.rst:323 ../../../frameworks/cmsis.rst:329
+#: ../../../frameworks/cmsis.rst:353 ../../../frameworks/cmsis.rst:377
+#: ../../../frameworks/cmsis.rst:478 ../../../frameworks/cmsis.rst:617
+#: ../../../frameworks/cmsis.rst:839 ../../../frameworks/cmsis.rst:876
+#: ../../../frameworks/cmsis.rst:882 ../../../frameworks/cmsis.rst:1002
+#: ../../../frameworks/cmsis.rst:1038 ../../../frameworks/cmsis.rst:1104
+#: ../../../frameworks/cmsis.rst:1109 ../../../frameworks/cmsis.rst:1133
+#: ../../../frameworks/cmsis.rst:1187 ../../../frameworks/cmsis.rst:2033
+#: ../../../frameworks/cmsis.rst:2040 ../../../frameworks/cmsis.rst:2137
+#: ../../../frameworks/cmsis.rst:2151 ../../../frameworks/cmsis.rst:2179
+#: ../../../frameworks/cmsis.rst:2242 ../../../frameworks/cmsis.rst:2901
+#: ../../../frameworks/cmsis.rst:2985 ../../../frameworks/cmsis.rst:3300
+#: ../../../frameworks/cmsis.rst:3342 ../../../frameworks/cmsis.rst:3377
+#: ../../../frameworks/cmsis.rst:3384 ../../../frameworks/cmsis.rst:3412
+#: ../../../frameworks/cmsis.rst:3440 ../../../frameworks/cmsis.rst:3558
+#: ../../../frameworks/cmsis.rst:3727 ../../../frameworks/cmsis.rst:3762
+msgid "16KB"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:258 ../../../frameworks/cmsis.rst:3301
+msgid ":ref:`board_ststm32_disco_l476vg`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:264 ../../../frameworks/cmsis.rst:3308
+msgid ":ref:`board_ststm32_disco_l496ag`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:266 ../../../frameworks/cmsis.rst:3311
+msgid "STM32L496AGI6"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:270 ../../../frameworks/cmsis.rst:3315
+msgid ":ref:`board_ststm32_disco_b_g431b_esc1`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:272 ../../../frameworks/cmsis.rst:1509
+#: ../../../frameworks/cmsis.rst:3318 ../../../frameworks/cmsis.rst:3773
+msgid "STM32G431CBU6"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:276 ../../../frameworks/cmsis.rst:3322
+msgid ":ref:`board_ststm32_disco_l475vg_iot01a`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:278 ../../../frameworks/cmsis.rst:3325
+msgid "STM32L475VGT6"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:282 ../../../frameworks/cmsis.rst:3329
+msgid ":ref:`board_ststm32_disco_l072cz_lrwan1`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:284 ../../../frameworks/cmsis.rst:3332
+msgid "STM32L072CZ"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:287 ../../../frameworks/cmsis.rst:341
+#: ../../../frameworks/cmsis.rst:497 ../../../frameworks/cmsis.rst:605
+#: ../../../frameworks/cmsis.rst:720 ../../../frameworks/cmsis.rst:732
+#: ../../../frameworks/cmsis.rst:780 ../../../frameworks/cmsis.rst:786
+#: ../../../frameworks/cmsis.rst:810 ../../../frameworks/cmsis.rst:816
+#: ../../../frameworks/cmsis.rst:924 ../../../frameworks/cmsis.rst:942
+#: ../../../frameworks/cmsis.rst:948 ../../../frameworks/cmsis.rst:954
+#: ../../../frameworks/cmsis.rst:978 ../../../frameworks/cmsis.rst:990
+#: ../../../frameworks/cmsis.rst:1026 ../../../frameworks/cmsis.rst:1122
+#: ../../../frameworks/cmsis.rst:1128 ../../../frameworks/cmsis.rst:1146
+#: ../../../frameworks/cmsis.rst:1152 ../../../frameworks/cmsis.rst:1200
+#: ../../../frameworks/cmsis.rst:1206 ../../../frameworks/cmsis.rst:1212
+#: ../../../frameworks/cmsis.rst:1218 ../../../frameworks/cmsis.rst:1554
+#: ../../../frameworks/cmsis.rst:1566 ../../../frameworks/cmsis.rst:1718
+#: ../../../frameworks/cmsis.rst:1760 ../../../frameworks/cmsis.rst:2103
+#: ../../../frameworks/cmsis.rst:2110 ../../../frameworks/cmsis.rst:2124
+#: ../../../frameworks/cmsis.rst:2131 ../../../frameworks/cmsis.rst:2166
+#: ../../../frameworks/cmsis.rst:2173 ../../../frameworks/cmsis.rst:2194
+#: ../../../frameworks/cmsis.rst:2201 ../../../frameworks/cmsis.rst:2257
+#: ../../../frameworks/cmsis.rst:2264 ../../../frameworks/cmsis.rst:2271
+#: ../../../frameworks/cmsis.rst:2278 ../../../frameworks/cmsis.rst:2642
+#: ../../../frameworks/cmsis.rst:2677 ../../../frameworks/cmsis.rst:2684
+#: ../../../frameworks/cmsis.rst:2761 ../../../frameworks/cmsis.rst:2782
+#: ../../../frameworks/cmsis.rst:2845 ../../../frameworks/cmsis.rst:2859
+#: ../../../frameworks/cmsis.rst:2943 ../../../frameworks/cmsis.rst:3335
+#: ../../../frameworks/cmsis.rst:3398 ../../../frameworks/cmsis.rst:3580
+#: ../../../frameworks/cmsis.rst:3713 ../../../frameworks/cmsis.rst:3944
+msgid "20KB"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:288 ../../../frameworks/cmsis.rst:3336
+msgid ":ref:`board_ststm32_disco_f072rb`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:290 ../../../frameworks/cmsis.rst:326
+#: ../../../frameworks/cmsis.rst:3339 ../../../frameworks/cmsis.rst:3381
+msgid "STM32F072RBT6"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:294 ../../../frameworks/cmsis.rst:3343
+msgid ":ref:`board_ststm32_nucleo_g031k8`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:296 ../../../frameworks/cmsis.rst:3346
+msgid "STM32G031K8"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:300 ../../../frameworks/cmsis.rst:3350
+msgid ":ref:`board_ststm32_nucleo_f030r8`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:302 ../../../frameworks/cmsis.rst:572
+#: ../../../frameworks/cmsis.rst:3353 ../../../frameworks/cmsis.rst:3668
+msgid "STM32F030R8T6"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:306 ../../../frameworks/cmsis.rst:3357
+msgid ":ref:`board_ststm32_nucleo_f031k6`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:308 ../../../frameworks/cmsis.rst:3360
+msgid "STM32F031K6T6"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:311 ../../../frameworks/cmsis.rst:840
+#: ../../../frameworks/cmsis.rst:2138 ../../../frameworks/cmsis.rst:3363
+msgid "4KB"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:312 ../../../frameworks/cmsis.rst:3364
+msgid ":ref:`board_ststm32_nucleo_f042k6`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:314 ../../../frameworks/cmsis.rst:3367
+msgid "STM32F042K6T6"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:317 ../../../frameworks/cmsis.rst:1110
+#: ../../../frameworks/cmsis.rst:1134 ../../../frameworks/cmsis.rst:1188
+#: ../../../frameworks/cmsis.rst:2152 ../../../frameworks/cmsis.rst:2180
+#: ../../../frameworks/cmsis.rst:2243 ../../../frameworks/cmsis.rst:3370
+msgid "6KB"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:318 ../../../frameworks/cmsis.rst:3371
+msgid ":ref:`board_ststm32_nucleo_f070rb`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:320 ../../../frameworks/cmsis.rst:3374
+msgid "STM32F070RBT6"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:324 ../../../frameworks/cmsis.rst:3378
+msgid ":ref:`board_ststm32_nucleo_f072rb`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:330 ../../../frameworks/cmsis.rst:3385
+msgid ":ref:`board_ststm32_nucleo_f091rc`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:332 ../../../frameworks/cmsis.rst:3388
+msgid "STM32F091RCT6"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:336 ../../../frameworks/cmsis.rst:3392
+msgid ":ref:`board_ststm32_nucleo_f103rb`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:338 ../../../frameworks/cmsis.rst:927
+#: ../../../frameworks/cmsis.rst:975 ../../../frameworks/cmsis.rst:987
+#: ../../../frameworks/cmsis.rst:1149 ../../../frameworks/cmsis.rst:2198
+#: ../../../frameworks/cmsis.rst:2660 ../../../frameworks/cmsis.rst:2842
+#: ../../../frameworks/cmsis.rst:2856 ../../../frameworks/cmsis.rst:3395
+msgid "STM32F103RBT6"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:342 ../../../frameworks/cmsis.rst:3399
+msgid ":ref:`board_ststm32_nucleo_f207zg`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:344 ../../../frameworks/cmsis.rst:3402
+msgid "STM32F207ZGT6"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:345 ../../../frameworks/cmsis.rst:561
+#: ../../../frameworks/cmsis.rst:826 ../../../frameworks/cmsis.rst:1528
+#: ../../../frameworks/cmsis.rst:1926 ../../../frameworks/cmsis.rst:3403
+#: ../../../frameworks/cmsis.rst:3655 ../../../frameworks/cmsis.rst:3788
+msgid "120MHz"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:348 ../../../frameworks/cmsis.rst:3406
+msgid ":ref:`board_ststm32_nucleo_f302r8`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:350 ../../../frameworks/cmsis.rst:3409
+msgid "STM32F302R8T6"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:354 ../../../frameworks/cmsis.rst:3413
+msgid ":ref:`board_ststm32_nucleo_f303k8`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:356 ../../../frameworks/cmsis.rst:3416
+msgid "STM32F303K8T6"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:360 ../../../frameworks/cmsis.rst:3420
+msgid ":ref:`board_ststm32_nucleo_f303re`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:362 ../../../frameworks/cmsis.rst:3423
+msgid "STM32F303RET6"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:366 ../../../frameworks/cmsis.rst:3427
+msgid ":ref:`board_ststm32_nucleo_f303ze`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:368 ../../../frameworks/cmsis.rst:3430
+msgid "STM32F303ZET6"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:372 ../../../frameworks/cmsis.rst:3434
+msgid ":ref:`board_ststm32_nucleo_f334r8`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:374 ../../../frameworks/cmsis.rst:3437
+msgid "STM32F334R8T6"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:378 ../../../frameworks/cmsis.rst:3441
+msgid ":ref:`board_ststm32_nucleo_f401re`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:384 ../../../frameworks/cmsis.rst:3448
+msgid ":ref:`board_ststm32_nucleo_f410rb`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:386 ../../../frameworks/cmsis.rst:1383
+#: ../../../frameworks/cmsis.rst:2471 ../../../frameworks/cmsis.rst:3451
+msgid "STM32F410RBT6"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:390 ../../../frameworks/cmsis.rst:3455
+msgid ":ref:`board_ststm32_nucleo_f411re`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:392 ../../../frameworks/cmsis.rst:656
+#: ../../../frameworks/cmsis.rst:885 ../../../frameworks/cmsis.rst:1407
+#: ../../../frameworks/cmsis.rst:2058 ../../../frameworks/cmsis.rst:2499
+#: ../../../frameworks/cmsis.rst:3458 ../../../frameworks/cmsis.rst:4109
+msgid "STM32F411RET6"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:396 ../../../frameworks/cmsis.rst:3462
+msgid ":ref:`board_ststm32_nucleo_f412zg`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:402 ../../../frameworks/cmsis.rst:3469
+msgid ":ref:`board_ststm32_nucleo_f413zh`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:408 ../../../frameworks/cmsis.rst:3476
+msgid ":ref:`board_ststm32_nucleo_f429zi`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:414 ../../../frameworks/cmsis.rst:3483
+msgid ":ref:`board_ststm32_nucleo_f439zi`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:416 ../../../frameworks/cmsis.rst:3486
+msgid "STM32F439ZIT6"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:420 ../../../frameworks/cmsis.rst:3490
+msgid ":ref:`board_ststm32_nucleo_f446re`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:422 ../../../frameworks/cmsis.rst:693
+#: ../../../frameworks/cmsis.rst:1497 ../../../frameworks/cmsis.rst:1569
+#: ../../../frameworks/cmsis.rst:2604 ../../../frameworks/cmsis.rst:3010
+#: ../../../frameworks/cmsis.rst:3493 ../../../frameworks/cmsis.rst:3969
+msgid "STM32F446RET6"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:426 ../../../frameworks/cmsis.rst:3497
+msgid ":ref:`board_ststm32_nucleo_f446ze`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:428 ../../../frameworks/cmsis.rst:3500
+msgid "STM32F446ZET6"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:432 ../../../frameworks/cmsis.rst:3504
+msgid ":ref:`board_ststm32_nucleo_f722ze`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:434 ../../../frameworks/cmsis.rst:3507
+msgid "STM32F722ZET6"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:438 ../../../frameworks/cmsis.rst:3511
+msgid ":ref:`board_ststm32_nucleo_f746zg`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:440 ../../../frameworks/cmsis.rst:3514
+msgid "STM32F746ZGT6"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:444 ../../../frameworks/cmsis.rst:3518
+msgid ":ref:`board_ststm32_nucleo_f756zg`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:446 ../../../frameworks/cmsis.rst:3521
+msgid "STM32F756ZG"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:450 ../../../frameworks/cmsis.rst:3525
+msgid ":ref:`board_ststm32_nucleo_f767zi`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:452 ../../../frameworks/cmsis.rst:3528
+msgid "STM32F767ZIT6"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:456 ../../../frameworks/cmsis.rst:3532
+msgid ":ref:`board_ststm32_nucleo_h743zi`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:458 ../../../frameworks/cmsis.rst:3535
+msgid "STM32H743ZIT6"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:459 ../../../frameworks/cmsis.rst:471
+#: ../../../frameworks/cmsis.rst:639 ../../../frameworks/cmsis.rst:856
+#: ../../../frameworks/cmsis.rst:862 ../../../frameworks/cmsis.rst:868
+#: ../../../frameworks/cmsis.rst:1996 ../../../frameworks/cmsis.rst:2003
+#: ../../../frameworks/cmsis.rst:2010 ../../../frameworks/cmsis.rst:3536
+#: ../../../frameworks/cmsis.rst:3550 ../../../frameworks/cmsis.rst:3781
+msgid "400MHz"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:462 ../../../frameworks/cmsis.rst:3539
+msgid ":ref:`board_ststm32_nucleo_h745zi_q`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:464 ../../../frameworks/cmsis.rst:3542
+msgid "STM32H745ZIT6"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:465 ../../../frameworks/cmsis.rst:844
+#: ../../../frameworks/cmsis.rst:850 ../../../frameworks/cmsis.rst:1516
+#: ../../../frameworks/cmsis.rst:1612 ../../../frameworks/cmsis.rst:1618
+#: ../../../frameworks/cmsis.rst:1947 ../../../frameworks/cmsis.rst:1954
+#: ../../../frameworks/cmsis.rst:2619 ../../../frameworks/cmsis.rst:3543
+#: ../../../frameworks/cmsis.rst:4061 ../../../frameworks/cmsis.rst:4068
+msgid "480MHz"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:468 ../../../frameworks/cmsis.rst:3546
+msgid ":ref:`board_ststm32_nucleo_h753zi`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:470 ../../../frameworks/cmsis.rst:3549
+msgid "STM32H753ZIT6"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:474 ../../../frameworks/cmsis.rst:3553
+msgid ":ref:`board_ststm32_nucleo_l011k4`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:476 ../../../frameworks/cmsis.rst:3556
+msgid "STM32L011K4T6"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:479 ../../../frameworks/cmsis.rst:3559
+msgid "2KB"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:480 ../../../frameworks/cmsis.rst:3560
+msgid ":ref:`board_ststm32_nucleo_l031k6`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:482 ../../../frameworks/cmsis.rst:3563
+msgid "STM32L031K6T6"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:486 ../../../frameworks/cmsis.rst:3567
+msgid ":ref:`board_ststm32_nucleo_l053r8`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:488 ../../../frameworks/cmsis.rst:3570
+msgid "STM32L053R8T6"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:492 ../../../frameworks/cmsis.rst:3574
+msgid ":ref:`board_ststm32_nucleo_l073rz`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:494 ../../../frameworks/cmsis.rst:717
+#: ../../../frameworks/cmsis.rst:1715 ../../../frameworks/cmsis.rst:3577
+msgid "STM32L073RZ"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:498 ../../../frameworks/cmsis.rst:3581
+msgid ":ref:`board_ststm32_nucleo_l152re`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:500 ../../../frameworks/cmsis.rst:3584
+msgid "STM32L152RET6"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:503 ../../../frameworks/cmsis.rst:3587
+msgid "80KB"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:504 ../../../frameworks/cmsis.rst:3588
+msgid ":ref:`board_ststm32_nucleo_l412kb`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:506 ../../../frameworks/cmsis.rst:3591
+msgid "STM32L412KBU6"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:509 ../../../frameworks/cmsis.rst:515
+#: ../../../frameworks/cmsis.rst:587 ../../../frameworks/cmsis.rst:792
+#: ../../../frameworks/cmsis.rst:984 ../../../frameworks/cmsis.rst:1548
+#: ../../../frameworks/cmsis.rst:2852 ../../../frameworks/cmsis.rst:3083
+#: ../../../frameworks/cmsis.rst:3594 ../../../frameworks/cmsis.rst:3601
+#: ../../../frameworks/cmsis.rst:3685 ../../../frameworks/cmsis.rst:3923
+msgid "40KB"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:510 ../../../frameworks/cmsis.rst:3595
+msgid ":ref:`board_ststm32_nucleo_l412rb_p`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:512 ../../../frameworks/cmsis.rst:3598
+msgid "STM32L412RBT6P"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:516 ../../../frameworks/cmsis.rst:3602
+msgid ":ref:`board_ststm32_nucleo_l432kc`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:518 ../../../frameworks/cmsis.rst:3605
+msgid "STM32L432KCU6"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:522 ../../../frameworks/cmsis.rst:3609
+msgid ":ref:`board_ststm32_nucleo_l433rc_p`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:524 ../../../frameworks/cmsis.rst:3612
+msgid "STM32L433RC"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:528 ../../../frameworks/cmsis.rst:3616
+msgid ":ref:`board_ststm32_nucleo_l452re`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:534 ../../../frameworks/cmsis.rst:3623
+msgid ":ref:`board_ststm32_nucleo_l476rg`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:540 ../../../frameworks/cmsis.rst:3630
+msgid ":ref:`board_ststm32_nucleo_l486rg`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:542 ../../../frameworks/cmsis.rst:3633
+msgid "STM32L486RGT6"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:546 ../../../frameworks/cmsis.rst:3637
+msgid ":ref:`board_ststm32_nucleo_l496zg`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:548 ../../../frameworks/cmsis.rst:3640
+msgid "STM32L496ZGT6"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:552 ../../../frameworks/cmsis.rst:3644
+msgid ":ref:`board_ststm32_nucleo_l496zg_p`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:554 ../../../frameworks/cmsis.rst:3647
+msgid "STM32L496ZGT6P"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:558 ../../../frameworks/cmsis.rst:3651
+msgid ":ref:`board_ststm32_nucleo_l4r5zi`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:560 ../../../frameworks/cmsis.rst:3654
+msgid "STM32L4R5ZIT6"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:563 ../../../frameworks/cmsis.rst:611
+#: ../../../frameworks/cmsis.rst:828 ../../../frameworks/cmsis.rst:1530
+#: ../../../frameworks/cmsis.rst:1928 ../../../frameworks/cmsis.rst:3657
+#: ../../../frameworks/cmsis.rst:3720 ../../../frameworks/cmsis.rst:3790
+msgid "640KB"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:564 ../../../frameworks/cmsis.rst:3658
+msgid ":ref:`board_ststm32_nucleo_l552ze_q`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:566 ../../../frameworks/cmsis.rst:3661
+msgid "STM32L552ZET6"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:570 ../../../frameworks/cmsis.rst:3665
+msgid ":ref:`board_ststm32_disco_f030r8`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:576 ../../../frameworks/cmsis.rst:3672
+msgid ":ref:`board_ststm32_disco_f051r8`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:578 ../../../frameworks/cmsis.rst:3675
+msgid "STM32F051R8T6"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:582 ../../../frameworks/cmsis.rst:3679
+msgid ":ref:`board_ststm32_disco_f303vc`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:584 ../../../frameworks/cmsis.rst:3682
+msgid "STM32F303VCT6"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:588 ../../../frameworks/cmsis.rst:3686
+msgid ":ref:`board_ststm32_disco_f407vg`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:590 ../../../frameworks/cmsis.rst:759
+#: ../../../frameworks/cmsis.rst:891 ../../../frameworks/cmsis.rst:1359
+#: ../../../frameworks/cmsis.rst:1974 ../../../frameworks/cmsis.rst:2443
+#: ../../../frameworks/cmsis.rst:3157 ../../../frameworks/cmsis.rst:3689
+msgid "STM32F407VGT6"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:594 ../../../frameworks/cmsis.rst:3700
+msgid ":ref:`board_ststm32_disco_g071rb`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:600 ../../../frameworks/cmsis.rst:3707
+msgid ":ref:`board_ststm32_eval_l073z`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:602 ../../../frameworks/cmsis.rst:3710
+msgid "STM32L073VZT6"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:606 ../../../frameworks/cmsis.rst:3714
+msgid ":ref:`board_ststm32_disco_l4s5i_iot01a`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:608 ../../../frameworks/cmsis.rst:3717
+msgid "STM32L4S5VIT6"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:612 ../../../frameworks/cmsis.rst:3721
+msgid ":ref:`board_ststm32_disco_l152rb`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:614 ../../../frameworks/cmsis.rst:3724
+msgid "STM32L152RBT6"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:618 ../../../frameworks/cmsis.rst:3728
+msgid ":ref:`board_ststm32_disco_f100rb`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:620 ../../../frameworks/cmsis.rst:3731
+msgid "STM32F100RBT6"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:621 ../../../frameworks/cmsis.rst:3732
+msgid "24MHz"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:624 ../../../frameworks/cmsis.rst:1894
+msgid ":ref:`board_ststm32_silica_sensor_node`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:626 ../../../frameworks/cmsis.rst:1897
+msgid "STM32L476JG"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:630 ../../../frameworks/cmsis.rst:3763
+msgid ":ref:`board_ststm32_disco_f750n8`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:632 ../../../frameworks/cmsis.rst:3766
+msgid "STM32F750N8H6"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:635 ../../../frameworks/cmsis.rst:3769
+msgid "340KB"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:636 ../../../frameworks/cmsis.rst:3777
+msgid ":ref:`board_ststm32_disco_h747xi`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:638 ../../../frameworks/cmsis.rst:3780
+msgid "STM32H747XIH6"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:642 ../../../frameworks/cmsis.rst:3826
+msgid ":ref:`board_ststm32_seeedArchMax`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:648 ../../../frameworks/cmsis.rst:3833
+msgid ":ref:`board_ststm32_wio_3g`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:650 ../../../frameworks/cmsis.rst:3836
+msgid "STM32F439VI"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:654 ../../../frameworks/cmsis.rst:4106
+msgid ":ref:`board_ststm32_sakuraio_evb_01`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:663
+msgid "External Debug Tools"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:665
+msgid ""
+"Boards listed below are compatible with :ref:`piodebug` but **DEPEND ON** "
+"external debug probe. They **ARE NOT READY** for debugging. Please click on "
+"board name for the further details."
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:679 ../../../frameworks/cmsis.rst:1649
+msgid ":ref:`board_ststm32_1bitsy_stm32f415rgt`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:681 ../../../frameworks/cmsis.rst:1652
+msgid "STM32F415RGT"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:685 ../../../frameworks/cmsis.rst:1838
+msgid ":ref:`board_ststm32_armed_v1`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:691 ../../../frameworks/cmsis.rst:3007
+msgid ":ref:`board_ststm32_rumba32_f446ve`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:697 ../../../frameworks/cmsis.rst:1670
+msgid ":ref:`board_ststm32_b96b_argonkey`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:699 ../../../frameworks/cmsis.rst:1673
+msgid "STM32F412CG"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:703 ../../../frameworks/cmsis.rst:1684
+msgid ":ref:`board_ststm32_b96b_aerocore2`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:709 ../../../frameworks/cmsis.rst:1691
+msgid ":ref:`board_ststm32_b96b_neonkey`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:711 ../../../frameworks/cmsis.rst:1694
+msgid "STM32F411CE"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:715 ../../../frameworks/cmsis.rst:1712
+msgid ":ref:`board_ststm32_acsip_s76s`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:721 ../../../frameworks/cmsis.rst:1733
+msgid ":ref:`board_ststm32_adafruit_feather_f405`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:723 ../../../frameworks/cmsis.rst:963
+#: ../../../frameworks/cmsis.rst:993 ../../../frameworks/cmsis.rst:1341
+#: ../../../frameworks/cmsis.rst:1503 ../../../frameworks/cmsis.rst:1539
+#: ../../../frameworks/cmsis.rst:1736 ../../../frameworks/cmsis.rst:2422
+#: ../../../frameworks/cmsis.rst:2611 ../../../frameworks/cmsis.rst:2821
+#: ../../../frameworks/cmsis.rst:2863 ../../../frameworks/cmsis.rst:3899
+msgid "STM32F405RGT6"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:727 ../../../frameworks/cmsis.rst:1754
+msgid ":ref:`board_ststm32_afroflight_f103cb`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:729 ../../../frameworks/cmsis.rst:921
+#: ../../../frameworks/cmsis.rst:939 ../../../frameworks/cmsis.rst:945
+#: ../../../frameworks/cmsis.rst:951 ../../../frameworks/cmsis.rst:1125
+#: ../../../frameworks/cmsis.rst:1757 ../../../frameworks/cmsis.rst:2170
+#: ../../../frameworks/cmsis.rst:2674 ../../../frameworks/cmsis.rst:2681
+#: ../../../frameworks/cmsis.rst:2758 ../../../frameworks/cmsis.rst:2779
+msgid "STM32F103CBT6"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:733 ../../../frameworks/cmsis.rst:1796
+msgid ":ref:`board_renesas-ra_nano_r4`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:739 ../../../frameworks/cmsis.rst:1803
+msgid ":ref:`board_renesas-ra_portenta_c33`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:741 ../../../frameworks/cmsis.rst:1806
+msgid "R7FA6M5BH2CBG"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:742 ../../../frameworks/cmsis.rst:1807
+msgid "200MHz"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:744 ../../../frameworks/cmsis.rst:1809
+msgid "511.35KB"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:745 ../../../frameworks/cmsis.rst:1810
+msgid ":ref:`board_renesas-ra_uno_r4_minima`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:751 ../../../frameworks/cmsis.rst:3147
+msgid ":ref:`board_ststm32_black_f407ve`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:757 ../../../frameworks/cmsis.rst:3154
+msgid ":ref:`board_ststm32_black_f407vg`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:763 ../../../frameworks/cmsis.rst:3161
+msgid ":ref:`board_ststm32_black_f407ze`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:765 ../../../frameworks/cmsis.rst:3164
+msgid "STM32F407ZET6"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:769 ../../../frameworks/cmsis.rst:3168
+msgid ":ref:`board_ststm32_black_f407zg`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:771 ../../../frameworks/cmsis.rst:1077
+#: ../../../frameworks/cmsis.rst:1083 ../../../frameworks/cmsis.rst:1581
+#: ../../../frameworks/cmsis.rst:2870 ../../../frameworks/cmsis.rst:2877
+#: ../../../frameworks/cmsis.rst:3171 ../../../frameworks/cmsis.rst:3997
+msgid "STM32F407ZGT6"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:775 ../../../frameworks/cmsis.rst:2097
+msgid ":ref:`board_ststm32_blackpill_f103c8`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:777 ../../../frameworks/cmsis.rst:783
+#: ../../../frameworks/cmsis.rst:807 ../../../frameworks/cmsis.rst:813
+#: ../../../frameworks/cmsis.rst:1119 ../../../frameworks/cmsis.rst:2100
+#: ../../../frameworks/cmsis.rst:2107 ../../../frameworks/cmsis.rst:2121
+#: ../../../frameworks/cmsis.rst:2128 ../../../frameworks/cmsis.rst:2163
+msgid "STM32F103C8T6"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:781 ../../../frameworks/cmsis.rst:2104
+msgid ":ref:`board_ststm32_blackpill_f103c8_128`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:787 ../../../frameworks/cmsis.rst:3077
+msgid ":ref:`board_ststm32_robotdyn_blackpill_f303cc`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:789 ../../../frameworks/cmsis.rst:1545
+#: ../../../frameworks/cmsis.rst:3080 ../../../frameworks/cmsis.rst:3920
+msgid "STM32F303CCT6"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:793 ../../../frameworks/cmsis.rst:3175
+msgid ":ref:`board_ststm32_blue_f407ve_mini`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:799 ../../../frameworks/cmsis.rst:2111
+msgid ":ref:`board_ststm32_bluepill_f103c6`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:801 ../../../frameworks/cmsis.rst:1113
+#: ../../../frameworks/cmsis.rst:2114 ../../../frameworks/cmsis.rst:2156
+msgid "STM32F103C6T6"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:804 ../../../frameworks/cmsis.rst:1116
+#: ../../../frameworks/cmsis.rst:1140 ../../../frameworks/cmsis.rst:1194
+#: ../../../frameworks/cmsis.rst:2117 ../../../frameworks/cmsis.rst:2159
+#: ../../../frameworks/cmsis.rst:2187 ../../../frameworks/cmsis.rst:2250
+msgid "10KB"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:805 ../../../frameworks/cmsis.rst:2118
+msgid ":ref:`board_ststm32_bluepill_f103c8`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:811 ../../../frameworks/cmsis.rst:2125
+msgid ":ref:`board_ststm32_bluepill_f103c8_128k`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:817 ../../../frameworks/cmsis.rst:1915
+msgid ":ref:`board_ststm32_blues_cygnet`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:819 ../../../frameworks/cmsis.rst:1918
+msgid "STM32L433CCT6"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:823 ../../../frameworks/cmsis.rst:1922
+msgid ":ref:`board_ststm32_blues_swan_r5`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:825 ../../../frameworks/cmsis.rst:1925
+msgid "STM32L4R5ZIY6"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:829 ../../../frameworks/cmsis.rst:3182
+msgid ":ref:`board_ststm32_coreboard_f401rc`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:831 ../../../frameworks/cmsis.rst:1323
+#: ../../../frameworks/cmsis.rst:2401 ../../../frameworks/cmsis.rst:3185
+msgid "STM32F401RCT6"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:835 ../../../frameworks/cmsis.rst:2132
+msgid ":ref:`board_ststm32_demo_f030f4`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:837 ../../../frameworks/cmsis.rst:2135
+msgid "STM32F030F4P6"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:841 ../../../frameworks/cmsis.rst:1943
+msgid ":ref:`board_ststm32_devebox_h743vitx`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:843 ../../../frameworks/cmsis.rst:1611
+#: ../../../frameworks/cmsis.rst:1946 ../../../frameworks/cmsis.rst:4060
+msgid "STM32H743VIT6"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:847 ../../../frameworks/cmsis.rst:1950
+msgid ":ref:`board_ststm32_devebox_h750vbtx`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:849 ../../../frameworks/cmsis.rst:1515
+#: ../../../frameworks/cmsis.rst:1617 ../../../frameworks/cmsis.rst:1953
+#: ../../../frameworks/cmsis.rst:2618 ../../../frameworks/cmsis.rst:4067
+msgid "STM32H750VBT6"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:853 ../../../frameworks/cmsis.rst:1992
+msgid ":ref:`board_ststm32_electrosmith_daisy`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:855 ../../../frameworks/cmsis.rst:861
+#: ../../../frameworks/cmsis.rst:867 ../../../frameworks/cmsis.rst:1995
+#: ../../../frameworks/cmsis.rst:2002 ../../../frameworks/cmsis.rst:2009
+msgid "STM32H750IBK6"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:859 ../../../frameworks/cmsis.rst:1999
+msgid ":ref:`board_ststm32_electrosmith_daisy_patch_sm`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:865 ../../../frameworks/cmsis.rst:2006
+msgid ":ref:`board_ststm32_electrosmith_daisy_petal_sm`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:871 ../../../frameworks/cmsis.rst:2027
+msgid ":ref:`board_ststm32_elektor_f072cb`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:873 ../../../frameworks/cmsis.rst:879
+#: ../../../frameworks/cmsis.rst:2030 ../../../frameworks/cmsis.rst:2037
+msgid "STM32F072C8T6"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:877 ../../../frameworks/cmsis.rst:2034
+msgid ":ref:`board_ststm32_elektor_f072c8`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:883 ../../../frameworks/cmsis.rst:2055
+msgid ":ref:`board_ststm32_elmo_f411re`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:889 ../../../frameworks/cmsis.rst:1971
+msgid ":ref:`board_ststm32_diymore_f407vgt`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:895 ../../../frameworks/cmsis.rst:2139
+msgid ":ref:`board_ststm32_fk407m1`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:901 ../../../frameworks/cmsis.rst:2076
+msgid ":ref:`board_ststm32_fysetc_s6`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:907 ../../../frameworks/cmsis.rst:2741
+msgid ":ref:`board_ststm32_malyanm200_f070cb`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:909 ../../../frameworks/cmsis.rst:915
+#: ../../../frameworks/cmsis.rst:2744 ../../../frameworks/cmsis.rst:2751
+msgid "STM32F070CBT6"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:911 ../../../frameworks/cmsis.rst:917
+#: ../../../frameworks/cmsis.rst:923 ../../../frameworks/cmsis.rst:941
+#: ../../../frameworks/cmsis.rst:2676 ../../../frameworks/cmsis.rst:2746
+#: ../../../frameworks/cmsis.rst:2753 ../../../frameworks/cmsis.rst:2760
+msgid "120KB"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:912 ../../../frameworks/cmsis.rst:918
+#: ../../../frameworks/cmsis.rst:2747 ../../../frameworks/cmsis.rst:2754
+msgid "14.81KB"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:913 ../../../frameworks/cmsis.rst:2748
+msgid ":ref:`board_ststm32_malyanm300_f070cb`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:919 ../../../frameworks/cmsis.rst:2755
+msgid ":ref:`board_ststm32_malyanm200_f103cb`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:925 ../../../frameworks/cmsis.rst:2657
+msgid ":ref:`board_ststm32_maple`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:929 ../../../frameworks/cmsis.rst:947
+#: ../../../frameworks/cmsis.rst:2662 ../../../frameworks/cmsis.rst:2683
+msgid "108KB"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:930 ../../../frameworks/cmsis.rst:2663
+msgid "17KB"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:931 ../../../frameworks/cmsis.rst:2664
+msgid ":ref:`board_ststm32_maple_ret6`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:933 ../../../frameworks/cmsis.rst:1167
+#: ../../../frameworks/cmsis.rst:2219 ../../../frameworks/cmsis.rst:2667
+msgid "STM32F103RET6"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:936 ../../../frameworks/cmsis.rst:1158
+#: ../../../frameworks/cmsis.rst:1224 ../../../frameworks/cmsis.rst:1254
+#: ../../../frameworks/cmsis.rst:1524 ../../../frameworks/cmsis.rst:2208
+#: ../../../frameworks/cmsis.rst:2285 ../../../frameworks/cmsis.rst:2320
+#: ../../../frameworks/cmsis.rst:2670 ../../../frameworks/cmsis.rst:3811
+msgid "48KB"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:937 ../../../frameworks/cmsis.rst:2671
+msgid ":ref:`board_ststm32_maple_mini_b20`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:943 ../../../frameworks/cmsis.rst:2678
+msgid ":ref:`board_ststm32_maple_mini_origin`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:949 ../../../frameworks/cmsis.rst:2776
+msgid ":ref:`board_ststm32_microduino32_flash`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:953 ../../../frameworks/cmsis.rst:2781
+msgid "105.47KB"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:955 ../../../frameworks/cmsis.rst:2797
+msgid ":ref:`board_ststm32_xdot_l151cc`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:957 ../../../frameworks/cmsis.rst:2800
+msgid "STM32L151CCU6"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:961 ../../../frameworks/cmsis.rst:2818
+msgid ":ref:`board_ststm32_netduino2plus`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:967 ../../../frameworks/cmsis.rst:3854
+msgid ":ref:`board_ststm32_mote_l152rc`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:969 ../../../frameworks/cmsis.rst:3857
+msgid "STM32L152RC"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:973 ../../../frameworks/cmsis.rst:2839
+msgid ":ref:`board_ststm32_olimexino`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:979 ../../../frameworks/cmsis.rst:2846
+msgid ":ref:`board_ststm32_olimexino_stm32f3`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:981 ../../../frameworks/cmsis.rst:2849
+msgid "STM32F303RCT6"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:985 ../../../frameworks/cmsis.rst:2853
+msgid ":ref:`board_ststm32_olimex_f103`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:991 ../../../frameworks/cmsis.rst:2860
+msgid ":ref:`board_ststm32_olimex_p405`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:997 ../../../frameworks/cmsis.rst:2895
+msgid ":ref:`board_ststm32_pybstick26_duino`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:999 ../../../frameworks/cmsis.rst:2898
+msgid "STM32F072RB"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:1003 ../../../frameworks/cmsis.rst:2902
+msgid ":ref:`board_ststm32_pybstick26_pro`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:1005 ../../../frameworks/cmsis.rst:2905
+msgid "STM32F412RE"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:1009 ../../../frameworks/cmsis.rst:2909
+msgid ":ref:`board_ststm32_pybstick26_lite`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:1011 ../../../frameworks/cmsis.rst:1311
+#: ../../../frameworks/cmsis.rst:1605 ../../../frameworks/cmsis.rst:2387
+#: ../../../frameworks/cmsis.rst:2912 ../../../frameworks/cmsis.rst:4053
+msgid "STM32F401CEU6"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:1015 ../../../frameworks/cmsis.rst:2916
+msgid ":ref:`board_ststm32_pybstick26_std`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:1017 ../../../frameworks/cmsis.rst:1395
+#: ../../../frameworks/cmsis.rst:1557 ../../../frameworks/cmsis.rst:1599
+#: ../../../frameworks/cmsis.rst:2485 ../../../frameworks/cmsis.rst:2919
+#: ../../../frameworks/cmsis.rst:3948 ../../../frameworks/cmsis.rst:4046
+msgid "STM32F411CEU6"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:1021 ../../../frameworks/cmsis.rst:2937
+msgid ":ref:`board_ststm32_piconomix_px_her0`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:1023 ../../../frameworks/cmsis.rst:2940
+msgid "STM32L072RB"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:1027 ../../../frameworks/cmsis.rst:2958
+msgid ":ref:`board_ststm32_prntr_v2`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:1033 ../../../frameworks/cmsis.rst:2979
+msgid ":ref:`board_ststm32_rak811_tracker`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:1035 ../../../frameworks/cmsis.rst:1041
+#: ../../../frameworks/cmsis.rst:2982 ../../../frameworks/cmsis.rst:2989
+msgid "STM32L151RBT6"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:1039 ../../../frameworks/cmsis.rst:2986
+msgid ":ref:`board_ststm32_rak811_tracker_32`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:1045 ../../../frameworks/cmsis.rst:3224
+msgid ":ref:`board_ststm32_rhf76_052`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:1047 ../../../frameworks/cmsis.rst:3227
+msgid "STM32L051C8T6"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:1051 ../../../frameworks/cmsis.rst:3028
+msgid ":ref:`board_ststm32_rymcu_nebulapi_f103ve`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:1053 ../../../frameworks/cmsis.rst:1233
+#: ../../../frameworks/cmsis.rst:2296 ../../../frameworks/cmsis.rst:3031
+msgid "STM32F103VET6"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:1057 ../../../frameworks/cmsis.rst:3035
+msgid ":ref:`board_ststm32_rymcu_f407ve`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:1061 ../../../frameworks/cmsis.rst:1355
+#: ../../../frameworks/cmsis.rst:2438 ../../../frameworks/cmsis.rst:3040
+msgid "502.23KB"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:1063 ../../../frameworks/cmsis.rst:3693
+msgid ":ref:`board_ststm32_disco_g031j6`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:1065 ../../../frameworks/cmsis.rst:3696
+msgid "STM32G031J6"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:1069 ../../../frameworks/cmsis.rst:3735
+msgid ":ref:`board_ststm32_steval_fcu001v1`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:1071 ../../../frameworks/cmsis.rst:1299
+#: ../../../frameworks/cmsis.rst:1593 ../../../frameworks/cmsis.rst:2373
+#: ../../../frameworks/cmsis.rst:3738 ../../../frameworks/cmsis.rst:4039
+msgid "STM32F401CCU6"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:1075 ../../../frameworks/cmsis.rst:2867
+msgid ":ref:`board_ststm32_olimex_e407`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:1081 ../../../frameworks/cmsis.rst:2874
+msgid ":ref:`board_ststm32_olimex_h407`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:1087 ../../../frameworks/cmsis.rst:3742
+msgid ":ref:`board_ststm32_eval_f107vc`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:1089 ../../../frameworks/cmsis.rst:3745
+msgid "STM32F107VCT6"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:1093 ../../../frameworks/cmsis.rst:3749
+msgid ":ref:`board_ststm32_eval_f373vc`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:1095 ../../../frameworks/cmsis.rst:3752
+msgid "STM32F373VCT6"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:1099 ../../../frameworks/cmsis.rst:3756
+msgid ":ref:`board_ststm32_eval_f072vb`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:1101 ../../../frameworks/cmsis.rst:3759
+msgid "STM32F072VBT6"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:1105 ../../../frameworks/cmsis.rst:2146
+msgid ":ref:`board_ststm32_genericSTM32F103C4`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:1107 ../../../frameworks/cmsis.rst:2149
+msgid "STM32F103C4T6"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:1111 ../../../frameworks/cmsis.rst:2153
+msgid ":ref:`board_ststm32_genericSTM32F103C6`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:1117 ../../../frameworks/cmsis.rst:2160
+msgid ":ref:`board_ststm32_genericSTM32F103C8`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:1123 ../../../frameworks/cmsis.rst:2167
+msgid ":ref:`board_ststm32_genericSTM32F103CB`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:1129 ../../../frameworks/cmsis.rst:2174
+msgid ":ref:`board_ststm32_genericSTM32F103R4`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:1131 ../../../frameworks/cmsis.rst:2177
+msgid "STM32F103R4T6"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:1135 ../../../frameworks/cmsis.rst:2181
+msgid ":ref:`board_ststm32_genericSTM32F103R6`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:1137 ../../../frameworks/cmsis.rst:2184
+msgid "STM32F103R6T6"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:1141 ../../../frameworks/cmsis.rst:2188
+msgid ":ref:`board_ststm32_genericSTM32F103R8`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:1143 ../../../frameworks/cmsis.rst:2191
+msgid "STM32F103R8T6"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:1147 ../../../frameworks/cmsis.rst:2195
+msgid ":ref:`board_ststm32_genericSTM32F103RB`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:1153 ../../../frameworks/cmsis.rst:2202
+msgid ":ref:`board_ststm32_genericSTM32F103RC`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:1155 ../../../frameworks/cmsis.rst:1521
+#: ../../../frameworks/cmsis.rst:2205 ../../../frameworks/cmsis.rst:3808
+msgid "STM32F103RCT6"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:1159 ../../../frameworks/cmsis.rst:2209
+msgid ":ref:`board_ststm32_genericSTM32F103RD`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:1161 ../../../frameworks/cmsis.rst:2212
+msgid "STM32F103RDT6"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:1165 ../../../frameworks/cmsis.rst:2216
+msgid ":ref:`board_ststm32_genericSTM32F103RE`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:1171 ../../../frameworks/cmsis.rst:2223
+msgid ":ref:`board_ststm32_genericSTM32F103RF`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:1173 ../../../frameworks/cmsis.rst:2226
+msgid "STM32F103RFT6"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:1175 ../../../frameworks/cmsis.rst:1241
+#: ../../../frameworks/cmsis.rst:1271 ../../../frameworks/cmsis.rst:2228
+#: ../../../frameworks/cmsis.rst:2305 ../../../frameworks/cmsis.rst:2340
+msgid "768KB"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:1177 ../../../frameworks/cmsis.rst:2230
+msgid ":ref:`board_ststm32_genericSTM32F103RG`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:1179 ../../../frameworks/cmsis.rst:2233
+msgid "STM32F103RGT6"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:1183 ../../../frameworks/cmsis.rst:2237
+msgid ":ref:`board_ststm32_genericSTM32F103T4`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:1185 ../../../frameworks/cmsis.rst:2240
+msgid "STM32F103T4U6"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:1189 ../../../frameworks/cmsis.rst:2244
+msgid ":ref:`board_ststm32_genericSTM32F103T6`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:1191 ../../../frameworks/cmsis.rst:2247
+msgid "STM32F103T6U6"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:1195 ../../../frameworks/cmsis.rst:2251
+msgid ":ref:`board_ststm32_genericSTM32F103T8`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:1197 ../../../frameworks/cmsis.rst:2254
+msgid "STM32F103T8U6"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:1201 ../../../frameworks/cmsis.rst:2258
+msgid ":ref:`board_ststm32_genericSTM32F103TB`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:1203 ../../../frameworks/cmsis.rst:1563
+#: ../../../frameworks/cmsis.rst:2261 ../../../frameworks/cmsis.rst:2639
+msgid "STM32F103TBU6"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:1207 ../../../frameworks/cmsis.rst:2265
+msgid ":ref:`board_ststm32_genericSTM32F103V8`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:1209 ../../../frameworks/cmsis.rst:2268
+msgid "STM32F103V8T6"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:1213 ../../../frameworks/cmsis.rst:2272
+msgid ":ref:`board_ststm32_genericSTM32F103VB`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:1215 ../../../frameworks/cmsis.rst:2275
+msgid "STM32F103VBT6"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:1219 ../../../frameworks/cmsis.rst:2279
+msgid ":ref:`board_ststm32_genericSTM32F103VC`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:1221 ../../../frameworks/cmsis.rst:2282
+msgid "STM32F103VCT6"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:1225 ../../../frameworks/cmsis.rst:2286
+msgid ":ref:`board_ststm32_genericSTM32F103VD`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:1227 ../../../frameworks/cmsis.rst:2289
+msgid "STM32F103VDT6"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:1231 ../../../frameworks/cmsis.rst:2293
+msgid ":ref:`board_ststm32_genericSTM32F103VE`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:1237 ../../../frameworks/cmsis.rst:2300
+msgid ":ref:`board_ststm32_genericSTM32F103VF`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:1239 ../../../frameworks/cmsis.rst:2303
+msgid "STM32F103VFT6"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:1243 ../../../frameworks/cmsis.rst:2307
+msgid ":ref:`board_ststm32_genericSTM32F103VG`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:1245 ../../../frameworks/cmsis.rst:2310
+msgid "STM32F103VGT6"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:1249 ../../../frameworks/cmsis.rst:2314
+msgid ":ref:`board_ststm32_genericSTM32F103ZC`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:1251 ../../../frameworks/cmsis.rst:2317
+msgid "STM32F103ZCT6"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:1255 ../../../frameworks/cmsis.rst:2321
+msgid ":ref:`board_ststm32_genericSTM32F103ZD`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:1257 ../../../frameworks/cmsis.rst:2324
+msgid "STM32F103ZDT6"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:1261 ../../../frameworks/cmsis.rst:2328
+msgid ":ref:`board_ststm32_genericSTM32F103ZE`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:1263 ../../../frameworks/cmsis.rst:1575
+#: ../../../frameworks/cmsis.rst:1587 ../../../frameworks/cmsis.rst:2331
+#: ../../../frameworks/cmsis.rst:3990 ../../../frameworks/cmsis.rst:4018
+msgid "STM32F103ZET6"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:1267 ../../../frameworks/cmsis.rst:2335
+msgid ":ref:`board_ststm32_genericSTM32F103ZF`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:1269 ../../../frameworks/cmsis.rst:2338
+msgid "STM32F103ZFT6"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:1273 ../../../frameworks/cmsis.rst:2342
+msgid ":ref:`board_ststm32_genericSTM32F103ZG`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:1275 ../../../frameworks/cmsis.rst:2345
+msgid "STM32F103ZGT6"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:1279 ../../../frameworks/cmsis.rst:2349
+msgid ":ref:`board_ststm32_genericSTM32F303CB`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:1281 ../../../frameworks/cmsis.rst:2352
+msgid "STM32F303CBT6"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:1285 ../../../frameworks/cmsis.rst:2356
+msgid ":ref:`board_ststm32_genericSTM32F373RC`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:1287 ../../../frameworks/cmsis.rst:2359
+msgid "STM32F373RCT6"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:1291 ../../../frameworks/cmsis.rst:2363
+msgid ":ref:`board_ststm32_genericSTM32F401CB`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:1293 ../../../frameworks/cmsis.rst:2366
+msgid "STM32F401CBU6"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:1297 ../../../frameworks/cmsis.rst:2370
+msgid ":ref:`board_ststm32_genericSTM32F401CC`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:1303 ../../../frameworks/cmsis.rst:2377
+msgid ":ref:`board_ststm32_genericSTM32F401CD`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:1305 ../../../frameworks/cmsis.rst:2380
+msgid "STM32F401CDU6"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:1309 ../../../frameworks/cmsis.rst:2384
+msgid ":ref:`board_ststm32_genericSTM32F401CE`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:1315 ../../../frameworks/cmsis.rst:2391
+msgid ":ref:`board_ststm32_genericSTM32F401RB`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:1317 ../../../frameworks/cmsis.rst:2394
+msgid "STM32F401RBT6"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:1321 ../../../frameworks/cmsis.rst:2398
+msgid ":ref:`board_ststm32_genericSTM32F401RC`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:1327 ../../../frameworks/cmsis.rst:2405
+msgid ":ref:`board_ststm32_genericSTM32F401RD`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:1329 ../../../frameworks/cmsis.rst:2408
+msgid "STM32F401RDT6"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:1333 ../../../frameworks/cmsis.rst:2412
+msgid ":ref:`board_ststm32_genericSTM32F401RE`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:1339 ../../../frameworks/cmsis.rst:2419
+msgid ":ref:`board_ststm32_genericSTM32F405RG`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:1345 ../../../frameworks/cmsis.rst:2426
+msgid ":ref:`board_ststm32_genericSTM32F407IGT6`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:1347 ../../../frameworks/cmsis.rst:2429
+msgid "STM32F407IGT6"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:1351 ../../../frameworks/cmsis.rst:2433
+msgid ":ref:`board_ststm32_genericSTM32F407VET6`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:1357 ../../../frameworks/cmsis.rst:2440
+msgid ":ref:`board_ststm32_genericSTM32F407VGT6`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:1363 ../../../frameworks/cmsis.rst:2447
+msgid ":ref:`board_ststm32_genericSTM32F410C8`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:1365 ../../../frameworks/cmsis.rst:2450
+msgid "STM32F410C8T6"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:1369 ../../../frameworks/cmsis.rst:2454
+msgid ":ref:`board_ststm32_genericSTM32F410CB`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:1371 ../../../frameworks/cmsis.rst:2457
+msgid "STM32F410CBT6"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:1375 ../../../frameworks/cmsis.rst:2461
+msgid ":ref:`board_ststm32_genericSTM32F410R8`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:1377 ../../../frameworks/cmsis.rst:2464
+msgid "STM32F410R8T6"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:1381 ../../../frameworks/cmsis.rst:2468
+msgid ":ref:`board_ststm32_genericSTM32F410RB`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:1387 ../../../frameworks/cmsis.rst:2475
+msgid ":ref:`board_ststm32_genericSTM32F411CC`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:1389 ../../../frameworks/cmsis.rst:2478
+msgid "STM32F411CCU6"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:1393 ../../../frameworks/cmsis.rst:2482
+msgid ":ref:`board_ststm32_genericSTM32F411CE`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:1399 ../../../frameworks/cmsis.rst:2489
+msgid ":ref:`board_ststm32_genericSTM32F411RC`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:1401 ../../../frameworks/cmsis.rst:2492
+msgid "STM32F411RCT6"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:1405 ../../../frameworks/cmsis.rst:2496
+msgid ":ref:`board_ststm32_genericSTM32F411RE`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:1411 ../../../frameworks/cmsis.rst:2503
+msgid ":ref:`board_ststm32_genericSTM32F412CE`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:1413 ../../../frameworks/cmsis.rst:2506
+msgid "STM32F412CEU6"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:1417 ../../../frameworks/cmsis.rst:2510
+msgid ":ref:`board_ststm32_genericSTM32F412CG`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:1419 ../../../frameworks/cmsis.rst:2513
+msgid "STM32F412CGU6"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:1423 ../../../frameworks/cmsis.rst:2517
+msgid ":ref:`board_ststm32_genericSTM32F412RE`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:1425 ../../../frameworks/cmsis.rst:2520
+msgid "STM32F412RET6"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:1429 ../../../frameworks/cmsis.rst:2524
+msgid ":ref:`board_ststm32_genericSTM32F412RG`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:1431 ../../../frameworks/cmsis.rst:2527
+msgid "STM32F412RGT6"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:1435 ../../../frameworks/cmsis.rst:2531
+msgid ":ref:`board_ststm32_genericSTM32F413CG`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:1437 ../../../frameworks/cmsis.rst:2534
+msgid "STM32F413CGU6"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:1441 ../../../frameworks/cmsis.rst:2538
+msgid ":ref:`board_ststm32_genericSTM32F413CH`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:1443 ../../../frameworks/cmsis.rst:2541
+msgid "STM32F413CHU6"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:1447 ../../../frameworks/cmsis.rst:2545
+msgid ":ref:`board_ststm32_genericSTM32F413RG`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:1449 ../../../frameworks/cmsis.rst:2548
+msgid "STM32F413RGT6"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:1453 ../../../frameworks/cmsis.rst:2552
+msgid ":ref:`board_ststm32_genericSTM32F413RH`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:1455 ../../../frameworks/cmsis.rst:2555
+msgid "STM32F413RHT6"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:1459 ../../../frameworks/cmsis.rst:2559
+msgid ":ref:`board_ststm32_genericSTM32F415RG`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:1461 ../../../frameworks/cmsis.rst:2562
+msgid "STM32F415RGT6"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:1465 ../../../frameworks/cmsis.rst:2566
+msgid ":ref:`board_ststm32_genericSTM32F417VE`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:1467 ../../../frameworks/cmsis.rst:2569
+msgid "STM32F417VET6"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:1471 ../../../frameworks/cmsis.rst:2573
+msgid ":ref:`board_ststm32_genericSTM32F417VG`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:1477 ../../../frameworks/cmsis.rst:2580
+msgid ":ref:`board_ststm32_genericSTM32F423CH`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:1479 ../../../frameworks/cmsis.rst:2583
+msgid "STM32F423CHU6"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:1483 ../../../frameworks/cmsis.rst:2587
+msgid ":ref:`board_ststm32_genericSTM32F423RH`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:1485 ../../../frameworks/cmsis.rst:2590
+msgid "STM32F423RHT6"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:1489 ../../../frameworks/cmsis.rst:2594
+msgid ":ref:`board_ststm32_genericSTM32F446RC`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:1491 ../../../frameworks/cmsis.rst:2597
+msgid "STM32F446RCT6"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:1495 ../../../frameworks/cmsis.rst:2601
+msgid ":ref:`board_ststm32_genericSTM32F446RE`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:1501 ../../../frameworks/cmsis.rst:2608
+msgid ":ref:`board_ststm32_stm32f4stamp`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:1507 ../../../frameworks/cmsis.rst:3770
+msgid ":ref:`board_ststm32_genericSTM32G431CB`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:1513 ../../../frameworks/cmsis.rst:2615
+msgid ":ref:`board_ststm32_genericSTM32H750VB`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:1519 ../../../frameworks/cmsis.rst:3805
+msgid ":ref:`board_ststm32_storm32_v1_31_rc`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:1525 ../../../frameworks/cmsis.rst:3784
+msgid ":ref:`board_ststm32_steval_mksboxv1`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:1527 ../../../frameworks/cmsis.rst:3787
+msgid "STM32L4R9ZI"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:1531 ../../../frameworks/cmsis.rst:3875
+msgid ":ref:`board_ststm32_agafia_sg0`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:1537 ../../../frameworks/cmsis.rst:3896
+msgid ":ref:`board_ststm32_sparkfun_micromod_f405`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:1543 ../../../frameworks/cmsis.rst:3917
+msgid ":ref:`board_ststm32_sparky_v1`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:1549 ../../../frameworks/cmsis.rst:3938
+msgid ":ref:`board_ststm32_thunder_pack`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:1551 ../../../frameworks/cmsis.rst:3941
+msgid "STM32L072KZ"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:1555 ../../../frameworks/cmsis.rst:3945
+msgid ":ref:`board_ststm32_thunder_pack_f411`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:1561 ../../../frameworks/cmsis.rst:2636
+msgid ":ref:`board_ststm32_hy_tinystm103tb`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:1567 ../../../frameworks/cmsis.rst:3966
+msgid ":ref:`board_ststm32_vake_v1`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:1573 ../../../frameworks/cmsis.rst:3987
+msgid ":ref:`board_ststm32_vccgnd_f103zet6`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:1579 ../../../frameworks/cmsis.rst:3994
+msgid ":ref:`board_ststm32_vccgnd_f407zg_mini`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:1585 ../../../frameworks/cmsis.rst:4015
+msgid ":ref:`board_ststm32_waveshare_open103z`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:1591 ../../../frameworks/cmsis.rst:4036
+msgid ":ref:`board_ststm32_blackpill_f401cc`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:1597 ../../../frameworks/cmsis.rst:4043
+msgid ":ref:`board_ststm32_blackpill_f411ce`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:1603 ../../../frameworks/cmsis.rst:4050
+msgid ":ref:`board_ststm32_blackpill_f401ce`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:1609 ../../../frameworks/cmsis.rst:4057
+msgid ":ref:`board_ststm32_weact_mini_h743vitx`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:1615 ../../../frameworks/cmsis.rst:4064
+msgid ":ref:`board_ststm32_weact_mini_h750vbtx`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:1621 ../../../frameworks/cmsis.rst:1775
+msgid ":ref:`board_ststm32_wraith32_v1`"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:1623 ../../../frameworks/cmsis.rst:1778
+msgid "STM32F051K6"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:1626 ../../../frameworks/cmsis.rst:1781
+msgid "7.75KB"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:1630
+msgid "Boards"
+msgstr "開發板"
+
+#: ../../../frameworks/cmsis.rst:1633
+msgid "You can list pre-configured boards by :ref:`cmd_boards` command"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:1634
+msgid ""
+"For more detailed ``board`` information please scroll the tables below by "
+"horizontally."
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:1637
+msgid "1BitSquared"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:1644 ../../../frameworks/cmsis.rst:1665
+#: ../../../frameworks/cmsis.rst:1707 ../../../frameworks/cmsis.rst:1728
+#: ../../../frameworks/cmsis.rst:1749 ../../../frameworks/cmsis.rst:1770
+#: ../../../frameworks/cmsis.rst:1791 ../../../frameworks/cmsis.rst:1833
+#: ../../../frameworks/cmsis.rst:1854 ../../../frameworks/cmsis.rst:1889
+#: ../../../frameworks/cmsis.rst:1910 ../../../frameworks/cmsis.rst:1938
+#: ../../../frameworks/cmsis.rst:1966 ../../../frameworks/cmsis.rst:1987
+#: ../../../frameworks/cmsis.rst:2022 ../../../frameworks/cmsis.rst:2050
+#: ../../../frameworks/cmsis.rst:2071 ../../../frameworks/cmsis.rst:2092
+#: ../../../frameworks/cmsis.rst:2631 ../../../frameworks/cmsis.rst:2652
+#: ../../../frameworks/cmsis.rst:2694 ../../../frameworks/cmsis.rst:2715
+#: ../../../frameworks/cmsis.rst:2736 ../../../frameworks/cmsis.rst:2771
+#: ../../../frameworks/cmsis.rst:2792 ../../../frameworks/cmsis.rst:2813
+#: ../../../frameworks/cmsis.rst:2834 ../../../frameworks/cmsis.rst:2890
+#: ../../../frameworks/cmsis.rst:2932 ../../../frameworks/cmsis.rst:2953
+#: ../../../frameworks/cmsis.rst:2974 ../../../frameworks/cmsis.rst:3002
+#: ../../../frameworks/cmsis.rst:3023 ../../../frameworks/cmsis.rst:3051
+#: ../../../frameworks/cmsis.rst:3072 ../../../frameworks/cmsis.rst:3093
+#: ../../../frameworks/cmsis.rst:3121 ../../../frameworks/cmsis.rst:3800
+#: ../../../frameworks/cmsis.rst:3821 ../../../frameworks/cmsis.rst:3849
+#: ../../../frameworks/cmsis.rst:3870 ../../../frameworks/cmsis.rst:3891
+#: ../../../frameworks/cmsis.rst:3912 ../../../frameworks/cmsis.rst:3933
+#: ../../../frameworks/cmsis.rst:3961 ../../../frameworks/cmsis.rst:3982
+#: ../../../frameworks/cmsis.rst:4010 ../../../frameworks/cmsis.rst:4031
+#: ../../../frameworks/cmsis.rst:4080 ../../../frameworks/cmsis.rst:4101
+msgid "Debug"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:1651 ../../../frameworks/cmsis.rst:1672
+#: ../../../frameworks/cmsis.rst:1686 ../../../frameworks/cmsis.rst:1693
+#: ../../../frameworks/cmsis.rst:1714 ../../../frameworks/cmsis.rst:1735
+#: ../../../frameworks/cmsis.rst:1756 ../../../frameworks/cmsis.rst:1777
+#: ../../../frameworks/cmsis.rst:1798 ../../../frameworks/cmsis.rst:1805
+#: ../../../frameworks/cmsis.rst:1812 ../../../frameworks/cmsis.rst:1840
+#: ../../../frameworks/cmsis.rst:1917 ../../../frameworks/cmsis.rst:1924
+#: ../../../frameworks/cmsis.rst:1945 ../../../frameworks/cmsis.rst:1952
+#: ../../../frameworks/cmsis.rst:1973 ../../../frameworks/cmsis.rst:1994
+#: ../../../frameworks/cmsis.rst:2001 ../../../frameworks/cmsis.rst:2008
+#: ../../../frameworks/cmsis.rst:2029 ../../../frameworks/cmsis.rst:2036
+#: ../../../frameworks/cmsis.rst:2057 ../../../frameworks/cmsis.rst:2078
+#: ../../../frameworks/cmsis.rst:2099 ../../../frameworks/cmsis.rst:2106
+#: ../../../frameworks/cmsis.rst:2113 ../../../frameworks/cmsis.rst:2120
+#: ../../../frameworks/cmsis.rst:2127 ../../../frameworks/cmsis.rst:2134
+#: ../../../frameworks/cmsis.rst:2141 ../../../frameworks/cmsis.rst:2148
+#: ../../../frameworks/cmsis.rst:2155 ../../../frameworks/cmsis.rst:2162
+#: ../../../frameworks/cmsis.rst:2169 ../../../frameworks/cmsis.rst:2176
+#: ../../../frameworks/cmsis.rst:2183 ../../../frameworks/cmsis.rst:2190
+#: ../../../frameworks/cmsis.rst:2197 ../../../frameworks/cmsis.rst:2204
+#: ../../../frameworks/cmsis.rst:2211 ../../../frameworks/cmsis.rst:2218
+#: ../../../frameworks/cmsis.rst:2225 ../../../frameworks/cmsis.rst:2232
+#: ../../../frameworks/cmsis.rst:2239 ../../../frameworks/cmsis.rst:2246
+#: ../../../frameworks/cmsis.rst:2253 ../../../frameworks/cmsis.rst:2260
+#: ../../../frameworks/cmsis.rst:2267 ../../../frameworks/cmsis.rst:2274
+#: ../../../frameworks/cmsis.rst:2281 ../../../frameworks/cmsis.rst:2288
+#: ../../../frameworks/cmsis.rst:2295 ../../../frameworks/cmsis.rst:2302
+#: ../../../frameworks/cmsis.rst:2309 ../../../frameworks/cmsis.rst:2316
+#: ../../../frameworks/cmsis.rst:2323 ../../../frameworks/cmsis.rst:2330
+#: ../../../frameworks/cmsis.rst:2337 ../../../frameworks/cmsis.rst:2344
+#: ../../../frameworks/cmsis.rst:2351 ../../../frameworks/cmsis.rst:2358
+#: ../../../frameworks/cmsis.rst:2365 ../../../frameworks/cmsis.rst:2372
+#: ../../../frameworks/cmsis.rst:2379 ../../../frameworks/cmsis.rst:2386
+#: ../../../frameworks/cmsis.rst:2393 ../../../frameworks/cmsis.rst:2400
+#: ../../../frameworks/cmsis.rst:2407 ../../../frameworks/cmsis.rst:2414
+#: ../../../frameworks/cmsis.rst:2421 ../../../frameworks/cmsis.rst:2428
+#: ../../../frameworks/cmsis.rst:2435 ../../../frameworks/cmsis.rst:2442
+#: ../../../frameworks/cmsis.rst:2449 ../../../frameworks/cmsis.rst:2456
+#: ../../../frameworks/cmsis.rst:2463 ../../../frameworks/cmsis.rst:2470
+#: ../../../frameworks/cmsis.rst:2477 ../../../frameworks/cmsis.rst:2484
+#: ../../../frameworks/cmsis.rst:2491 ../../../frameworks/cmsis.rst:2498
+#: ../../../frameworks/cmsis.rst:2505 ../../../frameworks/cmsis.rst:2512
+#: ../../../frameworks/cmsis.rst:2519 ../../../frameworks/cmsis.rst:2526
+#: ../../../frameworks/cmsis.rst:2533 ../../../frameworks/cmsis.rst:2540
+#: ../../../frameworks/cmsis.rst:2547 ../../../frameworks/cmsis.rst:2554
+#: ../../../frameworks/cmsis.rst:2561 ../../../frameworks/cmsis.rst:2568
+#: ../../../frameworks/cmsis.rst:2575 ../../../frameworks/cmsis.rst:2582
+#: ../../../frameworks/cmsis.rst:2589 ../../../frameworks/cmsis.rst:2596
+#: ../../../frameworks/cmsis.rst:2603 ../../../frameworks/cmsis.rst:2610
+#: ../../../frameworks/cmsis.rst:2617 ../../../frameworks/cmsis.rst:2638
+#: ../../../frameworks/cmsis.rst:2659 ../../../frameworks/cmsis.rst:2666
+#: ../../../frameworks/cmsis.rst:2673 ../../../frameworks/cmsis.rst:2680
+#: ../../../frameworks/cmsis.rst:2743 ../../../frameworks/cmsis.rst:2750
+#: ../../../frameworks/cmsis.rst:2757 ../../../frameworks/cmsis.rst:2778
+#: ../../../frameworks/cmsis.rst:2799 ../../../frameworks/cmsis.rst:2820
+#: ../../../frameworks/cmsis.rst:2841 ../../../frameworks/cmsis.rst:2848
+#: ../../../frameworks/cmsis.rst:2855 ../../../frameworks/cmsis.rst:2862
+#: ../../../frameworks/cmsis.rst:2869 ../../../frameworks/cmsis.rst:2876
+#: ../../../frameworks/cmsis.rst:2897 ../../../frameworks/cmsis.rst:2904
+#: ../../../frameworks/cmsis.rst:2911 ../../../frameworks/cmsis.rst:2918
+#: ../../../frameworks/cmsis.rst:2939 ../../../frameworks/cmsis.rst:2960
+#: ../../../frameworks/cmsis.rst:2981 ../../../frameworks/cmsis.rst:2988
+#: ../../../frameworks/cmsis.rst:3009 ../../../frameworks/cmsis.rst:3030
+#: ../../../frameworks/cmsis.rst:3037 ../../../frameworks/cmsis.rst:3079
+#: ../../../frameworks/cmsis.rst:3149 ../../../frameworks/cmsis.rst:3156
+#: ../../../frameworks/cmsis.rst:3163 ../../../frameworks/cmsis.rst:3170
+#: ../../../frameworks/cmsis.rst:3177 ../../../frameworks/cmsis.rst:3184
+#: ../../../frameworks/cmsis.rst:3226 ../../../frameworks/cmsis.rst:3695
+#: ../../../frameworks/cmsis.rst:3737 ../../../frameworks/cmsis.rst:3744
+#: ../../../frameworks/cmsis.rst:3751 ../../../frameworks/cmsis.rst:3758
+#: ../../../frameworks/cmsis.rst:3772 ../../../frameworks/cmsis.rst:3786
+#: ../../../frameworks/cmsis.rst:3807 ../../../frameworks/cmsis.rst:3856
+#: ../../../frameworks/cmsis.rst:3877 ../../../frameworks/cmsis.rst:3898
+#: ../../../frameworks/cmsis.rst:3919 ../../../frameworks/cmsis.rst:3940
+#: ../../../frameworks/cmsis.rst:3947 ../../../frameworks/cmsis.rst:3968
+#: ../../../frameworks/cmsis.rst:3989 ../../../frameworks/cmsis.rst:3996
+#: ../../../frameworks/cmsis.rst:4017 ../../../frameworks/cmsis.rst:4038
+#: ../../../frameworks/cmsis.rst:4045 ../../../frameworks/cmsis.rst:4052
+#: ../../../frameworks/cmsis.rst:4059 ../../../frameworks/cmsis.rst:4066
+msgid "External"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:1658
+msgid "96Boards"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:1679 ../../../frameworks/cmsis.rst:1819
+#: ../../../frameworks/cmsis.rst:1861 ../../../frameworks/cmsis.rst:1868
+#: ../../../frameworks/cmsis.rst:1875 ../../../frameworks/cmsis.rst:1896
+#: ../../../frameworks/cmsis.rst:2701 ../../../frameworks/cmsis.rst:2722
+#: ../../../frameworks/cmsis.rst:3058 ../../../frameworks/cmsis.rst:3100
+#: ../../../frameworks/cmsis.rst:3107 ../../../frameworks/cmsis.rst:3128
+#: ../../../frameworks/cmsis.rst:3135 ../../../frameworks/cmsis.rst:3142
+#: ../../../frameworks/cmsis.rst:3191 ../../../frameworks/cmsis.rst:3198
+#: ../../../frameworks/cmsis.rst:3205 ../../../frameworks/cmsis.rst:3212
+#: ../../../frameworks/cmsis.rst:3219 ../../../frameworks/cmsis.rst:3233
+#: ../../../frameworks/cmsis.rst:3240 ../../../frameworks/cmsis.rst:3247
+#: ../../../frameworks/cmsis.rst:3254 ../../../frameworks/cmsis.rst:3261
+#: ../../../frameworks/cmsis.rst:3268 ../../../frameworks/cmsis.rst:3275
+#: ../../../frameworks/cmsis.rst:3282 ../../../frameworks/cmsis.rst:3289
+#: ../../../frameworks/cmsis.rst:3296 ../../../frameworks/cmsis.rst:3303
+#: ../../../frameworks/cmsis.rst:3310 ../../../frameworks/cmsis.rst:3317
+#: ../../../frameworks/cmsis.rst:3324 ../../../frameworks/cmsis.rst:3331
+#: ../../../frameworks/cmsis.rst:3338 ../../../frameworks/cmsis.rst:3345
+#: ../../../frameworks/cmsis.rst:3352 ../../../frameworks/cmsis.rst:3359
+#: ../../../frameworks/cmsis.rst:3366 ../../../frameworks/cmsis.rst:3373
+#: ../../../frameworks/cmsis.rst:3380 ../../../frameworks/cmsis.rst:3387
+#: ../../../frameworks/cmsis.rst:3394 ../../../frameworks/cmsis.rst:3401
+#: ../../../frameworks/cmsis.rst:3408 ../../../frameworks/cmsis.rst:3415
+#: ../../../frameworks/cmsis.rst:3422 ../../../frameworks/cmsis.rst:3429
+#: ../../../frameworks/cmsis.rst:3436 ../../../frameworks/cmsis.rst:3443
+#: ../../../frameworks/cmsis.rst:3450 ../../../frameworks/cmsis.rst:3457
+#: ../../../frameworks/cmsis.rst:3464 ../../../frameworks/cmsis.rst:3471
+#: ../../../frameworks/cmsis.rst:3478 ../../../frameworks/cmsis.rst:3485
+#: ../../../frameworks/cmsis.rst:3492 ../../../frameworks/cmsis.rst:3499
+#: ../../../frameworks/cmsis.rst:3506 ../../../frameworks/cmsis.rst:3513
+#: ../../../frameworks/cmsis.rst:3520 ../../../frameworks/cmsis.rst:3527
+#: ../../../frameworks/cmsis.rst:3534 ../../../frameworks/cmsis.rst:3541
+#: ../../../frameworks/cmsis.rst:3548 ../../../frameworks/cmsis.rst:3555
+#: ../../../frameworks/cmsis.rst:3562 ../../../frameworks/cmsis.rst:3569
+#: ../../../frameworks/cmsis.rst:3576 ../../../frameworks/cmsis.rst:3583
+#: ../../../frameworks/cmsis.rst:3590 ../../../frameworks/cmsis.rst:3597
+#: ../../../frameworks/cmsis.rst:3604 ../../../frameworks/cmsis.rst:3611
+#: ../../../frameworks/cmsis.rst:3618 ../../../frameworks/cmsis.rst:3625
+#: ../../../frameworks/cmsis.rst:3632 ../../../frameworks/cmsis.rst:3639
+#: ../../../frameworks/cmsis.rst:3646 ../../../frameworks/cmsis.rst:3653
+#: ../../../frameworks/cmsis.rst:3660 ../../../frameworks/cmsis.rst:3667
+#: ../../../frameworks/cmsis.rst:3674 ../../../frameworks/cmsis.rst:3681
+#: ../../../frameworks/cmsis.rst:3688 ../../../frameworks/cmsis.rst:3702
+#: ../../../frameworks/cmsis.rst:3709 ../../../frameworks/cmsis.rst:3716
+#: ../../../frameworks/cmsis.rst:3723 ../../../frameworks/cmsis.rst:3730
+#: ../../../frameworks/cmsis.rst:3765 ../../../frameworks/cmsis.rst:3779
+#: ../../../frameworks/cmsis.rst:3828 ../../../frameworks/cmsis.rst:3835
+#: ../../../frameworks/cmsis.rst:4087 ../../../frameworks/cmsis.rst:4108
+msgid "On-board"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:1700
+msgid "ACSIP"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:1721
+msgid "Adafruit"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:1742
+msgid "AfroFlight"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:1763
+msgid "Airbot"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:1784
+msgid "Arduino"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:1826
+msgid "Armed"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:1847
+msgid "Armstrap"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:1882
+msgid "Avnet Silica"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:1903
+msgid "Blues"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:1931
+msgid "DevEBox"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:1959
+msgid "Diymore"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:1980
+msgid "Electrosmith"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:2015
+msgid "Elektor"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:2043
+msgid "Espotel"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:2064
+msgid "FYSETC"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:2085
+msgid "Generic"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:2624
+msgid "HY"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:2645
+msgid "LeafLabs"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:2687
+msgid "Leafony Systems"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:2708
+msgid "MXChip"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:2729
+msgid "Malyan"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:2764
+msgid "Microduino"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:2785
+msgid "MultiTech"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:2806
+msgid "Netduino"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:2827
+msgid "Olimex"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:2883
+msgid "PYBStick"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:2925
+msgid "Piconomix"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:2946
+msgid "PrntrBoard"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:2967
+msgid "RAK"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:2995
+msgid "RUMBA"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:3016
+msgid "RYMCU"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:3044
+msgid "RemRam"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:3065
+msgid "RobotDyn"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:3086
+msgid "RushUp"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:3114
+msgid "ST"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:3793
+msgid "STorM32"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:3814
+msgid "SeeedStudio"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:3842
+msgid "Semtech"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:3863
+msgid "Sigma IC"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:3884
+msgid "SparkFun"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:3905
+msgid "TauLabs"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:3926
+msgid "ThunderPack"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:3954
+msgid "VAE"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:3975
+msgid "VCCGND"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:4003
+msgid "Waveshare"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:4024
+msgid "WeAct Studio"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:4073
+msgid "rhomb.io"
+msgstr ""
+
+#: ../../../frameworks/cmsis.rst:4094
+msgid "sakura.io"
+msgstr ""
