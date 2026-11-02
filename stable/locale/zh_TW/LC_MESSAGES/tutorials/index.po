@@ -85,9 +85,9 @@ msgstr ""
 
 #: ../../../tutorials/index.rst:60
 msgid ""
-"`Use the PlatformIO Debugger on the ESP32 Using an ESP-prog <https://www."
-"hackster.io/brian-lough/use-the-platformio-debugger-on-the-esp32-using-an-"
-"esp-prog-f633b6>`_"
+"`Use the PlatformIO Debugger on the ESP32 Using an ESP-prog <https://"
+"www.hackster.io/brian-lough/use-the-platformio-debugger-on-the-esp32-using-"
+"an-esp-prog-f633b6>`_"
 msgstr ""
 
 #: ../../../tutorials/index.rst:61
@@ -98,14 +98,14 @@ msgstr ""
 
 #: ../../../tutorials/index.rst:62
 msgid ""
-"`PlatformIO for Arduino, ESP8266, and ESP32 Tutorial <https://www.youtube."
-"com/watch?v=0poh_2rBq7E>`_"
+"`PlatformIO for Arduino, ESP8266, and ESP32 Tutorial <https://"
+"www.youtube.com/watch?v=0poh_2rBq7E>`_"
 msgstr ""
 
 #: ../../../tutorials/index.rst:63
 msgid ""
-"`Free Inline Debugging for ESP32 and Arduino Sketches <https://www.youtube."
-"com/watch?v=psMqilqlrRQ>`__"
+"`Free Inline Debugging for ESP32 and Arduino Sketches <https://"
+"www.youtube.com/watch?v=psMqilqlrRQ>`__"
 msgstr ""
 
 #: ../../../tutorials/index.rst:64
@@ -121,8 +121,8 @@ msgstr ""
 
 #: ../../../tutorials/index.rst:66
 msgid ""
-"`A Better Arduino IDE - Getting Started with PlatformIO <https://www.youtube."
-"com/watch?v=EIkGTwLOD7o>`_"
+"`A Better Arduino IDE - Getting Started with PlatformIO <https://"
+"www.youtube.com/watch?v=EIkGTwLOD7o>`_"
 msgstr ""
 
 #: ../../../tutorials/index.rst:67

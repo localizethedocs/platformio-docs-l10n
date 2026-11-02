@@ -85,8 +85,8 @@ msgstr "組態"
 
 #: ../../../boards/nordicnrf51/calliope_mini.rst:41
 msgid ""
-"Please use ``calliope_mini`` ID for :ref:`projectconf_env_board` option in :"
-"ref:`projectconf`:"
+"Please use ``calliope_mini`` ID for :ref:`projectconf_env_board` option "
+"in :ref:`projectconf`:"
 msgstr ""
 
 #: ../../../boards/nordicnrf51/calliope_mini.rst:49
@@ -143,8 +143,8 @@ msgstr ""
 
 #: ../../../boards/nordicnrf51/calliope_mini.rst:96
 msgid ""
-"You can switch between debugging :ref:`debugging_tools` using :ref:"
-"`projectconf_debug_tool` option in :ref:`projectconf`."
+"You can switch between debugging :ref:`debugging_tools` "
+"using :ref:`projectconf_debug_tool` option in :ref:`projectconf`."
 msgstr ""
 
 #: ../../../boards/nordicnrf51/calliope_mini.rst:99

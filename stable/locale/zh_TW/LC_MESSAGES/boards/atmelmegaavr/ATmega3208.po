@@ -86,8 +86,8 @@ msgstr "組態"
 
 #: ../../../boards/atmelmegaavr/ATmega3208.rst:41
 msgid ""
-"Please use ``ATmega3208`` ID for :ref:`projectconf_env_board` option in :ref:"
-"`projectconf`:"
+"Please use ``ATmega3208`` ID for :ref:`projectconf_env_board` option "
+"in :ref:`projectconf`:"
 msgstr ""
 
 #: ../../../boards/atmelmegaavr/ATmega3208.rst:49

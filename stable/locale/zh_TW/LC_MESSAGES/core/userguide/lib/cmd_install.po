@@ -131,8 +131,8 @@ msgstr ""
 
 #: ../../../core/userguide/lib/cmd_install.rst:115
 msgid ""
-"Save installed libraries into the :ref:`projectconf` dependency list (:ref:"
-"`projectconf_lib_deps`). Default value is to save."
+"Save installed libraries into the :ref:`projectconf` dependency list "
+"(:ref:`projectconf_lib_deps`). Default value is to save."
 msgstr ""
 
 #: ../../../core/userguide/lib/cmd_install.rst:118

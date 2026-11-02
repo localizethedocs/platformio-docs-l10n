@@ -28,8 +28,8 @@ msgstr ""
 #: ../../../projectconf/sections/env/options/debug/debug_tool.rst:8
 msgid ""
 "A name of debugging tool. This option is useful when board supports more "
-"than one debugging tool (adapter, probe) or you want to create :ref:"
-"`debugging_tool_custom` debugging configuration."
+"than one debugging tool (adapter, probe) or you want to "
+"create :ref:`debugging_tool_custom` debugging configuration."
 msgstr ""
 
 #: ../../../projectconf/sections/env/options/debug/debug_tool.rst:12

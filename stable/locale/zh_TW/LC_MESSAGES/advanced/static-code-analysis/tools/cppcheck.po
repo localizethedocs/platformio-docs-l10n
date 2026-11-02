@@ -139,9 +139,9 @@ msgstr "組態"
 
 #: ../../../advanced/static-code-analysis/tools/cppcheck.rst:67
 msgid ""
-"**Cppcheck** is implicitly used as the default check tool when :ref:"
-"`projectconf_check_tool` option in :ref:`projectconf` is not set. To be "
-"explicit, you can specify it in the configuration directly:"
+"**Cppcheck** is implicitly used as the default check tool "
+"when :ref:`projectconf_check_tool` option in :ref:`projectconf` is not set. "
+"To be explicit, you can specify it in the configuration directly:"
 msgstr ""
 
 #: ../../../advanced/static-code-analysis/tools/cppcheck.rst:79

@@ -33,9 +33,9 @@ msgstr ""
 msgid ""
 "There is ``env.AddBuildMiddleware(callback, pattern)`` helper which "
 "instructs PlatformIO Build System to call ``callback`` for each `SCons File "
-"System Node <https://scons.org/doc/latest/HTML/scons-api/SCons.Node/#SCons."
-"Node.FS.Dir>`_ whose path matches with `Unix shell-style "
-"\"pattern\" (wildcards) <https://docs.python.org/3.9/library/fnmatch.html>`_."
+"System Node <https://scons.org/doc/latest/HTML/scons-api/SCons.Node/"
+"#SCons.Node.FS.Dir>`_ whose path matches with `Unix shell-style \"pattern\" "
+"(wildcards) <https://docs.python.org/3.9/library/fnmatch.html>`_."
 msgstr ""
 
 #: ../../../scripting/middlewares.rst:25
@@ -53,8 +53,8 @@ msgstr ""
 
 #: ../../../scripting/middlewares.rst:32
 msgid ""
-"A middleware can be only added to a ``PRE`` kind of :ref:"
-"`scripting_launch_types`."
+"A middleware can be only added to a ``PRE`` kind "
+"of :ref:`scripting_launch_types`."
 msgstr ""
 
 #: ../../../scripting/middlewares.rst:34

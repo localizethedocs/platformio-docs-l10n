@@ -86,8 +86,8 @@ msgstr "組態"
 
 #: ../../../boards/atmelavr/ATmega164A.rst:41
 msgid ""
-"Please use ``ATmega164A`` ID for :ref:`projectconf_env_board` option in :ref:"
-"`projectconf`:"
+"Please use ``ATmega164A`` ID for :ref:`projectconf_env_board` option "
+"in :ref:`projectconf`:"
 msgstr ""
 
 #: ../../../boards/atmelavr/ATmega164A.rst:49

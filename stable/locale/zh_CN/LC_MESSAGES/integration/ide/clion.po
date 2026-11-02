@@ -114,9 +114,9 @@ msgstr ""
 #: ../../../integration/ide/clion.rst:74
 msgid ""
 "This is a known issue `CLion CPP-19478: CLion does not handle "
-"\"CMAKE_CONFIGURATION_TYPES\" from CMakeLists.txt <https://youtrack."
-"jetbrains.com/issue/CPP-19478>`_. A temporary solution is to manually "
-"configure project profiles in CLion."
+"\"CMAKE_CONFIGURATION_TYPES\" from CMakeLists.txt <https://"
+"youtrack.jetbrains.com/issue/CPP-19478>`_. A temporary solution is to "
+"manually configure project profiles in CLion."
 msgstr ""
 
 #: ../../../integration/ide/clion.rst:77
@@ -157,10 +157,10 @@ msgid ""
 "Starting with version 4.0, ESP-IDF uses a build system based on CMake. In "
 "order to provide more seamless integration, PlatformIO uses the CMake file-"
 "based API to extract build configurations. Because of this approach, there "
-"is a conflict between ``CMakeLists.txt`` used by ESP-IDF and ``CMakeLists."
-"txt`` which PlatformIO generates for CLion. At the moment we're working on "
-"better integration with CLion without this intermediate ``CMakeLists.txt``, "
-"but there is no ETA for this feature."
+"is a conflict between ``CMakeLists.txt`` used by ESP-IDF and "
+"``CMakeLists.txt`` which PlatformIO generates for CLion. At the moment we're "
+"working on better integration with CLion without this intermediate "
+"``CMakeLists.txt``, but there is no ETA for this feature."
 msgstr ""
 
 #: ../../../integration/ide/clion.rst:106

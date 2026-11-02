@@ -77,6 +77,6 @@ msgstr ""
 
 #: ../../../core/index.rst:46
 msgid ""
-"If you need |PIOCORE| commands outside PlatformIO IDE, please :ref:"
-"`piocore_install_shell_commands`."
+"If you need |PIOCORE| commands outside PlatformIO IDE, "
+"please :ref:`piocore_install_shell_commands`."
 msgstr ""

@@ -85,8 +85,8 @@ msgstr "組態"
 
 #: ../../../boards/espressif8266/sonoff_basic.rst:41
 msgid ""
-"Please use ``sonoff_basic`` ID for :ref:`projectconf_env_board` option in :"
-"ref:`projectconf`:"
+"Please use ``sonoff_basic`` ID for :ref:`projectconf_env_board` option "
+"in :ref:`projectconf`:"
 msgstr ""
 
 #: ../../../boards/espressif8266/sonoff_basic.rst:49

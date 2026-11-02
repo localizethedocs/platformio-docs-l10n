@@ -24,8 +24,8 @@ msgstr ""
 #: ../../../advanced/unit-testing/simulators/qemu.rst:20
 msgid ""
 "QEMU is a free and open-source emulator that performs hardware "
-"virtualization. Official reference can be found `here  <https://www.qemu."
-"org/?utm_source=platformio&utm_medium=docs>`__."
+"virtualization. Official reference can be found `here  <https://"
+"www.qemu.org/?utm_source=platformio&utm_medium=docs>`__."
 msgstr ""
 
 #: ../../../advanced/unit-testing/simulators/qemu.rst:24
@@ -35,8 +35,9 @@ msgstr "組態"
 #: ../../../advanced/unit-testing/simulators/qemu.rst:26
 msgid ""
 "Integration of the QEMU requires adding the platform compatible package to "
-"the :ref:`projectconf_env_platform_packages` option in your :ref:"
-"`projectconf`, and overriding the :ref:`projectconf_test_testing_command`."
+"the :ref:`projectconf_env_platform_packages` option in "
+"your :ref:`projectconf`, and overriding "
+"the :ref:`projectconf_test_testing_command`."
 msgstr ""
 
 #: ../../../advanced/unit-testing/simulators/qemu.rst:30
@@ -51,6 +52,6 @@ msgstr ""
 
 #: ../../../advanced/unit-testing/simulators/qemu.rst:53
 msgid ""
-"QEMU does not require a firmware uploading stage. Please use the :option:"
-"`pio test --without-uploading` command option."
+"QEMU does not require a firmware uploading stage. Please use "
+"the :option:`pio test --without-uploading` command option."
 msgstr ""

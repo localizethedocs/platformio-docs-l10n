@@ -79,8 +79,8 @@ msgstr ""
 
 #: ../../../faq/program-memory-usage.rst:50
 msgid ""
-"If you need to print **all memory sections and addresses**, please use :"
-"option:`pio run --verbose` command."
+"If you need to print **all memory sections and addresses**, please "
+"use :option:`pio run --verbose` command."
 msgstr ""
 
 #: ../../../faq/program-memory-usage.rst:53
@@ -93,7 +93,7 @@ msgstr ""
 
 #: ../../../faq/program-memory-usage.rst:56
 msgid ""
-"`text, data and bss: Code and Data Size Explained <https://mcuoneclipse."
-"com/2013/04/14/text-data-and-bss-code-and-data-size-explained/?"
+"`text, data and bss: Code and Data Size Explained <https://mcuoneclipse.com/"
+"2013/04/14/text-data-and-bss-code-and-data-size-explained/?"
 "utm_source=platformio&utm_medium=docs>`_"
 msgstr ""

@@ -50,8 +50,8 @@ msgstr ""
 #: ../../../platforms/riscv_gap.rst:24
 msgid ""
 "For more detailed information please visit `vendor site <https://greenwaves-"
-"technologies.com/en/gap8-product/?utm_source=platformio."
-"org&utm_medium=docs>`_."
+"technologies.com/en/gap8-product/?"
+"utm_source=platformio.org&utm_medium=docs>`_."
 msgstr ""
 
 #: ../../../platforms/riscv_gap.rst:28
@@ -78,8 +78,8 @@ msgstr ""
 
 #: ../../../platforms/riscv_gap_extra.rst:29
 msgid ""
-"Put a library somewhere on a disk and add this folder to library path using :"
-"ref:`projectconf_build_flags` in :ref:`projectconf`. For example,"
+"Put a library somewhere on a disk and add this folder to library path "
+"using :ref:`projectconf_build_flags` in :ref:`projectconf`. For example,"
 msgstr ""
 
 #: ../../../platforms/riscv_gap_extra.rst:42
@@ -125,8 +125,8 @@ msgstr ""
 
 #: ../../../platforms/riscv_gap_extra.rst:57
 msgid ""
-"You can configure \"boot mode\" and list of upload commands using :ref:"
-"`projectconf`. Default values are:"
+"You can configure \"boot mode\" and list of upload commands "
+"using :ref:`projectconf`. Default values are:"
 msgstr ""
 
 #: ../../../platforms/riscv_gap_extra.rst:60
@@ -202,15 +202,16 @@ msgstr ""
 
 #: ../../../platforms/riscv_gap_extra.rst:151
 msgid ""
-"Create new project using :ref:`pioide` or initialize project using :ref:"
-"`piocore` and :ref:`cmd_project_init` (if you have not initialized it yet)"
+"Create new project using :ref:`pioide` or initialize project "
+"using :ref:`piocore` and :ref:`cmd_project_init` (if you have not "
+"initialized it yet)"
 msgstr ""
 
 #: ../../../platforms/riscv_gap_extra.rst:153
 msgid ""
 "Create ``data`` folder (it should be on the same level as ``src`` folder) "
-"and put files here. Also, you can specify own location for :ref:"
-"`projectconf_pio_data_dir`"
+"and put files here. Also, you can specify own location "
+"for :ref:`projectconf_pio_data_dir`"
 msgstr ""
 
 #: ../../../platforms/riscv_gap_extra.rst:156
@@ -243,8 +244,8 @@ msgstr ""
 #: ../../../platforms/riscv_gap.rst:37
 msgid ""
 "`gapuino-mbed-os-irq <https://github.com/platformio/platform-riscv_gap/tree/"
-"master/examples/gapuino-mbed-os-irq?utm_source=platformio."
-"org&utm_medium=docs>`_"
+"master/examples/gapuino-mbed-os-irq?"
+"utm_source=platformio.org&utm_medium=docs>`_"
 msgstr ""
 
 #: ../../../platforms/riscv_gap.rst:38
@@ -271,8 +272,8 @@ msgstr ""
 #: ../../../platforms/riscv_gap.rst:41
 msgid ""
 "`gapuino-mbed-events-queue <https://github.com/platformio/platform-riscv_gap/"
-"tree/master/examples/gapuino-mbed-events-queue?utm_source=platformio."
-"org&utm_medium=docs>`_"
+"tree/master/examples/gapuino-mbed-events-queue?"
+"utm_source=platformio.org&utm_medium=docs>`_"
 msgstr ""
 
 #: ../../../platforms/riscv_gap.rst:42
@@ -292,8 +293,8 @@ msgstr ""
 #: ../../../platforms/riscv_gap.rst:44
 msgid ""
 "`gapuino-mbed-fft2d <https://github.com/platformio/platform-riscv_gap/tree/"
-"master/examples/gapuino-mbed-fft2d?utm_source=platformio."
-"org&utm_medium=docs>`_"
+"master/examples/gapuino-mbed-fft2d?"
+"utm_source=platformio.org&utm_medium=docs>`_"
 msgstr ""
 
 #: ../../../platforms/riscv_gap.rst:45
@@ -306,8 +307,8 @@ msgstr ""
 #: ../../../platforms/riscv_gap.rst:46
 msgid ""
 "`gapuino-mbed-matadd <https://github.com/platformio/platform-riscv_gap/tree/"
-"master/examples/gapuino-mbed-matadd?utm_source=platformio."
-"org&utm_medium=docs>`_"
+"master/examples/gapuino-mbed-matadd?"
+"utm_source=platformio.org&utm_medium=docs>`_"
 msgstr ""
 
 #: ../../../platforms/riscv_gap.rst:47
@@ -446,8 +447,8 @@ msgstr ""
 msgid ""
 "You can switch between `stable releases <https://github.com/platformio/"
 "platform-riscv_gap/releases>`__ of RISC-V GAP development platform and the "
-"latest upstream version using :ref:`projectconf_env_platform` option in :ref:"
-"`projectconf` as described below."
+"latest upstream version using :ref:`projectconf_env_platform` option "
+"in :ref:`projectconf` as described below."
 msgstr ""
 
 #: ../../../platforms/riscv_gap.rst:107

@@ -47,8 +47,9 @@ msgstr ""
 
 #: ../../../core/userguide/account/cmd_register.rst:41
 msgid ""
-"A username. You can use it later for :ref:`cmd_account_login`, :ref:"
-"`cmd_account_update`, and :ref:`cmd_account_forgot` commands."
+"A username. You can use it later "
+"for :ref:`cmd_account_login`, :ref:`cmd_account_update`, "
+"and :ref:`cmd_account_forgot` commands."
 msgstr ""
 
 #: ../../../core/userguide/account/cmd_register.rst:44
@@ -65,9 +66,9 @@ msgstr ""
 
 #: ../../../core/userguide/account/cmd_register.rst:55
 msgid ""
-"A password. You will need it for :ref:`cmd_account_login`, :ref:"
-"`cmd_account_password`, :ref:`cmd_account_token`, and :ref:"
-"`cmd_account_update` commands."
+"A password. You will need it "
+"for :ref:`cmd_account_login`, :ref:`cmd_account_password`, :ref:`cmd_account_token`, "
+"and :ref:`cmd_account_update` commands."
 msgstr ""
 
 #: ../../../core/userguide/account/cmd_register.rst:62

@@ -52,8 +52,8 @@ msgstr ""
 #: ../../../core/userguide/cmd_debug.rst:48
 msgid ""
 "You can also specify which environments should be used for debugging by "
-"default using :ref:`projectconf_pio_default_envs` option from :ref:"
-"`projectconf`."
+"default using :ref:`projectconf_pio_default_envs` option "
+"from :ref:`projectconf`."
 msgstr ""
 
 #: ../../../core/userguide/cmd_debug.rst:54
@@ -85,8 +85,8 @@ msgstr ""
 #: ../../../core/userguide/cmd_debug.rst:79
 msgid ""
 "This option can also be set globally using :ref:`setting_force_verbose` "
-"setting or by environment variable :envvar:"
-"`PLATFORMIO_SETTING_FORCE_VERBOSE`."
+"setting or by environment "
+"variable :envvar:`PLATFORMIO_SETTING_FORCE_VERBOSE`."
 msgstr ""
 
 #: ../../../core/userguide/cmd_debug.rst:83

@@ -19,7 +19,7 @@ msgstr ""
 
 #: ../../../projectconf/sections/env/options/library/lib_ldf_mode.rst:15
 msgid "``lib_ldf_mode``"
-msgstr ""
+msgstr "``lib_ldf_mode``"
 
 #: ../../../projectconf/sections/env/options/library/lib_ldf_mode.rst:18
 msgid "Please make sure to read :ref:`ldf` guide first."
@@ -38,4 +38,4 @@ msgstr ""
 
 #: ../../../projectconf/sections/env/options/library/lib_ldf_mode.rst:26
 msgid "Example:"
-msgstr ""
+msgstr "範例："

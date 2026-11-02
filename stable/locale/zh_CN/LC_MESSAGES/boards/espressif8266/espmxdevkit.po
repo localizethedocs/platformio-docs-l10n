@@ -85,8 +85,8 @@ msgstr ""
 
 #: ../../../boards/espressif8266/espmxdevkit.rst:41
 msgid ""
-"Please use ``espmxdevkit`` ID for :ref:`projectconf_env_board` option in :"
-"ref:`projectconf`:"
+"Please use ``espmxdevkit`` ID for :ref:`projectconf_env_board` option "
+"in :ref:`projectconf`:"
 msgstr ""
 
 #: ../../../boards/espressif8266/espmxdevkit.rst:49

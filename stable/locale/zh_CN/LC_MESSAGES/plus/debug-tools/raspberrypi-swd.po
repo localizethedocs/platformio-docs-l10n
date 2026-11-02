@@ -23,8 +23,8 @@ msgstr ""
 
 #: ../../../plus/debug-tools/raspberrypi-swd.rst:20
 msgid ""
-"`Learn how to Program and Debug Raspberry Pi Pico with SWD <https://www."
-"electronicshub.org/programming-raspberry-pi-pico-with-swd/>`__."
+"`Learn how to Program and Debug Raspberry Pi Pico with SWD <https://"
+"www.electronicshub.org/programming-raspberry-pi-pico-with-swd/>`__."
 msgstr ""
 
 #: ../../../plus/debug-tools/raspberrypi-swd.rst:23

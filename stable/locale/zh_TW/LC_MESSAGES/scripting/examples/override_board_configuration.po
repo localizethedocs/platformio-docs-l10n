@@ -32,8 +32,8 @@ msgstr ""
 
 #: ../../../scripting/examples/override_board_configuration.rst:22
 msgid ""
-"Due to a technical limitation these board changes will not work for :ref:"
-"`cmd_device_monitor` command."
+"Due to a technical limitation these board changes will not work "
+"for :ref:`cmd_device_monitor` command."
 msgstr ""
 
 #: ../../../scripting/examples/override_board_configuration.rst:25

@@ -75,8 +75,8 @@ msgstr ""
 
 #: ../../../boards/espressif32/ttgo-t7-v13-mini32.rst:35
 msgid ""
-"`TTGO <https://github.com/LilyGO/ESP32-MINI-32-V1.3?utm_source=platformio."
-"org&utm_medium=docs>`__"
+"`TTGO <https://github.com/LilyGO/ESP32-MINI-32-V1.3?"
+"utm_source=platformio.org&utm_medium=docs>`__"
 msgstr ""
 
 #: ../../../boards/espressif32/ttgo-t7-v13-mini32.rst:39

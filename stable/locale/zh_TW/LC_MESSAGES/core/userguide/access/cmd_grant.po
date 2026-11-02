@@ -76,8 +76,8 @@ msgstr ""
 
 #: ../../../core/userguide/access/cmd_grant.rst:44
 msgid ""
-"You can grant access to the team members using the next format ``orgname:"
-"teamname``. See the examples below."
+"You can grant access to the team members using the next format "
+"``orgname:teamname``. See the examples below."
 msgstr ""
 
 #: ../../../core/userguide/access/cmd_grant.rst:48

@@ -33,9 +33,9 @@ msgstr ""
 
 #: ../../../advanced/static-code-analysis/configuration.rst:25
 msgid ""
-"Custom tool version can be configured using :ref:"
-"`projectconf_env_platform_packages` option. Check `PlatformIO Registry "
-"<https://registry.platformio.org/>`_ for the available versions."
+"Custom tool version can be configured "
+"using :ref:`projectconf_env_platform_packages` option. Check `PlatformIO "
+"Registry <https://registry.platformio.org/>`_ for the available versions."
 msgstr ""
 
 #: ../../../advanced/static-code-analysis/configuration.rst:28

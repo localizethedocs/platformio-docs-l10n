@@ -102,8 +102,8 @@ msgstr ""
 
 #: ../../../plus/debug-tools/custom.rst:157
 msgid ""
-"On-board ST-Link V2/V2-1 in pair with `ST-Util GDB Server <https://github."
-"com/texane/stlink>`_:"
+"On-board ST-Link V2/V2-1 in pair with `ST-Util GDB Server <https://"
+"github.com/texane/stlink>`_:"
 msgstr ""
 
 #: ../../../plus/debug-tools/custom.rst:182
@@ -112,8 +112,8 @@ msgstr ""
 
 #: ../../../plus/debug-tools/custom.rst:184
 msgid ""
-"On-board ST-Link V2/V2-1 in pair with `OpenOCD GDB Server <http://openocd."
-"org>`_:"
+"On-board ST-Link V2/V2-1 in pair with `OpenOCD GDB Server <http://"
+"openocd.org>`_:"
 msgstr ""
 
 #: ../../../plus/debug-tools/custom.rst:199

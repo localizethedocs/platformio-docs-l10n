@@ -34,8 +34,8 @@ msgstr ""
 
 #: ../../../manifests/library-json/fields/schema.rst:22
 msgid ""
-"You can also validate the ``library.json`` manifest file using the :ref:"
-"`cmd_pkg_pack` command."
+"You can also validate the ``library.json`` manifest file using "
+"the :ref:`cmd_pkg_pack` command."
 msgstr ""
 
 #: ../../../manifests/library-json/fields/schema.rst:24

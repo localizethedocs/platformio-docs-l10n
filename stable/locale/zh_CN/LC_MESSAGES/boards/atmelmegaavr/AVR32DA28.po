@@ -83,8 +83,8 @@ msgstr ""
 
 #: ../../../boards/atmelmegaavr/AVR32DA28.rst:41
 msgid ""
-"Please use ``AVR32DA28`` ID for :ref:`projectconf_env_board` option in :ref:"
-"`projectconf`:"
+"Please use ``AVR32DA28`` ID for :ref:`projectconf_env_board` option "
+"in :ref:`projectconf`:"
 msgstr ""
 
 #: ../../../boards/atmelmegaavr/AVR32DA28.rst:49

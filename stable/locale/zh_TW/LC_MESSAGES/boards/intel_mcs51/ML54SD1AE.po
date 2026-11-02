@@ -85,8 +85,8 @@ msgstr "組態"
 
 #: ../../../boards/intel_mcs51/ML54SD1AE.rst:41
 msgid ""
-"Please use ``ML54SD1AE`` ID for :ref:`projectconf_env_board` option in :ref:"
-"`projectconf`:"
+"Please use ``ML54SD1AE`` ID for :ref:`projectconf_env_board` option "
+"in :ref:`projectconf`:"
 msgstr ""
 
 #: ../../../boards/intel_mcs51/ML54SD1AE.rst:49

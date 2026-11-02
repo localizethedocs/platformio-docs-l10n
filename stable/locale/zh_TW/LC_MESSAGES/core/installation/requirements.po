@@ -43,8 +43,8 @@ msgstr ""
 
 #: ../../../core/installation/requirements.rst:26
 msgid ""
-"**Python 3.6+ or above**. See detailed instructions on how to :ref:"
-"`faq_install_python`."
+"**Python 3.6+ or above**. See detailed instructions on how "
+"to :ref:`faq_install_python`."
 msgstr ""
 
 #: ../../../core/installation/requirements.rst:0
@@ -53,8 +53,8 @@ msgstr ""
 
 #: ../../../core/installation/requirements.rst:31
 msgid ""
-"All CLI commands below should be executed in the `Command-line <http://en."
-"wikipedia.org/wiki/Command-line_interface>`_ application (Terminal). For "
+"All CLI commands below should be executed in the `Command-line <http://"
+"en.wikipedia.org/wiki/Command-line_interface>`_ application (Terminal). For "
 "macOS and Linux OS - *Terminal* application, for Windows OS – ``cmd.exe`` "
 "application."
 msgstr ""

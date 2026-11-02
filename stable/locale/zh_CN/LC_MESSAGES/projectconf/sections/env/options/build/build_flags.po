@@ -36,14 +36,14 @@ msgstr ""
 #: ../../../projectconf/sections/env/options/build/build_flags.rst:24
 msgid ""
 "For more detailed information about available compiler flags/options, please "
-"visit `GCC Command Options <https://gcc.gnu.org/onlinedocs/gcc/Invoking-GCC."
-"html>`__ official documentation."
+"visit `GCC Command Options <https://gcc.gnu.org/onlinedocs/gcc/Invoking-"
+"GCC.html>`__ official documentation."
 msgstr ""
 
 #: ../../../projectconf/sections/env/options/build/build_flags.rst:28
 msgid ""
-"This option can also be set by the global environment variable :envvar:"
-"`PLATFORMIO_BUILD_FLAGS`."
+"This option can also be set by the global environment "
+"variable :envvar:`PLATFORMIO_BUILD_FLAGS`."
 msgstr ""
 
 #: ../../../projectconf/sections/env/options/build/build_flags.rst:32
@@ -268,8 +268,8 @@ msgstr ""
 
 #: ../../../projectconf/sections/env/options/build/build_flags.rst:132
 msgid ""
-"``$PROJECT_CORE_DIR``, PlatformIO Core directory, see :ref:"
-"`projectconf_pio_core_dir`"
+"``$PROJECT_CORE_DIR``, PlatformIO Core directory, "
+"see :ref:`projectconf_pio_core_dir`"
 msgstr ""
 
 #: ../../../projectconf/sections/env/options/build/build_flags.rst:133
@@ -305,9 +305,9 @@ msgstr ""
 
 #: ../../../projectconf/sections/env/options/build/build_flags.rst:148
 msgid ""
-"Here is an example of a macro definition that uses stringification and :ref:"
-"`projectconf_build_flags`. Please note that we enclosed the flag in the "
-"single quotes to prevent the shell evaluation:"
+"Here is an example of a macro definition that uses stringification "
+"and :ref:`projectconf_build_flags`. Please note that we enclosed the flag in "
+"the single quotes to prevent the shell evaluation:"
 msgstr ""
 
 #: ../../../projectconf/sections/env/options/build/build_flags.rst:152
@@ -321,9 +321,9 @@ msgstr ""
 
 #: ../../../projectconf/sections/env/options/build/build_flags.rst:174
 msgid ""
-"If you use :ref:`scripting`, we recommend benefiting from the ``env."
-"StringifyMacro(value)`` helper function. In this case, you don't need to "
-"apply any escaping, PlatformIO will do this for you:"
+"If you use :ref:`scripting`, we recommend benefiting from the "
+"``env.StringifyMacro(value)`` helper function. In this case, you don't need "
+"to apply any escaping, PlatformIO will do this for you:"
 msgstr ""
 
 #: ../../../projectconf/sections/env/options/build/build_flags.rst:186

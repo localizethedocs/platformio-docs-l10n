@@ -39,8 +39,8 @@ msgstr ""
 
 #: ../../../core/userguide/access/cmd_revoke.rst:31
 msgid ""
-"You can revoke access for the team members using the next format ``orgname:"
-"teamname``."
+"You can revoke access for the team members using the next format "
+"``orgname:teamname``."
 msgstr ""
 
 #: ../../../core/userguide/access/cmd_revoke.rst:33

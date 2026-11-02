@@ -85,8 +85,8 @@ msgstr "組態"
 
 #: ../../../boards/nordicnrf51/bbcmicrobit.rst:41
 msgid ""
-"Please use ``bbcmicrobit`` ID for :ref:`projectconf_env_board` option in :"
-"ref:`projectconf`:"
+"Please use ``bbcmicrobit`` ID for :ref:`projectconf_env_board` option "
+"in :ref:`projectconf`:"
 msgstr ""
 
 #: ../../../boards/nordicnrf51/bbcmicrobit.rst:49
@@ -143,8 +143,8 @@ msgstr ""
 
 #: ../../../boards/nordicnrf51/bbcmicrobit.rst:96
 msgid ""
-"You can switch between debugging :ref:`debugging_tools` using :ref:"
-"`projectconf_debug_tool` option in :ref:`projectconf`."
+"You can switch between debugging :ref:`debugging_tools` "
+"using :ref:`projectconf_debug_tool` option in :ref:`projectconf`."
 msgstr ""
 
 #: ../../../boards/nordicnrf51/bbcmicrobit.rst:99

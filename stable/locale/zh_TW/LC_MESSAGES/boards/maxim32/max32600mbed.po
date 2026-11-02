@@ -86,8 +86,8 @@ msgstr "組態"
 
 #: ../../../boards/maxim32/max32600mbed.rst:41
 msgid ""
-"Please use ``max32600mbed`` ID for :ref:`projectconf_env_board` option in :"
-"ref:`projectconf`:"
+"Please use ``max32600mbed`` ID for :ref:`projectconf_env_board` option "
+"in :ref:`projectconf`:"
 msgstr ""
 
 #: ../../../boards/maxim32/max32600mbed.rst:49
@@ -96,8 +96,8 @@ msgid ""
 "MAX32600 settings per build environment using ``board_***`` option, where "
 "``***`` is a JSON object path from board manifest `max32600mbed.json "
 "<https://github.com/platformio/platform-maxim32/blob/master/boards/"
-"max32600mbed.json>`_. For example, ``board_build.mcu``, ``board_build."
-"f_cpu``, etc."
+"max32600mbed.json>`_. For example, ``board_build.mcu``, "
+"``board_build.f_cpu``, etc."
 msgstr ""
 
 #: ../../../boards/maxim32/max32600mbed.rst:68
@@ -147,8 +147,8 @@ msgstr ""
 
 #: ../../../boards/maxim32/max32600mbed.rst:96
 msgid ""
-"You can switch between debugging :ref:`debugging_tools` using :ref:"
-"`projectconf_debug_tool` option in :ref:`projectconf`."
+"You can switch between debugging :ref:`debugging_tools` "
+"using :ref:`projectconf_debug_tool` option in :ref:`projectconf`."
 msgstr ""
 
 #: ../../../boards/maxim32/max32600mbed.rst:99

@@ -28,13 +28,14 @@ msgstr ""
 
 #: ../../../projectconf/sections/platformio/options/directory/monitor_dir.rst:19
 msgid ""
-"The directory where :ref:`cmd_device_monitor` will look for the :ref:"
-"`cmd_device_monitor_custom_filters`. The default value is ``monitor``, "
-"meaning a ``monitor`` directory located in the root of the project."
+"The directory where :ref:`cmd_device_monitor` will look for "
+"the :ref:`cmd_device_monitor_custom_filters`. The default value is "
+"``monitor``, meaning a ``monitor`` directory located in the root of the "
+"project."
 msgstr ""
 
 #: ../../../projectconf/sections/platformio/options/directory/monitor_dir.rst:23
 msgid ""
-"This option can also be configured by the global environment variable :"
-"envvar:`PLATFORMIO_MONITOR_DIR`."
+"This option can also be configured by the global environment "
+"variable :envvar:`PLATFORMIO_MONITOR_DIR`."
 msgstr ""

@@ -53,8 +53,8 @@ msgstr ""
 
 #: ../../../projectconf/sections/env/options/debug/debug_init_break.rst:31
 msgid ""
-"If you need more **Project Initial Breakpoints**, please place them in :ref:"
-"`projectconf_debug_extra_cmds`."
+"If you need more **Project Initial Breakpoints**, please place them "
+"in :ref:`projectconf_debug_extra_cmds`."
 msgstr ""
 
 #: ../../../projectconf/sections/env/options/debug/debug_init_break.rst:33

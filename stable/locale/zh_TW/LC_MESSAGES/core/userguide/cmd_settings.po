@@ -209,10 +209,10 @@ msgstr ""
 #: ../../../core/userguide/cmd_settings.rst:132
 msgid ""
 "**A version of Python Interpreter**. :ref:`piocore` is written in `Python "
-"language <https://www.python.org/>`__, including development :ref:"
-"`platforms`. We need to know which Python version produces such type of "
-"exceptions (see below), which is more popular, which version we should drop "
-"and focus on a new one"
+"language <https://www.python.org/>`__, including "
+"development :ref:`platforms`. We need to know which Python version produces "
+"such type of exceptions (see below), which is more popular, which version we "
+"should drop and focus on a new one"
 msgstr ""
 
 #: ../../../core/userguide/cmd_settings.rst:136
@@ -240,8 +240,8 @@ msgstr ""
 #: ../../../core/userguide/cmd_settings.rst:144
 msgid ""
 "The name of :ref:`ide`. This is very important information for us. We create "
-"native extensions based on the popularity of IDEs (for example, :ref:"
-"`ide_vscode`, :ref:`ide_clion`)"
+"native extensions based on the popularity of IDEs (for "
+"example, :ref:`ide_vscode`, :ref:`ide_clion`)"
 msgstr ""
 
 #: ../../../core/userguide/cmd_settings.rst:147

@@ -23,7 +23,7 @@ msgstr ""
 
 #: ../../../advanced/static-code-analysis/ui.rst:15
 msgid ""
-"There is the rich and friendly interface for **Static Code Analysis** in :"
-"ref:`piohome`. It allows you to filter messages or directly jump to an issue "
-"in a source code."
+"There is the rich and friendly interface for **Static Code Analysis** "
+"in :ref:`piohome`. It allows you to filter messages or directly jump to an "
+"issue in a source code."
 msgstr ""

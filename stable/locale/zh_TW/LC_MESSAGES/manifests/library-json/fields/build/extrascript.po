@@ -57,7 +57,7 @@ msgstr ""
 
 #: ../../../manifests/library-json/fields/build/extrascript.rst:56
 msgid "``platformio.ini``"
-msgstr ""
+msgstr "``platformio.ini``"
 
 #: ../../../manifests/library-json/fields/build/extrascript.rst:68
 msgid "``library.json``"

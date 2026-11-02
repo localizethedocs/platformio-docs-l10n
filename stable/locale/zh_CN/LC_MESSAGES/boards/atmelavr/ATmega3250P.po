@@ -86,8 +86,8 @@ msgstr ""
 
 #: ../../../boards/atmelavr/ATmega3250P.rst:41
 msgid ""
-"Please use ``ATmega3250P`` ID for :ref:`projectconf_env_board` option in :"
-"ref:`projectconf`:"
+"Please use ``ATmega3250P`` ID for :ref:`projectconf_env_board` option "
+"in :ref:`projectconf`:"
 msgstr ""
 
 #: ../../../boards/atmelavr/ATmega3250P.rst:49

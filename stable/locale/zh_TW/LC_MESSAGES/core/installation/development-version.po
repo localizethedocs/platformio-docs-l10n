@@ -40,8 +40,8 @@ msgstr ""
 msgid ""
 "If you want to be up-to-date with the latest ``develop`` version of "
 "PlatformIO, then you need to re-install PlatformIO each time you see a new "
-"commit in `PlatformIO GitHub repository (branch: develop) <https://github."
-"com/platformio/platformio-core/commits/develop>`_ like so:"
+"commit in `PlatformIO GitHub repository (branch: develop) <https://"
+"github.com/platformio/platformio-core/commits/develop>`_ like so:"
 msgstr ""
 
 #: ../../../core/installation/development-version.rst:37

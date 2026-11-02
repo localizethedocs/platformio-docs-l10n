@@ -27,9 +27,9 @@ msgstr ""
 
 #: ../../../projectconf/sections/env/options/debug/debug_extra_cmds.rst:19
 msgid ""
-"Extra commands that will be passed to back-end debugger after :ref:"
-"`projectconf_debug_init_cmds`. For example, add custom breakpoint and load "
-"``.gdbinit`` from a project directory for GDB:"
+"Extra commands that will be passed to back-end debugger "
+"after :ref:`projectconf_debug_init_cmds`. For example, add custom breakpoint "
+"and load ``.gdbinit`` from a project directory for GDB:"
 msgstr ""
 
 #: ../../../projectconf/sections/env/options/debug/debug_extra_cmds.rst:35

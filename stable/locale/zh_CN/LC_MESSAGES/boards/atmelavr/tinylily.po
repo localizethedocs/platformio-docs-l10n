@@ -86,8 +86,8 @@ msgstr ""
 
 #: ../../../boards/atmelavr/tinylily.rst:41
 msgid ""
-"Please use ``tinylily`` ID for :ref:`projectconf_env_board` option in :ref:"
-"`projectconf`:"
+"Please use ``tinylily`` ID for :ref:`projectconf_env_board` option "
+"in :ref:`projectconf`:"
 msgstr ""
 
 #: ../../../boards/atmelavr/tinylily.rst:49
@@ -118,8 +118,8 @@ msgstr ""
 
 #: ../../../boards/atmelavr/tinylily.rst:76
 msgid ""
-"You can switch between debugging :ref:`debugging_tools` using :ref:"
-"`projectconf_debug_tool` option in :ref:`projectconf`."
+"You can switch between debugging :ref:`debugging_tools` "
+"using :ref:`projectconf_debug_tool` option in :ref:`projectconf`."
 msgstr ""
 
 #: ../../../boards/atmelavr/tinylily.rst:79

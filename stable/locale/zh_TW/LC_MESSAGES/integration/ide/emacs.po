@@ -72,8 +72,8 @@ msgstr ""
 #: ../../../integration/ide/emacs.rst:44
 msgid ""
 "Choose board ``ID`` using :ref:`cmd_boards` or `Embedded Boards Explorer "
-"<https://platformio.org/boards>`_ command and generate project via :option:"
-"`pio project init --ide` command:"
+"<https://platformio.org/boards>`_ command and generate project "
+"via :option:`pio project init --ide` command:"
 msgstr ""
 
 #: ../../../integration/ide/emacs.rst:52
@@ -132,8 +132,8 @@ msgstr ""
 
 #: ../../../integration/ide/emacs.rst:72
 msgid ""
-"``platformio_spiffs_upload``  - Upload files to file system SPIFFS (see :ref:"
-"`platform_espressif_uploadfs`). (``C-c i s``)"
+"``platformio_spiffs_upload``  - Upload files to file system SPIFFS "
+"(see :ref:`platform_espressif_uploadfs`). (``C-c i s``)"
 msgstr ""
 
 #: ../../../integration/ide/emacs.rst:73

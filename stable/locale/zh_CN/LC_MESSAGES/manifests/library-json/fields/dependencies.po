@@ -45,20 +45,20 @@ msgstr ""
 
 #: ../../../manifests/library-json/fields/dependencies.rst:25
 msgid ""
-"``version`` | Type: ``String`` – :ref:`cmd_pkg_install_requirements` or :ref:"
-"`cmd_pkg_install_specifications`"
+"``version`` | Type: ``String`` – :ref:`cmd_pkg_install_requirements` "
+"or :ref:`cmd_pkg_install_specifications`"
 msgstr ""
 
 #: ../../../manifests/library-json/fields/dependencies.rst:26
 msgid ""
-"``frameworks`` | Type: ``String`` or ``Array`` – project compatible :ref:"
-"`frameworks`"
+"``frameworks`` | Type: ``String`` or ``Array`` – project "
+"compatible :ref:`frameworks`"
 msgstr ""
 
 #: ../../../manifests/library-json/fields/dependencies.rst:27
 msgid ""
-"``platforms`` | Type: ``String`` or ``Array`` – project compatible :ref:"
-"`platforms`"
+"``platforms`` | Type: ``String`` or ``Array`` – project "
+"compatible :ref:`platforms`"
 msgstr ""
 
 #: ../../../manifests/library-json/fields/dependencies.rst:29

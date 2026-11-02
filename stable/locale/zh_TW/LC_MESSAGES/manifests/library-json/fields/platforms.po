@@ -43,8 +43,8 @@ msgstr ""
 
 #: ../../../manifests/library-json/fields/platforms.rst:34
 msgid ""
-"PlatformIO does not check platforms for compatibility in default mode. See :"
-"ref:`ldf_compat_mode` for details. If you need a strict checking for "
-"compatible platforms for a library, please set :ref:"
-"`manifest_library_json_build_libCompatMode` to ``strict``."
+"PlatformIO does not check platforms for compatibility in default mode. "
+"See :ref:`ldf_compat_mode` for details. If you need a strict checking for "
+"compatible platforms for a library, please "
+"set :ref:`manifest_library_json_build_libCompatMode` to ``strict``."
 msgstr ""

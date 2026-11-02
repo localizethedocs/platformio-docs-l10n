@@ -86,8 +86,8 @@ msgstr "組態"
 
 #: ../../../boards/atmelmegaavr/ATtiny3226.rst:41
 msgid ""
-"Please use ``ATtiny3226`` ID for :ref:`projectconf_env_board` option in :ref:"
-"`projectconf`:"
+"Please use ``ATtiny3226`` ID for :ref:`projectconf_env_board` option "
+"in :ref:`projectconf`:"
 msgstr ""
 
 #: ../../../boards/atmelmegaavr/ATtiny3226.rst:49

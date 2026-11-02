@@ -23,12 +23,13 @@ msgstr ""
 
 #: ../../../plus/debug-tools/iot-bus-jtag.rst:20
 msgid ""
-"This IoT-Bus module provides JTAG debugging for the :ref:"
-"`board_espressif32_iotbusio` and :ref:`board_espressif32_iotbusproteus` "
-"boards (can be used with other boards too, see wiring connections below). "
-"The board uses the FT232H to provide a USB controller with JTAG support. "
-"Both debugging and flashing is possible using this port. Official reference "
-"can be found `here <http://www.oddwires.com/iot-bus-esp32-jtag/?"
+"This IoT-Bus module provides JTAG debugging for "
+"the :ref:`board_espressif32_iotbusio` "
+"and :ref:`board_espressif32_iotbusproteus` boards (can be used with other "
+"boards too, see wiring connections below). The board uses the FT232H to "
+"provide a USB controller with JTAG support. Both debugging and flashing is "
+"possible using this port. Official reference can be found `here <http://"
+"www.oddwires.com/iot-bus-esp32-jtag/?"
 "utm_source=platformio&utm_medium=docs>`__."
 msgstr ""
 
@@ -74,8 +75,8 @@ msgstr ""
 
 #: ../../../plus/debug-tools/_common_jtag_drivers.rst:16
 msgid ""
-"`Step-by-step guide: Drivers, Zadig, Wiring <https://community.platformio."
-"org/t/esp32-pio-unified-debugger/4541/20>`_"
+"`Step-by-step guide: Drivers, Zadig, Wiring <https://"
+"community.platformio.org/t/esp32-pio-unified-debugger/4541/20>`_"
 msgstr ""
 
 #: ../../../plus/debug-tools/_common_jtag_drivers.rst:17

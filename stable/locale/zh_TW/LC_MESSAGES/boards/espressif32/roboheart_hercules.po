@@ -75,8 +75,8 @@ msgstr ""
 
 #: ../../../boards/espressif32/roboheart_hercules.rst:35
 msgid ""
-"`RoboHeart <https://roboheart.de/en_gb/?utm_source=platformio."
-"org&utm_medium=docs>`__"
+"`RoboHeart <https://roboheart.de/en_gb/?"
+"utm_source=platformio.org&utm_medium=docs>`__"
 msgstr ""
 
 #: ../../../boards/espressif32/roboheart_hercules.rst:39

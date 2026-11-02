@@ -71,6 +71,6 @@ msgstr ""
 
 #: ../../../projectconf/sections/platformio/options/directory/shared_dir.rst:36
 msgid ""
-"This option can also be configured by the global environment variable :"
-"envvar:`PLATFORMIO_SHARED_DIR`."
+"This option can also be configured by the global environment "
+"variable :envvar:`PLATFORMIO_SHARED_DIR`."
 msgstr ""

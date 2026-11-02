@@ -192,8 +192,8 @@ msgstr ""
 #: ../../../core/userguide/remote/cmd_test.rst:156
 msgid ""
 "This option can also be set globally using :ref:`setting_force_verbose` "
-"setting or by environment variable :envvar:"
-"`PLATFORMIO_SETTING_FORCE_VERBOSE`."
+"setting or by environment "
+"variable :envvar:`PLATFORMIO_SETTING_FORCE_VERBOSE`."
 msgstr ""
 
 #: ../../../core/userguide/remote/cmd_test.rst:160

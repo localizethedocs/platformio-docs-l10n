@@ -85,8 +85,8 @@ msgstr "組態"
 
 #: ../../../boards/espressif32/heltec_wireless_stick_lite.rst:41
 msgid ""
-"Please use ``heltec_wireless_stick_lite`` ID for :ref:"
-"`projectconf_env_board` option in :ref:`projectconf`:"
+"Please use ``heltec_wireless_stick_lite`` ID "
+"for :ref:`projectconf_env_board` option in :ref:`projectconf`:"
 msgstr ""
 
 #: ../../../boards/espressif32/heltec_wireless_stick_lite.rst:49

@@ -33,8 +33,9 @@ msgstr ""
 
 #: ../../../projectconf/sections/env/options/debug/debug_test.rst:21
 msgid ""
-"If a source file of a test is located in the root of :ref:"
-"`projectconf_pio_test_dir`, the ``debug_test`` option should be set to ``*``."
+"If a source file of a test is located in the root "
+"of :ref:`projectconf_pio_test_dir`, the ``debug_test`` option should be set "
+"to ``*``."
 msgstr ""
 
 #: ../../../projectconf/sections/env/options/debug/debug_test.rst:24

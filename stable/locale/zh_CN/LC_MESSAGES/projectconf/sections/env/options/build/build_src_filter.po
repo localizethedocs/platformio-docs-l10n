@@ -43,8 +43,8 @@ msgstr ""
 #: ../../../projectconf/sections/env/options/build/build_src_filter.rst:26
 msgid ""
 "``PATH`` is relative to :ref:`projectconf_pio_src_dir`. All patterns will be "
-"applied in their order of definition. `GLOB Patterns <http://en.wikipedia."
-"org/wiki/Glob_(programming)>`_ are allowed."
+"applied in their order of definition. `GLOB Patterns <http://"
+"en.wikipedia.org/wiki/Glob_(programming)>`_ are allowed."
 msgstr ""
 
 #: ../../../projectconf/sections/env/options/build/build_src_filter.rst:30
@@ -56,8 +56,8 @@ msgstr ""
 
 #: ../../../projectconf/sections/env/options/build/build_src_filter.rst:33
 msgid ""
-"This option can also be set by the global environment variable :envvar:"
-"`PLATFORMIO_BUILD_SRC_FILTER`."
+"This option can also be set by the global environment "
+"variable :envvar:`PLATFORMIO_BUILD_SRC_FILTER`."
 msgstr ""
 
 #: ../../../projectconf/sections/env/options/build/build_src_filter.rst:36

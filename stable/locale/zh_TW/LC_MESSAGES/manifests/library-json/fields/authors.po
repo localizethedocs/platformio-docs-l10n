@@ -52,6 +52,6 @@ msgstr ""
 #: ../../../manifests/library-json/fields/authors.rst:56
 msgid ""
 "If :ref:`manifest_library_json_authors` field is not defined, PlatformIO "
-"will try to fetch data from VCS provider (Github, Gitlab, etc) if :ref:"
-"`manifest_library_json_repository` is declared."
+"will try to fetch data from VCS provider (Github, Gitlab, etc) "
+"if :ref:`manifest_library_json_repository` is declared."
 msgstr ""

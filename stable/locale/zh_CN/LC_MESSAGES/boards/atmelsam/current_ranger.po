@@ -84,8 +84,8 @@ msgstr ""
 
 #: ../../../boards/atmelsam/current_ranger.rst:41
 msgid ""
-"Please use ``current_ranger`` ID for :ref:`projectconf_env_board` option in :"
-"ref:`projectconf`:"
+"Please use ``current_ranger`` ID for :ref:`projectconf_env_board` option "
+"in :ref:`projectconf`:"
 msgstr ""
 
 #: ../../../boards/atmelsam/current_ranger.rst:49

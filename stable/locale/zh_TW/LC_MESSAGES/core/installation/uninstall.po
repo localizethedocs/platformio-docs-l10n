@@ -29,6 +29,6 @@ msgstr ""
 
 #: ../../../core/installation/uninstall.rst:20
 msgid ""
-"Uninstall global PlatformIO Core if you did not use the :ref:"
-"`installation_installer_script`:"
+"Uninstall global PlatformIO Core if you did not use "
+"the :ref:`installation_installer_script`:"
 msgstr ""

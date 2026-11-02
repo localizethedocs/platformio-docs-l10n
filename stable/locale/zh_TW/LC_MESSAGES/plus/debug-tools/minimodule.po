@@ -75,8 +75,8 @@ msgstr ""
 
 #: ../../../plus/debug-tools/_common_jtag_drivers.rst:16
 msgid ""
-"`Step-by-step guide: Drivers, Zadig, Wiring <https://community.platformio."
-"org/t/esp32-pio-unified-debugger/4541/20>`_"
+"`Step-by-step guide: Drivers, Zadig, Wiring <https://"
+"community.platformio.org/t/esp32-pio-unified-debugger/4541/20>`_"
 msgstr ""
 
 #: ../../../plus/debug-tools/_common_jtag_drivers.rst:17
@@ -204,8 +204,8 @@ msgstr ""
 msgid ""
 "You will also need to connect Vbus [CN3-1] to Vcc [CN3-3] of FT2232H Mini-"
 "Module to power the FTDI chip. See `FT2232H Mini-Module Datasheet <http://"
-"www.ftdichip.com/Support/Documents/DataSheets/Modules/DS_FT2232H_Mini_Module."
-"pdf>`_"
+"www.ftdichip.com/Support/Documents/DataSheets/Modules/"
+"DS_FT2232H_Mini_Module.pdf>`_"
 msgstr ""
 
 #: ../../../plus/debug-tools/minimodule.rst:96

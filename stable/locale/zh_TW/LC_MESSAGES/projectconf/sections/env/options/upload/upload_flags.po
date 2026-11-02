@@ -28,14 +28,14 @@ msgstr ""
 #: ../../../projectconf/sections/env/options/upload/upload_flags.rst:19
 msgid ""
 "Extra flags for uploader. Will be added to the end of uploader command. If "
-"you need to override uploader command or base flags please use :ref:"
-"`projectconf_extra_scripts`."
+"you need to override uploader command or base flags please "
+"use :ref:`projectconf_extra_scripts`."
 msgstr ""
 
 #: ../../../projectconf/sections/env/options/upload/upload_flags.rst:23
 msgid ""
-"This option can also be set by global environment variable :envvar:"
-"`PLATFORMIO_UPLOAD_FLAGS`."
+"This option can also be set by global environment "
+"variable :envvar:`PLATFORMIO_UPLOAD_FLAGS`."
 msgstr ""
 
 #: ../../../projectconf/sections/env/options/upload/upload_flags.rst:26

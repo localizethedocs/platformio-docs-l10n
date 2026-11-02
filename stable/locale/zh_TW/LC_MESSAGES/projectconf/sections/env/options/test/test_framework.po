@@ -27,6 +27,6 @@ msgstr ""
 
 #: ../../../projectconf/sections/env/options/test/test_framework.rst:19
 msgid ""
-"A Unit Testing framework name. Please follow to the :ref:"
-"`unit_testing_frameworks` for the available frameworks."
+"A Unit Testing framework name. Please follow to "
+"the :ref:`unit_testing_frameworks` for the available frameworks."
 msgstr ""

@@ -25,9 +25,9 @@ msgstr ""
 msgid ""
 "`Drone <https://drone.io>`_  is a hosted continuous integration service. It "
 "enables you to conveniently set up projects to automatically build, test, "
-"and deploy as you make changes to your code to `GitHub <http://en.wikipedia."
-"org/wiki/GitHub>`_ and `BitBucket <http://en.wikipedia.org/wiki/Bitbucket>`_ "
-"repositories."
+"and deploy as you make changes to your code to `GitHub <http://"
+"en.wikipedia.org/wiki/GitHub>`_ and `BitBucket <http://en.wikipedia.org/wiki/"
+"Bitbucket>`_ repositories."
 msgstr ""
 
 #: ../../../integration/ci/drone.rst:23

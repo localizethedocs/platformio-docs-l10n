@@ -43,15 +43,15 @@ msgstr ""
 
 #: ../../../core/userguide/lib/index.rst:46
 msgid ""
-"Manage global PlatformIO's library storage (:ref:"
-"`projectconf_pio_globallib_dir`) where :ref:`ldf` will look for dependencies "
-"by default."
+"Manage global PlatformIO's library storage "
+"(:ref:`projectconf_pio_globallib_dir`) where :ref:`ldf` will look for "
+"dependencies by default."
 msgstr ""
 
 #: ../../../core/userguide/lib/index.rst:52
 msgid ""
-"Manage libraries for the specific project build environments declared in :"
-"ref:`projectconf`. Works for ``--storage-dir`` which is valid PlatformIO "
+"Manage libraries for the specific project build environments declared "
+"in :ref:`projectconf`. Works for ``--storage-dir`` which is valid PlatformIO "
 "project."
 msgstr ""
 

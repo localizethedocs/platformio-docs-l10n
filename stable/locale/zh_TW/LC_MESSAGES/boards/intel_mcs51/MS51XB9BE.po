@@ -85,8 +85,8 @@ msgstr "組態"
 
 #: ../../../boards/intel_mcs51/MS51XB9BE.rst:41
 msgid ""
-"Please use ``MS51XB9BE`` ID for :ref:`projectconf_env_board` option in :ref:"
-"`projectconf`:"
+"Please use ``MS51XB9BE`` ID for :ref:`projectconf_env_board` option "
+"in :ref:`projectconf`:"
 msgstr ""
 
 #: ../../../boards/intel_mcs51/MS51XB9BE.rst:49

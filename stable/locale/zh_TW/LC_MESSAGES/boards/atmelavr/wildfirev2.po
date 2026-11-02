@@ -86,8 +86,8 @@ msgstr "組態"
 
 #: ../../../boards/atmelavr/wildfirev2.rst:41
 msgid ""
-"Please use ``wildfirev2`` ID for :ref:`projectconf_env_board` option in :ref:"
-"`projectconf`:"
+"Please use ``wildfirev2`` ID for :ref:`projectconf_env_board` option "
+"in :ref:`projectconf`:"
 msgstr ""
 
 #: ../../../boards/atmelavr/wildfirev2.rst:49
@@ -95,8 +95,8 @@ msgid ""
 "You can override default Wicked Device WildFire V2 settings per build "
 "environment using ``board_***`` option, where ``***`` is a JSON object path "
 "from board manifest `wildfirev2.json <https://github.com/platformio/platform-"
-"atmelavr/blob/master/boards/wildfirev2.json>`_. For example, ``board_build."
-"mcu``, ``board_build.f_cpu``, etc."
+"atmelavr/blob/master/boards/wildfirev2.json>`_. For example, "
+"``board_build.mcu``, ``board_build.f_cpu``, etc."
 msgstr ""
 
 #: ../../../boards/atmelavr/wildfirev2.rst:67
@@ -118,8 +118,8 @@ msgstr ""
 
 #: ../../../boards/atmelavr/wildfirev2.rst:76
 msgid ""
-"You can switch between debugging :ref:`debugging_tools` using :ref:"
-"`projectconf_debug_tool` option in :ref:`projectconf`."
+"You can switch between debugging :ref:`debugging_tools` "
+"using :ref:`projectconf_debug_tool` option in :ref:`projectconf`."
 msgstr ""
 
 #: ../../../boards/atmelavr/wildfirev2.rst:79

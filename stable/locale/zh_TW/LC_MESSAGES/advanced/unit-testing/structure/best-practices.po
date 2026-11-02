@@ -52,8 +52,8 @@ msgid ""
 "own ``main()`` function (``setup() / loop()`` for :ref:`framework_arduino`, "
 "``app_main()`` for :ref:`framework_espidf`). Linking the main application "
 "source code from :ref:`projectconf_pio_src_dir` with a test suite code will "
-"lead to multiple compilation errors. Hence, the :ref:"
-"`unit_testing_shared_code` is disabled by default."
+"lead to multiple compilation errors. Hence, "
+"the :ref:`unit_testing_shared_code` is disabled by default."
 msgstr ""
 
 #: ../../../advanced/unit-testing/structure/best-practices.rst:37

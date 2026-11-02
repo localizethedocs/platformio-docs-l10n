@@ -24,8 +24,8 @@ msgstr ""
 #: ../../../plus/debug-tools/qemu.rst:20
 msgid ""
 "QEMU is a free and open-source emulator that performs hardware "
-"virtualization. Official reference can be found `here  <https://www.qemu."
-"org/?utm_source=platformio&utm_medium=docs>`__."
+"virtualization. Official reference can be found `here  <https://"
+"www.qemu.org/?utm_source=platformio&utm_medium=docs>`__."
 msgstr ""
 
 #: ../../../plus/debug-tools/qemu.rst:24

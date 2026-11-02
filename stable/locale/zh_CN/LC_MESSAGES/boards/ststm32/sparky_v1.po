@@ -87,8 +87,8 @@ msgstr ""
 
 #: ../../../boards/ststm32/sparky_v1.rst:41
 msgid ""
-"Please use ``sparky_v1`` ID for :ref:`projectconf_env_board` option in :ref:"
-"`projectconf`:"
+"Please use ``sparky_v1`` ID for :ref:`projectconf_env_board` option "
+"in :ref:`projectconf`:"
 msgstr ""
 
 #: ../../../boards/ststm32/sparky_v1.rst:49
@@ -153,8 +153,8 @@ msgstr ""
 
 #: ../../../boards/ststm32/sparky_v1.rst:98
 msgid ""
-"You can switch between debugging :ref:`debugging_tools` using :ref:"
-"`projectconf_debug_tool` option in :ref:`projectconf`."
+"You can switch between debugging :ref:`debugging_tools` "
+"using :ref:`projectconf_debug_tool` option in :ref:`projectconf`."
 msgstr ""
 
 #: ../../../boards/ststm32/sparky_v1.rst:101

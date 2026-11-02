@@ -35,8 +35,8 @@ msgstr ""
 
 #: ../../../core/userguide/pkg/cmd_show.rst:29
 msgid ""
-"Show package information from the `PlatformIO Registry <https://registry."
-"platformio.org>`__."
+"Show package information from the `PlatformIO Registry <https://"
+"registry.platformio.org>`__."
 msgstr ""
 
 #: ../../../core/userguide/pkg/cmd_show.rst:32
@@ -45,8 +45,8 @@ msgstr ""
 
 #: ../../../core/userguide/pkg/cmd_show.rst:39
 msgid ""
-"Set the type of a package if there is a conflict name. See supported :ref:"
-"`cmd_pkg_install_types`."
+"Set the type of a package if there is a conflict name. See "
+"supported :ref:`cmd_pkg_install_types`."
 msgstr ""
 
 #: ../../../core/userguide/pkg/cmd_show.rst:43

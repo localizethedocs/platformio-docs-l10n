@@ -28,10 +28,10 @@ msgstr ""
 
 #: ../../../projectconf/sections/platformio/options/directory/include_dir.rst:19
 msgid ""
-"The path to project's default header files. PlatformIO uses it for the :ref:"
-"`cmd_run` command. The default value is ``include`` meaning an ``include`` "
-"directory located under the root directory of the project. This path will be "
-"added to ``CPPPATH`` of the build environment."
+"The path to project's default header files. PlatformIO uses it for "
+"the :ref:`cmd_run` command. The default value is ``include`` meaning an "
+"``include`` directory located under the root directory of the project. This "
+"path will be added to ``CPPPATH`` of the build environment."
 msgstr ""
 
 #: ../../../projectconf/sections/platformio/options/directory/include_dir.rst:24
@@ -42,6 +42,6 @@ msgstr ""
 
 #: ../../../projectconf/sections/platformio/options/directory/include_dir.rst:27
 msgid ""
-"This option can also be configured by the global environment variable :"
-"envvar:`PLATFORMIO_INCLUDE_DIR`."
+"This option can also be configured by the global environment "
+"variable :envvar:`PLATFORMIO_INCLUDE_DIR`."
 msgstr ""

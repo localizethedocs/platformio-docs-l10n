@@ -60,8 +60,8 @@ msgstr ""
 #: ../../../core/userguide/system/cmd_prune.rst:38
 msgid ""
 "If you have a custom package in :ref:`projectconf_pio_packages_dir` folder "
-"and would like to skip it from \"prune process\", please add empty ``."
-"piokeep`` file to the root of a package folder."
+"and would like to skip it from \"prune process\", please add empty "
+"``.piokeep`` file to the root of a package folder."
 msgstr ""
 
 #: ../../../core/userguide/system/cmd_prune.rst:43

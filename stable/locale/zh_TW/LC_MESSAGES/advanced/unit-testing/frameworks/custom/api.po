@@ -174,8 +174,8 @@ msgstr ""
 
 #: ../../../advanced/unit-testing/frameworks/custom/api.rst:144
 msgid ""
-"Method called to run test cases and record test results via calling ``self."
-"test_suite.add_case(TestCase(...))``."
+"Method called to run test cases and record test results via calling "
+"``self.test_suite.add_case(TestCase(...))``."
 msgstr ""
 
 #: ../../../advanced/unit-testing/frameworks/custom/api.rst:147

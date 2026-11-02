@@ -29,8 +29,8 @@ msgstr ""
 
 #: ../../../projectconf/sections/platformio/options/directory/build_dir.rst:21
 msgid ""
-"Type: ``DirPath`` | Multiple: ``No`` | Default: \":ref:"
-"`projectconf_pio_workspace_dir`/build\""
+"Type: ``DirPath`` | Multiple: ``No`` | Default: "
+"\":ref:`projectconf_pio_workspace_dir`/build\""
 msgstr ""
 
 #: ../../../projectconf/sections/platformio/options/directory/build_dir.rst:23
@@ -42,15 +42,15 @@ msgstr ""
 
 #: ../../../projectconf/sections/platformio/options/directory/build_dir.rst:28
 msgid ""
-"*You can delete this folder without any risk!* If you modify :ref:"
-"`projectconf`, then PlatformIO will remove this folder automatically. It "
-"will be created on the next build operation."
+"*You can delete this folder without any risk!* If you "
+"modify :ref:`projectconf`, then PlatformIO will remove this folder "
+"automatically. It will be created on the next build operation."
 msgstr ""
 
 #: ../../../projectconf/sections/platformio/options/directory/build_dir.rst:32
 msgid ""
-"This option can also be configured by the global environment variable :"
-"envvar:`PLATFORMIO_BUILD_DIR`."
+"This option can also be configured by the global environment "
+"variable :envvar:`PLATFORMIO_BUILD_DIR`."
 msgstr ""
 
 #: ../../../projectconf/sections/platformio/options/directory/build_dir.rst:36

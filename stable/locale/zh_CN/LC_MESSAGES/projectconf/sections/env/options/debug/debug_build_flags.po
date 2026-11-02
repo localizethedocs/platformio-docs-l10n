@@ -43,6 +43,6 @@ msgstr ""
 
 #: ../../../projectconf/sections/env/options/debug/debug_build_flags.rst:37
 msgid ""
-"`Other possible flags  <https://gcc.gnu.org/onlinedocs/gcc/Debugging-Options."
-"html>`__ that might be useful for debugging your application."
+"`Other possible flags  <https://gcc.gnu.org/onlinedocs/gcc/Debugging-"
+"Options.html>`__ that might be useful for debugging your application."
 msgstr ""

@@ -52,6 +52,6 @@ msgstr ""
 
 #: ../../../projectconf/sections/platformio/options/directory/boards_dir.rst:29
 msgid ""
-"This option can also be configured by the global environment variable :"
-"envvar:`PLATFORMIO_BOARDS_DIR`."
+"This option can also be configured by the global environment "
+"variable :envvar:`PLATFORMIO_BOARDS_DIR`."
 msgstr ""

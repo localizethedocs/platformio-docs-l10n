@@ -206,15 +206,15 @@ msgstr ""
 
 #: ../../../core/userguide/lib/cmd_search.rst:256
 msgid ""
-"Search for `libraries by \"web\" and \"http\" keywords <https://platformio."
-"org/lib/search?"
+"Search for `libraries by \"web\" and \"http\" keywords <https://"
+"platformio.org/lib/search?"
 "query=keyword%253A%2522web%2522%2520keyword%253A%2522http%2522>`_."
 msgstr ""
 
 #: ../../../core/userguide/lib/cmd_search.rst:307
 msgid ""
-"Search for `libraries by \"Adafruit Industries\" author <https://platformio."
-"org/lib/search?query=author%253A%2522Adafruit%20Industries%2522>`_"
+"Search for `libraries by \"Adafruit Industries\" author <https://"
+"platformio.org/lib/search?query=author%253A%2522Adafruit%20Industries%2522>`_"
 msgstr ""
 
 #: ../../../core/userguide/lib/cmd_search.rst:338

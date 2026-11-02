@@ -33,10 +33,10 @@ msgstr ""
 
 #: ../../../manifests/library-json/fields/export/index.rst:22
 msgid ""
-"To check which files will be included in the final packages, please use :ref:"
-"`cmd_pkg_pack` command."
+"To check which files will be included in the final packages, please "
+"use :ref:`cmd_pkg_pack` command."
 msgstr ""
 
 #: ../../../manifests/library-json/fields/export/index.rst:25
 msgid "Possible options:"
-msgstr ""
+msgstr "可能的選項："

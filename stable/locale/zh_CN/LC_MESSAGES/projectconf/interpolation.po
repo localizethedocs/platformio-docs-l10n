@@ -109,8 +109,8 @@ msgstr ""
 
 #: ../../../projectconf/interpolation.rst:53
 msgid ""
-"``${platformio.packages_dir}`` refers to the path of :ref:"
-"`projectconf_pio_packages_dir`"
+"``${platformio.packages_dir}`` refers to the path "
+"of :ref:`projectconf_pio_packages_dir`"
 msgstr ""
 
 #: ../../../projectconf/interpolation.rst:55
@@ -163,8 +163,8 @@ msgstr ""
 
 #: ../../../projectconf/interpolation.rst:69
 msgid ""
-"``${this.__env__}`` will embed \"foo\" value being declared in the \"env:"
-"foo\" section"
+"``${this.__env__}`` will embed \"foo\" value being declared in the "
+"\"env:foo\" section"
 msgstr ""
 
 #: ../../../projectconf/interpolation.rst:71
@@ -189,9 +189,9 @@ msgstr ""
 #: ../../../projectconf/interpolation.rst:79
 msgid ""
 "If you need to **share common configuration options** between build "
-"environments, please take a look at **\"Global scope\"** in :ref:"
-"`projectconf_section_env` or :ref:`projectconf_env_extends` option which "
-"allows extending of other sections."
+"environments, please take a look at **\"Global scope\"** "
+"in :ref:`projectconf_section_env` or :ref:`projectconf_env_extends` option "
+"which allows extending of other sections."
 msgstr ""
 
 #: ../../../projectconf/interpolation.rst:84

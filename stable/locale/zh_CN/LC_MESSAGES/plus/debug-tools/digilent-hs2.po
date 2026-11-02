@@ -24,8 +24,8 @@ msgstr ""
 #: ../../../plus/debug-tools/digilent-hs2.rst:20
 msgid ""
 "The JTAG-HS2 programming cable is a high-speed programming solution for "
-"Xilinx® FPGAs. Official reference can be found `here <https://store."
-"digilentinc.com/jtag-hs2-programming-cable/?"
+"Xilinx® FPGAs. Official reference can be found `here <https://"
+"store.digilentinc.com/jtag-hs2-programming-cable/?"
 "utm_source=platformio&utm_medium=docs>`__."
 msgstr ""
 

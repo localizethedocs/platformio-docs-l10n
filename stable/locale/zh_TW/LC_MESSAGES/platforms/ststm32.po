@@ -51,8 +51,8 @@ msgstr ""
 #: ../../../platforms/ststm32.rst:24
 msgid ""
 "For more detailed information please visit `vendor site <http://www.st.com/"
-"web/en/catalog/mmc/FM141/SC1169?sc=stm32&utm_source=platformio."
-"org&utm_medium=docs>`_."
+"web/en/catalog/mmc/FM141/SC1169?"
+"sc=stm32&utm_source=platformio.org&utm_medium=docs>`_."
 msgstr ""
 
 #: ../../../platforms/ststm32.rst:28
@@ -78,8 +78,9 @@ msgid ""
 "developed independently, therefore, have different functionality and set of "
 "internal libraries. By default, official STM32Duino core is used (except "
 "cases when a board supports only one specific core). Some of the boards "
-"support all three cores. To change the core you can use a ``board_build."
-"core`` option that needs be added to :ref:`projectconf_build_flags`:"
+"support all three cores. To change the core you can use a "
+"``board_build.core`` option that needs be added "
+"to :ref:`projectconf_build_flags`:"
 msgstr ""
 
 #: ../../../platforms/ststm32_extra.rst:30
@@ -93,8 +94,8 @@ msgstr ""
 #: ../../../platforms/ststm32_extra.rst:44
 msgid ""
 "STM32Duino core has several options that can be configured using the next "
-"configuration flags in :ref:`projectconf_build_flags` section of :ref:"
-"`projectconf`:"
+"configuration flags in :ref:`projectconf_build_flags` section "
+"of :ref:`projectconf`:"
 msgstr ""
 
 #: ../../../platforms/ststm32_extra.rst:48
@@ -251,7 +252,7 @@ msgstr ""
 #: ../../../platforms/ststm32_extra.rst:138
 #: ../../../platforms/ststm32_extra.rst:188
 msgid "Example:"
-msgstr ""
+msgstr "範例："
 
 #: ../../../platforms/ststm32_extra.rst:121
 msgid "Maple STM32 configuration system"
@@ -291,8 +292,8 @@ msgstr ""
 #: ../../../platforms/ststm32_extra.rst:153
 msgid ""
 "Arduino STM32L0 core has several options that can be configured using the "
-"next configuration flags in :ref:`projectconf_build_flags` section of :ref:"
-"`projectconf`:"
+"next configuration flags in :ref:`projectconf_build_flags` section "
+"of :ref:`projectconf`:"
 msgstr ""
 
 #: ../../../platforms/ststm32_extra.rst:162
@@ -363,8 +364,8 @@ msgstr ""
 #: ../../../platforms/ststm32.rst:38
 msgid ""
 "`stm32cube-ll-blink <https://github.com/platformio/platform-ststm32/tree/"
-"master/examples/stm32cube-ll-blink?utm_source=platformio."
-"org&utm_medium=docs>`_"
+"master/examples/stm32cube-ll-blink?"
+"utm_source=platformio.org&utm_medium=docs>`_"
 msgstr ""
 
 #: ../../../platforms/ststm32.rst:39
@@ -376,8 +377,8 @@ msgstr ""
 #: ../../../platforms/ststm32.rst:40
 msgid ""
 "`arduino-mbed-doom <https://github.com/platformio/platform-ststm32/tree/"
-"master/examples/arduino-mbed-doom?utm_source=platformio."
-"org&utm_medium=docs>`_"
+"master/examples/arduino-mbed-doom?"
+"utm_source=platformio.org&utm_medium=docs>`_"
 msgstr ""
 
 #: ../../../platforms/ststm32.rst:41
@@ -389,8 +390,8 @@ msgstr ""
 #: ../../../platforms/ststm32.rst:42
 msgid ""
 "`libopencm3-usb-cdcacm <https://github.com/platformio/platform-ststm32/tree/"
-"master/examples/libopencm3-usb-cdcacm?utm_source=platformio."
-"org&utm_medium=docs>`_"
+"master/examples/libopencm3-usb-cdcacm?"
+"utm_source=platformio.org&utm_medium=docs>`_"
 msgstr ""
 
 #: ../../../platforms/ststm32.rst:43
@@ -402,8 +403,8 @@ msgstr ""
 #: ../../../platforms/ststm32.rst:44
 msgid ""
 "`stm32cube-hal-iap <https://github.com/platformio/platform-ststm32/tree/"
-"master/examples/stm32cube-hal-iap?utm_source=platformio."
-"org&utm_medium=docs>`_"
+"master/examples/stm32cube-hal-iap?"
+"utm_source=platformio.org&utm_medium=docs>`_"
 msgstr ""
 
 #: ../../../platforms/ststm32.rst:45
@@ -415,8 +416,8 @@ msgstr ""
 #: ../../../platforms/ststm32.rst:46
 msgid ""
 "`stm32cube-hal-extmem-boot <https://github.com/platformio/platform-ststm32/"
-"tree/master/examples/stm32cube-hal-extmem-boot?utm_source=platformio."
-"org&utm_medium=docs>`_"
+"tree/master/examples/stm32cube-hal-extmem-boot?"
+"utm_source=platformio.org&utm_medium=docs>`_"
 msgstr ""
 
 #: ../../../platforms/ststm32.rst:47
@@ -428,106 +429,106 @@ msgstr ""
 #: ../../../platforms/ststm32.rst:48
 msgid ""
 "`stm32cube-hal-lcd <https://github.com/platformio/platform-ststm32/tree/"
-"master/examples/stm32cube-hal-lcd?utm_source=platformio."
-"org&utm_medium=docs>`_"
+"master/examples/stm32cube-hal-lcd?"
+"utm_source=platformio.org&utm_medium=docs>`_"
 msgstr ""
 
 #: ../../../platforms/ststm32.rst:49
 msgid ""
 "`mbed-rtos-mesh-minimal <https://github.com/platformio/platform-ststm32/tree/"
-"master/examples/mbed-rtos-mesh-minimal?utm_source=platformio."
-"org&utm_medium=docs>`_"
+"master/examples/mbed-rtos-mesh-minimal?"
+"utm_source=platformio.org&utm_medium=docs>`_"
 msgstr ""
 
 #: ../../../platforms/ststm32.rst:50
 msgid ""
 "`arduino-mxchip-sensors <https://github.com/platformio/platform-ststm32/tree/"
-"master/examples/arduino-mxchip-sensors?utm_source=platformio."
-"org&utm_medium=docs>`_"
+"master/examples/arduino-mxchip-sensors?"
+"utm_source=platformio.org&utm_medium=docs>`_"
 msgstr ""
 
 #: ../../../platforms/ststm32.rst:51
 msgid ""
 "`zephyr-cpp-synchronization <https://github.com/platformio/platform-ststm32/"
-"tree/master/examples/zephyr-cpp-synchronization?utm_source=platformio."
-"org&utm_medium=docs>`_"
+"tree/master/examples/zephyr-cpp-synchronization?"
+"utm_source=platformio.org&utm_medium=docs>`_"
 msgstr ""
 
 #: ../../../platforms/ststm32.rst:52
 msgid ""
 "`zephyr-net-https-client <https://github.com/platformio/platform-ststm32/"
-"tree/master/examples/zephyr-net-https-client?utm_source=platformio."
-"org&utm_medium=docs>`_"
+"tree/master/examples/zephyr-net-https-client?"
+"utm_source=platformio.org&utm_medium=docs>`_"
 msgstr ""
 
 #: ../../../platforms/ststm32.rst:53
 msgid ""
 "`mbed-rtos-blink-baremetal <https://github.com/platformio/platform-ststm32/"
-"tree/master/examples/mbed-rtos-blink-baremetal?utm_source=platformio."
-"org&utm_medium=docs>`_"
+"tree/master/examples/mbed-rtos-blink-baremetal?"
+"utm_source=platformio.org&utm_medium=docs>`_"
 msgstr ""
 
 #: ../../../platforms/ststm32.rst:54
 msgid ""
 "`mbed-rtos-filesystem <https://github.com/platformio/platform-ststm32/tree/"
-"master/examples/mbed-rtos-filesystem?utm_source=platformio."
-"org&utm_medium=docs>`_"
+"master/examples/mbed-rtos-filesystem?"
+"utm_source=platformio.org&utm_medium=docs>`_"
 msgstr ""
 
 #: ../../../platforms/ststm32.rst:55
 msgid ""
 "`mbed-rtos-sockets <https://github.com/platformio/platform-ststm32/tree/"
-"master/examples/mbed-rtos-sockets?utm_source=platformio."
-"org&utm_medium=docs>`_"
+"master/examples/mbed-rtos-sockets?"
+"utm_source=platformio.org&utm_medium=docs>`_"
 msgstr ""
 
 #: ../../../platforms/ststm32.rst:56
 msgid ""
 "`stm32cube-hal-wifi-client <https://github.com/platformio/platform-ststm32/"
-"tree/master/examples/stm32cube-hal-wifi-client?utm_source=platformio."
-"org&utm_medium=docs>`_"
+"tree/master/examples/stm32cube-hal-wifi-client?"
+"utm_source=platformio.org&utm_medium=docs>`_"
 msgstr ""
 
 #: ../../../platforms/ststm32.rst:57
 msgid ""
 "`mbed-rtos-usb-keyboard <https://github.com/platformio/platform-ststm32/tree/"
-"master/examples/mbed-rtos-usb-keyboard?utm_source=platformio."
-"org&utm_medium=docs>`_"
+"master/examples/mbed-rtos-usb-keyboard?"
+"utm_source=platformio.org&utm_medium=docs>`_"
 msgstr ""
 
 #: ../../../platforms/ststm32.rst:58
 msgid ""
 "`mbed-rtos-ethernet-tls <https://github.com/platformio/platform-ststm32/tree/"
-"master/examples/mbed-rtos-ethernet-tls?utm_source=platformio."
-"org&utm_medium=docs>`_"
+"master/examples/mbed-rtos-ethernet-tls?"
+"utm_source=platformio.org&utm_medium=docs>`_"
 msgstr ""
 
 #: ../../../platforms/ststm32.rst:59
 msgid ""
 "`stm32cube-hal-blink <https://github.com/platformio/platform-ststm32/tree/"
-"master/examples/stm32cube-hal-blink?utm_source=platformio."
-"org&utm_medium=docs>`_"
+"master/examples/stm32cube-hal-blink?"
+"utm_source=platformio.org&utm_medium=docs>`_"
 msgstr ""
 
 #: ../../../platforms/ststm32.rst:60
 msgid ""
 "`zephyr-drivers-can <https://github.com/platformio/platform-ststm32/tree/"
-"master/examples/zephyr-drivers-can?utm_source=platformio."
-"org&utm_medium=docs>`_"
+"master/examples/zephyr-drivers-can?"
+"utm_source=platformio.org&utm_medium=docs>`_"
 msgstr ""
 
 #: ../../../platforms/ststm32.rst:61
 msgid ""
 "`arduino-mxchip-azureiot <https://github.com/platformio/platform-ststm32/"
-"tree/master/examples/arduino-mxchip-azureiot?utm_source=platformio."
-"org&utm_medium=docs>`_"
+"tree/master/examples/arduino-mxchip-azureiot?"
+"utm_source=platformio.org&utm_medium=docs>`_"
 msgstr ""
 
 #: ../../../platforms/ststm32.rst:62
 msgid ""
 "`arduino-mxchip-filesystem <https://github.com/platformio/platform-ststm32/"
-"tree/master/examples/arduino-mxchip-filesystem?utm_source=platformio."
-"org&utm_medium=docs>`_"
+"tree/master/examples/arduino-mxchip-filesystem?"
+"utm_source=platformio.org&utm_medium=docs>`_"
 msgstr ""
 
 #: ../../../platforms/ststm32.rst:63
@@ -540,22 +541,22 @@ msgstr ""
 #: ../../../platforms/ststm32.rst:64
 msgid ""
 "`arduino-internal-libs <https://github.com/platformio/platform-ststm32/tree/"
-"master/examples/arduino-internal-libs?utm_source=platformio."
-"org&utm_medium=docs>`_"
+"master/examples/arduino-internal-libs?"
+"utm_source=platformio.org&utm_medium=docs>`_"
 msgstr ""
 
 #: ../../../platforms/ststm32.rst:65
 msgid ""
 "`arduino-external-libs <https://github.com/platformio/platform-ststm32/tree/"
-"master/examples/arduino-external-libs?utm_source=platformio."
-"org&utm_medium=docs>`_"
+"master/examples/arduino-external-libs?"
+"utm_source=platformio.org&utm_medium=docs>`_"
 msgstr ""
 
 #: ../../../platforms/ststm32.rst:66
 msgid ""
 "`arduino-mxchip-wifiscan <https://github.com/platformio/platform-ststm32/"
-"tree/master/examples/arduino-mxchip-wifiscan?utm_source=platformio."
-"org&utm_medium=docs>`_"
+"tree/master/examples/arduino-mxchip-wifiscan?"
+"utm_source=platformio.org&utm_medium=docs>`_"
 msgstr ""
 
 #: ../../../platforms/ststm32.rst:67
@@ -567,15 +568,15 @@ msgstr ""
 #: ../../../platforms/ststm32.rst:68
 msgid ""
 "`libopencm3-1bitsy <https://github.com/platformio/platform-ststm32/tree/"
-"master/examples/libopencm3-1bitsy?utm_source=platformio."
-"org&utm_medium=docs>`_"
+"master/examples/libopencm3-1bitsy?"
+"utm_source=platformio.org&utm_medium=docs>`_"
 msgstr ""
 
 #: ../../../platforms/ststm32.rst:69
 msgid ""
 "`zephyr-subsys-usb-hid-mouse <https://github.com/platformio/platform-ststm32/"
-"tree/master/examples/zephyr-subsys-usb-hid-mouse?utm_source=platformio."
-"org&utm_medium=docs>`_"
+"tree/master/examples/zephyr-subsys-usb-hid-mouse?"
+"utm_source=platformio.org&utm_medium=docs>`_"
 msgstr ""
 
 #: ../../../platforms/ststm32.rst:70
@@ -587,8 +588,8 @@ msgstr ""
 #: ../../../platforms/ststm32.rst:71
 msgid ""
 "`mbed-rtos-custom-target <https://github.com/platformio/platform-ststm32/"
-"tree/master/examples/mbed-rtos-custom-target?utm_source=platformio."
-"org&utm_medium=docs>`_"
+"tree/master/examples/mbed-rtos-custom-target?"
+"utm_source=platformio.org&utm_medium=docs>`_"
 msgstr ""
 
 #: ../../../platforms/ststm32.rst:72
@@ -3842,8 +3843,8 @@ msgstr ""
 msgid ""
 "You can switch between `stable releases <https://github.com/platformio/"
 "platform-ststm32/releases>`__ of ST STM32 development platform and the "
-"latest upstream version using :ref:`projectconf_env_platform` option in :ref:"
-"`projectconf` as described below."
+"latest upstream version using :ref:`projectconf_env_platform` option "
+"in :ref:`projectconf` as described below."
 msgstr ""
 
 #: ../../../platforms/ststm32.rst:1589

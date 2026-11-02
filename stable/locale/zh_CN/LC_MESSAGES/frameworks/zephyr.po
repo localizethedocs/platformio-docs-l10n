@@ -81,8 +81,8 @@ msgstr ""
 #: ../../../frameworks/zephyr_extra.rst:48
 msgid ""
 "Besides files related to PlatformIO project, there is an additional folder "
-"``zephyr`` that contains Zephyr-specific files ``CMakeLists.txt`` and ``prj."
-"conf``:"
+"``zephyr`` that contains Zephyr-specific files ``CMakeLists.txt`` and "
+"``prj.conf``:"
 msgstr ""
 
 #: ../../../frameworks/zephyr_extra.rst:51
@@ -200,11 +200,11 @@ msgstr ""
 
 #: ../../../frameworks/zephyr_extra.rst:140
 msgid ""
-"These modules contain either a single ``module.yml`` file or ``CMakeLists."
-"txt`` and ``Kconfig`` files that describe how to build and configure them. "
-"You can specify paths to additional directories with source code, Kconfig, "
-"etc. using ``ZEPHYR_EXTRA_MODULES`` at the top of your project's  "
-"``CMakeLists.txt`` file, for example:"
+"These modules contain either a single ``module.yml`` file or "
+"``CMakeLists.txt`` and ``Kconfig`` files that describe how to build and "
+"configure them. You can specify paths to additional directories with source "
+"code, Kconfig, etc. using ``ZEPHYR_EXTRA_MODULES`` at the top of your "
+"project's  ``CMakeLists.txt`` file, for example:"
 msgstr ""
 
 #: ../../../frameworks/zephyr_extra.rst:159
@@ -560,8 +560,8 @@ msgstr ""
 #: ../../../frameworks/zephyr.rst:69
 msgid ""
 "`Zephyr for Freescale Kinetis <https://github.com/platformio/platform-"
-"freescalekinetis/tree/master/examples?utm_source=platformio."
-"org&utm_medium=docs>`_"
+"freescalekinetis/tree/master/examples?"
+"utm_source=platformio.org&utm_medium=docs>`_"
 msgstr ""
 
 #: ../../../frameworks/zephyr.rst:70
@@ -597,8 +597,8 @@ msgstr ""
 #: ../../../frameworks/zephyr.rst:75
 msgid ""
 "`Zephyr for Silicon Labs EFM32 <https://github.com/platformio/platform-"
-"siliconlabsefm32/tree/master/examples?utm_source=platformio."
-"org&utm_medium=docs>`_"
+"siliconlabsefm32/tree/master/examples?"
+"utm_source=platformio.org&utm_medium=docs>`_"
 msgstr ""
 
 #: ../../../frameworks/zephyr.rst:76

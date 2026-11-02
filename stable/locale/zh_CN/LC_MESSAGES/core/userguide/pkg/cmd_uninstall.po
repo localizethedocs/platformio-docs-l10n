@@ -86,8 +86,8 @@ msgstr ""
 
 #: ../../../core/userguide/pkg/cmd_uninstall.rst:65
 msgid ""
-"Uninstall specified development platform using :ref:"
-"`cmd_pkg_install_specifications`. Multiple items are allowed."
+"Uninstall specified development platform "
+"using :ref:`cmd_pkg_install_specifications`. Multiple items are allowed."
 msgstr ""
 
 #: ../../../core/userguide/pkg/cmd_uninstall.rst:68
@@ -114,8 +114,8 @@ msgstr ""
 
 #: ../../../core/userguide/pkg/cmd_uninstall.rst:109
 msgid ""
-"Uninstall a package and keep its dependencies declared in the manifest :ref:"
-"`manifest_library_json_dependencies` field."
+"Uninstall a package and keep its dependencies declared in the "
+"manifest :ref:`manifest_library_json_dependencies` field."
 msgstr ""
 
 #: ../../../core/userguide/pkg/cmd_uninstall.rst:115

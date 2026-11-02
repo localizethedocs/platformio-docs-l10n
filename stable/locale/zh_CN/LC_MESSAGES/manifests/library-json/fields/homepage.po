@@ -27,6 +27,6 @@ msgstr ""
 
 #: ../../../manifests/library-json/fields/homepage.rst:17
 msgid ""
-"Home page of a library (if is different from :ref:"
-"`manifest_library_json_repository` url)."
+"Home page of a library (if is different "
+"from :ref:`manifest_library_json_repository` url)."
 msgstr ""

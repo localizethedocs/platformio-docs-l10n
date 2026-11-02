@@ -34,8 +34,8 @@ msgstr ""
 
 #: ../../../scripting/actions.rst:26
 msgid ""
-"The actions can only be applied to the global construction environment (see :"
-"ref:`scripting_envs`)."
+"The actions can only be applied to the global construction environment "
+"(see :ref:`scripting_envs`)."
 msgstr ""
 
 #: ../../../scripting/actions.rst:29
@@ -44,8 +44,8 @@ msgstr ""
 
 #: ../../../scripting/actions.rst:31
 msgid ""
-"The ``extra_script.py`` file is located in the same directory as :ref:"
-"`projectconf`."
+"The ``extra_script.py`` file is located in the same directory "
+"as :ref:`projectconf`."
 msgstr ""
 
 #: ../../../scripting/actions.rst:34

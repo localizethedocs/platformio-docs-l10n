@@ -110,8 +110,8 @@ msgstr ""
 
 #: ../../../integration/ci/circleci.rst:146
 msgid ""
-"PlatformIO allows you to specify your own build flags using :envvar:"
-"`PLATFORMIO_BUILD_FLAGS` environment:"
+"PlatformIO allows you to specify your own build flags "
+"using :envvar:`PLATFORMIO_BUILD_FLAGS` environment:"
 msgstr ""
 
 #: ../../../integration/ci/circleci.rst:156

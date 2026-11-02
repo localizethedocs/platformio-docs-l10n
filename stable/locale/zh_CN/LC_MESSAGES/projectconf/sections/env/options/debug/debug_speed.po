@@ -27,8 +27,8 @@ msgstr ""
 
 #: ../../../projectconf/sections/env/options/debug/debug_speed.rst:19
 msgid ""
-"The debug adapter speed. The value format depends on the type of :ref:"
-"`debugging_tools`."
+"The debug adapter speed. The value format depends on the type "
+"of :ref:`debugging_tools`."
 msgstr ""
 
 #: ../../../projectconf/sections/env/options/debug/debug_speed.rst:22

@@ -85,8 +85,8 @@ msgstr "組態"
 
 #: ../../../boards/nordicnrf52/thingy_52.rst:41
 msgid ""
-"Please use ``thingy_52`` ID for :ref:`projectconf_env_board` option in :ref:"
-"`projectconf`:"
+"Please use ``thingy_52`` ID for :ref:`projectconf_env_board` option "
+"in :ref:`projectconf`:"
 msgstr ""
 
 #: ../../../boards/nordicnrf52/thingy_52.rst:49
@@ -156,8 +156,8 @@ msgstr ""
 
 #: ../../../boards/nordicnrf52/thingy_52.rst:99
 msgid ""
-"You can switch between debugging :ref:`debugging_tools` using :ref:"
-"`projectconf_debug_tool` option in :ref:`projectconf`."
+"You can switch between debugging :ref:`debugging_tools` "
+"using :ref:`projectconf_debug_tool` option in :ref:`projectconf`."
 msgstr ""
 
 #: ../../../boards/nordicnrf52/thingy_52.rst:102

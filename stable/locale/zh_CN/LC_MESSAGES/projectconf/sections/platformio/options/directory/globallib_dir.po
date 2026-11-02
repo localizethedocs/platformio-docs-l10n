@@ -23,16 +23,16 @@ msgstr ""
 
 #: ../../../projectconf/sections/platformio/options/directory/globallib_dir.rst:17
 msgid ""
-"Type: ``DirPath`` | Multiple: ``No`` | Default: \":ref:"
-"`projectconf_pio_core_dir`/lib\" | **DEPRECATED**"
+"Type: ``DirPath`` | Multiple: ``No`` | Default: "
+"\":ref:`projectconf_pio_core_dir`/lib\" | **DEPRECATED**"
 msgstr ""
 
 #: ../../../projectconf/sections/platformio/options/directory/globallib_dir.rst:20
 msgid ""
 "This option is **DEPRECATED**. We do not recommend using global libraries "
 "for new projects. Please use a declarative approach for the safety-critical "
-"embedded development and declare project dependencies using the :ref:"
-"`projectconf_lib_deps` option."
+"embedded development and declare project dependencies using "
+"the :ref:`projectconf_lib_deps` option."
 msgstr ""
 
 #: ../../../projectconf/sections/platformio/options/directory/globallib_dir.rst:24
@@ -43,6 +43,6 @@ msgstr ""
 
 #: ../../../projectconf/sections/platformio/options/directory/globallib_dir.rst:27
 msgid ""
-"This option can also be configured by the global environment variable :"
-"envvar:`PLATFORMIO_GLOBALLIB_DIR`."
+"This option can also be configured by the global environment "
+"variable :envvar:`PLATFORMIO_GLOBALLIB_DIR`."
 msgstr ""

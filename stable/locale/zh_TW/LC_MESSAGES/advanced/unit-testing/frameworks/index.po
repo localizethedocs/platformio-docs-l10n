@@ -35,11 +35,11 @@ msgstr ""
 #: ../../../advanced/unit-testing/frameworks/index.rst:21
 msgid ""
 "You can mix different frameworks in the same project. For example, use a "
-"more advanced C++ testing framework with Mocks for the :ref:"
-"`platform_native` development platform to run desktop tests on a host "
-"machine and a lightweight framework, such as :ref:"
-"`unit_testing_frameworks_unity`, for running tests on the target embedded "
-"device with constrained resources."
+"more advanced C++ testing framework with Mocks for "
+"the :ref:`platform_native` development platform to run desktop tests on a "
+"host machine and a lightweight framework, such "
+"as :ref:`unit_testing_frameworks_unity`, for running tests on the target "
+"embedded device with constrained resources."
 msgstr ""
 
 #: ../../../advanced/unit-testing/frameworks/index.rst:27
@@ -90,9 +90,7 @@ msgid "Any"
 msgstr ""
 
 #: ../../../advanced/unit-testing/frameworks/index.rst:44
-msgid ""
-":ref:`platform_native`, :ref:`platform_espressif8266`, :ref:"
-"`platform_espressif32`"
+msgid ":ref:`platform_native`, :ref:`platform_espressif8266`, :ref:`platform_espressif32`"
 msgstr ""
 
 #: ../../../advanced/unit-testing/frameworks/index.rst:46

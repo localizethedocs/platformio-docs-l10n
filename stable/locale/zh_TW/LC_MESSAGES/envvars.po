@@ -52,8 +52,8 @@ msgid ""
 "PlatformIO handles ``CI`` variable which is setup by `Continuous Integration "
 "<http://en.wikipedia.org/wiki/Continuous_integration>`_ (Travis, Circle and "
 "etc.) systems. PlatformIO uses it to disable prompts and progress bars. In "
-"other words, ``CI=true`` automatically setup :envvar:"
-"`PLATFORMIO_DISABLE_PROGRESSBAR` to ``true``."
+"other words, ``CI=true`` automatically "
+"setup :envvar:`PLATFORMIO_DISABLE_PROGRESSBAR` to ``true``."
 msgstr ""
 
 #: ../../../envvars.rst:57
@@ -131,8 +131,8 @@ msgstr ""
 
 #: ../../../envvars.rst:102
 msgid ""
-"Allows one to override :ref:`projectconf` option :ref:"
-"`projectconf_pio_core_dir`."
+"Allows one to override :ref:`projectconf` "
+"option :ref:`projectconf_pio_core_dir`."
 msgstr ""
 
 #: ../../../envvars.rst:104
@@ -143,98 +143,98 @@ msgstr ""
 
 #: ../../../envvars.rst:108
 msgid ""
-"Allows one to override :ref:`projectconf` option :ref:"
-"`projectconf_pio_globallib_dir`."
+"Allows one to override :ref:`projectconf` "
+"option :ref:`projectconf_pio_globallib_dir`."
 msgstr ""
 
 #: ../../../envvars.rst:112
 msgid ""
-"Allows one to override :ref:`projectconf` option :ref:"
-"`projectconf_pio_platforms_dir`."
+"Allows one to override :ref:`projectconf` "
+"option :ref:`projectconf_pio_platforms_dir`."
 msgstr ""
 
 #: ../../../envvars.rst:116
 msgid ""
-"Allows one to override :ref:`projectconf` option :ref:"
-"`projectconf_pio_packages_dir`."
+"Allows one to override :ref:`projectconf` "
+"option :ref:`projectconf_pio_packages_dir`."
 msgstr ""
 
 #: ../../../envvars.rst:120
 msgid ""
-"Allows one to override :ref:`projectconf` option :ref:"
-"`projectconf_pio_cache_dir`."
+"Allows one to override :ref:`projectconf` "
+"option :ref:`projectconf_pio_cache_dir`."
 msgstr ""
 
 #: ../../../envvars.rst:124
 msgid ""
-"Allows one to override :ref:`projectconf` option :ref:"
-"`projectconf_pio_build_cache_dir`."
+"Allows one to override :ref:`projectconf` "
+"option :ref:`projectconf_pio_build_cache_dir`."
 msgstr ""
 
 #: ../../../envvars.rst:128
 msgid ""
-"Allows one to override :ref:`projectconf` option :ref:"
-"`projectconf_pio_workspace_dir`."
+"Allows one to override :ref:`projectconf` "
+"option :ref:`projectconf_pio_workspace_dir`."
 msgstr ""
 
 #: ../../../envvars.rst:132
 msgid ""
-"Allows one to override :ref:`projectconf` option :ref:"
-"`projectconf_pio_include_dir`."
+"Allows one to override :ref:`projectconf` "
+"option :ref:`projectconf_pio_include_dir`."
 msgstr ""
 
 #: ../../../envvars.rst:136
 msgid ""
-"Allows one to override :ref:`projectconf` option :ref:"
-"`projectconf_pio_src_dir`."
+"Allows one to override :ref:`projectconf` "
+"option :ref:`projectconf_pio_src_dir`."
 msgstr ""
 
 #: ../../../envvars.rst:140
 msgid ""
-"Allows one to override :ref:`projectconf` option :ref:"
-"`projectconf_pio_lib_dir`."
+"Allows one to override :ref:`projectconf` "
+"option :ref:`projectconf_pio_lib_dir`."
 msgstr ""
 
 #: ../../../envvars.rst:144
 msgid ""
-"Allows one to override :ref:`projectconf` option :ref:"
-"`projectconf_pio_libdeps_dir`."
+"Allows one to override :ref:`projectconf` "
+"option :ref:`projectconf_pio_libdeps_dir`."
 msgstr ""
 
 #: ../../../envvars.rst:148
 msgid ""
-"Allows one to override :ref:`projectconf` option :ref:"
-"`projectconf_pio_build_dir`."
+"Allows one to override :ref:`projectconf` "
+"option :ref:`projectconf_pio_build_dir`."
 msgstr ""
 
 #: ../../../envvars.rst:152
 msgid ""
-"Allows one to override :ref:`projectconf` option :ref:"
-"`projectconf_pio_data_dir`."
+"Allows one to override :ref:`projectconf` "
+"option :ref:`projectconf_pio_data_dir`."
 msgstr ""
 
 #: ../../../envvars.rst:156
 msgid ""
-"Allows one to override :ref:`projectconf` option :ref:"
-"`projectconf_pio_test_dir`."
+"Allows one to override :ref:`projectconf` "
+"option :ref:`projectconf_pio_test_dir`."
 msgstr ""
 
 #: ../../../envvars.rst:160
 msgid ""
-"Allows one to override :ref:`projectconf` option :ref:"
-"`projectconf_pio_boards_dir`."
+"Allows one to override :ref:`projectconf` "
+"option :ref:`projectconf_pio_boards_dir`."
 msgstr ""
 
 #: ../../../envvars.rst:164
 msgid ""
-"Allows one to override :ref:`projectconf` option :ref:"
-"`projectconf_pio_monitor_dir`."
+"Allows one to override :ref:`projectconf` "
+"option :ref:`projectconf_pio_monitor_dir`."
 msgstr ""
 
 #: ../../../envvars.rst:168
 msgid ""
-"Allows one to override :ref:`projectconf` option :ref:"
-"`projectconf_pio_shared_dir`."
+"Allows one to override :ref:`projectconf` "
+"option :ref:`projectconf_pio_shared_dir`."
 msgstr ""
 
 #: ../../../envvars.rst:172
@@ -264,14 +264,14 @@ msgstr ""
 
 #: ../../../envvars.rst:201
 msgid ""
-"Allows one to set :ref:`projectconf` option :ref:"
-"`projectconf_build_src_flags`."
+"Allows one to set :ref:`projectconf` "
+"option :ref:`projectconf_build_src_flags`."
 msgstr ""
 
 #: ../../../envvars.rst:205
 msgid ""
-"Allows one to set :ref:`projectconf` option :ref:"
-"`projectconf_build_src_filter`."
+"Allows one to set :ref:`projectconf` "
+"option :ref:`projectconf_build_src_filter`."
 msgstr ""
 
 #: ../../../envvars.rst:209
@@ -281,8 +281,8 @@ msgstr ""
 
 #: ../../../envvars.rst:213
 msgid ""
-"Allows one to set :ref:`projectconf` option :ref:"
-"`projectconf_pio_default_envs`."
+"Allows one to set :ref:`projectconf` "
+"option :ref:`projectconf_pio_default_envs`."
 msgstr ""
 
 #: ../../../envvars.rst:216
@@ -305,8 +305,8 @@ msgstr ""
 
 #: ../../../envvars.rst:230
 msgid ""
-"Allows one to override PlatformIO settings. You can manage them via :ref:"
-"`cmd_settings` command."
+"Allows one to override PlatformIO settings. You can manage them "
+"via :ref:`cmd_settings` command."
 msgstr ""
 
 #: ../../../envvars.rst:235

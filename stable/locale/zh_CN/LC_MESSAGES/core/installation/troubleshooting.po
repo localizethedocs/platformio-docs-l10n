@@ -50,8 +50,8 @@ msgstr ""
 
 #: ../../../core/installation/troubleshooting.rst:34
 msgid ""
-":ref:`ide_vscode` - :ref:`ide_vscode_settings` > Set ``platformio-ide."
-"useBuiltinPIOCore`` to ``true``."
+":ref:`ide_vscode` - :ref:`ide_vscode_settings` > Set ``platformio-"
+"ide.useBuiltinPIOCore`` to ``true``."
 msgstr ""
 
 #: ../../../core/installation/troubleshooting.rst:36
@@ -63,8 +63,8 @@ msgstr ""
 
 #: ../../../core/installation/troubleshooting.rst:47
 msgid ""
-"If you need to have :ref:`piocore` globally in a system, please :ref:"
-"`piocore_install_shell_commands`."
+"If you need to have :ref:`piocore` globally in a system, "
+"please :ref:`piocore_install_shell_commands`."
 msgstr ""
 
 #: ../../../core/installation/troubleshooting.rst:51

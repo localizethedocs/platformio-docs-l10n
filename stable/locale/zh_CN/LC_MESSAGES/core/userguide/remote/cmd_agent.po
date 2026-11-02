@@ -32,8 +32,8 @@ msgstr ""
 msgid ""
 ":ref:`pioremote` supports wired and wireless devices. Wired devices should "
 "be connected physically to host machine where :ref:`cmd_remote_agent` is "
-"started, where wireless devices should be visible for :ref:"
-"`cmd_remote_agent` to provide network operations Over-The-Air (OTA)."
+"started, where wireless devices should be visible "
+"for :ref:`cmd_remote_agent` to provide network operations Over-The-Air (OTA)."
 msgstr ""
 
 #: ../../../core/userguide/remote/cmd_agent.rst:26
@@ -88,14 +88,14 @@ msgstr ""
 
 #: ../../../core/userguide/remote/cmd_agent.rst:96
 msgid ""
-"Share your agent/devices with other PlatformIO developers who have :ref:"
-"`pioaccount`: friends, co-workers, team, etc."
+"Share your agent/devices with other PlatformIO developers who "
+"have :ref:`pioaccount`: friends, co-workers, team, etc."
 msgstr ""
 
 #: ../../../core/userguide/remote/cmd_agent.rst:99
 msgid ""
-"The valid value for ``--share`` option is email address that was used for :"
-"ref:`cmd_account_register` command."
+"The valid value for ``--share`` option is email address that was used "
+"for :ref:`cmd_account_register` command."
 msgstr ""
 
 #: ../../../core/userguide/remote/cmd_agent.rst:105

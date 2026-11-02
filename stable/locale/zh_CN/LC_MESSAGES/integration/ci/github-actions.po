@@ -92,8 +92,8 @@ msgstr ""
 
 #: ../../../integration/ci/github-actions.rst:118
 msgid ""
-"PlatformIO allows one to specify own build flags using :envvar:"
-"`PLATFORMIO_BUILD_FLAGS` environment"
+"PlatformIO allows one to specify own build flags "
+"using :envvar:`PLATFORMIO_BUILD_FLAGS` environment"
 msgstr ""
 
 #: ../../../integration/ci/github-actions.rst:127

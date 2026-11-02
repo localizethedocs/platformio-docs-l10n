@@ -92,8 +92,8 @@ msgstr ""
 
 #: ../../../core/userguide/lib/cmd_uninstall.rst:88
 msgid ""
-"Remove libraries from the :ref:`projectconf` dependency list (:ref:"
-"`projectconf_lib_deps`) and save changes. Default value is to save."
+"Remove libraries from the :ref:`projectconf` dependency list "
+"(:ref:`projectconf_lib_deps`) and save changes. Default value is to save."
 msgstr ""
 
 #: ../../../core/userguide/lib/cmd_uninstall.rst:95

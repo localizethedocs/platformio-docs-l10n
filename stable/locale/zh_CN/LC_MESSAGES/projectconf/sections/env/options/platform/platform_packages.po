@@ -28,8 +28,8 @@ msgstr ""
 #: ../../../projectconf/sections/env/options/platform/platform_packages.rst:19
 msgid ""
 "Configure custom packages per a build environment. You can also override "
-"default packages by :ref:`platforms` using the same name. See :ref:"
-"`cmd_pkg_install_specifications` for details."
+"default packages by :ref:`platforms` using the same name. "
+"See :ref:`cmd_pkg_install_specifications` for details."
 msgstr ""
 
 #: ../../../projectconf/sections/env/options/platform/platform_packages.rst:23

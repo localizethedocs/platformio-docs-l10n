@@ -86,8 +86,8 @@ msgstr "組態"
 
 #: ../../../boards/microchippic32/uno_pic32.rst:41
 msgid ""
-"Please use ``uno_pic32`` ID for :ref:`projectconf_env_board` option in :ref:"
-"`projectconf`:"
+"Please use ``uno_pic32`` ID for :ref:`projectconf_env_board` option "
+"in :ref:`projectconf`:"
 msgstr ""
 
 #: ../../../boards/microchippic32/uno_pic32.rst:49

@@ -137,9 +137,9 @@ msgstr ""
 
 #: ../../../plus/debugging.rst:71
 msgid ""
-"`Use the PlatformIO Debugger on the ESP32 Using an ESP-prog <https://www."
-"hackster.io/brian-lough/use-the-platformio-debugger-on-the-esp32-using-an-"
-"esp-prog-f633b6>`_"
+"`Use the PlatformIO Debugger on the ESP32 Using an ESP-prog <https://"
+"www.hackster.io/brian-lough/use-the-platformio-debugger-on-the-esp32-using-"
+"an-esp-prog-f633b6>`_"
 msgstr ""
 
 #: ../../../plus/debugging.rst:72
@@ -192,8 +192,8 @@ msgstr ""
 
 #: ../../../plus/debugging.rst:136
 msgid ""
-"|PIODebug| supports debugging of unit tests created with PlatformIO's :ref:"
-"`unit_testing` framework."
+"|PIODebug| supports debugging of unit tests created with "
+"PlatformIO's :ref:`unit_testing` framework."
 msgstr ""
 
 #: ../../../plus/debugging.rst:139

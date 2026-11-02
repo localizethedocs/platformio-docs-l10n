@@ -54,15 +54,15 @@ msgstr ""
 msgid ""
 "Some antivirus tools forbid programs to create files in the background. "
 "PlatformIO Package Manager does all work in the background: downloads "
-"package, unpacks archive in temporary folder and moves final files to \":ref:"
-"`projectconf_pio_core_dir`/packages\" folder."
+"package, unpacks archive in temporary folder and moves final files to "
+"\":ref:`projectconf_pio_core_dir`/packages\" folder."
 msgstr ""
 
 #: ../../../faq/troubleshooting.rst:44
 msgid ""
 "Antivirus tool can block PlatformIO, that is why you see \"[Error 5] Access "
-"is denied\". Try to **disable it for a while** or add :ref:"
-"`projectconf_pio_core_dir` directory to exclusion/whitelist."
+"is denied\". Try to **disable it for a while** or "
+"add :ref:`projectconf_pio_core_dir` directory to exclusion/whitelist."
 msgstr ""
 
 #: ../../../faq/troubleshooting.rst:49

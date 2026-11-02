@@ -31,8 +31,8 @@ msgstr ""
 
 #: ../../../manifests/library-json/fields/name.rst:19
 msgid ""
-"Must be unique in the `PlatformIO Registry <https://registry.platformio."
-"org>`__"
+"Must be unique in the `PlatformIO Registry <https://"
+"registry.platformio.org>`__"
 msgstr ""
 
 #: ../../../manifests/library-json/fields/name.rst:20
