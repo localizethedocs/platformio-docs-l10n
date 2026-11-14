@@ -1,0 +1,38 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present, PlatformIO
+# This file is distributed under the same license as the PlatformIO package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PlatformIO stable\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-24 14:03+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../faq/advanced-serial-monitor.rst:15
+msgid "Advanced Serial Monitor with UI"
+msgstr ""
+
+#: ../../../faq/advanced-serial-monitor.rst:17
+msgid ""
+"PlatformIO Core provides CLI version (:ref:`cmd_device_monitor`) of Serial "
+"Monitor. If you need advanced instrument with a rich UI, we recommend free "
+"and multi-platform `CoolTerm <https://freeware.the-meiers.org/?"
+"utm_source=platformio&utm_medium=docs>`_ serial port terminal application."
+msgstr ""
+
+#: ../../../faq/advanced-serial-monitor.rst:23
+msgid ""
+"Please note that you need to **manually disconnect (close serial port "
+"connection)** in CoolTerm **before doing uploading** in PlatformIO. "
+"PlatformIO can not disconnect/connect to a target device automatically when "
+"CoolTerm is used."
+msgstr ""
