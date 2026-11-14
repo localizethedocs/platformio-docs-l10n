@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PlatformIO latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-24 14:02+0000\n"
+"POT-Creation-Date: 2026-11-09 18:45+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22,15 +22,7 @@ msgid "pio device"
 msgstr ""
 
 #: ../../../core/userguide/index.rst:59
-msgid "pio lib"
-msgstr ""
-
-#: ../../../core/userguide/index.rst:59
 msgid "pio pkg"
-msgstr ""
-
-#: ../../../core/userguide/index.rst:59
-msgid "pio platform"
 msgstr ""
 
 #: ../../../core/userguide/index.rst:59

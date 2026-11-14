@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PlatformIO latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-24 14:02+0000\n"
+"POT-Creation-Date: 2026-11-09 18:45+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -54,6 +54,6 @@ msgstr ""
 msgid "Desktop IDEs"
 msgstr ""
 
-#: ../../../integration/ide/index.rst:51
+#: ../../../integration/ide/index.rst:52
 msgid "Cloud IDEs"
 msgstr ""

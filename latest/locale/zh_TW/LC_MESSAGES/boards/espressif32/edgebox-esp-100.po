@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PlatformIO latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-24 14:02+0000\n"
+"POT-Creation-Date: 2026-11-09 18:45+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -58,7 +58,7 @@ msgid "**Flash**"
 msgstr ""
 
 #: ../../../boards/espressif32/edgebox-esp-100.rst:31
-msgid "4MB"
+msgid "16MB"
 msgstr ""
 
 #: ../../../boards/espressif32/edgebox-esp-100.rst:32
