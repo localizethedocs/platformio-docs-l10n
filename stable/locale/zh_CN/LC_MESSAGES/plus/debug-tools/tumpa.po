@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PlatformIO stable\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-24 14:03+0000\n"
+"POT-Creation-Date: 2026-11-09 18:42+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -998,6 +998,7 @@ msgstr ""
 #: ../../../plus/debug-tools/tumpa.rst:835
 #: ../../../plus/debug-tools/tumpa.rst:842
 #: ../../../plus/debug-tools/tumpa.rst:877
+#: ../../../plus/debug-tools/tumpa.rst:1031
 #: ../../../plus/debug-tools/tumpa.rst:1115
 #: ../../../plus/debug-tools/tumpa.rst:1122
 #: ../../../plus/debug-tools/tumpa.rst:1227
@@ -1361,7 +1362,6 @@ msgstr ""
 #: ../../../plus/debug-tools/tumpa.rst:1003
 #: ../../../plus/debug-tools/tumpa.rst:1017
 #: ../../../plus/debug-tools/tumpa.rst:1024
-#: ../../../plus/debug-tools/tumpa.rst:1031
 #: ../../../plus/debug-tools/tumpa.rst:1038
 #: ../../../plus/debug-tools/tumpa.rst:1045
 #: ../../../plus/debug-tools/tumpa.rst:1059

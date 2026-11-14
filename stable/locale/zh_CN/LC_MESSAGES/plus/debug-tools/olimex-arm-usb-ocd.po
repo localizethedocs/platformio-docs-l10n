@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PlatformIO stable\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-24 14:03+0000\n"
+"POT-Creation-Date: 2026-11-09 18:42+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -999,6 +999,7 @@ msgstr ""
 #: ../../../plus/debug-tools/olimex-arm-usb-ocd.rst:832
 #: ../../../plus/debug-tools/olimex-arm-usb-ocd.rst:867
 #: ../../../plus/debug-tools/olimex-arm-usb-ocd.rst:986
+#: ../../../plus/debug-tools/olimex-arm-usb-ocd.rst:1028
 #: ../../../plus/debug-tools/olimex-arm-usb-ocd.rst:1112
 #: ../../../plus/debug-tools/olimex-arm-usb-ocd.rst:1119
 #: ../../../plus/debug-tools/olimex-arm-usb-ocd.rst:1224
@@ -1362,7 +1363,6 @@ msgstr ""
 #: ../../../plus/debug-tools/olimex-arm-usb-ocd.rst:1000
 #: ../../../plus/debug-tools/olimex-arm-usb-ocd.rst:1014
 #: ../../../plus/debug-tools/olimex-arm-usb-ocd.rst:1021
-#: ../../../plus/debug-tools/olimex-arm-usb-ocd.rst:1028
 #: ../../../plus/debug-tools/olimex-arm-usb-ocd.rst:1035
 #: ../../../plus/debug-tools/olimex-arm-usb-ocd.rst:1042
 #: ../../../plus/debug-tools/olimex-arm-usb-ocd.rst:1056

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PlatformIO stable\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-24 14:03+0000\n"
+"POT-Creation-Date: 2026-11-09 18:42+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -68,7 +68,7 @@ msgid "**RAM**"
 msgstr ""
 
 #: ../../../boards/ststm32/armstrap_eagle512.rst:33
-msgid "192KB"
+msgid "128KB"
 msgstr ""
 
 #: ../../../boards/ststm32/armstrap_eagle512.rst:34

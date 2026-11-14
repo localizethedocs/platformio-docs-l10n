@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PlatformIO stable\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-24 14:03+0000\n"
+"POT-Creation-Date: 2026-11-09 18:42+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -988,6 +988,7 @@ msgstr ""
 #: ../../../plus/debug-tools/esp-prog.rst:818
 #: ../../../plus/debug-tools/esp-prog.rst:825
 #: ../../../plus/debug-tools/esp-prog.rst:860
+#: ../../../plus/debug-tools/esp-prog.rst:1014
 #: ../../../plus/debug-tools/esp-prog.rst:1098
 #: ../../../plus/debug-tools/esp-prog.rst:1105
 #: ../../../plus/debug-tools/esp-prog.rst:1210
@@ -1351,7 +1352,6 @@ msgstr ""
 #: ../../../plus/debug-tools/esp-prog.rst:986
 #: ../../../plus/debug-tools/esp-prog.rst:1000
 #: ../../../plus/debug-tools/esp-prog.rst:1007
-#: ../../../plus/debug-tools/esp-prog.rst:1014
 #: ../../../plus/debug-tools/esp-prog.rst:1021
 #: ../../../plus/debug-tools/esp-prog.rst:1028
 #: ../../../plus/debug-tools/esp-prog.rst:1042
