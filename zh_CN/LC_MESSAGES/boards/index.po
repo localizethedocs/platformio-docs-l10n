@@ -1,0 +1,163 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present, PlatformIO
+# This file is distributed under the same license as the PlatformIO package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PlatformIO latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-09 18:45+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../boards/index.rst:15
+msgid "Boards"
+msgstr ""
+
+#: ../../../boards/index.rst:17
+msgid ""
+"Rapid Embedded Development, Continuous and IDE integration in a few steps "
+"with PlatformIO thanks to built-in project generator for the most popular "
+"embedded boards and IDEs."
+msgstr ""
+
+#: ../../../boards/index.rst:22
+msgid "You can list pre-configured boards by :ref:`cmd_boards` command"
+msgstr ""
+
+#: ../../../boards/index.rst:23
+msgid ""
+"For more detailed ``board`` information please scroll tables below by "
+"horizontal."
+msgstr ""
+
+#: ../../../boards/index.rst:26
+msgid "Aceinna IMU"
+msgstr ""
+
+#: ../../../boards/index.rst:40
+msgid "Atmel AVR"
+msgstr ""
+
+#: ../../../boards/index.rst:271
+msgid "Atmel megaAVR"
+msgstr ""
+
+#: ../../../boards/index.rst:357
+msgid "Atmel SAM"
+msgstr ""
+
+#: ../../../boards/index.rst:445
+msgid "CHIPS Alliance"
+msgstr ""
+
+#: ../../../boards/index.rst:453
+msgid "Espressif 32"
+msgstr ""
+
+#: ../../../boards/index.rst:702
+msgid "Espressif 8266"
+msgstr ""
+
+#: ../../../boards/index.rst:754
+msgid "Freescale Kinetis"
+msgstr ""
+
+#: ../../../boards/index.rst:773
+msgid "Heltec CubeCell"
+msgstr ""
+
+#: ../../../boards/index.rst:791
+msgid "Intel ARC32"
+msgstr ""
+
+#: ../../../boards/index.rst:799
+msgid "Intel MCS-51 (8051)"
+msgstr ""
+
+#: ../../../boards/index.rst:1070
+msgid "Lattice iCE40"
+msgstr ""
+
+#: ../../../boards/index.rst:1079
+msgid "Linux ARM"
+msgstr ""
+
+#: ../../../boards/index.rst:1090
+msgid "Maxim 32"
+msgstr ""
+
+#: ../../../boards/index.rst:1106
+msgid "Microchip PIC32"
+msgstr ""
+
+#: ../../../boards/index.rst:1152
+msgid "Nordic nRF51"
+msgstr ""
+
+#: ../../../boards/index.rst:1173
+msgid "Nordic nRF52"
+msgstr ""
+
+#: ../../../boards/index.rst:1225
+msgid "NXP i.MX RT"
+msgstr ""
+
+#: ../../../boards/index.rst:1238
+msgid "NXP LPC"
+msgstr ""
+
+#: ../../../boards/index.rst:1251
+msgid "OpenHW Group"
+msgstr ""
+
+#: ../../../boards/index.rst:1259
+msgid "Raspberry Pi RP2040"
+msgstr ""
+
+#: ../../../boards/index.rst:1268
+msgid "Renesas RA"
+msgstr ""
+
+#: ../../../boards/index.rst:1279
+msgid "RISC-V GAP"
+msgstr ""
+
+#: ../../../boards/index.rst:1287
+msgid "Shakti"
+msgstr ""
+
+#: ../../../boards/index.rst:1299
+msgid "SiFive"
+msgstr ""
+
+#: ../../../boards/index.rst:1312
+msgid "Silicon Labs EFM32"
+msgstr ""
+
+#: ../../../boards/index.rst:1324
+msgid "ST STM32"
+msgstr ""
+
+#: ../../../boards/index.rst:1628
+msgid "ST STM8"
+msgstr ""
+
+#: ../../../boards/index.rst:1643
+msgid "Teensy"
+msgstr ""
+
+#: ../../../boards/index.rst:1660
+msgid "TI MSP430"
+msgstr ""
+
+#: ../../../boards/index.rst:1680
+msgid "TI TIVA"
+msgstr ""
